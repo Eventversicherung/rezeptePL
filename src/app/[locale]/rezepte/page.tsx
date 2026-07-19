@@ -97,15 +97,15 @@ export default async function RecipesPage({
         />
       </section>
 
-      {/* 3 — Clean, centered search (no soft wash) */}
+      {/* 3 — Solid red search band, round pills */}
       <section
         className="recipe-search reveal"
         aria-labelledby="recipe-search-heading"
       >
         <div className="recipe-search__inner">
-          <h2 id="recipe-search-heading" className="sr-only">
-            {t("searchHeading")}
-          </h2>
+          <p className="recipe-search__label" id="recipe-search-heading">
+            {t("searchKicker")}
+          </p>
           <form className="recipe-search__form">
             {activeCategory ? (
               <input
@@ -129,7 +129,7 @@ export default async function RecipesPage({
             </button>
           </form>
           {activeCategory || q ? (
-            <p className="mt-3 text-center text-sm text-muted">
+            <p className="recipe-search__meta">
               {activeCategory ? (
                 <span>
                   {t("filteringCategory", {

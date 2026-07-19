@@ -562,16 +562,28 @@ a.btn-hero-secondary:hover {
   color: #dc143c;
 }
 
-/* Recipe hub search: sharp, flat, centered — no soft wash */
+/* Recipe hub search: solid accent band, round pills — no soft wash */
 .recipe-search {
-  border-block: 1px solid var(--border);
-  background: var(--surface);
+  border-radius: calc(var(--radius) + 10px);
+  background: #dc143c;
+  box-shadow: 0 16px 40px color-mix(in srgb, #dc143c 32%, transparent);
 }
 
 .recipe-search__inner {
   margin-inline: auto;
-  max-width: 36rem;
-  padding: 1.25rem 0;
+  max-width: 38rem;
+  padding: clamp(1.5rem, 4vw, 2.25rem) clamp(1.15rem, 3.5vw, 1.75rem);
+  text-align: center;
+}
+
+.recipe-search__label {
+  display: block;
+  margin-bottom: 0.85rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: color-mix(in srgb, #ffffff 82%, #dc143c);
 }
 
 .recipe-search__form {
@@ -585,81 +597,96 @@ a.btn-hero-secondary:hover {
   .recipe-search__form {
     flex-direction: row;
     align-items: stretch;
-    gap: 0;
-    border: 1.5px solid var(--foreground);
-    border-radius: 4px;
-    background: #fff;
-    overflow: hidden;
+    gap: 0.4rem;
+    padding: 0.35rem;
+    border-radius: 9999px;
+    background: #ffffff;
+    box-shadow: 0 8px 24px color-mix(in srgb, #121b30 14%, transparent);
   }
 }
 
 .recipe-search__input {
-  min-height: 3.25rem;
+  min-height: 3.35rem;
   width: 100%;
   flex: 1;
-  border-radius: 4px;
-  border: 1.5px solid var(--foreground);
-  background: #fff;
-  padding: 0 1.1rem;
+  border-radius: 9999px;
+  border: none;
+  background: #ffffff;
+  padding: 0 1.35rem;
   font-size: 1rem;
+  color: var(--fg);
   outline: none;
-  transition: border-color 140ms var(--ease-out);
+  box-shadow: 0 6px 18px color-mix(in srgb, #121b30 10%, transparent);
+}
+
+.recipe-search__input::placeholder {
+  color: color-mix(in srgb, var(--fg) 45%, transparent);
 }
 
 @media (min-width: 640px) {
   .recipe-search__input {
-    border: none;
-    border-radius: 0;
-    min-height: 3rem;
+    min-height: 3.05rem;
+    box-shadow: none;
+    background: transparent;
   }
 }
 
 .recipe-search__input:focus {
-  border-color: var(--accent);
+  outline: 2px solid color-mix(in srgb, #ffffff 55%, #dc143c);
+  outline-offset: 2px;
 }
 
 @media (min-width: 640px) {
   .recipe-search__input:focus {
-    border: none;
+    outline: none;
   }
 
   .recipe-search__form:focus-within {
-    border-color: var(--accent);
+    outline: 2px solid color-mix(in srgb, #ffffff 40%, #dc143c);
+    outline-offset: 3px;
   }
 }
 
 .recipe-search__submit {
-  min-height: 3.25rem;
+  min-height: 3.35rem;
   flex-shrink: 0;
-  border-radius: 4px;
-  border: 1.5px solid var(--accent);
-  background: var(--accent);
-  color: #fff;
-  padding: 0 1.35rem;
-  font-size: 0.9rem;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
+  border: none;
+  border-radius: 9999px;
+  background: #9e0e2a;
+  color: #ffffff;
+  padding: 0 1.5rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
   cursor: pointer;
-  transition: background 140ms var(--ease-out);
+  box-shadow: 0 8px 20px color-mix(in srgb, #121b30 18%, transparent);
+  transition:
+    background 160ms var(--ease-out),
+    transform 160ms var(--ease-out),
+    box-shadow 160ms var(--ease-out);
 }
 
 .recipe-search__submit:hover {
-  background: var(--accent-hover);
-  border-color: var(--accent-hover);
+  background: #7f0b22;
+  transform: translateY(-1px);
+  box-shadow: 0 12px 26px color-mix(in srgb, #121b30 22%, transparent);
+}
+
+.recipe-search__submit:active {
+  transform: translateY(1px);
 }
 
 @media (min-width: 640px) {
   .recipe-search__submit {
-    min-height: 3rem;
-    border: none;
-    border-radius: 0;
-    border-inline-start: 1.5px solid var(--foreground);
+    min-height: 3.05rem;
+    box-shadow: none;
   }
+}
 
-  .recipe-search__form:focus-within .recipe-search__submit {
-    border-inline-start-color: var(--accent);
-  }
+.recipe-search__meta {
+  margin-top: 0.85rem;
+  font-size: 0.875rem;
+  color: color-mix(in srgb, #ffffff 78%, #dc143c);
 }
 
 .sr-only {
