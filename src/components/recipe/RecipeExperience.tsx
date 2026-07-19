@@ -160,15 +160,13 @@ export function RecipeExperience({
       ) : null}
 
       {!focusCook && family && variants.length > 1 ? (
-        <div className="sticky top-0 z-20 -mx-1 border-b border-border/80 bg-[color-mix(in_srgb,var(--background)_92%,transparent)] px-1 py-2 backdrop-blur-md">
-          <VariantSwitcher
-            family={family}
-            variants={variants}
-            activeId={recipe.id}
-            locale={locale}
-            label={variantsLabel}
-          />
-        </div>
+        <VariantSwitcher
+          family={family}
+          variants={variants}
+          activeId={recipe.id}
+          locale={locale}
+          label={variantsLabel}
+        />
       ) : null}
 
       {!focusCook ? (

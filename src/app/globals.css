@@ -317,6 +317,81 @@ a.btn-primary:active:not(:disabled) {
   color: #ffffff !important;
 }
 
+/* Recipe family variants — same visual language as mode switch, no sticky */
+.variant-switch {
+  margin: 0 0 1.25rem;
+}
+
+.variant-switch__label {
+  margin: 0 0 0.5rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--fg-muted);
+}
+
+.variant-switch__track {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  padding: 0.25rem;
+  border-radius: 9999px;
+  border: 1.5px solid color-mix(in srgb, #dc143c 16%, var(--border));
+  background: color-mix(in srgb, #dc143c 4%, var(--surface));
+}
+
+.variant-switch__tab {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.35rem;
+  flex: 1 1 auto;
+  padding: 0.45rem 0.9rem;
+  border-radius: 9999px;
+  color: var(--fg-muted);
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  text-align: center;
+  transition:
+    background-color 160ms var(--ease-out),
+    color 160ms var(--ease-out),
+    box-shadow 160ms var(--ease-out);
+}
+
+.variant-switch__tab:hover {
+  color: var(--navy);
+  background: color-mix(in srgb, #ffffff 70%, transparent);
+}
+
+.variant-switch__tab.is-active {
+  background: #dc143c;
+  color: #ffffff;
+  box-shadow: 0 6px 16px color-mix(in srgb, #dc143c 28%, transparent);
+}
+
+.variant-switch__tab-text {
+  display: block;
+  max-width: 14rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media (max-width: 420px) {
+  .variant-switch__track {
+    border-radius: calc(var(--radius) + 4px);
+  }
+
+  .variant-switch__tab {
+    flex: 1 1 calc(50% - 0.35rem);
+    font-size: 0.82rem;
+    min-height: 2.2rem;
+    padding-inline: 0.65rem;
+  }
+}
+
 .mode-switch {
   position: relative;
   display: inline-flex;

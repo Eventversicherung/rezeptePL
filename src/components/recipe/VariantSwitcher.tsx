@@ -1,8 +1,7 @@
 "use client";
 
-import Image from "next/image";
-import { useTransition } from "react";
-import { useRouter } from "@/i18n/navigation";
+import { useEffect } from "react";
+import { Link, usePathname, useRouter } from "@/i18n/navigation";
 import type { Locale, Recipe, RecipeFamily } from "@/types/content";
 import { familyVariantPath } from "@/lib/data/recipe-paths";
 
@@ -20,59 +19,45 @@ export function VariantSwitcher({
   label: string;
 }) {
   const router = useRouter();
-  const [pending, startTransition] = useTransition();
+  const pathname = usePathname();
+
+  useEffect(() => {
+    for (const variant of variants) {
+      if (variant.id === activeId) continue;
+      router.prefetch(familyVariantPath(family, variant, locale));
+    }
+  }, [activeId, family, locale, router, variants]);
 
   return (
-    <div className="mt-5" role="navigation" aria-label={label}>
-      <p className="text-xs font-semibold uppercase tracking-[0.14em] text-muted">
-        {label}
-      </p>
-      <ul className="mt-3 flex gap-3 overflow-x-auto pb-1 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+    <div className="variant-switch" role="navigation" aria-label={label}>
+      <p className="variant-switch__label">{label}</p>
+      <div className="variant-switch__track" role="tablist" aria-label={label}>
         {variants.map((variant) => {
-          const active = variant.id === activeId;
-          const thumb = variant.variantImage || variant.coverImage;
+          const href = familyVariantPath(family, variant, locale);
           const name =
             variant.variantLabel?.[locale] ||
             variant.translations[locale].title;
-          const href = familyVariantPath(family, variant, locale);
+          const active =
+            variant.id === activeId ||
+            pathname === href ||
+            pathname.endsWith(`/${variant.translations[locale].slug}`);
+
           return (
-            <li key={variant.id} className="shrink-0">
-              <button
-                type="button"
-                disabled={pending || active}
-                onClick={() =>
-                  startTransition(() => {
-                    router.replace(href, { scroll: false });
-                  })
-                }
-                className={`group flex w-[5.5rem] flex-col items-center gap-2 rounded-2xl p-1.5 text-center transition-colors sm:w-28 ${
-                  active
-                    ? "bg-accent-soft ring-2 ring-accent"
-                    : "hover:bg-elevated"
-                } disabled:opacity-100`}
-                aria-current={active ? "true" : undefined}
-              >
-                <span className="relative aspect-square w-full overflow-hidden rounded-xl bg-elevated">
-                  <Image
-                    src={thumb}
-                    alt={name}
-                    fill
-                    className="object-cover transition-transform duration-500 group-hover:scale-105"
-                    sizes="112px"
-                  />
-                </span>
-                <span
-                  className={`line-clamp-2 text-xs font-semibold leading-snug ${
-                    active ? "text-accent" : "text-foreground"
-                  }`}
-                >
-                  {name}
-                </span>
-              </button>
-            </li>
+            <Link
+              key={variant.id}
+              href={href}
+              prefetch
+              scroll={false}
+              role="tab"
+              aria-selected={active}
+              aria-current={active ? "page" : undefined}
+              className={`variant-switch__tab${active ? " is-active" : ""}`}
+            >
+              <span className="variant-switch__tab-text">{name}</span>
+            </Link>
           );
         })}
-      </ul>
+      </div>
     </div>
   );
 }
