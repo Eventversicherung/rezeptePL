@@ -1,4 +1,18 @@
 import type { BlogPost } from "@/types/content";
+import {
+  bodyPierogiTeigDe,
+  bodyPolenladenDe,
+  bodyTeigmaschineDe,
+  bodyTwarogDe,
+  bodyWigiliaDe,
+} from "./blog-bodies-de";
+import {
+  bodyPierogiTeigPl,
+  bodyPolenladenPl,
+  bodyTeigmaschinePl,
+  bodyTwarogPl,
+  bodyWigiliaPl,
+} from "./blog-bodies-pl";
 
 export const seedBlogPosts: BlogPost[] = [
   {
@@ -13,81 +27,33 @@ export const seedBlogPosts: BlogPost[] = [
       "recipe-pierogi-meat",
       "recipe-pierogi-cabbage",
     ],
-    relatedPostIds: ["post-teigmaschine", "post-twarog"],
-    relatedProductIds: ["aff-rolling-pin", "aff-pierogi-form"],
+    relatedPostIds: ["post-teigmaschine", "post-twarog", "post-polenladen"],
+    relatedProductIds: ["aff-rolling-pin", "aff-pierogi-form", "aff-stand-mixer"],
     clusterIds: ["technique-teig"],
     translations: {
       de: {
         title: "Pierogi-Teig: weich, elastisch, ohne Drama",
         slug: "pierogi-teig",
         excerpt:
-          "Der Teig entscheidet. Mengen, Ruhezeit, Ausrollen — klar erklärt für die Küche in Deutschland.",
-        seoTitle: "Pierogi Teig Rezept | Schritt für Schritt | Alemniam",
+          "Pierogi-Teig richtig kneten für die deutsche Küche: Mengen, Mehltypen, Ruhezeit, Ausrollen, Freezer und typische Fehler — Schritt für Schritt.",
+        seoTitle: "Pierogi Teig Rezept | Weich & elastisch | Alemniam",
         seoDescription:
-          "Pierogi-Teig richtig kneten und ausrollen. Tipps für deutsche Mehle und große Batches.",
-        body: `## Pierogi-Teig, der hält
-
-Guter Pierogi-Teig ist weich, nicht klebrig, und dehnt sich ohne zu reißen. Du brauchst kein Geheimrezept — du brauchst Verhältnis, Ruhe und ein ruhiges Tempo.
-
-### Grundverhältnis
-
-Für ca. 4 Portionen: 500 g Weizenmehl (Type 405 oder 550), 1 Ei, ca. 200–220 ml warmes Wasser, 1 EL Öl, Prise Salz. Wasser nach Gefühl — Mehle in DE nehmen unterschiedlich auf.
-
-### Kneten und ruhen
-
-8–10 Minuten kneten, bis die Oberfläche glatt ist. Abdecken, 20–30 Minuten ruhen. Der Teig wird geschmeidiger; du sparst Kraft beim Ausrollen.
-
-### Ausrollen
-
-Dünn, aber nicht transparent. Zu dick = teigig. Zu dünn = Platzer an der Naht. Kreise gleichmäßig — eine Form hilft bei großen Mengen.
-
-### Welche Variante füllen?
-
-- [Pierogi Ruskie](/de/rezepte/pierogi/ruskie) — Kartoffel & Twaróg
-- [Pierogi mit Fleisch](/de/rezepte/pierogi/fleisch)
-- [Pierogi mit Kraut und Pilzen](/de/rezepte/pierogi/kraut-pilze)
-
-Technik-Hub: [Teig](/de/techniken/teig). Wenn du oft batchst: [Teigmaschine für Pierogi](/de/blog/teigmaschine-pierogi).
-
-### Freezer
-
-Roh gefüllt einfrieren auf dem Blech, dann in Beutel. Nicht auftauen vor dem Kochen — direkt in leicht kochendes Wasser.`,
+          "Pierogi-Teig Rezept mit Tipps für Mehl 405/550, Kneten, Ruhen, Ausrollen und Freezer-Batches. Ideal für Ruskie, Fleisch und Wigilia.",
+        body: bodyPierogiTeigDe.trim(),
       },
       pl: {
         title: "Ciasto na pierogi: miękkie, elastyczne, bez dramatu",
         slug: "ciasto-na-pierogi",
         excerpt:
-          "Ciasto decyduje. Proporcje, odpoczynek, wałkowanie — jasno, pod kuchnię w Niemczech.",
-        seoTitle: "Ciasto na pierogi przepis | Krok po kroku | Alemniam",
+          "Jak zrobić ciasto na pierogi w niemieckiej kuchni: proporcje, mąka, odpoczynek, wałkowanie, mrożenie i typowe błędy — krok po kroku.",
+        seoTitle: "Ciasto na pierogi przepis | Miękkie i elastyczne | Alemniam",
         seoDescription:
-          "Jak zrobić ciasto na pierogi. Wskazówki do mąki w DE i większych porcji.",
-        body: `## Ciasto, które trzyma
-
-Dobre ciasto jest miękkie, nie klei się i rozciąga bez pękania. Nie potrzebujesz sekretu — potrzebujesz proporcji, odpoczynku i spokojnego tempa.
-
-### Proporcje
-
-Na ok. 4 porcje: 500 g mąki, 1 jajko, ok. 200–220 ml ciepłej wody, 1 łyżka oleju, szczypta soli. Woda „na czucie” — mąki w DE różnie chłoną.
-
-### Wyrabianie
-
-8–10 minut, aż powierzchnia będzie gładka. Przykryj, odstaw 20–30 min.
-
-### Wałkowanie
-
-Cienko, ale nie na przezroczystość. Równe kółka — foremka pomaga przy większej ilości.
-
-### Który farsz?
-
-- [Pierogi ruskie](/pl/rezepte/pierogi/ruskie)
-- [Pierogi z mięsem](/pl/rezepte/pierogi/mieso)
-- [Pierogi z kapustą i grzybami](/pl/rezepte/pierogi/kapusta-grzyby)
-
-Hub: [ciasto](/pl/techniken/ciasto). Przy większych partiach: [robot do ciasta](/pl/blog/robot-do-ciasta-pierogi).`,
+          "Przepis na ciasto na pierogi z wskazówkami do mąki w DE, wyrabiania, odpoczynku i mrożenia. Pod ruskie, mięso i Wigilię.",
+        body: bodyPierogiTeigPl.trim(),
       },
     },
     publishedAt: "2026-07-01T10:00:00.000Z",
-    updatedAt: "2026-07-19T10:00:00.000Z",
+    updatedAt: "2026-07-19T18:00:00.000Z",
   },
   {
     id: "post-teigmaschine",
@@ -101,7 +67,7 @@ Hub: [ciasto](/pl/techniken/ciasto). Przy większych partiach: [robot do ciasta]
       "recipe-pierogi-meat",
       "recipe-pierogi-cabbage",
     ],
-    relatedPostIds: ["post-pierogi-teig", "post-polenladen"],
+    relatedPostIds: ["post-pierogi-teig", "post-wigilia", "post-polenladen"],
     relatedProductIds: [
       "aff-stand-mixer",
       "aff-rolling-pin",
@@ -114,83 +80,25 @@ Hub: [ciasto](/pl/techniken/ciasto). Przy większych partiach: [robot do ciasta]
         title: "Teigmaschine für Pierogi: lohnt sich das?",
         slug: "teigmaschine-pierogi",
         excerpt:
-          "Kriterien zuerst, dann Empfehlungsstufen. Für Wigilia-Mengen und ruhige Sonntage — ohne Hype.",
+          "Kaufberatung ohne Hype: Kriterien, Budget-, Allround- und Family-Batch-Stufen — und wann die Hände reichen.",
         seoTitle: "Teigmaschine Pierogi Kaufberatung | Alemniam",
         seoDescription:
-          "Welche Küchenmaschine für Pierogi-Teig? Kriterien, Budget, Allround, Family-Batch — plus Links zu Rezepten.",
-        body: `## Brauchst du eine Teigmaschine für Pierogi?
-
-Nur wenn du regelmäßig größere Mengen machst — Wigilia, Freezer-Batch, Familie. Für zwei Portionen reicht Hand und Ruhe. Für fünf Kilo Teig rettet ein Motor die Schultern.
-
-### Kriterien (vor dem Kauf)
-
-1. **Schüsselgröße** — mind. 4–5 Liter für Familientage  
-2. **Motor / Drehmoment** — Teig ist schwer; schwache Maschinen heißlaufen  
-3. **Knethaken** — Metall, stabil  
-4. **Reinigung** — wenig Aufsteckteile, die du hasst  
-5. **Lärm & Stellplatz** — bleibt sie auf der Arbeitsfläche?
-
-### Empfehlungsstufen
-
-- **Budget:** guter Teigroller + Formen + Zeit. Kein Motor nötig.  
-- **Allround:** stabile Küchenmaschine mit Knethaken für Teig und Hefe.  
-- **Family-Batch:** größere Schüssel, starker Motor, optional Nudelaufsatz.
-
-### Mit Rezepten verbinden
-
-Lerne zuerst den [Teig von Hand](/de/blog/pierogi-teig), dann automatisiere. Varianten:
-
-- [Ruskie](/de/rezepte/pierogi/ruskie)
-- [Fleisch](/de/rezepte/pierogi/fleisch)
-- [Kraut & Pilze](/de/rezepte/pierogi/kraut-pilze)
-
-Cluster: [Teig](/de/techniken/teig).
-
-### Transparenz
-
-Produktlinks können Affiliate-Links sein. Wir empfehlen nur, was den Kochjob erleichtert — Kriterien stehen über Markennamen.`,
+          "Welche Teigmaschine für Pierogi? Schüsselgröße, Drehmoment, Knethaken, Reinigung. Empfehlungen für Wigilia-Mengen und Alltag in DE.",
+        body: bodyTeigmaschineDe.trim(),
       },
       pl: {
         title: "Robot do ciasta na pierogi: czy warto?",
         slug: "robot-do-ciasta-pierogi",
         excerpt:
-          "Najpierw kryteria, potem poziomy rekomendacji. Na ilości wigilijne — bez hype’u.",
-        seoTitle: "Robot do ciasta pierogi — poradnik | Alemniam",
+          "Poradnik zakupowy bez hype’u: kryteria, budżet, allround i family-batch — oraz kiedy wystarczą ręce.",
+        seoTitle: "Robot do ciasta pierogi — poradnik zakupowy | Alemniam",
         seoDescription:
-          "Jaki robot do ciasta na pierogi? Kryteria, budżet, allround, family-batch.",
-        body: `## Czy potrzebujesz robota?
-
-Tylko jeśli robisz większe ilości — Wigilia, mrożenie, rodzina. Na dwie porcje wystarczą ręce. Na kilka kilo ciasta silnik ratuje barki.
-
-### Kryteria
-
-1. **Misa** — min. 4–5 l  
-2. **Moment obrotowy** — ciasto jest ciężkie  
-3. **Hak** — metalowy, stabilny  
-4. **Mycie** — mało części, których nienawidzisz  
-5. **Hałas i miejsce**
-
-### Poziomy
-
-- **Budżet:** wałek + foremki + czas  
-- **Allround:** solidny robot z hakiem  
-- **Family-batch:** większa misa, mocniejszy silnik
-
-### Przepisy
-
-Najpierw [ciasto ręcznie](/pl/blog/ciasto-na-pierogi), potem automatyzacja:
-
-- [Ruskie](/pl/rezepte/pierogi/ruskie)
-- [Mięso](/pl/rezepte/pierogi/mieso)
-- [Kapusta i grzyby](/pl/rezepte/pierogi/kapusta-grzyby)
-
-### Transparentność
-
-Linki mogą być afiliacyjne. Kryteria ważniejsze niż marka.`,
+          "Jaki robot do ciasta na pierogi? Misa, moment obrotowy, hak, mycie. Na ilości wigilijne i codzienność w Niemczech.",
+        body: bodyTeigmaschinePl.trim(),
       },
     },
     publishedAt: "2026-07-05T10:00:00.000Z",
-    updatedAt: "2026-07-19T10:00:00.000Z",
+    updatedAt: "2026-07-19T18:00:00.000Z",
   },
   {
     id: "post-twarog",
@@ -199,8 +107,8 @@ Linki mogą być afiliacyjne. Kryteria ważniejsze niż marka.`,
     coverImage:
       "https://images.unsplash.com/photo-1628088062854-d1870b4553da?w=1600&q=80",
     siloIds: ["ingredient", "diaspora"],
-    relatedRecipeIds: ["recipe-pierogi", "recipe-nalesniki"],
-    relatedPostIds: ["post-polenladen", "post-pierogi-teig"],
+    relatedRecipeIds: ["recipe-pierogi", "recipe-nalesniki", "recipe-pierogi-meat"],
+    relatedPostIds: ["post-polenladen", "post-pierogi-teig", "post-wigilia"],
     relatedProductIds: ["aff-potato-ricer"],
     clusterIds: [],
     translations: {
@@ -208,52 +116,25 @@ Linki mogą być afiliacyjne. Kryteria ważniejsze niż marka.`,
         title: "Twaróg in Deutschland: was kaufen?",
         slug: "twarog-deutschland",
         excerpt:
-          "Quark ist nicht gleich Twaróg. So findest du die richtige Konsistenz für Pierogi und Naleśniki.",
-        seoTitle: "Twaróg Alternative Deutschland | Quark | Alemniam",
+          "Quark ist nicht gleich Twaróg. So findest du die richtige Konsistenz für Pierogi Ruskie und Naleśniki — im Polenladen und Supermarkt.",
+        seoTitle: "Twaróg Alternative Deutschland | Quark Guide | Alemniam",
         seoDescription:
-          "Twaróg vs. Speisequark vs. Magerquark. Einkaufen in DE für authentische Füllungen.",
-        body: `## Twaróg ≠ jeder Quark
-
-In Polen ist Twaróg oft körniger und trockener als deutscher Speisequark. Für [Pierogi Ruskie](/de/rezepte/pierogi/ruskie) brauchst du Masse, die nicht wässert.
-
-### Was im DE-Supermarkt funktioniert
-
-- **Magerquark / Speisequark (20 %)** gut abgetropft im Sieb  
-- **Körniger Frischkäse** manchmal näher am Gefühl  
-- **Echter Twaróg** im Polenladen — erste Wahl
-
-### Trick
-
-Quark 30–60 Min abtropfen. Zu nass = matschige Füllung. Mit Kartoffelpresse für Ruskie wird die Text fluffig.
-
-### Rezepte
-
-[Pierogi Ruskie](/de/rezepte/pierogi/ruskie) · [Naleśniki mit Twaróg](/de/rezepte/nalesniki-twarog) · [Polenladen-Guide](/de/blog/polenladen-einkaufen)`,
+          "Twaróg vs. Speisequark vs. Magerquark in DE. Abtropfen, Fehler vermeiden, Einkaufen für Pierogi und Naleśniki — klar erklärt.",
+        body: bodyTwarogDe.trim(),
       },
       pl: {
         title: "Twaróg w Niemczech: co kupić?",
         slug: "twarog-w-niemczech",
         excerpt:
-          "Quark to nie zawsze twaróg. Jak znaleźć konsystencję do pierogów i naleśników.",
-        seoTitle: "Twaróg w Niemczech Quark | Alemniam",
+          "Quark to nie zawsze twaróg. Jak znaleźć właściwą konsystencję do pierogów ruskich i naleśników — w sklepie polskim i markecie.",
+        seoTitle: "Twaróg w Niemczech Quark | Poradnik | Alemniam",
         seoDescription:
-          "Twaróg vs. Speisequark. Zakupy w DE do autentycznego farszu.",
-        body: `## Twaróg ≠ każdy Quark
-
-W Polsce twaróg bywa bardziej ziarnisty i suchy. Do [pierogów ruskich](/pl/rezepte/pierogi/ruskie) potrzebujesz masy, która nie puszcza wody.
-
-### Co działa w DE
-
-- Magerquark / Speisequark dobrze odsączony  
-- Prawdziwy twaróg w sklepie polskim — pierwszy wybór
-
-### Przepisy
-
-[Ruskie](/pl/rezepte/pierogi/ruskie) · [Naleśniki](/pl/rezepte/nalesniki-twarog) · [Sklep polski](/pl/blog/sklep-polski-zakupy)`,
+          "Twaróg vs Speisequark vs Magerquark. Odsączanie, błędy, zakupy pod pierogi i naleśniki — jasno i praktycznie.",
+        body: bodyTwarogPl.trim(),
       },
     },
     publishedAt: "2026-07-08T10:00:00.000Z",
-    updatedAt: "2026-07-19T10:00:00.000Z",
+    updatedAt: "2026-07-19T18:00:00.000Z",
   },
   {
     id: "post-polenladen",
@@ -268,61 +149,33 @@ W Polsce twaróg bywa bardziej ziarnisty i suchy. Do [pierogów ruskich](/pl/rez
       "recipe-zurek",
       "recipe-barszcz",
     ],
-    relatedPostIds: ["post-twarog", "post-wigilia"],
-    relatedProductIds: [],
+    relatedPostIds: ["post-twarog", "post-wigilia", "post-pierogi-teig"],
+    relatedProductIds: ["aff-freezer-boxes", "aff-dutch-oven"],
     clusterIds: [],
     translations: {
       de: {
         title: "Polenladen vs. REWE: was wo kaufen?",
         slug: "polenladen-einkaufen",
         excerpt:
-          "Praktische Aufteilung für den Alltag in Deutschland — ohne Mythen, mit klarer Liste.",
-        seoTitle: "Polenladen Einkaufen Guide | Alemniam",
+          "Praktischer Einkaufsguide für polnische Haushalte in Deutschland: Kielbasa, Twaróg, Kapusta, Zakwas — und was im Supermarkt völlig reicht.",
+        seoTitle: "Polenladen Einkaufen Guide | REWE & Kaufland | Alemniam",
         seoDescription:
-          "Welche polnischen Zutaten im Polenladen, welche bei REWE/Kaufland? Für Bigos, Żurek, Pierogi.",
-        body: `## Zwei Einkaufswege, ein Tisch
-
-Du musst nicht alles im Polenladen holen. Und nicht alles im deutschen Supermarkt erzwingen.
-
-### Immer im Polenladen sinnvoll
-
-Kapusta kiszona (gute Qualität), Zakwas na żurek, echte Kiełbasa, Majeranek/Lubczyk-Bundles, manchmal Twaróg und getrocknete Pilze.
-
-### Oft im REWE/Kaufland ok
-
-Mehl, Eier, Kartoffeln, Zwiebeln, Sahne/Schmand-Näherungen, Rote Bete, Fleisch.
-
-### Rezept-Links
-
-[Pierogi Ruskie](/de/rezepte/pierogi/ruskie) · [Bigos](/de/rezepte/bigos) · [Żurek](/de/rezepte/zurek) · [Barszcz](/de/rezepte/barszcz-czerwony) · [Twaróg-Guide](/de/blog/twarog-deutschland)`,
+          "Polenladen vs REWE/Kaufland: Was lohnt sich wirklich? Listen für Sonntag & Wigilia, Qualität erkennen, Ersatzprodukte, Rezepte zum Kochen.",
+        body: bodyPolenladenDe.trim(),
       },
       pl: {
         title: "Sklep polski vs REWE: co gdzie kupić?",
         slug: "sklep-polski-zakupy",
         excerpt:
-          "Praktyczny podział na co dzień w Niemczech — bez mitów, z jasną listą.",
-        seoTitle: "Sklep polski zakupy Niemcy | Alemniam",
+          "Praktyczny przewodnik zakupów dla polskich domów w Niemczech: kiełbasa, twaróg, kapusta, zakwas — i to, co spokojnie bierzesz w markecie.",
+        seoTitle: "Sklep polski zakupy Niemcy | REWE i Kaufland | Alemniam",
         seoDescription:
-          "Co w sklepie polskim, co w REWE/Kaufland? Pod bigos, żurek, pierogi.",
-        body: `## Dwa zakupy, jeden stół
-
-Nie musisz wszystkiego brać w sklepie polskim. I nie musisz wszystkiego forsować w niemieckim.
-
-### W sklepie polskim
-
-Kapusta kiszona, zakwas, dobra kiełbasa, majeranek, często twaróg i suszone grzyby.
-
-### W REWE/Kaufland
-
-Mąka, jajka, ziemniaki, cebula, buraki, mięso.
-
-### Przepisy
-
-[Ruskie](/pl/rezepte/pierogi/ruskie) · [Bigos](/pl/rezepte/bigos) · [Żurek](/pl/rezepte/zurek) · [Barszcz](/pl/rezepte/barszcz-czerwony) · [Twaróg](/pl/blog/twarog-w-niemczech)`,
+          "Sklep polski vs REWE/Kaufland: co naprawdę warto? Listy na niedzielę i Wigilię, jakość, zamienniki, przepisy do gotowania.",
+        body: bodyPolenladenPl.trim(),
       },
     },
     publishedAt: "2026-07-10T10:00:00.000Z",
-    updatedAt: "2026-07-19T10:00:00.000Z",
+    updatedAt: "2026-07-19T18:00:00.000Z",
   },
   {
     id: "post-wigilia",
@@ -335,69 +188,34 @@ Mąka, jajka, ziemniaki, cebula, buraki, mięso.
       "recipe-pierogi-cabbage",
       "recipe-barszcz",
       "recipe-pierogi",
+      "recipe-zurek",
     ],
-    relatedPostIds: ["post-pierogi-teig", "post-polenladen"],
-    relatedProductIds: ["aff-pierogi-form", "aff-freezer-boxes"],
+    relatedPostIds: ["post-pierogi-teig", "post-polenladen", "post-teigmaschine"],
+    relatedProductIds: ["aff-pierogi-form", "aff-freezer-boxes", "aff-stand-mixer"],
     clusterIds: ["occasion-wigilia"],
     translations: {
       de: {
         title: "Wigilia Speiseplan: ruhig planen, klar kochen",
         slug: "wigilia-speiseplan",
         excerpt:
-          "Zwölf Gerichte sind Tradition — kein Wettkampf. Ein machbarer Plan für Haushalte in DE.",
-        seoTitle: "Wigilia Rezepte Speiseplan | Alemniam",
+          "Zwölf Gerichte als Orientierung, nicht als Wettkampf. Zeitplan, Freezer, Barszcz und Pierogi — für Haushalte in Deutschland.",
+        seoTitle: "Wigilia Rezepte Speiseplan | Polnisch kochen | Alemniam",
         seoDescription:
-          "Polnischer Weihnachtsabend: Speiseplan, Pierogi, Barszcz — bilingual und alltagstauglich.",
-        body: `## Wigilia ohne Chaos
-
-Zwölf Gerichte sind ein Orientierungspunkt, kein Gesetz. Wähle Tiefe statt Menge: Barszcz, eine starke Pierogi-Variante, etwas Fisch oder eine klare Alternative, Kompott.
-
-### Kern des Tisches
-
-- [Barszcz czerwony](/de/rezepte/barszcz-czerwony)
-- [Pierogi mit Kraut und Pilzen](/de/rezepte/pierogi/kraut-pilze)
-- Optional [Ruskie](/de/rezepte/pierogi/ruskie) für Kinder und Gäste
-
-### Zeitplan
-
-Teig und Füllung 1–2 Tage vorher. Freezer nutzen ([Technik Freezer](/de/techniken/freezer)). Barszcz am Vortag. Am Tag selbst: kochen, anrichten, atmen.
-
-### Cluster & Guides
-
-[Wigilia](/de/anlaesse/wigilia) · [Pierogi-Teig](/de/blog/pierogi-teig) · [Polenladen](/de/blog/polenladen-einkaufen)
-
-Respekt vor regionalen Unterschieden: es gibt nicht „die eine echte“ Wigilia.`,
+          "Wigilia Speiseplan mit Zeitlinie, Einkauf und Freezer-Tipps. Barszcz, Pierogi mit Kraut und Pilzen — bilingual und machbar in DE.",
+        body: bodyWigiliaDe.trim(),
       },
       pl: {
         title: "Menu wigilijne: spokojny plan, jasne gotowanie",
         slug: "menu-wigilijne",
         excerpt:
-          "Dwanaście potraw to tradycja — nie zawody. Wykonalny plan dla domów w DE.",
-        seoTitle: "Wigilia przepisy menu | Alemniam",
+          "Dwanaście potraw jako punkt odniesienia, nie zawody. Harmonogram, mrożenie, barszcz i pierogi — dla domów w Niemczech.",
+        seoTitle: "Wigilia przepisy menu | Plan bez chaosu | Alemniam",
         seoDescription:
-          "Polska Wigilia: menu, pierogi, barszcz — dwujęzycznie, bez chaosu.",
-        body: `## Wigilia bez chaosu
-
-Dwanaście potraw to punkt odniesienia, nie ustawa. Wybierz głębię zamiast ilości: barszcz, mocne pierogi, coś z ryby albo jasna alternatywa, kompot.
-
-### Rdzeń stołu
-
-- [Barszcz](/pl/rezepte/barszcz-czerwony)
-- [Pierogi z kapustą i grzybami](/pl/rezepte/pierogi/kapusta-grzyby)
-- Opcjonalnie [ruskie](/pl/rezepte/pierogi/ruskie)
-
-### Harmonogram
-
-Ciasto i farsz 1–2 dni wcześniej. Mrożenie ([technika](/pl/techniken/mrozenie)). Barszcz dzień wcześniej.
-
-### Dalej
-
-[Wigilia](/pl/anlaesse/wigilia) · [Ciasto](/pl/blog/ciasto-na-pierogi) · [Sklep polski](/pl/blog/sklep-polski-zakupy)
-
-Szacunek dla różnic regionalnych: nie ma jednej „jedynej prawdziwej” Wigilii.`,
+          "Menu wigilijne z harmonogramem, zakupami i mrożeniem. Barszcz, pierogi z kapustą i grzybami — dwujęzycznie, wykonalnie w DE.",
+        body: bodyWigiliaPl.trim(),
       },
     },
     publishedAt: "2026-07-12T10:00:00.000Z",
-    updatedAt: "2026-07-19T10:00:00.000Z",
+    updatedAt: "2026-07-19T18:00:00.000Z",
   },
 ];
