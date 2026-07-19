@@ -45,7 +45,16 @@
     "groupPolish": "Polski sklep",
     "groupOther": "Inne",
     "compactIngredients": "Składniki",
-    "showSteps": "Pokaż kroki"
+    "showSteps": "Pokaż kroki",
+    "modeHelp": "Przełączaj tutaj — jedna strona, bez nowej zakładki.",
+    "focusHint": "Tryb fokusu: duży krok, ekran nie gaśnie.",
+    "enterFocus": "Fokus",
+    "exitFocus": "Wyłącz fokus",
+    "prevStep": "Wstecz",
+    "nextStep": "Dalej",
+    "switchToShop": "Do listy zakupów",
+    "switchToCook": "Gotuj teraz",
+    "articleHeading": "Więcej o tym daniu"
   },
   "lists": {
     "title": "Listy zakupów",

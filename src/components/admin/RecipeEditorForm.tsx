@@ -116,6 +116,18 @@ export function RecipeEditorForm({
       </div>
 
       <label className="block space-y-1">
+        <span className="text-sm">SEO-Artikel (lang, unter dem Rezept)</span>
+        <textarea
+          key={`article-${editLocale}`}
+          name="article"
+          rows={12}
+          defaultValue={translation.article ?? ""}
+          className="w-full rounded-[var(--radius)] border border-border bg-surface px-3 py-2 text-sm"
+          placeholder="Langer Text ~1000 Wörter…"
+        />
+      </label>
+
+      <label className="block space-y-1">
         <span className="text-sm">Steps (one per line)</span>
         <textarea
           key={`steps-${editLocale}`}

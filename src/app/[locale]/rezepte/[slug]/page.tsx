@@ -2,8 +2,10 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
 import { setRequestLocale } from "next-intl/server";
+import { getTranslations } from "next-intl/server";
 import { RecipeExperience } from "@/components/recipe/RecipeExperience";
 import { getSessionUser } from "@/lib/auth/session";
+import { getRecipeArticle } from "@/lib/data/recipe-articles";
 import {
   getRecipeBySlug,
   listPublishedRecipes,
@@ -72,10 +74,14 @@ export default async function RecipePage({
   const recipe = await getRecipeBySlug(locale, slug);
   if (!recipe) notFound();
 
+  const t = await getTranslations("recipes");
   const user = await getSessionUser();
   const savedIds = user ? await listSavedRecipeIds(user.id) : [];
   const initialMode: RecipeMode = modeParam === "shop" ? "shop" : "cook";
   const url = `${siteUrl()}/${locale}/rezepte/${recipe.translations[locale].slug}`;
+  const article =
+    recipe.translations[locale].article ||
+    getRecipeArticle(recipe.id, locale);
 
   const jsonLd = [
     recipeJsonLd(recipe, locale, url),
@@ -101,6 +107,8 @@ export default async function RecipePage({
           initialMode={initialMode}
           isSaved={savedIds.includes(recipe.id)}
           isLoggedIn={Boolean(user)}
+          article={article}
+          articleHeading={t("articleHeading")}
         />
       </Suspense>
     </>

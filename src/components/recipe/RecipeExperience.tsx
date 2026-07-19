@@ -1,12 +1,13 @@
 "use client";
 
 import Image from "next/image";
-import { useMemo, useState, useTransition } from "react";
+import { useEffect, useMemo, useState, useTransition } from "react";
 import { useTranslations } from "next-intl";
 import { useRouter, useSearchParams } from "next/navigation";
 import type { Locale, Recipe, RecipeMode } from "@/types/content";
 import { groupLabelKey, scaleAmount } from "@/lib/utils";
 import { ModeSwitch } from "./ModeSwitch";
+import { RecipeArticle } from "./RecipeArticle";
 import {
   addRecipeToShoppingListAction,
   toggleSaveRecipeAction,
@@ -27,12 +28,16 @@ export function RecipeExperience({
   initialMode,
   isSaved,
   isLoggedIn,
+  article,
+  articleHeading,
 }: {
   recipe: Recipe;
   locale: Locale;
   initialMode: RecipeMode;
   isSaved: boolean;
   isLoggedIn: boolean;
+  article: string;
+  articleHeading: string;
 }) {
   const t = useTranslations("recipes");
   const router = useRouter();
@@ -44,17 +49,39 @@ export function RecipeExperience({
   const [saved, setSaved] = useState(isSaved);
   const [pending, startTransition] = useTransition();
   const [message, setMessage] = useState<string | null>(null);
+  const [focusCook, setFocusCook] = useState(false);
 
   const translation = recipe.translations[locale];
+  const step = translation.steps[activeStep];
 
   function changeMode(next: RecipeMode) {
     setMode(next);
+    if (next === "shop") setFocusCook(false);
     const params = new URLSearchParams(searchParams.toString());
     if (next === "cook") params.delete("mode");
     else params.set("mode", "shop");
     const qs = params.toString();
-    router.replace(`?${qs}`, { scroll: false });
+    router.replace(qs ? `?${qs}` : "?", { scroll: false });
   }
+
+  // Keep screen awake while cooking (best-effort)
+  useEffect(() => {
+    if (mode !== "cook" || typeof navigator === "undefined") return;
+    let wake: WakeLockSentinel | null = null;
+    const request = async () => {
+      try {
+        if ("wakeLock" in navigator) {
+          wake = await navigator.wakeLock.request("screen");
+        }
+      } catch {
+        /* unsupported / denied */
+      }
+    };
+    void request();
+    return () => {
+      void wake?.release();
+    };
+  }, [mode]);
 
   const grouped = useMemo(() => {
     return GROUP_ORDER.map((group) => ({
@@ -78,43 +105,59 @@ export function RecipeExperience({
   }
 
   return (
-    <article className="mx-auto max-w-3xl">
-      <div
-        className={`relative overflow-hidden rounded-[calc(var(--radius)+4px)] bg-elevated transition-[max-height,opacity] duration-200 ease-out ${
-          mode === "shop"
-            ? "max-h-40 opacity-90 sm:max-h-48"
-            : "max-h-[55vh] sm:max-h-[60vh]"
-        }`}
-      >
+    <article className="mx-auto max-w-3xl pb-28 md:pb-16">
+      {!focusCook ? (
         <div
-          className={`relative w-full ${
-            mode === "shop" ? "aspect-[21/9]" : "aspect-[4/5] sm:aspect-[16/10]"
+          className={`relative overflow-hidden rounded-[calc(var(--radius)+4px)] bg-elevated transition-[max-height,opacity] duration-200 ease-out ${
+            mode === "shop"
+              ? "max-h-36 opacity-90 sm:max-h-44"
+              : "max-h-[42vh] sm:max-h-[50vh]"
           }`}
         >
-          <Image
-            src={recipe.coverImage}
-            alt={translation.title}
-            fill
-            priority
-            className="object-cover"
-            sizes="(max-width: 768px) 100vw, 768px"
-          />
+          <div
+            className={`relative w-full ${
+              mode === "shop"
+                ? "aspect-[21/9]"
+                : "aspect-[4/5] sm:aspect-[16/10]"
+            }`}
+          >
+            <Image
+              src={recipe.coverImage}
+              alt={translation.title}
+              fill
+              priority
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, 768px"
+            />
+          </div>
         </div>
-      </div>
+      ) : null}
 
-      <div className="sticky top-14 z-30 -mx-1 mt-5 bg-[color-mix(in_oklch,var(--bg)_90%,transparent)] px-1 py-3 backdrop-blur-md">
-        <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
-          <div>
-            <h1 className="font-display text-[clamp(1.75rem,5vw,2.5rem)] font-semibold">
-              {translation.title}
-            </h1>
-            <p className="mt-1 max-w-[65ch] text-muted">{translation.excerpt}</p>
+      {/* Sticky mode bar — always reachable while cooking/shopping */}
+      <div className="sticky top-14 z-40 -mx-4 mt-4 border-b border-border/80 bg-[color-mix(in_oklch,var(--bg)_92%,transparent)] px-4 py-3 backdrop-blur-md sm:-mx-0 sm:rounded-[var(--radius)] sm:border">
+        <div className="flex flex-col gap-3">
+          <div className="flex items-start justify-between gap-3">
+            <div className="min-w-0">
+              <h1 className="font-display text-[clamp(1.5rem,4.5vw,2.25rem)] font-semibold leading-tight">
+                {translation.title}
+              </h1>
+              {!focusCook ? (
+                <p className="mt-1 line-clamp-2 max-w-[65ch] text-sm text-muted">
+                  {translation.excerpt}
+                </p>
+              ) : (
+                <p className="mt-1 text-sm font-medium text-accent">
+                  {t("focusHint")}
+                </p>
+              )}
+            </div>
           </div>
           <ModeSwitch mode={mode} onChange={changeMode} />
+          <p className="text-xs text-muted">{t("modeHelp")}</p>
         </div>
       </div>
 
-      <div className="mt-4 flex flex-wrap items-center gap-3 text-sm text-muted">
+      <div className="mt-4 flex flex-wrap items-center gap-2 text-sm text-muted">
         <label className="inline-flex items-center gap-2 rounded-full border border-border bg-surface px-3 py-2">
           <span>{t("servings")}</span>
           <input
@@ -126,11 +169,8 @@ export function RecipeExperience({
             className="w-12 border-0 bg-transparent text-foreground outline-none"
           />
         </label>
-        <span>
-          {t("prep")} {recipe.prepMinutes} {t("minutes")}
-        </span>
-        <span>
-          {t("cook")} {recipe.cookMinutes} {t("minutes")}
+        <span className="rounded-full bg-accent-soft px-3 py-2 text-accent">
+          {recipe.prepMinutes + recipe.cookMinutes} {t("minutes")}
         </span>
         <button
           type="button"
@@ -145,55 +185,45 @@ export function RecipeExperience({
         >
           {saved ? t("saved") : t("save")}
         </button>
+        {mode === "cook" ? (
+          <button
+            type="button"
+            onClick={() => setFocusCook((v) => !v)}
+            className="btn-secondary !min-h-10 px-3 text-sm"
+          >
+            {focusCook ? t("exitFocus") : t("enterFocus")}
+          </button>
+        ) : null}
       </div>
 
       {mode === "cook" ? (
-        <div key="cook" className="mode-fade mt-8 space-y-10">
-          <section>
-            <div className="mb-4 flex items-end justify-between gap-3">
-              <h2 className="font-display text-2xl font-semibold">{t("steps")}</h2>
-              <p className="text-sm text-muted">
+        <div key="cook" className="mode-fade mt-6 space-y-8">
+          {/* One big active step — kitchen readable */}
+          <section className="rounded-[calc(var(--radius)+4px)] border border-accent/40 bg-surface px-5 py-6 sm:px-8 sm:py-8">
+            <div className="flex items-center justify-between gap-3 text-sm text-muted">
+              <span className="font-medium uppercase tracking-wide text-accent">
+                {t("steps")}
+              </span>
+              <span>
                 {activeStep + 1} / {translation.steps.length}
-              </p>
+              </span>
             </div>
-            <ol className="space-y-3">
-              {translation.steps.map((step, index) => {
-                const active = index === activeStep;
-                return (
-                  <li key={index}>
-                    <button
-                      type="button"
-                      onClick={() => setActiveStep(index)}
-                      className={`w-full rounded-[var(--radius)] border px-4 py-4 text-left transition-colors ${
-                        active
-                          ? "border-accent bg-accent-soft"
-                          : "border-border bg-transparent"
-                      }`}
-                    >
-                      <span className="text-xs font-medium uppercase tracking-wide text-muted">
-                        {index + 1}
-                      </span>
-                      <p className={`mt-1 ${active ? "text-lg" : "text-base"}`}>
-                        {step.text}
-                      </p>
-                      {step.tip && active ? (
-                        <p className="mt-2 text-sm text-accent">
-                          {t("tips")}: {step.tip}
-                        </p>
-                      ) : null}
-                    </button>
-                  </li>
-                );
-              })}
-            </ol>
-            <div className="mt-4 flex gap-2">
+            <p className="mt-4 font-display text-[clamp(1.35rem,4vw,1.85rem)] font-semibold leading-snug">
+              {step?.text}
+            </p>
+            {step?.tip ? (
+              <p className="mt-4 rounded-xl bg-accent-soft px-4 py-3 text-base text-accent">
+                {t("tips")}: {step.tip}
+              </p>
+            ) : null}
+            <div className="mt-6 grid grid-cols-2 gap-3">
               <button
                 type="button"
                 disabled={activeStep === 0}
                 onClick={() => setActiveStep((s) => Math.max(0, s - 1))}
-                className="min-h-11 flex-1 rounded-full border border-border disabled:opacity-40"
+                className="btn-secondary min-h-14 text-base disabled:opacity-40"
               >
-                ←
+                {t("prevStep")}
               </button>
               <button
                 type="button"
@@ -203,42 +233,80 @@ export function RecipeExperience({
                     Math.min(translation.steps.length - 1, s + 1),
                   )
                 }
-                className="btn-primary flex-1 disabled:opacity-40"
+                className="btn-primary min-h-14 text-base disabled:opacity-40"
               >
-                →
+                {t("nextStep")}
               </button>
             </div>
           </section>
 
-          <section>
-            <h2 className="font-display text-xl font-semibold">
-              {t("compactIngredients")}
-            </h2>
-            <ul className="mt-3 divide-y divide-border border-y border-border">
-              {recipe.ingredients.map((ing) => (
-                <li
-                  key={ing.id}
-                  className="flex items-baseline justify-between gap-3 py-2 text-sm"
-                >
-                  <span>{ing.name[locale]}</span>
-                  <span className="text-muted">
-                    {scaleAmount(ing.amount, recipe.servings, servings)}{" "}
-                    {ing.unit[locale]}
-                  </span>
-                </li>
-              ))}
-            </ul>
-          </section>
+          {!focusCook ? (
+            <>
+              <ol className="space-y-2">
+                {translation.steps.map((s, index) => (
+                  <li key={index}>
+                    <button
+                      type="button"
+                      onClick={() => setActiveStep(index)}
+                      className={`flex w-full min-h-12 items-center gap-3 rounded-xl border px-3 py-3 text-left text-sm ${
+                        index === activeStep
+                          ? "border-accent bg-accent-soft"
+                          : "border-border"
+                      }`}
+                    >
+                      <span className="flex size-7 shrink-0 items-center justify-center rounded-full bg-elevated text-xs font-semibold">
+                        {index + 1}
+                      </span>
+                      <span className="line-clamp-2">{s.text}</span>
+                    </button>
+                  </li>
+                ))}
+              </ol>
+
+              <section>
+                <div className="flex items-center justify-between gap-3">
+                  <h2 className="font-display text-xl font-semibold">
+                    {t("compactIngredients")}
+                  </h2>
+                  <button
+                    type="button"
+                    onClick={() => changeMode("shop")}
+                    className="text-sm font-medium text-accent"
+                  >
+                    {t("switchToShop")} →
+                  </button>
+                </div>
+                <ul className="mt-3 divide-y divide-border border-y border-border">
+                  {recipe.ingredients.map((ing) => (
+                    <li
+                      key={ing.id}
+                      className="flex items-baseline justify-between gap-3 py-2.5 text-sm"
+                    >
+                      <span>{ing.name[locale]}</span>
+                      <span className="text-muted">
+                        {scaleAmount(ing.amount, recipe.servings, servings)}{" "}
+                        {ing.unit[locale]}
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            </>
+          ) : null}
         </div>
       ) : (
-        <div key="shop" className="mode-fade mt-8 space-y-6">
+        <div key="shop" className="mode-fade mt-6 space-y-6">
           <div className="flex flex-wrap gap-2">
             <button
               type="button"
               disabled={!isLoggedIn || pending}
               onClick={() =>
                 startTransition(async () => {
-                  await addRecipeToShoppingListAction(recipe.id, servings, locale);
+                  await addRecipeToShoppingListAction(
+                    recipe.id,
+                    servings,
+                    locale,
+                  );
                   setMessage(t("addToList"));
                 })
               }
@@ -246,12 +314,15 @@ export function RecipeExperience({
             >
               {t("addToList")}
             </button>
+            <button type="button" onClick={shareList} className="btn-secondary">
+              {t("shareList")}
+            </button>
             <button
               type="button"
-              onClick={shareList}
-              className="btn-secondary"
+              onClick={() => changeMode("cook")}
+              className="btn-ghost"
             >
-              {t("shareList")}
+              {t("switchToCook")} →
             </button>
           </div>
           {message ? (
@@ -317,19 +388,23 @@ export function RecipeExperience({
               </ul>
             </section>
           ))}
-
-          <details className="rounded-[var(--radius)] border border-border px-4 py-3">
-            <summary className="cursor-pointer font-medium">
-              {t("showSteps")}
-            </summary>
-            <ol className="mt-3 list-decimal space-y-2 pl-5 text-sm text-muted">
-              {translation.steps.map((step, i) => (
-                <li key={i}>{step.text}</li>
-              ))}
-            </ol>
-          </details>
         </div>
       )}
+
+      {/* Fixed mobile mode dock */}
+      <div
+        className="fixed inset-x-0 bottom-[calc(56px+env(safe-area-inset-bottom,0px))] z-40 border-t border-border bg-[color-mix(in_oklch,var(--bg)_94%,transparent)] px-3 py-2 backdrop-blur-md md:hidden"
+      >
+        <ModeSwitch mode={mode} onChange={changeMode} />
+      </div>
+
+      {!focusCook ? (
+        <RecipeArticle
+          title={translation.title}
+          article={article}
+          heading={articleHeading}
+        />
+      ) : null}
     </article>
   );
 }

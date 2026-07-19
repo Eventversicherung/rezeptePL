@@ -36,6 +36,7 @@ export async function saveRecipeAction(formData: FormData) {
   const excerpt = String(formData.get("excerpt") ?? "");
   const seoTitle = String(formData.get("seoTitle") ?? "");
   const seoDescription = String(formData.get("seoDescription") ?? "");
+  const article = String(formData.get("article") ?? "");
   const bodyHtml = String(formData.get("bodyHtml") ?? "");
   const stepsRaw = String(formData.get("steps") ?? "");
 
@@ -69,6 +70,10 @@ export async function saveRecipeAction(formData: FormData) {
         slug,
         excerpt: excerpt || stripHtml(bodyHtml).slice(0, 180),
         steps: steps.length ? steps : existing.translations[editLocale].steps,
+        article:
+          article ||
+          existing.translations[editLocale].article ||
+          stripHtml(bodyHtml),
         seoTitle: seoTitle || title,
         seoDescription:
           seoDescription || excerpt || stripHtml(bodyHtml).slice(0, 160),

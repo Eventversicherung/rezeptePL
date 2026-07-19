@@ -31,6 +31,8 @@ export type RecipeTranslation = {
   slug: string;
   excerpt: string;
   steps: RecipeStep[];
+  /** Long-form SEO body (~800–1200 words), shown below cook/shop UI */
+  article?: string;
   seoTitle: string;
   seoDescription: string;
 };

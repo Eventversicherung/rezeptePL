@@ -45,7 +45,16 @@
     "groupPolish": "Polenladen",
     "groupOther": "Sonstiges",
     "compactIngredients": "Zutaten",
-    "showSteps": "Schritte anzeigen"
+    "showSteps": "Schritte anzeigen",
+    "modeHelp": "Gleich hier umschalten — eine Seite, kein neuer Tab.",
+    "focusHint": "Fokus-Kochen: großer Schritt, Display bleibt wach.",
+    "enterFocus": "Fokus",
+    "exitFocus": "Fokus aus",
+    "prevStep": "Zurück",
+    "nextStep": "Weiter",
+    "switchToShop": "Zur Einkaufsliste",
+    "switchToCook": "Jetzt kochen",
+    "articleHeading": "Mehr über dieses Gericht"
   },
   "lists": {
     "title": "Einkaufslisten",
