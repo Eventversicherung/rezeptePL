@@ -111,34 +111,81 @@ body {
   backdrop-filter: blur(18px) saturate(1.35);
 }
 
+/* Same scale as DE/PL switcher: compact chip, 12px type, ~32px height */
 .site-header__chip {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
+  min-height: 2rem;
   border-radius: 9999px;
-  padding: 0.7rem 1.2rem;
-  font-size: 1.05rem;
+  padding: 0.25rem 0.7rem;
+  font-size: 0.75rem;
   font-weight: 600;
-  letter-spacing: -0.01em;
+  letter-spacing: 0.01em;
+  line-height: 1;
   color: var(--navy);
-  background: color-mix(in srgb, #ffffff 72%, transparent);
-  border: 1px solid color-mix(in srgb, #1a2744 8%, transparent);
-  box-shadow: 0 1px 0 color-mix(in srgb, #ffffff 80%, transparent);
+  background: var(--surface);
+  border: 1px solid var(--border);
   transition:
     background-color 160ms var(--ease-out),
     color 160ms var(--ease-out),
-    border-color 160ms var(--ease-out),
-    transform 160ms var(--ease-out);
+    border-color 160ms var(--ease-out);
 }
 
 .site-header__chip:hover {
   background: color-mix(in srgb, #dc143c 10%, #ffffff);
   border-color: color-mix(in srgb, #dc143c 28%, transparent);
   color: #dc143c;
-  transform: translateY(-1px);
 }
 
 .site-header--scrolled .site-header__chip {
-  background: color-mix(in srgb, #ffffff 88%, transparent);
+  background: color-mix(in srgb, #ffffff 92%, transparent);
+}
+
+.site-header__lang {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2rem;
+  border-radius: 9999px;
+  padding: 0.15rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1;
+  border: 1px solid var(--border);
+  background: var(--surface);
+}
+
+.site-header__lang-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 1.7rem;
+  min-width: 2rem;
+  padding: 0 0.45rem;
+  border: 0;
+  border-radius: 9999px;
+  background: transparent;
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--fg-muted);
+  cursor: pointer;
+}
+
+.site-header__lang-btn[data-active="true"] {
+  background: #dc143c;
+  color: #ffffff;
+}
+
+.site-header__login {
+  min-height: 2rem !important;
+  padding-inline: 0.85rem !important;
+  font-size: 0.75rem !important;
+  font-weight: 600;
+  line-height: 1;
+  box-shadow: none !important;
 }
 
 h1,

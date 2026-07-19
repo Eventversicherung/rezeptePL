@@ -25,7 +25,7 @@ export async function SiteHeader({ locale }: { locale: string }) {
         </Link>
 
         <nav
-          className="site-header__nav hidden items-center gap-2 md:flex"
+          className="site-header__nav hidden items-center gap-1.5 md:flex"
           aria-label="Main"
         >
           {(
@@ -48,10 +48,10 @@ export async function SiteHeader({ locale }: { locale: string }) {
           ) : null}
         </nav>
 
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-1.5">
           <LanguageSwitcher locale={locale} />
           {!user ? (
-            <Link href="/anmelden" className="btn-primary !min-h-10 px-5 text-sm">
+            <Link href="/anmelden" className="btn-primary site-header__login">
               {t("login")}
             </Link>
           ) : (
