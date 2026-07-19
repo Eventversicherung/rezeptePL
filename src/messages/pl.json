@@ -25,8 +25,18 @@
   },
   "recipes": {
     "title": "Przepisy",
+    "sub": "Przeglądaj po kategoriach — albo całą kolekcję naraz.",
     "search": "Szukaj…",
     "empty": "Brak przepisów.",
+    "browseByCategory": "Czego szukasz?",
+    "browseCategory": "Przepisy",
+    "viewCategory": "Zobacz wszystkie",
+    "allRecipes": "Wszystkie przepisy",
+    "allRecipesSub": "Cała kolekcja — układ według Twojego gustu.",
+    "gridDensity": "Widok",
+    "gridCols3": "3",
+    "gridCols4": "4",
+    "gridCols5": "5+",
     "servings": "Porcje",
     "minutes": "min",
     "prep": "Przygotowanie",
@@ -133,7 +143,8 @@
   "clusters": {
     "regions": "Regiony",
     "occasions": "Okazje",
-    "techniques": "Techniki"
+    "techniques": "Techniki",
+    "categories": "Kategorie"
   },
   "affiliate": {
     "disclosure": "Reklama · Link partnerski",

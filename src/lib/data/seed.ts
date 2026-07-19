@@ -29,6 +29,7 @@ const baseRecipes: Recipe[] = [
     regionIds: [],
     occasionIds: ["occasion-wigilia", "occasion-niedziela"],
     techniqueIds: ["technique-teig", "technique-freezer"],
+    categoryIds: ["category-hauptgerichte", "category-vegetarisch"],
     relatedPostIds: [
       "post-pierogi-teig",
       "post-twarog",
@@ -175,13 +176,14 @@ Ziemniaki, twaróg, cebula. Bez widowiska — smak, który wielu łączy z domem
     id: "recipe-bigos",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=1600&q=80",
+      "https://images.unsplash.com/photo-1534939561126-855b8675edd7?w=1600&q=80",
     prepMinutes: 30,
     cookMinutes: 120,
     servings: 6,
     regionIds: [],
     occasionIds: [],
     techniqueIds: [],
+    categoryIds: ["category-hauptgerichte"],
     videoUrl: null,
     translations: {
       de: {
@@ -276,13 +278,14 @@ Ziemniaki, twaróg, cebula. Bez widowiska — smak, który wielu łączy z domem
     id: "recipe-zurek",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?w=1600&q=80",
+      "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=1600&q=80",
     prepMinutes: 20,
     cookMinutes: 50,
     servings: 4,
     regionIds: ["region-slask"],
     occasionIds: ["occasion-wigilia"],
     techniqueIds: [],
+    categoryIds: ["category-suppen"],
     videoUrl: null,
     translations: {
       de: {
@@ -366,13 +369,14 @@ Ziemniaki, twaróg, cebula. Bez widowiska — smak, który wielu łączy z domem
     id: "recipe-oscypek",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?w=1600&q=80",
+      "https://images.unsplash.com/photo-1452195100486-9cc805987862?w=1600&q=80",
     prepMinutes: 10,
     cookMinutes: 15,
     servings: 2,
     regionIds: ["region-podhale"],
     occasionIds: [],
     techniqueIds: [],
+    categoryIds: ["category-schnell", "category-vegetarisch"],
     videoUrl: null,
     translations: {
       de: {
@@ -442,13 +446,18 @@ Ziemniaki, twaróg, cebula. Bez widowiska — smak, który wielu łączy z domem
     id: "recipe-placki",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=1600&q=80",
+      "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=1600&q=80",
     prepMinutes: 20,
     cookMinutes: 25,
     servings: 4,
     regionIds: [],
     occasionIds: [],
     techniqueIds: [],
+    categoryIds: [
+      "category-schnell",
+      "category-hauptgerichte",
+      "category-vegetarisch",
+    ],
     videoUrl: null,
     translations: {
       de: {
@@ -529,13 +538,14 @@ Ziemniaki, twaróg, cebula. Bez widowiska — smak, który wielu łączy z domem
     id: "recipe-golabki",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=1600&q=80",
+      "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=1600&q=80",
     prepMinutes: 40,
     cookMinutes: 60,
     servings: 4,
     regionIds: [],
     occasionIds: [],
     techniqueIds: [],
+    categoryIds: ["category-hauptgerichte"],
     videoUrl: null,
     translations: {
       de: {
@@ -609,13 +619,14 @@ Ziemniaki, twaróg, cebula. Bez widowiska — smak, który wielu łączy z domem
     id: "recipe-barszcz",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=1600&q=80",
+      "https://images.unsplash.com/photo-1590412200988-a436970781fa?w=1600&q=80",
     prepMinutes: 25,
     cookMinutes: 45,
     servings: 4,
     regionIds: [],
     occasionIds: ["occasion-wigilia"],
     techniqueIds: [],
+    categoryIds: ["category-suppen", "category-vegetarisch"],
     videoUrl: null,
     translations: {
       de: {
@@ -691,13 +702,14 @@ Ziemniaki, twaróg, cebula. Bez widowiska — smak, który wielu łączy z domem
     id: "recipe-schabowy",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1574484284002-952d92456975?w=1600&q=80",
+      "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=1600&q=80",
     prepMinutes: 20,
     cookMinutes: 20,
     servings: 4,
     regionIds: [],
     occasionIds: [],
     techniqueIds: [],
+    categoryIds: ["category-schnell", "category-hauptgerichte"],
     videoUrl: null,
     translations: {
       de: {
@@ -771,13 +783,18 @@ Ziemniaki, twaróg, cebula. Bez widowiska — smak, który wielu łączy z domem
     id: "recipe-nalesniki",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1529042410759-befb1204b468?w=1600&q=80",
+      "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=1600&q=80",
     prepMinutes: 15,
     cookMinutes: 25,
     servings: 4,
     regionIds: [],
     occasionIds: [],
     techniqueIds: ["technique-teig"],
+    categoryIds: [
+      "category-schnell",
+      "category-suess",
+      "category-vegetarisch",
+    ],
     videoUrl: null,
     translations: {
       de: {
@@ -852,13 +869,14 @@ Ziemniaki, twaróg, cebula. Bez widowiska — smak, który wielu łączy z domem
     id: "recipe-rosol",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=1600&q=80",
+      "https://images.unsplash.com/photo-1547592180-85f173990554?w=1600&q=80",
     prepMinutes: 20,
     cookMinutes: 120,
     servings: 6,
     regionIds: [],
     occasionIds: [],
     techniqueIds: [],
+    categoryIds: ["category-suppen"],
     videoUrl: null,
     translations: {
       de: {
@@ -934,13 +952,14 @@ Ziemniaki, twaróg, cebula. Bez widowiska — smak, który wielu łączy z domem
     id: "recipe-fasolka",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=1600&q=80",
+      "https://images.unsplash.com/photo-1546549032-9571cd6b27df?w=1600&q=80",
     prepMinutes: 15,
     cookMinutes: 40,
     servings: 4,
     regionIds: [],
     occasionIds: [],
     techniqueIds: [],
+    categoryIds: ["category-schnell", "category-hauptgerichte"],
     videoUrl: null,
     translations: {
       de: {
@@ -1010,6 +1029,182 @@ Ziemniaki, twaróg, cebula. Bez widowiska — smak, który wielu łączy z domem
     ],
     createdAt: "2026-02-13T10:00:00.000Z",
     updatedAt: "2026-02-13T10:00:00.000Z",
+  },
+  {
+    id: "recipe-faworki",
+    status: "published",
+    coverImage:
+      "https://images.unsplash.com/photo-1551024601-bec78aea704b?w=1600&q=80",
+    prepMinutes: 15,
+    cookMinutes: 30,
+    servings: 50,
+    regionIds: [],
+    occasionIds: ["occasion-tlusty-czwartek"],
+    techniqueIds: ["technique-teig"],
+    categoryIds: ["category-schnell", "category-suess"],
+    videoUrl: null,
+    translations: {
+      de: {
+        title: "Faworki",
+        slug: "faworki",
+        excerpt:
+          "Knusprige Schleifen mit Puderzucker. Klassiker für Tłusty Czwartek.",
+        steps: [
+          {
+            text: "Mehl, Eigelb, saure Sahne, Backpulver, Zucker und Wodka etwa 10 Minuten zu einem glatten Teig kneten.",
+            tip: "Wodka hilft beim Frittieren: der Teig nimmt weniger Öl auf.",
+          },
+          {
+            text: "Teig halbieren und jedes Stück hauchdünn ausrollen (Nudelholz oder Pastamaschine).",
+          },
+          {
+            text: "In Rechtecke ca. 10×3 cm schneiden. Längs mittig einschneiden (Rand lassen) und ein Ende durchziehen — so entsteht die Schlinge.",
+          },
+          {
+            text: "Öl auf 170–180 °C erhitzen. Faworki 1–2 Minuten pro Seite goldgelb frittieren.",
+            tip: "Holzstäbchen testen: viele Blasen = heiß genug. Nicht überfüllen.",
+          },
+          {
+            text: "Auf Küchenpapier abtropfen und noch warm großzügig mit Puderzucker bestäuben.",
+          },
+        ],
+        seoTitle: "Faworki Rezept | Polnisches Fasnachtsgebäck | Alemniam",
+        seoDescription:
+          "Faworki (Chruściki) selbst machen. Knusprig, mit Puderzucker — inkl. Einkaufshilfe für DE.",
+        article: `## Faworki — Schleifen für den Fettsdonnerstag
+
+Faworki (auch Chrust oder Chruściki) sind dünne, frittierte Teigschlingen mit Puderzucker. Traditionell an Tłusty Czwartek, aber jederzeit ein knuspriger Grund zum Feiern.
+
+### Teig
+
+Eigelb und saure Sahne machen den Teig zart. Ein Schuss Wodka (oder Rum) ist kein Geschmackstrick, sondern Technik: weniger Öl im fertigen Gebäck.
+
+### Formen
+
+Hauchdünn ausrollen. Dicke Stellen bleiben innen teigig. Die Schlinge entsteht, wenn du ein Ende durch den Mittelschnitt ziehst.
+
+### Frittieren
+
+170–180 °C. Zu heiß = außen dunkel, innen roh. Zu kalt = ölig. Portionweise arbeiten, abtropfen, warm bestäuben.
+
+### Haltbarkeit
+
+In einer Dose 2–4 Tage. Gut verpackt einfrieren: ca. 2 Monate.`,
+      },
+      pl: {
+        title: "Faworki",
+        slug: "faworki",
+        excerpt:
+          "Chrupiące chruściki z cukrem pudrem. Klasyk na Tłusty Czwartek.",
+        steps: [
+          {
+            text: "Zagnieć mąkę, żółtka, śmietanę, proszek do pieczenia, cukier i wódkę ok. 10 min na gładkie ciasto.",
+            tip: "Wódka pomaga przy smażeniu: ciasto wchłania mniej tłuszczu.",
+          },
+          {
+            text: "Podziel ciasto na pół i rozwałkuj papierowo cienko (wałek lub maszynka do makaronu).",
+          },
+          {
+            text: "Pokrój na prostokąty ok. 10×3 cm. Naciąć wzdłuż na środku i przeciągnąć jeden koniec — powstaje pętla.",
+          },
+          {
+            text: "Rozgrzej olej do 170–180 °C. Smaż 1–2 minuty z każdej strony na złoto.",
+            tip: "Test patyczkiem: dużo bąbelków = wystarczająco gorąco.",
+          },
+          {
+            text: "Odsącz na papierze i jeszcze ciepłe obficie posyp cukrem pudrem.",
+          },
+        ],
+        seoTitle: "Faworki przepis | Chruściki | Alemniam",
+        seoDescription:
+          "Faworki (chruściki) w domu. Chrupiące, z cukrem pudrem — z listą zakupów w DE.",
+        article: `## Faworki — chruściki na Tłusty Czwartek
+
+Faworki (też chrust / chruściki) to cienkie, smażone pętle z ciasta posypane cukrem pudrem. Tradycyjnie na Tłusty Czwartek — i zawsze, gdy chce się czegoś chrupiącego.
+
+### Ciasto
+
+Żółtka i śmietana dają delikatność. Odrobina wódki (lub rumu) to technika: mniej tłuszczu w gotowym wypieku.
+
+### Formowanie
+
+Rozwałkuj bardzo cienko. Grubsze miejsca zostają surowe w środku. Pętla powstaje po przeciągnięciu końca przez nacięcie.
+
+### Smażenie
+
+170–180 °C. Za gorąco = ciemno na zewnątrz, surowe w środku. Za chłodno = tłuste. Smaż partiami, odsącz, posyp na ciepło.
+
+### Przechowywanie
+
+W puszce 2–4 dni. Zamrożone w folii: ok. 2 miesiące.`,
+      },
+    },
+    ingredients: [
+      {
+        id: "fw-1",
+        name: { de: "Weizenmehl (Type 550)", pl: "Mąka pszenna" },
+        amount: 250,
+        unit: { de: "g", pl: "g" },
+        group: "pantry",
+      },
+      {
+        id: "fw-2",
+        name: { de: "Eigelb", pl: "Żółtka" },
+        amount: 5,
+        unit: { de: "Stück", pl: "szt." },
+        group: "dairy",
+      },
+      {
+        id: "fw-3",
+        name: { de: "Saure Sahne", pl: "Śmietana kwaśna" },
+        amount: 60,
+        unit: { de: "g", pl: "g" },
+        group: "dairy",
+        storeHintDe: "Schmand / saure Sahne 20%",
+      },
+      {
+        id: "fw-4",
+        name: { de: "Backpulver", pl: "Proszek do pieczenia" },
+        amount: 5,
+        unit: { de: "g", pl: "g" },
+        group: "pantry",
+      },
+      {
+        id: "fw-5",
+        name: { de: "Zucker", pl: "Cukier" },
+        amount: 20,
+        unit: { de: "g", pl: "g" },
+        group: "pantry",
+      },
+      {
+        id: "fw-6",
+        name: { de: "Wodka", pl: "Wódka" },
+        amount: 10,
+        unit: { de: "g", pl: "g" },
+        group: "pantry",
+        storeHintDe: "Neutraler Wodka; alternativ Rum",
+        substitute: {
+          de: "Rum oder Apfelessig (1 EL)",
+          pl: "Rum albo ocet jabłkowy (1 łyżka)",
+        },
+      },
+      {
+        id: "fw-7",
+        name: { de: "Frittieröl", pl: "Olej do smażenia" },
+        amount: 1,
+        unit: { de: "l", pl: "l" },
+        group: "pantry",
+      },
+      {
+        id: "fw-8",
+        name: { de: "Puderzucker", pl: "Cukier puder" },
+        amount: 80,
+        unit: { de: "g", pl: "g" },
+        group: "pantry",
+      },
+    ],
+    createdAt: "2026-02-15T10:00:00.000Z",
+    updatedAt: "2026-02-15T10:00:00.000Z",
   },
 ];
 

@@ -17,7 +17,7 @@ export default async function HomePage({
   const tc = await getTranslations("clusters");
   const brand = await getTranslations("brand");
   const catalog = (await listRecipeCatalog(locale)).slice(0, 4);
-  const clusters = await listClusters();
+  const clusters = (await listClusters()).filter((c) => c.kind !== "category");
   const tRecipes = await getTranslations("recipes");
 
   return (

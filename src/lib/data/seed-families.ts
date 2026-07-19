@@ -8,6 +8,7 @@ export const seedFamilies: RecipeFamily[] = [
     regionIds: [],
     occasionIds: ["occasion-wigilia", "occasion-niedziela"],
     techniqueIds: ["technique-teig", "technique-freezer"],
+    categoryIds: ["category-hauptgerichte", "category-vegetarisch"],
     variantIds: [
       "recipe-pierogi",
       "recipe-pierogi-meat",
@@ -59,6 +60,7 @@ export const seedFamilyVariantRecipes: Recipe[] = [
     regionIds: [],
     occasionIds: ["occasion-niedziela"],
     techniqueIds: ["technique-teig", "technique-freezer"],
+    categoryIds: ["category-hauptgerichte"],
     relatedPostIds: ["post-pierogi-teig", "post-teigmaschine", "post-polenladen"],
     videoUrl: null,
     translations: {
@@ -219,6 +221,7 @@ Przełącz u góry na [ruskie](/pl/rezepte/pierogi/ruskie) albo [kapustę z grzy
     regionIds: [],
     occasionIds: ["occasion-wigilia", "occasion-post"],
     techniqueIds: ["technique-teig", "technique-freezer"],
+    categoryIds: ["category-hauptgerichte", "category-vegetarisch"],
     relatedPostIds: ["post-pierogi-teig", "post-wigilia", "post-polenladen"],
     videoUrl: null,
     translations: {

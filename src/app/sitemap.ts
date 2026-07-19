@@ -6,6 +6,7 @@ import {
   listPublishedBlogPosts,
   listPublishedRecipes,
 } from "@/lib/data/repository";
+import { clusterBasePath } from "@/lib/data/cluster-paths";
 import { familyVariantPath } from "@/lib/data/recipe-paths";
 import { siteUrl } from "@/lib/utils";
 import type { Locale } from "@/types/content";
@@ -91,16 +92,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   const clusterEntries = locales.flatMap((locale) =>
     clusters.map((cluster) => {
-      const path =
-        cluster.kind === "region"
-          ? "regionen"
-          : cluster.kind === "occasion"
-            ? "anlaesse"
-            : "techniken";
+      const path = clusterBasePath(cluster.kind);
       return {
         url: `${base}/${locale}/${path}/${cluster.slug[locale]}`,
         changeFrequency: "monthly" as const,
-        priority: 0.7,
+        priority: cluster.kind === "category" ? 0.75 : 0.7,
         alternates: {
           languages: {
             de: `${base}/de/${path}/${cluster.slug.de}`,

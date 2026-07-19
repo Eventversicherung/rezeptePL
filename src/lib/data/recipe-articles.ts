@@ -396,6 +396,40 @@ const FACTS: Record<string, ArticleFacts> = {
     variantsPl:
       "Ostra z chili, z większą ilością warzyw albo bez boczku. Baza pomidorowo-fasolowa zostaje.",
   },
+  "recipe-faworki": {
+    dishDe: "Faworki",
+    dishPl: "Faworki",
+    vibeDe: "knusprig, zart, puderzuckerweiß",
+    vibePl: "chrupiące, kruche, w cukrze pudrze",
+    originDe:
+      "Faworki — auch Chrust oder Chruściki — gehören zu Tłusty Czwartek und zur polnischen Faschingsküche. Hauchdünner Teig, heißes Öl, viel Puderzucker. Kein schweres Gebäck, sondern knusprige Schleifen.",
+    originPl:
+      "Faworki — też chrust lub chruściki — należą do Tłustego Czwartku i karnawałowej kuchni. Papierowo cienkie ciasto, gorący olej, dużo cukru pudru. Nie ciężkie ciasto, tylko chrupiące pętle.",
+    shopDe:
+      "Weizenmehl, Eigelb, saure Sahne/Schmand, Backpulver, Zucker, Wodka (oder Rum), Frittieröl, Puderzucker. Alles im deutschen Supermarkt.",
+    shopPl:
+      "Mąka, żółtka, śmietana, proszek do pieczenia, cukier, wódka (lub rum), olej, cukier puder. Wszystko w niemieckim markecie.",
+    techniqueDe:
+      "Lange kneten, hauchdünn ausrollen, Schlingen formen, bei 170–180 °C frittieren, abtropfen, warm bestäuben. Alkohol im Teig reduziert die Ölaufnahme.",
+    techniquePl:
+      "Długo wyrabiać, rozwałkować bardzo cienko, formować pętle, smażyć w 170–180 °C, odsączyć, posypać na ciepło. Alkohol w cieście zmniejsza wchłanianie tłuszczu.",
+    serveDe:
+      "Noch warm mit viel Puderzucker. Zur Kaffee oder als Tłusty-Czwartek-Teller neben Pączki.",
+    servePl:
+      "Jeszcze ciepłe, obficie w cukrze pudrze. Do kawy albo na talerz Tłustego Czwartku obok pączków.",
+    diasporaDe:
+      "In Deutschland oft leichter selbst zu machen als gute frische Faworki zu finden. Ein Nachmittag, ein Topf Öl — und der Geruch erinnert an zu Hause.",
+    diasporaPl:
+      "W Niemczech często łatwiej upiec samemu niż znaleźć dobre świeże faworki. Jedno popołudnie, garnek oleju — i zapach wraca do domu.",
+    mistakesDe:
+      "Zu dicker Teig, zu kaltes Öl, zu voller Topf, Puderzucker erst nach dem Abkühlen. Dann werden sie ölig oder weich.",
+    mistakesPl:
+      "Za grube ciasto, za chłodny olej, za pełny garnek, cukier puder dopiero po wystygnięciu. Wtedy wychodzą tłuste albo miękkie.",
+    variantsDe:
+      "Mit Zitronenschale im Teig, gebacken statt frittiert (knuspriger Kompromiss), oder als kleiner Batch für den Alltag.",
+    variantsPl:
+      "Ze skórką cytryny w cieście, pieczone zamiast smażone (chrupiący kompromis) albo mała partia na zwykły dzień.",
+  },
 };
 
 function expand(locale: Locale, f: ArticleFacts): string {

@@ -469,4 +469,104 @@ export const seedClusters: Cluster[] = [
       pl: "Technika mrożenia polskiej kuchni domowej.",
     },
   },
+  {
+    id: "category-schnell",
+    kind: "category",
+    slug: { de: "schnelle-rezepte", pl: "szybkie-przepisy" },
+    title: { de: "Schnelle Rezepte", pl: "Szybkie przepisy" },
+    description: {
+      de: "Unter einer Stunde auf dem Tisch — Alltag ohne Drama.",
+      pl: "Na stole w mniej niż godzinę — codzienność bez chaosu.",
+    },
+    seoTitle: {
+      de: "Schnelle polnische Rezepte | Alemniam",
+      pl: "Szybkie polskie przepisy | Alemniam",
+    },
+    seoDescription: {
+      de: "Polnische Klassiker, die schnell gehen. Mit Einkaufshilfe.",
+      pl: "Polskie klasyki, które wychodzą szybko. Z listą zakupów.",
+    },
+    coverImage:
+      "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?w=1200&q=80",
+  },
+  {
+    id: "category-suppen",
+    kind: "category",
+    slug: { de: "suppen", pl: "zupy" },
+    title: { de: "Suppen", pl: "Zupy" },
+    description: {
+      de: "Rosół, Żurek, Barszcz — Wärme in der Schüssel.",
+      pl: "Rosół, żurek, barszcz — ciepło w misce.",
+    },
+    seoTitle: {
+      de: "Polnische Suppen | Alemniam",
+      pl: "Polskie zupy | Alemniam",
+    },
+    seoDescription: {
+      de: "Klassische polnische Suppen bilingual kochen und einkaufen.",
+      pl: "Klasyczne polskie zupy dwujęzycznie.",
+    },
+    coverImage:
+      "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=1200&q=80",
+  },
+  {
+    id: "category-hauptgerichte",
+    kind: "category",
+    slug: { de: "hauptgerichte", pl: "dania-glowne" },
+    title: { de: "Hauptgerichte", pl: "Dania główne" },
+    description: {
+      de: "Sattmachende Klassiker für den großen Teller.",
+      pl: "Sycące klasyki na duży talerz.",
+    },
+    seoTitle: {
+      de: "Polnische Hauptgerichte | Alemniam",
+      pl: "Polskie dania główne | Alemniam",
+    },
+    seoDescription: {
+      de: "Hauptgerichte der polnischen Hausküche.",
+      pl: "Dania główne polskiej kuchni domowej.",
+    },
+    coverImage:
+      "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=1200&q=80",
+  },
+  {
+    id: "category-suess",
+    kind: "category",
+    slug: { de: "suesses", pl: "slodkosci" },
+    title: { de: "Süßes & Gebäck", pl: "Słodkości" },
+    description: {
+      de: "Faworki, Naleśniki und andere süße Momente.",
+      pl: "Faworki, naleśniki i inne słodkie chwile.",
+    },
+    seoTitle: {
+      de: "Polnisches Gebäck & Süßes | Alemniam",
+      pl: "Polskie słodkości | Alemniam",
+    },
+    seoDescription: {
+      de: "Süßes aus der polnischen Küche — von Faworki bis Naleśniki.",
+      pl: "Słodkości z polskiej kuchni — od faworków po naleśniki.",
+    },
+    coverImage:
+      "https://images.unsplash.com/photo-1551024601-bec78aea704b?w=1200&q=80",
+  },
+  {
+    id: "category-vegetarisch",
+    kind: "category",
+    slug: { de: "vegetarisch", pl: "wegetarianskie" },
+    title: { de: "Vegetarisch", pl: "Wegetariańskie" },
+    description: {
+      de: "Ohne Fleisch, mit Charakter — Quark, Kartoffel, Rote Bete.",
+      pl: "Bez mięsa, z charakterem — twaróg, ziemniak, burak.",
+    },
+    seoTitle: {
+      de: "Vegetarische polnische Rezepte | Alemniam",
+      pl: "Wegetariańskie polskie przepisy | Alemniam",
+    },
+    seoDescription: {
+      de: "Vegetarische Klassiker der polnischen Küche.",
+      pl: "Wegetariańskie klasyki polskiej kuchni.",
+    },
+    coverImage:
+      "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=1200&q=80",
+  },
 ];

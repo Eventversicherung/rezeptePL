@@ -47,6 +47,8 @@ export type Recipe = {
   regionIds: string[];
   occasionIds: string[];
   techniqueIds: string[];
+  /** Hub browsing categories (e.g. Schnelle Rezepte, Suppen) */
+  categoryIds: string[];
   /** When set, recipe is a variant inside a RecipeFamily */
   familyId?: string;
   /** Short label in the variant switcher */
@@ -78,13 +80,14 @@ export type RecipeFamily = {
   regionIds: string[];
   occasionIds: string[];
   techniqueIds: string[];
+  categoryIds: string[];
   /** Ordered for the switcher UI */
   variantIds: string[];
   relatedPostIds?: string[];
   translations: Record<Locale, RecipeFamilyTranslation>;
 };
 
-export type ClusterKind = "region" | "occasion" | "technique";
+export type ClusterKind = "region" | "occasion" | "technique" | "category";
 
 export type Cluster = {
   id: string;
@@ -94,6 +97,8 @@ export type Cluster = {
   description: Record<Locale, string>;
   seoTitle: Record<Locale, string>;
   seoDescription: Record<Locale, string>;
+  /** Optional cover for category tiles on the recipe hub */
+  coverImage?: string;
 };
 
 export type ShoppingListItem = {

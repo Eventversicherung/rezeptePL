@@ -211,6 +211,7 @@ export async function createRecipeDraft(): Promise<Recipe> {
     regionIds: [],
     occasionIds: [],
     techniqueIds: [],
+    categoryIds: [],
     videoUrl: null,
     translations: {
       de: {
@@ -282,7 +283,8 @@ export async function recipesForCluster(clusterId: string): Promise<Recipe[]> {
     return (
       f.regionIds.includes(clusterId) ||
       f.occasionIds.includes(clusterId) ||
-      f.techniqueIds.includes(clusterId)
+      f.techniqueIds.includes(clusterId) ||
+      (f.categoryIds ?? []).includes(clusterId)
     );
   };
   return recipes.filter(
@@ -290,6 +292,7 @@ export async function recipesForCluster(clusterId: string): Promise<Recipe[]> {
       r.regionIds.includes(clusterId) ||
       r.occasionIds.includes(clusterId) ||
       r.techniqueIds.includes(clusterId) ||
+      (r.categoryIds ?? []).includes(clusterId) ||
       (r.familyId ? familyClusterMatch(r.familyId) : false),
   );
 }
@@ -483,6 +486,7 @@ export async function moderateSubmission(
         regionIds: [],
         occasionIds: [],
         techniqueIds: [],
+        categoryIds: [],
         authorId: sub.userId,
         videoUrl: null,
         translations: {
