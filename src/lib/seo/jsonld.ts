@@ -1,4 +1,10 @@
 import type { Locale, Recipe } from "@/types/content";
+import { siteUrl } from "@/lib/utils";
+
+function absoluteMediaUrl(src: string) {
+  if (src.startsWith("http://") || src.startsWith("https://")) return src;
+  return `${siteUrl()}${src.startsWith("/") ? src : `/${src}`}`;
+}
 
 export function recipeJsonLd(
   recipe: Recipe,
@@ -11,7 +17,7 @@ export function recipeJsonLd(
     "@type": "Recipe",
     name: t.title,
     description: t.excerpt,
-    image: [recipe.coverImage],
+    image: [absoluteMediaUrl(recipe.coverImage)],
     url,
     prepTime: `PT${recipe.prepMinutes}M`,
     cookTime: `PT${recipe.cookMinutes}M`,

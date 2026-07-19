@@ -86,8 +86,7 @@ export const seedRecipes: Recipe[] = [
   {
     id: "recipe-pierogi",
     status: "published",
-    coverImage:
-      "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=1600&q=80",
+    coverImage: "/recipes/pierogi-ruskie.jpg",
     prepMinutes: 45,
     cookMinutes: 20,
     servings: 4,

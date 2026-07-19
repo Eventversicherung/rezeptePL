@@ -142,7 +142,7 @@ export function RecipeExperience({
         </div>
       ) : null}
 
-      {/* In flow. No sticky mid-page bar that blocks scrolling */}
+      {/* In flow: no sticky mid-page bar that blocks scrolling */}
       <div className="mt-6 space-y-4">
         <div className="min-w-0">
           <h1 className="font-display text-[clamp(1.85rem,6vw,2.85rem)] font-semibold leading-[1.05]">

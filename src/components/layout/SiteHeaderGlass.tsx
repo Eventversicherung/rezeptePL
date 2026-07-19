@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 
-/** Sticky glass shell that frosts when content scrolls underneath. */
+/** Sticky glass shell that frosts full-width when content scrolls underneath. */
 export function SiteHeaderGlass({ children }: { children: React.ReactNode }) {
   const [scrolled, setScrolled] = useState(false);
 
@@ -15,7 +15,7 @@ export function SiteHeaderGlass({ children }: { children: React.ReactNode }) {
 
   return (
     <header
-      className={`site-header sticky top-0 z-50 -mx-4 sm:-mx-6 ${
+      className={`site-header sticky top-0 z-50 w-full ${
         scrolled ? "site-header--scrolled" : ""
       }`}
     >

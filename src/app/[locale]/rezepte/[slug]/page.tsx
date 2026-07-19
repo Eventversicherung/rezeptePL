@@ -53,7 +53,11 @@ export async function generateMetadata({
     openGraph: {
       title: t.title,
       description: t.excerpt,
-      images: [recipe.coverImage],
+      images: [
+        recipe.coverImage.startsWith("http")
+          ? recipe.coverImage
+          : `${base}${recipe.coverImage}`,
+      ],
       locale,
       alternateLocale: [other],
     },

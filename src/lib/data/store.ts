@@ -28,7 +28,7 @@ export type AppStore = {
 };
 
 /** Bump when seed content changes so local/prod stores refresh. */
-export const SEED_VERSION = 5;
+export const SEED_VERSION = 6;
 
 const STORE_PATH = path.join(process.cwd(), ".data", "store.json");
 

@@ -99,11 +99,13 @@ body {
 }
 
 .site-header {
+  width: 100%;
   background: transparent;
   transition: background-color 220ms var(--ease-out);
 }
 
 .site-header--scrolled {
+  width: 100%;
   background: color-mix(in srgb, #fffdfb 62%, transparent);
   -webkit-backdrop-filter: blur(18px) saturate(1.35);
   backdrop-filter: blur(18px) saturate(1.35);
