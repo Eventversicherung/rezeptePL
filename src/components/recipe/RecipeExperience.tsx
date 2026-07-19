@@ -129,35 +129,29 @@ export function RecipeExperience({
               className="object-cover"
               sizes="(max-width: 768px) 100vw, 768px"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-transparent to-transparent" />
-            {mode === "cook" ? (
-              <div className="absolute bottom-4 left-4 right-4 sm:bottom-6 sm:left-6">
-                <p className="section-kicker !text-[#ffb3c1]">Alemniam</p>
-              </div>
-            ) : null}
+            <div className="absolute inset-0 bg-gradient-to-t from-[var(--navy)]/70 via-transparent to-transparent" />
           </div>
         </div>
       ) : null}
 
-      <div className="sticky top-16 z-40 -mx-4 mt-5 border-b border-border/80 bg-[color-mix(in_srgb,var(--bg)_90%,transparent)] px-4 py-4 backdrop-blur-xl sm:-mx-0 sm:rounded-[calc(var(--radius)+4px)] sm:border sm:shadow-[0_12px_40px_rgba(220,20,60,0.08)]">
-        <div className="flex flex-col gap-3">
-          <div className="min-w-0">
-            <h1 className="font-display text-[clamp(1.85rem,6vw,2.85rem)] font-semibold leading-[1.05]">
-              {translation.title}
-            </h1>
-            {!focusCook ? (
-              <p className="mt-2 line-clamp-2 max-w-[65ch] text-base text-muted">
-                {translation.excerpt}
-              </p>
-            ) : (
-              <p className="mt-2 text-sm font-semibold text-accent">
-                {t("focusHint")}
-              </p>
-            )}
-          </div>
-          <ModeSwitch mode={mode} onChange={changeMode} />
-          <p className="text-xs font-medium text-muted">{t("modeHelp")}</p>
+      {/* In flow — no sticky mid-page bar that blocks scrolling */}
+      <div className="mt-6 space-y-4">
+        <div className="min-w-0">
+          <h1 className="font-display text-[clamp(1.85rem,6vw,2.85rem)] font-semibold leading-[1.05]">
+            {translation.title}
+          </h1>
+          {!focusCook ? (
+            <p className="mt-2 max-w-[65ch] text-base text-muted">
+              {translation.excerpt}
+            </p>
+          ) : (
+            <p className="mt-2 text-sm font-semibold text-accent">
+              {t("focusHint")}
+            </p>
+          )}
         </div>
+        <ModeSwitch mode={mode} onChange={changeMode} />
+        <p className="text-xs font-medium text-muted">{t("modeHelp")}</p>
       </div>
 
       <div className="mt-4 flex flex-wrap items-center gap-2 text-sm text-muted">
@@ -393,13 +387,6 @@ export function RecipeExperience({
           ))}
         </div>
       )}
-
-      {/* Fixed mobile mode dock */}
-      <div
-        className="fixed inset-x-0 bottom-[calc(56px+env(safe-area-inset-bottom,0px))] z-40 border-t border-border bg-[color-mix(in_oklch,var(--bg)_94%,transparent)] px-3 py-2 backdrop-blur-md md:hidden"
-      >
-        <ModeSwitch mode={mode} onChange={changeMode} />
-      </div>
 
       {!focusCook ? (
         <RecipeArticle

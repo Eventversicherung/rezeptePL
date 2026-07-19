@@ -16,7 +16,7 @@ export function BottomNav() {
 
   return (
     <nav
-      className="fixed inset-x-0 bottom-0 z-50 border-t border-border bg-[color-mix(in_oklch,var(--bg)_92%,transparent)] backdrop-blur-md md:hidden"
+      className="fixed inset-x-0 bottom-0 z-50 border-t border-[color-mix(in_srgb,#1a2744_12%,transparent)] bg-[color-mix(in_srgb,#fffdfb_94%,transparent)] backdrop-blur-md md:hidden"
       style={{ paddingBottom: "env(safe-area-inset-bottom, 0px)" }}
       aria-label="Primary"
     >
@@ -30,10 +30,10 @@ export function BottomNav() {
             <li key={item.href}>
               <Link
                 href={item.href}
-                className={`flex min-h-12 flex-col items-center justify-center rounded-xl text-xs ${
+                className={`flex min-h-12 flex-col items-center justify-center rounded-xl text-xs font-semibold ${
                   active
-                    ? "bg-accent-soft font-medium text-accent"
-                    : "text-muted"
+                    ? "bg-[color-mix(in_srgb,#dc143c_12%,transparent)] text-[#dc143c]"
+                    : "text-[var(--navy)]/55"
                 }`}
               >
                 {t(item.key)}

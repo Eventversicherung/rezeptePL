@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { RecipeCard } from "@/components/recipe/RecipeCard";
@@ -28,14 +29,24 @@ export default async function HomePage({
               "url(https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=2400&q=80)",
           }}
         />
-        <div className="absolute inset-0 bg-[linear-gradient(105deg,rgba(28,20,18,0.82)_0%,rgba(28,20,18,0.35)_48%,rgba(220,20,60,0.22)_100%)]" />
-        <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-[var(--bg)] to-transparent" />
+        <div className="absolute inset-0 bg-[linear-gradient(115deg,rgba(18,27,48,0.88)_0%,rgba(26,39,68,0.45)_50%,rgba(220,20,60,0.28)_100%)]" />
+        <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-[var(--bg)] to-transparent" />
 
         <div className="relative mx-auto flex min-h-[88dvh] w-full max-w-6xl flex-col justify-end px-4 pb-14 pt-28 sm:px-6 sm:pb-20">
           <div className="reveal max-w-3xl">
-            <p className="font-display text-sm font-bold uppercase tracking-[0.28em] text-[#ffb3c1]">
-              {brand("name")}
-            </p>
+            <div className="mb-4 flex items-center gap-3">
+              <Image
+                src="/alemniam-logo.jpg"
+                alt=""
+                width={56}
+                height={56}
+                className="size-14 rounded-full bg-white object-contain shadow-lg ring-2 ring-white/80"
+                priority
+              />
+              <p className="font-display text-sm font-bold uppercase tracking-[0.22em] text-white/90">
+                <span className="text-[#ff6b81]">Ale</span>Mniam
+              </p>
+            </div>
             <h1 className="mt-4 max-w-[11ch] font-display text-[clamp(3.2rem,12vw,6.5rem)] font-semibold text-white">
               {t("headline")}
             </h1>

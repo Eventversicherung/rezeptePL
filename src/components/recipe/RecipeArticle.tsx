@@ -18,7 +18,7 @@ export function RecipeArticle({
       className="recipe-article mt-20 border-t-2 border-accent/20 pt-14"
       aria-labelledby="recipe-article-heading"
     >
-      <p className="section-kicker">SEO</p>
+      <p className="section-kicker">Alemniam</p>
       <h2
         id="recipe-article-heading"
         className="mt-3 font-display text-[clamp(1.8rem,4vw,2.6rem)] font-semibold"
