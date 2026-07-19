@@ -159,42 +159,48 @@ export function RecipeExperience({
         <Breadcrumbs items={breadcrumbs} ariaLabel={breadcrumbsLabel} />
       ) : null}
 
-      {!focusCook && family && variants.length > 1 ? (
-        <VariantSwitcher
-          family={family}
-          variants={variants}
-          activeId={recipe.id}
-          locale={locale}
-          label={variantsLabel}
-        />
-      ) : null}
-
       {!focusCook ? (
         <div
-          key={recipe.id}
-          className={`reveal relative overflow-hidden rounded-[calc(var(--radius)+10px)] bg-elevated shadow-[0_24px_60px_rgba(28,20,18,0.18)] transition-[max-height,opacity] duration-300 ease-out ${
-            mode === "shop"
-              ? "max-h-36 opacity-95 sm:max-h-44"
-              : "max-h-[48vh] sm:max-h-[56vh]"
+          className={`recipe-hero${
+            family && variants.length > 1 ? " recipe-hero--with-rail" : ""
           }`}
         >
           <div
-            className={`relative w-full ${
+            key={recipe.id}
+            className={`recipe-hero__frame reveal relative overflow-hidden rounded-[calc(var(--radius)+10px)] bg-elevated shadow-[0_24px_60px_rgba(28,20,18,0.18)] transition-[max-height,opacity] duration-300 ease-out ${
               mode === "shop"
-                ? "aspect-[21/9]"
-                : "aspect-[4/5] sm:aspect-[16/10]"
+                ? "max-h-36 opacity-95 sm:max-h-44"
+                : "max-h-[42vh] sm:max-h-[52vh]"
             }`}
           >
-            <Image
-              src={recipe.coverImage}
-              alt={translation.title}
-              fill
-              priority
-              className="object-cover"
-              sizes="(max-width: 768px) 100vw, 768px"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-[var(--navy)]/70 via-transparent to-transparent" />
+            <div
+              className={`relative w-full ${
+                mode === "shop"
+                  ? "aspect-[21/9]"
+                  : "aspect-[4/5] sm:aspect-[16/10]"
+              }`}
+            >
+              <Image
+                src={recipe.coverImage}
+                alt={translation.title}
+                fill
+                priority
+                className="object-cover"
+                sizes="(max-width: 768px) 75vw, 640px"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-[var(--navy)]/70 via-transparent to-transparent" />
+            </div>
           </div>
+
+          {family && variants.length > 1 ? (
+            <VariantSwitcher
+              family={family}
+              variants={variants}
+              activeId={recipe.id}
+              locale={locale}
+              label={variantsLabel}
+            />
+          ) : null}
         </div>
       ) : null}
 

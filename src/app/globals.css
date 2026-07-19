@@ -317,46 +317,80 @@ a.btn-primary:active:not(:disabled) {
   color: #ffffff !important;
 }
 
-/* Recipe family variants — image chips, in-flow (no sticky), prefetched links */
-.variant-switch {
-  margin: 0 0 1.35rem;
+/* Hero + variant rail side-by-side: title stays higher, less scroll waste */
+.recipe-hero {
+  display: grid;
+  gap: 0.65rem;
 }
 
-.variant-switch__label {
-  margin: 0 0 0.65rem;
-  font-size: 0.7rem;
+.recipe-hero--with-rail {
+  grid-template-columns: minmax(0, 1fr) 5.5rem;
+  align-items: stretch;
+}
+
+@media (min-width: 640px) {
+  .recipe-hero--with-rail {
+    grid-template-columns: minmax(0, 1fr) 11.5rem;
+    gap: 0.85rem;
+  }
+}
+
+.recipe-hero__frame {
+  min-width: 0;
+}
+
+.variant-rail {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin: 0;
+}
+
+.variant-rail__label {
+  margin: 0;
+  font-size: 0.65rem;
   font-weight: 700;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--fg-muted);
 }
 
-.variant-switch__gallery {
-  display: flex;
-  gap: 0.65rem;
-  margin: 0;
-  padding: 0.15rem 0.1rem 0.35rem;
-  list-style: none;
-  overflow-x: auto;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
+@media (max-width: 639px) {
+  .variant-rail__label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
 }
 
-.variant-switch__gallery::-webkit-scrollbar {
-  display: none;
-}
-
-.variant-switch__card {
+.variant-rail__list {
   display: flex;
-  width: 5.75rem;
+  flex: 1;
   flex-direction: column;
-  align-items: center;
-  gap: 0.45rem;
-  padding: 0.4rem;
-  border-radius: calc(var(--radius) + 2px);
+  gap: 0.4rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.variant-rail__item {
+  display: flex;
+  flex: 1;
+  min-height: 0;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0.3rem;
+  padding: 0.3rem;
+  border-radius: calc(var(--radius) - 2px);
   border: 1.5px solid transparent;
-  background: transparent;
-  text-align: center;
+  background: color-mix(in srgb, #ffffff 55%, var(--surface));
   transition:
     border-color 160ms var(--ease-out),
     background-color 160ms var(--ease-out),
@@ -364,57 +398,76 @@ a.btn-primary:active:not(:disabled) {
 }
 
 @media (min-width: 640px) {
-  .variant-switch__card {
-    width: 6.5rem;
+  .variant-rail__item {
+    flex-direction: row;
+    align-items: center;
+    gap: 0.55rem;
+    padding: 0.4rem;
   }
 }
 
-.variant-switch__card:hover {
+.variant-rail__item:hover {
+  border-color: color-mix(in srgb, #dc143c 18%, var(--border));
   background: color-mix(in srgb, #dc143c 5%, var(--surface));
-  border-color: color-mix(in srgb, #dc143c 14%, var(--border));
 }
 
-.variant-switch__card.is-active {
-  background: color-mix(in srgb, #dc143c 8%, var(--surface));
+.variant-rail__item.is-active {
   border-color: #dc143c;
-  box-shadow: 0 8px 20px color-mix(in srgb, #dc143c 14%, transparent);
+  background: color-mix(in srgb, #dc143c 8%, var(--surface));
+  box-shadow: 0 6px 16px color-mix(in srgb, #dc143c 12%, transparent);
 }
 
-.variant-switch__media {
+.variant-rail__thumb {
   position: relative;
   display: block;
   aspect-ratio: 1;
   width: 100%;
+  flex-shrink: 0;
   overflow: hidden;
-  border-radius: calc(var(--radius) - 2px);
+  border-radius: calc(var(--radius) - 4px);
   background: var(--bg-elevated);
 }
 
-.variant-switch__card.is-active .variant-switch__media {
-  box-shadow: inset 0 0 0 2px color-mix(in srgb, #dc143c 35%, transparent);
+@media (min-width: 640px) {
+  .variant-rail__thumb {
+    width: 3.25rem;
+  }
 }
 
-.variant-switch__media img {
+.variant-rail__thumb img {
   transition: transform 400ms var(--ease-out);
 }
 
-.variant-switch__card:hover .variant-switch__media img {
+.variant-rail__item:hover .variant-rail__thumb img {
   transform: scale(1.05);
 }
 
-.variant-switch__name {
-  display: -webkit-box;
-  min-height: 2.2em;
+.variant-rail__name {
+  display: block;
   overflow: hidden;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
-  font-size: 0.78rem;
+  text-align: center;
+  font-size: 0.62rem;
   font-weight: 600;
-  line-height: 1.25;
+  line-height: 1.15;
   color: var(--fg);
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
-.variant-switch__card.is-active .variant-switch__name {
+@media (min-width: 640px) {
+  .variant-rail__name {
+    display: -webkit-box;
+    text-align: left;
+    font-size: 0.8rem;
+    line-height: 1.2;
+    white-space: normal;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    text-overflow: unset;
+  }
+}
+
+.variant-rail__item.is-active .variant-rail__name {
   color: #dc143c;
 }
 

@@ -30,9 +30,9 @@ export function VariantSwitcher({
   }, [activeId, family, locale, router, variants]);
 
   return (
-    <div className="variant-switch" role="navigation" aria-label={label}>
-      <p className="variant-switch__label">{label}</p>
-      <ul className="variant-switch__gallery">
+    <aside className="variant-rail" role="navigation" aria-label={label}>
+      <p className="variant-rail__label">{label}</p>
+      <ul className="variant-rail__list">
         {variants.map((variant) => {
           const href = familyVariantPath(family, variant, locale);
           const name =
@@ -51,23 +51,24 @@ export function VariantSwitcher({
                 prefetch
                 scroll={false}
                 aria-current={active ? "page" : undefined}
-                className={`variant-switch__card${active ? " is-active" : ""}`}
+                title={name}
+                className={`variant-rail__item${active ? " is-active" : ""}`}
               >
-                <span className="variant-switch__media">
+                <span className="variant-rail__thumb">
                   <Image
                     src={thumb}
                     alt=""
                     fill
                     className="object-cover"
-                    sizes="96px"
+                    sizes="72px"
                   />
                 </span>
-                <span className="variant-switch__name">{name}</span>
+                <span className="variant-rail__name">{name}</span>
               </Link>
             </li>
           );
         })}
       </ul>
-    </div>
+    </aside>
   );
 }
