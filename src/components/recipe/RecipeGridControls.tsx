@@ -4,8 +4,6 @@ import { useEffect, useState, type ReactNode } from "react";
 
 export type GridDensity = 3 | 4 | 5;
 
-const STORAGE_KEY = "alemniam-recipe-grid-cols";
-
 function densityClass(cols: GridDensity): string {
   if (cols === 3) return "sm:grid-cols-2 lg:grid-cols-3";
   if (cols === 4) return "sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4";
@@ -17,29 +15,31 @@ export function RecipeGridControls({
   label,
   optionLabels,
   initial = 3,
+  storageKey = "alemniam-recipe-grid-cols",
 }: {
   children: ReactNode;
   label: string;
   optionLabels: Record<GridDensity, string>;
   initial?: GridDensity;
+  storageKey?: string;
 }) {
   const [cols, setCols] = useState<GridDensity>(initial);
 
   useEffect(() => {
     try {
-      const raw = window.localStorage.getItem(STORAGE_KEY);
+      const raw = window.localStorage.getItem(storageKey);
       if (raw === "3" || raw === "4" || raw === "5") {
         setCols(Number(raw) as GridDensity);
       }
     } catch {
       /* ignore */
     }
-  }, []);
+  }, [storageKey]);
 
   function select(next: GridDensity) {
     setCols(next);
     try {
-      window.localStorage.setItem(STORAGE_KEY, String(next));
+      window.localStorage.setItem(storageKey, String(next));
     } catch {
       /* ignore */
     }

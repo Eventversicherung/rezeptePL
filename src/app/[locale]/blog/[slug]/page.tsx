@@ -123,6 +123,10 @@ export default async function BlogPostPage({
           products: t("products"),
           disclosure: tAff("disclosure"),
           readMore: t("readMore"),
+          cookCta: t("cookCta"),
+          ctaTitle: t("ctaTitle"),
+          ctaBody: t("ctaBody"),
+          ctaButton: t("ctaButton"),
         }}
       />
     </div>

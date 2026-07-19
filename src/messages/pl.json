@@ -81,11 +81,25 @@
   "blog": {
     "title": "Blog",
     "sub": "Poradniki, składniki, tradycja i sprzęt — połączone z przepisami.",
+    "topicsLabel": "Tematy",
+    "browseByTopic": "Czego szukasz?",
+    "browseTopic": "Wpisy",
+    "allPosts": "Wszystkie wpisy",
+    "clearFilter": "Wszystkie tematy",
+    "search": "Temat, tytuł lub słowo kluczowe…",
+    "searchKicker": "Szukaj",
+    "searchSubmit": "Szukaj",
+    "filteringTopic": "Temat: {topic}",
+    "filteringQuery": "Szukaj: „{query}”",
     "empty": "Brak wpisów.",
-    "relatedRecipes": "Pasujące przepisy",
-    "relatedPosts": "Czytaj dalej",
+    "relatedRecipes": "Pasujące przepisy do gotowania",
+    "relatedPosts": "To też może Cię zainteresować",
     "products": "Przydatny sprzęt",
     "readMore": "Czytaj dalej",
+    "cookCta": "Otwórz przepis",
+    "ctaTitle": "Gotowi do gotowania?",
+    "ctaBody": "Otwórz pasujący przepis — tryb gotowania i lista zakupów na jednej stronie.",
+    "ctaButton": "Do przepisu",
     "filter": {
       "all": "Wszystkie",
       "guide": "Gotowanie",
@@ -93,6 +107,13 @@
       "culture": "Tradycja",
       "diaspora": "W Niemczech",
       "gear": "Kuchnia i sprzęt"
+    },
+    "topicDesc": {
+      "guide": "Technika i przebieg — żeby dania wychodziły.",
+      "lexicon": "Składniki i nazwy, które trzeba znać w DE.",
+      "culture": "Święta, stół, to co za smakiem stoi.",
+      "diaspora": "Zakupy i gotowanie między PL a DE.",
+      "gear": "Narzędzia, które ułatwiają codzienność."
     }
   },
   "lists": {

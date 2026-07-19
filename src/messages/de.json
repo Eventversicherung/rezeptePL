@@ -81,11 +81,25 @@
   "blog": {
     "title": "Blog",
     "sub": "Guides, Zutaten, Tradition und Kaufberater — vernetzt mit den Rezepten.",
+    "topicsLabel": "Themen",
+    "browseByTopic": "Wonach suchst du?",
+    "browseTopic": "Beiträge",
+    "allPosts": "Alle Beiträge",
+    "clearFilter": "Alle Themen",
+    "search": "Thema, Titel oder Stichwort…",
+    "searchKicker": "Suche",
+    "searchSubmit": "Suchen",
+    "filteringTopic": "Thema: {topic}",
+    "filteringQuery": "Suche: „{query}“",
     "empty": "Noch keine Beiträge.",
-    "relatedRecipes": "Passende Rezepte",
-    "relatedPosts": "Weiterlesen",
+    "relatedRecipes": "Passende Rezepte zum Kochen",
+    "relatedPosts": "Das könnte dich auch interessieren",
     "products": "Hilfreiche Küchenhelfer",
     "readMore": "Weiterlesen",
+    "cookCta": "Rezept öffnen",
+    "ctaTitle": "Bereit zum Kochen?",
+    "ctaBody": "Öffne ein passendes Rezept — mit Kochmodus und Einkaufsliste auf einer Seite.",
+    "ctaButton": "Zum Rezept",
     "filter": {
       "all": "Alle",
       "guide": "Kochen",
@@ -93,6 +107,13 @@
       "culture": "Tradition",
       "diaspora": "In Deutschland",
       "gear": "Küche & Geräte"
+    },
+    "topicDesc": {
+      "guide": "Technik und Abläufe — damit Gerichte gelingen.",
+      "lexicon": "Zutaten und Namen, die man in DE kennen muss.",
+      "culture": "Feste, Tischkultur, was dahintersteckt.",
+      "diaspora": "Einkaufen und Kochen zwischen PL und DE.",
+      "gear": "Werkzeug, das den Alltag leichter macht."
     }
   },
   "lists": {

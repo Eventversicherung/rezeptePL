@@ -99,14 +99,14 @@ export default async function RecipesPage({
 
       {/* 3 — Solid red search band, round pills */}
       <section
-        className="recipe-search reveal"
+        className="hub-search reveal"
         aria-labelledby="recipe-search-heading"
       >
-        <div className="recipe-search__inner">
-          <p className="recipe-search__label" id="recipe-search-heading">
+        <div className="hub-search__inner">
+          <p className="hub-search__label" id="recipe-search-heading">
             {t("searchKicker")}
           </p>
-          <form className="recipe-search__form">
+          <form className="hub-search__form">
             {activeCategory ? (
               <input
                 type="hidden"
@@ -122,14 +122,14 @@ export default async function RecipesPage({
               name="q"
               defaultValue={q}
               placeholder={t("search")}
-              className="recipe-search__input"
+              className="hub-search__input"
             />
-            <button type="submit" className="recipe-search__submit">
+            <button type="submit" className="hub-search__submit">
               {t("searchSubmit")}
             </button>
           </form>
           {activeCategory || q ? (
-            <p className="recipe-search__meta">
+            <p className="hub-search__meta">
               {activeCategory ? (
                 <span>
                   {t("filteringCategory", {
