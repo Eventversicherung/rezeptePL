@@ -10,66 +10,62 @@ export async function SiteHeader({ locale }: { locale: string }) {
   const user = await getSessionUser();
 
   return (
-    <header className="site-header sticky top-0 z-50 -mx-4 sm:-mx-6">
-      <div className="site-header__bar">
-        <div className="mx-auto flex h-[4.25rem] w-full max-w-6xl items-center justify-between gap-3 px-4 sm:px-6">
-          <Link
-            href="/"
-            className="flex min-w-0 items-center gap-2.5 sm:gap-3"
-            aria-label={brand("name")}
-          >
-            <Image
-              src="/alemniam-logo.jpg"
-              alt=""
-              width={52}
-              height={52}
-              className="size-11 shrink-0 rounded-full bg-white object-contain shadow-sm ring-2 ring-white/90 sm:size-[3.25rem]"
-              priority
-            />
-            <span className="font-display text-lg font-semibold tracking-tight text-white sm:text-xl">
-              <span className="text-[#ff6b81]">Ale</span>
-              <span className="text-white">Mniam</span>
-            </span>
-          </Link>
+    <header className="site-header sticky top-0 z-50 -mx-4 border-b border-border/80 bg-[color-mix(in_srgb,#fffdfb_92%,transparent)] backdrop-blur-xl sm:-mx-6">
+      <div className="mx-auto flex h-[4.75rem] w-full max-w-6xl items-center justify-between gap-3 px-4 sm:h-[5.25rem] sm:px-6">
+        <Link
+          href="/"
+          className="flex min-w-0 items-center gap-3 sm:gap-3.5"
+          aria-label={brand("name")}
+        >
+          <Image
+            src="/alemniam-logo.jpg"
+            alt={brand("name")}
+            width={96}
+            height={96}
+            className="size-14 shrink-0 rounded-full bg-white object-contain sm:size-16"
+            priority
+          />
+          <span className="hidden font-display text-lg font-semibold tracking-tight text-[var(--navy)] sm:inline sm:text-xl">
+            <span className="text-accent">Ale</span>Mniam
+          </span>
+        </Link>
 
-          <nav className="hidden items-center gap-1 md:flex" aria-label="Main">
-            {(
-              [
-                ["/rezepte", t("recipes")],
-                ["/listen", t("lists")],
-                ["/community/hochladen", t("community")],
-                ["/profil", t("profile")],
-              ] as const
-            ).map(([href, label]) => (
-              <Link key={href} href={href} className="site-header__link">
-                {label}
-              </Link>
-            ))}
-            {user?.role === "admin" || user?.role === "moderator" ? (
-              <Link href="/admin" className="site-header__link">
-                {t("admin")}
-              </Link>
-            ) : null}
-          </nav>
+        <nav className="hidden items-center gap-1 md:flex" aria-label="Main">
+          {(
+            [
+              ["/rezepte", t("recipes")],
+              ["/listen", t("lists")],
+              ["/community/hochladen", t("community")],
+              ["/profil", t("profile")],
+            ] as const
+          ).map(([href, label]) => (
+            <Link key={href} href={href} className="site-header__link">
+              {label}
+            </Link>
+          ))}
+          {user?.role === "admin" || user?.role === "moderator" ? (
+            <Link href="/admin" className="site-header__link">
+              {t("admin")}
+            </Link>
+          ) : null}
+        </nav>
 
-          <div className="flex items-center gap-2">
-            <LanguageSwitcher locale={locale} variant="onDark" />
-            {!user ? (
-              <Link href="/anmelden" className="site-header__cta">
-                {t("login")}
-              </Link>
-            ) : (
-              <Link
-                href="/profil"
-                className="hidden max-w-[8rem] truncate rounded-full bg-white/15 px-3 py-1.5 text-sm font-medium text-white sm:inline"
-              >
-                {user.displayName}
-              </Link>
-            )}
-          </div>
+        <div className="flex items-center gap-2">
+          <LanguageSwitcher locale={locale} />
+          {!user ? (
+            <Link href="/anmelden" className="btn-primary !min-h-9 px-4 text-sm">
+              {t("login")}
+            </Link>
+          ) : (
+            <Link
+              href="/profil"
+              className="hidden max-w-[8rem] truncate text-sm font-medium text-[var(--navy)] sm:inline"
+            >
+              {user.displayName}
+            </Link>
+          )}
         </div>
       </div>
-      <div className="site-header__trim" aria-hidden />
     </header>
   );
 }

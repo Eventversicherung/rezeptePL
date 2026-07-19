@@ -94,49 +94,20 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-.site-header__bar {
-  background:
-    linear-gradient(
-      105deg,
-      var(--navy-deep) 0%,
-      var(--navy) 42%,
-      color-mix(in srgb, #dc143c 55%, var(--navy)) 100%
-    );
-  box-shadow: 0 10px 28px color-mix(in srgb, #121b30 28%, transparent);
-}
-
-.site-header__trim {
-  height: 4px;
-  background: linear-gradient(90deg, #dc143c 0%, #fff 45%, #1a2744 100%);
-}
-
 .site-header__link {
   border-radius: 9999px;
   padding: 0.55rem 0.9rem;
   font-size: 0.9rem;
   font-weight: 600;
-  color: color-mix(in srgb, #ffffff 82%, transparent);
+  color: var(--fg-muted);
   transition:
     background-color 160ms var(--ease-out),
     color 160ms var(--ease-out);
 }
 
 .site-header__link:hover {
-  background: color-mix(in srgb, #ffffff 14%, transparent);
-  color: #ffffff;
-}
-
-.site-header__cta {
-  display: inline-flex;
-  min-height: 2.35rem;
-  align-items: center;
-  border-radius: 9999px;
-  background: #dc143c;
-  padding: 0 1rem;
-  font-size: 0.875rem;
-  font-weight: 700;
-  color: #ffffff !important;
-  box-shadow: 0 6px 16px color-mix(in srgb, #dc143c 40%, transparent);
+  background: var(--accent-soft);
+  color: var(--accent);
 }
 
 h1,
