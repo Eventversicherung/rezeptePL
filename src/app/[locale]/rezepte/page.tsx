@@ -1,4 +1,5 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { RecipeCard } from "@/components/recipe/RecipeCard";
 import { searchRecipes } from "@/lib/data/repository";
 import type { Locale } from "@/types/content";
@@ -15,10 +16,18 @@ export default async function RecipesPage({
   const locale = localeParam as Locale;
   setRequestLocale(locale);
   const t = await getTranslations("recipes");
+  const tCommon = await getTranslations("common");
   const recipes = await searchRecipes(locale, q);
 
   return (
     <div className="space-y-10">
+      <Breadcrumbs
+        ariaLabel={tCommon("breadcrumbs")}
+        items={[
+          { label: tCommon("home"), href: "/" },
+          { label: t("title") },
+        ]}
+      />
       <div className="reveal">
         <p className="section-kicker">Alemniam</p>
         <h1 className="mt-3 font-display text-[clamp(2.6rem,8vw,4.5rem)] font-semibold">

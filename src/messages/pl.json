@@ -126,6 +126,8 @@
   "common": {
     "loading": "Ładowanie…",
     "error": "Coś poszło nie tak.",
-    "back": "Wstecz"
+    "back": "Wstecz",
+    "home": "Start",
+    "breadcrumbs": "Ścieżka nawigacji"
   }
 }

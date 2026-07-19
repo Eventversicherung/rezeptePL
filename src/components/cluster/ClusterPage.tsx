@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { setRequestLocale } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
+import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { RecipeCard } from "@/components/recipe/RecipeCard";
 import {
   getClusterBySlug,
@@ -8,6 +9,14 @@ import {
 } from "@/lib/data/repository";
 import { siteUrl } from "@/lib/utils";
 import type { ClusterKind, Locale } from "@/types/content";
+
+function clusterPath(kind: ClusterKind) {
+  return kind === "region"
+    ? "regionen"
+    : kind === "occasion"
+      ? "anlaesse"
+      : "techniken";
+}
 
 export async function clusterMetadata(
   kind: ClusterKind,
@@ -17,12 +26,7 @@ export async function clusterMetadata(
   const cluster = await getClusterBySlug(kind, locale, slug);
   if (!cluster) return {};
   const base = siteUrl();
-  const path =
-    kind === "region"
-      ? "regionen"
-      : kind === "occasion"
-        ? "anlaesse"
-        : "techniken";
+  const path = clusterPath(kind);
   return {
     title: cluster.seoTitle[locale],
     description: cluster.seoDescription[locale],
@@ -49,9 +53,24 @@ export async function ClusterView({
   const cluster = await getClusterBySlug(kind, locale, slug);
   if (!cluster) notFound();
   const recipes = await recipesForCluster(cluster.id);
-
+  const tCommon = await getTranslations("common");
+  const tClusters = await getTranslations("clusters");
+  const kindLabel =
+    kind === "region"
+      ? tClusters("regions")
+      : kind === "occasion"
+        ? tClusters("occasions")
+        : tClusters("techniques");
   return (
     <div className="space-y-8">
+      <Breadcrumbs
+        ariaLabel={tCommon("breadcrumbs")}
+        items={[
+          { label: tCommon("home"), href: "/" },
+          { label: kindLabel },
+          { label: cluster.title[locale] },
+        ]}
+      />
       <header className="max-w-2xl">
         <h1 className="font-display text-3xl font-semibold sm:text-4xl">
           {cluster.title[locale]}

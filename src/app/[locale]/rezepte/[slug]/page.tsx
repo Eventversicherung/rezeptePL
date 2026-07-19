@@ -80,6 +80,8 @@ export default async function RecipePage({
   if (!recipe) notFound();
 
   const t = await getTranslations("recipes");
+  const tNav = await getTranslations("nav");
+  const tCommon = await getTranslations("common");
   const user = await getSessionUser();
   const savedIds = user ? await listSavedRecipeIds(user.id) : [];
   const initialMode: RecipeMode = modeParam === "shop" ? "shop" : "cook";
@@ -88,15 +90,19 @@ export default async function RecipePage({
     recipe.translations[locale].article ||
     getRecipeArticle(recipe.id, locale);
   const affiliateProducts = getAffiliateForRecipe(recipe.id, 3);
+  const recipeTitle = recipe.translations[locale].title;
+  const breadcrumbs = [
+    { label: tCommon("home"), href: "/" },
+    { label: tNav("recipes"), href: "/rezepte" },
+    { label: recipeTitle },
+  ];
 
   const jsonLd = [
     recipeJsonLd(recipe, locale, url),
     breadcrumbJsonLd([
-      { name: "Alemniam", url: `${siteUrl()}/${locale}` },
-      {
-        name: recipe.translations[locale].title,
-        url,
-      },
+      { name: tCommon("home"), url: `${siteUrl()}/${locale}` },
+      { name: tNav("recipes"), url: `${siteUrl()}/${locale}/rezepte` },
+      { name: recipeTitle, url },
     ]),
   ];
 
@@ -116,6 +122,8 @@ export default async function RecipePage({
           article={article}
           articleHeading={t("articleHeading")}
           affiliateProducts={affiliateProducts}
+          breadcrumbs={breadcrumbs}
+          breadcrumbsLabel={tCommon("breadcrumbs")}
         />
       </Suspense>
     </>

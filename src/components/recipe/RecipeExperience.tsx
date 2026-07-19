@@ -10,6 +10,10 @@ import type {
   Recipe,
   RecipeMode,
 } from "@/types/content";
+import {
+  Breadcrumbs,
+  type BreadcrumbItem,
+} from "@/components/layout/Breadcrumbs";
 import { groupLabelKey, scaleAmount } from "@/lib/utils";
 import { ModeSwitch } from "./ModeSwitch";
 import { RecipeArticle } from "./RecipeArticle";
@@ -36,6 +40,8 @@ export function RecipeExperience({
   article,
   articleHeading,
   affiliateProducts,
+  breadcrumbs,
+  breadcrumbsLabel,
 }: {
   recipe: Recipe;
   locale: Locale;
@@ -45,6 +51,8 @@ export function RecipeExperience({
   article: string;
   articleHeading: string;
   affiliateProducts: AffiliateProduct[];
+  breadcrumbs: BreadcrumbItem[];
+  breadcrumbsLabel: string;
 }) {
   const t = useTranslations("recipes");
   const tAff = useTranslations("affiliate");
@@ -114,6 +122,10 @@ export function RecipeExperience({
 
   return (
     <article className="mx-auto max-w-4xl pb-28 md:pb-16">
+      {!focusCook ? (
+        <Breadcrumbs items={breadcrumbs} ariaLabel={breadcrumbsLabel} />
+      ) : null}
+
       {!focusCook ? (
         <div
           className={`reveal relative overflow-hidden rounded-[calc(var(--radius)+10px)] bg-elevated shadow-[0_24px_60px_rgba(28,20,18,0.18)] transition-[max-height,opacity] duration-300 ease-out ${
