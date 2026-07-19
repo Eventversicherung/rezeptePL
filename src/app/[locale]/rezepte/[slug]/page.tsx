@@ -5,6 +5,7 @@ import { setRequestLocale } from "next-intl/server";
 import { getTranslations } from "next-intl/server";
 import { RecipeExperience } from "@/components/recipe/RecipeExperience";
 import { getSessionUser } from "@/lib/auth/session";
+import { getAffiliateForRecipe } from "@/lib/data/affiliate-products";
 import { getRecipeArticle } from "@/lib/data/recipe-articles";
 import {
   getRecipeBySlug,
@@ -82,6 +83,7 @@ export default async function RecipePage({
   const article =
     recipe.translations[locale].article ||
     getRecipeArticle(recipe.id, locale);
+  const affiliateProducts = getAffiliateForRecipe(recipe.id, 3);
 
   const jsonLd = [
     recipeJsonLd(recipe, locale, url),
@@ -109,6 +111,7 @@ export default async function RecipePage({
           isLoggedIn={Boolean(user)}
           article={article}
           articleHeading={t("articleHeading")}
+          affiliateProducts={affiliateProducts}
         />
       </Suspense>
     </>

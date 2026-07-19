@@ -112,6 +112,13 @@
     "occasions": "Anlässe",
     "techniques": "Techniken"
   },
+  "affiliate": {
+    "disclosure": "Anzeige · Affiliate-Link",
+    "ctaKicker": "Nächster Schritt",
+    "ctaTitle": "Zutaten schon auf der Liste?",
+    "ctaBody": "Wechsel zu Einkaufen — wir sortieren nach Ladenbereich, damit du schneller fertig bist.",
+    "ctaButton": "Zur Einkaufsliste"
+  },
   "legal": {
     "imprint": "Impressum",
     "privacy": "Datenschutz"

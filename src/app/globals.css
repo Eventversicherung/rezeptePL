@@ -76,6 +76,7 @@ body {
   margin: 0;
   min-height: 100dvh;
   background-color: var(--bg);
+  /* Fixed + no-repeat: prevents the page wash from tiling on long articles */
   background-image:
     radial-gradient(
       80% 50% at 100% 0%,
@@ -87,27 +88,55 @@ body {
       color-mix(in srgb, #1a2744 6%, transparent),
       transparent 50%
     ),
-    linear-gradient(180deg, #fffdfb 0%, var(--bg) 50%, #f4efe9 100%);
+    linear-gradient(180deg, #fffdfb 0%, var(--bg) 42%, #f4efe9 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   color: var(--fg);
   font-family: var(--font-body);
   line-height: 1.55;
   -webkit-font-smoothing: antialiased;
 }
 
-.site-header__link {
-  border-radius: 9999px;
-  padding: 0.55rem 0.9rem;
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: var(--fg-muted);
-  transition:
-    background-color 160ms var(--ease-out),
-    color 160ms var(--ease-out);
+.site-header {
+  background: transparent;
+  transition: background-color 220ms var(--ease-out);
 }
 
-.site-header__link:hover {
-  background: var(--accent-soft);
-  color: var(--accent);
+.site-header--scrolled {
+  background: color-mix(in srgb, #fffdfb 62%, transparent);
+  -webkit-backdrop-filter: blur(18px) saturate(1.35);
+  backdrop-filter: blur(18px) saturate(1.35);
+}
+
+.site-header__chip {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 9999px;
+  padding: 0.7rem 1.2rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: var(--navy);
+  background: color-mix(in srgb, #ffffff 72%, transparent);
+  border: 1px solid color-mix(in srgb, #1a2744 8%, transparent);
+  box-shadow: 0 1px 0 color-mix(in srgb, #ffffff 80%, transparent);
+  transition:
+    background-color 160ms var(--ease-out),
+    color 160ms var(--ease-out),
+    border-color 160ms var(--ease-out),
+    transform 160ms var(--ease-out);
+}
+
+.site-header__chip:hover {
+  background: color-mix(in srgb, #dc143c 10%, #ffffff);
+  border-color: color-mix(in srgb, #dc143c 28%, transparent);
+  color: #dc143c;
+  transform: translateY(-1px);
+}
+
+.site-header--scrolled .site-header__chip {
+  background: color-mix(in srgb, #ffffff 88%, transparent);
 }
 
 h1,

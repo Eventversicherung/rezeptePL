@@ -4,7 +4,12 @@ import Image from "next/image";
 import { useEffect, useMemo, useState, useTransition } from "react";
 import { useTranslations } from "next-intl";
 import { useRouter, useSearchParams } from "next/navigation";
-import type { Locale, Recipe, RecipeMode } from "@/types/content";
+import type {
+  AffiliateProduct,
+  Locale,
+  Recipe,
+  RecipeMode,
+} from "@/types/content";
 import { groupLabelKey, scaleAmount } from "@/lib/utils";
 import { ModeSwitch } from "./ModeSwitch";
 import { RecipeArticle } from "./RecipeArticle";
@@ -30,6 +35,7 @@ export function RecipeExperience({
   isLoggedIn,
   article,
   articleHeading,
+  affiliateProducts,
 }: {
   recipe: Recipe;
   locale: Locale;
@@ -38,8 +44,10 @@ export function RecipeExperience({
   isLoggedIn: boolean;
   article: string;
   articleHeading: string;
+  affiliateProducts: AffiliateProduct[];
 }) {
   const t = useTranslations("recipes");
+  const tAff = useTranslations("affiliate");
   const router = useRouter();
   const searchParams = useSearchParams();
   const [mode, setMode] = useState<RecipeMode>(initialMode);
@@ -393,6 +401,15 @@ export function RecipeExperience({
           title={translation.title}
           article={article}
           heading={articleHeading}
+          locale={locale}
+          products={affiliateProducts}
+          labels={{
+            disclosure: tAff("disclosure"),
+            ctaKicker: tAff("ctaKicker"),
+            ctaTitle: tAff("ctaTitle"),
+            ctaBody: tAff("ctaBody"),
+            ctaButton: tAff("ctaButton"),
+          }}
         />
       ) : null}
     </article>

@@ -112,6 +112,13 @@
     "occasions": "Okazje",
     "techniques": "Techniki"
   },
+  "affiliate": {
+    "disclosure": "Reklama · Link partnerski",
+    "ctaKicker": "Następny krok",
+    "ctaTitle": "Składniki już na liście?",
+    "ctaBody": "Przełącz na Zakupy — sortujemy według działu sklepu, żebyś szybciej skończył.",
+    "ctaButton": "Do listy zakupów"
+  },
   "legal": {
     "imprint": "Impressum",
     "privacy": "Prywatność"

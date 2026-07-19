@@ -111,3 +111,22 @@ export type Profile = {
   displayName: string;
   preferredLocale: Locale;
 };
+
+/** Affiliate / partner product shown as inline cards in long-form articles */
+export type AffiliatePartner = "amazon" | "other";
+
+export type AffiliateProduct = {
+  id: string;
+  partner: AffiliatePartner;
+  /** Full tracking URL (Amazon associate tag etc.) */
+  url: string;
+  imageUrl: string;
+  title: Record<Locale, string>;
+  description: Record<Locale, string>;
+  cta: Record<Locale, string>;
+  tags: string[];
+  /** Prefer these products on matching recipe pages */
+  recipeIds?: string[];
+  active: boolean;
+  sortOrder: number;
+};
