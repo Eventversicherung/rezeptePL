@@ -376,6 +376,74 @@ a.btn-primary:active:not(:disabled) {
   overflow: hidden;
 }
 
+/* Readable navy wash without muddy crimson bands */
+.hero-full__wash {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(
+      180deg,
+      rgba(18, 27, 48, 0.42) 0%,
+      rgba(18, 27, 48, 0.18) 40%,
+      rgba(18, 27, 48, 0.55) 78%,
+      rgba(18, 27, 48, 0.72) 100%
+    ),
+    linear-gradient(
+      115deg,
+      rgba(18, 27, 48, 0.7) 0%,
+      rgba(26, 39, 68, 0.28) 55%,
+      rgba(220, 20, 60, 0.14) 100%
+    );
+  pointer-events: none;
+}
+
+/* Soft handoff into page background (no hard edge) */
+.hero-full__fade {
+  position: absolute;
+  inset-inline: 0;
+  bottom: 0;
+  height: min(48vh, 26rem);
+  background: linear-gradient(
+    to top,
+    var(--bg) 0%,
+    color-mix(in srgb, var(--bg) 92%, transparent) 18%,
+    color-mix(in srgb, var(--bg) 55%, transparent) 42%,
+    color-mix(in srgb, var(--bg) 18%, transparent) 68%,
+    transparent 100%
+  );
+  pointer-events: none;
+}
+
+/* Solid white CTA on hero photo: navy text, clear contrast */
+.btn-hero-secondary,
+a.btn-hero-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.85rem;
+  padding-inline: 1.35rem;
+  border: none;
+  border-radius: 9999px;
+  background: #ffffff !important;
+  color: #1a2744 !important;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  box-shadow: 0 10px 28px rgba(18, 27, 48, 0.18);
+  transition:
+    transform 160ms var(--ease-out),
+    background-color 160ms var(--ease-out),
+    color 160ms var(--ease-out),
+    box-shadow 160ms var(--ease-out);
+}
+
+.btn-hero-secondary:hover,
+a.btn-hero-secondary:hover {
+  background: #fff5f6 !important;
+  color: #dc143c !important;
+  transform: translateY(-2px);
+  box-shadow: 0 14px 34px rgba(220, 20, 60, 0.18);
+}
+
 .cook-stage {
   position: relative;
   border-radius: calc(var(--radius) + 8px);

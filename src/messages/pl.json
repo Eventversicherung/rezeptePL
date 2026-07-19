@@ -18,7 +18,10 @@
     "headline": "Gotuj jak w domu",
     "sub": "Autentyczne polskie przepisy. Na zakupy i gotowanie, w jednej aplikacji.",
     "cta": "Odkryj przepisy",
-    "clusters": "Odkrywaj"
+    "ctaSecondary": "Gotuj pierogi",
+    "featured": "Do gotowania",
+    "clusters": "Odkrywaj",
+    "allRecipes": "Wszystkie"
   },
   "recipes": {
     "title": "Przepisy",

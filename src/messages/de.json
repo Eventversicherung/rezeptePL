@@ -18,7 +18,10 @@
     "headline": "Kochen wie zu Hause",
     "sub": "Authentische polnische Rezepte. Zum Einkaufen und Kochen, in einer App.",
     "cta": "Rezepte entdecken",
-    "clusters": "Entdecken"
+    "ctaSecondary": "Pierogi kochen",
+    "featured": "Zum Kochen",
+    "clusters": "Entdecken",
+    "allRecipes": "Alle"
   },
   "recipes": {
     "title": "Rezepte",

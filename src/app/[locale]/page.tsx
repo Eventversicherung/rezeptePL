@@ -24,55 +24,57 @@ export default async function HomePage({
     <div className="space-y-20 sm:space-y-28">
       <section className="hero-full relative min-h-[88dvh]">
         <div
-          className="absolute inset-0 bg-cover bg-center scale-[1.02]"
+          className="absolute inset-0 scale-[1.02] bg-cover bg-center"
           style={{
-            backgroundImage:
-              "url(https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=2400&q=80)",
+            backgroundImage: "url(/recipes/pierogi-ruskie.jpg)",
           }}
         />
-        <div className="absolute inset-0 bg-[linear-gradient(115deg,rgba(18,27,48,0.88)_0%,rgba(26,39,68,0.45)_50%,rgba(220,20,60,0.28)_100%)]" />
-        <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-[var(--bg)] to-transparent" />
+        <div className="hero-full__wash" aria-hidden />
+        <div className="hero-full__fade" aria-hidden />
 
-        <div className="relative mx-auto flex min-h-[88dvh] w-full max-w-7xl flex-col justify-end px-4 pb-14 pt-28 sm:px-8 sm:pb-20">
+        <div className="relative mx-auto flex min-h-[88dvh] w-full max-w-7xl flex-col justify-end px-4 pb-16 pt-28 sm:px-8 sm:pb-24">
           <div className="reveal max-w-3xl">
-            <div className="mb-4 flex items-center gap-3">
+            <div className="mb-5 flex items-center gap-3">
               <Image
                 src="/alemniam-logo.jpg"
                 alt=""
                 width={56}
                 height={56}
-                className="size-14 rounded-full bg-white object-contain shadow-lg ring-2 ring-white/80"
+                className="size-14 rounded-full bg-white object-contain shadow-lg ring-2 ring-white/90"
                 priority
               />
-              <p className="font-display text-sm font-bold uppercase tracking-[0.22em] text-white/90">
-                <span className="text-[#ff6b81]">Ale</span>Mniam
+              <p className="font-display text-sm font-bold uppercase tracking-[0.22em] text-white">
+                {brand("name")}
               </p>
             </div>
-            <h1 className="mt-4 max-w-[11ch] font-display text-[clamp(3.2rem,12vw,6.5rem)] font-semibold text-white">
+            <h1 className="mt-2 max-w-[12ch] font-display text-[clamp(3.2rem,12vw,6.5rem)] font-semibold text-white drop-shadow-[0_2px_24px_rgba(18,27,48,0.35)]">
               {t("headline")}
             </h1>
             <p className="mt-5 max-w-[36ch] text-lg text-white/90 sm:text-xl">
               {t("sub")}
             </p>
-            <div className="mt-8 flex flex-wrap items-center gap-3">
-              <Link href="/rezepte" className="btn-primary min-h-13 px-7 text-base">
+            <div className="mt-9 flex flex-wrap items-center gap-3">
+              <Link
+                href="/rezepte"
+                className="btn-primary min-h-13 px-7 text-base"
+              >
                 {t("cta")}
               </Link>
               <Link
                 href="/rezepte/pierogi/ruskie"
-                className="inline-flex min-h-13 items-center rounded-full border border-white/40 px-6 text-sm font-semibold text-white backdrop-blur-sm transition hover:border-white hover:bg-white/10"
+                className="btn-hero-secondary min-h-13 px-7 text-base"
               >
-                Pierogi →
+                {t("ctaSecondary")}
               </Link>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="reveal">
+      <section className="reveal -mt-4 sm:-mt-8">
         <div className="mb-8 flex items-end justify-between gap-4">
           <div>
-            <p className="section-kicker">{brand("name")}</p>
+            <p className="section-kicker">{t("featured")}</p>
             <h2 className="mt-3 font-display text-[clamp(2rem,5vw,3.4rem)] font-semibold">
               {t("cta")}
             </h2>
@@ -81,7 +83,7 @@ export default async function HomePage({
             href="/rezepte"
             className="shrink-0 text-sm font-semibold text-accent"
           >
-            {locale === "de" ? "Alle" : "Wszystkie"} →
+            {t("allRecipes")} →
           </Link>
         </div>
         <div className="stagger grid gap-10 sm:grid-cols-2">
