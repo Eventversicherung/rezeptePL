@@ -1,0 +1,115 @@
+{
+  "brand": {
+    "name": "Alemniam",
+    "tagline": "Polska kuchnia. Jasno. Jak w domu."
+  },
+  "nav": {
+    "discover": "Odkrywaj",
+    "recipes": "Przepisy",
+    "lists": "Listy",
+    "profile": "Profil",
+    "admin": "Admin",
+    "community": "Społeczność",
+    "login": "Zaloguj",
+    "logout": "Wyloguj"
+  },
+  "home": {
+    "headline": "Gotuj jak w domu",
+    "sub": "Autentyczne polskie przepisy — na zakupy i gotowanie, w jednej aplikacji.",
+    "cta": "Odkryj przepisy",
+    "clusters": "Odkrywaj"
+  },
+  "recipes": {
+    "title": "Przepisy",
+    "search": "Szukaj…",
+    "empty": "Brak przepisów.",
+    "servings": "Porcje",
+    "minutes": "min",
+    "prep": "Przygotowanie",
+    "cook": "Gotowanie",
+    "modeCook": "Gotuj",
+    "modeShop": "Zakupy",
+    "steps": "Kroki",
+    "ingredients": "Składniki",
+    "tips": "Wskazówki",
+    "save": "Zapisz",
+    "saved": "Zapisano",
+    "addToList": "Dodaj do listy",
+    "shareList": "Udostępnij listę",
+    "storeHint": "W DE często jako",
+    "substitute": "Zamiennik",
+    "groupProduce": "Owoce i warzywa",
+    "groupDairy": "Chłodnia",
+    "groupPantry": "Spiżarnia",
+    "groupSpices": "Przyprawy",
+    "groupPolish": "Polski sklep",
+    "groupOther": "Inne",
+    "compactIngredients": "Składniki",
+    "showSteps": "Pokaż kroki"
+  },
+  "lists": {
+    "title": "Listy zakupów",
+    "empty": "Brak listy — otwórz przepis i przełącz na Zakupy.",
+    "defaultName": "Moja lista",
+    "clearChecked": "Usuń zaznaczone"
+  },
+  "profile": {
+    "title": "Profil",
+    "savedRecipes": "Zapisane przepisy",
+    "emptySaved": "Brak zapisanych przepisów.",
+    "language": "Język",
+    "guest": "Zaloguj się, aby zapisywać przepisy i listy."
+  },
+  "auth": {
+    "loginTitle": "Zaloguj się",
+    "registerTitle": "Utwórz konto",
+    "email": "E-mail",
+    "password": "Hasło",
+    "login": "Zaloguj",
+    "register": "Zarejestruj",
+    "noAccount": "Nie masz konta?",
+    "hasAccount": "Masz już konto?",
+    "magicHint": "E-mail i hasło. Magic Link po podłączeniu Supabase."
+  },
+  "community": {
+    "uploadTitle": "Dodaj własny przepis",
+    "uploadSub": "Zostanie opublikowany po weryfikacji.",
+    "submit": "Wyślij",
+    "success": "Dziękujemy — przepis jest w weryfikacji.",
+    "title": "Tytuł",
+    "excerpt": "Krótki opis",
+    "steps": "Kroki (jeden w linii)",
+    "ingredients": "Składniki (jeden w linii)"
+  },
+  "admin": {
+    "title": "Admin",
+    "recipes": "Przepisy",
+    "moderation": "Moderacja",
+    "newRecipe": "Nowy przepis",
+    "edit": "Edytuj",
+    "publish": "Opublikuj",
+    "draft": "Szkic",
+    "locale": "Język",
+    "seoTitle": "SEO tytuł",
+    "seoDescription": "SEO opis",
+    "save": "Zapisz",
+    "missingTranslation": "Brak tłumaczenia",
+    "pending": "Oczekujące",
+    "approve": "Zatwierdź",
+    "reject": "Odrzuć"
+  },
+  "clusters": {
+    "regions": "Regiony",
+    "occasions": "Okazje",
+    "techniques": "Techniki"
+  },
+  "legal": {
+    "imprint": "Impressum",
+    "privacy": "Prywatność"
+  },
+  "common": {
+    "loading": "Ładowanie…",
+    "error": "Coś poszło nie tak.",
+    "back": "Wstecz"
+  }
+}

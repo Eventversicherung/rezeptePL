@@ -1,0 +1,115 @@
+{
+  "brand": {
+    "name": "Alemniam",
+    "tagline": "Polnische Küche. Klar. Zuhause."
+  },
+  "nav": {
+    "discover": "Entdecken",
+    "recipes": "Rezepte",
+    "lists": "Listen",
+    "profile": "Profil",
+    "admin": "Admin",
+    "community": "Community",
+    "login": "Anmelden",
+    "logout": "Abmelden"
+  },
+  "home": {
+    "headline": "Kochen wie zu Hause",
+    "sub": "Authentische polnische Rezepte — zum Einkaufen und Kochen, in einer App.",
+    "cta": "Rezepte entdecken",
+    "clusters": "Entdecken"
+  },
+  "recipes": {
+    "title": "Rezepte",
+    "search": "Suchen…",
+    "empty": "Noch keine Rezepte.",
+    "servings": "Portionen",
+    "minutes": "Min",
+    "prep": "Vorbereitung",
+    "cook": "Kochen",
+    "modeCook": "Kochen",
+    "modeShop": "Einkaufen",
+    "steps": "Schritte",
+    "ingredients": "Zutaten",
+    "tips": "Tipps",
+    "save": "Merken",
+    "saved": "Gespeichert",
+    "addToList": "Zur Einkaufsliste",
+    "shareList": "Liste teilen",
+    "storeHint": "In DE oft unter",
+    "substitute": "Alternative",
+    "groupProduce": "Obst & Gemüse",
+    "groupDairy": "Kühlung",
+    "groupPantry": "Vorrat",
+    "groupSpices": "Gewürze",
+    "groupPolish": "Polenladen",
+    "groupOther": "Sonstiges",
+    "compactIngredients": "Zutaten",
+    "showSteps": "Schritte anzeigen"
+  },
+  "lists": {
+    "title": "Einkaufslisten",
+    "empty": "Noch keine Einkaufsliste — öffne ein Rezept und wechsle zu Einkaufen.",
+    "defaultName": "Meine Liste",
+    "clearChecked": "Erledigte entfernen"
+  },
+  "profile": {
+    "title": "Profil",
+    "savedRecipes": "Gespeicherte Rezepte",
+    "emptySaved": "Noch keine gespeicherten Rezepte.",
+    "language": "Sprache",
+    "guest": "Melde dich an, um Rezepte zu speichern und Listen zu behalten."
+  },
+  "auth": {
+    "loginTitle": "Anmelden",
+    "registerTitle": "Konto erstellen",
+    "email": "E-Mail",
+    "password": "Passwort",
+    "login": "Anmelden",
+    "register": "Registrieren",
+    "noAccount": "Noch kein Konto?",
+    "hasAccount": "Bereits ein Konto?",
+    "magicHint": "Mit E-Mail und Passwort. Magic Link folgt, sobald Supabase verbunden ist."
+  },
+  "community": {
+    "uploadTitle": "Eigenes Rezept einreichen",
+    "uploadSub": "Wird nach Prüfung veröffentlicht.",
+    "submit": "Einreichen",
+    "success": "Danke — dein Rezept ist in der Prüfung.",
+    "title": "Titel",
+    "excerpt": "Kurzbeschreibung",
+    "steps": "Schritte (einer pro Zeile)",
+    "ingredients": "Zutaten (eine pro Zeile)"
+  },
+  "admin": {
+    "title": "Admin",
+    "recipes": "Rezepte",
+    "moderation": "Moderation",
+    "newRecipe": "Neues Rezept",
+    "edit": "Bearbeiten",
+    "publish": "Veröffentlichen",
+    "draft": "Entwurf",
+    "locale": "Sprache",
+    "seoTitle": "SEO Titel",
+    "seoDescription": "SEO Beschreibung",
+    "save": "Speichern",
+    "missingTranslation": "Übersetzung fehlt",
+    "pending": "Wartend",
+    "approve": "Freigeben",
+    "reject": "Ablehnen"
+  },
+  "clusters": {
+    "regions": "Regionen",
+    "occasions": "Anlässe",
+    "techniques": "Techniken"
+  },
+  "legal": {
+    "imprint": "Impressum",
+    "privacy": "Datenschutz"
+  },
+  "common": {
+    "loading": "Laden…",
+    "error": "Etwas ist schiefgelaufen.",
+    "back": "Zurück"
+  }
+}
