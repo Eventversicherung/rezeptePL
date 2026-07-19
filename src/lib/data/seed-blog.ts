@@ -14,6 +14,7 @@ import {
 import { bodyTeigmaschineUpgradeDe } from "./blog-bodies-wave2-de";
 import { bodyTeigmaschineUpgradePl } from "./blog-bodies-wave2-pl";
 import { seedBlogPostsWave2 } from "./seed-blog-wave2";
+import { seedBlogPostsW3a } from "./seed-blog-w3a";
 
 const seedBlogPostsLive: BlogPost[] = [
   {
@@ -249,4 +250,5 @@ const seedBlogPostsLive: BlogPost[] = [
 export const seedBlogPosts: BlogPost[] = [
   ...seedBlogPostsLive,
   ...seedBlogPostsWave2,
+  ...seedBlogPostsW3a,
 ];

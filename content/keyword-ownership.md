@@ -40,6 +40,12 @@ Eine Primary KW = eine Owner-URL. Andere Seiten nur mit descriptive Anchors verl
 | Polnische Ostern | `/blog/wielkanoc-speiseplan` |
 | Tłusty Czwartek | `/blog/tlusty-czwartek` |
 | Polnisches Sonntagsessen | `/blog/sonntagsessen-polnisch` |
+| Gołąbki Rezept (broad) | `/blog/golabki-guide` |
+| Gołąbki Rezept (cook) | `/rezepte/golabki` |
+| Naleśniki Rezept (broad) | `/blog/nalesniki-guide` |
+| Naleśniki mit Twaróg | `/rezepte/nalesniki-twarog` |
+| Oscypek kaufen DE | `/blog/oscypek-deutschland` |
+| Oscypek mit Preiselbeeren | `/rezepte/oscypek-preiselbeeren` |
 
 ## Gear (Silo H)
 

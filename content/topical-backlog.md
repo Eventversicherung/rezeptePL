@@ -39,6 +39,16 @@ Affiliate auf Rezepten: **guide-only** (Gear-Blog-Cards); Affiliate-Karten in Bu
 
 Siehe Plan + `keyword-ownership.md`. Tests: H2 „Tests & Erfahrungen“ vorbereiten.
 
+## LIVE (Wave 3a shipped — 7-agent batch)
+
+| id | DE slug | PL slug | type |
+|----|---------|---------|------|
+| post-golabki-guide | golabki-guide | golabki-przewodnik | guide |
+| post-nalesniki-guide | nalesniki-guide | nalesniki-przewodnik | guide |
+| post-oscypek | oscypek-deutschland | oscypek-w-niemczech | lexicon |
+
+Prozess: 6 Writer (DE+PL) + Bilder + Chef → ein Push. Scorecard: `content/batch-w3a/chef-scorecard.md`.
+
 ## W3 / HOLD
 
-Kasza, Region-Blogs, Gołąbki-Pillar, Meal-Prep Woche, Oscypek, Fermentier-Gläser, Lab-Tests.
+Kasza, Region-Blogs, Meal-Prep Woche, Fermentier-Gläser, Lab-Tests.

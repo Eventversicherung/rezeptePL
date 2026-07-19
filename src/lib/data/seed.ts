@@ -1219,6 +1219,7 @@ export const seedRecipes: Recipe[] = [
     return {
       ...recipe,
       relatedPostIds: [
+        "post-nalesniki-guide",
         "post-twarog",
         "post-smietana-schmand",
         "post-ersatzprodukte-de",
@@ -1302,9 +1303,11 @@ export const seedRecipes: Recipe[] = [
     return {
       ...recipe,
       relatedPostIds: [
+        "post-golabki-guide",
         "post-sonntagsessen",
         "post-smietana-schmand",
         "post-dutch-oven",
+        "post-rosol-technik",
       ],
       occasionIds: Array.from(
         new Set([...recipe.occasionIds, "occasion-niedziela"]),
@@ -1326,7 +1329,12 @@ export const seedRecipes: Recipe[] = [
   if (recipe.id === "recipe-oscypek") {
     return {
       ...recipe,
-      relatedPostIds: ["post-gusseisen", "post-polenladen"],
+      relatedPostIds: [
+        "post-oscypek",
+        "post-gusseisen",
+        "post-polenladen",
+        "post-ersatzprodukte-de",
+      ],
     };
   }
   return recipe;

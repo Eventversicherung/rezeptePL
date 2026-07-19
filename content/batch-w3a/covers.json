@@ -1,0 +1,23 @@
+{
+  "post-golabki-guide": {
+    "url": "https://images.unsplash.com/photo-1743148843470-8fd92a31c473?w=1600&q=80",
+    "altDe": "Gołąbki mit Tomatensoße und Sauerrahm auf dem Teller",
+    "altPl": "Gołąbki z sosem pomidorowym i śmietaną na talerzu",
+    "credit": "Unsplash",
+    "note": "Stuffed cabbage plated; HTTP 200; unique vs seed-blog*"
+  },
+  "post-nalesniki-guide": {
+    "url": "https://images.unsplash.com/photo-1770802858320-50848db704d5?w=1600&q=80",
+    "altDe": "Gerollte Naleśniki mit Füllung auf dem Teller",
+    "altPl": "Zwinięte naleśniki z farszem na talerzu",
+    "credit": "Unsplash",
+    "note": "Thin rolled crepes; HTTP 200; unique vs seed-blog*"
+  },
+  "post-oscypek": {
+    "url": "https://images.unsplash.com/photo-1718939046345-f607c89e92d9?w=1600&q=80",
+    "altDe": "Reifende Käseräder auf Holzbrett — Kontext Oscypek",
+    "altPl": "Dojrzewające koła sera na drewnie — kontekst oscypka",
+    "credit": "Unsplash",
+    "note": "Artisan aged cheese wheels; HTTP 200; unique. No true grilled oscypek on Unsplash."
+  }
+}
