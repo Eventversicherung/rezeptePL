@@ -3,6 +3,59 @@ import { AffiliateCard } from "@/components/affiliate/AffiliateCard";
 import { ArticleInlineCta } from "@/components/affiliate/ArticleInlineCta";
 import type { AffiliateProduct, Locale } from "@/types/content";
 
+/** Minimal markdown: **bold** and [label](url). */
+function renderInline(text: string): ReactNode[] {
+  const nodes: ReactNode[] = [];
+  const pattern = /(\*\*[^*]+\*\*|\[[^\]]+\]\([^)]+\))/g;
+  let last = 0;
+  let match: RegExpExecArray | null;
+  let key = 0;
+
+  while ((match = pattern.exec(text)) !== null) {
+    if (match.index > last) {
+      nodes.push(text.slice(last, match.index));
+    }
+    const token = match[0];
+    if (token.startsWith("**")) {
+      nodes.push(
+        <strong key={`b-${key++}`}>{token.slice(2, -2)}</strong>,
+      );
+    } else {
+      const link = token.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
+      if (link) {
+        const [, label, href] = link;
+        nodes.push(
+          <a
+            key={`a-${key++}`}
+            href={href}
+            className="font-semibold text-accent underline decoration-accent/30 underline-offset-2 transition hover:decoration-accent"
+          >
+            {label}
+          </a>,
+        );
+      }
+    }
+    last = match.index + token.length;
+  }
+
+  if (last < text.length) {
+    nodes.push(text.slice(last));
+  }
+
+  return nodes.length > 0 ? nodes : [text];
+}
+
+function headingLevel(block: string): 1 | 2 | 3 | null {
+  if (/^###\s+/.test(block)) return 3;
+  if (/^##\s+/.test(block)) return 2;
+  if (/^#\s+/.test(block)) return 1;
+  return null;
+}
+
+function headingText(block: string): string {
+  return block.replace(/^#{1,3}\s+/, "").trim();
+}
+
 export function RecipeArticle({
   title,
   article,
@@ -24,7 +77,7 @@ export function RecipeArticle({
     ctaButton: string;
   };
 }) {
-  const blocks = article.split(/\n\n+/).filter(Boolean);
+  const blocks = article.split(/\n\n+/).map((b) => b.trim()).filter(Boolean);
   let productCursor = 0;
 
   /** Insert product after every ~3 prose paragraphs; CTA once mid-article */
@@ -49,19 +102,29 @@ export function RecipeArticle({
       <div className="mt-10 max-w-[65ch] space-y-5 text-[1.08rem] leading-[1.75] text-foreground">
         {blocks.map((block, i) => {
           const nodes: ReactNode[] = [];
+          const level = headingLevel(block);
 
-          if (block.startsWith("## ")) {
+          if (level === 1 || level === 2) {
             nodes.push(
               <h3
                 key={`h-${i}`}
-                className="font-display pt-6 text-[1.35rem] font-semibold tracking-tight text-accent"
+                className="font-display pt-6 text-[1.45rem] font-semibold tracking-tight text-accent"
               >
-                {block.replace(/^##\s+/, "")}
+                {headingText(block)}
+              </h3>,
+            );
+          } else if (level === 3) {
+            nodes.push(
+              <h3
+                key={`h-${i}`}
+                className="font-display pt-5 text-[1.25rem] font-semibold tracking-tight text-[var(--navy)]"
+              >
+                {headingText(block)}
               </h3>,
             );
           } else {
             proseCount += 1;
-            nodes.push(<p key={`p-${i}`}>{block}</p>);
+            nodes.push(<p key={`p-${i}`}>{renderInline(block)}</p>);
 
             if (
               productCursor < products.length &&
