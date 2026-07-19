@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 
-/** Sticky glass shell — frosts when content scrolls underneath. */
+/** Sticky glass shell that frosts when content scrolls underneath. */
 export function SiteHeaderGlass({ children }: { children: React.ReactNode }) {
   const [scrolled, setScrolled] = useState(false);
 

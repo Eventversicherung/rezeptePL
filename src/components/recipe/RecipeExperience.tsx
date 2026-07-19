@@ -142,7 +142,7 @@ export function RecipeExperience({
         </div>
       ) : null}
 
-      {/* In flow — no sticky mid-page bar that blocks scrolling */}
+      {/* In flow. No sticky mid-page bar that blocks scrolling */}
       <div className="mt-6 space-y-4">
         <div className="min-w-0">
           <h1 className="font-display text-[clamp(1.85rem,6vw,2.85rem)] font-semibold leading-[1.05]">
@@ -203,7 +203,7 @@ export function RecipeExperience({
 
       {mode === "cook" ? (
         <div key="cook" className="mode-fade mt-6 space-y-8">
-          {/* One big active step — kitchen readable */}
+          {/* One big active step. Kitchen readable */}
           <section className="cook-stage px-5 py-7 sm:px-9 sm:py-10">
             <div className="flex items-center justify-between gap-3 text-sm">
               <span className="font-bold uppercase tracking-[0.14em] text-accent">

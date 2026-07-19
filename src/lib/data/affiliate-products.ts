@@ -16,8 +16,8 @@ export const seedAffiliateProducts: AffiliateProduct[] = [
       pl: "Zestaw foremek do pierogów",
     },
     description: {
-      de: "Gleichmäßige Kreise, saubere Ränder — spart Zeit beim Formen.",
-      pl: "Równe kółka, czyste brzegi — szybsze lepienie.",
+      de: "Gleichmäßige Kreise, saubere Ränder. Spart Zeit beim Formen.",
+      pl: "Równe kółka, czyste brzegi. Szybsze lepienie.",
     },
     cta: {
       de: "Bei Amazon ansehen",
@@ -39,8 +39,8 @@ export const seedAffiliateProducts: AffiliateProduct[] = [
       pl: "Wałek drewniany",
     },
     description: {
-      de: "Für dünnen, gleichmäßigen Teig — das Fundament guter Pierogi.",
-      pl: "Do cienkiego, równego ciasta — podstawa dobrych pierogów.",
+      de: "Für dünnen, gleichmäßigen Teig. Das Fundament guter Pierogi.",
+      pl: "Do cienkiego, równego ciasta. Podstawa dobrych pierogów.",
     },
     cta: {
       de: "Teigroller finden",
@@ -62,8 +62,8 @@ export const seedAffiliateProducts: AffiliateProduct[] = [
       pl: "Praska do ziemniaków",
     },
     description: {
-      de: "Fluffige Füllung ohne Klumpen — ideal für Ruskie.",
-      pl: "Puszysty farsz bez grudek — idealna do ruskich.",
+      de: "Fluffige Füllung ohne Klumpen. Ideal für Ruskie.",
+      pl: "Puszysty farsz bez grudek. Idealna do ruskich.",
     },
     cta: {
       de: "Presse ansehen",

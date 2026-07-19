@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     template: "%s | Alemniam",
   },
   description:
-    "Polnische Rezepte zum Kochen und Einkaufen — bilingual DE/PL.",
+    "Polnische Rezepte zum Kochen und Einkaufen. Bilingual DE/PL.",
   metadataBase: new URL(
     process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000",
   ),

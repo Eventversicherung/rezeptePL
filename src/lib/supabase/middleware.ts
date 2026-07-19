@@ -32,7 +32,7 @@ export async function updateSession(request: NextRequest, response: NextResponse
     },
   });
 
-  // Refresh auth session — required for SSR cookie sync
+  // Refresh auth session. Required for SSR cookie sync
   await supabase.auth.getUser();
 
   return supabaseResponse;

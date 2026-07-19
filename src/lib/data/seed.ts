@@ -14,8 +14,8 @@ export const seedClusters: Cluster[] = [
     slug: { de: "schlesien", pl: "slask" },
     title: { de: "Schlesien", pl: "Śląsk" },
     description: {
-      de: "Herzhafte Hausmannskost aus Schlesien — Roladen, Klöße und Sonntagsessen.",
-      pl: "Sycąca kuchnia śląska — rolady, kluski i niedzielne obiady.",
+      de: "Herzhafte Hausmannskost aus Schlesien. Roladen, Klöße und Sonntagsessen.",
+      pl: "Sycąca kuchnia śląska. Rolady, kluski i niedzielne obiady.",
     },
     seoTitle: {
       de: "Schlesische Rezepte | Alemniam",
@@ -32,8 +32,8 @@ export const seedClusters: Cluster[] = [
     slug: { de: "podhale", pl: "podhale" },
     title: { de: "Podhale", pl: "Podhale" },
     description: {
-      de: "Bergküche aus der Tatra — Oscypek, Sauerkraut und würzige Eintöpfe.",
-      pl: "Kuchnia góralska z Tatr — oscypek, kapusta i aromatyczne gulasze.",
+      de: "Bergküche aus der Tatra. Oscypek, Sauerkraut und würzige Eintöpfe.",
+      pl: "Kuchnia góralska z Tatr. Oscypek, kapusta i aromatyczne gulasze.",
     },
     seoTitle: {
       de: "Podhale Rezepte | Alemniam",
@@ -50,8 +50,8 @@ export const seedClusters: Cluster[] = [
     slug: { de: "wigilia", pl: "wigilia" },
     title: { de: "Wigilia", pl: "Wigilia" },
     description: {
-      de: "Weihnachtsabend-Gerichte — Barszcz, Pierogi, Karp und mehr.",
-      pl: "Potrawy wigilijne — barszcz, pierogi, karp i więcej.",
+      de: "Weihnachtsabend-Gerichte. Barszcz, Pierogi, Karp und mehr.",
+      pl: "Potrawy wigilijne. Barszcz, pierogi, karp i więcej.",
     },
     seoTitle: {
       de: "Wigilia Rezepte | Alemniam",
@@ -59,7 +59,7 @@ export const seedClusters: Cluster[] = [
     },
     seoDescription: {
       de: "Polnische Weihnachtsrezepte bilingual zum Vorbereiten und Einkaufen.",
-      pl: "Polskie przepisy wigilijne dwujęzycznie — gotowanie i zakupy.",
+      pl: "Polskie przepisy wigilijne dwujęzycznie. Gotowanie i zakupy.",
     },
   },
   {
@@ -68,8 +68,8 @@ export const seedClusters: Cluster[] = [
     slug: { de: "teig", pl: "ciasto" },
     title: { de: "Teig", pl: "Ciasto" },
     description: {
-      de: "Pierogi-, Noodle- und Hefeteige — mit Tipps für die deutsche Küche.",
-      pl: "Ciasta na pierogi, kluski i drożdżowe — ze wskazówkami.",
+      de: "Pierogi-, Noodle- und Hefeteige. Mit Tipps für die deutsche Küche.",
+      pl: "Ciasta na pierogi, kluski i drożdżowe. Ze wskazówkami.",
     },
     seoTitle: {
       de: "Polnische Teige | Alemniam",
@@ -100,11 +100,11 @@ export const seedRecipes: Recipe[] = [
         title: "Pierogi Ruskie",
         slug: "pierogi-ruskie",
         excerpt:
-          "Klassische Pierogi mit Kartoffel und Twaróg — weich, würzig, zum Teilen.",
+          "Klassische Pierogi mit Kartoffel und Twaróg. Weich, würzig, zum Teilen.",
         steps: [
           {
             text: "Kartoffeln schälen, kochen und heiß stampfen.",
-            tip: "Nicht zu wässrig — abtropfen lassen.",
+            tip: "Nicht zu wässrig. Abtropfen lassen.",
           },
           {
             text: "Twaróg zerdrücken, mit Kartoffel, Zwiebel und Salz mischen.",
@@ -122,17 +122,17 @@ export const seedRecipes: Recipe[] = [
         ],
         seoTitle: "Pierogi Ruskie Rezept | Alemniam",
         seoDescription:
-          "Pierogi Ruskie kochen und einkaufen — bilingual mit DE-Ladenhinweisen.",
+          "Pierogi Ruskie kochen und einkaufen. Bilingual mit DE-Ladenhinweisen.",
       },
       pl: {
         title: "Pierogi ruskie",
         slug: "pierogi-ruskie",
         excerpt:
-          "Klasyczne pierogi z ziemniakami i twarogiem — miękkie, sycące, do dzielenia.",
+          "Klasyczne pierogi z ziemniakami i twarogiem. Miękkie, sycące, do dzielenia.",
         steps: [
           {
             text: "Obierz ziemniaki, ugotuj i ugnieć na gorąco.",
-            tip: "Odsącz dobrze — masa nie może być wodnista.",
+            tip: "Odsącz dobrze. Masa nie może być wodnista.",
           },
           {
             text: "Rozduś twaróg, wymieszaj z ziemniakami, cebulą i solą.",
@@ -150,7 +150,7 @@ export const seedRecipes: Recipe[] = [
         ],
         seoTitle: "Pierogi ruskie przepis | Alemniam",
         seoDescription:
-          "Pierogi ruskie — gotowanie i zakupy, dwujęzycznie ze wskazówkami DE.",
+          "Pierogi ruskie. Gotowanie i zakupy, dwujęzycznie ze wskazówkami DE.",
       },
     },
     ingredients: [
@@ -222,7 +222,7 @@ export const seedRecipes: Recipe[] = [
         title: "Bigos",
         slug: "bigos",
         excerpt:
-          "Polnischer Krauteintopf — am besten einen Tag vorher gekocht.",
+          "Polnischer Krauteintopf. Am besten einen Tag vorher gekocht.",
         steps: [
           { text: "Speck und Fleisch anbraten, herausnehmen." },
           {
@@ -230,18 +230,18 @@ export const seedRecipes: Recipe[] = [
           },
           {
             text: "Fleisch zurück, mit Brühe, Lorbeer und Gewürzen schmoren.",
-            tip: "Mindestens 1,5 Stunden — besser über Nacht ruhen lassen.",
+            tip: "Mindestens 1,5 Stunden. Besser über Nacht ruhen lassen.",
           },
           { text: "Abschmecken und mit Brot servieren." },
         ],
         seoTitle: "Bigos Rezept | Alemniam",
         seoDescription:
-          "Bigos klassisch — Rezept mit Einkaufshilfe für Deutschland.",
+          "Bigos klassisch. Rezept mit Einkaufshilfe für Deutschland.",
       },
       pl: {
         title: "Bigos",
         slug: "bigos",
-        excerpt: "Polski gulasz z kapusty — najlepiej dzień wcześniej.",
+        excerpt: "Polski gulasz z kapusty. Najlepiej dzień wcześniej.",
         steps: [
           { text: "Podsmaż boczek i mięso, odłóż na bok." },
           {
@@ -249,12 +249,12 @@ export const seedRecipes: Recipe[] = [
           },
           {
             text: "Włóż mięso z powrotem, duś z bulionem i przyprawami.",
-            tip: "Minimum 1,5 h — najlepiej odstaw na noc.",
+            tip: "Minimum 1,5 h. Najlepiej odstaw na noc.",
           },
           { text: "Dopraw i podawaj z chlebem." },
         ],
         seoTitle: "Bigos przepis | Alemniam",
-        seoDescription: "Klasyczny bigos — przepis i lista zakupów.",
+        seoDescription: "Klasyczny bigos. Przepis i lista zakupów.",
       },
     },
     ingredients: [
@@ -322,7 +322,7 @@ export const seedRecipes: Recipe[] = [
       de: {
         title: "Żurek",
         slug: "zurek",
-        excerpt: "Sauerteigsuppe mit Weißwurst und Ei — warm und klar.",
+        excerpt: "Sauerteigsuppe mit Weißwurst und Ei. Warm und klar.",
         steps: [
           {
             text: "Żur-Ansatz mit Wasser und Gewürzen aufkochen.",
@@ -332,7 +332,7 @@ export const seedRecipes: Recipe[] = [
           { text: "Mit Knoblauch und Majoran abschmecken, Ei dazugeben." },
         ],
         seoTitle: "Żurek Rezept | Alemniam",
-        seoDescription: "Żurek kochen — mit Tipps wo man Żur in DE findet.",
+        seoDescription: "Żurek kochen. Mit Tipps wo man Żur in DE findet.",
       },
       pl: {
         title: "Żurek",
@@ -347,7 +347,7 @@ export const seedRecipes: Recipe[] = [
           { text: "Dopraw czosnkiem i majerankiem, dodaj jajko." },
         ],
         seoTitle: "Żurek przepis | Alemniam",
-        seoDescription: "Żurek — przepis i lista zakupów dwujęzycznie.",
+        seoDescription: "Żurek. Przepis i lista zakupów dwujęzycznie.",
       },
     },
     ingredients: [
@@ -412,32 +412,32 @@ export const seedRecipes: Recipe[] = [
       de: {
         title: "Gegrillter Oscypek mit Preiselbeeren",
         slug: "oscypek-preiselbeeren",
-        excerpt: "Schneller Podhale-Teller — rauchig, süß-sauer.",
+        excerpt: "Schneller Podhale-Teller. Rauchig, süß-sauer.",
         steps: [
           { text: "Oscypek in Scheiben schneiden." },
           {
             text: "In der Pfanne oder auf dem Grill goldbraun braten.",
-            tip: "Nicht zu heiß — der Käse soll nur anschmelzen.",
+            tip: "Nicht zu heiß. Der Käse soll nur anschmelzen.",
           },
           { text: "Mit Preiselbeeren und Roggenbrot servieren." },
         ],
         seoTitle: "Oscypek mit Preiselbeeren | Alemniam",
-        seoDescription: "Gegrillter Oscypek — schnelles Podhale-Rezept.",
+        seoDescription: "Gegrillter Oscypek. Schnelles Podhale-Rezept.",
       },
       pl: {
         title: "Oscypek z żurawiną",
         slug: "oscypek-zurawina",
-        excerpt: "Szybki talerz z Podhala — wędzony, słodko-kwaśny.",
+        excerpt: "Szybki talerz z Podhala. Wędzony, słodko-kwaśny.",
         steps: [
           { text: "Pokrój oscypek w plastry." },
           {
             text: "Opiecz na patelni lub grillu na złoto.",
-            tip: "Nie za mocno — ser ma tylko się podtopić.",
+            tip: "Nie za mocno. Ser ma tylko się podtopić.",
           },
           { text: "Podawaj z żurawiną i chlebem żytnim." },
         ],
         seoTitle: "Oscypek z żurawiną | Alemniam",
-        seoDescription: "Oscypek z żurawiną — szybki przepis z Podhala.",
+        seoDescription: "Oscypek z żurawiną. Szybki przepis z Podhala.",
       },
     },
     ingredients: [
@@ -488,34 +488,34 @@ export const seedRecipes: Recipe[] = [
       de: {
         title: "Placki ziemniaczane",
         slug: "placki-ziemniaczane",
-        excerpt: "Knusprige Kartoffelpuffer — mit Sauerrahm oder Gulasch.",
+        excerpt: "Knusprige Kartoffelpuffer. Mit Sauerrahm oder Gulasch.",
         steps: [
           { text: "Kartoffeln und Zwiebel reiben, gut ausdrücken." },
           { text: "Mit Ei, Mehl und Salz verrühren." },
           {
             text: "In heißem Öl goldbraun ausbacken.",
-            tip: "Nicht zu dick — sonst bleiben sie innen roh.",
+            tip: "Nicht zu dick. Sonst bleiben sie innen roh.",
           },
           { text: "Heiß mit Sauerrahm servieren." },
         ],
         seoTitle: "Placki ziemniaczane Rezept | Alemniam",
-        seoDescription: "Polnische Kartoffelpuffer — Rezept und Einkaufsliste.",
+        seoDescription: "Polnische Kartoffelpuffer. Rezept und Einkaufsliste.",
       },
       pl: {
         title: "Placki ziemniaczane",
         slug: "placki-ziemniaczane",
-        excerpt: "Chrupiące placki — ze śmietaną lub gulaszem.",
+        excerpt: "Chrupiące placki. Ze śmietaną lub gulaszem.",
         steps: [
           { text: "Zetrzyj ziemniaki i cebulę, dobrze odciśnij." },
           { text: "Wymieszaj z jajkiem, mąką i solą." },
           {
             text: "Smaż na złoto na gorącym oleju.",
-            tip: "Nie za grube — inaczej zostaną surowe w środku.",
+            tip: "Nie za grube. Inaczej zostaną surowe w środku.",
           },
           { text: "Podawaj gorące ze śmietaną." },
         ],
         seoTitle: "Placki ziemniaczane przepis | Alemniam",
-        seoDescription: "Placki ziemniaczane — przepis i lista zakupów.",
+        seoDescription: "Placki ziemniaczane. Przepis i lista zakupów.",
       },
     },
     ingredients: [
@@ -579,11 +579,11 @@ export const seedRecipes: Recipe[] = [
         steps: [
           { text: "Weißkohl blanchieren, Blätter lösen." },
           { text: "Füllung aus Hack, Reis und Zwiebel würzen." },
-          { text: "Rollen wickeln, in Tomatensoße schmoren.", tip: "Ca. 50–60 Min. bei mittlerer Hitze." },
+          { text: "Rollen wickeln, in Tomatensoße schmoren.", tip: "Ca. 50–60 Min. Bei mittlerer Hitze." },
           { text: "Mit Dill und Brot servieren." },
         ],
         seoTitle: "Gołąbki Rezept | Alemniam",
-        seoDescription: "Polnische Kohlrouladen — kochen und einkaufen.",
+        seoDescription: "Polnische Kohlrouladen. Kochen und einkaufen.",
       },
       pl: {
         title: "Gołąbki",
@@ -596,7 +596,7 @@ export const seedRecipes: Recipe[] = [
           { text: "Podawaj z koperkiem i chlebem." },
         ],
         seoTitle: "Gołąbki przepis | Alemniam",
-        seoDescription: "Gołąbki — przepis i lista zakupów.",
+        seoDescription: "Gołąbki. Przepis i lista zakupów.",
       },
     },
     ingredients: [
@@ -655,7 +655,7 @@ export const seedRecipes: Recipe[] = [
       de: {
         title: "Barszcz czerwony",
         slug: "barszcz-czerwony",
-        excerpt: "Klarer Rote-Bete-Eintopf — klassisch zur Wigilia mit Uszka.",
+        excerpt: "Klarer Rote-Bete-Eintopf. Klassisch zur Wigilia mit Uszka.",
         steps: [
           { text: "Rote Bete schälen, würfeln, mit Brühe kochen." },
           { text: "Mit Knoblauch, Essig und Zucker abschmecken.", tip: "Soll säuerlich-süß sein, nicht matt." },
@@ -663,12 +663,12 @@ export const seedRecipes: Recipe[] = [
           { text: "Mit Uszka oder Kartoffeln servieren." },
         ],
         seoTitle: "Barszcz czerwony Rezept | Alemniam",
-        seoDescription: "Polnischer Barszcz — Rezept mit DE-Einkaufstipps.",
+        seoDescription: "Polnischer Barszcz. Rezept mit DE-Einkaufstipps.",
       },
       pl: {
         title: "Barszcz czerwony",
         slug: "barszcz-czerwony",
-        excerpt: "Klarowny barszcz — klasycznie na Wigilię z uszkami.",
+        excerpt: "Klarowny barszcz. Klasycznie na Wigilię z uszkami.",
         steps: [
           { text: "Obierz buraki, pokrój, gotuj w bulionie." },
           { text: "Dopraw czosnkiem, octem i cukrem.", tip: "Ma być kwaśno-słodki, nie mdły." },
@@ -676,7 +676,7 @@ export const seedRecipes: Recipe[] = [
           { text: "Podawaj z uszkami lub ziemniakami." },
         ],
         seoTitle: "Barszcz czerwony przepis | Alemniam",
-        seoDescription: "Barszcz czerwony — przepis i zakupy.",
+        seoDescription: "Barszcz czerwony. Przepis i zakupy.",
       },
     },
     ingredients: [
@@ -737,28 +737,28 @@ export const seedRecipes: Recipe[] = [
       de: {
         title: "Kotlet schabowy",
         slug: "kotlet-schabowy",
-        excerpt: "Polnisches Schnitzel — mit Kartoffeln und Krautsalat.",
+        excerpt: "Polnisches Schnitzel. Mit Kartoffeln und Krautsalat.",
         steps: [
           { text: "Schnitzel klopfen, salzen, pfeffern." },
           { text: "Durch Mehl, Ei und Panade ziehen." },
-          { text: "In Butterschmalz goldbraun braten.", tip: "Nicht zu heiß — Panade soll nicht verbrennen." },
+          { text: "In Butterschmalz goldbraun braten.", tip: "Nicht zu heiß. Panade soll nicht verbrennen." },
           { text: "Mit Zitrone und Beilagen servieren." },
         ],
         seoTitle: "Kotlet schabowy Rezept | Alemniam",
-        seoDescription: "Polnisches Schnitzel — Rezept und Einkaufsliste.",
+        seoDescription: "Polnisches Schnitzel. Rezept und Einkaufsliste.",
       },
       pl: {
         title: "Kotlet schabowy",
         slug: "kotlet-schabowy",
-        excerpt: "Klasyczny schabowy — z ziemniakami i surówką.",
+        excerpt: "Klasyczny schabowy. Z ziemniakami i surówką.",
         steps: [
           { text: "Rozbij kotlety, posól, popieprz." },
           { text: "Obtocz w mące, jajku i bułce tartej." },
-          { text: "Smaż na złoto na smalcu lub maśle klarowanym.", tip: "Nie za mocno — panierka nie może się przypalić." },
+          { text: "Smaż na złoto na smalcu lub maśle klarowanym.", tip: "Nie za mocno. Panierka nie może się przypalić." },
           { text: "Podawaj z cytryną i dodatkami." },
         ],
         seoTitle: "Kotlet schabowy przepis | Alemniam",
-        seoDescription: "Kotlet schabowy — przepis i zakupy.",
+        seoDescription: "Kotlet schabowy. Przepis i zakupy.",
       },
     },
     ingredients: [
@@ -825,7 +825,7 @@ export const seedRecipes: Recipe[] = [
           { text: "Füllen, rollen, optional in Butter anbraten." },
         ],
         seoTitle: "Naleśniki mit Twaróg | Alemniam",
-        seoDescription: "Polnische Pfannkuchen mit Quark — Rezept und Liste.",
+        seoDescription: "Polnische Pfannkuchen mit Quark. Rezept und Liste.",
       },
       pl: {
         title: "Naleśniki z twarogiem",
@@ -838,7 +838,7 @@ export const seedRecipes: Recipe[] = [
           { text: "Nadziewaj, zawiń, opcjonalnie podsmaż na maśle." },
         ],
         seoTitle: "Naleśniki z twarogiem | Alemniam",
-        seoDescription: "Naleśniki z twarogiem — przepis i zakupy.",
+        seoDescription: "Naleśniki z twarogiem. Przepis i zakupy.",
       },
     },
     ingredients: [
@@ -898,28 +898,28 @@ export const seedRecipes: Recipe[] = [
       de: {
         title: "Rosół",
         slug: "rosol",
-        excerpt: "Klare Hühnerbrühe mit Nudeln — Sonntagsklassiker.",
+        excerpt: "Klare Hühnerbrühe mit Nudeln. Sonntagsklassiker.",
         steps: [
           { text: "Huhn mit Gemüse kalt aufsetzen, langsam köcheln." },
-          { text: "Schaum abschöpfen, 1,5–2 Std. ziehen lassen.", tip: "Nicht sprudelnd kochen — bleibt klar." },
+          { text: "Schaum abschöpfen, 1,5–2 Std. Ziehen lassen.", tip: "Nicht sprudelnd kochen. Bleibt klar." },
           { text: "Absieben, würzen, mit Fadenudeln servieren." },
           { text: "Mit Petersilie und etwas Karotte anrichten." },
         ],
         seoTitle: "Rosół Rezept | Alemniam",
-        seoDescription: "Polnische Hühnerbrühe — Rezept und Einkaufshilfe.",
+        seoDescription: "Polnische Hühnerbrühe. Rezept und Einkaufshilfe.",
       },
       pl: {
         title: "Rosół",
         slug: "rosol",
-        excerpt: "Klarowny rosół z makaronem — niedzielny klasyk.",
+        excerpt: "Klarowny rosół z makaronem. Niedzielny klasyk.",
         steps: [
           { text: "Zalej kurczaka z warzywami zimną wodą, gotuj powoli." },
-          { text: "Zbieraj szumowiny, gotuj 1,5–2 godz.", tip: "Bez burzenia — będzie klarowny." },
+          { text: "Zbieraj szumowiny, gotuj 1,5–2 godz.", tip: "Bez burzenia. Będzie klarowny." },
           { text: "Przecedź, dopraw, podawaj z nitkami." },
           { text: "Udekoruj pietruszką i marchewką." },
         ],
         seoTitle: "Rosół przepis | Alemniam",
-        seoDescription: "Rosół — przepis i lista zakupów.",
+        seoDescription: "Rosół. Przepis i lista zakupów.",
       },
     },
     ingredients: [
@@ -980,7 +980,7 @@ export const seedRecipes: Recipe[] = [
       de: {
         title: "Fasolka po bretońsku",
         slug: "fasolka-po-bretonsku",
-        excerpt: "Bohnen mit Wurst in würziger Tomatensoße — sättigend und schnell.",
+        excerpt: "Bohnen mit Wurst in würziger Tomatensoße. Sättigend und schnell.",
         steps: [
           { text: "Zwiebel und Speck anbraten." },
           { text: "Wurst und Tomatenmark zugeben." },
@@ -988,12 +988,12 @@ export const seedRecipes: Recipe[] = [
           { text: "Mit Brot servieren." },
         ],
         seoTitle: "Fasolka po bretońsku | Alemniam",
-        seoDescription: "Polnische Bohnen mit Wurst — Rezept und Liste.",
+        seoDescription: "Polnische Bohnen mit Wurst. Rezept und Liste.",
       },
       pl: {
         title: "Fasolka po bretońsku",
         slug: "fasolka-po-bretonsku",
-        excerpt: "Fasola z kiełbasą w sosie pomidorowym — sycąco i szybko.",
+        excerpt: "Fasola z kiełbasą w sosie pomidorowym. Sycąco i szybko.",
         steps: [
           { text: "Podsmaż cebulę i boczek." },
           { text: "Dodaj kiełbasę i koncentrat pomidorowy." },
@@ -1001,7 +1001,7 @@ export const seedRecipes: Recipe[] = [
           { text: "Podawaj z chlebem." },
         ],
         seoTitle: "Fasolka po bretońsku przepis | Alemniam",
-        seoDescription: "Fasolka po bretońsku — przepis i zakupy.",
+        seoDescription: "Fasolka po bretońsku. Przepis i zakupy.",
       },
     },
     ingredients: [

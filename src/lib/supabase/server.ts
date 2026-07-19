@@ -16,7 +16,7 @@ export async function createClient() {
             cookieStore.set(name, value, options),
           );
         } catch {
-          /* Server Component — ignore when proxy refreshes sessions */
+          /* Server Component. Ignore when proxy refreshes sessions */
         }
       },
     },

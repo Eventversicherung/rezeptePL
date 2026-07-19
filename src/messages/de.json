@@ -15,7 +15,7 @@
   },
   "home": {
     "headline": "Kochen wie zu Hause",
-    "sub": "Authentische polnische Rezepte — zum Einkaufen und Kochen, in einer App.",
+    "sub": "Authentische polnische Rezepte. Zum Einkaufen und Kochen, in einer App.",
     "cta": "Rezepte entdecken",
     "clusters": "Entdecken"
   },
@@ -46,7 +46,7 @@
     "groupOther": "Sonstiges",
     "compactIngredients": "Zutaten",
     "showSteps": "Schritte anzeigen",
-    "modeHelp": "Gleich hier umschalten — eine Seite, kein neuer Tab.",
+    "modeHelp": "Gleich hier umschalten. Eine Seite, kein neuer Tab.",
     "focusHint": "Fokus-Kochen: großer Schritt, Display bleibt wach.",
     "enterFocus": "Fokus",
     "exitFocus": "Fokus aus",
@@ -58,7 +58,7 @@
   },
   "lists": {
     "title": "Einkaufslisten",
-    "empty": "Noch keine Einkaufsliste — öffne ein Rezept und wechsle zu Einkaufen.",
+    "empty": "Noch keine Einkaufsliste. Öffne ein Rezept und wechsle zu Einkaufen.",
     "defaultName": "Meine Liste",
     "clearChecked": "Erledigte entfernen"
   },
@@ -84,7 +84,7 @@
     "uploadTitle": "Eigenes Rezept einreichen",
     "uploadSub": "Wird nach Prüfung veröffentlicht.",
     "submit": "Einreichen",
-    "success": "Danke — dein Rezept ist in der Prüfung.",
+    "success": "Danke. Dein Rezept ist in der Prüfung.",
     "title": "Titel",
     "excerpt": "Kurzbeschreibung",
     "steps": "Schritte (einer pro Zeile)",
@@ -116,7 +116,7 @@
     "disclosure": "Anzeige · Affiliate-Link",
     "ctaKicker": "Nächster Schritt",
     "ctaTitle": "Zutaten schon auf der Liste?",
-    "ctaBody": "Wechsel zu Einkaufen — wir sortieren nach Ladenbereich, damit du schneller fertig bist.",
+    "ctaBody": "Wechsel zu Einkaufen. Wir sortieren nach Ladenbereich, damit du schneller fertig bist.",
     "ctaButton": "Zur Einkaufsliste"
   },
   "legal": {

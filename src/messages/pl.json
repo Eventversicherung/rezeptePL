@@ -15,7 +15,7 @@
   },
   "home": {
     "headline": "Gotuj jak w domu",
-    "sub": "Autentyczne polskie przepisy — na zakupy i gotowanie, w jednej aplikacji.",
+    "sub": "Autentyczne polskie przepisy. Na zakupy i gotowanie, w jednej aplikacji.",
     "cta": "Odkryj przepisy",
     "clusters": "Odkrywaj"
   },
@@ -46,7 +46,7 @@
     "groupOther": "Inne",
     "compactIngredients": "Składniki",
     "showSteps": "Pokaż kroki",
-    "modeHelp": "Przełączaj tutaj — jedna strona, bez nowej zakładki.",
+    "modeHelp": "Przełączaj tutaj. Jedna strona, bez nowej zakładki.",
     "focusHint": "Tryb fokusu: duży krok, ekran nie gaśnie.",
     "enterFocus": "Fokus",
     "exitFocus": "Wyłącz fokus",
@@ -58,7 +58,7 @@
   },
   "lists": {
     "title": "Listy zakupów",
-    "empty": "Brak listy — otwórz przepis i przełącz na Zakupy.",
+    "empty": "Brak listy. Otwórz przepis i przełącz na Zakupy.",
     "defaultName": "Moja lista",
     "clearChecked": "Usuń zaznaczone"
   },
@@ -84,7 +84,7 @@
     "uploadTitle": "Dodaj własny przepis",
     "uploadSub": "Zostanie opublikowany po weryfikacji.",
     "submit": "Wyślij",
-    "success": "Dziękujemy — przepis jest w weryfikacji.",
+    "success": "Dziękujemy. Przepis jest w weryfikacji.",
     "title": "Tytuł",
     "excerpt": "Krótki opis",
     "steps": "Kroki (jeden w linii)",
@@ -116,7 +116,7 @@
     "disclosure": "Reklama · Link partnerski",
     "ctaKicker": "Następny krok",
     "ctaTitle": "Składniki już na liście?",
-    "ctaBody": "Przełącz na Zakupy — sortujemy według działu sklepu, żebyś szybciej skończył.",
+    "ctaBody": "Przełącz na Zakupy. Sortujemy według działu sklepu, żebyś szybciej skończył.",
     "ctaButton": "Do listy zakupów"
   },
   "legal": {
