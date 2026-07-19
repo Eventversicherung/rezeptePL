@@ -317,13 +317,13 @@ a.btn-primary:active:not(:disabled) {
   color: #ffffff !important;
 }
 
-/* Recipe family variants — same visual language as mode switch, no sticky */
+/* Recipe family variants — image chips, in-flow (no sticky), prefetched links */
 .variant-switch {
-  margin: 0 0 1.25rem;
+  margin: 0 0 1.35rem;
 }
 
 .variant-switch__label {
-  margin: 0 0 0.5rem;
+  margin: 0 0 0.65rem;
   font-size: 0.7rem;
   font-weight: 700;
   letter-spacing: 0.14em;
@@ -331,65 +331,91 @@ a.btn-primary:active:not(:disabled) {
   color: var(--fg-muted);
 }
 
-.variant-switch__track {
+.variant-switch__gallery {
   display: flex;
-  flex-wrap: wrap;
-  gap: 0.35rem;
-  padding: 0.25rem;
-  border-radius: 9999px;
-  border: 1.5px solid color-mix(in srgb, #dc143c 16%, var(--border));
-  background: color-mix(in srgb, #dc143c 4%, var(--surface));
+  gap: 0.65rem;
+  margin: 0;
+  padding: 0.15rem 0.1rem 0.35rem;
+  list-style: none;
+  overflow-x: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
-.variant-switch__tab {
-  display: inline-flex;
+.variant-switch__gallery::-webkit-scrollbar {
+  display: none;
+}
+
+.variant-switch__card {
+  display: flex;
+  width: 5.75rem;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  min-height: 2.35rem;
-  flex: 1 1 auto;
-  padding: 0.45rem 0.9rem;
-  border-radius: 9999px;
-  color: var(--fg-muted);
-  font-size: 0.9rem;
-  font-weight: 600;
-  letter-spacing: -0.01em;
+  gap: 0.45rem;
+  padding: 0.4rem;
+  border-radius: calc(var(--radius) + 2px);
+  border: 1.5px solid transparent;
+  background: transparent;
   text-align: center;
   transition:
+    border-color 160ms var(--ease-out),
     background-color 160ms var(--ease-out),
-    color 160ms var(--ease-out),
     box-shadow 160ms var(--ease-out);
 }
 
-.variant-switch__tab:hover {
-  color: var(--navy);
-  background: color-mix(in srgb, #ffffff 70%, transparent);
+@media (min-width: 640px) {
+  .variant-switch__card {
+    width: 6.5rem;
+  }
 }
 
-.variant-switch__tab.is-active {
-  background: #dc143c;
-  color: #ffffff;
-  box-shadow: 0 6px 16px color-mix(in srgb, #dc143c 28%, transparent);
+.variant-switch__card:hover {
+  background: color-mix(in srgb, #dc143c 5%, var(--surface));
+  border-color: color-mix(in srgb, #dc143c 14%, var(--border));
 }
 
-.variant-switch__tab-text {
+.variant-switch__card.is-active {
+  background: color-mix(in srgb, #dc143c 8%, var(--surface));
+  border-color: #dc143c;
+  box-shadow: 0 8px 20px color-mix(in srgb, #dc143c 14%, transparent);
+}
+
+.variant-switch__media {
+  position: relative;
   display: block;
-  max-width: 14rem;
+  aspect-ratio: 1;
+  width: 100%;
   overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  border-radius: calc(var(--radius) - 2px);
+  background: var(--bg-elevated);
 }
 
-@media (max-width: 420px) {
-  .variant-switch__track {
-    border-radius: calc(var(--radius) + 4px);
-  }
+.variant-switch__card.is-active .variant-switch__media {
+  box-shadow: inset 0 0 0 2px color-mix(in srgb, #dc143c 35%, transparent);
+}
 
-  .variant-switch__tab {
-    flex: 1 1 calc(50% - 0.35rem);
-    font-size: 0.82rem;
-    min-height: 2.2rem;
-    padding-inline: 0.65rem;
-  }
+.variant-switch__media img {
+  transition: transform 400ms var(--ease-out);
+}
+
+.variant-switch__card:hover .variant-switch__media img {
+  transform: scale(1.05);
+}
+
+.variant-switch__name {
+  display: -webkit-box;
+  min-height: 2.2em;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  font-size: 0.78rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: var(--fg);
+}
+
+.variant-switch__card.is-active .variant-switch__name {
+  color: #dc143c;
 }
 
 .mode-switch {
