@@ -25,7 +25,7 @@ export default async function CommunityUploadPage({
         <p className="text-muted">{t("uploadSub")}</p>
         <Link
           href="/anmelden"
-          className="inline-flex min-h-11 items-center rounded-full bg-foreground px-5 text-[var(--bg)]"
+          className="btn-primary"
         >
           Login
         </Link>
@@ -83,7 +83,7 @@ export default async function CommunityUploadPage({
         </label>
         <button
           type="submit"
-          className="min-h-12 rounded-full bg-foreground px-6 text-[var(--bg)]"
+          className="btn-primary"
         >
           {t("submit")}
         </button>

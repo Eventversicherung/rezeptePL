@@ -29,20 +29,17 @@ export default async function HomePage({
         />
         <div className="absolute inset-0 bg-[linear-gradient(to_top,oklch(0.2_0.02_25/0.75),oklch(0.2_0.02_25/0.2)_55%,transparent)]" />
         <div className="relative flex min-h-[70dvh] flex-col justify-end p-6 sm:p-10">
-          <p className="font-display text-sm font-medium uppercase tracking-[0.2em] text-white/80">
-            Alemniam
+          <p className="font-display text-sm font-medium uppercase tracking-[0.2em] text-white/90">
+            <span className="text-[oklch(0.72_0.16_27)]">Alemniam</span>
           </p>
           <h1 className="mt-3 max-w-[14ch] font-display text-[clamp(2.4rem,8vw,4.5rem)] font-semibold text-white">
             {t("headline")}
           </h1>
-          <p className="mt-3 max-w-[40ch] text-base text-white/85 sm:text-lg">
+          <p className="mt-3 max-w-[40ch] text-base text-white/90 sm:text-lg">
             {t("sub")}
           </p>
           <div className="mt-6">
-            <Link
-              href="/rezepte"
-              className="inline-flex min-h-12 items-center rounded-full bg-white px-6 text-sm font-medium text-[oklch(0.22_0.02_25)]"
-            >
+            <Link href="/rezepte" className="btn-primary bg-white !text-[var(--accent)] hover:!bg-white">
               {t("cta")}
             </Link>
           </div>
@@ -79,7 +76,7 @@ export default async function HomePage({
               <Link
                 key={cluster.id}
                 href={`${base}/${cluster.slug[locale]}`}
-                className="rounded-[var(--radius)] border border-border bg-surface px-4 py-5 transition-colors hover:border-foreground"
+                className="rounded-[var(--radius)] border border-border bg-surface px-4 py-5 transition-colors hover:border-accent"
               >
                 <p className="text-xs uppercase tracking-wide text-muted">
                   {cluster.kind === "region"

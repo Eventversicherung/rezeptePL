@@ -43,7 +43,7 @@ export default async function ModerationPage({
                   <input type="hidden" name="decision" value="approved" />
                   <button
                     type="submit"
-                    className="min-h-10 rounded-full bg-foreground px-4 text-sm text-[var(--bg)]"
+                    className="btn-primary !min-h-10 px-4 text-sm"
                   >
                     {t("approve")}
                   </button>

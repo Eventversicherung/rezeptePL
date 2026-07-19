@@ -20,8 +20,12 @@ export async function AppShell({
     <div className="mx-auto flex min-h-dvh w-full max-w-6xl flex-col px-4 sm:px-6">
       <header className="sticky top-0 z-40 -mx-4 border-b border-border/70 bg-[color-mix(in_oklch,var(--bg)_88%,transparent)] px-4 backdrop-blur-md sm:-mx-6 sm:px-6">
         <div className="flex h-14 items-center justify-between gap-3">
-          <Link href="/" className="font-display text-lg font-semibold tracking-tight">
-            {brand("name")}
+          <Link
+            href="/"
+            className="font-display text-lg font-semibold tracking-tight"
+          >
+            <span className="text-accent">A</span>
+            {brand("name").slice(1)}
           </Link>
           <nav className="hidden items-center gap-6 text-sm text-muted md:flex">
             <Link href="/rezepte" className="hover:text-foreground">
@@ -47,7 +51,7 @@ export async function AppShell({
             {!user ? (
               <Link
                 href="/anmelden"
-                className="rounded-full bg-foreground px-3 py-1.5 text-sm text-[var(--bg)]"
+                className="btn-primary !min-h-9 px-3 text-sm"
               >
                 {t("login")}
               </Link>

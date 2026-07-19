@@ -33,9 +33,7 @@ export function ModeSwitch({
             aria-selected={active}
             onClick={() => onChange(value)}
             className={`min-h-11 flex-1 rounded-full px-4 text-sm transition-colors duration-150 ${
-              active
-                ? "bg-foreground font-medium text-[var(--bg)]"
-                : "text-muted"
+              active ? "segment-active" : "text-muted"
             }`}
           >
             {label}

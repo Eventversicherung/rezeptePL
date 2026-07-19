@@ -39,7 +39,7 @@ export default async function RegisterPage({
         </label>
         <button
           type="submit"
-          className="min-h-12 w-full rounded-full bg-foreground text-[var(--bg)]"
+          className="btn-primary w-full"
         >
           {t("register")}
         </button>

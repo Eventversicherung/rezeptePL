@@ -23,9 +23,7 @@ export function LanguageSwitcher({ locale }: { locale: string }) {
           type="button"
           onClick={() => switchTo(code)}
           className={`min-h-8 min-w-9 rounded-full px-2 uppercase ${
-            locale === code
-              ? "bg-foreground text-[var(--bg)]"
-              : "text-muted"
+            locale === code ? "segment-active" : "text-muted"
           }`}
         >
           {code}

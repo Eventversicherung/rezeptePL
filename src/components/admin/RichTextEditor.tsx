@@ -91,9 +91,7 @@ function ToolbarButton({
       type="button"
       onClick={onClick}
       className={`min-h-9 rounded-lg border px-3 text-sm ${
-        active
-          ? "border-foreground bg-foreground text-[var(--bg)]"
-          : "border-border"
+        active ? "segment-active border-transparent" : "border-border"
       }`}
     >
       {label}

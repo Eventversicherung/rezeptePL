@@ -39,7 +39,7 @@ export default async function AdminPage({
           <form action={createDraftAction.bind(null, locale)}>
             <button
               type="submit"
-              className="min-h-11 rounded-full bg-foreground px-4 text-sm text-[var(--bg)]"
+              className="btn-primary !min-h-11 px-4 text-sm"
             >
               {t("newRecipe")}
             </button>

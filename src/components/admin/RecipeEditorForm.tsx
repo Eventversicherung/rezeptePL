@@ -44,9 +44,7 @@ export function RecipeEditorForm({
               type="button"
               onClick={() => setEditLocale(code)}
               className={`min-h-10 rounded-full px-4 text-sm uppercase ${
-                editLocale === code
-                  ? "bg-foreground text-[var(--bg)]"
-                  : "text-muted"
+                editLocale === code ? "segment-active" : "text-muted"
               }`}
             >
               {code}
@@ -176,7 +174,7 @@ export function RecipeEditorForm({
 
       <button
         type="submit"
-        className="min-h-12 rounded-full bg-foreground px-6 text-[var(--bg)]"
+        className="btn-primary"
       >
         {t("save")}
       </button>

@@ -28,7 +28,7 @@ export default async function ListsPage({
         <p className="text-muted">{tp("guest")}</p>
         <Link
           href="/anmelden"
-          className="inline-flex min-h-11 items-center rounded-full bg-foreground px-5 text-[var(--bg)]"
+          className="btn-primary"
         >
           Login
         </Link>

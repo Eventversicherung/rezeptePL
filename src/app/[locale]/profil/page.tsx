@@ -28,7 +28,7 @@ export default async function ProfilePage({
         <p className="text-muted">{t("guest")}</p>
         <Link
           href="/anmelden"
-          className="inline-flex min-h-11 items-center rounded-full bg-foreground px-5 text-[var(--bg)]"
+          className="btn-primary"
         >
           {tn("login")}
         </Link>
@@ -54,7 +54,7 @@ export default async function ProfilePage({
           <input type="hidden" name="locale" value={locale} />
           <button
             type="submit"
-            className="min-h-11 rounded-full border border-border px-4"
+            className="btn-secondary"
           >
             {tn("logout")}
           </button>

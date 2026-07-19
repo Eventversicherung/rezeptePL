@@ -141,7 +141,7 @@ export function RecipeExperience({
               setSaved(next);
             })
           }
-          className="rounded-full border border-border px-3 py-2 text-foreground disabled:opacity-40"
+          className="btn-ghost !min-h-10 px-3 text-sm disabled:opacity-40"
         >
           {saved ? t("saved") : t("save")}
         </button>
@@ -166,7 +166,7 @@ export function RecipeExperience({
                       onClick={() => setActiveStep(index)}
                       className={`w-full rounded-[var(--radius)] border px-4 py-4 text-left transition-colors ${
                         active
-                          ? "border-foreground bg-surface"
+                          ? "border-accent bg-accent-soft"
                           : "border-border bg-transparent"
                       }`}
                     >
@@ -203,7 +203,7 @@ export function RecipeExperience({
                     Math.min(translation.steps.length - 1, s + 1),
                   )
                 }
-                className="min-h-11 flex-1 rounded-full bg-foreground text-[var(--bg)] disabled:opacity-40"
+                className="btn-primary flex-1 disabled:opacity-40"
               >
                 →
               </button>
@@ -242,14 +242,14 @@ export function RecipeExperience({
                   setMessage(t("addToList"));
                 })
               }
-              className="min-h-11 rounded-full bg-foreground px-4 text-[var(--bg)] disabled:opacity-40"
+              className="btn-primary disabled:opacity-40"
             >
               {t("addToList")}
             </button>
             <button
               type="button"
               onClick={shareList}
-              className="min-h-11 rounded-full border border-border px-4"
+              className="btn-secondary"
             >
               {t("shareList")}
             </button>

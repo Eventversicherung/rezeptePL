@@ -32,7 +32,7 @@ export function BottomNav() {
                 href={item.href}
                 className={`flex min-h-12 flex-col items-center justify-center rounded-xl text-xs ${
                   active
-                    ? "bg-accent-soft font-medium text-foreground"
+                    ? "bg-accent-soft font-medium text-accent"
                     : "text-muted"
                 }`}
               >

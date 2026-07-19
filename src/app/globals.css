@@ -1,15 +1,18 @@
 @import "tailwindcss";
 
 :root {
-  --brand-hue: 25;
-  --bg: oklch(0.985 0.008 var(--brand-hue));
-  --bg-elevated: oklch(0.97 0.012 var(--brand-hue));
-  --fg: oklch(0.22 0.02 var(--brand-hue));
-  --fg-muted: oklch(0.45 0.02 var(--brand-hue));
-  --border: oklch(0.9 0.015 var(--brand-hue));
-  --accent: oklch(0.48 0.14 25);
-  --accent-soft: oklch(0.94 0.03 25);
-  --surface: oklch(0.995 0.004 var(--brand-hue));
+  /* Polish red (flag-adjacent) + linen white — restrained, not folkloric */
+  --brand-hue: 27;
+  --bg: oklch(0.985 0.006 85);
+  --bg-elevated: oklch(0.965 0.01 85);
+  --fg: oklch(0.24 0.02 30);
+  --fg-muted: oklch(0.48 0.02 30);
+  --border: oklch(0.9 0.012 30);
+  --accent: oklch(0.5 0.19 27);
+  --accent-hover: oklch(0.44 0.18 27);
+  --accent-soft: oklch(0.95 0.035 27);
+  --on-accent: oklch(0.99 0.005 85);
+  --surface: oklch(0.995 0.004 85);
   --space-xs: 4px;
   --space-sm: 8px;
   --space-md: 12px;
@@ -30,6 +33,7 @@
   --color-border: var(--border);
   --color-accent: var(--accent);
   --color-accent-soft: var(--accent-soft);
+  --color-on-accent: var(--on-accent);
   --color-surface: var(--surface);
   --color-elevated: var(--bg-elevated);
   --font-sans: var(--font-body);
@@ -63,14 +67,14 @@ body {
   min-height: 100dvh;
   background:
     radial-gradient(
-      120% 80% at 100% 0%,
-      oklch(0.96 0.025 25 / 0.55),
-      transparent 55%
+      110% 70% at 100% -10%,
+      oklch(0.94 0.04 27 / 0.55),
+      transparent 50%
     ),
     radial-gradient(
-      90% 60% at 0% 100%,
-      oklch(0.96 0.02 80 / 0.4),
-      transparent 50%
+      80% 50% at 0% 100%,
+      oklch(0.97 0.015 85 / 0.8),
+      transparent 45%
     ),
     var(--bg);
   color: var(--fg);
@@ -98,11 +102,80 @@ input,
 textarea,
 select {
   font: inherit;
+  color: inherit;
 }
 
 ::selection {
   background: var(--accent-soft);
   color: var(--fg);
+}
+
+/* Guaranteed contrast — never dark-on-dark */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.75rem;
+  padding-inline: 1.25rem;
+  border: none;
+  border-radius: 9999px;
+  background: var(--accent);
+  color: var(--on-accent);
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 150ms ease;
+}
+
+.btn-primary:hover:not(:disabled) {
+  background: var(--accent-hover);
+}
+
+.btn-primary:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.75rem;
+  padding-inline: 1.25rem;
+  border: 1px solid var(--border);
+  border-radius: 9999px;
+  background: var(--surface);
+  color: var(--fg);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn-secondary:hover:not(:disabled) {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.btn-secondary:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.btn-ghost {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.75rem;
+  padding-inline: 1rem;
+  border: 1px solid var(--border);
+  border-radius: 9999px;
+  background: transparent;
+  color: var(--fg);
+  cursor: pointer;
+}
+
+.segment-active {
+  background: var(--accent) !important;
+  color: var(--on-accent) !important;
+  font-weight: 500;
 }
 
 .mode-fade {
