@@ -26,7 +26,7 @@ export function ArticleInlineCta({
       </p>
       <Link
         href={href}
-        className="mt-5 inline-flex min-h-11 items-center rounded-full bg-white px-5 text-sm font-semibold text-[var(--navy)] transition-transform duration-200 hover:-translate-y-0.5"
+        className="article-inline-cta__btn mt-5 inline-flex min-h-11 items-center justify-center rounded-full px-5 text-sm font-semibold transition-transform duration-200 hover:-translate-y-0.5"
       >
         {cta}
       </Link>

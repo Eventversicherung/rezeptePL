@@ -445,6 +445,17 @@ a.btn-primary:active:not(:disabled) {
   color: #dc143c;
 }
 
+/* Force contrast: parent CTA is white text; button must not inherit it */
+.article-inline-cta__btn {
+  background: #ffffff !important;
+  color: #1a2744 !important;
+}
+
+.article-inline-cta__btn:hover {
+  background: #fff5f6 !important;
+  color: #dc143c !important;
+}
+
 .safe-pb {
   padding-bottom: calc(72px + env(safe-area-inset-bottom, 0px));
 }
