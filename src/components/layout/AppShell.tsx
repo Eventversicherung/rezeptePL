@@ -14,7 +14,7 @@ export async function AppShell({
   const legal = await getTranslations("legal");
 
   return (
-    <div className="mx-auto flex min-h-dvh w-full max-w-6xl flex-col px-4 sm:px-6">
+    <div className="mx-auto flex min-h-dvh w-full max-w-7xl flex-col px-4 sm:px-8">
       <SiteHeader locale={locale} />
 
       <main className="safe-pb flex-1 pt-6 md:pt-8">{children}</main>

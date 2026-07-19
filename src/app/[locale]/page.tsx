@@ -32,7 +32,7 @@ export default async function HomePage({
         <div className="absolute inset-0 bg-[linear-gradient(115deg,rgba(18,27,48,0.88)_0%,rgba(26,39,68,0.45)_50%,rgba(220,20,60,0.28)_100%)]" />
         <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-[var(--bg)] to-transparent" />
 
-        <div className="relative mx-auto flex min-h-[88dvh] w-full max-w-6xl flex-col justify-end px-4 pb-14 pt-28 sm:px-6 sm:pb-20">
+        <div className="relative mx-auto flex min-h-[88dvh] w-full max-w-7xl flex-col justify-end px-4 pb-14 pt-28 sm:px-8 sm:pb-20">
           <div className="reveal max-w-3xl">
             <div className="mb-4 flex items-center gap-3">
               <Image
