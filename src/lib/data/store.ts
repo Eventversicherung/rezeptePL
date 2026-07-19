@@ -38,6 +38,20 @@ export const SEED_VERSION = 7;
 
 const STORE_PATH = path.join(process.cwd(), ".data", "store.json");
 
+/**
+ * Vercel / Lambda: filesystem under cwd is read-only.
+ * Use in-memory seed there; persist to disk only in local/dev.
+ */
+function useMemoryStore(): boolean {
+  return (
+    process.env.VERCEL === "1" ||
+    process.env.AWS_LAMBDA_FUNCTION_NAME != null ||
+    process.env.DATA_STORE === "memory"
+  );
+}
+
+let memoryStore: AppStore | null = null;
+
 function defaultStore(): AppStore {
   return {
     seedVersion: SEED_VERSION,
@@ -52,22 +66,43 @@ function defaultStore(): AppStore {
   };
 }
 
+function normalizeStore(store: AppStore): AppStore {
+  return {
+    ...store,
+    families: store.families?.length ? store.families : structuredClone(seedFamilies),
+    blogPosts: store.blogPosts?.length
+      ? store.blogPosts
+      : structuredClone(seedBlogPosts),
+    clusters: store.clusters?.length ? store.clusters : structuredClone(seedClusters),
+    recipes: store.recipes?.length ? store.recipes : structuredClone(seedRecipes),
+    profiles: store.profiles ?? [],
+    saved: store.saved ?? [],
+    lists: store.lists ?? [],
+    submissions: store.submissions ?? [],
+  };
+}
+
 export async function readStore(): Promise<AppStore> {
+  if (useMemoryStore()) {
+    if (!memoryStore || memoryStore.seedVersion !== SEED_VERSION) {
+      memoryStore = defaultStore();
+    }
+    return memoryStore;
+  }
+
   try {
     const raw = await fs.readFile(STORE_PATH, "utf8");
-    const store = JSON.parse(raw) as AppStore;
+    const store = normalizeStore(JSON.parse(raw) as AppStore);
     if (store.seedVersion !== SEED_VERSION) {
       const next = defaultStore();
-      // Keep user data across seed refreshes
       next.saved = store.saved ?? [];
       next.lists = store.lists ?? [];
       next.submissions = store.submissions ?? [];
-      next.profiles = store.profiles?.length
-        ? store.profiles
-        : next.profiles;
+      next.profiles = store.profiles?.length ? store.profiles : next.profiles;
       await writeStore(next);
       return next;
     }
+    memoryStore = store;
     return store;
   } catch {
     const store = defaultStore();
@@ -77,8 +112,16 @@ export async function readStore(): Promise<AppStore> {
 }
 
 export async function writeStore(store: AppStore): Promise<void> {
-  await fs.mkdir(path.dirname(STORE_PATH), { recursive: true });
-  await fs.writeFile(STORE_PATH, JSON.stringify(store, null, 2), "utf8");
+  memoryStore = store;
+  if (useMemoryStore()) return;
+
+  try {
+    await fs.mkdir(path.dirname(STORE_PATH), { recursive: true });
+    await fs.writeFile(STORE_PATH, JSON.stringify(store, null, 2), "utf8");
+  } catch (err) {
+    // Read-only host (or disk full): keep serving from memory
+    console.warn("[store] filesystem write skipped, using memory", err);
+  }
 }
 
 export async function updateStore(
