@@ -18,6 +18,7 @@ import {
 } from "./seed";
 
 export type AppStore = {
+  seedVersion: number;
   recipes: Recipe[];
   clusters: Cluster[];
   profiles: Profile[];
@@ -26,10 +27,14 @@ export type AppStore = {
   submissions: CommunitySubmission[];
 };
 
+/** Bump when seed content changes so local/prod stores refresh. */
+export const SEED_VERSION = 3;
+
 const STORE_PATH = path.join(process.cwd(), ".data", "store.json");
 
 function defaultStore(): AppStore {
   return {
+    seedVersion: SEED_VERSION,
     recipes: structuredClone(seedRecipes),
     clusters: structuredClone(seedClusters),
     profiles: structuredClone(seedProfiles),
@@ -42,7 +47,20 @@ function defaultStore(): AppStore {
 export async function readStore(): Promise<AppStore> {
   try {
     const raw = await fs.readFile(STORE_PATH, "utf8");
-    return JSON.parse(raw) as AppStore;
+    const store = JSON.parse(raw) as AppStore;
+    if (store.seedVersion !== SEED_VERSION) {
+      const next = defaultStore();
+      // Keep user data across seed refreshes
+      next.saved = store.saved ?? [];
+      next.lists = store.lists ?? [];
+      next.submissions = store.submissions ?? [];
+      next.profiles = store.profiles?.length
+        ? store.profiles
+        : next.profiles;
+      await writeStore(next);
+      return next;
+    }
+    return store;
   } catch {
     const store = defaultStore();
     await writeStore(store);
