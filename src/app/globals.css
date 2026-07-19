@@ -1,17 +1,17 @@
 @import "tailwindcss";
 
 :root {
-  /* Polish red (flag-adjacent) + linen white — restrained, not folkloric */
+  /* Exact crimson + linen white */
   --brand-hue: 27;
   --bg: oklch(0.985 0.006 85);
   --bg-elevated: oklch(0.965 0.01 85);
   --fg: oklch(0.24 0.02 30);
   --fg-muted: oklch(0.48 0.02 30);
   --border: oklch(0.9 0.012 30);
-  --accent: oklch(0.5 0.19 27);
-  --accent-hover: oklch(0.44 0.18 27);
-  --accent-soft: oklch(0.95 0.035 27);
-  --on-accent: oklch(0.99 0.005 85);
+  --accent: #dc143c;
+  --accent-hover: #b01030;
+  --accent-soft: color-mix(in srgb, #dc143c 12%, #ffffff);
+  --on-accent: #ffffff;
   --surface: oklch(0.995 0.004 85);
   --space-xs: 4px;
   --space-sm: 8px;
@@ -102,7 +102,6 @@ input,
 textarea,
 select {
   font: inherit;
-  color: inherit;
 }
 
 ::selection {
@@ -110,8 +109,10 @@ select {
   color: var(--fg);
 }
 
-/* Guaranteed contrast — never dark-on-dark */
-.btn-primary {
+/* Crimson #DC143C + white text — forced so nothing inherits red-on-red */
+.btn-primary,
+a.btn-primary,
+button.btn-primary {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -119,15 +120,18 @@ select {
   padding-inline: 1.25rem;
   border: none;
   border-radius: 9999px;
-  background: var(--accent);
-  color: var(--on-accent);
+  background: #dc143c !important;
+  color: #ffffff !important;
   font-weight: 500;
   cursor: pointer;
   transition: background-color 150ms ease;
 }
 
-.btn-primary:hover:not(:disabled) {
-  background: var(--accent-hover);
+.btn-primary:hover:not(:disabled),
+a.btn-primary:hover:not(:disabled),
+button.btn-primary:hover:not(:disabled) {
+  background: #b01030 !important;
+  color: #ffffff !important;
 }
 
 .btn-primary:disabled {
@@ -173,9 +177,13 @@ select {
 }
 
 .segment-active {
-  background: var(--accent) !important;
-  color: var(--on-accent) !important;
+  background: #dc143c !important;
+  color: #ffffff !important;
   font-weight: 500;
+}
+
+.segment-active * {
+  color: #ffffff !important;
 }
 
 .mode-fade {

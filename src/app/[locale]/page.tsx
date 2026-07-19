@@ -39,7 +39,10 @@ export default async function HomePage({
             {t("sub")}
           </p>
           <div className="mt-6">
-            <Link href="/rezepte" className="btn-primary bg-white !text-[var(--accent)] hover:!bg-white">
+            <Link
+              href="/rezepte"
+              className="inline-flex min-h-12 items-center rounded-full bg-white px-6 text-sm font-medium text-[#dc143c]"
+            >
               {t("cta")}
             </Link>
           </div>
