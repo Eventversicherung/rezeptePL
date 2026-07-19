@@ -11,23 +11,16 @@ export async function SiteHeader({ locale }: { locale: string }) {
 
   return (
     <header className="site-header sticky top-0 z-50 -mx-4 border-b border-border/80 bg-[color-mix(in_srgb,#fffdfb_92%,transparent)] backdrop-blur-xl sm:-mx-6">
-      <div className="mx-auto flex h-[4.75rem] w-full max-w-7xl items-center justify-between gap-3 px-4 sm:h-[5.25rem] sm:px-8">
-        <Link
-          href="/"
-          className="flex min-w-0 items-center gap-3 sm:gap-3.5"
-          aria-label={brand("name")}
-        >
+      <div className="mx-auto flex h-[5.5rem] w-full max-w-7xl items-center justify-between gap-3 px-4 sm:h-[6rem] sm:px-8">
+        <Link href="/" className="shrink-0" aria-label={brand("name")}>
           <Image
             src="/alemniam-logo.jpg"
             alt={brand("name")}
-            width={96}
-            height={96}
-            className="size-14 shrink-0 rounded-full bg-white object-contain sm:size-16"
+            width={128}
+            height={128}
+            className="size-[4.5rem] rounded-full bg-white object-contain sm:size-[5.25rem]"
             priority
           />
-          <span className="hidden font-display text-lg font-semibold tracking-tight text-[var(--navy)] sm:inline sm:text-xl">
-            <span className="text-accent">Ale</span>Mniam
-          </span>
         </Link>
 
         <nav className="hidden items-center gap-1 md:flex" aria-label="Main">
