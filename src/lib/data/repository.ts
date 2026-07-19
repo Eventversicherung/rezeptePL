@@ -1,11 +1,14 @@
 import { randomUUID } from "crypto";
 import type {
+  BlogPost,
   Cluster,
   ClusterKind,
   CommunitySubmission,
   Locale,
   Profile,
   Recipe,
+  RecipeCatalogItem,
+  RecipeFamily,
   RecipeStatus,
   ShoppingList,
   ShoppingListItem,
@@ -17,6 +20,131 @@ export async function listPublishedRecipes(): Promise<Recipe[]> {
   return store.recipes
     .filter((r) => r.status === "published")
     .sort((a, b) => b.updatedAt.localeCompare(a.updatedAt));
+}
+
+export async function listFamilies(): Promise<RecipeFamily[]> {
+  const store = await readStore();
+  return store.families ?? [];
+}
+
+export async function getFamilyById(
+  id: string,
+): Promise<RecipeFamily | null> {
+  const store = await readStore();
+  return store.families.find((f) => f.id === id) ?? null;
+}
+
+export async function getFamilyBySlug(
+  locale: Locale,
+  slug: string,
+): Promise<RecipeFamily | null> {
+  const store = await readStore();
+  return (
+    store.families.find((f) => f.translations[locale]?.slug === slug) ?? null
+  );
+}
+
+export async function getFamilyVariants(
+  familyId: string,
+): Promise<Recipe[]> {
+  const store = await readStore();
+  const family = store.families.find((f) => f.id === familyId);
+  if (!family) return [];
+  return family.variantIds
+    .map((id) => store.recipes.find((r) => r.id === id && r.status === "published"))
+    .filter((r): r is Recipe => Boolean(r));
+}
+
+export async function getRecipeInFamily(
+  locale: Locale,
+  familySlug: string,
+  variantSlug: string,
+): Promise<{ family: RecipeFamily; recipe: Recipe } | null> {
+  const family = await getFamilyBySlug(locale, familySlug);
+  if (!family) return null;
+  const variants = await getFamilyVariants(family.id);
+  const recipe =
+    variants.find((r) => r.translations[locale]?.slug === variantSlug) ?? null;
+  if (!recipe) return null;
+  return { family, recipe };
+}
+
+/** Index/cluster cards: one entry per family + standalone recipes. */
+export async function listRecipeCatalog(
+  locale: Locale,
+  query = "",
+): Promise<RecipeCatalogItem[]> {
+  const recipes = await listPublishedRecipes();
+  const families = await listFamilies();
+  const q = query.trim().toLowerCase();
+  const familyById = new Map(families.map((f) => [f.id, f]));
+  const seenFamilies = new Set<string>();
+  const items: RecipeCatalogItem[] = [];
+
+  for (const recipe of recipes) {
+    if (recipe.familyId) {
+      if (seenFamilies.has(recipe.familyId)) continue;
+      const family = familyById.get(recipe.familyId);
+      if (!family) continue;
+      seenFamilies.add(recipe.familyId);
+      const defaultRecipe =
+        recipes.find((r) => r.id === family.defaultVariantId) ?? recipe;
+      const ft = family.translations[locale];
+      const matches =
+        !q ||
+        ft.title.toLowerCase().includes(q) ||
+        ft.excerpt.toLowerCase().includes(q) ||
+        ft.slug.includes(q) ||
+        family.variantIds.some((id) => {
+          const v = recipes.find((r) => r.id === id);
+          if (!v) return false;
+          const t = v.translations[locale];
+          return (
+            t.title.toLowerCase().includes(q) ||
+            t.excerpt.toLowerCase().includes(q)
+          );
+        });
+      if (matches) {
+        items.push({ kind: "family", family, defaultRecipe });
+      }
+      continue;
+    }
+
+    const t = recipe.translations[locale];
+    const matches =
+      !q ||
+      t.title.toLowerCase().includes(q) ||
+      t.excerpt.toLowerCase().includes(q) ||
+      t.slug.includes(q);
+    if (matches) items.push({ kind: "recipe", recipe });
+  }
+
+  return items;
+}
+
+export async function listPublishedBlogPosts(): Promise<BlogPost[]> {
+  const store = await readStore();
+  return (store.blogPosts ?? [])
+    .filter((p) => p.status === "published")
+    .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
+}
+
+export async function getBlogPostBySlug(
+  locale: Locale,
+  slug: string,
+): Promise<BlogPost | null> {
+  const store = await readStore();
+  return (
+    (store.blogPosts ?? []).find(
+      (p) =>
+        p.status === "published" && p.translations[locale]?.slug === slug,
+    ) ?? null
+  );
+}
+
+export async function getBlogPostById(id: string): Promise<BlogPost | null> {
+  const store = await readStore();
+  return (store.blogPosts ?? []).find((p) => p.id === id) ?? null;
 }
 
 export async function listAllRecipes(): Promise<Recipe[]> {
@@ -147,12 +275,50 @@ export async function getClusterBySlug(
 
 export async function recipesForCluster(clusterId: string): Promise<Recipe[]> {
   const recipes = await listPublishedRecipes();
+  const families = await listFamilies();
+  const familyClusterMatch = (familyId: string) => {
+    const f = families.find((x) => x.id === familyId);
+    if (!f) return false;
+    return (
+      f.regionIds.includes(clusterId) ||
+      f.occasionIds.includes(clusterId) ||
+      f.techniqueIds.includes(clusterId)
+    );
+  };
   return recipes.filter(
     (r) =>
       r.regionIds.includes(clusterId) ||
       r.occasionIds.includes(clusterId) ||
-      r.techniqueIds.includes(clusterId),
+      r.techniqueIds.includes(clusterId) ||
+      (r.familyId ? familyClusterMatch(r.familyId) : false),
   );
+}
+
+/** Catalog items for a cluster (families once). */
+export async function catalogForCluster(
+  clusterId: string,
+  locale: Locale,
+): Promise<RecipeCatalogItem[]> {
+  const recipes = await recipesForCluster(clusterId);
+  const families = await listFamilies();
+  const familyById = new Map(families.map((f) => [f.id, f]));
+  const seen = new Set<string>();
+  const items: RecipeCatalogItem[] = [];
+  for (const recipe of recipes) {
+    if (recipe.familyId) {
+      if (seen.has(recipe.familyId)) continue;
+      seen.add(recipe.familyId);
+      const family = familyById.get(recipe.familyId);
+      if (!family) continue;
+      const defaultRecipe =
+        recipes.find((r) => r.id === family.defaultVariantId) ?? recipe;
+      items.push({ kind: "family", family, defaultRecipe });
+    } else {
+      items.push({ kind: "recipe", recipe });
+    }
+  }
+  void locale;
+  return items;
 }
 
 export async function getProfile(id: string): Promise<Profile | null> {

@@ -1,7 +1,7 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
-import { RecipeCard } from "@/components/recipe/RecipeCard";
-import { searchRecipes } from "@/lib/data/repository";
+import { RecipeCatalogCard } from "@/components/recipe/RecipeCatalogCard";
+import { listRecipeCatalog } from "@/lib/data/repository";
 import type { Locale } from "@/types/content";
 
 export default async function RecipesPage({
@@ -17,7 +17,7 @@ export default async function RecipesPage({
   setRequestLocale(locale);
   const t = await getTranslations("recipes");
   const tCommon = await getTranslations("common");
-  const recipes = await searchRecipes(locale, q);
+  const items = await listRecipeCatalog(locale, q);
 
   return (
     <div className="space-y-10">
@@ -42,12 +42,19 @@ export default async function RecipesPage({
           />
         </form>
       </div>
-      {recipes.length === 0 ? (
+      {items.length === 0 ? (
         <p className="text-lg text-muted">{t("empty")}</p>
       ) : (
         <div className="stagger grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
-          {recipes.map((recipe) => (
-            <RecipeCard key={recipe.id} recipe={recipe} locale={locale} />
+          {items.map((item) => (
+            <RecipeCatalogCard
+              key={
+                item.kind === "family" ? item.family.id : item.recipe.id
+              }
+              item={item}
+              locale={locale}
+              variantsLabel={t("variantsCount")}
+            />
           ))}
         </div>
       )}

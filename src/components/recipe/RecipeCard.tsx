@@ -1,8 +1,10 @@
 import Image from "next/image";
 import { Link } from "@/i18n/navigation";
+import { getFamilyById } from "@/lib/data/repository";
+import { familyVariantPath, recipePath } from "@/lib/data/recipe-paths";
 import type { Locale, Recipe } from "@/types/content";
 
-export function RecipeCard({
+export async function RecipeCard({
   recipe,
   locale,
 }: {
@@ -11,10 +13,16 @@ export function RecipeCard({
 }) {
   const t = recipe.translations[locale];
   const mins = recipe.prepMinutes + recipe.cookMinutes;
+  const family = recipe.familyId
+    ? await getFamilyById(recipe.familyId)
+    : null;
+  const href = family
+    ? familyVariantPath(family, recipe, locale)
+    : recipePath(recipe, locale);
 
   return (
     <Link
-      href={`/rezepte/${t.slug}`}
+      href={href}
       className="recipe-card group focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
     >
       <div className="recipe-card__media">

@@ -1,15 +1,19 @@
 import { promises as fs } from "fs";
 import path from "path";
 import type {
+  BlogPost,
   CommunitySubmission,
   Profile,
   Recipe,
+  RecipeFamily,
   SavedRecipe,
   ShoppingList,
   Cluster,
 } from "@/types/content";
 import {
+  seedBlogPosts,
   seedClusters,
+  seedFamilies,
   seedLists,
   seedProfiles,
   seedRecipes,
@@ -20,6 +24,8 @@ import {
 export type AppStore = {
   seedVersion: number;
   recipes: Recipe[];
+  families: RecipeFamily[];
+  blogPosts: BlogPost[];
   clusters: Cluster[];
   profiles: Profile[];
   saved: SavedRecipe[];
@@ -28,7 +34,7 @@ export type AppStore = {
 };
 
 /** Bump when seed content changes so local/prod stores refresh. */
-export const SEED_VERSION = 6;
+export const SEED_VERSION = 7;
 
 const STORE_PATH = path.join(process.cwd(), ".data", "store.json");
 
@@ -36,6 +42,8 @@ function defaultStore(): AppStore {
   return {
     seedVersion: SEED_VERSION,
     recipes: structuredClone(seedRecipes),
+    families: structuredClone(seedFamilies),
+    blogPosts: structuredClone(seedBlogPosts),
     clusters: structuredClone(seedClusters),
     profiles: structuredClone(seedProfiles),
     saved: structuredClone(seedSaved),

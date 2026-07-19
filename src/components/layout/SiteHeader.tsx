@@ -31,6 +31,7 @@ export async function SiteHeader({ locale }: { locale: string }) {
           {(
             [
               ["/rezepte", t("recipes")],
+              ["/blog", t("blog")],
               ["/listen", t("lists")],
               ["/community/hochladen", t("community")],
               ["/profil", t("profile")],

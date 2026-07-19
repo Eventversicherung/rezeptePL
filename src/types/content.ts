@@ -47,12 +47,41 @@ export type Recipe = {
   regionIds: string[];
   occasionIds: string[];
   techniqueIds: string[];
+  /** When set, recipe is a variant inside a RecipeFamily */
+  familyId?: string;
+  /** Short label in the variant switcher */
+  variantLabel?: Record<Locale, string>;
+  /** Optional thumb for switcher (falls back to coverImage) */
+  variantImage?: string;
+  /** Related blog post ids for internal links */
+  relatedPostIds?: string[];
   authorId?: string;
   videoUrl?: string | null;
   translations: Record<Locale, RecipeTranslation>;
   ingredients: RecipeIngredient[];
   createdAt: string;
   updatedAt: string;
+};
+
+export type RecipeFamilyTranslation = {
+  title: string;
+  slug: string;
+  excerpt: string;
+  seoTitle: string;
+  seoDescription: string;
+};
+
+export type RecipeFamily = {
+  id: string;
+  defaultVariantId: string;
+  coverImage: string;
+  regionIds: string[];
+  occasionIds: string[];
+  techniqueIds: string[];
+  /** Ordered for the switcher UI */
+  variantIds: string[];
+  relatedPostIds?: string[];
+  translations: Record<Locale, RecipeFamilyTranslation>;
 };
 
 export type ClusterKind = "region" | "occasion" | "technique";
@@ -127,6 +156,47 @@ export type AffiliateProduct = {
   tags: string[];
   /** Prefer these products on matching recipe pages */
   recipeIds?: string[];
+  /** Prefer on matching blog posts */
+  postIds?: string[];
   active: boolean;
   sortOrder: number;
 };
+
+export type BlogPostType =
+  | "guide"
+  | "lexicon"
+  | "culture"
+  | "diaspora"
+  | "buying-guide";
+
+export type BlogPostStatus = "draft" | "published";
+
+export type BlogPostTranslation = {
+  title: string;
+  slug: string;
+  excerpt: string;
+  body: string;
+  seoTitle: string;
+  seoDescription: string;
+};
+
+export type BlogPost = {
+  id: string;
+  status: BlogPostStatus;
+  postType: BlogPostType;
+  coverImage: string;
+  /** Silo keys: region|occasion|technique|dishFamily|ingredient|diaspora|gear|culture */
+  siloIds: string[];
+  relatedRecipeIds: string[];
+  relatedPostIds: string[];
+  relatedProductIds: string[];
+  clusterIds?: string[];
+  translations: Record<Locale, BlogPostTranslation>;
+  publishedAt: string;
+  updatedAt: string;
+};
+
+/** Catalog row for recipe index: family once, or standalone recipe */
+export type RecipeCatalogItem =
+  | { kind: "family"; family: RecipeFamily; defaultRecipe: Recipe }
+  | { kind: "recipe"; recipe: Recipe };

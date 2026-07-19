@@ -8,15 +8,19 @@ import type {
   AffiliateProduct,
   Locale,
   Recipe,
+  RecipeFamily,
   RecipeMode,
 } from "@/types/content";
 import {
   Breadcrumbs,
   type BreadcrumbItem,
 } from "@/components/layout/Breadcrumbs";
+import { LocaleAlternatesProvider } from "@/components/i18n/LocaleAlternates";
 import { groupLabelKey, scaleAmount } from "@/lib/utils";
+import { familyVariantPath } from "@/lib/data/recipe-paths";
 import { ModeSwitch } from "./ModeSwitch";
 import { RecipeArticle } from "./RecipeArticle";
+import { VariantSwitcher } from "./VariantSwitcher";
 import {
   addRecipeToShoppingListAction,
   toggleSaveRecipeAction,
@@ -42,6 +46,9 @@ export function RecipeExperience({
   affiliateProducts,
   breadcrumbs,
   breadcrumbsLabel,
+  family = null,
+  variants = [],
+  variantsLabel = "",
 }: {
   recipe: Recipe;
   locale: Locale;
@@ -53,6 +60,9 @@ export function RecipeExperience({
   affiliateProducts: AffiliateProduct[];
   breadcrumbs: BreadcrumbItem[];
   breadcrumbsLabel: string;
+  family?: RecipeFamily | null;
+  variants?: Recipe[];
+  variantsLabel?: string;
 }) {
   const t = useTranslations("recipes");
   const tAff = useTranslations("affiliate");
@@ -69,6 +79,13 @@ export function RecipeExperience({
 
   const translation = recipe.translations[locale];
   const step = translation.steps[activeStep];
+
+  useEffect(() => {
+    setServings(recipe.servings);
+    setActiveStep(0);
+    setChecked({});
+    setMessage(null);
+  }, [recipe.id, recipe.servings]);
 
   function changeMode(next: RecipeMode) {
     setMode(next);
@@ -120,14 +137,38 @@ export function RecipeExperience({
     }
   }
 
+  const localeAlternates = family
+    ? {
+        de: familyVariantPath(family, recipe, "de"),
+        pl: familyVariantPath(family, recipe, "pl"),
+      }
+    : {
+        de: `/rezepte/${recipe.translations.de.slug}`,
+        pl: `/rezepte/${recipe.translations.pl.slug}`,
+      };
+
   return (
+    <LocaleAlternatesProvider alternates={localeAlternates}>
     <article className="mx-auto max-w-4xl pb-28 md:pb-16">
       {!focusCook ? (
         <Breadcrumbs items={breadcrumbs} ariaLabel={breadcrumbsLabel} />
       ) : null}
 
+      {!focusCook && family && variants.length > 1 ? (
+        <div className="sticky top-0 z-20 -mx-1 border-b border-border/80 bg-[color-mix(in_srgb,var(--background)_92%,transparent)] px-1 py-2 backdrop-blur-md">
+          <VariantSwitcher
+            family={family}
+            variants={variants}
+            activeId={recipe.id}
+            locale={locale}
+            label={variantsLabel}
+          />
+        </div>
+      ) : null}
+
       {!focusCook ? (
         <div
+          key={recipe.id}
           className={`reveal relative overflow-hidden rounded-[calc(var(--radius)+10px)] bg-elevated shadow-[0_24px_60px_rgba(28,20,18,0.18)] transition-[max-height,opacity] duration-300 ease-out ${
             mode === "shop"
               ? "max-h-36 opacity-95 sm:max-h-44"
@@ -155,7 +196,7 @@ export function RecipeExperience({
       ) : null}
 
       {/* In flow: no sticky mid-page bar that blocks scrolling */}
-      <div className="mt-6 space-y-4">
+      <div className="mt-6 space-y-4" key={`meta-${recipe.id}`}>
         <div className="min-w-0">
           <h1 className="font-display text-[clamp(1.85rem,6vw,2.85rem)] font-semibold leading-[1.05]">
             {translation.title}
@@ -410,6 +451,7 @@ export function RecipeExperience({
 
       {!focusCook ? (
         <RecipeArticle
+          key={`article-${recipe.id}`}
           title={translation.title}
           article={article}
           heading={articleHeading}
@@ -425,5 +467,6 @@ export function RecipeExperience({
         />
       ) : null}
     </article>
+    </LocaleAlternatesProvider>
   );
 }

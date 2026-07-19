@@ -1,88 +1,21 @@
 import type {
-  Cluster,
   CommunitySubmission,
   Profile,
   Recipe,
   SavedRecipe,
   ShoppingList,
 } from "@/types/content";
+import { seedClusters as expandedClusters } from "./seed-clusters";
+import { seedBlogPosts } from "./seed-blog";
+import {
+  seedFamilies,
+  seedFamilyVariantRecipes,
+} from "./seed-families";
 
-export const seedClusters: Cluster[] = [
-  {
-    id: "region-slask",
-    kind: "region",
-    slug: { de: "schlesien", pl: "slask" },
-    title: { de: "Schlesien", pl: "Śląsk" },
-    description: {
-      de: "Herzhafte Hausmannskost aus Schlesien. Roladen, Klöße und Sonntagsessen.",
-      pl: "Sycąca kuchnia śląska. Rolady, kluski i niedzielne obiady.",
-    },
-    seoTitle: {
-      de: "Schlesische Rezepte | Alemniam",
-      pl: "Przepisy śląskie | Alemniam",
-    },
-    seoDescription: {
-      de: "Authentische schlesische Gerichte zum Kochen und Einkaufen.",
-      pl: "Autentyczne dania śląskie do gotowania i zakupów.",
-    },
-  },
-  {
-    id: "region-podhale",
-    kind: "region",
-    slug: { de: "podhale", pl: "podhale" },
-    title: { de: "Podhale", pl: "Podhale" },
-    description: {
-      de: "Bergküche aus der Tatra. Oscypek, Sauerkraut und würzige Eintöpfe.",
-      pl: "Kuchnia góralska z Tatr. Oscypek, kapusta i aromatyczne gulasze.",
-    },
-    seoTitle: {
-      de: "Podhale Rezepte | Alemniam",
-      pl: "Przepisy z Podhala | Alemniam",
-    },
-    seoDescription: {
-      de: "Góralskie Klassiker für zu Hause in Deutschland.",
-      pl: "Góralskie klasyki do przygotowania w domu.",
-    },
-  },
-  {
-    id: "occasion-wigilia",
-    kind: "occasion",
-    slug: { de: "wigilia", pl: "wigilia" },
-    title: { de: "Wigilia", pl: "Wigilia" },
-    description: {
-      de: "Weihnachtsabend-Gerichte. Barszcz, Pierogi, Karp und mehr.",
-      pl: "Potrawy wigilijne. Barszcz, pierogi, karp i więcej.",
-    },
-    seoTitle: {
-      de: "Wigilia Rezepte | Alemniam",
-      pl: "Przepisy wigilijne | Alemniam",
-    },
-    seoDescription: {
-      de: "Polnische Weihnachtsrezepte bilingual zum Vorbereiten und Einkaufen.",
-      pl: "Polskie przepisy wigilijne dwujęzycznie. Gotowanie i zakupy.",
-    },
-  },
-  {
-    id: "technique-teig",
-    kind: "technique",
-    slug: { de: "teig", pl: "ciasto" },
-    title: { de: "Teig", pl: "Ciasto" },
-    description: {
-      de: "Pierogi-, Noodle- und Hefeteige. Mit Tipps für die deutsche Küche.",
-      pl: "Ciasta na pierogi, kluski i drożdżowe. Ze wskazówkami.",
-    },
-    seoTitle: {
-      de: "Polnische Teige | Alemniam",
-      pl: "Polskie ciasta | Alemniam",
-    },
-    seoDescription: {
-      de: "Techniken für Teige der polnischen Küche.",
-      pl: "Techniki ciasta w polskiej kuchni.",
-    },
-  },
-];
+export const seedClusters = expandedClusters;
+export { seedFamilies, seedBlogPosts };
 
-export const seedRecipes: Recipe[] = [
+const baseRecipes: Recipe[] = [
   {
     id: "recipe-pierogi",
     status: "published",
@@ -90,14 +23,22 @@ export const seedRecipes: Recipe[] = [
     prepMinutes: 45,
     cookMinutes: 20,
     servings: 4,
+    familyId: "family-pierogi",
+    variantLabel: { de: "Ruskie", pl: "ruskie" },
+    variantImage: "/recipes/pierogi-ruskie.jpg",
     regionIds: [],
-    occasionIds: ["occasion-wigilia"],
-    techniqueIds: ["technique-teig"],
+    occasionIds: ["occasion-wigilia", "occasion-niedziela"],
+    techniqueIds: ["technique-teig", "technique-freezer"],
+    relatedPostIds: [
+      "post-pierogi-teig",
+      "post-twarog",
+      "post-teigmaschine",
+    ],
     videoUrl: null,
     translations: {
       de: {
         title: "Pierogi Ruskie",
-        slug: "pierogi-ruskie",
+        slug: "ruskie",
         excerpt:
           "Klassische Pierogi mit Kartoffel und Twaróg. Weich, würzig, zum Teilen.",
         steps: [
@@ -122,10 +63,25 @@ export const seedRecipes: Recipe[] = [
         seoTitle: "Pierogi Ruskie Rezept | Alemniam",
         seoDescription:
           "Pierogi Ruskie kochen und einkaufen. Bilingual mit DE-Ladenhinweisen.",
+        article: `## Pierogi Ruskie — die Hausvariante
+
+Kartoffeln, Twaróg, Zwiebel. Kein Spektakel, dafür der Geschmack, den viele mit „Zuhause“ verbinden. Oben kannst du zu Fleisch oder Kraut-Pilze wechseln — dieselbe Familie, anderer Tag.
+
+### Twaróg in DE
+
+Lies den [Twaróg-Guide](/de/blog/twarog-deutschland). Quark gut abtropfen.
+
+### Teig
+
+Schritt [Pierogi-Teig](/de/blog/pierogi-teig) · [Teigmaschine](/de/blog/teigmaschine-pierogi) · [Technik Teig](/de/techniken/teig).
+
+### Geschwister
+
+Nur über den Varianten-Switcher: Fleisch, Kraut & Pilze.`,
       },
       pl: {
         title: "Pierogi ruskie",
-        slug: "pierogi-ruskie",
+        slug: "ruskie",
         excerpt:
           "Klasyczne pierogi z ziemniakami i twarogiem. Miękkie, sycące, do dzielenia.",
         steps: [
@@ -150,6 +106,17 @@ export const seedRecipes: Recipe[] = [
         seoTitle: "Pierogi ruskie przepis | Alemniam",
         seoDescription:
           "Pierogi ruskie. Gotowanie i zakupy, dwujęzycznie ze wskazówkami DE.",
+        article: `## Pierogi ruskie — wariant domowy
+
+Ziemniaki, twaróg, cebula. Bez widowiska — smak, który wielu łączy z domem. U góry przełączysz na mięso albo kapustę z grzybami.
+
+### Twaróg w DE
+
+[Poradnik twaróg](/pl/blog/twarog-w-niemczech). Quark dobrze odsącz.
+
+### Ciasto
+
+[Ciasto na pierogi](/pl/blog/ciasto-na-pierogi) · [Robot](/pl/blog/robot-do-ciasta-pierogi) · [Technika](/pl/techniken/ciasto).`,
       },
     },
     ingredients: [
@@ -1045,6 +1012,53 @@ export const seedRecipes: Recipe[] = [
     updatedAt: "2026-02-13T10:00:00.000Z",
   },
 ];
+
+export const seedRecipes: Recipe[] = [
+  ...baseRecipes,
+  ...seedFamilyVariantRecipes,
+].map((recipe) => {
+  if (recipe.id === "recipe-schabowy" || recipe.id === "recipe-golabki") {
+    return {
+      ...recipe,
+      occasionIds: Array.from(
+        new Set([...recipe.occasionIds, "occasion-niedziela"]),
+      ),
+    };
+  }
+  if (recipe.id === "recipe-rosol") {
+    return {
+      ...recipe,
+      occasionIds: Array.from(
+        new Set([...recipe.occasionIds, "occasion-niedziela"]),
+      ),
+      techniqueIds: Array.from(
+        new Set([...recipe.techniqueIds, "technique-bulion"]),
+      ),
+    };
+  }
+  if (recipe.id === "recipe-nalesniki") {
+    return {
+      ...recipe,
+      relatedPostIds: ["post-twarog"],
+    };
+  }
+  if (recipe.id === "recipe-bigos" || recipe.id === "recipe-zurek") {
+    return {
+      ...recipe,
+      relatedPostIds: ["post-polenladen"],
+    };
+  }
+  if (recipe.id === "recipe-barszcz") {
+    return {
+      ...recipe,
+      relatedPostIds: ["post-wigilia", "post-polenladen"],
+      occasionIds: Array.from(
+        new Set([...recipe.occasionIds, "occasion-wigilia"]),
+      ),
+    };
+  }
+  return recipe;
+});
 
 export const seedProfiles: Profile[] = [
   {

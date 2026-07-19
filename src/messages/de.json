@@ -6,6 +6,7 @@
   "nav": {
     "discover": "Entdecken",
     "recipes": "Rezepte",
+    "blog": "Blog",
     "lists": "Listen",
     "profile": "Profil",
     "admin": "Admin",
@@ -54,7 +55,26 @@
     "nextStep": "Weiter",
     "switchToShop": "Zur Einkaufsliste",
     "switchToCook": "Jetzt kochen",
-    "articleHeading": "Mehr über dieses Gericht"
+    "articleHeading": "Mehr über dieses Gericht",
+    "variants": "Variante wählen",
+    "variantsCount": "Varianten"
+  },
+  "blog": {
+    "title": "Blog",
+    "sub": "Guides, Zutaten, Tradition und Kaufberater — vernetzt mit den Rezepten.",
+    "empty": "Noch keine Beiträge.",
+    "relatedRecipes": "Passende Rezepte",
+    "relatedPosts": "Weiterlesen",
+    "products": "Hilfreiche Küchenhelfer",
+    "readMore": "Weiterlesen",
+    "filter": {
+      "all": "Alle",
+      "guide": "Kochen",
+      "lexicon": "Zutaten",
+      "culture": "Tradition",
+      "diaspora": "In Deutschland",
+      "gear": "Küche & Geräte"
+    }
   },
   "lists": {
     "title": "Einkaufslisten",

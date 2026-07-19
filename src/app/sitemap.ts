@@ -1,5 +1,12 @@
 import type { MetadataRoute } from "next";
-import { listClusters, listPublishedRecipes } from "@/lib/data/repository";
+import {
+  getFamilyVariants,
+  listClusters,
+  listFamilies,
+  listPublishedBlogPosts,
+  listPublishedRecipes,
+} from "@/lib/data/repository";
+import { familyVariantPath } from "@/lib/data/recipe-paths";
 import { siteUrl } from "@/lib/utils";
 import type { Locale } from "@/types/content";
 
@@ -7,7 +14,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const base = siteUrl();
   const locales: Locale[] = ["de", "pl"];
   const recipes = await listPublishedRecipes();
+  const families = await listFamilies();
   const clusters = await listClusters();
+  const posts = await listPublishedBlogPosts();
 
   const staticEntries = locales.flatMap((locale) => [
     {
@@ -20,10 +29,16 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       changeFrequency: "daily" as const,
       priority: 0.9,
     },
+    {
+      url: `${base}/${locale}/blog`,
+      changeFrequency: "weekly" as const,
+      priority: 0.85,
+    },
   ]);
 
+  const standalone = recipes.filter((r) => !r.familyId);
   const recipeEntries = locales.flatMap((locale) =>
-    recipes.map((recipe) => ({
+    standalone.map((recipe) => ({
       url: `${base}/${locale}/rezepte/${recipe.translations[locale].slug}`,
       lastModified: recipe.updatedAt,
       changeFrequency: "weekly" as const,
@@ -32,6 +47,43 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         languages: {
           de: `${base}/de/rezepte/${recipe.translations.de.slug}`,
           pl: `${base}/pl/rezepte/${recipe.translations.pl.slug}`,
+        },
+      },
+    })),
+  );
+
+  const variantEntries: MetadataRoute.Sitemap = [];
+  for (const family of families) {
+    const variants = await getFamilyVariants(family.id);
+    for (const recipe of variants) {
+      for (const locale of locales) {
+        const path = familyVariantPath(family, recipe, locale);
+        variantEntries.push({
+          url: `${base}/${locale}${path}`,
+          lastModified: recipe.updatedAt,
+          changeFrequency: "weekly",
+          priority: 0.85,
+          alternates: {
+            languages: {
+              de: `${base}/de${familyVariantPath(family, recipe, "de")}`,
+              pl: `${base}/pl${familyVariantPath(family, recipe, "pl")}`,
+            },
+          },
+        });
+      }
+    }
+  }
+
+  const blogEntries = locales.flatMap((locale) =>
+    posts.map((post) => ({
+      url: `${base}/${locale}/blog/${post.translations[locale].slug}`,
+      lastModified: post.updatedAt,
+      changeFrequency: "weekly" as const,
+      priority: 0.75,
+      alternates: {
+        languages: {
+          de: `${base}/de/blog/${post.translations.de.slug}`,
+          pl: `${base}/pl/blog/${post.translations.pl.slug}`,
         },
       },
     })),
@@ -59,5 +111,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     }),
   );
 
-  return [...staticEntries, ...recipeEntries, ...clusterEntries];
+  return [
+    ...staticEntries,
+    ...recipeEntries,
+    ...variantEntries,
+    ...blogEntries,
+    ...clusterEntries,
+  ];
 }

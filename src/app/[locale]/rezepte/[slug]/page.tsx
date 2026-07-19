@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect, redirect } from "next/navigation";
 import { Suspense } from "react";
 import { setRequestLocale } from "next-intl/server";
 import { getTranslations } from "next-intl/server";
@@ -8,23 +8,42 @@ import { getSessionUser } from "@/lib/auth/session";
 import { getAffiliateForRecipe } from "@/lib/data/affiliate-products";
 import { getRecipeArticle } from "@/lib/data/recipe-articles";
 import {
+  getFamilyBySlug,
+  getFamilyVariants,
   getRecipeBySlug,
+  listFamilies,
   listPublishedRecipes,
   listSavedRecipeIds,
 } from "@/lib/data/repository";
+import { familyVariantPath, recipePath } from "@/lib/data/recipe-paths";
 import { breadcrumbJsonLd, recipeJsonLd } from "@/lib/seo/jsonld";
 import { siteUrl } from "@/lib/utils";
 import type { Locale, RecipeMode } from "@/types/content";
 import { routing } from "@/i18n/routing";
 
+/** Legacy flat slugs that now live under a family. */
+const LEGACY_VARIANT_REDIRECTS: Record<string, { familyId: string; recipeId: string }> = {
+  "pierogi-ruskie": { familyId: "family-pierogi", recipeId: "recipe-pierogi" },
+};
+
 export async function generateStaticParams() {
   const recipes = await listPublishedRecipes();
-  return routing.locales.flatMap((locale) =>
-    recipes.map((recipe) => ({
+  const families = await listFamilies();
+  const standalone = recipes.filter((r) => !r.familyId);
+  return routing.locales.flatMap((locale) => [
+    ...standalone.map((recipe) => ({
       locale,
       slug: recipe.translations[locale as Locale].slug,
     })),
-  );
+    ...families.map((family) => ({
+      locale,
+      slug: family.translations[locale as Locale].slug,
+    })),
+    ...Object.keys(LEGACY_VARIANT_REDIRECTS).map((slug) => ({
+      locale,
+      slug,
+    })),
+  ]);
 }
 
 export async function generateMetadata({
@@ -34,8 +53,25 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale: localeParam, slug } = await params;
   const locale = localeParam as Locale;
+  const family = await getFamilyBySlug(locale, slug);
+  if (family) {
+    const t = family.translations[locale];
+    const base = siteUrl();
+    return {
+      title: t.seoTitle || t.title,
+      description: t.seoDescription || t.excerpt,
+      alternates: {
+        canonical: `${base}/${locale}/rezepte/${t.slug}`,
+        languages: {
+          de: `${base}/de/rezepte/${family.translations.de.slug}`,
+          pl: `${base}/pl/rezepte/${family.translations.pl.slug}`,
+          "x-default": `${base}/de/rezepte/${family.translations.de.slug}`,
+        },
+      },
+    };
+  }
   const recipe = await getRecipeBySlug(locale, slug);
-  if (!recipe) return {};
+  if (!recipe || recipe.familyId) return {};
   const t = recipe.translations[locale];
   const other = locale === "de" ? "pl" : "de";
   const base = siteUrl();
@@ -76,8 +112,30 @@ export default async function RecipePage({
   const locale = localeParam as Locale;
   setRequestLocale(locale);
 
+  const legacy = LEGACY_VARIANT_REDIRECTS[slug];
+  if (legacy) {
+    const families = await listFamilies();
+    const family = families.find((f) => f.id === legacy.familyId);
+    const variants = family ? await getFamilyVariants(family.id) : [];
+    const recipe = variants.find((r) => r.id === legacy.recipeId);
+    if (family && recipe) {
+      permanentRedirect(
+        `/${locale}${familyVariantPath(family, recipe, locale)}`,
+      );
+    }
+  }
+
+  const family = await getFamilyBySlug(locale, slug);
+  if (family) {
+    const variants = await getFamilyVariants(family.id);
+    const defaultRecipe =
+      variants.find((r) => r.id === family.defaultVariantId) ?? variants[0];
+    if (!defaultRecipe) notFound();
+    redirect(`/${locale}${familyVariantPath(family, defaultRecipe, locale)}`);
+  }
+
   const recipe = await getRecipeBySlug(locale, slug);
-  if (!recipe) notFound();
+  if (!recipe || recipe.familyId) notFound();
 
   const t = await getTranslations("recipes");
   const tNav = await getTranslations("nav");
@@ -85,7 +143,8 @@ export default async function RecipePage({
   const user = await getSessionUser();
   const savedIds = user ? await listSavedRecipeIds(user.id) : [];
   const initialMode: RecipeMode = modeParam === "shop" ? "shop" : "cook";
-  const url = `${siteUrl()}/${locale}/rezepte/${recipe.translations[locale].slug}`;
+  const path = recipePath(recipe, locale);
+  const url = `${siteUrl()}/${locale}${path}`;
   const article =
     recipe.translations[locale].article ||
     getRecipeArticle(recipe.id, locale);

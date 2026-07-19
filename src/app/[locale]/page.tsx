@@ -1,8 +1,8 @@
 import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
-import { RecipeCard } from "@/components/recipe/RecipeCard";
-import { listClusters, listPublishedRecipes } from "@/lib/data/repository";
+import { RecipeCatalogCard } from "@/components/recipe/RecipeCatalogCard";
+import { listClusters, listRecipeCatalog } from "@/lib/data/repository";
 import type { Locale } from "@/types/content";
 
 export default async function HomePage({
@@ -16,8 +16,9 @@ export default async function HomePage({
   const t = await getTranslations("home");
   const tc = await getTranslations("clusters");
   const brand = await getTranslations("brand");
-  const recipes = (await listPublishedRecipes()).slice(0, 4);
+  const catalog = (await listRecipeCatalog(locale)).slice(0, 4);
   const clusters = await listClusters();
+  const tRecipes = await getTranslations("recipes");
 
   return (
     <div className="space-y-20 sm:space-y-28">
@@ -58,7 +59,7 @@ export default async function HomePage({
                 {t("cta")}
               </Link>
               <Link
-                href="/rezepte/pierogi-ruskie"
+                href="/rezepte/pierogi/ruskie"
                 className="inline-flex min-h-13 items-center rounded-full border border-white/40 px-6 text-sm font-semibold text-white backdrop-blur-sm transition hover:border-white hover:bg-white/10"
               >
                 Pierogi →
@@ -84,8 +85,13 @@ export default async function HomePage({
           </Link>
         </div>
         <div className="stagger grid gap-10 sm:grid-cols-2">
-          {recipes.map((recipe) => (
-            <RecipeCard key={recipe.id} recipe={recipe} locale={locale} />
+          {catalog.map((item) => (
+            <RecipeCatalogCard
+              key={item.kind === "family" ? item.family.id : item.recipe.id}
+              item={item}
+              locale={locale}
+              variantsLabel={tRecipes("variantsCount")}
+            />
           ))}
         </div>
       </section>

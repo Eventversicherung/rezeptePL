@@ -31,4 +31,7 @@ Daten liegen in `.data/store.json` (wird beim ersten Start aus Seed erzeugt).
 - Admin mit bilingualem Editor (TipTap) + Publish
 - Kundenkonto: Merken, Einkaufslisten
 - Community-Upload + Moderations-Queue
-- Topical-Authority-Cluster: Regionen, Anlässe, Techniken
+- Topical-Authority-Cluster: Regionen, Anlässe, Techniken (erweitert)
+- Rezept-Familien mit Varianten-Switcher (`/rezepte/pierogi/ruskie`)
+- Blog-Schicht (Guides, Lexikon, Diaspora, Kaufberater) mit Querverlinken
+- Content-Map: `content/silo-map.md`, Briefs & Link-Matrix

@@ -6,6 +6,7 @@
   "nav": {
     "discover": "Odkrywaj",
     "recipes": "Przepisy",
+    "blog": "Blog",
     "lists": "Listy",
     "profile": "Profil",
     "admin": "Admin",
@@ -54,7 +55,26 @@
     "nextStep": "Dalej",
     "switchToShop": "Do listy zakupów",
     "switchToCook": "Gotuj teraz",
-    "articleHeading": "Więcej o tym daniu"
+    "articleHeading": "Więcej o tym daniu",
+    "variants": "Wybierz wariant",
+    "variantsCount": "warianty"
+  },
+  "blog": {
+    "title": "Blog",
+    "sub": "Poradniki, składniki, tradycja i sprzęt — połączone z przepisami.",
+    "empty": "Brak wpisów.",
+    "relatedRecipes": "Pasujące przepisy",
+    "relatedPosts": "Czytaj dalej",
+    "products": "Przydatny sprzęt",
+    "readMore": "Czytaj dalej",
+    "filter": {
+      "all": "Wszystkie",
+      "guide": "Gotowanie",
+      "lexicon": "Składniki",
+      "culture": "Tradycja",
+      "diaspora": "W Niemczech",
+      "gear": "Kuchnia i sprzęt"
+    }
   },
   "lists": {
     "title": "Listy zakupów",

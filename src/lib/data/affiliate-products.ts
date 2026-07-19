@@ -23,8 +23,13 @@ export const seedAffiliateProducts: AffiliateProduct[] = [
       de: "Bei Amazon ansehen",
       pl: "Zobacz na Amazon",
     },
-    tags: ["pierogi", "teig", "kitchen"],
-    recipeIds: ["recipe-pierogi"],
+    tags: ["pierogi", "teig", "kitchen", "gear"],
+    recipeIds: [
+      "recipe-pierogi",
+      "recipe-pierogi-meat",
+      "recipe-pierogi-cabbage",
+    ],
+    postIds: ["post-teigmaschine", "post-pierogi-teig"],
     active: true,
     sortOrder: 10,
   },
@@ -46,8 +51,13 @@ export const seedAffiliateProducts: AffiliateProduct[] = [
       de: "Teigroller finden",
       pl: "Znajdź wałek",
     },
-    tags: ["teig", "kitchen"],
-    recipeIds: ["recipe-pierogi"],
+    tags: ["teig", "kitchen", "gear"],
+    recipeIds: [
+      "recipe-pierogi",
+      "recipe-pierogi-meat",
+      "recipe-pierogi-cabbage",
+    ],
+    postIds: ["post-teigmaschine", "post-pierogi-teig"],
     active: true,
     sortOrder: 20,
   },
@@ -69,8 +79,9 @@ export const seedAffiliateProducts: AffiliateProduct[] = [
       de: "Presse ansehen",
       pl: "Zobacz praskę",
     },
-    tags: ["pierogi", "kitchen"],
+    tags: ["pierogi", "kitchen", "gear"],
     recipeIds: ["recipe-pierogi"],
+    postIds: ["post-twarog", "post-teigmaschine"],
     active: true,
     sortOrder: 30,
   },
@@ -92,9 +103,89 @@ export const seedAffiliateProducts: AffiliateProduct[] = [
       de: "Pfanne entdecken",
       pl: "Odkryj patelnię",
     },
-    tags: ["kitchen", "general"],
+    tags: ["kitchen", "general", "gear"],
+    recipeIds: ["recipe-placki", "recipe-schabowy", "recipe-oscypek"],
     active: true,
     sortOrder: 40,
+  },
+  {
+    id: "aff-stand-mixer",
+    partner: "amazon",
+    url: "https://www.amazon.de/s?k=K%C3%BCchenmaschine+Knethaken",
+    imageUrl:
+      "https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?w=800&q=80",
+    title: {
+      de: "Küchenmaschine mit Knethaken",
+      pl: "Robot kuchenny z hakiem",
+    },
+    description: {
+      de: "Für größere Pierogi-Batches und Hefeteig. Schüssel und Drehmoment prüfen.",
+      pl: "Do większych partii pierogów i ciasta drożdżowego. Sprawdź misę i moc.",
+    },
+    cta: {
+      de: "Maschinen vergleichen",
+      pl: "Porównaj roboty",
+    },
+    tags: ["teigmaschine", "teig", "gear", "pierogi"],
+    recipeIds: [
+      "recipe-pierogi",
+      "recipe-pierogi-meat",
+      "recipe-pierogi-cabbage",
+    ],
+    postIds: ["post-teigmaschine"],
+    active: true,
+    sortOrder: 5,
+  },
+  {
+    id: "aff-dutch-oven",
+    partner: "amazon",
+    url: "https://www.amazon.de/s?k=Dutch+Oven+Emaille",
+    imageUrl:
+      "https://images.unsplash.com/photo-1584990347448-a0df0c031b0b?w=800&q=80",
+    title: {
+      de: "Großer Schmortopf",
+      pl: "Duży garnek do duszenia",
+    },
+    description: {
+      de: "Für Bigos, Rosół und Gołąbki — gleichmäßige Hitze, große Portionen.",
+      pl: "Do bigosu, rosołu i gołąbków — równe ciepło, duże porcje.",
+    },
+    cta: {
+      de: "Töpfe ansehen",
+      pl: "Zobacz garnki",
+    },
+    tags: ["bigos", "kitchen", "gear"],
+    recipeIds: ["recipe-bigos", "recipe-rosol", "recipe-golabki"],
+    active: true,
+    sortOrder: 45,
+  },
+  {
+    id: "aff-freezer-boxes",
+    partner: "amazon",
+    url: "https://www.amazon.de/s?k=Gefrierdosen+Set",
+    imageUrl:
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?w=800&q=80",
+    title: {
+      de: "Freezer-Boxen Set",
+      pl: "Pojemniki do mrożenia",
+    },
+    description: {
+      de: "Pierogi portionsweise einfrieren und beschriften — Wigilia ohne Panik.",
+      pl: "Pierogi porcjami do mrożenia — Wigilia bez paniki.",
+    },
+    cta: {
+      de: "Boxen finden",
+      pl: "Znajdź pojemniki",
+    },
+    tags: ["freezer", "pierogi", "gear"],
+    recipeIds: [
+      "recipe-pierogi",
+      "recipe-pierogi-meat",
+      "recipe-pierogi-cabbage",
+    ],
+    postIds: ["post-wigilia"],
+    active: true,
+    sortOrder: 50,
   },
 ];
 
@@ -113,6 +204,26 @@ export function getAffiliateForRecipe(
   const targeted = all.filter((p) => p.recipeIds?.includes(recipeId));
   const rest = all.filter((p) => !p.recipeIds?.includes(recipeId));
   return [...targeted, ...rest].slice(0, limit);
+}
+
+export function getAffiliateForPost(
+  postId: string,
+  productIds: string[],
+  limit = 4,
+): AffiliateProduct[] {
+  const all = listActiveAffiliateProducts();
+  const byId = productIds
+    .map((id) => all.find((p) => p.id === id))
+    .filter((p): p is AffiliateProduct => Boolean(p));
+  const tagged = all.filter((p) => p.postIds?.includes(postId));
+  const seen = new Set<string>();
+  const merged: AffiliateProduct[] = [];
+  for (const p of [...byId, ...tagged]) {
+    if (seen.has(p.id)) continue;
+    seen.add(p.id);
+    merged.push(p);
+  }
+  return merged.slice(0, limit);
 }
 
 export function affiliateLabel(

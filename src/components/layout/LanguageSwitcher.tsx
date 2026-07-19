@@ -1,5 +1,6 @@
 "use client";
 
+import { useLocaleAlternates } from "@/components/i18n/LocaleAlternates";
 import { usePathname, useRouter } from "@/i18n/navigation";
 import type { Locale } from "@/i18n/routing";
 
@@ -12,9 +13,11 @@ export function LanguageSwitcher({
 }) {
   const router = useRouter();
   const pathname = usePathname();
+  const alternates = useLocaleAlternates();
 
   function switchTo(next: Locale) {
-    router.replace(pathname, { locale: next });
+    const target = alternates?.[next] ?? pathname;
+    router.replace(target, { locale: next });
   }
 
   const onDark = variant === "onDark";
