@@ -76,25 +76,19 @@ export default async function RecipesPage({
         ]}
       />
 
-      {/* 1 — Title only, compact */}
-      <header className="reveal">
-        <p className="section-kicker">Alemniam</p>
-        <h1 className="mt-3 font-display text-[clamp(2.4rem,7vw,4rem)] font-semibold">
+      {/* 1 — Quiet page label (categories carry the focus) */}
+      <header className="reveal flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
+        <h1 className="font-display text-2xl font-semibold tracking-tight sm:text-[1.75rem]">
           {t("title")}
         </h1>
-        <p className="mt-3 max-w-[40ch] text-base text-muted sm:text-lg">
-          {t("sub")}
-        </p>
+        <p className="text-sm text-muted">{tClusters("categories")}</p>
       </header>
 
-      {/* 2 — Categories first (how people browse) */}
-      <section className="reveal space-y-5">
-        <div>
-          <p className="section-kicker">{tClusters("categories")}</p>
-          <h2 className="mt-2 font-display text-[clamp(1.8rem,4vw,2.8rem)] font-semibold">
-            {t("browseByCategory")}
-          </h2>
-        </div>
+      {/* 2 — Categories first */}
+      <section className="reveal -mt-4 space-y-4 sm:-mt-6">
+        <h2 className="font-display text-[clamp(1.55rem,3.5vw,2.15rem)] font-semibold">
+          {t("browseByCategory")}
+        </h2>
         <RecipeCategoryTiles
           categories={categories}
           locale={locale}
@@ -103,20 +97,16 @@ export default async function RecipesPage({
         />
       </section>
 
-      {/* 3 — Centered search band */}
-      <section className="recipe-search reveal" aria-labelledby="recipe-search-heading">
+      {/* 3 — Clean, centered search (no soft wash) */}
+      <section
+        className="recipe-search reveal"
+        aria-labelledby="recipe-search-heading"
+      >
         <div className="recipe-search__inner">
-          <p className="section-kicker">{t("searchKicker")}</p>
-          <h2
-            id="recipe-search-heading"
-            className="mt-2 font-display text-[clamp(1.5rem,3.5vw,2.2rem)] font-semibold"
-          >
+          <h2 id="recipe-search-heading" className="sr-only">
             {t("searchHeading")}
           </h2>
-          <p className="mx-auto mt-2 max-w-[36ch] text-sm text-muted sm:text-base">
-            {t("searchHint")}
-          </p>
-          <form className="recipe-search__form mt-6">
+          <form className="recipe-search__form">
             {activeCategory ? (
               <input
                 type="hidden"
@@ -139,7 +129,7 @@ export default async function RecipesPage({
             </button>
           </form>
           {activeCategory || q ? (
-            <p className="mt-4 text-sm text-muted">
+            <p className="mt-3 text-center text-sm text-muted">
               {activeCategory ? (
                 <span>
                   {t("filteringCategory", {
@@ -178,16 +168,18 @@ export default async function RecipesPage({
         />
       ) : null}
 
-      <section className="reveal space-y-6">
-        <div>
-          <p className="section-kicker">
-            {activeCategory ? activeCategory.title[locale] : t("allRecipes")}
-          </p>
-          <h2 className="mt-2 font-display text-[clamp(1.8rem,4vw,2.8rem)] font-semibold">
+      <section className="reveal space-y-5">
+        <div className="flex flex-wrap items-end justify-between gap-3">
+          <h2 className="font-display text-[clamp(1.4rem,3vw,1.85rem)] font-semibold">
             {activeCategory
-              ? activeCategory.description[locale]
-              : t("allRecipesSub")}
+              ? activeCategory.title[locale]
+              : t("allRecipes")}
           </h2>
+          {activeCategory ? (
+            <p className="max-w-[42ch] text-sm text-muted">
+              {activeCategory.description[locale]}
+            </p>
+          ) : null}
         </div>
 
         {items.length === 0 ? (

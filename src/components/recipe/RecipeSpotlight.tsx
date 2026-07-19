@@ -20,13 +20,10 @@ export function RecipeSpotlight({
 
   return (
     <section className="reveal space-y-6">
-      <div className="flex items-end justify-between gap-4">
-        <div>
-          <p className="section-kicker">{category.title[locale]}</p>
-          <h2 className="mt-2 max-w-[20ch] font-display text-[clamp(1.75rem,4vw,2.6rem)] font-semibold">
-            {category.description[locale]}
-          </h2>
-        </div>
+      <div className="flex items-baseline justify-between gap-4">
+        <h2 className="font-display text-[clamp(1.4rem,3vw,1.85rem)] font-semibold">
+          {category.title[locale]}
+        </h2>
         <Link
           href={href}
           className="shrink-0 text-sm font-semibold text-accent"

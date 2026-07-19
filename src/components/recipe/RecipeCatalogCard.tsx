@@ -34,14 +34,14 @@ export function RecipeCatalogCard({
           />
           <span className="recipe-card__badge">{mins} min</span>
         </div>
-        <div className="pt-4">
-          <h2 className="font-display text-[clamp(1.35rem,3vw,1.85rem)] font-semibold tracking-tight">
+        <div className="pt-3">
+          <h2 className="font-display text-[clamp(1.15rem,2.4vw,1.45rem)] font-semibold tracking-tight">
             {t.title}
           </h2>
-          <p className="mt-2 line-clamp-2 max-w-[42ch] text-[0.95rem] text-muted">
+          <p className="mt-1.5 line-clamp-2 max-w-[42ch] text-sm text-muted">
             {t.excerpt}
           </p>
-          <p className="mt-3 text-xs font-semibold uppercase tracking-[0.12em] text-accent">
+          <p className="mt-2.5 text-xs font-semibold uppercase tracking-[0.12em] text-accent">
             {count} {variantsLabel}
           </p>
         </div>
@@ -68,14 +68,14 @@ export function RecipeCatalogCard({
         />
         <span className="recipe-card__badge">{mins} min</span>
       </div>
-      <div className="pt-4">
-        <h2 className="font-display text-[clamp(1.35rem,3vw,1.85rem)] font-semibold tracking-tight">
+      <div className="pt-3">
+        <h2 className="font-display text-[clamp(1.15rem,2.4vw,1.45rem)] font-semibold tracking-tight">
           {t.title}
         </h2>
-        <p className="mt-2 line-clamp-2 max-w-[42ch] text-[0.95rem] text-muted">
+        <p className="mt-1.5 line-clamp-2 max-w-[42ch] text-sm text-muted">
           {t.excerpt}
         </p>
-        <p className="mt-3 text-xs font-semibold uppercase tracking-[0.12em] text-accent">
+        <p className="mt-2.5 text-xs font-semibold uppercase tracking-[0.12em] text-accent">
           {recipe.servings} · {locale === "de" ? "Portionen" : "porcje"}
         </p>
       </div>

@@ -562,42 +562,22 @@ a.btn-hero-secondary:hover {
   color: #dc143c;
 }
 
-/* Recipe hub: centered search band (priority 3, after categories) */
+/* Recipe hub search: sharp, flat, centered — no soft wash */
 .recipe-search {
-  position: relative;
-  overflow: hidden;
-  border-radius: calc(var(--radius) + 10px);
-  border: 1px solid color-mix(in srgb, var(--accent) 18%, var(--border));
-  background:
-    radial-gradient(
-      120% 80% at 50% 0%,
-      color-mix(in srgb, var(--accent) 14%, transparent),
-      transparent 55%
-    ),
-    linear-gradient(
-      165deg,
-      color-mix(in srgb, #fff8f6 92%, #dc143c),
-      #fffdfb 42%,
-      #faf3ef
-    );
-  box-shadow:
-    0 18px 48px color-mix(in srgb, #dc143c 8%, transparent),
-    inset 0 1px 0 color-mix(in srgb, #ffffff 75%, transparent);
+  border-block: 1px solid var(--border);
+  background: var(--surface);
 }
 
 .recipe-search__inner {
-  position: relative;
-  z-index: 1;
   margin-inline: auto;
-  max-width: 40rem;
-  padding: clamp(1.75rem, 4vw, 2.75rem) clamp(1.25rem, 4vw, 2rem);
-  text-align: center;
+  max-width: 36rem;
+  padding: 1.25rem 0;
 }
 
 .recipe-search__form {
   display: flex;
   flex-direction: column;
-  gap: 0.75rem;
+  gap: 0.65rem;
   width: 100%;
 }
 
@@ -605,87 +585,93 @@ a.btn-hero-secondary:hover {
   .recipe-search__form {
     flex-direction: row;
     align-items: stretch;
-    gap: 0.5rem;
-    padding: 0.35rem;
-    border-radius: 9999px;
-    border: 2px solid color-mix(in srgb, var(--accent) 22%, var(--border));
-    background: #fffdfb;
-    box-shadow: 0 10px 28px color-mix(in srgb, #121b30 6%, transparent);
+    gap: 0;
+    border: 1.5px solid var(--foreground);
+    border-radius: 4px;
+    background: #fff;
+    overflow: hidden;
   }
 }
 
 .recipe-search__input {
-  min-height: 3.5rem;
+  min-height: 3.25rem;
   width: 100%;
   flex: 1;
-  border-radius: 9999px;
-  border: 2px solid color-mix(in srgb, var(--accent) 22%, var(--border));
-  background: #fffdfb;
-  padding: 0 1.35rem;
+  border-radius: 4px;
+  border: 1.5px solid var(--foreground);
+  background: #fff;
+  padding: 0 1.1rem;
   font-size: 1rem;
   outline: none;
-  transition:
-    border-color 180ms var(--ease-out),
-    box-shadow 180ms var(--ease-out);
+  transition: border-color 140ms var(--ease-out);
 }
 
 @media (min-width: 640px) {
   .recipe-search__input {
     border: none;
-    background: transparent;
-    box-shadow: none;
-    min-height: 3.15rem;
+    border-radius: 0;
+    min-height: 3rem;
   }
 }
 
 .recipe-search__input:focus {
   border-color: var(--accent);
-  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 18%, transparent);
 }
 
 @media (min-width: 640px) {
   .recipe-search__input:focus {
     border: none;
-    box-shadow: none;
   }
 
   .recipe-search__form:focus-within {
     border-color: var(--accent);
-    box-shadow:
-      0 0 0 3px color-mix(in srgb, var(--accent) 16%, transparent),
-      0 10px 28px color-mix(in srgb, #121b30 6%, transparent);
   }
 }
 
 .recipe-search__submit {
-  min-height: 3.5rem;
+  min-height: 3.25rem;
   flex-shrink: 0;
-  border-radius: 9999px;
-  border: none;
+  border-radius: 4px;
+  border: 1.5px solid var(--accent);
   background: var(--accent);
   color: #fff;
-  padding: 0 1.5rem;
-  font-size: 0.95rem;
+  padding: 0 1.35rem;
+  font-size: 0.9rem;
   font-weight: 700;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
   cursor: pointer;
-  transition:
-    background 160ms var(--ease-out),
-    transform 160ms var(--ease-out);
+  transition: background 140ms var(--ease-out);
 }
 
 .recipe-search__submit:hover {
   background: var(--accent-hover);
-}
-
-.recipe-search__submit:active {
-  transform: scale(0.98);
+  border-color: var(--accent-hover);
 }
 
 @media (min-width: 640px) {
   .recipe-search__submit {
-    min-height: 3.15rem;
+    min-height: 3rem;
+    border: none;
+    border-radius: 0;
+    border-inline-start: 1.5px solid var(--foreground);
   }
+
+  .recipe-search__form:focus-within .recipe-search__submit {
+    border-inline-start-color: var(--accent);
+  }
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 /* Force contrast: parent CTA is white text; button must not inherit it */
