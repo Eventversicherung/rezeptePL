@@ -108,10 +108,10 @@ export function RecipeExperience({
     <article className="mx-auto max-w-3xl pb-28 md:pb-16">
       {!focusCook ? (
         <div
-          className={`relative overflow-hidden rounded-[calc(var(--radius)+4px)] bg-elevated transition-[max-height,opacity] duration-200 ease-out ${
+          className={`reveal relative overflow-hidden rounded-[calc(var(--radius)+10px)] bg-elevated shadow-[0_24px_60px_rgba(28,20,18,0.18)] transition-[max-height,opacity] duration-300 ease-out ${
             mode === "shop"
-              ? "max-h-36 opacity-90 sm:max-h-44"
-              : "max-h-[42vh] sm:max-h-[50vh]"
+              ? "max-h-36 opacity-95 sm:max-h-44"
+              : "max-h-[48vh] sm:max-h-[56vh]"
           }`}
         >
           <div
@@ -129,31 +129,34 @@ export function RecipeExperience({
               className="object-cover"
               sizes="(max-width: 768px) 100vw, 768px"
             />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-transparent to-transparent" />
+            {mode === "cook" ? (
+              <div className="absolute bottom-4 left-4 right-4 sm:bottom-6 sm:left-6">
+                <p className="section-kicker !text-[#ffb3c1]">Alemniam</p>
+              </div>
+            ) : null}
           </div>
         </div>
       ) : null}
 
-      {/* Sticky mode bar — always reachable while cooking/shopping */}
-      <div className="sticky top-14 z-40 -mx-4 mt-4 border-b border-border/80 bg-[color-mix(in_oklch,var(--bg)_92%,transparent)] px-4 py-3 backdrop-blur-md sm:-mx-0 sm:rounded-[var(--radius)] sm:border">
+      <div className="sticky top-16 z-40 -mx-4 mt-5 border-b border-border/80 bg-[color-mix(in_srgb,var(--bg)_90%,transparent)] px-4 py-4 backdrop-blur-xl sm:-mx-0 sm:rounded-[calc(var(--radius)+4px)] sm:border sm:shadow-[0_12px_40px_rgba(220,20,60,0.08)]">
         <div className="flex flex-col gap-3">
-          <div className="flex items-start justify-between gap-3">
-            <div className="min-w-0">
-              <h1 className="font-display text-[clamp(1.5rem,4.5vw,2.25rem)] font-semibold leading-tight">
-                {translation.title}
-              </h1>
-              {!focusCook ? (
-                <p className="mt-1 line-clamp-2 max-w-[65ch] text-sm text-muted">
-                  {translation.excerpt}
-                </p>
-              ) : (
-                <p className="mt-1 text-sm font-medium text-accent">
-                  {t("focusHint")}
-                </p>
-              )}
-            </div>
+          <div className="min-w-0">
+            <h1 className="font-display text-[clamp(1.85rem,6vw,2.85rem)] font-semibold leading-[1.05]">
+              {translation.title}
+            </h1>
+            {!focusCook ? (
+              <p className="mt-2 line-clamp-2 max-w-[65ch] text-base text-muted">
+                {translation.excerpt}
+              </p>
+            ) : (
+              <p className="mt-2 text-sm font-semibold text-accent">
+                {t("focusHint")}
+              </p>
+            )}
           </div>
           <ModeSwitch mode={mode} onChange={changeMode} />
-          <p className="text-xs text-muted">{t("modeHelp")}</p>
+          <p className="text-xs font-medium text-muted">{t("modeHelp")}</p>
         </div>
       </div>
 
@@ -199,20 +202,20 @@ export function RecipeExperience({
       {mode === "cook" ? (
         <div key="cook" className="mode-fade mt-6 space-y-8">
           {/* One big active step — kitchen readable */}
-          <section className="rounded-[calc(var(--radius)+4px)] border border-accent/40 bg-surface px-5 py-6 sm:px-8 sm:py-8">
-            <div className="flex items-center justify-between gap-3 text-sm text-muted">
-              <span className="font-medium uppercase tracking-wide text-accent">
+          <section className="cook-stage px-5 py-7 sm:px-9 sm:py-10">
+            <div className="flex items-center justify-between gap-3 text-sm">
+              <span className="font-bold uppercase tracking-[0.14em] text-accent">
                 {t("steps")}
               </span>
-              <span>
+              <span className="rounded-full bg-accent px-3 py-1 text-xs font-bold text-white">
                 {activeStep + 1} / {translation.steps.length}
               </span>
             </div>
-            <p className="mt-4 font-display text-[clamp(1.35rem,4vw,1.85rem)] font-semibold leading-snug">
+            <p className="mt-5 font-display text-[clamp(1.55rem,5vw,2.25rem)] font-semibold leading-[1.15]">
               {step?.text}
             </p>
             {step?.tip ? (
-              <p className="mt-4 rounded-xl bg-accent-soft px-4 py-3 text-base text-accent">
+              <p className="mt-5 rounded-2xl border border-accent/20 bg-accent-soft px-4 py-3.5 text-base font-medium text-accent">
                 {t("tips")}: {step.tip}
               </p>
             ) : null}
@@ -360,7 +363,7 @@ export function RecipeExperience({
                               [ing.id]: !c[ing.id],
                             }))
                           }
-                          className="mt-1 size-5 accent-[var(--accent)]"
+                          className="check-pop mt-1 size-5 accent-[#dc143c]"
                         />
                         <span className="flex-1">
                           <span

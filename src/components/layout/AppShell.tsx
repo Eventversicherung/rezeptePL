@@ -18,14 +18,14 @@ export async function AppShell({
 
   return (
     <div className="mx-auto flex min-h-dvh w-full max-w-6xl flex-col px-4 sm:px-6">
-      <header className="sticky top-0 z-40 -mx-4 border-b border-border/70 bg-[color-mix(in_oklch,var(--bg)_88%,transparent)] px-4 backdrop-blur-md sm:-mx-6 sm:px-6">
-        <div className="flex h-14 items-center justify-between gap-3">
+      <header className="sticky top-0 z-50 -mx-4 border-b border-border/80 bg-[color-mix(in_srgb,var(--bg)_86%,transparent)] px-4 backdrop-blur-xl sm:-mx-6 sm:px-6">
+        <div className="flex h-16 items-center justify-between gap-3">
           <Link
             href="/"
-            className="font-display text-lg font-semibold tracking-tight"
+            className="font-display text-xl font-semibold tracking-tight sm:text-2xl"
           >
-            <span className="text-accent">A</span>
-            {brand("name").slice(1)}
+            <span className="text-accent">{brand("name").slice(0, 1)}</span>
+            <span>{brand("name").slice(1)}</span>
           </Link>
           <nav className="hidden items-center gap-6 text-sm text-muted md:flex">
             <Link href="/rezepte" className="hover:text-foreground">

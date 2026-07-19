@@ -15,23 +15,24 @@ export function RecipeArticle({
 
   return (
     <section
-      className="recipe-article mt-16 border-t border-border pt-12"
+      className="recipe-article mt-20 border-t-2 border-accent/20 pt-14"
       aria-labelledby="recipe-article-heading"
     >
+      <p className="section-kicker">SEO</p>
       <h2
         id="recipe-article-heading"
-        className="font-display text-2xl font-semibold sm:text-3xl"
+        className="mt-3 font-display text-[clamp(1.8rem,4vw,2.6rem)] font-semibold"
       >
         {heading}
       </h2>
-      <p className="mt-2 max-w-[65ch] text-sm text-muted">{title}</p>
-      <div className="mt-8 max-w-[65ch] space-y-5 text-[1.05rem] leading-[1.7] text-foreground">
+      <p className="mt-2 max-w-[65ch] text-base text-muted">{title}</p>
+      <div className="mt-10 max-w-[65ch] space-y-5 text-[1.08rem] leading-[1.75] text-foreground">
         {blocks.map((block, i) => {
           if (block.startsWith("## ")) {
             return (
               <h3
                 key={i}
-                className="font-display pt-4 text-xl font-semibold tracking-tight"
+                className="font-display pt-6 text-[1.35rem] font-semibold tracking-tight text-accent"
               >
                 {block.replace(/^##\s+/, "")}
               </h3>

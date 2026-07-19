@@ -13,33 +13,24 @@ export function ModeSwitch({
   const t = useTranslations("recipes");
 
   return (
-    <div
-      className="inline-flex w-full max-w-sm rounded-full border border-border bg-elevated p-1"
-      role="tablist"
-      aria-label="Recipe mode"
-    >
+    <div className="mode-switch" role="tablist" aria-label="Recipe mode">
+      <span className="mode-switch__thumb" data-mode={mode} aria-hidden />
       {(
         [
           ["cook", t("modeCook")],
           ["shop", t("modeShop")],
         ] as const
-      ).map(([value, label]) => {
-        const active = mode === value;
-        return (
-          <button
-            key={value}
-            type="button"
-            role="tab"
-            aria-selected={active}
-            onClick={() => onChange(value)}
-            className={`min-h-11 flex-1 rounded-full px-4 text-sm transition-colors duration-150 ${
-              active ? "segment-active" : "text-muted"
-            }`}
-          >
-            {label}
-          </button>
-        );
-      })}
+      ).map(([value, label]) => (
+        <button
+          key={value}
+          type="button"
+          role="tab"
+          aria-selected={mode === value}
+          onClick={() => onChange(value)}
+        >
+          {label}
+        </button>
+      ))}
     </div>
   );
 }
