@@ -4,8 +4,8 @@ import { Suspense } from "react";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { RecipeExperience } from "@/components/recipe/RecipeExperience";
 import { getSessionUser } from "@/lib/auth/session";
-import { getAffiliateForRecipe } from "@/lib/data/affiliate-products";
 import { getRecipeArticle } from "@/lib/data/recipe-articles";
+import { getRelatedGuidesForRecipe } from "@/lib/data/recipe-guides";
 import {
   getFamilyVariants,
   getRecipeInFamily,
@@ -105,7 +105,11 @@ export default async function RecipeVariantPage({
   const article =
     recipe.translations[locale].article ||
     getRecipeArticle(recipe.id, locale);
-  const affiliateProducts = getAffiliateForRecipe(recipe.id, 3);
+  const familyGuideIds = family.relatedPostIds ?? [];
+  const { gearGuides, affiliateProducts } = await getRelatedGuidesForRecipe(
+    recipe,
+    familyGuideIds,
+  );
   const recipeTitle = recipe.translations[locale].title;
   const familyTitle = family.translations[locale].title;
   const breadcrumbs = [
@@ -141,6 +145,7 @@ export default async function RecipeVariantPage({
           article={article}
           articleHeading={t("articleHeading")}
           affiliateProducts={affiliateProducts}
+          gearGuides={gearGuides}
           breadcrumbs={breadcrumbs}
           breadcrumbsLabel={tCommon("breadcrumbs")}
           family={family}

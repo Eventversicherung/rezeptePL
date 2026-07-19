@@ -15,10 +15,12 @@ export const seedFamilies: RecipeFamily[] = [
       "recipe-pierogi-cabbage",
     ],
     relatedPostIds: [
+      "post-pierogi-guide",
       "post-pierogi-teig",
       "post-teigmaschine",
+      "post-pierogi-formen",
+      "post-freezer-meal-prep",
       "post-twarog",
-      "post-wigilia",
     ],
     translations: {
       de: {
@@ -61,7 +63,13 @@ export const seedFamilyVariantRecipes: Recipe[] = [
     occasionIds: ["occasion-niedziela"],
     techniqueIds: ["technique-teig", "technique-freezer"],
     categoryIds: ["category-hauptgerichte"],
-    relatedPostIds: ["post-pierogi-teig", "post-teigmaschine", "post-polenladen"],
+    relatedPostIds: [
+      "post-pierogi-guide",
+      "post-pierogi-formen",
+      "post-teigmaschine",
+      "post-fleischwolf",
+      "post-freezer-meal-prep",
+    ],
     videoUrl: null,
     translations: {
       de: {
@@ -222,7 +230,14 @@ Przełącz u góry na [ruskie](/pl/rezepte/pierogi/ruskie) albo [kapustę z grzy
     occasionIds: ["occasion-wigilia", "occasion-post"],
     techniqueIds: ["technique-teig", "technique-freezer"],
     categoryIds: ["category-hauptgerichte", "category-vegetarisch"],
-    relatedPostIds: ["post-pierogi-teig", "post-wigilia", "post-polenladen"],
+    relatedPostIds: [
+      "post-pierogi-guide",
+      "post-pierogi-formen",
+      "post-teigmaschine",
+      "post-freezer-meal-prep",
+      "post-kiszenie",
+      "post-wigilia",
+    ],
     videoUrl: null,
     translations: {
       de: {

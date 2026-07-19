@@ -5,8 +5,8 @@ import { setRequestLocale } from "next-intl/server";
 import { getTranslations } from "next-intl/server";
 import { RecipeExperience } from "@/components/recipe/RecipeExperience";
 import { getSessionUser } from "@/lib/auth/session";
-import { getAffiliateForRecipe } from "@/lib/data/affiliate-products";
 import { getRecipeArticle } from "@/lib/data/recipe-articles";
+import { getRelatedGuidesForRecipe } from "@/lib/data/recipe-guides";
 import {
   getFamilyBySlug,
   getFamilyVariants,
@@ -148,7 +148,9 @@ export default async function RecipePage({
   const article =
     recipe.translations[locale].article ||
     getRecipeArticle(recipe.id, locale);
-  const affiliateProducts = getAffiliateForRecipe(recipe.id, 3);
+  const { gearGuides, affiliateProducts } = await getRelatedGuidesForRecipe(
+    recipe,
+  );
   const recipeTitle = recipe.translations[locale].title;
   const breadcrumbs = [
     { label: tCommon("home"), href: "/" },
@@ -181,6 +183,7 @@ export default async function RecipePage({
           article={article}
           articleHeading={t("articleHeading")}
           affiliateProducts={affiliateProducts}
+          gearGuides={gearGuides}
           breadcrumbs={breadcrumbs}
           breadcrumbsLabel={tCommon("breadcrumbs")}
         />

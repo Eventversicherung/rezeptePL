@@ -77,7 +77,9 @@ export async function ClusterView({
         <h1 className="mt-3 font-display text-3xl font-semibold sm:text-4xl">
           {cluster.title[locale]}
         </h1>
-        <p className="mt-3 text-muted">{cluster.description[locale]}</p>
+        <p className="mt-3 whitespace-pre-line text-muted">
+          {cluster.description[locale]}
+        </p>
       </header>
       {items.length === 0 ? (
         <p className="text-lg text-muted">{tRecipes("empty")}</p>

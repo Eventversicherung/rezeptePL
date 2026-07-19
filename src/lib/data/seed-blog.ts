@@ -2,19 +2,20 @@ import type { BlogPost } from "@/types/content";
 import {
   bodyPierogiTeigDe,
   bodyPolenladenDe,
-  bodyTeigmaschineDe,
   bodyTwarogDe,
   bodyWigiliaDe,
 } from "./blog-bodies-de";
 import {
   bodyPierogiTeigPl,
   bodyPolenladenPl,
-  bodyTeigmaschinePl,
   bodyTwarogPl,
   bodyWigiliaPl,
 } from "./blog-bodies-pl";
+import { bodyTeigmaschineUpgradeDe } from "./blog-bodies-wave2-de";
+import { bodyTeigmaschineUpgradePl } from "./blog-bodies-wave2-pl";
+import { seedBlogPostsWave2 } from "./seed-blog-wave2";
 
-export const seedBlogPosts: BlogPost[] = [
+const seedBlogPostsLive: BlogPost[] = [
   {
     id: "post-pierogi-teig",
     status: "published",
@@ -27,7 +28,12 @@ export const seedBlogPosts: BlogPost[] = [
       "recipe-pierogi-meat",
       "recipe-pierogi-cabbage",
     ],
-    relatedPostIds: ["post-teigmaschine", "post-twarog", "post-polenladen"],
+    relatedPostIds: [
+      "post-pierogi-guide",
+      "post-teigmaschine",
+      "post-freezer-meal-prep",
+      "post-pierogi-formen",
+    ],
     relatedProductIds: ["aff-rolling-pin", "aff-pierogi-form", "aff-stand-mixer"],
     clusterIds: ["technique-teig"],
     translations: {
@@ -67,7 +73,12 @@ export const seedBlogPosts: BlogPost[] = [
       "recipe-pierogi-meat",
       "recipe-pierogi-cabbage",
     ],
-    relatedPostIds: ["post-pierogi-teig", "post-wigilia", "post-polenladen"],
+    relatedPostIds: [
+      "post-pierogi-guide",
+      "post-pierogi-teig",
+      "post-pierogi-formen",
+      "post-freezer-meal-prep",
+    ],
     relatedProductIds: [
       "aff-stand-mixer",
       "aff-rolling-pin",
@@ -77,28 +88,28 @@ export const seedBlogPosts: BlogPost[] = [
     clusterIds: ["technique-teig"],
     translations: {
       de: {
-        title: "Teigmaschine für Pierogi: lohnt sich das?",
+        title: "Beste Teigmaschinen für Pierogi 2026 (Kaufberatung & Test)",
         slug: "teigmaschine-pierogi",
         excerpt:
-          "Kaufberatung ohne Hype: Kriterien, Budget-, Allround- und Family-Batch-Stufen — und wann die Hände reichen.",
-        seoTitle: "Teigmaschine Pierogi Kaufberatung | Alemniam",
+          "Best-of 2026 ohne Hype: Kriterien, Budget-, Allround- und Family-Batch-Stufen — Tests & Erfahrungen vorbereitet.",
+        seoTitle: "Beste Teigmaschinen Pierogi 2026 | Test & Kaufberatung | Alemniam",
         seoDescription:
-          "Welche Teigmaschine für Pierogi? Schüsselgröße, Drehmoment, Knethaken, Reinigung. Empfehlungen für Wigilia-Mengen und Alltag in DE.",
-        body: bodyTeigmaschineDe.trim(),
+          "Beste Teigmaschinen für Pierogi 2026: Schüssel, Drehmoment, Knethaken, Reinigung. Budget bis Family-Batch — mit Test-Slot.",
+        body: bodyTeigmaschineUpgradeDe.trim(),
       },
       pl: {
-        title: "Robot do ciasta na pierogi: czy warto?",
+        title: "Najlepsze roboty do ciasta na pierogi 2026 (poradnik i test)",
         slug: "robot-do-ciasta-pierogi",
         excerpt:
-          "Poradnik zakupowy bez hype’u: kryteria, budżet, allround i family-batch — oraz kiedy wystarczą ręce.",
-        seoTitle: "Robot do ciasta pierogi — poradnik zakupowy | Alemniam",
+          "Best-of 2026 bez hype’u: kryteria, budżet, allround i family-batch — Testy i doświadczenia przygotowane.",
+        seoTitle: "Najlepsze roboty do ciasta pierogi 2026 | Test | Alemniam",
         seoDescription:
-          "Jaki robot do ciasta na pierogi? Misa, moment obrotowy, hak, mycie. Na ilości wigilijne i codzienność w Niemczech.",
-        body: bodyTeigmaschinePl.trim(),
+          "Najlepsze roboty do ciasta na pierogi 2026: misa, moment, hak, mycie. Od budżetu do family-batch — ze slotem testów.",
+        body: bodyTeigmaschineUpgradePl.trim(),
       },
     },
     publishedAt: "2026-07-05T10:00:00.000Z",
-    updatedAt: "2026-07-19T18:00:00.000Z",
+    updatedAt: "2026-07-20T12:00:00.000Z",
   },
   {
     id: "post-twarog",
@@ -108,7 +119,12 @@ export const seedBlogPosts: BlogPost[] = [
       "https://images.unsplash.com/photo-1628088062854-d1870b4553da?w=1600&q=80",
     siloIds: ["ingredient", "diaspora"],
     relatedRecipeIds: ["recipe-pierogi", "recipe-nalesniki", "recipe-pierogi-meat"],
-    relatedPostIds: ["post-polenladen", "post-pierogi-teig", "post-wigilia"],
+    relatedPostIds: [
+      "post-polenladen",
+      "post-ersatzprodukte-de",
+      "post-pierogi-guide",
+      "post-smietana-schmand",
+    ],
     relatedProductIds: ["aff-potato-ricer"],
     clusterIds: [],
     translations: {
@@ -149,7 +165,12 @@ export const seedBlogPosts: BlogPost[] = [
       "recipe-zurek",
       "recipe-barszcz",
     ],
-    relatedPostIds: ["post-twarog", "post-wigilia", "post-pierogi-teig"],
+    relatedPostIds: [
+      "post-twarog",
+      "post-ersatzprodukte-de",
+      "post-kielbasa-arten",
+      "post-wigilia",
+    ],
     relatedProductIds: ["aff-freezer-boxes", "aff-dutch-oven"],
     clusterIds: [],
     translations: {
@@ -190,7 +211,12 @@ export const seedBlogPosts: BlogPost[] = [
       "recipe-pierogi",
       "recipe-zurek",
     ],
-    relatedPostIds: ["post-pierogi-teig", "post-polenladen", "post-teigmaschine"],
+    relatedPostIds: [
+      "post-pierogi-guide",
+      "post-freezer-meal-prep",
+      "post-polenladen",
+      "post-wielkanoc",
+    ],
     relatedProductIds: ["aff-pierogi-form", "aff-freezer-boxes", "aff-stand-mixer"],
     clusterIds: ["occasion-wigilia"],
     translations: {
@@ -218,4 +244,9 @@ export const seedBlogPosts: BlogPost[] = [
     publishedAt: "2026-07-12T10:00:00.000Z",
     updatedAt: "2026-07-19T18:00:00.000Z",
   },
+];
+
+export const seedBlogPosts: BlogPost[] = [
+  ...seedBlogPostsLive,
+  ...seedBlogPostsWave2,
 ];

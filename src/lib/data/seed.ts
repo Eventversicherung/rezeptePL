@@ -31,9 +31,12 @@ const baseRecipes: Recipe[] = [
     techniqueIds: ["technique-teig", "technique-freezer"],
     categoryIds: ["category-hauptgerichte", "category-vegetarisch"],
     relatedPostIds: [
+      "post-pierogi-guide",
+      "post-pierogi-formen",
+      "post-teigmaschine",
+      "post-freezer-meal-prep",
       "post-pierogi-teig",
       "post-twarog",
-      "post-teigmaschine",
     ],
     videoUrl: null,
     translations: {
@@ -1212,17 +1215,62 @@ export const seedRecipes: Recipe[] = [
   ...baseRecipes,
   ...seedFamilyVariantRecipes,
 ].map((recipe) => {
-  if (recipe.id === "recipe-schabowy" || recipe.id === "recipe-golabki") {
+  if (recipe.id === "recipe-nalesniki") {
     return {
       ...recipe,
+      relatedPostIds: [
+        "post-twarog",
+        "post-smietana-schmand",
+        "post-ersatzprodukte-de",
+      ],
+    };
+  }
+  if (recipe.id === "recipe-bigos") {
+    return {
+      ...recipe,
+      relatedPostIds: [
+        "post-bigos-guide",
+        "post-dutch-oven",
+        "post-kielbasa-arten",
+        "post-kiszenie",
+        "post-polenladen",
+      ],
+    };
+  }
+  if (recipe.id === "recipe-zurek") {
+    return {
+      ...recipe,
+      relatedPostIds: [
+        "post-zakwas-zurek",
+        "post-polnische-suppen",
+        "post-kielbasa-arten",
+        "post-polenladen",
+      ],
+    };
+  }
+  if (recipe.id === "recipe-barszcz") {
+    return {
+      ...recipe,
+      relatedPostIds: [
+        "post-polnische-suppen",
+        "post-smietana-schmand",
+        "post-wigilia",
+        "post-polenladen",
+      ],
       occasionIds: Array.from(
-        new Set([...recipe.occasionIds, "occasion-niedziela"]),
+        new Set([...recipe.occasionIds, "occasion-wigilia"]),
       ),
     };
   }
   if (recipe.id === "recipe-rosol") {
     return {
       ...recipe,
+      relatedPostIds: [
+        "post-rosol-technik",
+        "post-polnische-suppen",
+        "post-sonntagsessen",
+        "post-dutch-oven",
+      ],
       occasionIds: Array.from(
         new Set([...recipe.occasionIds, "occasion-niedziela"]),
       ),
@@ -1231,25 +1279,54 @@ export const seedRecipes: Recipe[] = [
       ),
     };
   }
-  if (recipe.id === "recipe-nalesniki") {
+  if (recipe.id === "recipe-schabowy") {
     return {
       ...recipe,
-      relatedPostIds: ["post-twarog"],
-    };
-  }
-  if (recipe.id === "recipe-bigos" || recipe.id === "recipe-zurek") {
-    return {
-      ...recipe,
-      relatedPostIds: ["post-polenladen"],
-    };
-  }
-  if (recipe.id === "recipe-barszcz") {
-    return {
-      ...recipe,
-      relatedPostIds: ["post-wigilia", "post-polenladen"],
+      relatedPostIds: [
+        "post-gusseisen",
+        "post-sonntagsessen",
+        "post-wielkanoc",
+      ],
       occasionIds: Array.from(
-        new Set([...recipe.occasionIds, "occasion-wigilia"]),
+        new Set([...recipe.occasionIds, "occasion-niedziela"]),
       ),
+    };
+  }
+  if (recipe.id === "recipe-placki") {
+    return {
+      ...recipe,
+      relatedPostIds: ["post-gusseisen", "post-sonntagsessen"],
+    };
+  }
+  if (recipe.id === "recipe-golabki") {
+    return {
+      ...recipe,
+      relatedPostIds: [
+        "post-sonntagsessen",
+        "post-smietana-schmand",
+        "post-dutch-oven",
+      ],
+      occasionIds: Array.from(
+        new Set([...recipe.occasionIds, "occasion-niedziela"]),
+      ),
+    };
+  }
+  if (recipe.id === "recipe-faworki") {
+    return {
+      ...recipe,
+      relatedPostIds: ["post-tlusty-czwartek"],
+    };
+  }
+  if (recipe.id === "recipe-fasolka") {
+    return {
+      ...recipe,
+      relatedPostIds: ["post-kielbasa-arten", "post-polenladen"],
+    };
+  }
+  if (recipe.id === "recipe-oscypek") {
+    return {
+      ...recipe,
+      relatedPostIds: ["post-gusseisen", "post-polenladen"],
     };
   }
   return recipe;

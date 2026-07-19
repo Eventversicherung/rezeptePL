@@ -1,42 +1,33 @@
-# Interne Link-Matrix Tier 1
+# Crosslink Matrix (Wave 2)
 
-Regel: Blog → 3–5 Rezept-Varianten + 1–2 Posts + 1 Hub. Varianten → Guides/Gear über Text, Geschwister nur Switcher.
+Regel: Blog → 3–5 Rezepte + 1–2 Posts + 1 Hub. Rezept → Pillar/Cluster + Gear-Guides (Cards). Affiliate nur in Buying-Guides.
 
-## Pierogi-Silo
-
-| Von | Nach |
-|-----|------|
-| Family `/rezepte/pierogi` | Default-Variante Ruskie (Redirect) |
-| Variante Ruskie | Blog Teig, Blog Twaróg, Blog Teigmaschine, Cluster Teig, Cluster Wigilia |
-| Variante Fleisch | Blog Teig, Blog Teigmaschine, Cluster Teig, Cluster Niedziela |
-| Variante Kraut-Pilze | Blog Teig, Blog Wigilia, Cluster Wigilia, Cluster Teig |
-| Blog Teig-Guide | 3 Varianten + Cluster Teig + Blog Teigmaschine |
-| Blog Teigmaschine | 3 Varianten + Cluster Teig + Affiliate-Karten + Teig-Guide |
-| Blog Twaróg | Ruskie + Naleśniki + Polenladen |
-| Blog Polenladen | Pierogi Ruskie, Bigos, Żurek, Barszcz |
-| Blog Wigilia | Kraut-Pilze, Barszcz, Ruskie + Cluster Wigilia |
-| Cluster Teig | Family Pierogi + Teig-Guide |
-| Cluster Wigilia | Kraut-Pilze, Barszcz, Ruskie + Wigilia-Blog |
-
-## Weitere Tier-1 Knoten
+## Pierogi (geschlossen)
 
 | Von | Nach |
 |-----|------|
-| Bigos | Polenladen, Kapusta-Themen später |
-| Żurek | Polenladen |
-| Barszcz | Wigilia-Blog, Cluster Wigilia |
-| Rosół | Cluster Niedziela (wenn vorhanden) |
-| Schabowy | — |
-| Gołąbki | Cluster Niedziela |
-| Naleśniki | Twaróg-Blog |
+| Pillar pierogi-guide | Teig, Formen, Teigmaschine, Freezer, 3 Varianten, Wigilia |
+| Teig | Pillar, 3 Varianten, Formen, Teigmaschine |
+| Formen / Teigmaschine | 3 Varianten, Teig, Pillar |
+| Freezer | 3 Varianten, Teig, Pillar |
+| Variante Ruskie | Pillar, Teig, Twaróg, Formen, Teigmaschine |
+| Variante Fleisch | Pillar, Teig, Fleischwolf, Teigmaschine |
+| Variante Kraut | Pillar, Teig, Wigilia, Kiszenie |
 
-## Affiliate (Silo H)
+## Suppen / Bigos
 
-| Produkt | Tags / recipeIds |
-|---------|------------------|
-| Pierogi-Formen | pierogi, teig · alle 3 Varianten |
-| Teigroller | teig, kitchen · alle 3 Varianten |
-| Kartoffelpresse | pierogi · Ruskie |
-| Gusseisen | kitchen · Placki, Schabowy, Oscypek, Pierogi |
-| Küchenmaschine (neu) | teigmaschine, pierogi · Family |
-| Dutch Oven (neu) | bigos, rosół · Bigos, Rosół, Gołąbki |
+| Von | Nach |
+|-----|------|
+| polnische-suppen | zurek, barszcz, rosol, zakwas, rosol-technik |
+| rosol-technik | rosol, sonntagsessen, polnische-suppen |
+| zakwas-zurek | zurek, polenladen |
+| bigos-guide | bigos, dutch-oven, kiszenie, polenladen |
+
+## Gear auf Rezepten
+
+| Rezept | Gear-Cards |
+|--------|------------|
+| pierogi* | pierogi-formen, teigmaschine |
+| pierogi-meat | + fleischwolf |
+| bigos | dutch-oven |
+| placki, schabowy, oscypek | gusseisen |

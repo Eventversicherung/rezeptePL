@@ -1,4 +1,10 @@
 import type { Cluster } from "@/types/content";
+import {
+  hubIntroBulion,
+  hubIntroNiedziela,
+  hubIntroTeig,
+  hubIntroWigilia,
+} from "./hub-intros";
 
 export const seedClusters: Cluster[] = [
   {
@@ -151,8 +157,8 @@ export const seedClusters: Cluster[] = [
     slug: { de: "wigilia", pl: "wigilia" },
     title: { de: "Wigilia", pl: "Wigilia" },
     description: {
-      de: "Weihnachtsabend-Gerichte. Barszcz, Pierogi, Karp und mehr.",
-      pl: "Potrawy wigilijne. Barszcz, pierogi, karp i więcej.",
+      de: hubIntroWigilia.de.trim(),
+      pl: hubIntroWigilia.pl.trim(),
     },
     seoTitle: {
       de: "Wigilia Rezepte | Alemniam",
@@ -205,8 +211,8 @@ export const seedClusters: Cluster[] = [
     slug: { de: "sonntagsessen", pl: "niedziela" },
     title: { de: "Sonntagsessen", pl: "Niedziela" },
     description: {
-      de: "Rosół, Schabowy, Kompott — der ruhige Sonntagstisch.",
-      pl: "Rosół, schabowy, kompot — spokojny niedzielny stół.",
+      de: hubIntroNiedziela.de.trim(),
+      pl: hubIntroNiedziela.pl.trim(),
     },
     seoTitle: {
       de: "Polnisches Sonntagsessen | Alemniam",
@@ -313,8 +319,8 @@ export const seedClusters: Cluster[] = [
     slug: { de: "teig", pl: "ciasto" },
     title: { de: "Teig", pl: "Ciasto" },
     description: {
-      de: "Pierogi-, Nudel- und Hefeteige. Mit Tipps für die deutsche Küche.",
-      pl: "Ciasta na pierogi, kluski i drożdżowe. Ze wskazówkami.",
+      de: hubIntroTeig.de.trim(),
+      pl: hubIntroTeig.pl.trim(),
     },
     seoTitle: {
       de: "Polnische Teige | Alemniam",
@@ -349,8 +355,8 @@ export const seedClusters: Cluster[] = [
     slug: { de: "bruehe", pl: "bulion" },
     title: { de: "Brühe", pl: "Bulion" },
     description: {
-      de: "Rosół und klare Brühen — Fundament vieler Suppen.",
-      pl: "Rosół i jasne buliony — baza wielu zup.",
+      de: hubIntroBulion.de.trim(),
+      pl: hubIntroBulion.pl.trim(),
     },
     seoTitle: {
       de: "Polnische Brühe | Alemniam",

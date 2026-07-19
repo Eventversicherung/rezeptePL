@@ -1,6 +1,6 @@
-# Alemniam Silo Map (verbindlich)
+# Alemniam Silo Map
 
-Zielgruppe: PL-first (Polen / polnischstämmig in DE), dann DE. Jede Seite: `/de/...` + `/pl/...` mit hreflang.
+Zielgruppe: PL-first, dann DE. Immer `/de/...` + `/pl/...` mit hreflang.
 
 ## Schichten
 
@@ -8,50 +8,22 @@ Zielgruppe: PL-first (Polen / polnischstämmig in DE), dann DE. Jede Seite: `/de
 |--------|-----|
 | Rezept-Familie + Variante | `/{locale}/rezepte/{family}/{variant}` |
 | Einzel-Rezept | `/{locale}/rezepte/{slug}` |
-| Blog | `/{locale}/blog`, `/{locale}/blog/{slug}` |
-| Cluster | `/{locale}/regionen\|anlaesse\|techniken/{slug}` |
+| Blog | `/{locale}/blog/{slug}` |
+| Cluster-Hubs | `/{locale}/regionen\|anlaesse\|techniken/{slug}` |
 
-## Silo A — Gerichtsfamilien
+## Status
 
-1. Pierogi (Family-Pilot)
-2. Zupy
-3. Mięsa i kotlety
-4. Gołąbki
-5. Bigos & Kapusta
-6. Kluski & Knödel
-7. Naleśniki & Słodkości
-8. Sałatki & Surówki
-9. Śniadania
-10. Street & Fast Polish
+| Silo | LIVE | W3/HOLD |
+|------|------|---------|
+| A Gerichtsfamilien | Pierogi-/Suppen-/Bigos-Pillar | Gołąbki, Kluski, Naleśniki |
+| B Regionen | Hub-Intros teig/wigilia/niedziela/bulion | Region-Blogs |
+| C Anlässe | Wigilia, Wielkanoc, Tłusty, Sonntag | Grill, Imieniny… |
+| D Techniken | Teig, Freezer, Rosół, Kiszenie | Panieren, Schmoren |
+| E Zutaten | Twaróg, Śmietana, Kiełbasa, Zakwas | Kasza, Oscypek |
+| F Diaspora | Polenladen, Ersatzprodukte | Meal-Prep Woche |
+| G Tradition | via Wigilia + Sonntag | regionale Vielfalt |
+| H Gear/Tests | Teigmaschine 2026, Formen, Fleischwolf, Dutch Oven, Gusseisen | Freezer-Boxen, Grundausstattung |
 
-## Silo B — Regionen
+## Rezept-Monetarisierung
 
-Schlesien, Podhale, Mazowsze, Małopolska, Wielkopolska, Pomorze, Podlasie, Lublin
-
-## Silo C — Anlässe
-
-Wigilia, Wielkanoc, Tłusty Czwartek, Imieniny, Niedziela, Komunia, Grill/Lato, Post/Piątek, Sylwester
-
-## Silo D — Techniken
-
-Teig, Kiszenie, Bulion, Panieren, Schmoren, Füllen & Rollen, Räuchern/Grill, Konserven, Freezer
-
-## Silo E — Zutaten-Lexikon (Blog)
-
-Twaróg, Śmietana, Kasza, Mąka, Kiełbasa, Zakwas, Buraki, Gewürze, Oscypek, Kiszonki
-
-## Silo F — Diaspora DE (Blog)
-
-Polenladen vs REWE, Sonntags-Einkauf, Ersatzprodukte, Kinder/2. Gen, Meal Prep, Gäste
-
-## Silo G — Tradition (Blog)
-
-Wigilia kulinarisch, Sonntagsessen, Gastfreundschaft, regionale Vielfalt
-
-## Silo H — Geräte & Kaufberater (Blog + Affiliate)
-
-Teigmaschine, Fleischwolf, Pierogi-Formen, Kartoffelpresse, Gusseisen, Dutch Oven, Fermentieren, Thermometer, Freezer-System, Grundausstattung
-
-## Tier 1 (zuerst befüllen)
-
-Pierogi-Family (≥3 Varianten), Bigos, Żurek/Barszcz/Rosół, Schabowy, Gołąbki, Wigilia-Blog, Twaróg-Blog, Polenladen-Blog, Teigmaschine-Blog
+Wave 2: **guide-only** — Gear-Blog-Cards auf Rezepten. Affiliate in Buying-Guides. Später `mixed` möglich.

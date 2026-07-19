@@ -6,6 +6,7 @@ import { useTranslations } from "next-intl";
 import { useRouter, useSearchParams } from "next/navigation";
 import type {
   AffiliateProduct,
+  BlogPost,
   Locale,
   Recipe,
   RecipeFamily,
@@ -20,6 +21,7 @@ import { groupLabelKey, scaleAmount } from "@/lib/utils";
 import { familyVariantPath } from "@/lib/data/recipe-paths";
 import { ModeSwitch } from "./ModeSwitch";
 import { RecipeArticle } from "./RecipeArticle";
+import { RecipeGearGuides } from "./RecipeGearGuides";
 import { VariantSwitcher } from "./VariantSwitcher";
 import {
   addRecipeToShoppingListAction,
@@ -44,6 +46,7 @@ export function RecipeExperience({
   article,
   articleHeading,
   affiliateProducts,
+  gearGuides = [],
   breadcrumbs,
   breadcrumbsLabel,
   family = null,
@@ -58,6 +61,7 @@ export function RecipeExperience({
   article: string;
   articleHeading: string;
   affiliateProducts: AffiliateProduct[];
+  gearGuides?: BlogPost[];
   breadcrumbs: BreadcrumbItem[];
   breadcrumbsLabel: string;
   family?: RecipeFamily | null;
@@ -66,6 +70,7 @@ export function RecipeExperience({
 }) {
   const t = useTranslations("recipes");
   const tAff = useTranslations("affiliate");
+  const tBlog = useTranslations("blog");
   const router = useRouter();
   const searchParams = useSearchParams();
   const [mode, setMode] = useState<RecipeMode>(initialMode);
@@ -450,21 +455,29 @@ export function RecipeExperience({
       )}
 
       {!focusCook ? (
-        <RecipeArticle
-          key={`article-${recipe.id}`}
-          title={translation.title}
-          article={article}
-          heading={articleHeading}
-          locale={locale}
-          products={affiliateProducts}
-          labels={{
-            disclosure: tAff("disclosure"),
-            ctaKicker: tAff("ctaKicker"),
-            ctaTitle: tAff("ctaTitle"),
-            ctaBody: tAff("ctaBody"),
-            ctaButton: tAff("ctaButton"),
-          }}
-        />
+        <>
+          <RecipeArticle
+            key={`article-${recipe.id}`}
+            title={translation.title}
+            article={article}
+            heading={articleHeading}
+            locale={locale}
+            products={affiliateProducts}
+            labels={{
+              disclosure: tAff("disclosure"),
+              ctaKicker: tAff("ctaKicker"),
+              ctaTitle: tAff("ctaTitle"),
+              ctaBody: tAff("ctaBody"),
+              ctaButton: tAff("ctaButton"),
+            }}
+          />
+          <RecipeGearGuides
+            posts={gearGuides}
+            locale={locale}
+            heading={t("gearGuidesHeading")}
+            cta={tBlog("readMore")}
+          />
+        </>
       ) : null}
     </article>
     </LocaleAlternatesProvider>
