@@ -76,25 +76,18 @@ export default async function RecipesPage({
         ]}
       />
 
-      <div className="reveal">
+      {/* 1 — Title only, compact */}
+      <header className="reveal">
         <p className="section-kicker">Alemniam</p>
-        <h1 className="mt-3 font-display text-[clamp(2.6rem,8vw,4.5rem)] font-semibold">
+        <h1 className="mt-3 font-display text-[clamp(2.4rem,7vw,4rem)] font-semibold">
           {t("title")}
         </h1>
-        <p className="mt-4 max-w-[42ch] text-lg text-muted">{t("sub")}</p>
-        <form className="mt-6">
-          {activeCategory ? (
-            <input type="hidden" name="kat" value={activeCategory.slug[locale]} />
-          ) : null}
-          <input
-            name="q"
-            defaultValue={q}
-            placeholder={t("search")}
-            className="min-h-14 w-full max-w-xl rounded-full border-2 border-border bg-surface px-6 text-base shadow-[0_10px_30px_rgba(220,20,60,0.06)] outline-none transition focus:border-accent"
-          />
-        </form>
-      </div>
+        <p className="mt-3 max-w-[40ch] text-base text-muted sm:text-lg">
+          {t("sub")}
+        </p>
+      </header>
 
+      {/* 2 — Categories first (how people browse) */}
       <section className="reveal space-y-5">
         <div>
           <p className="section-kicker">{tClusters("categories")}</p>
@@ -108,6 +101,61 @@ export default async function RecipesPage({
           activeSlug={activeCategory?.slug[locale]}
           recipesLabel={t("browseCategory")}
         />
+      </section>
+
+      {/* 3 — Centered search band */}
+      <section className="recipe-search reveal" aria-labelledby="recipe-search-heading">
+        <div className="recipe-search__inner">
+          <p className="section-kicker">{t("searchKicker")}</p>
+          <h2
+            id="recipe-search-heading"
+            className="mt-2 font-display text-[clamp(1.5rem,3.5vw,2.2rem)] font-semibold"
+          >
+            {t("searchHeading")}
+          </h2>
+          <p className="mx-auto mt-2 max-w-[36ch] text-sm text-muted sm:text-base">
+            {t("searchHint")}
+          </p>
+          <form className="recipe-search__form mt-6">
+            {activeCategory ? (
+              <input
+                type="hidden"
+                name="kat"
+                value={activeCategory.slug[locale]}
+              />
+            ) : null}
+            <label className="sr-only" htmlFor="recipe-q">
+              {t("search")}
+            </label>
+            <input
+              id="recipe-q"
+              name="q"
+              defaultValue={q}
+              placeholder={t("search")}
+              className="recipe-search__input"
+            />
+            <button type="submit" className="recipe-search__submit">
+              {t("searchSubmit")}
+            </button>
+          </form>
+          {activeCategory || q ? (
+            <p className="mt-4 text-sm text-muted">
+              {activeCategory ? (
+                <span>
+                  {t("filteringCategory", {
+                    category: activeCategory.title[locale],
+                  })}
+                </span>
+              ) : null}
+              {q ? (
+                <span>
+                  {activeCategory ? " · " : null}
+                  {t("filteringQuery", { query: q })}
+                </span>
+              ) : null}
+            </p>
+          ) : null}
+        </div>
       </section>
 
       {showSpotlights && schnellCategory ? (
