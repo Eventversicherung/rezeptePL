@@ -1,7 +1,9 @@
-# Topical Backlog Wave 2
+# Topical Backlog
 
-Status: LIVE | W2 | W3 | HOLD  
+Status: LIVE | W2 | W3 | W4 | HOLD  
 Affiliate auf Rezepten: **guide-only** (Gear-Blog-Cards); Affiliate-Karten in Buying-Guides.
+
+**SEO-Snapshot & erweiterter Plan:** [`topical-authority-status.md`](./topical-authority-status.md) (31 Blog · 22 Rezepte · Score 8/10).
 
 ## LIVE
 
