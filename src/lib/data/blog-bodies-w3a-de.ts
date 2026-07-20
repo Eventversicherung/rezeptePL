@@ -244,6 +244,7 @@ Ja, gefüllt und angebraten halten sich eingefroren zwei bis drei Monate gut. Fr
 Technik sitzt – als Nächstes konkret kochen und Zutaten sauber einordnen:
 
 - [Naleśniki mit Twaróg](/de/rezepte/nalesniki/twarog) — Rezept mit Mengen und Schritten
+- [Krokiety](/de/rezepte/krokiety) — gerollte, panierte Naleśniki (andere Money Page)
 - [Pierogi Ruskie](/de/rezepte/pierogi/ruskie) — gleicher Quark, andere Form
 - [Twaróg Guide](/de/blog/twarog-deutschland) — Kauf und Konsistenz in DE
 - [Śmietana und Schmand](/de/blog/smietana-schmand) — passende Beilage und Füllung

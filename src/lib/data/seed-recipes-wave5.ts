@@ -37,6 +37,7 @@ export const seedRecipesWave5: Recipe[] = [
           },
           {
             text: "Mit Butterbröseln, Zucker oder saurer Sahne servieren.",
+            tip: "Gefüllte Obst-Knödel sind etwas anderes: [Knedle ze śliwkami](/de/rezepte/knedle-sliwki). Teigfamilie: [Pierogi-Guide](/de/blog/pierogi-guide).",
           },
         ],
         seoTitle: "Pierogi leniwe Rezept | Alemniam",
@@ -59,6 +60,7 @@ export const seedRecipesWave5: Recipe[] = [
           },
           {
             text: "Podawaj z bułką tartą na maśle, cukrem albo śmietaną.",
+            tip: "Knedle z owocem to osobna strona: [knedle ze śliwkami](/pl/rezepte/knedle-sliwki). Rodzina ciast: [przewodnik pierogi](/pl/blog/przewodnik-pierogi).",
           },
         ],
         seoTitle: "Pierogi leniwe przepis | Alemniam",

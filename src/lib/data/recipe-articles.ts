@@ -1,4 +1,9 @@
 import type { Locale } from "@/types/content";
+import { W8_FACTS_A } from "./recipe-articles-w8-a";
+import { W8_FACTS_B } from "./recipe-articles-w8-b";
+import { W8_FACTS_C } from "./recipe-articles-w8-c";
+import { W8_FACTS_D } from "./recipe-articles-w8-d";
+import { W8_FACTS_D_RETROFIT } from "./recipe-articles-w8-d-retrofit";
 
 type ArticleFacts = {
   dishDe: string;
@@ -120,9 +125,9 @@ const FACTS: Record<string, ArticleFacts> = {
     mistakesPl:
       "Za dużo wody, za mało majeranku i zbyt późne dodanie zakwasu. Decyduje równowaga kwasu i bulionu.",
     variantsDe:
-      "Mit geräucherter Wurst, ohne Ei, oder klarer als Festtagssuppe. Zakwas Guide und Polenladen-Tipps für Ansatz und Wurst. Schlesische Varianten sind oft kräftiger gewürzt.",
+      "Mit geräucherter Wurst, ohne Ei, oder klarer als Festtagssuppe. Zakwas Guide und Polenladen-Tipps für Ansatz und Wurst. Schlesische Varianten sind oft kräftiger gewürzt. Andere Säuren, anderer Intent: warme Gurkensuppe [Ogórkowa](/de/rezepte/ogorkowa), Sauerkrautsuppe [Kapuśniak](/de/rezepte/kapusniak) — nicht Zakwas.",
     variantsPl:
-      "Z wędzoną kiełbasą, bez jajka albo jaśniejszy na święta. Przewodnik po zakwasie i polski sklep — przy ansatzie i kiełbasie. Warianty śląskie bywają mocniej przyprawione.",
+      "Z wędzoną kiełbasą, bez jajka albo jaśniejszy na święta. Przewodnik po zakwasie i polski sklep — przy ansatzie i kiełbasie. Warianty śląskie bywają mocniej przyprawione. Inny kwas, inny intent: ciepła [ogórkowa](/pl/rezepte/ogorkowa), [kapuśniak](/pl/rezepte/kapusniak) — nie zakwas.",
   },
   "recipe-oscypek": {
     dishDe: "gegrillter Oscypek mit Preiselbeeren",
@@ -256,9 +261,9 @@ const FACTS: Record<string, ArticleFacts> = {
     mistakesPl:
       "Za słodki, zmętniony przez gwałtowne gotowanie, za mało kwasu. Barszcz ma smakować świeżo i wyraziście. Uszka nie namaczaj w zupie.",
     variantsDe:
-      "Mit getrockneten Pilzen im Ansatz, mit Knoblauch betont, oder als scharfer Alltagbarszcz. Barszcz-Technik für Klarheit und Säure. Für Teigtaschen: Uszka-Rezept.",
+      "Mit getrockneten Pilzen im Ansatz, mit Knoblauch betont, oder als scharfer Alltagbarszcz. Barszcz-Technik für Klarheit und Säure. Für Teigtaschen: Uszka-Rezept. Nicht verwechseln mit Kiszone-Suppen ohne Rote Bete: [Ogórkowa](/de/rezepte/ogorkowa) und [Kapuśniak](/de/rezepte/kapusniak).",
     variantsPl:
-      "Z suszonymi grzybami w bazie, mocniej czosnkowy albo ostry na co dzień. Barszcz-Technik przy klarowności i kwasie. Na pierożki: przepis Uszka.",
+      "Z suszonymi grzybami w bazie, mocniej czosnkowy albo ostry na co dzień. Barszcz-Technik przy klarowności i kwasie. Na pierożki: przepis Uszka. Nie mylić z zupami kiszonymi bez buraków: [ogórkowa](/pl/rezepte/ogorkowa) i [kapuśniak](/pl/rezepte/kapusniak).",
   },
   "recipe-schabowy": {
     dishDe: "Kotlet schabowy",
@@ -470,9 +475,9 @@ const FACTS: Record<string, ArticleFacts> = {
     vibeDe: "knusprig, zart, puderzuckerweiß",
     vibePl: "chrupiące, kruche, w cukrze pudrze",
     originDe:
-      "Faworki — auch Chrust oder Chruściki — gehören zu Tłusty Czwartek und zur polnischen Faschingsküche. Hauchdünner Teig, heißes Öl, viel Puderzucker. Kein schweres Gebäck, sondern knusprige Schleifen.",
+      "Faworki — auch Chrust oder Chruściki — gehören zu Tłusty Czwartek und zur polnischen Faschingsküche. Hauchdünner Teig, heißes Öl, viel Puderzucker. Kein schweres Gebäck, sondern knusprige Schleifen. Weiche, gefüllte Nachbarn am selben Tag: [Pączki](/de/rezepte/paczki) — anderer Primary, andere Technik ([Pączki-Technik](/de/blog/paczek-technik)).",
     originPl:
-      "Faworki — też chrust lub chruściki — należą do Tłustego Czwartku i karnawałowej kuchni. Papierowo cienkie ciasto, gorący olej, dużo cukru pudru. Nie ciężkie ciasto, tylko chrupiące pętle.",
+      "Faworki — też chrust lub chruściki — należą do Tłustego Czwartku i karnawałowej kuchni. Papierowo cienkie ciasto, gorący olej, dużo cukru pudru. Nie ciężkie ciasto, tylko chrupiące pętle. Miękki, nadziewany sąsiad tego samego dnia: [pączki](/pl/rezepte/paczki) — inny primary, inna technika ([technika pączków](/pl/blog/paczki-technika)).",
     shopDe:
       "Weizenmehl, Eigelb, saure Sahne/Schmand, Backpulver, Zucker, Wodka (oder Rum), Frittieröl, Puderzucker. Alles im deutschen Supermarkt. Traditionell zu Tłusty Czwartek — der Guide erklärt den Feiertagskontext.",
     shopPl:
@@ -482,9 +487,9 @@ const FACTS: Record<string, ArticleFacts> = {
     techniquePl:
       "Długo wyrabiać, rozwałkować bardzo cienko, formować pętle, smażyć w 170–180 °C, odsączyć, posypać na ciepło. Alkohol w cieście zmniejsza wchłanianie tłuszczu.",
     serveDe:
-      "Noch warm mit viel Puderzucker. Zur Kaffee oder als Tłusty-Czwartek-Teller neben Pączki.",
+      "Noch warm mit viel Puderzucker. Zur Kaffee oder als Tłusty-Czwartek-Teller neben [Pączki](/de/rezepte/paczki).",
     servePl:
-      "Jeszcze ciepłe, obficie w cukrze pudrze. Do kawy albo na talerz Tłustego Czwartku obok pączków.",
+      "Jeszcze ciepłe, obficie w cukrze pudrze. Do kawy albo na talerz Tłustego Czwartku obok [pączków](/pl/rezepte/paczki).",
     diasporaDe:
       "In Deutschland oft leichter selbst zu machen als gute frische Faworki zu finden. Ein Nachmittag, ein Topf Öl — und der Geruch erinnert an zu Hause.",
     diasporaPl:
@@ -494,9 +499,9 @@ const FACTS: Record<string, ArticleFacts> = {
     mistakesPl:
       "Za grube ciasto, za chłodny olej, za pełny garnek, cukier puder dopiero po wystygnięciu. Wtedy wychodzą tłuste albo miękkie.",
     variantsDe:
-      "Mit Zitronenschale im Teig, gebacken statt frittiert (knuspriger Kompromiss), oder als kleiner Batch für den Alltag. Tłusty Czwartek als Anlass — Technikdetails bleiben im Rezept oben.",
+      "Mit Zitronenschale im Teig, gebacken statt frittiert (knuspriger Kompromiss), oder als kleiner Batch für den Alltag. Tłusty Czwartek als Anlass — Technikdetails bleiben im Rezept oben. Weich und gefüllt: [Pączki](/de/rezepte/paczki).",
     variantsPl:
-      "Ze skórką cytryny w cieście, pieczone zamiast smażone albo mała partia na zwykły dzień. Tłusty Czwartek jako okazja — szczegóły techniki w przepisie powyżej.",
+      "Ze skórką cytryny w cieście, pieczone zamiast smażone albo mała partia na zwykły dzień. Tłusty Czwartek jako okazja — szczegóły techniki w przepisie powyżej. Miękkie i nadziewane: [pączki](/pl/rezepte/paczki).",
   },
   "recipe-pierogi-meat": {
     dishDe: "Pierogi mit Fleisch",
@@ -834,9 +839,9 @@ const FACTS: Record<string, ArticleFacts> = {
     mistakesPl:
       "Podane za ciepłe, za rzadkie, za mało koperku. Zupa musi być mocno schłodzona — nie letnia.",
     variantsDe:
-      "Mit mehr Śmietana, ohne Ei, oder neben heißem Barszcz im Winter kontrastieren. Polnische Suppen-Guide für die Suppenfamilie.",
+      "Mit mehr Śmietana, ohne Ei, oder neben heißem Barszcz im Winter kontrastieren. Polnische Suppen-Guide für die Suppenfamilie. Warme Kiszone-Alternativen (nicht kalt/rosa): [Ogórkowa](/de/rezepte/ogorkowa) und [Kapuśniak](/de/rezepte/kapusniak).",
     variantsPl:
-      "Z większą ilością śmietany, bez jajka albo kontrast z gorącym barszczem zimą. Przewodnik po polskich zupach przy rodzinie zup.",
+      "Z większą ilością śmietany, bez jajka albo kontrast z gorącym barszczem zimą. Przewodnik po polskich zupach przy rodzinie zup. Ciepłe alternatywy kiszone (nie zimne/różowe): [ogórkowa](/pl/rezepte/ogorkowa) i [kapuśniak](/pl/rezepte/kapusniak).",
   },
   "recipe-pierogi-leniwe": {
     dishDe: "Pierogi leniwe",
@@ -1213,6 +1218,20 @@ const FACTS: Record<string, ArticleFacts> = {
       "Śledź w śmietanie, po kaszubsku z jabłkiem, z musztardą. Wariant śmietany: leksykon śmietany. Inna ryba na ciepło: karp.",
   },
 };
+
+/**
+ * Wave 8 — merge order:
+ * A Beilagen · B Suppen · C Pączki · D retrofit (W5–W7 links) · D Knedle.
+ * Retrofit wins on W5–W7 keys; new W8 IDs from A–D.
+ */
+Object.assign(
+  FACTS,
+  W8_FACTS_A,
+  W8_FACTS_B,
+  W8_FACTS_C,
+  W8_FACTS_D_RETROFIT,
+  W8_FACTS_D,
+);
 
 function expand(locale: Locale, f: ArticleFacts): string {
   if (locale === "de") {

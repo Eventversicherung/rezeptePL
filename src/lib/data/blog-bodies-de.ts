@@ -493,12 +493,12 @@ Wigilia in Deutschland zu kochen heißt planen, nicht beweisen. Zwölf Gerichte 
 
 Traditionell symbolisieren zwölf Speisen Fülle und den Jahreskreis. In der Praxis zählen Gastfreundschaft, Fastenlinie nach Hausbrauch und Gerichte, die wir wirklich schaffen. Lieber acht sorgfältige Teller als zwölf gestresste. Typische Orientierung:
 
-1. [Barszcz](/de/rezepte/barszcz-czerwony) mit Uszka oder zu Kraut-Pilz-Pierogi
+1. [Barszcz](/de/rezepte/barszcz-czerwony) mit [Uszka](/de/rezepte/uszka) oder zu Kraut-Pilz-Pierogi
 2. Pierogi mit Kapusta und Pilzen
-3. Fisch nach Familie (Karpfen, Hering, oder moderne Alternative)
-4. Hering in Öl oder Sahne
+3. Fisch nach Familie ([Karp](/de/rezepte/karp), [Śledź](/de/rezepte/sledz), oder moderne Alternative)
+4. [Śledź](/de/rezepte/sledz) in Öl oder Sahne
 5. Kompot aus Trockenobst
-6. Mohnspeise oder Mohnkuchen
+6. Mohnspeise oder [Makowiec](/de/rezepte/makowiec) — alternativ [Sernik](/de/rezepte/sernik)
 7. Krautsalat oder warme Kapusta
 8. Pilze in Sahne oder als Beilage
 9. Kutia oder ein Getreide-Mohn-Gericht regional
@@ -510,7 +510,7 @@ Nicht jede Region und nicht jede Familie füllt die Liste gleich. Schlesien, Kle
 
 ## Barszcz und Pierogi: das stabile Duo
 
-Klare Rote-Bete-Brühe, nicht zu süß, mit Tiefgang durch Pilzfond oder Röstgemüse. Dazu Uszka oder volle Kraut-Pilz-Pierogi. Der Teig folgt [Pierogi-Teig](/de/blog/pierogi-teig); Füllung braucht ausgedrückte Kapusta und intensiv geschmorte Pilze. Viele von uns kochen Barszcz einen Tag vorher – Geschmack rundet sich.
+Klare Rote-Bete-Brühe, nicht zu süß, mit Tiefgang durch Pilzfond oder Röstgemüse. Dazu [Uszka](/de/rezepte/uszka) oder volle Kraut-Pilz-Pierogi; wer gerollte Panade mag, plant [Krokiety](/de/rezepte/krokiety) als verwandten Gang. Der Teig folgt [Pierogi-Teig](/de/blog/pierogi-teig); Füllung braucht ausgedrückte Kapusta und intensiv geschmorte Pilze. Viele von uns kochen Barszcz einen Tag vorher – Geschmack rundet sich.
 
 Pierogi roh einfrieren, am 24. direkt kochen. So bleibt der Nachmittag frei für Tisch, Kompot und Ruhe. Wer [Żurek](/de/rezepte/zurek) familiär an Weihnachten bindet: möglich, aber nicht universell – ehrlich beim eigenen Brauch bleiben.
 

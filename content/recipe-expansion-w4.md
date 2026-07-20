@@ -1,7 +1,7 @@
-# Recipe Expansion — Wave 4–7
+# Recipe Expansion — Wave 4–8
 
-Status: **Wave 4–7 shipped**  
-Date: 2026-07-20 · `SEED_VERSION` 21
+Status: **Wave 4–8 shipped**  
+Date: 2026-07-20 · `SEED_VERSION` 22
 
 ## Wave 4 (done)
 
@@ -53,16 +53,36 @@ Placki family (4 variants) + standalones: Gulasz, Kotlet mielony, Kluski śląsk
 | Sernik | `recipe-sernik` | Baking silo; Makowiec KW untouched |
 | Śledź | `recipe-sledz` | Cold fish; distinct from Karp |
 
-### Skips
-| Item | Why |
-|------|-----|
-| Pączki | Needs technik pillar; Tłusty Czwartek owns occasion culture — avoid spray |
-| 5th diaspora | Quality gate: four clean money pages enough this wave |
+### Skips (resolved in Wave 8)
+| Item | Why (W7) |
+|------|----------|
+| Pączki | Held for technik pillar — **shipped in Wave 8** |
+| 5th diaspora | Quality gate: four clean money pages enough that wave |
 
 ### Coupling notes
 - Wigilia `relatedRecipeIds` → karp + sledz (plus existing uszka/makowiec)
 - Naleśniki-Guide / Barszcz-Technik / Makowiec-Technik → descriptive related recipes
-- No new blog pillars
+- No new blog pillars in W7
+
+## Wave 8 — shipped this batch
+
+### Blog
+| Post | Supports |
+|------|----------|
+| `post-paczek-technik` | Pillar before Pączki money page; Tłusty = Anlass only |
+
+### Standalone recipes
+| Dish | ID | Notes |
+|------|-----|--------|
+| Mizeria | `recipe-mizeria` | Beilage; Sonntag/Schabowy/Wielkanoc |
+| Kapusta zasmażana | `recipe-kapusta-zasmażana` | Beilage; Kiszenie-Verwertung |
+| Zupa ogórkowa | `recipe-ogorkowa` | Kiszone-Gurkensuppe; ≠ Żurek |
+| Kapuśniak | `recipe-kapusniak` | Sauerkraut**suppe**; ≠ Bigos |
+| Pączki | `recipe-paczki` | Cook-Owner; Technik-Pillar first |
+| Knedle ze śliwkami | `recipe-knedle-sliwki` | Intent ≠ Pierogi/Leniwe/Pyzy |
+
+### Link retrofit
+W5–W7 FACTS (leniwe, kopytka, łazanki, pyzy, zrazy, makowiec, uszka, karp, krokiety, sernik, śledź): ≥4 Markdown-Inline-Links / Locale.
 
 ### Tech SEO (unchanged)
 - Blog `BlogPosting` + FAQ JSON-LD  
@@ -75,7 +95,7 @@ Placki family (4 variants) + standalones: Gulasz, Kotlet mielony, Kluski śląsk
 - Region hub intros ≥400 before index  
 - Lab product tests  
 - Meal-Prep Arbeitswoche ≠ Freezer-Pierogi  
-- Pączki (only with clear ownership vs Tłusty / optional technik)
+- Flaki, Kaszanka, Piernik, Babka, Rolada śląska (nach Messung)
 
 ## Keyword ownership
 

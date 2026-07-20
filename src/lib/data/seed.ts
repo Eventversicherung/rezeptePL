@@ -14,6 +14,8 @@ import {
 import { seedRecipesWave5 } from "./seed-recipes-wave5";
 import { seedRecipesWave6 } from "./seed-recipes-wave6";
 import { seedRecipesWave7 } from "./seed-recipes-wave7";
+/** Wave 8 — A Beilagen + B Suppen + C Pączki + D Knedle */
+import { seedRecipesWave8 } from "./seed-recipes-wave8";
 
 export const seedClusters = expandedClusters;
 export { seedFamilies, seedBlogPosts };
@@ -781,7 +783,9 @@ Przełącz u góry: [cukinia](/pl/rezepte/placki/cukinia), [ser](/pl/rezepte/pla
           { text: "Schnitzel klopfen, salzen, pfeffern." },
           { text: "Durch Mehl, Ei und Panade ziehen." },
           { text: "In Butterschmalz goldbraun braten.", tip: "Nicht zu heiß. Panade soll nicht verbrennen." },
-          { text: "Mit Zitrone und Beilagen servieren." },
+          {
+            text: "Mit Zitrone und Beilagen servieren — klassisch [Mizeria](/de/rezepte/mizeria) oder warme [Kapusta zasmażana](/de/rezepte/kapusta-zasmażana).",
+          },
         ],
         seoTitle: "Kotlet schabowy Rezept | Alemniam",
         seoDescription: "Polnisches Schnitzel. Rezept und Einkaufsliste.",
@@ -794,7 +798,9 @@ Przełącz u góry: [cukinia](/pl/rezepte/placki/cukinia), [ser](/pl/rezepte/pla
           { text: "Rozbij kotlety, posól, popieprz." },
           { text: "Obtocz w mące, jajku i bułce tartej." },
           { text: "Smaż na złoto na smalcu lub maśle klarowanym.", tip: "Nie za mocno. Panierka nie może się przypalić." },
-          { text: "Podawaj z cytryną i dodatkami." },
+          {
+            text: "Podawaj z cytryną i dodatkami — klasycznie [mizeria](/pl/rezepte/mizeria) albo ciepła [kapusta zasmażana](/pl/rezepte/kapusta-zasmażana).",
+          },
         ],
         seoTitle: "Kotlet schabowy przepis | Alemniam",
         seoDescription: "Kotlet schabowy. Przepis i zakupy.",
@@ -1145,6 +1151,7 @@ Przełącz u góry: [cukinia](/pl/rezepte/placki/cukinia), [ser](/pl/rezepte/pla
           },
           {
             text: "Auf Küchenpapier abtropfen und noch warm großzügig mit Puderzucker bestäuben.",
+            tip: "Weiches, gefülltes Gegenstück am selben Tag: [Pączki](/de/rezepte/paczki) — anderer Teig, andere Technik.",
           },
         ],
         seoTitle: "Faworki Rezept | Polnisches Fasnachtsgebäck | Alemniam",
@@ -1192,6 +1199,7 @@ In einer Dose 2–4 Tage. Gut verpackt einfrieren: ca. 2 Monate.`,
           },
           {
             text: "Odsącz na papierze i jeszcze ciepłe obficie posyp cukrem pudrem.",
+            tip: "Miękki, nadziewany odpowiednik tego samego dnia: [pączki](/pl/rezepte/paczki) — inne ciasto, inna technika.",
           },
         ],
         seoTitle: "Faworki przepis | Chruściki | Alemniam",
@@ -1730,7 +1738,7 @@ Cebula na smalcu, sos grzybowy. [Jak ugotować rosół](/pl/blog/jak-ugotowac-ro
           },
           {
             text: "Teig portionsweise in heißer Pfanne backen, Apfelspalten hineinlegen, wenden.",
-            tip: "Mittlere Hitze — innen durch, außen gold.",
+            tip: "Mittlere Hitze — innen durch, außen gold. Hefe im Fettbad statt Pfanne: [Pączki](/de/rezepte/paczki).",
           },
           { text: "Warm mit Puderzucker servieren." },
         ],
@@ -1770,7 +1778,7 @@ Nahe an [Tłusty Czwartek](/de/blog/tlusty-czwartek)-Tradition, aber ganzjährig
           },
           {
             text: "Smaż porcje ciasta, włóż jabłko, przewróć.",
-            tip: "Średni ogień — środek upieczony, skórka złota.",
+            tip: "Średni ogień — środek upieczony, skórka złota. Drożdże w kąpieli tłuszczowej zamiast patelni: [pączki](/pl/rezepte/paczki).",
           },
           { text: "Podawaj ciepłe z cukrem pudrem." },
         ],
@@ -1999,6 +2007,7 @@ export const seedRecipes: Recipe[] = [
   ...seedRecipesWave5,
   ...seedRecipesWave6,
   ...seedRecipesWave7,
+  ...seedRecipesWave8,
 ].map((recipe) => {
   if (recipe.id === "recipe-nalesniki") {
     return {
@@ -2183,6 +2192,7 @@ export const seedRecipes: Recipe[] = [
       ...recipe,
       relatedPostIds: [
         "post-tlusty-czwartek",
+        "post-paczek-technik",
         "post-twarog",
         "post-ersatzprodukte-de",
       ],
@@ -2221,6 +2231,21 @@ export const seedRecipes: Recipe[] = [
       relatedPostIds: [
         "post-faworki-technik",
         "post-tlusty-czwartek",
+        "post-paczek-technik",
+        "post-ersatzprodukte-de",
+      ],
+      occasionIds: Array.from(
+        new Set([...recipe.occasionIds, "occasion-tlusty-czwartek"]),
+      ),
+    };
+  }
+  if (recipe.id === "recipe-paczki") {
+    return {
+      ...recipe,
+      relatedPostIds: [
+        "post-paczek-technik",
+        "post-tlusty-czwartek",
+        "post-polenladen",
         "post-ersatzprodukte-de",
       ],
       occasionIds: Array.from(
@@ -2363,6 +2388,18 @@ export const seedRecipes: Recipe[] = [
       occasionIds: Array.from(
         new Set([...recipe.occasionIds, "occasion-wigilia"]),
       ),
+    };
+  }
+  /** Wave 8 D — Knedle; Integrator E: keep when merging A/B related maps. */
+  if (recipe.id === "recipe-knedle-sliwki") {
+    return {
+      ...recipe,
+      relatedPostIds: [
+        "post-pierogi-guide",
+        "post-sonntagsessen",
+        "post-polenladen",
+        "post-ersatzprodukte-de",
+      ],
     };
   }
   return recipe;

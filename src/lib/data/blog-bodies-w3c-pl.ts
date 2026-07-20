@@ -107,11 +107,12 @@ Obie dobre. Żeliwo trzyma ciepło między batchami — wygodne przy [niedzielny
 
 ### Czy schabowy pasuje na Wielkanoc?
 
-W wielu domach tak — przed postem albo w drugi dzień świąt. Plan menu: [menu wielkanocne](/pl/blog/menu-wielkanocne); technika panierki zostaje ta sama.
+W wielu domach tak — przed postem albo w drugi dzień świąt. Plan menu: [menu wielkanocne](/pl/blog/menu-wielkanocne); technika panierki zostaje ta sama. Klasyczny chłodny dodatek do panierowanego talerza: [mizeria](/pl/rezepte/mizeria).
 
 ## Czytaj dalej
 
 - [Przepis: kotlet schabowy](/pl/rezepte/kotlet-schabowy) — porcje i krok po kroku
+- [Mizeria — ogórki ze śmietaną](/pl/rezepte/mizeria)
 - [Patelnia żeliwna — zakup i użytkowanie](/pl/blog/patelnia-zelivna)
 - [Obiad niedzielny po polsku](/pl/blog/obiad-niedzielny)
 - [Menu wielkanocne](/pl/blog/menu-wielkanocne)

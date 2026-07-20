@@ -102,8 +102,10 @@ W niemieckich kuchniach bywa brak dużego pieca albo spokoju w chaosie rodzinnym
 ## Czytaj dalej
 
 - [Makowiec przepis](/pl/rezepte/makowiec)
+- [Sernik](/pl/rezepte/sernik) — linia sernika w silosie pieczenia (inny primary)
 - [Menu wigilijne](/pl/blog/menu-wigilijne)
 - [Faworki technika](/pl/blog/faworki-technika)
+- [Technika pączków](/pl/blog/paczki-technika) — drożdże świąteczne, inny projekt tłuszczowy
 - [Sklep polski](/pl/blog/sklep-polski-zakupy)
 - [Zamienniki składników](/pl/blog/zamienniki-skladnikow)
 - [Uszka](/pl/rezepte/uszka)

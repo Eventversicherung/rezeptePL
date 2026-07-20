@@ -3,7 +3,7 @@ Faworki — auch Chrust genannt — sind für viele von uns der knusprige Teil v
 
 ## Was Faworki sind (und was nicht)
 
-Faworki sind Streifen aus Mürbeteig-ähnlichem Eierteig, geschlungen oder eingeschnitten, in Fett ausgebacken bis blassgold und sofort mit Puderzucker bestäubt. Sie sollen leicht und blättrig wirken, nicht wie fette Krapfen. Pączki sind ein anderes Projekt: Hefe, Füllung, mehr Zeit. Wer beides am selben Tag meistern will, plant realistisch — oft reicht eine selbst gemachte Charge Faworki und gekaufte Pączki aus dem Polenladen.
+Faworki sind Streifen aus Mürbeteig-ähnlichem Eierteig, geschlungen oder eingeschnitten, in Fett ausgebacken bis blassgold und sofort mit Puderzucker bestäubt. Sie sollen leicht und blättrig wirken, nicht wie fette Krapfen. Pączki sind ein anderes Projekt: Hefe, Füllung, mehr Zeit — Technik unter [Pączki-Technik](/de/blog/paczek-technik), Mengen im [Pączki-Rezept](/de/rezepte/paczki). Wer beides am selben Tag meistern will, plant realistisch — oft reicht eine selbst gemachte Charge Faworki und gekaufte Pączki aus dem Polenladen.
 
 Der Name Chrust kommt von der knusprigen, fast holzigen Textur. In der Diaspora hören wir beide Namen; wichtig ist das Ergebnis auf dem Teller, nicht die Folklore-Diskussion. Racuchy und andere süße Klassiker können denselben Tag begleiten, ersetzen aber weder Faworki noch Pączki.
 

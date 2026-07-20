@@ -417,11 +417,11 @@ export const bodyWigiliaPl = `Wigilia w Niemczech bywa logistycznie trudniejsza 
 
 Nie musimy udowadniać polskości liczbą misek. Lepiej postawić kilka rzeczy naprawdę dobrych niż dwanaście przeciętnych i jeden kłótliwy wieczór. Rdzeń, który u nas wraca najczęściej:
 
-- [Barszcz czerwony](/pl/rezepte/barszcz-czerwony) — czysty, aromatyczny, z uszkami albo bez
-- Pierogi z kapustą i grzybami — sygnał świąt
+- [Barszcz czerwony](/pl/rezepte/barszcz-czerwony) — czysty, aromatyczny, z [uszkami](/pl/rezepte/uszka) albo bez
+- Pierogi z kapustą i grzybami — sygnał świąt; pokrewne [krokiety](/pl/rezepte/krokiety) gdy wolicie panierowaną rolkę
 - Opcjonalnie [pierogi ruskie](/pl/rezepte/pierogi/ruskie) — most dla dzieci i gości mniej „kapuścianych”
-- Kompot z suszu albo prosty deser
-- Ryba według Waszej tradycji domowej albo jasna alternatywa, jeśli ryba odpada
+- Kompot z suszu albo [makowiec](/pl/rezepte/makowiec) / [sernik](/pl/rezepte/sernik)
+- Ryba: [karp](/pl/rezepte/karp) na ciepło albo [śledź](/pl/rezepte/sledz) na zimno — albo jasna alternatywa, jeśli ryba odpada
 
 > Dwanaście potraw to kompas, nie ustawa. Gościnność smakuje lepiej niż checklista.
 

@@ -3,7 +3,7 @@
 Status: LIVE | W2 | W3 | W4 | HOLD  
 Affiliate auf Rezepten: **guide-only** (Gear-Blog-Cards); Affiliate-Karten in Buying-Guides.
 
-**SEO-Snapshot & erweiterter Plan:** [`topical-authority-status.md`](./topical-authority-status.md) (35 Blog · 35 Rezepte · Score 9/10 · `SEED_VERSION` 21).
+**SEO-Snapshot & erweiterter Plan:** [`topical-authority-status.md`](./topical-authority-status.md) (36 Blog · 41 Rezepte · Score 9/10 · `SEED_VERSION` 22).
 
 ## LIVE
 
@@ -82,7 +82,7 @@ Prozess: 6 Writer + Bilder + Chef → ein Push. Scorecard: `content/batch-w3c/ch
 | `recipe-racuchy` | Yeasted apple pancakes |
 | `recipe-chlodnik` | Cold summer soup |
 
-Wave 4–7 status: `content/recipe-expansion-w4.md`. `SEED_VERSION` 21.
+Wave 4–8 status: `content/recipe-expansion-w4.md`. `SEED_VERSION` 22.
 
 ## LIVE (Wave 5 / Authority Upgrade shipped)
 
@@ -110,8 +110,22 @@ Wave 4–7 status: `content/recipe-expansion-w4.md`. `SEED_VERSION` 21.
 | `recipe-krokiety` | Naleśniki/Barszcz/Kapusta silo |
 | `recipe-sernik` | Baking silo; no Makowiec KW steal |
 | `recipe-sledz` | Cold fish; distinct from Karp |
-| Pączki | Skip — needs technik; Tłusty owns occasion |
+
+## LIVE (Wave 8 shipped — Beilagen, Suppen, Pączki, Knedle)
+
+| What | Notes |
+|------|-------|
+| `recipe-mizeria` | Beilage; Sonntag/Schabowy/Wielkanoc |
+| `recipe-kapusta-zasmażana` | Beilage; Kiszenie-Verwertung |
+| `recipe-ogorkowa` | Kiszone-Gurkensuppe; ≠ Żurek |
+| `recipe-kapusniak` | Sauerkrautsuppe; ≠ Bigos |
+| `post-paczek-technik` | Pillar vor Money Page |
+| `recipe-paczki` | Cook-Owner; Tłusty = Anlass |
+| `recipe-knedle-sliwki` | Intent ≠ Pierogi/Leniwe/Pyzy |
+| FACTS retrofit W5–W7 | ≥4 Inline-Links / Locale |
+
+Plan: `content/wave-8-plan.md` (shipped).
 
 ## HOLD
 
-Region-Blogs, Meal-Prep Woche, Lab-Tests, Region-Hub-Intros ≥400 vor Index, Kotlet family, Pączki (ownership-clean).
+Region-Blogs, Meal-Prep Woche, Lab-Tests, Region-Hub-Intros ≥400 vor Index, Kotlet family, Flaki/Kaszanka/Piernik/Babka (nach Messung).

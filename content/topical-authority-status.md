@@ -1,12 +1,12 @@
 # Topical Authority Status — SEO Snapshot
 
-Stand: 2026-07-20 · `SEED_VERSION` 21 · Quelle: Live-Seed
+Stand: 2026-07-20 · `SEED_VERSION` 22 · Quelle: Live-Seed
 
 ## Urteil (Senior SEO)
 
-**Wave 7 shipped:** Karp, Krokiety, Sernik, Śledź — vier Money Pages ohne Blog-Spray. Wigilia-Speiseplan bleibt Menü-Owner; Makowiec-KW unangetastet; Krokiety sauber an Naleśniki/Barszcz gekoppelt.
+**Wave 8 shipped:** Beilagen (Mizeria, Kapusta zasmażana), Suppen-Depth (Ogórkowa, Kapuśniak), Pączki-Pillar + Money Page, Knedle + FACTS-Link-Retrofit W5–W7. Ownership sauber vs Tłusty/Faworki/Żurek/Barszcz/Pierogi.
 
-**Score gesamt: 9/10 Topical Density** — Kern-Silos inkl. Festtagsfisch geschlossen; Rest-Hebel Region-Hub-Tiefe (HOLD) und echte Lab-Tests (HOLD).
+**Score gesamt: 9/10 Topical Density** — Kern-Silos inkl. Beilagen/Suppen/Festtag-Süß geschlossen; Rest-Hebel Region-Hub-Tiefe (HOLD) und echte Lab-Tests (HOLD).
 
 ---
 
@@ -14,13 +14,13 @@ Stand: 2026-07-20 · `SEED_VERSION` 21 · Quelle: Live-Seed
 
 | Layer | LIVE | Indexierbare URLs (DE+PL) | Notiz |
 |-------|------|---------------------------|--------|
-| **Blog** | **35** Posts | **70** | unverändert (kein Spray) |
-| **Rezepte** | **35** | **70** (+ Family-Hubs) | + Karp, Krokiety, Sernik, Śledź |
+| **Blog** | **36** Posts | **72** | + Pączki-Technik |
+| **Rezepte** | **41** | **82** (+ Family-Hubs) | +6 Wave-8 Money Pages |
 | **RecipeFamilies** | **3** | Pierogi, Placki, Naleśniki | |
 | **Cluster-Hubs** | **31** | ~62 | Region-Hubs thin → `noindex,follow` |
-| **Catalog-Karten** | ~28 | Families einmal + Standalone | |
+| **Catalog-Karten** | ~34 | Families einmal + Standalone | |
 
-**Blog:Rezept ≈ 1 : 1** — gesund.
+**Blog:Rezept ≈ 1 : 1.1** — gesund.
 
 ---
 
@@ -28,8 +28,8 @@ Stand: 2026-07-20 · `SEED_VERSION` 21 · Quelle: Live-Seed
 
 | Metrik | Wert |
 |--------|------|
-| Wortzahl-Gate (≥1100 Guides) | bestehende Pillars unverändert |
-| Related Recipes / Posts | Wigilia / Naleśniki / Barszcz-Technik / Makowiec-Technik updated |
+| Wortzahl-Gate (≥1100 Guides) | inkl. `post-paczek-technik` ≥1100 DE+PL |
+| Related Recipes / Posts | Sonntag/Suppen/Kiszenie/Tłusty/Faworki/Wigilia updated |
 | Affiliate | guide-only auf Rezepten |
 | Blog JSON-LD | `BlogPosting` + `FAQPage` (parsed) |
 | Recipe JSON-LD | Author Org + dates + absolute image |
@@ -40,11 +40,11 @@ Stand: 2026-07-20 · `SEED_VERSION` 21 · Quelle: Live-Seed
 
 | Silo | Status | Stärke |
 |------|--------|--------|
-| **A Gerichtsfamilien** | + Krokiety an Naleśniki; Klassiker | Stark |
+| **A Gerichtsfamilien** | + Beilagen; Knedle getrennt von Pierogi | Stark |
 | **B Regionen** | Hubs thin → noindex bis Intro ≥400 | HOLD |
-| **C Anlässe** | Wigilia (+ Karp/Śledź/Makowiec/Uszka), Wielkanoc, Tłusty, Sonntag | Stark |
-| **D Techniken** | Backen (Makowiec-Technik) hilft Sernik ohne KW-Steal | Stark |
-| **E Zutaten** | Majeranek; Twaróg, Śmietana, Kiełbasa… | Stark |
+| **C Anlässe** | Wigilia, Wielkanoc, Tłusty (+ Technik/Pączki), Sonntag (+ Beilagen) | Stark |
+| **D Techniken** | + Pączki-Technik; Faworki/Makowiec unangetastet | Stark |
+| **E Zutaten** | Kiszenie → Ogórkowa/Kapuśniak/Kapusta | Stark |
 | **F Diaspora** | Polenladen, Ersatz | OK |
 | **H Gear** | Buying-Guides | Stark — Lab-Tests HOLD |
 
@@ -54,11 +54,12 @@ Stand: 2026-07-20 · `SEED_VERSION` 21 · Quelle: Live-Seed
 
 | Metrik | Wert |
 |--------|------|
-| Mit Longform (≥400 via seed oder FACTS) | **35 / 35** |
-| Mit `relatedPostIds` | **35 / 35** |
-| Wave-7 neu | Karp, Krokiety, Sernik, Śledź |
-| Ownership Karp/Śledź vs Wigilia | Getrennt; Speiseplan = Menü |
-| Ownership Sernik vs Makowiec | Getrennt; Pillar nur descriptive |
+| Mit Longform (≥400 via seed oder FACTS) | **41 / 41** |
+| Mit `relatedPostIds` | **41 / 41** |
+| Wave-8 neu | Mizeria, Kapusta, Ogórkowa, Kapuśniak, Pączki, Knedle |
+| Ownership Pączki vs Tłusty vs Faworki | Getrennt (Cook / Anlass / Fatgebäck) |
+| Ownership Suppen vs Żurek/Barszcz/Chłodnik | Getrennt |
+| Ownership Knedle vs Pierogi/Leniwe/Pyzy | Getrennt |
 
 ---
 
@@ -67,9 +68,9 @@ Stand: 2026-07-20 · `SEED_VERSION` 21 · Quelle: Live-Seed
 Nach Indexierung (GSC, 4–8 Wochen):
 
 - [ ] Pierogi / Placki / Naleśniki Owner-URLs: Impressionen ↑, **kein** CTR-Clash  
-- [ ] Makowiec Technik vs Makowiec Rezept vs Sernik: getrennte Intents  
-- [ ] Uszka vs Barszcz vs Krokiety: kein Query-Clash  
-- [ ] Karp vs Śledź vs Wigilia-Speiseplan: cook vs cold vs menu  
+- [ ] Pączki Technik vs Pączki Rezept vs Tłusty vs Faworki: getrennte Intents  
+- [ ] Ogórkowa / Kapuśniak vs Żurek / Barszcz / Chłodnik: kein Query-Clash  
+- [ ] Knedle vs Pierogi/Leniwe/Pyzy: cook-intent getrennt  
 - [ ] Thin Region-Hubs bleiben `noindex,follow` bis Intro ≥400  
 - [ ] Keine Fake-Lab-Claims in Snippets  
 
@@ -81,7 +82,7 @@ Nach Indexierung (GSC, 4–8 Wochen):
 - Meal-Prep Arbeitswoche (≠ Freezer-Pierogi)  
 - Echte Lab-Produkt-Tests  
 - Kotlet family (SEO-safe split)  
-- Pączki (nur mit klarer Ownership vs Tłusty / optional Technik)
+- Flaki, Kaszanka, Piernik, Babka, Rolada śląska (nach Messung)
 
 ---
 
@@ -89,6 +90,6 @@ Nach Indexierung (GSC, 4–8 Wochen):
 
 | Frage | Antwort |
 |-------|---------|
-| Wie viele Beiträge? | **35 Blog** + **35 Rezepte** (+ 3 Families, 31 Hubs) |
-| Wie gut? | Blog + Rezept-Longform **grün**; Wigilia-Fisch + Backen-Silo vertieft |
-| Was als Nächstes? | **Messen** (GSC) · Region-Hubs nur mit Tiefe · Pączki nur ownership-clean |
+| Wie viele Beiträge? | **36 Blog** + **41 Rezepte** (+ 3 Families, 31 Hubs) |
+| Wie gut? | Blog + Rezept-Longform **grün**; Beilagen/Suppen/Pączki/Knedle + Link-Retrofit |
+| Was als Nächstes? | **Messen** (GSC) · Region-Hubs nur mit Tiefe · nächste Classics nach Daten |

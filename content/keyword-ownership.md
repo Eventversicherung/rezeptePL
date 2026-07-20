@@ -26,8 +26,12 @@ Eine Primary KW = eine Owner-URL. Andere Seiten nur mit descriptive Anchors verl
 | Zakwas Żurek | `/blog/zakwas-zurek` |
 | Barszcz Rezept | `/rezepte/barszcz-czerwony` |
 | Barszcz klar kochen | `/blog/barszcz-technik` · `/blog/jak-ugotowac-barszcz` |
+| Zupa ogórkowa | `/rezepte/ogorkowa` |
+| Kapuśniak Rezept | `/rezepte/kapusniak` |
 | Bigos Guide | `/blog/bigos-guide` |
 | Bigos Rezept | `/rezepte/bigos` |
+
+**Intent-Trennung (Wave 8):** Ogórkowa = warme Kiszone-Gurkensuppe; Kapuśniak = Sauerkraut**suppe** (≠ Bigos-Schmorgericht); Żurek = Zakwas; Barszcz = Rote Bete; Chłodnik = kalt/Sommer. Pączki Technik = Pillar; Pączki Rezept = Cook; Tłusty = Anlass; Faworki = Fatgebäck-Owner. Knedle ≠ Pierogi/Leniwe/Pyzy. Mizeria ≠ Chłodnik-Salat-KW.
 
 ## Zutaten / Diaspora / Anlässe
 
@@ -66,6 +70,8 @@ Eine Primary KW = eine Owner-URL. Andere Seiten nur mit descriptive Anchors verl
 | Zrazy zawijane | `/rezepte/zrazy` |
 | Faworki Technik | `/blog/faworki-technik` · `/blog/faworki-technika` |
 | Faworki Rezept | `/rezepte/faworki` |
+| Pączki Technik / Hefe frittieren | `/blog/paczek-technik` · `/blog/paczki-technika` |
+| Pączki Rezept | `/rezepte/paczki` |
 | Fasolka Guide (broad) | `/blog/fasolka-po-bretonsku` |
 | Fasolka Rezept (cook) | `/rezepte/fasolka-po-bretonsku` |
 | Majeranek / Majoran | `/blog/majeranek` · `/blog/majeranek-leksykon` |
@@ -78,6 +84,9 @@ Eine Primary KW = eine Owner-URL. Andere Seiten nur mit descriptive Anchors verl
 | Krokiety Rezept | `/rezepte/krokiety` |
 | Sernik Rezept | `/rezepte/sernik` |
 | Śledź Rezept | `/rezepte/sledz` |
+| Mizeria Rezept | `/rezepte/mizeria` |
+| Kapusta zasmażana | `/rezepte/kapusta-zasmażana` |
+| Knedle mit Pflaumen / Knedle ze śliwkami | `/rezepte/knedle-sliwki` |
 
 ## Gear (Silo H)
 

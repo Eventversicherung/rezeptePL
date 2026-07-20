@@ -42,6 +42,8 @@ Nasse Füllung, zu wenig Ruhe, wilde Hitze, Überfüllung, alles an einem Tag er
 
 Ruskie (Alltag), Kraut-Pilz (Festtag), Fleisch (sättigend), Uszka (Brühe), süß (Dessertlinie).
 
+**Nicht Pierogi:** [Knedle ze śliwkami](/de/rezepte/knedle-sliwki) sind runde Obst-Knödel mit Kartoffelteig — eigene Form, eigener Intent. [Pierogi leniwe](/de/rezepte/pierogi-leniwe) sind Quark-Klößchen ohne Falten; beide gehören nicht zur gefalteten Pierogi-Charge dieses Guides.
+
 ## Station und Tempo
 
 Vier Zonen: Teig, Füllung, Brett, Freezer/Kochblech. Serien von 10–15 Stück. Pausen vor Ungenauigkeit.
@@ -382,11 +384,11 @@ Zwei Größen brauchen zwei Werkzeuge oder bewusste Kompromisse. Für Festtags-U
 `;
 
 export const bodyPolnischeSuppenDe = `
-Polnische Suppen leben von Brühe, Säure, Gemüse und Geduld – nicht von Schwere. In Deutschland kaufen wir Basics im Supermarkt und ergänzen Zakwas, Pilze oder Wurst gezielt im Polenladen. Dieser Überblick ordnet [Rosół](/de/blog/rosol-richtig-kochen), [Żurek](/de/rezepte/zurek), [Barszcz](/de/rezepte/barszcz-czerwony) und sättigende Linien ohne regionale Hierarchie. Praktische Orientierung: [bzfe.de](https://www.bzfe.de), [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl), [agriculture.ec.europa.eu](https://agriculture.ec.europa.eu), [was-wir-essen.de](https://www.was-wir-essen.de).
+Polnische Suppen leben von Brühe, Säure, Gemüse und Geduld – nicht von Schwere. In Deutschland kaufen wir Basics im Supermarkt und ergänzen Zakwas, Pilze oder Wurst gezielt im Polenladen. Dieser Überblick ordnet [Rosół](/de/blog/rosol-technik), [Żurek](/de/rezepte/zurek), [Barszcz](/de/rezepte/barszcz-czerwony) sowie die Kiszone-Linien [Ogórkowa](/de/rezepte/ogorkowa) und [Kapuśniak](/de/rezepte/kapusniak) ohne regionale Hierarchie. Praktische Orientierung: [bzfe.de](https://www.bzfe.de), [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl), [agriculture.ec.europa.eu](https://agriculture.ec.europa.eu), [was-wir-essen.de](https://www.was-wir-essen.de).
 
 ## Vier Säulen
 
-**Rosół:** klare Brühe, niedrige Hitze – [Rosół-Technik](/de/blog/rosol-richtig-kochen). **Żurek:** Zakwas, Majoran, Einlagen – [Zakwas](/de/blog/zakwas-zurek). **Barszcz:** Rote Bete, Balance statt Zucker. **Krupnik/Kapuśniak:** Einlagen nach Basis. Immer: Basis zuerst, Säure und Salz steuern.
+**Rosół:** klare Brühe, niedrige Hitze – [Rosół-Technik](/de/blog/rosol-technik). **Żurek:** Zakwas, Majoran, Einlagen – [Zakwas](/de/blog/zakwas-zurek). **Barszcz:** Rote Bete, Balance statt Zucker. **Krupnik** und die Kiszone-Suppen [Kapuśniak](/de/rezepte/kapusniak) sowie [Ogórkowa](/de/rezepte/ogorkowa): Einlagen nach Basis. Immer: Basis zuerst, Säure und Salz steuern.
 
 ## Einkauf DE
 
@@ -524,7 +526,7 @@ Rosół gelingt mit niedriger Hitze und gutem Material – nicht mit maximaler D
 
 ## Zielprofil
 
-Aromatisch ohne zu schreien. Fett als Körper, nicht als Film. Salz gestaffelt. Klar genug für sichtbare Einlagen. Als Fond Gewürze zurückhalten.
+Aromatisch ohne zu schreien. Fett als Körper, nicht als Film. Salz gestaffelt. Klar genug für sichtbare Einlagen. Als Fond Gewürze zurückhalten. Denselben ruhigen Ansatz nutzen Einlagen-Suppen wie [Ogórkowa](/de/rezepte/ogorkowa) und [Kapuśniak](/de/rezepte/kapusniak) — andere Säure, gleiche Geduld mit dem Topf.
 
 ## Material
 
@@ -990,7 +992,7 @@ Nie kalt in tobende Flüssigkeit. Löffel heiße Suppe einrühren, zurück, nich
 
 ## Teller-Nutzung
 
-Zu [Pierogi Ruskie](/de/rezepte/pierogi/ruskie) und Placki oft kalt. Fett = Länge, Säure = Frische. Weniger oft besser.
+Zu [Pierogi Ruskie](/de/rezepte/pierogi/ruskie) und Placki oft kalt. Klassischer Anwendungsfall: [Mizeria](/de/rezepte/mizeria) — Gurke, Dill, Śmietana. Fett = Länge, Säure = Frische. Weniger oft besser.
 
 ## Einkauf/Lager
 
@@ -1432,7 +1434,7 @@ Wielkanoc soll Menschen zusammenbringen, nicht den Kühlschrank überfordern. Wi
 
 ## Menüprinzip
 
-Weniger Gerichte, bessere Ausführung. Żurek oft Zentrum; dazu Eier, [Kiełbasa](/de/blog/kielbasa-arten), Brot, Rettich/Kräuter, Kuchen nach Brauch. Nicht alles gleichzeitig warm halten.
+Weniger Gerichte, bessere Ausführung. Żurek oft Zentrum; dazu Eier, [Kiełbasa](/de/blog/kielbasa-arten), Brot, Rettich/Kräuter, kühle [Mizeria](/de/rezepte/mizeria) als Beilage, Kuchen nach Brauch. Nicht alles gleichzeitig warm halten.
 
 ## Zeitplan
 
@@ -1610,11 +1612,11 @@ Nicht nur Glasur. Füllung echt (Rose, Marmelade), Fett nicht ranzig, Größe al
 
 ## Zu Hause backen
 
-Hefeteig braucht Zeit und Wärme. Öltemperatur stabil halten. Erste Stücke testen. Rezept notieren. Nicht parallel drei Desserts.
+Hefeteig braucht Zeit und Wärme. Öltemperatur stabil halten. Erste Stücke testen. Rezept notieren. Nicht parallel drei Desserts. Mengen und Schritte für weiche, gefüllte Pączki: [Pączki-Rezept](/de/rezepte/paczki). Handgriffe zu Hefe, Füllung und Fett: [Pączki-Technik](/de/blog/paczek-technik) — dieser Artikel bleibt Anlass und Kultur, nicht Cook-Owner.
 
 ## Faworki
 
-Dünn, knusprig, Puderzucker. Feuchtigkeit = Feind. Kühl trocken lagern kurzfristig.
+Dünn, knusprig, Puderzucker. Feuchtigkeit = Feind. Kühl trocken lagern kurzfristig. Technik und Rezept bleiben bei Faworki-Ownern; Pączki sind das weiche Gegenstück — siehe [Pączki-Technik](/de/blog/paczek-technik).
 
 ## Teilen
 
@@ -1768,7 +1770,7 @@ Samstag Spezialitäten, Sonntag Frisches minimal. [Polenladen](/de/blog/polenlad
 
 ## Beilagen
 
-Kartoffeln/Kasza/Brot + Gurke/Salat. Nicht sechs Salate.
+Kartoffeln/Kasza/Brot + Gurke/Salat. Klassisch kalt: [Mizeria](/de/rezepte/mizeria); warm und säuerlich: [Kapusta zasmażana](/de/rezepte/kapusta-zasmażana). Nicht sechs Salate.
 
 ## Gäste
 
@@ -1958,7 +1960,7 @@ Zu wenig Salz; Gemüse schaut raus; schmutziges Glas; Zuwachs mit Essig verwechs
 
 ## Nutzung
 
-Zu [Sonntagsessen](/de/blog/polnisches-sonntagsessen), zu Pierogi-Tellern, in Salaten. Säure dosieren.
+Zu [Sonntagsessen](/de/blog/sonntagsessen-polnisch), zu Pierogi-Tellern, in Salaten. Kiszone Gurken wandern in [Ogórkowa](/de/rezepte/ogorkowa); Kapusta kiszona in [Kapuśniak](/de/rezepte/kapusniak), warme Beilage [Kapusta zasmażana](/de/rezepte/kapusta-zasmażana) oder Bigos — Säure dosieren.
 
 ## Verwandt Zakwas
 

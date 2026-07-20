@@ -3,7 +3,7 @@ Faworki — też chrust — to dla wielu z nas chrupiąca część Tłustego Czw
 
 ## Czym są faworki (a czym nie)
 
-Faworki to paski ciasta jajecznego, przeplecione albo nacięte, smażone w tłuszczu do bladozłotego i od razu oprószone cukrem pudrem. Mają być lekkie i listkowate, nie jak tłuste pączki. Pączki to inny projekt: drożdże, farsz, więcej czasu. Kto chce ogarnąć oba tego dnia, planuje realistycznie — często wystarczy domowa partia faworków i kupione pączki ze sklepu polskiego.
+Faworki to paski ciasta jajecznego, przeplecione albo nacięte, smażone w tłuszczu do bladozłotego i od razu oprószone cukrem pudrem. Mają być lekkie i listkowate, nie jak tłuste pączki. Pączki to inny projekt: drożdże, farsz, więcej czasu — technika w [technice pączków](/pl/blog/paczki-technika), ilości w [przepisie na pączki](/pl/rezepte/paczki). Kto chce ogarnąć oba tego dnia, planuje realistycznie — często wystarczy domowa partia faworków i kupione pączki ze sklepu polskiego.
 
 Nazwa chrust bierze się z chrupiącej tekstury. W diasporze słyszymy obie nazwy; ważny jest talerz, nie dyskusja folklorystyczna. Racuchy i inne słodkości mogą towarzyszyć dniowi, ale nie zastępują ani faworków, ani pączków.
 

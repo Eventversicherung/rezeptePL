@@ -19,6 +19,8 @@ import { seedBlogPostsW3b } from "./seed-blog-w3b";
 import { seedBlogPostsW3c } from "./seed-blog-w3c";
 import { seedBlogPostsW5 } from "./seed-blog-w5";
 import { seedBlogPostsW6 } from "./seed-blog-w6";
+/** Wave 8 C — Pączki Technik; Integrator E confirms merge with A–D. */
+import { seedBlogPostsW8 } from "./seed-blog-w8";
 
 const seedBlogPostsLive: BlogPost[] = [
   {
@@ -264,4 +266,5 @@ export const seedBlogPosts: BlogPost[] = [
   ...seedBlogPostsW3c,
   ...seedBlogPostsW5,
   ...seedBlogPostsW6,
+  ...seedBlogPostsW8,
 ];

@@ -262,6 +262,7 @@ Z doświadczenia: słodka z twarogiem wygrywa u młodszych; starsi często prób
 ## Co dalej czytać
 
 - [Naleśniki z twarogiem — przepis](/pl/rezepte/nalesniki/twarog) — konkretne proporcje i kolejność kroków
+- [Krokiety](/pl/rezepte/krokiety) — zwinięte, panierowane naleśniki (osobna money page)
 - [Twaróg w Niemczech](/pl/blog/twarog-w-niemczech) — Quark, odsączanie, wilgotność farszu
 - [Pierogi ruskie](/pl/rezepte/pierogi/ruskie) — ten sam twaróg, inna technika
 - [Śmietana czy Schmand](/pl/blog/smietana-czy-schmand) — kiedy który nabiał do farszu i podania

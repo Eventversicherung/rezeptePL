@@ -102,8 +102,10 @@ In deutschen Küchen fehlen manchmal der große Backofen-Einschub oder die Ruhe 
 ## Weiterlesen
 
 - [Makowiec Rezept](/de/rezepte/makowiec)
+- [Sernik](/de/rezepte/sernik) — Käsekuchen-Linie im Back-Silo (anderer Primary)
 - [Wigilia Speiseplan](/de/blog/wigilia-speiseplan)
 - [Faworki Technik](/de/blog/faworki-technik)
+- [Pączki Technik](/de/blog/paczek-technik) — Hefe-Festtagsbacken, anderes Fettprojekt
 - [Polenladen einkaufen](/de/blog/polenladen-einkaufen)
 - [Ersatzprodukte DE](/de/blog/ersatzprodukte-de)
 - [Uszka](/de/rezepte/uszka)

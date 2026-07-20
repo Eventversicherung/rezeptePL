@@ -18,7 +18,11 @@ export const seedBlogPostsW3c: BlogPost[] = [
     coverImage:
       "https://images.unsplash.com/photo-1604908177528-946fc9d68799?w=1600&q=80",
     siloIds: ["technique"],
-    relatedRecipeIds: ["recipe-schabowy", "recipe-kotlet-mielony"],
+    relatedRecipeIds: [
+      "recipe-schabowy",
+      "recipe-kotlet-mielony",
+      "recipe-mizeria",
+    ],
     relatedPostIds: [
       "post-gusseisen",
       "post-sonntagsessen",

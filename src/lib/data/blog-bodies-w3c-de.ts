@@ -87,7 +87,7 @@ Wir haben alle diese Fehler mindestens einmal in einer deutschen Mietküche prod
 
 **Backofen statt Pfanne:** Weniger Fett, weniger knusprig — Kompromiss für manche Haushalte; Pfanne bleibt Referenz für Schabowy-Textur.
 
-Mengen, Marinaden und konkrete Zutatenlisten: [Kotlet schabowy Rezept](/de/rezepte/kotlet-schabowy). Varianten dort ergänzen, nicht hier kopieren.
+Mengen, Marinaden und konkrete Zutatenlisten: [Kotlet schabowy Rezept](/de/rezepte/kotlet-schabowy). Varianten dort ergänzen, nicht hier kopieren. Klassische kühle Beilage zum panierten Teller: [Mizeria](/de/rezepte/mizeria).
 
 ## FAQ
 
@@ -118,6 +118,7 @@ Ja — im Kühlschrank, dann im Ofen oder in der Pfanne ohne Mikrowelle aufwärm
 ## Weiterlesen
 
 - [Kotlet schabowy — Rezept](/de/rezepte/kotlet-schabowy)
+- [Mizeria — Gurkensalat mit Śmietana](/de/rezepte/mizeria)
 - [Gusseisenpfanne — Kauf und Nutzung](/de/blog/gusseisenpfanne)
 - [Polnisches Sonntagsessen](/de/blog/sonntagsessen-polnisch)
 - [Wielkanoc-Speiseplan](/de/blog/wielkanoc-speiseplan)

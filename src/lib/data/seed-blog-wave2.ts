@@ -175,7 +175,13 @@ export const seedBlogPostsWave2: BlogPost[] = [
     coverImage:
       "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=1600&q=80",
     siloIds: ["dishFamily"],
-    relatedRecipeIds: ["recipe-zurek", "recipe-barszcz", "recipe-rosol"],
+    relatedRecipeIds: [
+      "recipe-zurek",
+      "recipe-barszcz",
+      "recipe-rosol",
+      "recipe-ogorkowa",
+      "recipe-kapusniak",
+    ],
     relatedPostIds: [
       "post-rosol-technik",
       "post-barszcz-technik",
@@ -343,6 +349,7 @@ export const seedBlogPostsWave2: BlogPost[] = [
       "recipe-golabki",
       "recipe-nalesniki",
       "recipe-pierogi",
+      "recipe-mizeria",
     ],
     relatedPostIds: [
       "post-ersatzprodukte-de",
@@ -469,7 +476,12 @@ export const seedBlogPostsWave2: BlogPost[] = [
     coverImage:
       "https://images.unsplash.com/photo-1525310072745-f49212b5ac6d?w=1600&q=80",
     siloIds: ["culture", "occasion"],
-    relatedRecipeIds: ["recipe-zurek", "recipe-schabowy", "recipe-barszcz"],
+    relatedRecipeIds: [
+      "recipe-zurek",
+      "recipe-schabowy",
+      "recipe-barszcz",
+      "recipe-mizeria",
+    ],
     relatedPostIds: [
       "post-zakwas-zurek",
       "post-sonntagsessen",
@@ -510,8 +522,17 @@ export const seedBlogPostsWave2: BlogPost[] = [
     coverImage:
       "https://images.unsplash.com/photo-1551024601-bec78aea704b?w=1600&q=80",
     siloIds: ["culture", "occasion"],
-    relatedRecipeIds: ["recipe-faworki", "recipe-nalesniki"],
-    relatedPostIds: ["post-sonntagsessen", "post-polenladen"],
+    relatedRecipeIds: [
+      "recipe-faworki",
+      "recipe-paczki",
+      "recipe-nalesniki",
+    ],
+    relatedPostIds: [
+      "post-paczek-technik",
+      "post-faworki-technik",
+      "post-sonntagsessen",
+      "post-polenladen",
+    ],
     relatedProductIds: [],
     clusterIds: ["occasion-tlusty-czwartek"],
     translations: {
@@ -551,6 +572,8 @@ export const seedBlogPostsWave2: BlogPost[] = [
       "recipe-schabowy",
       "recipe-golabki",
       "recipe-pierogi",
+      "recipe-mizeria",
+      "recipe-kapusta-zasmażana",
     ],
     relatedPostIds: [
       "post-rosol-technik",
@@ -596,6 +619,9 @@ export const seedBlogPostsWave2: BlogPost[] = [
       "recipe-bigos",
       "recipe-pierogi-cabbage",
       "recipe-barszcz",
+      "recipe-ogorkowa",
+      "recipe-kapusniak",
+      "recipe-kapusta-zasmażana",
     ],
     relatedPostIds: [
       "post-bigos-guide",
