@@ -86,4 +86,4 @@ Runtime (trimmed TS body exports): identical counts — no integration drift.
 
 Batch average **9.6 / 10**. SEED_VERSION → 14.
 
-**Open risks:** (1) Kasza.pl still links `/pl/rezepte/schabowy` (legacy) — W3c bodies use correct `kotlet-schabowy`. (2) Faworki/Fasolka/Majeranek remain HOLD for W4.
+**Open risks:** (1) Faworki/Fasolka/Majeranek remain HOLD for W4.

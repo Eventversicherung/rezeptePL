@@ -388,7 +388,7 @@ Lepiej **500 g–1 kg sprawdzonej marki** niż wielki worek na trzy lata w piwni
 
 **Kasza z grochem:** Dodatek lub lekkie danie — boczek, cebula, jajko. Pasuje do resztek [rosół](/pl/rezepte/rosol) albo niedzieli — [obiad niedzielny](/pl/blog/obiad-niedzielny).
 
-**Do mięsa:** Zamiast kartofli — szybciej, gdy kasza już leży w szafce. Obok [schabowego](/pl/rezepte/schabowy) czy panierki — bez przejmowania techniki panierki.
+**Do mięsa:** Zamiast kartofli — szybciej, gdy kasza już leży w szafce. Obok [schabowego](/pl/rezepte/kotlet-schabowy) czy panierki — bez przejmowania techniki panierki.
 
 **Kontekst bigosu:** Kasza na talerzu obok [bigosu](/pl/rezepte/bigos), nie w środku — [bigos przewodnik](/pl/blog/bigos-przewodnik) zostaje ownerem gulaszu.
 

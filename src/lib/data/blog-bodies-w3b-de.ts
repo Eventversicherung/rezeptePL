@@ -356,7 +356,7 @@ Wir kaufen lieber **eine bewährte Marke in 500 g–1 kg** nach, als Riesensack,
 
 **Kasza z grochem (mit Speck):** Deftige Beilage oder leichtes Hauptgericht — Speck, Zwiebel, oft hart gekochtes Ei. Passt zu [Rosół](/de/rezepte/rosol)-Resten oder einfachem Sonntag — siehe [Sonntagsessen](/de/blog/sonntagsessen-polnisch).
 
-**Beilage zu mięsem:** Statt Kartoffeln — schneller, wenn Kasza schon im Schrank. Gut zu [Schabowy](/de/rezepte/schabowy) oder einfachen Panierten — nicht Owner von Panade-Themen, nur Pairing.
+**Beilage zu mięsem:** Statt Kartoffeln — schneller, wenn Kasza schon im Schrank. Gut zu [Schabowy](/de/rezepte/kotlet-schabowy) oder einfachen Panierten — nicht Owner von Panade-Themen, nur Pairing.
 
 **Bigos-Kontext:** Kasza als Beilage zu [Bigos](/de/rezepte/bigos), nicht im Bigos selbst — der Guide [Bigos](/de/blog/bigos-guide) bleibt Owner für Eintopf-Logik; Kasza ergänzt den Teller.
 
