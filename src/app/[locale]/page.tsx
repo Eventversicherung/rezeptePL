@@ -2,6 +2,8 @@ import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { RecipeCatalogCard } from "@/components/recipe/RecipeCatalogCard";
+import { RecipeCategoryTiles } from "@/components/recipe/RecipeCategoryTiles";
+import { RecipeGridControls } from "@/components/recipe/RecipeGridControls";
 import { listClusters, listRecipeCatalog } from "@/lib/data/repository";
 import type { Locale } from "@/types/content";
 
@@ -16,23 +18,36 @@ export default async function HomePage({
   const t = await getTranslations("home");
   const tc = await getTranslations("clusters");
   const brand = await getTranslations("brand");
-  const catalog = (await listRecipeCatalog(locale)).slice(0, 4);
-  const clusters = (await listClusters()).filter((c) => c.kind !== "category");
   const tRecipes = await getTranslations("recipes");
 
+  const catalog = (await listRecipeCatalog(locale)).slice(0, 12);
+  const categories = await listClusters("category");
+  const allClusters = await listClusters();
+  const clusters = (
+    ["region", "occasion", "technique"] as const
+  ).flatMap((kind) =>
+    allClusters.filter((c) => c.kind === kind).slice(0, 3),
+  );
+
   return (
-    <div className="space-y-20 sm:space-y-28">
-      <section className="hero-full relative min-h-[88dvh]">
-        <div
-          className="absolute inset-0 scale-[1.02] bg-cover bg-center"
-          style={{
-            backgroundImage: "url(/recipes/pierogi-ruskie.jpg)",
-          }}
-        />
+    <div className="space-y-12 sm:space-y-16">
+      {/* 1 — Cookbook hero (landing) */}
+      <section className="hero-full relative -mt-6 md:-mt-8">
+        <div className="hero-full__media" aria-hidden>
+          <Image
+            src="/recipes/pierogi-ruskie.jpg"
+            alt=""
+            fill
+            priority
+            sizes="100vw"
+            className="object-cover"
+          />
+        </div>
         <div className="hero-full__wash" aria-hidden />
+        <div className="hero-full__grain" aria-hidden />
         <div className="hero-full__fade" aria-hidden />
 
-        <div className="relative mx-auto flex min-h-[88dvh] w-full max-w-7xl flex-col justify-end px-4 pb-16 pt-28 sm:px-8 sm:pb-24">
+        <div className="relative mx-auto flex min-h-[min(72dvh,40rem)] w-full max-w-7xl flex-col justify-end px-4 pb-14 pt-28 sm:px-8 sm:pb-20 sm:pt-32">
           <div className="reveal max-w-3xl">
             <div className="mb-5 flex items-center gap-3">
               <Image
@@ -47,13 +62,13 @@ export default async function HomePage({
                 {brand("name")}
               </p>
             </div>
-            <h1 className="mt-2 max-w-[12ch] font-display text-[clamp(3.2rem,12vw,6.5rem)] font-semibold text-white drop-shadow-[0_2px_24px_rgba(18,27,48,0.35)]">
+            <h1 className="mt-2 max-w-[12ch] font-display text-[clamp(3rem,11vw,5.75rem)] font-semibold leading-[0.95] text-white drop-shadow-[0_2px_24px_rgba(18,27,48,0.35)]">
               {t("headline")}
             </h1>
-            <p className="mt-5 max-w-[36ch] text-lg text-white/90 sm:text-xl">
+            <p className="mt-5 max-w-[36ch] text-lg text-white/92 sm:text-xl">
               {t("sub")}
             </p>
-            <div className="mt-9 flex flex-wrap items-center gap-3">
+            <div className="mt-8 flex flex-wrap items-center gap-3">
               <Link
                 href="/rezepte"
                 className="btn-primary min-h-13 px-7 text-base"
@@ -71,22 +86,82 @@ export default async function HomePage({
         </div>
       </section>
 
-      <section className="reveal -mt-4 sm:-mt-8">
-        <div className="mb-8 flex items-end justify-between gap-4">
+      {/* 2 — Hub search → recipes index */}
+      <section
+        className="hub-search reveal"
+        aria-labelledby="home-search-heading"
+      >
+        <div className="hub-search__inner">
+          <p className="hub-search__label" id="home-search-heading">
+            {t("searchKicker")}
+          </p>
+          <form
+            className="hub-search__form"
+            action={`/${locale}/rezepte`}
+            method="get"
+          >
+            <label className="sr-only" htmlFor="home-q">
+              {t("search")}
+            </label>
+            <input
+              id="home-q"
+              name="q"
+              placeholder={t("search")}
+              className="hub-search__input"
+            />
+            <button type="submit" className="hub-search__submit">
+              {t("searchSubmit")}
+            </button>
+          </form>
+        </div>
+      </section>
+
+      {/* 3 — Categories (hub language) */}
+      <section className="reveal space-y-4">
+        <div className="flex flex-wrap items-baseline justify-between gap-3">
+          <h2 className="font-display text-[clamp(1.55rem,3.5vw,2.15rem)] font-semibold">
+            {t("browseByCategory")}
+          </h2>
+          <Link
+            href="/rezepte"
+            className="text-sm font-semibold text-accent"
+          >
+            {t("allRecipes")} →
+          </Link>
+        </div>
+        <RecipeCategoryTiles
+          categories={categories}
+          locale={locale}
+          recipesLabel={tRecipes("browseCategory")}
+        />
+      </section>
+
+      {/* 4 — Recipe grid (more dishes, hub density controls) */}
+      <section className="reveal space-y-5">
+        <div className="flex flex-wrap items-end justify-between gap-3">
           <div>
             <p className="section-kicker">{t("featured")}</p>
-            <h2 className="mt-3 font-display text-[clamp(2rem,5vw,3.4rem)] font-semibold">
-              {t("cta")}
+            <h2 className="mt-2 font-display text-[clamp(1.55rem,3.5vw,2.15rem)] font-semibold">
+              {t("featuredHeading")}
             </h2>
           </div>
           <Link
             href="/rezepte"
             className="shrink-0 text-sm font-semibold text-accent"
           >
-            {t("allRecipes")} →
+            {tRecipes("allRecipes")} →
           </Link>
         </div>
-        <div className="stagger grid gap-10 sm:grid-cols-2">
+
+        <RecipeGridControls
+          label={tRecipes("gridDensity")}
+          optionLabels={{
+            3: tRecipes("gridCols3"),
+            4: tRecipes("gridCols4"),
+            5: tRecipes("gridCols5"),
+          }}
+          storageKey="alemniam-home-grid-cols"
+        >
           {catalog.map((item) => (
             <RecipeCatalogCard
               key={item.kind === "family" ? item.family.id : item.recipe.id}
@@ -95,17 +170,18 @@ export default async function HomePage({
               variantsLabel={tRecipes("variantsCount")}
             />
           ))}
-        </div>
+        </RecipeGridControls>
       </section>
 
-      <section className="reveal">
-        <p className="section-kicker">{t("clusters")}</p>
-        <h2 className="mt-3 max-w-[16ch] font-display text-[clamp(2rem,5vw,3.2rem)] font-semibold">
-          {locale === "de"
-            ? "Regionen, Anlässe, Techniken"
-            : "Regiony, okazje, techniki"}
-        </h2>
-        <div className="stagger mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+      {/* 5 — Discover clusters (curated, landing-friendly) */}
+      <section className="reveal space-y-5">
+        <div>
+          <p className="section-kicker">{t("clusters")}</p>
+          <h2 className="mt-2 max-w-[18ch] font-display text-[clamp(1.55rem,3.5vw,2.15rem)] font-semibold">
+            {t("clustersHeading")}
+          </h2>
+        </div>
+        <div className="stagger grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {clusters.map((cluster) => {
             const base =
               cluster.kind === "region"
@@ -129,7 +205,7 @@ export default async function HomePage({
                 <h3 className="mt-3 font-display text-2xl font-semibold">
                   {cluster.title[locale]}
                 </h3>
-                <p className="mt-2 max-w-[36ch] text-sm text-muted">
+                <p className="mt-2 line-clamp-2 max-w-[36ch] text-sm text-muted">
                   {cluster.description[locale]}
                 </p>
                 <span className="mt-4 inline-block text-sm font-semibold text-accent opacity-0 transition group-hover:opacity-100">

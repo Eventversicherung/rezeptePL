@@ -575,25 +575,38 @@ a.btn-primary:active:not(:disabled) {
   width: 100vw;
   margin-left: -50vw;
   overflow: hidden;
+  /* Cookbook cover: tall enough for presence, short enough to tease the grid */
+  min-height: min(72dvh, 40rem);
 }
 
-/* Readable navy wash without muddy crimson bands */
+.hero-full__media {
+  position: absolute;
+  inset: 0;
+}
+
+.hero-full__media img {
+  object-fit: cover;
+  object-position: center 42%;
+  transform: scale(1.04);
+}
+
+/* Warm cookbook wash — food stays visible, type stays readable */
 .hero-full__wash {
   position: absolute;
   inset: 0;
   background:
     linear-gradient(
       180deg,
-      rgba(18, 27, 48, 0.42) 0%,
-      rgba(18, 27, 48, 0.18) 40%,
-      rgba(18, 27, 48, 0.55) 78%,
+      rgba(18, 27, 48, 0.22) 0%,
+      rgba(18, 27, 48, 0.04) 32%,
+      rgba(18, 27, 48, 0.38) 68%,
       rgba(18, 27, 48, 0.72) 100%
     ),
     linear-gradient(
-      115deg,
-      rgba(18, 27, 48, 0.7) 0%,
-      rgba(26, 39, 68, 0.28) 55%,
-      rgba(220, 20, 60, 0.14) 100%
+      105deg,
+      rgba(18, 27, 48, 0.48) 0%,
+      rgba(26, 39, 68, 0.1) 52%,
+      rgba(220, 20, 60, 0.12) 100%
     );
   pointer-events: none;
 }
@@ -603,16 +616,26 @@ a.btn-primary:active:not(:disabled) {
   position: absolute;
   inset-inline: 0;
   bottom: 0;
-  height: min(48vh, 26rem);
+  height: min(36vh, 18rem);
   background: linear-gradient(
     to top,
     var(--bg) 0%,
-    color-mix(in srgb, var(--bg) 92%, transparent) 18%,
-    color-mix(in srgb, var(--bg) 55%, transparent) 42%,
-    color-mix(in srgb, var(--bg) 18%, transparent) 68%,
+    color-mix(in srgb, var(--bg) 88%, transparent) 22%,
+    color-mix(in srgb, var(--bg) 42%, transparent) 55%,
     transparent 100%
   );
   pointer-events: none;
+}
+
+/* Subtle paper grain — cookbook cover, not flat UI */
+.hero-full__grain {
+  position: absolute;
+  inset: 0;
+  opacity: 0.14;
+  mix-blend-mode: soft-light;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 180px 180px;
 }
 
 /* Solid white CTA on hero photo: navy text, clear contrast */

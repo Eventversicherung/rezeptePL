@@ -20,8 +20,14 @@
     "cta": "Odkryj przepisy",
     "ctaSecondary": "Gotuj pierogi",
     "featured": "Do gotowania",
+    "featuredHeading": "Przepisy z książki kucharskiej",
+    "browseByCategory": "Czego szukasz?",
     "clusters": "Odkrywaj",
-    "allRecipes": "Wszystkie"
+    "clustersHeading": "Regiony, okazje, techniki",
+    "allRecipes": "Wszystkie przepisy",
+    "search": "Danie, składnik lub nazwa…",
+    "searchKicker": "Szukaj",
+    "searchSubmit": "Szukaj"
   },
   "recipes": {
     "title": "Przepisy",

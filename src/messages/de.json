@@ -20,8 +20,14 @@
     "cta": "Rezepte entdecken",
     "ctaSecondary": "Pierogi kochen",
     "featured": "Zum Kochen",
+    "featuredHeading": "Rezepte aus dem Kochbuch",
+    "browseByCategory": "Wonach suchst du?",
     "clusters": "Entdecken",
-    "allRecipes": "Alle"
+    "clustersHeading": "Regionen, Anlässe, Techniken",
+    "allRecipes": "Alle Rezepte",
+    "search": "Gericht, Zutat oder Name…",
+    "searchKicker": "Suche",
+    "searchSubmit": "Suchen"
   },
   "recipes": {
     "title": "Rezepte",
