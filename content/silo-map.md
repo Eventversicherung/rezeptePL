@@ -11,18 +11,20 @@ Zielgruppe: PL-first, dann DE. Immer `/de/...` + `/pl/...` mit hreflang.
 | Blog | `/{locale}/blog/{slug}` |
 | Cluster-Hubs | `/{locale}/regionen\|anlaesse\|techniken/{slug}` |
 
-## Status
+## Status (Stand SEED 17)
 
-| Silo | LIVE | W3/HOLD |
-|------|------|---------|
-| A Gerichtsfamilien | Pierogi-/Suppen-/Bigos-Pillar, Gołąbki, Naleśniki, Placki | Kluski |
+Live-Mengen & SEO-Urteil: [`topical-authority-status.md`](./topical-authority-status.md).
+
+| Silo | LIVE | HOLD / Next |
+|------|------|-------------|
+| A Gerichtsfamilien | Pierogi + Placki Families; Suppen/Bigos/Gołąbki/Naleśniki Pillars | Naleśniki-Familie, mehr Standalone |
 | B Regionen | Hub-Intros teig/wigilia/niedziela/bulion | Region-Blogs |
 | C Anlässe | Wigilia, Wielkanoc, Tłusty, Sonntag | Grill, Imieniny… |
-| D Techniken | Teig, Freezer, Rosół, Kiszenie, Panieren, Barszcz | Schmoren |
-| E Zutaten | Twaróg, Śmietana, Kiełbasa, Zakwas, Kasza, Oscypek | — |
-| F Diaspora | Polenladen, Ersatzprodukte | Meal-Prep Woche |
+| D Techniken | Teig, Freezer, Rosół, Barszcz, Kiszenie, Panieren | Faworki-Technik, Schmoren-Deep |
+| E Zutaten | Twaróg, Śmietana, Kiełbasa, Zakwas, Kasza, Oscypek | Majeranek |
+| F Diaspora | Polenladen, Ersatzprodukte | Meal-Prep Woche, Fasolka-Guide |
 | G Tradition | via Wigilia + Sonntag | regionale Vielfalt |
-| H Gear/Tests | Teigmaschine 2026, Formen, Fleischwolf, Dutch Oven, Gusseisen, Freezer-Boxen, Fermentier-Gläser | Grundausstattung, Lab-Tests |
+| H Gear/Tests | 7 Buying-Guides (Best-of Slots) | Lab-Tests, Grundausstattung |
 
 ## Rezept-Monetarisierung
 
