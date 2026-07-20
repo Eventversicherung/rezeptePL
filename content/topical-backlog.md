@@ -69,6 +69,19 @@ Prozess: 6 Writer + Bilder + Chef → ein Push. Scorecard: `content/batch-w3b/ch
 
 Prozess: 6 Writer + Bilder + Chef → ein Push. Scorecard: `content/batch-w3c/chef-scorecard.md`.
 
+## LIVE (Wave 4 shipped — Placki family + 5 recipes)
+
+| What | Notes |
+|------|-------|
+| `family-placki` | Variant switcher: ziemniaczane, cukinia, ser, jablka |
+| `recipe-gulasz` | Partner to placki; Dutch oven / Sunday |
+| `recipe-kotlet-mielony` | Panieren guide crosslink |
+| `recipe-kluski-slaskie` | Rosół side; Silesian |
+| `recipe-racuchy` | Yeasted apple pancakes |
+| `recipe-chlodnik` | Cold summer soup |
+
+Research + wave 2 backlog: `content/recipe-expansion-w4.md`. `SEED_VERSION` 16.
+
 ## W3 / HOLD
 
 Region-Blogs, Meal-Prep Woche, Lab-Tests, Majeranek, Faworki-Technik, Fasolka.

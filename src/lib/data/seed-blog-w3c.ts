@@ -18,7 +18,7 @@ export const seedBlogPostsW3c: BlogPost[] = [
     coverImage:
       "https://images.unsplash.com/photo-1604908177528-946fc9d68799?w=1600&q=80",
     siloIds: ["technique"],
-    relatedRecipeIds: ["recipe-schabowy"],
+    relatedRecipeIds: ["recipe-schabowy", "recipe-kotlet-mielony"],
     relatedPostIds: [
       "post-gusseisen",
       "post-sonntagsessen",
@@ -100,7 +100,13 @@ export const seedBlogPostsW3c: BlogPost[] = [
     coverImage:
       "https://images.unsplash.com/photo-1573080496219-b83aa30643ae?w=1600&q=80",
     siloIds: ["dishFamily", "technique"],
-    relatedRecipeIds: ["recipe-placki"],
+    relatedRecipeIds: [
+      "recipe-placki",
+      "recipe-placki-cukinia",
+      "recipe-placki-ser",
+      "recipe-placki-jablka",
+      "recipe-gulasz",
+    ],
     relatedPostIds: [
       "post-gusseisen",
       "post-kasza",

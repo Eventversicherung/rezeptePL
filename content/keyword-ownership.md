@@ -44,6 +44,15 @@ Eine Primary KW = eine Owner-URL. Andere Seiten nur mit descriptive Anchors verl
 | Polnisches Sonntagsessen | `/blog/sonntagsessen-polnisch` |
 | Panieren Schabowy | `/blog/panieren-schabowy` · `/blog/panierowanie-kotlet` |
 | Placki Rezept (broad) | `/blog/placki-guide` · `/blog/placki-przewodnik` |
+| Placki ziemniaczane | `/rezepte/placki/ziemniaczane` |
+| Placki mit Zucchini | `/rezepte/placki/cukinia` |
+| Placki mit Käse | `/rezepte/placki/mit-kaese` · `/ser` |
+| Placki mit Apfel | `/rezepte/placki/mit-apfel` · `/jablka` |
+| Gulasz wieprzowy | `/rezepte/gulasz-wieprzowy` |
+| Kotlet mielony | `/rezepte/kotlet-mielony` |
+| Kluski śląskie | `/rezepte/kluski-slaskie` |
+| Racuchy z jabłkami | `/rezepte/racuchy-jablka` |
+| Chłodnik litewski | `/rezepte/chlodnik-litewski` |
 | Gołąbki Rezept (broad) | `/blog/golabki-guide` |
 | Gołąbki Rezept (cook) | `/rezepte/golabki` |
 | Naleśniki Rezept (broad) | `/blog/nalesniki-guide` |

@@ -717,7 +717,15 @@ export const seedBlogPostsWave2: BlogPost[] = [
     coverImage:
       "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=1600&q=80",
     siloIds: ["gear"],
-    relatedRecipeIds: ["recipe-placki", "recipe-schabowy", "recipe-oscypek"],
+    relatedRecipeIds: [
+      "recipe-placki",
+      "recipe-placki-cukinia",
+      "recipe-placki-ser",
+      "recipe-placki-jablka",
+      "recipe-schabowy",
+      "recipe-kotlet-mielony",
+      "recipe-oscypek",
+    ],
     relatedPostIds: [
       "post-panieren",
       "post-placki-guide",

@@ -24,6 +24,7 @@ import { routing } from "@/i18n/routing";
 /** Legacy flat slugs that now live under a family. */
 const LEGACY_VARIANT_REDIRECTS: Record<string, { familyId: string; recipeId: string }> = {
   "pierogi-ruskie": { familyId: "family-pierogi", recipeId: "recipe-pierogi" },
+  "placki-ziemniaczane": { familyId: "family-placki", recipeId: "recipe-placki" },
 };
 
 export async function generateStaticParams() {

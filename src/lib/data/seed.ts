@@ -450,13 +450,17 @@ Ziemniaki, twaróg, cebula. Bez widowiska — smak, który wielu łączy z domem
     id: "recipe-placki",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=1600&q=80",
+      "https://images.unsplash.com/photo-1631453717818-536547643874?w=1600&q=80",
     prepMinutes: 20,
     cookMinutes: 25,
     servings: 4,
+    familyId: "family-placki",
+    variantLabel: { de: "Ziemniaczane", pl: "ziemniaczane" },
+    variantImage:
+      "https://images.unsplash.com/photo-1631453717818-536547643874?w=400&q=80",
     regionIds: [],
-    occasionIds: [],
-    techniqueIds: [],
+    occasionIds: ["occasion-niedziela"],
+    techniqueIds: ["technique-panieren"],
     categoryIds: [
       "category-schnell",
       "category-hauptgerichte",
@@ -466,35 +470,79 @@ Ziemniaki, twaróg, cebula. Bez widowiska — smak, który wielu łączy z domem
     translations: {
       de: {
         title: "Placki ziemniaczane",
-        slug: "placki-ziemniaczane",
-        excerpt: "Knusprige Kartoffelpuffer. Mit Sauerrahm oder Gulasch.",
+        slug: "ziemniaczane",
+        excerpt:
+          "Knusprige Kartoffelpuffer. Mit Śmietana, Gulasch oder pur mit Zucker.",
         steps: [
-          { text: "Kartoffeln und Zwiebel reiben, gut ausdrücken." },
-          { text: "Mit Ei, Mehl und Salz verrühren." },
           {
-            text: "In heißem Öl goldbraun ausbacken.",
+            text: "Kartoffeln und Zwiebel reiben, Masse kräftig ausdrücken.",
+            tip: "Wasser ist der Feind der Knusprigkeit — Küchentuch nutzen.",
+          },
+          { text: "Mit Ei, Mehl, Salz und Pfeffer verrühren. 5 Minuten ruhen." },
+          {
+            text: "In heißem Öl (3–5 mm) goldbraun ausbacken.",
             tip: "Nicht zu dick. Sonst bleiben sie innen roh.",
           },
-          { text: "Heiß mit Sauerrahm servieren." },
+          {
+            text: "Heiß mit Sauerrahm, [Gulasch](/de/rezepte/gulasz-wieprzowy) oder Zucker servieren.",
+          },
         ],
         seoTitle: "Placki ziemniaczane Rezept | Alemniam",
-        seoDescription: "Polnische Kartoffelpuffer. Rezept und Einkaufsliste.",
+        seoDescription:
+          "Polnische Kartoffelpuffer — Variante klassisch, bilingual mit DE-Einkauf.",
+        article: `## Placki ziemniaczane — der Klassiker
+
+Rohe Kartoffeln, gerieben, gebunden mit Ei und wenig Mehl — in heißem Öl gebraten. Außen knusprig, innen weich. In der Diaspora oft das erste polnische Gericht, das Nachbarn mögen.
+
+### Technik in Kurzform
+
+Festkochende Kartoffeln, Masse **gründlich ausdrücken**, Pfanne wirklich heiß. Ausführlich: [Placki-Guide](/de/blog/placki-guide) · [Gusseisen](/de/blog/gusseisenpfanne).
+
+### Servieren
+
+Śmietana (Schmand) klassisch. Deftig mit [Gulasz](/de/rezepte/gulasz-wieprzowy). Süß mit Zucker — in manchen Familien normal.
+
+### Weitere Varianten
+
+Oben wechseln: [Zucchini](/de/rezepte/placki/cukinia), [Käse](/de/rezepte/placki/mit-kaese), [Apfel](/de/rezepte/placki/mit-apfel).`,
       },
       pl: {
         title: "Placki ziemniaczane",
-        slug: "placki-ziemniaczane",
-        excerpt: "Chrupiące placki. Ze śmietaną lub gulaszem.",
+        slug: "ziemniaczane",
+        excerpt:
+          "Chrupiące placki z surowych ziemniaków. Ze śmietaną, gulaszem albo cukrem.",
         steps: [
-          { text: "Zetrzyj ziemniaki i cebulę, dobrze odciśnij." },
-          { text: "Wymieszaj z jajkiem, mąką i solą." },
           {
-            text: "Smaż na złoto na gorącym oleju.",
+            text: "Starte ziemniaki i cebulę, mocno odciśnij masę.",
+            tip: "Woda to wróg chrupkości — użyj ściereczki.",
+          },
+          { text: "Wymieszaj z jajkiem, mąką, solą i pieprzem. Odstaw 5 min." },
+          {
+            text: "Smaż na złoto na gorącym oleju (3–5 mm).",
             tip: "Nie za grube. Inaczej zostaną surowe w środku.",
           },
-          { text: "Podawaj gorące ze śmietaną." },
+          {
+            text: "Podawaj gorące ze śmietaną, [gulaszem](/pl/rezepte/gulasz-wieprzowy) albo cukrem.",
+          },
         ],
         seoTitle: "Placki ziemniaczane przepis | Alemniam",
-        seoDescription: "Placki ziemniaczane. Przepis i lista zakupów.",
+        seoDescription:
+          "Placki ziemniaczane — wariant klasyczny, dwujęzycznie ze wskazówkami DE.",
+        article: `## Placki ziemniaczane — klasyk
+
+Surowe ziemniaki starte, związane jajkiem i odrobiną mąki — smażone na gorącym oleju. Na zewnątrz chrupko, w środku miękko.
+
+### Technika
+
+Ziemniaki raczej mączyste, masa **dobrze odciśnięta**, patelnia naprawdę gorąca. Więcej: [Przewodnik placki](/pl/blog/placki-przewodnik) · [Patelnia żeliwna](/pl/blog/patelnia-zelivna).
+
+### Podanie
+
+Śmietana klasycznie. Obok [gulasz](/pl/rezepte/gulasz-wieprzowy). Na słodko z cukrem — w wielu domach norma.
+
+### Inne warianty
+
+Przełącz u góry: [cukinia](/pl/rezepte/placki/cukinia), [ser](/pl/rezepte/placki/ser), [jabłka](/pl/rezepte/placki/jablka).`,
       },
     },
     ingredients: [
@@ -1210,6 +1258,712 @@ W puszce 2–4 dni. Zamrożone w folii: ok. 2 miesiące.`,
     createdAt: "2026-02-15T10:00:00.000Z",
     updatedAt: "2026-02-15T10:00:00.000Z",
   },
+  {
+    id: "recipe-gulasz",
+    status: "published",
+    coverImage:
+      "https://images.unsplash.com/photo-1607628311673-4fc15faa5791?w=1600&q=80",
+    prepMinutes: 25,
+    cookMinutes: 90,
+    servings: 6,
+    regionIds: [],
+    occasionIds: ["occasion-niedziela"],
+    techniqueIds: ["technique-schmoren"],
+    categoryIds: ["category-hauptgerichte"],
+    videoUrl: null,
+    translations: {
+      de: {
+        title: "Gulasz wieprzowy",
+        slug: "gulasz-wieprzowy",
+        excerpt:
+          "Polnischer Schweinegulasch — langsam geschmort, perfekt zu Placki.",
+        steps: [
+          {
+            text: "Schweinefleisch würfeln, salzen, pfeffern. In heißem Öl anbraten.",
+          },
+          {
+            text: "Zwiebel und Paprika hinzufügen, kurz mitdünsten.",
+          },
+          {
+            text: "Tomatenmark, Paprikapulver, Knoblauch und Lorbeer zugeben. Mit Brühe ablöschen.",
+            tip: "Paprika kurz rösten — sonst bitter.",
+          },
+          {
+            text: "Zugedeckt 60–90 Min schmoren, bis das Fleisch zart ist.",
+          },
+          {
+            text: "Mit [Placki](/de/rezepte/placki/ziemniaczane) und Śmietana servieren.",
+          },
+        ],
+        seoTitle: "Gulasz wieprzowy Rezept | Alemniam",
+        seoDescription:
+          "Polnischer Schweinegulasch — Schmor-Rezept bilingual mit DE-Einkauf.",
+        article: `## Gulasz wieprzowy — Sonntag mit Placki
+
+Langsam geschmortes Schweinefleisch in Paprikasoße — in vielen polnischen Haushalten der Partner zu Kartoffelpuffern. Nicht identisch mit ungarischem Gulasch: mehr Soße, weniger Schärfe, oft Tomatenmark.
+
+### Schmoren in DE
+
+Schmortopf oder [Dutch Oven](/de/blog/dutch-oven-kaufberatung). Schweinenacken oder Schulter — fett hält saftig. Kiełbasa optional als Extra, siehe [Kiełbasa-Arten](/de/blog/kielbasa-arten).
+
+### Timing
+
+Am Vortag schmeckt oft besser. Placki frisch braten, Gulasch warm halten.
+
+### Verwandtes
+
+[Placki-Familie](/de/rezepte/placki/ziemniaczane) · [Sonntagsessen](/de/blog/sonntagsessen-polnisch).`,
+      },
+      pl: {
+        title: "Gulasz wieprzowy",
+        slug: "gulasz-wieprzowy",
+        excerpt:
+          "Polski gulasz wieprzowy — duszony powoli, idealny do placków.",
+        steps: [
+          {
+            text: "Pokrój mięso w kostkę, posól, popieprz. Obsmaż na gorącym oleju.",
+          },
+          {
+            text: "Dodaj cebulę i paprykę, lekko zeszklij.",
+          },
+          {
+            text: "Dodaj koncentrat, paprykę w proszku, czosnek i liść laurowy. Zalej bulionem.",
+            tip: "Paprykę podsmaż chwilę — inaczej gorzka.",
+          },
+          {
+            text: "Duś pod przykryciem 60–90 min, aż mięso miękkie.",
+          },
+          {
+            text: "Podawaj z [plackami](/pl/rezepte/placki/ziemniaczane) i śmietaną.",
+          },
+        ],
+        seoTitle: "Gulasz wieprzowy przepis | Alemniam",
+        seoDescription:
+          "Gulasz wieprzowy — przepis na duszone mięso, dwujęzycznie ze wskazówkami DE.",
+        article: `## Gulasz wieprzowy — niedziela z plackami
+
+Wolno duszone wieprzowina w sosie paprykowym — w wielu domach towarzysz placków ziemniaczanych. To nie węgierski gulasz: więcej sosu, mniej ostrości, często koncentrat pomidorowy.
+
+### Duszenie w DE
+
+Garnek żeliwny albo [Dutch oven](/pl/blog/garnek-do-duszenia). Łopatka lub kark — tłuszcz trzyma soczystość. Opcjonalnie kiełbasa, zob. [Rodzaje kiełbasy](/pl/blog/rodzaje-kielbasy).
+
+### Czas
+
+Nazajutrz często lepszy. Placki smaż świeżo, gulasz trzymaj ciepły.
+
+### Powiązane
+
+[Rodzina placków](/pl/rezepte/placki/ziemniaczane) · [Obiad niedzielny](/pl/blog/obiad-niedzielny).`,
+      },
+    },
+    ingredients: [
+      {
+        id: "gu-1",
+        name: { de: "Schweinefleisch (Schulter/Nacken)", pl: "Mięso wieprzowe (łopatka/kark)" },
+        amount: 800,
+        unit: { de: "g", pl: "g" },
+        group: "other",
+      },
+      {
+        id: "gu-2",
+        name: { de: "Zwiebel", pl: "Cebula" },
+        amount: 2,
+        unit: { de: "Stück", pl: "szt." },
+        group: "produce",
+      },
+      {
+        id: "gu-3",
+        name: { de: "Paprika", pl: "Papryka" },
+        amount: 1,
+        unit: { de: "Stück", pl: "szt." },
+        group: "produce",
+      },
+      {
+        id: "gu-4",
+        name: { de: "Tomatenmark", pl: "Koncentrat pomidorowy" },
+        amount: 2,
+        unit: { de: "EL", pl: "łyżki" },
+        group: "pantry",
+      },
+      {
+        id: "gu-5",
+        name: { de: "Paprikapulver edelsüß", pl: "Papryka słodka" },
+        amount: 2,
+        unit: { de: "EL", pl: "łyżki" },
+        group: "spices",
+      },
+      {
+        id: "gu-6",
+        name: { de: "Knoblauch", pl: "Czosnek" },
+        amount: 3,
+        unit: { de: "Zehen", pl: "ząbki" },
+        group: "produce",
+      },
+      {
+        id: "gu-7",
+        name: { de: "Rinder- oder Gemüsebrühe", pl: "Bulion wołowy lub warzywny" },
+        amount: 400,
+        unit: { de: "ml", pl: "ml" },
+        group: "pantry",
+      },
+    ],
+    createdAt: "2026-07-20T10:00:00.000Z",
+    updatedAt: "2026-07-20T10:00:00.000Z",
+  },
+  {
+    id: "recipe-kotlet-mielony",
+    status: "published",
+    coverImage:
+      "https://images.unsplash.com/photo-1588346301655-83add6be44f7?w=1600&q=80",
+    prepMinutes: 20,
+    cookMinutes: 20,
+    servings: 4,
+    regionIds: [],
+    occasionIds: ["occasion-niedziela"],
+    techniqueIds: ["technique-panieren"],
+    categoryIds: ["category-schnell", "category-hauptgerichte"],
+    videoUrl: null,
+    translations: {
+      de: {
+        title: "Kotlet mielony",
+        slug: "kotlet-mielony",
+        excerpt:
+          "Polnische Hacksteaks paniert — Alltagsklassiker neben Schabowy.",
+        steps: [
+          {
+            text: "Hack mit eingeweichtem Brötchen, Ei, Zwiebel, Salz und Pfeffer verkneten.",
+            tip: "Masse 30 Min kalt stellen — hält Form beim Braten.",
+          },
+          { text: "Flache Kotlets formen, durch Mehl, Ei und Panade ziehen." },
+          {
+            text: "In Butterschmalz oder Öl goldbraun braten.",
+            tip: "Nicht zu heiß — Panade soll nicht verbrennen.",
+          },
+          { text: "Mit Kartoffeln, Mizeria oder Ketchup servieren." },
+        ],
+        seoTitle: "Kotlet mielony Rezept | Alemniam",
+        seoDescription:
+          "Kotlet mielony paniert — Rezept bilingual mit Panier-Technik.",
+        article: `## Kotlet mielony — Alltagsteller
+
+Hacksteaks paniert — nicht zu verwechseln mit [Schabowy](/de/rezepte/kotlet-schabowy): hier gemischtes Hack, dort geklopftes Schnitzel. In der Diaspora schnell, günstig, kinderfreundlich.
+
+### Panade
+
+Technik wie beim Schabowy: Mehl, Ei, Semmelbrösel. Ausführlich: [Panieren-Guide](/de/blog/panieren-schabowy). [Gusseisenpfanne](/de/blog/gusseisenpfanne) für gleichmäßige Kruste.
+
+### Brötchen einweichen
+
+Altes Brötchen oder Semmel in Milch — macht den Kotlet saftig. Ohne Brötchen wird er trocken und fest.
+
+### Sonntag
+
+Passt zu [Rosół](/de/rezepte/rosol) als zweites Gericht oder solo mit Salat.`,
+      },
+      pl: {
+        title: "Kotlet mielony",
+        slug: "kotlet-mielony",
+        excerpt:
+          "Mielone kotlety panierowane — codzienny klasyk obok schabowego.",
+        steps: [
+          {
+            text: "Wymieszaj mięso z namoczoną bułką, jajkiem, cebulą, solą i pieprzem.",
+            tip: "Odstaw 30 min w lodówce — łatwiej smażyć.",
+          },
+          { text: "Formuj płaskie kotlety, obtocz w mące, jajku i bułce." },
+          {
+            text: "Smaż na złoto na smalcu lub oleju.",
+            tip: "Nie za mocno — panierka nie może się przypalić.",
+          },
+          { text: "Podawaj z ziemniakami, mizerią albo keczupem." },
+        ],
+        seoTitle: "Kotlet mielony przepis | Alemniam",
+        seoDescription:
+          "Kotlet mielony panierowany — przepis dwujęzyczny z techniką panierowania.",
+        article: `## Kotlet mielony — talerz na co dzień
+
+Kotlety z mielonego mięsa w panierce — nie to samo co [schabowy](/pl/rezepte/kotlet-schabowy): tu mielone, tam rozbite kotlety. W diasporze szybko, tanio, dla dzieci.
+
+### Panierka
+
+Jak u schabowego: mąka, jajko, bułka tarta. Więcej: [Panierowanie](/pl/blog/panierowanie-kotlet). [Patelnia żeliwna](/pl/blog/patelnia-zelivna).
+
+### Bułka
+
+Namoczona kajzerka trzyma soczystość. Bez bułki kotlet będzie twardy.
+
+### Niedziela
+
+Obok [rosół](/pl/rezepte/rosol) albo solo z surówką.`,
+      },
+    },
+    ingredients: [
+      {
+        id: "km-1",
+        name: { de: "Hackfleisch gemischt", pl: "Mięso mielone" },
+        amount: 600,
+        unit: { de: "g", pl: "g" },
+        group: "other",
+        storeHintDe: "Hack gemischt / Schwein-Rind",
+      },
+      {
+        id: "km-2",
+        name: { de: "Brötchen (alt)", pl: "Bułka (czerstwa)" },
+        amount: 1,
+        unit: { de: "Stück", pl: "szt." },
+        group: "pantry",
+      },
+      {
+        id: "km-3",
+        name: { de: "Milch", pl: "Mleko" },
+        amount: 100,
+        unit: { de: "ml", pl: "ml" },
+        group: "dairy",
+      },
+      {
+        id: "km-4",
+        name: { de: "Zwiebel", pl: "Cebula" },
+        amount: 1,
+        unit: { de: "Stück", pl: "szt." },
+        group: "produce",
+      },
+      {
+        id: "km-5",
+        name: { de: "Ei", pl: "Jajko" },
+        amount: 1,
+        unit: { de: "Stück", pl: "szt." },
+        group: "dairy",
+      },
+      {
+        id: "km-6",
+        name: { de: "Semmelbrösel", pl: "Bułka tarta" },
+        amount: 100,
+        unit: { de: "g", pl: "g" },
+        group: "pantry",
+      },
+    ],
+    createdAt: "2026-07-20T10:00:00.000Z",
+    updatedAt: "2026-07-20T10:00:00.000Z",
+  },
+  {
+    id: "recipe-kluski-slaskie",
+    status: "published",
+    coverImage:
+      "https://images.unsplash.com/photo-1612872087338-bb623d2a77d5?w=1600&q=80",
+    prepMinutes: 40,
+    cookMinutes: 15,
+    servings: 4,
+    regionIds: [],
+    occasionIds: ["occasion-niedziela"],
+    techniqueIds: ["technique-teig"],
+    categoryIds: ["category-hauptgerichte", "category-vegetarisch"],
+    videoUrl: null,
+    translations: {
+      de: {
+        title: "Kluski śląskie",
+        slug: "kluski-slaskie",
+        excerpt:
+          "Schlesische Kartoffelklöße mit Mulde — klassische Beilage zu Rosół.",
+        steps: [
+          {
+            text: "Kartoffeln kochen, abkühlen lassen, durch Presse drücken.",
+          },
+          {
+            text: "Mit Kartoffelstärke, Ei und Salz zu glattem Teig kneten.",
+            tip: "Teig nicht zu weich — sonst zerfallen die Klöße.",
+          },
+          {
+            text: "Kugeln formen, in der Mitte mit Finger Mulde drücken.",
+          },
+          {
+            text: "In leicht siedendem Salzwasser gar ziehen, bis sie oben schwimmen.",
+          },
+          {
+            text: "Mit [Rosół](/de/rezepte/rosol) und gebratener Zwiebel servieren.",
+          },
+        ],
+        seoTitle: "Kluski śląskie Rezept | Alemniam",
+        seoDescription:
+          "Schlesische Kartoffelklöße — Beilage-Rezept bilingual mit DE-Einkauf.",
+        article: `## Kluski śląskie — Mulde in der Mitte
+
+Gekochte Kartoffeln, Stärke, Ei — geknetet, zur Kugel geformt, mit charakteristischer Mulde. Aus Schlesien, in der Diaspora oft neben [Rosół](/de/rezepte/rosol) auf dem Sonntagsteller.
+
+### Stärke vs. Mehl
+
+Kartoffelstärke (Speisestärke) aus dem Supermarkt — nicht zu viel, sonst gummiartig. Teig soll fest, aber formbar sein.
+
+### Kochen
+
+Nicht stark kochen — sanft sieden. Klöße kurz nach dem Schwimmen herausnehmen.
+
+### Beilage
+
+Gebratene Zwiebel, Schmalz, oder Pilzsoße. Siehe [Rosół-Technik](/de/blog/rosol-technik).`,
+      },
+      pl: {
+        title: "Kluski śląskie",
+        slug: "kluski-slaskie",
+        excerpt:
+          "Śląskie knedle ziemniaczane z dziurką — klasyk obok rosołu.",
+        steps: [
+          {
+            text: "Ugotuj ziemniaki, ostudź, przeciśnij przez praskę.",
+          },
+          {
+            text: "Zagnieć ze skrobią, jajkiem i solą na gładkie ciasto.",
+            tip: "Ciasto nie za miękkie — inaczej knedle pękną.",
+          },
+          {
+            text: "Formuj kulki, palcem zrób wgłębienie.",
+          },
+          {
+            text: "Gotuj w osolonej wodzie na wolnym ogniu, aż wypłyną.",
+          },
+          {
+            text: "Podawaj z [rosółem](/pl/rezepte/rosol) i podsmażoną cebulą.",
+          },
+        ],
+        seoTitle: "Kluski śląskie przepis | Alemniam",
+        seoDescription:
+          "Kluski śląskie — przepis na knedle z dziurką, dwujęzycznie.",
+        article: `## Kluski śląskie — dziurka po środku
+
+Ugotowane ziemniaki, skrobia, jajko — ugniecione, uformowane w kulkę z charakterystycznym wgłębieniem. Ze Śląska, w diasporze często obok [rosołu](/pl/rezepte/rosol).
+
+### Skrobia
+
+Skrobia ziemniaczana ze sklepu — nie za dużo, bo będą gumowate. Ciasto ma być twarde, ale plastyczne.
+
+### Gotowanie
+
+Delikatnie, na wolnym ogniu. Wyjmij zaraz po wypłynięciu.
+
+### Dodatki
+
+Cebula na smalcu, sos grzybowy. [Jak ugotować rosół](/pl/blog/jak-ugotowac-rosol).`,
+      },
+    },
+    ingredients: [
+      {
+        id: "ks-1",
+        name: { de: "Kartoffeln", pl: "Ziemniaki" },
+        amount: 1,
+        unit: { de: "kg", pl: "kg" },
+        group: "produce",
+      },
+      {
+        id: "ks-2",
+        name: { de: "Kartoffelstärke", pl: "Skrobia ziemniaczana" },
+        amount: 200,
+        unit: { de: "g", pl: "g" },
+        group: "pantry",
+        storeHintDe: "Speisestärke",
+      },
+      {
+        id: "ks-3",
+        name: { de: "Ei", pl: "Jajko" },
+        amount: 1,
+        unit: { de: "Stück", pl: "szt." },
+        group: "dairy",
+      },
+    ],
+    createdAt: "2026-07-20T10:00:00.000Z",
+    updatedAt: "2026-07-20T10:00:00.000Z",
+  },
+  {
+    id: "recipe-racuchy",
+    status: "published",
+    coverImage:
+      "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=1600&q=80",
+    prepMinutes: 90,
+    cookMinutes: 20,
+    servings: 4,
+    regionIds: [],
+    occasionIds: [],
+    techniqueIds: ["technique-teig"],
+    categoryIds: ["category-suess", "category-vegetarisch"],
+    videoUrl: null,
+    translations: {
+      de: {
+        title: "Racuchy z jabłkami",
+        slug: "racuchy-jablka",
+        excerpt:
+          "Hefige Apfelpfannkuchen — fluffig, goldbraun, mit Puderzucker.",
+        steps: [
+          {
+            text: "Hefe in lauwarmer Milch mit Zucker auflösen, 10 Min gehen lassen.",
+          },
+          {
+            text: "Mehl, Ei, Prise Salz und Vanille zugeben, glatten Teig kneten. 45 Min gehen lassen.",
+          },
+          {
+            text: "Äpfel schälen, entkernen, in dünne Spalten schneiden.",
+          },
+          {
+            text: "Teig portionsweise in heißer Pfanne backen, Apfelspalten hineinlegen, wenden.",
+            tip: "Mittlere Hitze — innen durch, außen gold.",
+          },
+          { text: "Warm mit Puderzucker servieren." },
+        ],
+        seoTitle: "Racuchy z jabłkami Rezept | Alemniam",
+        seoDescription:
+          "Polnische Apfel-Racuchy — Hefeteig-Rezept bilingual für DE-Küchen.",
+        article: `## Racuchy — Hefe, Apfel, Pfanne
+
+Racuchy sind **Hefeteig-Pfannkuchen** mit Apfel — fluffiger als [Placki mit Apfel](/de/rezepte/placki/mit-apfel). In der Diaspora beliebt zum Nachmittagskaffee oder als süßes Abendessen.
+
+### Hefe in DE
+
+Trockenhefe funktioniert — lauwarme Milch, nicht heiß. Teig braucht Ruhe; ohne Geduld werden sie flach.
+
+### Äpfel
+
+Fest und säuerlich. Nicht zu dicke Spalten — sonst bleibt der Teig roh.
+
+### Anlässe
+
+Nahe an [Tłusty Czwartek](/de/blog/tlusty-czwartek)-Tradition, aber ganzjährig machbar.`,
+      },
+      pl: {
+        title: "Racuchy z jabłkami",
+        slug: "racuchy-jablka",
+        excerpt:
+          "Drożdżowe racuchy z jabłkiem — puszyste, złote, z cukrem pudrem.",
+        steps: [
+          {
+            text: "Rozpuść drożdże w ciepłym mleku z cukrem, odstaw 10 min.",
+          },
+          {
+            text: "Dodaj mąkę, jajko, sól i wanilię, zagnieć. Odstaw 45 min.",
+          },
+          {
+            text: "Obierz jabłka, usuń gniazda, pokrój w cienkie ćwiartki.",
+          },
+          {
+            text: "Smaż porcje ciasta, włóż jabłko, przewróć.",
+            tip: "Średni ogień — środek upieczony, skórka złota.",
+          },
+          { text: "Podawaj ciepłe z cukrem pudrem." },
+        ],
+        seoTitle: "Racuchy z jabłkami przepis | Alemniam",
+        seoDescription:
+          "Racuchy z jabłkami na drożdżach — przepis dwujęzyczny.",
+        article: `## Racuchy — drożdże, jabłko, patelnia
+
+Racuchy to **racuchy drożdżowe** z jabłkiem — bardziej puszyste niż [placki z jabłkami](/pl/rezepte/placki/jablka). W diasporze na popołudniową kawę albo słodki obiad.
+
+### Drożdże w DE
+
+Suszone drożdże działają — mleko ciepłe, nie gorące. Ciasto potrzebuje czasu.
+
+### Jabłka
+
+Twarde, kwaśne. Nie za grube kawałki — inaczej surowe w środku.
+
+### Okazje
+
+Blisko tradycji [Tłusty Czwartek](/pl/blog/tlusty-czwartek), ale przez cały rok.`,
+      },
+    },
+    ingredients: [
+      {
+        id: "ra-1",
+        name: { de: "Mehl", pl: "Mąka" },
+        amount: 300,
+        unit: { de: "g", pl: "g" },
+        group: "pantry",
+      },
+      {
+        id: "ra-2",
+        name: { de: "Milch", pl: "Mleko" },
+        amount: 250,
+        unit: { de: "ml", pl: "ml" },
+        group: "dairy",
+      },
+      {
+        id: "ra-3",
+        name: { de: "Hefe (frisch oder trocken)", pl: "Drożdże" },
+        amount: 20,
+        unit: { de: "g", pl: "g" },
+        group: "pantry",
+        storeHintDe: "Frischhefe oder 1 Päckchen Trockenhefe",
+        substitute: {
+          de: "7 g Trockenhefe",
+          pl: "7 g drożdży suszonych",
+        },
+      },
+      {
+        id: "ra-4",
+        name: { de: "Zucker", pl: "Cukier" },
+        amount: 30,
+        unit: { de: "g", pl: "g" },
+        group: "pantry",
+      },
+      {
+        id: "ra-5",
+        name: { de: "Ei", pl: "Jajko" },
+        amount: 1,
+        unit: { de: "Stück", pl: "szt." },
+        group: "dairy",
+      },
+      {
+        id: "ra-6",
+        name: { de: "Äpfel", pl: "Jabłka" },
+        amount: 3,
+        unit: { de: "Stück", pl: "szt." },
+        group: "produce",
+      },
+    ],
+    createdAt: "2026-07-20T10:00:00.000Z",
+    updatedAt: "2026-07-20T10:00:00.000Z",
+  },
+  {
+    id: "recipe-chlodnik",
+    status: "published",
+    coverImage:
+      "https://images.unsplash.com/photo-1625944525533-217feca6f147?w=1600&q=80",
+    prepMinutes: 30,
+    cookMinutes: 0,
+    servings: 4,
+    regionIds: [],
+    occasionIds: [],
+    techniqueIds: ["technique-bulion"],
+    categoryIds: ["category-suppen", "category-vegetarisch"],
+    videoUrl: null,
+    translations: {
+      de: {
+        title: "Chłodnik litewski",
+        slug: "chlodnik-litewski",
+        excerpt:
+          "Kalte Rote-Bete-Suppe mit Gurke, Dill und Śmietana — Sommerklassiker.",
+        steps: [
+          {
+            text: "Gekochte Rote Bete fein reiben oder pürieren. Mit Kefir oder Joghurt und Brühe verrühren.",
+          },
+          {
+            text: "Gurke, Radieschen, Dill und hartgekochtes Ei in feine Würfel schneiden.",
+          },
+          {
+            text: "Gemüse unter die kalte Basis mischen. Mit Salz, Zitrone und Zucker abschmecken.",
+            tip: "Mindestens 2 Stunden kalt stellen — schmeckt besser am nächsten Tag.",
+          },
+          { text: "Mit gekochter Kartoffel und extra Śmietana servieren." },
+        ],
+        seoTitle: "Chłodnik litewski Rezept | Alemniam",
+        seoDescription:
+          "Kalte polnische Rote-Bete-Suppe — Rezept bilingual mit Śmietana-Hinweisen.",
+        article: `## Chłodnik — kalte Suppe für heiße Diaspora-Sommer
+
+Rote Bete, Kefir oder Joghurt, Gurke, Dill — rosa, kühl, säuerlich-frisch. Nicht [Barszcz czerwony](/de/rezepte/barszcz-czerwony) (heiß und klar), sondern Sommersuppe im Becher.
+
+### Śmietana und Kefir
+
+[Śmietana vs. Schmand](/de/blog/smietana-schmand) — hier zählt Säure und Cremigkeit. Kefir aus dem Supermarkt funktioniert; im Polenladen oft bessere Śmietana zum Finish.
+
+### Rote Bete
+
+Vorgekocht aus dem Glas spart Zeit — frisch gekocht schmeckt erdig-süßer. Suppe muss **gut gekühlt** sein.
+
+### Servieren
+
+Mit halber Kartoffel und Ei — leichtes Hauptgericht, kein Vorspeisen-Schnipsel.`,
+      },
+      pl: {
+        title: "Chłodnik litewski",
+        slug: "chlodnik-litewski",
+        excerpt:
+          "Zimny chłodnik na burakach z ogórkiem, koperkiem i śmietaną — klasyk lata.",
+        steps: [
+          {
+            text: "Ugotowane buraki zetrzyj lub zblenduj. Wymieszaj z kefired lub jogurtem i bulionem.",
+          },
+          {
+            text: "Ogórek, rzodkiewkę, koperek i jajko na twardo drobno pokrój.",
+          },
+          {
+            text: "Warzywa dodaj do zimnej bazy. Dopraw solą, cytryną i cukrem.",
+            tip: "Minimum 2 h w lodówce — lepszy następnego dnia.",
+          },
+          { text: "Podawaj z ugotowanym ziemniakiem i extra śmietaną." },
+        ],
+        seoTitle: "Chłodnik litewski przepis | Alemniam",
+        seoDescription:
+          "Chłodnik na burakach — zimna zupa, przepis dwujęzyczny.",
+        article: `## Chłodnik — zimna zupa na gorące lato w diasporze
+
+Buraki, kefir lub jogurt, ogórek, koperek — różowy, chłodny, kwaśno-świeży. To nie [barszcz czerwony](/pl/rezepte/barszcz-czerwony) (gorący i klarowny), tylko letnia zupa w misce.
+
+### Śmietana i kefir
+
+[Śmietana czy Schmand](/pl/blog/smietana-czy-schmand). Kefir ze supermarketu działa; w polskim sklepie często lepsza śmietana na wierzch.
+
+### Buraki
+
+Gotowane z słoika oszczędza czas — świeże smakują bardziej ziemiście. Zupa musi być **mocno schłodzona**.
+
+### Podanie
+
+Z połówką ziemniaka i jajkiem — lekki obiad, nie tylko przystawka.`,
+      },
+    },
+    ingredients: [
+      {
+        id: "ch-1",
+        name: { de: "Gekochte Rote Bete", pl: "Buraki ugotowane" },
+        amount: 500,
+        unit: { de: "g", pl: "g" },
+        group: "produce",
+        storeHintDe: "Vorgekocht im Glas oder frisch",
+      },
+      {
+        id: "ch-2",
+        name: { de: "Kefir oder Naturjoghurt", pl: "Kefir lub jogurt naturalny" },
+        amount: 500,
+        unit: { de: "ml", pl: "ml" },
+        group: "dairy",
+      },
+      {
+        id: "ch-3",
+        name: { de: "Gurke", pl: "Ogórek" },
+        amount: 1,
+        unit: { de: "Stück", pl: "szt." },
+        group: "produce",
+      },
+      {
+        id: "ch-4",
+        name: { de: "Radieschen", pl: "Rzodkiewka" },
+        amount: 4,
+        unit: { de: "Stück", pl: "szt." },
+        group: "produce",
+      },
+      {
+        id: "ch-5",
+        name: { de: "Dill", pl: "Koper" },
+        amount: 1,
+        unit: { de: "Bund", pl: "pęczek" },
+        group: "produce",
+      },
+      {
+        id: "ch-6",
+        name: { de: "Sauerrahm", pl: "Śmietana" },
+        amount: 150,
+        unit: { de: "g", pl: "g" },
+        group: "dairy",
+        storeHintDe: "Schmand / saure Sahne",
+      },
+      {
+        id: "ch-7",
+        name: { de: "Eier", pl: "Jajka" },
+        amount: 2,
+        unit: { de: "Stück", pl: "szt." },
+        group: "dairy",
+      },
+    ],
+    createdAt: "2026-07-20T10:00:00.000Z",
+    updatedAt: "2026-07-20T10:00:00.000Z",
+  },
 ];
 
 export const seedRecipes: Recipe[] = [
@@ -1307,6 +2061,78 @@ export const seedRecipes: Recipe[] = [
         "post-gusseisen",
         "post-sonntagsessen",
         "post-kasza",
+        "post-smietana-schmand",
+      ],
+    };
+  }
+  if (recipe.id === "recipe-gulasz") {
+    return {
+      ...recipe,
+      relatedPostIds: [
+        "post-placki-guide",
+        "post-sonntagsessen",
+        "post-dutch-oven",
+        "post-kielbasa-arten",
+        "post-gusseisen",
+      ],
+      occasionIds: Array.from(
+        new Set([...recipe.occasionIds, "occasion-niedziela"]),
+      ),
+      techniqueIds: Array.from(
+        new Set([...recipe.techniqueIds, "technique-schmoren"]),
+      ),
+    };
+  }
+  if (recipe.id === "recipe-kotlet-mielony") {
+    return {
+      ...recipe,
+      relatedPostIds: [
+        "post-panieren",
+        "post-gusseisen",
+        "post-sonntagsessen",
+        "post-fleischwolf",
+        "post-wielkanoc",
+      ],
+      occasionIds: Array.from(
+        new Set([...recipe.occasionIds, "occasion-niedziela"]),
+      ),
+      techniqueIds: Array.from(
+        new Set([...recipe.techniqueIds, "technique-panieren"]),
+      ),
+    };
+  }
+  if (recipe.id === "recipe-kluski-slaskie") {
+    return {
+      ...recipe,
+      relatedPostIds: [
+        "post-rosol-technik",
+        "post-sonntagsessen",
+        "post-kasza",
+        "post-polnische-suppen",
+      ],
+      occasionIds: Array.from(
+        new Set([...recipe.occasionIds, "occasion-niedziela"]),
+      ),
+    };
+  }
+  if (recipe.id === "recipe-racuchy") {
+    return {
+      ...recipe,
+      relatedPostIds: [
+        "post-tlusty-czwartek",
+        "post-twarog",
+        "post-ersatzprodukte-de",
+      ],
+    };
+  }
+  if (recipe.id === "recipe-chlodnik") {
+    return {
+      ...recipe,
+      relatedPostIds: [
+        "post-smietana-schmand",
+        "post-polnische-suppen",
+        "post-barszcz-technik",
+        "post-ersatzprodukte-de",
       ],
     };
   }
