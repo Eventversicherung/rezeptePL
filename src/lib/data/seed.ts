@@ -11,6 +11,7 @@ import {
   seedFamilies,
   seedFamilyVariantRecipes,
 } from "./seed-families";
+import { seedRecipesWave5 } from "./seed-recipes-wave5";
 
 export const seedClusters = expandedClusters;
 export { seedFamilies, seedBlogPosts };
@@ -839,41 +840,59 @@ Przełącz u góry: [cukinia](/pl/rezepte/placki/cukinia), [ser](/pl/rezepte/pla
     prepMinutes: 15,
     cookMinutes: 25,
     servings: 4,
+    familyId: "family-nalesniki",
+    variantLabel: { de: "Twaróg", pl: "z twarogiem" },
+    variantImage:
+      "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=400&q=80",
     regionIds: [],
     occasionIds: [],
-    techniqueIds: ["technique-teig"],
+    techniqueIds: ["technique-teig", "technique-freezer"],
     categoryIds: [
       "category-schnell",
       "category-suess",
       "category-vegetarisch",
     ],
+    relatedPostIds: [
+      "post-nalesniki-guide",
+      "post-twarog",
+      "post-smietana-schmand",
+      "post-ersatzprodukte-de",
+    ],
     videoUrl: null,
     translations: {
       de: {
         title: "Naleśniki mit Twaróg",
-        slug: "nalesniki-twarog",
+        slug: "twarog",
         excerpt: "Dünne Pfannkuchen mit süßer Quarkfüllung.",
         steps: [
           { text: "Teig aus Milch, Eiern und Mehl ruhen lassen." },
           { text: "Dünne Pfannkuchen backen." },
-          { text: "Twaróg mit Zucker und Vanille mischen.", tip: "Etwas Sauerrahm macht die Füllung cremiger." },
+          {
+            text: "Twaróg mit Zucker und Vanille mischen.",
+            tip: "Etwas Sauerrahm macht die Füllung cremiger.",
+          },
           { text: "Füllen, rollen, optional in Butter anbraten." },
         ],
-        seoTitle: "Naleśniki mit Twaróg | Alemniam",
-        seoDescription: "Polnische Pfannkuchen mit Quark. Rezept und Liste.",
+        seoTitle: "Naleśniki mit Twaróg Rezept | Alemniam",
+        seoDescription:
+          "Polnische Pfannkuchen mit Quark — Variante Twaróg, bilingual mit DE-Einkauf.",
       },
       pl: {
         title: "Naleśniki z twarogiem",
-        slug: "nalesniki-twarog",
+        slug: "twarog",
         excerpt: "Cienkie naleśniki ze słodkim twarogiem.",
         steps: [
           { text: "Zrób ciasto z mleka, jajek i mąki, odstaw." },
           { text: "Usmaż cienkie naleśniki." },
-          { text: "Wymieszaj twaróg z cukrem i wanilią.", tip: "Odrobina śmietany daje kremowość." },
+          {
+            text: "Wymieszaj twaróg z cukrem i wanilią.",
+            tip: "Odrobina śmietany daje kremowość.",
+          },
           { text: "Nadziewaj, zawiń, opcjonalnie podsmaż na maśle." },
         ],
-        seoTitle: "Naleśniki z twarogiem | Alemniam",
-        seoDescription: "Naleśniki z twarogiem. Przepis i zakupy.",
+        seoTitle: "Naleśniki z twarogiem przepis | Alemniam",
+        seoDescription:
+          "Naleśniki z twarogiem — wariant klasyczny, dwujęzycznie.",
       },
     },
     ingredients: [
@@ -1969,6 +1988,7 @@ Z połówką ziemniaka i jajkiem — lekki obiad, nie tylko przystawka.`,
 export const seedRecipes: Recipe[] = [
   ...baseRecipes,
   ...seedFamilyVariantRecipes,
+  ...seedRecipesWave5,
 ].map((recipe) => {
   if (recipe.id === "recipe-nalesniki") {
     return {
@@ -2155,13 +2175,26 @@ export const seedRecipes: Recipe[] = [
   if (recipe.id === "recipe-faworki") {
     return {
       ...recipe,
-      relatedPostIds: ["post-tlusty-czwartek"],
+      relatedPostIds: [
+        "post-faworki-technik",
+        "post-tlusty-czwartek",
+        "post-ersatzprodukte-de",
+      ],
+      occasionIds: Array.from(
+        new Set([...recipe.occasionIds, "occasion-tlusty-czwartek"]),
+      ),
     };
   }
   if (recipe.id === "recipe-fasolka") {
     return {
       ...recipe,
-      relatedPostIds: ["post-kielbasa-arten", "post-polenladen"],
+      relatedPostIds: [
+        "post-fasolka-guide",
+        "post-kielbasa-arten",
+        "post-polenladen",
+        "post-majeranek",
+        "post-dutch-oven",
+      ],
     };
   }
   if (recipe.id === "recipe-oscypek") {
@@ -2172,6 +2205,61 @@ export const seedRecipes: Recipe[] = [
         "post-gusseisen",
         "post-polenladen",
         "post-ersatzprodukte-de",
+      ],
+    };
+  }
+  if (recipe.id === "recipe-pierogi-leniwe") {
+    return {
+      ...recipe,
+      relatedPostIds: [
+        "post-twarog",
+        "post-nalesniki-guide",
+        "post-pierogi-guide",
+        "post-ersatzprodukte-de",
+      ],
+    };
+  }
+  if (recipe.id === "recipe-kopytka") {
+    return {
+      ...recipe,
+      relatedPostIds: [
+        "post-placki-guide",
+        "post-sonntagsessen",
+        "post-dutch-oven",
+        "post-kasza",
+      ],
+    };
+  }
+  if (recipe.id === "recipe-lazanki") {
+    return {
+      ...recipe,
+      relatedPostIds: [
+        "post-kiszenie",
+        "post-bigos-guide",
+        "post-polenladen",
+        "post-sonntagsessen",
+      ],
+    };
+  }
+  if (recipe.id === "recipe-pyzy") {
+    return {
+      ...recipe,
+      relatedPostIds: [
+        "post-fleischwolf",
+        "post-sonntagsessen",
+        "post-freezer-meal-prep",
+        "post-majeranek",
+      ],
+    };
+  }
+  if (recipe.id === "recipe-zrazy") {
+    return {
+      ...recipe,
+      relatedPostIds: [
+        "post-sonntagsessen",
+        "post-dutch-oven",
+        "post-majeranek",
+        "post-rosol-technik",
       ],
     };
   }

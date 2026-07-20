@@ -27,7 +27,16 @@
     "allRecipes": "Alle Rezepte",
     "search": "Gericht, Zutat oder Name…",
     "searchKicker": "Suche",
-    "searchSubmit": "Suchen"
+    "searchSubmit": "Suchen",
+    "aboutKicker": "Das Kochbuch",
+    "aboutHeading": "Polnische Küche für den Alltag in Deutschland",
+    "aboutLead": "Alemniam ist ein digitales Kochbuch — keine Rezeptsammlung zum Durchscrollen, sondern ein ruhiger Begleiter vom Einkauf bis zum Teller. Klar geschrieben, alltagstauglich, mit dem Geschmack von zu Hause.",
+    "aboutPillar1Title": "Klar statt Folklore",
+    "aboutPillar1Body": "Mengen, Schritte und Tipps, die in einer deutschen Küche funktionieren — ohne Show, ohne unnötige Spezialzutaten.",
+    "aboutPillar2Title": "Einkaufen und kochen",
+    "aboutPillar2Body": "Was im Polenladen lohnt, was im Supermarkt reicht, und wie das Gericht danach wirklich gelingt.",
+    "aboutPillar3Title": "Zuhause schmecken",
+    "aboutPillar3Body": "Klassiker für Sonntag, Wigilia und den schnellen Feierabend — Tradition, die in den Wochenplan passt."
   },
   "recipes": {
     "title": "Rezepte",

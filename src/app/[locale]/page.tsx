@@ -116,7 +116,39 @@ export default async function HomePage({
         </div>
       </section>
 
-      {/* 3 — Categories (hub language) */}
+      {/* 3 — Cookbook philosophy */}
+      <section className="reveal" aria-labelledby="home-about-heading">
+        <p className="section-kicker">{t("aboutKicker")}</p>
+        <h2
+          id="home-about-heading"
+          className="mt-3 max-w-[22ch] font-display text-[clamp(1.75rem,4vw,2.6rem)] font-semibold leading-tight"
+        >
+          {t("aboutHeading")}
+        </h2>
+        <p className="mt-5 max-w-[52ch] text-lg text-muted sm:text-xl">
+          {t("aboutLead")}
+        </p>
+        <ul className="stagger mt-10 grid gap-8 sm:grid-cols-3 sm:gap-6">
+          {(
+            [
+              ["aboutPillar1Title", "aboutPillar1Body"],
+              ["aboutPillar2Title", "aboutPillar2Body"],
+              ["aboutPillar3Title", "aboutPillar3Body"],
+            ] as const
+          ).map(([titleKey, bodyKey]) => (
+            <li key={titleKey} className="border-t border-border pt-5">
+              <h3 className="font-display text-xl font-semibold">
+                {t(titleKey)}
+              </h3>
+              <p className="mt-2 max-w-[32ch] text-sm leading-relaxed text-muted">
+                {t(bodyKey)}
+              </p>
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      {/* 4 — Categories (hub language) */}
       <section className="reveal space-y-4">
         <div className="flex flex-wrap items-baseline justify-between gap-3">
           <h2 className="font-display text-[clamp(1.55rem,3.5vw,2.15rem)] font-semibold">
@@ -136,7 +168,7 @@ export default async function HomePage({
         />
       </section>
 
-      {/* 4 — Recipe grid (more dishes, hub density controls) */}
+      {/* 5 — Recipe grid (more dishes, hub density controls) */}
       <section className="reveal space-y-5">
         <div className="flex flex-wrap items-end justify-between gap-3">
           <div>
@@ -173,7 +205,7 @@ export default async function HomePage({
         </RecipeGridControls>
       </section>
 
-      {/* 5 — Discover clusters (curated, landing-friendly) */}
+      {/* 6 — Discover clusters (curated, landing-friendly) */}
       <section className="reveal space-y-5">
         <div>
           <p className="section-kicker">{t("clusters")}</p>

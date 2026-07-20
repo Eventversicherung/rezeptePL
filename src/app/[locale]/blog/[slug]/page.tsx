@@ -11,6 +11,12 @@ import {
   getRecipeById,
   listPublishedBlogPosts,
 } from "@/lib/data/repository";
+import {
+  blogPostingJsonLd,
+  breadcrumbJsonLd,
+  faqPageJsonLd,
+  parseFaqFromMarkdown,
+} from "@/lib/seo/jsonld";
 import { siteUrl } from "@/lib/utils";
 import type { Locale, Recipe, RecipeFamily } from "@/types/content";
 import { routing } from "@/i18n/routing";
@@ -97,9 +103,26 @@ export default async function BlogPostPage({
   );
 
   const tr = post.translations[locale];
+  const base = siteUrl();
+  const url = `${base}/${locale}/blog/${tr.slug}`;
+  const faqs = parseFaqFromMarkdown(tr.body);
+  const faqLd = faqPageJsonLd(faqs);
+  const jsonLd = [
+    blogPostingJsonLd(post, locale, url),
+    breadcrumbJsonLd([
+      { name: tCommon("home"), url: `${base}/${locale}` },
+      { name: t("title"), url: `${base}/${locale}/blog` },
+      { name: tr.title, url },
+    ]),
+    ...(faqLd ? [faqLd] : []),
+  ];
 
   return (
     <div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <div className="mx-auto max-w-3xl">
         <Breadcrumbs
           ariaLabel={tCommon("breadcrumbs")}

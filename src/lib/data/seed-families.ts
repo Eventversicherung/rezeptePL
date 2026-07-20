@@ -2,6 +2,53 @@ import type { Recipe, RecipeFamily } from "@/types/content";
 
 export const seedFamilies: RecipeFamily[] = [
   {
+    id: "family-nalesniki",
+    defaultVariantId: "recipe-nalesniki",
+    coverImage:
+      "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=1600&q=80",
+    regionIds: [],
+    occasionIds: [],
+    techniqueIds: ["technique-teig", "technique-freezer"],
+    categoryIds: [
+      "category-schnell",
+      "category-suess",
+      "category-vegetarisch",
+      "category-hauptgerichte",
+    ],
+    variantIds: [
+      "recipe-nalesniki",
+      "recipe-nalesniki-mieso",
+      "recipe-nalesniki-szpinak",
+    ],
+    relatedPostIds: [
+      "post-nalesniki-guide",
+      "post-twarog",
+      "post-smietana-schmand",
+      "post-ersatzprodukte-de",
+      "post-freezer-meal-prep",
+    ],
+    translations: {
+      de: {
+        title: "Naleśniki",
+        slug: "nalesniki",
+        excerpt:
+          "Eine Familie, mehrere Füllungen. Twaróg, Fleisch oder Spinat — oben wechseln.",
+        seoTitle: "Naleśniki Rezepte | Alle Varianten | Alemniam",
+        seoDescription:
+          "Naleśniki bilingual: mit Twaróg, mit Fleisch, mit Spinat. Backen und Einkaufen in einer App.",
+      },
+      pl: {
+        title: "Naleśniki",
+        slug: "nalesniki",
+        excerpt:
+          "Jedna rodzina, kilka farszów. Twaróg, mięso albo szpinak — przełącz u góry.",
+        seoTitle: "Naleśniki przepisy | Wszystkie warianty | Alemniam",
+        seoDescription:
+          "Naleśniki dwujęzycznie: z twarogiem, z mięsem, ze szpinakiem. Gotowanie i zakupy.",
+      },
+    },
+  },
+  {
     id: "family-pierogi",
     defaultVariantId: "recipe-pierogi",
     coverImage: "/recipes/pierogi-ruskie.jpg",
@@ -883,5 +930,303 @@ Kwaśne jabłka (Antonówka, szara reneta) trzymają formę. Masło z olejem chr
     ],
     createdAt: "2026-07-20T10:00:00.000Z",
     updatedAt: "2026-07-20T10:00:00.000Z",
+  },
+  {
+    id: "recipe-nalesniki-mieso",
+    status: "published",
+    coverImage:
+      "https://images.unsplash.com/photo-1528207776546-365bb710ee93?w=1600&q=80",
+    prepMinutes: 35,
+    cookMinutes: 30,
+    servings: 4,
+    familyId: "family-nalesniki",
+    variantLabel: { de: "Fleisch", pl: "z mięsem" },
+    variantImage:
+      "https://images.unsplash.com/photo-1528207776546-365bb710ee93?w=400&q=80",
+    regionIds: [],
+    occasionIds: ["occasion-niedziela"],
+    techniqueIds: ["technique-teig", "technique-freezer"],
+    categoryIds: ["category-hauptgerichte"],
+    relatedPostIds: [
+      "post-nalesniki-guide",
+      "post-fleischwolf",
+      "post-freezer-meal-prep",
+      "post-sonntagsessen",
+    ],
+    videoUrl: null,
+    translations: {
+      de: {
+        title: "Naleśniki mit Fleisch",
+        slug: "fleisch",
+        excerpt:
+          "Herzhaft gefüllte Naleśniki mit gedünstetem Hack — satt und sonntagstauglich.",
+        steps: [
+          {
+            text: "Naleśniki-Teig anrühren, 30 Minuten ruhen, dünne Pfannkuchen backen.",
+          },
+          {
+            text: "Hack mit Zwiebel anbraten, mit Salz, Pfeffer und Majoran würzen. Abkühlen.",
+            tip: "Füllung muss kalt und nicht zu saftig sein.",
+          },
+          { text: "Füllen, fest rollen, in Butter goldbraun anbraten." },
+          { text: "Mit Dill oder klarer Soße servieren." },
+        ],
+        seoTitle: "Naleśniki mit Fleisch Rezept | Alemniam",
+        seoDescription:
+          "Naleśniki z mięsem: herzhafte Füllung, Teig und Braten — bilingual.",
+        article: `## Naleśniki mit Fleisch — herzhaft statt süß
+
+Dieselbe dünne Plattform wie bei Twaróg, aber mit gedünstetem Hack. Ideal, wenn der Tisch salzig will und trotzdem Naleśniki-Technik bleibt.
+
+### Füllung
+
+Hack nicht roh einfüllen. Anbraten, abkühlen, abtropfen. Zu nass = Teig weich. Majoran verbindet mit [Pierogi Fleisch](/de/rezepte/pierogi/fleisch).
+
+### Technik
+
+Teig und Wenden: [Naleśniki-Guide](/de/blog/nalesniki-guide). Freezer: leere Pfannkuchen einfrieren, Füllung frisch.
+
+### Geschwister
+
+Oben zu [Twaróg](/de/rezepte/nalesniki/twarog) oder [Spinat](/de/rezepte/nalesniki/szpinak).`,
+      },
+      pl: {
+        title: "Naleśniki z mięsem",
+        slug: "mieso",
+        excerpt:
+          "Wytrawne naleśniki z duszonym mięsem — sycące na niedzielę.",
+        steps: [
+          {
+            text: "Zrób ciasto na naleśniki, odstaw 30 min, usmaż cienkie placki.",
+          },
+          {
+            text: "Przesmaż mięso z cebulą, dopraw solą, pieprzem i majerankiem. Ostudź.",
+            tip: "Farsz musi być zimny i nie za mokry.",
+          },
+          { text: "Nadziewaj, szczelnie zawiń, podsmaż na maśle na złoto." },
+          { text: "Podawaj z koperkiem albo jasnym sosem." },
+        ],
+        seoTitle: "Naleśniki z mięsem przepis | Alemniam",
+        seoDescription:
+          "Naleśniki z mięsem: farsz, ciasto i smażenie — dwujęzycznie.",
+        article: `## Naleśniki z mięsem — wytrawnie zamiast słodko
+
+Ta sama cienka platforma co przy twarogu, ale z duszonym mięsem. Gdy stół chce słono, a technika naleśników zostaje.
+
+### Farsz
+
+Nie wkładaj surowego mięsa. Przesmaż, ostudź, odcedź. Za mokro = ciasto mięknie. Majeranek łączy z [pierogami z mięsem](/pl/rezepte/pierogi/mieso).
+
+### Technika
+
+Ciasto i przewracanie: [przewodnik naleśników](/pl/blog/nalesniki-przewodnik). Freezer: mroź puste placki, farsz świeży.
+
+### Rodzeństwo
+
+Przełącz na [twaróg](/pl/rezepte/nalesniki/twarog) albo [szpinak](/pl/rezepte/nalesniki/szpinak).`,
+      },
+    },
+    ingredients: [
+      {
+        id: "nm-1",
+        name: { de: "Milch", pl: "Mleko" },
+        amount: 400,
+        unit: { de: "ml", pl: "ml" },
+        group: "dairy",
+      },
+      {
+        id: "nm-2",
+        name: { de: "Mehl", pl: "Mąka" },
+        amount: 200,
+        unit: { de: "g", pl: "g" },
+        group: "pantry",
+      },
+      {
+        id: "nm-3",
+        name: { de: "Eier", pl: "Jajka" },
+        amount: 2,
+        unit: { de: "Stück", pl: "szt." },
+        group: "dairy",
+      },
+      {
+        id: "nm-4",
+        name: { de: "Hackfleisch gemischt", pl: "Mięso mielone" },
+        amount: 400,
+        unit: { de: "g", pl: "g" },
+        group: "other",
+      },
+      {
+        id: "nm-5",
+        name: { de: "Zwiebel", pl: "Cebula" },
+        amount: 1,
+        unit: { de: "Stück", pl: "szt." },
+        group: "produce",
+      },
+      {
+        id: "nm-6",
+        name: { de: "Majoran", pl: "Majeranek" },
+        amount: 1,
+        unit: { de: "TL", pl: "łyżeczka" },
+        group: "spices",
+      },
+      {
+        id: "nm-7",
+        name: { de: "Butter", pl: "Masło" },
+        amount: 40,
+        unit: { de: "g", pl: "g" },
+        group: "dairy",
+      },
+    ],
+    createdAt: "2026-07-20T14:00:00.000Z",
+    updatedAt: "2026-07-20T14:00:00.000Z",
+  },
+  {
+    id: "recipe-nalesniki-szpinak",
+    status: "published",
+    coverImage:
+      "https://images.unsplash.com/photo-1626074353765-517a681e40be?w=1600&q=80",
+    prepMinutes: 25,
+    cookMinutes: 25,
+    servings: 4,
+    familyId: "family-nalesniki",
+    variantLabel: { de: "Spinat", pl: "ze szpinakiem" },
+    variantImage:
+      "https://images.unsplash.com/photo-1626074353765-517a681e40be?w=400&q=80",
+    regionIds: [],
+    occasionIds: [],
+    techniqueIds: ["technique-teig"],
+    categoryIds: [
+      "category-schnell",
+      "category-hauptgerichte",
+      "category-vegetarisch",
+    ],
+    relatedPostIds: [
+      "post-nalesniki-guide",
+      "post-smietana-schmand",
+      "post-ersatzprodukte-de",
+      "post-kasza",
+    ],
+    videoUrl: null,
+    translations: {
+      de: {
+        title: "Naleśniki mit Spinat",
+        slug: "szpinak",
+        excerpt:
+          "Herzhafte Naleśniki mit Spinat und Käse — leichter als Fleisch, klarer als süß.",
+        steps: [
+          { text: "Teig anrühren, ruhen, dünne Naleśniki backen." },
+          {
+            text: "Spinat mit Knoblauch andünsten, abtropfen, mit Käse und Salz mischen.",
+            tip: "Gut ausdrücken — nasser Spinat weicht den Teig auf.",
+          },
+          { text: "Füllen, rollen, optional in Butter anbraten." },
+          { text: "Mit Śmietana oder Jogurt servieren." },
+        ],
+        seoTitle: "Naleśniki mit Spinat Rezept | Alemniam",
+        seoDescription:
+          "Naleśniki ze szpinakiem: herzhafte vegetarische Variante — bilingual.",
+        article: `## Naleśniki mit Spinat — herzhaft vegetarisch
+
+Zwischen süßem Twaróg und Fleischfüllung: Spinat mit Knoblauch und etwas Käse. Alltagstauglich, kinderfreundlich wenn nicht „grün“ genannt wird.
+
+### Spinat abtropfen
+
+Tiefkühlspinat gut ausdrücken; Frischspinat kurz andünsten und pressen. Feuchtigkeit ist der Feind.
+
+### Einkaufen
+
+Spinat, Knoblauch, geriebener Käse oder Twaróg-salzig. [Śmietana](/de/blog/smietana-schmand) zum Servieren. Technik: [Naleśniki-Guide](/de/blog/nalesniki-guide).
+
+### Geschwister
+
+[Twaróg](/de/rezepte/nalesniki/twarog) · [Fleisch](/de/rezepte/nalesniki/fleisch)`,
+      },
+      pl: {
+        title: "Naleśniki ze szpinakiem",
+        slug: "szpinak",
+        excerpt:
+          "Wytrawne naleśniki ze szpinakiem i serem — lżejsze niż mięso, wyraźniejsze niż słodkie.",
+        steps: [
+          { text: "Zrób ciasto, odstaw, usmaż cienkie naleśniki." },
+          {
+            text: "Szpinak zeszklij z czosnkiem, odciśnij, wymieszaj z serem i solą.",
+            tip: "Dobrze odciśnij — mokry szpinak psuje ciasto.",
+          },
+          { text: "Nadziewaj, zawiń, opcjonalnie podsmaż na maśle." },
+          { text: "Podawaj ze śmietaną albo jogurtem." },
+        ],
+        seoTitle: "Naleśniki ze szpinakiem przepis | Alemniam",
+        seoDescription:
+          "Naleśniki ze szpinakiem: wytrawny wariant wegetariański — dwujęzycznie.",
+        article: `## Naleśniki ze szpinakiem — wytrawnie wegetariańsko
+
+Między słodkim twarogiem a mięsem: szpinak z czosnkiem i odrobiną sera. Na co dzień, przyjazne dzieciom, gdy nie nazywamy tego „zielonym dziwem”.
+
+### Odciśnij szpinak
+
+Mrożony mocno odciśnij; świeży krótko podsmaż i wyciśnij. Wilgoć to wróg.
+
+### Zakupy
+
+Szpinak, czosnek, tarty ser albo słony twaróg. [Śmietana](/pl/blog/smietana-schmand) do podania. Technika: [przewodnik naleśników](/pl/blog/nalesniki-przewodnik).
+
+### Rodzeństwo
+
+[Twaróg](/pl/rezepte/nalesniki/twarog) · [Mięso](/pl/rezepte/nalesniki/mieso)`,
+      },
+    },
+    ingredients: [
+      {
+        id: "ns-1",
+        name: { de: "Milch", pl: "Mleko" },
+        amount: 400,
+        unit: { de: "ml", pl: "ml" },
+        group: "dairy",
+      },
+      {
+        id: "ns-2",
+        name: { de: "Mehl", pl: "Mąka" },
+        amount: 200,
+        unit: { de: "g", pl: "g" },
+        group: "pantry",
+      },
+      {
+        id: "ns-3",
+        name: { de: "Eier", pl: "Jajka" },
+        amount: 2,
+        unit: { de: "Stück", pl: "szt." },
+        group: "dairy",
+      },
+      {
+        id: "ns-4",
+        name: { de: "Spinat (TK oder frisch)", pl: "Szpinak (mrożony lub świeży)" },
+        amount: 400,
+        unit: { de: "g", pl: "g" },
+        group: "produce",
+      },
+      {
+        id: "ns-5",
+        name: { de: "Knoblauch", pl: "Czosnek" },
+        amount: 2,
+        unit: { de: "Zehen", pl: "ząbki" },
+        group: "produce",
+      },
+      {
+        id: "ns-6",
+        name: { de: "Geriebener Käse", pl: "Tarty ser" },
+        amount: 80,
+        unit: { de: "g", pl: "g" },
+        group: "dairy",
+      },
+      {
+        id: "ns-7",
+        name: { de: "Butter", pl: "Masło" },
+        amount: 30,
+        unit: { de: "g", pl: "g" },
+        group: "dairy",
+      },
+    ],
+    createdAt: "2026-07-20T14:30:00.000Z",
+    updatedAt: "2026-07-20T14:30:00.000Z",
   },
 ];

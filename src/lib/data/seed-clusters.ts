@@ -1,8 +1,14 @@
 import type { Cluster } from "@/types/content";
 import {
   hubIntroBulion,
+  hubIntroFreezer,
+  hubIntroKiszenie,
   hubIntroNiedziela,
+  hubIntroPanieren,
+  hubIntroSchmoren,
   hubIntroTeig,
+  hubIntroTlustyCzwartek,
+  hubIntroWielkanoc,
   hubIntroWigilia,
 } from "./hub-intros";
 
@@ -175,8 +181,8 @@ export const seedClusters: Cluster[] = [
     slug: { de: "ostern", pl: "wielkanoc" },
     title: { de: "Ostern", pl: "Wielkanoc" },
     description: {
-      de: "Osterfrühstück und Festessen — Żurek, Weißwurst, Babka.",
-      pl: "Śniadanie wielkanocne i święta — żurek, biała kiełbasa, babka.",
+      de: hubIntroWielkanoc.de.trim(),
+      pl: hubIntroWielkanoc.pl.trim(),
     },
     seoTitle: {
       de: "Polnische Osterrezepte | Alemniam",
@@ -193,8 +199,8 @@ export const seedClusters: Cluster[] = [
     slug: { de: "tlusty-czwartek", pl: "tlusty-czwartek" },
     title: { de: "Tłusty Czwartek", pl: "Tłusty Czwartek" },
     description: {
-      de: "Fetter Donnerstag — Pączki und süße Klassiker ohne Drama.",
-      pl: "Tłusty Czwartek — pączki i słodkie klasyki bez chaosu.",
+      de: hubIntroTlustyCzwartek.de.trim(),
+      pl: hubIntroTlustyCzwartek.pl.trim(),
     },
     seoTitle: {
       de: "Tłusty Czwartek Rezepte | Alemniam",
@@ -337,8 +343,8 @@ export const seedClusters: Cluster[] = [
     slug: { de: "fermentieren", pl: "kiszenie" },
     title: { de: "Fermentieren", pl: "Kiszenie" },
     description: {
-      de: "Kapusta, Ogórki, Zakwas — sauber fermentieren zu Hause.",
-      pl: "Kapusta, ogórki, zakwas — czyste kiszenie w domu.",
+      de: hubIntroKiszenie.de.trim(),
+      pl: hubIntroKiszenie.pl.trim(),
     },
     seoTitle: {
       de: "Kiszonki & Fermentieren | Alemniam",
@@ -373,8 +379,8 @@ export const seedClusters: Cluster[] = [
     slug: { de: "panieren", pl: "panierowanie" },
     title: { de: "Panieren", pl: "Panierowanie" },
     description: {
-      de: "Schabowy und Co. — knusprige Panade ohne Stress.",
-      pl: "Schabowy i nie tylko — chrupiąca panierka bez stresu.",
+      de: hubIntroPanieren.de.trim(),
+      pl: hubIntroPanieren.pl.trim(),
     },
     seoTitle: {
       de: "Panieren wie bei Schabowy | Alemniam",
@@ -391,8 +397,8 @@ export const seedClusters: Cluster[] = [
     slug: { de: "schmoren", pl: "duszenie" },
     title: { de: "Schmoren", pl: "Duszenie" },
     description: {
-      de: "Langsam garen — Bigos, Gulasch, zarte Soßen.",
-      pl: "Wolne gotowanie — bigos, gulasz, sosy.",
+      de: hubIntroSchmoren.de.trim(),
+      pl: hubIntroSchmoren.pl.trim(),
     },
     seoTitle: {
       de: "Schmoren polnisch | Alemniam",
@@ -463,8 +469,8 @@ export const seedClusters: Cluster[] = [
     slug: { de: "freezer", pl: "mrozenie" },
     title: { de: "Freezer", pl: "Mrożenie" },
     description: {
-      de: "Pierogi und mehr batchen, einfrieren, später kochen.",
-      pl: "Pierogi i nie tylko — mrożenie partiami.",
+      de: hubIntroFreezer.de.trim(),
+      pl: hubIntroFreezer.pl.trim(),
     },
     seoTitle: {
       de: "Meal Prep Freezer polnisch | Alemniam",

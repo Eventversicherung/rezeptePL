@@ -27,7 +27,16 @@
     "allRecipes": "Wszystkie przepisy",
     "search": "Danie, składnik lub nazwa…",
     "searchKicker": "Szukaj",
-    "searchSubmit": "Szukaj"
+    "searchSubmit": "Szukaj",
+    "aboutKicker": "Książka kucharska",
+    "aboutHeading": "Polska kuchnia na co dzień w Niemczech",
+    "aboutLead": "Alemniam to cyfrowa książka kucharska — nie zbiór do przewijania, tylko spokojny towarzysz od zakupów do talerza. Jasno napisane, praktyczne, ze smakiem jak w domu.",
+    "aboutPillar1Title": "Jasno, bez folkloru",
+    "aboutPillar1Body": "Ilości, kroki i wskazówki, które działają w niemieckiej kuchni — bez show i zbędnych specjalności.",
+    "aboutPillar2Title": "Zakupy i gotowanie",
+    "aboutPillar2Body": "Co warto w sklepie polskim, co wystarczy w supermarkecie i jak danie potem naprawdę wychodzi.",
+    "aboutPillar3Title": "Smak jak w domu",
+    "aboutPillar3Body": "Klasyki na niedzielę, Wigilię i szybki wieczór po pracy — tradycja, która mieści się w tygodniu."
   },
   "recipes": {
     "title": "Przepisy",
