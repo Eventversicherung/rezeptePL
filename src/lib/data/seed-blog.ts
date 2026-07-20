@@ -215,6 +215,8 @@ const seedBlogPostsLive: BlogPost[] = [
       "recipe-barszcz",
       "recipe-uszka",
       "recipe-makowiec",
+      "recipe-karp",
+      "recipe-sledz",
       "recipe-pierogi",
     ],
     relatedPostIds: [

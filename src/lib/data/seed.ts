@@ -13,6 +13,7 @@ import {
 } from "./seed-families";
 import { seedRecipesWave5 } from "./seed-recipes-wave5";
 import { seedRecipesWave6 } from "./seed-recipes-wave6";
+import { seedRecipesWave7 } from "./seed-recipes-wave7";
 
 export const seedClusters = expandedClusters;
 export { seedFamilies, seedBlogPosts };
@@ -1997,6 +1998,7 @@ export const seedRecipes: Recipe[] = [
   ...seedFamilyVariantRecipes,
   ...seedRecipesWave5,
   ...seedRecipesWave6,
+  ...seedRecipesWave7,
 ].map((recipe) => {
   if (recipe.id === "recipe-nalesniki") {
     return {
@@ -2302,6 +2304,65 @@ export const seedRecipes: Recipe[] = [
         "post-majeranek",
         "post-rosol-technik",
       ],
+    };
+  }
+  if (recipe.id === "recipe-karp") {
+    return {
+      ...recipe,
+      relatedPostIds: [
+        "post-wigilia",
+        "post-majeranek",
+        "post-polenladen",
+        "post-ersatzprodukte-de",
+      ],
+      occasionIds: Array.from(
+        new Set([...recipe.occasionIds, "occasion-wigilia"]),
+      ),
+    };
+  }
+  if (recipe.id === "recipe-krokiety") {
+    return {
+      ...recipe,
+      relatedPostIds: [
+        "post-nalesniki-guide",
+        "post-barszcz-technik",
+        "post-panieren",
+        "post-kiszenie",
+        "post-wigilia",
+      ],
+      techniqueIds: Array.from(
+        new Set([
+          ...recipe.techniqueIds,
+          "technique-teig",
+          "technique-panieren",
+        ]),
+      ),
+    };
+  }
+  if (recipe.id === "recipe-sernik") {
+    return {
+      ...recipe,
+      relatedPostIds: [
+        "post-makowiec-technik",
+        "post-twarog",
+        "post-ersatzprodukte-de",
+        "post-wielkanoc",
+        "post-polenladen",
+      ],
+    };
+  }
+  if (recipe.id === "recipe-sledz") {
+    return {
+      ...recipe,
+      relatedPostIds: [
+        "post-wigilia",
+        "post-polenladen",
+        "post-ersatzprodukte-de",
+        "post-smietana-schmand",
+      ],
+      occasionIds: Array.from(
+        new Set([...recipe.occasionIds, "occasion-wigilia"]),
+      ),
     };
   }
   return recipe;

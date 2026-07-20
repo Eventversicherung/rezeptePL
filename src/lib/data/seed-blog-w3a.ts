@@ -64,6 +64,7 @@ export const seedBlogPostsW3a: BlogPost[] = [
       "recipe-nalesniki",
       "recipe-nalesniki-mieso",
       "recipe-nalesniki-szpinak",
+      "recipe-krokiety",
       "recipe-pierogi",
       "recipe-pierogi-leniwe",
     ],

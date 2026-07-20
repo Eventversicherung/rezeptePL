@@ -59,7 +59,12 @@ export const seedBlogPostsW3c: BlogPost[] = [
     coverImage:
       "https://images.unsplash.com/photo-1608818580423-ccfb08a254af?w=1600&q=80",
     siloIds: ["technique"],
-    relatedRecipeIds: ["recipe-barszcz", "recipe-uszka", "recipe-pierogi-cabbage"],
+    relatedRecipeIds: [
+      "recipe-barszcz",
+      "recipe-uszka",
+      "recipe-krokiety",
+      "recipe-pierogi-cabbage",
+    ],
     relatedPostIds: [
       "post-polnische-suppen",
       "post-smietana-schmand",

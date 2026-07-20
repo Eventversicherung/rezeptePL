@@ -1076,6 +1076,142 @@ const FACTS: Record<string, ArticleFacts> = {
     variantsPl:
       "Z udziałem kapusty kiszonej w farszu albo gotowe uszka ze sklepu jako awaria. Klarowna zupa: przepis na barszcz — nie duplikować tu.",
   },
+  "recipe-karp": {
+    dishDe: "Karp po polsku",
+    dishPl: "Karp po polsku",
+    vibeDe: "festlich, zart, nach Zwiebel und Majoran",
+    vibePl: "świąteczny, delikatny, z cebulą i majerankiem",
+    originDe:
+      "Karpfen ist für viele Familien der warme Fischgang der Wigilia — nicht Pflichtkanon, aber starkes Signal. Gebacken mit Zwiebel ist die diaspora-taugliche Variante: weniger Pfannenchaos als frittiert, klarer Geschmack. Der Wigilia-Speiseplan bleibt Owner für Menüreihenfolge und Anlass; hier bleibt der Koch-Intent „Karp Rezept“.",
+    originPl:
+      "Karp jest dla wielu domów ciepłą rybą Wigilii — nie sztywny kanon, ale mocny sygnał. Pieczony z cebulą to wariant pod diasporę: mniej chaosu niż smażenie, czytelny smak. Menu wigilijne zostaje ownerem kolejności i okazji; tu zostaje cook-intent „karp przepis”.",
+    shopDe:
+      "Frisch oder tiefgekühlt an der Fischtheke / im Polenladen. Zwiebel, Zitrone, Majoran, Dill. Majeranek-Lexikon für das Gewürz; Polenladen-Guide für den Einkaufstag. Gräten und Portionsgröße vorher klären — Kinderportionen oft filetiert.",
+    shopPl:
+      "Świeży lub mrożony w ladzie rybnej / sklepie polskim. Cebula, cytryna, majeranek, koperek. Leksykon majeranku przy przyprawie; przewodnik po sklepie polskim przy zakupach. Ości i wielkość porcji — dla dzieci często filet.",
+    techniqueDe:
+      "Salzen, säuern, würzen, ziehen lassen; Zwiebeln anschwitzen; mittlere Ofentemperatur, bis sich die Fasern lösen. Nicht austrocknen. Alternativ pfannenbraten — anderes Timing, gleiche Würzlogik.",
+    techniquePl:
+      "Posolić, skwasić, doprawić, odstawić; cebulę zeszklić; średnia temperatura pieca aż mięso się oddziela. Nie wysuszać. Alternatywnie smażyć — inny timing, ta sama logika przypraw.",
+    serveDe:
+      "Mit Zitrone und Dill, oft nach klarem Barszcz und Uszka. Kartoffeln oder Brot je nach Hausbrauch. Reste kalt oder aufgewärmt — am zweiten Tag milder.",
+    servePl:
+      "Z cytryną i koperkiem, często po klarownym barszczu i uszkach. Ziemniaki lub chleb według domu. Resztki zimne lub odgrzane — drugiego dnia łagodniejsze.",
+    diasporaDe:
+      "In DE ist lebender Karpfen selten Alltag — Portionen und Filets sind praxisnäher. Am 24. vormittags würzen, abends nur backen. Śledź bleibt der kalte Fischgang; Karp der warme.",
+    diasporaPl:
+      "W DE żywy karp rzadko jest codziennością — porcje i filety są praktyczniejsze. 24. rano doprawić, wieczorem tylko piec. Śledź zostaje zimną rybą; karp ciepłą.",
+    mistakesDe:
+      "Zu heiß und zu lange = trocken. Zu wenig Säure = fade. Speiseplan-Mengen hier duplizieren statt zu verlinken. Mit Śledź-Intent vermischen.",
+    mistakesPl:
+      "Za gorąco i za długo = suchy. Za mało kwasu = mdły. Duplikować menu zamiast linkować. Mieszać intent ze śledziem.",
+    variantsDe:
+      "In Gelee (galareta), paniert gebraten, oder moderne Alternative Lachs — ehrlich benennen. Kalter Hering: eigene Money Page Śledź.",
+    variantsPl:
+      "W galarecie, smażony w panierce albo nowoczesna alternatywa łosoś — nazywać uczciwie. Zimny śledź: osobna money page.",
+  },
+  "recipe-krokiety": {
+    dishDe: "Krokiety",
+    dishPl: "Krokiety",
+    vibeDe: "knusprig außen, weich innen, barszczfreundlich",
+    vibePl: "chrupiące na zewnątrz, miękkie w środku, do barszczu",
+    originDe:
+      "Krokiety sind gerollte, panierte Naleśniki — klassisch mit Kraut und Pilzen, oft neben klarem Barszcz. Sie sind keine reine Naleśniki-Dessertseite und kein Duplikat von Pierogi Kraut-Pilze: eigene Form (Rolle + Panade), eigener Primary-KW „Krokiety Rezept“.",
+    originPl:
+      "Krokiety to zwinięte, panierowane naleśniki — klasycznie z kapustą i grzybami, często obok klarownego barszczu. To nie deserowe naleśniki i nie duplikat pierogów z kapustą: własna forma (rolka + panierka), własne primary KW „krokiety przepis”.",
+    shopDe:
+      "Mehl, Milch, Eier für den Teig; Sauerkraut, getrocknete Pilze, Zwiebel für die Füllung; Semmelbrösel und Fett zum Braten. Naleśniki-Guide für Teiggefühl; Kiszenie/Polenladen für Kraut und Pilze; Panieren-Guide für die Panade-Logik.",
+    shopPl:
+      "Mąka, mleko, jajka na ciasto; kapusta kiszona, suszone grzyby, cebula na farsz; bułka tarta i tłuszcz do smażenia. Przewodnik naleśników przy cieście; kiszenie/sklep polski przy kapuście i grzybach; panierowanie przy panierce.",
+    techniqueDe:
+      "Dünne Naleśniki, trockene Füllung, fest rollen, panieren, goldbraun braten. Füllung muss abgekühlt sein. Zu nass = Rollen platzen; zu dick = Teig dominiert.",
+    techniquePl:
+      "Cienkie naleśniki, suchy farsz, mocno zwijać, panierować, smażyć na złoto. Farsz ostudzony. Za mokry = pękają; za gruby = ciasto dominuje.",
+    serveDe:
+      "Heiß mit klarem Barszcz oder allein mit Śmietana. Reste erneut in der Pfanne knusprig machen. Uszka sind verwandter Wigilia-Partner, aber kleine Teigtaschen — andere Money Page.",
+    servePl:
+      "Gorące z klarownym barszczem albo same ze śmietaną. Resztki odsmażyć na chrupko. Uszka to pokrewny partner Wigilii, ale małe pierożki — inna money page.",
+    diasporaDe:
+      "Wochenendprojekt: vormittags Teig und Füllung, nachmittags rollen und braten. Freezer: geformte Rollen vor dem Panieren einfrieren; paniert frisch braten.",
+    diasporaPl:
+      "Projekt weekendowy: rano ciasto i farsz, po południu zwijać i smażyć. Freezer: uformowane rolki przed panierowaniem; panierowane smażyć świeżo.",
+    mistakesDe:
+      "Nasse Füllung, zu dicke Pfannkuchen, kaltes Fett, Panade abplatzen lassen. Barszcz- oder Naleśniki-Primary-KW stehlen.",
+    mistakesPl:
+      "Mokry farsz, za grube naleśniki, zimny tłuszcz, odpadająca panierka. Kradzież primary KW barszczu lub naleśników.",
+    variantsDe:
+      "Mit Fleischfüllung, mit Champignons statt Trockenpilzen, vegetarisch streng ohne Speck. Pierogi Kraut-Pilze bleiben gefaltete Variante derselben Aromen.",
+    variantsPl:
+      "Z farszem mięsnym, z pieczarkami zamiast suszonych, wegetariańsko bez boczku. Pierogi z kapustą zostają wariantem tych samych aromatów w formie pieroga.",
+  },
+  "recipe-sernik": {
+    dishDe: "Sernik",
+    dishPl: "Sernik",
+    vibeDe: "cremig, festlich, nach Twaróg und Vanille",
+    vibePl: "kremowy, świąteczny, z twarogu i wanilii",
+    originDe:
+      "Sernik ist der polnische Käsekuchen auf Twaróg-Basis — dichter und oft höher als mancher deutscher Käsekuchen. Er gehört zum Back-Silo neben Makowiec, ohne dessen Primary Keywords zu übernehmen: Makowiec bleibt Mohn-Rollenkuchen; Sernik bleibt Käsekuchen. Makowiec-Technik hilft bei Ofengeduld und Festtagsplanung, nicht als Rezept-Owner.",
+    originPl:
+      "Sernik to polski sernik na twarogu — gęstszy i często wyższy niż niejedne niemieckie serniki. Należy do silosu pieczenia obok makowca, bez przejmowania jego primary keywords: makowiec zostaje roladą makową; sernik zostaje sernikiem. Technika makowca pomaga przy piecu i planie świąt, nie jako owner przepisu.",
+    shopDe:
+      "Twaróg sernikowy oder gut abgetropfter Speisequark, Eier, Zucker, Butter, etwas Bindung (Mehl/Pudding), Vanille, optional Mürbeteigboden. Twaróg-Guide und Ersatzprodukte für DE-Einkauf; Polenladen für typische Quarkqualität.",
+    shopPl:
+      "Twaróg sernikowy lub dobrze odsączony Quark, jajka, cukier, masło, odrobina spoiwa (mąka/budyń), wanilia, opcjonalnie kruchy spód. Przewodnik twarogu i zamienniki przy zakupach w DE; sklep polski po typową jakość.",
+    techniqueDe:
+      "Masse glatt, nicht überrühren bis schaumig-kollabierend; mittlere Hitze; Mitte darf leicht wackeln; im Ofen nachruhen; erst kalt schneiden. Risse oft durch zu heiße Hitze oder Zugluft.",
+    techniquePl:
+      "Masę gładką, nie ubijać do zapadnięcia; średnia temperatura; środek może lekko drgać; dociągnąć w piecu; kroić zimny. Pęknięcia często od zbyt wysokiej temperatury lub przeciągu.",
+    serveDe:
+      "In Stücken mit Puderzucker, Früchten oder allein zum Kaffee. Zu Ostern und Sonntag häufig; zu Wigilia oft neben oder statt Makowiec — Hausbrauch entscheidet.",
+    servePl:
+      "W kawałkach z cukrem pudrem, owocami albo samym do kawy. Na Wielkanoc i niedzielę często; na Wigilię obok lub zamiast makowca — decyduje dom.",
+    diasporaDe:
+      "Am Vortag backen entlastet Gästeessen. Deutscher Quark braucht oft Abtropfen. Nicht mit Faworki/Pączki-Intent vermischen — anderes Fettgebäck.",
+    diasporaPl:
+      "Pieczenie dzień wcześniej odciąża gości. Niemiecki Quark często wymaga odsączenia. Nie mieszać z intentem faworków/pączków — inne wypieki tłuszczowe.",
+    mistakesDe:
+      "Zu nasser Quark, zu heißer Ofen, zu früh schneiden, Makowiec-Keywords im Title stehlen. Boden roh lassen durch zu kurze Zeit.",
+    mistakesPl:
+      "Za mokry twaróg, zbyt gorący piec, zbyt wczesne krojenie, kradzież słów kluczowych makowca w title. Surowy spód przez za krótki czas.",
+    variantsDe:
+      "Ohne Boden, mit Rosinen, mit Schokotropfen (modern), kleinerer Springform. Makowiec bleibt Mohnrolle — eigener Rezept-Owner.",
+    variantsPl:
+      "Bez spodu, z rodzynkami, z czekoladą (nowocześnie), mniejsza tortownica. Makowiec zostaje roladą makową — osobny owner.",
+  },
+  "recipe-sledz": {
+    dishDe: "Śledź w oleju",
+    dishPl: "Śledź w oleju",
+    vibeDe: "kalt, zwiebelig, salzig-fettig zum Brot",
+    vibePl: "zimny, cebulowy, słono-tłusty do chleba",
+    originDe:
+      "Śledź ist der kalte Fischgang vieler Wigilia-Tische und zugleich Alltagsteller mit Brot. In Öl mit Zwiebel ist die klarste diaspora-Variante: wenig Technik, viel Ziehenlassen. Owner für „Śledź Rezept“; Wigilia-Speiseplan bleibt Menü-Owner; Karp bleibt warmer Fisch.",
+    originPl:
+      "Śledź to zimna ryba wielu stołów wigilijnych i zarazem codzienny talerz z chlebem. W oleju z cebulą to najczytelniejszy wariant diasporowy: mało techniki, dużo marynowania. Owner „śledź przepis”; menu wigilijne zostaje ownerem menu; karp zostaje rybą ciepłą.",
+    shopDe:
+      "Matjes oder Salzheringfilets (Polenladen/Kühltruhe), Zwiebeln, neutrales Öl, Lorbeer, Piment. Abtropfen und bei Bedarf wässern. Polenladen-Guide für Marken; Ersatzprodukte wenn nur Rollmops verfügbar — ehrlich umdeklarieren.",
+    shopPl:
+      "Matjas lub filety solone (sklep polski/chłodnia), cebula, olej, liść laurowy, ziele angielskie. Odsączyć, w razie potrzeby namoczyć. Przewodnik sklepu przy markach; zamienniki gdy tylko rolmops — uczciwie nazwać.",
+    techniqueDe:
+      "Schneiden, schichten, würzen, ziehen lassen — Kühlschrank, abgedeckt. Schärfe der Zwiebel mit kurzem Brühen mildern. Nicht kochen. Zu früh servieren = flach; über Nacht oft besser.",
+    techniquePl:
+      "Kroić, warstwić, przyprawiać, odstawić — lodówka, przykryte. Ostrość cebuli złagodzić krótkim sparzeniem. Nie gotować. Za wcześnie = płasko; przez noc często lepiej.",
+    serveDe:
+      "Kalt mit Brot, manchmal mit Ei oder Gurke. An Wigilia oft neben anderen kalten Speisen; an Werktagen als schneller Teller. Warm: Karp-Rezept.",
+    servePl:
+      "Zimne z chlebem, czasem z jajkiem lub ogórkiem. Na Wigilię obok innych zimnych; w tygodniu jako szybki talerz. Na ciepło: przepis na karpia.",
+    diasporaDe:
+      "Vorbereiten am 23., servieren am 24. — null Ofenstress neben Barszcz und Karp. Reste halten im Kühlschrank einige Tage.",
+    diasporaPl:
+      "Przygotować 23., podać 24. — zero stresu pieca obok barszczu i karpia. Resztki trzymają się w lodówce kilka dni.",
+    mistakesDe:
+      "Zu salzig ohne Wässern, zu wenig Öl, warme Lagerung. Karp- oder Speiseplan-Primary stehlen. Mit Rollmops-Sauce als „klassisch“ verkaufen ohne Hinweis.",
+    mistakesPl:
+      "Za słony bez namaczania, za mało oleju, trzymanie w cieple. Kradzież primary karpia lub menu. Rolmops w sosie jako „klasyka” bez dopisku.",
+    variantsDe:
+      "Śledź w śmietanie, po kaszubsku mit Apfel, mit Senf. Sahnevariante: Śmietana-Lexikon. Anderer Fisch warm: Karp.",
+    variantsPl:
+      "Śledź w śmietanie, po kaszubsku z jabłkiem, z musztardą. Wariant śmietany: leksykon śmietany. Inna ryba na ciepło: karp.",
+  },
 };
 
 function expand(locale: Locale, f: ArticleFacts): string {

@@ -1,7 +1,7 @@
-# Recipe Expansion — Wave 4–6
+# Recipe Expansion — Wave 4–7
 
-Status: **Wave 4 shipped** · **Wave 5 shipped** · **Wave 6 shipped**  
-Date: 2026-07-20 · `SEED_VERSION` 20
+Status: **Wave 4–7 shipped**  
+Date: 2026-07-20 · `SEED_VERSION` 21
 
 ## Wave 4 (done)
 
@@ -30,29 +30,44 @@ Placki family (4 variants) + standalones: Gulasz, Kotlet mielony, Kluski śląsk
 | `post-fasolka-guide` | thin money page Fasolka |
 | `post-majeranek` | meat / gołąbki / fasolka / shopping |
 
-## Wave 6 — shipped this batch
+## Wave 6 — shipped
 
 ### Blog (Backen pillar first)
 | Post | Supports |
 |------|----------|
 | `post-makowiec-technik` | Silo D/C baking pillar → unlocks Makowiec money page |
 
-### Standalone recipes (Wigilia money pages)
+### Standalone recipes
 | Dish | ID | Notes |
 |------|-----|--------|
 | Makowiec | `recipe-makowiec` | relatedPostIds include baking pillar |
-| Uszka | `recipe-uszka` | Own KW owner; Barszcz stays soup owner; crosslinks updated |
+| Uszka | `recipe-uszka` | Own KW owner; Barszcz stays soup owner |
 
-Karp skipped (depth over spray). Optional Mohn-Lexikon skipped (pillar covers Mohn-Technik ohne Spray).
+## Wave 7 — shipped this batch
+
+### Standalone recipes (depth, no new blogs)
+| Dish | ID | Notes |
+|------|-----|--------|
+| Karp | `recipe-karp` | Wigilia warm fish; Speiseplan stays menu owner |
+| Krokiety | `recipe-krokiety` | Naleśniki + Barszcz + Kapusta silo links |
+| Sernik | `recipe-sernik` | Baking silo; Makowiec KW untouched |
+| Śledź | `recipe-sledz` | Cold fish; distinct from Karp |
+
+### Skips
+| Item | Why |
+|------|-----|
+| Pączki | Needs technik pillar; Tłusty Czwartek owns occasion culture — avoid spray |
+| 5th diaspora | Quality gate: four clean money pages enough this wave |
 
 ### Coupling notes
-- Barszcz FACTS + steps + Barszcz-Technik bodies → descriptive links to `/rezepte/uszka`
-- Wigilia post relatedRecipeIds → uszka + makowiec; relatedPostIds → makowiec-technik
+- Wigilia `relatedRecipeIds` → karp + sledz (plus existing uszka/makowiec)
+- Naleśniki-Guide / Barszcz-Technik / Makowiec-Technik → descriptive related recipes
+- No new blog pillars
 
-### Tech SEO (from Wave 5, unchanged)
+### Tech SEO (unchanged)
 - Blog `BlogPosting` + FAQ JSON-LD  
 - Recipe JSON-LD: Org author, dates, absolute image  
-- Thin **region** hubs: `noindex,follow` + excluded from sitemap until intro ≥400 or curated+intro  
+- Thin **region** hubs: `noindex,follow` until intro ≥400  
 
 ## Still HOLD / next backlog
 
@@ -60,7 +75,7 @@ Karp skipped (depth over spray). Optional Mohn-Lexikon skipped (pillar covers Mo
 - Region hub intros ≥400 before index  
 - Lab product tests  
 - Meal-Prep Arbeitswoche ≠ Freezer-Pierogi  
-- Karp (optional later Wigilia money page)
+- Pączki (only with clear ownership vs Tłusty / optional technik)
 
 ## Keyword ownership
 

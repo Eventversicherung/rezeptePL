@@ -3,7 +3,7 @@
 Status: LIVE | W2 | W3 | W4 | HOLD  
 Affiliate auf Rezepten: **guide-only** (Gear-Blog-Cards); Affiliate-Karten in Buying-Guides.
 
-**SEO-Snapshot & erweiterter Plan:** [`topical-authority-status.md`](./topical-authority-status.md) (35 Blog · 31 Rezepte · Score 9/10 · `SEED_VERSION` 20).
+**SEO-Snapshot & erweiterter Plan:** [`topical-authority-status.md`](./topical-authority-status.md) (35 Blog · 35 Rezepte · Score 9/10 · `SEED_VERSION` 21).
 
 ## LIVE
 
@@ -82,7 +82,7 @@ Prozess: 6 Writer + Bilder + Chef → ein Push. Scorecard: `content/batch-w3c/ch
 | `recipe-racuchy` | Yeasted apple pancakes |
 | `recipe-chlodnik` | Cold summer soup |
 
-Wave 4–6 status: `content/recipe-expansion-w4.md`. `SEED_VERSION` 20.
+Wave 4–7 status: `content/recipe-expansion-w4.md`. `SEED_VERSION` 21.
 
 ## LIVE (Wave 5 / Authority Upgrade shipped)
 
@@ -101,8 +101,17 @@ Wave 4–6 status: `content/recipe-expansion-w4.md`. `SEED_VERSION` 20.
 | `post-makowiec-technik` | Backen-Pillar (Silo D/C) vor Makowiec-Rezept |
 | `recipe-makowiec` | Standalone; unique cover; FACTS ≥400 |
 | `recipe-uszka` | Own money page; Barszcz bleibt Suppen-Owner |
-| Karp | Skip (depth over spray) |
+
+## LIVE (Wave 7 shipped — Wigilia fish + classics)
+
+| What | Notes |
+|------|-------|
+| `recipe-karp` | Warm Wigilia fish; Speiseplan stays menu owner |
+| `recipe-krokiety` | Naleśniki/Barszcz/Kapusta silo |
+| `recipe-sernik` | Baking silo; no Makowiec KW steal |
+| `recipe-sledz` | Cold fish; distinct from Karp |
+| Pączki | Skip — needs technik; Tłusty owns occasion |
 
 ## HOLD
 
-Region-Blogs, Meal-Prep Woche, Lab-Tests, Region-Hub-Intros ≥400 vor Index, Kotlet family, Karp optional.
+Region-Blogs, Meal-Prep Woche, Lab-Tests, Region-Hub-Intros ≥400 vor Index, Kotlet family, Pączki (ownership-clean).

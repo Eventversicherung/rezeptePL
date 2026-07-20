@@ -12,6 +12,7 @@ export const seedBlogPostsW6: BlogPost[] = [
     siloIds: ["technique", "occasion"],
     relatedRecipeIds: [
       "recipe-makowiec",
+      "recipe-sernik",
       "recipe-faworki",
       "recipe-racuchy",
       "recipe-uszka",

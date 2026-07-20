@@ -74,6 +74,10 @@ Eine Primary KW = eine Owner-URL. Andere Seiten nur mit descriptive Anchors verl
 | Makowiec Technik / polnisches Backen Mohn | `/blog/makowiec-technik` · `/blog/makowiec-technika` |
 | Makowiec Rezept | `/rezepte/makowiec` |
 | Uszka Rezept | `/rezepte/uszka` |
+| Karp Rezept (Wigilia) | `/rezepte/karp` |
+| Krokiety Rezept | `/rezepte/krokiety` |
+| Sernik Rezept | `/rezepte/sernik` |
+| Śledź Rezept | `/rezepte/sledz` |
 
 ## Gear (Silo H)
 
