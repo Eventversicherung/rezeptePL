@@ -49,6 +49,16 @@ Siehe Plan + `keyword-ownership.md`. Tests: H2 „Tests & Erfahrungen“ vorbere
 
 Prozess: 6 Writer (DE+PL) + Bilder + Chef → ein Push. Scorecard: `content/batch-w3a/chef-scorecard.md`.
 
+## LIVE (Wave 3b shipped — depth-first gear + kasza)
+
+| id | DE slug | PL slug | type |
+|----|---------|---------|------|
+| post-freezer-boxen | freezer-boxen-kaufberatung | pojemniki-do-mrozenia | buying-guide |
+| post-ferment-glaeser | fermentier-glaeser-kaufberatung | sloiki-do-kiszenia | buying-guide |
+| post-kasza | kasza-buchweizen | kasza-gryczana | lexicon |
+
+Prozess: 6 Writer + Bilder + Chef → ein Push. Scorecard: `content/batch-w3b/chef-scorecard.md`.
+
 ## W3 / HOLD
 
-Kasza, Region-Blogs, Meal-Prep Woche, Fermentier-Gläser, Lab-Tests.
+Region-Blogs, Meal-Prep Woche, Lab-Tests.

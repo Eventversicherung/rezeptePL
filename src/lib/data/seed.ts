@@ -35,6 +35,7 @@ const baseRecipes: Recipe[] = [
       "post-pierogi-formen",
       "post-teigmaschine",
       "post-freezer-meal-prep",
+      "post-freezer-boxen",
       "post-pierogi-teig",
       "post-twarog",
     ],
@@ -1234,6 +1235,8 @@ export const seedRecipes: Recipe[] = [
         "post-dutch-oven",
         "post-kielbasa-arten",
         "post-kiszenie",
+        "post-ferment-glaeser",
+        "post-kasza",
         "post-polenladen",
       ],
     };
@@ -1245,6 +1248,7 @@ export const seedRecipes: Recipe[] = [
         "post-zakwas-zurek",
         "post-polnische-suppen",
         "post-kielbasa-arten",
+        "post-ferment-glaeser",
         "post-polenladen",
       ],
     };
@@ -1296,7 +1300,7 @@ export const seedRecipes: Recipe[] = [
   if (recipe.id === "recipe-placki") {
     return {
       ...recipe,
-      relatedPostIds: ["post-gusseisen", "post-sonntagsessen"],
+      relatedPostIds: ["post-gusseisen", "post-sonntagsessen", "post-kasza"],
     };
   }
   if (recipe.id === "recipe-golabki") {
@@ -1308,6 +1312,7 @@ export const seedRecipes: Recipe[] = [
         "post-smietana-schmand",
         "post-dutch-oven",
         "post-rosol-technik",
+        "post-kasza",
       ],
       occasionIds: Array.from(
         new Set([...recipe.occasionIds, "occasion-niedziela"]),

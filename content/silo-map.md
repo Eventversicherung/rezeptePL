@@ -19,10 +19,10 @@ Zielgruppe: PL-first, dann DE. Immer `/de/...` + `/pl/...` mit hreflang.
 | B Regionen | Hub-Intros teig/wigilia/niedziela/bulion | Region-Blogs |
 | C Anlässe | Wigilia, Wielkanoc, Tłusty, Sonntag | Grill, Imieniny… |
 | D Techniken | Teig, Freezer, Rosół, Kiszenie | Panieren, Schmoren |
-| E Zutaten | Twaróg, Śmietana, Kiełbasa, Zakwas | Kasza, Oscypek |
+| E Zutaten | Twaróg, Śmietana, Kiełbasa, Zakwas, Kasza, Oscypek | — |
 | F Diaspora | Polenladen, Ersatzprodukte | Meal-Prep Woche |
 | G Tradition | via Wigilia + Sonntag | regionale Vielfalt |
-| H Gear/Tests | Teigmaschine 2026, Formen, Fleischwolf, Dutch Oven, Gusseisen | Freezer-Boxen, Grundausstattung |
+| H Gear/Tests | Teigmaschine 2026, Formen, Fleischwolf, Dutch Oven, Gusseisen, Freezer-Boxen, Fermentier-Gläser | Grundausstattung, Lab-Tests |
 
 ## Rezept-Monetarisierung
 

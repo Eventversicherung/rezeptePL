@@ -15,6 +15,7 @@ import { bodyTeigmaschineUpgradeDe } from "./blog-bodies-wave2-de";
 import { bodyTeigmaschineUpgradePl } from "./blog-bodies-wave2-pl";
 import { seedBlogPostsWave2 } from "./seed-blog-wave2";
 import { seedBlogPostsW3a } from "./seed-blog-w3a";
+import { seedBlogPostsW3b } from "./seed-blog-w3b";
 
 const seedBlogPostsLive: BlogPost[] = [
   {
@@ -215,6 +216,7 @@ const seedBlogPostsLive: BlogPost[] = [
     relatedPostIds: [
       "post-pierogi-guide",
       "post-freezer-meal-prep",
+      "post-freezer-boxen",
       "post-polenladen",
       "post-wielkanoc",
     ],
@@ -251,4 +253,5 @@ export const seedBlogPosts: BlogPost[] = [
   ...seedBlogPostsLive,
   ...seedBlogPostsWave2,
   ...seedBlogPostsW3a,
+  ...seedBlogPostsW3b,
 ];

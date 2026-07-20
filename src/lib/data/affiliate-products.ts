@@ -183,9 +183,33 @@ export const seedAffiliateProducts: AffiliateProduct[] = [
       "recipe-pierogi-meat",
       "recipe-pierogi-cabbage",
     ],
-    postIds: ["post-wigilia"],
+    postIds: ["post-wigilia", "post-freezer-boxen"],
     active: true,
     sortOrder: 50,
+  },
+  {
+    id: "aff-ferment-jars",
+    partner: "amazon",
+    url: "https://www.amazon.de/s?k=Fermentierglas+Set+G%C3%A4rdeckel",
+    imageUrl:
+      "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&q=80",
+    title: {
+      de: "Fermentiergläser Set",
+      pl: "Zestaw słoików do kiszenia",
+    },
+    description: {
+      de: "Breite Öffnung, Gärdeckel optional — für Kapusta, Ogórki und Zakwas.",
+      pl: "Szeroki wlew, opcjonalna nakładka — na kapustę, ogórki i zakwas.",
+    },
+    cta: {
+      de: "Gläser vergleichen",
+      pl: "Porównaj słoiki",
+    },
+    tags: ["kiszenie", "ferment", "gear"],
+    recipeIds: ["recipe-bigos", "recipe-pierogi-cabbage", "recipe-zurek"],
+    postIds: ["post-kiszenie", "post-zakwas-zurek", "post-ferment-glaeser"],
+    active: true,
+    sortOrder: 55,
   },
 ];
 

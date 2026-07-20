@@ -20,6 +20,7 @@ export const seedFamilies: RecipeFamily[] = [
       "post-teigmaschine",
       "post-pierogi-formen",
       "post-freezer-meal-prep",
+      "post-freezer-boxen",
       "post-twarog",
     ],
     translations: {
@@ -69,6 +70,7 @@ export const seedFamilyVariantRecipes: Recipe[] = [
       "post-teigmaschine",
       "post-fleischwolf",
       "post-freezer-meal-prep",
+      "post-freezer-boxen",
     ],
     videoUrl: null,
     translations: {
@@ -235,7 +237,9 @@ Przełącz u góry na [ruskie](/pl/rezepte/pierogi/ruskie) albo [kapustę z grzy
       "post-pierogi-formen",
       "post-teigmaschine",
       "post-freezer-meal-prep",
+      "post-freezer-boxen",
       "post-kiszenie",
+      "post-ferment-glaeser",
       "post-wigilia",
     ],
     videoUrl: null,

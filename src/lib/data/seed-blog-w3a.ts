@@ -24,6 +24,7 @@ export const seedBlogPostsW3a: BlogPost[] = [
       "post-dutch-oven",
       "post-smietana-schmand",
       "post-rosol-technik",
+      "post-kasza",
     ],
     relatedProductIds: ["aff-dutch-oven"],
     clusterIds: ["occasion-niedziela", "technique-schmoren"],

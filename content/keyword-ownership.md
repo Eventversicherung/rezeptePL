@@ -11,7 +11,8 @@ Eine Primary KW = eine Owner-URL. Andere Seiten nur mit descriptive Anchors verl
 | Pierogi Ruskie Rezept | pierogi ruskie przepis | `/rezepte/pierogi/ruskie` |
 | Pierogi mit Fleisch | pierogi z mięsem | `/rezepte/pierogi/fleisch` · `/mieso` |
 | Pierogi Kraut Pilze | pierogi z kapustą | `/rezepte/pierogi/kraut-pilze` |
-| Pierogi einfrieren | mrożenie pierogów | `/blog/freezer-meal-prep` |
+| Pierogi einfrieren | mrożenie pierogów | `/blog/freezer-meal-prep` · `/blog/mrozenie-pierogow` |
+| Beste Freezer-Boxen Pierogi 2026 | najlepsze pojemniki do mrożenia 2026 | `/blog/freezer-boxen-kaufberatung` · `/blog/pojemniki-do-mrozenia` |
 | Beste Teigmaschinen Pierogi 2026 | roboty do ciasta 2026 | `/blog/teigmaschine-pierogi` |
 | Beste Pierogi-Formen 2026 | foremki do pierogów 2026 | `/blog/pierogi-formen` |
 
@@ -56,5 +57,7 @@ Eine Primary KW = eine Owner-URL. Andere Seiten nur mit descriptive Anchors verl
 | Fleischwolf Pierogi | `fleischwolf-kaufberatung` |
 | Schmortopf Bigos 2026 | `dutch-oven-kaufberatung` |
 | Gusseisenpfanne Placki Schabowy | `gusseisenpfanne` |
+| Beste Fermentiergläser Kiszenie 2026 | `fermentier-glaeser-kaufberatung` |
+| Kasza gryczana Guide | `kasza-buchweizen` · `kasza-gryczana` |
 
 Jahr nur in H1/Title-Tag, nie im Slug.
