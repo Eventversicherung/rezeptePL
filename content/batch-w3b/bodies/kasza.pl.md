@@ -59,7 +59,7 @@ Lepiej **500 g–1 kg sprawdzonej marki** niż wielki worek na trzy lata w piwni
 
 **Kontekst bigosu:** Kasza na talerzu obok [bigosu](/pl/rezepte/bigos), nie w środku — [bigos przewodnik](/pl/blog/bigos-przewodnik) zostaje ownerem gulaszu.
 
-**Placki:** Kreatywnie w diasporze — kasza obok [placków](/pl/rezepte/placki-ziemniaczane), żeby nie dublować kartofli.
+**Placki:** Kreatywnie w diasporze — kasza obok [placków](/pl/rezepte/placki/ziemniaczane), żeby nie dublować kartofli.
 
 Linkujemy przepisy, nie kopiujemy gramatur — to leksykon, nie zamiennik książki kucharskiej.
 

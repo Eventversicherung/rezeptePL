@@ -62,7 +62,7 @@ Oscypek ist kein Gericht für zwölf Komponenten. Die klassische Kombination aus
 
 **Brot:** Roggen- oder Vollkornbrot hält gegen den Käse. Weiches Weißbrot wird schnell matschig. In manchen Haushalten dazu noch frische Butter — optional, nicht Pflicht.
 
-Für ein vollständigeres Sonntagsessen kombinieren wir Oscypek mit [Placki Ziemniaczane](/de/rezepte/placki-ziemniaczane): Kartoffelpuffer sind neutral und füllen den Teller, ohne den Rauchgeschmack zu verwässern. Eine grüne Salatseite mit saurer Note (Essig, Dill) rundet ab, wenn wir mehr Gemüse wollen.
+Für ein vollständigeres Sonntagsessen kombinieren wir Oscypek mit [Placki Ziemniaczane](/de/rezepte/placki/ziemniaczane): Kartoffelpuffer sind neutral und füllen den Teller, ohne den Rauchgeschmack zu verwässern. Eine grüne Salatseite mit saurer Note (Essig, Dill) rundet ab, wenn wir mehr Gemüse wollen.
 
 Serviertemperaturen: Oscypek heiß vom Blech oder der Pfanne, Beilagen warm oder kalt je nach Vorliebe. Preiselbeere kühl zum heißen Käse ist der übliche Kontrast — das reicht für Gäste und Alltag gleichermaßen.
 
@@ -104,7 +104,7 @@ Ja — gereifter Oscypek ist roh genießbar, oft salzig und fest. Viele von uns 
 
 ### Was passt außer Preiselbeere noch dazu?
 
-Saure Gurke, leicht fermentiertes Gemüse, Rote-Bete-Salat in kleiner Portion oder — herzhaft — knuspriger Speck. Süße Konfitüren außer Preiselbeere überdecken den Käse schnell; wir bleiben bei sauer-süß. Als Hauptgericht ergänzen wir [Placki Ziemniaczane](/de/rezepte/placki-ziemniaczane) oder einen einfachen Krautsalat.
+Saure Gurke, leicht fermentiertes Gemüse, Rote-Bete-Salat in kleiner Portion oder — herzhaft — knuspriger Speck. Süße Konfitüren außer Preiselbeere überdecken den Käse schnell; wir bleiben bei sauer-süß. Als Hauptgericht ergänzen wir [Placki Ziemniaczane](/de/rezepte/placki/ziemniaczane) oder einen einfachen Krautsalat.
 
 ### Wie lagern wir Reste richtig?
 
@@ -115,7 +115,7 @@ Angeschnitten luftarm und kühl, innerhalb weniger Tage verbrauchen. Nicht wiede
 Oscypek ist ein schneller, charaktervoller Käse — wenn wir Herkunft, Hitze und Beilagen im Griff haben. Als Nächstes:
 
 - [Gegrillter Oscypek mit Preiselbeeren](/de/rezepte/oscypek-preiselbeeren) — Schrittfolge für den klassischen Teller
-- [Placki Ziemniaczane](/de/rezepte/placki-ziemniaczane) — Kartoffelpuffer als Sonntagsbeilage
+- [Placki Ziemniaczane](/de/rezepte/placki/ziemniaczane) — Kartoffelpuffer als Sonntagsbeilage
 - [Gusseisenpfanne](/de/blog/gusseisenpfanne) — gleichmäßige Hitze für Käse und Pfannengerichte
 - [Polenladen Einkaufen](/de/blog/polenladen-einkaufen) — Oscypek und Żurawina gezielt finden
 - [Ersatzprodukte in Deutschland](/de/blog/ersatzprodukte-de) — wenn PDO-Oscypek nicht verfügbar ist

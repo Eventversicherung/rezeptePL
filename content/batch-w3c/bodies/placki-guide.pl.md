@@ -1,4 +1,4 @@
-Placki ziemniaczane to w polskiej kuchni coś między daniem a symbolem — chrupiące placki z tartych kartofli, na [obiad niedzielny](/pl/blog/obiad-niedzielny), obok gulaszu, ze [śmietaną](/pl/blog/smietana-czy-schmand) albo same z cukrem pudrem wspomnieniowym. W Niemczech sąsiad to Reibekuchen / Kartoffelpuffer — podobna idea, inne detale: proporcje, odsączenie, tłuszcz na patelni. Ten przewodnik opisuje **technikę placków** bez gramatur z [przepisu na placki ziemniaczane](/pl/rezepte/placki-ziemniaczane). Kto chce listy składników i kroków, idzie do przepisu; my wyjaśniamy, dlaczego w diasporze wychodzą gumowate albo surowe w środku.
+Placki ziemniaczane to w polskiej kuchni coś między daniem a symbolem — chrupiące placki z tartych kartofli, na [obiad niedzielny](/pl/blog/obiad-niedzielny), obok gulaszu, ze [śmietaną](/pl/blog/smietana-czy-schmand) albo same z cukrem pudrem wspomnieniowym. W Niemczech sąsiad to Reibekuchen / Kartoffelpuffer — podobna idea, inne detale: proporcje, odsączenie, tłuszcz na patelni. Ten przewodnik opisuje **technikę placków** bez gramatur z [przepisu na placki ziemniaczane](/pl/rezepte/placki/ziemniaczane). Kto chce listy składników i kroków, idzie do przepisu; my wyjaśniamy, dlaczego w diasporze wychodzą gumowate albo surowe w środku.
 
 Kontekst: REWE kartofle firmowe, tarka z Lidla, [patelnia żeliwna](/pl/blog/patelnia-zelivna) obok starej stalowej. Źródła: [BZfE](https://www.bzfe.de) co do kartofli jako warzywa skrobiowego, [was-wir-essen.de](https://www.was-wir-essen.de) przy smażeniu, [Komisja Europejska — rolnictwo](https://agriculture.ec.europa.eu) przy sezonowości ziemniaków.
 
@@ -36,7 +36,7 @@ W diasporze placki to też **tani obiad** między droższymi zakupami mięsa —
 
 **Sól:** Dopiero **po** odsączeniu i tuż przed patelnią — wcześniejsza sól wyciąga wodę z powrotem.
 
-**Cebula w masie:** Opcjonalna — tart drobno, też odsączyć. W wielu domach cebula jest w [gulaszu](/pl/rezepte/placki-ziemniaczane) obok, nie w placku (szybciej przypala się).
+**Cebula w masie:** Opcjonalna — tart drobno, też odsączyć. W wielu domach cebula jest w [gulaszu](/pl/rezepte/placki/ziemniaczane) obok, nie w placku (szybciej przypala się).
 
 **Pieprz, czosnek:** Oszczędnie — placki to smak kartofla i tłuszczu.
 
@@ -62,7 +62,7 @@ W diasporze placki to też **tani obiad** między droższymi zakupami mięsa —
 
 ## Podawanie: śmietana, gulasz, solo
 
-**Klasycznie:** Placki + **[gulasz](/pl/rezepte/placki-ziemniaczane)** (mięsny lub pieczarkowy w diasporze) + łyżka śmietany. Śmietana 18% z polskiego sklepu albo Schmand rozcieńczony — [śmietana czy Schmand](/pl/blog/smietana-czy-schmand).
+**Klasycznie:** Placki + **[gulasz](/pl/rezepte/placki/ziemniaczane)** (mięsny lub pieczarkowy w diasporze) + łyżka śmietany. Śmietana 18% z polskiego sklepu albo Schmand rozcieńczony — [śmietana czy Schmand](/pl/blog/smietana-czy-schmand).
 
 **Solo:** Placki ze śmietaną i szczypiorkiem — szybki obiad bez mięsa.
 
@@ -114,7 +114,7 @@ Na co dzień — tani obiad. Na święto — rzadziej niż pierogi czy [barszcz]
 
 ## Czytaj dalej
 
-- [Przepis: placki ziemniaczane](/pl/rezepte/placki-ziemniaczane) — składniki i kroki
+- [Przepis: placki ziemniaczane](/pl/rezepte/placki/ziemniaczane) — składniki i kroki
 - [Patelnia żeliwna](/pl/blog/patelnia-zelivna)
 - [Kasza gryczana — leksykon](/pl/blog/kasza-gryczana)
 - [Obiad niedzielny po polsku](/pl/blog/obiad-niedzielny)

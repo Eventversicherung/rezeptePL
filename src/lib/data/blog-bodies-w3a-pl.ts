@@ -324,7 +324,7 @@ Na grillu gazowym lub węglowym trzymaj oscypek z dala od najgorętszej strefy. 
 
 Typowe błędy, które widzimy u siebie i u znajomych: za dużo oleju (ser pływa zamiast się rumienić), za wysoka temperatura (gorzka skórka, gumowaty środek), zbyt długie trzymanie na patelni „bo jeszcze nie idealny” (ser robi się ciężki i ciągnący). Oscypek ma być gorący, lekko ciągnący, ale nadal z charakterem — nie fondue.
 
-Przy większych porcjach dla gości warto trzymać podgrzany piekarnik na niskiej temperaturze (ok. 60 °C) i dokładać plastry partiami. To prosta logistyka znana z [placki ziemniaczanych](/pl/rezepte/placki-ziemniaczane): pierwsze porcje znikają, reszta musi dojechać ciepła.
+Przy większych porcjach dla gości warto trzymać podgrzany piekarnik na niskiej temperaturze (ok. 60 °C) i dokładać plastry partiami. To prosta logistyka znana z [placki ziemniaczanych](/pl/rezepte/placki/ziemniaczane): pierwsze porcje znikają, reszta musi dojechać ciepła.
 
 ## Dodatki: żurawina, boczek, chleb
 
@@ -341,7 +341,7 @@ Boczek to wariant bardziej sycący: cienki plasterek boczku owinięty wokół ka
 - **Kropla miodu** — tylko na małej porcji, jako eksperyment; słodycz szybko dominuje nad dymem.
 - **Piwo lub herbata** — u nas częściej herbata; piwo zostaje na spotkania towarzyskie.
 
-Jeśli planujesz oscypek jako przystawkę przed [placki ziemniaczane](/pl/rezepte/placki-ziemniaczane), trzymaj porcje małe — oba dania są sycące i ciężkie w sensie dobrym, nie w sensie „nie da się ruszyć z stołu”.
+Jeśli planujesz oscypek jako przystawkę przed [placki ziemniaczane](/pl/rezepte/placki/ziemniaczane), trzymaj porcje małe — oba dania są sycące i ciężkie w sensie dobrym, nie w sensie „nie da się ruszyć z stołu”.
 
 ## Przechowywanie i zamienniki
 
@@ -388,12 +388,12 @@ Tak, w małej porcji — sól i dym bywają intensywne. Dzieciom podajemy mniejs
 
 ### Jak łączyć oscypek z innymi daniami polskimi w tygodniu?
 
-Oscypek traktujemy jako szybki wieczór albo przystawkę przed bardziej pracochłonnym daniem. W weekend obok [placki ziemniaczane](/pl/rezepte/placki-ziemniaczane) tworzy spokojny, „góralski” wieczór bez wielogodzinnego gotowania.
+Oscypek traktujemy jako szybki wieczór albo przystawkę przed bardziej pracochłonnym daniem. W weekend obok [placki ziemniaczane](/pl/rezepte/placki/ziemniaczane) tworzy spokojny, „góralski” wieczór bez wielogodzinnego gotowania.
 
 ## Dalsze czytanie
 
 - Przepis krok po kroku: [oscypek z żurawiną](/pl/rezepte/oscypek-zurawina)
-- Chrupiący kontrapunkt do sera: [placki ziemniaczane](/pl/rezepte/placki-ziemniaczane)
+- Chrupiący kontrapunkt do sera: [placki ziemniaczane](/pl/rezepte/placki/ziemniaczane)
 - Technika i sprzęt: [patelnia żeliwna](/pl/blog/patelnia-zelivna)
 - Gdzie szukać produktu: [sklep polski — zakupy](/pl/blog/sklep-polski-zakupy)
 - Gdy oscypka brak: [zamienniki składników](/pl/blog/zamienniki-skladnikow)

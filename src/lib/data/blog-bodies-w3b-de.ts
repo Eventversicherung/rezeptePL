@@ -360,7 +360,7 @@ Wir kaufen lieber **eine bewährte Marke in 500 g–1 kg** nach, als Riesensack,
 
 **Bigos-Kontext:** Kasza als Beilage zu [Bigos](/de/rezepte/bigos), nicht im Bigos selbst — der Guide [Bigos](/de/blog/bigos-guide) bleibt Owner für Eintopf-Logik; Kasza ergänzt den Teller.
 
-**Pierogi / Placki:** Nicht Standard, aber diaspora-kreativ: Kasza-Beilage zu [Placki](/de/rezepte/placki-ziemniaczane) statt purer Kartoffel-Doppelung.
+**Pierogi / Placki:** Nicht Standard, aber diaspora-kreativ: Kasza-Beilage zu [Placki](/de/rezepte/placki/ziemniaczane) statt purer Kartoffel-Doppelung.
 
 Wir verlinken Rezepte, statt hier Mengen zu kopieren — dieser Text ist Lexikon, kein Kochbuch-Ersatz.
 

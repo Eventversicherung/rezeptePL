@@ -88,7 +88,7 @@ Wortzahl ≥1100. Mengen im Rezept, nicht hier.
 |----|-----|
 | `/de/rezepte/kotlet-schabowy` | `/pl/rezepte/kotlet-schabowy` |
 | `/de/rezepte/barszcz-czerwony` | `/pl/rezepte/barszcz-czerwony` |
-| `/de/rezepte/placki-ziemniaczane` | `/pl/rezepte/placki-ziemniaczane` |
+| `/de/rezepte/placki/ziemniaczane` | `/pl/rezepte/placki/ziemniaczane` |
 | `/de/blog/gusseisenpfanne` | `/pl/blog/patelnia-zelivna` |
 | `/de/blog/rosol-technik` | `/pl/blog/jak-ugotowac-rosol` |
 | `/de/blog/polnische-suppen` | `/pl/blog/polskie-zupy` |

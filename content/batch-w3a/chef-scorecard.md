@@ -111,7 +111,7 @@
 | `/de/blog/twarog-deutschland` | `/pl/blog/twarog-w-niemczech` | ✓ |
 | `/de/blog/ersatzprodukte-de` | `/pl/blog/zamienniki-skladnikow` | ✓ |
 | `/de/rezepte/oscypek-preiselbeeren` | `/pl/rezepte/oscypek-zurawina` | ✓ |
-| `/de/rezepte/placki-ziemniaczane` | `/pl/rezepte/placki-ziemniaczane` | ✓ |
+| `/de/rezepte/placki/ziemniaczane` | `/pl/rezepte/placki/ziemniaczane` | ✓ |
 | `/de/blog/gusseisenpfanne` | `/pl/blog/patelnia-zelivna` | ✓ |
 | `/de/blog/polenladen-einkaufen` | `/pl/blog/sklep-polski-zakupy` | ✓ |
 

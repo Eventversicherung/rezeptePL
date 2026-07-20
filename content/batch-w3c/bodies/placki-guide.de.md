@@ -1,10 +1,10 @@
-**Placki ziemniaczane** — polnische Kartoffelpuffer — sind in der Diaspora oft das erste Gericht, das Kinder und Nachbarn mögen: außen knusprig, innen weich, mit **Śmietana** oder Gulasch. Das [Placki-Rezept](/de/rezepte/placki-ziemniaczane) liefert Mengen und Schritte; dieser Guide erklärt die **Pillar-Logik**: Kartoffelwahl, Abtropfen, Teigfehler, Braten in der richtigen Pfanne, Servieren und Reste — ohne das Rezept zu duplizieren.
+**Placki ziemniaczane** — polnische Kartoffelpuffer — sind in der Diaspora oft das erste Gericht, das Kinder und Nachbarn mögen: außen knusprig, innen weich, mit **Śmietana** oder Gulasch. Das [Placki-Rezept](/de/rezepte/placki/ziemniaczane) liefert Mengen und Schritte; dieser Guide erklärt die **Pillar-Logik**: Kartoffelwahl, Abtropfen, Teigfehler, Braten in der richtigen Pfanne, Servieren und Reste — ohne das Rezept zu duplizieren.
 
 Wir kochen zwischen Rewe-Kartoffeln und Polenladen-Śmietana, zwischen Reibekuchen-Erinnerung und polnischem Sonntagsteller. Orientierung zu Kartoffeln und ausgewogener Küche: [BZfE](https://www.bzfe.de), [was-wir-essen.de](https://www.was-wir-essen.de), [EU-Landwirtschaft](https://agriculture.ec.europa.eu). Kein Kitsch — Placki sind Pfannenküche mit klaren Hebeln.
 
 ## Was Placki sind — vs. Reibekuchen, Entity
 
-**Placki ziemniaczane** sind **geriebene rohe Kartoffeln**, gebunden mit Ei und etwas Mehl (oder Stärke), in Öl gebraten — flache Puffer, nicht Ofenkartoffeln, nicht Klöße. In Polen Beilage, Snack oder leichtes Hauptgericht; in DE oft mit [Gulaszem](/de/rezepte/placki-ziemniaczane) oder pur mit Sauerrahm.
+**Placki ziemniaczane** sind **geriebene rohe Kartoffeln**, gebunden mit Ei und etwas Mehl (oder Stärke), in Öl gebraten — flache Puffer, nicht Ofenkartoffeln, nicht Klöße. In Polen Beilage, Snack oder leichtes Hauptgericht; in DE oft mit [Gulaszem](/de/rezepte/placki/ziemniaczane) oder pur mit Sauerrahm.
 
 **Reibekuchen** (deutsch, besonders Rheinland/NRW): verwandt, oft ähnliche Basis — geriebene Kartoffeln, gebraten. Unterschiede sind regional und haushaltsintern: mehr oder weniger Zwiebel, Speck ja/nein, Größe der Puffer, ob gekochte Kartoffeln dabei sind. **Placki** im polnischen Sinn: typisch **nur roh**, eher dünn, knusprig, neutral würzig — Śmietana oder Pilz-Gulasch als Partner.
 
@@ -26,7 +26,7 @@ Dieser Text ist **Guide-Owner** für Placki-Technik; [Kasza-Lexikon](/de/blog/ka
 
 **Zwiebel:** Fein gerieben — Feuchtigkeit mit bedacht; manche drücken Zwiebel-Masse leicht mit aus. Geschmack vs. Knusprigkeit abwägen.
 
-**Mengen:** Im [Placki-Rezept](/de/rezepte/placki-ziemniaczane) — hier keine Duplikation.
+**Mengen:** Im [Placki-Rezept](/de/rezepte/placki/ziemniaczane) — hier keine Duplikation.
 
 ## Teig/Masse: Ei, Mehl, Gewürz — Fehler
 
@@ -64,7 +64,7 @@ Dieser Text ist **Guide-Owner** für Placki-Technik; [Kasza-Lexikon](/de/blog/ka
 
 **Śmietana:** Klassisch — kühler Löffel pro Teller. Polnische **Śmietana** vs. deutscher Schmand: [Lexikon](/de/blog/smietana-schmand). Wir kaufen im Polenladen oder ersetzen bewusst — Geschmack säuerlicher-milder je nach Marke.
 
-**Gulasz:** Placki als **Beilage zu Gulasch** — deftiges Sonntagsbild. [Rezept](/de/rezepte/placki-ziemniaczane) verknüpft Varianten; Gulasch separat warm, Placki frisch gebraten.
+**Gulasz:** Placki als **Beilage zu Gulasch** — deftiges Sonntagsbild. [Rezept](/de/rezepte/placki/ziemniaczane) verknüpft Varianten; Gulasch separat warm, Placki frisch gebraten.
 
 **Solo:** Mit Salat oder [Kasza](/de/blog/kasza-buchweizen) statt doppelter Kartoffel — leichter Teller, diaspora-praktisch.
 
@@ -114,11 +114,11 @@ Schwieriger — Bindung leidet. Stärke erhöhen, sehr gut ausdrücken; Textur k
 
 ### Was servieren wir außer Śmietana?
 
-Gulasch, Pilze, Salat, [Kasza gryczana](/de/blog/kasza-buchweizen) — siehe [Placki-Rezept](/de/rezepte/placki-ziemniaczane) für Kombinationen.
+Gulasch, Pilze, Salat, [Kasza gryczana](/de/blog/kasza-buchweizen) — siehe [Placki-Rezept](/de/rezepte/placki/ziemniaczane) für Kombinationen.
 
 ## Weiterlesen
 
-- [Placki ziemniaczane — Rezept](/de/rezepte/placki-ziemniaczane)
+- [Placki ziemniaczane — Rezept](/de/rezepte/placki/ziemniaczane)
 - [Gusseisenpfanne — Kauf und Nutzung](/de/blog/gusseisenpfanne)
 - [Kasza gryczana — Lexikon](/de/blog/kasza-buchweizen)
 - [Śmietana vs. Schmand](/de/blog/smietana-schmand)
