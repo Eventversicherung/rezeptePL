@@ -429,6 +429,10 @@ Für [Naleśniki](/de/rezepte/nalesniki/twarog) darf die Füllung etwas cremiger
 
 Süße Variante bleibt alltagstauglich ohne Kitsch: gute Butter in der Pfanne, frische Beeren oder ein Klecks Schmand – keine Zuckerguss-Show nötig.
 
+## Makaron z serem: Quark über Nudeln
+
+Wenn Twaróg nicht in Teig oder Füllung soll, sondern über heiße Pasta: [Makaron z serem](/de/rezepte/makaron-z-serem) — Butter, abgeseihter Quark, Zucker oder salzig-haushaltlich. Das ist kein [Pierogi leniwe](/de/rezepte/pierogi-leniwe)-Teig und kein [Łazanki](/de/rezepte/lazanki)-Kapusta-Teller. Zutaten-Owner bleibt dieser Guide; das Rezept bleibt Cook-Intent.
+
 ## Polenladen vs. Supermarkt: Entscheidungshilfe
 
 **Polenladen zuerst**, wenn wir Zeit sparen und Konsistenz wollen. **Supermarkt + Abseihen**, wenn der Weg länger ist oder wir spontan kochen. Qualität schlägt Etikett: ein gut abgeseihter Magerquark kann besser sein als ein enttäuschender „polnischer“ Quark mit seltsamem Nachgeschmack.
@@ -500,7 +504,7 @@ Traditionell symbolisieren zwölf Speisen Fülle und den Jahreskreis. In der Pra
 3. Fisch nach Familie ([Karp](/de/rezepte/karp), [Śledź](/de/rezepte/sledz), oder moderne Alternative)
 4. [Śledź](/de/rezepte/sledz) in Öl oder Sahne
 5. Kompot aus Trockenobst
-6. Mohnspeise oder [Makowiec](/de/rezepte/makowiec) — alternativ [Sernik](/de/rezepte/sernik)
+6. Mohnspeise oder [Makowiec](/de/rezepte/makowiec) — alternativ [Sernik](/de/rezepte/sernik) oder Honig-Gewürz-[Piernik](/de/rezepte/piernik)
 7. Krautsalat oder warme Kapusta
 8. Pilze in Sahne oder als Beilage
 9. Kutia oder ein Getreide-Mohn-Gericht regional

@@ -201,7 +201,7 @@ Między naleśnikami myjemy patelnię tylko wtedy, gdy coś przypali — zwykle 
 
 ## Farsz słodki z twarogiem versus wytrawny
 
-Słodka linia z twarogiem to serce domowych naleśników — zwłaszcza gdy w domu są dzieci albo goście, którzy nie jedzą jeszcze mocno wytrawnych dań. Twaróg ma być ziarnisty, dobrze odsączony, bez kałuży w misce. Szczegóły zakupu i odsączania opisujemy w [twarogu w Niemczech](/pl/blog/twarog-w-niemczech) — tu tylko tyle: mokry nabiał w zwiniętym naleśniku wypływa przy podsmażaniu i psuje teksturę.
+Słodka linia z twarogiem to serce domowych naleśników — zwłaszcza gdy w domu są dzieci albo goście, którzy nie jedzą jeszcze mocno wytrawnych dań. Cook-primary twarogu: [naleśniki z twarogiem](/pl/rezepte/nalesniki/twarog). Druga słodka linia bez twarogu: [naleśniki z dżemem](/pl/rezepte/nalesniki/dzem) — własny URL wariantu. Twaróg ma być ziarnisty, dobrze odsączony, bez kałuży w misce. Szczegóły zakupu i odsączania opisujemy w [twarogu w Niemczech](/pl/blog/twarog-w-niemczech) — tu tylko tyle: mokry nabiał w zwiniętym naleśniku wypływa przy podsmażaniu i psuje teksturę.
 
 Do słodkiego farszu: twaróg (albo odsączony Quark), cukier, wanilia, skórka cytryny, opcjonalnie rodzynki namoczone w rumie albo w gorącej wodzie. Jajko w farszu bywa w domowych przepisach — wiąże masę, ale nie przesadzajcie z ilością płynu. Odrobina [śmietany albo Schmandu](/pl/blog/smietana-czy-schmand) zaokrągla smak; w Niemczech łatwo jednak dodać za dużo i zejść w stronę kremowego deseru z kubka. My trzymamy farsz zwarty, słodki, ale wciąż „ziarnisty w zębie”.
 
@@ -262,6 +262,7 @@ Z doświadczenia: słodka z twarogiem wygrywa u młodszych; starsi często prób
 ## Co dalej czytać
 
 - [Naleśniki z twarogiem — przepis](/pl/rezepte/nalesniki/twarog) — konkretne proporcje i kolejność kroków
+- [Naleśniki z dżemem](/pl/rezepte/nalesniki/dzem) — słodka linia dżemowa (własny URL)
 - [Krokiety](/pl/rezepte/krokiety) — zwinięte, panierowane naleśniki (osobna money page)
 - [Twaróg w Niemczech](/pl/blog/twarog-w-niemczech) — Quark, odsączanie, wilgotność farszu
 - [Pierogi ruskie](/pl/rezepte/pierogi/ruskie) — ten sam twaróg, inna technika

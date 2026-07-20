@@ -20,7 +20,7 @@ Im Winter oft trockener, im Sommer feuchter. Milliliter sind Startwerte. Der Tei
 
 ## Füllungen: trocken und kalt
 
-**Ruskie:** Kartoffel, Twaróg, Zwiebel – Masse muss stehen. Quark abseihen, Kartoffeln auskühlen. **Kraut-Pilz:** Kapusta ausdrücken, Pilze einkochen. **Fleisch:** feste gekühlte Farce. **Süß:** erst nach stabilem Grundablauf. Eine Linie pro Session.
+**Ruskie:** Kartoffel, Twaróg, Zwiebel – Masse muss stehen. Quark abseihen, Kartoffeln auskühlen. **Kraut-Pilz:** Kapusta ausdrücken, Pilze einkochen. **Fleisch:** feste gekühlte Farce. **Süß / Heidelbeeren:** Cook-Primary unter [Pierogi mit Heidelbeeren](/de/rezepte/pierogi/jagody) — gefaltet, nicht [Knedle](/de/rezepte/knedle-sliwki). Eine Linie pro Session.
 
 ## Formen und Kochen
 
@@ -40,7 +40,7 @@ Nasse Füllung, zu wenig Ruhe, wilde Hitze, Überfüllung, alles an einem Tag er
 
 ## Varianten-Matrix
 
-Ruskie (Alltag), Kraut-Pilz (Festtag), Fleisch (sättigend), Uszka (Brühe), süß (Dessertlinie).
+Ruskie (Alltag), Kraut-Pilz (Festtag), Fleisch (sättigend), [Heidelbeeren](/de/rezepte/pierogi/jagody) (süß), Uszka (Brühe).
 
 **Nicht Pierogi:** [Knedle ze śliwkami](/de/rezepte/knedle-sliwki) sind runde Obst-Knödel mit Kartoffelteig — eigene Form, eigener Intent. [Pierogi leniwe](/de/rezepte/pierogi-leniwe) sind Quark-Klößchen ohne Falten; beide gehören nicht zur gefalteten Pierogi-Charge dieses Guides.
 
@@ -80,7 +80,7 @@ Eine Sache gut: Zwiebelbutter oder Schmand, optional Gurke oder Salat. Wenn Supp
 
 ## Weiter füllen
 
-[Pierogi-Teig](/de/blog/pierogi-teig), [Pierogi Ruskie](/de/rezepte/pierogi/ruskie), [Pierogi einfrieren](/de/blog/pierogi-einfrieren), [Barszcz](/de/rezepte/barszcz-czerwony), [Polenladen](/de/blog/polenladen-einkaufen).
+[Pierogi-Teig](/de/blog/pierogi-teig), [Pierogi Ruskie](/de/rezepte/pierogi/ruskie), [Pierogi mit Heidelbeeren](/de/rezepte/pierogi/jagody), [Pierogi einfrieren](/de/blog/freezer-meal-prep), [Barszcz](/de/rezepte/barszcz-czerwony), [Polenladen](/de/blog/polenladen-einkaufen).
 
 ## Mehlsorten und Chargennotizen
 
@@ -389,6 +389,14 @@ Polnische Suppen leben von Brühe, Säure, Gemüse und Geduld – nicht von Schw
 ## Vier Säulen
 
 **Rosół:** klare Brühe, niedrige Hitze – [Rosół-Technik](/de/blog/rosol-technik). **Żurek:** Zakwas, Majoran, Einlagen – [Zakwas](/de/blog/zakwas-zurek). **Barszcz:** Rote Bete, Balance statt Zucker. **Krupnik** und die Kiszone-Suppen [Kapuśniak](/de/rezepte/kapusniak) sowie [Ogórkowa](/de/rezepte/ogorkowa): Einlagen nach Basis. **Frühling:** [Botwinka](/de/rezepte/botwinka) — junge Bete mit Blättern, warm und einlagenreich, klar ≠ Barszcz und ≠ kalter Chłodnik. Immer: Basis zuerst, Säure und Salz steuern.
+
+## Flaki (Kuttelsuppe)
+
+Wenn der Topf deftige Einlage und Majeranek will — nicht Rote Bete, nicht Zakwas, nicht Kiszone-Gurke: [Flaki](/de/rezepte/flaki). Cook-Primary liegt auf der Rezept-URL; dieser Overview bleibt Broad-Owner für die Suppen-Landschaft.
+
+## Alltag: Zupa pomidorowa
+
+**Zupa pomidorowa** — polnische Tomatensuppe mit Reis oder Nudeln und Śmietana — ist Alltagsküche aus oft Rosół-Resten, kein Festtags-Barszcz und keine Kiszone-Ogórkowa. Cook-Rezept: [Zupa pomidorowa](/de/rezepte/zupa-pomidorowa). Dieser Überblick bleibt Broad-Owner; die Money Page trägt nur den Tomaten-Teller.
 
 ## Einkauf DE
 
@@ -992,7 +1000,7 @@ Nie kalt in tobende Flüssigkeit. Löffel heiße Suppe einrühren, zurück, nich
 
 ## Teller-Nutzung
 
-Zu [Pierogi Ruskie](/de/rezepte/pierogi/ruskie) und Placki oft kalt. Klassischer Anwendungsfall: [Mizeria](/de/rezepte/mizeria) — Gurke, Dill, Śmietana. Fett = Länge, Säure = Frische. Weniger oft besser.
+Zu [Pierogi Ruskie](/de/rezepte/pierogi/ruskie) und Placki oft kalt. Klassischer Anwendungsfall: [Mizeria](/de/rezepte/mizeria) — Gurke, Dill, Śmietana. In warmer Alltags-Suppe temperiert einrühren: [Zupa pomidorowa](/de/rezepte/zupa-pomidorowa). Fett = Länge, Säure = Frische. Weniger oft besser.
 
 ## Einkauf/Lager
 
@@ -1292,7 +1300,7 @@ Funktion klären → Kandidaten testen → notieren. Etikett „polnisch“ ist 
 
 ## Twaróg
 
-Für [Pierogi Ruskie](/de/rezepte/pierogi/ruskie): abgeseihter Quark, nicht Frischkäse. Details: [Twaróg Guide](/de/blog/twarog-deutschland).
+Für [Pierogi Ruskie](/de/rezepte/pierogi/ruskie): abgeseihter Quark, nicht Frischkäse. Details: [Twaróg Guide](/de/blog/twarog-deutschland). Dieselbe Logik für [Makaron z serem](/de/rezepte/makaron-z-serem) — Pasta+Quark, nicht Frischkäse.
 
 ## Zakwas
 
@@ -1774,7 +1782,7 @@ Samstag Spezialitäten, Sonntag Frisches minimal. [Polenladen](/de/blog/polenlad
 
 ## Sonntagsfleisch (Ofen & Schmoren)
 
-Neben Schabowy lohnen ruhige Fleisch-Mittelpunkte: [Żeberka pieczone](/de/rezepte/zeberka) aus dem Ofen mit Majeranek-Senf-Marinade, oder [Rolada śląska](/de/rezepte/rolada-slaska) als geschmorte Roulade — klar getrennt von [Zrazy](/de/rezepte/zrazy) (andere Füll-Logik). Kein Eintopf wie Gulasz; Kultur-Owner bleibt dieser Sonntags-Guide, Cook-Primary liegt auf den Rezept-URLs.
+Neben Schabowy lohnen ruhige Fleisch-Mittelpunkte: [Żeberka pieczone](/de/rezepte/zeberka) aus dem Ofen mit Majeranek-Senf-Marinade, [Schab pieczony](/de/rezepte/schab-pieczony) als Ofenschweinebraten (ohne Panade — klar ≠ Kotlet schabowy), oder [Rolada śląska](/de/rezepte/rolada-slaska) als geschmorte Roulade — klar getrennt von [Zrazy](/de/rezepte/zrazy) (andere Füll-Logik). Kein Eintopf wie Gulasz; Kultur-Owner bleibt dieser Sonntags-Guide, Cook-Primary liegt auf den Rezept-URLs.
 
 ## Beilagen
 

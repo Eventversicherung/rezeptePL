@@ -117,6 +117,8 @@ export const seedBlogPostsW5: BlogPost[] = [
       "recipe-pierogi-meat",
       "recipe-zeberka",
       "recipe-rolada-slaska",
+      "recipe-schab-pieczony",
+      "recipe-flaki",
       "recipe-kaszanka",
     ],
     relatedPostIds: [

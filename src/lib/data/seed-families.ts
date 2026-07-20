@@ -19,6 +19,7 @@ export const seedFamilies: RecipeFamily[] = [
       "recipe-nalesniki",
       "recipe-nalesniki-mieso",
       "recipe-nalesniki-szpinak",
+      "recipe-nalesniki-dzem",
     ],
     relatedPostIds: [
       "post-nalesniki-guide",
@@ -32,19 +33,19 @@ export const seedFamilies: RecipeFamily[] = [
         title: "Naleśniki",
         slug: "nalesniki",
         excerpt:
-          "Eine Familie, mehrere Füllungen. Twaróg, Fleisch oder Spinat — oben wechseln.",
+          "Eine Familie, mehrere Füllungen. Twaróg, Fleisch, Spinat oder Marmelade — oben wechseln.",
         seoTitle: "Naleśniki Rezepte | Alle Varianten | Alemniam",
         seoDescription:
-          "Naleśniki bilingual: mit Twaróg, mit Fleisch, mit Spinat. Backen und Einkaufen in einer App.",
+          "Naleśniki bilingual: mit Twaróg, mit Fleisch, mit Spinat, mit Marmelade. Backen und Einkaufen in einer App.",
       },
       pl: {
         title: "Naleśniki",
         slug: "nalesniki",
         excerpt:
-          "Jedna rodzina, kilka farszów. Twaróg, mięso albo szpinak — przełącz u góry.",
+          "Jedna rodzina, kilka farszów. Twaróg, mięso, szpinak albo dżem — przełącz u góry.",
         seoTitle: "Naleśniki przepisy | Wszystkie warianty | Alemniam",
         seoDescription:
-          "Naleśniki dwujęzycznie: z twarogiem, z mięsem, ze szpinakiem. Gotowanie i zakupy.",
+          "Naleśniki dwujęzycznie: z twarogiem, z mięsem, ze szpinakiem, z dżemem. Gotowanie i zakupy.",
       },
     },
   },
@@ -60,6 +61,7 @@ export const seedFamilies: RecipeFamily[] = [
       "recipe-pierogi",
       "recipe-pierogi-meat",
       "recipe-pierogi-cabbage",
+      "recipe-pierogi-jagody",
     ],
     relatedPostIds: [
       "post-pierogi-guide",
@@ -75,19 +77,19 @@ export const seedFamilies: RecipeFamily[] = [
         title: "Pierogi",
         slug: "pierogi",
         excerpt:
-          "Eine Familie, mehrere Füllungen. Ruskie, Fleisch oder Kraut mit Pilzen — oben wechseln, Inhalt folgt.",
+          "Eine Familie, mehrere Füllungen. Ruskie, Fleisch, Kraut mit Pilzen oder Heidelbeeren — oben wechseln, Inhalt folgt.",
         seoTitle: "Pierogi Rezepte | Alle Varianten | Alemniam",
         seoDescription:
-          "Pierogi bilingual: Ruskie, mit Fleisch, mit Kraut und Pilzen. Kochen und Einkaufen in einer App.",
+          "Pierogi bilingual: Ruskie, mit Fleisch, mit Kraut und Pilzen, mit Heidelbeeren. Kochen und Einkaufen in einer App.",
       },
       pl: {
         title: "Pierogi",
         slug: "pierogi",
         excerpt:
-          "Jedna rodzina, kilka farszów. Ruskie, mięso albo kapusta z grzybami — przełącz u góry.",
+          "Jedna rodzina, kilka farszów. Ruskie, mięso, kapusta z grzybami albo jagody — przełącz u góry.",
         seoTitle: "Pierogi przepisy | Wszystkie warianty | Alemniam",
         seoDescription:
-          "Pierogi dwujęzycznie: ruskie, z mięsem, z kapustą i grzybami. Gotowanie i zakupy.",
+          "Pierogi dwujęzycznie: ruskie, z mięsem, z kapustą i grzybami, z jagodami. Gotowanie i zakupy.",
       },
     },
   },
@@ -212,7 +214,7 @@ Hack gemischt oder Rind/Schwein nach Geschmack. Majoran oft im Polenladen aromat
 
 ### Intern weiter
 
-Wechsle oben zu [Ruskie](/de/rezepte/pierogi/ruskie) oder [Kraut-Pilze](/de/rezepte/pierogi/kraut-pilze). Technik: [Teig](/de/techniken/teig). Guide: [Pierogi-Teig](/de/blog/pierogi-teig) · [Teigmaschine](/de/blog/teigmaschine-pierogi).`,
+Wechsle oben zu [Ruskie](/de/rezepte/pierogi/ruskie), [Kraut-Pilze](/de/rezepte/pierogi/kraut-pilze) oder [Heidelbeeren](/de/rezepte/pierogi/jagody). Technik: [Teig](/de/techniken/teig). Guide: [Pierogi-Teig](/de/blog/pierogi-teig) · [Teigmaschine](/de/blog/teigmaschine-pierogi).`,
       },
       pl: {
         title: "Pierogi z mięsem",
@@ -258,7 +260,7 @@ Mielone mieszane albo wołowo-wieprzowe. Majeranek często lepszy w sklepie pols
 
 ### Dalej
 
-Przełącz u góry na [ruskie](/pl/rezepte/pierogi/ruskie) albo [kapustę z grzybami](/pl/rezepte/pierogi/kapusta-grzyby). Technika: [ciasto](/pl/techniken/ciasto). Guide: [ciasto na pierogi](/pl/blog/ciasto-na-pierogi) · [robot do ciasta](/pl/blog/robot-do-ciasta-pierogi).`,
+Przełącz u góry na [ruskie](/pl/rezepte/pierogi/ruskie), [kapustę z grzybami](/pl/rezepte/pierogi/kapusta-grzyby) albo [jagody](/pl/rezepte/pierogi/jagody). Technika: [ciasto](/pl/techniken/ciasto). Guide: [ciasto na pierogi](/pl/blog/ciasto-na-pierogi) · [robot do ciasta](/pl/blog/robot-do-ciasta-pierogi).`,
       },
     },
     ingredients: [
@@ -378,7 +380,7 @@ Füllung gut auspressen. Nasse Füllung = platzen. Pilzsud sparsam zum Abschmeck
 
 ### Weiter im Silo
 
-[Ruskie](/de/rezepte/pierogi/ruskie) · [Fleisch](/de/rezepte/pierogi/fleisch) · [Wigilia Speiseplan](/de/blog/wigilia-speiseplan) · [Teig](/de/techniken/teig)`,
+[Ruskie](/de/rezepte/pierogi/ruskie) · [Fleisch](/de/rezepte/pierogi/fleisch) · [Heidelbeeren](/de/rezepte/pierogi/jagody) · [Wigilia Speiseplan](/de/blog/wigilia-speiseplan) · [Teig](/de/techniken/teig)`,
       },
       pl: {
         title: "Pierogi z kapustą i grzybami",
@@ -420,7 +422,7 @@ Farsz dobrze odciśnij. Mokry farsz = pękanie.
 
 ### Dalej
 
-[Ruskie](/pl/rezepte/pierogi/ruskie) · [mięso](/pl/rezepte/pierogi/mieso) · [menu wigilijne](/pl/blog/menu-wigilijne) · [ciasto](/pl/techniken/ciasto)`,
+[Ruskie](/pl/rezepte/pierogi/ruskie) · [mięso](/pl/rezepte/pierogi/mieso) · [jagody](/pl/rezepte/pierogi/jagody) · [menu wigilijne](/pl/blog/menu-wigilijne) · [ciasto](/pl/techniken/ciasto)`,
       },
     },
     ingredients: [
@@ -988,7 +990,7 @@ Teig und Wenden: [Naleśniki-Guide](/de/blog/nalesniki-guide). Freezer: leere Pf
 
 ### Geschwister
 
-Oben zu [Twaróg](/de/rezepte/nalesniki/twarog) oder [Spinat](/de/rezepte/nalesniki/szpinak).`,
+Oben zu [Twaróg](/de/rezepte/nalesniki/twarog), [Spinat](/de/rezepte/nalesniki/szpinak) oder [Marmelade](/de/rezepte/nalesniki/dzem).`,
       },
       pl: {
         title: "Naleśniki z mięsem",
@@ -1023,7 +1025,7 @@ Ciasto i przewracanie: [przewodnik naleśników](/pl/blog/nalesniki-przewodnik).
 
 ### Rodzeństwo
 
-Przełącz na [twaróg](/pl/rezepte/nalesniki/twarog) albo [szpinak](/pl/rezepte/nalesniki/szpinak).`,
+Przełącz na [twaróg](/pl/rezepte/nalesniki/twarog), [szpinak](/pl/rezepte/nalesniki/szpinak) albo [dżem](/pl/rezepte/nalesniki/dzem).`,
       },
     },
     ingredients: [
@@ -1139,7 +1141,7 @@ Spinat, Knoblauch, geriebener Käse oder Twaróg-salzig. [Śmietana](/de/blog/sm
 
 ### Geschwister
 
-[Twaróg](/de/rezepte/nalesniki/twarog) · [Fleisch](/de/rezepte/nalesniki/fleisch)`,
+[Twaróg](/de/rezepte/nalesniki/twarog) · [Fleisch](/de/rezepte/nalesniki/fleisch) · [Marmelade](/de/rezepte/nalesniki/dzem)`,
       },
       pl: {
         title: "Naleśniki ze szpinakiem",
@@ -1172,7 +1174,7 @@ Szpinak, czosnek, tarty ser albo słony twaróg. [Śmietana](/pl/blog/smietana-s
 
 ### Rodzeństwo
 
-[Twaróg](/pl/rezepte/nalesniki/twarog) · [Mięso](/pl/rezepte/nalesniki/mieso)`,
+[Twaróg](/pl/rezepte/nalesniki/twarog) · [Mięso](/pl/rezepte/nalesniki/mieso) · [Dżem](/pl/rezepte/nalesniki/dzem)`,
       },
     },
     ingredients: [

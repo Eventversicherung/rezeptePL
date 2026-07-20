@@ -9,6 +9,11 @@ import { W9_FACTS_B } from "./recipe-articles-w9-b";
 import { W9_FACTS_C } from "./recipe-articles-w9-c";
 import { W9_FACTS_D } from "./recipe-articles-w9-d";
 import { W9_FACTS_W8_RETROFIT } from "./recipe-articles-w9-d-retrofit";
+import { W10_FACTS_A } from "./recipe-articles-w10-a";
+import { W10_FACTS_B } from "./recipe-articles-w10-b";
+import { W10_FACTS_C } from "./recipe-articles-w10-c";
+import { W10_FACTS_D } from "./recipe-articles-w10-d";
+import { W10_FACTS_W9_RETROFIT } from "./recipe-articles-w10-d-retrofit";
 
 type ArticleFacts = {
   dishDe: string;
@@ -62,9 +67,9 @@ const FACTS: Record<string, ArticleFacts> = {
     mistakesPl:
       "Za mało mąki w cieście, mokry farsz i zbyt gwałtowne gotowanie to klasyczne błędy. Lepiej przetestować małą partię, zanim ulepisz pięćdziesiąt sztuk.",
     variantsDe:
-      "Varianten mit Speck in der Füllung, mit Sauerrahm-Dip oder als gebratene Reste. Für Fleisch- und Kraut-Pilze-Varianten sowie Teigdetails: Pierogi-Guide und Teig Guide. Süß gefüllte Pierogi sind ein anderes Gericht.",
+      "Varianten mit Speck in der Füllung, mit Sauerrahm-Dip oder als gebratene Reste. Switcher: [Fleisch](/de/rezepte/pierogi/fleisch), [Kraut & Pilze](/de/rezepte/pierogi/kraut-pilze), süß [Heidelbeeren](/de/rezepte/pierogi/jagody). Teigdetails: Pierogi-Guide und Teig Guide. Süße gefaltete Pierogi ≠ [Knedle śliwki](/de/rezepte/knedle-sliwki).",
     variantsPl:
-      "Warianty z boczkiem w farszu, ze śmietaną albo jako podsmażane resztki. Wersje z mięsem i kapustą oraz technika ciasta — w Pierogi-Guide i przewodniku po cieście. Słodkie pierogi to osobna historia.",
+      "Warianty z boczkiem w farszu, ze śmietaną albo jako podsmażane resztki. Przełącznik: [mięso](/pl/rezepte/pierogi/mieso), [kapusta z grzybami](/pl/rezepte/pierogi/kapusta-grzyby), słodkie [jagody](/pl/rezepte/pierogi/jagody). Technika ciasta — Pierogi-Guide. Słodkie sklejane pierogi ≠ [knedle ze śliwkami](/pl/rezepte/knedle-sliwki).",
   },
   "recipe-bigos": {
     dishDe: "Bigos",
@@ -334,9 +339,9 @@ const FACTS: Record<string, ArticleFacts> = {
     mistakesPl:
       "Zbyt gęste ciasto, za gorąca patelnia, suchy farsz. Pomaga równowaga płynów i odpoczynek ciasta.",
     variantsDe:
-      "Oben wechseln zu Fleisch oder Spinat. Naleśniki-Guide und Twaróg Guide für süße und herzhafte Füllungen.",
+      "Oben wechseln zu [Fleisch](/de/rezepte/nalesniki/fleisch), [Spinat](/de/rezepte/nalesniki/szpinak) oder süß [Marmelade](/de/rezepte/nalesniki/dzem). Naleśniki-Guide und Twaróg Guide für süße und herzhafte Füllungen — Dżem hat eigene Varianten-URL.",
     variantsPl:
-      "Przełącz na mięso albo szpinak. Naleśniki-Guide i przewodnik po twarogu — słodkie i wytrawne wersje.",
+      "Przełącz na [mięso](/pl/rezepte/nalesniki/mieso), [szpinak](/pl/rezepte/nalesniki/szpinak) albo słodki [dżem](/pl/rezepte/nalesniki/dzem). Naleśniki-Guide i przewodnik po twarogu — dżem ma własny URL wariantu.",
   },
   "recipe-nalesniki-mieso": {
     dishDe: "Naleśniki mit Fleisch",
@@ -368,9 +373,9 @@ const FACTS: Record<string, ArticleFacts> = {
     mistakesPl:
       "Gorący mokry farsz, zbyt grube placki, za dużo tłuszczu przy drugim smażeniu.",
     variantsDe:
-      "Mit Pute, mit Pilzen gemischt, oder zurück zu Twaróg und Spinat oben im Switcher.",
+      "Mit Pute, mit Pilzen gemischt, oder zurück zu [Twaróg](/de/rezepte/nalesniki/twarog), [Spinat](/de/rezepte/nalesniki/szpinak) und süß [Marmelade](/de/rezepte/nalesniki/dzem) oben im Switcher.",
     variantsPl:
-      "Z indykiem, z grzybami albo wróć do twarogu i szpinaku w przełączniku.",
+      "Z indykiem, z grzybami albo wróć do [twarogu](/pl/rezepte/nalesniki/twarog), [szpinaku](/pl/rezepte/nalesniki/szpinak) i słodkiego [dżemu](/pl/rezepte/nalesniki/dzem) w przełączniku.",
   },
   "recipe-nalesniki-szpinak": {
     dishDe: "Naleśniki mit Spinat",
@@ -402,9 +407,9 @@ const FACTS: Record<string, ArticleFacts> = {
     mistakesPl:
       "Mokry szpinak, za dużo sera który wypływa, zbyt grube placki.",
     variantsDe:
-      "Mit Feta, ohne Käse, oder zurück zu Twaróg und Fleisch im Switcher.",
+      "Mit Feta, ohne Käse, oder zurück zu [Twaróg](/de/rezepte/nalesniki/twarog), [Fleisch](/de/rezepte/nalesniki/fleisch) und [Marmelade](/de/rezepte/nalesniki/dzem) im Switcher.",
     variantsPl:
-      "Z fetą, bez sera albo wróć do twarogu i mięsa w przełączniku.",
+      "Z fetą, bez sera albo wróć do [twarogu](/pl/rezepte/nalesniki/twarog), [mięsa](/pl/rezepte/nalesniki/mieso) i [dżemu](/pl/rezepte/nalesniki/dzem) w przełączniku.",
   },
   "recipe-rosol": {
     dishDe: "Rosół",
@@ -538,9 +543,9 @@ const FACTS: Record<string, ArticleFacts> = {
     mistakesPl:
       "Surowy farsz, zbyt mokra masa, zbyt gwałtowne gotowanie. Przetestuj małą partię, zanim ulepisz dużo.",
     variantsDe:
-      "Wechsle zu Ruskie oder Kraut-Pilze in der Pierogi-Familie. Pierogi-Guide und Teig Guide für Teig, Formen und Einfrieren.",
+      "Wechsle zu [Ruskie](/de/rezepte/pierogi/ruskie), [Kraut-Pilze](/de/rezepte/pierogi/kraut-pilze) oder süß [Heidelbeeren](/de/rezepte/pierogi/jagody). Pierogi-Guide und Teig Guide für Teig, Formen und Einfrieren.",
     variantsPl:
-      "Przełącz na ruskie albo kapustę z grzybami w rodzinie pierogów. Pierogi-Guide i przewodnik po cieście — ciasto, formy, mrożenie.",
+      "Przełącz na [ruskie](/pl/rezepte/pierogi/ruskie), [kapustę z grzybami](/pl/rezepte/pierogi/kapusta-grzyby) albo słodkie [jagody](/pl/rezepte/pierogi/jagody). Pierogi-Guide i przewodnik po cieście — ciasto, formy, mrożenie.",
   },
   "recipe-pierogi-cabbage": {
     dishDe: "Pierogi mit Kraut und Pilzen",
@@ -572,9 +577,9 @@ const FACTS: Record<string, ArticleFacts> = {
     mistakesPl:
       "Za mokra kapusta, za mało grzybów, za gorący farsz przy lepieniu. Lepiej dusić na sucho niż w wodzie.",
     variantsDe:
-      "Mit mehr Pfeffer oder extra Pilzen. Pierogi-Guide für Wigilia-Menü; Teig Guide für elastischen Teig.",
+      "Mit mehr Pfeffer oder extra Pilzen. Switcher: [Ruskie](/de/rezepte/pierogi/ruskie) · [Fleisch](/de/rezepte/pierogi/fleisch) · [Heidelbeeren](/de/rezepte/pierogi/jagody). Pierogi-Guide für Wigilia-Menü; Teig Guide für elastischen Teig.",
     variantsPl:
-      "Z większą ilością pieprzu albo grzybów. Pierogi-Guide przy menu wigilijnym; przewodnik po cieście przy elastycznym cieście.",
+      "Z większą ilością pieprzu albo grzybów. Przełącznik: [ruskie](/pl/rezepte/pierogi/ruskie) · [mięso](/pl/rezepte/pierogi/mieso) · [jagody](/pl/rezepte/pierogi/jagody). Pierogi-Guide przy menu wigilijnym; przewodnik po cieście przy elastycznym cieście.",
   },
   "recipe-placki-cukinia": {
     dishDe: "Placki mit Zucchini",
@@ -1250,6 +1255,21 @@ Object.assign(
   W9_FACTS_C,
   W9_FACTS_W8_RETROFIT,
   W9_FACTS_D,
+);
+
+/**
+ * Wave 10 — merge order:
+ * A Flaki+Schab · B Piernik+Pomidorowa · C Family variants ·
+ * W9 retrofit (Leniwe/Łazanki↔Makaron) · D Makaron.
+ * Sibling variants* patches in base FACTS (C) must remain; retrofit/D win on shared keys.
+ */
+Object.assign(
+  FACTS,
+  W10_FACTS_A,
+  W10_FACTS_B,
+  W10_FACTS_C,
+  W10_FACTS_W9_RETROFIT,
+  W10_FACTS_D,
 );
 
 function expand(locale: Locale, f: ArticleFacts): string {

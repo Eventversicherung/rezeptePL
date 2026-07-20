@@ -17,6 +17,7 @@ export const seedBlogPostsW6: BlogPost[] = [
       "recipe-faworki",
       "recipe-racuchy",
       "recipe-uszka",
+      "recipe-piernik",
     ],
     relatedPostIds: [
       "post-wigilia",

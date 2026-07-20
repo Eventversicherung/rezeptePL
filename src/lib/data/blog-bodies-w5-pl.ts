@@ -239,6 +239,8 @@ Suszony dość wcześnie do farszu lub sosu, by pociągnął. Na końcu sprawdzi
 - [Fasolka](/pl/rezepte/fasolka-po-bretonsku) i [przewodnik fasolki](/pl/blog/fasolka-po-bretonsku)
 - [Zrazy](/pl/rezepte/zrazy)
 - [Żeberka pieczone](/pl/rezepte/zeberka) — majeranek w marynacie do pieca
+- [Schab pieczony](/pl/rezepte/schab-pieczony) — majeranek na pieczeni z pieca
+- [Flaki](/pl/rezepte/flaki) — majeranek w zupie z flaków
 - [Rolada śląska](/pl/rezepte/rolada-slaska) — oszczędnie w sosie duszonym
 - [Pierogi z mięsem](/pl/rezepte/pierogi/mieso)
 - [Kiełbasa](/pl/blog/rodzaje-kielbasy)

@@ -125,7 +125,12 @@ const seedBlogPostsLive: BlogPost[] = [
     coverImage:
       "https://images.unsplash.com/photo-1628088062854-d1870b4553da?w=1600&q=80",
     siloIds: ["ingredient", "diaspora"],
-    relatedRecipeIds: ["recipe-pierogi", "recipe-nalesniki", "recipe-pierogi-meat"],
+    relatedRecipeIds: [
+      "recipe-pierogi",
+      "recipe-nalesniki",
+      "recipe-pierogi-meat",
+      "recipe-makaron-z-serem",
+    ],
     relatedPostIds: [
       "post-polenladen",
       "post-ersatzprodukte-de",
@@ -157,7 +162,7 @@ const seedBlogPostsLive: BlogPost[] = [
       },
     },
     publishedAt: "2026-07-08T10:00:00.000Z",
-    updatedAt: "2026-07-19T18:00:00.000Z",
+    updatedAt: "2026-07-20T23:00:00.000Z",
   },
   {
     id: "post-polenladen",
@@ -221,6 +226,7 @@ const seedBlogPostsLive: BlogPost[] = [
       "recipe-karp",
       "recipe-sledz",
       "recipe-pierogi",
+      "recipe-piernik",
     ],
     relatedPostIds: [
       "post-pierogi-guide",

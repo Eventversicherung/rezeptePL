@@ -230,6 +230,8 @@ Getrocknet früh genug in die Füllung oder Soße, damit er zieht. Am Ende noch 
 - [Fasolka](/de/rezepte/fasolka-po-bretonsku) und [Fasolka-Guide](/de/blog/fasolka-po-bretonsku)
 - [Zrazy](/de/rezepte/zrazy)
 - [Żeberka pieczone](/de/rezepte/zeberka) — Majeranek in der Ofen-Marinade
+- [Schab pieczony](/de/rezepte/schab-pieczony) — Majeranek auf dem Ofenschweinebraten
+- [Flaki](/de/rezepte/flaki) — Majeranek in der Kuttelsuppe
 - [Rolada śląska](/de/rezepte/rolada-slaska) — sparsam in der Schmor-Soße
 - [Pierogi mit Fleisch](/de/rezepte/pierogi/fleisch)
 - [Kiełbasa](/de/blog/kielbasa-arten)

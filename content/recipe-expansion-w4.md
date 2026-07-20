@@ -112,13 +112,41 @@ W8 Kapusta ↔ Kaszanka Pairing (optional); W8 FACTS-Audit all green (≥4 links
 - Affiliate guide-only on recipes  
 - Target inventory: **47** recipes · **36** blog · `SEED_VERSION` **23**
 
+## Wave 10 — shipped this batch
+
+### Blog
+Kein neuer Pillar — Ownership über polnische-suppen, Sonntagsessen, Wigilia, Makowiec-Technik, Pierogi-/Naleśniki-Guides, Twaróg.
+
+### Standalone recipes
+| Dish | ID | Notes |
+|------|-----|--------|
+| Flaki | `recipe-flaki` | Kuttelsuppe; ≠ Barszcz/Żurek/Ogórkowa/Botwinka |
+| Schab pieczony | `recipe-schab-pieczony` | Ofenbraten; ≠ Kotlet schabowy |
+| Piernik | `recipe-piernik` | Lebkuchen; ≠ Makowiec/Sernik/Babka |
+| Zupa pomidorowa | `recipe-zupa-pomidorowa` | Eng primary; Overview bleibt Broad |
+| Makaron z serem | `recipe-makaron-z-serem` | Pasta+Twaróg; ≠ Leniwe/Łazanki |
+
+### Family variants (+2)
+| Dish | ID | Family |
+|------|-----|--------|
+| Pierogi jagody | `recipe-pierogi-jagody` | family-pierogi (jetzt 4) |
+| Naleśniki dżem | `recipe-nalesniki-dzem` | family-nalesniki (jetzt 4) |
+
+### Link retrofit
+W9 FACTS-Audit all green; Leniwe/Łazanki ↔ Makaron pairing.
+
+### Tech SEO (unchanged)
+- Thin **region** hubs: `noindex,follow` until intro ≥400  
+- Affiliate guide-only on recipes  
+- Target inventory: **54** recipes · **36** blog · Families **3** · `SEED_VERSION` **24**
+
 ## Still HOLD / next backlog
 
 - Kotlet family hub (SEO-safe split)  
 - Region hub intros ≥400 before index  
 - Lab product tests  
 - Meal-Prep Arbeitswoche ≠ Freezer-Pierogi  
-- Flaki, Piernik, Czernina, Zupa pomidorowa (nach Messung)
+- Czernina, Placek po węgiersku, Drożdżówka  
 
 ## Keyword ownership
 

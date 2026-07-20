@@ -11,6 +11,7 @@ Eine Primary KW = eine Owner-URL. Andere Seiten nur mit descriptive Anchors verl
 | Pierogi Ruskie Rezept | pierogi ruskie przepis | `/rezepte/pierogi/ruskie` |
 | Pierogi mit Fleisch | pierogi z mięsem | `/rezepte/pierogi/fleisch` · `/mieso` |
 | Pierogi Kraut Pilze | pierogi z kapustą | `/rezepte/pierogi/kraut-pilze` |
+| Pierogi mit Heidelbeeren / Pierogi z jagodami | pierogi z jagodami | `/rezepte/pierogi/jagody` |
 | Pierogi einfrieren | mrożenie pierogów | `/blog/freezer-meal-prep` · `/blog/mrozenie-pierogow` |
 | Beste Freezer-Boxen Pierogi 2026 | najlepsze pojemniki do mrożenia 2026 | `/blog/freezer-boxen-kaufberatung` · `/blog/pojemniki-do-mrozenia` |
 | Beste Teigmaschinen Pierogi 2026 | roboty do ciasta 2026 | `/blog/teigmaschine-pierogi` |
@@ -28,6 +29,7 @@ Eine Primary KW = eine Owner-URL. Andere Seiten nur mit descriptive Anchors verl
 | Barszcz klar kochen | `/blog/barszcz-technik` · `/blog/jak-ugotowac-barszcz` |
 | Zupa ogórkowa | `/rezepte/ogorkowa` |
 | Kapuśniak Rezept | `/rezepte/kapusniak` |
+| Flaki Rezept / Kuttelsuppe polnisch | `/rezepte/flaki` |
 | Bigos Guide | `/blog/bigos-guide` |
 | Bigos Rezept | `/rezepte/bigos` |
 
@@ -65,12 +67,14 @@ Eine Primary KW = eine Owner-URL. Andere Seiten nur mit descriptive Anchors verl
 | Naleśniki mit Twaróg | `/rezepte/nalesniki/twarog` |
 | Naleśniki mit Fleisch | `/rezepte/nalesniki/fleisch` · `/mieso` |
 | Naleśniki mit Spinat | `/rezepte/nalesniki/szpinak` |
+| Naleśniki mit Marmelade / Naleśniki z dżemem | `/rezepte/nalesniki/dzem` |
 | Pierogi leniwe | `/rezepte/pierogi-leniwe` |
 | Kopytka | `/rezepte/kopytka` |
 | Łazanki | `/rezepte/lazanki` |
 | Pyzy mit Fleisch | `/rezepte/pyzy` |
 | Zrazy zawijane | `/rezepte/zrazy` |
 | Żeberka pieczone / Ofenrippchen polnisch | `/rezepte/zeberka` |
+| Schab pieczony / Schweinebraten polnisch Ofen | `/rezepte/schab-pieczony` |
 | Rolada śląska | `/rezepte/rolada-slaska` |
 | Faworki Technik | `/blog/faworki-technik` · `/blog/faworki-technika` |
 | Faworki Rezept | `/rezepte/faworki` |
@@ -95,8 +99,13 @@ Eine Primary KW = eine Owner-URL. Andere Seiten nur mit descriptive Anchors verl
 | Kapusta zasmażana | `/rezepte/kapusta-zasmażana` |
 | Knedle mit Pflaumen / Knedle ze śliwkami | `/rezepte/knedle-sliwki` |
 | Kaszanka Rezept | `/rezepte/kaszanka` |
+| Makaron z serem | `/rezepte/makaron-z-serem` |
+| Piernik Rezept / Polnischer Lebkuchen | `/rezepte/piernik` |
+| Zupa pomidorowa Rezept | `/rezepte/zupa-pomidorowa` |
 
 **Intent-Trennung (Wave 9 final):** Żeberka = Ofenrippen ≠ Gulasz/Zrazy; Rolada śląska = Schmor-Roulade ≠ Zrazy; Sałatka ≠ Mizeria; Botwinka ≠ Barszcz/Chłodnik; Babka = Hefegugelhupf ≠ Makowiec/Sernik/Pączki Primary; Kaszanka = Cook ≠ Kiełbasa-Arten Lexikon.
+
+**Intent-Trennung (Wave 10 final):** Flaki = Kuttelsuppe ≠ Barszcz/Żurek/Ogórkowa/Botwinka; Schab pieczony = Ofenschweinebraten ≠ Kotlet schabowy (Panade/Pfanne). Piernik = Honig-Gewürz-Lebkuchen ≠ Makowiec/Sernik/Babka Primary; Makowiec-Technik nur descriptive Back-Nachbar. Zupa pomidorowa = Cook-Primary (eng) ≠ generisches DE-„Tomatensuppe“; Overview bleibt `/blog/polnische-suppen`; ≠ Barszcz/Ogórkowa/Rosół-Primary. Pierogi jagody = süße gefaltete Variante ≠ Knedle śliwki; Naleśniki dżem = eigene Varianten-URL ≠ Twaróg-Primary. Makaron z serem = Pasta+Twaróg(+Butter/Zucker oder salzig) ≠ Pierogi leniwe ≠ Łazanki ≠ Kopytka/Knedle; Twaróg-Guide bleibt Zutaten-Owner.
 
 ## Gear (Silo H)
 

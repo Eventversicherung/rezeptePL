@@ -169,7 +169,7 @@ Naleśniki leben von der Füllung. Der Teig ist neutral – die Masse innen trä
 
 ### Süß mit Twaróg
 
-Die klassische süße Variante nutzt trockenen, krümeligen Quark – in Polen Twaróg genannt. Für Pierogi und Naleśniki brauchen wir dieselbe Konsistenz: nicht den wässrigen Speisequark aus dem Kühlregal. Wie wir Twaróg in Deutschland finden oder ersetzen, steht im [Twaróg Guide](/de/blog/twarog-deutschland) – dort gehört die Zutat hin, nicht hier im Detail.
+Die klassische süße Variante nutzt trockenen, krümeligen Quark – in Polen Twaróg genannt. Cook-Primary bleibt [Naleśniki mit Twaróg](/de/rezepte/nalesniki/twarog). Eine zweite süße Linie ohne Quark: [Naleśniki mit Marmelade](/de/rezepte/nalesniki/dzem) — eigene Varianten-URL, kein Twaróg-Steal. Für Pierogi und Naleśniki brauchen wir bei Quark dieselbe Konsistenz: nicht den wässrigen Speisequark aus dem Kühlregal. Wie wir Twaróg in Deutschland finden oder ersetzen, steht im [Twaróg Guide](/de/blog/twarog-deutschland) – dort gehört die Zutat hin, nicht hier im Detail.
 
 Kurz für die Küche: Twaróg mit Eigelb, Zucker, Vanille und optional Rosinen oder Zitronenschale verrühren. Die Masse soll streichfähig sein, nicht laufen. Zu feucht = auslaufende Füllung beim Braten. Im Zweifel abseihen oder etwas mehr Quark einarbeiten.
 
@@ -244,6 +244,7 @@ Ja, gefüllt und angebraten halten sich eingefroren zwei bis drei Monate gut. Fr
 Technik sitzt – als Nächstes konkret kochen und Zutaten sauber einordnen:
 
 - [Naleśniki mit Twaróg](/de/rezepte/nalesniki/twarog) — Rezept mit Mengen und Schritten
+- [Naleśniki mit Marmelade](/de/rezepte/nalesniki/dzem) — süße Dżem-Variante (eigene URL)
 - [Krokiety](/de/rezepte/krokiety) — gerollte, panierte Naleśniki (andere Money Page)
 - [Pierogi Ruskie](/de/rezepte/pierogi/ruskie) — gleicher Quark, andere Form
 - [Twaróg Guide](/de/blog/twarog-deutschland) — Kauf und Konsistenz in DE

@@ -18,6 +18,8 @@ import { seedRecipesWave7 } from "./seed-recipes-wave7";
 import { seedRecipesWave8 } from "./seed-recipes-wave8";
 /** Wave 9 — A Fleisch + B Beilage/Suppe + C Babka + D Kaszanka */
 import { seedRecipesWave9 } from "./seed-recipes-wave9";
+/** Wave 10 — A Flaki+Schab · B Piernik+Pomidorowa · C Family variants · D Makaron */
+import { seedRecipesWave10 } from "./seed-recipes-wave10";
 
 export const seedClusters = expandedClusters;
 export { seedFamilies, seedBlogPosts };
@@ -89,7 +91,7 @@ Schritt [Pierogi-Teig](/de/blog/pierogi-teig) · [Teigmaschine](/de/blog/teigmas
 
 ### Geschwister
 
-Nur über den Varianten-Switcher: Fleisch, Kraut & Pilze.`,
+Nur über den Varianten-Switcher: Fleisch, Kraut & Pilze, Heidelbeeren.`,
       },
       pl: {
         title: "Pierogi ruskie",
@@ -120,7 +122,7 @@ Nur über den Varianten-Switcher: Fleisch, Kraut & Pilze.`,
           "Pierogi ruskie. Gotowanie i zakupy, dwujęzycznie ze wskazówkami DE.",
         article: `## Pierogi ruskie — wariant domowy
 
-Ziemniaki, twaróg, cebula. Bez widowiska — smak, który wielu łączy z domem. U góry przełączysz na mięso albo kapustę z grzybami.
+Ziemniaki, twaróg, cebula. Bez widowiska — smak, który wielu łączy z domem. U góry przełączysz na mięso, kapustę z grzybami albo jagody.
 
 ### Twaróg w DE
 
@@ -786,7 +788,7 @@ Przełącz u góry: [cukinia](/pl/rezepte/placki/cukinia), [ser](/pl/rezepte/pla
           { text: "Durch Mehl, Ei und Panade ziehen." },
           { text: "In Butterschmalz goldbraun braten.", tip: "Nicht zu heiß. Panade soll nicht verbrennen." },
           {
-            text: "Mit Zitrone und Beilagen servieren — klassisch [Mizeria](/de/rezepte/mizeria) oder warme [Kapusta zasmażana](/de/rezepte/kapusta-zasmażana). Anderer Sonntags-Fleisch-Nachbar: [Żeberka pieczone](/de/rezepte/zeberka).",
+            text: "Mit Zitrone und Beilagen servieren — klassisch [Mizeria](/de/rezepte/mizeria) oder warme [Kapusta zasmażana](/de/rezepte/kapusta-zasmażana). Anderer Sonntags-Fleisch-Nachbar: [Żeberka pieczone](/de/rezepte/zeberka). Ofenschweinebraten ohne Panade: [Schab pieczony](/de/rezepte/schab-pieczony) — anderer Intent (Ofen vs. Pfanne/Panade).",
           },
         ],
         seoTitle: "Kotlet schabowy Rezept | Alemniam",
@@ -801,7 +803,7 @@ Przełącz u góry: [cukinia](/pl/rezepte/placki/cukinia), [ser](/pl/rezepte/pla
           { text: "Obtocz w mące, jajku i bułce tartej." },
           { text: "Smaż na złoto na smalcu lub maśle klarowanym.", tip: "Nie za mocno. Panierka nie może się przypalić." },
           {
-            text: "Podawaj z cytryną i dodatkami — klasycznie [mizeria](/pl/rezepte/mizeria) albo ciepła [kapusta zasmażana](/pl/rezepte/kapusta-zasmażana). Inny niedzielny sąsiad mięsny: [żeberka pieczone](/pl/rezepte/zeberka).",
+            text: "Podawaj z cytryną i dodatkami — klasycznie [mizeria](/pl/rezepte/mizeria) albo ciepła [kapusta zasmażana](/pl/rezepte/kapusta-zasmażana). Inny niedzielny sąsiad mięsny: [żeberka pieczone](/pl/rezepte/zeberka). Pieczeń z pieca bez panierki: [schab pieczony](/pl/rezepte/schab-pieczony) — inny intent (piec vs. patelnia/panierka).",
           },
         ],
         seoTitle: "Kotlet schabowy przepis | Alemniam",
@@ -2011,6 +2013,7 @@ export const seedRecipes: Recipe[] = [
   ...seedRecipesWave7,
   ...seedRecipesWave8,
   ...seedRecipesWave9,
+  ...seedRecipesWave10,
 ].map((recipe) => {
   if (recipe.id === "recipe-nalesniki") {
     return {

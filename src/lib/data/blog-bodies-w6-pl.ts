@@ -52,8 +52,9 @@ Sucha masa makowa, za dużo mąki, zbyt gorący piec, zbyt wczesne krojenie, mas
 - [Racuchy](/pl/rezepte/racuchy-jablka) — drożdże, słodko, codzienność/Tłusty
 - [Ciasto na pierogi](/pl/blog/ciasto-na-pierogi) — wyczucie ciasta, inny typ
 - [Menu wigilijne](/pl/blog/menu-wigilijne) — rama stołu
+- [Piernik](/pl/rezepte/piernik) — piernik miodowo-korzenny (≠ rolada makowa; inny cook-primary; tu tylko sąsiad pieczenia opisowo)
 
-Primary keywords zostają rozdzielone: technika tu, przepis na money page, menu przy okazji.
+Primary keywords zostają rozdzielone: technika tu, przepis na money page, menu przy okazji. Piernik nie kradnie primary drożdży ani maku.
 
 ## FAQ: technika makowca
 

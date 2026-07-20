@@ -42,6 +42,7 @@ const pierogiRecipes = [
   "recipe-pierogi",
   "recipe-pierogi-meat",
   "recipe-pierogi-cabbage",
+  "recipe-pierogi-jagody",
 ] as const;
 
 export const seedBlogPostsWave2: BlogPost[] = [
@@ -182,6 +183,8 @@ export const seedBlogPostsWave2: BlogPost[] = [
       "recipe-ogorkowa",
       "recipe-kapusniak",
       "recipe-botwinka",
+      "recipe-flaki",
+      "recipe-zupa-pomidorowa",
     ],
     relatedPostIds: [
       "post-rosol-technik",
@@ -351,6 +354,7 @@ export const seedBlogPostsWave2: BlogPost[] = [
       "recipe-nalesniki",
       "recipe-pierogi",
       "recipe-mizeria",
+      "recipe-zupa-pomidorowa",
     ],
     relatedPostIds: [
       "post-ersatzprodukte-de",
@@ -441,6 +445,7 @@ export const seedBlogPostsWave2: BlogPost[] = [
       "recipe-nalesniki",
       "recipe-bigos",
       "recipe-zurek",
+      "recipe-makaron-z-serem",
     ],
     relatedPostIds: [
       "post-polenladen",
@@ -585,6 +590,7 @@ export const seedBlogPostsWave2: BlogPost[] = [
       "recipe-kapusta-zasmażana",
       "recipe-zeberka",
       "recipe-rolada-slaska",
+      "recipe-schab-pieczony",
       "recipe-kaszanka",
       "recipe-salatka-jarzynowa",
     ],

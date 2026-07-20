@@ -1,12 +1,12 @@
 # Topical Authority Status — SEO Snapshot
 
-Stand: 2026-07-20 · `SEED_VERSION` 23 · Quelle: Live-Seed
+Stand: 2026-07-20 · `SEED_VERSION` 24 · Quelle: Live-Seed
 
 ## Urteil (Senior SEO)
 
-**Wave 9 shipped:** Fleisch/Sonntag (Żeberka, Rolada), Beilage (Sałatka jarzynowa), Suppe (Botwinka), Wielkanoc-Backen (Babka), Diaspora-Cook (Kaszanka). Kein neuer Blog-Pillar. Ownership sauber vs Zrazy/Gulasz/Mizeria/Barszcz/Chłodnik/Makowiec/Sernik/Pączki/Kielbasa-Arten.
+**Wave 10 shipped:** Flaki, Schab pieczony, Piernik, Zupa pomidorowa, Pierogi jagody, Naleśniki dżem, Makaron z serem. Kein neuer Blog-Pillar. Ownership sauber vs clear soups / Schabowy / Makowiec-Sernik-Babka / Knedle / Twaróg-Primary / Leniwe-Łazanki. Families: Pierogi 4 · Naleśniki 4 · Placki 4.
 
-**Score gesamt: 9/10 Topical Density** — Kern-Silos inkl. Sonntagsfleisch, Festsalat, Frühlings-Suppe, Babka, Kaszanka geschlossen; Rest-Hebel Region-Hub-Tiefe (HOLD) und echte Lab-Tests (HOLD).
+**Score gesamt: 9/10 Topical Density** — Klassiker-Suppen, Wigilia-Süß, Ofenfleisch, Family-Depth und Alltag-Pasta geschlossen; Rest-Hebel Region-Hub-Tiefe (HOLD) und echte Lab-Tests (HOLD).
 
 ---
 
@@ -15,12 +15,12 @@ Stand: 2026-07-20 · `SEED_VERSION` 23 · Quelle: Live-Seed
 | Layer | LIVE | Indexierbare URLs (DE+PL) | Notiz |
 |-------|------|---------------------------|--------|
 | **Blog** | **36** Posts | **72** | unverändert (kein neuer Pillar) |
-| **Rezepte** | **47** | **94** (+ Family-Hubs) | +6 Wave-9 Money Pages |
-| **RecipeFamilies** | **3** | Pierogi, Placki, Naleśniki | |
+| **Rezepte** | **54** | **108** (+ Family-Hubs) | +7 Wave-10 Money Pages |
+| **RecipeFamilies** | **3** | Pierogi, Placki, Naleśniki | Pierogi/Naleśniki je +1 Variante |
 | **Cluster-Hubs** | **31** | ~62 | Region-Hubs thin → `noindex,follow` |
-| **Catalog-Karten** | ~40 | Families einmal + Standalone | |
+| **Catalog-Karten** | ~43 | Families einmal + Standalone | |
 
-**Blog:Rezept ≈ 1 : 1.3** — gesund.
+**Blog:Rezept ≈ 1 : 1.5** — gesund.
 
 ---
 
@@ -29,7 +29,7 @@ Stand: 2026-07-20 · `SEED_VERSION` 23 · Quelle: Live-Seed
 | Metrik | Wert |
 |--------|------|
 | Wortzahl-Gate (≥1100 Guides) | unverändert; kein neuer Pillar |
-| Related Recipes / Posts | Sonntag/Wielkanoc/Majeranek/Suppen/Kielbasa updated |
+| Related Recipes / Posts | Suppen/Sonntag/Wigilia/Majeranek/Guides/Twaróg updated |
 | Affiliate | guide-only auf Rezepten |
 | Blog JSON-LD | `BlogPosting` + `FAQPage` (parsed) |
 | Recipe JSON-LD | Author Org + dates + absolute image |
@@ -40,12 +40,12 @@ Stand: 2026-07-20 · `SEED_VERSION` 23 · Quelle: Live-Seed
 
 | Silo | Status | Stärke |
 |------|--------|--------|
-| **A Gerichtsfamilien** | + Fleisch/Beilage/Babka/Kaszanka | Stark |
+| **A Gerichtsfamilien** | + Flaki/Pomidorowa/Piernik/Schab/Makaron + Family-Süß | Stark |
 | **B Regionen** | Hubs thin → noindex bis Intro ≥400 | HOLD |
-| **C Anlässe** | Sonntag (+ Fleisch/Salat/Kaszanka), Wielkanoc (+ Babka/Salat) | Stark |
-| **D Techniken** | Makowiec/Pączki unangetastet; Babka nur Cook | Stark |
-| **E Zutaten** | Majeranek → Żeberka/Rolada/Kaszanka | Stark |
-| **F Diaspora** | Polenladen → Kaszanka Cook | OK |
+| **C Anlässe** | Sonntag (+ Schab), Wigilia (+ Piernik) | Stark |
+| **D Techniken** | Makowiec/Pączki unangetastet; Piernik nur Cook | Stark |
+| **E Zutaten** | Majeranek → Flaki/Schab; Twaróg → Makaron Cook | Stark |
+| **F Diaspora** | Polenladen / Ersatzprodukte → Makaron | OK |
 | **H Gear** | Buying-Guides | Stark — Lab-Tests HOLD |
 
 ---
@@ -54,13 +54,16 @@ Stand: 2026-07-20 · `SEED_VERSION` 23 · Quelle: Live-Seed
 
 | Metrik | Wert |
 |--------|------|
-| Mit Longform (≥400 via seed oder FACTS) | **47 / 47** |
-| Mit `relatedPostIds` | **47 / 47** |
-| Wave-9 neu | Żeberka, Rolada, Sałatka, Botwinka, Babka, Kaszanka |
-| Ownership Rolada vs Zrazy | Getrennt (Füll-/Schmor-Logik) |
-| Ownership Botwinka vs Barszcz/Chłodnik | Getrennt |
-| Ownership Babka vs Makowiec/Sernik/Pączki | Getrennt |
-| Ownership Kaszanka vs Kielbasa-Arten | Cook ≠ Types |
+| Mit Longform (≥400 via seed oder FACTS) | **54 / 54** |
+| Mit `relatedPostIds` | **54 / 54** |
+| Wave-10 neu | Flaki, Schab, Piernik, Pomidorowa, Jagody, Dżem, Makaron |
+| Ownership Flaki vs clear soups | Getrennt (Kutteln) |
+| Ownership Schab vs Schabowy | Ofen ≠ Panade |
+| Ownership Piernik vs Makowiec/Sernik/Babka | Getrennt |
+| Ownership Pomidorowa eng | Overview Broad-Owner bleibt |
+| Ownership Jagody vs Knedle | Gefaltet ≠ Knödel |
+| Ownership Dżem vs Twaróg | Eigene Varianten-URL |
+| Ownership Makaron vs Leniwe/Łazanki | Pasta-Teller ≠ Teig/Kapusta |
 
 ---
 
@@ -68,11 +71,11 @@ Stand: 2026-07-20 · `SEED_VERSION` 23 · Quelle: Live-Seed
 
 Nach Indexierung (GSC, 4–8 Wochen):
 
-- [ ] Pierogi / Placki / Naleśniki Owner-URLs: Impressionen ↑, **kein** CTR-Clash  
-- [ ] Żeberka / Rolada vs Schabowy / Zrazy / Gulasz: getrennte Intents  
-- [ ] Sałatka vs Mizeria; Botwinka vs Barszcz / Chłodnik  
-- [ ] Babka vs Makowiec / Sernik / Pączki  
-- [ ] Kaszanka Cook vs Kielbasa-Arten Lexikon  
+- [ ] Pierogi / Placki / Naleśniki Owner-URLs inkl. neuer Varianten: Impressionen ↑, **kein** CTR-Clash  
+- [ ] Flaki / Pomidorowa vs Barszcz / Żurek / Ogórkowa  
+- [ ] Schab pieczony vs Schabowy  
+- [ ] Piernik vs Makowiec / Sernik / Babka  
+- [ ] Makaron z serem vs Leniwe / Łazanki  
 - [ ] Thin Region-Hubs bleiben `noindex,follow` bis Intro ≥400  
 - [ ] Keine Fake-Lab-Claims in Snippets  
 
@@ -84,7 +87,7 @@ Nach Indexierung (GSC, 4–8 Wochen):
 - Meal-Prep Arbeitswoche (≠ Freezer-Pierogi)  
 - Echte Lab-Produkt-Tests  
 - Kotlet family (SEO-safe split)  
-- Flaki, Piernik, Czernina, Zupa pomidorowa (nach Messung)
+- Czernina, Placek po węgiersku, Drożdżówka  
 
 ---
 
@@ -92,6 +95,6 @@ Nach Indexierung (GSC, 4–8 Wochen):
 
 | Frage | Antwort |
 |-------|---------|
-| Wie viele Beiträge? | **36 Blog** + **47 Rezepte** (+ 3 Families, 31 Hubs) |
-| Wie gut? | Blog + Rezept-Longform **grün**; Fleisch/Beilage/Suppe/Babka/Kaszanka |
-| Was als Nächstes? | **Messen** (GSC) · Region-Hubs nur mit Tiefe · Flaki/Piernik nach Daten |
+| Wie viele Beiträge? | **36 Blog** + **54 Rezepte** (+ 3 Families, 31 Hubs) |
+| Wie gut? | Blog + Rezept-Longform **grün**; Suppen/Fleisch/Backen/Family/Alltag |
+| Was als Nächstes? | **Messen** (GSC) · Region-Hubs nur mit Tiefe · HOLD-Nischen nach Daten |

@@ -3,7 +3,7 @@
 Status: LIVE | W2 | W3 | W4 | HOLD  
 Affiliate auf Rezepten: **guide-only** (Gear-Blog-Cards); Affiliate-Karten in Buying-Guides.
 
-**SEO-Snapshot & erweiterter Plan:** [`topical-authority-status.md`](./topical-authority-status.md) (36 Blog · 41 Rezepte · Score 9/10 · `SEED_VERSION` 22).
+**SEO-Snapshot & erweiterter Plan:** [`topical-authority-status.md`](./topical-authority-status.md) (36 Blog · 54 Rezepte · Score 9/10 · `SEED_VERSION` 24).
 
 ## LIVE
 
@@ -140,6 +140,21 @@ Plan: `content/wave-8-plan.md` (shipped).
 
 Plan: `content/wave-9-plan.md` (shipped).
 
+## LIVE (Wave 10 shipped — Flaki, Piernik, Family-Varianten, Makaron)
+
+| What | Notes |
+|------|-------|
+| `recipe-flaki` | Kuttelsuppe; ≠ Barszcz/Żurek/Ogórkowa |
+| `recipe-schab-pieczony` | Ofenbraten; ≠ Schabowy |
+| `recipe-piernik` | Lebkuchen; ≠ Makowiec/Sernik/Babka |
+| `recipe-zupa-pomidorowa` | Eng primary; Overview Broad-Owner |
+| `recipe-pierogi-jagody` | Family Pierogi 4. Variante; ≠ Knedle |
+| `recipe-nalesniki-dzem` | Family Naleśniki 4. Variante; ≠ Twaróg-Primary |
+| `recipe-makaron-z-serem` | Alltag Pasta; ≠ Leniwe/Łazanki |
+| Kein neuer Blog-Pillar | Ownership über bestehende Guides |
+
+Plan: `content/wave-10-plan.md` (shipped).
+
 ## HOLD
 
-Region-Blogs, Meal-Prep Woche, Lab-Tests, Region-Hub-Intros ≥400 vor Index, Kotlet family, Flaki/Piernik/Czernina (nach Messung).
+Region-Blogs, Meal-Prep Woche, Lab-Tests, Region-Hub-Intros ≥400 vor Index, Kotlet family, Czernina, Placek po węgiersku, Drożdżówka.

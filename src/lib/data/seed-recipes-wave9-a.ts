@@ -43,7 +43,7 @@ export const seedRecipesWave9A: Recipe[] = [
             tip: "Kein Eintopf: Żeberka gehören in den Ofen, nicht in den [Gulasz](/de/rezepte/gulasz-wieprzowy)-Topf.",
           },
           {
-            text: "Ruhen lassen, mit Kartoffeln oder Kraut servieren. Menü-Rahmen: [polnisches Sonntagsessen](/de/blog/sonntagsessen-polnisch). Wer denselben Tag paniert, bleibt beim [Kotlet schabowy](/de/rezepte/kotlet-schabowy) als Nachbar — nicht als Ersatz.",
+            text: "Ruhen lassen, mit Kartoffeln oder Kraut servieren. Menü-Rahmen: [polnisches Sonntagsessen](/de/blog/sonntagsessen-polnisch). Wer denselben Tag paniert, bleibt beim [Kotlet schabowy](/de/rezepte/kotlet-schabowy) als Nachbar — nicht als Ersatz. Ofenschab ohne Panade: [Schab pieczony](/de/rezepte/schab-pieczony).",
           },
         ],
         seoTitle: "Żeberka pieczone Rezept | Ofenrippchen polnisch | Alemniam",
@@ -68,7 +68,7 @@ export const seedRecipesWave9A: Recipe[] = [
             tip: "To nie gulasz: żeberka idą do pieca, nie do garnka na [gulasz](/pl/rezepte/gulasz-wieprzowy).",
           },
           {
-            text: "Odstaw chwilę, podawaj z ziemniakami lub kapustą. Ramy menu: [obiad niedzielny](/pl/blog/obiad-niedzielny). Tego samego dnia panierujesz — zostań przy [kotlecie schabowym](/pl/rezepte/kotlet-schabowy) jako sąsiedzie, nie zamienniku.",
+            text: "Odstaw chwilę, podawaj z ziemniakami lub kapustą. Ramy menu: [obiad niedzielny](/pl/blog/obiad-niedzielny). Tego samego dnia panierujesz — zostań przy [kotlecie schabowym](/pl/rezepte/kotlet-schabowy) jako sąsiedzie, nie zamienniku. Schab z pieca bez panierki: [schab pieczony](/pl/rezepte/schab-pieczony).",
           },
         ],
         seoTitle: "Żeberka pieczone przepis | Alemniam",

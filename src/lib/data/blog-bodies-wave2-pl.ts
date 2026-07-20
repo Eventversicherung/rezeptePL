@@ -164,7 +164,7 @@ export const bodyPierogiGuidePl = `Pierogi są dla wielu z nas najprostszym spos
 
 ## Zacznij od jednego farszu
 
-Na pierwszą większą partię wybieramy [pierogi ruskie](/pl/rezepte/pierogi/ruskie) albo kapustę z grzybami. Trzy farsze naraz zostawiamy na później. Ziemniaki gotujemy i odparowujemy, a Quark lub twaróg odsączamy zgodnie z poradnikiem [twaróg w Niemczech](/pl/blog/twarog-w-niemczech). Do kapusty pilnujemy, by farsz był chłodny i zwarty. Wilgotny środek rozmiękcza rant, nawet gdy ciasto jest dobre.
+Na pierwszą większą partię wybieramy [pierogi ruskie](/pl/rezepte/pierogi/ruskie) albo kapustę z grzybami. Słodką linię jagodową — [pierogi z jagodami](/pl/rezepte/pierogi/jagody) — robimy dopiero przy stabilnym cieście (to nie [knedle ze śliwkami](/pl/rezepte/knedle-sliwki)). Trzy farsze naraz zostawiamy na później. Ziemniaki gotujemy i odparowujemy, a Quark lub twaróg odsączamy zgodnie z poradnikiem [twaróg w Niemczech](/pl/blog/twarog-w-niemczech). Do kapusty pilnujemy, by farsz był chłodny i zwarty. Wilgotny środek rozmiękcza rant, nawet gdy ciasto jest dobre.
 
 ## Ciasto, wałkowanie, sklejanie
 
@@ -282,6 +282,14 @@ export const bodyPolnischeSuppenPl = `Polska zupa w Niemczech ma wielką przewag
 ## Cztery kierunki na początek
 
 [Rosół](/pl/rezepte/rosol) budujemy na mięsie, warzywach i spokojnym gotowaniu. [Żurek](/pl/rezepte/zurek) potrzebuje dobrego zakwasu, majeranku i białej kiełbasy. Barszcz czerwony opiera się na burakach i kontroli kwasowości. [Kapuśniak](/pl/rezepte/kapusniak) korzysta z dobrej kapusty kiszonej, nie z nadmiaru przypraw — to zupa, nie bigos. [Ogórkowa](/pl/rezepte/ogorkowa) bierze kwas z ogórków kiszonych i zalewy. Wiosną [botwinka](/pl/rezepte/botwinka) — młode buraki z botwiną, ciepła i z dodatkami, jasno ≠ barszcz klarowny i ≠ zimny chłodnik. My wybieramy jedną zupę na tydzień i robimy ją tak, aby starczyła na dwa obiady.
+
+## Flaki
+
+Gdy garnek chce treściwy dodatek i majeranek — nie buraki, nie zakwas, nie ogórek kiszony: [flaki](/pl/rezepte/flaki). Cook-primary na URL przepisu; ten przegląd zostaje broad-ownerem krajobrazu zup.
+
+## Codzienność: zupa pomidorowa
+
+**Zupa pomidorowa** — z ryżem lub makaronem i śmietaną — to kuchnia codzienna, często z resztek rosołu, nie świąteczny barszcz i nie ogórkowa z kiszonego. Przepis cook: [zupa pomidorowa](/pl/rezepte/zupa-pomidorowa). Ten przegląd zostaje broad-ownerem; money page niesie tylko talerz pomidorowy.
 
 ## Wywar to fundament
 
@@ -409,7 +417,7 @@ Schmand jest gęsty i tłustszy, więc dobrze znosi ciepłe sosy. Saure Sahne je
 
 ## Hartowanie do zupy
 
-My mieszamy kilka łyżek gorącej zupy ze śmietaną w kubku, a dopiero potem wlewamy całość do garnka zdjętego z ognia. To ogranicza ryzyko zwarzenia. Przy [żurku](/pl/rezepte/zurek) i barszczu porcję śmietany można podać osobno — każdy ustawia kremowość po swojemu.
+My mieszamy kilka łyżek gorącej zupy ze śmietaną w kubku, a dopiero potem wlewamy całość do garnka zdjętego z ognia. To ogranicza ryzyko zwarzenia. Przy [żurku](/pl/rezepte/zurek) i barszczu porcję śmietany można podać osobno — każdy ustawia kremowość po swojemu. W codziennej [zupie pomidorowej](/pl/rezepte/zupa-pomidorowa) ta sama logika zahartowania.
 
 ## Smak i przechowywanie
 
@@ -467,7 +475,7 @@ export const bodyErsatzproduktePl = `Zamienniki w Niemczech nie są porażką tr
 
 ## Zamieniaj funkcję, nie tylko nazwę
 
-Twaróg zastępujemy odsączonym Quarkiem, bo szukamy zwartej, lekko kwaśnej struktury do [pierogów ruskich](/pl/rezepte/pierogi/ruskie). Polską śmietanę dopasowujemy Schmandem albo saure Sahne, zależnie od temperatury dania. Mąkę do pierogów wybieramy 405 lub 550, obserwując wodę. Kapustę kiszoną kupujemy lokalnie tylko po próbie smaku; jeśli jest zbyt słodka, nie uratuje jej sama ilość majeranku.
+Twaróg zastępujemy odsączonym Quarkiem, bo szukamy zwartej, lekko kwaśnej struktury do [pierogów ruskich](/pl/rezepte/pierogi/ruskie) i do [makaronu z serem](/pl/rezepte/makaron-z-serem). Polską śmietanę dopasowujemy Schmandem albo saure Sahne, zależnie od temperatury dania. Mąkę do pierogów wybieramy 405 lub 550, obserwując wodę. Kapustę kiszoną kupujemy lokalnie tylko po próbie smaku; jeśli jest zbyt słodka, nie uratuje jej sama ilość majeranku.
 
 ## Testuj małą porcję
 
@@ -566,7 +574,7 @@ My wybieramy jedno danie główne, prosty dodatek i coś świeżego. Może to by
 
 ## Mięso niedzielne (piec i duszenie)
 
-Obok schabowego warto spokojne mięso: [żeberka pieczone](/pl/rezepte/zeberka) z piekarnika (majeranek, musztarda) albo [rolada śląska](/pl/rezepte/rolada-slaska) duszona — wyraźnie osobno od [zrazów](/pl/rezepte/zrazy) (inna logika farszu). To nie gulasz w garnku; owner kultury niedzieli zostaje tu, cook-primary na URL przepisów.
+Obok schabowego warto spokojne mięso: [żeberka pieczone](/pl/rezepte/zeberka) z piekarnika (majeranek, musztarda), [schab pieczony](/pl/rezepte/schab-pieczony) jako pieczeń z pieca (bez panierki — jasno ≠ kotlet schabowy) albo [rolada śląska](/pl/rezepte/rolada-slaska) duszona — wyraźnie osobno od [zrazów](/pl/rezepte/zrazy) (inna logika farszu). To nie gulasz w garnku; owner kultury niedzieli zostaje tu, cook-primary na URL przepisów.
 
 ## Szybka patelnia: kaszanka
 

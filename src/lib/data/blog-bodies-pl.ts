@@ -351,6 +351,8 @@ Klasyka: ziemniak + twaróg / Quark + cebula. Przepis bazowy: [pierogi ruskie](/
 
 Twaróg bywa bazą past kanapkowych, dodatkiem do makaronu na szybko, elementem wypieków. Zasada ta sama: dobierz tłustość i wilgotność do techniki. To, co działa na kanapce, nie zawsze działa w cieście gotowanym w wodzie.
 
+Gdy twaróg ma iść na gorący makaron — nie do ciasta — Cook-Intent jest osobny: [makaron z serem](/pl/rezepte/makaron-z-serem). To nie [pierogi leniwe](/pl/rezepte/pierogi-leniwe) i nie [łazanki](/pl/rezepte/lazanki). Owner składnika zostaje w tym przewodniku; przepis zostaje cook.
+
 ## Smak, sól, tłuszcz — bez mitów dietetycznych
 
 Nie moralizujemy o tłuszczu. Farsz ma smakować. Chudszy nabiał wymaga czasem odrobiny masła w cebulce albo staranniejszego doprawienia, żeby nie wyszedł „kartonowo”. Tłustszy nabiał syci mocniej — wtedy mniejsza porcja farszu na koło ciasta wystarczy. Orientacyjne ramy żywieniowe i edukację produktową warto czerpać ze źródeł takich jak [NCEZ](https://ncez.pzh.gov.pl) oraz niemieckie materiały [BZFE](https://www.bzfe.de), zwłaszcza gdy gotujecie dla dzieci i chcecie spokojnego kompasu, nie internetowych skrajności.
@@ -420,7 +422,7 @@ Nie musimy udowadniać polskości liczbą misek. Lepiej postawić kilka rzeczy n
 - [Barszcz czerwony](/pl/rezepte/barszcz-czerwony) — czysty, aromatyczny, z [uszkami](/pl/rezepte/uszka) albo bez
 - Pierogi z kapustą i grzybami — sygnał świąt; pokrewne [krokiety](/pl/rezepte/krokiety) gdy wolicie panierowaną rolkę
 - Opcjonalnie [pierogi ruskie](/pl/rezepte/pierogi/ruskie) — most dla dzieci i gości mniej „kapuścianych”
-- Kompot z suszu albo [makowiec](/pl/rezepte/makowiec) / [sernik](/pl/rezepte/sernik)
+- Kompot z suszu albo [makowiec](/pl/rezepte/makowiec) / [sernik](/pl/rezepte/sernik) / miodowo-korzenny [piernik](/pl/rezepte/piernik)
 - Ryba: [karp](/pl/rezepte/karp) na ciepło albo [śledź](/pl/rezepte/sledz) na zimno — albo jasna alternatywa, jeśli ryba odpada
 
 > Dwanaście potraw to kompas, nie ustawa. Gościnność smakuje lepiej niż checklista.
