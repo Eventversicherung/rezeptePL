@@ -1,5 +1,5 @@
 export const bodyMakowiecTechnikPl = `
-Makowiec — rolada z makiem — dla wielu z nas jest słodkim domknięciem Wigilii i jednocześnie projektem technicznym: ciasto drożdżowe, masa makowa, zwijanie, pieczenie, cierpliwość. W Niemczech dzień często psuje nie brak chęci, lecz sucha masa, pękające ciasto albo zbyt gorący piekarnik. Ten przewodnik wspiera przepis [Makowiec](/pl/rezepte/makowiec) i [menu wigilijne](/pl/blog/menu-wigilijne) — bez powielania gramatur, bez teatralnych „testów lab” i bez kanibalizacji ownera przepisu.
+Makowiec — rolada z makiem — dla wielu z nas jest słodkim domknięciem Wigilii i jednocześnie projektem technicznym: ciasto drożdżowe, masa makowa, zwijanie, pieczenie, cierpliwość. W Niemczech dzień często psuje nie brak chęci, lecz sucha masa, pękające ciasto albo zbyt gorący piekarnik. Ten przewodnik wspiera przepis [Makowiec](/pl/rezepte/makowiec) i [menu wigilijne](/pl/blog/menu-wigilijne) — bez powielania gramatur, bez teatralnych „testów lab” i bez kanibalizacji ownera przepisu. Ciasto z formy bez spirali makowej to [babka](/pl/rezepte/babka) — inny cook-primary; tu zostają rolada, masa i technika wigilijna.
 
 ## Czym jest ten filar (a czym nie)
 
@@ -103,6 +103,7 @@ W niemieckich kuchniach bywa brak dużego pieca albo spokoju w chaosie rodzinnym
 
 - [Makowiec przepis](/pl/rezepte/makowiec)
 - [Sernik](/pl/rezepte/sernik) — linia sernika w silosie pieczenia (inny primary)
+- [Babka](/pl/rezepte/babka) — ciasto drożdżowe z formy (≠ rolada makowa; inny cook-primary)
 - [Menu wigilijne](/pl/blog/menu-wigilijne)
 - [Faworki technika](/pl/blog/faworki-technika)
 - [Technika pączków](/pl/blog/paczki-technika) — drożdże świąteczne, inny projekt tłuszczowy

@@ -181,6 +181,7 @@ export const seedBlogPostsWave2: BlogPost[] = [
       "recipe-rosol",
       "recipe-ogorkowa",
       "recipe-kapusniak",
+      "recipe-botwinka",
     ],
     relatedPostIds: [
       "post-rosol-technik",
@@ -390,7 +391,12 @@ export const seedBlogPostsWave2: BlogPost[] = [
     coverImage:
       "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=1600&q=80",
     siloIds: ["ingredient", "diaspora"],
-    relatedRecipeIds: ["recipe-zurek", "recipe-fasolka", "recipe-bigos"],
+    relatedRecipeIds: [
+      "recipe-zurek",
+      "recipe-fasolka",
+      "recipe-bigos",
+      "recipe-kaszanka",
+    ],
     relatedPostIds: [
       "post-polenladen",
       "post-bigos-guide",
@@ -481,6 +487,9 @@ export const seedBlogPostsWave2: BlogPost[] = [
       "recipe-schabowy",
       "recipe-barszcz",
       "recipe-mizeria",
+      "recipe-babka",
+      "recipe-salatka-jarzynowa",
+      "recipe-botwinka",
     ],
     relatedPostIds: [
       "post-zakwas-zurek",
@@ -574,6 +583,10 @@ export const seedBlogPostsWave2: BlogPost[] = [
       "recipe-pierogi",
       "recipe-mizeria",
       "recipe-kapusta-zasmażana",
+      "recipe-zeberka",
+      "recipe-rolada-slaska",
+      "recipe-kaszanka",
+      "recipe-salatka-jarzynowa",
     ],
     relatedPostIds: [
       "post-rosol-technik",
@@ -703,7 +716,12 @@ export const seedBlogPostsWave2: BlogPost[] = [
     coverImage:
       "https://images.unsplash.com/photo-1585515320310-259814833e62?w=1600&q=80",
     siloIds: ["gear"],
-    relatedRecipeIds: ["recipe-bigos", "recipe-rosol", "recipe-golabki"],
+    relatedRecipeIds: [
+      "recipe-bigos",
+      "recipe-rosol",
+      "recipe-golabki",
+      "recipe-rolada-slaska",
+    ],
     relatedPostIds: [
       "post-bigos-guide",
       "post-rosol-technik",

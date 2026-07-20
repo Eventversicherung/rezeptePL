@@ -4,6 +4,11 @@ import { W8_FACTS_B } from "./recipe-articles-w8-b";
 import { W8_FACTS_C } from "./recipe-articles-w8-c";
 import { W8_FACTS_D } from "./recipe-articles-w8-d";
 import { W8_FACTS_D_RETROFIT } from "./recipe-articles-w8-d-retrofit";
+import { W9_FACTS_A } from "./recipe-articles-w9-a";
+import { W9_FACTS_B } from "./recipe-articles-w9-b";
+import { W9_FACTS_C } from "./recipe-articles-w9-c";
+import { W9_FACTS_D } from "./recipe-articles-w9-d";
+import { W9_FACTS_W8_RETROFIT } from "./recipe-articles-w9-d-retrofit";
 
 type ArticleFacts = {
   dishDe: string;
@@ -261,9 +266,9 @@ const FACTS: Record<string, ArticleFacts> = {
     mistakesPl:
       "Za słodki, zmętniony przez gwałtowne gotowanie, za mało kwasu. Barszcz ma smakować świeżo i wyraziście. Uszka nie namaczaj w zupie.",
     variantsDe:
-      "Mit getrockneten Pilzen im Ansatz, mit Knoblauch betont, oder als scharfer Alltagbarszcz. Barszcz-Technik für Klarheit und Säure. Für Teigtaschen: Uszka-Rezept. Nicht verwechseln mit Kiszone-Suppen ohne Rote Bete: [Ogórkowa](/de/rezepte/ogorkowa) und [Kapuśniak](/de/rezepte/kapusniak).",
+      "Mit getrockneten Pilzen im Ansatz, mit Knoblauch betont, oder als scharfer Alltagbarszcz. Barszcz-Technik für Klarheit und Säure. Für Teigtaschen: Uszka-Rezept. Nicht verwechseln mit Kiszone-Suppen ohne Rote Bete: [Ogórkowa](/de/rezepte/ogorkowa) und [Kapuśniak](/de/rezepte/kapusniak). Warme Frühlings-Bete mit Blättern (nicht klar): [Botwinka](/de/rezepte/botwinka).",
     variantsPl:
-      "Z suszonymi grzybami w bazie, mocniej czosnkowy albo ostry na co dzień. Barszcz-Technik przy klarowności i kwasie. Na pierożki: przepis Uszka. Nie mylić z zupami kiszonymi bez buraków: [ogórkowa](/pl/rezepte/ogorkowa) i [kapuśniak](/pl/rezepte/kapusniak).",
+      "Z suszonymi grzybami w bazie, mocniej czosnkowy albo ostry na co dzień. Barszcz-Technik przy klarowności i kwasie. Na pierożki: przepis Uszka. Nie mylić z zupami kiszonymi bez buraków: [ogórkowa](/pl/rezepte/ogorkowa) i [kapuśniak](/pl/rezepte/kapusniak). Ciepła wiosenna buraczana z botwiną (nie klarowna): [botwinka](/pl/rezepte/botwinka).",
   },
   "recipe-schabowy": {
     dishDe: "Kotlet schabowy",
@@ -839,9 +844,9 @@ const FACTS: Record<string, ArticleFacts> = {
     mistakesPl:
       "Podane za ciepłe, za rzadkie, za mało koperku. Zupa musi być mocno schłodzona — nie letnia.",
     variantsDe:
-      "Mit mehr Śmietana, ohne Ei, oder neben heißem Barszcz im Winter kontrastieren. Polnische Suppen-Guide für die Suppenfamilie. Warme Kiszone-Alternativen (nicht kalt/rosa): [Ogórkowa](/de/rezepte/ogorkowa) und [Kapuśniak](/de/rezepte/kapusniak).",
+      "Mit mehr Śmietana, ohne Ei, oder neben heißem Barszcz im Winter kontrastieren. Polnische Suppen-Guide für die Suppenfamilie. Warme Kiszone-Alternativen (nicht kalt/rosa): [Ogórkowa](/de/rezepte/ogorkowa) und [Kapuśniak](/de/rezepte/kapusniak). Warme Frühlings-Bete mit Grün (nicht kalt): [Botwinka](/de/rezepte/botwinka).",
     variantsPl:
-      "Z większą ilością śmietany, bez jajka albo kontrast z gorącym barszczem zimą. Przewodnik po polskich zupach przy rodzinie zup. Ciepłe alternatywy kiszone (nie zimne/różowe): [ogórkowa](/pl/rezepte/ogorkowa) i [kapuśniak](/pl/rezepte/kapusniak).",
+      "Z większą ilością śmietany, bez jajka albo kontrast z gorącym barszczem zimą. Przewodnik po polskich zupach przy rodzinie zup. Ciepłe alternatywy kiszone (nie zimne/różowe): [ogórkowa](/pl/rezepte/ogorkowa) i [kapuśniak](/pl/rezepte/kapusniak). Ciepła wiosenna buraczana z zielenią (nie zimna): [botwinka](/pl/rezepte/botwinka).",
   },
   "recipe-pierogi-leniwe": {
     dishDe: "Pierogi leniwe",
@@ -1231,6 +1236,20 @@ Object.assign(
   W8_FACTS_C,
   W8_FACTS_D_RETROFIT,
   W8_FACTS_D,
+);
+
+/**
+ * Wave 9 — merge order:
+ * A Fleisch · B Beilage/Suppe · C Babka · W8 retrofit (Kapusta↔Kaszanka) · D Kaszanka.
+ * Retrofit/D win where intentional on shared keys.
+ */
+Object.assign(
+  FACTS,
+  W9_FACTS_A,
+  W9_FACTS_B,
+  W9_FACTS_C,
+  W9_FACTS_W8_RETROFIT,
+  W9_FACTS_D,
 );
 
 function expand(locale: Locale, f: ArticleFacts): string {

@@ -229,8 +229,11 @@ Getrocknet früh genug in die Füllung oder Soße, damit er zieht. Am Ende noch 
 - [Gołąbki](/de/rezepte/golabki) und [Gołąbki-Guide](/de/blog/golabki-guide)
 - [Fasolka](/de/rezepte/fasolka-po-bretonsku) und [Fasolka-Guide](/de/blog/fasolka-po-bretonsku)
 - [Zrazy](/de/rezepte/zrazy)
+- [Żeberka pieczone](/de/rezepte/zeberka) — Majeranek in der Ofen-Marinade
+- [Rolada śląska](/de/rezepte/rolada-slaska) — sparsam in der Schmor-Soße
 - [Pierogi mit Fleisch](/de/rezepte/pierogi/fleisch)
 - [Kiełbasa](/de/blog/kielbasa-arten)
+- [Kaszanka](/de/rezepte/kaszanka) (Cook; Types bleiben im Kiełbasa-Lexikon)
 
 ## FAQ: Majeranek
 

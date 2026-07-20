@@ -55,9 +55,9 @@ export const W8_FACTS_A: Record<string, W8ArticleFacts> = {
     mistakesPl:
       "Brak odsączenia → wodnisty sos. Gorąca śmietana → się rozdziela. Za dużo cebuli → gubi koperek. Mylenie z chłodnikiem albo kradzież primary „sałatki” na zupy. Mieszanie za wcześnie na bufet.",
     variantsDe:
-      "Mit Joghurt leichter; mit etwas Zitronensaft säuerlicher; ohne Zucker, wenn Gurken süß sind. Manche geben Knoblauch — ehrlich als Hausvariante benennen. Warm servieren ist nicht Mizeria. Verwandte kühle Linie im Sommer: Chłodnik bleibt eigene Money Page.",
+      "Mit Joghurt leichter; mit etwas Zitronensaft säuerlicher; ohne Zucker, wenn Gurken süß sind. Manche geben Knoblauch — ehrlich als Hausvariante benennen. Warm servieren ist nicht Mizeria. Fest-Buffetsalat mit Mayo-Gemüse (anderer Intent): [Sałatka jarzynowa](/de/rezepte/salatka-jarzynowa). Verwandte kühle Linie im Sommer: Chłodnik bleibt eigene Money Page.",
     variantsPl:
-      "Z jogurtem lżej; z cytryną kwaśniej; bez cukru, gdy ogórki słodkie. Czosnek — jako wariant domu. Na ciepło to nie mizeria. Pokrewna linia latem: chłodnik zostaje osobną money page.",
+      "Z jogurtem lżej; z cytryną kwaśniej; bez cukru, gdy ogórki słodkie. Czosnek — jako wariant domu. Na ciepło to nie mizeria. Sałatka bufetowa z majonezem (inny intent): [sałatka jarzynowa](/pl/rezepte/salatka-jarzynowa). Pokrewna linia latem: chłodnik zostaje osobną money page.",
   },
   "recipe-kapusta-zasmażana": {
     dishDe: "Kapusta zasmażana",

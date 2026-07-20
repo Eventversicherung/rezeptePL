@@ -33,6 +33,8 @@ Eine Primary KW = eine Owner-URL. Andere Seiten nur mit descriptive Anchors verl
 
 **Intent-Trennung (Wave 8):** Ogórkowa = warme Kiszone-Gurkensuppe; Kapuśniak = Sauerkraut**suppe** (≠ Bigos-Schmorgericht); Żurek = Zakwas; Barszcz = Rote Bete; Chłodnik = kalt/Sommer. Pączki Technik = Pillar; Pączki Rezept = Cook; Tłusty = Anlass; Faworki = Fatgebäck-Owner. Knedle ≠ Pierogi/Leniwe/Pyzy. Mizeria ≠ Chłodnik-Salat-KW.
 
+**Intent-Trennung (Wave 9 B):** Sałatka jarzynowa = Mayo-Gemüsesalat (Fest/Sonntag) ≠ Mizeria (Gurke/Śmietana). Botwinka = warme junge Rote-Bete-Suppe mit Blättern ≠ Barszcz (klar) ≠ Chłodnik (kalt) ≠ Ogórkowa (Gurkensäure).
+
 ## Zutaten / Diaspora / Anlässe
 
 | Primary KW DE | Owner |
@@ -68,6 +70,8 @@ Eine Primary KW = eine Owner-URL. Andere Seiten nur mit descriptive Anchors verl
 | Łazanki | `/rezepte/lazanki` |
 | Pyzy mit Fleisch | `/rezepte/pyzy` |
 | Zrazy zawijane | `/rezepte/zrazy` |
+| Żeberka pieczone / Ofenrippchen polnisch | `/rezepte/zeberka` |
+| Rolada śląska | `/rezepte/rolada-slaska` |
 | Faworki Technik | `/blog/faworki-technik` · `/blog/faworki-technika` |
 | Faworki Rezept | `/rezepte/faworki` |
 | Pączki Technik / Hefe frittieren | `/blog/paczek-technik` · `/blog/paczki-technika` |
@@ -83,10 +87,16 @@ Eine Primary KW = eine Owner-URL. Andere Seiten nur mit descriptive Anchors verl
 | Karp Rezept (Wigilia) | `/rezepte/karp` |
 | Krokiety Rezept | `/rezepte/krokiety` |
 | Sernik Rezept | `/rezepte/sernik` |
+| Babka Rezept / Babka wielkanocna | `/rezepte/babka` |
 | Śledź Rezept | `/rezepte/sledz` |
 | Mizeria Rezept | `/rezepte/mizeria` |
+| Sałatka jarzynowa | `/rezepte/salatka-jarzynowa` |
+| Botwinka Rezept | `/rezepte/botwinka` |
 | Kapusta zasmażana | `/rezepte/kapusta-zasmażana` |
 | Knedle mit Pflaumen / Knedle ze śliwkami | `/rezepte/knedle-sliwki` |
+| Kaszanka Rezept | `/rezepte/kaszanka` |
+
+**Intent-Trennung (Wave 9 final):** Żeberka = Ofenrippen ≠ Gulasz/Zrazy; Rolada śląska = Schmor-Roulade ≠ Zrazy; Sałatka ≠ Mizeria; Botwinka ≠ Barszcz/Chłodnik; Babka = Hefegugelhupf ≠ Makowiec/Sernik/Pączki Primary; Kaszanka = Cook ≠ Kiełbasa-Arten Lexikon.
 
 ## Gear (Silo H)
 

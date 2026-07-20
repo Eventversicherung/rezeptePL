@@ -1,5 +1,5 @@
 export const bodyMakowiecTechnikDe = `
-Makowiec — der gerollte Mohnkuchen — ist für viele von uns der süße Schluss der Wigilia und zugleich ein technisches Projekt: Hefeteig, Mohnmasse, Rollen, Backen, Geduld. In Deutschland scheitert der Tag oft nicht am Willen, sondern an trockener Füllung, rissigem Teig oder zu heißem Ofen. Dieser Guide unterstützt das Rezept [Makowiec](/de/rezepte/makowiec) und den [Wigilia-Speiseplan](/de/blog/wigilia-speiseplan) — ohne Mengen zu duplizieren, ohne Fake-Lab-Theater und ohne den Rezept-Owner zu kannibalisieren.
+Makowiec — der gerollte Mohnkuchen — ist für viele von uns der süße Schluss der Wigilia und zugleich ein technisches Projekt: Hefeteig, Mohnmasse, Rollen, Backen, Geduld. In Deutschland scheitert der Tag oft nicht am Willen, sondern an trockener Füllung, rissigem Teig oder zu heißem Ofen. Dieser Guide unterstützt das Rezept [Makowiec](/de/rezepte/makowiec) und den [Wigilia-Speiseplan](/de/blog/wigilia-speiseplan) — ohne Mengen zu duplizieren, ohne Fake-Lab-Theater und ohne den Rezept-Owner zu kannibalisieren. Formkuchen ohne Mohnspirale ist [Babka](/de/rezepte/babka) — anderer Cook-Primary; hier bleiben Rolle, Masse und Wigilia-Technik.
 
 ## Was dieser Pillar ist (und was nicht)
 
@@ -103,6 +103,7 @@ In deutschen Küchen fehlen manchmal der große Backofen-Einschub oder die Ruhe 
 
 - [Makowiec Rezept](/de/rezepte/makowiec)
 - [Sernik](/de/rezepte/sernik) — Käsekuchen-Linie im Back-Silo (anderer Primary)
+- [Babka](/de/rezepte/babka) — Hefegugelhupf aus der Form (≠ Mohnrolle; anderer Cook-Primary)
 - [Wigilia Speiseplan](/de/blog/wigilia-speiseplan)
 - [Faworki Technik](/de/blog/faworki-technik)
 - [Pączki Technik](/de/blog/paczek-technik) — Hefe-Festtagsbacken, anderes Fettprojekt

@@ -56,9 +56,9 @@ export const W8_FACTS_B: Record<string, ArticleFacts> = {
     mistakesPl:
       "Ogórki z octu zamiast kiszonych; za wcześnie i za dużo zalewy; śmietana wrzucana do wrzątku; mylenie z żurkiem i szukanie zakwasu. Za mało ziemniaka robi zupę rzadką i ostro kwaśną.",
     variantsDe:
-      "Mit geräuchertem Fleisch kräftiger, vegetarisch nur mit Gemüsefond, oder etwas dicker püriert. Schwester-Säure aus Kapusta: [Kapuśniak](/de/rezepte/kapusniak). Wer die Suppenfamilie sortieren will: [Polnische Suppen](/de/blog/polnische-suppen) und Einkauf im [Polenladen](/de/blog/polenladen-einkaufen). Kalte Alternative im Sommer bleibt Chłodnik — anderer Intent.",
+      "Mit geräuchertem Fleisch kräftiger, vegetarisch nur mit Gemüsefond, oder etwas dicker püriert. Schwester-Säure aus Kapusta: [Kapuśniak](/de/rezepte/kapusniak). Wer die Suppenfamilie sortieren will: [Polnische Suppen](/de/blog/polnische-suppen) und Einkauf im [Polenladen](/de/blog/polenladen-einkaufen). Kalte Alternative im Sommer bleibt Chłodnik — anderer Intent. Frühlings-Bete mit Blättern (nicht Gurkensäure): [Botwinka](/de/rezepte/botwinka).",
     variantsPl:
-      "Z wędzonką mocniejsza, wegetariańska tylko na warzywnym, albo gęstsza po zblendowaniu. Siostrzany kwas z kapusty: [kapuśniak](/pl/rezepte/kapusniak). Kto chce uporządkować rodzinę zup: [polskie zupy](/pl/blog/polskie-zupy) i zakupy w [sklepie polskim](/pl/blog/sklep-polski-zakupy). Zimna alternatywa latem to chłodnik — inny intent.",
+      "Z wędzonką mocniejsza, wegetariańska tylko na warzywnym, albo gęstsza po zblendowaniu. Siostrzany kwas z kapusty: [kapuśniak](/pl/rezepte/kapusniak). Kto chce uporządkować rodzinę zup: [polskie zupy](/pl/blog/polskie-zupy) i zakupy w [sklepie polskim](/pl/blog/sklep-polski-zakupy). Zimna alternatywa latem to chłodnik — inny intent. Wiosenne buraki z botwiną (nie kwas ogórkowy): [botwinka](/pl/rezepte/botwinka).",
   },
   "recipe-kapusniak": {
     dishDe: "Kapuśniak",

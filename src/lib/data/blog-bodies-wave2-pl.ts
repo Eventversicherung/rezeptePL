@@ -281,7 +281,7 @@ export const bodyPolnischeSuppenPl = `Polska zupa w Niemczech ma wielką przewag
 
 ## Cztery kierunki na początek
 
-[Rosół](/pl/rezepte/rosol) budujemy na mięsie, warzywach i spokojnym gotowaniu. [Żurek](/pl/rezepte/zurek) potrzebuje dobrego zakwasu, majeranku i białej kiełbasy. Barszcz czerwony opiera się na burakach i kontroli kwasowości. [Kapuśniak](/pl/rezepte/kapusniak) korzysta z dobrej kapusty kiszonej, nie z nadmiaru przypraw — to zupa, nie bigos. [Ogórkowa](/pl/rezepte/ogorkowa) bierze kwas z ogórków kiszonych i zalewy. My wybieramy jedną zupę na tydzień i robimy ją tak, aby starczyła na dwa obiady.
+[Rosół](/pl/rezepte/rosol) budujemy na mięsie, warzywach i spokojnym gotowaniu. [Żurek](/pl/rezepte/zurek) potrzebuje dobrego zakwasu, majeranku i białej kiełbasy. Barszcz czerwony opiera się na burakach i kontroli kwasowości. [Kapuśniak](/pl/rezepte/kapusniak) korzysta z dobrej kapusty kiszonej, nie z nadmiaru przypraw — to zupa, nie bigos. [Ogórkowa](/pl/rezepte/ogorkowa) bierze kwas z ogórków kiszonych i zalewy. Wiosną [botwinka](/pl/rezepte/botwinka) — młode buraki z botwiną, ciepła i z dodatkami, jasno ≠ barszcz klarowny i ≠ zimny chłodnik. My wybieramy jedną zupę na tydzień i robimy ją tak, aby starczyła na dwa obiady.
 
 ## Wywar to fundament
 
@@ -436,6 +436,10 @@ export const bodyKielbasaArtenPl = `Kiełbasa w polskiej kuchni nie jest jedną 
 
 Biała kiełbasa pasuje do [żurku](/pl/rezepte/zurek) i pieczenia, ale nie potrzebuje agresywnego gotowania. Wędzona dodaje bigosowi lub fasolce aromatu, dlatego używamy jej jako przyprawy, nie wyłącznie jako głównego mięsa. Kiełbasę kupowaną w Niemczech czytamy po składzie: udział mięsa, sól, woda i dodatki mówią więcej niż nazwa na etykiecie.
 
+## Typy vs cook: kaszanka
+
+Ten leksykon zostaje ownerem **rodzajów, jakości i zastosowania** (żurek, bigos, kiełbasa na co dzień). Smażona **kaszanka z cebulą** to osobny intent cook — ilości i kroki na patelni są w [przepisie na kaszankę](/pl/rezepte/kaszanka), nie tutaj. Tylko descriptive anchors; primary „kaszanka przepis” nie kradniemy.
+
 ## Bezpieczna obróbka
 
 Surowa biała kiełbasa musi być dogotowana, ale gotowana wędlina nie wymaga kolejnego długiego katowania. My rozdzielamy deskę i nóż po surowym mięsie, a resztki szybko chłodzimy. W żurku wkładamy kiełbasę w odpowiednim momencie, żeby była soczysta, a nie sucha i pęknięta.
@@ -492,7 +496,7 @@ export const bodyWielkanocPl = `Wielkanoc w Niemczech nie musi być próbą odtw
 
 ## Ustalcie własny rdzeń
 
-My wybieramy żurek lub barszcz biały, jajka, jedną dobrą sałatkę — często [mizerię](/pl/rezepte/mizeria) — i wypiek albo deser. Do tego biała kiełbasa, chrzan oraz pieczywo. Jeśli przyjeżdża rodzina, można dodać [bigos](/pl/rezepte/bigos) lub pierogi, ale nie robimy wszystkiego tylko dlatego, że „tak wypada”. Świąteczny stół ma być gościnny także dla gospodarzy.
+My wybieramy żurek lub barszcz biały, jajka, jedną dobrą sałatkę — często [mizerię](/pl/rezepte/mizeria) albo świąteczną [sałatkę jarzynową](/pl/rezepte/salatka-jarzynowa) (majonez i warzywa ≠ ogórek ze śmietaną) — i wypiek albo deser. Wiosną opcjonalnie ciepła [botwinka](/pl/rezepte/botwinka). Klasyczna forma: [babka](/pl/rezepte/babka) (ciasto drożdżowe z formy); menu zostaje ownerem planu, babka tylko cook-intent. Alternatywnie [sernik](/pl/rezepte/sernik) albo kupiony wypiek bez wstydu. Do tego biała kiełbasa, chrzan oraz pieczywo. Jeśli przyjeżdża rodzina, można dodać [bigos](/pl/rezepte/bigos) lub pierogi, ale nie robimy wszystkiego tylko dlatego, że „tak wypada”. Świąteczny stół ma być gościnny także dla gospodarzy.
 
 ## Harmonogram
 
@@ -558,7 +562,15 @@ export const bodySonntagsessenPl = `Niedzielny obiad nie musi zaczynać się o s
 
 ## Formuła trzech elementów
 
-My wybieramy jedno danie główne, prosty dodatek i coś świeżego. Może to być [rosół](/pl/rezepte/rosol) oraz pieczone mięso z ziemniakami, pierogi z [mizerią](/pl/rezepte/mizeria), ciepła [kapusta zasmażana](/pl/rezepte/kapusta-zasmażana) albo [bigos](/pl/rezepte/bigos) z chlebem. Nie potrzebujemy przystawki, dwóch deserów i pięciu misek, aby dom pachniał niedzielą.
+My wybieramy jedno danie główne, prosty dodatek i coś świeżego. Może to być [rosół](/pl/rezepte/rosol) oraz pieczone mięso z ziemniakami, pierogi z [mizerią](/pl/rezepte/mizeria), chłodna [sałatka jarzynowa](/pl/rezepte/salatka-jarzynowa) jako majonezowy dodatek bufetowy (inny intent niż mizeria), ciepła [kapusta zasmażana](/pl/rezepte/kapusta-zasmażana) albo [bigos](/pl/rezepte/bigos) z chlebem. Nie potrzebujemy przystawki, dwóch deserów i pięciu misek, aby dom pachniał niedzielą.
+
+## Mięso niedzielne (piec i duszenie)
+
+Obok schabowego warto spokojne mięso: [żeberka pieczone](/pl/rezepte/zeberka) z piekarnika (majeranek, musztarda) albo [rolada śląska](/pl/rezepte/rolada-slaska) duszona — wyraźnie osobno od [zrazów](/pl/rezepte/zrazy) (inna logika farszu). To nie gulasz w garnku; owner kultury niedzieli zostaje tu, cook-primary na URL przepisów.
+
+## Szybka patelnia: kaszanka
+
+Gdy niedziela jest krótka: [kaszanka z cebulą](/pl/rezepte/kaszanka) ze sklepu polskiego — przepis cook tam; rodzaje i jakość zostają w leksykonie kiełbasy. Pasuje do chleba, ziemniaków lub kapusty zasmażanej, bez rozbijania planu jednego środka ciężkości.
 
 ## Podziel pracę w czasie
 
@@ -665,7 +677,7 @@ My sprawdzamy liczbę domowników i wielkość płyty. Garnek 4–5 litrów wyst
 
 ## Od palnika do piekarnika
 
-Najpierw rozgrzewamy garnek umiarkowanie, potem obsmażamy mięso partiami. Nie wrzucamy wszystkiego naraz, bo temperatura spadnie i zamiast karmelizacji powstanie gotowanie. Po dodaniu płynu i warzyw garnek przejmuje spokojną, długą pracę w piekarniku. To świetne rozwiązanie na niedzielę, gdy chcemy mieć wolne ręce.
+Najpierw rozgrzewamy garnek umiarkowanie, potem obsmażamy mięso partiami. Nie wrzucamy wszystkiego naraz, bo temperatura spadnie i zamiast karmelizacji powstanie gotowanie. Po dodaniu płynu i warzyw garnek przejmuje spokojną, długą pracę w piekarniku. To świetne rozwiązanie na niedzielę, gdy chcemy mieć wolne ręce — także przy duszonej [roladzie śląskiej](/pl/rezepte/rolada-slaska): obsmażyć, zalać, pokrywka.
 
 ## Emalia czy surowe żeliwo
 

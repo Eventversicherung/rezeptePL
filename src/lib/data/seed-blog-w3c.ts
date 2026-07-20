@@ -68,6 +68,7 @@ export const seedBlogPostsW3c: BlogPost[] = [
       "recipe-uszka",
       "recipe-krokiety",
       "recipe-pierogi-cabbage",
+      "recipe-botwinka",
     ],
     relatedPostIds: [
       "post-polnische-suppen",

@@ -44,6 +44,7 @@ export const seedRecipesWave8A: Recipe[] = [
           },
           {
             text: "Kalt servieren zu [Kotlet schabowy](/de/rezepte/kotlet-schabowy), Kartoffeln oder als Oster-Beilage — siehe [Wielkanoc-Speiseplan](/de/blog/wielkanoc-speiseplan).",
+            tip: "Fest-Buffetsalat mit Mayo-Gemüse ist ein anderer Intent: [Sałatka jarzynowa](/de/rezepte/salatka-jarzynowa).",
           },
         ],
         seoTitle: "Mizeria Rezept | Gurkensalat mit Śmietana | Alemniam",
@@ -69,6 +70,7 @@ export const seedRecipesWave8A: Recipe[] = [
           },
           {
             text: "Podawaj zimną do [kotleta schabowego](/pl/rezepte/kotlet-schabowy), ziemniaków albo jako dodatek wielkanocny — [menu wielkanocne](/pl/blog/menu-wielkanocne).",
+            tip: "Sałatka bufetowa z majonezem to inny intent: [sałatka jarzynowa](/pl/rezepte/salatka-jarzynowa).",
           },
         ],
         seoTitle: "Mizeria przepis | Sałatka z ogórków | Alemniam",

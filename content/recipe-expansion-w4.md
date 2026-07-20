@@ -1,7 +1,7 @@
 # Recipe Expansion — Wave 4–8
 
 Status: **Wave 4–8 shipped**  
-Date: 2026-07-20 · `SEED_VERSION` 22
+Date: 2026-07-20 · `SEED_VERSION` 23
 
 ## Wave 4 (done)
 
@@ -89,13 +89,36 @@ W5–W7 FACTS (leniwe, kopytka, łazanki, pyzy, zrazy, makowiec, uszka, karp, kr
 - Recipe JSON-LD: Org author, dates, absolute image  
 - Thin **region** hubs: `noindex,follow` until intro ≥400  
 
+## Wave 9 — shipped this batch
+
+### Blog
+Kein neuer Pillar — Ownership über Sonntagsessen, Wielkanoc, Suppen, Kielbasa-Arten, Makowiec-Technik.
+
+### Standalone recipes
+| Dish | ID | Notes |
+|------|-----|--------|
+| Żeberka pieczone | `recipe-zeberka` | Ofenrippen; ≠ Gulasz/Zrazy |
+| Rolada śląska | `recipe-rolada-slaska` | Schmor-Roulade; ≠ Zrazy |
+| Sałatka jarzynowa | `recipe-salatka-jarzynowa` | Festsalat; ≠ Mizeria |
+| Botwinka | `recipe-botwinka` | Junge Rübenblätter-Suppe; ≠ Barszcz/Chłodnik |
+| Babka | `recipe-babka` | Hefegugelhupf; ≠ Makowiec/Sernik/Pączki |
+| Kaszanka | `recipe-kaszanka` | Cook; ≠ Kielbasa-Arten Types |
+
+### Link retrofit
+W8 Kapusta ↔ Kaszanka Pairing (optional); W8 FACTS-Audit all green (≥4 links/locale).
+
+### Tech SEO (unchanged)
+- Thin **region** hubs: `noindex,follow` until intro ≥400  
+- Affiliate guide-only on recipes  
+- Target inventory: **47** recipes · **36** blog · `SEED_VERSION` **23**
+
 ## Still HOLD / next backlog
 
 - Kotlet family hub (SEO-safe split)  
 - Region hub intros ≥400 before index  
 - Lab product tests  
 - Meal-Prep Arbeitswoche ≠ Freezer-Pierogi  
-- Flaki, Kaszanka, Piernik, Babka, Rolada śląska (nach Messung)
+- Flaki, Piernik, Czernina, Zupa pomidorowa (nach Messung)
 
 ## Keyword ownership
 

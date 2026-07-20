@@ -16,6 +16,8 @@ import { seedRecipesWave6 } from "./seed-recipes-wave6";
 import { seedRecipesWave7 } from "./seed-recipes-wave7";
 /** Wave 8 — A Beilagen + B Suppen + C Pączki + D Knedle */
 import { seedRecipesWave8 } from "./seed-recipes-wave8";
+/** Wave 9 — A Fleisch + B Beilage/Suppe + C Babka + D Kaszanka */
+import { seedRecipesWave9 } from "./seed-recipes-wave9";
 
 export const seedClusters = expandedClusters;
 export { seedFamilies, seedBlogPosts };
@@ -784,7 +786,7 @@ Przełącz u góry: [cukinia](/pl/rezepte/placki/cukinia), [ser](/pl/rezepte/pla
           { text: "Durch Mehl, Ei und Panade ziehen." },
           { text: "In Butterschmalz goldbraun braten.", tip: "Nicht zu heiß. Panade soll nicht verbrennen." },
           {
-            text: "Mit Zitrone und Beilagen servieren — klassisch [Mizeria](/de/rezepte/mizeria) oder warme [Kapusta zasmażana](/de/rezepte/kapusta-zasmażana).",
+            text: "Mit Zitrone und Beilagen servieren — klassisch [Mizeria](/de/rezepte/mizeria) oder warme [Kapusta zasmażana](/de/rezepte/kapusta-zasmażana). Anderer Sonntags-Fleisch-Nachbar: [Żeberka pieczone](/de/rezepte/zeberka).",
           },
         ],
         seoTitle: "Kotlet schabowy Rezept | Alemniam",
@@ -799,7 +801,7 @@ Przełącz u góry: [cukinia](/pl/rezepte/placki/cukinia), [ser](/pl/rezepte/pla
           { text: "Obtocz w mące, jajku i bułce tartej." },
           { text: "Smaż na złoto na smalcu lub maśle klarowanym.", tip: "Nie za mocno. Panierka nie może się przypalić." },
           {
-            text: "Podawaj z cytryną i dodatkami — klasycznie [mizeria](/pl/rezepte/mizeria) albo ciepła [kapusta zasmażana](/pl/rezepte/kapusta-zasmażana).",
+            text: "Podawaj z cytryną i dodatkami — klasycznie [mizeria](/pl/rezepte/mizeria) albo ciepła [kapusta zasmażana](/pl/rezepte/kapusta-zasmażana). Inny niedzielny sąsiad mięsny: [żeberka pieczone](/pl/rezepte/zeberka).",
           },
         ],
         seoTitle: "Kotlet schabowy przepis | Alemniam",
@@ -1615,7 +1617,7 @@ Obok [rosół](/pl/rezepte/rosol) albo solo z surówką.`,
             text: "In leicht siedendem Salzwasser gar ziehen, bis sie oben schwimmen.",
           },
           {
-            text: "Mit [Rosół](/de/rezepte/rosol) und gebratener Zwiebel servieren.",
+            text: "Mit [Rosół](/de/rezepte/rosol) und gebratener Zwiebel servieren — oder klassisch zu [Rolada śląska](/de/rezepte/rolada-slaska).",
           },
         ],
         seoTitle: "Kluski śląskie Rezept | Alemniam",
@@ -1657,7 +1659,7 @@ Gebratene Zwiebel, Schmalz, oder Pilzsoße. Siehe [Rosół-Technik](/de/blog/ros
             text: "Gotuj w osolonej wodzie na wolnym ogniu, aż wypłyną.",
           },
           {
-            text: "Podawaj z [rosółem](/pl/rezepte/rosol) i podsmażoną cebulą.",
+            text: "Podawaj z [rosółem](/pl/rezepte/rosol) i podsmażoną cebulą — albo klasycznie do [rolady śląskiej](/pl/rezepte/rolada-slaska).",
           },
         ],
         seoTitle: "Kluski śląskie przepis | Alemniam",
@@ -2008,6 +2010,7 @@ export const seedRecipes: Recipe[] = [
   ...seedRecipesWave6,
   ...seedRecipesWave7,
   ...seedRecipesWave8,
+  ...seedRecipesWave9,
 ].map((recipe) => {
   if (recipe.id === "recipe-nalesniki") {
     return {

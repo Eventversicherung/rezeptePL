@@ -238,8 +238,11 @@ Suszony dość wcześnie do farszu lub sosu, by pociągnął. Na końcu sprawdzi
 - [Gołąbki](/pl/rezepte/golabki) i [przewodnik](/pl/blog/golabki-przewodnik)
 - [Fasolka](/pl/rezepte/fasolka-po-bretonsku) i [przewodnik fasolki](/pl/blog/fasolka-po-bretonsku)
 - [Zrazy](/pl/rezepte/zrazy)
+- [Żeberka pieczone](/pl/rezepte/zeberka) — majeranek w marynacie do pieca
+- [Rolada śląska](/pl/rezepte/rolada-slaska) — oszczędnie w sosie duszonym
 - [Pierogi z mięsem](/pl/rezepte/pierogi/mieso)
 - [Kiełbasa](/pl/blog/rodzaje-kielbasy)
+- [Kaszanka](/pl/rezepte/kaszanka) (cook; typy zostają w leksykonie kiełbasy)
 
 ## FAQ — majeranek
 

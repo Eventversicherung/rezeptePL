@@ -225,9 +225,9 @@ export const W8_FACTS_D_RETROFIT: Record<string, ArticleFacts> = {
     mistakesPl:
       "Sucha masa, za dużo mąki, zbyt gorący piec, zbyt wczesne krojenie, drożdże zabite wrzątkiem. Nie zapomnij strefy brzegowej przy smarowaniu.",
     variantsDe:
-      "Mit Rosinen, mit Zuckerguss, kleinere Rollen. Anderes Festtagsbacken: [Faworki](/de/rezepte/faworki) + [Faworki-Technik](/de/blog/faworki-technik). Käsekuchen-Linie: [Sernik](/de/rezepte/sernik).",
+      "Mit Rosinen, mit Zuckerguss, kleinere Rollen. Anderes Festtagsbacken: [Faworki](/de/rezepte/faworki) + [Faworki-Technik](/de/blog/faworki-technik). Käsekuchen-Linie: [Sernik](/de/rezepte/sernik). Formkuchen ohne Mohnspirale: [Babka](/de/rezepte/babka) — anderer Cook-Primary.",
     variantsPl:
-      "Z rodzynkami, z lukrem, mniejsze rolady. Inne pieczenie świąteczne: [faworki](/pl/rezepte/faworki) + [technika faworków](/pl/blog/faworki-technika). Linia sernika: [sernik](/pl/rezepte/sernik).",
+      "Z rodzynkami, z lukrem, mniejsze rolady. Inne pieczenie świąteczne: [faworki](/pl/rezepte/faworki) + [technika faworków](/pl/blog/faworki-technika). Linia sernika: [sernik](/pl/rezepte/sernik). Ciasto z formy bez spirali: [babka](/pl/rezepte/babka) — inny cook-primary.",
   },
 
   "recipe-uszka": {
@@ -365,9 +365,9 @@ export const W8_FACTS_D_RETROFIT: Record<string, ArticleFacts> = {
     mistakesPl:
       "Za mokry twaróg, zbyt gorący piec, zbyt wczesne krojenie, kradzież słów kluczowych makowca w title. Surowy spód przez za krótki czas.",
     variantsDe:
-      "Ohne Boden, mit Rosinen, mit Schokotropfen, kleinerer Springform. Mohnrolle bleibt [Makowiec](/de/rezepte/makowiec). Technik-Feeling: [Makowiec-Technik](/de/blog/makowiec-technik). Quark: [Twaróg](/de/blog/twarog-deutschland).",
+      "Ohne Boden, mit Rosinen, mit Schokotropfen, kleinerer Springform. Mohnrolle bleibt [Makowiec](/de/rezepte/makowiec). Hefegugelhupf aus der Form: [Babka](/de/rezepte/babka) — anderer Cook-Primary. Technik-Feeling: [Makowiec-Technik](/de/blog/makowiec-technik). Quark: [Twaróg](/de/blog/twarog-deutschland).",
     variantsPl:
-      "Bez spodu, z rodzynkami, z czekoladą, mniejsza tortownica. Rolada makowa: [makowiec](/pl/rezepte/makowiec). Technika: [makowiec-technika](/pl/blog/makowiec-technika). Twaróg: [twaróg](/pl/blog/twarog-w-niemczech).",
+      "Bez spodu, z rodzynkami, z czekoladą, mniejsza tortownica. Rolada makowa: [makowiec](/pl/rezepte/makowiec). Ciasto drożdżowe z formy: [babka](/pl/rezepte/babka) — inny cook-primary. Technika: [makowiec-technika](/pl/blog/makowiec-technika). Twaróg: [twaróg](/pl/blog/twarog-w-niemczech).",
   },
 
   "recipe-sledz": {

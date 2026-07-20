@@ -126,6 +126,20 @@ Wave 4–8 status: `content/recipe-expansion-w4.md`. `SEED_VERSION` 22.
 
 Plan: `content/wave-8-plan.md` (shipped).
 
+## LIVE (Wave 9 shipped — Fleisch, Beilage, Botwinka, Babka, Kaszanka)
+
+| What | Notes |
+|------|-------|
+| `recipe-zeberka` | Ofenrippen; ≠ Gulasz/Zrazy |
+| `recipe-rolada-slaska` | Schmor-Roulade; ≠ Zrazy |
+| `recipe-salatka-jarzynowa` | Festsalat Mayo; ≠ Mizeria |
+| `recipe-botwinka` | Junge Rote-Bete-Suppe; ≠ Barszcz/Chłodnik |
+| `recipe-babka` | Hefegugelhupf; ≠ Makowiec/Sernik/Pączki |
+| `recipe-kaszanka` | Cook; ≠ Kielbasa-Arten Lexikon |
+| Kein neuer Blog-Pillar | Ownership über bestehende Guides |
+
+Plan: `content/wave-9-plan.md` (shipped).
+
 ## HOLD
 
-Region-Blogs, Meal-Prep Woche, Lab-Tests, Region-Hub-Intros ≥400 vor Index, Kotlet family, Flaki/Kaszanka/Piernik/Babka (nach Messung).
+Region-Blogs, Meal-Prep Woche, Lab-Tests, Region-Hub-Intros ≥400 vor Index, Kotlet family, Flaki/Piernik/Czernina (nach Messung).

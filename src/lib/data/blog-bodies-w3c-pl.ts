@@ -130,7 +130,7 @@ Piszemy z perspektywy domu w DE: zakupy w dwóch sklepach, wigilijny stół w so
 
 **Wigilia** wymaga wersji **bez mięsa** — wywar z warzyw, grzybów suszonych czasem, ocet lub sok z cytryny na końcu. To nie „light” barszcz — to tradycja postna. [Menu wigilijne](/pl/blog/menu-wigilijne) układa cały stół; barszcz często otwiera posiłek.
 
-W diasporze mylimy czasem barszcz z „zupą z buraków” — tam bywa gęsto, kremowo, z jogurtem. Klarowny barszcz ma **consommé-like** logikę: smak buraka w wodzie, nie puree w misce.
+W diasporze mylimy czasem barszcz z „zupą z buraków” — tam bywa gęsto, kremowo, z jogurtem. Klarowny barszcz ma **consommé-like** logikę: smak buraka w wodzie, nie puree w misce. **Rozróżnienie:** ciepła wiosenna zupa z botwiną i dodatkami to [botwinka](/pl/rezepte/botwinka) — nie klarowny barszcz i nie zimny chłodnik.
 
 ## Buraki: świeże, konserwa, koncentrat — zakupy w Niemczech
 

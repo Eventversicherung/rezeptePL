@@ -26,6 +26,8 @@ Vermeiden wir Produkte, die extrem weich wirken, wässrig abtropfen oder nach k�
 
 Für Meal Prep schneiden wir Kielbasa in Scheiben, braten sie mit Zwiebel und Paprika und portionieren sie für die Woche. Dazu passen Kartoffeln, Kasza oder ein einfacher Salat. So bleibt polnische Hausmannskost alltagstauglich – ruhig, modern, ohne Show.
 
+Kaszanka aus dem Polenladen ist ein eigener Cook-Intent: gebraten mit Zwiebel nach dem [Kaszanka-Rezept](/de/rezepte/kaszanka). Arten, Qualitätslesen und Einsatz in Żurek/Bigos bleiben im [Kiełbasa-Arten-Guide](/de/blog/kielbasa-arten).
+
 ## Twaróg, Kapusta, Zakwas: die drei Säulen
 
 ### Twaróg

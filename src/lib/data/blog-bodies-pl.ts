@@ -19,7 +19,7 @@ Poniższa lista nie jest dogmatem, ale w praktyce gospodarstw w Niemczech wraca 
 
 - **Kapusta kiszona** — do [bigosu](/pl/rezepte/bigos) i pierogów z kapustą. Szukaj kapusty o czystym, kwasowym zapachu, bez metalicznego posmaku i bez nadmiaru cukru w składzie.
 - **Zakwas na żurek** — butelka albo własny zakwas, jeśli go prowadzisz. Gotowy produkt z polskiego sklepu zwykle bije na głowę przypadkowe „zakwasopodobne” mieszanki.
-- **Kiełbasa** — biała, krakowska, myśliwska, wędzona: zależnie od dania. Do fasolki i żurku jakość kiełbasy widać od razu.
+- **Kiełbasa** — biała, krakowska, myśliwska, wędzona: zależnie od dania. Do fasolki i żurku jakość kiełbasy widać od razu. Dobra **kaszanka** pod smażenie z cebulą: [przepis na kaszankę](/pl/rezepte/kaszanka) (cook); rodzaje i jakość w [leksykonie kiełbasy](/pl/blog/rodzaje-kielbasy).
 - **Majeranek i lubczyk** — często bardziej aromatyczne niż standardowe saszetki z supermarketu. Majeranek to nie dekoracja; to rdzeń żurku.
 - **Suszone grzyby** — borowiki albo mieszanki. Namoczone dają bulion i ciało farszu do pierogów wigilijnych.
 - **Twaróg** — jeśli jest świeży i dobrze odsączony, to pierwsza liga do ruskich i [naleśników](/pl/rezepte/nalesniki/twarog). Szczegóły: [twaróg w Niemczech](/pl/blog/twarog-w-niemczech).

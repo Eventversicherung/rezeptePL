@@ -388,7 +388,7 @@ Polnische Suppen leben von Brühe, Säure, Gemüse und Geduld – nicht von Schw
 
 ## Vier Säulen
 
-**Rosół:** klare Brühe, niedrige Hitze – [Rosół-Technik](/de/blog/rosol-technik). **Żurek:** Zakwas, Majoran, Einlagen – [Zakwas](/de/blog/zakwas-zurek). **Barszcz:** Rote Bete, Balance statt Zucker. **Krupnik** und die Kiszone-Suppen [Kapuśniak](/de/rezepte/kapusniak) sowie [Ogórkowa](/de/rezepte/ogorkowa): Einlagen nach Basis. Immer: Basis zuerst, Säure und Salz steuern.
+**Rosół:** klare Brühe, niedrige Hitze – [Rosół-Technik](/de/blog/rosol-technik). **Żurek:** Zakwas, Majoran, Einlagen – [Zakwas](/de/blog/zakwas-zurek). **Barszcz:** Rote Bete, Balance statt Zucker. **Krupnik** und die Kiszone-Suppen [Kapuśniak](/de/rezepte/kapusniak) sowie [Ogórkowa](/de/rezepte/ogorkowa): Einlagen nach Basis. **Frühling:** [Botwinka](/de/rezepte/botwinka) — junge Bete mit Blättern, warm und einlagenreich, klar ≠ Barszcz und ≠ kalter Chłodnik. Immer: Basis zuerst, Säure und Salz steuern.
 
 ## Einkauf DE
 
@@ -436,7 +436,7 @@ Dicker Topf, Schaumlöffel, Sieb, Kühlbehälter. Gadgets ersetzen keine Zeit.
 
 ## Saison
 
-Winter: Rosół/Żurek; Frühling: leichtere Brühen; Herbst: Pilze/Kraut. Getrocknete Pilze ganzjährig planbar.
+Winter: Rosół/Żurek; Frühling: leichtere Brühen und [Botwinka](/de/rezepte/botwinka) mit frischer Botwina; Herbst: Pilze/Kraut. Getrocknete Pilze ganzjährig planbar.
 
 ## Menülogik
 
@@ -1132,6 +1132,10 @@ Kiełbasa ist keine einzelne Wurst, sondern Nutzungstypen: braten, mitkochen, Au
 
 Bratfest, kochfest, aufschnittfähig, stark/mild geräuchert. Namen variieren – Funktion zuerst.
 
+## Types vs Cook: Kaszanka
+
+Dieses Lexikon bleibt Owner für **Arten, Qualität und Einsatz** (Żurek, Bigos, Alltagswurst). Gebratene **Kaszanka mit Zwiebel** ist ein eigener Cook-Intent — Mengen und Pfannenschritte stehen im [Kaszanka-Rezept](/de/rezepte/kaszanka), nicht hier. Descriptive Anchors nur; Primary „Kaszanka Rezept“ stehlen wir nicht.
+
 ## Nutzung
 
 **Braten:** fester Biss, wenig Wasseraustritt. **Kochen:** aromatisch, nicht dominant, spät in Bigos/Żurek. **Aufschnitt:** klare Struktur. **Grill:** stabile Hülle.
@@ -1434,7 +1438,7 @@ Wielkanoc soll Menschen zusammenbringen, nicht den Kühlschrank überfordern. Wi
 
 ## Menüprinzip
 
-Weniger Gerichte, bessere Ausführung. Żurek oft Zentrum; dazu Eier, [Kiełbasa](/de/blog/kielbasa-arten), Brot, Rettich/Kräuter, kühle [Mizeria](/de/rezepte/mizeria) als Beilage, Kuchen nach Brauch. Nicht alles gleichzeitig warm halten.
+Weniger Gerichte, bessere Ausführung. Żurek oft Zentrum; dazu Eier, [Kiełbasa](/de/blog/kielbasa-arten), Brot, Rettich/Kräuter, kühle [Mizeria](/de/rezepte/mizeria) und/oder [Sałatka jarzynowa](/de/rezepte/salatka-jarzynowa) als Festsalat (Mayo-Gemüse ≠ Gurke/Śmietana), Kuchen nach Brauch. Saisonal im Frühjahr optional warme [Botwinka](/de/rezepte/botwinka) statt schwerer Bete-Klarsuppe. Nicht alles gleichzeitig warm halten.
 
 ## Zeitplan
 
@@ -1466,7 +1470,7 @@ Zwei Touren: Spezial + Volumen. Leere Regale vor Feiertagen real – Puffer.
 
 ## Süßes
 
-Ein Kuchen/Mazurek-Linie reicht oft. Qualität vor Vielfalt.
+Ein Kuchen reicht oft — Qualität vor Vielfalt. Klassische Form: [Babka](/de/rezepte/babka) (Hefegugelhupf); Speiseplan bleibt Menü-Owner, Babka nur Cook-Intent. Alternativ Käsekuchen-Linie [Sernik](/de/rezepte/sernik) oder Kaufware ohne Scham.
 
 ## Tisch
 
@@ -1768,9 +1772,13 @@ Brühe/Bigos Vortag; Pierogi Freezer – [Pierogi einfrieren](/de/blog/pierogi-e
 
 Samstag Spezialitäten, Sonntag Frisches minimal. [Polenladen](/de/blog/polenladen-einkaufen).
 
+## Sonntagsfleisch (Ofen & Schmoren)
+
+Neben Schabowy lohnen ruhige Fleisch-Mittelpunkte: [Żeberka pieczone](/de/rezepte/zeberka) aus dem Ofen mit Majeranek-Senf-Marinade, oder [Rolada śląska](/de/rezepte/rolada-slaska) als geschmorte Roulade — klar getrennt von [Zrazy](/de/rezepte/zrazy) (andere Füll-Logik). Kein Eintopf wie Gulasz; Kultur-Owner bleibt dieser Sonntags-Guide, Cook-Primary liegt auf den Rezept-URLs.
+
 ## Beilagen
 
-Kartoffeln/Kasza/Brot + Gurke/Salat. Klassisch kalt: [Mizeria](/de/rezepte/mizeria); warm und säuerlich: [Kapusta zasmażana](/de/rezepte/kapusta-zasmażana). Nicht sechs Salate.
+Kartoffeln/Kasza/Brot + Gurke/Salat. Klassisch kalt: [Mizeria](/de/rezepte/mizeria); warm und säuerlich: [Kapusta zasmażana](/de/rezepte/kapusta-zasmażana). Fest- und Buffetsalat mit Mayo-Gemüse: [Sałatka jarzynowa](/de/rezepte/salatka-jarzynowa) — anderer Intent als Mizeria. Nicht sechs Salate.
 
 ## Gäste
 
@@ -1791,6 +1799,10 @@ Optional [Teigmaschine](/de/blog/teigmaschine-pierogi), [Gusseisen](/de/blog/gus
 ## Saison
 
 Winter schmorend; Sommer leichter + Grillwurst-Linie ehrlich. [Kiełbasa](/de/blog/kielbasa-arten).
+
+## Schnelle Pfanne: Kaszanka
+
+Wenn der Sonntag kurz ist: [Kaszanka mit Zwiebel](/de/rezepte/kaszanka) aus dem Polenladen — Cook-Rezept dort; Arten und Qualitätslesen bleiben im Kiełbasa-Lexikon. Passt zu Brot, Kartoffeln oder Kapusta zasmażana, ohne den Mittelpunkt-Plan zu sprengen.
 
 ## Budget
 
@@ -2280,7 +2292,7 @@ Großer Edelstahltopf mit dickem Sandwichboden – leichter und säureunkomplizi
 
 ## Allround
 
-Emaillierter Schmortopf für Bigos, Eintöpfe, Ofen. Emaille schützt vor Säureproblemen blanken Eisens.
+Emaillierter Schmortopf für Bigos, Eintöpfe, Ofen. Emaille schützt vor Säureproblemen blanken Eisens. Auch für geschmorte [Rolada śląska](/de/rezepte/rolada-slaska): anbraten, ablöschen, Deckel zu — dasselbe Topf-Feeling wie bei langen Schmorgerichten.
 
 ## Family-Batch
 

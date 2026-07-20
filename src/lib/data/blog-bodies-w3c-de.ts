@@ -138,7 +138,7 @@ Für Wigilia zählt der **klare czerwony**: ohne Fleisch, oft als erste Suppe vo
 
 **Entity-Merkmale:** Rote Bete als Farb- und Geschmacksträger, Säure (Zitronensaft, Essig, manchmal Ferment), Klarheit statt Brei. Trübe Suppe ist kein automatischer Fehler — aber **czerwony** im polnischen Feiertags-Sinn ist klar und glänzend.
 
-Überblick über Suppenlandschaft: [Polnische Suppen](/de/blog/polnische-suppen) — dieser Text ist Technik-Owner für **klar kochen**, nicht für die Suppen-Übersicht oder das Śmietana-Lexikon allein.
+Überblick über Suppenlandschaft: [Polnische Suppen](/de/blog/polnische-suppen) — dieser Text ist Technik-Owner für **klar kochen**, nicht für die Suppen-Übersicht oder das Śmietana-Lexikon allein. **Abgrenzung:** warme Frühlings-Suppe mit Bete-Grün und Einlagen ist [Botwinka](/de/rezepte/botwinka) — nicht klarer Barszcz und nicht kalter Chłodnik.
 
 ## Buraki: frisch, Konserve, Konzentrat — Einkauf in DE
 
