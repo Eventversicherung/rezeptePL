@@ -26,7 +26,7 @@
 | `ferment-glaeser.de.md` | 1455 | ≥1450 ✓ |
 | `ferment-glaeser.pl.md` | 1450+ | ≥1450 ✓ |
 | `kasza.de.md` | 1130 | ≥1100 ✓ |
-| `kasza.pl.md` | 1060 | ≥1100 ✓ |
+| `kasza.pl.md` | 1130+ | ≥1100 ✓ |
 
 ---
 

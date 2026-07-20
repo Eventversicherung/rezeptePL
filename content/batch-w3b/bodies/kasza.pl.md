@@ -17,6 +17,8 @@ Formy w sklepie:
 
 Smak: **ziemisty, orzechowy**; goryczka zwykle z przedgotowania, starej partii lub złego płukania. Pęcznieje inaczej niż ryż — logika 1:2 z ryżu często zawodzi.
 
+Importowane opakowania bywają opisane po rosyjsku albo ukraińsku — liczy się forma **ziarna prażonego**, nie mąka gryczana ani kasza instant do szybkiej zupki. Mąka i kasza to osobne produkty w koszyku; pomyłka na półce to częsty błąd pierwszego zakupu w DE.
+
 ## Zakupy w Niemczech
 
 **Sklep polski:** Najpewniejsze marki z PL — prażona, znane opakowania. Zob. [sklep polski](/pl/blog/sklep-polski-zakupy).
@@ -28,6 +30,8 @@ Smak: **ziemisty, orzechowy**; goryczka zwykle z przedgotowania, starej partii l
 **Świeżość:** Sucha kasza trzyma się długo; wilgotne otwarte pudełko i owady = wyrzucić. Stęchły zapach = precz.
 
 Lepiej **500 g–1 kg sprawdzonej marki** niż wielki worek na trzy lata w piwnicy. Kasza jest tania — warto dbać o jakość.
+
+**Ceny:** W sklepie polskim większe opakowanie 500 g–1 kg zwykle wychodzi taniej za kilogram niż małe bio z supermarketu — porównujemy wagę netto, nie samą grafikę na froncie.
 
 ## Przygotowanie: płukanie, gotowanie, konsystencja
 
@@ -42,6 +46,8 @@ Lepiej **500 g–1 kg sprawdzonej marki** niż wielki worek na trzy lata w piwni
 **Do gołąbków:** Gotujemy osobno, **studzimy**, dopiero mieszamy z farszem — jak w [przewodniku gołąbki](/pl/blog/golabki-przewodnik). Ciepła mokra kasza robi śliski farsz i psuje zwijanie.
 
 **Zasmazana:** Kasza na maśle z cebulą, potem woda — więcej smaku; składniki z niemieckiego supermarketu wystarczą.
+
+**Sól:** Solimy wodę po zagotowaniu albo dopiero na końcu gotowania — zbyt wczesna sól czasem utrudnia równomierne pęcznienie. Do farszu gołąbkowego kaszę gotujemy oszczędnie z solą — sól i aromat dojdą z mięsa, cebuli i kapusty w farszu.
 
 ## Użycia w kuchni polskiej
 
@@ -72,6 +78,8 @@ Jasny bio Buchweizen z Rewe działa, ale na orzechowy farsz warto prażonej z po
 ## Przechowywanie
 
 Sucho, ciemno, zamknięte — jak ryż. Otwarte w puszce lub z klipsem; nie nad garnkiem w ciepłym mieszkaniu. Miesiące do roku+; zapach i owady decydują, nie sama data.
+
+Nie dosypujemy świeżej partii do starego słoika ze stęchłym opakowaniem — stara kasza przenosi wilgoć i zapach na nową partię w kilka tygodni.
 
 Ugotowana: lodówka 3–4 dni, szczelnie; podgrzewamy z odrobiną wody. Mrożenie porcjami — tekstura miększa po rozmrożeniu; do farszu ok, na luźny dodatek lepiej świeżo.
 
