@@ -178,6 +178,7 @@ export const seedBlogPostsWave2: BlogPost[] = [
     relatedRecipeIds: ["recipe-zurek", "recipe-barszcz", "recipe-rosol"],
     relatedPostIds: [
       "post-rosol-technik",
+      "post-barszcz-technik",
       "post-zakwas-zurek",
       "post-sonntagsessen",
     ],
@@ -218,6 +219,7 @@ export const seedBlogPostsWave2: BlogPost[] = [
     relatedRecipeIds: ["recipe-rosol", "recipe-golabki", "recipe-bigos"],
     relatedPostIds: [
       "post-polnische-suppen",
+      "post-barszcz-technik",
       "post-sonntagsessen",
       "post-dutch-oven",
     ],
@@ -717,6 +719,8 @@ export const seedBlogPostsWave2: BlogPost[] = [
     siloIds: ["gear"],
     relatedRecipeIds: ["recipe-placki", "recipe-schabowy", "recipe-oscypek"],
     relatedPostIds: [
+      "post-panieren",
+      "post-placki-guide",
       "post-sonntagsessen",
       "post-dutch-oven",
       "post-teigmaschine",

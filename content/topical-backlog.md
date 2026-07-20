@@ -59,6 +59,16 @@ Prozess: 6 Writer (DE+PL) + Bilder + Chef → ein Push. Scorecard: `content/batc
 
 Prozess: 6 Writer + Bilder + Chef → ein Push. Scorecard: `content/batch-w3b/chef-scorecard.md`.
 
+## LIVE (Wave 3c shipped — depth-first technik + placki)
+
+| id | DE slug | PL slug | type |
+|----|---------|---------|------|
+| post-panieren | panieren-schabowy | panierowanie-kotlet | guide |
+| post-barszcz-technik | barszcz-technik | jak-ugotowac-barszcz | guide |
+| post-placki-guide | placki-guide | placki-przewodnik | guide |
+
+Prozess: 6 Writer + Bilder + Chef → ein Push. Scorecard: `content/batch-w3c/chef-scorecard.md`.
+
 ## W3 / HOLD
 
-Region-Blogs, Meal-Prep Woche, Lab-Tests.
+Region-Blogs, Meal-Prep Woche, Lab-Tests, Majeranek, Faworki-Technik, Fasolka.

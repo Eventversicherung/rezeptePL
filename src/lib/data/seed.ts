@@ -1257,6 +1257,7 @@ export const seedRecipes: Recipe[] = [
     return {
       ...recipe,
       relatedPostIds: [
+        "post-barszcz-technik",
         "post-polnische-suppen",
         "post-smietana-schmand",
         "post-wigilia",
@@ -1288,6 +1289,7 @@ export const seedRecipes: Recipe[] = [
     return {
       ...recipe,
       relatedPostIds: [
+        "post-panieren",
         "post-gusseisen",
         "post-sonntagsessen",
         "post-wielkanoc",
@@ -1300,7 +1302,12 @@ export const seedRecipes: Recipe[] = [
   if (recipe.id === "recipe-placki") {
     return {
       ...recipe,
-      relatedPostIds: ["post-gusseisen", "post-sonntagsessen", "post-kasza"],
+      relatedPostIds: [
+        "post-placki-guide",
+        "post-gusseisen",
+        "post-sonntagsessen",
+        "post-kasza",
+      ],
     };
   }
   if (recipe.id === "recipe-golabki") {

@@ -105,6 +105,7 @@ export const seedAffiliateProducts: AffiliateProduct[] = [
     },
     tags: ["kitchen", "general", "gear"],
     recipeIds: ["recipe-placki", "recipe-schabowy", "recipe-oscypek"],
+    postIds: ["post-gusseisen", "post-panieren", "post-placki-guide"],
     active: true,
     sortOrder: 40,
   },

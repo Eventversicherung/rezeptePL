@@ -18,8 +18,11 @@ Regel: Blog → 3–5 Rezepte + 1–2 Posts + 1 Hub. Rezept → Pillar/Cluster +
 
 | Von | Nach |
 |-----|------|
-| polnische-suppen | zurek, barszcz, rosol, zakwas, rosol-technik |
-| rosol-technik | rosol, sonntagsessen, polnische-suppen |
+| polnische-suppen | zurek, barszcz, rosol, zakwas, rosol-technik, barszcz-technik |
+| rosol-technik | rosol, sonntagsessen, polnische-suppen, barszcz-technik |
+| barszcz-technik | barszcz, wigilia, polnische-suppen, smietana-schmand |
+| panieren | schabowy, gusseisen, sonntagsessen |
+| placki-guide | placki, gusseisen, kasza |
 | zakwas-zurek | zurek, polenladen |
 | bigos-guide | bigos, dutch-oven, kiszenie, polenladen |
 

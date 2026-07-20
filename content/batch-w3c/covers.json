@@ -1,0 +1,23 @@
+{
+  "post-panieren": {
+    "url": "https://images.unsplash.com/photo-1604908177528-946fc9d68799?w=1600&q=80",
+    "altDe": "Paniertes Schnitzel auf Teller — knusprige Panade",
+    "altPl": "Kotlet panierowany na talerzu — chrupiąca panierka",
+    "credit": "Unsplash",
+    "note": "Breaded cutlet; unique vs gusseisen cover photo-1556909114"
+  },
+  "post-barszcz-technik": {
+    "url": "https://images.unsplash.com/photo-1608818580423-ccfb08a254af?w=1600&q=80",
+    "altDe": "Klarer roter Rote-Bete-Suppe in Schüssel — Barszcz",
+    "altPl": "Klarowny czerwony barszcz w misce",
+    "credit": "Unsplash",
+    "note": "Red beet broth bowl; unique vs polnische-suppen photo-1547592166 and rosol photo-1476718406336"
+  },
+  "post-placki-guide": {
+    "url": "https://images.unsplash.com/photo-1573080496219-b83aa30643ae?w=1600&q=80",
+    "altDe": "Knusprige Kartoffelpuffer auf Teller — Placki",
+    "altPl": "Chrupiące placki ziemniaczane na talerzu",
+    "credit": "Unsplash",
+    "note": "Potato pancakes; unique vs kasza and gusseisen covers"
+  }
+}

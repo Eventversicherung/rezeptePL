@@ -25,6 +25,7 @@ Eine Primary KW = eine Owner-URL. Andere Seiten nur mit descriptive Anchors verl
 | Żurek Rezept | `/rezepte/zurek` |
 | Zakwas Żurek | `/blog/zakwas-zurek` |
 | Barszcz Rezept | `/rezepte/barszcz-czerwony` |
+| Barszcz klar kochen | `/blog/barszcz-technik` · `/blog/jak-ugotowac-barszcz` |
 | Bigos Guide | `/blog/bigos-guide` |
 | Bigos Rezept | `/rezepte/bigos` |
 
@@ -41,6 +42,8 @@ Eine Primary KW = eine Owner-URL. Andere Seiten nur mit descriptive Anchors verl
 | Polnische Ostern | `/blog/wielkanoc-speiseplan` |
 | Tłusty Czwartek | `/blog/tlusty-czwartek` |
 | Polnisches Sonntagsessen | `/blog/sonntagsessen-polnisch` |
+| Panieren Schabowy | `/blog/panieren-schabowy` · `/blog/panierowanie-kotlet` |
+| Placki Rezept (broad) | `/blog/placki-guide` · `/blog/placki-przewodnik` |
 | Gołąbki Rezept (broad) | `/blog/golabki-guide` |
 | Gołąbki Rezept (cook) | `/rezepte/golabki` |
 | Naleśniki Rezept (broad) | `/blog/nalesniki-guide` |

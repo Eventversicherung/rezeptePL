@@ -15,10 +15,10 @@ Zielgruppe: PL-first, dann DE. Immer `/de/...` + `/pl/...` mit hreflang.
 
 | Silo | LIVE | W3/HOLD |
 |------|------|---------|
-| A Gerichtsfamilien | Pierogi-/Suppen-/Bigos-Pillar | Gołąbki, Kluski, Naleśniki |
+| A Gerichtsfamilien | Pierogi-/Suppen-/Bigos-Pillar, Gołąbki, Naleśniki, Placki | Kluski |
 | B Regionen | Hub-Intros teig/wigilia/niedziela/bulion | Region-Blogs |
 | C Anlässe | Wigilia, Wielkanoc, Tłusty, Sonntag | Grill, Imieniny… |
-| D Techniken | Teig, Freezer, Rosół, Kiszenie | Panieren, Schmoren |
+| D Techniken | Teig, Freezer, Rosół, Kiszenie, Panieren, Barszcz | Schmoren |
 | E Zutaten | Twaróg, Śmietana, Kiełbasa, Zakwas, Kasza, Oscypek | — |
 | F Diaspora | Polenladen, Ersatzprodukte | Meal-Prep Woche |
 | G Tradition | via Wigilia + Sonntag | regionale Vielfalt |
