@@ -501,9 +501,9 @@ Traditionell symbolisieren zwölf Speisen Fülle und den Jahreskreis. In der Pra
 
 1. [Barszcz](/de/rezepte/barszcz-czerwony) mit [Uszka](/de/rezepte/uszka) oder zu Kraut-Pilz-Pierogi
 2. Pierogi mit Kapusta und Pilzen
-3. Fisch nach Familie ([Karp](/de/rezepte/karp), [Śledź](/de/rezepte/sledz), oder moderne Alternative)
+3. Fisch nach Familie ([Karp](/de/rezepte/karp), [Ryba po grecku](/de/rezepte/ryba-po-grecku) als kalte Filet-Sauce-Linie, [Śledź](/de/rezepte/sledz), oder moderne Alternative)
 4. [Śledź](/de/rezepte/sledz) in Öl oder Sahne
-5. Kompot aus Trockenobst
+5. [Kompot z suszu](/de/rezepte/kompot-z-suszu) — Trockenobstkompot (Getränk-Primary; Speiseplan bleibt Anlass-Owner)
 6. Mohnspeise oder [Makowiec](/de/rezepte/makowiec) — alternativ [Sernik](/de/rezepte/sernik) oder Honig-Gewürz-[Piernik](/de/rezepte/piernik)
 7. Krautsalat oder warme Kapusta
 8. Pilze in Sahne oder als Beilage
@@ -538,8 +538,8 @@ Pierogi roh einfrieren, am 24. direkt kochen. So bleibt der Nachmittag frei für
 ### Ein Tag vorher
 
 - Barszcz fertigstellen, kühlen
-- Kompot kochen
-- Hering oder Fisch vorbereiten
+- [Kompot z suszu](/de/rezepte/kompot-z-suszu) kochen
+- Hering oder Fisch vorbereiten ([Karp](/de/rezepte/karp) warm / [Ryba po grecku](/de/rezepte/ryba-po-grecku) kalt)
 - Süßes backen oder Mohn speisefertig machen
 - Tisch und Ablauf grob klären
 

@@ -227,6 +227,8 @@ const seedBlogPostsLive: BlogPost[] = [
       "recipe-sledz",
       "recipe-pierogi",
       "recipe-piernik",
+      "recipe-ryba-po-grecku",
+      "recipe-kompot-z-suszu",
     ],
     relatedPostIds: [
       "post-pierogi-guide",

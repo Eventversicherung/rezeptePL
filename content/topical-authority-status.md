@@ -1,12 +1,12 @@
 # Topical Authority Status — SEO Snapshot
 
-Stand: 2026-07-20 · `SEED_VERSION` 24 · Quelle: Live-Seed
+Stand: 2026-07-21 · `SEED_VERSION` 25 · Quelle: Live-Seed
 
 ## Urteil (Senior SEO)
 
-**Wave 10 shipped:** Flaki, Schab pieczony, Piernik, Zupa pomidorowa, Pierogi jagody, Naleśniki dżem, Makaron z serem. Kein neuer Blog-Pillar. Ownership sauber vs clear soups / Schabowy / Makowiec-Sernik-Babka / Knedle / Twaróg-Primary / Leniwe-Łazanki. Families: Pierogi 4 · Naleśniki 4 · Placki 4.
+**Wave 11 shipped:** Full-catalog cover retrofit (54) + Ryba po grecku, Golonka, Kompot z suszu. Kein neuer Blog-Pillar. Ownership sauber vs Karp / Schabowy–Schab–Żeberka / Wigilia-Anlass. Families: Pierogi 4 · Naleśniki 4 · Placki 4. Cover-IDs unique · HTTP 200.
 
-**Score gesamt: 9/10 Topical Density** — Klassiker-Suppen, Wigilia-Süß, Ofenfleisch, Family-Depth und Alltag-Pasta geschlossen; Rest-Hebel Region-Hub-Tiefe (HOLD) und echte Lab-Tests (HOLD).
+**Score gesamt: 9/10 Topical Density** — visuelle Glaubwürdigkeit Money Pages + 3 Diaspora-/Wigilia-Lücken; Rest-Hebel Region-Hub-Tiefe (HOLD) und echte Lab-Tests (HOLD).
 
 ---
 
@@ -15,8 +15,8 @@ Stand: 2026-07-20 · `SEED_VERSION` 24 · Quelle: Live-Seed
 | Layer | LIVE | Indexierbare URLs (DE+PL) | Notiz |
 |-------|------|---------------------------|--------|
 | **Blog** | **36** Posts | **72** | unverändert (kein neuer Pillar) |
-| **Rezepte** | **54** | **108** (+ Family-Hubs) | +7 Wave-10 Money Pages |
-| **RecipeFamilies** | **3** | Pierogi, Placki, Naleśniki | Pierogi/Naleśniki je +1 Variante |
+| **Rezepte** | **57** | **114** (+ Family-Hubs) | +3 Wave-11 · Cover-Retrofit Katalog |
+| **RecipeFamilies** | **3** | Pierogi, Placki, Naleśniki | unverändert (4/4/4) |
 | **Cluster-Hubs** | **31** | ~62 | Region-Hubs thin → `noindex,follow` |
 | **Catalog-Karten** | ~43 | Families einmal + Standalone | |
 
@@ -54,9 +54,10 @@ Stand: 2026-07-20 · `SEED_VERSION` 24 · Quelle: Live-Seed
 
 | Metrik | Wert |
 |--------|------|
-| Mit Longform (≥400 via seed oder FACTS) | **54 / 54** |
-| Mit `relatedPostIds` | **54 / 54** |
-| Wave-10 neu | Flaki, Schab, Piernik, Pomidorowa, Jagody, Dżem, Makaron |
+| Mit Longform (≥400 via seed oder FACTS) | **57 / 57** |
+| Mit `relatedPostIds` | **57 / 57** |
+| Wave-11 neu | Ryba po grecku, Golonka, Kompot z suszu |
+| Wave-11 covers | 57 unique Unsplash · HTTP 200 · Families synced |
 | Ownership Flaki vs clear soups | Getrennt (Kutteln) |
 | Ownership Schab vs Schabowy | Ofen ≠ Panade |
 | Ownership Piernik vs Makowiec/Sernik/Babka | Getrennt |
@@ -95,6 +96,6 @@ Nach Indexierung (GSC, 4–8 Wochen):
 
 | Frage | Antwort |
 |-------|---------|
-| Wie viele Beiträge? | **36 Blog** + **54 Rezepte** (+ 3 Families, 31 Hubs) |
-| Wie gut? | Blog + Rezept-Longform **grün**; Suppen/Fleisch/Backen/Family/Alltag |
-| Was als Nächstes? | **Messen** (GSC) · Region-Hubs nur mit Tiefe · HOLD-Nischen nach Daten |
+| Wie viele Beiträge? | **36 Blog** + **57 Rezepte** (+ 3 Families, 31 Hubs) |
+| Wie gut? | Blog + Rezept-Longform **grün**; Covers katalogweit glaubwürdig |
+| Was als Nächstes? | **Messen** (GSC) · schwache Cover-Proxies nachziehen · Region-Hubs nur mit Tiefe |

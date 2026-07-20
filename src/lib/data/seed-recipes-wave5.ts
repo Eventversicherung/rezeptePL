@@ -6,7 +6,7 @@ export const seedRecipesWave5: Recipe[] = [
     id: "recipe-pierogi-leniwe",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1586511925558-a4c6376fe65f?w=1600&q=80",
+      "https://images.unsplash.com/photo-1601556123240-462c758a50db?w=1600&q=80",
     prepMinutes: 25,
     cookMinutes: 15,
     servings: 4,
@@ -113,7 +113,7 @@ export const seedRecipesWave5: Recipe[] = [
     id: "recipe-kopytka",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1516684669134-de6f7c473a2a?w=1600&q=80",
+      "https://images.unsplash.com/photo-1745871136691-8fb229223fc8?w=1600&q=80",
     prepMinutes: 35,
     cookMinutes: 20,
     servings: 4,
@@ -212,7 +212,7 @@ export const seedRecipesWave5: Recipe[] = [
     id: "recipe-lazanki",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=1600&q=80",
+      "https://images.unsplash.com/photo-1587544704492-243de6821419?w=1600&q=80",
     prepMinutes: 20,
     cookMinutes: 35,
     servings: 4,
@@ -308,7 +308,7 @@ export const seedRecipesWave5: Recipe[] = [
     id: "recipe-pyzy",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=1600&q=80",
+      "https://images.unsplash.com/photo-1698688332650-8724293b2ad8?w=1600&q=80",
     prepMinutes: 50,
     cookMinutes: 30,
     servings: 4,
@@ -418,7 +418,7 @@ export const seedRecipesWave5: Recipe[] = [
     id: "recipe-zrazy",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1544025162-d76694265947?w=1600&q=80",
+      "https://images.unsplash.com/photo-1703553591265-91e21fca98ad?w=1600&q=80",
     prepMinutes: 40,
     cookMinutes: 90,
     servings: 4,

@@ -9,7 +9,7 @@ export const seedRecipesWave9A: Recipe[] = [
     id: "recipe-zeberka",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=1600&q=80",
+      "https://images.unsplash.com/photo-1569352304334-6e422cd70ecd?w=1600&q=80",
     prepMinutes: 25,
     cookMinutes: 90,
     servings: 4,
@@ -146,7 +146,7 @@ export const seedRecipesWave9A: Recipe[] = [
     id: "recipe-rolada-slaska",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1432139509613-5c4255815697?w=1600&q=80",
+      "https://images.unsplash.com/photo-1769773183948-d24e3c5a2b82?w=1600&q=80",
     prepMinutes: 45,
     cookMinutes: 100,
     servings: 4,

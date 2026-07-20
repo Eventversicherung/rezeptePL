@@ -3,7 +3,7 @@
 Status: LIVE | W2 | W3 | W4 | HOLD  
 Affiliate auf Rezepten: **guide-only** (Gear-Blog-Cards); Affiliate-Karten in Buying-Guides.
 
-**SEO-Snapshot & erweiterter Plan:** [`topical-authority-status.md`](./topical-authority-status.md) (36 Blog · 54 Rezepte · Score 9/10 · `SEED_VERSION` 24).
+**SEO-Snapshot & erweiterter Plan:** [`topical-authority-status.md`](./topical-authority-status.md) (36 Blog · 57 Rezepte · Score 9/10 · `SEED_VERSION` 25).
 
 ## LIVE
 
@@ -155,6 +155,19 @@ Plan: `content/wave-9-plan.md` (shipped).
 
 Plan: `content/wave-10-plan.md` (shipped).
 
+## LIVE (Wave 11 shipped — Cover retrofit + 3 recipes)
+
+| What | Notes |
+|------|-------|
+| Cover retrofit | Alle 54 Katalog-Covers + Family Pierogi/Placki/Naleśniki |
+| `recipe-ryba-po-grecku` | Weißfisch+Gemüsesauce; ≠ Karp |
+| `recipe-golonka` | Haxe geschmort; ≠ Schabowy/Schab/Żeberka |
+| `recipe-kompot-z-suszu` | Trockenobstkompot; ≠ Wigilia-Pillar-Steal |
+| Kein neuer Blog-Pillar | Ownership über bestehende Guides |
+| `SEED_VERSION` | **25** · Rezepte **57** · Blog **36** |
+
+Plan: `content/wave-11-plan.md` (shipped).
+
 ## HOLD
 
-Region-Blogs, Meal-Prep Woche, Lab-Tests, Region-Hub-Intros ≥400 vor Index, Kotlet family, Czernina, Placek po węgiersku, Drożdżówka.
+Region-Blogs, Meal-Prep Woche, Lab-Tests, Region-Hub-Intros ≥400 vor Index, Kotlet family, Czernina, Placek po węgiersku, Drożdżówka. Cover-Proxy-Upgrades (Żurek, Bigos, Kapuśniak, Mizeria, Faworki, …).

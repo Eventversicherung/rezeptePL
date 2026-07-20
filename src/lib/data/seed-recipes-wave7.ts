@@ -6,7 +6,7 @@ export const seedRecipesWave7: Recipe[] = [
     id: "recipe-karp",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=1600&q=80",
+      "https://images.unsplash.com/photo-1548704087-b11dab0fbec0?w=1600&q=80",
     prepMinutes: 30,
     cookMinutes: 40,
     servings: 4,
@@ -127,7 +127,7 @@ export const seedRecipesWave7: Recipe[] = [
     id: "recipe-krokiety",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1529042410759-befb1204b468?w=1600&q=80",
+      "https://images.unsplash.com/photo-1626011852881-4609127619a8?w=1600&q=80",
     prepMinutes: 50,
     cookMinutes: 25,
     servings: 4,
@@ -257,7 +257,7 @@ export const seedRecipesWave7: Recipe[] = [
     id: "recipe-sernik",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=1600&q=80",
+      "https://images.unsplash.com/photo-1773632996592-e150b9ed5059?w=1600&q=80",
     prepMinutes: 35,
     cookMinutes: 60,
     servings: 12,
@@ -377,7 +377,7 @@ export const seedRecipesWave7: Recipe[] = [
     id: "recipe-sledz",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=1600&q=80",
+      "https://images.unsplash.com/photo-1665841265022-27fd74b83005?w=1600&q=80",
     prepMinutes: 25,
     cookMinutes: 0,
     servings: 6,

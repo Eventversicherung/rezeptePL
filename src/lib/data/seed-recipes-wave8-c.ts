@@ -9,7 +9,7 @@ export const seedRecipesWave8C: Recipe[] = [
     id: "recipe-paczki",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?w=1600&q=80",
+      "https://images.unsplash.com/photo-1578257264874-5a9858af7d68?w=1600&q=80",
     prepMinutes: 120,
     cookMinutes: 30,
     servings: 16,

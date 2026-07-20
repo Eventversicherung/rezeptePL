@@ -1782,7 +1782,7 @@ Samstag Spezialitäten, Sonntag Frisches minimal. [Polenladen](/de/blog/polenlad
 
 ## Sonntagsfleisch (Ofen & Schmoren)
 
-Neben Schabowy lohnen ruhige Fleisch-Mittelpunkte: [Żeberka pieczone](/de/rezepte/zeberka) aus dem Ofen mit Majeranek-Senf-Marinade, [Schab pieczony](/de/rezepte/schab-pieczony) als Ofenschweinebraten (ohne Panade — klar ≠ Kotlet schabowy), oder [Rolada śląska](/de/rezepte/rolada-slaska) als geschmorte Roulade — klar getrennt von [Zrazy](/de/rezepte/zrazy) (andere Füll-Logik). Kein Eintopf wie Gulasz; Kultur-Owner bleibt dieser Sonntags-Guide, Cook-Primary liegt auf den Rezept-URLs.
+Neben Schabowy lohnen ruhige Fleisch-Mittelpunkte: [Golonka](/de/rezepte/golonka) als geschmorte Haxe am Knochen (klar ≠ Panade, ≠ Rippen, ≠ Ofenschab), [Żeberka pieczone](/de/rezepte/zeberka) aus dem Ofen mit Majeranek-Senf-Marinade, [Schab pieczony](/de/rezepte/schab-pieczony) als Ofenschweinebraten (ohne Panade — klar ≠ Kotlet schabowy), oder [Rolada śląska](/de/rezepte/rolada-slaska) als geschmorte Roulade — klar getrennt von [Zrazy](/de/rezepte/zrazy) (andere Füll-Logik). Kein Eintopf wie Gulasz; Kultur-Owner bleibt dieser Sonntags-Guide, Cook-Primary liegt auf den Rezept-URLs.
 
 ## Beilagen
 

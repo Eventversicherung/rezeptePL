@@ -20,6 +20,8 @@ import { seedRecipesWave8 } from "./seed-recipes-wave8";
 import { seedRecipesWave9 } from "./seed-recipes-wave9";
 /** Wave 10 — A Flaki+Schab · B Piernik+Pomidorowa · C Family variants · D Makaron */
 import { seedRecipesWave10 } from "./seed-recipes-wave10";
+/** Wave 11 — A–C cover retrofit (in place) · D +3 recipes */
+import { seedRecipesWave11 } from "./seed-recipes-wave11";
 
 export const seedClusters = expandedClusters;
 export { seedFamilies, seedBlogPosts };
@@ -28,13 +30,15 @@ const baseRecipes: Recipe[] = [
   {
     id: "recipe-pierogi",
     status: "published",
-    coverImage: "/recipes/pierogi-ruskie.jpg",
+    coverImage:
+      "https://images.unsplash.com/photo-1662116663511-9d79d49da183?w=1600&q=80",
     prepMinutes: 45,
     cookMinutes: 20,
     servings: 4,
     familyId: "family-pierogi",
     variantLabel: { de: "Ruskie", pl: "ruskie" },
-    variantImage: "/recipes/pierogi-ruskie.jpg",
+    variantImage:
+      "https://images.unsplash.com/photo-1662116663511-9d79d49da183?w=400&q=80",
     regionIds: [],
     occasionIds: ["occasion-wigilia", "occasion-niedziela"],
     techniqueIds: ["technique-teig", "technique-freezer"],
@@ -189,7 +193,7 @@ Ziemniaki, twaróg, cebula. Bez widowiska — smak, który wielu łączy z domem
     id: "recipe-bigos",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1534939561126-855b8675edd7?w=1600&q=80",
+      "https://images.unsplash.com/photo-1740993382511-c9ab25afb7d4?w=1600&q=80",
     prepMinutes: 30,
     cookMinutes: 120,
     servings: 6,
@@ -291,7 +295,7 @@ Ziemniaki, twaróg, cebula. Bez widowiska — smak, który wielu łączy z domem
     id: "recipe-zurek",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=1600&q=80",
+      "https://images.unsplash.com/photo-1625147541750-dfecb0a624a5?w=1600&q=80",
     prepMinutes: 20,
     cookMinutes: 50,
     servings: 4,
@@ -382,7 +386,7 @@ Ziemniaki, twaróg, cebula. Bez widowiska — smak, który wielu łączy z domem
     id: "recipe-oscypek",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1452195100486-9cc805987862?w=1600&q=80",
+      "https://images.unsplash.com/photo-1774853602664-9f6321892e6d?w=1600&q=80",
     prepMinutes: 10,
     cookMinutes: 15,
     servings: 2,
@@ -459,14 +463,14 @@ Ziemniaki, twaróg, cebula. Bez widowiska — smak, który wielu łączy z domem
     id: "recipe-placki",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1631453717818-536547643874?w=1600&q=80",
+      "https://images.unsplash.com/photo-1678527040378-ca2285fbee57?w=1600&q=80",
     prepMinutes: 20,
     cookMinutes: 25,
     servings: 4,
     familyId: "family-placki",
     variantLabel: { de: "Ziemniaczane", pl: "ziemniaczane" },
     variantImage:
-      "https://images.unsplash.com/photo-1631453717818-536547643874?w=400&q=80",
+      "https://images.unsplash.com/photo-1678527040378-ca2285fbee57?w=400&q=80",
     regionIds: [],
     occasionIds: ["occasion-niedziela"],
     techniqueIds: ["technique-panieren"],
@@ -599,7 +603,7 @@ Przełącz u góry: [cukinia](/pl/rezepte/placki/cukinia), [ser](/pl/rezepte/pla
     id: "recipe-golabki",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=1600&q=80",
+      "https://images.unsplash.com/photo-1622220734058-23ce1f89d84d?w=1600&q=80",
     prepMinutes: 40,
     cookMinutes: 60,
     servings: 4,
@@ -680,7 +684,7 @@ Przełącz u góry: [cukinia](/pl/rezepte/placki/cukinia), [ser](/pl/rezepte/pla
     id: "recipe-barszcz",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1590412200988-a436970781fa?w=1600&q=80",
+      "https://images.unsplash.com/photo-1677889173479-c8a0ab15ae18?w=1600&q=80",
     prepMinutes: 25,
     cookMinutes: 45,
     servings: 4,
@@ -769,7 +773,7 @@ Przełącz u góry: [cukinia](/pl/rezepte/placki/cukinia), [ser](/pl/rezepte/pla
     id: "recipe-schabowy",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=1600&q=80",
+      "https://images.unsplash.com/photo-1599921841143-819065a55cc6?w=1600&q=80",
     prepMinutes: 20,
     cookMinutes: 20,
     servings: 4,
@@ -854,14 +858,14 @@ Przełącz u góry: [cukinia](/pl/rezepte/placki/cukinia), [ser](/pl/rezepte/pla
     id: "recipe-nalesniki",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=1600&q=80",
+      "https://images.unsplash.com/photo-1587314168485-3236d6710814?w=1600&q=80",
     prepMinutes: 15,
     cookMinutes: 25,
     servings: 4,
     familyId: "family-nalesniki",
     variantLabel: { de: "Twaróg", pl: "z twarogiem" },
     variantImage:
-      "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=400&q=80",
+      "https://images.unsplash.com/photo-1587314168485-3236d6710814?w=400&q=80",
     regionIds: [],
     occasionIds: [],
     techniqueIds: ["technique-teig", "technique-freezer"],
@@ -958,7 +962,7 @@ Przełącz u góry: [cukinia](/pl/rezepte/placki/cukinia), [ser](/pl/rezepte/pla
     id: "recipe-rosol",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1547592180-85f173990554?w=1600&q=80",
+      "https://images.unsplash.com/photo-1612966948332-81d747414a8f?w=1600&q=80",
     prepMinutes: 20,
     cookMinutes: 120,
     servings: 6,
@@ -1041,7 +1045,7 @@ Przełącz u góry: [cukinia](/pl/rezepte/placki/cukinia), [ser](/pl/rezepte/pla
     id: "recipe-fasolka",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1546549032-9571cd6b27df?w=1600&q=80",
+      "https://images.unsplash.com/photo-1698917467449-08bcd1d9014b?w=1600&q=80",
     prepMinutes: 15,
     cookMinutes: 40,
     servings: 4,
@@ -1123,7 +1127,7 @@ Przełącz u góry: [cukinia](/pl/rezepte/placki/cukinia), [ser](/pl/rezepte/pla
     id: "recipe-faworki",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1551024601-bec78aea704b?w=1600&q=80",
+      "https://images.unsplash.com/photo-1714545049821-9eddecf6e20d?w=1600&q=80",
     prepMinutes: 15,
     cookMinutes: 30,
     servings: 50,
@@ -1301,7 +1305,7 @@ W puszce 2–4 dni. Zamrożone w folii: ok. 2 miesiące.`,
     id: "recipe-gulasz",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1607628311673-4fc15faa5791?w=1600&q=80",
+      "https://images.unsplash.com/photo-1519699788450-ad34386a3bfc?w=1600&q=80",
     prepMinutes: 25,
     cookMinutes: 90,
     servings: 6,
@@ -1454,7 +1458,7 @@ Nazajutrz często lepszy. Placki smaż świeżo, gulasz trzymaj ciepły.
     id: "recipe-kotlet-mielony",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1588346301655-83add6be44f7?w=1600&q=80",
+      "https://images.unsplash.com/photo-1770966666361-b448e634e163?w=1600&q=80",
     prepMinutes: 20,
     cookMinutes: 20,
     servings: 4,
@@ -1589,7 +1593,7 @@ Obok [rosół](/pl/rezepte/rosol) albo solo z surówką.`,
     id: "recipe-kluski-slaskie",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1612872087338-bb623d2a77d5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1723511413901-99439b957bbf?w=1600&q=80",
     prepMinutes: 40,
     cookMinutes: 15,
     servings: 4,
@@ -1715,7 +1719,7 @@ Cebula na smalcu, sos grzybowy. [Jak ugotować rosół](/pl/blog/jak-ugotowac-ro
     id: "recipe-racuchy",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=1600&q=80",
+      "https://images.unsplash.com/photo-1703876087705-818f2af21c65?w=1600&q=80",
     prepMinutes: 90,
     cookMinutes: 20,
     servings: 4,
@@ -1862,7 +1866,7 @@ Blisko tradycji [Tłusty Czwartek](/pl/blog/tlusty-czwartek), ale przez cały ro
     id: "recipe-chlodnik",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1625944525533-217feca6f147?w=1600&q=80",
+      "https://images.unsplash.com/photo-1621608953630-00d9eb860392?w=1600&q=80",
     prepMinutes: 30,
     cookMinutes: 0,
     servings: 4,
@@ -2014,6 +2018,7 @@ export const seedRecipes: Recipe[] = [
   ...seedRecipesWave8,
   ...seedRecipesWave9,
   ...seedRecipesWave10,
+  ...seedRecipesWave11,
 ].map((recipe) => {
   if (recipe.id === "recipe-nalesniki") {
     return {

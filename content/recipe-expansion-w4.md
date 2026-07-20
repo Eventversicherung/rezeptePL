@@ -140,6 +140,22 @@ W9 FACTS-Audit all green; Leniwe/Łazanki ↔ Makaron pairing.
 - Affiliate guide-only on recipes  
 - Target inventory: **54** recipes · **36** blog · Families **3** · `SEED_VERSION` **24**
 
+## Wave 11 — shipped (2026-07-21)
+
+### Covers
+Full-catalog Unsplash retrofit (54) + Family covers Pierogi/Placki/Naleśniki synced. Unique Photo-IDs · HTTP 200.
+
+### +3 recipes
+| Dish | ID | Notes |
+|------|-----|--------|
+| Ryba po grecku | `recipe-ryba-po-grecku` | ≠ Karp |
+| Golonka | `recipe-golonka` | ≠ Schabowy / Schab / Żeberka |
+| Kompot z suszu | `recipe-kompot-z-suszu` | Getränk-Primary ≠ Wigilia-Steal |
+
+### Tech SEO
+- Affiliate guide-only on recipes  
+- Target inventory: **57** recipes · **36** blog · Families **3** · `SEED_VERSION` **25**
+
 ## Still HOLD / next backlog
 
 - Kotlet family hub (SEO-safe split)  
@@ -147,6 +163,7 @@ W9 FACTS-Audit all green; Leniwe/Łazanki ↔ Makaron pairing.
 - Lab product tests  
 - Meal-Prep Arbeitswoche ≠ Freezer-Pierogi  
 - Czernina, Placek po węgiersku, Drożdżówka  
+- Cover-Proxy upgrades (Żurek, Bigos, Kapuśniak, Mizeria, Faworki, …)  
 
 ## Keyword ownership
 

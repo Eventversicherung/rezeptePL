@@ -102,10 +102,15 @@ Eine Primary KW = eine Owner-URL. Andere Seiten nur mit descriptive Anchors verl
 | Makaron z serem | `/rezepte/makaron-z-serem` |
 | Piernik Rezept / Polnischer Lebkuchen | `/rezepte/piernik` |
 | Zupa pomidorowa Rezept | `/rezepte/zupa-pomidorowa` |
+| Ryba po grecku / Fisch griechische Art polnisch | `/rezepte/ryba-po-grecku` |
+| Golonka / Haxe polnisch geschmort | `/rezepte/golonka` |
+| Kompot z suszu / Trockenobstkompot | `/rezepte/kompot-z-suszu` |
 
 **Intent-Trennung (Wave 9 final):** Żeberka = Ofenrippen ≠ Gulasz/Zrazy; Rolada śląska = Schmor-Roulade ≠ Zrazy; Sałatka ≠ Mizeria; Botwinka ≠ Barszcz/Chłodnik; Babka = Hefegugelhupf ≠ Makowiec/Sernik/Pączki Primary; Kaszanka = Cook ≠ Kiełbasa-Arten Lexikon.
 
 **Intent-Trennung (Wave 10 final):** Flaki = Kuttelsuppe ≠ Barszcz/Żurek/Ogórkowa/Botwinka; Schab pieczony = Ofenschweinebraten ≠ Kotlet schabowy (Panade/Pfanne). Piernik = Honig-Gewürz-Lebkuchen ≠ Makowiec/Sernik/Babka Primary; Makowiec-Technik nur descriptive Back-Nachbar. Zupa pomidorowa = Cook-Primary (eng) ≠ generisches DE-„Tomatensuppe“; Overview bleibt `/blog/polnische-suppen`; ≠ Barszcz/Ogórkowa/Rosół-Primary. Pierogi jagody = süße gefaltete Variante ≠ Knedle śliwki; Naleśniki dżem = eigene Varianten-URL ≠ Twaróg-Primary. Makaron z serem = Pasta+Twaróg(+Butter/Zucker oder salzig) ≠ Pierogi leniwe ≠ Łazanki ≠ Kopytka/Knedle; Twaróg-Guide bleibt Zutaten-Owner.
+
+**Intent-Trennung (Wave 11 D):** Ryba po grecku = Weißfisch+Gemüsesauce (kalt/Buffet) ≠ Karp (ganzer/Ofen-Fischgang); Golonka = Haxe am Knochen geschmort ≠ Kotlet schabowy (Panade) ≠ Schab pieczony (Ofenbraten) ≠ Żeberka (Rippen); Kompot z suszu = Getränk/Dessert-Cook-Primary ≠ Wigilia-Pillar-Steal (Anlass bleibt `/blog/wigilia-speiseplan`).
 
 ## Gear (Silo H)
 

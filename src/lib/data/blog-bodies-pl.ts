@@ -422,8 +422,8 @@ Nie musimy udowadniać polskości liczbą misek. Lepiej postawić kilka rzeczy n
 - [Barszcz czerwony](/pl/rezepte/barszcz-czerwony) — czysty, aromatyczny, z [uszkami](/pl/rezepte/uszka) albo bez
 - Pierogi z kapustą i grzybami — sygnał świąt; pokrewne [krokiety](/pl/rezepte/krokiety) gdy wolicie panierowaną rolkę
 - Opcjonalnie [pierogi ruskie](/pl/rezepte/pierogi/ruskie) — most dla dzieci i gości mniej „kapuścianych”
-- Kompot z suszu albo [makowiec](/pl/rezepte/makowiec) / [sernik](/pl/rezepte/sernik) / miodowo-korzenny [piernik](/pl/rezepte/piernik)
-- Ryba: [karp](/pl/rezepte/karp) na ciepło albo [śledź](/pl/rezepte/sledz) na zimno — albo jasna alternatywa, jeśli ryba odpada
+- [Kompot z suszu](/pl/rezepte/kompot-z-suszu) albo [makowiec](/pl/rezepte/makowiec) / [sernik](/pl/rezepte/sernik) / miodowo-korzenny [piernik](/pl/rezepte/piernik) — kompot ma własny cook-primary; menu zostaje ownerem okazji
+- Ryba: [karp](/pl/rezepte/karp) na ciepło, [ryba po grecku](/pl/rezepte/ryba-po-grecku) jako zimna linia filet–sos, albo [śledź](/pl/rezepte/sledz) — albo jasna alternatywa, jeśli ryba odpada
 
 > Dwanaście potraw to kompas, nie ustawa. Gościnność smakuje lepiej niż checklista.
 

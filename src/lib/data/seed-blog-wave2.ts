@@ -593,6 +593,7 @@ export const seedBlogPostsWave2: BlogPost[] = [
       "recipe-schab-pieczony",
       "recipe-kaszanka",
       "recipe-salatka-jarzynowa",
+      "recipe-golonka",
     ],
     relatedPostIds: [
       "post-rosol-technik",
@@ -727,6 +728,7 @@ export const seedBlogPostsWave2: BlogPost[] = [
       "recipe-rosol",
       "recipe-golabki",
       "recipe-rolada-slaska",
+      "recipe-golonka",
     ],
     relatedPostIds: [
       "post-bigos-guide",

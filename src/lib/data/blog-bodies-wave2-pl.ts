@@ -574,7 +574,7 @@ My wybieramy jedno danie główne, prosty dodatek i coś świeżego. Może to by
 
 ## Mięso niedzielne (piec i duszenie)
 
-Obok schabowego warto spokojne mięso: [żeberka pieczone](/pl/rezepte/zeberka) z piekarnika (majeranek, musztarda), [schab pieczony](/pl/rezepte/schab-pieczony) jako pieczeń z pieca (bez panierki — jasno ≠ kotlet schabowy) albo [rolada śląska](/pl/rezepte/rolada-slaska) duszona — wyraźnie osobno od [zrazów](/pl/rezepte/zrazy) (inna logika farszu). To nie gulasz w garnku; owner kultury niedzieli zostaje tu, cook-primary na URL przepisów.
+Obok schabowego warto spokojne mięso: [golonka](/pl/rezepte/golonka) duszona na kości (jasno ≠ panierka, ≠ żeberka, ≠ schab z pieca), [żeberka pieczone](/pl/rezepte/zeberka) z piekarnika (majeranek, musztarda), [schab pieczony](/pl/rezepte/schab-pieczony) jako pieczeń z pieca (bez panierki — jasno ≠ kotlet schabowy) albo [rolada śląska](/pl/rezepte/rolada-slaska) duszona — wyraźnie osobno od [zrazów](/pl/rezepte/zrazy) (inna logika farszu). To nie gulasz w garnku; owner kultury niedzieli zostaje tu, cook-primary na URL przepisów.
 
 ## Szybka patelnia: kaszanka
 

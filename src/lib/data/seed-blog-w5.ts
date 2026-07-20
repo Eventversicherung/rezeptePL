@@ -120,6 +120,7 @@ export const seedBlogPostsW5: BlogPost[] = [
       "recipe-schab-pieczony",
       "recipe-flaki",
       "recipe-kaszanka",
+      "recipe-golonka",
     ],
     relatedPostIds: [
       "post-fasolka-guide",

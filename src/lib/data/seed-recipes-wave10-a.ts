@@ -9,7 +9,7 @@ export const seedRecipesWave10A: Recipe[] = [
     id: "recipe-flaki",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1559847844-5315695dadae?w=1600&q=80",
+      "https://images.unsplash.com/photo-1623302044887-ac8ac6c04d40?w=1600&q=80",
     prepMinutes: 40,
     cookMinutes: 120,
     servings: 6,
@@ -171,7 +171,7 @@ export const seedRecipesWave10A: Recipe[] = [
     id: "recipe-schab-pieczony",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=1600&q=80",
+      "https://images.unsplash.com/photo-1580476262843-d5e9b687d4d4?w=1600&q=80",
     prepMinutes: 20,
     cookMinutes: 90,
     servings: 6,

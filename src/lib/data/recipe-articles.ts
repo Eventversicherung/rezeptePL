@@ -14,6 +14,7 @@ import { W10_FACTS_B } from "./recipe-articles-w10-b";
 import { W10_FACTS_C } from "./recipe-articles-w10-c";
 import { W10_FACTS_D } from "./recipe-articles-w10-d";
 import { W10_FACTS_W9_RETROFIT } from "./recipe-articles-w10-d-retrofit";
+import { W11_FACTS_D } from "./recipe-articles-w11-d";
 
 type ArticleFacts = {
   dishDe: string;
@@ -1271,6 +1272,9 @@ Object.assign(
   W10_FACTS_W9_RETROFIT,
   W10_FACTS_D,
 );
+
+/** Wave 11 D — Ryba po grecku · Golonka · Kompot z suszu */
+Object.assign(FACTS, W11_FACTS_D);
 
 function expand(locale: Locale, f: ArticleFacts): string {
   if (locale === "de") {

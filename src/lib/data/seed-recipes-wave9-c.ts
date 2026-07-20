@@ -10,7 +10,7 @@ export const seedRecipesWave9C: Recipe[] = [
     id: "recipe-babka",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1586985289906-406988974504?w=1600&q=80",
+      "https://images.unsplash.com/photo-1521398359471-8997fbaa9406?w=1600&q=80",
     prepMinutes: 40,
     cookMinutes: 55,
     servings: 12,

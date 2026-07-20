@@ -12,7 +12,7 @@ export const seedRecipesWave10D: Recipe[] = [
     id: "recipe-makaron-z-serem",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=1600&q=80",
+      "https://images.unsplash.com/photo-1597394412452-60ed971d3917?w=1600&q=80",
     prepMinutes: 10,
     cookMinutes: 15,
     servings: 3,

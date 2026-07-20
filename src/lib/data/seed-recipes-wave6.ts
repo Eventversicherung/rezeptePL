@@ -6,7 +6,7 @@ export const seedRecipesWave6: Recipe[] = [
     id: "recipe-makowiec",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=1600&q=80",
+      "https://images.unsplash.com/photo-1756137939545-f2daf3d0742c?w=1600&q=80",
     prepMinutes: 45,
     cookMinutes: 50,
     servings: 12,
@@ -134,7 +134,7 @@ export const seedRecipesWave6: Recipe[] = [
     id: "recipe-uszka",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1496116218417-1a781b1c416c?w=1600&q=80",
+      "https://images.unsplash.com/photo-1716834092803-08c8dca5226f?w=1600&q=80",
     prepMinutes: 60,
     cookMinutes: 15,
     servings: 6,
