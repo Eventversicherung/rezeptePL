@@ -133,7 +133,7 @@ Wir kochen in der Diaspora: frische Rote Bete neben Konserve aus dem Polenladen,
 
 **Barszcz czerwony** ist **klar**: durchgeseiht oder sorgfältig abgezogen, rubinrot, ohne Sahne im Topf. Das unterscheidet ihn von **Barszcz biały** (weiß, Mehl/Sauerteig-Basis), **Barszcz ukraiński** (deftiger, oft mit Bohnen und mehr Gemüse) und von der ukrainischen **Borscht**-Variante, die international oft mit Sauerrahm im Topf oder als Einlage assoziiert wird.
 
-Für Wigilia zählt der **klare czerwony**: ohne Fleisch, oft als erste Suppe vor [Uszka](/de/rezepte/barszcz-czerwony) — Details im [Wigilia-Speiseplan](/de/blog/wigilia-speiseplan). An normale Sonntage darf der Wywar fleischig sein; an Heiligabend kochen wir pflanzlich und achten auf Brühe ohne tierische Produkte.
+Für Wigilia zählt der **klare czerwony**: ohne Fleisch, oft als erste Suppe vor [Uszka](/de/rezepte/uszka) — Details im [Wigilia-Speiseplan](/de/blog/wigilia-speiseplan). An normale Sonntage darf der Wywar fleischig sein; an Heiligabend kochen wir pflanzlich und achten auf Brühe ohne tierische Produkte.
 
 **Entity-Merkmale:** Rote Bete als Farb- und Geschmacksträger, Säure (Zitronensaft, Essig, manchmal Ferment), Klarheit statt Brei. Trübe Suppe ist kein automatischer Fehler — aber **czerwony** im polnischen Feiertags-Sinn ist klar und glänzend.
 
@@ -175,7 +175,7 @@ Der **Wywar** (Fond) trägt die Suppe — Barszcz ist nicht „nur Bete püriere
 
 **Śmietana am Teller:** Polnische **Śmietana** (Sauerrahm, etwas säuerlicher als mancher deutsche Schmand) kommt **nicht** standardmäßig in den Topf — sie würde trüben und Farbe dämpfen. Löffel pro Schale, optional Dill. Unterschied Śmietana vs. Schmand: [Śmietana-Schmand-Lexikon](/de/blog/smietana-schmand). Wir verlinken, statt das Lexikon zu duplizieren.
 
-**Garlic / Uszka:** Klare Suppe als Träger für [Uszka](/de/rezepte/barszcz-czerwony) — kleine Teigtaschen separat kochen, in Schale geben, heiße Suppe darüber. Uszka nicht stundenlang in der Suppe stehen lassen — Teig weicht.
+**Garlic / Uszka:** Klare Suppe als Träger für [Uszka](/de/rezepte/uszka) — kleine Teigtaschen separat kochen, in Schale geben, heiße Suppe darüber. Uszka nicht stundenlang in der Suppe stehen lassen — Teig weicht.
 
 **Optik:** Klarer Barszcz soll **rubinrot** im Rand und tiefer im Napf wirken — mattes Braun deutet auf zu viel Gemüsebrei oder alte Bete.
 
@@ -189,7 +189,7 @@ Heiligabend (**Wigilia**) verlangt **barszcz ohne Fleisch** — pflanzlicher Wyw
 
 **Vorbereitung:** Barszcz-Basis am 24. vormittags, abseihen, kalt stellen — am Abend nur aufwärmen. Uszka separat — Stress reduziert.
 
-**Rezept-Owner:** Zutatenlisten und Uszka-Schritte im [Barszcz czerwony Rezept](/de/rezepte/barszcz-czerwony) — hier nur die logische Einordnung.
+**Rezept-Owner:** Suppe im [Barszcz czerwony Rezept](/de/rezepte/barszcz-czerwony); Teigtaschen im [Uszka-Rezept](/de/rezepte/uszka) — hier nur die logische Einordnung.
 
 ## Reste, Aufwärmen, Freezer kurz
 
@@ -232,6 +232,7 @@ Ohne Uszka. Teigtaschen separat; Suppe klar einfrieren, langsam auftauen und san
 ## Weiterlesen
 
 - [Barszcz czerwony — Rezept](/de/rezepte/barszcz-czerwony)
+- [Uszka mit Pilzen — Rezept](/de/rezepte/uszka)
 - [Polnische Suppen — Überblick](/de/blog/polnische-suppen)
 - [Rosół-Technik](/de/blog/rosol-technik)
 - [Śmietana vs. Schmand](/de/blog/smietana-schmand)

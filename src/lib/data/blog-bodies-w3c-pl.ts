@@ -119,7 +119,7 @@ W wielu domach tak — przed postem albo w drugi dzień świąt. Plan menu: [men
 `;
 
 export const bodyBarszczTechnikPl = `
-Barszcz czerwony to dla wielu Polaków w diasporze smak Wigilii — klarowny, rubinowy wywar z buraków, często z [uszkami](/pl/rezepte/barszcz-czerwony) w miseczce albo sam w filiżance przed pierogami. W Niemczech widzimy „Rote Bete Suppe” w bio, koncentrat w słoiku z Polenladen i świeże buraki w REWE — ale klarowny barszcz to nie blendowany krem. Ten przewodnik opisuje technikę: buraki, wywar, klarowność, Wigilia, reszty — bez przejmowania [przeglądu polskich zup](/pl/blog/polskie-zupy) ani leksykonu [śmietany i Schmand](/pl/blog/smietana-czy-schmand). Gramatura i pełny przepis: [barszcz czerwony](/pl/rezepte/barszcz-czerwony).
+Barszcz czerwony to dla wielu Polaków w diasporze smak Wigilii — klarowny, rubinowy wywar z buraków, często z [uszkami](/pl/rezepte/uszka) w miseczce albo sam w filiżance przed pierogami. W Niemczech widzimy „Rote Bete Suppe” w bio, koncentrat w słoiku z Polenladen i świeże buraki w REWE — ale klarowny barszcz to nie blendowany krem. Ten przewodnik opisuje technikę: buraki, wywar, klarowność, Wigilia, reszty — bez przejmowania [przeglądu polskich zup](/pl/blog/polskie-zupy) ani leksykonu [śmietany i Schmand](/pl/blog/smietana-czy-schmand). Gramatura i pełny przepis: [barszcz czerwony](/pl/rezepte/barszcz-czerwony).
 
 Piszemy z perspektywy domu w DE: zakupy w dwóch sklepach, wigilijny stół w sobotę wieczorem, reszta wywaru w lodówce do Sylwestra. Źródła: [BZfE](https://www.bzfe.de) co do warzyw korzeniowych, [was-wir-essen.de](https://www.was-wir-essen.de) przy przechowywaniu, [Komisja Europejska — rolnictwo](https://agriculture.ec.europa.eu) przy sezonowości.
 
@@ -165,7 +165,7 @@ W diasporze mylimy czasem barszcz z „zupą z buraków” — tam bywa gęsto, 
 
 **Śmietana:** W polskiej tradycji **w misce**, nie w garnku — łyżka [śmietany](/pl/blog/smietana-czy-schmand) (18%, czasem 30%) na barszczu lub obok. W DE Schmand bywa gęstszy — rozcieńczamy łyżką wywaru przed dodaniem do miski, żeby nie tworzyć białych grudek. Pełna mapa produktów: [śmietana czy Schmand](/pl/blog/smietana-czy-schmand) — my tylko przypominamy: śmietana na talerzu, nie gotowanie na śmietanie (waży się, mętzi).
 
-**Uszka:** Barszcz wigilijny podajemy z małymi pierogami — technika uszek w [przepisie barszcz czerwony](/pl/rezepte/barszcz-czerwony). Wywar osobno gorący, uszka osobno — nie gotujemy pierogów godzinę w bulionie przed podaniem.
+**Uszka:** Barszcz wigilijny podajemy z małymi pierogami — lepienie i farsz w [przepisie uszka](/pl/rezepte/uszka). Wywar osobno gorący, uszka osobno — nie gotujemy pierogów godzinę w bulionie przed podaniem.
 
 **Podgrzewanie:** Delikatnie — nie wrzeć mocno po przecedzeniu; kolor i smak cierpią.
 
@@ -221,7 +221,8 @@ Na końcu, małymi porcjami, z próbą — stabilizuje kolor i równoważy słod
 
 ## Czytaj dalej
 
-- [Przepis: barszcz czerwony z uszkami](/pl/rezepte/barszcz-czerwony)
+- [Przepis: barszcz czerwony](/pl/rezepte/barszcz-czerwony)
+- [Przepis: uszka z grzybami](/pl/rezepte/uszka)
 - [Polskie zupy — przegląd](/pl/blog/polskie-zupy)
 - [Śmietana czy Schmand — leksykon](/pl/blog/smietana-czy-schmand)
 - [Menu wigilijne — plan stołu](/pl/blog/menu-wigilijne)

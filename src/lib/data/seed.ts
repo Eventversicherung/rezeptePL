@@ -12,6 +12,7 @@ import {
   seedFamilyVariantRecipes,
 } from "./seed-families";
 import { seedRecipesWave5 } from "./seed-recipes-wave5";
+import { seedRecipesWave6 } from "./seed-recipes-wave6";
 
 export const seedClusters = expandedClusters;
 export { seedFamilies, seedBlogPosts };
@@ -690,7 +691,10 @@ Przełącz u góry: [cukinia](/pl/rezepte/placki/cukinia), [ser](/pl/rezepte/pla
           { text: "Rote Bete schälen, würfeln, mit Brühe kochen." },
           { text: "Mit Knoblauch, Essig und Zucker abschmecken.", tip: "Soll säuerlich-süß sein, nicht matt." },
           { text: "Absieben für klare Brühe oder stückig lassen." },
-          { text: "Mit Uszka oder Kartoffeln servieren." },
+          {
+            text: "Heiß servieren — mit [Uszka](/de/rezepte/uszka) in der Schale oder mit Kartoffeln.",
+            tip: "Uszka separat kochen; Mengen und Falten auf der Uszka-Seite.",
+          },
         ],
         seoTitle: "Barszcz czerwony Rezept | Alemniam",
         seoDescription: "Polnischer Barszcz. Rezept mit DE-Einkaufstipps.",
@@ -703,7 +707,10 @@ Przełącz u góry: [cukinia](/pl/rezepte/placki/cukinia), [ser](/pl/rezepte/pla
           { text: "Obierz buraki, pokrój, gotuj w bulionie." },
           { text: "Dopraw czosnkiem, octem i cukrem.", tip: "Ma być kwaśno-słodki, nie mdły." },
           { text: "Przecedź dla klarownego barszczu lub zostaw z warzywami." },
-          { text: "Podawaj z uszkami lub ziemniakami." },
+          {
+            text: "Podawaj gorący — z [uszkami](/pl/rezepte/uszka) w misce albo z ziemniakami.",
+            tip: "Uszka gotuj osobno; ilości i lepienie na stronie uszek.",
+          },
         ],
         seoTitle: "Barszcz czerwony przepis | Alemniam",
         seoDescription: "Barszcz czerwony. Przepis i zakupy.",
@@ -1989,6 +1996,7 @@ export const seedRecipes: Recipe[] = [
   ...baseRecipes,
   ...seedFamilyVariantRecipes,
   ...seedRecipesWave5,
+  ...seedRecipesWave6,
 ].map((recipe) => {
   if (recipe.id === "recipe-nalesniki") {
     return {
@@ -2039,6 +2047,39 @@ export const seedRecipes: Recipe[] = [
       ],
       occasionIds: Array.from(
         new Set([...recipe.occasionIds, "occasion-wigilia"]),
+      ),
+    };
+  }
+  if (recipe.id === "recipe-makowiec") {
+    return {
+      ...recipe,
+      relatedPostIds: [
+        "post-makowiec-technik",
+        "post-wigilia",
+        "post-faworki-technik",
+        "post-ersatzprodukte-de",
+        "post-polenladen",
+      ],
+      occasionIds: Array.from(
+        new Set([...recipe.occasionIds, "occasion-wigilia"]),
+      ),
+    };
+  }
+  if (recipe.id === "recipe-uszka") {
+    return {
+      ...recipe,
+      relatedPostIds: [
+        "post-barszcz-technik",
+        "post-wigilia",
+        "post-pierogi-teig",
+        "post-polenladen",
+        "post-freezer-meal-prep",
+      ],
+      occasionIds: Array.from(
+        new Set([...recipe.occasionIds, "occasion-wigilia"]),
+      ),
+      techniqueIds: Array.from(
+        new Set([...recipe.techniqueIds, "technique-teig", "technique-fuellen"]),
       ),
     };
   }

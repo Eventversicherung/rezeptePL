@@ -18,6 +18,7 @@ import { seedBlogPostsW3a } from "./seed-blog-w3a";
 import { seedBlogPostsW3b } from "./seed-blog-w3b";
 import { seedBlogPostsW3c } from "./seed-blog-w3c";
 import { seedBlogPostsW5 } from "./seed-blog-w5";
+import { seedBlogPostsW6 } from "./seed-blog-w6";
 
 const seedBlogPostsLive: BlogPost[] = [
   {
@@ -212,11 +213,13 @@ const seedBlogPostsLive: BlogPost[] = [
     relatedRecipeIds: [
       "recipe-pierogi-cabbage",
       "recipe-barszcz",
+      "recipe-uszka",
+      "recipe-makowiec",
       "recipe-pierogi",
-      "recipe-zurek",
     ],
     relatedPostIds: [
       "post-pierogi-guide",
+      "post-makowiec-technik",
       "post-freezer-meal-prep",
       "post-freezer-boxen",
       "post-polenladen",
@@ -258,4 +261,5 @@ export const seedBlogPosts: BlogPost[] = [
   ...seedBlogPostsW3b,
   ...seedBlogPostsW3c,
   ...seedBlogPostsW5,
+  ...seedBlogPostsW6,
 ];

@@ -232,33 +232,33 @@ const FACTS: Record<string, ArticleFacts> = {
     vibeDe: "klar, säuerlich, festlich rot",
     vibePl: "klarowny, kwaśny, odświętnie czerwony",
     originDe:
-      "Barszcz ist mehr als Rote-Bete-Suppe: Er ist Farbe, Ritual und Säurekultur. Zur Wigilia oft klar mit Uszka, im Alltag auch kräftiger und stückiger.",
+      "Barszcz ist mehr als Rote-Bete-Suppe: Er ist Farbe, Ritual und Säurekultur. Zur Wigilia oft klar — die kleinen Teigtaschen dazu gehören auf die eigene Uszka-Money-Page, nicht als Duplikat dieses Rezepts.",
     originPl:
-      "Barszcz to więcej niż zupa z buraków: to kolor, rytuał i kultura kwasu. Na Wigilię często klarowny z uszkami, na co dzień też gęstszy i z warzywami.",
+      "Barszcz to więcej niż zupa z buraków: to kolor, rytuał i kultura kwasu. Na Wigilię często klarowny — małe pierogi do niego mają własną money page Uszka, nie duplikat tego przepisu.",
     shopDe:
-      "Frische Rote Bete, gute Brühe, Allspice (Piment), Essig oder Zitronensäure zum Feinabschmecken. Uszka separat oder fertig aus dem Polenladen. Barszcz-Technik für klare Brühe vs. Alltagsvariante.",
+      "Frische Rote Bete, gute Brühe, Allspice (Piment), Essig oder Zitronensäure zum Feinabschmecken. Uszka separat kochen — Rezept Uszka — oder fertig aus dem Polenladen. Barszcz-Technik für klare Brühe vs. Alltagsvariante.",
     shopPl:
-      "Świeże buraki, dobry bulion, ziele angielskie, ocet lub kwas do doprawienia. Uszka osobno lub gotowe z polskiego sklepu. Barszcz-Technik — klarowny wigilijny vs. codzienny.",
+      "Świeże buraki, dobry bulion, ziele angielskie, ocet lub kwas do doprawienia. Uszka gotuj osobno — przepis Uszka — albo gotowe z polskiego sklepu. Barszcz-Technik — klarowny wigilijny vs. codzienny.",
     techniqueDe:
-      "Für klare Brühe absieben; für Alltag stückig lassen. Säure erst am Ende justieren. Zu langes Kochen macht den Geschmack flach.",
+      "Für klare Brühe absieben; für Alltag stückig lassen. Säure erst am Ende justieren. Zu langes Kochen macht den Geschmack flach. Uszka nie in der Suppe mitkochen — separat garen und erst in der Schale zusammenführen.",
     techniquePl:
-      "Dla klarownego barszczu przecedź; na co dzień zostaw z warzywami. Kwasowość ustawiaj na końcu. Zbyt długie gotowanie spłaszcza smak.",
+      "Dla klarownego barszczu przecedź; na co dzień zostaw z warzywami. Kwasowość ustawiaj na końcu. Zbyt długie gotowanie spłaszcza smak. Uszka nie gotuj w zupie — osobno, łącz dopiero w misce.",
     serveDe:
-      "Heiß, mit Uszka, Knödeln oder Kartoffeln. Ein Schuss Sauerrahm ist optional.",
+      "Heiß, mit Uszka (eigene Seite), Knödeln oder Kartoffeln. Ein Schuss Sauerrahm ist optional.",
     servePl:
-      "Gorący, z uszkami, krokietami lub ziemniakami. Śmietana opcjonalna.",
+      "Gorący, z uszkami (osobna strona), krokietami lub ziemniakami. Śmietana opcjonalna.",
     diasporaDe:
       "An Heiligabend in Deutschland rettet guter Barszcz das Menü. Und verbindet Generationen am Tisch.",
     diasporaPl:
       "W Wigilię w Niemczech dobry barszcz ratuje menu. I łączy pokolenia przy stole.",
     mistakesDe:
-      "Zu süß, zu trüb durch starkes Kochen, zu wenig Säure. Barszcz soll wach schmecken.",
+      "Zu süß, zu trüb durch starkes Kochen, zu wenig Säure. Barszcz soll wach schmecken. Uszka nicht in der Suppe einweichen lassen.",
     mistakesPl:
-      "Za słodki, zmętniony przez gwałtowne gotowanie, za mało kwasu. Barszcz ma smakować świeżo i wyraziście.",
+      "Za słodki, zmętniony przez gwałtowne gotowanie, za mało kwasu. Barszcz ma smakować świeżo i wyraziście. Uszka nie namaczaj w zupie.",
     variantsDe:
-      "Mit getrockneten Pilzen im Ansatz, mit Knoblauch betont, oder als scharfer Alltagbarszcz. Barszcz-Technik für Klarheit und Säure.",
+      "Mit getrockneten Pilzen im Ansatz, mit Knoblauch betont, oder als scharfer Alltagbarszcz. Barszcz-Technik für Klarheit und Säure. Für Teigtaschen: Uszka-Rezept.",
     variantsPl:
-      "Z suszonymi grzybami w bazie, mocniej czosnkowy albo ostry na co dzień. Barszcz-Technik przy klarowności i kwasie.",
+      "Z suszonymi grzybami w bazie, mocniej czosnkowy albo ostry na co dzień. Barszcz-Technik przy klarowności i kwasie. Na pierożki: przepis Uszka.",
   },
   "recipe-schabowy": {
     dishDe: "Kotlet schabowy",
@@ -1007,6 +1007,74 @@ const FACTS: Record<string, ArticleFacts> = {
       "Mit Pilzen in der Füllung, oder Gulasz als schnellere Schmor-Alternative.",
     variantsPl:
       "Z grzybami w farszu albo gulasz jako szybsza alternatywa duszenia.",
+  },
+  "recipe-makowiec": {
+    dishDe: "Makowiec",
+    dishPl: "Makowiec",
+    vibeDe: "festlich, mohnig, gerollt und geduldig",
+    vibePl: "świąteczny, makowy, zwinięty i cierpliwy",
+    originDe:
+      "Makowiec ist der gerollte polnische Mohnkuchen: Hefeteig, dichte Mohnmasse, oft zur Wigilia. Kein Blech-Mohnkuchen und kein Strudel — eigene Form, eigene Technik. Der Back-Pillar erklärt Handgriffe; hier bleiben Mengen und Ablauf.",
+    originPl:
+      "Makowiec to polska rolada makowa: ciasto drożdżowe, gęsta masa, często na Wigilię. Nie ciasto z blachy i nie strudel — własna forma, własna technika. Filar pieczenia tłumaczy gesty; tu zostają ilości i przebieg.",
+    shopDe:
+      "Blauer Mohn (gemahlen oder zum Mahlen), Mehl, Hefe, Milch, Butter, Eier, Zucker, optional Rosinen. Polenladen für guten Mohn. Makowiec-Technik für Masse und Ofentemperatur; Wigilia-Speiseplan für den Menüplatz.",
+    shopPl:
+      "Mak niebieski (mielony lub do zmielenia), mąka, drożdże, mleko, masło, jajka, cukier, opcjonalnie rodzynki. Sklep polski po dobry mak. Technika makowca przy masie i piecu; menu wigilijne przy miejscu w menu.",
+    techniqueDe:
+      "Mohnmasse streichfähig binden, Teig elastisch gehen lassen, mit Randabstand rollen, mittlere Hitze, erst nach dem Abkühlen schneiden. Zu heiß zerstört die Spirale außen und lässt innen roh.",
+    techniquePl:
+      "Masę makową związać do smarowania, ciasto elastycznie wyrosnąć, zwijać z zapasem od brzegu, średnia temperatura, kroić po ostudzeniu. Za gorąco niszczy spiralę z zewnątrz i zostawia środek surowy.",
+    serveDe:
+      "In Scheiben, oft mit Puderzucker. Am Vortag gebacken oft ruhiger für den Heiligabend. Passt als Schluss nach Barszcz und Uszka.",
+    servePl:
+      "W plastrach, często z cukrem pudrem. Upieczony dzień wcześniej spokojniejszy na Wigilię. Pasuje jako finał po barszczu i uszkach.",
+    diasporaDe:
+      "In DE rettet früher Backtag den 24.: Geruch am 23., Ruhe am Abend. Fertigware aus dem Laden ist Notfall, nicht Technikersatz.",
+    diasporaPl:
+      "W DE wcześniejszy dzień pieczenia ratuje 24.: zapach 23., spokój wieczorem. Gotowiec ze sklepu to awaria, nie zamiennik techniki.",
+    mistakesDe:
+      "Trockene Masse, zu viel Mehl, zu heißer Ofen, zu früh schneiden, Hefe mit kochender Flüssigkeit. Randzone beim Füllen nicht vergessen.",
+    mistakesPl:
+      "Sucha masa, za dużo mąki, zbyt gorący piec, zbyt wczesne krojenie, drożdże zabite wrzątkiem. Nie zapomnij strefy brzegowej przy smarowaniu.",
+    variantsDe:
+      "Mit Rosinen, mit Zuckerguss, kleinere Rollen für kleinere Öfen. Faworki sind anderes Festtagsbacken — eigene Technik-Seite.",
+    variantsPl:
+      "Z rodzynkami, z lukrem, mniejsze rolady do mniejszych pieców. Faworki to inne pieczenie świąteczne — osobna strona techniki.",
+  },
+  "recipe-uszka": {
+    dishDe: "Uszka mit Pilzen",
+    dishPl: "Uszka z grzybami",
+    vibeDe: "klein, intensiv pilzig, wigilijny",
+    vibePl: "małe, intensywnie grzybowe, wigilijne",
+    originDe:
+      "Uszka sind kleine Teigtaschen — oft mit Pilzfüllung — die klassisch in klarem Barszcz schwimmen. Sie sind keine große Pierogi-Charge und kein Bestandteil des Barszcz-Rezepts als Duplikat: eigene Money Page, eigene Primary Keywords. Barszcz bleibt Owner der Suppe; Uszka Owner der Teigtaschen.",
+    originPl:
+      "Uszka to małe pierogi — często z farszem grzybowym — klasycznie w klarownym barszczu. To nie wielka partia pierogów i nie duplikat przepisu na barszcz: własna money page, własne primary keywords. Barszcz zostaje ownerem zupy; uszka ownerem pierożków.",
+    shopDe:
+      "Getrocknete Pilze (Polenladen), Zwiebel, Mehl, Ei, Öl. Barszcz separat nach Barszcz-Rezept und Barszcz-Technik. Pierogi-Teig-Guide für Teiggefühl; Freezer-Guide wenn ihr am Vortag formt.",
+    shopPl:
+      "Suszone grzyby (sklep polski), cebula, mąka, jajko, olej. Barszcz osobno według przepisu i techniki barszczu. Przewodnik po cieście na pierogi przy wyczuciu; freezer gdy lepicie dzień wcześniej.",
+    techniqueDe:
+      "Füllung trocken schmoren, kleine Kreise, wenig Füllung, fest zu Öhrchen schließen. In leicht siedendem Wasser garen, bis sie aufschwimmen. In der Schale mit heißem Barszcz zusammenführen — nicht stundenlang in der Suppe lagern.",
+    techniquePl:
+      "Farsz dusić na sucho, małe koła, mało farszu, szczelnie zamykać w uszka. Gotować w lekko wrzącej wodzie aż wypłyną. W misce łączyć z gorącym barszczem — nie trzymać godzinami w zupie.",
+    serveDe:
+      "Als erste Gang-Logik zur Wigilia mit klarem Barszcz. Auch allein mit Butter — dann anderes Gerichtserlebnis. Kraut-Pilz-Pierogi sind verwandt, aber größer und oft Hauptgang.",
+    servePl:
+      "Jako logika pierwszego dania Wigilii z klarownym barszczem. Też same z masłem — wtedy inne doświadczenie. Pierogi z kapustą i grzybami są blisko, ale większe i często danie główne.",
+    diasporaDe:
+      "Am 23. formen, einfrieren oder kühl lagern, am 24. nur kochen — entlastet den Abend neben Barszcz und Makowiec.",
+    diasporaPl:
+      "23. lepić, mrozić lub chłodzić, 24. tylko gotować — odciąża wieczór obok barszczu i makowca.",
+    mistakesDe:
+      "Nasse Füllung, zu große Stücke, zu aggressives Kochen, Uszka in der Suppe einweichen. Barszcz trüben durch Mitkochen der Teigtaschen.",
+    mistakesPl:
+      "Mokry farsz, za duże sztuki, zbyt gwałtowne gotowanie, namaczanie w zupie. Mętnienie barszczu przez gotowanie uszek w wywarze.",
+    variantsDe:
+      "Mit Sauerkraut-Anteil in der Füllung, oder fertige Uszka aus dem Polenladen als Notfall. Klare Suppe: Barszcz-Rezept — nicht hier duplizieren.",
+    variantsPl:
+      "Z udziałem kapusty kiszonej w farszu albo gotowe uszka ze sklepu jako awaria. Klarowna zupa: przepis na barszcz — nie duplikować tu.",
   },
 };
 

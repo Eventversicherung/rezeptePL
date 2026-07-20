@@ -3,7 +3,7 @@
 Status: LIVE | W2 | W3 | W4 | HOLD  
 Affiliate auf Rezepten: **guide-only** (Gear-Blog-Cards); Affiliate-Karten in Buying-Guides.
 
-**SEO-Snapshot & erweiterter Plan:** [`topical-authority-status.md`](./topical-authority-status.md) (34 Blog · 29 Rezepte · Score 9/10 · `SEED_VERSION` 19).
+**SEO-Snapshot & erweiterter Plan:** [`topical-authority-status.md`](./topical-authority-status.md) (35 Blog · 31 Rezepte · Score 9/10 · `SEED_VERSION` 20).
 
 ## LIVE
 
@@ -82,7 +82,7 @@ Prozess: 6 Writer + Bilder + Chef → ein Push. Scorecard: `content/batch-w3c/ch
 | `recipe-racuchy` | Yeasted apple pancakes |
 | `recipe-chlodnik` | Cold summer soup |
 
-Wave 4+5 status: `content/recipe-expansion-w4.md`. `SEED_VERSION` 19.
+Wave 4–6 status: `content/recipe-expansion-w4.md`. `SEED_VERSION` 20.
 
 ## LIVE (Wave 5 / Authority Upgrade shipped)
 
@@ -94,6 +94,15 @@ Wave 4+5 status: `content/recipe-expansion-w4.md`. `SEED_VERSION` 19.
 | `post-fasolka-guide` | Broad owner zu Fasolka money page |
 | `post-majeranek` | Zutaten-Lexikon |
 
+## LIVE (Wave 6 shipped — Backen + Wigilia money pages)
+
+| What | Notes |
+|------|-------|
+| `post-makowiec-technik` | Backen-Pillar (Silo D/C) vor Makowiec-Rezept |
+| `recipe-makowiec` | Standalone; unique cover; FACTS ≥400 |
+| `recipe-uszka` | Own money page; Barszcz bleibt Suppen-Owner |
+| Karp | Skip (depth over spray) |
+
 ## HOLD
 
-Region-Blogs, Meal-Prep Woche, Lab-Tests, Region-Hub-Intros ≥400 vor Index.
+Region-Blogs, Meal-Prep Woche, Lab-Tests, Region-Hub-Intros ≥400 vor Index, Kotlet family, Karp optional.

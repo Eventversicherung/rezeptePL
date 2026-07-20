@@ -71,6 +71,9 @@ Eine Primary KW = eine Owner-URL. Andere Seiten nur mit descriptive Anchors verl
 | Majeranek / Majoran | `/blog/majeranek` · `/blog/majeranek-leksykon` |
 | Oscypek kaufen DE | `/blog/oscypek-deutschland` |
 | Oscypek mit Preiselbeeren | `/rezepte/oscypek-preiselbeeren` |
+| Makowiec Technik / polnisches Backen Mohn | `/blog/makowiec-technik` · `/blog/makowiec-technika` |
+| Makowiec Rezept | `/rezepte/makowiec` |
+| Uszka Rezept | `/rezepte/uszka` |
 
 ## Gear (Silo H)
 
