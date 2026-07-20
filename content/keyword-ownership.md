@@ -56,7 +56,19 @@ Eine Primary KW = eine Owner-URL. Andere Seiten nur mit descriptive Anchors verl
 | Gołąbki Rezept (broad) | `/blog/golabki-guide` |
 | Gołąbki Rezept (cook) | `/rezepte/golabki` |
 | Naleśniki Rezept (broad) | `/blog/nalesniki-guide` |
-| Naleśniki mit Twaróg | `/rezepte/nalesniki-twarog` |
+| Naleśniki mit Twaróg | `/rezepte/nalesniki/twarog` |
+| Naleśniki mit Fleisch | `/rezepte/nalesniki/fleisch` · `/mieso` |
+| Naleśniki mit Spinat | `/rezepte/nalesniki/szpinak` |
+| Pierogi leniwe | `/rezepte/pierogi-leniwe` |
+| Kopytka | `/rezepte/kopytka` |
+| Łazanki | `/rezepte/lazanki` |
+| Pyzy mit Fleisch | `/rezepte/pyzy` |
+| Zrazy zawijane | `/rezepte/zrazy` |
+| Faworki Technik | `/blog/faworki-technik` · `/blog/faworki-technika` |
+| Faworki Rezept | `/rezepte/faworki` |
+| Fasolka Guide (broad) | `/blog/fasolka-po-bretonsku` |
+| Fasolka Rezept (cook) | `/rezepte/fasolka-po-bretonsku` |
+| Majeranek / Majoran | `/blog/majeranek` · `/blog/majeranek-leksykon` |
 | Oscypek kaufen DE | `/blog/oscypek-deutschland` |
 | Oscypek mit Preiselbeeren | `/rezepte/oscypek-preiselbeeren` |
 

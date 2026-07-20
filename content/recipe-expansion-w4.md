@@ -1,63 +1,51 @@
-# Recipe Expansion Wave 4 — Research & Backlog
+# Recipe Expansion — Wave 4 shipped · Wave 5 progress
 
-Status: **Wave 4 shipped** (Placki family + 5 new dishes)  
-Date: 2026-07-20
+Status: **Wave 4 shipped** · **Wave 5 (Authority Upgrade) shipped**  
+Date: 2026-07-20 · `SEED_VERSION` 18
 
-## Placki variants — research (shipped)
+## Wave 4 (done)
 
-Polish potato pancakes (`placki ziemniaczane`) share technique across variants: raw grated potato, bind with egg + little flour, **squeeze water**, fry hot. Diaspora kitchens in DE cook these often — Rewe potatoes, Polenladen śmietana, Gusseisen or heavy pan.
+Placki family (4 variants) + standalones: Gulasz, Kotlet mielony, Kluski śląskie, Racuchy, Chłodnik.
 
-| Variant | PL name | Why distinct | Diaspora fit |
-|---------|---------|--------------|--------------|
-| **Classic** | placki ziemniaczane | Raw potato + onion, śmietana or gulasz | Default; matches blog pillar `post-placki-guide` |
-| **Z cukinią** | placki z cukinią | ~⅓ zucchini in mass — lighter, summer | Common when garden/zucchini overload; same fry technique |
-| **Z serem** | placki z serem | Twaróg / ser biały in batter — savory, richer | Uses twaróg shopping path; kid-friendly |
-| **Z jabłkami** | placki z jabłkami | Grated apple, cinnamon sugar | Sweet branch; distinct from racuchy (different batter ratio) |
+## Wave 5 — shipped this upgrade
 
-**Not shipped as variants (wave 2):** placki z wędliną (meat bits — niche), placki z cebulą only (subset of classic), leniwe placki (different dish — cottage cheese + potato mash).
+### Families
+| Family | Variants | Legacy redirect |
+|--------|----------|-----------------|
+| **Naleśniki** | twaróg (default), mięso, szpinak | `/rezepte/nalesniki-twarog` → `/rezepte/nalesniki/twarog` |
 
-**URL model:** `/rezepte/placki/{variant}` — legacy `/rezepte/placki-ziemniaczane` → redirect.
+### Standalone recipes
+| Dish | ID | Notes |
+|------|-----|--------|
+| Pierogi leniwe | `recipe-pierogi-leniwe` | Not folded pierogi family |
+| Kopytka | `recipe-kopytka` | Gulasz pairing |
+| Łazanki | `recipe-lazanki` | Kapusta / Kiszenie silo |
+| Pyzy | `recipe-pyzy` | Sunday project |
+| Zrazy | `recipe-zrazy` | Schmoren + region-slask |
 
-**Keyword ownership:** Broad “Placki Rezept” stays on `/blog/placki-guide`. Recipe SEO targets variant KWs (ziemniaczane, cukinia, ser, jabłka).
+All with FACTS longform ≥400, bilingual, unique covers, `relatedPostIds`.
 
-## New standalone dishes — research (shipped 5)
+### Blog gaps (Wave 5b)
+| Post | Supports |
+|------|----------|
+| `post-faworki-technik` | recipe-faworki + post-tlusty-czwartek |
+| `post-fasolka-guide` | thin money page Fasolka |
+| `post-majeranek` | meat / gołąbki / fasolka / shopping |
 
-Gap vs existing catalog (pierogi*, bigos, żurek, barszcz, rosół, gołąbki, naleśniki, placki*, schabowy, oscypek, fasolka, faworki):
+### Tech SEO (parallel)
+- Blog `BlogPosting` + FAQ JSON-LD  
+- Recipe JSON-LD: Org author, dates, absolute image  
+- Hub intros ≥400 for panieren, freezer, kiszenie, schmoren, wielkanoc, tłusty czwartek  
+- Thin **region** hubs: `noindex,follow` until intro ≥400 or curated+intro  
 
-| Dish | ID | Rationale DE diaspora |
-|------|-----|----------------------|
-| **Gulasz wieprzowy** | `recipe-gulasz` | Classic partner to placki; Dutch oven; Sunday table |
-| **Kotlet mielony** | `recipe-kotlet-mielony` | Everyday minced cutlet — distinct from schabowy; panieren guide |
-| **Kluski śląskie** | `recipe-kluski-slaskie` | Iconic Silesian side; rosół / Sunday; potato + starch |
-| **Racuchy z jabłkami** | `recipe-racuchy` | Yeasted apple pancakes — family/kids; different from placki jabłka |
-| **Chłodnik litewski** | `recipe-chlodnik` | Cold summer soup; śmietana + zakwas/beet; distinct from barszcz czerwony |
+## Still HOLD / next backlog
 
-**Considered but deferred:** Zrazy (long braise, overlap with gulasz), Makowiec (needs baking pillar), Pyzy/Kopytka/Łazanki (side-dish cluster — wave 2), Kotlety mielone could merge with schabowy SEO — kept separate as minced vs pounded cutlet.
+- Kotlet family hub (SEO-safe split)  
+- Makowiec (needs baking pillar)  
+- Region hub intros ≥400 before index  
+- Lab product tests  
+- Meal-Prep Arbeitswoche ≠ Freezer-Pierogi  
 
-## Wave 2 backlog (next sprint)
+## Keyword ownership
 
-### Recipe families (variant switcher candidates)
-- **Naleśniki** — twaróg / mięso / szpinak
-- **Kotlet** — schabowy vs mielony vs drobiowy (careful SEO split with guides)
-- **Zupa** — rosół / barszcz / chłodnik / żurek hub (browse-only family?)
-
-### Standalone recipes (high demand)
-- Zrazy zawijane (Sunday project)
-- Makowiec (Wigilia/Easter)
-- Kopytka + gulasz pairing page
-- Pyzy z mięsem
-- Łazanki z kapustą
-- Fasolka po bretońsku depth (article upgrade)
-- Pierogi leniwe (not same family as folded pierogi)
-
-### Content / wiring
-- Update blog body links from `/rezepte/placki-ziemniaczane` → `/rezepte/placki/ziemniaczane` (optional cleanup)
-- Gulasz buying guide or rosół+kluski cluster post
-- `post-placki-guide` relatedRecipeIds → all placki variants (done in seed)
-
-## Shipped variant list (Placki family)
-
-1. `recipe-placki` — ziemniaczane (default)
-2. `recipe-placki-cukinia` — z cukinią
-3. `recipe-placki-ser` — z serem
-4. `recipe-placki-jablka` — z jabłkami
+See `content/keyword-ownership.md` — one primary KW = one Owner-URL.

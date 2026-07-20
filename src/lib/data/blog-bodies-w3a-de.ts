@@ -122,7 +122,7 @@ Der deutsche Pfannkuchen-Teig ist häufig dicker, manchmal mit Backpulver oder m
 
 Geschmacklich sind Naleśniki kein Dessert im engeren Sinn, auch wenn die süße Twaróg-Variante beliebt ist. Herzhafte Füllungen mit Pilzen, Fleisch oder Käse sind genauso Hausmannskost. Wer schon [Pierogi Ruskie](/de/rezepte/pierogi/ruskie) kennt, erkennt die Logik: Teig als Träger, Füllung als Hauptakteur. Nur eben flach statt gefaltet.
 
-In polnischen Haushalten stehen Naleśniki oft neben anderen Teiggerichten – nicht als Ersatz für Pierogi, sondern als schnellere Alternative, wenn wir weniger Zeit zum Formen haben. Für den Einstieg lohnt das konkrete Rezept [Naleśniki mit Twaróg](/de/rezepte/nalesniki-twarog); dieser Guide liefert die Technik dahinter.
+In polnischen Haushalten stehen Naleśniki oft neben anderen Teiggerichten – nicht als Ersatz für Pierogi, sondern als schnellere Alternative, wenn wir weniger Zeit zum Formen haben. Für den Einstieg lohnt das konkrete Rezept [Naleśniki mit Twaróg](/de/rezepte/nalesniki/twarog); dieser Guide liefert die Technik dahinter.
 
 ## Teig: dünn, ruhen, Mehl in DE
 
@@ -243,7 +243,7 @@ Ja, gefüllt und angebraten halten sich eingefroren zwei bis drei Monate gut. Fr
 
 Technik sitzt – als Nächstes konkret kochen und Zutaten sauber einordnen:
 
-- [Naleśniki mit Twaróg](/de/rezepte/nalesniki-twarog) — Rezept mit Mengen und Schritten
+- [Naleśniki mit Twaróg](/de/rezepte/nalesniki/twarog) — Rezept mit Mengen und Schritten
 - [Pierogi Ruskie](/de/rezepte/pierogi/ruskie) — gleicher Quark, andere Form
 - [Twaróg Guide](/de/blog/twarog-deutschland) — Kauf und Konsistenz in DE
 - [Śmietana und Schmand](/de/blog/smietana-schmand) — passende Beilage und Füllung

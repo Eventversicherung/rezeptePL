@@ -154,7 +154,7 @@ Gołąbki nie wymagają polskiego sklepu na każdym kroku — wymagają cierpliw
 `;
 
 export const bodyNalesnikiGuidePl = `
-Naleśniki to jedno z tych dań, które w diasporze wracają szybciej niż bigos albo pierogi z kapustą — bo są szybkie, elastyczne i dobrze znane dzieciom. W Niemczech łatwo jednak pomylić je z Eierkuchen albo Pfannkuchen z restauracji: grubsze, bardziej „deserowe”, często podawane z syropem albo Nutellą bez zwijania. Polskie naleśniki są cieńsze, bardziej jak cienkie crêpes, i zwykle idą dalej — z farszem, zwinięte, czasem jeszcze raz podsmażone na maśle. Ten przewodnik jest dla nas, którzy gotujemy w REWE, Aldi albo w sklepie polskim i chcemy powtarzalnego efektu bez domysłów. Przepis krok po kroku: [naleśniki z twarogiem](/pl/rezepte/nalesniki-twarog).
+Naleśniki to jedno z tych dań, które w diasporze wracają szybciej niż bigos albo pierogi z kapustą — bo są szybkie, elastyczne i dobrze znane dzieciom. W Niemczech łatwo jednak pomylić je z Eierkuchen albo Pfannkuchen z restauracji: grubsze, bardziej „deserowe”, często podawane z syropem albo Nutellą bez zwijania. Polskie naleśniki są cieńsze, bardziej jak cienkie crêpes, i zwykle idą dalej — z farszem, zwinięte, czasem jeszcze raz podsmażone na maśle. Ten przewodnik jest dla nas, którzy gotujemy w REWE, Aldi albo w sklepie polskim i chcemy powtarzalnego efektu bez domysłów. Przepis krok po kroku: [naleśniki z twarogiem](/pl/rezepte/nalesniki/twarog).
 
 ## Co to są naleśniki — i czym różnią się od niemieckich naleśników
 
@@ -261,7 +261,7 @@ Z doświadczenia: słodka z twarogiem wygrywa u młodszych; starsi często prób
 
 ## Co dalej czytać
 
-- [Naleśniki z twarogiem — przepis](/pl/rezepte/nalesniki-twarog) — konkretne proporcje i kolejność kroków
+- [Naleśniki z twarogiem — przepis](/pl/rezepte/nalesniki/twarog) — konkretne proporcje i kolejność kroków
 - [Twaróg w Niemczech](/pl/blog/twarog-w-niemczech) — Quark, odsączanie, wilgotność farszu
 - [Pierogi ruskie](/pl/rezepte/pierogi/ruskie) — ten sam twaróg, inna technika
 - [Śmietana czy Schmand](/pl/blog/smietana-czy-schmand) — kiedy który nabiał do farszu i podania

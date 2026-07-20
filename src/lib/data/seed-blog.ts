@@ -17,6 +17,7 @@ import { seedBlogPostsWave2 } from "./seed-blog-wave2";
 import { seedBlogPostsW3a } from "./seed-blog-w3a";
 import { seedBlogPostsW3b } from "./seed-blog-w3b";
 import { seedBlogPostsW3c } from "./seed-blog-w3c";
+import { seedBlogPostsW5 } from "./seed-blog-w5";
 
 const seedBlogPostsLive: BlogPost[] = [
   {
@@ -256,4 +257,5 @@ export const seedBlogPosts: BlogPost[] = [
   ...seedBlogPostsW3a,
   ...seedBlogPostsW3b,
   ...seedBlogPostsW3c,
+  ...seedBlogPostsW5,
 ];

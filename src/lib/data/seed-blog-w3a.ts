@@ -60,7 +60,13 @@ export const seedBlogPostsW3a: BlogPost[] = [
     coverImage:
       "https://images.unsplash.com/photo-1770802858320-50848db704d5?w=1600&q=80",
     siloIds: ["dishFamily"],
-    relatedRecipeIds: ["recipe-nalesniki", "recipe-pierogi"],
+    relatedRecipeIds: [
+      "recipe-nalesniki",
+      "recipe-nalesniki-mieso",
+      "recipe-nalesniki-szpinak",
+      "recipe-pierogi",
+      "recipe-pierogi-leniwe",
+    ],
     relatedPostIds: [
       "post-twarog",
       "post-smietana-schmand",

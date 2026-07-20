@@ -82,7 +82,7 @@ Prozess: 6 Writer + Bilder + Chef → ein Push. Scorecard: `content/batch-w3c/ch
 | `recipe-racuchy` | Yeasted apple pancakes |
 | `recipe-chlodnik` | Cold summer soup |
 
-Research + wave 2 backlog: `content/recipe-expansion-w4.md`. `SEED_VERSION` 16.
+Wave 4+5 status: `content/recipe-expansion-w4.md`. `SEED_VERSION` 18.
 
 ## W3 / HOLD
 

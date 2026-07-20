@@ -838,6 +838,176 @@ const FACTS: Record<string, ArticleFacts> = {
     variantsPl:
       "Z większą ilością śmietany, bez jajka albo kontrast z gorącym barszczem zimą. Przewodnik po polskich zupach przy rodzinie zup.",
   },
+  "recipe-pierogi-leniwe": {
+    dishDe: "Pierogi leniwe",
+    dishPl: "Pierogi leniwe",
+    vibeDe: "mild, weich, ohne Falten-Stress",
+    vibePl: "łagodne, miękkie, bez stresu lepienia",
+    originDe:
+      "Pierogi leniwe sind keine gefalteten Pierogi: Twaróg, Mehl und Ei werden zu Klößchen geformt und gekocht. Schneller Einstieg für Kinder und für Tage ohne Zeit zum Falten — verwandt mit Naleśniki-Twaróg-Geschmack, aber andere Technik.",
+    originPl:
+      "Pierogi leniwe to nie sklejane pierogi: twaróg, mąka i jajko formuje się w kluseczki i gotuje. Szybki start dla dzieci i dni bez czasu na lepienie — blisko smaku naleśników z twarogiem, ale inna technika.",
+    shopDe:
+      "Twaróg oder abgetropfter Speisequark, Mehl, Ei, Butter, Semmelbrösel. Twaróg-Guide für Konsistenz in DE.",
+    shopPl:
+      "Twaróg lub odsączony Quark, mąka, jajko, masło, bułka tarta. Przewodnik po twarogu przy konsystencji w DE.",
+    techniqueDe:
+      "Teig weich aber formbar. Nicht zu viel Mehl. In leicht siedendem Wasser — nicht sprudelnd — garen bis sie schwimmen.",
+    techniquePl:
+      "Ciasto miękkie, ale formowalne. Nie za dużo mąki. Gotować w lekko wrzącej wodzie — nie burząc — aż wypłyną.",
+    serveDe:
+      "Klassisch mit Butterbröseln und Zucker, oder mit Śmietana. Auch herzhaft mit Salz und Dill möglich.",
+    servePl:
+      "Klasycznie z bułką na maśle i cukrem albo ze śmietaną. Też wytrawnie z solą i koperkiem.",
+    diasporaDe:
+      "Oft das erste „Pierogi“-Erlebnis für Kinder in DE — ohne Faltenlernen.",
+    diasporaPl:
+      "Często pierwsze „pierogi” dla dzieci w DE — bez nauki lepienia.",
+    mistakesDe:
+      "Zu viel Mehl, zu starkes Kochen, zu nasser Quark. Abtropfen und ruhig bleiben.",
+    mistakesPl:
+      "Za dużo mąki, zbyt gwałtowne gotowanie, za mokry twaróg. Odsącz i spokój.",
+    variantsDe:
+      "Mit Kartoffelanteil, süßer oder salziger. Nicht verwechseln mit gefalteten Pierogi Ruskie.",
+    variantsPl:
+      "Z udziałem ziemniaka, słodsze lub słone. Nie mylić ze sklejanymi ruskimi.",
+  },
+  "recipe-kopytka": {
+    dishDe: "Kopytka",
+    dishPl: "Kopytka",
+    vibeDe: "neutral, sättigend, beilagenstark",
+    vibePl: "neutralne, sycące, mocne jako dodatek",
+    originDe:
+      "Kopytka sind Kartoffel-Teigstückchen — verwandt mit italienischen Gnocchi, aber polnisch im Servieren: Butterzwiebeln oder Gulasz. Partner zu Gulasz wieprzowy und Sonntagsteller.",
+    originPl:
+      "Kopytka to kluseczki ziemniaczane — blisko gnocchi, ale polskie w podaniu: cebula na maśle albo gulasz. Partner gulaszu wieprzowego i niedzielnego stołu.",
+    shopDe:
+      "Kartoffeln, Mehl, Ei, Butter, Zwiebel. Gulasz-Rezept und Dutch Oven wenn die Soße mitkommt.",
+    shopPl:
+      "Ziemniaki, mąka, jajko, masło, cebula. Przepis na gulasz i dutch oven gdy idzie sos.",
+    techniqueDe:
+      "Kartoffeln gut ausdampfen. Teig nicht zu weich. Schräg schneiden, sanft kochen, nach dem Aufschwimmen herausnehmen.",
+    techniquePl:
+      "Ziemniaki dobrze odparować. Ciasto nie za miękkie. Kroić skośnie, gotować delikatnie, wyjąć po wypłynięciu.",
+    serveDe:
+      "Mit Butterzwiebeln, Gulasz oder Pilzsoße. Als Hauptbeilage, nicht als Snack.",
+    servePl:
+      "Z cebulą na maśle, gulaszem albo sosem grzybowym. Jako główny dodatek, nie przekąska.",
+    diasporaDe:
+      "Einfacher als Pyzy, sättigender als Reis — gute Brücke für deutsche Nachbarn.",
+    diasporaPl:
+      "Prostsze niż pyzy, bardziej sycące niż ryż — dobra kładka dla niemieckich sąsiadów.",
+    mistakesDe:
+      "Zu viel Mehl, zu nasse Kartoffeln, zu starkes Kochen. Erste Charge als Test.",
+    mistakesPl:
+      "Za dużo mąki, zbyt mokre ziemniaki, zbyt gwałtowne gotowanie. Pierwsza partia na próbę.",
+    variantsDe:
+      "Mit Spinat im Teig, oder neben Kluski śląskie als regionale Alternative.",
+    variantsPl:
+      "Ze szpinakiem w cieście albo obok klusek śląskich jako regionalna alternatywa.",
+  },
+  "recipe-lazanki": {
+    dishDe: "Łazanki mit Kapusta",
+    dishPl: "Łazanki z kapustą",
+    vibeDe: "deftig, säuerlich, alltagstauglich",
+    vibePl: "treściwe, kwaśne, na co dzień",
+    originDe:
+      "Łazanki sind quadratische Nudeln, oft mit Sauerkraut und Speck — Diaspora-Alltagsteller zwischen Bigos und Pasta. Weniger Drama als Bigos, mehr Struktur als Kraut allein.",
+    originPl:
+      "Łazanki to kwadratowy makaron, często z kapustą i boczkiem — talerz diasporowy między bigosem a pastą. Mniej dramatu niż bigos, więcej struktury niż sama kapusta.",
+    shopDe:
+      "Łazanki im Polenladen oder breite Bandnudeln, Sauerkraut, Zwiebel, Speck optional. Kiszenie-Guide für Kapusta-Kontext.",
+    shopPl:
+      "Łazanki w sklepie polskim lub szeroki makaron, kapusta kiszona, cebula, boczek opcjonalnie. Przewodnik kiszenia przy kontekście kapusty.",
+    techniqueDe:
+      "Kraut schmoren bis weich und aromatisch, Nudeln al dente, dann mischen — nicht zu wässrig.",
+    techniquePl:
+      "Kapustę dusić do miękkości i aromatu, makaron al dente, potem wymieszać — nie za rzadko.",
+    serveDe:
+      "Heiß, mit Dill oder pur. Reste braten am nächsten Tag in der Pfanne auf.",
+    servePl:
+      "Gorące, z koperkiem albo same. Resztki podsmaż nazajutrz na patelni.",
+    diasporaDe:
+      "Schneller als Bigos, nutzt dieselbe Kapusta-Logik. Gut für Wochentage.",
+    diasporaPl:
+      "Szybsze niż bigos, ta sama logika kapusty. Dobre na tydzień.",
+    mistakesDe:
+      "Zu nasses Kraut, zu weiche Nudeln, zu wenig Abschmecken. Pfeffer und Fett zählen.",
+    mistakesPl:
+      "Za mokra kapusta, za miękki makaron, za mało doprawienia. Pieprz i tłuszcz mają znaczenie.",
+    variantsDe:
+      "Vegetarisch ohne Speck, mit Pilzen, oder neben Bigos als Kraut-Silo.",
+    variantsPl:
+      "Wegetariańskie bez boczku, z grzybami albo obok bigosu w silosie kapusty.",
+  },
+  "recipe-pyzy": {
+    dishDe: "Pyzy mit Fleisch",
+    dishPl: "Pyzy z mięsem",
+    vibeDe: "groß, sättigend, Sonntagsprojekt",
+    vibePl: "duże, sycące, niedzielny projekt",
+    originDe:
+      "Pyzy sind große Kartoffelklöße mit Fleischfüllung — aufwendiger als Kopytka, sättigender als Pierogi. Ein ruhiges Sonntagsprojekt für Haushalte, die Zeit und Hunger haben.",
+    originPl:
+      "Pyzy to duże kluski ziemniaczane z farszem — bardziej pracochłonne niż kopytka, bardziej sycące niż pierogi. Spokojny niedzielny projekt dla domów z czasem i apetytem.",
+    shopDe:
+      "Kartoffeln, Stärke, Hack, Zwiebel, Butter. Fleischwolf und Freezer-Logik helfen bei Chargen.",
+    shopPl:
+      "Ziemniaki, skrobia, mielone, cebula, masło. Wilk i logika Freezer pomagają przy partiach.",
+    techniqueDe:
+      "Masse muss halten. Füllung kalt. Sanft kochen, nicht werfen. Erste Probe-Pyza testen.",
+    techniquePl:
+      "Masa musi trzymać. Farsz zimny. Gotować delikatnie, nie rzucać. Pierwsza próbna pyza.",
+    serveDe:
+      "Mit Butterzwiebeln — klassisch. Ein bis zwei Pyzy pro Person reichen oft.",
+    servePl:
+      "Z cebulą na maśle — klasycznie. Jedna–dwie pyzy na osobę często wystarczą.",
+    diasporaDe:
+      "Weniger bekannt als Pierogi in DE — lohnt als Familienprojekt am Wochenende.",
+    diasporaPl:
+      "Mniej znane niż pierogi w DE — warto jako rodzinny projekt w weekend.",
+    mistakesDe:
+      "Zu weiche Masse, heiße Füllung, zu starkes Kochen. Geduld schlägt Tempo.",
+    mistakesPl:
+      "Za miękka masa, gorący farsz, zbyt gwałtowne gotowanie. Cierpliwość bije tempo.",
+    variantsDe:
+      "Mit Pilzfüllung, oder Kopytka als einfachere Alternative ohne Füllen.",
+    variantsPl:
+      "Z farszem grzybowym albo kopytka jako prostsza alternatywa bez nadziewania.",
+  },
+  "recipe-zrazy": {
+    dishDe: "Zrazy zawijane",
+    dishPl: "Zrazy zawijane",
+    vibeDe: "festlich, langsam geschmort, sonntags",
+    vibePl: "odświętne, długo duszone, niedzielne",
+    originDe:
+      "Zrazy sind polnische Rinderrouladen: Senf, Speck, Gurke, lange geschmort. Schlesisch und sonntagstauglich — Partner zu Kluski śląskie und klarer Soße.",
+    originPl:
+      "Zrazy to wołowe zawijane: musztarda, boczek, ogórek, długo duszone. Śląskie i niedzielne — partner klusek śląskich i jasnego sosu.",
+    shopDe:
+      "Rinderplätzchen, Senf, Speck, Gewürzgurken, Brühe, Majoran. Dutch Oven oder Schmortopf; Majeranek-Lexikon fürs Würzen.",
+    shopPl:
+      "Plastry wołowiny, musztarda, boczek, ogórki, bulion, majeranek. Dutch oven lub garnek; leksykon majeranku przy doprawianiu.",
+    techniqueDe:
+      "Fest rollen, anbraten, zugedeckt schmoren bis gabelweich. Soße abschmecken, nicht eilig.",
+    techniquePl:
+      "Szczelnie zwinąć, obsmażyć, dusić pod przykryciem do miękkości. Sos doprawić bez pośpiechu.",
+    serveDe:
+      "Mit Kluski, Kartoffeln oder Kasza. Soße großzügig — sie trägt den Teller.",
+    servePl:
+      "Z kluskami, ziemniakami albo kaszą. Sos hojnie — on niesie talerz.",
+    diasporaDe:
+      "Länger als Gulasz, festlicher — gut wenn Gäste kommen und Zeit da ist.",
+    diasporaPl:
+      "Dłuższe niż gulasz, bardziej odświętne — dobre gdy są goście i czas.",
+    mistakesDe:
+      "Zu kurze Schmorzeit, lose Rollen, zu wenig Flüssigkeit. Deckel zu lassen.",
+    mistakesPl:
+      "Za krótkie duszenie, luźne rolady, za mało płynu. Pokrywkę trzymać.",
+    variantsDe:
+      "Mit Pilzen in der Füllung, oder Gulasz als schnellere Schmor-Alternative.",
+    variantsPl:
+      "Z grzybami w farszu albo gulasz jako szybsza alternatywa duszenia.",
+  },
 };
 
 function expand(locale: Locale, f: ArticleFacts): string {
