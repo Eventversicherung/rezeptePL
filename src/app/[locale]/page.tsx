@@ -17,7 +17,6 @@ export default async function HomePage({
   setRequestLocale(locale);
   const t = await getTranslations("home");
   const tc = await getTranslations("clusters");
-  const brand = await getTranslations("brand");
   const tRecipes = await getTranslations("recipes");
 
   const catalog = (await listRecipeCatalog(locale)).slice(0, 12);
@@ -49,20 +48,7 @@ export default async function HomePage({
 
         <div className="relative mx-auto flex min-h-[min(72dvh,40rem)] w-full max-w-7xl flex-col justify-end px-4 pb-14 pt-28 sm:px-8 sm:pb-20 sm:pt-32">
           <div className="reveal max-w-3xl">
-            <div className="mb-5 flex items-center gap-3">
-              <Image
-                src="/alemniam-logo.jpg"
-                alt=""
-                width={56}
-                height={56}
-                className="size-14 rounded-full bg-white object-contain shadow-lg ring-2 ring-white/90"
-                priority
-              />
-              <p className="font-display text-sm font-bold uppercase tracking-[0.22em] text-white">
-                {brand("name")}
-              </p>
-            </div>
-            <h1 className="mt-2 max-w-[12ch] font-display text-[clamp(3rem,11vw,5.75rem)] font-semibold leading-[0.95] text-white drop-shadow-[0_2px_24px_rgba(18,27,48,0.35)]">
+            <h1 className="max-w-[12ch] font-display text-[clamp(3rem,11vw,5.75rem)] font-semibold leading-[0.95] text-white drop-shadow-[0_2px_24px_rgba(18,27,48,0.35)]">
               {t("headline")}
             </h1>
             <p className="mt-5 max-w-[36ch] text-lg text-white/92 sm:text-xl">

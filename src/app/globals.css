@@ -766,8 +766,12 @@ a.btn-hero-secondary:hover {
 .hub-search__form {
   display: flex;
   flex-direction: column;
-  gap: 0.65rem;
+  gap: 0.55rem;
   width: 100%;
+  padding: 0.45rem;
+  border-radius: calc(var(--radius) + 8px);
+  background: #ffffff;
+  box-shadow: 0 8px 24px color-mix(in srgb, #121b30 14%, transparent);
 }
 
 @media (min-width: 640px) {
@@ -777,8 +781,6 @@ a.btn-hero-secondary:hover {
     gap: 0.4rem;
     padding: 0.35rem;
     border-radius: 9999px;
-    background: #ffffff;
-    box-shadow: 0 8px 24px color-mix(in srgb, #121b30 14%, transparent);
   }
 }
 
@@ -788,12 +790,12 @@ a.btn-hero-secondary:hover {
   flex: 1;
   border-radius: 9999px;
   border: none;
-  background: #ffffff;
+  background: transparent;
   padding: 0 1.35rem;
   font-size: 1rem;
   color: var(--fg);
   outline: none;
-  box-shadow: 0 6px 18px color-mix(in srgb, #121b30 10%, transparent);
+  box-shadow: none;
 }
 
 .hub-search__input::placeholder {
@@ -803,14 +805,12 @@ a.btn-hero-secondary:hover {
 @media (min-width: 640px) {
   .hub-search__input {
     min-height: 3.05rem;
-    box-shadow: none;
-    background: transparent;
   }
 }
 
 .hub-search__input:focus {
-  outline: 2px solid color-mix(in srgb, #ffffff 55%, #dc143c);
-  outline-offset: 2px;
+  outline: 2px solid color-mix(in srgb, #dc143c 35%, transparent);
+  outline-offset: 0;
 }
 
 @media (min-width: 640px) {
@@ -829,14 +829,14 @@ a.btn-hero-secondary:hover {
   flex-shrink: 0;
   border: none;
   border-radius: 9999px;
-  background: #9e0e2a;
+  background: #dc143c;
   color: #ffffff;
   padding: 0 1.5rem;
   font-size: 0.95rem;
   font-weight: 600;
   letter-spacing: -0.01em;
   cursor: pointer;
-  box-shadow: 0 8px 20px color-mix(in srgb, #121b30 18%, transparent);
+  box-shadow: 0 8px 20px color-mix(in srgb, #dc143c 28%, transparent);
   transition:
     background 160ms var(--ease-out),
     transform 160ms var(--ease-out),
@@ -844,9 +844,9 @@ a.btn-hero-secondary:hover {
 }
 
 .hub-search__submit:hover {
-  background: #7f0b22;
+  background: #b01030;
   transform: translateY(-1px);
-  box-shadow: 0 12px 26px color-mix(in srgb, #121b30 22%, transparent);
+  box-shadow: 0 12px 26px color-mix(in srgb, #dc143c 34%, transparent);
 }
 
 .hub-search__submit:active {
