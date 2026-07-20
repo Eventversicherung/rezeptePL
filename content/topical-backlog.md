@@ -3,7 +3,7 @@
 Status: LIVE | W2 | W3 | W4 | HOLD  
 Affiliate auf Rezepten: **guide-only** (Gear-Blog-Cards); Affiliate-Karten in Buying-Guides.
 
-**SEO-Snapshot & erweiterter Plan:** [`topical-authority-status.md`](./topical-authority-status.md) (31 Blog · 22 Rezepte · Score 8/10).
+**SEO-Snapshot & erweiterter Plan:** [`topical-authority-status.md`](./topical-authority-status.md) (34 Blog · 29 Rezepte · Score 9/10 · `SEED_VERSION` 19).
 
 ## LIVE
 
@@ -82,8 +82,18 @@ Prozess: 6 Writer + Bilder + Chef → ein Push. Scorecard: `content/batch-w3c/ch
 | `recipe-racuchy` | Yeasted apple pancakes |
 | `recipe-chlodnik` | Cold summer soup |
 
-Wave 4+5 status: `content/recipe-expansion-w4.md`. `SEED_VERSION` 18.
+Wave 4+5 status: `content/recipe-expansion-w4.md`. `SEED_VERSION` 19.
 
-## W3 / HOLD
+## LIVE (Wave 5 / Authority Upgrade shipped)
 
-Region-Blogs, Meal-Prep Woche, Lab-Tests, Majeranek, Faworki-Technik, Fasolka.
+| What | Notes |
+|------|-------|
+| `family-nalesniki` | twaróg (default), mięso, szpinak · legacy `/nalesniki-twarog` → `/nalesniki/twarog` |
+| Wave-5 recipes | leniwe, kopytka, łazanki, pyzy, zrazy |
+| `post-faworki-technik` | Technik-Pillar zu Faworki |
+| `post-fasolka-guide` | Broad owner zu Fasolka money page |
+| `post-majeranek` | Zutaten-Lexikon |
+
+## HOLD
+
+Region-Blogs, Meal-Prep Woche, Lab-Tests, Region-Hub-Intros ≥400 vor Index.

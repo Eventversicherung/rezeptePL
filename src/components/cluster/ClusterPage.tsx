@@ -4,27 +4,15 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { RecipeCatalogCard } from "@/components/recipe/RecipeCatalogCard";
 import { clusterBasePath } from "@/lib/data/cluster-paths";
-import { wordCount } from "@/lib/data/recipe-articles";
 import {
   catalogForCluster,
   getClusterBySlug,
 } from "@/lib/data/repository";
+import { isClusterIndexable } from "@/lib/seo/cluster-indexable";
 import { siteUrl } from "@/lib/utils";
-import type { Cluster, ClusterKind, Locale } from "@/types/content";
+import type { ClusterKind, Locale } from "@/types/content";
 
-/** Region hubs stay noindex until intro ≥400 words OR curated recipes + intro. */
-export function isClusterIndexable(
-  cluster: Cluster,
-  locale: Locale,
-  catalogCount: number,
-): boolean {
-  if (cluster.kind !== "region") return true;
-  const introWords = wordCount(cluster.description[locale] ?? "");
-  if (introWords >= 400) return true;
-  // Curated list + real intro (not a one-liner stub)
-  if (catalogCount > 0 && introWords >= 80) return true;
-  return false;
-}
+export { isClusterIndexable } from "@/lib/seo/cluster-indexable";
 
 export async function clusterMetadata(
   kind: ClusterKind,

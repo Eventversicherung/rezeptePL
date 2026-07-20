@@ -1,6 +1,6 @@
 # Topical Authority Status — SEO Snapshot
 
-Stand: 2026-07-20 · `SEED_VERSION` 18 · Quelle: Live-Seed
+Stand: 2026-07-20 · `SEED_VERSION` 19 · Quelle: Live-Seed
 
 ## Urteil (Senior SEO)
 
@@ -69,7 +69,8 @@ Nach Indexierung (GSC, 4–8 Wochen):
 - [ ] ≥3 Queries/Silo mit Klicks  
 - [ ] Blog→Rezept Klicktiefe messbar (Fasolka, Faworki, Majeranek)  
 - [ ] 0 Duplicate-Titles / hreflang-Stichprobe OK  
-- [ ] Thin Region-Hubs bleiben `noindex,follow` bis Intro ≥400  
+- [ ] Thin Region-Hubs bleiben `noindex,follow` (und außerhalb Sitemap) bis Intro ≥400  
+
 - [ ] Keine Fake-Lab-Claims in Snippets  
 
 Pfad zu stabilem **9/10**: Messung bestätigen + Region-Hubs nur mit echten Intros öffnen (nicht Spray-Content).

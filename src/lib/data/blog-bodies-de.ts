@@ -30,7 +30,7 @@ Für Meal Prep schneiden wir Kielbasa in Scheiben, braten sie mit Zwiebel und Pa
 
 ### Twaróg
 
-Für Pierogi und [Naleśniki](/de/rezepte/nalesniki-twarog) brauchen wir trockenen, krümeligen Twaróg – nicht den flüssigen Speisequark aus dem Kühlregal. Details stehen im [Twaróg Guide](/de/blog/twarog-deutschland). Kurz: im Polenladen oft die richtige Konsistenz; im Supermarkt Quark abseihen, bis er für die Füllung trägt.
+Für Pierogi und [Naleśniki](/de/rezepte/nalesniki/twarog) brauchen wir trockenen, krümeligen Twaróg – nicht den flüssigen Speisequark aus dem Kühlregal. Details stehen im [Twaróg Guide](/de/blog/twarog-deutschland). Kurz: im Polenladen oft die richtige Konsistenz; im Supermarkt Quark abseihen, bis er für die Füllung trägt.
 
 ### Kapusta
 
@@ -199,7 +199,7 @@ Rezept-Hub und Mengen: jeweils den Varianten folgen, Teig hier konstant halten. 
 5. Portionieren, ausrollen, füllen, schließen.
 6. Sofort kochen oder einfrieren.
 
-Zwischen den Schritten Arbeitsfläche sauber halten. Zu viel Zusatzmehl macht den Teig trocken; lieber Hände leicht bemehlen. Wer Naleśniki am selben Tag plant: anderer Teig – siehe [Naleśniki](/de/rezepte/nalesniki-twarog) – nicht denselben Pierogi-Teig zweckentfremden.
+Zwischen den Schritten Arbeitsfläche sauber halten. Zu viel Zusatzmehl macht den Teig trocken; lieber Hände leicht bemehlen. Wer Naleśniki am selben Tag plant: anderer Teig – siehe [Naleśniki](/de/rezepte/nalesniki/twarog) – nicht denselben Pierogi-Teig zweckentfremden.
 
 ## Feuchtigkeit lesen lernen
 
@@ -304,7 +304,7 @@ Die Maschine hilft in Schritt 1 – nicht in Schritt 3. Wer Zeit spart, spart si
 
 Außerhalb der Feiertage reicht oft 500 g Mehl für [Pierogi Ruskie](/de/rezepte/pierogi/ruskie) oder eine Fleischvariante. Die Maschine ist dann Komfort, kein Muss. Sinnvoll kombiniert mit Freezer-Logik: einmal kneten, einmal füllen, mehrfach essen. Einkauf für Twaróg und Kapusta: [Polenladen](/de/blog/polenladen-einkaufen) und [Twaróg Guide](/de/blog/twarog-deutschland).
 
-Wer Naleśniki mag: anderer Teig, oft ohne schwere Knetarbeit – siehe [Naleśniki](/de/rezepte/nalesniki-twarog). Nicht jedes polnische Gericht braucht dieselbe Maschine.
+Wer Naleśniki mag: anderer Teig, oft ohne schwere Knetarbeit – siehe [Naleśniki](/de/rezepte/nalesniki/twarog). Nicht jedes polnische Gericht braucht dieselbe Maschine.
 
 ## Nutzung: so bleibt das Gerät lange gut
 
@@ -365,7 +365,7 @@ Maschine ausgepackt – erste Charge nach [Pierogi-Teig](/de/blog/pierogi-teig),
 `;
 
 export const bodyTwarogDe = `
-Twaróg in Deutschland zu finden ist kein Drama, wenn wir wissen, welche Konsistenz wir brauchen. Für [Pierogi Ruskie](/de/rezepte/pierogi/ruskie) und [Naleśniki](/de/rezepte/nalesniki-twarog) zählt trockener, krümeliger Quark – nicht der löffelweiche Speisequark aus dem Kühlregal. Dieser Guide ordnet Sorten, Abseihen, Polenladen versus Supermarkt und typische Fehler, ruhig und praxisnah für die Diaspora-Küche.
+Twaróg in Deutschland zu finden ist kein Drama, wenn wir wissen, welche Konsistenz wir brauchen. Für [Pierogi Ruskie](/de/rezepte/pierogi/ruskie) und [Naleśniki](/de/rezepte/nalesniki/twarog) zählt trockener, krümeliger Quark – nicht der löffelweiche Speisequark aus dem Kühlregal. Dieser Guide ordnet Sorten, Abseihen, Polenladen versus Supermarkt und typische Fehler, ruhig und praxisnah für die Diaspora-Küche.
 
 ## Was Twaróg hier bedeuten soll
 
@@ -423,7 +423,7 @@ Teig bleibt separat: [Pierogi-Teig](/de/blog/pierogi-teig) und [Teig](/de/techni
 
 ## Naleśniki mit Twaróg
 
-Für [Naleśniki](/de/rezepte/nalesniki-twarog) darf die Füllung etwas cremiger sein als für Pierogi, aber nicht flüssig. Abgeseihten Quark mit wenig Zucker oder Salz, Eigelb oder Vanille nach süßer oder herzhafter Linie. Zu viel Feuchtigkeit quillt beim Backen oder Braten aus. Rollen fest, aber nicht pressen bis zum Platzen.
+Für [Naleśniki](/de/rezepte/nalesniki/twarog) darf die Füllung etwas cremiger sein als für Pierogi, aber nicht flüssig. Abgeseihten Quark mit wenig Zucker oder Salz, Eigelb oder Vanille nach süßer oder herzhafter Linie. Zu viel Feuchtigkeit quillt beim Backen oder Braten aus. Rollen fest, aber nicht pressen bis zum Platzen.
 
 Süße Variante bleibt alltagstauglich ohne Kitsch: gute Butter in der Pfanne, frische Beeren oder ein Klecks Schmand – keine Zuckerguss-Show nötig.
 
@@ -479,11 +479,11 @@ Meist zu heiße Kartoffeln oder zu nasser Quark. Kartoffeln auskühlen, Quark ab
 
 ### Wie unterscheiden sich Pierogi- und Naleśniki-Füllung?
 
-Pierogi brauchen festere, trockenere Masse; Naleśniki vertragen etwas mehr Cremigkeit, aber keine Flüssigkeit. Zucker und Eigelb eher bei süßen Naleśniki; Salz und Zwiebel bei Ruskie. Rezepte: [Pierogi Ruskie](/de/rezepte/pierogi/ruskie) und [Naleśniki](/de/rezepte/nalesniki-twarog). Denselben abgeseihten Quark können wir splitten und unterschiedlich würzen – effizient für Batch-Tage.
+Pierogi brauchen festere, trockenere Masse; Naleśniki vertragen etwas mehr Cremigkeit, aber keine Flüssigkeit. Zucker und Eigelb eher bei süßen Naleśniki; Salz und Zwiebel bei Ruskie. Rezepte: [Pierogi Ruskie](/de/rezepte/pierogi/ruskie) und [Naleśniki](/de/rezepte/nalesniki/twarog). Denselben abgeseihten Quark können wir splitten und unterschiedlich würzen – effizient für Batch-Tage.
 
 ## Als Nächstes
 
-Twaróg geklärt – Teig nach [Pierogi-Teig](/de/blog/pierogi-teig), Variante [Pierogi Ruskie](/de/rezepte/pierogi/ruskie), süße Linie [Naleśniki](/de/rezepte/nalesniki-twarog). Einkauf [Polenladen](/de/blog/polenladen-einkaufen), Festtag [Wigilia Speiseplan](/de/blog/wigilia-speiseplan). Trocken, mild, ruhig verarbeitet – so schmeckt Heimatküche in Deutschland klar und modern.
+Twaróg geklärt – Teig nach [Pierogi-Teig](/de/blog/pierogi-teig), Variante [Pierogi Ruskie](/de/rezepte/pierogi/ruskie), süße Linie [Naleśniki](/de/rezepte/nalesniki/twarog). Einkauf [Polenladen](/de/blog/polenladen-einkaufen), Festtag [Wigilia Speiseplan](/de/blog/wigilia-speiseplan). Trocken, mild, ruhig verarbeitet – so schmeckt Heimatküche in Deutschland klar und modern.
 `;
 
 export const bodyWigiliaDe = `
@@ -594,7 +594,7 @@ Playlist und Perfektionismus sind optional. Pünktlichkeit beim Essen schlägt P
 
 ## Reste und der 25./26.
 
-Pierogi angebraten mit Butter, Barszcz als Klarsuppe am nächsten Tag, Kompot kalt, Fisch in Salat verwandeln. Planung mit Restelogik entlastet schon am 23. Einkauf. [Naleśniki](/de/rezepte/nalesniki-twarog) mit Twaróg können später in den Feiertagen kommen – anderer Rhythmus, willkommen als Kontrast. [Twaróg Guide](/de/blog/twarog-deutschland) hilft, wenn danach wieder Ruskie anstehen.
+Pierogi angebraten mit Butter, Barszcz als Klarsuppe am nächsten Tag, Kompot kalt, Fisch in Salat verwandeln. Planung mit Restelogik entlastet schon am 23. Einkauf. [Naleśniki](/de/rezepte/nalesniki/twarog) mit Twaróg können später in den Feiertagen kommen – anderer Rhythmus, willkommen als Kontrast. [Twaróg Guide](/de/blog/twarog-deutschland) hilft, wenn danach wieder Ruskie anstehen.
 
 ## Tischkultur ohne Druck
 

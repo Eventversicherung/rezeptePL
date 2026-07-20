@@ -18,7 +18,7 @@ export const seedBlogPostsW5: BlogPost[] = [
     coverImage:
       "https://images.unsplash.com/photo-1551024601-bec78aea704b?w=1600&q=80",
     siloIds: ["technique", "occasion"],
-    relatedRecipeIds: ["recipe-faworki", "recipe-racuchy"],
+    relatedRecipeIds: ["recipe-faworki", "recipe-racuchy", "recipe-nalesniki"],
     relatedPostIds: [
       "post-tlusty-czwartek",
       "post-ersatzprodukte-de",

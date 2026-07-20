@@ -1,7 +1,7 @@
 # Recipe Expansion — Wave 4 shipped · Wave 5 progress
 
 Status: **Wave 4 shipped** · **Wave 5 (Authority Upgrade) shipped**  
-Date: 2026-07-20 · `SEED_VERSION` 18
+Date: 2026-07-20 · `SEED_VERSION` 19
 
 ## Wave 4 (done)
 
@@ -36,7 +36,8 @@ All with FACTS longform ≥400, bilingual, unique covers, `relatedPostIds`.
 - Blog `BlogPosting` + FAQ JSON-LD  
 - Recipe JSON-LD: Org author, dates, absolute image  
 - Hub intros ≥400 for panieren, freezer, kiszenie, schmoren, wielkanoc, tłusty czwartek  
-- Thin **region** hubs: `noindex,follow` until intro ≥400 or curated+intro  
+- Thin **region** hubs: `noindex,follow` + excluded from sitemap until intro ≥400 or curated+intro  
+
 
 ## Still HOLD / next backlog
 

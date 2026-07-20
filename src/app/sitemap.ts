@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import {
+  catalogForCluster,
   getFamilyVariants,
   listClusters,
   listFamilies,
@@ -8,6 +9,7 @@ import {
 } from "@/lib/data/repository";
 import { clusterBasePath } from "@/lib/data/cluster-paths";
 import { familyVariantPath } from "@/lib/data/recipe-paths";
+import { isClusterIndexable } from "@/lib/seo/cluster-indexable";
 import { siteUrl } from "@/lib/utils";
 import type { Locale } from "@/types/content";
 
@@ -90,12 +92,15 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     })),
   );
 
-  const clusterEntries = locales.flatMap((locale) =>
-    clusters.map((cluster) => {
+  const clusterEntries: MetadataRoute.Sitemap = [];
+  for (const locale of locales) {
+    for (const cluster of clusters) {
+      const items = await catalogForCluster(cluster.id, locale);
+      if (!isClusterIndexable(cluster, locale, items.length)) continue;
       const path = clusterBasePath(cluster.kind);
-      return {
+      clusterEntries.push({
         url: `${base}/${locale}/${path}/${cluster.slug[locale]}`,
-        changeFrequency: "monthly" as const,
+        changeFrequency: "monthly",
         priority: cluster.kind === "category" ? 0.75 : 0.7,
         alternates: {
           languages: {
@@ -103,9 +108,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
             pl: `${base}/pl/${path}/${cluster.slug.pl}`,
           },
         },
-      };
-    }),
-  );
+      });
+    }
+  }
 
   return [
     ...staticEntries,

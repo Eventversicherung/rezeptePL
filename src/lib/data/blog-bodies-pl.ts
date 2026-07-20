@@ -22,7 +22,7 @@ Poniższa lista nie jest dogmatem, ale w praktyce gospodarstw w Niemczech wraca 
 - **Kiełbasa** — biała, krakowska, myśliwska, wędzona: zależnie od dania. Do fasolki i żurku jakość kiełbasy widać od razu.
 - **Majeranek i lubczyk** — często bardziej aromatyczne niż standardowe saszetki z supermarketu. Majeranek to nie dekoracja; to rdzeń żurku.
 - **Suszone grzyby** — borowiki albo mieszanki. Namoczone dają bulion i ciało farszu do pierogów wigilijnych.
-- **Twaróg** — jeśli jest świeży i dobrze odsączony, to pierwsza liga do ruskich i [naleśników](/pl/rezepte/nalesniki-twarog). Szczegóły: [twaróg w Niemczech](/pl/blog/twarog-w-niemczech).
+- **Twaróg** — jeśli jest świeży i dobrze odsączony, to pierwsza liga do ruskich i [naleśników](/pl/rezepte/nalesniki/twarog). Szczegóły: [twaróg w Niemczech](/pl/blog/twarog-w-niemczech).
 - **Produkty „trudne do podrobienia”** — prawdziwy oscypek sezonowo, dobre kaszanki, czasem makaron ręczny albo uszka mrożone, gdy naprawdę brakuje czasu.
 
 ### Jak czytać etykiety bez paniki
@@ -162,7 +162,7 @@ Sprawdzone warianty:
 - Pierogi z mięsem — po rosole albo z osobno podsmażonym farszem
 - Pierogi z kapustą i grzybami — często wigilijne
 
-Do ruskich i [naleśników](/pl/rezepte/nalesniki-twarog) jakość twarogu / Quarku ma znaczenie; do kapuśniaków — jakość kapusty ze [sklepu polskiego](/pl/blog/sklep-polski-zakupy).
+Do ruskich i [naleśników](/pl/rezepte/nalesniki/twarog) jakość twarogu / Quarku ma znaczenie; do kapuśniaków — jakość kapusty ze [sklepu polskiego](/pl/blog/sklep-polski-zakupy).
 
 ## Gotowanie i pierwsze minuty po wyjęciu
 
@@ -270,7 +270,7 @@ Zanim kupisz sprzęt, przećwicz farsze i tempo:
 - [Pierogi ruskie](/pl/rezepte/pierogi/ruskie)
 - Pierogi z mięsem
 - Pierogi z kapustą i grzybami
-- [Naleśniki z twarogiem](/pl/rezepte/nalesniki-twarog) — ten sam nabiałowy świat, inna technika
+- [Naleśniki z twarogiem](/pl/rezepte/nalesniki/twarog) — ten sam nabiałowy świat, inna technika
 - Plan świąt: [menu wigilijne](/pl/blog/menu-wigilijne) oraz okazja [Wigilia](/pl/anlaesse/wigilia)
 
 Do farszu ruskiego przeczytaj też [twaróg w Niemczech](/pl/blog/twarog-w-niemczech) — mokry Quark psuje nie tylko smak, ale i motywację do kolejnej partii.
@@ -310,7 +310,7 @@ Gdy robimy pierogi rzadziej niż raz na miesiąc, mamy małą kuchnię bez miejs
 
 Robot do ciasta ma jedno zadanie: pomóc nam spokojnie zrobić więcej dobrego ciasta, gdy życie w Niemczech i tak jest wystarczająco pełne. Jeśli po przeczytaniu kryteriów nadal nie jesteście pewni — zacznijcie od kolejnej ręcznej partii według [przewodnika o cieście](/pl/blog/ciasto-na-pierogi). Pewność przyjdzie szybciej niż z porównywarki.`;
 
-export const bodyTwarogPl = `W Niemczech półka z nabiałem jest długa, a słowo „Quark” nie oznacza automatycznie tego, czego szukamy do [pierogów ruskich](/pl/rezepte/pierogi/ruskie) czy [naleśników](/pl/rezepte/nalesniki-twarog). Polski twaróg bywa bardziej ziarnisty, bardziej „suchy w strukturze”, mniej kremowy niż wiele kubków Speisequark. Ten tekst tłumaczy różnice praktycznie — dla nas, którzy kupują w REWE, Aldi, w sklepie polskim i chcą farszu, który nie robi kałuży na desce.
+export const bodyTwarogPl = `W Niemczech półka z nabiałem jest długa, a słowo „Quark” nie oznacza automatycznie tego, czego szukamy do [pierogów ruskich](/pl/rezepte/pierogi/ruskie) czy [naleśników](/pl/rezepte/nalesniki/twarog). Polski twaróg bywa bardziej ziarnisty, bardziej „suchy w strukturze”, mniej kremowy niż wiele kubków Speisequark. Ten tekst tłumaczy różnice praktycznie — dla nas, którzy kupują w REWE, Aldi, w sklepie polskim i chcą farszu, który nie robi kałuży na desce.
 
 ## Twaróg a Quark: o co chodzi w konsystencji
 
@@ -345,7 +345,7 @@ Klasyka: ziemniak + twaróg / Quark + cebula. Przepis bazowy: [pierogi ruskie](/
 
 ### Naleśniki na słodko lub półsłodko
 
-[Naleśniki z twarogiem](/pl/rezepte/nalesniki-twarog) znoszą odrobinę wilgoci lepiej niż pierogi, ale nadal nie lubią zupy. Cukier, wanilia, skórka cytryny, rodzynki — według domu. W Niemczech łatwo przesadzić z kremowością i zejść w stronę „cheesecake spread”; my trzymamy ziarno i charakter.
+[Naleśniki z twarogiem](/pl/rezepte/nalesniki/twarog) znoszą odrobinę wilgoci lepiej niż pierogi, ale nadal nie lubią zupy. Cukier, wanilia, skórka cytryny, rodzynki — według domu. W Niemczech łatwo przesadzić z kremowością i zejść w stronę „cheesecake spread”; my trzymamy ziarno i charakter.
 
 ### Inne domowe użycia
 
@@ -408,7 +408,7 @@ Tu nie ma jednej odpowiedzi „dla wszystkich”. Przy nietolerancjach szukamy p
 
 Wigilia często stawia na pierogi z kapustą i grzybami, ale ruskie bywają mostem dla dzieci i gości. Plan: [menu wigilijne](/pl/blog/menu-wigilijne), kontekst: [Wigilia](/pl/anlaesse/wigilia). Twaróg kupcie z zapasem czasu na odsączenie dzień wcześniej.
 
-Twaróg w Niemczech to nie problem do heroiczenia — to decyzja zakupowa i kilka ruchów z sitem. Gdy opanujemy wilgotność, [ruskie](/pl/rezepte/pierogi/ruskie) i [naleśniki](/pl/rezepte/nalesniki-twarog) wracają do kategorii „da się w tygodniu”, a nie tylko „kiedyś, jak będzie idealny ser”.
+Twaróg w Niemczech to nie problem do heroiczenia — to decyzja zakupowa i kilka ruchów z sitem. Gdy opanujemy wilgotność, [ruskie](/pl/rezepte/pierogi/ruskie) i [naleśniki](/pl/rezepte/nalesniki/twarog) wracają do kategorii „da się w tygodniu”, a nie tylko „kiedyś, jak będzie idealny ser”.
 `;
 
 export const bodyWigiliaPl = `Wigilia w Niemczech bywa logistycznie trudniejsza niż w Polsce: mniejsza kuchnia, praca do ostatniego dnia, rodzina dojeżdżająca z różnych landów, sklep polski nie zawsze po drodze. Dwanaście potraw to piękny punkt odniesienia — nie egzamin. Ten plan menu jest spokojny i wykonalny „dla nas”: wybieramy głębię zamiast ilości, przygotowujemy partiami, szanujemy różnice domowe. Jeśli potrzebujecie szerszego kontekstu okazji, zajrzyjcie też do [Wigilii](/pl/anlaesse/wigilia).
