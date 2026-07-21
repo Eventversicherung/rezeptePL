@@ -69,6 +69,64 @@ export async function getRecipeInFamily(
   return { family, recipe };
 }
 
+/**
+ * Resolve a family variant by slug in the current locale, or by the other
+ * locale's slug (wrong-locale / shared links). Caller should redirect when
+ * `needsRedirect` is true.
+ */
+export async function resolveRecipeInFamily(
+  locale: Locale,
+  familySlug: string,
+  variantSlug: string,
+): Promise<{ family: RecipeFamily; recipe: Recipe; needsRedirect: boolean } | null> {
+  const exact = await getRecipeInFamily(locale, familySlug, variantSlug);
+  if (exact) return { ...exact, needsRedirect: false };
+
+  const store = await readStore();
+  const family =
+    store.families.find(
+      (f) =>
+        f.translations.de?.slug === familySlug ||
+        f.translations.pl?.slug === familySlug,
+    ) ?? null;
+  if (!family) return null;
+
+  const variants = await getFamilyVariants(family.id);
+  const recipe =
+    variants.find(
+      (r) =>
+        r.translations.de?.slug === variantSlug ||
+        r.translations.pl?.slug === variantSlug,
+    ) ?? null;
+  if (!recipe) return null;
+
+  const canonicalFamily = family.translations[locale]?.slug === familySlug;
+  const canonicalVariant = recipe.translations[locale]?.slug === variantSlug;
+  return {
+    family,
+    recipe,
+    needsRedirect: !(canonicalFamily && canonicalVariant),
+  };
+}
+
+/** Family by either locale's slug (for cross-locale redirects). */
+export async function resolveFamilyBySlug(
+  locale: Locale,
+  slug: string,
+): Promise<{ family: RecipeFamily; needsRedirect: boolean } | null> {
+  const exact = await getFamilyBySlug(locale, slug);
+  if (exact) return { family: exact, needsRedirect: false };
+
+  const store = await readStore();
+  const family =
+    store.families.find(
+      (f) =>
+        f.translations.de?.slug === slug || f.translations.pl?.slug === slug,
+    ) ?? null;
+  if (!family) return null;
+  return { family, needsRedirect: true };
+}
+
 /** Index/cluster cards: one entry per family + standalone recipes. */
 export async function listRecipeCatalog(
   locale: Locale,
@@ -272,6 +330,26 @@ export async function getClusterBySlug(
       (c) => c.kind === kind && c.slug[locale] === slug,
     ) ?? null
   );
+}
+
+/** Cluster by either locale's slug (for cross-locale redirects). */
+export async function resolveClusterBySlug(
+  kind: ClusterKind,
+  locale: Locale,
+  slug: string,
+): Promise<{ cluster: Cluster; needsRedirect: boolean } | null> {
+  const exact = await getClusterBySlug(kind, locale, slug);
+  if (exact) return { cluster: exact, needsRedirect: false };
+
+  const store = await readStore();
+  const cluster =
+    store.clusters.find(
+      (c) =>
+        c.kind === kind &&
+        (c.slug.de === slug || c.slug.pl === slug),
+    ) ?? null;
+  if (!cluster) return null;
+  return { cluster, needsRedirect: true };
 }
 
 export async function recipesForCluster(clusterId: string): Promise<Recipe[]> {

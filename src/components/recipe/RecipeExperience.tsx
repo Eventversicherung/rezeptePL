@@ -16,7 +16,7 @@ import {
   Breadcrumbs,
   type BreadcrumbItem,
 } from "@/components/layout/Breadcrumbs";
-import { LocaleAlternatesProvider } from "@/components/i18n/LocaleAlternates";
+import { SetLocaleAlternates } from "@/components/i18n/LocaleAlternates";
 import { groupLabelKey, scaleAmount } from "@/lib/utils";
 import { familyVariantPath } from "@/lib/data/recipe-paths";
 import { ModeSwitch } from "./ModeSwitch";
@@ -153,7 +153,8 @@ export function RecipeExperience({
       };
 
   return (
-    <LocaleAlternatesProvider alternates={localeAlternates}>
+    <>
+    <SetLocaleAlternates de={localeAlternates.de} pl={localeAlternates.pl} />
     <article className="mx-auto max-w-4xl pb-28 md:pb-16">
       {!focusCook ? (
         <Breadcrumbs items={breadcrumbs} ariaLabel={breadcrumbsLabel} />
@@ -484,6 +485,6 @@ export function RecipeExperience({
         </>
       ) : null}
     </article>
-    </LocaleAlternatesProvider>
+    </>
   );
 }

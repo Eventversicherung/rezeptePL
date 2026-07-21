@@ -3,30 +3,60 @@
 import {
   createContext,
   useContext,
-  useMemo,
+  useLayoutEffect,
+  useState,
   type ReactNode,
 } from "react";
 import type { Locale } from "@/types/content";
 
-type Alternates = Partial<Record<Locale, string>>;
+export type LocaleAlternatesMap = Partial<Record<Locale, string>>;
 
-const LocaleAlternatesContext = createContext<Alternates | null>(null);
+const AlternatesContext = createContext<LocaleAlternatesMap | null>(null);
+const SetAlternatesContext = createContext<
+  ((next: LocaleAlternatesMap | null) => void) | null
+>(null);
 
+/** Must wrap the header (LanguageSwitcher) and page content. */
 export function LocaleAlternatesProvider({
-  alternates,
   children,
 }: {
-  alternates: Alternates;
   children: ReactNode;
 }) {
-  const value = useMemo(() => alternates, [alternates]);
+  const [alternates, setAlternates] = useState<LocaleAlternatesMap | null>(
+    null,
+  );
   return (
-    <LocaleAlternatesContext.Provider value={value}>
-      {children}
-    </LocaleAlternatesContext.Provider>
+    <SetAlternatesContext.Provider value={setAlternates}>
+      <AlternatesContext.Provider value={alternates}>
+        {children}
+      </AlternatesContext.Provider>
+    </SetAlternatesContext.Provider>
   );
 }
 
-export function useLocaleAlternates(): Alternates | null {
-  return useContext(LocaleAlternatesContext);
+/**
+ * Register locale-specific paths for the header language switcher.
+ * Renders nothing — pages call this so SiteHeader (sibling under AppShell)
+ * can read the correct DE/PL slugs when switching language.
+ */
+export function SetLocaleAlternates({
+  de,
+  pl,
+}: {
+  de: string;
+  pl: string;
+}) {
+  const setAlternates = useContext(SetAlternatesContext);
+
+  useLayoutEffect(() => {
+    if (!setAlternates) return;
+    setAlternates({ de, pl });
+    return () => setAlternates(null);
+  }, [setAlternates, de, pl]);
+
+  return null;
+}
+
+export function useLocaleAlternates(): LocaleAlternatesMap | null {
+  return useContext(AlternatesContext);
 }

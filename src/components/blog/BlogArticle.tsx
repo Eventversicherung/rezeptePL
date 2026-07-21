@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Link } from "@/i18n/navigation";
-import { LocaleAlternatesProvider } from "@/components/i18n/LocaleAlternates";
+import { SetLocaleAlternates } from "@/components/i18n/LocaleAlternates";
 import { AffiliateCard } from "@/components/affiliate/AffiliateCard";
 import { BlogRelatedRecipeCard } from "@/components/blog/BlogRelatedRecipeCard";
 import { familyVariantPath, recipePath } from "@/lib/data/recipe-paths";
@@ -165,7 +165,8 @@ export function BlogArticle({
     : "/rezepte";
 
   return (
-    <LocaleAlternatesProvider alternates={alternates}>
+    <>
+      <SetLocaleAlternates de={alternates.de} pl={alternates.pl} />
       <article className="mx-auto max-w-3xl pb-28 md:pb-16">
         <div className="relative aspect-[16/9] overflow-hidden rounded-[calc(var(--radius)+10px)] bg-elevated shadow-[0_20px_50px_rgba(28,20,18,0.12)]">
           <Image
@@ -283,6 +284,6 @@ export function BlogArticle({
           </Link>
         </section>
       </article>
-    </LocaleAlternatesProvider>
+    </>
   );
 }

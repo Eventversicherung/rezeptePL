@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import { Suspense } from "react";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { RecipeExperience } from "@/components/recipe/RecipeExperience";
@@ -8,9 +8,9 @@ import { resolveRecipeArticle } from "@/lib/data/recipe-articles";
 import { getRelatedGuidesForRecipe } from "@/lib/data/recipe-guides";
 import {
   getFamilyVariants,
-  getRecipeInFamily,
   listFamilies,
   listSavedRecipeIds,
+  resolveRecipeInFamily,
 } from "@/lib/data/repository";
 import { familyVariantPath } from "@/lib/data/recipe-paths";
 import { breadcrumbJsonLd, recipeJsonLd } from "@/lib/seo/jsonld";
@@ -43,8 +43,8 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale: localeParam, slug, variant } = await params;
   const locale = localeParam as Locale;
-  const hit = await getRecipeInFamily(locale, slug, variant);
-  if (!hit) return {};
+  const hit = await resolveRecipeInFamily(locale, slug, variant);
+  if (!hit || hit.needsRedirect) return {};
   const { family, recipe } = hit;
   const t = recipe.translations[locale];
   const other = locale === "de" ? "pl" : "de";
@@ -89,9 +89,12 @@ export default async function RecipeVariantPage({
   const locale = localeParam as Locale;
   setRequestLocale(locale);
 
-  const hit = await getRecipeInFamily(locale, slug, variant);
+  const hit = await resolveRecipeInFamily(locale, slug, variant);
   if (!hit) notFound();
   const { family, recipe } = hit;
+  if (hit.needsRedirect) {
+    permanentRedirect(`/${locale}${familyVariantPath(family, recipe, locale)}`);
+  }
   const variants = await getFamilyVariants(family.id);
 
   const t = await getTranslations("recipes");

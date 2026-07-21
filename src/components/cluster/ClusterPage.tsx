@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { SetLocaleAlternates } from "@/components/i18n/LocaleAlternates";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { RecipeCatalogCard } from "@/components/recipe/RecipeCatalogCard";
 import { clusterBasePath } from "@/lib/data/cluster-paths";
 import {
   catalogForCluster,
-  getClusterBySlug,
+  resolveClusterBySlug,
 } from "@/lib/data/repository";
 import { isClusterIndexable } from "@/lib/seo/cluster-indexable";
 import { siteUrl } from "@/lib/utils";
@@ -19,8 +20,9 @@ export async function clusterMetadata(
   locale: Locale,
   slug: string,
 ): Promise<Metadata> {
-  const cluster = await getClusterBySlug(kind, locale, slug);
-  if (!cluster) return {};
+  const resolved = await resolveClusterBySlug(kind, locale, slug);
+  if (!resolved || resolved.needsRedirect) return {};
+  const { cluster } = resolved;
   const base = siteUrl();
   const path = clusterBasePath(kind);
   const items = await catalogForCluster(cluster.id, locale);
@@ -51,8 +53,13 @@ export async function ClusterView({
   slug: string;
 }) {
   setRequestLocale(locale);
-  const cluster = await getClusterBySlug(kind, locale, slug);
-  if (!cluster) notFound();
+  const resolved = await resolveClusterBySlug(kind, locale, slug);
+  if (!resolved) notFound();
+  const { cluster } = resolved;
+  const path = clusterBasePath(kind);
+  if (resolved.needsRedirect) {
+    permanentRedirect(`/${locale}/${path}/${cluster.slug[locale]}`);
+  }
   const items = await catalogForCluster(cluster.id, locale);
   const tCommon = await getTranslations("common");
   const tClusters = await getTranslations("clusters");
@@ -79,6 +86,10 @@ export async function ClusterView({
         ];
   return (
     <div className="space-y-8">
+      <SetLocaleAlternates
+        de={`/${path}/${cluster.slug.de}`}
+        pl={`/${path}/${cluster.slug.pl}`}
+      />
       <Breadcrumbs ariaLabel={tCommon("breadcrumbs")} items={crumbs} />
       <header className="max-w-2xl">
         <p className="section-kicker">{kindLabel}</p>

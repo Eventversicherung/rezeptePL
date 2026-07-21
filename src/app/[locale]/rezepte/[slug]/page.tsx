@@ -8,12 +8,12 @@ import { getSessionUser } from "@/lib/auth/session";
 import { resolveRecipeArticle } from "@/lib/data/recipe-articles";
 import { getRelatedGuidesForRecipe } from "@/lib/data/recipe-guides";
 import {
-  getFamilyBySlug,
   getFamilyVariants,
   getRecipeBySlug,
   listFamilies,
   listPublishedRecipes,
   listSavedRecipeIds,
+  resolveFamilyBySlug,
 } from "@/lib/data/repository";
 import { familyVariantPath, recipePath } from "@/lib/data/recipe-paths";
 import { breadcrumbJsonLd, recipeJsonLd } from "@/lib/seo/jsonld";
@@ -55,8 +55,9 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale: localeParam, slug } = await params;
   const locale = localeParam as Locale;
-  const family = await getFamilyBySlug(locale, slug);
-  if (family) {
+  const familyHit = await resolveFamilyBySlug(locale, slug);
+  if (familyHit && !familyHit.needsRedirect) {
+    const family = familyHit.family;
     const t = family.translations[locale];
     const base = siteUrl();
     return {
@@ -127,8 +128,9 @@ export default async function RecipePage({
     }
   }
 
-  const family = await getFamilyBySlug(locale, slug);
-  if (family) {
+  const familyHit = await resolveFamilyBySlug(locale, slug);
+  if (familyHit) {
+    const family = familyHit.family;
     const variants = await getFamilyVariants(family.id);
     const defaultRecipe =
       variants.find((r) => r.id === family.defaultVariantId) ?? variants[0];
