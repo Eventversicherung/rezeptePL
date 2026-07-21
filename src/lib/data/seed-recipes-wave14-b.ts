@@ -47,11 +47,11 @@ export const seedRecipesWave14B: Recipe[] = [
           },
           {
             text: "Füllung mit Löffel oder Sterntülle in die Eiweiß-Hälften füllen. Mit etwas Schnittlauch oder Paprika bestreuen. Mindestens 30 Minuten kühlen, damit die Masse setzt.",
-            tip: "Menü-Kontext Ostern descriptiv: [Wielkanoc Speiseplan](/de/blog/wielkanoc-speiseplan) — Speiseplan bleibt Anlass-Owner; hier nur Cook.",
+            tip: "Menü-Kontext Ostern [Wielkanoc Speiseplan](/de/blog/wielkanoc-speiseplan) — Speiseplan bleibt Menü-Artikel; hier nur Cook.",
           },
           {
-            text: "Kalt als Buffet- oder Vorspeisenplatte servieren. Neben [Biała kiełbasa](/de/rezepte/biala-kielbasa) und [Pasztet](/de/rezepte/pasztet) oft auf der kalten Platte — Primary bleibt gefüllte Eier. Reste abgedeckt im Kühlschrank; Mayo-Hygiene beachten.",
-            tip: "Sonntagsteller-Feeling: [polnisches Sonntagsessen](/de/blog/sonntagsessen-polnisch) — ohne Primary zu stehlen.",
+            text: "Kalt als Buffet- oder Vorspeisenplatte servieren. Neben [Biała kiełbasa](/de/rezepte/biala-kielbasa) und [Pasztet](/de/rezepte/pasztet) oft auf der kalten Platte — Fokus bleibt gefüllte Eier. Reste abgedeckt im Kühlschrank; Mayo-Hygiene beachten.",
+            tip: "Sonntagsteller-Feeling: [polnisches Sonntagsessen](/de/blog/sonntagsessen-polnisch) — ohne Hitze, Feuchtigkeit oder Garzeit falsch einschätzen.",
           },
         ],
         seoTitle: "Jajka faszerowane Rezept | Gefüllte Eier polnisch | Alemniam",
@@ -74,11 +74,11 @@ export const seedRecipesWave14B: Recipe[] = [
           },
           {
             text: "Wypełnij białka łyżeczką lub rękawem cukierniczym. Posyp szczypiorkiem lub papryką. Chłodź co najmniej 30 minut, aż masa się ułoży.",
-            tip: "Kontekst świąt opisowo: [menu wielkanocne](/pl/blog/menu-wielkanocne) — plan menu zostaje ownerem okazji; tu tylko cook.",
+            tip: "Kontekst świąt [menu wielkanocne](/pl/blog/menu-wielkanocne) — plan menu zostaje przepisem na okazji; tu tylko cook.",
           },
           {
-            text: "Podawaj na zimno jako półmisek bufetowy lub przystawkę. Obok [białej kiełbasy](/pl/rezepte/biala-kielbasa) i [pasztetu](/pl/rezepte/pasztet) często na zimnej półce — primary zostaje przy jajkach. Resztki przykryte w lodówce; higiena majonezu.",
-            tip: "Niedzielne wyczucie: [obiad niedzielny](/pl/blog/obiad-niedzielny) — bez kradzieży primary.",
+            text: "Podawaj na zimno jako półmisek bufetowy lub przystawkę. Obok [białej kiełbasy](/pl/rezepte/biala-kielbasa) i [pasztetu](/pl/rezepte/pasztet) często na zimnej półce — fokus zostaje przy jajkach. Resztki przykryte w lodówce; higiena majonezu.",
+            tip: "Niedzielne wyczucie: [obiad niedzielny](/pl/blog/obiad-niedzielny) — osobny farsz i osobne ilości.",
           },
         ],
         seoTitle: "Jajka faszerowane przepis | Żółtko majonez szczypiorek | Alemniam",
@@ -186,7 +186,7 @@ export const seedRecipesWave14B: Recipe[] = [
           },
           {
             text: "Mindestens 1–2 Stunden (besser über Nacht) kalt ziehen lassen, damit sich Schärfe und Farbe verbinden. Vor dem Servieren umrühren und nachwürzen.",
-            tip: "Menüplatz Ostern descriptiv: [Wielkanoc Speiseplan](/de/blog/wielkanoc-speiseplan) — Speiseplan bleibt Anlass-Owner.",
+            tip: "Menüplatz: Ostern [Wielkanoc Speiseplan](/de/blog/wielkanoc-speiseplan) — Speiseplan bleibt Menü-Artikel.",
           },
           {
             text: "Kalt in Schüssel oder Glas servieren zu Wurst, [Pasztet](/de/rezepte/pasztet), Ei und Brot. Neben [Biała kiełbasa](/de/rezepte/biala-kielbasa) klassisch. Hält einige Tage gekühlt; Farbe färbt — Handschuhe optional.",
@@ -212,7 +212,7 @@ export const seedRecipesWave14B: Recipe[] = [
           },
           {
             text: "Odstaw na zimno na 1–2 godziny (lepiej na noc), żeby ostrość i kolor się połączyły. Przed podaniem wymieszaj i dopraw.",
-            tip: "Miejsce w menu opisowo: [menu wielkanocne](/pl/blog/menu-wielkanocne) — plan zostaje ownerem okazji.",
+            tip: "Miejsce w menu: [menu wielkanocne](/pl/blog/menu-wielkanocne) — plan zostaje przepisem na okazji.",
           },
           {
             text: "Podawaj na zimno w misce lub słoiku do kiełbasy, [pasztetu](/pl/rezepte/pasztet), jaj i chleba. Klasycznie obok [białej kiełbasy](/pl/rezepte/biala-kielbasa). Trzyma kilka dni w lodówce; barwi — rękawiczki opcjonalnie.",

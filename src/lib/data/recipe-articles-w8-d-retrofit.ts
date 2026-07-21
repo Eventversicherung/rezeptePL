@@ -201,9 +201,9 @@ export const W8_FACTS_D_RETROFIT: Record<string, ArticleFacts> = {
     vibeDe: "festlich, mohnig, gerollt und geduldig",
     vibePl: "świąteczny, makowy, zwinięty i cierpliwy",
     originDe:
-      "Makowiec ist der gerollte polnische Mohnkuchen: Hefeteig, dichte Mohnmasse, oft zur Wigilia. Kein Blech-Mohnkuchen und kein Strudel — eigene Form, eigene Technik. Handgriffe im [Makowiec-Technik](/de/blog/makowiec-technik)-Pillar; Menüplatz im [Wigilia-Speiseplan](/de/blog/wigilia-speiseplan). Käsekuchen bleibt [Sernik](/de/rezepte/sernik) — anderer Primary.",
+      "Makowiec ist der gerollte polnische Mohnkuchen: Hefeteig, dichte Mohnmasse, oft zur Wigilia. Kein Blech-Mohnkuchen und kein Strudel — eigene Form, eigene Technik. Handgriffe im [Makowiec-Technik](/de/blog/makowiec-technik)-Pillar; Menüplatz: im [Wigilia-Speiseplan](/de/blog/wigilia-speiseplan). Käsekuchen bleibt [Sernik](/de/rezepte/sernik) — anderes Gericht.",
     originPl:
-      "Makowiec to polska rolada makowa: ciasto drożdżowe, gęsta masa, często na Wigilię. Nie ciasto z blachy i nie strudel — własna forma, własna technika. Gesty w filarze [technika makowca](/pl/blog/makowiec-technika); miejsce w menu: [menu wigilijne](/pl/blog/menu-wigilijne). Sernik zostaje przy [serniku](/pl/rezepte/sernik) — inny primary.",
+      "Makowiec to polska rolada makowa: ciasto drożdżowe, gęsta masa, często na Wigilię. Nie ciasto z blachy i nie strudel — własna forma, własna technika. Gesty w filarze [technika makowca](/pl/blog/makowiec-technika); miejsce w menu: [menu wigilijne](/pl/blog/menu-wigilijne). Sernik zostaje przy [serniku](/pl/rezepte/sernik) — inny fokus.",
     shopDe:
       "Blauer Mohn, Mehl, Hefe, Milch, Butter, Eier, Zucker, optional Rosinen. Guter Mohn im [Polenladen](/de/blog/polenladen-einkaufen). DE-Ersatzlogik: [Ersatzprodukte](/de/blog/ersatzprodukte-de). Technik und Ofentemperatur: [Makowiec-Technik](/de/blog/makowiec-technik).",
     shopPl:
@@ -225,9 +225,9 @@ export const W8_FACTS_D_RETROFIT: Record<string, ArticleFacts> = {
     mistakesPl:
       "Sucha masa, za dużo mąki, zbyt gorący piec, zbyt wczesne krojenie, drożdże zabite wrzątkiem. Nie zapomnij strefy brzegowej przy smarowaniu.",
     variantsDe:
-      "Mit Rosinen, mit Zuckerguss, kleinere Rollen. Anderes Festtagsbacken: [Faworki](/de/rezepte/faworki) + [Faworki-Technik](/de/blog/faworki-technik). Käsekuchen-Linie: [Sernik](/de/rezepte/sernik). Formkuchen ohne Mohnspirale: [Babka](/de/rezepte/babka) — anderer Cook-Primary. Honig-Gewürz-Lebkuchen (≠ Mohnrolle): [Piernik](/de/rezepte/piernik). Weizenkörner+Mohn in der Schüssel (≠ Rolle): [Kutia](/de/rezepte/kutia).",
+      "Mit Rosinen, mit Zuckerguss, kleinere Rollen. Anderes Festtagsbacken: [Faworki](/de/rezepte/faworki) + [Faworki-Technik](/de/blog/faworki-technik). Käsekuchen-Linie: [Sernik](/de/rezepte/sernik). Formkuchen ohne Mohnspirale: [Babka](/de/rezepte/babka) — anderer Rezept. Honig-Gewürz-Lebkuchen (≠ Mohnrolle): [Piernik](/de/rezepte/piernik). Weizenkörner+Mohn in der Schüssel (≠ Rolle): [Kutia](/de/rezepte/kutia).",
     variantsPl:
-      "Z rodzynkami, z lukrem, mniejsze rolady. Inne pieczenie świąteczne: [faworki](/pl/rezepte/faworki) + [technika faworków](/pl/blog/faworki-technika). Linia sernika: [sernik](/pl/rezepte/sernik). Ciasto z formy bez spirali: [babka](/pl/rezepte/babka) — inny cook-primary. Piernik miodowo-korzenny (≠ rolada makowa): [piernik](/pl/rezepte/piernik). Pszenica+mak w misce (≠ rolada): [kutia](/pl/rezepte/kutia).",
+      "Z rodzynkami, z lukrem, mniejsze rolady. Inne pieczenie świąteczne: [faworki](/pl/rezepte/faworki) + [technika faworków](/pl/blog/faworki-technika). Linia sernika: [sernik](/pl/rezepte/sernik). Ciasto z formy bez spirali: [babka](/pl/rezepte/babka) — inny Rezept. Piernik miodowo-korzenny (≠ rolada makowa): [piernik](/pl/rezepte/piernik). Pszenica+mak w misce (≠ rolada): [kutia](/pl/rezepte/kutia).",
   },
 
   "recipe-uszka": {
@@ -236,9 +236,9 @@ export const W8_FACTS_D_RETROFIT: Record<string, ArticleFacts> = {
     vibeDe: "klein, intensiv pilzig, wigilijny",
     vibePl: "małe, intensywnie grzybowe, wigilijne",
     originDe:
-      "Uszka sind kleine Teigtaschen — oft mit Pilzfüllung — die klassisch in klarem [Barszcz](/de/rezepte/barszcz-czerwony) schwimmen. Eigene Money Page, eigene Primary Keywords. Barszcz bleibt Owner der Suppe; Technik der Klarheit: [Barszcz-Technik](/de/blog/barszcz-technik). Menü: [Wigilia-Speiseplan](/de/blog/wigilia-speiseplan). Große gefaltete Taschen: [Pierogi-Guide](/de/blog/pierogi-guide).",
+      "Uszka sind kleine Teigtaschen — oft mit Pilzfüllung — die klassisch in klarem [Barszcz](/de/rezepte/barszcz-czerwony) schwimmen. Eigene Rezeptseite, eigene Fokus. Barszcz bleibt Rezept für die Suppe; Technik der Klarheit: [Barszcz-Technik](/de/blog/barszcz-technik). Menü: [Wigilia-Speiseplan](/de/blog/wigilia-speiseplan). Große gefaltete Taschen: [Pierogi-Guide](/de/blog/pierogi-guide).",
     originPl:
-      "Uszka to małe pierogi — często z farszem grzybowym — klasycznie w klarownym [barszczu](/pl/rezepte/barszcz-czerwony). Własna money page, własne primary. Barszcz zostaje ownerem zupy; klarowność: [technika barszczu](/pl/blog/jak-ugotowac-barszcz). Menu: [menu wigilijne](/pl/blog/menu-wigilijne). Duże sklejane: [przewodnik pierogi](/pl/blog/przewodnik-pierogi).",
+      "Uszka to małe pierogi — często z farszem grzybowym — klasycznie w klarownym [barszczu](/pl/rezepte/barszcz-czerwony). Własna Rezeptseite, własne fokus. Barszcz zostaje przepisem na zupy; klarowność: [technika barszczu](/pl/blog/jak-ugotowac-barszcz). Menu: [menu wigilijne](/pl/blog/menu-wigilijne). Duże sklejane: [przewodnik pierogi](/pl/blog/przewodnik-pierogi).",
     shopDe:
       "Getrocknete Pilze im [Polenladen](/de/blog/polenladen-einkaufen), Zwiebel, Mehl, Ei, Öl. Barszcz separat nach [Barszcz-Rezept](/de/rezepte/barszcz-czerwony). Teiggefühl: [Pierogi-Teig](/de/blog/pierogi-teig). Vortag formen: [Freezer-Guide](/de/blog/freezer-meal-prep).",
     shopPl:
@@ -271,9 +271,9 @@ export const W8_FACTS_D_RETROFIT: Record<string, ArticleFacts> = {
     vibeDe: "festlich, zart, nach Zwiebel und Majoran",
     vibePl: "świąteczny, delikatny, z cebulą i majerankiem",
     originDe:
-      "Karpfen ist für viele Familien der warme Fischgang der Wigilia — nicht Pflichtkanon, aber starkes Signal. Gebacken mit Zwiebel ist die diaspora-taugliche Variante. Menü-Owner bleibt der [Wigilia-Speiseplan](/de/blog/wigilia-speiseplan); hier der Cook-Intent „Karp Rezept“. Kalter Fisch: [Śledź](/de/rezepte/sledz). Vorsuppe: [Barszcz](/de/rezepte/barszcz-czerwony) mit [Uszka](/de/rezepte/uszka).",
+      "Karpfen ist für viele Familien der warme Fischgang der Wigilia — nicht Pflichtkanon, aber starkes Signal. Gebacken mit Zwiebel ist die diaspora-taugliche Variante. Menü-Artikel bleibt der [Wigilia-Speiseplan](/de/blog/wigilia-speiseplan); hier der Rezept „Karp Rezept“. Kalter Fisch: [Śledź](/de/rezepte/sledz). Vorsuppe: [Barszcz](/de/rezepte/barszcz-czerwony) mit [Uszka](/de/rezepte/uszka).",
     originPl:
-      "Karp jest dla wielu domów ciepłą rybą Wigilii — nie sztywny kanon, ale mocny sygnał. Pieczony z cebulą to wariant pod diasporę. Owner menu: [menu wigilijne](/pl/blog/menu-wigilijne); tu cook-intent „karp przepis”. Zimna ryba: [śledź](/pl/rezepte/sledz). Zupa: [barszcz](/pl/rezepte/barszcz-czerwony) z [uszkami](/pl/rezepte/uszka).",
+      "Karp jest dla wielu domów ciepłą rybą Wigilii — nie sztywny kanon, ale mocny sygnał. Pieczony z cebulą to wariant pod diasporę. Menu: [menu wigilijne](/pl/blog/menu-wigilijne); tu Rezept „karp przepis”. Zimna ryba: [śledź](/pl/rezepte/sledz). Zupa: [barszcz](/pl/rezepte/barszcz-czerwony) z [uszkami](/pl/rezepte/uszka).",
     shopDe:
       "Frisch oder tiefgekühlt an der Fischtheke / im [Polenladen](/de/blog/polenladen-einkaufen). Zwiebel, Zitrone, Majoran, Dill. Gewürz: [Majeranek-Lexikon](/de/blog/majeranek). Ersatz und Etiketten: [Ersatzprodukte DE](/de/blog/ersatzprodukte-de).",
     shopPl:
@@ -306,9 +306,9 @@ export const W8_FACTS_D_RETROFIT: Record<string, ArticleFacts> = {
     vibeDe: "knusprig außen, weich innen, barszczfreundlich",
     vibePl: "chrupiące na zewnątrz, miękkie w środku, do barszczu",
     originDe:
-      "Krokiety sind gerollte, panierte Naleśniki — klassisch mit Kraut und Pilzen, oft neben klarem [Barszcz](/de/rezepte/barszcz-czerwony). Eigene Form (Rolle + Panade), eigener Primary-KW. Teiggefühl im [Naleśniki-Guide](/de/blog/nalesniki-guide); Panade-Logik: [Panieren-Guide](/de/blog/panieren-schabowy). Kleine Teigtaschen: [Uszka](/de/rezepte/uszka).",
+      "Krokiety sind gerollte, panierte Naleśniki — klassisch mit Kraut und Pilzen, oft neben klarem [Barszcz](/de/rezepte/barszcz-czerwony). Eigene Form (Rolle + Panade), eigener Fokus. Teiggefühl im [Naleśniki-Guide](/de/blog/nalesniki-guide); Panade-Logik: [Panieren-Guide](/de/blog/panieren-schabowy). Kleine Teigtaschen: [Uszka](/de/rezepte/uszka).",
     originPl:
-      "Krokiety to zwinięte, panierowane naleśniki — klasycznie z kapustą i grzybami, często obok klarownego [barszczu](/pl/rezepte/barszcz-czerwony). Własna forma (rolka + panierka), własne primary. Ciasto: [przewodnik naleśników](/pl/blog/nalesniki-przewodnik); panierka: [panierowanie](/pl/blog/panierowanie-kotlet). Małe pierożki: [uszka](/pl/rezepte/uszka).",
+      "Krokiety to zwinięte, panierowane naleśniki — klasycznie z kapustą i grzybami, często obok klarownego [barszczu](/pl/rezepte/barszcz-czerwony). Własna forma (rolka + panierka), własne fokus. Ciasto: [przewodnik naleśników](/pl/blog/nalesniki-przewodnik); panierka: [panierowanie](/pl/blog/panierowanie-kotlet). Małe pierożki: [uszka](/pl/rezepte/uszka).",
     shopDe:
       "Mehl, Milch, Eier; Sauerkraut, getrocknete Pilze, Zwiebel; Semmelbrösel und Fett. Kapusta/Pilze: [Kiszenie](/de/blog/kiszenie-guide) und [Polenladen](/de/blog/polenladen-einkaufen). Teig: [Naleśniki-Guide](/de/blog/nalesniki-guide).",
     shopPl:
@@ -326,9 +326,9 @@ export const W8_FACTS_D_RETROFIT: Record<string, ArticleFacts> = {
     diasporaPl:
       "Projekt weekendowy: rano ciasto i farsz, po południu zwijać i smażyć. Freezer: uformowane rolki przed panierowaniem — [mrożenie](/pl/blog/mrozenie-pierogow). Menu: [menu wigilijne](/pl/blog/menu-wigilijne).",
     mistakesDe:
-      "Nasse Füllung, zu dicke Pfannkuchen, kaltes Fett, Panade abplatzen lassen. Barszcz- oder Naleśniki-Primary-KW stehlen.",
+      "Nasse Füllung, zu dicke Pfannkuchen, kaltes Fett, Panade abplatzen lassen. Barszcz- oder Naleśniki-Hitze, Feuchtigkeit oder Garzeit falsch einschätzen.",
     mistakesPl:
-      "Mokry farsz, za grube naleśniki, zimny tłuszcz, odpadająca panierka. Kradzież primary KW barszczu lub naleśników.",
+      "Mokry farsz, za grube naleśniki, zimny tłuszcz, odpadająca panierka. Kradzież fokus KW barszczu lub naleśników.",
     variantsDe:
       "Mit Fleischfüllung, mit Champignons, vegetarisch ohne Speck. Gefaltete Variante derselben Aromen: Kraut-Pilz über [Pierogi-Guide](/de/blog/pierogi-guide). Panade: [Panieren](/de/blog/panieren-schabowy). Suppe: [Barszcz](/de/rezepte/barszcz-czerwony).",
     variantsPl:
@@ -341,9 +341,9 @@ export const W8_FACTS_D_RETROFIT: Record<string, ArticleFacts> = {
     vibeDe: "cremig, festlich, nach Twaróg und Vanille",
     vibePl: "kremowy, świąteczny, z twarogu i wanilii",
     originDe:
-      "Sernik ist der polnische Käsekuchen auf Twaróg-Basis — dichter und oft höher als mancher deutsche Käsekuchen. Back-Silo neben [Makowiec](/de/rezepte/makowiec), ohne dessen Primary zu stehlen. Ofengeduld descriptiv: [Makowiec-Technik](/de/blog/makowiec-technik). Quark-Qualität: [Twaróg-Guide](/de/blog/twarog-deutschland). Ostern: [Wielkanoc-Speiseplan](/de/blog/wielkanoc-speiseplan).",
+      "Sernik ist der polnische Käsekuchen auf Twaróg-Basis — dichter und oft höher als mancher deutsche Käsekuchen. Back-Silo neben [Makowiec](/de/rezepte/makowiec), ohne dessen Hitze, Feuchtigkeit oder Garzeit falsch einschätzen. Ofengeduld [Makowiec-Technik](/de/blog/makowiec-technik). Quark-Qualität: [Twaróg-Guide](/de/blog/twarog-deutschland). Ostern: [Wielkanoc-Speiseplan](/de/blog/wielkanoc-speiseplan).",
     originPl:
-      "Sernik to polski sernik na twarogu — gęstszy i często wyższy niż niejedne niemieckie serniki. Silos pieczenia obok [makowca](/pl/rezepte/makowiec), bez kradzieży primary. Piec descriptively: [technika makowca](/pl/blog/makowiec-technika). Jakość: [twaróg w Niemczech](/pl/blog/twarog-w-niemczech). Wielkanoc: [menu wielkanocne](/pl/blog/wielkanoc-speiseplan).",
+      "Sernik to polski sernik na twarogu — gęstszy i często wyższy niż niejedne niemieckie serniki. Silos pieczenia obok [makowca](/pl/rezepte/makowiec), osobny farsz i osobne ilości. Piec: [technika makowca](/pl/blog/makowiec-technika). Jakość: [twaróg w Niemczech](/pl/blog/twarog-w-niemczech). Wielkanoc: [menu wielkanocne](/pl/blog/wielkanoc-speiseplan).",
     shopDe:
       "Twaróg sernikowy oder gut abgetropfter Speisequark, Eier, Zucker, Butter, Bindung, Vanille, optional Mürbeteigboden. [Twaróg-Guide](/de/blog/twarog-deutschland) und [Ersatzprodukte DE](/de/blog/ersatzprodukte-de); typische Qualität im [Polenladen](/de/blog/polenladen-einkaufen).",
     shopPl:
@@ -365,9 +365,9 @@ export const W8_FACTS_D_RETROFIT: Record<string, ArticleFacts> = {
     mistakesPl:
       "Za mokry twaróg, zbyt gorący piec, zbyt wczesne krojenie, kradzież słów kluczowych makowca w title. Surowy spód przez za krótki czas.",
     variantsDe:
-      "Ohne Boden, mit Rosinen, mit Schokotropfen, kleinerer Springform. Mohnrolle bleibt [Makowiec](/de/rezepte/makowiec). Hefegugelhupf aus der Form: [Babka](/de/rezepte/babka) — anderer Cook-Primary. Honig-Gewürz: [Piernik](/de/rezepte/piernik). Technik-Feeling: [Makowiec-Technik](/de/blog/makowiec-technik). Quark: [Twaróg](/de/blog/twarog-deutschland).",
+      "Ohne Boden, mit Rosinen, mit Schokotropfen, kleinerer Springform. Mohnrolle bleibt [Makowiec](/de/rezepte/makowiec). Hefegugelhupf aus der Form: [Babka](/de/rezepte/babka) — anderer Rezept. Honig-Gewürz: [Piernik](/de/rezepte/piernik). Technik-Feeling: [Makowiec-Technik](/de/blog/makowiec-technik). Quark: [Twaróg](/de/blog/twarog-deutschland).",
     variantsPl:
-      "Bez spodu, z rodzynkami, z czekoladą, mniejsza tortownica. Rolada makowa: [makowiec](/pl/rezepte/makowiec). Ciasto drożdżowe z formy: [babka](/pl/rezepte/babka) — inny cook-primary. Miód i korzeń: [piernik](/pl/rezepte/piernik). Technika: [makowiec-technika](/pl/blog/makowiec-technika). Twaróg: [twaróg](/pl/blog/twarog-w-niemczech).",
+      "Bez spodu, z rodzynkami, z czekoladą, mniejsza tortownica. Rolada makowa: [makowiec](/pl/rezepte/makowiec). Ciasto drożdżowe z formy: [babka](/pl/rezepte/babka) — inny Rezept. Miód i korzeń: [piernik](/pl/rezepte/piernik). Technika: [makowiec-technika](/pl/blog/makowiec-technika). Twaróg: [twaróg](/pl/blog/twarog-w-niemczech).",
   },
 
   "recipe-sledz": {
@@ -376,9 +376,9 @@ export const W8_FACTS_D_RETROFIT: Record<string, ArticleFacts> = {
     vibeDe: "kalt, zwiebelig, salzig-fettig zum Brot",
     vibePl: "zimny, cebulowy, słono-tłusty do chleba",
     originDe:
-      "Śledź ist der kalte Fischgang vieler Wigilia-Tische und zugleich Alltagsteller mit Brot. In Öl mit Zwiebel ist die klarste diaspora-Variante. Owner für „Śledź Rezept“; Menü: [Wigilia-Speiseplan](/de/blog/wigilia-speiseplan); warmer Fisch: [Karp](/de/rezepte/karp). Einkauf: [Polenladen](/de/blog/polenladen-einkaufen).",
+      "Śledź ist der kalte Fischgang vieler Wigilia-Tische und zugleich Alltagsteller mit Brot. In Öl mit Zwiebel ist die klarste diaspora-Variante. Rezeptseite für „Śledź Rezept“; Menü: [Wigilia-Speiseplan](/de/blog/wigilia-speiseplan); warmer Fisch: [Karp](/de/rezepte/karp). Einkauf: [Polenladen](/de/blog/polenladen-einkaufen).",
     originPl:
-      "Śledź to zimna ryba wielu stołów wigilijnych i zarazem codzienny talerz z chlebem. W oleju z cebulą to najczytelniejszy wariant diasporowy. Owner „śledź przepis”; menu: [menu wigilijne](/pl/blog/menu-wigilijne); ryba ciepła: [karp](/pl/rezepte/karp). Zakupy: [sklep polski](/pl/blog/sklep-polski-zakupy).",
+      "Śledź to zimna ryba wielu stołów wigilijnych i zarazem codzienny talerz z chlebem. W oleju z cebulą to najczytelniejszy wariant diasporowy. menu: [menu wigilijne](/pl/blog/menu-wigilijne); ryba ciepła: [karp](/pl/rezepte/karp). Zakupy: [sklep polski](/pl/blog/sklep-polski-zakupy).",
     shopDe:
       "Matjes oder Salzheringfilets (Polenladen/Kühltruhe), Zwiebeln, neutrales Öl, Lorbeer, Piment. Marken und Kühltruhe: [Polenladen](/de/blog/polenladen-einkaufen). Wenn nur Rollmops: ehrlich umdeklarieren — [Ersatzprodukte](/de/blog/ersatzprodukte-de).",
     shopPl:
@@ -396,9 +396,9 @@ export const W8_FACTS_D_RETROFIT: Record<string, ArticleFacts> = {
     diasporaPl:
       "Przygotować 23., podać 24. — zero stresu pieca obok [barszczu](/pl/rezepte/barszcz-czerwony) i [karpia](/pl/rezepte/karp). Timeline: [menu wigilijne](/pl/blog/menu-wigilijne).",
     mistakesDe:
-      "Zu salzig ohne Wässern, zu wenig Öl, warme Lagerung. Karp- oder Speiseplan-Primary stehlen. Mit Rollmops-Sauce als „klassisch“ verkaufen ohne Hinweis.",
+      "Zu salzig ohne Wässern, zu wenig Öl, warme Lagerung. Karp- oder Speiseplan-Hitze, Feuchtigkeit oder Garzeit falsch einschätzen. Mit Rollmops-Sauce als „klassisch“ verkaufen ohne Hinweis.",
     mistakesPl:
-      "Za słony bez namaczania, za mało oleju, trzymanie w cieple. Kradzież primary karpia lub menu. Rolmops w sosie jako „klasyka” bez dopisku.",
+      "Za słony bez namaczania, za mało oleju, trzymanie w cieple. Kradzież fokus karpia lub menu. Rolmops w sosie jako „klasyka” bez dopisku.",
     variantsDe:
       "Śledź w śmietanie, po kaszubsku mit Apfel, mit Senf. Sahne: [Śmietana](/de/blog/smietana-schmand). Warm: [Karp](/de/rezepte/karp). Menü: [Wigilia](/de/blog/wigilia-speiseplan). Laden: [Polenladen](/de/blog/polenladen-einkaufen).",
     variantsPl:

@@ -10,9 +10,9 @@ export const W8_FACTS_C = {
     vibeDe: "weich, gefüllt, puderzuckerweiß am Fettdonnerstag",
     vibePl: "miękkie, nadziewane, w cukrze pudrze na Tłusty Czwartek",
     originDe:
-      "Pączki sind weiche Hefe-Krapfen mit Füllung — der klassische süße Fokus von Tłusty Czwartek. Sie sind kein Berliner-Klischee und kein Chrust: eigene Form, eigene Technik. Der Anlass-Owner bleibt [Tłusty Czwartek](/de/blog/tlusty-czwartek); Handgriffe stehen im [Pączki-Technik-Guide](/de/blog/paczek-technik); hier bleiben Mengen und Cook-Intent. [Faworki](/de/rezepte/faworki) sind verwandtes Fettgebäck ohne Füllung — anderer Primary.",
+      "Pączki sind weiche Hefe-Krapfen mit Füllung — der klassische süße Fokus von Tłusty Czwartek. Sie sind kein Berliner-Klischee und kein Chrust: eigene Form, eigene Technik. Der Menü-Rahmen bleibt bei [Tłusty Czwartek](/de/blog/tlusty-czwartek); Handgriffe stehen im [Pączki-Technik-Guide](/de/blog/paczek-technik); hier bleiben Mengen und Rezept. [Faworki](/de/rezepte/faworki) sind verwandtes Fettgebäck ohne Füllung — anderes Gericht.",
     originPl:
-      "Pączki to miękkie drożdżowe wypieki z nadzieniem — klasyczny słodki fokus Tłustego Czwartku. To nie klisza Berlinera i nie chrust: własna forma, własna technika. Owner okazji zostaje [Tłusty Czwartek](/pl/blog/tlusty-czwartek-przepisy); gesty są w [przewodniku techniki pączków](/pl/blog/paczki-technika); tu zostają ilości i intent gotowania. [Faworki](/pl/rezepte/faworki) to pokrewne ciasto tłuszczowe bez nadzienia — inny primary.",
+      "Pączki to miękkie drożdżowe wypieki z nadzieniem — klasyczny słodki fokus Tłustego Czwartku. To nie klisza Berlinera i nie chrust: własna forma, własna technika. Artykuł o okazji zostaje [Tłusty Czwartek](/pl/blog/tlusty-czwartek-przepisy); gesty są w [przewodniku techniki pączków](/pl/blog/paczki-technika); tu zostają ilości i gotowanie. [Faworki](/pl/rezepte/faworki) to pokrewne ciasto tłuszczowe bez nadzienia — inny fokus.",
     shopDe:
       "Mehl 405/550, Hefe, Milch, Butter, Eier, Zucker, Rosenmarmelade oder Pflaumenmus, Frittierfett, Puderzucker. Charakter-Füllung oft im [Polenladen](/de/blog/polenladen-einkaufen). Wenn etwas fehlt: [Zutaten ersetzen](/de/blog/ersatzprodukte-de). Technik vor dem Einkauf: [Pączki-Technik](/de/blog/paczek-technik).",
     shopPl:
@@ -30,9 +30,9 @@ export const W8_FACTS_C = {
     diasporaPl:
       "W DE wcześniejszy start ciasta ratuje czwartkowy ranek. Dobre pączki z cukierni to nie porażka — robienie samemu to projekt nauki. Zakupy: [sklep polski](/pl/blog/sklep-polski-zakupy). Ramy kulturowe bez kradzieży przepisu: [Tłusty Czwartek](/pl/blog/tlusty-czwartek-przepisy).",
     mistakesDe:
-      "Zu kaltes Fett, zu nasse Füllung, zu viel Mehl, Hefe abgetötet, zu kurzes Gehen, Faworki- oder Tłusty-Primary im Title stehlen. Zu große Stücke braten ungleichmäßig.",
+      "Zu kaltes Fett, zu nasse Füllung, zu viel Mehl, Hefe abgetötet, zu kurzes Gehen, Faworki- oder Tłusty-Hitze, Feuchtigkeit oder Garzeit falsch einschätzen. Zu große Stücke braten ungleichmäßig.",
     mistakesPl:
-      "Za chłodny tłuszcz, za mokre nadzienie, za dużo mąki, zabite drożdże, za krótkie wyrastanie, kradzież primary faworków lub Tłustego w title. Za duże sztuki smażą się nierówno.",
+      "Za chłodny tłuszcz, za mokre nadzienie, za dużo mąki, zabite drożdże, za krótkie wyrastanie, kradzież fokus faworków lub Tłustego w title. Za duże sztuki smażą się nierówno.",
     variantsDe:
       "Rose, Pflaume, Pudding — Hausbrauch. Ofenvariante möglich, andere Textur. Knusprig und ungefüllt: [Faworki](/de/rezepte/faworki). Hefe-Pfanne: [Racuchy](/de/rezepte/racuchy-jablka). Geflochtener Hefezopf (kein Frittieren): [Chałka](/de/rezepte/chalka). Technik-Pillar bleibt [Pączki-Technik](/de/blog/paczek-technik).",
     variantsPl:

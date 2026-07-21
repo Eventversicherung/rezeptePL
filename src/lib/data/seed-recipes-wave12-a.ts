@@ -41,15 +41,15 @@ export const seedRecipesWave12A: Recipe[] = [
           },
           {
             text: "Zwiebel und Karotte in Butter oder Öl glasig dünsten; Pilze zugeben, kurz mitrösten. Mit der Pilzflüssigkeit und etwas Wasser oder leichter Gemüsebrühe auffüllen; Lorbeer und Pfeffer dazugeben.",
-            tip: "Überblick Suppenlandschaft bleibt beim Pillar: [Polnische Suppen](/de/blog/polnische-suppen). Hier nur der enge Cook-Primary Pilz.",
+            tip: "Überblick SuppenÜberblick: [Polnische Suppen](/de/blog/polnische-suppen). Hier nur der enge Rezept Pilz.",
           },
           {
             text: "20–30 Minuten sanft köcheln, bis die Pilze weich und der Fond aromatisch sind. Optional kleine Nudeln oder Kartoffelwürfel mitgaren. Mit Salz abschmecken; Säure nur sparsam (Prise Zitrone), nicht wie Kiszone-Linien.",
-            tip: "Kiszone-Nachbar descriptiv: [Ogórkowa](/de/rezepte/ogorkowa) — anderer Primary. Menürahmen festlich: [Wigilia-Speiseplan](/de/blog/wigilia-speiseplan).",
+            tip: "Kiszone-Nachbar: [Ogórkowa](/de/rezepte/ogorkowa) — anderes Gericht. Menürahmen festlich: [Wigilia-Speiseplan](/de/blog/wigilia-speiseplan).",
           },
           {
             text: "Heiß mit Dill oder Petersilie servieren. Für Wigilia oft klar und ohne Sahne; im Alltag optional einen Löffel temperierte Śmietana einrühren — nicht kochend.",
-            tip: "Śmietana temperieren wie im [Śmietana/Schmand](/de/blog/smietana-schmand)-Guide; Primary bleibt Zupa grzybowa.",
+            tip: "Śmietana temperieren wie im [Śmietana/Schmand](/de/blog/smietana-schmand)-Guide; Fokus bleibt Zupa grzybowa.",
           },
         ],
         seoTitle: "Zupa grzybowa Rezept | Polnische Pilzsuppe | Alemniam",
@@ -68,15 +68,15 @@ export const seedRecipesWave12A: Recipe[] = [
           },
           {
             text: "Cebulę i marchew zeszklij na maśle lub oleju; dodaj grzyby, krótko podsmaż. Zalej płynem z moczenia i odrobiną wody lub lekkiego bulionu; dodaj liść laurowy i pieprz.",
-            tip: "Przegląd zup zostaje w pillarze: [polskie zupy](/pl/blog/polskie-zupy). Tu tylko wąski cook-primary grzybowy.",
+            tip: "Przegląd zup zostaje w przeglądzie: [polskie zupy](/pl/blog/polskie-zupy). Tu tylko wąski Rezept grzybowy.",
           },
           {
             text: "Gotuj łagodnie 20–30 minut, aż grzyby zmiękną, a wywar nabierze aromatu. Opcjonalnie drobny makaron lub kostka ziemniaka. Dopraw solą; kwasu tylko szczypta (cytryna), nie jak linie kiszone.",
-            tip: "Sąsiad kiszony opisowo: [ogórkowa](/pl/rezepte/ogorkowa). Rama świąteczna: [menu wigilijne](/pl/blog/menu-wigilijne).",
+            tip: "Sąsiad kiszony: [ogórkowa](/pl/rezepte/ogorkowa). Rama świąteczna: [menu wigilijne](/pl/blog/menu-wigilijne).",
           },
           {
             text: "Podawaj gorącą z koperkiem lub pietruszką. Na Wigilię często klarowna, bez śmietany; na co dzień opcjonalnie łyżka ocieplonej śmietany — nie do wrzątku.",
-            tip: "Śmietanę zahartuj jak w [śmietana/Schmand](/pl/blog/smietana-czy-schmand); primary zostaje zupa grzybowa.",
+            tip: "Śmietanę zahartuj jak w [śmietana/Schmand](/pl/blog/smietana-czy-schmand); fokus zostaje zupa grzybowa.",
           },
         ],
         seoTitle: "Zupa grzybowa przepis | Zupa z suszonych grzybów | Alemniam",
@@ -201,11 +201,11 @@ export const seedRecipesWave12A: Recipe[] = [
           },
           {
             text: "Optional einen Teil der Erbsen mit dem Pürierstab anstoßen — dick, aber nicht Babybrei. Mit Salz, Pfeffer und Majoran abschmecken; Säure nur sparsam, nicht Kiszone-Kraut-Linie.",
-            tip: "≠ [Kapuśniak](/de/rezepte/kapusniak) (Sauerkrautsuppe). Menüplatz descriptiv: [polnisches Sonntagsessen](/de/blog/sonntagsessen-polnisch).",
+            tip: "≠ [Kapuśniak](/de/rezepte/kapusniak) (Sauerkrautsuppe). Menüplatz: [polnisches Sonntagsessen](/de/blog/sonntagsessen-polnisch).",
           },
           {
             text: "Heiß mit frischem Dill oder Majoran servieren; Brot dazu. Reste halten sich und werden oft am zweiten Tag runder — Freezer portionsweise möglich.",
-            tip: "Fehlt geräucherte Wurst: ehrlich ersetzen laut [Ersatzprodukte DE](/de/blog/ersatzprodukte-de) — Primary bleibt Grochówka.",
+            tip: "Fehlt geräucherte Wurst: ehrlich ersetzen laut [Ersatzprodukte DE](/de/blog/ersatzprodukte-de) — Fokus bleibt Grochówka.",
           },
         ],
         seoTitle: "Grochówka Rezept | Polnische Erbsensuppe | Alemniam",
@@ -228,11 +228,11 @@ export const seedRecipesWave12A: Recipe[] = [
           },
           {
             text: "Opcjonalnie część grochu blenduj — gęsto, nie na papkę. Dopraw solą, pieprzem i majerankiem; kwasu mało, nie linia kapusty kiszonej.",
-            tip: "≠ [kapuśniak](/pl/rezepte/kapusniak). Miejsce w menu opisowo: [obiad niedzielny](/pl/blog/obiad-niedzielny).",
+            tip: "≠ [kapuśniak](/pl/rezepte/kapusniak). Miejsce w menu: [obiad niedzielny](/pl/blog/obiad-niedzielny).",
           },
           {
             text: "Podawaj gorącą z koperkiem lub majerankiem; chleb obok. Resztki często lepsze nazajutrz — freezer porcjami.",
-            tip: "Brak wędzonki: uczciwa zamiana według [zamienników](/pl/blog/zamienniki-skladnikow) — primary zostaje grochówka.",
+            tip: "Brak wędzonki: uczciwa zamiana według [zamienników](/pl/blog/zamienniki-skladnikow) — fokus zostaje grochówka.",
           },
         ],
         seoTitle: "Grochówka przepis | Zupa grochowa | Alemniam",

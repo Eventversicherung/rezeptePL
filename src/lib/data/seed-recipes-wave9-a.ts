@@ -195,7 +195,7 @@ export const seedRecipesWave9A: Recipe[] = [
         steps: [
           {
             text: "Plastry mięsa (wołowina lub wieprzowina) rozbij, posól, popieprz, posmaruj musztardą. Farsz: paski boczku i drobno siekana cebula (opcjonalnie majeranek) — zwiń szczelnie i zepnij.",
-            tip: "Inna logika niż [zrazy zawijane](/pl/rezepte/zrazy): tu nie farsz z ogórkiem jako primary; intent to śląska rolada niedzielna z kluskami.",
+            tip: "Inna logika niż [zrazy zawijane](/pl/rezepte/zrazy): tu nie farsz z ogórkiem jako fokus; chodzi o śląska rolada niedzielna z kluskami.",
           },
           {
             text: "Obsmaż rolady ze wszystkich stron. Resztki cebuli i liść laurowy do tego samego garnka — idealnie [dutch oven / garnek do duszenia](/pl/blog/garnek-do-duszenia).",

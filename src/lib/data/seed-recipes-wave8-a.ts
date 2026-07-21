@@ -166,7 +166,7 @@ export const seedRecipesWave8A: Recipe[] = [
         steps: [
           {
             text: "Sauerkraut ausdrücken (Säure nach Geschmack behalten oder kurz spülen), grob hacken. Zwiebel in Fett glasig anschwitzen.",
-            tip: "Kraut-Qualität und Ferment-Feeling: [Kiszenie-Guide](/de/blog/kiszenie-guide) — hier nur Verwertung, nicht Ferment-Owner.",
+            tip: "Kraut-Qualität und Ferment-Feeling: [Kiszenie-Guide](/de/blog/kiszenie-guide) — hier nur Verwertung, nicht der Ferment-Guide.",
           },
           {
             text: "Kraut dazugeben, mit wenig Wasser oder Brühe ansetzen, Lorbeer und Pfeffer; bei mittlerer Hitze 25–35 Minuten schmoren, bis weich aber nicht matschig.",
@@ -269,7 +269,7 @@ export const seedRecipesWave8A: Recipe[] = [
         amount: 150,
         unit: { de: "ml", pl: "ml" },
         group: "pantry",
-        storeHintDe: "Optional Rest von Rosół — nicht als Suppen-Owner",
+        storeHintDe: "Optional Rest von Rosół — nicht als Suppenrezept",
       },
     ],
     createdAt: "2026-07-20T21:05:00.000Z",

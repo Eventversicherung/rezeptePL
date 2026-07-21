@@ -48,11 +48,11 @@ export const seedRecipesWave12C: Recipe[] = [
           },
           {
             text: "Belag: gehackte Nüsse (Walnuss, Haselnuss, Mandel nach Hausbrauch) mit Butter, Honig oder Zucker und Prise Salz in der Pfanne kurz rösten/bindig machen. Gleichmäßig auf dem heißen Boden verteilen.",
-            tip: "Nüsse und Honig oft im [Polenladen](/de/blog/polenladen-einkaufen). Hefe-Feeling nur descriptiv: [Makowiec-Technik](/de/blog/makowiec-technik) — Owner bleibt Makowiec.",
+            tip: "Nüsse und Honig oft im [Polenladen](/de/blog/polenladen-einkaufen). Hefe-Kontext: nur [Makowiec-Technik](/de/blog/makowiec-technik) — Owner bleibt Makowiec.",
           },
           {
             text: "Weitere 15–20 Minuten backen, bis der Belag goldbraun und gesetzt ist. Abkühlen, in Rauten schneiden. Optional mit etwas Puderzucker oder getrockneten Früchten garnieren.",
-            tip: "Am Ostertisch descriptiv planen; Primary bleibt dieses Rezept — Speiseplan-Owner: [Wielkanoc](/de/blog/wielkanoc-speiseplan).",
+            tip: "Am Ostertisch planen; Fokus bleibt dieses Rezept — Speiseplan-Owner: [Wielkanoc](/de/blog/wielkanoc-speiseplan).",
           },
         ],
         seoTitle: "Mazurek Rezept | Osterkuchen polnisch orzechowy | Alemniam",
@@ -78,11 +78,11 @@ export const seedRecipesWave12C: Recipe[] = [
           },
           {
             text: "Wierzch: posiekane orzechy (włoskie, laskowe, migdały wg domu) z masłem, miodem lub cukrem i szczyptą soli krótko na patelni zwiąż. Rozprowadź równomiernie na gorącym spodzie.",
-            tip: "Orzechy i miód często w [sklepie polskim](/pl/blog/sklep-polski-zakupy). Drożdże opisowo: [technika makowca](/pl/blog/makowiec-technika) — owner zostaje makowiec.",
+            tip: "Orzechy i miód często w [sklepie polskim](/pl/blog/sklep-polski-zakupy). Drożdże [technika makowca](/pl/blog/makowiec-technika) — owner zostaje makowiec.",
           },
           {
             text: "Piecz kolejne 15–20 minut, aż wierzch będzie złoty i związany. Ostudź, pokrój w romby. Opcjonalnie cukier puder lub suszone owoce.",
-            tip: "Przy stole opisowo w menu; primary zostaje ten przepis — owner planu: [menu wielkanocne](/pl/blog/menu-wielkanocne).",
+            tip: "Przy stole w menu; fokus zostaje ten przepis — owner planu: [menu wielkanocne](/pl/blog/menu-wielkanocne).",
           },
         ],
         seoTitle: "Mazurek przepis | Mazurek orzechowy wielkanocny | Alemniam",
@@ -230,7 +230,7 @@ export const seedRecipesWave12C: Recipe[] = [
         steps: [
           {
             text: "Buraki umyj, ugotuj w skórce w osolonej wodzie (lub użyj gotowanych). Ostudź, obierz, zetrzyj grubo lub pokrój w cienkie paski.",
-            tip: "To dodatek, nie zupa — [botwinka](/pl/rezepte/botwinka) i [barszcz](/pl/rezepte/barszcz-czerwony) zostają osobnymi cook-primary.",
+            tip: "To dodatek, nie zupa — [botwinka](/pl/rezepte/botwinka) i [barszcz](/pl/rezepte/barszcz-czerwony) zostają osobnymi Rezept.",
           },
           {
             text: "Cebulę drobno pokrój, zeszklij na maśle lub oleju. Dodaj buraki, odrobinę wody lub bulionu i szczyptę cukru; duś 8–10 minut na ciepło.",

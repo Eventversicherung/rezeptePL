@@ -156,7 +156,7 @@ export const seedRecipesWave6: Recipe[] = [
           },
           {
             text: "Pierogi-Teig kneten und ruhen lassen — kleinere Kreise als bei Ruskie ausstechen.",
-            tip: "Technik-Feeling: [Pierogi-Teig](/de/blog/pierogi-teig); Uszka sind eigene Money Page.",
+            tip: "Technik-Feeling: [Pierogi-Teig](/de/blog/pierogi-teig); Uszka sind eigene Rezeptseite.",
           },
           {
             text: "Wenig Füllung setzen, zu Öhrchen falten, Ränder fest verschließen.",
@@ -182,7 +182,7 @@ export const seedRecipesWave6: Recipe[] = [
           },
           {
             text: "Wyrób ciasto na pierogi i odczekaj — wykrawaj mniejsze koła niż na ruskie.",
-            tip: "Wyczucie: [ciasto na pierogi](/pl/blog/ciasto-na-pierogi); uszka to osobna money page.",
+            tip: "Wyczucie: [ciasto na pierogi](/pl/blog/ciasto-na-pierogi); uszka to osobna Rezeptseite.",
           },
           {
             text: "Nakładaj mało farszu, zawiń w uszka, szczelnie zlep brzegi.",

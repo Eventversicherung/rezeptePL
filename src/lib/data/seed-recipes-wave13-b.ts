@@ -45,7 +45,7 @@ export const seedRecipesWave13B: Recipe[] = [
           },
           {
             text: "Blauen Mohn mit heißem Wasser oder Milch aufquellen lassen, abtropfen; möglichst mahlen oder fein zerreiben. Mit Honig (oder Zucker), gehackten Walnüssen oder Mandeln, Rosinen und optional Vanille/Zitronenschale zu einer bindenden, nicht trockenen Masse rühren.",
-            tip: "Mohnqualität und Feiertagseinkauf: [Polenladen](/de/blog/polenladen-einkaufen). Masse-Feeling descriptiv wie [Makowiec-Technik](/de/blog/makowiec-technik) — Primary bleibt Getreide+Mohn, nicht die Hefe-Rolle.",
+            tip: "Mohnqualität und Feiertagseinkauf: [Polenladen](/de/blog/polenladen-einkaufen). Masse-Feeling wie [Makowiec-Technik](/de/blog/makowiec-technik) — Fokus bleibt Getreide+Mohn, nicht die Hefe-Rolle.",
           },
           {
             text: "Weizen mit der Mohn-Nuss-Masse vermengen; bei Bedarf etwas Milch oder Honig für Glanz und Bindung. Abschmecken: süß, mohnig, nussig — nicht bitter, nicht sandig-trocken.",
@@ -71,7 +71,7 @@ export const seedRecipesWave13B: Recipe[] = [
           },
           {
             text: "Mak niebieski zalej gorącą wodą lub mlekiem, odsącz; zmiel lub rozetrzyj. Wymieszaj z miodem (lub cukrem), posiekanymi orzechami włoskimi lub migdałami, rodzynkami oraz opcjonalnie wanilią/skórką cytryny do wiążącej, nie suchej masy.",
-            tip: "Jakość maku i zakupy świąteczne: [sklep polski](/pl/blog/sklep-polski-zakupy). Wyczucie masy opisowo jak [technika makowca](/pl/blog/makowiec-technika) — primary zostaje zboże+mak, nie rolada drożdżowa.",
+            tip: "Jakość maku i zakupy świąteczne: [sklep polski](/pl/blog/sklep-polski-zakupy). Wyczucie masy jak [technika makowca](/pl/blog/makowiec-technika) — fokus zostaje zboże+mak, nie rolada drożdżowa.",
           },
           {
             text: "Wymieszaj pszenicę z masą makowo-orzechową; w razie potrzeby dodaj odrobinę mleka lub miodu. Dopraw: słodko, makowo, orzechowo — bez goryczy, bez piaszczystej suchości.",
@@ -207,7 +207,7 @@ export const seedRecipesWave13B: Recipe[] = [
           },
           {
             text: "Abwechselnd Teigplatte und Creme schichten (meist 2–3 Teiglagen). Oben mit Puderzucker bestäuben oder dünn glasieren. Mindestens 2–3 Stunden kühlen, damit sich schneiden lässt.",
-            tip: "Sonntagskaffee-Feeling descriptiv: [polnisches Sonntagsessen](/de/blog/sonntagsessen-polnisch) — Primary bleibt Napoleonka/Kremówka.",
+            tip: "Sonntagskaffee: [polnisches Sonntagsessen](/de/blog/sonntagsessen-polnisch) — Fokus bleibt Napoleonka/Kremówka.",
           },
           {
             text: "Mit scharfem Messer in Rechtecke schneiden; kalt servieren. Reste abgedeckt im Kühlschrank — Teig weicht mit der Zeit etwas auf, Geschmack bleibt.",
@@ -233,7 +233,7 @@ export const seedRecipesWave13B: Recipe[] = [
           },
           {
             text: "Układaj na przemian płat ciasta i krem (zwykle 2–3 warstwy ciasta). Wierzch oprósz cukrem pudrem lub lekko lukruj. Chłodź co najmniej 2–3 godziny przed krojeniem.",
-            tip: "Kawowe niedzielne wyczucie opisowo: [obiad niedzielny](/pl/blog/obiad-niedzielny) — primary zostaje napoleonka/kremówka.",
+            tip: "Kawowe niedzielne wyczucie [obiad niedzielny](/pl/blog/obiad-niedzielny) — fokus zostaje napoleonka/kremówka.",
           },
           {
             text: "Ostrym nożem pokrój w prostokąty; podawaj na zimno. Resztki przykryte w lodówce — ciasto z czasem mięknie, smak zostaje.",

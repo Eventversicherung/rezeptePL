@@ -51,7 +51,7 @@ export const seedRecipesWave12D: Recipe[] = [
           },
           {
             text: "Mit Kartoffeln, Reis oder Brot servieren. Dill erst zum Schluss — so bleibt das Aroma frisch.",
-            tip: "Menüplatz descriptiv: [polnisches Sonntagsessen](/de/blog/sonntagsessen-polnisch). Wer die panierte Linie will: [Kotlet mielony](/de/rezepte/kotlet-mielony).",
+            tip: "Menüplatz: [polnisches Sonntagsessen](/de/blog/sonntagsessen-polnisch). Wer die panierte Linie will: [Kotlet mielony](/de/rezepte/kotlet-mielony).",
           },
         ],
         seoTitle: "Klopsy Rezept | Pulpety in Dillsoße | Alemniam",
@@ -80,7 +80,7 @@ export const seedRecipesWave12D: Recipe[] = [
           },
           {
             text: "Podawaj z ziemniakami, ryżem lub chlebem. Koper na końcu — aromat zostaje świeży.",
-            tip: "Miejsce w menu opisowo: [obiad niedzielny](/pl/blog/obiad-niedzielny). Linia panierki: [kotlet mielony](/pl/rezepte/kotlet-mielony).",
+            tip: "Miejsce w menu: [obiad niedzielny](/pl/blog/obiad-niedzielny). Linia panierki: [kotlet mielony](/pl/rezepte/kotlet-mielony).",
           },
         ],
         seoTitle: "Klopsy przepis | Pulpety w sosie koperkowym | Alemniam",
@@ -220,7 +220,7 @@ export const seedRecipesWave12D: Recipe[] = [
           },
           {
             text: "In vorgewärmte Teller mit heißer Brühe geben oder mit Butter und Dill als Beilage servieren.",
-            tip: "Suppen-Overview bleibt Pillar: [Polnische Suppen](/de/blog/polnische-suppen). Sonntagsmenü descriptiv: [Sonntagsessen](/de/blog/sonntagsessen-polnisch).",
+            tip: "Suppen-Overview bleibt Überblick: [Polnische Suppen](/de/blog/polnische-suppen). Sonntagsmenü [Sonntagsessen](/de/blog/sonntagsessen-polnisch).",
           },
           {
             text: "Reste separat von der Brühe kühlen — sonst quellen sie nach. Frisch gekocht schmecken sie am besten.",
@@ -249,7 +249,7 @@ export const seedRecipesWave12D: Recipe[] = [
           },
           {
             text: "Podawaj w gorącym bulionie na talerzu albo z masłem i koperkiem jako dodatek.",
-            tip: "Przegląd zup zostaje pillar: [polskie zupy](/pl/blog/polskie-zupy). Menu niedzielne opisowo: [obiad niedzielny](/pl/blog/obiad-niedzielny).",
+            tip: "Przegląd zup zostaje Überblick: [polskie zupy](/pl/blog/polskie-zupy). Menu niedzielne [obiad niedzielny](/pl/blog/obiad-niedzielny).",
           },
           {
             text: "Resztki trzymaj osobno od bulionu — inaczej pęcznieją. Najlepsze świeżo ugotowane.",

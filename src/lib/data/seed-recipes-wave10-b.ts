@@ -43,7 +43,7 @@ export const seedRecipesWave10B: Recipe[] = [
           },
           {
             text: "Teig in eine gefettete Form geben, bei mittlerer Ofentemperatur goldbraun backen; Stäbchenprobe im Kern. Auskühlen lassen.",
-            tip: "Ofengeduld descriptiv wie im [Makowiec-Technik](/de/blog/makowiec-technik)-Guide — Primary bleibt Piernik, nicht Hefe/Mohn.",
+            tip: "Ofengeduld wie im [Makowiec-Technik](/de/blog/makowiec-technik)-Guide — Fokus bleibt Piernik, nicht Hefe/Mohn.",
           },
           {
             text: "Optional mit dünner Schokoglasur oder Puderzucker; in Scheiben oder Würfeln servieren — zu Tee/Kaffee oder als süßer Schluss nach [Wigilia](/de/blog/wigilia-speiseplan).",
@@ -69,7 +69,7 @@ export const seedRecipesWave10B: Recipe[] = [
           },
           {
             text: "Przełóż do natłuszczonej formy, piecz na złoto w średniej temperaturze; patyczek w środku. Ostudź.",
-            tip: "Cierpliwość pieca opisowo jak w [technice makowca](/pl/blog/makowiec-technika) — primary zostaje piernik, nie drożdże/mak.",
+            tip: "Cierpliwość pieca jak w [technice makowca](/pl/blog/makowiec-technika) — fokus zostaje piernik, nie drożdże/mak.",
           },
           {
             text: "Opcjonalnie lukier czekoladowy lub cukier puder; podawaj w plastrach lub kostkach — do herbaty/kawy albo jako słodki finał po [menu wigilijnym](/pl/blog/menu-wigilijne).",

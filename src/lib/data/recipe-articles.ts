@@ -204,9 +204,9 @@ const FACTS: Record<string, ArticleFacts> = {
     techniquePl:
       "Woda z tarcia to wróg chrupkości. Dobrze odciśnij, nie za dużo mąki i naprawdę gorąca patelnia. Grube placki zostają surowe w środku.",
     serveDe:
-      "Heiß mit Sauerrahm, Zucker (ja, wirklich), Gulasch oder geräucherter Sahne. Sofort servieren. Composed Teller Puffer+Gulasch obenauf: [Placek po węgiersku](/de/rezepte/placek-po-wegiersku) — Primary bleibt dort.",
+      "Heiß mit Sauerrahm, Zucker (ja, wirklich), Gulasch oder geräucherter Sahne. Sofort servieren. Composed Teller Puffer+Gulasch obenauf: [Placek po węgiersku](/de/rezepte/placek-po-wegiersku) — das Rezept dafür findest du dort.",
     servePl:
-      "Gorące ze śmietaną, cukrem (tak), gulaszem albo wędzoną śmietaną. Podawać od razu. Composed talerz placki+gulasz na wierzchu: [placek po węgiersku](/pl/rezepte/placek-po-wegiersku) — primary zostaje tam.",
+      "Gorące ze śmietaną, cukrem (tak), gulaszem albo wędzoną śmietaną. Podawać od razu. Composed talerz placki+gulasz na wierzchu: [placek po węgiersku](/pl/rezepte/placek-po-wegiersku) — fokus zostaje tam.",
     diasporaDe:
       "Placki sind Weeknight-Food: wenig Zutaten, großer Effekt. In deutschen Küchen ohne spezielle Geräte machbar.",
     diasporaPl:
@@ -260,9 +260,9 @@ const FACTS: Record<string, ArticleFacts> = {
     vibeDe: "klar, säuerlich, festlich rot",
     vibePl: "klarowny, kwaśny, odświętnie czerwony",
     originDe:
-      "Barszcz ist mehr als Rote-Bete-Suppe: Er ist Farbe, Ritual und Säurekultur. Zur Wigilia oft klar — die kleinen Teigtaschen dazu gehören auf die eigene Uszka-Money-Page, nicht als Duplikat dieses Rezepts.",
+      "Barszcz ist mehr als Rote-Bete-Suppe: Er ist Farbe, Ritual und Säurekultur. Zur Wigilia oft klar — die kleinen Teigtaschen dazu gehören auf die eigene Uszka-strona przepisu, nicht als Duplikat dieses Rezepts.",
     originPl:
-      "Barszcz to więcej niż zupa z buraków: to kolor, rytuał i kultura kwasu. Na Wigilię często klarowny — małe pierogi do niego mają własną money page Uszka, nie duplikat tego przepisu.",
+      "Barszcz to więcej niż zupa z buraków: to kolor, rytuał i kultura kwasu. Na Wigilię często klarowny — małe pierogi do niego mają własną Rezeptseite Uszka, nie duplikat tego przepisu.",
     shopDe:
       "Frische Rote Bete, gute Brühe, Allspice (Piment), Essig oder Zitronensäure zum Feinabschmecken. Uszka separat kochen — Rezept Uszka — oder fertig aus dem Polenladen. Barszcz-Technik für klare Brühe vs. Alltagsvariante.",
     shopPl:
@@ -362,7 +362,7 @@ const FACTS: Record<string, ArticleFacts> = {
     vibeDe: "herzhaft, satt, sonntagstauglich",
     vibePl: "wytrawne, sycące, na niedzielę",
     originDe:
-      "Herzhaft gefüllte Naleśniki mit gedünstetem Hack — dieselbe dünne Plattform wie bei Twaróg, aber für den salzigen Tisch. In vielen Haushalten die Variante, wenn Gäste kommen und süß nicht reicht.",
+      "Herzhaft gefüllte Naleśniki mit gedünstetem Hack — Dieselbe dünne Teigplattform wie bei Twaróg, aber für den salzigen Tisch. In vielen Haushalten die Variante, wenn Gäste kommen und süß nicht reicht.",
     originPl:
       "Wytrawne naleśniki z duszonym mięsem — ta sama cienka platforma co przy twarogu, ale na słony stół. W wielu domach wariant, gdy przychodzą goście i słodkie nie wystarcza.",
     shopDe:
@@ -430,9 +430,9 @@ const FACTS: Record<string, ArticleFacts> = {
     vibeDe: "klar, golden, heilend und festlich",
     vibePl: "klarowny, złoty, leczniczy i odświętny",
     originDe:
-      "Rosół ist die polnische Hühnerbrühe: langsam gezogen, klar, mit Gemüse und Fadenudeln. Er ist Medizin, Sonntag und Willkommensgruß. Frische Fallnudeln als Einlage: [Kluski kładzione](/de/rezepte/kluski-kladzione) — anderer Cook-Primary als Packungsnudeln.",
+      "Rosół ist die polnische Hühnerbrühe: langsam gezogen, klar, mit Gemüse und Fadenudeln. Er ist Medizin, Sonntag und Willkommensgruß. Frische Fallnudeln als Einlage: [Kluski kładzione](/de/rezepte/kluski-kladzione) — anderer Rezept als Packungsnudeln.",
     originPl:
-      "Rosół to polski bulion drobiowy: długo gotowany, klarowny, z warzywami i nitkami. To lekarstwo, niedziela i powitanie. Świeże kluski jako dodatek: [kluski kładzione](/pl/rezepte/kluski-kladzione) — inny cook-primary niż makaron z paczki.",
+      "Rosół to polski bulion drobiowy: długo gotowany, klarowny, z warzywami i nitkami. To lekarstwo, niedziela i powitanie. Świeże kluski jako dodatek: [kluski kładzione](/pl/rezepte/kluski-kladzione) — inny Rezept niż makaron z paczki.",
     shopDe:
       "Suppenhuhn oder qualitätvolle Keulen, Suppengrün, Piment, Lorbeer, Fadenudeln. Petersilienwurzel macht den Unterschied — im deutschen Markt manchmal als Wurzelpetersilie. Rosół-Technik für Klarheit und Schaum.",
     shopPl:
@@ -498,9 +498,9 @@ const FACTS: Record<string, ArticleFacts> = {
     vibeDe: "knusprig, zart, puderzuckerweiß",
     vibePl: "chrupiące, kruche, w cukrze pudrze",
     originDe:
-      "Faworki — auch Chrust oder Chruściki — gehören zu Tłusty Czwartek und zur polnischen Faschingsküche. Hauchdünner Teig, heißes Öl, viel Puderzucker. Kein schweres Gebäck, sondern knusprige Schleifen. Weiche, gefüllte Nachbarn am selben Tag: [Pączki](/de/rezepte/paczki) — anderer Primary, andere Technik ([Pączki-Technik](/de/blog/paczek-technik)).",
+      "Faworki — auch Chrust oder Chruściki — gehören zu Tłusty Czwartek und zur polnischen Faschingsküche. Hauchdünner Teig, heißes Öl, viel Puderzucker. Kein schweres Gebäck, sondern knusprige Schleifen. Weiche, gefüllte Nachbarn am selben Tag: [Pączki](/de/rezepte/paczki) — anderes Gericht, andere Technik ([Pączki-Technik](/de/blog/paczek-technik)).",
     originPl:
-      "Faworki — też chrust lub chruściki — należą do Tłustego Czwartku i karnawałowej kuchni. Papierowo cienkie ciasto, gorący olej, dużo cukru pudru. Nie ciężkie ciasto, tylko chrupiące pętle. Miękki, nadziewany sąsiad tego samego dnia: [pączki](/pl/rezepte/paczki) — inny primary, inna technika ([technika pączków](/pl/blog/paczki-technika)).",
+      "Faworki — też chrust lub chruściki — należą do Tłustego Czwartku i karnawałowej kuchni. Papierowo cienkie ciasto, gorący olej, dużo cukru pudru. Nie ciężkie ciasto, tylko chrupiące pętle. Miękki, nadziewany sąsiad tego samego dnia: [pączki](/pl/rezepte/paczki) — inny fokus, inna technika ([technika pączków](/pl/blog/paczki-technika)).",
     shopDe:
       "Weizenmehl, Eigelb, saure Sahne/Schmand, Backpulver, Zucker, Wodka (oder Rum), Frittieröl, Puderzucker. Alles im deutschen Supermarkt. Traditionell zu Tłusty Czwartek — der Guide erklärt den Feiertagskontext.",
     shopPl:
@@ -702,9 +702,9 @@ const FACTS: Record<string, ArticleFacts> = {
     vibeDe: "langsam geschmort, paprikarot, Sonntag",
     vibePl: "duszony powoli, paprykowy, niedzielny",
     originDe:
-      "Polnischer Schweinegulasch ist nicht ungarisches Paprikagulasch: mehr Soße, weniger Schärfe, oft Tomatenmark. Klassischer Partner zu Placki — ein Teller, zwei Gerichte, gemeinsames Wochenende. Paprika-Gemüse-Eintopf mit Wurst ist eine andere Linie: [Leczo](/de/rezepte/leczo) — dort führen Paprika und Tomate, nicht das Schmorfleisch-Primary.",
+      "Polnischer Schweinegulasch ist nicht ungarisches Paprikagulasch: mehr Soße, weniger Schärfe, oft Tomatenmark. Klassischer Partner zu Placki — ein Teller, zwei Gerichte, gemeinsames Wochenende. Paprika-Gemüse-Eintopf mit Wurst ist eine andere Linie: [Leczo](/de/rezepte/leczo) — dort führen Paprika und Tomate, nicht das Schmorfleisch-Rezept.",
     originPl:
-      "Polski gulasz wieprzowy to nie węgierski paprykowy: więcej sosu, mniej ostrości, często koncentrat. Klasyczny partner placków — jeden stół, dwa dania, wspólny weekend. Gulasz warzywny z kiełbasą to inna linia: [leczo](/pl/rezepte/leczo) — tam papryka i pomidor prowadzą, nie primary duszonnego mięsa.",
+      "Polski gulasz wieprzowy to nie węgierski paprykowy: więcej sosu, mniej ostrości, często koncentrat. Klasyczny partner placków — jeden stół, dwa dania, wspólny weekend. Gulasz warzywny z kiełbasą to inna linia: [leczo](/pl/rezepte/leczo) — tam papryka i pomidor prowadzą, nie fokus duszonnego mięsa.",
     shopDe:
       "Schweinenacken oder Schulter — Fett hält saftig. Paprika, Zwiebel, Tomatenmark, Paprikapulver edelsüß. Dutch Oven oder Schmortopf; Kiełbasa Arten wenn du Wurst extra willst.",
     shopPl:
@@ -714,17 +714,17 @@ const FACTS: Record<string, ArticleFacts> = {
     techniquePl:
       "Mięso obsmażyć, paprykę podsmażyć chwilę (inaczej gorzka), potem pod przykryciem 60–90 min. Nazajutrz często lepszy — placki smaż świeżo, gulasz trzymaj ciepły. Szybszy garnek warzywny bez maratonu kostki: [leczo](/pl/rezepte/leczo).",
     serveDe:
-      "Mit Placki und Śmietana — der klassische Sonntagsteller in vielen Diaspora-Haushalten. Composed auf einem Teller (Puffer + Gulasch obenauf): [Placek po węgiersku](/de/rezepte/placek-po-wegiersku) — Primary bleibt dort.",
+      "Mit Placki und Śmietana — der klassische Sonntagsteller in vielen Diaspora-Haushalten. Composed auf einem Teller (Puffer + Gulasch obenauf): [Placek po węgiersku](/de/rezepte/placek-po-wegiersku) — das Rezept dafür findest du dort.",
     servePl:
-      "Z plackami i śmietaną — klasyczny niedzielny talerz w wielu domach w diasporze. Composed na jednym talerzu (placki + gulasz na wierzchu): [placek po węgiersku](/pl/rezepte/placek-po-wegiersku) — primary zostaje tam.",
+      "Z plackami i śmietaną — klasyczny niedzielny talerz w wielu domach w diasporze. Composed na jednym talerzu (placki + gulasz na wierzchu): [placek po węgiersku](/pl/rezepte/placek-po-wegiersku) — fokus zostaje tam.",
     diasporaDe:
       "In deutschen Wohnungen riecht Gulasz nach langem Schmorren — ideal, wenn alle nach der Schicht hungrig sind und Placki schnell gehen.",
     diasporaPl:
       "W niemieckich mieszkaniach gulasz pachnie długim duszeniem — idealny, gdy wszyscy wracają głodni, a placki robią się szybko.",
     mistakesDe:
-      "Paprika nicht angebraten, zu wenig Flüssigkeit, zu kurz geschmort. Fleisch soll mit Gabel zerfallen. Nicht mit [Leczo](/de/rezepte/leczo) verwechseln (Paprika-Tomate ± Wurst, kein Schweine-Schmor-Primary). Composed-Teller nicht hier stehlen: [Placek po węgiersku](/de/rezepte/placek-po-wegiersku).",
+      "Paprika nicht angebraten, zu wenig Flüssigkeit, zu kurz geschmort. Fleisch soll mit Gabel zerfallen. Nicht mit [Leczo](/de/rezepte/leczo) verwechseln (Paprika-Tomate ± Wurst, kein Schweine-Schmor-Rezept). Zusammengesetzter Teller separat: [Placek po węgiersku](/de/rezepte/placek-po-wegiersku).",
     mistakesPl:
-      "Papryka niepodsmażona, za mało płynu, za krótkie duszenie. Mięso ma się rozpadać widelcem. Nie mylić z [leczo](/pl/rezepte/leczo) (papryka-pomidor ± kiełbasa, bez primary duszonnej wieprzowiny). Talerza composed nie tu: [placek po węgiersku](/pl/rezepte/placek-po-wegiersku).",
+      "Papryka niepodsmażona, za mało płynu, za krótkie duszenie. Mięso ma się rozpadać widelcem. Nie mylić z [leczo](/pl/rezepte/leczo) (papryka-pomidor ± kiełbasa, bez fokus duszonnej wieprzowiny). Talerza composed nie tu: [placek po węgiersku](/pl/rezepte/placek-po-wegiersku).",
     variantsDe:
       "Mit Kiełbasa, schärfer, oder vegetarisch mit Pilzen — Placki-Guide für die Beilage; Dutch Oven für gleichmäßiges Schmoren. Paprika-Gemüse-Cook: [Leczo](/de/rezepte/leczo). Composed mit Placki-Topping: [Placek po węgiersku](/de/rezepte/placek-po-wegiersku).",
     variantsPl:
@@ -1076,9 +1076,9 @@ const FACTS: Record<string, ArticleFacts> = {
     vibeDe: "klein, intensiv pilzig, wigilijny",
     vibePl: "małe, intensywnie grzybowe, wigilijne",
     originDe:
-      "Uszka sind kleine Teigtaschen — oft mit Pilzfüllung — die klassisch in klarem Barszcz schwimmen. Sie sind keine große Pierogi-Charge und kein Bestandteil des Barszcz-Rezepts als Duplikat: eigene Money Page, eigene Primary Keywords. Barszcz bleibt Owner der Suppe; Uszka Owner der Teigtaschen.",
+      "Uszka sind kleine Teigtaschen — oft mit Pilzfüllung — die klassisch in klarem Barszcz schwimmen. Sie sind keine große Pierogi-Charge und kein Bestandteil des Barszcz-Rezepts als Duplikat: eigene Rezeptseite, eigene Fokus. Barszcz bleibt Rezept für die Suppe; Uszka Rezept für die Teigtaschen.",
     originPl:
-      "Uszka to małe pierogi — często z farszem grzybowym — klasycznie w klarownym barszczu. To nie wielka partia pierogów i nie duplikat przepisu na barszcz: własna money page, własne primary keywords. Barszcz zostaje ownerem zupy; uszka ownerem pierożków.",
+      "Uszka to małe pierogi — często z farszem grzybowym — klasycznie w klarownym barszczu. To nie wielka partia pierogów i nie duplikat przepisu na barszcz: własna Rezeptseite, własne Fokus. Barszcz zostaje przepisem na zupy; uszka ownerem pierożków.",
     shopDe:
       "Getrocknete Pilze (Polenladen), Zwiebel, Mehl, Ei, Öl. Barszcz separat nach Barszcz-Rezept und Barszcz-Technik. Pierogi-Teig-Guide für Teiggefühl; Freezer-Guide wenn ihr am Vortag formt.",
     shopPl:
@@ -1110,9 +1110,9 @@ const FACTS: Record<string, ArticleFacts> = {
     vibeDe: "festlich, zart, nach Zwiebel und Majoran",
     vibePl: "świąteczny, delikatny, z cebulą i majerankiem",
     originDe:
-      "Karpfen ist für viele Familien der warme Fischgang der Wigilia — nicht Pflichtkanon, aber starkes Signal. Gebacken mit Zwiebel ist die diaspora-taugliche Variante: weniger Pfannenchaos als frittiert, klarer Geschmack. Der Wigilia-Speiseplan bleibt Owner für Menüreihenfolge und Anlass; hier bleibt der Koch-Intent „Karp Rezept“.",
+      "Karpfen ist für viele Familien der warme Fischgang der Wigilia — nicht Pflichtkanon, aber starkes Signal. Gebacken mit Zwiebel ist die diaspora-taugliche Variante: weniger Pfannenchaos als frittiert, klarer Geschmack. Der Wigilia-Speiseplan bleibt das passende Rezept für Menüreihenfolge und Anlass; hier bleibt der Koch-Intent „Karp Rezept“.",
     originPl:
-      "Karp jest dla wielu domów ciepłą rybą Wigilii — nie sztywny kanon, ale mocny sygnał. Pieczony z cebulą to wariant pod diasporę: mniej chaosu niż smażenie, czytelny smak. Menu wigilijne zostaje ownerem kolejności i okazji; tu zostaje cook-intent „karp przepis”.",
+      "Karp jest dla wielu domów ciepłą rybą Wigilii — nie sztywny kanon, ale mocny sygnał. Pieczony z cebulą to wariant pod diasporę: mniej chaosu niż smażenie, czytelny smak. Menu wigilijne zostaje przepisem na kolejności i okazji; tu zostaje Rezept „karp przepis”.",
     shopDe:
       "Frisch oder tiefgekühlt an der Fischtheke / im Polenladen. Zwiebel, Zitrone, Majoran, Dill. Majeranek-Lexikon für das Gewürz; Polenladen-Guide für den Einkaufstag. Gräten und Portionsgröße vorher klären — Kinderportionen oft filetiert.",
     shopPl:
@@ -1134,9 +1134,9 @@ const FACTS: Record<string, ArticleFacts> = {
     mistakesPl:
       "Za gorąco i za długo = suchy. Za mało kwasu = mdły. Duplikować menu zamiast linkować. Mieszać intent ze śledziem.",
     variantsDe:
-      "In Gelee (galareta), paniert gebraten, oder moderne Alternative Lachs — ehrlich benennen. Kalter Hering: eigene Money Page Śledź.",
+      "In Gelee (galareta), paniert gebraten, oder moderne Alternative Lachs — ehrlich benennen. Kalter Hering: eigene Rezeptseite Śledź.",
     variantsPl:
-      "W galarecie, smażony w panierce albo nowoczesna alternatywa łosoś — nazywać uczciwie. Zimny śledź: osobna money page.",
+      "W galarecie, smażony w panierce albo nowoczesna alternatywa łosoś — nazywać uczciwie. Zimny śledź: osobna Rezeptseite.",
   },
   "recipe-krokiety": {
     dishDe: "Krokiety",
@@ -1144,9 +1144,9 @@ const FACTS: Record<string, ArticleFacts> = {
     vibeDe: "knusprig außen, weich innen, barszczfreundlich",
     vibePl: "chrupiące na zewnątrz, miękkie w środku, do barszczu",
     originDe:
-      "Krokiety sind gerollte, panierte Naleśniki — klassisch mit Kraut und Pilzen, oft neben klarem Barszcz. Sie sind keine reine Naleśniki-Dessertseite und kein Duplikat von Pierogi Kraut-Pilze: eigene Form (Rolle + Panade), eigener Primary-KW „Krokiety Rezept“.",
+      "Krokiety sind gerollte, panierte Naleśniki — klassisch mit Kraut und Pilzen, oft neben klarem Barszcz. Sie sind keine reine Naleśniki-Dessertseite und kein Duplikat von Pierogi Kraut-Pilze: eigene Form (Rolle + Panade), eigener Fokus „Krokiety Rezept“.",
     originPl:
-      "Krokiety to zwinięte, panierowane naleśniki — klasycznie z kapustą i grzybami, często obok klarownego barszczu. To nie deserowe naleśniki i nie duplikat pierogów z kapustą: własna forma (rolka + panierka), własne primary KW „krokiety przepis”.",
+      "Krokiety to zwinięte, panierowane naleśniki — klasycznie z kapustą i grzybami, często obok klarownego barszczu. To nie deserowe naleśniki i nie duplikat pierogów z kapustą: własna forma (rolka + panierka), własne fokus KW „krokiety przepis”.",
     shopDe:
       "Mehl, Milch, Eier für den Teig; Sauerkraut, getrocknete Pilze, Zwiebel für die Füllung; Semmelbrösel und Fett zum Braten. Naleśniki-Guide für Teiggefühl; Kiszenie/Polenladen für Kraut und Pilze; Panieren-Guide für die Panade-Logik.",
     shopPl:
@@ -1156,17 +1156,17 @@ const FACTS: Record<string, ArticleFacts> = {
     techniquePl:
       "Cienkie naleśniki, suchy farsz, mocno zwijać, panierować, smażyć na złoto. Farsz ostudzony. Za mokry = pękają; za gruby = ciasto dominuje.",
     serveDe:
-      "Heiß mit klarem Barszcz oder allein mit Śmietana. Reste erneut in der Pfanne knusprig machen. Uszka sind verwandter Wigilia-Partner, aber kleine Teigtaschen — andere Money Page.",
+      "Heiß mit klarem Barszcz oder allein mit Śmietana. Reste erneut in der Pfanne knusprig machen. Uszka sind verwandter Wigilia-Partner, aber kleine Teigtaschen — andere Rezeptseite.",
     servePl:
-      "Gorące z klarownym barszczem albo same ze śmietaną. Resztki odsmażyć na chrupko. Uszka to pokrewny partner Wigilii, ale małe pierożki — inna money page.",
+      "Gorące z klarownym barszczem albo same ze śmietaną. Resztki odsmażyć na chrupko. Uszka to pokrewny partner Wigilii, ale małe pierożki — inna Rezeptseite.",
     diasporaDe:
       "Wochenendprojekt: vormittags Teig und Füllung, nachmittags rollen und braten. Freezer: geformte Rollen vor dem Panieren einfrieren; paniert frisch braten.",
     diasporaPl:
       "Projekt weekendowy: rano ciasto i farsz, po południu zwijać i smażyć. Freezer: uformowane rolki przed panierowaniem; panierowane smażyć świeżo.",
     mistakesDe:
-      "Nasse Füllung, zu dicke Pfannkuchen, kaltes Fett, Panade abplatzen lassen. Barszcz- oder Naleśniki-Primary-KW stehlen.",
+      "Nasse Füllung, zu dicke Pfannkuchen, kaltes Fett, Panade abplatzen lassen. Barszcz- oder Naleśniki-Hitze, Feuchtigkeit oder Garzeit falsch einschätzen.",
     mistakesPl:
-      "Mokry farsz, za grube naleśniki, zimny tłuszcz, odpadająca panierka. Kradzież primary KW barszczu lub naleśników.",
+      "Mokry farsz, za grube naleśniki, zimny tłuszcz, odpadająca panierka. Kradzież fokus KW barszczu lub naleśników.",
     variantsDe:
       "Mit Fleischfüllung, mit Champignons statt Trockenpilzen, vegetarisch streng ohne Speck. Pierogi Kraut-Pilze bleiben gefaltete Variante derselben Aromen.",
     variantsPl:
@@ -1178,9 +1178,9 @@ const FACTS: Record<string, ArticleFacts> = {
     vibeDe: "cremig, festlich, nach Twaróg und Vanille",
     vibePl: "kremowy, świąteczny, z twarogu i wanilii",
     originDe:
-      "Sernik ist der polnische Käsekuchen auf Twaróg-Basis — dichter und oft höher als mancher deutscher Käsekuchen. Er gehört zum Back-Silo neben Makowiec, ohne dessen Primary Keywords zu übernehmen: Makowiec bleibt Mohn-Rollenkuchen; Sernik bleibt Käsekuchen. Makowiec-Technik hilft bei Ofengeduld und Festtagsplanung, nicht als Rezept-Owner.",
+      "Sernik ist der polnische Käsekuchen auf Twaróg-Basis — dichter und oft höher als mancher deutscher Käsekuchen. Er gehört zum Back-Silo neben Makowiec, ohne dessen Fokus zu übernehmen: Makowiec bleibt die Mohnrolle; Sernik bleibt der Käsekuchen. Der Makowiec-Technik-Guide hilft bei Ofengeduld und Festtagsplanung.",
     originPl:
-      "Sernik to polski sernik na twarogu — gęstszy i często wyższy niż niejedne niemieckie serniki. Należy do silosu pieczenia obok makowca, bez przejmowania jego primary keywords: makowiec zostaje roladą makową; sernik zostaje sernikiem. Technika makowca pomaga przy piecu i planie świąt, nie jako owner przepisu.",
+      "Sernik to polski sernik na twarogu — gęstszy i często wyższy niż niejedne niemieckie serniki. Należy do silosu pieczenia obok makowca, bez przejmowania jego Fokus: makowiec zostaje roladą makową; sernik zostaje sernikiem. Technika makowca pomaga przy piecu i planie świąt, nie jako owner przepisu.",
     shopDe:
       "Twaróg sernikowy oder gut abgetropfter Speisequark, Eier, Zucker, Butter, etwas Bindung (Mehl/Pudding), Vanille, optional Mürbeteigboden. Twaróg-Guide und Ersatzprodukte für DE-Einkauf; Polenladen für typische Quarkqualität.",
     shopPl:
@@ -1202,7 +1202,7 @@ const FACTS: Record<string, ArticleFacts> = {
     mistakesPl:
       "Za mokry twaróg, zbyt gorący piec, zbyt wczesne krojenie, kradzież słów kluczowych makowca w title. Surowy spód przez za krótki czas.",
     variantsDe:
-      "Ohne Boden, mit Rosinen, mit Schokotropfen (modern), kleinerer Springform. Makowiec bleibt Mohnrolle — eigener Rezept-Owner.",
+      "Ohne Boden, mit Rosinen, mit Schokotropfen (modern), kleinerer Springform. Makowiec bleibt die Mohnrolle — anderes Rezept.",
     variantsPl:
       "Bez spodu, z rodzynkami, z czekoladą (nowocześnie), mniejsza tortownica. Makowiec zostaje roladą makową — osobny owner.",
   },
@@ -1212,9 +1212,9 @@ const FACTS: Record<string, ArticleFacts> = {
     vibeDe: "kalt, zwiebelig, salzig-fettig zum Brot",
     vibePl: "zimny, cebulowy, słono-tłusty do chleba",
     originDe:
-      "Śledź ist der kalte Fischgang vieler Wigilia-Tische und zugleich Alltagsteller mit Brot. In Öl mit Zwiebel ist die klarste diaspora-Variante: wenig Technik, viel Ziehenlassen. Owner für „Śledź Rezept“; Wigilia-Speiseplan bleibt Menü-Owner; Karp bleibt warmer Fisch.",
+      "Śledź ist der kalte Fischgang vieler Wigilia-Tische und zugleich Alltagsteller mit Brot. In Öl mit Zwiebel ist die klarste diaspora-Variante: wenig Technik, viel Ziehenlassen. Rezeptseite für „Śledź Rezept“; Wigilia-Speiseplan bleibt Menü-Artikel; Karp bleibt warmer Fisch.",
     originPl:
-      "Śledź to zimna ryba wielu stołów wigilijnych i zarazem codzienny talerz z chlebem. W oleju z cebulą to najczytelniejszy wariant diasporowy: mało techniki, dużo marynowania. Owner „śledź przepis”; menu wigilijne zostaje ownerem menu; karp zostaje rybą ciepłą.",
+      "Śledź to zimna ryba wielu stołów wigilijnych i zarazem codzienny talerz z chlebem. W oleju z cebulą to najczytelniejszy wariant diasporowy: mało techniki, dużo marynowania. menu wigilijne zostaje przepisem na menu; karp zostaje rybą ciepłą.",
     shopDe:
       "Matjes oder Salzheringfilets (Polenladen/Kühltruhe), Zwiebeln, neutrales Öl, Lorbeer, Piment. Abtropfen und bei Bedarf wässern. Polenladen-Guide für Marken; Ersatzprodukte wenn nur Rollmops verfügbar — ehrlich umdeklarieren.",
     shopPl:
@@ -1232,9 +1232,9 @@ const FACTS: Record<string, ArticleFacts> = {
     diasporaPl:
       "Przygotować 23., podać 24. — zero stresu pieca obok barszczu i karpia. Resztki trzymają się w lodówce kilka dni.",
     mistakesDe:
-      "Zu salzig ohne Wässern, zu wenig Öl, warme Lagerung. Karp- oder Speiseplan-Primary stehlen. Mit Rollmops-Sauce als „klassisch“ verkaufen ohne Hinweis.",
+      "Zu salzig ohne Wässern, zu wenig Öl, warme Lagerung. Karp- oder Speiseplan-Hitze, Feuchtigkeit oder Garzeit falsch einschätzen. Mit Rollmops-Sauce als „klassisch“ verkaufen ohne Hinweis.",
     mistakesPl:
-      "Za słony bez namaczania, za mało oleju, trzymanie w cieple. Kradzież primary karpia lub menu. Rolmops w sosie jako „klasyka” bez dopisku.",
+      "Za słony bez namaczania, za mało oleju, trzymanie w cieple. Kradzież fokus karpia lub menu. Rolmops w sosie jako „klasyka” bez dopisku.",
     variantsDe:
       "Śledź w śmietanie, po kaszubsku mit Apfel, mit Senf. Sahnevariante: Śmietana-Lexikon. Anderer Fisch warm: Karp.",
     variantsPl:
@@ -1309,83 +1309,70 @@ Object.assign(FACTS, W14_FACTS_A, W14_FACTS_B, W14_FACTS_C, W14_FACTS_D);
 function expand(locale: Locale, f: ArticleFacts): string {
   if (locale === "de") {
     return [
-      `${f.dishDe} ist ${f.vibeDe}. Auf Alemniam findest du dieses Rezept bewusst in zwei Modi: Einkaufen und Kochen. Dieselbe Seite, ohne Hin- und Herspringen zwischen Tabs. So bleibt der Fokus dort, wo er hingehört: bei den Zutaten im Laden und bei den Schritten in der Küche.`,
+      `${f.dishDe} ist ${f.vibeDe}. Auf Alemniam hast du Einkaufen und Kochen auf derselben Seite: Liste abhaken, dann Schritte führen, ohne zwischen Tabs zu springen.`,
       `## Herkunft und Charakter`,
       f.originDe,
-      `Gerade für Menschen mit polnischen Wurzeln in Deutschland ist ${f.dishDe} mehr als „ein Rezept“. Es ist Geschmackserinnerung, Sprache am Tisch und oft der Moment, in dem Kinder zum ersten Mal mithelfen. Deshalb beschreiben wir nicht nur Mengen, sondern auch den Alltag darumherum: wo man Zutaten findet, was man ersetzen kann, und welche Fehler das Gericht unnötig schwer machen.`,
+      `Für viele mit polnischen Wurzeln in Deutschland ist ${f.dishDe} Geschmackserinnerung und oft der Moment, in dem Kinder zum ersten Mal mithelfen. Deshalb stehen hier nicht nur Mengen, sondern auch Einkauf, Ersatz und die Fehler, die das Gericht unnötig schwer machen.`,
       `## Zutaten in Deutschland finden`,
       f.shopDe,
-      `Ein praktischer Einkaufsablauf sieht so aus: Zuerst prüfen, was im deutschen Supermarkt zuverlässig liegt (Gemüse, Milchprodukte, Grundgewürze). Danach der Polenladen für die Produkte, die den Charakter tragen. So sparst du Zeit und vermeidest Kompromisse, die den Geschmack verwässern. Im Einkaufsmodus dieses Rezepts sind die Zutaten bereits nach Gruppen sortiert. Kühlung, Vorrat, Polenladen. Damit du im Gang nicht zurücklaufen musst.`,
-      `Viele Zutaten haben deutsche Etiketten mit anderen Namen. Deshalb stehen bei Bedarf Hinweise wie „in DE oft unter …“ direkt an der Zutat. Das ist keine Spielerei, sondern der Unterschied zwischen einem gelungenen Abendessen und einer frustrierten Suche im Regal.`,
+      `Praktisch: zuerst den deutschen Supermarkt für Gemüse, Milchprodukte und Grundgewürze, dann den Polenladen für das, was den Charakter trägt. Im Einkaufsmodus sind die Zutaten nach Kühlung, Vorrat und Polenladen sortiert. Wo Etiketten anders heißen, steht der DE-Hinweis direkt an der Zutat.`,
       `## Technik, die den Unterschied macht`,
       f.techniqueDe,
-      `Gute polnische Hausmannskost wirkt einfach, ist aber selten nachlässig. Temperatur, Zeit und Reihenfolge entscheiden mehr als exotische Zutaten. Wenn du zum ersten Mal kochst, lies die Schritte einmal komplett, stelle die Schüsseln bereit und wechsle dann in den Kochmodus: großer Schritttext, Tipps direkt am aktiven Schritt, Portionen skalierbar.`,
+      `Temperatur, Zeit und Reihenfolge entscheiden mehr als exotische Zutaten. Lies die Schritte einmal durch, stelle Schüsseln bereit und wechsle dann in den Kochmodus: großer Schritttext, Tipps am aktiven Schritt, Portionen skalierbar.`,
       `## Portionen, Timing und Alltag`,
-      `Plane realistisch: Vorbereitung und Garzeit addieren sich. Wer nach der Arbeit kocht, kann manches vorbereiten. Zwiebeln schneiden, Teig ruhen lassen, Brühe ziehen. ${f.dishDe} verzeiht in der Regel Reste und Aufwärmen; oft gewinnt das Gericht sogar, wenn Aromen Zeit hatten sich zu verbinden.`,
-      `Für Familien lohnt sich das Skalieren der Portionen. Die Mengen im Rezept rechnen mit, sowohl in der kompakten Zutatenliste beim Kochen als auch in der Checkliste beim Einkaufen. So entsteht weniger Food Waste und weniger Stress an der Kasse.`,
+      `Vorbereitung und Garzeit addieren sich. Wer nach der Arbeit kocht, kann Zwiebeln schneiden, Teig ruhen lassen oder Brühe vorziehen. ${f.dishDe} verzeiht oft Reste und Aufwärmen; manchmal wird es am zweiten Tag sogar runder. Portionen lassen sich in der Zutatenliste und der Einkaufsliste mitrechnen.`,
       `## Servieren und Reste`,
       f.serveDe,
-      `Reste gehören zur Kultur dieses Essens. Manche Gerichte schmecken am zweiten Tag runder, andere werden in der Pfanne neu erfunden. Bewahre luftdicht, beschrifte Behälter, und friere Portionen ein, wenn du für volle Wochen vorsorgen willst.`,
+      `Reste luftdicht lagern, Behälter beschriften, Portionen einfrieren, wenn die Woche voll wird. Manche Gerichte schmecken am Folgetag besser, andere kommen in der Pfanne neu auf den Tisch.`,
       `## Leben zwischen Polen und Deutschland`,
       f.diasporaDe,
-      `Alemniam denkt diesen Alltag mit: bilingual, praxisnah, ohne Folklore-Theater. Der Mode-Wechsel auf der Rezeptseite ist genau dafür da. Morgens Liste abhaken, abends Schritte führen. Ohne die Seite zu verlassen und ohne SEO-Text im Weg zu haben. Der ausführliche Hintergrundartikel steht bewusst unter dem Küchen-UI.`,
+      `Alemniam denkt diesen Alltag mit: bilingual und praxisnah. Morgens die Liste, abends die Schritte. Der längere Text darunter liefert Kontext, ohne den Kochmodus zu blockieren.`,
       `## Typische Fehler`,
       f.mistakesDe,
-      `Wenn etwas schiefgeht: Notiere kurz, was passiert ist. Beim nächsten Mal reicht oft eine kleine Korrektur. Weniger Flüssigkeit, mehr Hitze, längere Ruhe. Kochen ist Wiederholung mit Verbesserung, kein einmaliger Perfektionszwang.`,
+      `Wenn etwas schiefgeht: kurz notieren. Oft reicht weniger Flüssigkeit, mehr Hitze oder etwas mehr Ruhe. Kochen ist Wiederholung mit Verbesserung.`,
       `## Varianten und Weiteressen`,
       f.variantsDe,
-      `Zum Aufbau echter Topical Authority gehören auch Verbindungen: ähnliche Techniken, verwandte Feiertagsgerichte, regionale Varianten. Von hier aus lohnt der Blick auf weitere Klassiker bei Alemniam. Nicht als Ablenkung, sondern als Küche, die zusammenhängt.`,
-      `## Geschmack, Textur und warum Details zählen`,
-      `Was ${f.dishDe} besonders macht, ist selten eine geheime Zutat. Es ist die Summe aus Produktqualität, Hitzeführung und dem Mut, abzuschmecken. Salz nicht nur am Anfang, Säure nicht nur aus Gewohnheit, Fett nicht als Schuldgefühl, sondern als Träger von Aroma. In der polnischen Hausküche ist das selbstverständlich: Man kostet, korrigiert, kostet wieder.`,
-      `Wenn du in einer deutschen Küche kochst, ändern sich manchmal die Rohstoffe: anderes Mehl, anderes Quark, anderes Fleisch. Genau deshalb sind Ersatzhinweise und Laden-Tipps Teil dieses Rezepts. Ziel ist nicht museumsgleiche Reproduktion, sondern ein Ergebnis, das sich nach ${f.dishDe} anfühlt. Warm, wiedererkennbar, einladend.`,
-      `## Für Einsteiger und Wiedereinsteiger`,
-      `Einsteiger sollten die Schritte einmal in Ruhe lesen, Zutaten bereitstellen und dann im Kochmodus nur noch den aktiven Schritt anschauen. Wiedereinsteiger können schneller arbeiten, aber gerade bei Teig, Panade oder Brühe lohnt die kurze Pause vor dem nächsten Schritt. Kinder können abmessen, waschen, rühren. Die schweren oder heißen Schritte bleiben bei Erwachsenen.`,
-      `## SEO-Hinweis in Klartext`,
-      `Dieser Artikel ergänzt das Rezept bewusst mit Kontext zu Herkunft, Einkauf in Deutschland, Technik, Fehlern und Varianten. So entsteht nicht nur eine Zutatenliste, sondern ein vollständiger Leitfaden rund um ${f.dishDe}. Nützlich für Menschen, die suchen, lernen und dann wirklich kochen.`,
+      `Ähnliche Techniken, Feiertagsgerichte und regionale Varianten hängen zusammen. Von hier aus lohnen weitere Klassiker auf Alemniam, wenn du denselben Geschmackskreis vertiefen willst.`,
+      `## Geschmack und Details`,
+      `Was ${f.dishDe} besonders macht, ist selten eine geheime Zutat. Es ist Produktqualität, Hitzeführung und Abschmecken: Salz, Säure und Fett bewusst einsetzen. In einer deutschen Küche sind Mehl, Quark oder Fleisch manchmal anders. Ersatzhinweise und Laden-Tipps gehören deshalb zum Rezept. Ziel ist ein Ergebnis, das sich nach ${f.dishDe} anfühlt.`,
+      `## Vor dem Start`,
+      `Schritte einmal lesen, Zutaten bereitstellen, dann im Kochmodus nur den aktiven Schritt anschauen. Bei Teig, Panade oder Brühe lohnt eine kurze Pause vor dem nächsten Schritt. Kinder können abmessen, waschen und rühren; heiße und schwere Schritte bleiben bei Erwachsenen.`,
       `## Kurzfazit`,
-      `${f.dishDe} gelingt, wenn Zutaten stimmen, Technik klar ist und der Ablauf zum Leben passt. Nutze den Einkaufsmodus für die Liste, den Kochmodus für die Schritte, und diesen Text für Kontext, Motivation und die Details, die aus „irgendwas mit …“ wieder ${f.dishDe} machen.`,
+      `${f.dishDe} gelingt, wenn Zutaten stimmen, Technik klar ist und der Ablauf zum Alltag passt. Einkaufsmodus für die Liste, Kochmodus für die Schritte, dieser Text für Kontext und die Details, die aus „irgendwas mit …“ wieder ${f.dishDe} machen.`,
     ].join("\n\n");
   }
 
   return [
-    `${f.dishPl} jest ${f.vibePl}. Na Alemniam przepis ma dwa tryby: zakupy i gotowanie. Ta sama strona, bez skakania między zakładkami. Skupienie zostaje tam, gdzie trzeba: przy składnikach w sklepie i przy krokach w kuchni.`,
+    `${f.dishPl} jest ${f.vibePl}. Na Alemniam zakupy i gotowanie są na tej samej stronie: odhacz listę, potem prowadź kroki, bez skakania między zakładkami.`,
     `## Pochodzenie i charakter`,
     f.originPl,
-    `Dla osób z polskimi korzeniami w Niemczech ${f.dishPl} to więcej niż „przepis”. To pamięć smaku, język przy stole i często moment, gdy dzieci pomagają pierwszy raz. Dlatego opisujemy nie tylko ilości, ale też codzienność wokół: gdzie kupić składniki, co zamienić i jakie błędy niepotrzebnie utrudniają danie.`,
+    `Dla wielu z polskimi korzeniami w Niemczech ${f.dishPl} to pamięć smaku i często moment, gdy dzieci pomagają pierwszy raz. Dlatego są tu nie tylko ilości, ale też zakupy, zamienniki i błędy, które niepotrzebnie utrudniają danie.`,
     `## Składniki w Niemczech`,
     f.shopPl,
-    `Praktyczna trasa zakupów: najpierw niemiecki supermarket (warzywa, nabiał, podstawowe przyprawy), potem polski sklep po produkty, które budują charakter. Oszczędzasz czas i unikasz kompromisów, które rozwadniają smak. W trybie zakupów składniki są pogrupowane. Chłodnia, spiżarnia, polski sklep. Żeby nie wracać po alejce.`,
-    `Wiele produktów ma inne nazwy na niemieckich etykietach. Dlatego przy składnikach pojawiają się wskazówki „w DE często jako …”. To nie ozdobnik, tylko różnica między udaną kolacją a frustracją przy półce.`,
+    `Praktycznie: najpierw niemiecki supermarket na warzywa, nabiał i podstawowe przyprawy, potem polski sklep po to, co buduje charakter. W trybie zakupów składniki są pogrupowane: chłodnia, spiżarnia, polski sklep. Gdzie etykiety mają inne nazwy, wskazówka stoi przy składniku.`,
     `## Technika, która robi różnicę`,
     f.techniquePl,
-    `Dobra polska kuchnia domowa wygląda prosto, ale rzadko jest niedbała. Temperatura, czas i kolejność decydują bardziej niż egzotyczne dodatki. Przy pierwszym razie przeczytaj kroki, przygotuj miski, a potem przełącz tryb gotowania: duży tekst kroku, wskazówki przy aktywnym kroku, porcje do skalowania.`,
+    `Temperatura, czas i kolejność decydują bardziej niż egzotyczne dodatki. Przeczytaj kroki, przygotuj miski, potem włącz tryb gotowania: duży tekst kroku, wskazówki przy aktywnym kroku, porcje do skalowania.`,
     `## Porcje, czas i codzienność`,
-    `Planuj realistycznie: przygotowanie i gotowanie się sumują. Po pracy część rzeczy da się zrobić wcześniej. ${f.dishPl} zwykle dobrze znosi odgrzewanie; często zyskuje, gdy smaki mają czas się połączyć.`,
-    `Dla rodzin warto skalować porcje. Ilości w przepisie przeliczają się w liście przy gotowaniu i w checkliście zakupów. Mniej marnowania, mniej stresu przy kasie.`,
+    `Przygotowanie i gotowanie się sumują. Po pracy część rzeczy da się zrobić wcześniej. ${f.dishPl} zwykle dobrze znosi odgrzewanie; czasem smakuje lepiej następnego dnia. Porcje przeliczają się w liście przy gotowaniu i w checkliście zakupów.`,
     `## Podawanie i resztki`,
     f.servePl,
-    `Resztki należą do kultury tego jedzenia. Jedne dania smakują lepiej następnego dnia, inne wracają na patelnię w nowej formie. Przechowuj szczelnie i mroź porcje na pracowity tydzień.`,
+    `Resztki trzymaj szczelnie, podpisz pojemniki, mroź porcje na pracowity tydzień. Jedne dania zyskują nazajutrz, inne wracają na patelnię w nowej formie.`,
     `## Życie między Polską a Niemcami`,
     f.diasporaPl,
-    `Alemniam myśli o tej codzienności: dwujęzycznie, praktycznie, bez folkorystycznego teatru. Przełącznik trybów na stronie przepisu jest właśnie po to. Rano lista, wieczorem kroki. Bez opuszczania strony i bez ściany SEO-tekstu na drodze. Dłuższy artykuł jest świadomie pod UI kuchennym.`,
+    `Alemniam myśli o tej codzienności: dwujęzycznie i praktycznie. Rano lista, wieczorem kroki. Dłuższy tekst pod spodem daje kontekst, nie blokując trybu gotowania.`,
     `## Typowe błędy`,
     f.mistakesPl,
-    `Gdy coś pójdzie nie tak: zanotuj krótko. Następnym razem często wystarczy drobna korekta. Gotowanie to powtarzanie z poprawą, nie jednorazowy przymus perfekcji.`,
+    `Gdy coś pójdzie nie tak: zanotuj krótko. Często wystarczy mniej płynu, więcej ognia albo dłuższy odpoczynek. Gotowanie to powtarzanie z poprawą.`,
     `## Warianty i dalsze jedzenie`,
     f.variantsPl,
-    `Budowanie topical authority to też połączenia: podobne techniki, święta, regionalne wersje. Stąd warto zajrzeć do innych klasyków na Alemniam. Jako kuchnia, która się spaja.`,
-    `## Smak, tekstura i dlaczego detale mają znaczenie`,
-    `To, co robi z ${f.dishPl} coś wyjątkowego, rzadko jest tajnym składnikiem. To suma jakości produktów, prowadzenia ognia i odwagi, by doprawiać. Sól nie tylko na początku, kwas nie tylko z przyzwyczajenia, tłuszcz nie jako wyrzut sumienia, lecz nośnik aromatu. W polskiej kuchni domowej to oczywiste: smakujesz, poprawiasz, smakujesz znowu.`,
-    `Gdy gotujesz w niemieckiej kuchni, bywa, że surowce są inne: inna mąka, inny twaróg, inne mięso. Dlatego zamienniki i wskazówki sklepowe są częścią przepisu. Celem nie jest muzealna kopia, tylko efekt, który smakuje jak ${f.dishPl}. Ciepło, rozpoznawalnie, gościnnie.`,
-    `## Dla początkujących i wracających do kuchni`,
-    `Początkujący powinni raz spokojnie przeczytać kroki, przygotować składniki i w trybie gotowania patrzeć tylko na aktywny krok. Wracający mogą iść szybciej, ale przy cieście, panierce czy bulionie warto zrobić krótką pauzę. Dzieci mogą odmierzać, myć, mieszać. Gorące i trudne kroki zostają dla dorosłych.`,
-    `## Dlaczego ten dłuższy tekst`,
-    `Ten artykuł świadomie dopowiada kontekst: pochodzenie, zakupy w Niemczech, technikę, błędy i warianty. Powstaje nie tylko lista składników, lecz kompletny przewodnik wokół ${f.dishPl}. Dla tych, którzy szukają, uczą się i naprawdę gotują.`,
-    `## Checklist przed startem`,
-    `Zanim włączysz kuchenkę: składniki wyjęte, deska czysta, ścierka pod ręką, telefon w trybie gotowania z dużym tekstem kroku. Jeśli brakuje produktu z polskiego sklepu, sprawdź zamiennik w przepisie. Lepiej świadoma zamiana niż improwizacja w ostatniej chwili. Po zakupach odhacz listę, wróć na tę samą stronę i przełącz na Gotuj. To jest cały pomysł Alemniam: jedna strona, dwa zadania, zero chaosu.`,
-    `Jeśli gotujesz dla gości, policz porcje z zapasem. ${f.dishPl} często znika szybciej, niż myślisz, zwłaszcza gdy na stole pojawia się chleb i rozmowa wraca do domu. Zostaw sobie 10–15 minut buforu na podanie. Spokój przy talerzu smakuje lepiej niż pośpiech.`,
+    `Podobne techniki, święta i regionalne wersje się spajają. Stąd warto zajrzeć do innych klasyków na Alemniam, gdy chcesz ten sam krąg smaku.`,
+    `## Smak i detale`,
+    `To, co robi z ${f.dishPl} coś wyjątkowego, rzadko jest tajnym składnikiem. To jakość produktów, prowadzenie ognia i doprawianie. W niemieckiej kuchni mąka, twaróg czy mięso bywają inne. Dlatego zamienniki i wskazówki sklepowe są częścią przepisu. Celem jest efekt, który smakuje jak ${f.dishPl}.`,
+    `## Przed startem`,
+    `Przeczytaj kroki, przygotuj składniki, w trybie gotowania patrz tylko na aktywny krok. Przy cieście, panierce czy bulionie warto zrobić krótką pauzę. Dzieci mogą odmierzać, myć i mieszać; gorące i trudne kroki zostają dla dorosłych.`,
     `## Na skrócie`,
-    `${f.dishPl} wychodzi, gdy składniki grają, technika jest jasna, a przebieg pasuje do życia. Użyj trybu zakupów do listy, trybu gotowania do kroków, a tego tekstu do kontekstu i szczegółów, które z „czegoś jak …” znów robią ${f.dishPl}.`,
+    `${f.dishPl} wychodzi, gdy składniki grają, technika jest jasna, a przebieg pasuje do życia. Tryb zakupów do listy, tryb gotowania do kroków, ten tekst do kontekstu i szczegółów, które z „czegoś jak …” znów robią ${f.dishPl}.`,
   ].join("\n\n");
 }
 

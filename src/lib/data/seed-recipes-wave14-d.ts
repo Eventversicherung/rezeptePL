@@ -51,8 +51,8 @@ export const seedRecipesWave14D: Recipe[] = [
             text: "Zugedeckt 15–25 Minuten bei mittlerer Hitze köcheln, bis die Paprika weich und die Sauce gebunden ist. Abschmecken — Säure aus Tomate, Süße aus Paprika.",
           },
           {
-            text: "Heiß mit Brot oder Reis servieren. Optional ein Ei in Mulden einschlagen und zugedeckt stocken lassen. Alltagskontext: [Sonntagsessen](/de/blog/sonntagsessen-polnisch) — Kultur-Owner bleibt dort; hier nur der Cook.",
-            tip: "Nicht mit [Bigos](/de/rezepte/bigos) (Kraut-Fleisch) oder [Fasolka po bretońsku](/de/rezepte/fasolka-po-bretonsku) (Bohnen) verwechseln — andere Primary.",
+            text: "Heiß mit Brot oder Reis servieren. Optional ein Ei in Mulden einschlagen und zugedeckt stocken lassen. Alltagskontext: [Sonntagsessen](/de/blog/sonntagsessen-polnisch) — Kulturrahmen bleibt bei dort; hier nur der Cook.",
+            tip: "Nicht mit [Bigos](/de/rezepte/bigos) (Kraut-Fleisch) oder [Fasolka po bretońsku](/de/rezepte/fasolka-po-bretonsku) (Bohnen) verwechseln — anderes Gericht.",
           },
         ],
         seoTitle: "Leczo Rezept | Paprikagemüse polnisch | Alemniam",
@@ -80,8 +80,8 @@ export const seedRecipesWave14D: Recipe[] = [
             text: "Duś pod przykryciem 15–25 minut na średnim ogniu, aż papryka będzie miękka, a sos związany. Dopraw — kwas z pomidora, słodycz z papryki.",
           },
           {
-            text: "Podawaj gorące z chlebem lub ryżem. Opcjonalnie wbij jajko w zagłębienia i zestal pod przykryciem. Kontekst dnia: [obiad niedzielny](/pl/blog/obiad-niedzielny) — owner kultury zostaje tam; tu tylko cook.",
-            tip: "Nie mylić z [bigosem](/pl/rezepte/bigos) (kapusta-mięso) ani [fasolką po bretońsku](/pl/rezepte/fasolka-po-bretonsku) (fasola) — inne primary.",
+            text: "Podawaj gorące z chlebem lub ryżem. Opcjonalnie wbij jajko w zagłębienia i zestal pod przykryciem. Kontekst dnia: [obiad niedzielny](/pl/blog/obiad-niedzielny) — przewodnik kulturowy zostaje tam; tu tylko cook.",
+            tip: "Nie mylić z [bigosem](/pl/rezepte/bigos) (kapusta-mięso) ani [fasolką po bretońsku](/pl/rezepte/fasolka-po-bretonsku) (fasola) — inne przepisy.",
           },
         ],
         seoTitle: "Leczo przepis | Papryka pomidor kiełbasa | Alemniam",

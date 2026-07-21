@@ -37,7 +37,7 @@ export const seedRecipesWave13C: Recipe[] = [
         steps: [
           {
             text: "Hefe in lauwarmer Milch mit 1 TL Zucker auflösen, 10 Minuten gehen lassen, bis sie schäumt.",
-            tip: "Milch nur lauwarm — zu heiß tötet Hefe. Hefe-Feeling descriptiv: [Makowiec-Technik](/de/blog/makowiec-technik). Gugelhupf-Form ist ein anderer Primary: [Babka](/de/rezepte/babka).",
+            tip: "Milch nur lauwarm — zu heiß tötet Hefe. Hefe-Kontext: [Makowiec-Technik](/de/blog/makowiec-technik). Gugelhupf-Form ist ein anderes Gericht: [Babka](/de/rezepte/babka).",
           },
           {
             text: "Mit Mehl, restlichem Zucker, Eiern, weicher Butter, Prise Salz zu glattem, elastischem Teig kneten. Abgedeckt gehen lassen, bis verdoppelt (ca. 60–90 Min).",
@@ -52,7 +52,7 @@ export const seedRecipesWave13C: Recipe[] = [
           },
           {
             text: "Bei 180 °C (Umluft etwas niedriger) 30–35 Minuten goldbraun backen. Abkühlen auf Gitter. Warm oder lauwarm in Scheiben servieren.",
-            tip: "Am Ostertisch descriptiv: [Wielkanoc Speiseplan](/de/blog/wielkanoc-speiseplan) bleibt Anlass-Owner. Ersatzhinweise: [Ersatzprodukte DE](/de/blog/ersatzprodukte-de).",
+            tip: "Am Ostertisch [Wielkanoc Speiseplan](/de/blog/wielkanoc-speiseplan) bleibt Menü-Artikel. Ersatzhinweise: [Ersatzprodukte DE](/de/blog/ersatzprodukte-de).",
           },
         ],
         seoTitle: "Chałka Rezept | Polnisches Hefezopf-Brot | Alemniam",
@@ -67,7 +67,7 @@ export const seedRecipesWave13C: Recipe[] = [
         steps: [
           {
             text: "Rozpuść drożdże w letnim mleku z 1 łyżeczką cukru, odstaw 10 min aż spienieją.",
-            tip: "Mleko tylko letnie — za gorące zabija drożdże. Wyczucie drożdży opisowo: [technika makowca](/pl/blog/makowiec-technika). Forma babkowa to inny primary: [babka](/pl/rezepte/babka).",
+            tip: "Mleko tylko letnie — za gorące zabija drożdże. Wyczucie drożdży: [technika makowca](/pl/blog/makowiec-technika). Forma babkowa to inny fokus: [babka](/pl/rezepte/babka).",
           },
           {
             text: "Zagnieć z mąką, resztą cukru, jajkami, miękkim masłem i szczyptą soli na gładkie, elastyczne ciasto. Przykryte odstaw aż podwoi objętość (ok. 60–90 min).",
@@ -82,7 +82,7 @@ export const seedRecipesWave13C: Recipe[] = [
           },
           {
             text: "Piecz w 180 °C (termoobieg nieco niżej) 30–35 min na złoto. Ostudź na kratce. Kroić ciepłe lub letnie.",
-            tip: "Przy stole opisowo: [menu wielkanocne](/pl/blog/menu-wielkanocne) zostaje ownerem okazji. Zamienniki: [zamienniki składników](/pl/blog/zamienniki-skladnikow).",
+            tip: "Przy stole [menu wielkanocne](/pl/blog/menu-wielkanocne) zostaje przepisem na okazji. Zamienniki: [zamienniki składników](/pl/blog/zamienniki-skladnikow).",
           },
         ],
         seoTitle: "Chałka przepis | Polski chleb drożdżowy warkocz | Alemniam",
@@ -198,7 +198,7 @@ export const seedRecipesWave13C: Recipe[] = [
         steps: [
           {
             text: "Geflügelleber waschen, Sehnen entfernen. Zwiebel und Karotte grob würfeln; in Butter glasig dünsten, Leber kurz mitbraten (nicht durchgaren), abkühlen.",
-            tip: "Das ist Pastete/Terrine, keine Blutwurst — [Kaszanka](/de/rezepte/kaszanka) bleibt eigener Cook. Aufschnitt-Kontext descriptiv: [Kiełbasa-Arten](/de/blog/kielbasa-arten).",
+            tip: "Das ist Pastete/Terrine, keine Blutwurst — [Kaszanka](/de/rezepte/kaszanka) bleibt eigener Cook. Aufschnitt-Kontext [Kiełbasa-Arten](/de/blog/kielbasa-arten).",
           },
           {
             text: "Leber-Gemüse-Masse mit Eiern, eingeweichtem Brötchen (ausgedrückt), Majoran, Salz und Pfeffer fein pürieren, bis streichfähig-fein.",
@@ -212,7 +212,7 @@ export const seedRecipesWave13C: Recipe[] = [
           },
           {
             text: "In Scheiben schneiden, mit Brot, Meerrettich oder Senf servieren — kalt als Aufschnitt oder lauwarm.",
-            tip: "Menüplatz descriptiv: [Sonntagsessen](/de/blog/sonntagsessen-polnisch) oder [Wielkanoc](/de/blog/wielkanoc-speiseplan) — Speiseplan bleibt Anlass-Owner.",
+            tip: "Menüplatz: [Sonntagsessen](/de/blog/sonntagsessen-polnisch) oder [Wielkanoc](/de/blog/wielkanoc-speiseplan) — Speiseplan bleibt Menü-Artikel.",
           },
         ],
         seoTitle: "Pasztet Rezept | Polnische Pastete Geflügelleber | Alemniam",
@@ -227,7 +227,7 @@ export const seedRecipesWave13C: Recipe[] = [
         steps: [
           {
             text: "Wątróbkę opłucz, usuń żyłki. Cebulę i marchew pokrój grubo; zeszklij na maśle, dodaj wątróbkę krótko (nie doprowadzaj do pełnego ugotowania), ostudź.",
-            tip: "To pasztet/terrina, nie kaszanka — [kaszanka](/pl/rezepte/kaszanka) zostaje osobnym cook. Kontekst wędlin opisowo: [rodzaje kiełbasy](/pl/blog/rodzaje-kielbasy).",
+            tip: "To pasztet/terrina, nie kaszanka — [kaszanka](/pl/rezepte/kaszanka) zostaje osobnym cook. Kontekst wędlin [rodzaje kiełbasy](/pl/blog/rodzaje-kielbasy).",
           },
           {
             text: "Zmiksuj masę z jajkami, namoczoną i odciśniętą bułką, majerankiem, solą i pieprzem na gładko, do smarowania.",
@@ -241,7 +241,7 @@ export const seedRecipesWave13C: Recipe[] = [
           },
           {
             text: "Krój w plasterki; podawaj z chlebem, chrzanem lub musztardą — zimny jako wędlina albo letni.",
-            tip: "Miejsce w menu opisowo: [obiad niedzielny](/pl/blog/obiad-niedzielny) lub [menu wielkanocne](/pl/blog/menu-wielkanocne) — plan zostaje ownerem okazji.",
+            tip: "Miejsce w menu: [obiad niedzielny](/pl/blog/obiad-niedzielny) lub [menu wielkanocne](/pl/blog/menu-wielkanocne) — plan zostaje przepisem na okazji.",
           },
         ],
         seoTitle: "Pasztet przepis | Pasztet drobiowy domowy | Alemniam",

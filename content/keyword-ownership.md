@@ -127,6 +127,10 @@ Eine Primary KW = eine Owner-URL. Andere Seiten nur mit descriptive Anchors verl
 | Leczo / Paprikagemüse polnisch | `/rezepte/leczo` |
 | Placek po węgiersku / Ungarischer Kartoffelpuffer | `/rezepte/placek-po-wegiersku` |
 | Zapiekanka / Polnisches Baguette überbacken | `/rezepte/zapiekanka` |
+| Marchewka z groszkiem / Möhren Erbsen Beilage | `/rezepte/marchewka-groszek` |
+| Fasolka szparagowa po polsku / Grüne Bohnen polnisch | `/rezepte/fasolka-szparagowa` |
+
+**Intent-Trennung (Wave 15 C draft):** Marchewka z groszkiem = warme Möhren+Erbsen-Beilage (Butter/Glasur) ≠ Mizeria (kalt/Gurke) ≠ Buraczki (Rote Bete warm). Fasolka szparagowa = grüne Stangenbohnen-Beilage (Butter/Semmelbrösel) ≠ Fasolka po bretońsku Cook `/rezepte/fasolka-po-bretonsku` ≠ Fasolka-Guide Broad `/blog/fasolka-po-bretonsku` (Eintopf bleibt dort Primary; hier nur descriptive Anchors). Sonntagsessen bleibt Kultur-/Speiseplan-Owner.
 
 **Intent-Trennung (Wave 14 final):** Wuzetka = Kakao-Biskuit + Sahne + Schoko-Glasur ≠ Napoleonka (Blätterteig+Vanillecreme) ≠ Sernik ≠ Szarlotka ≠ Mazurek. Drożdżówka / Placek drożdżowy = Hefe-Blech/Teilchen mit Streusel (± Obst) ≠ Chałka (Zopf) ≠ Babka (Gugelhupf) ≠ Pączki ≠ Racuchy. Jajka faszerowane = gefüllte Eier (Eigelb-Mayo-Schnittlauch) ≠ Sałatka jarzynowa ≠ Mizeria ≠ Pasztet. Ćwikła = kalt geriebene Rote Bete + Meerrettich ≠ Buraczki (warm) ≠ Barszcz ≠ Botwinka ≠ Sałatka. Placek po węgiersku = composed Primary (Kartoffelpuffer **mit** Gulasch-Topping, Käse optional) ≠ Placki ziemniaczane alone ≠ Gulasz wieprzowy alone; Placki-Guide bleibt Broad-Owner. Zapiekanka = Baguette-Street (Pilze/Schinken/Käse) ≠ Krokiety ≠ Naleśniki ≠ Pierogi. Leczo = Paprika-Zwiebel-Tomaten-Eintopf (± Kiełbasa; Gemüse-dominant) ≠ Gulasz wieprzowy ≠ Bigos ≠ Fasolka. Wielkanoc / Sonntagsessen / Polenladen bleiben Anlass-/Kultur-/Einkauf-Owner.
 

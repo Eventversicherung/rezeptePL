@@ -46,7 +46,7 @@ export const seedRecipesWave12B: Recipe[] = [
           },
           {
             text: "Mohn (blau, möglichst gemahlen) mit heißer Milch oder Wasser kurz aufquellen lassen, abtropfen; mit Zucker, geschmolzener Butter und optional Honig, Rosinen und Zitronenschale zu einer streichfähigen, nicht tropfenden Masse rühren.",
-            tip: "Mohnqualität und Feiertagseinkauf: [Polenladen](/de/blog/polenladen-einkaufen). Masse-Feeling descriptiv wie im [Makowiec-Technik](/de/blog/makowiec-technik)-Guide — Primary bleibt Nudeln+Mohn, nicht Rollenkuchen.",
+            tip: "Mohnqualität und Feiertagseinkauf: [Polenladen](/de/blog/polenladen-einkaufen). Masse-Feeling wie im [Makowiec-Technik](/de/blog/makowiec-technik)-Guide — Fokus bleibt Nudeln+Mohn, nicht Rollenkuchen.",
           },
           {
             text: "Heiße Nudeln mit der Mohnmasse und Butter vermengen; bei Bedarf ein Schuss Nudelwasser für Bindung. Abschmecken: süß, mohnig, nicht bitter.",
@@ -72,7 +72,7 @@ export const seedRecipesWave12B: Recipe[] = [
           },
           {
             text: "Mak (niebieski, najlepiej mielony) zalej gorącym mlekiem lub wodą, odsącz; wymieszaj z cukrem, roztopionym masłem oraz opcjonalnie miodem, rodzynkami i skórką cytryny do smarownej, nie cieknącej masy.",
-            tip: "Jakość maku i zakupy świąteczne: [sklep polski](/pl/blog/sklep-polski-zakupy). Wyczucie masy opisowo jak w [technice makowca](/pl/blog/makowiec-technika) — primary zostaje makaron+mak, nie rolada.",
+            tip: "Jakość maku i zakupy świąteczne: [sklep polski](/pl/blog/sklep-polski-zakupy). Wyczucie masy jak w [technice makowca](/pl/blog/makowiec-technika) — fokus zostaje makaron+mak, nie rolada.",
           },
           {
             text: "Wymieszaj gorący makaron z masą makową i masłem; w razie potrzeby dodaj odrobinę wody z gotowania. Dopraw: słodko, makowo, bez goryczy.",
@@ -207,7 +207,7 @@ export const seedRecipesWave12B: Recipe[] = [
           },
           {
             text: "Boden in eine gefettete Form oder aufs Blech drücken; Apfelmasse verteilen; restlichen Teig als Gitter, Deckel oder Streusel darauf. Bei mittlerer Ofentemperatur goldbraun backen; Stäbchenprobe im Teig, Äpfel weich.",
-            tip: "Sonntagskaffee-Feeling descriptiv: [polnisches Sonntagsessen](/de/blog/sonntagsessen-polnisch) — Primary bleibt Szarlotka.",
+            tip: "Sonntagskaffee: [polnisches Sonntagsessen](/de/blog/sonntagsessen-polnisch) — Fokus bleibt Szarlotka.",
           },
           {
             text: "Auskühlen lassen, in Stücke schneiden; optional mit Puderzucker. Warm oder Zimmertemperatur zu Tee/Kaffee servieren.",
@@ -233,7 +233,7 @@ export const seedRecipesWave12B: Recipe[] = [
           },
           {
             text: "Wciśnij spód w natłuszczoną formę lub na blachę; rozłóż jabłka; resztę ciasta jako kratkę, pokrywę lub kruszonkę. Piecz na złoto w średniej temperaturze; patyczek w cieście, jabłka miękkie.",
-            tip: "Kawowe niedzielne wyczucie opisowo: [obiad niedzielny](/pl/blog/obiad-niedzielny) — primary zostaje szarlotka.",
+            tip: "Kawowe niedzielne wyczucie [obiad niedzielny](/pl/blog/obiad-niedzielny) — fokus zostaje szarlotka.",
           },
           {
             text: "Ostudź, pokrój w kawałki; opcjonalnie cukier puder. Podawaj ciepło lub w temperaturze pokojowej do herbaty/kawy.",

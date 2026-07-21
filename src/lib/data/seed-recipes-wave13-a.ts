@@ -41,11 +41,11 @@ export const seedRecipesWave13A: Recipe[] = [
           },
           {
             text: "Mit Wasser oder leichter Hühner-/Gemüsebrühe auffüllen; Lorbeer, Pfeffer und restliches Wurzelgemüse zugeben. Ruhig 35–45 Minuten köcheln, bis die Gerste weich und der Topf leicht bindet — nicht zu Erbsenbrei pürieren.",
-            tip: "Brühe-Technik descriptiv: [Rosół-Technik](/de/blog/rosol-technik). Einkauf oft [Polenladen](/de/blog/polenladen-einkaufen) für gute Gerste.",
+            tip: "Brühe-Technik [Rosół-Technik](/de/blog/rosol-technik). Einkauf oft [Polenladen](/de/blog/polenladen-einkaufen) für gute Gerste.",
           },
           {
             text: "Optional Hühnerstücke mitgaren oder vorgegartes Fleisch spät zugeben. Mit Salz abschmecken; Säure nur sparsam. Frischen Dill oder Petersilie einrühren. Das ist kein dunkler Trockenpilz-Fond wie [Zupa grzybowa](/de/rezepte/zupa-grzybowa).",
-            tip: "Menüplatz descriptiv: [polnisches Sonntagsessen](/de/blog/sonntagsessen-polnisch). Primary bleibt Krupnik.",
+            tip: "Menüplatz: [polnisches Sonntagsessen](/de/blog/sonntagsessen-polnisch). Fokus bleibt Krupnik.",
           },
           {
             text: "Heiß in tiefen Tellern servieren; Brot dazu. Reste halten sich und werden oft am zweiten Tag runder — Gerste zieht weiter Flüssigkeit, ggf. Brühe nachgießen.",
@@ -68,11 +68,11 @@ export const seedRecipesWave13A: Recipe[] = [
           },
           {
             text: "Zalej wodą lub lekkim bulionem; dodaj liść laurowy, pieprz i resztę warzyw. Gotuj spokojnie 35–45 minut, aż kasza zmięknie i zupa lekko zgęstnieje — nie blenduj na papkę.",
-            tip: "Technika bulionu opisowo: [jak ugotować rosół](/pl/blog/jak-ugotowac-rosol). Zakupy: [sklep polski](/pl/blog/sklep-polski-zakupy).",
+            tip: "Technika bulionu [jak ugotować rosół](/pl/blog/jak-ugotowac-rosol). Zakupy: [sklep polski](/pl/blog/sklep-polski-zakupy).",
           },
           {
             text: "Opcjonalnie dogotuj kurczaka lub dodaj ugotowane mięso późno. Dopraw solą; kwasu mało. Wymieszaj koperkiem lub pietruszką. To nie ciemny wywar z suszu jak [zupa grzybowa](/pl/rezepte/zupa-grzybowa).",
-            tip: "Miejsce w menu opisowo: [obiad niedzielny](/pl/blog/obiad-niedzielny). Primary zostaje krupnik.",
+            tip: "Miejsce w menu: [obiad niedzielny](/pl/blog/obiad-niedzielny). fokus zostaje krupnik.",
           },
           {
             text: "Podawaj gorącą w głębokich talerzach; chleb obok. Resztki często lepsze nazajutrz — kasza ciągnie płyn, dolej bulionu.",
@@ -199,7 +199,7 @@ export const seedRecipesWave13A: Recipe[] = [
           },
           {
             text: "Sauerampfer kurz in Butter oder Brühe zusammenfallen lassen, dann in den Topf. Nur wenige Minuten mitköcheln — zu lang wird die Farbe oliv und bitter. Mit Salz und Pfeffer abschmecken.",
-            tip: "Das ist Grün und Sauerampfer-Säure, nicht junge Rote Bete: [Botwinka](/de/rezepte/botwinka) bleibt anderer Primary. Auch nicht [Ogórkowa](/de/rezepte/ogorkowa).",
+            tip: "Das ist Grün und Sauerampfer-Säure, nicht junge Rote Bete: [Botwinka](/de/rezepte/botwinka) bleibt anderes Gericht. Auch nicht [Ogórkowa](/de/rezepte/ogorkowa).",
           },
           {
             text: "Vom Herd nehmen. Śmietana temperieren und einrühren — nicht kochend. Hartgekochte Eier halbieren oder würfeln und in die Teller legen; Dill darüber.",
@@ -207,7 +207,7 @@ export const seedRecipesWave13A: Recipe[] = [
           },
           {
             text: "Heiß servieren, solange die Suppe noch kräftig grün ist. Brot dazu. Reste kühlen; Farbe dunkelt nach — am besten frisch am gleichen Tag.",
-            tip: "Landschaft bleibt beim Pillar: [Polnische Suppen](/de/blog/polnische-suppen). Primary hier nur Szczawiowa.",
+            tip: "Überblick: [Polnische Suppen](/de/blog/polnische-suppen). hier geht es nur um Szczawiowa.",
           },
         ],
         seoTitle: "Szczawiowa Rezept | Sauerampfersuppe polnisch | Alemniam",
@@ -226,7 +226,7 @@ export const seedRecipesWave13A: Recipe[] = [
           },
           {
             text: "Szczaw krótko zwiędź na maśle lub w bulionie, potem do garnka. Gotuj tylko kilka minut — za długo kolor oliwkowy i gorzki. Dopraw solą i pieprzem.",
-            tip: "To zieleń i kwas szczawiu, nie młode buraki: [botwinka](/pl/rezepte/botwinka) to inny primary. Też nie [ogórkowa](/pl/rezepte/ogorkowa).",
+            tip: "To zieleń i kwas szczawiu, nie młode buraki: [botwinka](/pl/rezepte/botwinka) to inny fokus. Też nie [ogórkowa](/pl/rezepte/ogorkowa).",
           },
           {
             text: "Zdejmij z ognia. Zahartuj śmietanę i wmieszaj — nie do wrzątku. Jajka na twardo przekrój lub pokrój do talerzy; koperek.",
@@ -234,7 +234,7 @@ export const seedRecipesWave13A: Recipe[] = [
           },
           {
             text: "Podawaj gorącą, póki zupa jest wyraźnie zielona. Chleb obok. Resztki chłodź; kolor ciemnieje — najlepiej tego samego dnia.",
-            tip: "Krajobraz zostaje w pillarze: [polskie zupy](/pl/blog/polskie-zupy). Primary tu tylko szczawiowa.",
+            tip: "Przegląd: [polskie zupy](/pl/blog/polskie-zupy). tu chodzi tylko o szczawiowa.",
           },
         ],
         seoTitle: "Zupa szczawiowa przepis | Szczaw z jajkiem | Alemniam",

@@ -49,7 +49,7 @@ export const seedRecipesWave11D: Recipe[] = [
           },
           {
             text: "Heiße Sauce über den Fisch geben, so dass die Filets bedeckt sind. Abkühlen lassen; ideal mehrere Stunden oder über Nacht im Kühlschrank ziehen.",
-            tip: "Kalt servieren ist klassisch. Wer warmen Fischgang will, bleibt beim [Karp](/de/rezepte/karp) — anderer Cook-Primary.",
+            tip: "Kalt servieren ist klassisch. Wer warmen Fischgang will, bleibt beim [Karp](/de/rezepte/karp) — anderer Rezept.",
           },
           {
             text: "Mit Zitrone und Dill oder Petersilie servieren — als Vorspeise, Buffet oder Wigilia-Fischgang neben Barszcz und Pierogi.",
@@ -78,7 +78,7 @@ export const seedRecipesWave11D: Recipe[] = [
           },
           {
             text: "Gorący sos wylej na rybę tak, by filety były przykryte. Ostudź; najlepiej kilka godzin lub noc w lodówce.",
-            tip: "Na zimno to klasyka. Kto chce ciepłą rybę wigilijną, zostaje przy [karpie](/pl/rezepte/karp) — inny cook-primary.",
+            tip: "Na zimno to klasyka. Kto chce ciepłą rybę wigilijną, zostaje przy [karpie](/pl/rezepte/karp) — inny Rezept.",
           },
           {
             text: "Podawaj z cytryną i koperkiem lub pietruszką — jako przystawka, bufet lub ryba na Wigilię obok barszczu i pierogów.",
@@ -360,7 +360,7 @@ export const seedRecipesWave11D: Recipe[] = [
         title: "Kompot z suszu",
         slug: "kompot-z-suszu",
         excerpt:
-          "Dunkler Trockenobstkompot aus Pflaume, Apfel, Birne und Aprikose — Getränk und Dessert der Wigilia. Primary bleibt das Kompot, nicht der Speiseplan-Pillar.",
+          "Dunkler Trockenobstkompot aus Pflaume, Apfel, Birne und Aprikose — Getränk und Dessert der Wigilia. Fokus bleibt das Kompot, nicht der Speiseplan-Pillar.",
         steps: [
           {
             text: "Trockenobst (Pflaumen, Äpfel, Birnen, Aprikosen; optional Rosinen) abspülen. In einem großen Topf mit 2–2,5 l kaltem Wasser ansetzen; 30 Minuten einweichen, wenn die Früchte sehr hart sind.",
@@ -368,7 +368,7 @@ export const seedRecipesWave11D: Recipe[] = [
           },
           {
             text: "Mit Zimtstange, 2–3 Gewürznelken und optional Orangenschale aufsetzen. Einmal aufkochen, dann 30–40 Minuten bei kleiner Hitze köcheln, bis die Früchte weich und die Flüssigkeit aromatisch-dunkel ist.",
-            tip: "Anlass descriptiv: [Wigilia-Speiseplan](/de/blog/wigilia-speiseplan) — dort bleibt der Menü-Owner; hier der Cook-Primary Kompot.",
+            tip: "Anlass [Wigilia-Speiseplan](/de/blog/wigilia-speiseplan) — dort bleibt der Menü-Artikel; hier der Rezept Kompot.",
           },
           {
             text: "Mit Zucker oder Honig abschmecken — nicht übergießen; die Fruchtsüße soll tragen. Zimtstange und Nelken entfernen.",
@@ -383,13 +383,13 @@ export const seedRecipesWave11D: Recipe[] = [
         ],
         seoTitle: "Kompot z suszu Rezept | Trockenobstkompot | Alemniam",
         seoDescription:
-          "Kompot z suszu — polnischer Trockenobstkompot für Wigilia. Bilingual mit DE-Einkauf, klar als Getränk-Primary.",
+          "Kompot z suszu — polnischer Trockenobstkompot für Wigilia. Bilingual mit DE-Einkauf, klar als Getränk-Fokus.",
       },
       pl: {
         title: "Kompot z suszu",
         slug: "kompot-z-suszu",
         excerpt:
-          "Ciemny kompot z suszonych śliwek, jabłek, gruszek i moreli — napój i deser Wigilii. Primary zostaje kompot, nie pillar menu.",
+          "Ciemny kompot z suszonych śliwek, jabłek, gruszek i moreli — napój i deser Wigilii. fokus zostaje kompot, nie pillar menu.",
         steps: [
           {
             text: "Susz (śliwki, jabłka, gruszki, morele; opcjonalnie rodzynki) opłucz. Zalej 2–2,5 l zimnej wody; namocz 30 minut, jeśli owoce są bardzo twarde.",
@@ -397,7 +397,7 @@ export const seedRecipesWave11D: Recipe[] = [
           },
           {
             text: "Dodaj laskę cynamonu, 2–3 goździki i opcjonalnie skórkę pomarańczy. Zagotuj, potem gotuj 30–40 minut na małym ogniu, aż owoce zmiękną, a płyn będzie aromatyczny i ciemny.",
-            tip: "Okazja opisowo: [menu wigilijne](/pl/blog/menu-wigilijne) — tam owner planu; tu cook-primary kompotu.",
+            tip: "Okazja [menu wigilijne](/pl/blog/menu-wigilijne) — tam owner planu; tu Rezept kompotu.",
           },
           {
             text: "Dopraw cukrem lub miodem — nie przesładzaj; słodycz owoców ma prowadzić. Wyjmij cynamon i goździki.",
@@ -412,7 +412,7 @@ export const seedRecipesWave11D: Recipe[] = [
         ],
         seoTitle: "Kompot z suszu przepis | Kompot wigilijny | Alemniam",
         seoDescription:
-          "Kompot z suszu — polski kompot z suszonych owoców na Wigilię. Dwujęzycznie z zakupami w DE, primary napoju.",
+          "Kompot z suszu — polski kompot z suszonych owoców na Wigilię. Dwujęzycznie z zakupami w DE, fokus napoju.",
       },
     },
     ingredients: [

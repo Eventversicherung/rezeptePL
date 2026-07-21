@@ -35,7 +35,7 @@ export const W8_FACTS_A: Record<string, W8ArticleFacts> = {
     originPl:
       "Mizeria to klasyczna polska sałatka z ogórków ze śmietaną — nie chłodna zupa i nie [chłodnik](/pl/rezepte/chlodnik-litewski). Nazwa brzmi surowo, ale chodzi o prosty, orzeźwiający talerz obok mięsa. W wielu domach mizeria należy do niedzieli i Wielkanocy: chłodzi podniebienie po chrupiącym [kotlecie schabowym](/pl/rezepte/kotlet-schabowy) i daje kwas bez dominacji octu. Klucz to wilgotność: ogórek posolić, odciągnąć sok, dopiero potem łączyć ze śmietaną — inaczej z dodatku robi się kałuża.",
     shopDe:
-      "Feste Salat- oder Feldgurken, frischer Dill, und ein Milchprodukt mit klarer Rolle: Schmand oder saure Sahne statt „irgendeiner Sahne“. Welche Stufe wohin passt, erklärt der [Śmietana-und-Schmand-Guide](/de/blog/smietana-schmand) — dort bleibt Ownership für Alternativen; hier nur der Anwendungsfall Mizeria. Zucker und Pfeffer sparsam. Optional sehr feine Zwiebel. Einkaufstag und Spezialitäten: [Polenladen-Guide](/de/blog/polenladen-einkaufen).",
+      "Feste Salat- oder Feldgurken, frischer Dill, und ein Milchprodukt mit klarer Rolle: Schmand oder saure Sahne statt „irgendeiner Sahne“. Welche Stufe wohin passt, erklärt der [Śmietana-und-Schmand-Guide](/de/blog/smietana-schmand) — dort bleibt das passende Rezeptship für Alternativen; hier nur der Anwendungsfall Mizeria. Zucker und Pfeffer sparsam. Optional sehr feine Zwiebel. Einkaufstag und Spezialitäten: [Polenladen-Guide](/de/blog/polenladen-einkaufen).",
     shopPl:
       "Jędrne ogórki sałatkowe lub gruntowe, świeży koperek i nabiał z jasną rolą: Schmand albo kwaśna śmietana zamiast „byle jakiej śmietany”. Który produkt do czego — w [przewodniku śmietana/Schmand](/pl/blog/smietana-czy-schmand); tu tylko zastosowanie w mizerii. Cukier i pieprz oszczędnie. Opcjonalnie bardzo drobna cebula. Zakupy: [przewodnik po sklepie polskim](/pl/blog/sklep-polski-zakupy).",
     techniqueDe:
@@ -51,13 +51,13 @@ export const W8_FACTS_A: Record<string, W8ArticleFacts> = {
     diasporaPl:
       "W DE często szybciej niż myślisz: ogórki z supermarketu, Schmand z chłodni, koperek z doniczki. Planując niedzielę, mieszaj mizerię dopiero po smażeniu — równolegle do [panierowania](/pl/blog/panierowanie-kotlet) schabowego. Ramy menu: [obiad niedzielny](/pl/blog/obiad-niedzielny).",
     mistakesDe:
-      "Gurken nicht aussalzen → wässrige Sauce. Heiße Śmietana → trennt sich. Zu viel Zwiebel → überdeckt Dill. Mit Chłodnik verwechseln oder „Salat“-Primary auf kalte Suppen legen. Zu früh anmischen für Buffet.",
+      "Gurken nicht aussalzen → wässrige Sauce. Heiße Śmietana → trennt sich. Zu viel Zwiebel → überdeckt Dill. Mit Chłodnik verwechseln oder Salat-Rezept auf kalte Suppen legen. Zu früh anmischen für Buffet.",
     mistakesPl:
-      "Brak odsączenia → wodnisty sos. Gorąca śmietana → się rozdziela. Za dużo cebuli → gubi koperek. Mylenie z chłodnikiem albo kradzież primary „sałatki” na zupy. Mieszanie za wcześnie na bufet.",
+      "Brak odsączenia → wodnisty sos. Gorąca śmietana → się rozdziela. Za dużo cebuli → gubi koperek. Mylenie z chłodnikiem albo kradzież fokus „sałatki” na zupy. Mieszanie za wcześnie na bufet.",
     variantsDe:
-      "Mit Joghurt leichter; mit etwas Zitronensaft säuerlicher; ohne Zucker, wenn Gurken süß sind. Manche geben Knoblauch — ehrlich als Hausvariante benennen. Warm servieren ist nicht Mizeria. Fest-Buffetsalat mit Mayo-Gemüse (anderer Intent): [Sałatka jarzynowa](/de/rezepte/salatka-jarzynowa). Verwandte kühle Linie im Sommer: Chłodnik bleibt eigene Money Page.",
+      "Mit Joghurt leichter; mit etwas Zitronensaft säuerlicher; ohne Zucker, wenn Gurken süß sind. Manche geben Knoblauch — ehrlich als Hausvariante benennen. Warm servieren ist nicht Mizeria. Fest-Buffetsalat mit Mayo-Gemüse (anderer Intent): [Sałatka jarzynowa](/de/rezepte/salatka-jarzynowa). Verwandte kühle Linie im Sommer: Chłodnik bleibt eigene Rezeptseite.",
     variantsPl:
-      "Z jogurtem lżej; z cytryną kwaśniej; bez cukru, gdy ogórki słodkie. Czosnek — jako wariant domu. Na ciepło to nie mizeria. Sałatka bufetowa z majonezem (inny intent): [sałatka jarzynowa](/pl/rezepte/salatka-jarzynowa). Pokrewna linia latem: chłodnik zostaje osobną money page.",
+      "Z jogurtem lżej; z cytryną kwaśniej; bez cukru, gdy ogórki słodkie. Czosnek — jako wariant domu. Na ciepło to nie mizeria. Sałatka bufetowa z majonezem (inny intent): [sałatka jarzynowa](/pl/rezepte/salatka-jarzynowa). Pokrewna linia latem: chłodnik zostaje osobną Rezeptseite.",
   },
   "recipe-kapusta-zasmażana": {
     dishDe: "Kapusta zasmażana",
@@ -69,9 +69,9 @@ export const W8_FACTS_A: Record<string, W8ArticleFacts> = {
     originPl:
       "Kapusta zasmażana to duszona kapusta kiszona z zasmażką — ciepły dodatek, nie gulasz. Dzieli kapustę i kwas z [bigosem](/pl/rezepte/bigos), ale intent jest inny: dodatek do mięsa, nie danie mięsne warstwami. W wielu domach stoi obok [kotleta schabowego](/pl/rezepte/kotlet-schabowy) albo piezeni, gdy niedzielny stół chce ciepła i kwasu. Zasmażka wiąże płyn i łagodzi, bez słodzenia kapusty.",
     shopDe:
-      "Gute [Sauerkraut-Qualität](/de/blog/kiszenie-guide) aus dem Glas oder Beutel — Säure und Salz prüfen, nicht blind spülen. Zwiebel, Butter oder Schmalz, Mehl, Lorbeer. Optional ein Schuss leichte Brühe vom [Rosół](/de/rezepte/rosol)-Tag. Wer selbst fermentiert, nutzt den Kiszenie-Guide nur als Technik-Nachbar; Primary „Kiszenie“ bleibt dort. Polenladen oft aromatischer als Supermarkt-Kraut.",
+      "Gute [Sauerkraut-Qualität](/de/blog/kiszenie-guide) aus dem Glas oder Beutel — Säure und Salz prüfen, nicht blind spülen. Zwiebel, Butter oder Schmalz, Mehl, Lorbeer. Optional ein Schuss leichte Brühe vom [Rosół](/de/rezepte/rosol)-Tag. Wer selbst fermentiert, nutzt den Kiszenie-Guide nur als Technik-Nachbar; das Thema Kiszenie bleibt im Guide. Polenladen oft aromatischer als Supermarkt-Kraut.",
     shopPl:
-      "Dobra [jakość kiszonki](/pl/blog/kiszenie-w-domu) ze słoika lub worka — sprawdź kwas i sól, nie płucz w ciemno. Cebula, masło lub smalec, mąka, liść laurowy. Opcjonalnie łyżka lekkiego bulionu z dnia na [rosół](/pl/rezepte/rosol). Domowy ferment: kiszenie zostaje ownerem techniki; tu tylko wykorzystanie. Sklep polski często aromatyczniejszy niż supermarket.",
+      "Dobra [jakość kiszonki](/pl/blog/kiszenie-w-domu) ze słoika lub worka — sprawdź kwas i sól, nie płucz w ciemno. Cebula, masło lub smalec, mąka, liść laurowy. Opcjonalnie łyżka lekkiego bulionu z dnia na [rosół](/pl/rezepte/rosol). Domowy ferment: kiszenie zostaje przepisem na techniki; tu tylko wykorzystanie. Sklep polski często aromatyczniejszy niż supermarket.",
     techniqueDe:
       "Zwiebel glasig, Kraut schmoren bis weich, Zasmażka hell (nicht nussbraun-bitter), unterheben, kurz kochen. Zu viel Flüssigkeit vorher reduzieren. Abschmecken mit Salz und Pfeffer — Zucker nur als Notbremse bei aggressiver Säure.",
     techniquePl:
@@ -85,9 +85,9 @@ export const W8_FACTS_A: Record<string, W8ArticleFacts> = {
     diasporaPl:
       "W niemieckich mieszkaniach kapusta zasmażana pachnie spokojną niedzielą bez maratonu garnków. Kiszona z chłodni, zasmażka w pięć minut — po zmianie też możliwe. Majeranek ostrożnie; [leksykon majeranku](/pl/blog/majeranek-leksykon) jako sąsiad przypraw, nie owner przepisu.",
     mistakesDe:
-      "Zu dunkle Zasmażka (bitter). Komplett gespültes Kraut (fade). Mit Bigos verwechseln oder Kiszenie-Primary stehlen. Zu viel Wasser → Suppe statt Beilage. Zu früh Wurst rein → anderes Gericht.",
+      "Zu dunkle Zasmażka (bitter). Komplett gespültes Kraut (fade). Mit Bigos verwechseln oder Kiszenie-Hitze, Feuchtigkeit oder Garzeit falsch einschätzen. Zu viel Wasser → Suppe statt Beilage. Zu früh Wurst rein → anderes Gericht.",
     mistakesPl:
-      "Zbyt ciemna zasmażka (gorzka). Całkiem wypłukana kapusta (mdła). Mylenie z bigosem lub kradzież primary kiszenia. Za dużo wody → zupa zamiast dodatku. Wczesna kiełbasa → inne danie.",
+      "Zbyt ciemna zasmażka (gorzka). Całkiem wypłukana kapusta (mdła). Mylenie z bigosem lub kradzież fokus kiszenia. Za dużo wody → zupa zamiast dodatku. Wczesna kiełbasa → inne danie.",
     variantsDe:
       "Mit Speckwürfeln (Hausvariante), mit frischem Weißkohl gemischt milder, mit Pilzen näher an Wigilia-Feeling — ehrlich benennen. Bigos bleibt der verwandte Kohl-Eintopf mit Fleisch; Kapusta zasmażana bleibt Beilage.",
     variantsPl:

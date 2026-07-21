@@ -45,11 +45,11 @@ export const seedRecipesWave14A: Recipe[] = [
           },
           {
             text: "Für die Glasur Kuvertüre oder dunkle Schokolade mit etwas Butter oder Sahne schmelzen, über die kalte Torte gießen und glatt streichen. Mindestens 2–3 Stunden kühlen, besser über Nacht, bis der Schnitt sauber ist.",
-            tip: "Apfelkuchen vom Blech bleibt [Szarlotka](/de/rezepte/szarlotka). Menüplatz descriptiv: [polnisches Sonntagsessen](/de/blog/sonntagsessen-polnisch).",
+            tip: "Apfelkuchen vom Blech bleibt [Szarlotka](/de/rezepte/szarlotka). Menüplatz: [polnisches Sonntagsessen](/de/blog/sonntagsessen-polnisch).",
           },
           {
             text: "Mit scharfem Messer in Rechtecke schneiden. Kalt servieren — klassisch mit einem Sahnetupfer optional. Reste gekühlt 2–3 Tage halten; Glasur vor dem Servieren kurz glätten.",
-            tip: "Fehlt gute Sahne oder Kakao: ehrlich laut [Ersatzprodukte DE](/de/blog/ersatzprodukte-de). Primary bleibt Wuzetka.",
+            tip: "Fehlt gute Sahne oder Kakao: ehrlich laut [Ersatzprodukte DE](/de/blog/ersatzprodukte-de). Fokus bleibt Wuzetka.",
           },
         ],
         seoTitle: "Wuzetka Rezept | Schoko-Sahne-Torte polnisch | Alemniam",
@@ -72,11 +72,11 @@ export const seedRecipesWave14A: Recipe[] = [
           },
           {
             text: "Na polewę rozpuść czekoladę z odrobiną masła lub śmietanki, wylej na zimny tort i wygładź. Chłodź co najmniej 2–3 godziny, lepiej przez noc, aż krojenie będzie czyste.",
-            tip: "Jabłecznik z blachy zostaje [szarlotką](/pl/rezepte/szarlotka). Miejsce w menu opisowo: [obiad niedzielny](/pl/blog/obiad-niedzielny).",
+            tip: "Jabłecznik z blachy zostaje [szarlotką](/pl/rezepte/szarlotka). Miejsce w menu: [obiad niedzielny](/pl/blog/obiad-niedzielny).",
           },
           {
             text: "Ostrym nożem kroić w prostokąty. Podawać zimne — klasycznie z opcjonalnym czubkiem śmietany. Resztki trzymają 2–3 dni w chłodzie; przed podaniem polewę lekko wygładź.",
-            tip: "Brak dobrej śmietanki lub kakao: uczciwie według [zamienników](/pl/blog/zamienniki-skladnikow). Primary zostaje wuzetka.",
+            tip: "Brak dobrej śmietanki lub kakao: uczciwie według [zamienników](/pl/blog/zamienniki-skladnikow). fokus zostaje wuzetka.",
           },
         ],
         seoTitle: "Wuzetka przepis | Tort czekoladowo-śmietankowy | Alemniam",
@@ -202,7 +202,7 @@ export const seedRecipesWave14A: Recipe[] = [
         steps: [
           {
             text: "Hefe in lauwarmer Milch mit 1 TL Zucker auflösen, 10 Minuten gehen lassen. Mit Mehl, restlichem Zucker, Ei, weicher Butter und Prise Salz zu glattem Hefeteig kneten. Abgedeckt gehen lassen, bis verdoppelt (ca. 60–90 Min).",
-            tip: "Kein Zopf und keine Gugelhupf-Form: [Chałka](/de/rezepte/chalka) und [Babka](/de/rezepte/babka) bleiben andere Primaries. Hefe-Feeling descriptiv: [Makowiec-Technik](/de/blog/makowiec-technik).",
+            tip: "Kein Zopf und keine Gugelhupf-Form: [Chałka](/de/rezepte/chalka) und [Babka](/de/rezepte/babka) bleiben andere Rezepte. Hefe-Kontext: [Makowiec-Technik](/de/blog/makowiec-technik).",
           },
           {
             text: "Teig auf ein gefettetes Blech (ca. 30×40 cm) drücken oder ausrollen — flacher Placek, keine Flechtstränge. Optional dünne Apfelscheiben oder -würfel auflegen. Für Streusel (kruszonka): kalte Butter, Mehl und Zucker zu Krümeln reiben; dick über den Teig streuen.",
@@ -210,11 +210,11 @@ export const seedRecipesWave14A: Recipe[] = [
           },
           {
             text: "Kurz nachgehen lassen (15–20 Min). Bei 180 °C (Umluft etwas niedriger) 30–35 Minuten goldbraun backen, bis der Streusel knusprig und der Teig durchgebacken ist.",
-            tip: "Einkauf Butter/Hefe: [Polenladen](/de/blog/polenladen-einkaufen). Menüplatz descriptiv: [Sonntagsessen](/de/blog/sonntagsessen-polnisch).",
+            tip: "Einkauf Butter/Hefe: [Polenladen](/de/blog/polenladen-einkaufen). Menüplatz: [Sonntagsessen](/de/blog/sonntagsessen-polnisch).",
           },
           {
             text: "Auf dem Blech abkühlen lassen, in Rechtecke schneiden. Warm oder lauwarm zum Kaffee. Optional leicht mit Puderzucker bestäuben. Reste luftdicht — am Folgetag kurz aufwärmen.",
-            tip: "Fehlt Hefe oder Mehltyp: ehrlich laut [Ersatzprodukte DE](/de/blog/ersatzprodukte-de). Primary bleibt Drożdżówka / Placek drożdżowy.",
+            tip: "Fehlt Hefe oder Mehltyp: ehrlich laut [Ersatzprodukte DE](/de/blog/ersatzprodukte-de). Fokus bleibt Drożdżówka / Placek drożdżowy.",
           },
         ],
         seoTitle:
@@ -230,7 +230,7 @@ export const seedRecipesWave14A: Recipe[] = [
         steps: [
           {
             text: "Rozpuść drożdże w letnim mleku z 1 łyżeczką cukru, odstaw 10 min. Zagnieć z mąką, resztą cukru, jajkiem, miękkim masłem i szczyptą soli na gładkie ciasto. Przykryte odstaw aż podwoi objętość (ok. 60–90 min).",
-            tip: "Bez warkocza i bez formy babkowej: [chałka](/pl/rezepte/chalka) i [babka](/pl/rezepte/babka) to inne primary. Wyczucie drożdży opisowo: [technika makowca](/pl/blog/makowiec-technika).",
+            tip: "Bez warkocza i bez formy babkowej: [chałka](/pl/rezepte/chalka) i [babka](/pl/rezepte/babka) to inne przepisy. Wyczucie drożdży: [technika makowca](/pl/blog/makowiec-technika).",
           },
           {
             text: "Ciasto rozciągnij na natłuszczonej blasze (ok. 30×40 cm) — płaski placek, bez splotów. Opcjonalnie ułóż cienkie plasterki lub kostkę jabłka. Na kruszonkę: zimne masło, mąka i cukier zetrzyj w okruchy; gęsto posyp ciasto.",
@@ -238,11 +238,11 @@ export const seedRecipesWave14A: Recipe[] = [
           },
           {
             text: "Krótko odczekaj drugiego wyrastania (15–20 min). Piecz w 180 °C (termoobieg nieco niżej) 30–35 min na złoto, aż kruszonka będzie chrupiąca, a ciasto wypieczone.",
-            tip: "Zakupy masło/drożdże: [sklep polski](/pl/blog/sklep-polski-zakupy). Miejsce w menu opisowo: [obiad niedzielny](/pl/blog/obiad-niedzielny).",
+            tip: "Zakupy masło/drożdże: [sklep polski](/pl/blog/sklep-polski-zakupy). Miejsce w menu: [obiad niedzielny](/pl/blog/obiad-niedzielny).",
           },
           {
             text: "Ostudź na blasze, kroić w prostokąty. Ciepłe lub letnie do kawy. Opcjonalnie lekko oprósz cukrem pudrem. Resztki szczelnie — nazajutrz krótko podgrzej.",
-            tip: "Brak drożdży lub typu mąki: uczciwie według [zamienników](/pl/blog/zamienniki-skladnikow). Primary zostaje drożdżówka / placek drożdżowy.",
+            tip: "Brak drożdży lub typu mąki: uczciwie według [zamienników](/pl/blog/zamienniki-skladnikow). fokus zostaje drożdżówka / placek drożdżowy.",
           },
         ],
         seoTitle:

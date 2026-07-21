@@ -211,11 +211,11 @@ Przełącz u góry na ruskie, mięso albo kapustę z grzybami.`,
         title: "Naleśniki mit Marmelade",
         slug: "dzem",
         excerpt:
-          "Süße Naleśniki mit Dżem — eigene Varianten-URL, nicht die Twaróg-Primary. Schnell und kinderfreundlich.",
+          "Süße Naleśniki mit Dżem — eigene Varianten-URL, nicht die Twaróg-Fokus. Schnell und kinderfreundlich.",
         steps: [
           {
             text: "Naleśniki-Teig anrühren, 20–30 Minuten ruhen, dünne Pfannkuchen backen.",
-            tip: "Technik: [Naleśniki-Guide](/de/blog/nalesniki-guide). Nicht mit [Twaróg-Füllung](/de/rezepte/nalesniki/twarog) verwechseln — eigener Primary.",
+            tip: "Technik: [Naleśniki-Guide](/de/blog/nalesniki-guide). Nicht mit [Twaróg-Füllung](/de/rezepte/nalesniki/twarog) verwechseln — eigene Variante.",
           },
           {
             text: "Jeden Pfannkuchen mit dicker Marmelade oder Powidła bestreichen — nicht randvoll.",
@@ -226,7 +226,7 @@ Przełącz u góry na ruskie, mięso albo kapustę z grzybami.`,
           },
           {
             text: "Mit Puderzucker servieren. Optional Śmietana oder frische Beeren.",
-            tip: "Twaróg bleibt Zutaten-Owner: [Twaróg-Guide](/de/blog/twarog-deutschland) — hier nur descriptive Nachbarschaft.",
+            tip: "Twaróg bleibt Zutaten-Guide: [Twaróg-Guide](/de/blog/twarog-deutschland) — hier nur als verwandte süße Linie.",
           },
         ],
         seoTitle: "Naleśniki mit Marmelade Rezept | Naleśniki z dżemem | Alemniam",
@@ -252,11 +252,11 @@ Oben zu Twaróg, Fleisch oder Spinat.`,
         title: "Naleśniki z dżemem",
         slug: "dzem",
         excerpt:
-          "Słodkie naleśniki z dżemem — własny URL wariantu, nie primary twarogu. Szybkie i przyjazne dzieciom.",
+          "Słodkie naleśniki z dżemem — własny URL wariantu, nie fokus twarogu. Szybkie i przyjazne dzieciom.",
         steps: [
           {
             text: "Zrób ciasto na naleśniki, odstaw 20–30 min, usmaż cienkie placki.",
-            tip: "Technika: [przewodnik naleśników](/pl/blog/nalesniki-przewodnik). Nie mylić z [twarogiem](/pl/rezepte/nalesniki/twarog) — osobny primary.",
+            tip: "Technika: [przewodnik naleśników](/pl/blog/nalesniki-przewodnik). Nie mylić z [twarogiem](/pl/rezepte/nalesniki/twarog) — osobny wariant.",
           },
           {
             text: "Posmaruj każdy placek gęstym dżemem albo powidłami — nie do samej krawędzi.",
@@ -267,7 +267,7 @@ Oben zu Twaróg, Fleisch oder Spinat.`,
           },
           {
             text: "Podawaj z cukrem pudrem. Opcjonalnie śmietana albo świeże owoce.",
-            tip: "Twaróg zostaje ownerem składnika: [twaróg w DE](/pl/blog/twarog-w-niemczech).",
+            tip: "Twaróg zostaje przepisem na składnika: [twaróg w DE](/pl/blog/twarog-w-niemczech).",
           },
         ],
         seoTitle: "Naleśniki z dżemem przepis | Alemniam",

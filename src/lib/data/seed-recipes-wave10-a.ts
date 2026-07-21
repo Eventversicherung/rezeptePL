@@ -62,13 +62,13 @@ export const seedRecipesWave10A: Recipe[] = [
           },
           {
             text: "Na dużym garnku zeszklij cebulę, marchew, seler i por. Krótko podsmaż paprykę i koncentrat pomidorowy, zalej bulionem.",
-            tip: "Wyczucie wywaru jak przy [rosołe](/pl/rezepte/rosol), ale intent to flaki — nie klarowny rosół niedzielny.",
+            tip: "Wyczucie wywaru jak przy [rosołe](/pl/rezepte/rosol), ale chodzi o flaki — nie klarowny rosół niedzielny.",
           },
           {
             text: "Dodaj flaki, liść laurowy, ziele angielskie i solidnie [majeranek](/pl/blog/majeranek-leksykon). Gotuj łagodnie 60–90 minut do miękkości. Dopraw solą, pieprzem, ewentualnie papryką.",
           },
           {
-            text: "Podawaj gorące z chlebem. Przegląd silosu: [polskie zupy](/pl/blog/polskie-zupy). Nie mylić z [barszczem](/pl/rezepte/barszcz-czerwony), [żurkiem](/pl/rezepte/zurek) ani [ogórkową](/pl/rezepte/ogorkowa) — inne primary, inny intent.",
+            text: "Podawaj gorące z chlebem. Przegląd silosu: [polskie zupy](/pl/blog/polskie-zupy). Nie mylić z [barszczem](/pl/rezepte/barszcz-czerwony), [żurkiem](/pl/rezepte/zurek) ani [ogórkową](/pl/rezepte/ogorkowa) — inne przepisy, inny intent.",
           },
         ],
         seoTitle: "Flaki przepis | Zupa flaczki | Alemniam",

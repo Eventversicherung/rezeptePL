@@ -414,6 +414,10 @@ Wenn der Topf deftige Einlage und Majeranek will — nicht Rote Bete, nicht Zakw
 
 **Zupa szczawiowa** — grüne Sauerampfersuppe mit oft Ei und Śmietana — ist Sauerampfer-Primary, nicht [Botwinka](/de/rezepte/botwinka), nicht [Ogórkowa](/de/rezepte/ogorkowa) und nicht kalter [Chłodnik](/de/rezepte/chlodnik-litewski). Cook: [Szczawiowa](/de/rezepte/szczawiowa). Overview bleibt Broad.
 
+## Dill: Zupa koperkowa
+
+**Zupa koperkowa** — helle Dillsuppe mit oft Kartoffeln, Śmietana und Ei — ist Dill-Primary, nicht [Rosół](/de/rezepte/rosol), nicht [Szczawiowa](/de/rezepte/szczawiowa) und nicht [Ogórkowa](/de/rezepte/ogorkowa). Cook: [Koperkowa](/de/rezepte/koperkowa). Overview bleibt Broad.
+
 ## Einkauf DE
 
 Supermarkt: Suppengrün, Kartoffeln, Majoran, Lorbeer, Sahne/Schmand. Polenladen: Zakwas, Pilze, Kapusta, Kiełbasa – [Polenladen](/de/blog/polenladen-einkaufen), [Kiełbasa-Arten](/de/blog/kielbasa-arten), [Ersatzprodukte](/de/blog/ersatzprodukte), [Śmietana/Schmand](/de/blog/smietana-schmand).

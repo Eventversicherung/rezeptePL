@@ -307,6 +307,10 @@ Gdy garnek chce treściwy dodatek i majeranek — nie buraki, nie zakwas, nie og
 
 **Zupa szczawiowa** — zielona ze szczawiu, często z jajkiem i śmietaną — to primary szczawiu, nie [botwinka](/pl/rezepte/botwinka), nie [ogórkowa](/pl/rezepte/ogorkowa) i nie zimny [chłodnik](/pl/rezepte/chlodnik-litewski). Cook: [szczawiowa](/pl/rezepte/szczawiowa). Przegląd zostaje broad.
 
+## Koperek: zupa koperkowa
+
+**Zupa koperkowa** — jasna zupa z koperku, często z ziemniakami, śmietaną i jajkiem — to primary koperku, nie [rosół](/pl/rezepte/rosol), nie [szczawiowa](/pl/rezepte/szczawiowa) i nie [ogórkowa](/pl/rezepte/ogorkowa). Cook: [koperkowa](/pl/rezepte/koperkowa). Przegląd zostaje broad.
+
 ## Wywar to fundament
 
 Warzywa myjemy, mięso wkładamy do zimnej wody lub według wybranej techniki, a garnek prowadzimy pod małym ogniem. Gwałtowne gotowanie mąci wywar i rozbija delikatne aromaty. Sól dodajemy etapami. Zupa może być intensywna, lecz nie musi być ciężka od tłuszczu albo kostki bulionowej.

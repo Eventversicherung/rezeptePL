@@ -445,7 +445,7 @@ export const seedRecipesWave5: Recipe[] = [
             tip: "Fleisch soll mit der Gabel weich sein — nicht nach der Uhr allein.",
           },
           {
-            text: "Soße abschmecken, mit [Kluski](/de/rezepte/kluski-slaskie) oder Kartoffeln servieren. Verwandt, aber anderer Intent: [Rolada śląska](/de/rezepte/rolada-slaska) (Zwiebel-Speck ohne Gurken-Primary).",
+            text: "Soße abschmecken, mit [Kluski](/de/rezepte/kluski-slaskie) oder Kartoffeln servieren. Verwandt, aber anderer Intent: [Rolada śląska](/de/rezepte/rolada-slaska) (Zwiebel-Speck ohne Gurken-Fokus).",
           },
         ],
         seoTitle: "Zrazy zawijane Rezept | Alemniam",
@@ -469,7 +469,7 @@ export const seedRecipesWave5: Recipe[] = [
             tip: "Mięso ma być miękkie widelcem — nie tylko według zegara.",
           },
           {
-            text: "Dopraw sos, podawaj z [klusami](/pl/rezepte/kluski-slaskie) albo ziemniakami. Pokrewne, inny intent: [rolada śląska](/pl/rezepte/rolada-slaska) (cebula-boczek bez ogórka jako primary).",
+            text: "Dopraw sos, podawaj z [klusami](/pl/rezepte/kluski-slaskie) albo ziemniakami. Pokrewne, inny intent: [rolada śląska](/pl/rezepte/rolada-slaska) (cebula-boczek bez ogórka jako fokus).",
           },
         ],
         seoTitle: "Zrazy zawijane przepis | Alemniam",

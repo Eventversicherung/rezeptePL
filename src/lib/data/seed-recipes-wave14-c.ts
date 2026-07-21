@@ -34,7 +34,7 @@ export const seedRecipesWave14C: Recipe[] = [
         title: "Placek po węgiersku",
         slug: "placek-po-wegiersku",
         excerpt:
-          "Composed Teller: knusprige Kartoffelpuffer mit Schweinegulasch obenauf und optionalem Käse — Primary ist der komplette Teller, nicht Placki allein und nicht Gulasz allein.",
+          "Composed Teller: knusprige Kartoffelpuffer mit Schweinegulasch obenauf und optionalem Käse — Fokus ist der komplette Teller, nicht Placki allein und nicht Gulasz allein.",
         steps: [
           {
             text: "Gulasch vorbereiten: Schweinenacken würfeln, anbraten, Zwiebel und Paprika dünsten, Tomatenmark und Paprikapulver kurz rösten, mit Brühe ablöschen und 60–90 Min zugedeckt schmoren, bis das Fleisch zart ist.",
@@ -42,30 +42,30 @@ export const seedRecipesWave14C: Recipe[] = [
           },
           {
             text: "Währenddessen Placki-Masse: Kartoffeln und Zwiebel reiben, kräftig ausdrücken, mit Ei, Mehl, Salz und Pfeffer verrühren.",
-            tip: "Technik und Abtropfen detailliert im [Placki-Guide](/de/blog/placki-guide). Nackte Puffer ohne Soße sind [Placki ziemniaczane](/de/rezepte/placki/ziemniaczane) — anderer Primary.",
+            tip: "Technik und Abtropfen detailliert im [Placki-Guide](/de/blog/placki-guide). Nackte Puffer ohne Soße sind [Placki ziemniaczane](/de/rezepte/placki/ziemniaczane) — anderes Gericht.",
           },
           {
             text: "In heißem Öl (ca. 3–5 mm) mittelgroße Puffer goldbraun ausbacken. Warm halten (Ofen 90 °C, einzeln auf Blech — nicht stapeln).",
           },
           {
             text: "Teller anrichten: 2–3 heiße Placki, großzügig Gulasch obenauf. Optional geriebenen Gouda/Edamer darüber und kurz unter Grill schmelzen lassen.",
-            tip: "Käse ist Hauslinie, kein Pflichtbestandteil — ehrlich im Excerpt. Menüplatz descriptiv: [Sonntagsessen](/de/blog/sonntagsessen-polnisch).",
+            tip: "Käse ist Hauslinie, kein Pflichtbestandteil — ehrlich im Excerpt. Menüplatz: [Sonntagsessen](/de/blog/sonntagsessen-polnisch).",
           },
           {
             text: "Sofort servieren — Puffer verlieren sonst die Kruste unter der Soße. Optional Löffel Śmietana am Rand.",
-            tip: "Zwei Gerichte getrennt kochen und erst auf dem Teller verbinden — so bleiben Placki- und Gulasz-URLs Ownership-klar.",
+            tip: "Zwei Gerichte getrennt kochen und erst auf dem Teller verbinden — so bleiben Placki- und Gulasz-URLs Abgrenzung-klar.",
           },
         ],
         seoTitle:
           "Placek po węgiersku Rezept | Ungarischer Kartoffelpuffer | Alemniam",
         seoDescription:
-          "Placek po węgiersku: Kartoffelpuffer mit Gulasch-Topping und optional Käse. Composed Primary, bilingual, klar ≠ Placki allein ≠ Gulasz allein.",
+          "Placek po węgiersku: Kartoffelpuffer mit Gulasch-Topping und optional Käse. zusammengesetzter Teller, bilingual, klar ≠ Placki allein ≠ Gulasz allein.",
       },
       pl: {
         title: "Placek po węgiersku",
         slug: "placek-po-wegiersku",
         excerpt:
-          "Composed talerz: chrupiące placki ziemniaczane z gulaszem wieprzowym na wierzchu i opcjonalnym serem — primary to cały talerz, nie same placki i nie sam gulasz.",
+          "Composed talerz: chrupiące placki ziemniaczane z gulaszem wieprzowym na wierzchu i opcjonalnym serem — fokus to cały talerz, nie same placki i nie sam gulasz.",
         steps: [
           {
             text: "Przygotuj gulasz: kark wieprzowy w kostkę, obsmaż, zeszklij cebulę i paprykę, podsmaż koncentrat i paprykę w proszku, zalej bulionem i duś 60–90 min pod przykryciem, aż mięso będzie miękkie.",
@@ -73,24 +73,24 @@ export const seedRecipesWave14C: Recipe[] = [
           },
           {
             text: "Równolegle masa na placki: zetrzyj ziemniaki i cebulę, mocno odciśnij, wymieszaj z jajkiem, mąką, solą i pieprzem.",
-            tip: "Technika i odsączanie w [przewodniku po plackach](/pl/blog/placki-przewodnik). Gołe placki bez sosu to [placki ziemniaczane](/pl/rezepte/placki/ziemniaczane) — inny primary.",
+            tip: "Technika i odsączanie w [przewodniku po plackach](/pl/blog/placki-przewodnik). Gołe placki bez sosu to [placki ziemniaczane](/pl/rezepte/placki/ziemniaczane) — inny fokus.",
           },
           {
             text: "Smaż średnie placki na złoto na gorącym oleju (ok. 3–5 mm). Trzymaj ciepłe (piekarnik 90 °C, osobno na blasze — nie stosuj w stos).",
           },
           {
             text: "Na talerzu: 2–3 gorące placki, hojnie gulasz na wierzchu. Opcjonalnie starty gouda/edam i krótko pod grillem, aż ser się stopi.",
-            tip: "Ser to linia domu, nie obowiązek — uczciwie w excerpt. Miejsce w menu opisowo: [obiad niedzielny](/pl/blog/obiad-niedzielny).",
+            tip: "Ser to linia domu, nie obowiązek — uczciwie w excerpt. Miejsce w menu: [obiad niedzielny](/pl/blog/obiad-niedzielny).",
           },
           {
             text: "Podawaj od razu — inaczej placki miękną pod sosem. Opcjonalnie łyżka śmietany z boku.",
-            tip: "Gotuj dwa elementy osobno i łącz dopiero na talerzu — ownership placków i gulaszu zostaje jasne.",
+            tip: "Gotuj dwa elementy osobno i łącz dopiero na talerzu — rozróżnienie placków i gulaszu zostaje jasne.",
           },
         ],
         seoTitle:
           "Placek po węgiersku przepis | Placki z gulaszem | Alemniam",
         seoDescription:
-          "Placek po węgiersku: placki z gulaszem na wierzchu i opcjonalnym serem. Primary composed, dwujęzycznie, jasno ≠ same placki ≠ sam gulasz.",
+          "Placek po węgiersku: placki z gulaszem na wierzchu i opcjonalnym serem. talerz złożony, dwujęzycznie, jasno ≠ same placki ≠ sam gulasz.",
       },
     },
     ingredients: [
@@ -227,7 +227,7 @@ export const seedRecipesWave14C: Recipe[] = [
           },
           {
             text: "Auf dem Blech 10–12 Minuten backen, bis der Käse schmilzt und die Ränder knusprig sind. Nicht austrocknen lassen.",
-            tip: "Schnellgericht-Alltag descriptiv neben [Sonntagsessen](/de/blog/sonntagsessen-polnisch) — Kultur-Owner bleibt dort.",
+            tip: "Schnellgericht-Alltag neben [Sonntagsessen](/de/blog/sonntagsessen-polnisch) — Kulturrahmen bleibt bei dort.",
           },
           {
             text: "Heiß mit Ketchup (klassisch) und optional Schnittlauch servieren. Sofort essen — Käse zieht beim Abkühlen.",
@@ -258,7 +258,7 @@ export const seedRecipesWave14C: Recipe[] = [
           },
           {
             text: "Piecz na blasze 10–12 min, aż ser się roztopi, a brzegi chrupią. Nie wysusz.",
-            tip: "Szybkie danie opisowo obok [obiadu niedzielnego](/pl/blog/obiad-niedzielny) — owner kultury zostaje tam.",
+            tip: "Szybkie danie obok [obiadu niedzielnego](/pl/blog/obiad-niedzielny) — przewodnik kulturowy zostaje tam.",
           },
           {
             text: "Podawaj gorące z keczupem (klasyka) i opcjonalnie szczypiorkiem. Jedz od razu — ser stygnąc twardnieje.",
