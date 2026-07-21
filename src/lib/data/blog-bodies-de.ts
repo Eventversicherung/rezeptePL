@@ -504,9 +504,9 @@ Traditionell symbolisieren zwölf Speisen Fülle und den Jahreskreis. In der Pra
 3. Fisch nach Familie ([Karp](/de/rezepte/karp), [Ryba po grecku](/de/rezepte/ryba-po-grecku) als kalte Filet-Sauce-Linie, [Śledź](/de/rezepte/sledz), oder moderne Alternative)
 4. [Śledź](/de/rezepte/sledz) in Öl oder Sahne
 5. [Kompot z suszu](/de/rezepte/kompot-z-suszu) — Trockenobstkompot (Getränk-Primary; Speiseplan bleibt Anlass-Owner)
-6. Mohnspeise oder [Makowiec](/de/rezepte/makowiec) — alternativ [Sernik](/de/rezepte/sernik) oder Honig-Gewürz-[Piernik](/de/rezepte/piernik)
+6. Mohnspeise — Cook oft [Makaron z makiem](/de/rezepte/makaron-z-makiem) (Nudeln+Mohn, ≠ Rolle) — oder [Makowiec](/de/rezepte/makowiec); alternativ [Sernik](/de/rezepte/sernik) oder Honig-Gewürz-[Piernik](/de/rezepte/piernik)
 7. Krautsalat oder warme Kapusta
-8. Pilze in Sahne oder als Beilage
+8. Pilze in Sahne oder als Beilage — alternativ klare [Zupa grzybowa](/de/rezepte/zupa-grzybowa) als eigener Cook (≠ Barszcz-Primary; Speiseplan bleibt Anlass-Owner)
 9. Kutia oder ein Getreide-Mohn-Gericht regional
 10. Gemüsebraten / Fischfrikadellen als praktische Variante
 11. Brot und Butter zum Teilen

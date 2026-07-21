@@ -177,6 +177,8 @@ const seedBlogPostsLive: BlogPost[] = [
       "recipe-zurek",
       "recipe-barszcz",
       "recipe-kaszanka",
+      "recipe-makaron-z-makiem",
+      "recipe-szarlotka",
     ],
     relatedPostIds: [
       "post-twarog",
@@ -223,12 +225,14 @@ const seedBlogPostsLive: BlogPost[] = [
       "recipe-barszcz",
       "recipe-uszka",
       "recipe-makowiec",
+      "recipe-makaron-z-makiem",
       "recipe-karp",
       "recipe-sledz",
       "recipe-pierogi",
       "recipe-piernik",
       "recipe-ryba-po-grecku",
       "recipe-kompot-z-suszu",
+      "recipe-zupa-grzybowa",
     ],
     relatedPostIds: [
       "post-pierogi-guide",

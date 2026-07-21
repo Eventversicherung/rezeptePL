@@ -185,6 +185,9 @@ export const seedBlogPostsWave2: BlogPost[] = [
       "recipe-botwinka",
       "recipe-flaki",
       "recipe-zupa-pomidorowa",
+      "recipe-zupa-grzybowa",
+      "recipe-grochowka",
+      "recipe-kluski-kladzione",
     ],
     relatedPostIds: [
       "post-rosol-technik",
@@ -226,7 +229,12 @@ export const seedBlogPostsWave2: BlogPost[] = [
     coverImage:
       "https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?w=1600&q=80",
     siloIds: ["technique"],
-    relatedRecipeIds: ["recipe-rosol", "recipe-golabki", "recipe-bigos"],
+    relatedRecipeIds: [
+      "recipe-rosol",
+      "recipe-golabki",
+      "recipe-bigos",
+      "recipe-kluski-kladzione",
+    ],
     relatedPostIds: [
       "post-polnische-suppen",
       "post-barszcz-technik",
@@ -400,6 +408,7 @@ export const seedBlogPostsWave2: BlogPost[] = [
       "recipe-fasolka",
       "recipe-bigos",
       "recipe-kaszanka",
+      "recipe-grochowka",
     ],
     relatedPostIds: [
       "post-polenladen",
@@ -446,6 +455,8 @@ export const seedBlogPostsWave2: BlogPost[] = [
       "recipe-bigos",
       "recipe-zurek",
       "recipe-makaron-z-serem",
+      "recipe-makaron-z-makiem",
+      "recipe-szarlotka",
     ],
     relatedPostIds: [
       "post-polenladen",
@@ -493,6 +504,7 @@ export const seedBlogPostsWave2: BlogPost[] = [
       "recipe-barszcz",
       "recipe-mizeria",
       "recipe-babka",
+      "recipe-mazurek",
       "recipe-salatka-jarzynowa",
       "recipe-botwinka",
     ],
@@ -588,12 +600,17 @@ export const seedBlogPostsWave2: BlogPost[] = [
       "recipe-pierogi",
       "recipe-mizeria",
       "recipe-kapusta-zasmażana",
+      "recipe-buraczki",
       "recipe-zeberka",
       "recipe-rolada-slaska",
       "recipe-schab-pieczony",
       "recipe-kaszanka",
       "recipe-salatka-jarzynowa",
       "recipe-golonka",
+      "recipe-grochowka",
+      "recipe-szarlotka",
+      "recipe-klopsy",
+      "recipe-kluski-kladzione",
     ],
     relatedPostIds: [
       "post-rosol-technik",

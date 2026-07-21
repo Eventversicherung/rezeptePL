@@ -22,6 +22,7 @@ export const seedBlogPostsW3c: BlogPost[] = [
       "recipe-schabowy",
       "recipe-kotlet-mielony",
       "recipe-mizeria",
+      "recipe-klopsy",
     ],
     relatedPostIds: [
       "post-gusseisen",

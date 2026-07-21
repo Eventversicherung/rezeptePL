@@ -1,12 +1,12 @@
 # Topical Authority Status — SEO Snapshot
 
-Stand: 2026-07-21 · `SEED_VERSION` 25 · Quelle: Live-Seed
+Stand: 2026-07-21 · `SEED_VERSION` 26 · Quelle: Live-Seed
 
 ## Urteil (Senior SEO)
 
-**Wave 11 shipped:** Full-catalog cover retrofit (54) + Ryba po grecku, Golonka, Kompot z suszu. Kein neuer Blog-Pillar. Ownership sauber vs Karp / Schabowy–Schab–Żeberka / Wigilia-Anlass. Families: Pierogi 4 · Naleśniki 4 · Placki 4. Cover-IDs unique · HTTP 200.
+**Wave 12 shipped:** +8 Diaspora-Klassiker (Zupa grzybowa, Grochówka, Makaron z makiem, Szarlotka, Mazurek, Buraczki, Klopsy, Kluski kładzione). Kein neuer Blog-Pillar. Ownership sauber vs Barszcz/Flaki/Fasolka · Makowiec · Racuchy · Babka/Sernik · Botwinka · Mielony · Śląskie. Families unverändert 4/4/4. Cover-IDs unique · HTTP 200.
 
-**Score gesamt: 9/10 Topical Density** — visuelle Glaubwürdigkeit Money Pages + 3 Diaspora-/Wigilia-Lücken; Rest-Hebel Region-Hub-Tiefe (HOLD) und echte Lab-Tests (HOLD).
+**Score gesamt: 9/10 Topical Density** — Money-Page-Lücken Alltag/Wigilia/Ostern/Sonntag geschlossen; Rest-Hebel Region-Hub-Tiefe (HOLD) und echte Lab-Tests (HOLD).
 
 ---
 
@@ -15,12 +15,12 @@ Stand: 2026-07-21 · `SEED_VERSION` 25 · Quelle: Live-Seed
 | Layer | LIVE | Indexierbare URLs (DE+PL) | Notiz |
 |-------|------|---------------------------|--------|
 | **Blog** | **36** Posts | **72** | unverändert (kein neuer Pillar) |
-| **Rezepte** | **57** | **114** (+ Family-Hubs) | +3 Wave-11 · Cover-Retrofit Katalog |
+| **Rezepte** | **65** | **130** (+ Family-Hubs) | +8 Wave-12 |
 | **RecipeFamilies** | **3** | Pierogi, Placki, Naleśniki | unverändert (4/4/4) |
 | **Cluster-Hubs** | **31** | ~62 | Region-Hubs thin → `noindex,follow` |
-| **Catalog-Karten** | ~43 | Families einmal + Standalone | |
+| **Catalog-Karten** | ~51 | Families einmal + Standalone | |
 
-**Blog:Rezept ≈ 1 : 1.5** — gesund.
+**Blog:Rezept ≈ 1 : 1.8** — gesund.
 
 ---
 
@@ -29,7 +29,7 @@ Stand: 2026-07-21 · `SEED_VERSION` 25 · Quelle: Live-Seed
 | Metrik | Wert |
 |--------|------|
 | Wortzahl-Gate (≥1100 Guides) | unverändert; kein neuer Pillar |
-| Related Recipes / Posts | Suppen/Sonntag/Wigilia/Majeranek/Guides/Twaróg updated |
+| Related Recipes / Posts | Suppen/Sonntag/Wigilia/Wielkanoc/Panieren/Rosół updated |
 | Affiliate | guide-only auf Rezepten |
 | Blog JSON-LD | `BlogPosting` + `FAQPage` (parsed) |
 | Recipe JSON-LD | Author Org + dates + absolute image |
@@ -40,12 +40,12 @@ Stand: 2026-07-21 · `SEED_VERSION` 25 · Quelle: Live-Seed
 
 | Silo | Status | Stärke |
 |------|--------|--------|
-| **A Gerichtsfamilien** | + Flaki/Pomidorowa/Piernik/Schab/Makaron + Family-Süß | Stark |
+| **A Gerichtsfamilien** | + Grzybowa/Grochówka/Makaron-makiem/Szarlotka/Mazurek/Buraczki/Klopsy/Kładzione | Stark |
 | **B Regionen** | Hubs thin → noindex bis Intro ≥400 | HOLD |
-| **C Anlässe** | Sonntag (+ Schab), Wigilia (+ Piernik) | Stark |
-| **D Techniken** | Makowiec/Pączki unangetastet; Piernik nur Cook | Stark |
-| **E Zutaten** | Majeranek → Flaki/Schab; Twaróg → Makaron Cook | Stark |
-| **F Diaspora** | Polenladen / Ersatzprodukte → Makaron | OK |
+| **C Anlässe** | Wigilia (+ Grzybowa/Makaron), Wielkanoc (+ Mazurek), Sonntag (+ Buraczki/Klopsy) | Stark |
+| **D Techniken** | Makowiec/Panieren nur Abgrenzung; Rosół → Kładzione | Stark |
+| **E Zutaten** | unverändert | Stark |
+| **F Diaspora** | Polenladen / Ersatzprodukte → Makaron/Szarlotka | OK |
 | **H Gear** | Buying-Guides | Stark — Lab-Tests HOLD |
 
 ---
@@ -54,17 +54,18 @@ Stand: 2026-07-21 · `SEED_VERSION` 25 · Quelle: Live-Seed
 
 | Metrik | Wert |
 |--------|------|
-| Mit Longform (≥400 via seed oder FACTS) | **57 / 57** |
-| Mit `relatedPostIds` | **57 / 57** |
-| Wave-11 neu | Ryba po grecku, Golonka, Kompot z suszu |
-| Wave-11 covers | 57 unique Unsplash · HTTP 200 · Families synced |
-| Ownership Flaki vs clear soups | Getrennt (Kutteln) |
-| Ownership Schab vs Schabowy | Ofen ≠ Panade |
-| Ownership Piernik vs Makowiec/Sernik/Babka | Getrennt |
-| Ownership Pomidorowa eng | Overview Broad-Owner bleibt |
-| Ownership Jagody vs Knedle | Gefaltet ≠ Knödel |
-| Ownership Dżem vs Twaróg | Eigene Varianten-URL |
-| Ownership Makaron vs Leniwe/Łazanki | Pasta-Teller ≠ Teig/Kapusta |
+| Mit Longform (≥400 via seed oder FACTS) | **65 / 65** |
+| Mit `relatedPostIds` | **65 / 65** |
+| Wave-12 neu | Grzybowa, Grochówka, Makaron z makiem, Szarlotka, Mazurek, Buraczki, Klopsy, Kładzione |
+| Wave-12 covers | 65 unique Unsplash · HTTP 200 |
+| Ownership Grzybowa vs Barszcz/Flaki | Getrennt (Pilz ≠ Bete ≠ Kutteln) |
+| Ownership Grochówka vs Fasolka | Erbsen ≠ Bohnen |
+| Ownership Makaron z makiem vs Makowiec | Nudeln+Mohn ≠ Rolle |
+| Ownership Szarlotka vs Racuchy | Blech-Apfelkuchen ≠ Hefe-Pfanne |
+| Ownership Mazurek vs Babka/Sernik | Flacher Belag ≠ Gugelhupf ≠ Käsekuchen |
+| Ownership Buraczki vs Botwinka | Beilage ≠ Suppe |
+| Ownership Klopsy vs Mielony | Kugeln in Sauce ≠ panierte Bulette |
+| Ownership Kładzione vs Śląskie | Fallnudeln ≠ Mulden-Kartoffelklöße |
 
 ---
 
@@ -72,23 +73,22 @@ Stand: 2026-07-21 · `SEED_VERSION` 25 · Quelle: Live-Seed
 
 Nach Indexierung (GSC, 4–8 Wochen):
 
-- [ ] Pierogi / Placki / Naleśniki Owner-URLs inkl. neuer Varianten: Impressionen ↑, **kein** CTR-Clash  
-- [ ] Flaki / Pomidorowa vs Barszcz / Żurek / Ogórkowa  
-- [ ] Schab pieczony vs Schabowy  
-- [ ] Piernik vs Makowiec / Sernik / Babka  
-- [ ] Makaron z serem vs Leniwe / Łazanki  
+- [ ] Pierogi / Placki / Naleśniki Owner-URLs inkl. Varianten: Impressionen ↑, **kein** CTR-Clash  
+- [ ] Grzybowa / Grochówka vs Barszcz / Flaki / Fasolka / Kapuśniak  
+- [ ] Makaron z makiem vs Makowiec / Makaron z serem  
+- [ ] Szarlotka vs Racuchy / Piernik / Sernik  
+- [ ] Mazurek vs Babka / Sernik; Buraczki vs Botwinka  
+- [ ] Klopsy vs Mielony; Kładzione vs Śląskie / Kopytka  
 - [ ] Thin Region-Hubs bleiben `noindex,follow` bis Intro ≥400  
-- [ ] Keine Fake-Lab-Claims in Snippets  
+- [ ] Affiliate: Rezepte guide-only  
 
 ---
 
 ## HOLD (bewusst)
 
-- Region-Blogs  
-- Meal-Prep Arbeitswoche (≠ Freezer-Pierogi)  
-- Echte Lab-Produkt-Tests  
-- Kotlet family (SEO-safe split)  
-- Czernina, Placek po węgiersku, Drożdżówka  
+- Region-Blogs · Meal-Prep Arbeitswoche · Lab-Produkt-Tests  
+- Kotlet family hub · Czernina · Placek po węgiersku · Drożdżówka  
+- Später messen: Krupnik, Kutia, Napoleonka, Chałka, Biała kiełbasa Cook, Pasztet  
 
 ---
 
@@ -96,6 +96,6 @@ Nach Indexierung (GSC, 4–8 Wochen):
 
 | Frage | Antwort |
 |-------|---------|
-| Wie viele Beiträge? | **36 Blog** + **57 Rezepte** (+ 3 Families, 31 Hubs) |
-| Wie gut? | Blog + Rezept-Longform **grün**; Covers katalogweit glaubwürdig |
-| Was als Nächstes? | **Messen** (GSC) · schwache Cover-Proxies nachziehen · Region-Hubs nur mit Tiefe |
+| Wie viele Beiträge? | **36 Blog** + **65 Rezepte** (+ 3 Families, 31 Hubs) |
+| Wie gut? | Blog + Rezept-Longform **grün**; Wave-12 Ownership-Splits sauber |
+| Was als Nächstes? | **Messen** (GSC) · Krupnik/Kutia nach Signal · Region-Hubs nur mit Tiefe |

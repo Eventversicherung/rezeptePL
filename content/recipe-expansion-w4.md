@@ -156,6 +156,24 @@ Full-catalog Unsplash retrofit (54) + Family covers Pierogi/Placki/Naleśniki sy
 - Affiliate guide-only on recipes  
 - Target inventory: **57** recipes · **36** blog · Families **3** · `SEED_VERSION` **25**
 
+## Wave 12 — shipped (2026-07-21)
+
+### +8 recipes (Diaspora classics)
+| Dish | ID | Notes |
+|------|-----|--------|
+| Zupa grzybowa | `recipe-zupa-grzybowa` | ≠ Barszcz / Flaki |
+| Grochówka | `recipe-grochowka` | ≠ Fasolka / Kapuśniak |
+| Makaron z makiem | `recipe-makaron-z-makiem` | ≠ Makowiec |
+| Szarlotka | `recipe-szarlotka` | ≠ Racuchy |
+| Mazurek | `recipe-mazurek` | ≠ Babka / Sernik |
+| Buraczki | `recipe-buraczki` | ≠ Botwinka |
+| Klopsy | `recipe-klopsy` | ≠ Kotlet mielony |
+| Kluski kładzione | `recipe-kluski-kladzione` | ≠ Kluski śląskie |
+
+### Tech SEO
+- Affiliate guide-only on recipes  
+- Target inventory: **65** recipes · **36** blog · Families **3** · `SEED_VERSION` **26**
+
 ## Still HOLD / next backlog
 
 - Kotlet family hub (SEO-safe split)  
@@ -163,6 +181,7 @@ Full-catalog Unsplash retrofit (54) + Family covers Pierogi/Placki/Naleśniki sy
 - Lab product tests  
 - Meal-Prep Arbeitswoche ≠ Freezer-Pierogi  
 - Czernina, Placek po węgiersku, Drożdżówka  
+- Später: Krupnik, Kutia, Napoleonka, Chałka, Biała kiełbasa Cook, Pasztet  
 - Cover-Proxy upgrades (Żurek, Bigos, Kapuśniak, Mizeria, Faworki, …)  
 
 ## Keyword ownership

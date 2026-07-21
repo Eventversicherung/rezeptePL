@@ -423,7 +423,9 @@ Nie musimy udowadniać polskości liczbą misek. Lepiej postawić kilka rzeczy n
 - Pierogi z kapustą i grzybami — sygnał świąt; pokrewne [krokiety](/pl/rezepte/krokiety) gdy wolicie panierowaną rolkę
 - Opcjonalnie [pierogi ruskie](/pl/rezepte/pierogi/ruskie) — most dla dzieci i gości mniej „kapuścianych”
 - [Kompot z suszu](/pl/rezepte/kompot-z-suszu) albo [makowiec](/pl/rezepte/makowiec) / [sernik](/pl/rezepte/sernik) / miodowo-korzenny [piernik](/pl/rezepte/piernik) — kompot ma własny cook-primary; menu zostaje ownerem okazji
+- Potrawa makowa bez rolady: [makaron z makiem](/pl/rezepte/makaron-z-makiem) (makaron+mak, ≠ makowiec; menu zostaje ownerem okazji)
 - Ryba: [karp](/pl/rezepte/karp) na ciepło, [ryba po grecku](/pl/rezepte/ryba-po-grecku) jako zimna linia filet–sos, albo [śledź](/pl/rezepte/sledz) — albo jasna alternatywa, jeśli ryba odpada
+- Opcjonalnie klarowna [zupa grzybowa](/pl/rezepte/zupa-grzybowa) jako osobny cook (≠ barszcz-primary; menu zostaje ownerem okazji)
 
 > Dwanaście potraw to kompas, nie ustawa. Gościnność smakuje lepiej niż checklista.
 

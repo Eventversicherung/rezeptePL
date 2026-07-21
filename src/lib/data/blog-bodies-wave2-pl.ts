@@ -291,6 +291,14 @@ Gdy garnek chce treściwy dodatek i majeranek — nie buraki, nie zakwas, nie og
 
 **Zupa pomidorowa** — z ryżem lub makaronem i śmietaną — to kuchnia codzienna, często z resztek rosołu, nie świąteczny barszcz i nie ogórkowa z kiszonego. Przepis cook: [zupa pomidorowa](/pl/rezepte/zupa-pomidorowa). Ten przegląd zostaje broad-ownerem; money page niesie tylko talerz pomidorowy.
 
+## Jesień / Wigilia: zupa grzybowa
+
+**Zupa grzybowa** — klarowna zupa z suszonych grzybów — to osobny cook-primary (las/wywar), nie buraki i nie flaki. Przepis: [zupa grzybowa](/pl/rezepte/zupa-grzybowa). Ten przegląd zostaje broad-ownerem.
+
+## Treściwie: grochówka
+
+**Grochówka** — zupa z grochu często z wędzoną kiełbasą — to primary grochu, nie fasolowa [fasolka](/pl/rezepte/fasolka-po-bretonsku) i nie [kapuśniak](/pl/rezepte/kapusniak). Cook: [grochówka](/pl/rezepte/grochowka). Krupnik później; przegląd zostaje broad.
+
 ## Wywar to fundament
 
 Warzywa myjemy, mięso wkładamy do zimnej wody lub według wybranej techniki, a garnek prowadzimy pod małym ogniem. Gwałtowne gotowanie mąci wywar i rozbija delikatne aromaty. Sól dodajemy etapami. Zupa może być intensywna, lecz nie musi być ciężka od tłuszczu albo kostki bulionowej.
@@ -326,7 +334,7 @@ Garnek ma tylko lekko mrugać. Zbieramy pianę na początku, potem nie mieszamy 
 
 ## Podanie i wykorzystanie
 
-Makaron gotujemy osobno, aby nie pił wywaru przez noc. Mięso z rosołu przerabiamy na pierogi, pasztet albo farsz; warzywa wykorzystujemy świadomie lub kompostujemy. Gdy rosół stygnie, dzielimy go na porcje. To świetna baza pod kolejny [żurek](/pl/rezepte/zurek), pod zupy z dodatkami jak [ogórkowa](/pl/rezepte/ogorkowa) i [kapuśniak](/pl/rezepte/kapusniak), sos lub szybki obiad.
+Makaron gotujemy osobno, aby nie pił wywaru przez noc. Świeże kluski zamiast nitek z paczki: [kluski kładzione](/pl/rezepte/kluski-kladzione) — cook-primary tam; technika bulionu zostaje tu. Mięso z rosołu przerabiamy na pierogi, pasztet albo farsz; warzywa wykorzystujemy świadomie lub kompostujemy. Gdy rosół stygnie, dzielimy go na porcje. To świetna baza pod kolejny [żurek](/pl/rezepte/zurek), pod zupy z dodatkami jak [ogórkowa](/pl/rezepte/ogorkowa) i [kapuśniak](/pl/rezepte/kapusniak), sos lub szybki obiad.
 
 ## FAQ — technika rosołu
 
@@ -442,7 +450,7 @@ export const bodyKielbasaArtenPl = `Kiełbasa w polskiej kuchni nie jest jedną 
 
 ## Dobieraj do dania
 
-Biała kiełbasa pasuje do [żurku](/pl/rezepte/zurek) i pieczenia, ale nie potrzebuje agresywnego gotowania. Wędzona dodaje bigosowi lub fasolce aromatu, dlatego używamy jej jako przyprawy, nie wyłącznie jako głównego mięsa. Kiełbasę kupowaną w Niemczech czytamy po składzie: udział mięsa, sól, woda i dodatki mówią więcej niż nazwa na etykiecie.
+Biała kiełbasa pasuje do [żurku](/pl/rezepte/zurek) i pieczenia, ale nie potrzebuje agresywnego gotowania. Wędzona dodaje bigosowi, fasolce albo [grochówce](/pl/rezepte/grochowka) aromatu, dlatego używamy jej jako przyprawy, nie wyłącznie jako głównego mięsa. Kiełbasę kupowaną w Niemczech czytamy po składzie: udział mięsa, sól, woda i dodatki mówią więcej niż nazwa na etykiecie.
 
 ## Typy vs cook: kaszanka
 
@@ -504,7 +512,7 @@ export const bodyWielkanocPl = `Wielkanoc w Niemczech nie musi być próbą odtw
 
 ## Ustalcie własny rdzeń
 
-My wybieramy żurek lub barszcz biały, jajka, jedną dobrą sałatkę — często [mizerię](/pl/rezepte/mizeria) albo świąteczną [sałatkę jarzynową](/pl/rezepte/salatka-jarzynowa) (majonez i warzywa ≠ ogórek ze śmietaną) — i wypiek albo deser. Wiosną opcjonalnie ciepła [botwinka](/pl/rezepte/botwinka). Klasyczna forma: [babka](/pl/rezepte/babka) (ciasto drożdżowe z formy); menu zostaje ownerem planu, babka tylko cook-intent. Alternatywnie [sernik](/pl/rezepte/sernik) albo kupiony wypiek bez wstydu. Do tego biała kiełbasa, chrzan oraz pieczywo. Jeśli przyjeżdża rodzina, można dodać [bigos](/pl/rezepte/bigos) lub pierogi, ale nie robimy wszystkiego tylko dlatego, że „tak wypada”. Świąteczny stół ma być gościnny także dla gospodarzy.
+My wybieramy żurek lub barszcz biały, jajka, jedną dobrą sałatkę — często [mizerię](/pl/rezepte/mizeria) albo świąteczną [sałatkę jarzynową](/pl/rezepte/salatka-jarzynowa) (majonez i warzywa ≠ ogórek ze śmietaną) — i wypiek albo deser. Wiosną opcjonalnie ciepła [botwinka](/pl/rezepte/botwinka). Klasyczna forma: [babka](/pl/rezepte/babka) (ciasto drożdżowe z formy); płaski placek z wierzchem: [mazurek orzechowy](/pl/rezepte/mazurek) (cook-intent, menu zostaje ownerem planu). Alternatywnie [sernik](/pl/rezepte/sernik) albo kupiony wypiek bez wstydu. Do tego biała kiełbasa, chrzan oraz pieczywo. Jeśli przyjeżdża rodzina, można dodać [bigos](/pl/rezepte/bigos) lub pierogi, ale nie robimy wszystkiego tylko dlatego, że „tak wypada”. Świąteczny stół ma być gościnny także dla gospodarzy.
 
 ## Harmonogram
 
@@ -570,7 +578,7 @@ export const bodySonntagsessenPl = `Niedzielny obiad nie musi zaczynać się o s
 
 ## Formuła trzech elementów
 
-My wybieramy jedno danie główne, prosty dodatek i coś świeżego. Może to być [rosół](/pl/rezepte/rosol) oraz pieczone mięso z ziemniakami, pierogi z [mizerią](/pl/rezepte/mizeria), chłodna [sałatka jarzynowa](/pl/rezepte/salatka-jarzynowa) jako majonezowy dodatek bufetowy (inny intent niż mizeria), ciepła [kapusta zasmażana](/pl/rezepte/kapusta-zasmażana) albo [bigos](/pl/rezepte/bigos) z chlebem. Nie potrzebujemy przystawki, dwóch deserów i pięciu misek, aby dom pachniał niedzielą.
+My wybieramy jedno danie główne, prosty dodatek i coś świeżego. Może to być [rosół](/pl/rezepte/rosol) oraz pieczone mięso z ziemniakami, pierogi z [mizerią](/pl/rezepte/mizeria), chłodna [sałatka jarzynowa](/pl/rezepte/salatka-jarzynowa) jako majonezowy dodatek bufetowy (inny intent niż mizeria), ciepła [kapusta zasmażana](/pl/rezepte/kapusta-zasmażana), ciepłe [buraczki](/pl/rezepte/buraczki) (dodatek ≠ botwinka-zupa, ≠ barszcz), treściwa [grochówka](/pl/rezepte/grochowka) (groch ≠ fasolka, ≠ kapuśniak) albo [bigos](/pl/rezepte/bigos) z chlebem. Na słodko do kawy często wystarczy jedna blacha [szarlotki](/pl/rezepte/szarlotka) (≠ [racuchy](/pl/rezepte/racuchy-jablka) na patelni). Nie potrzebujemy przystawki, dwóch deserów i pięciu misek, aby dom pachniał niedzielą.
 
 ## Mięso niedzielne (piec i duszenie)
 
@@ -579,6 +587,14 @@ Obok schabowego warto spokojne mięso: [golonka](/pl/rezepte/golonka) duszona na
 ## Szybka patelnia: kaszanka
 
 Gdy niedziela jest krótka: [kaszanka z cebulą](/pl/rezepte/kaszanka) ze sklepu polskiego — przepis cook tam; rodzaje i jakość zostają w leksykonie kiełbasy. Pasuje do chleba, ziemniaków lub kapusty zasmażanej, bez rozbijania planu jednego środka ciężkości.
+
+## Mielone w sosie: klopsy
+
+Codzienność i spokojna niedziela: [klopsy w sosie koperkowym](/pl/rezepte/klopsy) — kulki/pulpety w sosie, jasno ≠ panierowany [kotlet mielony](/pl/rezepte/kotlet-mielony). Owner kultury zostaje tu; cook-primary na URL przepisu.
+
+## Dodatek do rosołu: kluski kładzione
+
+Do jasnego bulionu pasują świeże kluski: [kluski kładzione](/pl/rezepte/kluski-kladzione) — ciasto łyżką, nie knedle z dziurką jak [kluski śląskie](/pl/rezepte/kluski-slaskie).
 
 ## Podziel pracę w czasie
 

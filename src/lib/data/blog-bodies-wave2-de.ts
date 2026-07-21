@@ -398,6 +398,14 @@ Wenn der Topf deftige Einlage und Majeranek will — nicht Rote Bete, nicht Zakw
 
 **Zupa pomidorowa** — polnische Tomatensuppe mit Reis oder Nudeln und Śmietana — ist Alltagsküche aus oft Rosół-Resten, kein Festtags-Barszcz und keine Kiszone-Ogórkowa. Cook-Rezept: [Zupa pomidorowa](/de/rezepte/zupa-pomidorowa). Dieser Überblick bleibt Broad-Owner; die Money Page trägt nur den Tomaten-Teller.
 
+## Herbst / Wigilia: Zupa grzybowa
+
+**Zupa grzybowa** — klare Pilzsuppe aus Trockenpilzen — ist eigener Cook-Primary (Wald/Fond), nicht Rote Bete und nicht Kutteln. Rezept: [Zupa grzybowa](/de/rezepte/zupa-grzybowa). Dieser Überblick bleibt Broad-Owner.
+
+## Deftig: Grochówka
+
+**Grochówka** — Erbsensuppe mit oft Rauchwurst — ist Erbsen-Primary, nicht Bohnen-[Fasolka](/de/rezepte/fasolka-po-bretonsku) und nicht [Kapuśniak](/de/rezepte/kapusniak). Cook: [Grochówka](/de/rezepte/grochowka). Krupnik später; Overview bleibt Broad.
+
 ## Einkauf DE
 
 Supermarkt: Suppengrün, Kartoffeln, Majoran, Lorbeer, Sahne/Schmand. Polenladen: Zakwas, Pilze, Kapusta, Kiełbasa – [Polenladen](/de/blog/polenladen-einkaufen), [Kiełbasa-Arten](/de/blog/kielbasa-arten), [Ersatzprodukte](/de/blog/ersatzprodukte), [Śmietana/Schmand](/de/blog/smietana-schmand).
@@ -582,7 +590,7 @@ Mittlere Temperatur kosten. Tiefe fehlt: Zeit/Röstung. Frische: Petersilie/Pfef
 
 ## Servieren
 
-Teller vorwärmen, Nudeln anlegen, Brühe darüber, Kräuter zuletzt. Warmhalten ohne hartes Kochen.
+Teller vorwärmen, Nudeln anlegen, Brühe darüber, Kräuter zuletzt. Warmhalten ohne hartes Kochen. Frische Fallnudeln statt Packungsnudeln: [Kluski kładzione](/de/rezepte/kluski-kladzione) — Cook-Primary dort; Brühen-Technik bleibt hier.
 
 ## FAQ
 
@@ -1166,7 +1174,7 @@ Kümmel, Pfeffer, Knoblauch, Majoran, Rauch – passend zum Gericht wählen, nic
 
 ## Menüs
 
-Pfanne, Żurek, Bigos, [Sonntagsessen](/de/blog/polnisches-sonntagsessen), Ostern – eine gute Linie schlägt Wurstbuffet. [Wielkanoc](/de/blog/wielkanoc-speiseplan).
+Pfanne, Żurek, Bigos, [Grochówka](/de/rezepte/grochowka) (Rauchwurst in der Erbsensuppe), [Sonntagsessen](/de/blog/sonntagsessen-polnisch), Ostern – eine gute Linie schlägt Wurstbuffet. [Wielkanoc](/de/blog/wielkanoc-speiseplan).
 
 ## Sicherheit
 
@@ -1478,7 +1486,7 @@ Zwei Touren: Spezial + Volumen. Leere Regale vor Feiertagen real – Puffer.
 
 ## Süßes
 
-Ein Kuchen reicht oft — Qualität vor Vielfalt. Klassische Form: [Babka](/de/rezepte/babka) (Hefegugelhupf); Speiseplan bleibt Menü-Owner, Babka nur Cook-Intent. Alternativ Käsekuchen-Linie [Sernik](/de/rezepte/sernik) oder Kaufware ohne Scham.
+Ein Kuchen reicht oft — Qualität vor Vielfalt. Klassische Form: [Babka](/de/rezepte/babka) (Hefegugelhupf); flacher Belag-Osterkuchen: [Mazurek orzechowy](/de/rezepte/mazurek) (Cook-Intent, Speiseplan bleibt Menü-Owner). Alternativ Käsekuchen-Linie [Sernik](/de/rezepte/sernik) oder Kaufware ohne Scham.
 
 ## Tisch
 
@@ -1786,11 +1794,19 @@ Neben Schabowy lohnen ruhige Fleisch-Mittelpunkte: [Golonka](/de/rezepte/golonka
 
 ## Beilagen
 
-Kartoffeln/Kasza/Brot + Gurke/Salat. Klassisch kalt: [Mizeria](/de/rezepte/mizeria); warm und säuerlich: [Kapusta zasmażana](/de/rezepte/kapusta-zasmażana). Fest- und Buffetsalat mit Mayo-Gemüse: [Sałatka jarzynowa](/de/rezepte/salatka-jarzynowa) — anderer Intent als Mizeria. Nicht sechs Salate.
+Kartoffeln/Kasza/Brot + Gurke/Salat. Klassisch kalt: [Mizeria](/de/rezepte/mizeria); warm und säuerlich: [Kapusta zasmażana](/de/rezepte/kapusta-zasmażana); warme Rote-Bete-Beilage: [Buraczki](/de/rezepte/buraczki) (Cook ≠ Botwinka-Suppe, ≠ Barszcz). Fest- und Buffetsalat mit Mayo-Gemüse: [Sałatka jarzynowa](/de/rezepte/salatka-jarzynowa) — anderer Intent als Mizeria. Nicht sechs Salate.
+
+## Süßes zum Kaffee
+
+Ein Blech reicht oft: [Szarlotka](/de/rezepte/szarlotka) als polnischer Apfelkuchen (≠ [Racuchy](/de/rezepte/racuchy-jablka) in der Pfanne). Kultur-Owner bleibt dieser Guide; Cook-Primary auf der Rezept-URL.
 
 ## Gäste
 
 Allergien fragen; vegetarische Option; Wasser neben Kompot/Kaffee. Kinderportionen.
+
+## Deftige Erbsensuppe
+
+Wenn der Mittelpunkt ein Topf sein soll: [Grochówka](/de/rezepte/grochowka) — Erbsen mit oft Rauchwurst, klar ≠ Fasolka und ≠ Kapuśniak. Cook-Primary auf der Rezept-URL; Kultur-Owner bleibt dieser Sonntags-Guide.
 
 ## Reste
 
@@ -1811,6 +1827,14 @@ Winter schmorend; Sommer leichter + Grillwurst-Linie ehrlich. [Kiełbasa](/de/bl
 ## Schnelle Pfanne: Kaszanka
 
 Wenn der Sonntag kurz ist: [Kaszanka mit Zwiebel](/de/rezepte/kaszanka) aus dem Polenladen — Cook-Rezept dort; Arten und Qualitätslesen bleiben im Kiełbasa-Lexikon. Passt zu Brot, Kartoffeln oder Kapusta zasmażana, ohne den Mittelpunkt-Plan zu sprengen.
+
+## Hack in Soße: Klopsy
+
+Alltag und ruhiger Sonntag: [Klopsy in Dillsoße](/de/rezepte/klopsy) — Kugeln/Pulpety in Soße, klar ≠ panierter [Kotlet mielony](/de/rezepte/kotlet-mielony). Kultur-Owner bleibt dieser Guide; Cook-Primary auf der Rezept-URL.
+
+## Rosół-Einlage: Kluski kładzione
+
+Zu klarer Brühe passen frische Fallnudeln: [Kluski kładzione](/de/rezepte/kluski-kladzione) — Löffel-Teig, nicht Mulden-[Kluski śląskie](/de/rezepte/kluski-slaskie).
 
 ## Budget
 

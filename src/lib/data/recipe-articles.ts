@@ -15,6 +15,10 @@ import { W10_FACTS_C } from "./recipe-articles-w10-c";
 import { W10_FACTS_D } from "./recipe-articles-w10-d";
 import { W10_FACTS_W9_RETROFIT } from "./recipe-articles-w10-d-retrofit";
 import { W11_FACTS_D } from "./recipe-articles-w11-d";
+import { W12_FACTS_A } from "./recipe-articles-w12-a";
+import { W12_FACTS_B } from "./recipe-articles-w12-b";
+import { W12_FACTS_C } from "./recipe-articles-w12-c";
+import { W12_FACTS_D } from "./recipe-articles-w12-d";
 
 type ArticleFacts = {
   dishDe: string;
@@ -418,9 +422,9 @@ const FACTS: Record<string, ArticleFacts> = {
     vibeDe: "klar, golden, heilend und festlich",
     vibePl: "klarowny, złoty, leczniczy i odświętny",
     originDe:
-      "Rosół ist die polnische Hühnerbrühe: langsam gezogen, klar, mit Gemüse und Fadenudeln. Er ist Medizin, Sonntag und Willkommensgruß.",
+      "Rosół ist die polnische Hühnerbrühe: langsam gezogen, klar, mit Gemüse und Fadenudeln. Er ist Medizin, Sonntag und Willkommensgruß. Frische Fallnudeln als Einlage: [Kluski kładzione](/de/rezepte/kluski-kladzione) — anderer Cook-Primary als Packungsnudeln.",
     originPl:
-      "Rosół to polski bulion drobiowy: długo gotowany, klarowny, z warzywami i nitkami. To lekarstwo, niedziela i powitanie.",
+      "Rosół to polski bulion drobiowy: długo gotowany, klarowny, z warzywami i nitkami. To lekarstwo, niedziela i powitanie. Świeże kluski jako dodatek: [kluski kładzione](/pl/rezepte/kluski-kladzione) — inny cook-primary niż makaron z paczki.",
     shopDe:
       "Suppenhuhn oder qualitätvolle Keulen, Suppengrün, Piment, Lorbeer, Fadenudeln. Petersilienwurzel macht den Unterschied — im deutschen Markt manchmal als Wurzelpetersilie. Rosół-Technik für Klarheit und Schaum.",
     shopPl:
@@ -430,9 +434,9 @@ const FACTS: Record<string, ArticleFacts> = {
     techniquePl:
       "Zimna woda na start, zbierać szumowiny, nie burzyć. Czas jest głównym składnikiem. Klarowność bierze się ze spokoju, nie z samych sztuczek.",
     serveDe:
-      "Mit Nudeln, Karottenstücken, Petersilie. Fleisch separat oder im Teller.",
+      "Mit Nudeln, Karottenstücken, Petersilie. Fleisch separat oder im Teller. Hausgemachte Fallnudeln: [Kluski kładzione](/de/rezepte/kluski-kladzione).",
     servePl:
-      "Z makaronem, marchewką, pietruszką. Mięso osobno lub w talerzu.",
+      "Z makaronem, marchewką, pietruszką. Mięso osobno lub w talerzu. Domowe kluski: [kluski kładzione](/pl/rezepte/kluski-kladzione).",
     diasporaDe:
       "Rosół kocht man in Deutschland oft sonntags. Der Geruch füllt die Wohnung und die Woche.",
     diasporaPl:
@@ -442,9 +446,9 @@ const FACTS: Record<string, ArticleFacts> = {
     mistakesPl:
       "Zbyt mocne gotowanie, za mało soli na końcu, zbyt wczesny makaron. Osobne gotowanie nitek trzyma rosół klarownym.",
     variantsDe:
-      "Mit Rind gemischt, mit mehr Sellerie, oder als Basis für andere Suppen. Rosół-Technik für Sonntagsreferenz und klare Brühe.",
+      "Mit Rind gemischt, mit mehr Sellerie, oder als Basis für andere Suppen. Rosół-Technik für Sonntagsreferenz und klare Brühe. Einlage-Alternative: [Kluski kładzione](/de/rezepte/kluski-kladzione).",
     variantsPl:
-      "Z wołowiną, z większą ilością selera albo jako baza innych zup. Rosół-Technik przy niedzielnym wzorcu i klarowności.",
+      "Z wołowiną, z większą ilością selera albo jako baza innych zup. Rosół-Technik przy niedzielnym wzorcu i klarowności. Alternatywa dodatku: [kluski kładzione](/pl/rezepte/kluski-kladzione).",
   },
   "recipe-fasolka": {
     dishDe: "Fasolka po bretońsku",
@@ -724,9 +728,9 @@ const FACTS: Record<string, ArticleFacts> = {
     vibeDe: "alltäglich, paniert, kinderfreundlich",
     vibePl: "codzienny, panierowany, dla dzieci",
     originDe:
-      "Hacksteaks paniert — nicht Schabowy: hier gemischtes Hack, dort geklopftes Schnitzel. In der Diaspora schnell, günstig, vertraut. Ein altes Brötchen in Milch hält sie saftig.",
+      "Hacksteaks paniert — nicht Schabowy: hier gemischtes Hack, dort geklopftes Schnitzel. In der Diaspora schnell, günstig, vertraut. Ein altes Brötchen in Milch hält sie saftig. Kugeln in Dillsoße sind eine andere Linie: [Klopsy](/de/rezepte/klopsy).",
     originPl:
-      "Kotlety z mielonego mięsa w panierce — nie schabowy: tu mielone, tam rozbite kotlety. W diasporze szybko, tanio, znajomo. Namoczona bułka trzyma soczystość.",
+      "Kotlety z mielonego mięsa w panierce — nie schabowy: tu mielone, tam rozbite kotlety. W diasporze szybko, tanio, znajomo. Namoczona bułka trzyma soczystość. Kulki w sosie koperkowym to inna linia: [klopsy](/pl/rezepte/klopsy).",
     shopDe:
       "Hack gemischt, altes Brötchen, Milch, Semmelbrösel, Butterschmalz. Panieren Guide für Reihenfolge; Gusseisenpfanne für gleichmäßige Kruste.",
     shopPl:
@@ -736,21 +740,21 @@ const FACTS: Record<string, ArticleFacts> = {
     techniquePl:
       "Masę 30 min w lodówce, formuj płaskie kotlety, obtocz mąka-jajko-bułka. Nie za mocno — panierka przypala się szybciej niż u schabowego.",
     serveDe:
-      "Mit Kartoffeln, Mizeria oder Ketchup — ohne Urteil, mit Brot wenn es schnell gehen muss.",
+      "Mit Kartoffeln, Mizeria oder Ketchup — ohne Urteil, mit Brot wenn es schnell gehen muss. Soßen-Kugeln ohne Panade: [Klopsy](/de/rezepte/klopsy).",
     servePl:
-      "Z ziemniakami, mizerią albo keczupem — bez oceniania, z chlebem gdy trzeba szybko.",
+      "Z ziemniakami, mizerią albo keczupem — bez oceniania, z chlebem gdy trzeba szybko. Kulki w sosie bez panierki: [klopsy](/pl/rezepte/klopsy).",
     diasporaDe:
       "Wochentags-Trost nach der Arbeit. Panade vorbereiten, braten wenn alle da sind — wie Schabowy, aber weniger Aufwand.",
     diasporaPl:
       "Pocieszenie w tygodniu po pracy. Panierkę przygotuj wcześniej, smaż gdy wszyscy w domu — jak schabowy, ale mniej roboty.",
     mistakesDe:
-      "Ohne Brötchen zu trocken, zu dick geformt, Panade zu früh. Erst eine Probe.",
+      "Ohne Brötchen zu trocken, zu dick geformt, Panade zu früh. Erst eine Probe. Nicht mit [Klopsy](/de/rezepte/klopsy) verwechseln (Kugeln in Soße).",
     mistakesPl:
-      "Bez bułki za sucho, za grube kotlety, panierka za wcześnie. Najpierw jedna próba.",
+      "Bez bułki za sucho, za grube kotlety, panierka za wcześnie. Najpierw jedna próba. Nie mylić z [klopsami](/pl/rezepte/klopsy) (kulki w sosie).",
     variantsDe:
-      "Mit Pute, ohne Panade gebraten, oder neben Rosół am Sonntag. Panieren Guide gilt für alle Varianten.",
+      "Mit Pute, ohne Panade gebraten, oder neben Rosół am Sonntag. Panieren Guide gilt für alle Varianten. Soßen-Intent: [Klopsy](/de/rezepte/klopsy).",
     variantsPl:
-      "Z indyka, bez panierki na patelni albo obok rosołu w niedzielę. Przewodnik po panierce dla wszystkich wersji.",
+      "Z indyka, bez panierki na patelni albo obok rosołu w niedzielę. Przewodnik po panierce dla wszystkich wersji. Intent sosowy: [klopsy](/pl/rezepte/klopsy).",
   },
   "recipe-kluski-slaskie": {
     dishDe: "Kluski śląskie",
@@ -758,9 +762,9 @@ const FACTS: Record<string, ArticleFacts> = {
     vibeDe: "zart, neutral, charakteristische Mulde",
     vibePl: "delikatne, neutralne, charakterystyczna dziurka",
     originDe:
-      "Schlesische Kartoffelklöße mit Mulde in der Mitte — aus gekochten Kartoffeln, Stärke und Ei. Klassische Beilage zu Rosół, oft mit gebratener Zwiebel oder Pilzsoße.",
+      "Schlesische Kartoffelklöße mit Mulde in der Mitte — aus gekochten Kartoffeln, Stärke und Ei. Klassische Beilage zu Rosół, oft mit gebratener Zwiebel oder Pilzsoße. Fallnudeln aus Ei-Mehl-Teig sind eine andere Linie: [Kluski kładzione](/de/rezepte/kluski-kladzione).",
     originPl:
-      "Śląskie knedle ziemniaczane z wgłębieniem po środku — z ugotowanych ziemniaków, skrobi i jajka. Klasyk obok rosołu, często z cebulą na smalcu albo sosem grzybowym.",
+      "Śląskie knedle ziemniaczane z wgłębieniem po środku — z ugotowanych ziemniaków, skrobi i jajka. Klasyk obok rosołu, często z cebulą na smalcu albo sosem grzybowym. Kluski z ciasta jajecznego to inna linia: [kluski kładzione](/pl/rezepte/kluski-kladzione).",
     shopDe:
       "Kartoffeln, Kartoffelstärke (Speisestärke im Supermarkt), Ei. Rosół-Technik wenn du die Brühe selbst ziehst — Kluski sind oft der Sonntags-Partner.",
     shopPl:
@@ -770,21 +774,21 @@ const FACTS: Record<string, ArticleFacts> = {
     techniquePl:
       "Ciasto twarde, ale plastyczne — za miękkie pękają w wodzie. Wgłębienie palcem, delikatnie gotować, wyjąć zaraz po wypłynięciu.",
     serveDe:
-      "Mit Rosół, gebratener Zwiebel oder Pilzsoße — Beilage, die den Teller trägt ohne zu dominieren.",
+      "Mit Rosół, gebratener Zwiebel oder Pilzsoße — Beilage, die den Teller trägt ohne zu dominieren. Löffel-Fallnudeln: [Kluski kładzione](/de/rezepte/kluski-kladzione).",
     servePl:
-      "Z rosółem, cebulą na smalcu albo sosem grzybowym — dodatek, który niesie talerz bez dominacji.",
+      "Z rosółem, cebulą na smalcu albo sosem grzybowym — dodatek, który niesie talerz bez dominacji. Kluski łyżką: [kluski kładzione](/pl/rezepte/kluski-kladzione).",
     diasporaDe:
       "In Deutschland weniger bekannt als Pierogi, aber für Schlesier und Rosół-Fans unverzichtbar. Einmal geübt, wiederholbar.",
     diasporaPl:
       "W Niemczech mniej znane niż pierogi, ale dla Ślązaków i fanów rosołu niezastąpione. Raz opanowane — powtarzalne.",
     mistakesDe:
-      "Zu viel Stärke (gummiartig), zu stark kochen, zu große Klöße. Erste Charge als Test.",
+      "Zu viel Stärke (gummiartig), zu stark kochen, zu große Klöße. Erste Charge als Test. Nicht mit [Kluski kładzione](/de/rezepte/kluski-kladzione) verwechseln.",
     mistakesPl:
-      "Za dużo skrobi (gumowate), zbyt gwałtowne gotowanie, za duże knedle. Pierwsza partia na próbę.",
+      "Za dużo skrobi (gumowate), zbyt gwałtowne gotowanie, za duże knedle. Pierwsza partia na próbę. Nie mylić z [kluskami kładzionymi](/pl/rezepte/kluski-kladzione).",
     variantsDe:
-      "Mit Pilzsoße statt Zwiebel, oder neben Gulasz. Rosół-Technik für die passende Brühe.",
+      "Mit Pilzsoße statt Zwiebel, oder neben Gulasz. Rosół-Technik für die passende Brühe. Andere Teig-Einlage: [Kluski kładzione](/de/rezepte/kluski-kladzione).",
     variantsPl:
-      "Z sosem grzybowym zamiast cebuli albo obok gulaszu. Rosół-Technik przy pasującym bulionie.",
+      "Z sosem grzybowym zamiast cebuli albo obok gulaszu. Rosół-Technik przy pasującym bulionie. Inny dodatek ciastowy: [kluski kładzione](/pl/rezepte/kluski-kladzione).",
   },
   "recipe-racuchy": {
     dishDe: "Racuchy z jabłkami",
@@ -1275,6 +1279,12 @@ Object.assign(
 
 /** Wave 11 D — Ryba po grecku · Golonka · Kompot z suszu */
 Object.assign(FACTS, W11_FACTS_D);
+
+/**
+ * Wave 12 — merge order:
+ * A Suppen · B Wigilia-Pasta+Szarlotka · C Ostern+Buraczki · D Klopsy+Kładzione.
+ */
+Object.assign(FACTS, W12_FACTS_A, W12_FACTS_B, W12_FACTS_C, W12_FACTS_D);
 
 function expand(locale: Locale, f: ArticleFacts): string {
   if (locale === "de") {

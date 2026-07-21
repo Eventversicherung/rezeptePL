@@ -69,6 +69,8 @@ Kolejność jest święta: **mąka → jajo → bułka tarta**. Każda warstwa m
 
 **Sól dwa razy:** Solone mięso + sól w bułce + sól na talerzu = za słone. Trzymamy sól na etapie mięsa.
 
+**Nie klopsy:** [Klopsy / pulpety](/pl/rezepte/klopsy) to kulki w sosie bez trójstopniowej panierki — inny cook-primary niż panierowany [kotlet mielony](/pl/rezepte/kotlet-mielony). Owner panierowania zostaje tu.
+
 ## Warianty: panko, bez jaja, inne mięso
 
 **Panko:** Jaśniejsze, większe płatki — ekstra chrupkość, mniej „chlebowy” smak. Obtaczamy jak bułką; często lżejsza warstwa. Dobre na kurczaka, mniej „babci” przy schabie — kwestia gustu.

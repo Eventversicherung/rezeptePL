@@ -58,7 +58,9 @@ Eine Primary KW = eine Owner-URL. Andere Seiten nur mit descriptive Anchors verl
 | Placki mit Apfel | `/rezepte/placki/mit-apfel` · `/jablka` |
 | Gulasz wieprzowy | `/rezepte/gulasz-wieprzowy` |
 | Kotlet mielony | `/rezepte/kotlet-mielony` |
+| Klopsy / Pulpety (Kugeln in Soße) | `/rezepte/klopsy` |
 | Kluski śląskie | `/rezepte/kluski-slaskie` |
+| Kluski kładzione / Fallnudeln | `/rezepte/kluski-kladzione` |
 | Racuchy z jabłkami | `/rezepte/racuchy-jablka` |
 | Chłodnik litewski | `/rezepte/chlodnik-litewski` |
 | Gołąbki Rezept (broad) | `/blog/golabki-guide` |
@@ -105,6 +107,14 @@ Eine Primary KW = eine Owner-URL. Andere Seiten nur mit descriptive Anchors verl
 | Ryba po grecku / Fisch griechische Art polnisch | `/rezepte/ryba-po-grecku` |
 | Golonka / Haxe polnisch geschmort | `/rezepte/golonka` |
 | Kompot z suszu / Trockenobstkompot | `/rezepte/kompot-z-suszu` |
+| Mazurek / Osterkuchen polnisch (orzechowy) | `/rezepte/mazurek` |
+| Buraczki / Rote-Bete-Beilage polnisch | `/rezepte/buraczki` |
+| Zupa grzybowa / Pilzsuppe polnisch | `/rezepte/zupa-grzybowa` |
+| Grochówka / Erbsensuppe polnisch | `/rezepte/grochowka` |
+| Makaron z makiem / Nudeln mit Mohn | `/rezepte/makaron-z-makiem` |
+| Szarlotka / Polnischer Apfelkuchen | `/rezepte/szarlotka` |
+
+**Intent-Trennung (Wave 12 final):** Zupa grzybowa = klare/getrocknete-Pilz-Cook ≠ Barszcz ≠ Flaki ≠ Ogórkowa; Overview bleibt `/blog/polnische-suppen`. Grochówka = Erbsensuppe ≠ Fasolka ≠ Kapuśniak (Krupnik später). Makaron z makiem = Nudeln+Mohn ≠ Makowiec (Rolle; Technik `/blog/makowiec-technik`) ≠ Makaron z serem. Szarlotka = Apfelkuchen Blech/Form ≠ Racuchy ≠ Piernik ≠ Sernik. Mazurek orzechowy = flacher Belag-Osterkuchen ≠ Babka ≠ Sernik ≠ Makowiec ≠ Piernik; Wielkanoc bleibt Anlass-Owner. Buraczki = warme Rote-Bete-Beilage ≠ Botwinka ≠ Barszcz ≠ Sałatka. Klopsy / Pulpety = Kugeln in Dillsoße ≠ Kotlet mielony ≠ Schabowy. Kluski kładzione = Fallnudeln ≠ Kluski śląskie ≠ Kopytka ≠ Makaron z serem. Sonntagsessen / Wigilia bleiben Kultur-/Anlass-Owner.
 
 **Intent-Trennung (Wave 9 final):** Żeberka = Ofenrippen ≠ Gulasz/Zrazy; Rolada śląska = Schmor-Roulade ≠ Zrazy; Sałatka ≠ Mizeria; Botwinka ≠ Barszcz/Chłodnik; Babka = Hefegugelhupf ≠ Makowiec/Sernik/Pączki Primary; Kaszanka = Cook ≠ Kiełbasa-Arten Lexikon.
 

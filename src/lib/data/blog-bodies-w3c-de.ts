@@ -73,6 +73,8 @@ Die **klassische Dreifach-Panade** folgt einer festen Reihenfolge:
 
 **Falsches Fleisch:** Durchzogenes Hack-Kotlet braucht andere Kerntemperatur als Schnitzel — nicht verwechseln. Schabowy-Technik gilt für ganzes Muskelstück.
 
+**Nicht Klopsy:** [Klopsy / Pulpety](/de/rezepte/klopsy) sind Kugeln in Soße ohne Dreifach-Panade — anderer Cook-Primary als panierter [Kotlet mielony](/de/rezepte/kotlet-mielony). Panieren-Owner bleibt dieser Guide.
+
 Wir haben alle diese Fehler mindestens einmal in einer deutschen Mietküche produziert — die Liste ist Erfahrung, nicht Belehrung.
 
 ## Varianten kurz — ohne Rezept zu duplizieren

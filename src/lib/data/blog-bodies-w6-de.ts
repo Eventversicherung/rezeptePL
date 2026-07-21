@@ -53,8 +53,9 @@ Trockene Mohnmasse, zu viel Mehl im Teig, zu heißer Ofen, zu früh schneiden, F
 - [Pierogi-Teig](/de/blog/pierogi-teig) — Teiggefühl, aber anderer Teigtyp
 - [Wigilia-Speiseplan](/de/blog/wigilia-speiseplan) — Menürahmen
 - [Piernik](/de/rezepte/piernik) — Honig-Gewürz-Lebkuchen (≠ Mohnrolle; anderer Cook-Primary; hier nur Back-Nachbar descriptiv)
+- [Makaron z makiem](/de/rezepte/makaron-z-makiem) — Nudeln mit Mohnmasse (≠ Rolle; anderer Cook-Primary; hier nur Mohn-Nachbar descriptiv)
 
-Primary-Keywords bleiben getrennt: Technik hier, Rezept auf der Money Page, Speiseplan beim Anlass. Piernik stiehlt weder Hefe- noch Mohn-Primary.
+Primary-Keywords bleiben getrennt: Technik hier, Rezept auf der Money Page, Speiseplan beim Anlass. Piernik und Makaron z makiem stehlen weder Hefe- noch Mohnrollen-Primary.
 
 ## FAQ: Makowiec-Technik
 
