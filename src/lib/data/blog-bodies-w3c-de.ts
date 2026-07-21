@@ -128,241 +128,100 @@ Ja — im Kühlschrank, dann im Ofen oder in der Pfanne ohne Mikrowelle aufwärm
 `;
 
 export const bodyBarszczTechnikDe = `
-**Barszcz czerwony** — die klare, rubinrote Rote-Bete-Suppe — ist für viele polnische Haushalte Wigilia-Pflicht, Sonntagsstarter und Alltagsbrühe zugleich. Das [Barszcz-Rezept](/de/rezepte/barszcz-czerwony) liefert Zutaten und Schritte; dieser Guide erklärt die **Technik**: welche Buraki in Deutschland Sinn machen, wie der Wywar Klarheit bekommt, warum Śmietana am Teller kommt und wie Aufwärmen die Suppe nicht trübt. Spiegel zu [Rosół-Technik](/de/blog/rosol-technik) — gleiche Tiefen-Logik, andere Zutat.
+**Barszcz czerwony** — die klare, rubinrote Rote-Bete-Suppe — ist für viele Haushalte Wigilia-Pflicht und Sonntagsstarter. Mengen und Schritte stehen im [Barszcz-Rezept](/de/rezepte/barszcz-czerwony). Hier bleibt die Technik, die das Rezept nicht allein trägt: Klarheit, Einkauf in DE, Wigilia-Logik und Aufwärmen — ohne Kochliste.
 
-Wir kochen in der Diaspora: frische Rote Bete neben Konserve aus dem Polenladen, Konzentrat für schnelle Wigilia. Orientierung zu Gemüse und Suppen in ausgewogener Küche: [BZfE](https://www.bzfe.de), [was-wir-essen.de](https://www.was-wir-essen.de), [EU-Landwirtschaft](https://agriculture.ec.europa.eu). Kein Folklore — Barszcz ist Suppe mit klaren Regeln.
+Spiegel zu [Rosół-Technik](/de/blog/rosol-technik): gleiche Geduld mit dem Topf, andere Zutat. Überblick: [Polnische Suppen](/de/blog/polnische-suppen).
 
-## Barszcz czerwony vs. andere — Entity
+## Barszcz czerwony vs. andere
 
-**Barszcz czerwony** ist **klar**: durchgeseiht oder sorgfältig abgezogen, rubinrot, ohne Sahne im Topf. Das unterscheidet ihn von **Barszcz biały** (weiß, Mehl/Sauerteig-Basis), **Barszcz ukraiński** (deftiger, oft mit Bohnen und mehr Gemüse) und von der ukrainischen **Borscht**-Variante, die international oft mit Sauerrahm im Topf oder als Einlage assoziiert wird.
+Klarer **czerwony** ist durchgeseiht, rubinrot, ohne Sahne im Topf — anders als Barszcz biały, ukraiński oder stückige Alltagssuppe. An Wigilia oft ohne Fleisch, vor [Uszka](/de/rezepte/uszka); am Sonntag darf der Wywar fleischig sein. Warme Frühlings-Bete mit Grün: [Botwinka](/de/rezepte/botwinka) — nicht klarer Barszcz und nicht kalter Chłodnik.
 
-Für Wigilia zählt der **klare czerwony**: ohne Fleisch, oft als erste Suppe vor [Uszka](/de/rezepte/uszka) — Details im [Wigilia-Speiseplan](/de/blog/wigilia-speiseplan). An normale Sonntage darf der Wywar fleischig sein; an Heiligabend kochen wir pflanzlich und achten auf Brühe ohne tierische Produkte.
+## Buraki und Einkauf in DE
 
-**Entity-Merkmale:** Rote Bete als Farb- und Geschmacksträger, Säure (Zitronensaft, Essig, manchmal Ferment), Klarheit statt Brei. Trübe Suppe ist kein automatischer Fehler — aber **czerwony** im polnischen Feiertags-Sinn ist klar und glänzend.
+**Frisch:** voller Geschmack, mehr Arbeit. **Vacuum/Glas:** Diaspora-Standard. **Konserve / Konzentrat:** schnell — oft mit eigenem Wywar gemischt für Farbe und Tiefe. Saft von der Bete nicht wegschütten. Polenladen für Marken, die wir aus PL kennen: [Polenladen](/de/blog/polenladen-einkaufen).
 
-Überblick über Suppenlandschaft: [Polnische Suppen](/de/blog/polnische-suppen) — dieser Text ist Technik-Owner für **klar kochen**, nicht für die Suppen-Übersicht oder das Śmietana-Lexikon allein. **Abgrenzung:** warme Frühlings-Suppe mit Bete-Grün und Einlagen ist [Botwinka](/de/rezepte/botwinka) — nicht klarer Barszcz und nicht kalter Chłodnik.
+## Klarheit und Śmietana
 
-## Buraki: frisch, Konserve, Konzentrat — Einkauf in DE
+Gemüse nicht zu wild kochen; Bete oft separat oder in zweiter Phase. Nach dem Kochen seihen — pürieren macht eine andere Suppe. Schaum abschöpfen; leises Simmern. Säure (Zitrone/Essig) am Ende — hebt Farbe und Frische.
 
-**Frische Rote Bete:** Geschmack voller, Farbe intensiver — Aufwand höher (Kochen, Schälen, Saft). Bio-Abteilung und Markt; Handschuhe gegen Farbe. Für Wigilia, wenn Zeit da ist.
+**Śmietana am Teller**, nicht im Topf — sonst trüb und matt. Details: [Śmietana vs. Schmand](/de/blog/smietana-schmand). Uszka separat kochen, in die Schale, heiße Suppe darüber — nicht stundenlang in der Suppe stehen lassen.
 
-**Vorgekochte Rote Bete (vacuum / Glas):** Diaspora-Standard — weniger Dampf, gleichmäßige Qualität. Rewe, Edeka, Polenladen; auf Zusatzstoffe und Salzgehalt achten.
+## Wigilia und Reste
 
-**Konserve (Buraki w soku):** Schnell, Saft mitverwenden — Farbe geht nicht verloren. Polenladen- Marken oft näher am polnischen Geschmack; deutsche Konserve funktioniert, manchmal milder oder süßer.
+Pflanzlicher Wywar an Heiligabend — siehe [Wigilia-Speiseplan](/de/blog/wigilia-speiseplan). Kleine Schale, konzentrierter Geschmack. Basis vormittags seihen und kühlen; abends nur aufwärmen.
 
-**Konzentrat (Barszcz-Konzentrat):** Für Notfall-Wigilia oder wenn der Topf schnell rot sein muss — mit Wasser oder Gemüsebrühe strecken, abschmecken. Kein Scham in der Diaspora; wir mischen oft frisch und Konzentrat für Tiefe plus Geschwindigkeit.
+Aufwärmen sanft, nicht kochend. Freezer ohne Śmietana und ohne Uszka. Kühlschrank 3–4 Tage — Tag zwei oft besser.
 
-**Einkauf:** [Polenladen einkaufen](/de/blog/polenladen-einkaufen) für Marken, die wir aus PL kennen — Konzentrat, Uszka, manchmal fertige Basis. Supermarkt reicht für frische oder vorgekochte Bete.
+Mengen und Schritte: [Barszcz-Rezept](/de/rezepte/barszcz-czerwony). Uszka: [Uszka-Rezept](/de/rezepte/uszka).
 
-**Qualität:** Fade oder grau-braune Bete → Suppe wird matt. Saft von der Rote Bete nie wegschütten — das ist die Farbe.
+## FAQ kurz
 
-## Wywar / Grundlage: Gemüse, Timing, nicht zu trüb
+### Warum trüb trotz Sieb?
 
-Der **Wywar** (Fond) trägt die Suppe — Barszcz ist nicht „nur Bete pürieren“. Klassisch: Sellerie, Karotte, Lauch, manchmal Pastinake; an Wigilia ohne Fleisch, sonst optional Huhn oder Rind für Sonntag.
+Zu stark gekocht, Gemüse zerfallen, oder Bete zu früh püriert. Nächste Runde: Bete separat, Wywar ruhiger.
 
-**Timing:** Gemüse für Brühe nicht zu lange wild kochen — zerfallende Stücke trüben. Grob würfeln, simmern, nicht rolling boil stundenlang. Bete oft **separat** oder in zweiter Phase: zu früh alles zusammen → Brei statt Klarheit.
+### Śmietana in den Topf?
 
-**Würze:** Lorbeer, Pfefferkörner, Knoblauch — dezent; Barszcz lebt von Bete und Säure. Salz erst spät, besonders bei Konzentrat oder salziger Konserve.
+Klassisch nein — am Teller.
 
-**Säure:** Zitronensaft oder Essig am Ende — hebt Farbe und Frische. Zu wenig: flach; zu viel: dominiert. Abschmecken nach dem Seihen.
+### Mit Fleischbrühe?
 
-**Fleisch vs. fastenfreundlich:** Wigilia-Logik ohne Fleisch — siehe nächster Abschnitt und [Wigilia-Speiseplan](/de/blog/wigilia-speiseplan). Sonntags-Wywar mit Hühnerresten von [Rosół](/de/blog/rosol-technik) ist diaspora-praktisch: gleiche Technik, anderer Topf.
-
-**Nicht zu trüb:** Nach dem Kochen **seihen** oder durch feines Sieb gießen. Pürieren aller Feststoffe macht eine andere Suppe — lecker, aber nicht klassischer klarer czerwony.
-
-## Klarheit: abseihen, Śmietana am Teller
-
-**Abseihen** ist der entscheidende Schritt für glänzenden Barszcz. Feines Sieb oder Chinois; bei Bedarf zweimal. Feststoffe für Uszka-Füllung oder Beilage nutzen — nicht zurück in die klare Suppe.
-
-**Schaum abschöpfen** während des Kochens — wie bei Rosół — reduziert Trübung. Topf nicht zu stark kochen; leises Simmern.
-
-**Śmietana am Teller:** Polnische **Śmietana** (Sauerrahm, etwas säuerlicher als mancher deutsche Schmand) kommt **nicht** standardmäßig in den Topf — sie würde trüben und Farbe dämpfen. Löffel pro Schale, optional Dill. Unterschied Śmietana vs. Schmand: [Śmietana-Schmand-Lexikon](/de/blog/smietana-schmand). Wir verlinken, statt das Lexikon zu duplizieren.
-
-**Garlic / Uszka:** Klare Suppe als Träger für [Uszka](/de/rezepte/uszka) — kleine Teigtaschen separat kochen, in Schale geben, heiße Suppe darüber. Uszka nicht stundenlang in der Suppe stehen lassen — Teig weicht.
-
-**Optik:** Klarer Barszcz soll **rubinrot** im Rand und tiefer im Napf wirken — mattes Braun deutet auf zu viel Gemüsebrei oder alte Bete.
-
-## Wigilia-Logik: Uszka, ohne Fleisch
-
-Heiligabend (**Wigilia**) verlangt **barszcz ohne Fleisch** — pflanzlicher Wywar, oft mit getrockneten Pilzen oder reiner Gemüsebrühe. Kein Huhn, keine Wurst — auch nicht als „kleiner Schuss“ Brühe.
-
-**Uszka** (kleine Pierogi) mit Pilz- oder Kohlfüllung schwimmen in der Suppe — traditionelle erste Gänge-Reihenfolge im [Wigilia-Speiseplan](/de/blog/wigilia-speiseplan). Suppe warm halten, Uszka frisch gekocht.
-
-**Menge planen:** Wigilia hat viele Gänge — Barszcz als **kleine** Schale, nicht Hauptmahlzeit-Portion. Technik: konzentrierter Geschmack bei moderater Menge.
-
-**Vorbereitung:** Barszcz-Basis am 24. vormittags, abseihen, kalt stellen — am Abend nur aufwärmen. Uszka separat — Stress reduziert.
-
-**Rezept-Owner:** Suppe im [Barszcz czerwony Rezept](/de/rezepte/barszcz-czerwony); Teigtaschen im [Uszka-Rezept](/de/rezepte/uszka) — hier nur die logische Einordnung.
-
-## Reste, Aufwärmen, Freezer kurz
-
-**Kühlschrank:** Abgedeckt 3–4 Tage — Geschmack oft besser am zweiten Tag, Farbe kann dunkler werden.
-
-**Aufwärmen:** Sanft, nicht kochend — harte Wallung trübt und zerstört Frische. Topf langsam; Mikrowelle nur für Einzelportion, kurz und ohne Überkochen.
-
-**Freezer:** Klarer Barszcz ** ohne** Śmietana und ohne Uszka einfrieren — Glas oder Beutel, Luft raus. 2–3 Monate typisch; nach Auftauen nochmals durch feines Sieb, falls leichte Trübung.
-
-**Uszka und Konzentrat:** Uszka frisch oder separat einfrieren; nicht in Suppe blockweise. Konzentrat laut Packung — oft lange haltbar im Schrank.
-
-**Reste kreativ:** Barszcz als Basis für nächsten Eintopf ist möglich, aber dann bewusst „zweite Runde“, nicht Wigilia-Nachbau — Klarheit ist beim Wiedererwärmen das fragile Gut.
-
-## FAQ
-
-### Warum ist unser Barszcz trüb, obwohl wir gesiebt haben?
-
-Oft zu stark gekocht, Gemüse zerfallen, oder Bete zu früh püriert. Nochmals seihen; für nächste Runde Bete separat, Wywar ruhiger simmern. Ein Schuss Säure am Ende kann optisch etwas „schärfen“.
-
-### Frische Bete oder Konserve — was nehmen wir an Wigilia?
-
-Beides geht. Frische für Festtagsgefühl und Tiefe; Konserve/Konzentrat wenn Zeit knapp ist — Ergebnis kann gleich gut sein, wenn abgeschmeckt wird. Wir planen nach Kalender, nicht nach Ideologie.
-
-### Kommt Śmietana in den Topf?
-
-Klassisch **nein** — am Teller. Details und Einkauf: [Śmietana vs. Schmand](/de/blog/smietana-schmand). In den Topf gemischt: cremiger, aber nicht klarer czerwony.
-
-### Können wir Barszcz mit Fleischbrühe kochen?
-
-An normalen Tagen ja — schmeckt kräftiger. An Wigilia nein — pflanzliche Basis. [Wigilia-Speiseplan](/de/blog/wigilia-speiseplan) hält die Übersicht.
-
-### Wie unterscheidet sich Barszcz von Rosół in der Technik?
-
-Rosół: Klarheit durch Fleisch-Simmern und Abschöpfen — siehe [Rosół-Technik](/de/blog/rosol-technik). Barszcz: Bete-Farbe, Säure, oft Gemüse-Wywar; beide profitieren von sanftem Garen und Seihen.
-
-### Einfrieren — mit oder ohne Uszka?
-
-Ohne Uszka. Teigtaschen separat; Suppe klar einfrieren, langsam auftauen und sanft erwärmen.
+An normalen Tagen ja. An Wigilia nein.
 
 ## Weiterlesen
 
 - [Barszcz czerwony — Rezept](/de/rezepte/barszcz-czerwony)
-- [Uszka mit Pilzen — Rezept](/de/rezepte/uszka)
-- [Polnische Suppen — Überblick](/de/blog/polnische-suppen)
+- [Uszka](/de/rezepte/uszka)
+- [Polnische Suppen](/de/blog/polnische-suppen)
 - [Rosół-Technik](/de/blog/rosol-technik)
 - [Śmietana vs. Schmand](/de/blog/smietana-schmand)
 - [Wigilia-Speiseplan](/de/blog/wigilia-speiseplan)
-- [Polenladen einkaufen](/de/blog/polenladen-einkaufen)
 `;
 
 export const bodyPlackiGuideDe = `
-**Placki ziemniaczane** — polnische Kartoffelpuffer — sind in der Diaspora oft das erste Gericht, das Kinder und Nachbarn mögen: außen knusprig, innen weich, mit **Śmietana** oder Gulasch. Mengen und Schritte: [Placki-Rezept](/de/rezepte/placki/ziemniaczane). Hier: Unterschied zu Reibekuchen, Kartoffelwahl, typische Fehler über die Varianten, Servieren und Reste — ohne das Rezept zu wiederholen.
+**Placki ziemniaczane** — polnische Kartoffelpuffer — sind in der Diaspora oft das erste Gericht, das Kinder und Nachbarn mögen. Mengen und Schritte: [Placki-Rezept](/de/rezepte/placki/ziemniaczane). Hier: Unterschied zu Reibekuchen, Kartoffelwahl, Fehler über die Varianten und Servieren — ohne das Rezept zu wiederholen.
 
-Wir kochen zwischen Rewe-Kartoffeln und Polenladen-Śmietana, zwischen Reibekuchen-Erinnerung und polnischem Sonntagsteller. Orientierung zu Kartoffeln: [BZfE](https://www.bzfe.de), [was-wir-essen.de](https://www.was-wir-essen.de).
+Varianten: [Zucchini](/de/rezepte/placki/cukinia), [Käse](/de/rezepte/placki/mit-kaese), [Apfel](/de/rezepte/placki/mit-apfel). Mit Gulasch auf dem Teller: [Placek po węgiersku](/de/rezepte/placek-po-wegiersku).
 
 ## Was Placki sind — vs. Reibekuchen
 
-**Placki ziemniaczane** sind **geriebene rohe Kartoffeln**, gebunden mit Ei und etwas Mehl (oder Stärke), in Öl gebraten — flache Puffer, nicht Ofenkartoffeln, nicht Klöße. In Polen Beilage, Snack oder leichtes Hauptgericht; in DE oft pur mit Sauerrahm oder zu Gulasch. Varianten: [Zucchini](/de/rezepte/placki/cukinia), [Käse](/de/rezepte/placki/mit-kaese), [Apfel](/de/rezepte/placki/mit-apfel).
+Geriebene **rohe** Kartoffeln, gebunden mit Ei und wenig Mehl/Stärke, in Öl gebraten — flache Puffer, nicht Ofenkartoffeln. Verwandt mit deutschen Reibekuchen, typisch dünner und knuspriger; Partner oft Śmietana oder Gulasch statt Apfelmus. Pfanne: [Gusseisen](/de/blog/gusseisenpfanne). Kontext: [Sonntagsessen](/de/blog/sonntagsessen-polnisch).
 
-**Reibekuchen** (deutsch, besonders Rheinland/NRW): verwandt — geriebene Kartoffeln, gebraten. Unterschiede regional: Zwiebel, Speck, Größe, manchmal gekochte Kartoffeln dazu. **Placki** typisch **nur roh**, eher dünn, knusprig — Śmietana oder Pilz-Gulasch als Partner.
+## Kartoffeln und Feuchtigkeit (kurz)
 
-**Placki vs. Latkes:** ähnliche Technik, andere Würzung und Beilage. Polnische Placki oft im Kontext [Sonntagsessen](/de/blog/sonntagsessen-polnisch). Pfanne: [Gusseisen](/de/blog/gusseisenpfanne); Beilage-Idee: [Kasza](/de/blog/kasza-buchweizen).
+Festkochend oder vorwiegend festkochend halten Form besser. Entscheidend: Masse kräftig ausdrücken — zu nass klebt und wird gummiartig. Natürliche Stärke am Schüsselboden mit backen. Mengen im Rezept — hier nur der Hebel.
 
-## Kartoffeln: Sorte, abtropfen, Stärke
+## Was bei allen Varianten schiefgeht
 
-**Sorte:** Festkochend oder vorwiegend festkochend — geriebene Masse hält Form, wird nicht mehlig Brei. Mehlige Kartoffeln gehen in Not, aber Puffer weicher und brüchiger. Deutsche Supermärkte: Sorte auf Packung lesen — „festkochend“ oder „vorwiegend festkochend“.
+- Zu nass → matschig statt knusprig
+- Zu dick geformt → außen braun, innen roh
+- Zu volle Pfanne → dämpfen statt braten
+- Mikrowelle zum Aufwärmen → Gummi
+- Rohe Masse stundenlang lagern → grau und bitter
 
-**Roh reiben, schnell arbeiten:** Kartoffeln oxidieren — braun wird Geschmack und Farbe schlechter. Riefel oder Küchenmaschine; Zwiebel optional direkt mit reiben (Antioxidation, Aroma). Nicht Stunden liegen lassen.
+Warm halten: Ofen 80–100 °C, einzeln, nicht stapeln. Reste in Pfanne oder Ofen aufcrispieren.
 
-**Abtropfen / auspressen:** **Entscheidender Schritt.** Zu viel Flüssigkeit → Puffer kleben, werden gummiartig statt knusprig. Kartoffelmasse in Küchentuch oder Nussbeutel, kräftig ausdrücken — wir sparen hier keine Kraft.
+## Servieren
 
-**Stärke:** Natürliche Kartoffelstärke am Boden der Schüssel mit backen — bindet. Manchmal extra Löffel Mehl oder Stärke wenn Kartoffeln sehr wässrig. Zu viel Mehl: bready; zu wenig: brüchig.
+Śmietana kalt am Teller — [Śmietana vs. Schmand](/de/blog/smietana-schmand). Solo mit Salat oder [Kasza](/de/blog/kasza-buchweizen). Placki sofort servieren — Textur leidet jede Minute.
 
-**Zwiebel:** Fein gerieben — Feuchtigkeit mit bedacht; manche drücken Zwiebel-Masse leicht mit aus. Geschmack vs. Knusprigkeit abwägen.
+Kochhunger: [Placki ziemniaczane](/de/rezepte/placki/ziemniaczane).
 
-**Mengen:** Im [Placki-Rezept](/de/rezepte/placki/ziemniaczane) — hier keine Duplikation.
+## FAQ kurz
 
-## Teig/Masse: Ei, Mehl, Gewürz — Fehler
+### Placki oder Reibekuchen?
 
-**Ei:** Bindung und Farbe — zu viel Ei macht Puffer eher Omelett als Placki. Rezept-Menge halten, nicht „verstärken“.
+Ähnliche Technik, anderer Teller-Kontext. Polnisch oft mit Śmietana/Gulasch; deutsch regional mit Speck oder Apfelmus.
 
-**Mehl / Stärke:** Kleine Menge — Struktur, nicht Teig. Einheitliche Masse ohne Mehlklumpen; salzen und pfeffern **vor** dem Braten, kurz ruhen lassen (Minuten, nicht Stunde).
+### Brauchen wir Gusseisen?
 
-**Gewürz:** Salz, Pfeffer; manchmal Knoblauch, Majoran — dezent. Placki sind Träger für Śmietana oder Gulasch; überwürzen killt Pairing.
-
-**Typische Fehler:**
-
-- **Zu nass** — siehe Abtropfen; häufigster Diaspora-Fehler.
-- **Masse zu dick aufgeschichtet** — außen braun, innen roh — dünner formen.
-- **Zu wenig Salz** — fade Puffer trotz guter Kruste.
-- **Mehlklumpen** — vor dem Braten kurz durchmischen.
-- **Kalte Masse in kaltes Öl** — klebt; Pfanne und Öl heiß, Masse dann hinein.
-
-**Ruhe:** 5 Minuten stehen lassen nach dem Mischen — Stärke quillt leicht; länger auf dem Brett: wieder Flüssigkeit, nochmals leicht ausdrücken wenn nötig.
-
-## Braten: Pfanne, Öl, Portionen warm halten
-
-**Pfanne:** Schwere Pfanne, gleichmäßige Hitze — **Gusseisen** ideal, siehe [Gusseisen-Guide](/de/blog/gusseisenpfanne). Antihaft für Einsteiger ok; genug Öl, damit Ränder knusprig werden.
-
-**Öl:** Schicht ca. 3–5 mm — zu wenig: kleben und weich; zu viel: fettig ohne mehr Knusper. Raps oder Sonnenblume; Butterschmalz optional für Aroma, nicht allein (verbrennt).
-
-**Portion pro Pfanne:** Nicht zu viele — sonst Temperatur fällt, Placki dämpfen statt braten. 3–4 mittlere Puffer je nach Pfannendurchmesser.
-
-**Hitze:** Mittelhoch — Unterseite goldbraun, dann wenden. Einmal wenden wenn möglich; häufiges Wenden bricht Kruste.
-
-**Warm halten:** Ofen 80–100 °C, Backpapier auf Blech, fertige Placki **einzeln** — nicht stapeln, Feuchtigkeit killt Knusper. Nächste Charge: Öl kurz nachfüllen, Pfanne wieder heiß.
-
-**Batch-Reihenfolge:** Erst alle Masse vorbereiten und ausdrücken, dann Braten — sonst oxidieren spätere Kartoffeln während die ersten braten.
-
-## Servieren: śmietana, gulasz, solo
-
-**Śmietana:** Klassisch — kühler Löffel pro Teller. Polnische **Śmietana** vs. deutscher Schmand: [Lexikon](/de/blog/smietana-schmand). Wir kaufen im Polenladen oder ersetzen bewusst — Geschmack säuerlicher-milder je nach Marke.
-
-**Gulasz:** Placki als **Beilage zu Gulasch** — deftiges Sonntagsbild. Gulasch separat warm, Placki frisch gebraten. Auf einem Teller mit Gulasch obenauf: [Placek po węgiersku](/de/rezepte/placek-po-wegiersku). Klassische Puffer allein: [Placki ziemniaczane](/de/rezepte/placki/ziemniaczane).
-
-**Solo:** Mit Salat oder [Kasza](/de/blog/kasza-buchweizen) statt doppelter Kartoffel — leichter Teller, diaspora-praktisch.
-
-**Timing:** Placki **sofort** servieren — Textur leidet jede Minute. Gäste: Masse vorbereitet, Braten auf den letzten Drücker — oder erste Charge warm halten, Rest nachbraten.
-
-**Kinder:** Kleinere Puffer, etwas weniger Zwiebel, extra Śmietana — gleiche Technik.
-
-**Sonntagskontext:** [Polnisches Sonntagsessen](/de/blog/sonntagsessen-polnisch) ordnet Placki neben anderen Klassikern ein.
-
-## Batch & Reste
-
-**Große Menge:** Mehrere Pfannen oder große Gusseisenpfanne — nicht Menge auf einmal in enger Pfanne quetschen. Masse in Schüssel kalt stellen max. 1–2 Stunden wenn nötig; abgedeckt, dann vor Portion nochmals leicht ausdrücken.
-
-**Reste kalt:** Kühlschrank 2–3 Tage — im Ofen oder Pfanne **ohne Mikrowelle** aufcrispieren; Mikrowelle macht gummiartig.
-
-**Einfrieren:** Gebratene Placki einzeln einfrieren, Backpapier dazwischen; Ofen-Wiedererwärmung. Frische knusprige Runde schlägt Aufgetautes — für Meal-Prep ok, für Fest nicht ideal.
-
-**Rohe Masse:** Nicht lange lagern — grau-braun, bitter. Lieber kleiner Batch frisch.
-
-**Reste kreativ:** Placki-Stücke in Eintopf — geht, aber bewusst zweite Runde; Knusprigkeit ist beim ersten Gang der Punkt.
-
-**Werkzeug:** Grobe Reibe für klassische Textur; Küchenmaschine mit Reibe-Aufsatz spart Zeit bei großen Mengen. Nussbeutel oder sauberes Küchentuch zum Auspressen — wir haben beides in der Schublade; das Tuch wringt schneller bei kleinen Haushalten.
-
-**Öl-Temperatur testen:** Ein kleiner Teelöffel Masse ins Öl — blubbert aktiv, ohne zu spritzen, ist die Pfanne bereit. Zu heißes Öl verbrennt die Außenseite, bevor die Kartoffel innen gar ist.
-
-## FAQ
-
-### Warum werden unsere Placki matschig?
-
-Fast immer zu viel Flüssigkeit in der Masse oder zu volle Pfanne. Ausdrücken ernst nehmen; weniger Puffer pro Durchgang; Öl und Hitze prüfen.
-
-### Brauchen wir eine Gusseisenpfanne?
-
-Nein, aber sie hilft bei gleichmäßiger Kruste. [Gusseisen-Guide](/de/blog/gusseisenpfanne) für Kauf und Pflege — schwere Edelstahlpfanne geht auch.
-
-### Placki oder Reibekuchen — was ist der Unterschied?
-
-Sprachlich und regional verschieden; Technik ähnlich. Polnische Placki: roh gerieben, dünn, oft mit Śmietana/Gulasch. Reibekuchen: deutsch, Varianten mit Speck oder Apfelmus — je nach Region.
-
-### Welche Kartoffeln im Rewe?
-
-Festkochend oder vorwiegend festkochend — auf der Packung. Mehlige Sorten für Puffer vermeiden.
-
-### Kann man Placki ohne Ei?
-
-Schwieriger — Bindung leidet. Stärke erhöhen, sehr gut ausdrücken; Textur kompromittiert. Für Ei-Allergie eher Rezept mit Ersatz testen als blind weglassen.
-
-### Was servieren wir außer Śmietana?
-
-Gulasch, Pilze, Salat, [Kasza gryczana](/de/blog/kasza-buchweizen) — siehe [Placki-Rezept](/de/rezepte/placki/ziemniaczane) für Kombinationen.
+Nein, hilft aber — siehe [Gusseisen-Guide](/de/blog/gusseisenpfanne).
 
 ## Weiterlesen
 
-- [Placki ziemniaczane — Rezept](/de/rezepte/placki/ziemniaczane)
-- [Gusseisenpfanne — Kauf und Nutzung](/de/blog/gusseisenpfanne)
-- [Kasza gryczana — Lexikon](/de/blog/kasza-buchweizen)
+- [Placki ziemniaczane](/de/rezepte/placki/ziemniaczane)
+- [Placek po węgiersku](/de/rezepte/placek-po-wegiersku)
+- [Gusseisenpfanne](/de/blog/gusseisenpfanne)
 - [Śmietana vs. Schmand](/de/blog/smietana-schmand)
-- [Polnisches Sonntagsessen](/de/blog/sonntagsessen-polnisch)
+- [Sonntagsessen](/de/blog/sonntagsessen-polnisch)
 `;

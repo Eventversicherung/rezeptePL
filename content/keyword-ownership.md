@@ -22,11 +22,12 @@ Eine Primary KW = eine Owner-URL. Andere Seiten nur mit descriptive Anchors verl
 | Primary KW DE | Owner |
 |---------------|--------|
 | Polnische Suppen | `/blog/polnische-suppen` |
-| Rosół richtig kochen | `/blog/rosol-technik` |
+| Rosół Rezept (cook) | `/rezepte/rosol` |
+| Rosół Klarheit / Technik (nicht Cook) | `/blog/rosol-technik` · `/blog/jak-ugotowac-rosol` |
 | Żurek Rezept | `/rezepte/zurek` |
 | Zakwas Żurek | `/blog/zakwas-zurek` |
-| Barszcz Rezept | `/rezepte/barszcz-czerwony` |
-| Barszcz klar kochen | `/blog/barszcz-technik` · `/blog/jak-ugotowac-barszcz` |
+| Barszcz Rezept (cook) | `/rezepte/barszcz-czerwony` |
+| Barszcz Klarheit / Technik (nicht Cook) | `/blog/barszcz-technik` · `/blog/jak-ugotowac-barszcz` |
 | Zupa ogórkowa | `/rezepte/ogorkowa` |
 | Kapuśniak Rezept | `/rezepte/kapusniak` |
 | Flaki Rezept / Kuttelsuppe polnisch | `/rezepte/flaki` |

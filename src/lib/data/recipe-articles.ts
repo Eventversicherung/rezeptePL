@@ -114,9 +114,9 @@ const FACTS: Record<string, ArticleFacts> = {
     diasporaPl:
       "W niemieckich mieszkaniach bigos pachnie weekendem. Duży garnek wystarczy dla gości, a resztki można zamrozić. Praktyczne na pracowity tydzień.",
     mistakesDe:
-      "Zu wenig Säure, zu wenig Zeit, zu dünne Flüssigkeit. Bigos soll löffelfest sein, nicht wie Suppe.",
+      "Zu wenig Säure, zu wenig Zeit, zu dünne Flüssigkeit. Bigos soll löffelfest sein, nicht wie Suppe. Zu sauer: Kapusta kurz spülen oder etwas frischen Kohl dazu — Zucker nur als letzte Notbremse.",
     mistakesPl:
-      "Za mało kwasu, za mało czasu, za rzadki sos. Bigos ma być gęsty, nie jak zupa.",
+      "Za mało kwasu, za mało czasu, za rzadki sos. Bigos ma być gęsty, nie jak zupa. Za kwaśno: krótko spłukać kapustę albo dodać świeżej — cukier tylko jako ostatnia hamulec.",
     variantsDe:
       "Mit Äpfeln, mit Rotwein, mit mehr Wurst oder eher vegetarisch mit Extra-Pilzen. Bigos-Guide und Dutch-Oven-Tipps helfen bei Topf und Schmorzeit. Die Grundidee bleibt: Kraut, Umami, Zeit.",
     variantsPl:
@@ -442,9 +442,9 @@ const FACTS: Record<string, ArticleFacts> = {
     shopPl:
       "Kurczak na rosół, włoszczyzna, ziele angielskie, liść laurowy, makaron nitki. Pietruszka korzeniowa robi różnicę. Rosół-Technik — klarowność i zbieranie szumowin.",
     techniqueDe:
-      "Kalt ansetzen, Schaum nehmen, nie sprudelnd kochen. Zeit ist die Hauptzutat. Klarheit kommt von Ruhe, nicht von Tricks allein.",
+      "Kalt ansetzen, Schaum nehmen, nie sprudelnd kochen. Zeit ist die Hauptzutat. Klarheit kommt von Ruhe, nicht von Tricks allein. Optionale Farbe: halbierte Zwiebel mit Schnittfläche in trockener Pfanne anrösten und mitkochen — nicht verkohlen, sonst bitter.",
     techniquePl:
-      "Zimna woda na start, zbierać szumowiny, nie burzyć. Czas jest głównym składnikiem. Klarowność bierze się ze spokoju, nie z samych sztuczek.",
+      "Zimna woda na start, zbierać szumowiny, nie burzyć. Czas jest głównym składnikiem. Klarowność bierze się ze spokoju, nie z samych sztuczek. Opcjonalny kolor: przekrojona cebula opieczona na suchej patelni i wrzucona do garnka — nie spalić, bo gorzknieje.",
     serveDe:
       "Mit Nudeln, Karottenstücken, Petersilie. Fleisch separat oder im Teller. Hausgemachte Fallnudeln: [Kluski kładzione](/de/rezepte/kluski-kladzione).",
     servePl:

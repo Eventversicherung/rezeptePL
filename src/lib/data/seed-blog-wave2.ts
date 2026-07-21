@@ -68,20 +68,20 @@ export const seedBlogPostsWave2: BlogPost[] = [
         title: "Pierogi-Guide: Varianten, Teig und Alltag in DE",
         slug: "pierogi-guide",
         excerpt:
-          "Der Überblick zu Pierogi: welche Füllung wann, wie Teig und Freezer zusammenspielen, und welche Kaufberatungen wirklich helfen.",
-        seoTitle: "Pierogi Rezept Guide | Überblick & Varianten | Alemniam",
+          "Familien-Überblick zu Pierogi: welche Füllung wann, Kultur und Alltag in DE — Kochen mit Mengen auf den Rezeptseiten.",
+        seoTitle: "Pierogi Überblick | Varianten & Alltag | Alemniam",
         seoDescription:
-          "Pierogi Rezept als Guide: Ruskie, Fleisch, Kraut, Teig, Freezer und Formen. Klarer Überblick für Haushalte in Deutschland.",
+          "Pierogi-Varianten, Teig und Freezer im Überblick. Kochen startet bei Ruskie, Fleisch, Kraut oder Jagody — nicht hier.",
         body: bodyPierogiGuideDe.trim(),
       },
       pl: {
         title: "Przewodnik po pierogach: warianty, ciasto, codzienność w DE",
         slug: "przewodnik-pierogi",
         excerpt:
-          "Przegląd pierogów: który farsz kiedy, jak łączą się ciasto i mrożenie oraz które poradniki zakupowe naprawdę pomagają.",
-        seoTitle: "Pierogi przepis przewodnik | Warianty | Alemniam",
+          "Przegląd rodziny pierogów: który farsz kiedy, kultura i codzienność w DE — gotowanie z ilościami na stronach przepisów.",
+        seoTitle: "Pierogi przegląd | Warianty i codzienność | Alemniam",
         seoDescription:
-          "Pierogi przepis jako przewodnik: ruskie, mięso, kapusta, ciasto, mrożenie i foremki. Jasny przegląd dla domów w Niemczech.",
+          "Warianty pierogów, ciasto i mrożenie w skrócie. Gotowanie zaczyna się od ruskich, mięsa, kapusty lub jagód — nie tutaj.",
         body: bodyPierogiGuidePl.trim(),
       },
     },
@@ -248,23 +248,23 @@ export const seedBlogPostsWave2: BlogPost[] = [
     clusterIds: ["technique-bulion", "occasion-niedziela"],
     translations: {
       de: {
-        title: "Rosół richtig kochen: klar, ruhig, wiederholbar",
+        title: "Rosół klar halten: Technik neben dem Rezept",
         slug: "rosol-technik",
         excerpt:
-          "Technik für klaren Rosół: Fleischwahl, Temperatur, Abschäumen, Gemüsezeitpunkt und Reste sinnvoll nutzen.",
-        seoTitle: "Rosół richtig kochen | Technik Guide | Alemniam",
+          "Technik für klaren Rosół: Temperatur, Abschäumen, Reste — Mengen und Schritte im Rosół-Rezept.",
+        seoTitle: "Rosół Technik | Klare Brühe | Alemniam",
         seoDescription:
-          "Rosół richtig kochen: klare Brühe ohne Trübung, Zeitplan und Tipps für Sonntag in Deutschland.",
+          "Rosół-Technik: Klarheit, Sonntagsrhythmus und Reste. Kochen mit Mengen im Rosół-Rezept.",
         body: bodyRosolTechnikDe.trim(),
       },
       pl: {
-        title: "Jak ugotować rosół: jasny, spokojny, powtarzalny",
+        title: "Jak utrzymać klarowny rosół: technika obok przepisu",
         slug: "jak-ugotowac-rosol",
         excerpt:
-          "Technika jasnego rosołu: mięso, temperatura, zbieranie piany, moment warzyw i sensowne wykorzystanie resztek.",
-        seoTitle: "Jak ugotować rosół | Poradnik techniki | Alemniam",
+          "Technika jasnego rosołu: temperatura, piana, resztki — ilości i kroki w przepisie na rosół.",
+        seoTitle: "Rosół technika | Klarowny wywar | Alemniam",
         seoDescription:
-          "Jak ugotować rosół: jasny wywar bez mętności, harmonogram i wskazówki na niedzielę w Niemczech.",
+          "Technika rosołu: klarowność, rytm niedzieli i resztki. Gotowanie z ilościami w przepisie na rosół.",
         body: bodyRosolTechnikPl.trim(),
       },
     },

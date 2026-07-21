@@ -4,107 +4,67 @@
  */
 
 export const bodyPierogiGuideDe = `
-Pierogi sind für uns in Deutschland keine Herkunftsprüfung und kein Folklore-Event, sondern eine klare Küchentechnik: Teig, trockene Füllung, saubere Naht, ruhiges Wasser. Wer die Reihenfolge beherrscht, kocht [Pierogi Ruskie](/de/rezepte/pierogi/ruskie) ebenso verlässlich wie Kraut-Pilz-Varianten zu [Barszcz](/de/rezepte/barszcz-czerwony) oder eine feste Fleischfüllung fürs Wochenende. Dieser Überblick ordnet Varianten, Einkauf, Batch-Logik und Fehlerbilder – ruhig, modern und alltagstauglich für die PL-Diaspora.
+Pierogi sind für viele Haushalte in Deutschland mehr als ein Rezept: Sonntagsessen, Wigilia-Vorbereitung, Freezer-Routine und das Gericht, mit dem Kinder die polnische Küche lernen. Mengen, Teigzeiten und die konkrete Schrittfolge stehen auf den Rezeptseiten — Start mit [Pierogi Ruskie](/de/rezepte/pierogi/ruskie), dazu [Fleisch](/de/rezepte/pierogi/fleisch), [Kraut und Pilze](/de/rezepte/pierogi/kraut-pilze) oder süß [Heidelbeeren](/de/rezepte/pierogi/jagody). Dieser Text ordnet Familie, Varianten und Alltag — ohne ein Rezept zu wiederholen.
 
-## Warum Pierogi in den Alltag passen
+## Was Pierogi sind — und was nicht
 
-Wir brauchen keine Spezialküche. Mehl Type 405 oder 550, Kartoffeln, Zwiebeln und Butter holen wir im Supermarkt. Twaróg, Kapusta und getrocknete Pilze oft im Polenladen – siehe [Polenladen einkaufen](/de/blog/polenladen-einkaufen) und [Twaróg Guide](/de/blog/twarog-deutschland). Pierogi skalieren von zehn Stück bis Freezer-Charge vor [Wigilia](/de/anlaesse/wigilia). Praktische Orientierung bieten das [Bundeszentrum für Ernährung](https://www.bzfe.de), das [Nationale Zentrum für Ernährungsbildung](https://ncez.pzh.gov.pl), die [EU-Landwirtschaft](https://agriculture.ec.europa.eu) und [was-wir-essen.de](https://www.was-wir-essen.de).
+Gefaltete Teigtaschen mit trockener Füllung, ruhig gekocht, oft mit Butter, Zwiebeln oder Śmietana. Teig-Technik über alle Varianten: [Pierogi-Teig](/de/blog/pierogi-teig). Freezer-Logik: [Pierogi einfrieren](/de/blog/freezer-meal-prep).
 
-## Teig als Konstante
+**Nicht Pierogi:** [Knedle ze śliwkami](/de/rezepte/knedle-sliwki) sind runde Obst-Knödel mit Kartoffelteig. [Pierogi leniwe](/de/rezepte/pierogi-leniwe) sind Quark-Klößchen ohne Falten. Beide haben eigene Seiten.
 
-Wir folgen dem [Pierogi-Teig Guide](/de/blog/pierogi-teig): etwa 500 g Mehl, Ei, Öl, Salz, 200–220 ml handwarmes Wasser, 8–10 Minuten kneten, 20–30 Minuten ruhen. Type 405 wirkt zarter, Type 550 robuster. Zu viel Zusatzmehl macht spröde; zu wenig Ruhe führt zu Rissen. Bei Volumen hilft eine [Teigmaschine](/de/blog/teigmaschine-pierogi), ersetzt aber nicht Ausrollen und Füllen. Grundlagen: [Teig](/de/techniken/teig).
+## Welche Füllung wann?
 
-### Feuchtigkeit lesen
+| Variante | Wann | Rezept |
+|----------|------|--------|
+| Ruskie | Alltag, Lernen, Kinder | [Ruskie](/de/rezepte/pierogi/ruskie) |
+| Kraut-Pilz | Festtag, Wigilia, zu Barszcz | [Kraut-Pilze](/de/rezepte/pierogi/kraut-pilze) |
+| Fleisch | sättigendes Wochenende | [Fleisch](/de/rezepte/pierogi/fleisch) |
+| Heidelbeeren | süß, Sommer | [Jagody](/de/rezepte/pierogi/jagody) |
+| Uszka | kleine Taschen in klarer Suppe | [Uszka](/de/rezepte/uszka) |
 
-Im Winter oft trockener, im Sommer feuchter. Milliliter sind Startwerte. Der Teig soll weich federn. Bei Type 550 manchmal 10–20 ml mehr Wasser. Vollkorn nur als kleiner Anteil.
+Twaróg und Quark: [Twaróg Guide](/de/blog/twarog-deutschland). Beilage: [Śmietana vs. Schmand](/de/blog/smietana-schmand). Einkauf: [Polenladen](/de/blog/polenladen-einkaufen), [Ersatzprodukte](/de/blog/ersatzprodukte-de).
 
-## Füllungen: trocken und kalt
+Eine Füllung pro Session lernen — parallel drei Varianten verlängert nur den Tag.
 
-**Ruskie:** Kartoffel, Twaróg, Zwiebel – Masse muss stehen. Quark abseihen, Kartoffeln auskühlen. **Kraut-Pilz:** Kapusta ausdrücken, Pilze einkochen. **Fleisch:** feste gekühlte Farce. **Süß / Heidelbeeren:** Cook-Primary unter [Pierogi mit Heidelbeeren](/de/rezepte/pierogi/jagody) — gefaltet, nicht [Knedle](/de/rezepte/knedle-sliwki). Eine Linie pro Session.
+## Alltag und Kultur in DE
 
-## Formen und Kochen
+Supermarkt liefert Mehl, Kartoffeln, Zwiebeln, Butter. Polenladen trägt Twaróg, Kapusta und getrocknete Pilze. Pierogi skalieren von zehn Stück bis Freezer-Charge vor [Wigilia](/de/anlaesse/wigilia) oder dem [Sonntagsessen](/de/blog/sonntagsessen-polnisch).
 
-Gleichmäßig ausrollen, nicht transparent. Glas oder Form – [Pierogi-Formen 2026](/de/blog/pierogi-formen). Luft herausstreichen, Naht schließen. Wasser salzen, leicht köcheln, nicht sprudeln. Nach dem Aufsteigen 1–2 Minuten. Servieren mit Butter, Zwiebeln oder Schmand – [Śmietana/Schmand](/de/blog/smietana-schmand).
+Gäste ohne Stress: formen und frieren Tage vorher, am Serviertag aus dem Freezer kochen, Beilagen minimal. Atmosphäre und Biss zählen mehr als die exakte Minute.
 
-## Einkaufskörbe DE
+## Was bei allen Varianten schiefgeht
 
-Supermarkt: Mehl, Eier, Öl, Kartoffeln, Zwiebeln, Butter, Dill. Polenladen: Twaróg, Kapusta, Pilze. Ersatz: [Ersatzprodukte](/de/blog/ersatzprodukte). Freezer: [Pierogi einfrieren](/de/blog/pierogi-einfrieren).
+- Nasse Füllung → Nähte öffnen sich
+- Teig ohne Ruhe → Risse beim Falten
+- Wildes Wasser → Pierogi platzen
+- Überfüllung → schwache Naht
+- Alles an einem Tag erzwingen → matte Qualität
 
-## Batch und Woche
+Korrekturen und Mengen: jeweiliges Rezept. Teig-Details: [Pierogi-Teig](/de/blog/pierogi-teig). Batch: [einfrieren](/de/blog/freezer-meal-prep). Form optional: [Pierogi-Formen](/de/blog/pierogi-formen).
 
-Roh einzeln anfrieren, umfüllen, beschriften. Ohne Auftauen kochen, etwas länger. Raster: Sonntag batchen, Dienstag/Donnerstag Freezer-Portionen. Vor Festtagen eine Füllung, nicht fünf.
+## FAQ kurz
 
-## Fehler
+### Mit welcher Variante starten?
 
-Nasse Füllung, zu wenig Ruhe, wilde Hitze, Überfüllung, alles an einem Tag erzwingen. Korrektur: eine Variable ändern.
-
-## Varianten-Matrix
-
-Ruskie (Alltag), Kraut-Pilz (Festtag), Fleisch (sättigend), [Heidelbeeren](/de/rezepte/pierogi/jagody) (süß), Uszka (Brühe).
-
-**Nicht Pierogi:** [Knedle ze śliwkami](/de/rezepte/knedle-sliwki) sind runde Obst-Knödel mit Kartoffelteig — eigene Form, eigener Intent. [Pierogi leniwe](/de/rezepte/pierogi-leniwe) sind Quark-Klößchen ohne Falten; beide gehören nicht zur gefalteten Pierogi-Charge dieses Guides.
-
-## Station und Tempo
-
-Vier Zonen: Teig, Füllung, Brett, Freezer/Kochblech. Serien von 10–15 Stück. Pausen vor Ungenauigkeit.
-
-## Geschmackslinien
-
-Kontrast statt Maximalwürzung. Zwiebel goldgelb, Dill frisch, Majoran sparsam.
-
-## FAQ
-
-### Mit welcher Variante starten wir?
-
-Mit Pierogi Ruskie: greifbare Zutaten, klare Fehlerbilder, hoher Lerneffekt. Wenn Ruskie stabil sind, übertragen wir den Teig auf Kraut-Pilz oder Fleisch. Parallel drei Füllungen zu lernen verlängert nur die Session. Erst Technik, dann Vielfalt – das spart Mehl, Zeit und Nerven in der Diaspora-Küche. Wir bleiben dabei praxisnah und vermeiden Extreme. Notizen aus dem eigenen Haushalt helfen mehr als starre Regeln. So bleibt die Entscheidung wiederholbar und alltagstauglich. Qualität und Klarheit haben Vorrang vor Impuls und Optik. Das gilt besonders für volle Wochen und gemischte Tische der Diaspora.
-
-### Welches Mehl im Supermarkt?
-
-Type 405 oder 550 ohne Backtriebmittel. Wassergefühl und Ruhezeit schlagen die Marke. Im Winter oft mehr Flüssigkeit, im Sommer weniger. Start: 200 ml auf 500 g, in kleinen Schritten korrigieren. Notizen helfen. Details im Pierogi-Teig Guide; bei großen Mengen Teigmaschine prüfen. Wir bleiben dabei praxisnah und vermeiden Extreme. Notizen aus dem eigenen Haushalt helfen mehr als starre Regeln. So bleibt die Entscheidung wiederholbar und alltagstauglich. Qualität und Klarheit haben Vorrang vor Impuls und Optik. Das gilt besonders für volle Wochen und gemischte Tische der Diaspora.
-
-### Wie viele Pierogi pro Person?
-
-Als Hauptgericht oft 10–14 Stück, als Beilage 6–8, abhängig von Größe und Restmenü. Für Gäste Freezer-Puffer einplanen. Kinderportionen kleiner halten und nachlegen. Lieber eine stabile Charge als eine überambitionierte Menge mit schwachen Nähten. Wir bleiben dabei praxisnah und vermeiden Extreme. Notizen aus dem eigenen Haushalt helfen mehr als starre Regeln. So bleibt die Entscheidung wiederholbar und alltagstauglich. Qualität und Klarheit haben Vorrang vor Impuls und Optik. Das gilt besonders für volle Wochen und gemischte Tische der Diaspora. Wir bleiben dabei praxisnah und vermeiden Extreme. Notizen aus dem eigenen Haushalt helfen mehr als starre Regeln.
-
-### Vegetarisch und Fleisch am selben Tag?
-
-Ja, mit getrennten Brettern und klarer Reihenfolge: zuerst vegetarisch, dann Fleisch – oder parallele Stationen. Füllungen getrennt beschriften. So bleibt Hygiene sauber. Orientierung zur Lebensmittelsicherheit liefert bzfe.de; wir übertragen sie auf die Arbeitsfläche. Wir bleiben dabei praxisnah und vermeiden Extreme. Notizen aus dem eigenen Haushalt helfen mehr als starre Regeln. So bleibt die Entscheidung wiederholbar und alltagstauglich. Qualität und Klarheit haben Vorrang vor Impuls und Optik. Das gilt besonders für volle Wochen und gemischte Tische der Diaspora. Wir bleiben dabei praxisnah und vermeiden Extreme. Notizen aus dem eigenen Haushalt helfen mehr als starre Regeln.
+Mit [Ruskie](/de/rezepte/pierogi/ruskie): greifbare Zutaten, klare Fehlerbilder. Danach Kraut-Pilz oder Fleisch.
 
 ### Brauchen wir eine Form?
 
-Nein. Glas und Hand reichen. Eine Form lohnt bei häufigen Batches und Wunsch nach gleicher Größe. Wer selten kocht, investiert besser in Mehl, Twaróg und Übung. Die Form beschleunigt nur, wenn Teig und Füllung bereits stimmen. Wir bleiben dabei praxisnah und vermeiden Extreme. Notizen aus dem eigenen Haushalt helfen mehr als starre Regeln. So bleibt die Entscheidung wiederholbar und alltagstauglich. Qualität und Klarheit haben Vorrang vor Impuls und Optik. Das gilt besonders für volle Wochen und gemischte Tische der Diaspora. Wir bleiben dabei praxisnah und vermeiden Extreme.
+Nein. Glas und Hand reichen. Eine Form lohnt bei häufigen Batches — siehe [Kaufberatung](/de/blog/pierogi-formen).
 
-### Was servieren ohne Überladen?
+### Vegetarisch und Fleisch am selben Tag?
 
-Eine Sache gut: Zwiebelbutter oder Schmand, optional Gurke oder Salat. Wenn Suppe vorher kommt, Pierogi-Portion reduzieren. Klarheit schlägt Buffet. Ein ruhiges Sonntagsessen mit einem Mittelpunkt ist besser als eine kalte, überladene Platte. Wir bleiben dabei praxisnah und vermeiden Extreme. Notizen aus dem eigenen Haushalt helfen mehr als starre Regeln. So bleibt die Entscheidung wiederholbar und alltagstauglich. Qualität und Klarheit haben Vorrang vor Impuls und Optik. Das gilt besonders für volle Wochen und gemischte Tische der Diaspora. Wir bleiben dabei praxisnah und vermeiden Extreme. Notizen aus dem eigenen Haushalt helfen mehr als starre Regeln.
+Vorher vegetarisch formen, Bretter und Füllungen getrennt beschriften.
 
-## Weiter füllen
+## Weiterlesen
 
-[Pierogi-Teig](/de/blog/pierogi-teig), [Pierogi Ruskie](/de/rezepte/pierogi/ruskie), [Pierogi mit Heidelbeeren](/de/rezepte/pierogi/jagody), [Pierogi einfrieren](/de/blog/freezer-meal-prep), [Barszcz](/de/rezepte/barszcz-czerwony), [Polenladen](/de/blog/polenladen-einkaufen).
-
-## Mehlsorten und Chargennotizen
-
-Wir notieren Marke, Type, Wassermenge und Raumtemperatur. Nach drei Durchgängen ist unser Hausstandard klarer als jedes neue Internetrezept. Bei Markenwechsel neu kalibrieren. Das ist keine Pedanterie, sondern die effizienteste Form von Qualitätssicherung in der Heimküche.
-
-## Pierogi für Gäste ohne Stress
-
-Wir formen und frieren Tage vorher, kochen am Serviertag aus dem Freezer und halten Beilagen minimal. Gäste erinnern sich an Atmosphäre und guten Biss, nicht an die exakte Minute der Fertigstellung. Kommunikation schlägt Perfektionismus.
-
-## Mehlsorten und Chargennotizen
-
-Wir notieren Marke, Type, Wassermenge und Raumtemperatur. Nach drei Durchgängen ist unser Hausstandard klarer als jedes neue Internetrezept. Bei Markenwechsel neu kalibrieren. Das ist keine Pedanterie, sondern die effizienteste Form von Qualitätssicherung in der Heimküche.
-
-## Pierogi für Gäste ohne Stress
-
-Wir formen und frieren Tage vorher, kochen am Serviertag aus dem Freezer und halten Beilagen minimal. Gäste erinnern sich an Atmosphäre und guten Biss, nicht an die exakte Minute der Fertigstellung. Kommunikation schlägt Perfektionismus.
-
-## Mehlsorten und Chargennotizen
-
-Wir notieren Marke, Type, Wassermenge und Raumtemperatur. Nach drei Durchgängen ist unser Hausstandard klarer als jedes neue Internetrezept. Bei Markenwechsel neu kalibrieren. Das ist keine Pedanterie, sondern die effizienteste Form von Qualitätssicherung in der Heimküche.
-
-## Pierogi für Gäste ohne Stress
-
-Wir formen und frieren Tage vorher, kochen am Serviertag aus dem Freezer und halten Beilagen minimal. Gäste erinnern sich an Atmosphäre und guten Biss, nicht an die exakte Minute der Fertigstellung. Kommunikation schlägt Perfektionismus.
+- [Pierogi Ruskie](/de/rezepte/pierogi/ruskie)
+- [Pierogi mit Fleisch](/de/rezepte/pierogi/fleisch)
+- [Pierogi mit Kraut und Pilzen](/de/rezepte/pierogi/kraut-pilze)
+- [Pierogi mit Heidelbeeren](/de/rezepte/pierogi/jagody)
+- [Pierogi-Teig](/de/blog/pierogi-teig)
+- [Pierogi einfrieren](/de/blog/freezer-meal-prep)
+- [Barszcz](/de/rezepte/barszcz-czerwony)
 `;
 
 export const bodyFreezerMealPrepDe = `
@@ -550,145 +510,57 @@ Wir entscheiden sonntags, welche Brühe die Woche trägt. Das reduziert Entschei
 `;
 
 export const bodyRosolTechnikDe = `
-Rosół gelingt mit niedriger Hitze und gutem Material – nicht mit maximaler Dunkelheit in Rekordzeit. Wir wollen klare, saubere Brühe für Nudeln, Gemüse und Gäste. Technik für deutsche Küchen: Ansatz, Temperatur, Gemüse, Klarheit, Batch, Fehler. Vertrauensrahmen: [Bundeszentrum für Ernährung](https://www.bzfe.de), [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl), [EU-Landwirtschaft](https://agriculture.ec.europa.eu), [was-wir-essen.de](https://www.was-wir-essen.de). Kontext: [Polnische Suppen](/de/blog/polnische-suppen), [Sonntagsessen](/de/blog/polnisches-sonntagsessen).
+Rosół lebt von Geduld und leiser Hitze — nicht von dunkler Brühe in Rekordzeit. Mengen und die konkrete Schrittfolge stehen im [Rosół-Rezept](/de/rezepte/rosol). Hier bleibt, was über das Rezept hinaus hilft: Klarheit halten, Sonntagsrhythmus, Reste und typische Fehler — ohne Kochliste.
 
-## Zielprofil
+Kontext: [Polnische Suppen](/de/blog/polnische-suppen), [Sonntagsessen](/de/blog/sonntagsessen-polnisch). Frische Fallnudeln als Einlage: [Kluski kładzione](/de/rezepte/kluski-kladzione).
 
-Aromatisch ohne zu schreien. Fett als Körper, nicht als Film. Salz gestaffelt. Klar genug für sichtbare Einlagen. Als Fond Gewürze zurückhalten. Denselben ruhigen Ansatz nutzen Einlagen-Suppen wie [Ogórkowa](/de/rezepte/ogorkowa) und [Kapuśniak](/de/rezepte/kapusniak) — andere Säure, gleiche Geduld mit dem Topf.
+## Was klare Brühe ausmacht
 
-## Material
+Kalt ansetzen, Schaum nehmen, dann nur leicht ziehen — kein Rollen. Deckel leicht versetzt. Suppenhuhn oder knochige Teile schlagen reines Filet. Gemüse: Karotte, Petersilienwurzel, Sellerie, Lauch, Zwiebel — angeröstet erlaubt, verkohlt nicht.
 
-Suppenhuhn/Knochen schlägt reines Filet. Optional Mix mit Rind für Fortgeschrittene. Gemüse: Karotte, Petersilienwurzel, Sellerie, Lauch, Zwiebel – angeröstet erlaubt, verkohlt nicht.
+**Farbe ohne Bitterkeit:** Halbierte Zwiebel mit Schnittfläche in trockener Pfanne anrösten und mitkochen — ruhiger Trick, kein Muss. Verkohlt = bitter.
 
-## Temperatur
+Denselben ruhigen Ansatz nutzen Einlagen-Suppen wie [Ogórkowa](/de/rezepte/ogorkowa) und [Kapuśniak](/de/rezepte/kapusniak) — andere Säure, gleiche Geduld.
 
-Kalt ansetzen, langsam erhitzen, schäumen, dann leise ziehen (2–3 Std.). Kein Rollen. Deckel leicht versetzt.
+## Sonntag und Reste
 
-## Sonntagsablauf
+Morgen ansetzen, seihen, abschmecken, Nudeln separat. Fleisch herausnehmen bevor es zerfällt — für Füllung, Salat oder den nächsten Tag. Nach dem Kühlen Fett abheben; Gästeversion oft klarer, Alltag darf etwas trüber sein.
 
-Morgen ansetzen; Gemüse; seihen; abschmecken; Nudeln separat; Reste kühlen. Nudeln nie dauerhaft in Restbrühe.
+**Montag:** Sonntagsbrühe wird Montagssuppe — Fett abheben, neu abschmecken, frische Kräuter. Freezer ohne Nudeln: flach abkühlen, portionieren, beschriften, gründlich erhitzen.
 
-## Klarheit & Fett
+Salz spät. Lorbeer und Piment sparsam. Fertigwürze verdeckt Zeit und Knochen.
 
-Nach Kühlen Fett abheben. Fein seihen. Trüb mit gutem Geschmack ist alltagstauglich; Gästeversion oft klarer.
+## Typische Fehler (über Hausrezepte)
 
-## Würzung
+- Zu heiß kochen → trüb und bitter
+- Früh stark salzen → zu salzig nach Reduktion
+- Nudeln in Restbrühe lassen → matschig, trüber
+- Nur Filet → flacher Fond
+- Verbrannte Zwiebel → bittere Note
 
-Salz spät. Lorbeer/Piment sparsam. Fertigwürze verdeckt. Petersilie zum Servieren. Vortagskochen rundet.
+Mengen, Zeiten und Schritte: [Rosół-Rezept](/de/rezepte/rosol).
 
-## Batch/Freezer
-
-Flach abkühlen, portionieren, beschriften. Einlagen getrennt. Gründlich erhitzen. Hygiene: bzfe.de.
-
-## Fehler
-
-Zu heiß; früh zu salzig; zerkochtes Gemüse; Nudeln in Resten; nur Filet; Fertigwürze statt Zeit.
-
-## Menü
-
-Vorsuppe klein halten vor Schabowy/Pierogi. Als Hauptsuppe mehr Einlage. Kinder milder.
-
-## DE-Realität
-
-Suppengrün-Pakete ok, gutes Fleisch trotzdem nötig. Majoran eher Żurek. Vegetarischer Fond ehrlich benennen.
-
-## Fleisch entnehmen
-
-Herausnehmen bevor es zerfällt. Separat warmhalten. Knochen optional zweiter schwacher Fond.
-
-## Abschmecken
-
-Mittlere Temperatur kosten. Tiefe fehlt: Zeit/Röstung. Frische: Petersilie/Pfeffer. Zu fett: abheben.
-
-## Servieren
-
-Teller vorwärmen, Nudeln anlegen, Brühe darüber, Kräuter zuletzt. Warmhalten ohne hartes Kochen. Frische Fallnudeln statt Packungsnudeln: [Kluski kładzione](/de/rezepte/kluski-kladzione) — Cook-Primary dort; Brühen-Technik bleibt hier.
-
-## FAQ
-
-### Wie lange kochen?
-
-Meist 2–3 Stunden leises Ziehen nach dem Schäumen. Uhr allein ohne Temperaturkontrolle reicht nicht. Fleischzartheit und klarer Geschmack entscheiden. Lieber eine Stunde richtig als drei Stunden sprudelnd. Wir bleiben praxisnah und vermeiden Extreme. Eigene Notizen schlagen starre Regeln. So bleibt die Entscheidung wiederholbar. Klarheit hat Vorrang vor Impuls. Das hilft besonders in vollen Diaspora-Wochen. Wir bleiben praxisnah und vermeiden Extreme. Eigene Notizen schlagen starre Regeln. So bleibt die Entscheidung wiederholbar. Klarheit hat Vorrang vor Impuls. Das hilft besonders in vollen Diaspora-Wochen. Wir bleiben praxisnah und vermeiden Extreme. Eigene Notizen schlagen starre Regeln.
-
-### Welches Fleisch in DE?
-
-Suppenhuhn oder knochige Geflügelteile. Filet ist flach. Frische und Kühlkette prüfen. Metzger-Suppenpakete fragen. Herkunftshinweise kritisch lesen; Geschmackstest schlägt Etikett. Wir bleiben praxisnah und vermeiden Extreme. Eigene Notizen schlagen starre Regeln. So bleibt die Entscheidung wiederholbar. Klarheit hat Vorrang vor Impuls. Das hilft besonders in vollen Diaspora-Wochen. Wir bleiben praxisnah und vermeiden Extreme. Eigene Notizen schlagen starre Regeln. So bleibt die Entscheidung wiederholbar. Klarheit hat Vorrang vor Impuls. Das hilft besonders in vollen Diaspora-Wochen. Wir bleiben praxisnah und vermeiden Extreme. Eigene Notizen schlagen starre Regeln. So bleibt die Entscheidung wiederholbar.
-
-### Warum bitter?
-
-Zu hohe Hitze, verbranntes Gemüse, zu lange Kräuter, angebrannte Zwiebel. Hitze runter, bittere Teile raus. Wegwürzen gelingt selten – oft neue ruhige Charge. Wir bleiben praxisnah und vermeiden Extreme. Eigene Notizen schlagen starre Regeln. So bleibt die Entscheidung wiederholbar. Klarheit hat Vorrang vor Impuls. Das hilft besonders in vollen Diaspora-Wochen. Wir bleiben praxisnah und vermeiden Extreme. Eigene Notizen schlagen starre Regeln. So bleibt die Entscheidung wiederholbar. Klarheit hat Vorrang vor Impuls. Das hilft besonders in vollen Diaspora-Wochen. Wir bleiben praxisnah und vermeiden Extreme. Eigene Notizen schlagen starre Regeln.
+## FAQ kurz
 
 ### Nudeln mitkochen?
 
-Besser separat für Klarheit und Restelogik. Nudeln in den Teller, Brühe darüber. Meal-Prep: Nudeln al dente getrennt. Wir bleiben praxisnah und vermeiden Extreme. Eigene Notizen schlagen starre Regeln. So bleibt die Entscheidung wiederholbar. Klarheit hat Vorrang vor Impuls. Das hilft besonders in vollen Diaspora-Wochen. Wir bleiben praxisnah und vermeiden Extreme. Eigene Notizen schlagen starre Regeln. So bleibt die Entscheidung wiederholbar. Klarheit hat Vorrang vor Impuls. Das hilft besonders in vollen Diaspora-Wochen. Wir bleiben praxisnah und vermeiden Extreme. Eigene Notizen schlagen starre Regeln. So bleibt die Entscheidung wiederholbar. Klarheit hat Vorrang vor Impuls.
+Besser separat: Nudeln in den Teller, Brühe darüber — Klarheit und bessere Reste.
 
 ### Einfrieren?
 
-Ja: abkühlen, portionieren, beschriften. Fett optional abheben. Gründlich erhitzen. Ohne Nudeln einfrieren. Einer der besten Freezer-Bausteine. Wir bleiben praxisnah und vermeiden Extreme. Eigene Notizen schlagen starre Regeln. So bleibt die Entscheidung wiederholbar. Klarheit hat Vorrang vor Impuls. Das hilft besonders in vollen Diaspora-Wochen. Wir bleiben praxisnah und vermeiden Extreme. Eigene Notizen schlagen starre Regeln. So bleibt die Entscheidung wiederholbar. Klarheit hat Vorrang vor Impuls. Das hilft besonders in vollen Diaspora-Wochen. Wir bleiben praxisnah und vermeiden Extreme. Eigene Notizen schlagen starre Regeln. So bleibt die Entscheidung wiederholbar. Klarheit hat Vorrang vor Impuls.
+Ja, ohne Nudeln. Portionieren, beschriften, gründlich erhitzen.
 
-### Vs. Brühwürfel?
+### Vorsuppe oder Hauptsuppe?
 
-Zeit, Knochen, Gemüse, kontrollierte Würzung. Würfel können Notlösung sein, ersetzen keine Sonntagstechnik. Unterschied: Länge und Klarheit des Geschmacks. Wir bleiben praxisnah und vermeiden Extreme. Eigene Notizen schlagen starre Regeln. So bleibt die Entscheidung wiederholbar. Klarheit hat Vorrang vor Impuls. Das hilft besonders in vollen Diaspora-Wochen. Wir bleiben praxisnah und vermeiden Extreme. Eigene Notizen schlagen starre Regeln. So bleibt die Entscheidung wiederholbar. Klarheit hat Vorrang vor Impuls. Das hilft besonders in vollen Diaspora-Wochen. Wir bleiben praxisnah und vermeiden Extreme. Eigene Notizen schlagen starre Regeln. So bleibt die Entscheidung wiederholbar.
+Vor Schabowy oder Pierogi klein halten. Als Hauptsuppe mehr Einlage; Kinder milder.
 
-## Zwiebeltechnik für Farbe
+## Weiterlesen
 
-Eine halbierte Zwiebel mit Schnittfläche in trockener Pfanne anrösten und mitkochen gibt milde Farbe ohne Bitterkeit – sofern nicht verkohlt. Das ist ein ruhiger Trick, kein Muss.
-
-## Rosół am Montag
-
-Sonntagsbrühe wird Montagssuppe. Fett abheben, neu abschmecken, frische Kräuter. So verlängert Technik den Nutzen ohne Qualitätsverlust.
-
-## Zwiebeltechnik für Farbe
-
-Eine halbierte Zwiebel mit Schnittfläche in trockener Pfanne anrösten und mitkochen gibt milde Farbe ohne Bitterkeit – sofern nicht verkohlt. Das ist ein ruhiger Trick, kein Muss.
-
-## Rosół am Montag
-
-Sonntagsbrühe wird Montagssuppe. Fett abheben, neu abschmecken, frische Kräuter. So verlängert Technik den Nutzen ohne Qualitätsverlust.
-
-## Zwiebeltechnik für Farbe
-
-Eine halbierte Zwiebel mit Schnittfläche in trockener Pfanne anrösten und mitkochen gibt milde Farbe ohne Bitterkeit – sofern nicht verkohlt. Das ist ein ruhiger Trick, kein Muss.
-
-## Rosół am Montag
-
-Sonntagsbrühe wird Montagssuppe. Fett abheben, neu abschmecken, frische Kräuter. So verlängert Technik den Nutzen ohne Qualitätsverlust.
-
-## Zwiebeltechnik für Farbe
-
-Eine halbierte Zwiebel mit Schnittfläche in trockener Pfanne anrösten und mitkochen gibt milde Farbe ohne Bitterkeit – sofern nicht verkohlt. Das ist ein ruhiger Trick, kein Muss.
-
-## Rosół am Montag
-
-Sonntagsbrühe wird Montagssuppe. Fett abheben, neu abschmecken, frische Kräuter. So verlängert Technik den Nutzen ohne Qualitätsverlust.
-
-## Zwiebeltechnik für Farbe
-
-Eine halbierte Zwiebel mit Schnittfläche in trockener Pfanne anrösten und mitkochen gibt milde Farbe ohne Bitterkeit – sofern nicht verkohlt. Das ist ein ruhiger Trick, kein Muss.
-
-## Rosół am Montag
-
-Sonntagsbrühe wird Montagssuppe. Fett abheben, neu abschmecken, frische Kräuter. So verlängert Technik den Nutzen ohne Qualitätsverlust.
-
-## Zwiebeltechnik für Farbe
-
-Eine halbierte Zwiebel mit Schnittfläche in trockener Pfanne anrösten und mitkochen gibt milde Farbe ohne Bitterkeit – sofern nicht verkohlt. Das ist ein ruhiger Trick, kein Muss.
-
-## Rosół am Montag
-
-Sonntagsbrühe wird Montagssuppe. Fett abheben, neu abschmecken, frische Kräuter. So verlängert Technik den Nutzen ohne Qualitätsverlust.
-
-## Zwiebeltechnik für Farbe
-
-Eine halbierte Zwiebel mit Schnittfläche in trockener Pfanne anrösten und mitkochen gibt milde Farbe ohne Bitterkeit – sofern nicht verkohlt. Das ist ein ruhiger Trick, kein Muss.
-
-## Rosół am Montag
-
-Sonntagsbrühe wird Montagssuppe. Fett abheben, neu abschmecken, frische Kräuter. So verlängert Technik den Nutzen ohne Qualitätsverlust.
-
-## Zwiebeltechnik für Farbe
-
-Eine halbierte Zwiebel mit Schnittfläche in trockener Pfanne anrösten und mitkochen gibt milde Farbe ohne Bitterkeit – sofern nicht verkohlt. Das ist ein ruhiger Trick, kein Muss.
+- [Rosół — Rezept](/de/rezepte/rosol)
+- [Kluski kładzione](/de/rezepte/kluski-kladzione)
+- [Polnische Suppen](/de/blog/polnische-suppen)
+- [Barszcz-Technik](/de/blog/barszcz-technik)
+- [Sonntagsessen](/de/blog/sonntagsessen-polnisch)
 `;
 
 export const bodyZakwasZurekDe = `
@@ -740,7 +612,7 @@ Pur mini kosten, dann in Brühe. Zwei Gläser vergleichen. Hauswahl vor Festtage
 
 ## Verwandte Fermente
 
-[Kiszenie](/de/blog/kiszenie) ähnliche Hygiene, andere Zutaten. Kraut/Gurken ersetzen Zakwas nicht.
+[Kiszenie](/de/blog/kiszenie-guide) ähnliche Hygiene, andere Zutaten. Kraut/Gurken ersetzen Zakwas nicht.
 
 ## Mengen Familientopf
 
@@ -854,153 +726,56 @@ Majoran trägt Żurek, ersetzt aber keine Fermentsäure. Erst Zakwas-Balance, da
 `;
 
 export const bodyBigosGuideDe = `
-Bigos lebt von Schichten und Zeit, nicht von Maximalfleisch. Kraut, frischer Kohl, Pilze, Gewürze und passende [Kiełbasa](/de/blog/kielbasa-arten) oder Fleisch bauen Geschmack. Guide zu Aufbau, Einkauf DE, Schmoren, Reste und Freezer. Rezept: [Bigos](/de/rezepte/bigos). Topf: [Schmortopf](/de/blog/schmortopf-bigos). Orientierung: [bzfe.de](https://www.bzfe.de), [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl), [agriculture.ec.europa.eu](https://agriculture.ec.europa.eu), [was-wir-essen.de](https://www.was-wir-essen.de).
+Bigos lebt von Schichten und Zeit, nicht von Maximalfleisch. Mengen und die lange Schrittfolge stehen im [Bigos-Rezept](/de/rezepte/bigos). Hier: warum das Gericht in der Diaspora funktioniert, wie Kapusta und Einkauf den Topf führen, und woran man Säure und Reste erkennt — ohne das Rezept zu spiegeln.
 
-## Kern
+Topf-Hilfe: [Dutch Oven](/de/blog/dutch-oven-kaufberatung). Wurst: [Kiełbasa-Arten](/de/blog/kielbasa-arten).
 
-Schmorgericht: Sauerkraut-Säure, Weißkohl-Süße, Pilz-Tiefe, Fleisch/Wurst-Körper. Lorbeer/Piment strukturieren; Pflaume sparsam. Hausbrauch ohne Dogma.
+## Was Bigos ist
 
-## Einkauf
+Schmorgericht aus Sauerkraut-Säure, oft Weißkohl-Süße, Pilz-Tiefe und Fleisch oder Wurst. Lorbeer und Piment strukturieren; Pflaume sparsam. Hausbrauch ohne Dogma — Bigos ist Methode, kein starres Ritual. Am zweiten und dritten Tag oft besser; deshalb Meal-Prep-Freund für volle Wochen in DE.
 
-Supermarkt: Kohl, Zwiebel, Gewürze, Apfel/Pflaume sparsam. Polenladen: Kapusta, Pilze, Wurst – [Polenladen](/de/blog/polenladen-einkaufen), [Ersatzprodukte](/de/blog/ersatzprodukte). Kapusta prüfen: zu scharf spülen, zu süß industriell meiden.
+Oft nicht das Zentrum der Wigilia; stark als Gästeessen und Wochenvorrat. Beilagen: Brot, Kartoffeln, [Kasza](/de/blog/kasza-buchweizen), Gurken. Śmietana nur nach Brauch — [Śmietana/Schmand](/de/blog/smietana-schmand).
 
-## Schichten
+## Einkauf in DE
 
-Zwiebeln → Fleisch anbraten → Kraut/Kohl → Pilze+Flüssigkeit → Gewürze → sanft schmoren → Wurst spät → abschmecken. Stunden, nicht Minuten.
+Supermarkt: Kohl, Zwiebel, Gewürze, Apfel oder Pflaume sparsam. Polenladen: Kapusta, getrocknete Pilze, Wurst — [Polenladen](/de/blog/polenladen-einkaufen), [Ersatzprodukte](/de/blog/ersatzprodukte-de). Kapusta vor dem Kochen kosten: zu scharf kurz spülen (nicht auswaschen), zu süß industriell meiden.
 
-## Hitze & Topf
+## Schicht-Logik (ohne Mengen)
 
-Gleichmäßige Hitze, Deckel, Volumen. Emaille-Gusseisen säurefreundlich; Edelstahl dickbodig. Zu heiß = bitter; zu trocken = ansetzen.
+Zwiebel und Fleisch anbraten → Kraut und Kohl → Pilze mit Flüssigkeit → Gewürze → sanft schmoren → Wurst spät → abschmecken. Stunden, nicht Minuten. Gleichmäßige Hitze, Deckel, vom Boden rühren. Zu heiß = bitter; zu trocken = ansetzen.
 
-## Batch/Freezer
+**Säure lesen:** Zu sauer → etwas frischer Kohl oder kurze Spülung vorher; milde Süße sparsam. Zu mild → Krautflüssigkeit oder mehr Zeit. Zucker ist letzte Notbremse, nicht Stilmittel.
 
-Flach abkühlen, portionieren, gründlich erhitzen, nicht dauerwarm halten. Mit Brot/Kartoffeln/Kasza: [Sonntagsessen](/de/blog/polnisches-sonntagsessen).
+## Batch, Freezer, Fehler über Varianten
 
-## Fehler
+Flach abkühlen, portionieren, gründlich erhitzen — nicht tagelang nur anwärmen. Eine milder gewürzte Portion für Kinder spart Konflikt.
 
-Nur Sauerkraut; Wurst von Anfang an; zu viel Flüssigkeit; Zucker statt Balance; Ungeduld; Hygiene bei großen Mengen vernachlässigen.
+Typische Fehler: nur Sauerkraut; Wurst von Anfang an; zu viel Flüssigkeit; Ungeduld; zu wenig Röstaroma. Korrekturen und Mengen: [Bigos-Rezept](/de/rezepte/bigos).
 
-## Varianten
+Varianten: mehr Pilze, fleischarm, vegetarisch mit Räuchernote — ehrlich benennen. Eine Variable pro Durchgang.
 
-Mehr Pilze; fleischarm; vegetarisch mit Räuchernote ehrlich benennen. Eine Variable pro Durchgang.
-
-## Feste
-
-Oft nicht Wigilia-Zentrum; Hausbrauch gilt. Stark als Gästeessen am Folgetag.
-
-## Beilagen
-
-Brot, Kartoffeln, Kasza, Gurken. Schmand nur nach Brauch – [Śmietana/Schmand](/de/blog/smietana-schmand).
-
-## Fleischschnitt
-
-Mundgerecht, nicht zu fein. Qualität vor Menge. Wurst als Akzent.
-
-## Tag 2/3
-
-Oft besser. Schnell kühlen, nur Portion erhitzen. Freezer Monate bei guter Verpackung.
-
-## Gewürze
-
-Lorbeer zählen/entfernen; Piment dosieren; Tomatenmark leicht; Pflaumen wenige. Hausprofil notieren.
-
-## Umrühren
-
-Vom Boden, nicht shake. Alle 15–20 Min. in aktiver Phase; gegen Ende öfter.
-
-## Mitbringsel
-
-Nur mit Kühlung/Zeitweg; etikettieren; besser gefroren für längere Wege.
-
-## FAQ
-
-### Schmordauer?
-
-Eher 2–3 Stunden sanft. Textur zählt: Kraut weich, Aromen verbunden, Flüssigkeit reduziert aber da. Vortag + Erwärmen ist Stärke des Gerichts, nicht Schwäche. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen.
+## FAQ kurz
 
 ### Welche Kiełbasa?
 
-Fest, aromatisch, spät dazu. Wässrige Billigwurst enttäuscht. Qualität: Struktur/Geruch/Liste. Gute DE-Alternative ehrlicher als schwacher Import. Menge dosieren. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah.
-
-### Vegetarisch?
-
-Ja mit Kraut, Kohl, Pilzen, Räuchernoten – anderes Gericht, klar benennen. Hülsenfrüchte ändern Charakter. Schmorzeit und Säure bleiben zentral. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah.
+Fest und aromatisch, spät dazu. Details: [Kiełbasa-Arten](/de/blog/kielbasa-arten).
 
 ### Welcher Topf?
 
-Schwer, Deckel, Volumen. Emaille-Gusseisen oder dickes Edelstahl. Volle Töpfe sind schwer – Griffe prüfen. Siehe Schmortopf-Guide 2026. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah.
+Schwer, Deckel, Volumen — Emaille-Gusseisen oder dickes Edelstahl. Siehe [Dutch Oven](/de/blog/dutch-oven-kaufberatung).
 
-### Reste sicher?
+### Vegetarisch?
 
-Schnell abkühlen, flach, kühlen/frieren, beschriften, Portion erhitzen. Nicht tagelang nur anwärmen. Bei Zweifel entsorgen. bzfe.de-Logik übertragen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen.
+Ja mit Kraut, Kohl, Pilzen — anderes Gericht, klar sagen. Säure und Schmorzeit bleiben zentral.
 
-### Warum flach?
+## Weiterlesen
 
-Zu wenig Röstaroma, zu viel Wasser, frühe Wurst, zu kurz, schwaches Kraut. Anbraten, reduzieren, Zeit geben, Säure/Salz final justieren. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah.
-
-## Bigos und Meal Prep
-
-Sonntag schmoren, Woche essen. Portionen unterschiedlich würzen – eine milder für Kinder. Das reduziert Konflikt und Waste.
-
-## Säure korrekt lesen
-
-Zu sauer: etwas frischer Kohl, kurze Spülung vorher, milde Süße sparsam. Zu mild: Krautflüssigkeit oder längere Zeit. Zucker ist letzte Notbremse, nicht Stilmittel.
-
-## Bigos und Meal Prep
-
-Sonntag schmoren, Woche essen. Portionen unterschiedlich würzen – eine milder für Kinder. Das reduziert Konflikt und Waste.
-
-## Säure korrekt lesen
-
-Zu sauer: etwas frischer Kohl, kurze Spülung vorher, milde Süße sparsam. Zu mild: Krautflüssigkeit oder längere Zeit. Zucker ist letzte Notbremse, nicht Stilmittel.
-
-## Bigos und Meal Prep
-
-Sonntag schmoren, Woche essen. Portionen unterschiedlich würzen – eine milder für Kinder. Das reduziert Konflikt und Waste.
-
-## Säure korrekt lesen
-
-Zu sauer: etwas frischer Kohl, kurze Spülung vorher, milde Süße sparsam. Zu mild: Krautflüssigkeit oder längere Zeit. Zucker ist letzte Notbremse, nicht Stilmittel.
-
-## Bigos und Meal Prep
-
-Sonntag schmoren, Woche essen. Portionen unterschiedlich würzen – eine milder für Kinder. Das reduziert Konflikt und Waste.
-
-## Säure korrekt lesen
-
-Zu sauer: etwas frischer Kohl, kurze Spülung vorher, milde Süße sparsam. Zu mild: Krautflüssigkeit oder längere Zeit. Zucker ist letzte Notbremse, nicht Stilmittel.
-
-## Bigos und Meal Prep
-
-Sonntag schmoren, Woche essen. Portionen unterschiedlich würzen – eine milder für Kinder. Das reduziert Konflikt und Waste.
-
-## Säure korrekt lesen
-
-Zu sauer: etwas frischer Kohl, kurze Spülung vorher, milde Süße sparsam. Zu mild: Krautflüssigkeit oder längere Zeit. Zucker ist letzte Notbremse, nicht Stilmittel.
-
-## Bigos und Meal Prep
-
-Sonntag schmoren, Woche essen. Portionen unterschiedlich würzen – eine milder für Kinder. Das reduziert Konflikt und Waste.
-
-## Säure korrekt lesen
-
-Zu sauer: etwas frischer Kohl, kurze Spülung vorher, milde Süße sparsam. Zu mild: Krautflüssigkeit oder längere Zeit. Zucker ist letzte Notbremse, nicht Stilmittel.
-
-## Bigos und Meal Prep
-
-Sonntag schmoren, Woche essen. Portionen unterschiedlich würzen – eine milder für Kinder. Das reduziert Konflikt und Waste.
-
-## Säure korrekt lesen
-
-Zu sauer: etwas frischer Kohl, kurze Spülung vorher, milde Süße sparsam. Zu mild: Krautflüssigkeit oder längere Zeit. Zucker ist letzte Notbremse, nicht Stilmittel.
-
-## Bigos und Meal Prep
-
-Sonntag schmoren, Woche essen. Portionen unterschiedlich würzen – eine milder für Kinder. Das reduziert Konflikt und Waste.
-
-## Säure korrekt lesen
-
-Zu sauer: etwas frischer Kohl, kurze Spülung vorher, milde Süße sparsam. Zu mild: Krautflüssigkeit oder längere Zeit. Zucker ist letzte Notbremse, nicht Stilmittel.
+- [Bigos — Rezept](/de/rezepte/bigos)
+- [Kiełbasa-Arten](/de/blog/kielbasa-arten)
+- [Dutch-Oven-Kaufberatung](/de/blog/dutch-oven-kaufberatung)
+- [Kiszenie](/de/blog/kiszenie-guide)
+- [Sonntagsessen](/de/blog/sonntagsessen-polnisch)
+- [Polenladen](/de/blog/polenladen-einkaufen)
 `;
 
 export const bodySmietanaSchmandDe = `

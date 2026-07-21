@@ -161,14 +161,6 @@ Kroki i ilości: [przepis fasolka](/pl/rezepte/fasolka-po-bretonsku). Tu konteks
 - [Sklep polski](/pl/blog/sklep-polski-zakupy)
 
 Spokojnie dusić, jasno doprawiać, resztki wykorzystać — tak fasolka w DE staje się powtarzalna i sycąca.
-
-W praktyce powtarzanie liczy się bardziej niż perfekcja. Kto dwa razy spokojnie przejdzie ten sam przebieg, oszczędza sobie później frustracji i złych zakupów. Notatki w telefonie albo na kartce przy kuchence pomagają bardziej niż kolejne wideo.
-
-Dla domów w Niemczech sklep polski to celowy przystanek, nie obowiązek przy każdym daniu. Supermarket na bazę, specjalności tam, gdzie niosą charakter. Zakupy zostają planowalne, a smak jasny.
-
-Dzieci mogą odmierzać, mieszać i podawać — gorące i ostre kroki zostają u dorosłych. To obniża stres i buduje dobre wspomnienie przy stole, bez presji wyniku.
-
-Resztki należą do kultury: dobrze opisać, schłodzić, nazajutrz świadomie podgrzać. Mikrofalówka to awaria; patelnia albo piekarnik lepiej trzymają teksturę. Freezer tylko wtedy, gdy technika na to pozwala.
 `;
 
 export const bodyMajeranekPl = `

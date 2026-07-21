@@ -122,237 +122,101 @@ W wielu domach tak — przed postem albo w drugi dzień świąt. Plan menu: [men
 `;
 
 export const bodyBarszczTechnikPl = `
-Barszcz czerwony to dla wielu Polaków w diasporze smak Wigilii — klarowny, rubinowy wywar z buraków, często z [uszkami](/pl/rezepte/uszka) w miseczce albo sam w filiżance przed pierogami. W Niemczech widzimy „Rote Bete Suppe” w bio, koncentrat w słoiku z Polenladen i świeże buraki w REWE — ale klarowny barszcz to nie blendowany krem. Ten przewodnik opisuje technikę: buraki, wywar, klarowność, Wigilia, reszty — bez przejmowania [przeglądu polskich zup](/pl/blog/polskie-zupy) ani leksykonu [śmietany i Schmand](/pl/blog/smietana-czy-schmand). Gramatura i pełny przepis: [barszcz czerwony](/pl/rezepte/barszcz-czerwony).
+Barszcz czerwony to dla wielu domów smak Wigilii — klarowny, rubinowy wywar z buraków. Ilości i kroki są w [przepisie barszcz czerwony](/pl/rezepte/barszcz-czerwony). Tutaj zostaje technika poza przepisem: klarowność, zakupy w DE, logika wigilijna i podgrzewanie — bez listy gotowania.
 
-Piszemy z perspektywy domu w DE: zakupy w dwóch sklepach, wigilijny stół w sobotę wieczorem, reszta wywaru w lodówce do Sylwestra. Źródła: [BZfE](https://www.bzfe.de) co do warzyw korzeniowych, [was-wir-essen.de](https://www.was-wir-essen.de) przy przechowywaniu, [Komisja Europejska — rolnictwo](https://agriculture.ec.europa.eu) przy sezonowości.
+Obok: [technika rosołu](/pl/blog/jak-ugotowac-rosol). Przegląd: [polskie zupy](/pl/blog/polskie-zupy).
 
-## Barszcz czerwony a inne barszcze — co mamy na myśli
+## Barszcz czerwony a inne
 
-**Barszcz czerwony klarowny** (na Wigilię, na uszka) to entity inne niż barszcz ukraiński (gęsty, wieloskładnikowy), barszcz biały (żurek-okolice) czy zupa buraczana „na co dzień” z marchewką i ziemniakiem. My mówimy o **przejrzystym, czerwonym bulionie** — wywar warzywny z buraków, przecedzony, bez mąki i bez blendowania całego garnka.
+Klarowny **czerwony** jest przecedzony, rubinowy, bez śmietany w garnku — inny niż biały, ukraiński czy gęsta zupa buraczana na co dzień. Na Wigilię często bez mięsa, z [uszkami](/pl/rezepte/uszka); w niedzielę wywar może być mięsny. Ciepła wiosenna botwina: [botwinka](/pl/rezepte/botwinka) — nie klarowny barszcz i nie zimny chłodnik.
 
-**Wigilia** wymaga wersji **bez mięsa** — wywar z warzyw, grzybów suszonych czasem, ocet lub sok z cytryny na końcu. To nie „light” barszcz — to tradycja postna. [Menu wigilijne](/pl/blog/menu-wigilijne) układa cały stół; barszcz często otwiera posiłek.
+## Buraki i zakupy w DE
 
-W diasporze mylimy czasem barszcz z „zupą z buraków” — tam bywa gęsto, kremowo, z jogurtem. Klarowny barszcz ma **consommé-like** logikę: smak buraka w wodzie, nie puree w misce. **Rozróżnienie:** ciepła wiosenna zupa z botwiną i dodatkami to [botwinka](/pl/rezepte/botwinka) — nie klarowny barszcz i nie zimny chłodnik.
+**Świeże:** pełniejszy smak, więcej pracy. **Vacuum / słoik:** standard diasporowy. **Koncentrat:** szybko — często łączymy z własnym wywarem na kolor i głębię. Soku z buraka nie wylewamy. Marki z PL: [sklep polski](/pl/blog/sklep-polski-zakupy).
 
-## Buraki: świeże, konserwa, koncentrat — zakupy w Niemczech
+## Klarowność i śmietana
 
-**Świeże buraki:** W sezonie (jesień–wiosna) w REWE, Edeka, na targu — często z botwą. Obieramy rękawiczki (barwi!), myjemy, gotujemy w całości albo kroimy surowe do wywaru — zależnie od przepisu. Świeże dają najczystszy smak; więcej pracy.
+Warzyw nie gotujemy gwałtownie; buraki często osobno albo w drugiej fazie. Po gotowaniu przecedzamy — blendowanie to inne danie. Pianę zbieramy; ogień spokojny. Kwas (cytryna/ocet) na końcu — podnosi kolor i świeżość.
 
-**Buraki gotowane (vacuum / słoik):** W polskim sklepie i coraz częściej w DE — wygodne na Wigilię. Sprawdzamy **skład**: burak, woda, sól — bez octu i cukru, jeśli chcemy kontrolować smak wywaru. Vacuuum z Niemiec bywa łagodniejszy niż polski konserwowy.
+**Śmietana w misce**, nie w garnku. Szczegóły: [śmietana czy Schmand](/pl/blog/smietana-czy-schmand). Uszka gotujemy osobno, do miski, gorący wywar na wierzch.
 
-**Koncentrat barszczowy (z słoika / tubki):** Rozcieńczamy wodą lub wywarem — szybka ścieżka diasporowa. Jakość zależy od marki; polskie koncentraty z [sklepu polskiego](/pl/blog/sklep-polski-zakupy) często bliżej domowego smaku niż „Barszcz instant” z discountu. Koncentrat **nie zastępuje** techniki wywaru u purystów — ale przy dwudziestu gościach w Berlinie my często łączymy: własny wywar + odrobina koncentratu na kolor.
+## Wigilia i resztki
 
-**Kiszone buraki / zakwas:** Osobna ścieżka (barszcz biały, chłodnik) — nie mylimy z czerwonym klarownym na Wigilię.
+Wywar roślinny w Wigilię — [menu wigilijne](/pl/blog/menu-wigilijne). Mała miska, wyraźny smak. Bazę rano przecedzić i schłodzić; wieczorem tylko podgrzać.
 
-**Einkauf DE — praktyka:** Botwina świeża w Aldi wiosną; cały rok — vacuum buraki i koncentrat z Polenladen. Bio Rote Bete często mniejsze — więcej sztuk na garnek. Cena: koncentrat opłaca się przy małej kuchni; świeże — gdy mamy czas w grudniu.
+Podgrzewać łagodnie. Freezer bez śmietany i bez uszek. Lodówka 3–4 dni — drugi dzień często lepszy.
 
-## Wywar i baza: warzywa, timing, bez mętności
+Ilości: [przepis barszcz](/pl/rezepte/barszcz-czerwony). Uszka: [uszka](/pl/rezepte/uszka).
 
-**Baza warzywna:** Buraki to serce, ale wywar nosi też **marchew, pietruszka, seler**, cebula — klasyczna kostka wigilijna. Nie dodajemy ziemniaka do klarownego barszczu (mętzi). Grzyby suszone opcjonalnie — głębia bez mięsa.
+## FAQ krótko
 
-**Buraki a kolor:** Czerwień z antocyjanów — **kwas** (ocet, sok cytryny, zakwas buraczany w niektórych domach) stabilizuje kolor i smak. Dodajemy kwas **na końcu**, nie na początku długiego gotowania — inaczej smak bywa płaski.
+### Dlaczego mętny mimo sita?
 
-**Timing:** Warzywa korzeniowe gotujemy spokojnie 45–90 min — ekstrakcja smaku. Buraki surowe krojone do wywaru dają mocniejszy kolor niż same gotowane vacuum — kompromis: połowę świeżych, połowę z koncentratu.
+Za mocne wrzenie, rozgotowane warzywa albo buraki zbyt wcześnie zblendowane.
 
-**Nie zagotowujemy na całokształt:** Intensywne wrzenie przez długi czas mętzi i sprawia, że wywar traci „klarowność” w smaku — lekko simer, przykrywka lekko uchylona.
+### Śmietana do garnka?
 
-**Sól:** Solimy warstwowo — warzywa lekko, doprawiamy po przecedzeniu. Przesolony barszcz na Wigilię nie naprawiamy łatwo — lepiej dosolić miseczkę.
+Klasycznie nie — na talerzu.
 
-**Porównanie z [rosołem](/pl/blog/jak-ugotowac-rosol):** Tam szklanka przez mięso; tu klarowność przez **przecedzenie** i brak tłuszczu zwierzęcego. Logika wywaru podobna — cierpliwość, nie wrzutki.
+### Z mięsem?
 
-## Klarowność: przecedzanie, śmietana na talerzu
-
-**Przecedzenie:** Sito lub gazeta (tradycja) — wywar ma być **przezroczysty**, rubinowy. Drugie przecedzenie przez ściereczkę czystą = ekstra klar. Nie blendujemy buraków z wywarem w klarownej wersji — to już inne danie.
-
-**Tłuszcz:** W wigilijnym barszczu praktycznie brak — ewentualna olejna po marchewce usuwamy łyżką po ostudzeniu.
-
-**Śmietana:** W polskiej tradycji **w misce**, nie w garnku — łyżka [śmietany](/pl/blog/smietana-czy-schmand) (18%, czasem 30%) na barszczu lub obok. W DE Schmand bywa gęstszy — rozcieńczamy łyżką wywaru przed dodaniem do miski, żeby nie tworzyć białych grudek. Pełna mapa produktów: [śmietana czy Schmand](/pl/blog/smietana-czy-schmand) — my tylko przypominamy: śmietana na talerzu, nie gotowanie na śmietanie (waży się, mętzi).
-
-**Uszka:** Barszcz wigilijny podajemy z małymi pierogami — lepienie i farsz w [przepisie uszka](/pl/rezepte/uszka). Wywar osobno gorący, uszka osobno — nie gotujemy pierogów godzinę w bulionie przed podaniem.
-
-**Podgrzewanie:** Delikatnie — nie wrzeć mocno po przecedzeniu; kolor i smak cierpią.
-
-## Logika wigilijna: uszka, bez mięsa, plan stołu
-
-Wigilia to **post** — wywar bez rosołu mięsnego, bez boczku w barszczu. Grzyby, warzywa, ewentualnie margaryna do smażenia cebuli — sprawdzamy z tradycją rodziny.
-
-**Kolejność na stole:** Barszcz często pierwszy gorący element — lekki, przed pierogami, kapustą, rybą. [Menu wigilijne](/pl/blog/menu-wigilijne) pomaga ułożyć resztę bez chaosu w kuchni.
-
-**Uszka z grzybami / kapustą kiszoną:** Farsz postny; barszcz je „niesie”. Robimy uszka dzień wcześniej — wigilijny wieczór bez formowania pierogów od zera.
-
-**Dzieci i goście niepostni:** Osobna miska, ta sama technika wywaru — nie robimy drugiego garnka mięsnego „dla barszczu”; to już inna zupa.
-
-**Zakupy last minute w DE:** 24 grudnia Polenladen zamknięty wcześniej — koncentrat i vacuum buraki trzymamy w spiżarni przed świętami. Lista: [sklep polski — zakupy](/pl/blog/sklep-polski-zakupy).
-
-## Reszty, podgrzewanie, mrożenie
-
-**Lodówka:** Klarowny wywar 3–4 dni w szczelnym pojemniku — smak często **lepszy** drugiego dnia. Barwi wszystko w lodówce — zakręcamy szczelnie.
-
-**Podgrzewanie:** Garnek na małym ogniu, ruch łyżką delikatny. Mikrofala w diasporze — ok na porcję, gorzej na cały garnek (nierówna temperatura). Nie doprowadzamy do gwałtownego wrzenia.
-
-**Mrożenie:** Wywar bez śmietany i bez uszek — 2–3 miesiące. Rozmrażamy w lodówce, podgrzewamy powoli. Tekstura klarowna zostaje, jeśli nie dodawaliśmy mąki ani puree.
-
-**Reszty z Wigilii:** Zostaje pół garnka — w Sylwestra jako starter, albo baza do innej zupy (nie mylimy z barszczem „na świeżo” dla gości — podgrzany wywar z 23 grudnia to norma w rodzinach).
-
-**Uszka osobno:** Pierogi na twardo, barszcz osobno — nie mrożymy razem w jednej misce.
-
-## FAQ
-
-### Czy barszcz musi być z koncentratu?
-
-Nie — świeże buraki i wywar warzywny dają pełniejszy smak. W diasporze my często łączymy: własny wywar plus odrobina koncentratu na kolor — to pragmatyzm, nie wstyd.
-
-### Dlaczego mój barszcz jest mętny?
-
-Blendowanie buraków w wywarze, ziemniak w garnku, zbyt gwałtowne wrzenie albo śmietana wgotowana w bulionie. Przecedzamy i trzymamy śmietanę na talerzu.
-
-### Śmietana z Aldi czy polski śmietan?
-
-Oba działają — ważna zawartość tłuszczu i brak stabilizatorów, które dziwnie się zachowują w gorącym bulionie. Porównanie produktów: [śmietana czy Schmand](/pl/blog/smietana-czy-schmand).
-
-### Czy można zrobić barszcz dzień przed Wigilią?
-
-Tak — wywar nawet lepiej „siada”. Uszka też wcześniej; w wigilijny wieczór tylko podgrzewamy i składamy miskę.
-
-### Barszcz a [polskie zupy](/pl/blog/polskie-zupy) — gdzie to siedzi?
-
-Przegląd zup opisuje całą rodzinę (żurek, pomidorowa, krupnik); my jesteśmy **techniką barszczu czerwonego klarownego** — linkujemy overview, nie zastępujemy.
-
-### Czy dodaję ocet do garnka?
-
-Na końcu, małymi porcjami, z próbą — stabilizuje kolor i równoważy słodycz buraka. Za wcześnie = mdły wywar po długim gotowaniu.
+W zwykły dzień tak. W Wigilię nie.
 
 ## Czytaj dalej
 
-- [Przepis: barszcz czerwony](/pl/rezepte/barszcz-czerwony)
-- [Przepis: uszka z grzybami](/pl/rezepte/uszka)
-- [Polskie zupy — przegląd](/pl/blog/polskie-zupy)
-- [Śmietana czy Schmand — leksykon](/pl/blog/smietana-czy-schmand)
-- [Menu wigilijne — plan stołu](/pl/blog/menu-wigilijne)
-- [Sklep polski — zakupy](/pl/blog/sklep-polski-zakupy)
-- [Jak ugotować rosół — technika wywaru](/pl/blog/jak-ugotowac-rosol)
+- [Barszcz czerwony](/pl/rezepte/barszcz-czerwony)
+- [Uszka](/pl/rezepte/uszka)
+- [Polskie zupy](/pl/blog/polskie-zupy)
+- [Jak ugotować rosół](/pl/blog/jak-ugotowac-rosol)
+- [Śmietana czy Schmand](/pl/blog/smietana-czy-schmand)
+- [Menu wigilijne](/pl/blog/menu-wigilijne)
 `;
 
 export const bodyPlackiGuidePl = `
-Placki ziemniaczane to w polskiej kuchni coś między daniem a symbolem — chrupiące placki z tartych kartofli, na [obiad niedzielny](/pl/blog/obiad-niedzielny), obok gulaszu, ze [śmietaną](/pl/blog/smietana-czy-schmand) albo same z cukrem pudrem wspomnieniowym. W Niemczech sąsiad to Reibekuchen / Kartoffelpuffer — podobna idea, inne detale: proporcje, odsączenie, tłuszcz na patelni. Ten przewodnik opisuje **technikę placków** bez gramatur z [przepisu na placki ziemniaczane](/pl/rezepte/placki/ziemniaczane). Kto chce listy składników i kroków, idzie do przepisu; my wyjaśniamy, dlaczego w diasporze wychodzą gumowate albo surowe w środku.
+Placki ziemniaczane w diasporze często są pierwszym daniem, które lubią dzieci i sąsiedzi. Ilości i kroki: [przepis placki ziemniaczane](/pl/rezepte/placki/ziemniaczane). Tutaj: różnica wobec Reibekuchen, wybór kartofli, błędy wspólne dla wariantów i podanie — bez powtarzania przepisu.
 
-Kontekst: REWE kartofle firmowe, tarka z Lidla, [patelnia żeliwna](/pl/blog/patelnia-zelivna) obok starej stalowej. Źródła: [BZfE](https://www.bzfe.de) co do kartofli jako warzywa skrobiowego, [was-wir-essen.de](https://www.was-wir-essen.de) przy smażeniu, [Komisja Europejska — rolnictwo](https://agriculture.ec.europa.eu) przy sezonowości ziemniaków.
+Warianty: [cukinia](/pl/rezepte/placki/cukinia), [ser](/pl/rezepte/placki/ser), [jabłko](/pl/rezepte/placki/jablka). Z gulaszem na talerzu: [placek po węgiersku](/pl/rezepte/placek-po-wegiersku).
 
 ## Czym są placki — vs. Reibekuchen
 
-**Placki ziemniaczane** to **tarte surowe kartofle** (czasem z odrobiną gotowanego — regionalnie), jajo, mąka lub skrobia, sól — smażone na patelni w porcjach. Chrupiąca skórka, środek miękki ale nie surowy. Polska linia blisko niemieckiego Reibekuchen, ale domowe placki bywają **cieńsze, mniej jaj**, czasem bez cebuli w masie (cebula osobno w gulaszu).
+Tarte **surowe** kartofle z jajkiem i odrobiną mąki/skrobi, smażone na patelni — płaskie placki, nie pieczone ziemniaki. Blisko niemieckiego Reibekuchen, zwykle cieńsze i chrupiące; partner często śmietana lub gulasz zamiast musu jabłkowego. Patelnia: [żeliwo](/pl/blog/patelnia-zelivna). Kontekst: [obiad niedzielny](/pl/blog/obiad-niedzielny).
 
-**Reibekuchen** w Gaststätte: grubsze, często z sosem jabłkowym — u nas [śmietana](/pl/blog/smietana-czy-schmand) lub gulasz. **Hash browns** amerykańskie — inna tekstura, prasowane. Nie mieszamy nazw w przepisie rodzinnym — „placki” to placki.
+## Kartofle i wilgoć (krótko)
 
-W diasporze placki to też **tani obiad** między droższymi zakupami mięsa — kartofle zawsze w spiżarni. Obok [kaszy gryczanej](/pl/blog/kasza-gryczana) jako drugi „polski” dodatek bez mięsa — ale placki są głównym daniem, kasza dodatkiem.
+Mączyste / mehlig lepiej trzymają formę. Klucz: mocno odsączyć masę — za mokro klei się i robi gumę. Skrobię z dna miski zostawić. Ilości w przepisie — tu tylko dźwignia.
 
-**Placki a placki z cukrem:** Ten sam ciasto bazowy; słodka wersja rzadsza w DE, ale dzieci pamiętają. My skupiamy się na wersji wytrawnej obok gulaszu.
+## Co psuje wszystkie warianty
 
-## Kartofle: odmiana, odsączenie, skrobia
+- Za mokro → papka zamiast chrupkości
+- Za grube → spalone na zewnątrz, surowe w środku
+- Za pełna patelnia → parowanie zamiast smażenia
+- Mikrofala przy podgrzewaniu → guma
+- Surowa masa godzinami → szaro i gorzko
 
-**Odmiana:** **Skrobiowe / mączyste** (mehlig kochend w DE) — więcej skrobi, mniej wody, placki trzymają się razem. **Salatkowe** (festkochend) — za dużo wody, placki płyną w patelni. W supermarketach DE szukamy „mehlig“ na etykiecie; bio często bez kodu — testujemy raz i zapamiętujemy markę.
+Ciepłe trzymanie: piekarnik 80–100 °C, osobno, bez stosu. Resztki chrupić na patelni lub w piekarniku.
 
-**Obieranie i tarcie:** Tarte **tuż przed** smażeniem — kartofle ciemnieją i wydzielają wodę. Tarka o grubych oczkach daje klasyczną teksturę; drobna — bardziej „ciasto”. Ręczna tarka w diasporze nadal — food processor bywa za drobny i gumowaty.
+## Podanie
 
-**Odsączenie:** Klucz diasporowy. Tarte kartofle w **ściereczce kuchennej / gazie** — wykręcamy mocno. Woda w patelni = parowanie, brak chrupkości, surowy środek przy spalonej skórce. Drugi raz odsączenie po 5 minutach stania — kartofle nadal „płaczą”.
+Śmietana zimna na talerzu — [śmietana czy Schmand](/pl/blog/smietana-czy-schmand). Solo z sałatą albo [kaszą](/pl/blog/kasza-gryczana). Placki od razu — tekstura cierpi co minutę.
 
-**Skrobia z dna miski:** Biały osad pod tartymi kartoflami — **zostawiamy** i mieszamy z masą (naturalny spoiwo). Wyrzucenie = placki rozpadają się.
+Głód gotowania: [placki ziemniaczane](/pl/rezepte/placki/ziemniaczane).
 
-**Utlenianie:** Różowe szare placki — kosmetyka; odrobina soku cytrynowego w masie spowalnia, ale nie przesadzamy (smak). Szybkie smażenie ważniejsze niż idealny kolor.
+## FAQ krótko
 
-**Gotowane kartofle w masie:** Niektóre regiony dodają 1/4 gotowanych — łatwiejsze formowanie; tradycja rodzinna. W diasporze rzadziej — trzymamy surowe + skrobia.
+### Placki czy Reibekuchen?
 
-## Masa: jajo, mąka, przyprawy — typowe błędy
+Podobna technika, inny kontekst talerza. Po polsku często ze śmietaną/gulaszem.
 
-**Proporcje (orientacja, nie przepis):** Na kilogram tartych kartofli — zwykle 1–2 jaja i 1–2 łyżki mąki lub skrobi ziemniaczanej **po odsączeniu**. Za dużo mąki = gumowate placki; za mało = rozpadają się przy obracaniu.
+### Czy trzeba żeliwa?
 
-**Jaja:** Średnie z Niemiec (klasa M) — wiążą masę. Wegańskie wersje (skrobia + woda) możliwe, ale inna tekstura — nie udajemy 1:1 bez kompromisu.
-
-**Mąka pszenna vs. skrobia ziemniaczana:** Skrobia daje bardziej chrupiący exterior; mąka bardziej „biedronkowy” placki. Mieszanka działa.
-
-**Sól:** Dopiero **po** odsączeniu i tuż przed patelnią — wcześniejsza sól wyciąga wodę z powrotem.
-
-**Cebula w masie:** Opcjonalna — tart drobno, też odsączyć. W wielu domach cebula jest w [gulaszu](/pl/rezepte/gulasz-wieprzowy) obok, nie w placku (szybciej przypala się).
-
-**Pieprz, czosnek:** Oszczędnie — placki to smak kartofla i tłuszczu.
-
-**Błąd „ciasto jak na naleśniki”:** Placki to **gęsta masa kartoflana**, nie płynne ciasto. Łyżka kładzie porcję, lekko spłaszcza.
-
-**Odpoczynek masy:** 5–10 min po wymieszaniu — skrobia wiąże. Za długo = woda znowu na dnie — delikatnie odcedzamy.
-
-## Smażenie: patelnia, olej, ciepłe porcje
-
-**Patelnia:** Stal gruba, [żeliwo](/pl/blog/patelnia-zelivna) — równomierne ciepło. Placki 8–12 cm średnicy — łatwiej obracać niż jeden wielki „placek na całą patelnię”.
-
-**Olej:** Warstwa ok. 4–5 mm — **nie** głębokie frytki, ale więcej niż „na smarowanie”. Za mało = brąz bez chrupkości.
-
-**Temperatura:** Średnio-wysoka — masa musi **złapać skorupę** zanim woda ucieknie. Test: kropla masy na patelni — syczy od razu.
-
-**Porcje:** 2–3 placki naraz, nie cała masa — spadek temperatury = olej wchodzi w placki. Między seriami olej uzupełniamy, patelnię lekko przecieramy papierem jeśli ciemne okruchy.
-
-**Czas:** Ok. 3–5 min na stronę — złoty kolor, brzegi stabilne przy szpatułce. Środek surowy = za grube placki albo za niska temperatura.
-
-**Ciepłe trzymanie:** Kratka w piekarniku 100 °C — placki nie w folii (para = miękko). Serwujemy w ciągu 20–30 min od startu; batch dla sześciu osób wymaga planu.
-
-**Okap:** Przy włączonym — para; lepiej okno otwarte niż mokre placki.
-
-## Podawanie: śmietana, gulasz, solo
-
-**Klasycznie:** Placki + **[gulasz](/pl/rezepte/gulasz-wieprzowy)** (mięsny lub pieczarkowy w diasporze) + łyżka śmietany. Śmietana 18% z polskiego sklepu albo Schmand rozcieńczony — [śmietana czy Schmand](/pl/blog/smietana-czy-schmand). Na jednym talerzu z gulaszem na wierzchu: [placek po węgiersku](/pl/rezepte/placek-po-wegiersku). Same placki: [placki ziemniaczane](/pl/rezepte/placki/ziemniaczane).
-
-**Solo:** Placki ze śmietaną i szczypiorkiem — szybki obiad bez mięsa.
-
-**Z jajkiem sadzonym:** Śniadaniowy hack w Berlinie — placki z wczoraj podgrzane, jajko na wierzchu.
-
-**Dzieci:** Mniejsze placki, mniej pieprzu, więcej chrupkości — cieniej na patelni.
-
-**Nie miksuemy z [kaszą](/pl/blog/kasza-gryczana) na jednym talerzu „bo polskie”** — oba ciężkie skrobiowe; wybieramy jedno jako główne danie. Kasza lepiej obok mięsa lub jako lekki dodatek innego dnia.
-
-**Bigos / mięso z niedzieli:** Resztki gulaszu z [obiadu niedzielnego](/pl/blog/obiad-niedzielny) — idealne do placków w środę.
-
-## Batch i reszty
-
-**Większa porcja na rodzinę:** Tarcie w partach — pierwsza partia już na patelni, druga odsączone w ściereczce czeka max 15 min. Dłużej = ciemnieją i płyną.
-
-**Reszty z patelni:** Lodówka 2–3 dni — **podgrzewamy na patelni** z odrobiną oleju, piekarnik też ok. Mikrofala = gumowate — unikamy jeśli możemy.
-
-**Mrożenie:** Surowa masa słabo (woda pęka przy rozmrożeniu). **Usmażone placki** — między papierem, 1 miesiąc; rozmrożone w piekarniku 180 °C.
-
-**Planowanie tygodnia:** Niedziela placki + gulasz — reszta gulaszu na poniedziałek, placki podgrzewane. Nie robimy placków od zera w środku tygodnia po 19:00 pracy — chyba że mamy usmażony zapas.
-
-**Zero waste:** Obierki kompost / wywar (nie do placków — gorzki); olej po kartoflach wymieniamy co 2–3 batchy.
-
-## FAQ
-
-### Dlaczego placki są gumowate?
-
-Za dużo mąki, za mało odsączenia, za niska temperatura patelni albo za grube porcje. My zaczynamy od odsączenia i mehlig kartofli — to rozwiązuje połowę problemów.
-
-### Placki czy Reibekuchen — co mówimy w domu?
-
-Mówimy placki — polska tradycja podania ze śmietaną i gulaszem. Reibekuchen to ten sam pomysł na niemieckim talerzu; technika podobna, nazwa inna.
-
-### Czy muszę mieć patelnię żeliwną?
-
-Nie — gruba stal wystarczy. Żeliwo pomaga przy wielu batchach na [niedzielę](/pl/blog/obiad-niedzielny); przewodnik: [patelnia żeliwna](/pl/blog/patelnia-zelivna).
-
-### Jak trzymać placki ciepłe dla gości?
-
-Kratka w piekarniku 100 °C, bez przykrycia. Smażymy partiami od początku imprezy, nie wszystko na raz na końcu.
-
-### Czy dodaję cebulę do masy?
-
-Jeśli lubimy — tak, drobno tartą i odsączoną. W wielu rodzinach cebula jest tylko w gulaszu — mniej przypalania na placku.
-
-### Placki na co dzień czy święto?
-
-Na co dzień — tani obiad. Na święto — rzadziej niż pierogi czy [barszcz](/pl/rezepte/barszcz-czerwony), ale na [niedzielę](/pl/blog/obiad-niedzielny) jak najbardziej.
+Nie, pomaga — [patelnia żeliwna](/pl/blog/patelnia-zelivna).
 
 ## Czytaj dalej
 
-- [Przepis: placki ziemniaczane](/pl/rezepte/placki/ziemniaczane) — składniki i kroki
+- [Placki ziemniaczane](/pl/rezepte/placki/ziemniaczane)
+- [Placek po węgiersku](/pl/rezepte/placek-po-wegiersku)
 - [Patelnia żeliwna](/pl/blog/patelnia-zelivna)
-- [Kasza gryczana — leksykon](/pl/blog/kasza-gryczana)
-- [Obiad niedzielny po polsku](/pl/blog/obiad-niedzielny)
 - [Śmietana czy Schmand](/pl/blog/smietana-czy-schmand)
+- [Obiad niedzielny](/pl/blog/obiad-niedzielny)
 `;
+

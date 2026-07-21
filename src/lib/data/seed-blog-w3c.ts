@@ -81,23 +81,23 @@ export const seedBlogPostsW3c: BlogPost[] = [
     clusterIds: ["technique-bulion", "occasion-wigilia"],
     translations: {
       de: {
-        title: "Barszcz czerwony richtig kochen: klar, ruhig, wigilijny",
+        title: "Barszcz klar halten: Technik neben dem Rezept",
         slug: "barszcz-technik",
         excerpt:
-          "Buraki, Klarheit, Śmietana am Teller und Wigilia-Logik — Technik für klaren Barszcz in DE.",
-        seoTitle: "Barszcz klar kochen | Technik Guide | Alemniam",
+          "Klarheit, Buraki in DE, Wigilia-Logik — Mengen und Schritte im Barszcz-Rezept.",
+        seoTitle: "Barszcz Technik | Klare Brühe | Alemniam",
         seoDescription:
-          "Barszcz Technik: Rote Bete, Brühe, Abseihen, Aufwärmen. Ergänzt Suppen-Überblick und Rezept — machbar für Wigilia in DE.",
+          "Barszcz-Technik: Klarheit, Einkauf, Wigilia. Kochen mit Mengen im Barszcz-Rezept.",
         body: bodyBarszczTechnikDe.trim(),
       },
       pl: {
-        title: "Jak ugotować barszcz czerwony: klarowny, spokojny, wigilijny",
+        title: "Jak utrzymać klarowny barszcz: technika obok przepisu",
         slug: "jak-ugotowac-barszcz",
         excerpt:
-          "Buraki, klarowność, śmietana w misce i logika Wigilii — technika barszczu w DE.",
-        seoTitle: "Jak ugotować barszcz czerwony | Poradnik techniki | Alemniam",
+          "Klarowność, buraki w DE, logika Wigilii — ilości i kroki w przepisie na barszcz.",
+        seoTitle: "Barszcz technika | Klarowny wywar | Alemniam",
         seoDescription:
-          "Technika barszczu: buraki, wywar, przecieranie, podgrzewanie. Uzupełnia przegląd zup i przepis — na Wigilię w DE.",
+          "Technika barszczu: klarowność, zakupy, Wigilia. Gotowanie z ilościami w przepisie na barszcz.",
         body: bodyBarszczTechnikPl.trim(),
       },
     },
@@ -129,23 +129,23 @@ export const seedBlogPostsW3c: BlogPost[] = [
     clusterIds: ["occasion-niedziela"],
     translations: {
       de: {
-        title: "Placki ziemniaczane: knusprig, gleichmäßig, ohne Matsch",
+        title: "Placki ziemniaczane: vs. Reibekuchen und Varianten",
         slug: "placki-guide",
         excerpt:
-          "Kartoffeln, Abtropfen, Pfanne und Servieren — Pillar-Guide für Placki in DE, ohne Rezept zu duplizieren.",
-        seoTitle: "Placki ziemniaczane Guide | Pillar | Alemniam",
+          "Unterschied zu Reibekuchen, Varianten und typische Fehler — Kochen mit Mengen im Placki-Rezept.",
+        seoTitle: "Placki Überblick | Varianten | Alemniam",
         seoDescription:
-          "Placki Guide: Kartoffelmasse, Braten, Śmietana und Gulasch. Ergänzt Rezept und Gusseisen-Kaufberatung — ruhig und praxisnah.",
+          "Placki vs. Reibekuchen, Varianten und Fehler. Mengen und Schritte im Placki-Rezept.",
         body: bodyPlackiGuideDe.trim(),
       },
       pl: {
-        title: "Placki ziemniaczane: chrupiące, równe, bez papki",
+        title: "Placki ziemniaczane: vs. Reibekuchen i warianty",
         slug: "placki-przewodnik",
         excerpt:
-          "Ziemniaki, odcedzanie, patelnia i podawanie — przewodnik po plackach w DE, bez powielania przepisu.",
-        seoTitle: "Placki ziemniaczane przepis przewodnik | Alemniam",
+          "Różnica wobec Reibekuchen, warianty i typowe błędy — gotowanie z ilościami w przepisie na placki.",
+        seoTitle: "Placki przegląd | Warianty | Alemniam",
         seoDescription:
-          "Przewodnik placki: masa, smażenie, śmietana i gulasz. Uzupełnia przepis i patelnię żeliwną — spokojnie i praktycznie.",
+          "Placki vs. Reibekuchen, warianty i błędy. Ilości i kroki w przepisie na placki.",
         body: bodyPlackiGuidePl.trim(),
       },
     },
