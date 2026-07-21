@@ -39,9 +39,9 @@ export const W9_FACTS_D: Record<string, ArticleFacts> = {
     vibeDe: "deftig, würzig, nach Zwiebel und knuspriger Hülle",
     vibePl: "treściwa, korzenna, z cebulą i chrupką osłonką",
     originDe:
-      "Kaszanka ist der Rezept: gebratene oder gegrillte Blutwurst mit Buchweizen oder Gerste, klassisch mit Zwiebel. Sie ist kein Eintrag im [Kiełbasa-Arten-Lexikon](/de/blog/kielbasa-arten) — dort bleiben Types, Qualität und Einsatz in Żurek/Bigos Owner. Hier geht es um Pfanne, Hitze und Beilagen. In vielen Diaspora-Küchen ist Kaszanka der schnelle Sonntags- oder Abendteller, wenn der [Polenladen](/de/blog/polenladen-einkaufen) gute Ware geführt hat. Sie teilt Würz-Feeling mit geräucherter Wurst, bleibt aber ein eigenes Gericht mit eigener Rezeptseite.",
+      "Kaszanka ist das Rezept: gebratene oder gegrillte Blutwurst mit Buchweizen oder Gerste, klassisch mit Zwiebel. Sie ist kein Eintrag im [Kiełbasa-Arten-Lexikon](/de/blog/kielbasa-arten) — dort bleiben Typen, Qualität und Einsatz in Żurek oder Bigos. Hier geht es um Pfanne, Hitze und Beilagen. In vielen Diaspora-Küchen ist Kaszanka der schnelle Sonntags- oder Abendteller, wenn der [Polenladen](/de/blog/polenladen-einkaufen) gute Ware geführt hat. Sie teilt Würz-Feeling mit geräucherter Wurst, bleibt aber ein eigenes Gericht mit eigener Rezept.",
     originPl:
-      "Kaszanka to przepis: smażona lub grillowana kaszanka z gryką albo jęczmieniem, klasycznie z cebulą. To nie wpis w [leksykonie rodzajów kiełbasy](/pl/blog/rodzaje-kielbasy) — tam zostają typy, jakość i użycie w żurku/bigosie. Tu chodzi o patelnię, ogień i dodatki. W wielu kuchniach diaspory kaszanka to szybki niedzielny lub wieczorny talerz, gdy [sklep polski](/pl/blog/sklep-polski-zakupy) ma dobrą partię. Dzieli korzenne feeling z wędzoną kiełbasą, ale zostaje własnym daniem i Rezeptseite.",
+      "Kaszanka to przepis na smażona lub grillowana kaszanka z gryką albo jęczmieniem, klasycznie z cebulą. To nie wpis w [leksykonie rodzajów kiełbasy](/pl/blog/rodzaje-kielbasy) — tam zostają typy, jakość i użycie w żurku/bigosie. Tu chodzi o patelnię, ogień i dodatki. W wielu kuchniach diaspory kaszanka to szybki niedzielny lub wieczorny talerz, gdy [sklep polski](/pl/blog/sklep-polski-zakupy) ma dobrą partię. Dzieli korzenne feeling z wędzoną kiełbasą, ale zostaje własnym daniem i Rezept.",
     shopDe:
       "Feste, würzige Kaszanka aus dem [Polenladen](/de/blog/polenladen-einkaufen): kurze Liste, sichtbare Grütze, kein wässriger Anschnitt. Zwiebeln, Schmalz oder Öl, optional Apfel, Majoran, Brot oder Kartoffeln. Welche Wurstsorten wohin gehören, erklärt weiter der Types-Guide — hier nur Kauf fürs Braten. Kühlkette und MHD prüfen; geöffnete Packung zügig verbrauchen.",
     shopPl:
@@ -61,7 +61,7 @@ export const W9_FACTS_D: Record<string, ArticleFacts> = {
     mistakesDe:
       "Zu hohe Hitze (platzt). Mit dem Kiełbasa-Arten-Übersicht verwechseln oder Types-Guide umschreiben. Zu viel Majeranek (bitter). Wässrige Billigware. Keine anderen Suppen hier miterfinden. Mengen und Hitze hier; Arten und Qualität im Lexikon.",
     mistakesPl:
-      "Za mocny ogień (pęka). Mylenie z fokus rodzajów kiełbasy albo przepisywanie leksykonu. Za dużo majeranku (gorzki). Wodnista tania kaszanka. Flaki lub inne HOLD tu wymyślać — nie. Abgrenzung: cook tutaj, leksykon tam.",
+      "Za mocny ogień (pęka). Mylenie z fokus rodzajów kiełbasy albo przepisywanie leksykonu. Za dużo majeranku (gorzki). Wodnista tania kaszanka. Flaki lub inne HOLD tu wymyślać — nie. Auf dem Tisch klar halten: cook tutaj, leksykon tam.",
     variantsDe:
       "Mit Apfel, mit Senf am Rand, gegrillt statt Pfanne, oder als Beilage-Teller neben Kapusta. Schmor-Nachbar bleibt [Bigos](/de/rezepte/bigos); Beilagen-Kohl [Kapusta zasmażana](/de/rezepte/kapusta-zasmażana). Gebackene Haus-Pastete (≠ Blutwurst): [Pasztet drobiowy](/de/rezepte/pasztet). Types und Qualitätslesen weiter im [Kiełbasa-Arten-Guide](/de/blog/kielbasa-arten).",
     variantsPl:

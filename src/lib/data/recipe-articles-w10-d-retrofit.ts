@@ -63,9 +63,9 @@ export const W10_FACTS_W9_RETROFIT: Record<string, ArticleFacts> = {
     vibeDe: "deftig, säuerlich, alltagstauglich",
     vibePl: "treściwe, kwaśne, na co dzień",
     originDe:
-      "Łazanki sind quadratische Nudeln, oft mit Sauerkraut und Speck — Diaspora-Alltagsteller zwischen [Bigos](/de/rezepte/bigos) und Pasta. Weniger Drama als Bigos, mehr Struktur als Kraut allein. Kapusta-Kontext: [Kiszenie-Guide](/de/blog/kiszenie-guide). Süß-cremige Pasta mit Quark ist ein anderer Intent: [Makaron z serem](/de/rezepte/makaron-z-serem).",
+      "Łazanki sind quadratische Nudeln, oft mit Sauerkraut und Speck — Diaspora-Alltagsteller zwischen [Bigos](/de/rezepte/bigos) und Pasta. Weniger Drama als Bigos, mehr Struktur als Kraut allein. Kapusta-Kontext: [Kiszenie-Guide](/de/blog/kiszenie-guide). Süß-cremige Pasta mit Quark ist ein anderer Charakter: [Makaron z serem](/de/rezepte/makaron-z-serem).",
     originPl:
-      "Łazanki to kwadratowy makaron, często z kapustą i boczkiem — talerz diasporowy między [bigosem](/pl/rezepte/bigos) a pastą. Mniej dramatu niż bigos, więcej struktury niż sama kapusta. Kontekst kapusty: [kiszenie w domu](/pl/blog/kiszenie-w-domu). Słodko-kremowy makaron z twarogiem to inny intent: [makaron z serem](/pl/rezepte/makaron-z-serem).",
+      "Łazanki to kwadratowy makaron, często z kapustą i boczkiem — talerz diasporowy między [bigosem](/pl/rezepte/bigos) a pastą. Mniej dramatu niż bigos, więcej struktury niż sama kapusta. Kontekst kapusty: [kiszenie w domu](/pl/blog/kiszenie-w-domu). Słodko-kremowy makaron z twarogiem to inny charakter: [makaron z serem](/pl/rezepte/makaron-z-serem).",
     shopDe:
       "Łazanki im [Polenladen](/de/blog/polenladen-einkaufen) oder breite Bandnudeln, Sauerkraut, Zwiebel, Speck optional. Ferment-Logik: [Kiszenie-Guide](/de/blog/kiszenie-guide). Bigos-Tiefe zum Vergleich: [Bigos-Guide](/de/blog/bigos-guide).",
     shopPl:

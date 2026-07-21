@@ -152,9 +152,9 @@ const FACTS: Record<string, ArticleFacts> = {
     mistakesPl:
       "Za dużo wody, za mało majeranku i zbyt późne dodanie zakwasu. Decyduje równowaga kwasu i bulionu.",
     variantsDe:
-      "Mit geräucherter Wurst, ohne Ei, oder klarer als Festtagssuppe. Zakwas Guide und Polenladen-Tipps für Ansatz und Wurst. Schlesische Varianten sind oft kräftiger gewürzt. Andere Säuren, anderer Intent: warme Gurkensuppe [Ogórkowa](/de/rezepte/ogorkowa), Sauerkrautsuppe [Kapuśniak](/de/rezepte/kapusniak) — nicht Zakwas.",
+      "Mit geräucherter Wurst, ohne Ei, oder klarer als Festtagssuppe. Zakwas Guide und Polenladen-Tipps für Ansatz und Wurst. Schlesische Varianten sind oft kräftiger gewürzt. Andere Säuren, anderer Charakter: warme Gurkensuppe [Ogórkowa](/de/rezepte/ogorkowa), Sauerkrautsuppe [Kapuśniak](/de/rezepte/kapusniak) — nicht Zakwas.",
     variantsPl:
-      "Z wędzoną kiełbasą, bez jajka albo jaśniejszy na święta. Przewodnik po zakwasie i polski sklep — przy ansatzie i kiełbasie. Warianty śląskie bywają mocniej przyprawione. Inny kwas, inny intent: ciepła [ogórkowa](/pl/rezepte/ogorkowa), [kapuśniak](/pl/rezepte/kapusniak) — nie zakwas.",
+      "Z wędzoną kiełbasą, bez jajka albo jaśniejszy na święta. Przewodnik po zakwasie i polski sklep — przy ansatzie i kiełbasie. Warianty śląskie bywają mocniej przyprawione. Inny kwas, inny charakter: ciepła [ogórkowa](/pl/rezepte/ogorkowa), [kapuśniak](/pl/rezepte/kapusniak) — nie zakwas.",
   },
   "recipe-oscypek": {
     dishDe: "gegrillter Oscypek mit Preiselbeeren",
@@ -216,9 +216,9 @@ const FACTS: Record<string, ArticleFacts> = {
     diasporaPl:
       "Placki to jedzenie na zwykły wieczór: mało składników, duży efekt. W niemieckiej kuchni bez specjalnego sprzętu.",
     mistakesDe:
-      "Nasse Masse, kalte Pfanne, zu viel Teig auf einmal. Lieber kleinere Batches. Composed Intent nicht hier stehlen: [Placek po węgiersku](/de/rezepte/placek-po-wegiersku).",
+      "Nasse Masse, kalte Pfanne, zu viel Teig auf einmal. Lieber kleinere Batches. Den zusammengesetzten Teller nicht hier nachbauen: [Placek po węgiersku](/de/rezepte/placek-po-wegiersku).",
     mistakesPl:
-      "Mokra masa, zimna patelnia, za dużo ciasta naraz. Lepiej mniejsze partie. Intent composed nie tu: [placek po węgiersku](/pl/rezepte/placek-po-wegiersku).",
+      "Mokra masa, zimna patelnia, za dużo ciasta naraz. Lepiej mniejsze partie. złożony talerz nie tu: [placek po węgiersku](/pl/rezepte/placek-po-wegiersku).",
     variantsDe:
       "Mit Zucchini gemischt, mit Knoblauch, oder süß mit Zimt — alle Varianten im Placki-Guide. Gusseisen hilft bei jeder Mischung. Der Klassiker bleibt Kartoffel pur. Composed mit Gulasch-Topping: [Placek po węgiersku](/de/rezepte/placek-po-wegiersku).",
     variantsPl:
@@ -298,29 +298,29 @@ const FACTS: Record<string, ArticleFacts> = {
     vibeDe: "golden, knusprig, unapologetisch sättigend",
     vibePl: "złoty, chrupiący, bez kompleksów sycący",
     originDe:
-      "Schabowy ist das polnische Schnitzel: oft dicker, oft mit Butterschmalz, immer mit Haltung. Es ist kein Fine-Dining-Stück, sondern Sonntagsstolz.",
+      "Schabowy ist das polnische Schnitzel: oft dicker als das Wiener Pendant, oft in Butterschmalz oder Schmalz gebraten, immer mit Haltung. Es ist kein Fine-Dining-Stück, sondern Sonntagsstolz neben Kartoffeln und Surówka. Wie der Teller zusammenkommt, beschreibt der [Sonntagsessen-Guide](/de/blog/sonntagsessen-polnisch); hier bleiben Mengen und die Pfanne.",
     originPl:
-      "Schabowy to polski kotlet: często grubszy, często na smalcu, zawsze z charakterem. To nie fine dining, tylko niedzielna duma.",
+      "Schabowy to polski kotlet: często grubszy niż wiedeński, często na smalcu lub maśle klarowanym, zawsze z charakterem. To nie fine dining, tylko niedzielna duma obok ziemniaków i surówki. Układ talerza opisuje [obiad niedzielny](/pl/blog/obiad-niedzielny); tu zostają ilości i patelnia.",
     shopDe:
-      "Gute Schweineschnitzel, frische Semmelbrösel, Eier, Mehl. Butterschmalz oder Schmalz für den richtigen Geschmack. Panieren Guide für die Reihenfolge; Gusseisenpfanne für gleichmäßige Kruste.",
+      "Gute Schweineschnitzel, frische Semmelbrösel, Eier und Mehl reichen. Butterschmalz oder Schmalz geben den richtigen Geschmack. Die Reihenfolge erklärt der [Panieren-Guide](/de/blog/panieren-schabowy); gleichmäßige Hitze hilft eine [Gusseisenpfanne](/de/blog/gusseisenpfanne). Semmelbrösel und Schmalz findest du oft im [Polenladen](/de/blog/polenladen-einkaufen).",
     shopPl:
-      "Dobre kotlety wieprzowe, świeża bułka tarta, jajka, mąka. Smalec lub masło klarowane dla właściwego smaku. Przewodnik po panierce przy kolejności; patelnia żeliwna przy równomiernym rumieniu.",
+      "Dobre kotlety wieprzowe, świeża bułka tarta, jajka i mąka wystarczą. Smalec lub masło klarowane dają właściwy smak. Kolejność opisuje [przewodnik panierowania](/pl/blog/panierowanie-kotlet); równomierny żar pomaga [patelnia żeliwna](/pl/blog/patelnia-zelivna). Bułkę i smalec kupisz często w [sklepie polskim](/pl/blog/sklep-polski-zakupy).",
     techniqueDe:
-      "Klopfen, panieren, nicht zu heiß braten. Die Panade soll schließen, das Fleisch saftig bleiben. Nach dem Braten kurz ruhen lassen.",
+      "Klopfen, panieren, nicht zu heiß braten. Die Panade soll schließen, das Fleisch saftig bleiben. Nach dem Braten kurz ruhen lassen, damit der Saft sich setzt. Zu dünn geklopft trocknet das Fleisch; zu kaltes Fett saugt die Panade.",
     techniquePl:
-      "Rozbić, obtoczyć, smażyć nie za mocno. Panierka ma się zamknąć, mięso zostać soczyste. Po smażeniu chwilę odpocząć.",
+      "Rozbij, obtocz, smaż nie za mocno. Panierka ma się zamknąć, mięso zostać soczyste. Po smażeniu chwilę odpocznij, żeby sok się ułożył. Zbyt mocno rozbite mięso wysycha; zbyt zimny tłuszcz wciąga panierkę.",
     serveDe:
-      "Mit Kartoffeln und Krautsalat (surówka). Zitrone dazu. Kein Ketchup-Zwang.",
+      "Serviere mit Kartoffeln und Surówka, oft mit Zitrone am Rand. Ketchup ist Hausbrauch, kein Muss. Am Sonntagstisch passt der Überblick unter [Sonntagsessen](/de/blog/sonntagsessen-polnisch).",
     servePl:
-      "Z ziemniakami i surówką. Cytryna do pary. Bez obowiązku ketchupu.",
+      "Podawaj z ziemniakami i surówką, często z cytryną z boku. Ketchup to zwyczaj domu, nie obowiązek. Niedzielny przegląd daje [obiad niedzielny](/pl/blog/obiad-niedzielny).",
     diasporaDe:
-      "Nach der Arbeit ist Schabowy oft Trostessen: Panade vorbereiten, wenn noch Ruhe ist, und erst braten, wenn alle am Tisch sind. So bleibt die Kruste knusprig und niemand wartet auf die Pfanne.",
+      "Nach der Arbeit ist Schabowy oft Trostessen: Panade vorbereiten, wenn noch Ruhe ist, und erst braten, wenn alle am Tisch sind. So bleibt die Kruste knusprig und niemand wartet auf die Pfanne. Fertige Brösel aus dem [Polenladen](/de/blog/polenladen-einkaufen) sind diaspora-ehrlich.",
     diasporaPl:
-      "Po pracy schabowy często jest jedzeniem pocieszenia: panierkę przygotuj, gdy jest spokój, a smaż dopiero gdy wszyscy są przy stole. Krusta zostaje chrupiąca, nikt nie czeka przy patelni.",
+      "Po pracy schabowy często jest jedzeniem pocieszenia: panierkę przygotuj, gdy jest spokój, a smaż dopiero gdy wszyscy są przy stole. Krusta zostaje chrupiąca, nikt nie czeka przy patelni. Gotowa bułka ze [sklepu polskiego](/pl/blog/sklep-polski-zakupy) jest uczciwa w diasporze.",
     mistakesDe:
-      "Häufig wird das Fleisch zu dünn geklopft, die Panade verbrennt oder das Fett ist noch kalt. Timing und Hitze entscheiden mehr als die Marke der Semmelbrösel — lieber mittlere Hitze und Geduld.",
+      "Häufig wird das Fleisch zu dünn geklopft, die Panade verbrennt oder das Fett ist noch kalt. Timing und Hitze entscheiden mehr als die Marke der Semmelbrösel — lieber mittlere Hitze und Geduld. Die Technik vertieft der [Panieren-Guide](/de/blog/panieren-schabowy).",
     mistakesPl:
-      "Często mięso jest zbyt mocno rozbite, panierka się pali albo tłuszcz jest jeszcze zimny. Timing i temperatura decydują bardziej niż marka bułki tartej — lepiej średni ogień i cierpliwość.",
+      "Często mięso jest zbyt mocno rozbite, panierka się pali albo tłuszcz jest jeszcze zimny. Timing i temperatura decydują bardziej niż marka bułki tartej — lepiej średni ogień i cierpliwość. Technikę pogłębia [przewodnik panierowania](/pl/blog/panierowanie-kotlet).",
     variantsDe:
       "Es gibt Varianten mit Knochen, aus Pute oder im Ofen nachgebacken für Gäste. Reihenfolge und Kruste vertieft der [Panieren-Guide](/de/blog/panieren-schabowy); gleichmäßige Hitze hilft eine [Gusseisenpfanne](/de/blog/gusseisenpfanne). Der Klassiker bleibt die Pfanne.",
     variantsPl:
@@ -764,9 +764,9 @@ const FACTS: Record<string, ArticleFacts> = {
     mistakesPl:
       "Bez bułki za sucho, za grube kotlety, panierka za wcześnie. Najpierw jedna próba. Nie mylić z [klopsami](/pl/rezepte/klopsy) (kulki w sosie).",
     variantsDe:
-      "Mit Pute, ohne Panade gebraten, oder neben Rosół am Sonntag. Panieren Guide gilt für alle Varianten. Soßen-Intent: [Klopsy](/de/rezepte/klopsy). Gebackene Pastete (≠ Panade-Hack): [Pasztet drobiowy](/de/rezepte/pasztet).",
+      "Mit Pute, ohne Panade gebraten, oder neben Rosół am Sonntag. Panieren Guide gilt für alle Varianten. Soßen-Nachbar: [Klopsy](/de/rezepte/klopsy). Gebackene Pastete (≠ Panade-Hack): [Pasztet drobiowy](/de/rezepte/pasztet).",
     variantsPl:
-      "Z indyka, bez panierki na patelni albo obok rosołu w niedzielę. Przewodnik po panierce dla wszystkich wersji. Intent sosowy: [klopsy](/pl/rezepte/klopsy). Pieczony pasztet (≠ panierowane mielone): [pasztet drobiowy](/pl/rezepte/pasztet).",
+      "Z indyka, bez panierki na patelni albo obok rosołu w niedzielę. Przewodnik po panierce dla wszystkich wersji. Sąsiad z sosem: [klopsy](/pl/rezepte/klopsy). Pieczony pasztet (≠ panierowane mielone): [pasztet drobiowy](/pl/rezepte/pasztet).",
   },
   "recipe-kluski-slaskie": {
     dishDe: "Kluski śląskie",
@@ -1046,7 +1046,7 @@ const FACTS: Record<string, ArticleFacts> = {
     vibeDe: "festlich, mohnig, gerollt und geduldig",
     vibePl: "świąteczny, makowy, zwinięty i cierpliwy",
     originDe:
-      "Makowiec ist der gerollte polnische Mohnkuchen: Hefeteig, dichte Mohnmasse, oft zur Wigilia. Kein Blech-Mohnkuchen und kein Strudel — eigene Form, eigene Technik. Der Back-Pillar erklärt Handgriffe; hier bleiben Mengen und Ablauf.",
+      "Makowiec ist der gerollte polnische Mohnkuchen: Hefeteig, dichte Mohnmasse, oft zur Wigilia. Kein Blech-Mohnkuchen und kein Strudel — eigene Form, eigene Technik. Der Back-Guide erklärt Handgriffe; hier bleiben Mengen und Ablauf.",
     originPl:
       "Makowiec to polska rolada makowa: ciasto drożdżowe, gęsta masa, często na Wigilię. Nie ciasto z blachy i nie strudel — własna forma, własna technika. Filar pieczenia tłumaczy gesty; tu zostają ilości i przebieg.",
     shopDe:
@@ -1080,9 +1080,9 @@ const FACTS: Record<string, ArticleFacts> = {
     vibeDe: "klein, intensiv pilzig, wigilijny",
     vibePl: "małe, intensywnie grzybowe, wigilijne",
     originDe:
-      "Uszka sind kleine Teigtaschen — oft mit Pilzfüllung — die klassisch in klarem Barszcz schwimmen. Sie sind keine große Pierogi-Charge und kein Bestandteil des Barszcz-Rezepts als Duplikat: eigene Rezeptseite, eigene Fokus. Barszcz bleibt Rezept für die Suppe; Uszka Rezept für die Teigtaschen.",
+      "Uszka sind kleine Teigtaschen — oft mit Pilzfüllung — die klassisch in klarem Barszcz schwimmen. Sie sind keine große Pierogi-Charge und kein Bestandteil des Barszcz-Rezepts als Duplikat: eigenes Rezept, eigener Fokus. Barszcz bleibt Rezept für die Suppe; Uszka Rezept für die Teigtaschen.",
     originPl:
-      "Uszka to małe pierogi — często z farszem grzybowym — klasycznie w klarownym barszczu. To nie wielka partia pierogów i nie duplikat przepisu na barszcz: własna Rezeptseite, własne Fokus. Barszcz zostaje przepisem na zupy; uszka ownerem pierożków.",
+      "Uszka to małe pierogi — często z farszem grzybowym — klasycznie w klarownym barszczu. To nie wielka partia pierogów i nie duplikat przepisu na barszcz: własna Rezept, własny fokus. Barszcz zostaje przepisem na zupy; uszka zostają przepisem na pierożki.",
     shopDe:
       "Getrocknete Pilze (Polenladen), Zwiebel, Mehl, Ei, Öl. Barszcz separat nach Barszcz-Rezept und Barszcz-Technik. Pierogi-Teig-Guide für Teiggefühl; Freezer-Guide wenn ihr am Vortag formt.",
     shopPl:
@@ -1114,7 +1114,7 @@ const FACTS: Record<string, ArticleFacts> = {
     vibeDe: "festlich, zart, nach Zwiebel und Majoran",
     vibePl: "świąteczny, delikatny, z cebulą i majerankiem",
     originDe:
-      "Karpfen ist für viele Familien der warme Fischgang der Wigilia — nicht Pflichtkanon, aber starkes Signal. Gebacken mit Zwiebel ist die diaspora-taugliche Variante: weniger Pfannenchaos als frittiert, klarer Geschmack. Der Wigilia-Speiseplan bleibt das passende Rezept für Menüreihenfolge und Anlass; hier bleibt der Koch-Intent „Karp Rezept“.",
+      "Karpfen ist für viele Familien der warme Fischgang der Wigilia — nicht Pflichtkanon, aber starkes Signal. Gebacken mit Zwiebel ist die diaspora-taugliche Variante: weniger Pfannenchaos als frittiert, klarer Geschmack. Der Wigilia-Speiseplan bleibt das passende Rezept für Menüreihenfolge und Anlass; hier bleibt der Kochfokus „Karp Rezept“.",
     originPl:
       "Karp jest dla wielu domów ciepłą rybą Wigilii — nie sztywny kanon, ale mocny sygnał. Pieczony z cebulą to wariant pod diasporę: mniej chaosu niż smażenie, czytelny smak. Menu wigilijne zostaje przepisem na kolejności i okazji; tu zostaje Rezept „karp przepis”.",
     shopDe:
@@ -1134,13 +1134,13 @@ const FACTS: Record<string, ArticleFacts> = {
     diasporaPl:
       "W DE żywy karp rzadko jest codziennością — porcje i filety są praktyczniejsze. 24. rano doprawić, wieczorem tylko piec. Śledź zostaje zimną rybą; karp ciepłą.",
     mistakesDe:
-      "Zu heiß und zu lange = trocken. Zu wenig Säure = fade. Speiseplan-Mengen hier duplizieren statt zu verlinken. Mit Śledź-Intent vermischen.",
+      "Zu heiß und zu lange = trocken. Zu wenig Säure = fade. Speiseplan-Mengen hier duplizieren statt zu verlinken. Mit Śledź-Fokus vermischen.",
     mistakesPl:
-      "Za gorąco i za długo = suchy. Za mało kwasu = mdły. Duplikować menu zamiast linkować. Mieszać intent ze śledziem.",
+      "Za gorąco i za długo = suchy. Za mało kwasu = mdły. Duplikować menu zamiast linkować. Mieszać fokus ze śledziem.",
     variantsDe:
-      "In Gelee (galareta), paniert gebraten, oder moderne Alternative Lachs — ehrlich benennen. Kalter Hering: eigene Rezeptseite Śledź.",
+      "In Gelee (galareta), paniert gebraten, oder moderne Alternative Lachs — ehrlich benennen. Kalter Hering: eigenes Rezept Śledź.",
     variantsPl:
-      "W galarecie, smażony w panierce albo nowoczesna alternatywa łosoś — nazywać uczciwie. Zimny śledź: osobna Rezeptseite.",
+      "W galarecie, smażony w panierce albo nowoczesna alternatywa łosoś — nazywać uczciwie. Zimny śledź: osobny przepis.",
   },
   "recipe-krokiety": {
     dishDe: "Krokiety",
@@ -1150,7 +1150,7 @@ const FACTS: Record<string, ArticleFacts> = {
     originDe:
       "Krokiety sind gerollte, panierte Naleśniki — klassisch mit Kraut und Pilzen, oft neben klarem Barszcz. Sie sind keine reine Naleśniki-Dessertseite und kein Duplikat von Pierogi Kraut-Pilze: eigene Form (Rolle + Panade), eigener Fokus „Krokiety Rezept“.",
     originPl:
-      "Krokiety to zwinięte, panierowane naleśniki — klasycznie z kapustą i grzybami, często obok klarownego barszczu. To nie deserowe naleśniki i nie duplikat pierogów z kapustą: własna forma (rolka + panierka), własne fokus KW „krokiety przepis”.",
+      "Krokiety to zwinięte, panierowane naleśniki — klasycznie z kapustą i grzybami, często obok klarownego barszczu. To nie deserowe naleśniki i nie duplikat pierogów z kapustą: własna forma (rolka + panierka), własny fokus KW „krokiety przepis”.",
     shopDe:
       "Mehl, Milch, Eier für den Teig; Sauerkraut, getrocknete Pilze, Zwiebel für die Füllung; Semmelbrösel und Fett zum Braten. Naleśniki-Guide für Teiggefühl; Kiszenie/Polenladen für Kraut und Pilze; Panieren-Guide für die Panade-Logik.",
     shopPl:
@@ -1160,9 +1160,9 @@ const FACTS: Record<string, ArticleFacts> = {
     techniquePl:
       "Cienkie naleśniki, suchy farsz, mocno zwijać, panierować, smażyć na złoto. Farsz ostudzony. Za mokry = pękają; za gruby = ciasto dominuje.",
     serveDe:
-      "Heiß mit klarem Barszcz oder allein mit Śmietana. Reste erneut in der Pfanne knusprig machen. Uszka sind verwandter Wigilia-Partner, aber kleine Teigtaschen — andere Rezeptseite.",
+      "Heiß mit klarem Barszcz oder allein mit Śmietana. Reste erneut in der Pfanne knusprig machen. Uszka sind verwandter Wigilia-Partner, aber kleine Teigtaschen — andere Rezept.",
     servePl:
-      "Gorące z klarownym barszczem albo same ze śmietaną. Resztki odsmażyć na chrupko. Uszka to pokrewny partner Wigilii, ale małe pierożki — inna Rezeptseite.",
+      "Gorące z klarownym barszczem albo same ze śmietaną. Resztki odsmażyć na chrupko. Uszka to pokrewny partner Wigilii, ale małe pierożki — inna Rezept.",
     diasporaDe:
       "Wochenendprojekt: vormittags Teig und Füllung, nachmittags rollen und braten. Freezer: geformte Rollen vor dem Panieren einfrieren; paniert frisch braten.",
     diasporaPl:
@@ -1198,13 +1198,13 @@ const FACTS: Record<string, ArticleFacts> = {
     servePl:
       "W kawałkach z cukrem pudrem, owocami albo samym do kawy. Na Wielkanoc i niedzielę często; na Wigilię obok lub zamiast makowca — decyduje dom.",
     diasporaDe:
-      "Am Vortag backen entlastet Gästeessen. Deutscher Quark braucht oft Abtropfen. Nicht mit Faworki/Pączki-Intent vermischen — anderes Fettgebäck.",
+      "Am Vortag backen entlastet Gästeessen. Deutscher Quark braucht oft Abtropfen. Nicht mit Faworki/Pączki-Charakter vermischen — anderes Fettgebäck.",
     diasporaPl:
       "Pieczenie dzień wcześniej odciąża gości. Niemiecki Quark często wymaga odsączenia. Nie mieszać z intentem faworków/pączków — inne wypieki tłuszczowe.",
     mistakesDe:
-      "Zu nasser Quark, zu heißer Ofen, zu früh schneiden, Makowiec-Keywords im Title stehlen. Boden roh lassen durch zu kurze Zeit.",
+      "Zu nasser Quark, zu heißer Ofen, zu früh schneiden, Makowiec nicht als Hauptname dieses Rezepts verkaufen. Boden roh lassen durch zu kurze Zeit.",
     mistakesPl:
-      "Za mokry twaróg, zbyt gorący piec, zbyt wczesne krojenie, kradzież słów kluczowych makowca w title. Surowy spód przez za krótki czas.",
+      "Za mokry twaróg, zbyt gorący piec, zbyt wczesne krojenie, mylenie z makowcem w nazwie. Surowy spód przez za krótki czas.",
     variantsDe:
       "Ohne Boden, mit Rosinen, mit Schokotropfen (modern), kleinerer Springform. Makowiec bleibt die Mohnrolle — anderes Rezept.",
     variantsPl:
@@ -1216,7 +1216,7 @@ const FACTS: Record<string, ArticleFacts> = {
     vibeDe: "kalt, zwiebelig, salzig-fettig zum Brot",
     vibePl: "zimny, cebulowy, słono-tłusty do chleba",
     originDe:
-      "Śledź ist der kalte Fischgang vieler Wigilia-Tische und zugleich Alltagsteller mit Brot. In Öl mit Zwiebel ist die klarste diaspora-Variante: wenig Technik, viel Ziehenlassen. Rezeptseite für „Śledź Rezept“; Wigilia-Speiseplan bleibt Menü-Artikel; Karp bleibt warmer Fisch.",
+      "Śledź ist der kalte Fischgang vieler Wigilia-Tische und zugleich Alltagsteller mit Brot. In Öl mit Zwiebel ist die klarste diaspora-Variante: wenig Technik, viel Ziehenlassen. Rezept für „Śledź Rezept“; Wigilia-Speiseplan bleibt Menü-Artikel; Karp bleibt warmer Fisch.",
     originPl:
       "Śledź to zimna ryba wielu stołów wigilijnych i zarazem codzienny talerz z chlebem. W oleju z cebulą to najczytelniejszy wariant diasporowy: mało techniki, dużo marynowania. menu wigilijne zostaje przepisem na menu; karp zostaje rybą ciepłą.",
     shopDe:

@@ -37,9 +37,9 @@ export const W8_FACTS_D: Record<string, ArticleFacts> = {
     vibeDe: "süß, weich, nach Pflaume und Butterbröseln",
     vibePl: "słodkie, miękkie, ze śliwką i bułką na maśle",
     originDe:
-      "Knedle ze śliwkami sind runde Obst-Knödel: Kartoffelteig umschließt eine Pflaume — eigene Form, eigener Intent. Sie gehören nicht zur [Pierogi-Familie](/de/blog/pierogi-guide): keine Falten, keine halbmondförmigen Teigtaschen. Auch [Pierogi leniwe](/de/rezepte/pierogi-leniwe) sind etwas anderes (Quark-Klößchen ohne Füllung). Pyzy tragen oft Fleisch; Uszka sind kleine Wigilia-Taschen. Knedle bleiben der klare Rezeptseite für „Knödel mit Pflaumen“.",
+      "Knedle ze śliwkami sind runde Obst-Knödel: Kartoffelteig umschließt eine Pflaume — eigene Form, eigener Fokus. Sie gehören nicht zur [Pierogi-Familie](/de/blog/pierogi-guide): keine Falten, keine halbmondförmigen Teigtaschen. Auch [Pierogi leniwe](/de/rezepte/pierogi-leniwe) sind etwas anderes (Quark-Klößchen ohne Füllung). Pyzy tragen oft Fleisch; Uszka sind kleine Wigilia-Taschen. Knedle bleiben der klare Rezept für „Knödel mit Pflaumen“.",
     originPl:
-      "Knedle ze śliwkami to okrągłe knedle owocowe: ciasto ziemniaczane owija śliwkę — własna forma, własny intent. Nie należą do [rodziny pierogów](/pl/blog/przewodnik-pierogi): bez lepienia półksiężyców. [Pierogi leniwe](/pl/rezepte/pierogi-leniwe) to coś innego (kluseczki z twarogu bez nadzienia). Pyzy często niosą mięso; uszka to małe pierożki wigilijne. Knedle zostają przepisem na „knedle ze śliwkami”.",
+      "Knedle ze śliwkami to okrągłe knedle owocowe: ciasto ziemniaczane owija śliwkę — własna forma, własny fokus. Nie należą do [rodziny pierogów](/pl/blog/przewodnik-pierogi): bez lepienia półksiężyców. [Pierogi leniwe](/pl/rezepte/pierogi-leniwe) to coś innego (kluseczki z twarogu bez nadzienia). Pyzy często niosą mięso; uszka to małe pierożki wigilijne. Knedle zostają przepisem na „knedle ze śliwkami”.",
     shopDe:
       "Mehlig kochende Kartoffeln, Mehl, Ei, Pflaumen (frisch oder gut abgetropft aus dem Glas), Butter, Semmelbrösel, Zucker, Zimt. Saisonware im Supermarkt; Glasware und gute Brösel oft im [Polenladen](/de/blog/polenladen-einkaufen). Ersatzlogik für Obst und Mehl: [Ersatzprodukte DE](/de/blog/ersatzprodukte-de). Teiggefühl wie bei Kartoffel-Teigen — Technik-Guide für gefaltete Taschen bleibt der Pierogi-Teig-Guide, nicht dieses Rezept.",
     shopPl:
@@ -57,12 +57,12 @@ export const W8_FACTS_D: Record<string, ArticleFacts> = {
     diasporaPl:
       "W DE często projekt weekendowy: rano ziemniaki, po południu formowanie. Dzieci mogą owijać — dorośli domykają. Śliwki ze słoika ratują zimę, gdy nie ma świeżych.",
     mistakesDe:
-      "Zu nasse Kartoffeln, zu viel Mehl, Risse an der Naht, sprudelndes Wasser, Knedle mit gefalteten Pierogi oder Leniwe verwechseln. Abgrenzung bleibt klar: hier Obst-Knödel, dort andere Formen.",
+      "Zu nasse Kartoffeln, zu viel Mehl, Risse an der Naht, sprudelndes Wasser, Knedle mit gefalteten Pierogi oder Leniwe verwechseln. Die Unterscheidung bleibt klar: hier Obst-Knödel, dort andere Formen.",
     mistakesPl:
-      "Zbyt mokre ziemniaki, za dużo mąki, pęknięcia na łączeniu, burząca woda, mylenie z pierogami lub leniwymi. Abgrenzung jasny: tu knedle owocowe, tam inne formy.",
+      "Zbyt mokre ziemniaki, za dużo mąki, pęknięcia na łączeniu, burząca woda, mylenie z pierogami lub leniwymi. Jasno oddzielone: tu knedle owocowe, tam inne formy.",
     variantsDe:
-      "Mit Aprikose oder Mirabelle, mit Quark-Anteil im Teig (dann nahe an Leniwe-Geschmack — aber weiter gefüllt), oder herzhaft mit Fleisch (dann eher Richtung Pyzy, eigene Rezeptseite). Abgrenzung und Teigfamilie: [Pierogi-Guide](/de/blog/pierogi-guide); schnelle Quark-Linie ohne Obst: [Pierogi leniwe](/de/rezepte/pierogi-leniwe).",
+      "Mit Aprikose oder Mirabelle, mit Quark-Anteil im Teig (dann nahe an Leniwe-Geschmack — aber weiter gefüllt), oder herzhaft mit Fleisch (dann eher Richtung Pyzy, eigenes Rezept). Teigfamilie: [Pierogi-Guide](/de/blog/pierogi-guide); schnelle Quark-Linie ohne Obst: [Pierogi leniwe](/de/rezepte/pierogi-leniwe).",
     variantsPl:
-      "Z morelą lub mirabelką, z udziałem twarogu w cieście (blisko smaku leniwych — ale nadal z nadzieniem), albo wytrawnie z mięsem (bliżej pyzy, osobna Rezeptseite). Rozróżnienie: [przewodnik po pierogach](/pl/blog/przewodnik-pierogi); szybka linia twarogowa bez owocu: [pierogi leniwe](/pl/rezepte/pierogi-leniwe).",
+      "Z morelą lub mirabelką, z udziałem twarogu w cieście (blisko smaku leniwych — ale nadal z nadzieniem), albo wytrawnie z mięsem (bliżej pyzy, osobny przepis). Rozróżnienie: [przewodnik po pierogach](/pl/blog/przewodnik-pierogi); szybka linia twarogowa bez owocu: [pierogi leniwe](/pl/rezepte/pierogi-leniwe).",
   },
 };

@@ -48,13 +48,13 @@ export const W9_FACTS_C: Record<string, W9ArticleFacts> = {
     servePl:
       "Ostudzone z cukrem pudrem lub lekkim lukrem, kawa albo herbata. Przy [menu wielkanocnym](/pl/blog/menu-wielkanocne) często obok jajek i żurku — artykuł menu zostaje przepisem na planu, babka tylko wypiekiem. Inne słodkości: [sernik](/pl/rezepte/sernik) albo zwinięty [makowiec](/pl/rezepte/makowiec). Smażone na Tłusty Czwartek: [pączki](/pl/rezepte/paczki) — inna okazja, inny fokus.",
     diasporaDe:
-      "In DE rettet Backen am Vortag den Ostersonntagmorgen. Gugelhupfform aus dem Haushaltsregal ist legitim — Name Babka bleibt klar. Fertigbabka aus dem [Polenladen](/de/blog/polenladen-einkaufen) ist Notfall, kein Scheitern. Kulturrahmen ohne Rezept-Steal: [Wielkanoc-Speiseplan](/de/blog/wielkanoc-speiseplan).",
+      "In DE rettet Backen am Vortag den Ostersonntagmorgen. Gugelhupfform aus dem Haushaltsregal ist legitim — Name Babka bleibt klar. Fertigbabka aus dem [Polenladen](/de/blog/polenladen-einkaufen) ist Notfall, kein Scheitern. Kulturrahmen ohne Rezept-Übernahme: [Wielkanoc-Speiseplan](/de/blog/wielkanoc-speiseplan).",
     diasporaPl:
-      "W DE pieczenie dzień wcześniej ratuje niedzielny ranek wielkanocny. Forma babkowa z domowej szafki jest w porządku — nazwa babka zostaje czytelna. Gotowa babka ze [sklepu polskiego](/pl/blog/sklep-polski-zakupy) to awaria, nie porażka. Ramy kulturowe bez kradzieży przepisu: [menu wielkanocne](/pl/blog/menu-wielkanocne).",
+      "W DE pieczenie dzień wcześniej ratuje niedzielny ranek wielkanocny. Forma babkowa z domowej szafki jest w porządku — nazwa babka zostaje czytelna. Gotowa babka ze [sklepu polskiego](/pl/blog/sklep-polski-zakupy) to awaria, nie porażka. Ramy kulturowe bez zastępowania przepisu: [menu wielkanocne](/pl/blog/menu-wielkanocne).",
     mistakesDe:
       "Zu heiße Milch (Hefe tot), zu viel Mehl, Form überfüllt, zu heißer Ofen, zu früh stürzen, Makowiec-/Sernik-/Pączki-Hitze, Feuchtigkeit oder Garzeit falsch einschätzen.",
     mistakesPl:
-      "Za gorące mleko (zabite drożdże), za dużo mąki, przepełniona forma, zbyt gorący piec, zbyt wczesne wyjmowanie, kradzież fokus makowca/sernika/pączków w title, roszczenie menu wielkanocnego jako Rezeptseitea.",
+      "Za gorące mleko (zabite drożdże), za dużo mąki, przepełniona forma, zbyt gorący piec, zbyt wczesne wyjmowanie, mylenie z makowca/sernika/pączków w title, kopiowanie całego menu wielkanocnego jako tej strony.",
     variantsDe:
       "Mit Rosinen, Kakao-Marmor (Hausbrauch), Zitronenglasur. Kleinerer Napfkuchen für kleinere Öfen. Mohnrolle bleibt [Makowiec](/de/rezepte/makowiec); Käsekuchen [Sernik](/de/rezepte/sernik); Honig-Gewürz [Piernik](/de/rezepte/piernik). Geflochtener Hefezopf/Laib (nicht Gugelhupf): [Chałka](/de/rezepte/chalka). Hefe-Kontext: [Makowiec-Technik](/de/blog/makowiec-technik). Zum Anlass passt [Wielkanoc](/de/blog/wielkanoc-speiseplan).",
     variantsPl:

@@ -26,15 +26,15 @@ export const W8_FACTS_C = {
     servePl:
       "Jeszcze ciepłe z cukrem pudrem lub lekkim lukrem, kawa albo herbata. Na [Tłusty Czwartek](/pl/blog/tlusty-czwartek-przepisy) często obok [faworków](/pl/rezepte/faworki) — jedna partia domowa, jedna kupiona jest w porządku. Drożdże na patelni zamiast kąpieli w tłuszczu: [racuchy](/pl/rezepte/racuchy-jablka).",
     diasporaDe:
-      "In DE rettet früher Teigstart den Donnerstagmorgen. Gute Bäckerei-Pączki sind kein Scheitern — Selbstmachen ist Lernprojekt. Im [Polenladen](/de/blog/polenladen-einkaufen) findest du typische Spezialzutaten. Kulturrahmen ohne Rezept-Steal: [Tłusty Czwartek](/de/blog/tlusty-czwartek).",
+      "In DE rettet früher Teigstart den Donnerstagmorgen. Gute Bäckerei-Pączki sind kein Scheitern — Selbstmachen ist Lernprojekt. Im [Polenladen](/de/blog/polenladen-einkaufen) findest du typische Spezialzutaten. Kulturrahmen ohne Rezept-Übernahme: [Tłusty Czwartek](/de/blog/tlusty-czwartek).",
     diasporaPl:
-      "W DE wcześniejszy start ciasta ratuje czwartkowy ranek. Dobre pączki z cukierni to nie porażka — robienie samemu to projekt nauki. W [sklep polski](/pl/blog/sklep-polski-zakupy) kupisz typowe specjalności. Ramy kulturowe bez kradzieży przepisu: [Tłusty Czwartek](/pl/blog/tlusty-czwartek-przepisy).",
+      "W DE wcześniejszy start ciasta ratuje czwartkowy ranek. Dobre pączki z cukierni to nie porażka — robienie samemu to projekt nauki. W [sklep polski](/pl/blog/sklep-polski-zakupy) kupisz typowe specjalności. Ramy kulturowe bez zastępowania przepisu: [Tłusty Czwartek](/pl/blog/tlusty-czwartek-przepisy).",
     mistakesDe:
       "Zu kaltes Fett, zu nasse Füllung, zu viel Mehl, Hefe abgetötet, zu kurzes Gehen, Faworki- oder Tłusty-Hitze, Feuchtigkeit oder Garzeit falsch einschätzen. Zu große Stücke braten ungleichmäßig.",
     mistakesPl:
-      "Za chłodny tłuszcz, za mokre nadzienie, za dużo mąki, zabite drożdże, za krótkie wyrastanie, kradzież fokus faworków lub Tłustego w title. Za duże sztuki smażą się nierówno.",
+      "Za chłodny tłuszcz, za mokre nadzienie, za dużo mąki, zabite drożdże, za krótkie wyrastanie, mylenie z faworków lub Tłustego w title. Za duże sztuki smażą się nierówno.",
     variantsDe:
-      "Rose, Pflaume, Pudding — Hausbrauch. Ofenvariante möglich, andere Textur. Knusprig und ungefüllt: [Faworki](/de/rezepte/faworki). Hefe-Pfanne: [Racuchy](/de/rezepte/racuchy-jablka). Geflochtener Hefezopf (kein Frittieren): [Chałka](/de/rezepte/chalka). Technik-Pillar bleibt [Pączki-Technik](/de/blog/paczek-technik).",
+      "Rose, Pflaume, Pudding — Hausbrauch. Ofenvariante möglich, andere Textur. Knusprig und ungefüllt: [Faworki](/de/rezepte/faworki). Hefe-Pfanne: [Racuchy](/de/rezepte/racuchy-jablka). Geflochtener Hefezopf (kein Frittieren): [Chałka](/de/rezepte/chalka). Technik-Guide bleibt [Pączki-Technik](/de/blog/paczek-technik).",
     variantsPl:
       "Róża, powidła, budyń — zwyczaj domu. Wariant pieczony możliwy, inna tekstura. Chrupiące i bez nadzienia: [faworki](/pl/rezepte/faworki). Drożdże na patelni: [racuchy](/pl/rezepte/racuchy-jablka). Pleciony chleb drożdżowy (bez smażenia): [chałka](/pl/rezepte/chalka). Filar techniki zostaje [techniką pączków](/pl/blog/paczki-technika).",
   },

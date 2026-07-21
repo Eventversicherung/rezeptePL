@@ -24,6 +24,20 @@ const bannedPhrases = [
   /Przełącznik:/i,
   /bilingual und praxisnah/i,
   /dwujęzycznie i praktycznie/i,
+  /** SEO / ownership meta that must stay out of expand() prose */
+  /Abgrenzung:/i,
+  /\bstehlen\b/i,
+  /\bstiehlt\b/i,
+  /\bSteal\b/,
+  /\bClash mit\b/i,
+  /\bClash z\b/i,
+  /\bdescriptiv\b/i,
+  /\bbeanspruchen\b/i,
+  /\bSpeiseplan stehlen\b/i,
+  /\bIntent stehlen\b/i,
+  /\bCook-Owner\b/i,
+  /\bGuide-Owner\b/i,
+  /Keywords im Title/i,
 ];
 
 /**
@@ -32,6 +46,10 @@ const bannedPhrases = [
  */
 const colonLinkDump =
   /(^|[.!?]\s+|;\s+)(Einkauf|Zakupy|Technik|Technika|Ersatz|Zamienniki|Abgrenzung|Teig|Ciasto|Einkauf und Ersatz):\s*\[/m;
+
+/** SEO English leftovers that rarely appear in natural DE/PL cooking prose */
+const bannedSeoEnglish =
+  /\b(Intent|Primary|Ownership|Pillar)\b/;
 
 async function main() {
   const { getRecipeArticle } = await import(
@@ -81,6 +99,16 @@ async function main() {
           .slice(Math.max(0, idx - 20), idx + 55)
           .replace(/\s+/g, " ");
         failures.push({ id, locale, term: dump[0].trim(), snippet });
+        continue;
+      }
+
+      const eng = text.match(bannedSeoEnglish);
+      if (eng) {
+        const idx = text.indexOf(eng[0]);
+        const snippet = text
+          .slice(Math.max(0, idx - 40), idx + 60)
+          .replace(/\s+/g, " ");
+        failures.push({ id, locale, term: eng[0], snippet });
       }
     }
   }

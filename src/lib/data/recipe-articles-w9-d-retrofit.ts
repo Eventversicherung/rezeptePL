@@ -25,9 +25,9 @@ export const W9_FACTS_W8_RETROFIT: Record<string, ArticleFacts> = {
     vibeDe: "warm, säuerlich-mild, nach Butter und sanfter Schwitze",
     vibePl: "ciepła, kwaśno-łagodna, z masłem i delikatną zasmażką",
     originDe:
-      "Kapusta zasmażana ist geschmortes Sauerkraut mit Mehlschwitze (zasmażka) — eine warme Beilage, kein Eintopf. Sie teilt Kraut und Säure mit [Bigos](/de/rezepte/bigos), bleibt aber klar im Intent: Beilage zum Fleisch, nicht Schmorgericht mit Fleischlagen. In vielen Familien steht sie neben [Kotlet schabowy](/de/rezepte/kotlet-schabowy) oder Braten, wenn der Sonntagstisch Wärme und Säure braucht. Die Zasmażka bindet Flüssigkeit und rundet ab, ohne das Kraut süß zu machen.",
+      "Kapusta zasmażana ist geschmortes Sauerkraut mit Mehlschwitze (zasmażka) — eine warme Beilage, kein Eintopf. Sie teilt Kraut und Säure mit [Bigos](/de/rezepte/bigos), bleibt aber klar im Fokus: Beilage zum Fleisch, nicht Schmorgericht mit Fleischlagen. In vielen Familien steht sie neben [Kotlet schabowy](/de/rezepte/kotlet-schabowy) oder Braten, wenn der Sonntagstisch Wärme und Säure braucht. Die Zasmażka bindet Flüssigkeit und rundet ab, ohne das Kraut süß zu machen.",
     originPl:
-      "Kapusta zasmażana to duszona kapusta kiszona z zasmażką — ciepły dodatek, nie gulasz. Dzieli kapustę i kwas z [bigosem](/pl/rezepte/bigos), ale intent jest inny: dodatek do mięsa, nie danie mięsne warstwami. W wielu domach stoi obok [kotleta schabowego](/pl/rezepte/kotlet-schabowy) albo piezeni, gdy niedzielny stół chce ciepła i kwasu. Zasmażka wiąże płyn i łagodzi, bez słodzenia kapusty.",
+      "Kapusta zasmażana to duszona kapusta kiszona z zasmażką — ciepły dodatek, nie gulasz. Dzieli kapustę i kwas z [bigosem](/pl/rezepte/bigos), ale fokus jest inny: dodatek do mięsa, nie danie mięsne warstwami. W wielu domach stoi obok [kotleta schabowego](/pl/rezepte/kotlet-schabowy) albo piezeni, gdy niedzielny stół chce ciepła i kwasu. Zasmażka wiąże płyn i łagodzi, bez słodzenia kapusty.",
     shopDe:
       "Gute [Sauerkraut-Qualität](/de/blog/kiszenie-guide) aus dem Glas oder Beutel — Säure und Salz prüfen, nicht blind spülen. Zwiebel, Butter oder Schmalz, Mehl, Lorbeer. Optional ein Schuss leichte Brühe vom [Rosół](/de/rezepte/rosol)-Tag. Wer selbst fermentiert, nutzt den Kiszenie-Guide nur als Technik-Nachbar; das Thema Kiszenie bleibt im Guide. Polenladen oft aromatischer als Supermarkt-Kraut.",
     shopPl:
@@ -45,9 +45,9 @@ export const W9_FACTS_W8_RETROFIT: Record<string, ArticleFacts> = {
     diasporaPl:
       "W niemieckich mieszkaniach kapusta zasmażana pachnie spokojną niedzielą bez maratonu garnków. Kiszona z chłodni, zasmażka w pięć minut — po zmianie też możliwe. Majeranek ostrożnie; [leksykon majeranku](/pl/blog/majeranek-leksykon) jako sąsiad przypraw, nie owner przepisu.",
     mistakesDe:
-      "Zu dunkle Zasmażka (bitter). Komplett gespültes Kraut (fade). Mit Bigos verwechseln oder Kiszenie-Hitze, Feuchtigkeit oder Garzeit falsch einschätzen. Zu viel Wasser → Suppe statt Beilage. Zu früh Wurst rein → anderes Gericht.",
+      "Zu dunkle Zasmażka (bitter). Komplett gespültes Kraut (fade). Mit Bigos verwechseln oder Kiszenie-Hitze, Feuchtigkeit oder Garzeit falsch einschätzen. Zu viel Wasser wird zur Suppe statt Beilage. Zu früh Wurst rein — anderes Gericht.",
     mistakesPl:
-      "Zbyt ciemna zasmażka (gorzka). Całkiem wypłukana kapusta (mdła). Mylenie z bigosem lub kradzież fokus kiszenia. Za dużo wody → zupa zamiast dodatku. Wczesna kiełbasa → inne danie.",
+      "Zbyt ciemna zasmażka (gorzka). Całkiem wypłukana kapusta (mdła). Mylenie z bigosem lub mylenie z kiszenia. Za dużo wody robi się zupa zamiast dodatku. Wczesna kiełbasa — inne danie.",
     variantsDe:
       "Mit Speckwürfeln (Hausvariante), mit frischem Weißkohl gemischt milder, mit Pilzen näher an Wigilia-Feeling — ehrlich benennen. Bigos bleibt der verwandte Kohl-Eintopf mit Fleisch; Kapusta zasmażana bleibt Beilage. Pfannen-Fleisch/Wurst-Nachbar: [Kaszanka](/de/rezepte/kaszanka).",
     variantsPl:

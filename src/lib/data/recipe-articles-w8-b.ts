@@ -56,9 +56,9 @@ export const W8_FACTS_B: Record<string, ArticleFacts> = {
     mistakesPl:
       "Ogórki z octu zamiast kiszonych; za wcześnie i za dużo zalewy; śmietana wrzucana do wrzątku; mylenie z żurkiem i szukanie zakwasu. Za mało ziemniaka robi zupę rzadką i ostro kwaśną.",
     variantsDe:
-      "Mit geräuchertem Fleisch kräftiger, vegetarisch nur mit Gemüsefond, oder etwas dicker püriert. Schwester-Säure aus Kapusta: [Kapuśniak](/de/rezepte/kapusniak). Wer die Suppenfamilie sortieren will: [Polnische Suppen](/de/blog/polnische-suppen) und Einkauf im [Polenladen](/de/blog/polenladen-einkaufen). Kalte Alternative im Sommer bleibt Chłodnik — anderer Intent. Frühlings-Bete mit Blättern (nicht Gurkensäure): [Botwinka](/de/rezepte/botwinka).",
+      "Mit geräuchertem Fleisch kräftiger, vegetarisch nur mit Gemüsefond, oder etwas dicker püriert. Schwester-Säure aus Kapusta: [Kapuśniak](/de/rezepte/kapusniak). Wer die Suppenfamilie sortieren will: [Polnische Suppen](/de/blog/polnische-suppen) und Einkauf im [Polenladen](/de/blog/polenladen-einkaufen). Kalte Alternative im Sommer bleibt Chłodnik — anderer Charakter. Frühlings-Bete mit Blättern (nicht Gurkensäure): [Botwinka](/de/rezepte/botwinka).",
     variantsPl:
-      "Z wędzonką mocniejsza, wegetariańska tylko na warzywnym, albo gęstsza po zblendowaniu. Siostrzany kwas z kapusty: [kapuśniak](/pl/rezepte/kapusniak). Kto chce uporządkować rodzinę zup: [polskie zupy](/pl/blog/polskie-zupy) i zakupy w [sklepie polskim](/pl/blog/sklep-polski-zakupy). Zimna alternatywa latem to chłodnik — inny intent. Wiosenne buraki z botwiną (nie kwas ogórkowy): [botwinka](/pl/rezepte/botwinka).",
+      "Z wędzonką mocniejsza, wegetariańska tylko na warzywnym, albo gęstsza po zblendowaniu. Siostrzany kwas z kapusty: [kapuśniak](/pl/rezepte/kapusniak). Kto chce uporządkować rodzinę zup: [polskie zupy](/pl/blog/polskie-zupy) i zakupy w [sklepie polskim](/pl/blog/sklep-polski-zakupy). Zimna alternatywa latem to chłodnik — inny charakter. Wiosenne buraki z botwiną (nie kwas ogórkowy): [botwinka](/pl/rezepte/botwinka).",
   },
   "recipe-kapusniak": {
     dishDe: "Kapuśniak",
@@ -66,9 +66,9 @@ export const W8_FACTS_B: Record<string, ArticleFacts> = {
     vibeDe: "säuerlich-rauchig, sättigend, winterfest",
     vibePl: "kwaśno-wędzony, sycący, zimowy",
     originDe:
-      "Kapuśniak ist Sauerkrautsuppe — löffelbar, mit Brühe und Kartoffeln — und bewusst kein [Bigos](/de/rezepte/bigos), der als Schmorgericht ohne Suppencharakter bleibt. Die Säure kommt von Kapusta kiszona, nicht von Zakwas wie bei [Żurek](/de/rezepte/zurek) und nicht von Rote Bete wie bei [Barszcz](/de/rezepte/barszcz-czerwony). Im Guide [Polnische Suppen](/de/blog/polnische-suppen) steht Kapuśniak schon als sättigende Linie neben Krupnik; hier wird sie Rezeptseite. Schwester mit Gurkensäure: [Ogórkowa](/de/rezepte/ogorkowa). Nicht kalt und rosa wie Chłodnik.",
+      "Kapuśniak ist Sauerkrautsuppe — löffelbar, mit Brühe und Kartoffeln — und bewusst kein [Bigos](/de/rezepte/bigos), der als Schmorgericht ohne Suppencharakter bleibt. Die Säure kommt von Kapusta kiszona, nicht von Zakwas wie bei [Żurek](/de/rezepte/zurek) und nicht von Rote Bete wie bei [Barszcz](/de/rezepte/barszcz-czerwony). Im Guide [Polnische Suppen](/de/blog/polnische-suppen) steht Kapuśniak schon als sättigende Linie neben Krupnik; hier bleibt das Rezept. Schwester mit Gurkensäure: [Ogórkowa](/de/rezepte/ogorkowa). Nicht kalt und rosa wie Chłodnik.",
     originPl:
-      "Kapuśniak to zupa z kapusty kiszonej — na łyżkę, z wywarem i ziemniakami — świadomie nie [bigos](/pl/rezepte/bigos), który zostaje daniem duszonym bez charakteru zupy. Kwas pochodzi z kapusty kiszonej, nie z zakwasu jak w [żurku](/pl/rezepte/zurek) i nie z buraków jak w [barszczu](/pl/rezepte/barszcz-czerwony). W przewodniku [polskie zupy](/pl/blog/polskie-zupy) kapuśniak już stoi jako linia sycąca obok krupniku; tu staje się Rezeptseite. Siostra z kwasem ogórkowym: [ogórkowa](/pl/rezepte/ogorkowa). Nie zimny i różowy jak chłodnik.",
+      "Kapuśniak to zupa z kapusty kiszonej — na łyżkę, z wywarem i ziemniakami — świadomie nie [bigos](/pl/rezepte/bigos), który zostaje daniem duszonym bez charakteru zupy. Kwas pochodzi z kapusty kiszonej, nie z zakwasu jak w [żurku](/pl/rezepte/zurek) i nie z buraków jak w [barszczu](/pl/rezepte/barszcz-czerwony). W przewodniku [polskie zupy](/pl/blog/polskie-zupy) kapuśniak już stoi jako linia sycąca obok krupniku; tu zostaje przepis. Siostra z kwasem ogórkowym: [ogórkowa](/pl/rezepte/ogorkowa). Nie zimny i różowy jak chłodnik.",
     shopDe:
       "Gute Kapusta kiszona und geräucherte Wurst im [Polenladen](/de/blog/polenladen-einkaufen); Qualität und Schnitt erklärt [Kiełbasa-Arten](/de/blog/kielbasa-arten). Majoran frisch genug — siehe [Majeranek](/de/blog/majeranek). Wer selbst säuert: [Kiszenie-Guide](/de/blog/kiszenie-guide). Kartoffeln und Zwiebel aus dem Supermarkt. Brühe mit Körper; nicht nur Wasser mit Würfel.",
     shopPl:
@@ -88,7 +88,7 @@ export const W8_FACTS_B: Record<string, ArticleFacts> = {
     mistakesDe:
       "Zu nasses Kraut ohne Ausdrücken; zu wenig Raucharoma und dann Überwürzen; Kapuśniak wie Bigos stundenlang einkochen bis Paste; Hitze, Feuchtigkeit oder Garzeit falsch einschätzen. Zu starkes Kochen macht Kartoffeln matschig und die Suppe trüb-aggressiv.",
     mistakesPl:
-      "Za mokra kapusta bez odciśnięcia; za mało dymu i potem przesada z przyprawami; gotowanie jak bigos do pasty; kradzież fokus bigosu lub żurku. Zbyt gwałtowne gotowanie rozgotowuje ziemniaki i robi zupę mętno-ostrą.",
+      "Za mokra kapusta bez odciśnięcia; za mało dymu i potem przesada z przyprawami; gotowanie jak bigos do pasty; mylenie z bigosu lub żurku. Zbyt gwałtowne gotowanie rozgotowuje ziemniaki i robi zupę mętno-ostrą.",
     variantsDe:
       "Mit Räucherrippchen, vegetarisch mit geräuchertem Tofu/Paprika-Hinweis ehrlich benennen, oder mit mehr Kartoffel als Winterteller. Übersicht und Einordnung: [Polnische Suppen](/de/blog/polnische-suppen). Kraut-Kontext: [Kiszenie](/de/blog/kiszenie-guide). Wurstwahl: [Kiełbasa-Arten](/de/blog/kielbasa-arten). Nicht mit Bigos-Varianten verwechseln.",
     variantsPl:
