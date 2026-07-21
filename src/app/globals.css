@@ -961,3 +961,284 @@ a.btn-hero-secondary:hover {
     transform: scale(1);
   }
 }
+
+/* —— Markt finden / Places map —— */
+.places-finder {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.places-finder__toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-md);
+}
+
+.places-finder__filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.places-filter-chip {
+  min-height: 2.5rem;
+  padding: 0.45rem 0.95rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--navy);
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition:
+    background-color 160ms var(--ease-out),
+    border-color 160ms var(--ease-out),
+    color 160ms var(--ease-out);
+}
+
+.places-filter-chip.is-active {
+  background: var(--accent-soft);
+  border-color: color-mix(in srgb, var(--accent) 35%, transparent);
+  color: var(--accent);
+}
+
+.places-finder__geo-status {
+  margin: 0;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--navy);
+}
+
+.places-finder__geo-btn {
+  min-height: 2.5rem;
+}
+
+.places-finder__privacy {
+  margin: 0;
+  font-size: 0.82rem;
+  color: var(--fg-muted);
+}
+
+.places-finder__stage {
+  position: relative;
+  min-height: min(68dvh, 640px);
+  border-radius: calc(var(--radius) + 4px);
+  overflow: hidden;
+  border: 1px solid var(--border);
+  background: var(--bg-elevated);
+  box-shadow: 0 18px 40px color-mix(in srgb, var(--navy) 8%, transparent);
+}
+
+.places-map {
+  width: 100%;
+  height: min(68dvh, 640px);
+}
+
+.places-map .maplibregl-ctrl-group {
+  border: none !important;
+  box-shadow: 0 8px 20px color-mix(in srgb, var(--navy) 12%, transparent);
+  overflow: hidden;
+  border-radius: 12px !important;
+}
+
+.place-marker {
+  width: 18px;
+  height: 18px;
+  padding: 0;
+  border: 2px solid #fffdfb;
+  border-radius: 999px;
+  background: var(--accent);
+  box-shadow: 0 0 0 0 color-mix(in srgb, var(--accent) 45%, transparent);
+  cursor: pointer;
+  transform-origin: center bottom;
+  transition:
+    transform 220ms var(--ease-out),
+    box-shadow 220ms var(--ease-out);
+}
+
+.place-marker--market {
+  background: var(--navy);
+}
+
+.place-marker:hover,
+.place-marker.is-glow,
+.place-marker.is-selected {
+  transform: scale(1.35);
+  box-shadow:
+    0 0 0 6px color-mix(in srgb, var(--accent) 22%, transparent),
+    0 0 22px color-mix(in srgb, var(--accent) 55%, transparent);
+  z-index: 2;
+}
+
+.place-marker--market:hover,
+.place-marker--market.is-glow,
+.place-marker--market.is-selected {
+  box-shadow:
+    0 0 0 6px color-mix(in srgb, var(--navy) 18%, transparent),
+    0 0 22px color-mix(in srgb, var(--accent) 40%, transparent);
+}
+
+.place-user-dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 999px;
+  background: #3b82f6;
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 6px color-mix(in srgb, #3b82f6 25%, transparent);
+}
+
+.place-card {
+  position: absolute;
+  z-index: 3;
+  left: 0.75rem;
+  right: 0.75rem;
+  bottom: 0.75rem;
+  pointer-events: none;
+  animation: placeCardIn 380ms var(--ease-out) both;
+}
+
+.place-card__inner {
+  pointer-events: auto;
+  position: relative;
+  padding: 1rem 1.1rem 1.1rem;
+  border-radius: var(--radius);
+  background: color-mix(in srgb, var(--surface) 94%, transparent);
+  border: 1px solid color-mix(in srgb, var(--navy) 10%, transparent);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 16px 36px color-mix(in srgb, var(--navy) 14%, transparent);
+}
+
+.place-card__close {
+  position: absolute;
+  top: 0.55rem;
+  right: 0.65rem;
+  width: 2rem;
+  height: 2rem;
+  border: none;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--fg-muted);
+  font-size: 1.35rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.place-card__badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 0.45rem;
+  padding-right: 1.5rem;
+}
+
+.place-card__kind,
+.place-card__distance {
+  display: inline-flex;
+  align-items: center;
+  min-height: 1.6rem;
+  padding: 0.15rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.place-card__kind--shop {
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.place-card__kind--market {
+  background: color-mix(in srgb, var(--navy) 10%, white);
+  color: var(--navy);
+}
+
+.place-card__distance {
+  background: var(--bg-elevated);
+  color: var(--fg-muted);
+}
+
+.place-card__title {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 650;
+  letter-spacing: -0.03em;
+  color: var(--navy);
+  padding-right: 1.5rem;
+}
+
+.place-card__address,
+.place-card__desc,
+.place-card__note {
+  margin: 0.35rem 0 0;
+  font-size: 0.92rem;
+  line-height: 1.45;
+  color: var(--fg-muted);
+}
+
+.place-card__note {
+  color: var(--navy);
+  font-weight: 550;
+}
+
+.place-card__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin: 0.65rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.place-card__tags li {
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  background: var(--bg-elevated);
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--fg-muted);
+}
+
+.place-card__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.9rem;
+}
+
+.places-finder__count {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--fg-muted);
+}
+
+@keyframes placeCardIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (min-width: 900px) {
+  .place-card {
+    left: auto;
+    right: 1rem;
+    bottom: 1rem;
+    width: min(22rem, calc(100% - 2rem));
+  }
+}
+
+@media (max-width: 640px) {
+  .places-finder__stage,
+  .places-map {
+    min-height: min(62dvh, 520px);
+    height: min(62dvh, 520px);
+  }
+}

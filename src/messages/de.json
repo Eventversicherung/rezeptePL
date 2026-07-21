@@ -7,6 +7,7 @@
     "discover": "Entdecken",
     "recipes": "Rezepte",
     "blog": "Blog",
+    "findMarket": "Markt finden",
     "lists": "Listen",
     "profile": "Profil",
     "admin": "Admin",
@@ -206,5 +207,25 @@
     "back": "Zurück",
     "home": "Start",
     "breadcrumbs": "Brotkrumen"
+  },
+  "places": {
+    "kicker": "Einkaufen",
+    "title": "Markt finden",
+    "sub": "Polenläden und Polenmärkte in Deutschland — in der Nähe, auf der Karte.",
+    "empty": "Noch keine Orte geladen. Supabase-Verbindung prüfen.",
+    "filterLabel": "Ort filtern",
+    "filterAll": "Alle",
+    "filterShops": "Läden",
+    "filterMarkets": "Märkte",
+    "kindShop": "Polenladen",
+    "kindMarket": "Polenmarkt",
+    "directions": "Route öffnen",
+    "shoppingGuide": "Einkaufs-Guide",
+    "close": "Schließen",
+    "geoEnable": "Standort aktivieren",
+    "geoPrompting": "Standort wird ermittelt…",
+    "geoActive": "Karte zeigt deinen Bereich",
+    "geoPrivacy": "Dein Standort bleibt im Browser — er wird nicht gespeichert.",
+    "count": "{count} Orte"
   }
 }
