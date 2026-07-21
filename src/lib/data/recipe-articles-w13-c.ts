@@ -10,7 +10,7 @@
  * Affiliate: guide-only (no relatedProductIds on recipes).
  *
  * Ownership:
- * - Chałka = geflochtener Hefezopf/Laib ≠ Babka (Gugelhupf) ≠ Pączki ≠ Racuchy ≠ Drożdżówka-HOLD
+ * - Chałka = geflochtener Hefezopf/Laib ≠ Babka (Gugelhupf) ≠ Pączki ≠ Racuchy ≠ Drożdżówka (Streusel-Blech → /rezepte/drozdzowka)
  * - Pasztet drobiowy = Haus-Pastete ≠ Kaszanka ≠ Kotlet mielony ≠ Klopsy
  * - Wielkanoc / Sonntagsessen bleiben Anlass-/Kultur-Owner; hier nur Cook
  */
@@ -43,9 +43,9 @@ export const W13_FACTS_C: Record<string, ArticleFacts> = {
     vibeDe: "weich-süßlich, geflochten, goldbraun mit Sesam — Brotlaib, kein Gugelhupf",
     vibePl: "miękko-słodkawa, pleciona, złota z sezamem — bochenek, nie babka z formy",
     originDe:
-      "Chałka ist der Cook-Intent für das geflochtene helle Hefebrot der polnischen Fest- und Alltagsküche: Zopf oder Laib, oft mit Ei bestrichen und Sesam — angeschnitten zum Frühstück, Ostern oder Sonntagskaffee. Das ist weder der hohe Hefegugelhupf [Babka](/de/rezepte/babka) noch die frittierten [Pączki](/de/rezepte/paczki) noch die Apfel-Pfannkuchen [Racuchy](/de/rezepte/racuchy-jablka). Drożdżówka bleibt bewusst HOLD — zu nah an Babka/Pączki/Chałka. Menürahmen und Timeline bleiben im [Wielkanoc Speiseplan](/de/blog/wielkanoc-speiseplan) oder im [Sonntagsessen-Guide](/de/blog/sonntagsessen-polnisch); hier liegt der enge Brot-Primary. In der Diaspora oft der Laib, den man am Vortag backt und am Festmorgen nur noch schneidet.",
+      "Chałka ist der Cook-Intent für das geflochtene helle Hefebrot der polnischen Fest- und Alltagsküche: Zopf oder Laib, oft mit Ei bestrichen und Sesam — angeschnitten zum Frühstück, Ostern oder Sonntagskaffee. Das ist weder der hohe Hefegugelhupf [Babka](/de/rezepte/babka) noch die frittierten [Pączki](/de/rezepte/paczki) noch die Apfel-Pfannkuchen [Racuchy](/de/rezepte/racuchy-jablka). Wer Streusel-Hefekuchen vom Blech sucht: [Drożdżówka](/de/rezepte/drozdzowka) — anderer Cook-Primary. Menürahmen und Timeline bleiben im [Wielkanoc Speiseplan](/de/blog/wielkanoc-speiseplan) oder im [Sonntagsessen-Guide](/de/blog/sonntagsessen-polnisch); hier liegt der enge Brot-Primary. In der Diaspora oft der Laib, den man am Vortag backt und am Festmorgen nur noch schneidet.",
     originPl:
-      "Chałka to intent cook: jasny pleciony chleb drożdżowy polskiej kuchni świątecznej i codziennej — warkocz lub bochenek, często z jajkiem i sezamem — krojony na śniadanie, Wielkanoc lub niedzielną kawę. To ani wysoka [babka](/pl/rezepte/babka) z formy, ani smażone [pączki](/pl/rezepte/paczki), ani jabłkowe [racuchy](/pl/rezepte/racuchy-jablka). Drożdżówka zostaje HOLD — za blisko babki/pączków/chałki. Ramę menu zostawiamy w [menu wielkanocnym](/pl/blog/menu-wielkanocne) lub [obiadzie niedzielnym](/pl/blog/obiad-niedzielny); tu wąski primary pieczywa. W diasporze często bochenek z dnia wcześniej, rano tylko krojenie.",
+      "Chałka to intent cook: jasny pleciony chleb drożdżowy polskiej kuchni świątecznej i codziennej — warkocz lub bochenek, często z jajkiem i sezamem — krojony na śniadanie, Wielkanoc lub niedzielną kawę. To ani wysoka [babka](/pl/rezepte/babka) z formy, ani smażone [pączki](/pl/rezepte/paczki), ani jabłkowe [racuchy](/pl/rezepte/racuchy-jablka). Kto szuka placka drożdżowego z kruszonką: [drożdżówka](/pl/rezepte/drozdzowka) — inny cook-primary. Ramę menu zostawiamy w [menu wielkanocnym](/pl/blog/menu-wielkanocne) lub [obiadzie niedzielnym](/pl/blog/obiad-niedzielny); tu wąski primary pieczywa. W diasporze często bochenek z dnia wcześniej, rano tylko krojenie.",
     shopDe:
       "Mehl, Milch, Hefe, Zucker, Eier, Butter, Salz, optional Sesam — Sesam und gute Hefe oft im [Polenladen](/de/blog/polenladen-einkaufen). Fehlt etwas: ehrlich ersetzen laut [Ersatzprodukte DE](/de/blog/ersatzprodukte-de). Hefe-Feeling descriptiv bei [Makowiec-Technik](/de/blog/makowiec-technik), ohne Makowiec- oder Babka-Primary zu stehlen. Form: Backblech und Zopf — keine Gugelhupf-Form wie bei [Babka](/de/rezepte/babka).",
     shopPl:

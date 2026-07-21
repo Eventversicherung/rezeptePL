@@ -1466,7 +1466,7 @@ Wielkanoc soll Menschen zusammenbringen, nicht den Kühlschrank überfordern. Wi
 
 ## Menüprinzip
 
-Weniger Gerichte, bessere Ausführung. Żurek oft Zentrum; dazu Eier, gekochte [Biała kiełbasa](/de/rezepte/biala-kielbasa) (Cook; Arten bleiben im [Kiełbasa-Lexikon](/de/blog/kielbasa-arten)), Brot, Rettich/Kräuter, kühle [Mizeria](/de/rezepte/mizeria) und/oder [Sałatka jarzynowa](/de/rezepte/salatka-jarzynowa) als Festsalat (Mayo-Gemüse ≠ Gurke/Śmietana), Kuchen nach Brauch. Saisonal im Frühjahr optional warme [Botwinka](/de/rezepte/botwinka) statt schwerer Bete-Klarsuppe. Nicht alles gleichzeitig warm halten.
+Weniger Gerichte, bessere Ausführung. Żurek oft Zentrum; dazu Eier, gekochte [Biała kiełbasa](/de/rezepte/biala-kielbasa) (Cook; Arten bleiben im [Kiełbasa-Lexikon](/de/blog/kielbasa-arten)), Brot, Rettich/Kräuter, kühle [Mizeria](/de/rezepte/mizeria) und/oder [Sałatka jarzynowa](/de/rezepte/salatka-jarzynowa) als Festsalat (Mayo-Gemüse ≠ Gurke/Śmietana), Kuchen nach Brauch. Gefüllte Eier als eigene Buffet-Linie: [Jajka faszerowane](/de/rezepte/jajka-faszerowane) (Cook; ≠ Sałatka, ≠ Mizeria). Scharfer kalter Bete-Meerrettich-Relish: [Ćwikła](/de/rezepte/cwikla) (Cook; ≠ warme [Buraczki](/de/rezepte/buraczki), ≠ Barszcz/Botwinka). Speiseplan bleibt Anlass-Owner. Saisonal im Frühjahr optional warme [Botwinka](/de/rezepte/botwinka) statt schwerer Bete-Klarsuppe. Nicht alles gleichzeitig warm halten.
 
 ## Zeitplan
 
@@ -1806,7 +1806,11 @@ Samstag Spezialitäten, Sonntag Frisches minimal. [Polenladen](/de/blog/polenlad
 
 ## Sonntagsfleisch (Ofen & Schmoren)
 
-Neben Schabowy lohnen ruhige Fleisch-Mittelpunkte: [Golonka](/de/rezepte/golonka) als geschmorte Haxe am Knochen (klar ≠ Panade, ≠ Rippen, ≠ Ofenschab), [Żeberka pieczone](/de/rezepte/zeberka) aus dem Ofen mit Majeranek-Senf-Marinade, [Schab pieczony](/de/rezepte/schab-pieczony) als Ofenschweinebraten (ohne Panade — klar ≠ Kotlet schabowy), oder [Rolada śląska](/de/rezepte/rolada-slaska) als geschmorte Roulade — klar getrennt von [Zrazy](/de/rezepte/zrazy) (andere Füll-Logik). Kein Eintopf wie Gulasz; Kultur-Owner bleibt dieser Sonntags-Guide, Cook-Primary liegt auf den Rezept-URLs.
+Neben Schabowy lohnen ruhige Fleisch-Mittelpunkte: [Golonka](/de/rezepte/golonka) als geschmorte Haxe am Knochen (klar ≠ Panade, ≠ Rippen, ≠ Ofenschab), [Żeberka pieczone](/de/rezepte/zeberka) aus dem Ofen mit Majeranek-Senf-Marinade, [Schab pieczony](/de/rezepte/schab-pieczony) als Ofenschweinebraten (ohne Panade — klar ≠ Kotlet schabowy), oder [Rolada śląska](/de/rezepte/rolada-slaska) als geschmorte Roulade — klar getrennt von [Zrazy](/de/rezepte/zrazy) (andere Füll-Logik). Kein Eintopf wie Gulasz; Kultur-Owner bleibt dieser Sonntags-Guide, Cook-Primary liegt auf den Rezept-URLs. Für den schnelleren Paprika-Tomaten-Topf mit Wurst (Gemüse-dominant, klar ≠ Schweine-Schmor-Gulasz) siehe Cook [Leczo](/de/rezepte/leczo) — Primary bleibt dort. Composed Sonntagsteller Placki **mit** Gulasch obenauf: [Placek po węgiersku](/de/rezepte/placek-po-wegiersku) — Primary dort; Placki- und Gulasz-Einzeln-URLs bleiben Owner ihrer Broad-Intents.
+
+## Straßenfood-Alltag (nicht Speiseplan-Steal)
+
+Schnell überbackenes Baguette mit Pilzen und Käse: [Zapiekanka](/de/rezepte/zapiekanka) — Cook-Primary dort; dieser Guide bleibt Kultur-Owner.
 
 ## Beilagen
 

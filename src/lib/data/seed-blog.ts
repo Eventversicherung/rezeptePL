@@ -181,6 +181,13 @@ const seedBlogPostsLive: BlogPost[] = [
       "recipe-szarlotka",
       "recipe-kutia",
       "recipe-napoleonka",
+      "recipe-leczo",
+      "recipe-jajka-faszerowane",
+      "recipe-cwikla",
+      "recipe-wuzetka",
+      "recipe-drozdzowka",
+      "recipe-zapiekanka",
+      "recipe-placek-po-wegiersku",
     ],
     relatedPostIds: [
       "post-twarog",

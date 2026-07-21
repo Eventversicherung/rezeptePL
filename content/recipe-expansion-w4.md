@@ -190,14 +190,29 @@ Full-catalog Unsplash retrofit (54) + Family covers Pierogi/Placki/Naleśniki sy
 - Affiliate guide-only on recipes  
 - Target inventory: **72** recipes · **36** blog · Families **3** · `SEED_VERSION` **27**
 
+## Wave 14 — Diaspora classics (+7) · SHIPPED
+
+| Dish | ID | Ownership note |
+|------|-----|----------------|
+| Wuzetka | `recipe-wuzetka` | ≠ Napoleonka / Sernik / Szarlotka |
+| Drożdżówka | `recipe-drozdzowka` | ≠ Chałka / Babka / Pączki / Racuchy |
+| Jajka faszerowane | `recipe-jajka-faszerowane` | ≠ Sałatka / Mizeria / Pasztet |
+| Ćwikła | `recipe-cwikla` | ≠ Buraczki (warm) / Barszcz / Botwinka |
+| Placek po węgiersku | `recipe-placek-po-wegiersku` | Composed ≠ Placki alone ≠ Gulasz alone |
+| Zapiekanka | `recipe-zapiekanka` | ≠ Krokiety / Naleśniki / Pierogi |
+| Leczo | `recipe-leczo` | ≠ Gulasz / Bigos / Fasolka |
+
+### Tech SEO
+- Affiliate guide-only on recipes  
+- Target inventory: **79** recipes · **36** blog · Families **3** · `SEED_VERSION` **28**
+
 ## Still HOLD / next backlog
 
 - Kotlet family hub (SEO-safe split)  
 - Region hub intros ≥400 before index  
 - Lab product tests  
 - Meal-Prep Arbeitswoche ≠ Freezer-Pierogi  
-- Czernina, Placek po węgiersku, Drożdżówka  
-- Später: Wuzetka, Jajka faszerowane, Zapiekanka, Leczo, Kaczka pieczona  
+- Czernina · Kaczka pieczona · Sękacz  
 - Cover-Proxy upgrades (Żurek, Bigos, Kapuśniak, Mizeria, Faworki, …)  
 
 ## Keyword ownership

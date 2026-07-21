@@ -272,7 +272,7 @@ W diasporze placki to też **tani obiad** między droższymi zakupami mięsa —
 
 **Sól:** Dopiero **po** odsączeniu i tuż przed patelnią — wcześniejsza sól wyciąga wodę z powrotem.
 
-**Cebula w masie:** Opcjonalna — tart drobno, też odsączyć. W wielu domach cebula jest w [gulaszu](/pl/rezepte/placki/ziemniaczane) obok, nie w placku (szybciej przypala się).
+**Cebula w masie:** Opcjonalna — tart drobno, też odsączyć. W wielu domach cebula jest w [gulaszu](/pl/rezepte/gulasz-wieprzowy) obok, nie w placku (szybciej przypala się).
 
 **Pieprz, czosnek:** Oszczędnie — placki to smak kartofla i tłuszczu.
 
@@ -298,7 +298,7 @@ W diasporze placki to też **tani obiad** między droższymi zakupami mięsa —
 
 ## Podawanie: śmietana, gulasz, solo
 
-**Klasycznie:** Placki + **[gulasz](/pl/rezepte/placki/ziemniaczane)** (mięsny lub pieczarkowy w diasporze) + łyżka śmietany. Śmietana 18% z polskiego sklepu albo Schmand rozcieńczony — [śmietana czy Schmand](/pl/blog/smietana-czy-schmand).
+**Klasycznie:** Placki + **[gulasz](/pl/rezepte/gulasz-wieprzowy)** (mięsny lub pieczarkowy w diasporze) + łyżka śmietany. Śmietana 18% z polskiego sklepu albo Schmand rozcieńczony — [śmietana czy Schmand](/pl/blog/smietana-czy-schmand). Composed na jednym talerzu (placki **z** gulaszem na wierzchu, primary tam): [placek po węgiersku](/pl/rezepte/placek-po-wegiersku) — broad placków zostaje tu.
 
 **Solo:** Placki ze śmietaną i szczypiorkiem — szybki obiad bez mięsa.
 

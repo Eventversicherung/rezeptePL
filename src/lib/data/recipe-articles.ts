@@ -23,6 +23,10 @@ import { W13_FACTS_A } from "./recipe-articles-w13-a";
 import { W13_FACTS_B } from "./recipe-articles-w13-b";
 import { W13_FACTS_C } from "./recipe-articles-w13-c";
 import { W13_FACTS_D } from "./recipe-articles-w13-d";
+import { W14_FACTS_A } from "./recipe-articles-w14-a";
+import { W14_FACTS_B } from "./recipe-articles-w14-b";
+import { W14_FACTS_C } from "./recipe-articles-w14-c";
+import { W14_FACTS_D } from "./recipe-articles-w14-d";
 
 type ArticleFacts = {
   dishDe: string;
@@ -200,21 +204,21 @@ const FACTS: Record<string, ArticleFacts> = {
     techniquePl:
       "Woda z tarcia to wróg chrupkości. Dobrze odciśnij, nie za dużo mąki i naprawdę gorąca patelnia. Grube placki zostają surowe w środku.",
     serveDe:
-      "Heiß mit Sauerrahm, Zucker (ja, wirklich), Gulasch oder geräucherter Sahne. Sofort servieren.",
+      "Heiß mit Sauerrahm, Zucker (ja, wirklich), Gulasch oder geräucherter Sahne. Sofort servieren. Composed Teller Puffer+Gulasch obenauf: [Placek po węgiersku](/de/rezepte/placek-po-wegiersku) — Primary bleibt dort.",
     servePl:
-      "Gorące ze śmietaną, cukrem (tak), gulaszem albo wędzoną śmietaną. Podawać od razu.",
+      "Gorące ze śmietaną, cukrem (tak), gulaszem albo wędzoną śmietaną. Podawać od razu. Composed talerz placki+gulasz na wierzchu: [placek po węgiersku](/pl/rezepte/placek-po-wegiersku) — primary zostaje tam.",
     diasporaDe:
       "Placki sind Weeknight-Food: wenig Zutaten, großer Effekt. In deutschen Küchen ohne spezielle Geräte machbar.",
     diasporaPl:
       "Placki to jedzenie na zwykły wieczór: mało składników, duży efekt. W niemieckiej kuchni bez specjalnego sprzętu.",
     mistakesDe:
-      "Nasse Masse, kalte Pfanne, zu viel Teig auf einmal. Lieber kleinere Batches.",
+      "Nasse Masse, kalte Pfanne, zu viel Teig auf einmal. Lieber kleinere Batches. Composed Intent nicht hier stehlen: [Placek po węgiersku](/de/rezepte/placek-po-wegiersku).",
     mistakesPl:
-      "Mokra masa, zimna patelnia, za dużo ciasta naraz. Lepiej mniejsze partie.",
+      "Mokra masa, zimna patelnia, za dużo ciasta naraz. Lepiej mniejsze partie. Intent composed nie tu: [placek po węgiersku](/pl/rezepte/placek-po-wegiersku).",
     variantsDe:
-      "Mit Zucchini gemischt, mit Knoblauch, oder süß mit Zimt — alle Varianten im Placki-Guide. Gusseisen hilft bei jeder Mischung. Der Klassiker bleibt Kartoffel pur.",
+      "Mit Zucchini gemischt, mit Knoblauch, oder süß mit Zimt — alle Varianten im Placki-Guide. Gusseisen hilft bei jeder Mischung. Der Klassiker bleibt Kartoffel pur. Composed mit Gulasch-Topping: [Placek po węgiersku](/de/rezepte/placek-po-wegiersku).",
     variantsPl:
-      "Z cukinią, z czosnkiem albo na słodko z cynamonem — warianty w przewodniku po plackach. Patelnia żeliwna przy każdej mieszance. Klasyka to sama ziemniak.",
+      "Z cukinią, z czosnkiem albo na słodko z cynamonem — warianty w przewodniku po plackach. Patelnia żeliwna przy każdej mieszance. Klasyka to sama ziemniak. Composed z gulaszem na wierzchu: [placek po węgiersku](/pl/rezepte/placek-po-wegiersku).",
   },
   "recipe-golabki": {
     dishDe: "Gołąbki",
@@ -698,33 +702,33 @@ const FACTS: Record<string, ArticleFacts> = {
     vibeDe: "langsam geschmort, paprikarot, Sonntag",
     vibePl: "duszony powoli, paprykowy, niedzielny",
     originDe:
-      "Polnischer Schweinegulasch ist nicht ungarisches Paprikagulasch: mehr Soße, weniger Schärfe, oft Tomatenmark. Klassischer Partner zu Placki — ein Teller, zwei Gerichte, gemeinsames Wochenende.",
+      "Polnischer Schweinegulasch ist nicht ungarisches Paprikagulasch: mehr Soße, weniger Schärfe, oft Tomatenmark. Klassischer Partner zu Placki — ein Teller, zwei Gerichte, gemeinsames Wochenende. Paprika-Gemüse-Eintopf mit Wurst ist eine andere Linie: [Leczo](/de/rezepte/leczo) — dort führen Paprika und Tomate, nicht das Schmorfleisch-Primary.",
     originPl:
-      "Polski gulasz wieprzowy to nie węgierski paprykowy: więcej sosu, mniej ostrości, często koncentrat. Klasyczny partner placków — jeden stół, dwa dania, wspólny weekend.",
+      "Polski gulasz wieprzowy to nie węgierski paprykowy: więcej sosu, mniej ostrości, często koncentrat. Klasyczny partner placków — jeden stół, dwa dania, wspólny weekend. Gulasz warzywny z kiełbasą to inna linia: [leczo](/pl/rezepte/leczo) — tam papryka i pomidor prowadzą, nie primary duszonnego mięsa.",
     shopDe:
       "Schweinenacken oder Schulter — Fett hält saftig. Paprika, Zwiebel, Tomatenmark, Paprikapulver edelsüß. Dutch Oven oder Schmortopf; Kiełbasa Arten wenn du Wurst extra willst.",
     shopPl:
       "Kark lub łopatka — tłuszcz trzyma soczystość. Papryka, cebula, koncentrat, papryka słodka. Dutch oven albo garnek do duszenia; rodzaje kiełbasy przy dodatku wędliny.",
     techniqueDe:
-      "Fleisch anbraten, Paprika kurz rösten (sonst bitter), dann zugedeckt 60–90 Minuten schmoren. Am Vortag schmeckt oft besser — Placki frisch braten, Gulasch warm halten.",
+      "Fleisch anbraten, Paprika kurz rösten (sonst bitter), dann zugedeckt 60–90 Minuten schmoren. Am Vortag schmeckt oft besser — Placki frisch braten, Gulasch warm halten. Schneller Gemüse-Topf ohne Würfelfleisch-Marathon: [Leczo](/de/rezepte/leczo).",
     techniquePl:
-      "Mięso obsmażyć, paprykę podsmażyć chwilę (inaczej gorzka), potem pod przykryciem 60–90 min. Nazajutrz często lepszy — placki smaż świeżo, gulasz trzymaj ciepły.",
+      "Mięso obsmażyć, paprykę podsmażyć chwilę (inaczej gorzka), potem pod przykryciem 60–90 min. Nazajutrz często lepszy — placki smaż świeżo, gulasz trzymaj ciepły. Szybszy garnek warzywny bez maratonu kostki: [leczo](/pl/rezepte/leczo).",
     serveDe:
-      "Mit Placki und Śmietana — der klassische Sonntagsteller in vielen Diaspora-Haushalten.",
+      "Mit Placki und Śmietana — der klassische Sonntagsteller in vielen Diaspora-Haushalten. Composed auf einem Teller (Puffer + Gulasch obenauf): [Placek po węgiersku](/de/rezepte/placek-po-wegiersku) — Primary bleibt dort.",
     servePl:
-      "Z plackami i śmietaną — klasyczny niedzielny talerz w wielu domach w diasporze.",
+      "Z plackami i śmietaną — klasyczny niedzielny talerz w wielu domach w diasporze. Composed na jednym talerzu (placki + gulasz na wierzchu): [placek po węgiersku](/pl/rezepte/placek-po-wegiersku) — primary zostaje tam.",
     diasporaDe:
       "In deutschen Wohnungen riecht Gulasz nach langem Schmorren — ideal, wenn alle nach der Schicht hungrig sind und Placki schnell gehen.",
     diasporaPl:
       "W niemieckich mieszkaniach gulasz pachnie długim duszeniem — idealny, gdy wszyscy wracają głodni, a placki robią się szybko.",
     mistakesDe:
-      "Paprika nicht angebraten, zu wenig Flüssigkeit, zu kurz geschmort. Fleisch soll mit Gabel zerfallen.",
+      "Paprika nicht angebraten, zu wenig Flüssigkeit, zu kurz geschmort. Fleisch soll mit Gabel zerfallen. Nicht mit [Leczo](/de/rezepte/leczo) verwechseln (Paprika-Tomate ± Wurst, kein Schweine-Schmor-Primary). Composed-Teller nicht hier stehlen: [Placek po węgiersku](/de/rezepte/placek-po-wegiersku).",
     mistakesPl:
-      "Papryka niepodsmażona, za mało płynu, za krótkie duszenie. Mięso ma się rozpadać widelcem.",
+      "Papryka niepodsmażona, za mało płynu, za krótkie duszenie. Mięso ma się rozpadać widelcem. Nie mylić z [leczo](/pl/rezepte/leczo) (papryka-pomidor ± kiełbasa, bez primary duszonnej wieprzowiny). Talerza composed nie tu: [placek po węgiersku](/pl/rezepte/placek-po-wegiersku).",
     variantsDe:
-      "Mit Kiełbasa, schärfer, oder vegetarisch mit Pilzen — Placki-Guide für die Beilage; Dutch Oven für gleichmäßiges Schmoren.",
+      "Mit Kiełbasa, schärfer, oder vegetarisch mit Pilzen — Placki-Guide für die Beilage; Dutch Oven für gleichmäßiges Schmoren. Paprika-Gemüse-Cook: [Leczo](/de/rezepte/leczo). Composed mit Placki-Topping: [Placek po węgiersku](/de/rezepte/placek-po-wegiersku).",
     variantsPl:
-      "Z kiełbasą, ostrzejszy albo wegetariański z grzybami — Placki-Guide przy dodatku; dutch oven przy równomiernym duszeniu.",
+      "Z kiełbasą, ostrzejszy albo wegetariański z grzybami — Placki-Guide przy dodatku; dutch oven przy równomiernym duszeniu. Cook warzywny: [leczo](/pl/rezepte/leczo). Composed z plackami na wierzchu: [placek po węgiersku](/pl/rezepte/placek-po-wegiersku).",
   },
   "recipe-kotlet-mielony": {
     dishDe: "Kotlet mielony",
@@ -1295,6 +1299,12 @@ Object.assign(FACTS, W12_FACTS_A, W12_FACTS_B, W12_FACTS_C, W12_FACTS_D);
  * A Suppen · B Kutia+Napoleonka · C Chałka+Pasztet · D Biała kiełbasa.
  */
 Object.assign(FACTS, W13_FACTS_A, W13_FACTS_B, W13_FACTS_C, W13_FACTS_D);
+
+/**
+ * Wave 14 — merge order:
+ * A Bäckerei · B Ostern · C Placek+Zapiekanka · D Leczo.
+ */
+Object.assign(FACTS, W14_FACTS_A, W14_FACTS_B, W14_FACTS_C, W14_FACTS_D);
 
 function expand(locale: Locale, f: ArticleFacts): string {
   if (locale === "de") {

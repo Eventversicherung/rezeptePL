@@ -56,9 +56,9 @@ export const W9_FACTS_B: Record<string, ArticleFacts> = {
     mistakesPl:
       "Mieszanie gorących warzyw z majonezem; za duża kostka; kradzież intentu mizerii (ogórek/śmietana jako primary); zbyt słodki majonez bez doprawienia; trzymanie sałatki godzinami w cieple na bufecie. Za dużo zalewy robi ją ostrą i wodnistą.",
     variantsDe:
-      "Mit mehr Apfel fruchtiger, mit weniger Mayo fester, vegetarisch ohne Ei ehrlich benennen. Manche geben Mais — als Hausvariante, nicht als „das“ Rezept. Verwandte kühle Beilage: [Mizeria](/de/rezepte/mizeria). Fest- und Sonntagskontext: [Wielkanoc](/de/blog/wielkanoc-speiseplan), [Sonntagsessen](/de/blog/sonntagsessen-polnisch), Einkauf [Polenladen](/de/blog/polenladen-einkaufen).",
+      "Mit mehr Apfel fruchtiger, mit weniger Mayo fester, vegetarisch ohne Ei ehrlich benennen. Manche geben Mais — als Hausvariante, nicht als „das“ Rezept. Verwandte kühle Beilage: [Mizeria](/de/rezepte/mizeria). Gefüllte Eier (≠ dieser Mayo-Gemüsesalat): [Jajka faszerowane](/de/rezepte/jajka-faszerowane). Fest- und Sonntagskontext: [Wielkanoc](/de/blog/wielkanoc-speiseplan), [Sonntagsessen](/de/blog/sonntagsessen-polnisch), Einkauf [Polenladen](/de/blog/polenladen-einkaufen).",
     variantsPl:
-      "Z większą ilością jabłka bardziej owocowa, z mniejszą majonezu bardziej zbita, bez jajka — uczciwie jako wariant. Kukurydza — wariant domu, nie „ten” przepis. Pokrewny chłodny dodatek: [mizeria](/pl/rezepte/mizeria). Kontekst świąt i niedzieli: [Wielkanoc](/pl/blog/menu-wielkanocne), [obiad niedzielny](/pl/blog/obiad-niedzielny), zakupy [sklep polski](/pl/blog/sklep-polski-zakupy).",
+      "Z większą ilością jabłka bardziej owocowa, z mniejszą majonezu bardziej zbita, bez jajka — uczciwie jako wariant. Kukurydza — wariant domu, nie „ten” przepis. Pokrewny chłodny dodatek: [mizeria](/pl/rezepte/mizeria). Faszerowane jajka (≠ ta majonezowa sałatka): [jajka faszerowane](/pl/rezepte/jajka-faszerowane). Kontekst świąt i niedzieli: [Wielkanoc](/pl/blog/menu-wielkanocne), [obiad niedzielny](/pl/blog/obiad-niedzielny), zakupy [sklep polski](/pl/blog/sklep-polski-zakupy).",
   },
   "recipe-botwinka": {
     dishDe: "Botwinka",

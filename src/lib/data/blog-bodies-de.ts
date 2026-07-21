@@ -24,7 +24,7 @@ Kielbasa ist nicht gleich Kielbasa. Wir achten auf kurze Zutatenlisten, sichtbar
 
 Vermeiden wir Produkte, die extrem weich wirken, wässrig abtropfen oder nach künstlichem Rauch riechen. Preis allein sagt wenig: eine mittlere Preisklasse mit klarer Herkunft und nachvollziehbarer Herstellung ist meist die bessere Investition als das billigste Stück für „einmal und nie wieder“.
 
-Für Meal Prep schneiden wir Kielbasa in Scheiben, braten sie mit Zwiebel und Paprika und portionieren sie für die Woche. Dazu passen Kartoffeln, Kasza oder ein einfacher Salat. So bleibt polnische Hausmannskost alltagstauglich – ruhig, modern, ohne Show.
+Für Meal Prep schneiden wir Kielbasa in Scheiben, braten sie mit Zwiebel und Paprika und portionieren sie für die Woche. Dazu passen Kartoffeln, Kasza oder ein einfacher Salat. So bleibt polnische Hausmannskost alltagstauglich – ruhig, modern, ohne Show. Wer daraus einen richtigen Paprika-Tomaten-Eintopf machen will (Gemüse-dominant, klar ≠ Gulasz wieprzowy), geht zum Cook [Leczo](/de/rezepte/leczo).
 
 Kaszanka aus dem Polenladen ist ein eigener Cook-Intent: gebraten mit Zwiebel nach dem [Kaszanka-Rezept](/de/rezepte/kaszanka). Arten, Qualitätslesen und Einsatz in Żurek/Bigos bleiben im [Kiełbasa-Arten-Guide](/de/blog/kielbasa-arten).
 

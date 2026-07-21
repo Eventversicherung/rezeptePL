@@ -3,7 +3,7 @@
 Status: LIVE | W2 | W3 | W4 | HOLD  
 Affiliate auf Rezepten: **guide-only** (Gear-Blog-Cards); Affiliate-Karten in Buying-Guides.
 
-**SEO-Snapshot & erweiterter Plan:** [`topical-authority-status.md`](./topical-authority-status.md) (36 Blog · 72 Rezepte · Score 9/10 · `SEED_VERSION` 27).
+**SEO-Snapshot & erweiterter Plan:** [`topical-authority-status.md`](./topical-authority-status.md) (36 Blog · 79 Rezepte · Score 9/10 · `SEED_VERSION` 28).
 
 ## LIVE
 
@@ -201,6 +201,22 @@ Plan: `content/wave-12-plan.md` (shipped).
 
 Plan: `content/wave-13-plan.md` (shipped).
 
+## LIVE (Wave 14 shipped — 7 Diaspora-Klassiker)
+
+| What | Notes |
+|------|-------|
+| `recipe-wuzetka` | Schoko-Sahne-Torte; ≠ Napoleonka |
+| `recipe-drozdzowka` | Hefe-Streusel; ≠ Chałka / Babka / Pączki |
+| `recipe-jajka-faszerowane` | Gefüllte Eier; ≠ Sałatka / Mizeria |
+| `recipe-cwikla` | Rote Bete + Meerrettich kalt; ≠ Buraczki |
+| `recipe-placek-po-wegiersku` | Composed Placki+Gulasz; Singles bleiben Owner |
+| `recipe-zapiekanka` | Baguette-Street; ≠ Krokiety |
+| `recipe-leczo` | Paprika-Eintopf; ≠ Gulasz / Bigos / Fasolka |
+| Kein neuer Blog-Pillar | Ownership über bestehende Guides |
+| `SEED_VERSION` | **28** · Rezepte **79** · Blog **36** |
+
+Plan: `content/wave-14-plan.md` (shipped).
+
 ## HOLD
 
-Region-Blogs, Meal-Prep Woche, Lab-Tests, Region-Hub-Intros ≥400 vor Index, Kotlet family, Czernina, Placek po węgiersku, Drożdżówka. Später: Wuzetka, Jajka faszerowane, Zapiekanka, Leczo, Kaczka pieczona. Cover-Proxy-Upgrades (Żurek, Bigos, Kapuśniak, Mizeria, Faworki, …).
+Region-Blogs, Meal-Prep Woche, Lab-Tests, Region-Hub-Intros ≥400 vor Index, Kotlet family, Czernina, Kaczka pieczona, Sękacz. Cover-Proxy-Upgrades (Żurek, Bigos, Kapuśniak, Mizeria, Faworki, …).

@@ -413,6 +413,7 @@ export const seedBlogPostsWave2: BlogPost[] = [
       "recipe-kaszanka",
       "recipe-grochowka",
       "recipe-biala-kielbasa",
+      "recipe-leczo",
     ],
     relatedPostIds: [
       "post-polenladen",
@@ -464,6 +465,10 @@ export const seedBlogPostsWave2: BlogPost[] = [
       "recipe-szczawiowa",
       "recipe-kutia",
       "recipe-napoleonka",
+      "recipe-cwikla",
+      "recipe-wuzetka",
+      "recipe-drozdzowka",
+      "recipe-zapiekanka",
     ],
     relatedPostIds: [
       "post-polenladen",
@@ -517,6 +522,8 @@ export const seedBlogPostsWave2: BlogPost[] = [
       "recipe-chalka",
       "recipe-pasztet",
       "recipe-biala-kielbasa",
+      "recipe-jajka-faszerowane",
+      "recipe-cwikla",
     ],
     relatedPostIds: [
       "post-zakwas-zurek",
@@ -625,6 +632,12 @@ export const seedBlogPostsWave2: BlogPost[] = [
       "recipe-kluski-kladzione",
       "recipe-chalka",
       "recipe-pasztet",
+      "recipe-leczo",
+      "recipe-jajka-faszerowane",
+      "recipe-wuzetka",
+      "recipe-drozdzowka",
+      "recipe-placek-po-wegiersku",
+      "recipe-zapiekanka",
     ],
     relatedPostIds: [
       "post-rosol-technik",
@@ -760,6 +773,7 @@ export const seedBlogPostsWave2: BlogPost[] = [
       "recipe-golabki",
       "recipe-rolada-slaska",
       "recipe-golonka",
+      "recipe-placek-po-wegiersku",
     ],
     relatedPostIds: [
       "post-bigos-guide",

@@ -310,7 +310,7 @@ Dieser Text ist **Guide-Owner** für Placki-Technik; [Kasza-Lexikon](/de/blog/ka
 
 **Śmietana:** Klassisch — kühler Löffel pro Teller. Polnische **Śmietana** vs. deutscher Schmand: [Lexikon](/de/blog/smietana-schmand). Wir kaufen im Polenladen oder ersetzen bewusst — Geschmack säuerlicher-milder je nach Marke.
 
-**Gulasz:** Placki als **Beilage zu Gulasch** — deftiges Sonntagsbild. [Rezept](/de/rezepte/placki/ziemniaczane) verknüpft Varianten; Gulasch separat warm, Placki frisch gebraten.
+**Gulasz:** Placki als **Beilage zu Gulasch** — deftiges Sonntagsbild. [Rezept](/de/rezepte/placki/ziemniaczane) verknüpft Varianten; Gulasch separat warm, Placki frisch gebraten. Composed auf einem Teller (Puffer **mit** Gulasch obenauf, Primary dort): [Placek po węgiersku](/de/rezepte/placek-po-wegiersku) — Placki-Broad bleibt hier.
 
 **Solo:** Mit Salat oder [Kasza](/de/blog/kasza-buchweizen) statt doppelter Kartoffel — leichter Teller, diaspora-praktisch.
 

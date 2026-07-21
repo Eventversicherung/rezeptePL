@@ -117,6 +117,7 @@ export const seedBlogPostsW3c: BlogPost[] = [
       "recipe-placki-ser",
       "recipe-placki-jablka",
       "recipe-gulasz",
+      "recipe-placek-po-wegiersku",
     ],
     relatedPostIds: [
       "post-gusseisen",
