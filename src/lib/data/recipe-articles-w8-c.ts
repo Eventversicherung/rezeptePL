@@ -14,7 +14,7 @@ export const W8_FACTS_C = {
     originPl:
       "Pączki to miękkie drożdżowe wypieki z nadzieniem — klasyczny słodki fokus Tłustego Czwartku. To nie klisza Berlinera i nie chrust: własna forma, własna technika. Artykuł o okazji zostaje [Tłusty Czwartek](/pl/blog/tlusty-czwartek-przepisy); gesty są w [przewodniku techniki pączków](/pl/blog/paczki-technika); tu zostają ilości i gotowanie. [Faworki](/pl/rezepte/faworki) to pokrewne ciasto tłuszczowe bez nadzienia — inny fokus.",
     shopDe:
-      "Mehl 405/550, Hefe, Milch, Butter, Eier, Zucker, Rosenmarmelade oder Pflaumenmus, Frittierfett, Puderzucker. Charakter-Füllung oft im [Polenladen](/de/blog/polenladen-einkaufen). Wenn etwas fehlt: [Zutaten ersetzen](/de/blog/ersatzprodukte-de). Technik vor dem Einkauf: [Pączki-Technik](/de/blog/paczek-technik).",
+      "Mehl 405/550, Hefe, Milch, Butter, Eier, Zucker, Rosenmarmelade oder Pflaumenmus, Frittierfett, Puderzucker. Charakter-Füllung oft im [Polenladen](/de/blog/polenladen-einkaufen). Wenn etwas fehlt: [Zutaten ersetzen](/de/blog/ersatzprodukte-de). Technik vor dem Im [Pączki-Technik](/de/blog/paczek-technik) findest du typische Spezialzutaten.",
     shopPl:
       "Mąka 405/550, drożdże, mleko, masło, jajka, cukier, konfitura różana lub powidła, tłuszcz do smażenia, cukier puder. Nadzienie z charakterem często w [sklepie polskim](/pl/blog/sklep-polski-zakupy). Gdy czegoś brakuje: [zamienniki składników](/pl/blog/zamienniki-skladnikow). Technika przed zakupami: [technika pączków](/pl/blog/paczki-technika).",
     techniqueDe:
@@ -26,9 +26,9 @@ export const W8_FACTS_C = {
     servePl:
       "Jeszcze ciepłe z cukrem pudrem lub lekkim lukrem, kawa albo herbata. Na [Tłusty Czwartek](/pl/blog/tlusty-czwartek-przepisy) często obok [faworków](/pl/rezepte/faworki) — jedna partia domowa, jedna kupiona jest w porządku. Drożdże na patelni zamiast kąpieli w tłuszczu: [racuchy](/pl/rezepte/racuchy-jablka).",
     diasporaDe:
-      "In DE rettet früher Teigstart den Donnerstagmorgen. Gute Bäckerei-Pączki sind kein Scheitern — Selbstmachen ist Lernprojekt. Einkauf: [Polenladen](/de/blog/polenladen-einkaufen). Kulturrahmen ohne Rezept-Steal: [Tłusty Czwartek](/de/blog/tlusty-czwartek).",
+      "In DE rettet früher Teigstart den Donnerstagmorgen. Gute Bäckerei-Pączki sind kein Scheitern — Selbstmachen ist Lernprojekt. Im [Polenladen](/de/blog/polenladen-einkaufen) findest du typische Spezialzutaten. Kulturrahmen ohne Rezept-Steal: [Tłusty Czwartek](/de/blog/tlusty-czwartek).",
     diasporaPl:
-      "W DE wcześniejszy start ciasta ratuje czwartkowy ranek. Dobre pączki z cukierni to nie porażka — robienie samemu to projekt nauki. Zakupy: [sklep polski](/pl/blog/sklep-polski-zakupy). Ramy kulturowe bez kradzieży przepisu: [Tłusty Czwartek](/pl/blog/tlusty-czwartek-przepisy).",
+      "W DE wcześniejszy start ciasta ratuje czwartkowy ranek. Dobre pączki z cukierni to nie porażka — robienie samemu to projekt nauki. W [sklep polski](/pl/blog/sklep-polski-zakupy) kupisz typowe specjalności. Ramy kulturowe bez kradzieży przepisu: [Tłusty Czwartek](/pl/blog/tlusty-czwartek-przepisy).",
     mistakesDe:
       "Zu kaltes Fett, zu nasse Füllung, zu viel Mehl, Hefe abgetötet, zu kurzes Gehen, Faworki- oder Tłusty-Hitze, Feuchtigkeit oder Garzeit falsch einschätzen. Zu große Stücke braten ungleichmäßig.",
     mistakesPl:

@@ -37,7 +37,7 @@ export const W8_FACTS_A: Record<string, W8ArticleFacts> = {
     shopDe:
       "Feste Salat- oder Feldgurken, frischer Dill, und ein Milchprodukt mit klarer Rolle: Schmand oder saure Sahne statt „irgendeiner Sahne“. Welche Stufe wohin passt, erklärt der [Śmietana-und-Schmand-Guide](/de/blog/smietana-schmand) — dort bleibt das passende Rezeptship für Alternativen; hier nur der Anwendungsfall Mizeria. Zucker und Pfeffer sparsam. Optional sehr feine Zwiebel. Einkaufstag und Spezialitäten: [Polenladen-Guide](/de/blog/polenladen-einkaufen).",
     shopPl:
-      "Jędrne ogórki sałatkowe lub gruntowe, świeży koperek i nabiał z jasną rolą: Schmand albo kwaśna śmietana zamiast „byle jakiej śmietany”. Który produkt do czego — w [przewodniku śmietana/Schmand](/pl/blog/smietana-czy-schmand); tu tylko zastosowanie w mizerii. Cukier i pieprz oszczędnie. Opcjonalnie bardzo drobna cebula. Zakupy: [przewodnik po sklepie polskim](/pl/blog/sklep-polski-zakupy).",
+      "Jędrne ogórki sałatkowe lub gruntowe, świeży koperek i nabiał z jasną rolą: Schmand albo kwaśna śmietana zamiast „byle jakiej śmietany”. Który produkt do czego — w [przewodniku śmietana/Schmand](/pl/blog/smietana-czy-schmand); tu tylko zastosowanie w mizerii. Cukier i pieprz oszczędnie. Opcjonalnie bardzo drobna cebula. W [przewodnik po sklepie polskim](/pl/blog/sklep-polski-zakupy) kupisz typowe specjalności.",
     techniqueDe:
       "Dünn hobeln, salzen, warten, ausdrücken. Śmietana kalt unterheben, nicht schlagen. Dill erst am Ende, damit er frisch bleibt. Zucker gleicht extreme Gurkenbitterkeit aus — nicht als Dessert-Süße. Abschmecken kurz vor dem Servieren.",
     techniquePl:

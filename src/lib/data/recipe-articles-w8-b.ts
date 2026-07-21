@@ -78,7 +78,7 @@ export const W8_FACTS_B: Record<string, ArticleFacts> = {
     techniquePl:
       "Najpierw podsmaż wędzonkę dla głębi, potem wywar i ziemniaki; kapusty nie gotuj zbędnie długo, jeśli już jest miękka. Odciśnij kapustę, żeby zupa nie poszła w wodnisto-słony — zalewę koryguj ostrożnie. Majeranek pod koniec. Gotuj łagodnie; logika bigosu (wielogodzinne gęstnienie) tu nie pasuje.",
     serveDe:
-      "Als Hauptsuppe mit kräftigem Brot. Optional Schmand. Menülogik: nach Kapuśniak eher leichter Nachtisch oder gar nichts Schweres. Abgrenzung: [Ogórkowa](/de/rezepte/ogorkowa) für Gurkensäure, [Żurek](/de/rezepte/zurek) für Zakwas-Festtag, Bigos wenn du Schmoren willst statt Löffeln.",
+      "Als Hauptsuppe mit kräftigem Brot. Optional Schmand. Nach Kapuśniak passt eher leichter Nachtisch oder gar nichts Schweres. Für Gurkensäure nimm [Ogórkowa](/de/rezepte/ogorkowa), für Zakwas-Festtag [Żurek](/de/rezepte/zurek); wer schmoren statt löffeln will, kocht Bigos.",
     servePl:
       "Jako zupa główna z mocnym chlebem. Opcjonalnie śmietana. Logika menu: po kapuśniaku raczej lekki deser albo nic ciężkiego. Rozróżnienie: [ogórkowa](/pl/rezepte/ogorkowa) na kwas ogórkowy, [żurek](/pl/rezepte/zurek) na zakwas świąteczny, bigos gdy chcesz dusić zamiast jeść łyżką.",
     diasporaDe:

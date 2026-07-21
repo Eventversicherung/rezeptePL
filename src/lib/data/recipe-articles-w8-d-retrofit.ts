@@ -30,7 +30,7 @@ export const W8_FACTS_D_RETROFIT: Record<string, ArticleFacts> = {
     originPl:
       "Pierogi leniwe to nie sklejane pierogi: twaróg, mąka i jajko formuje się w kluseczki i gotuje. Szybki start dla dzieci i dni bez czasu na lepienie — blisko smaku naleśników z twarogiem, ale inna technika. Rodzinę ciast porządkuje [przewodnik po pierogach](/pl/blog/przewodnik-pierogi); knedle owocowe to [knedle ze śliwkami](/pl/rezepte/knedle-sliwki), nie ta strona.",
     shopDe:
-      "Twaróg oder abgetropfter Speisequark, Mehl, Ei, Butter, Semmelbrösel. Konsistenz und DE-Einkauf: [Twaróg-Guide](/de/blog/twarog-deutschland). Ladenroute: [Polenladen](/de/blog/polenladen-einkaufen). Ersatzquark ehrlich nach [Ersatzprodukte DE](/de/blog/ersatzprodukte-de).",
+      "Twaróg oder abgetropfter Speisequark, Mehl, Ei, Butter, Semmelbrösel. Konsistenz und DE-Im [Twaróg-Guide](/de/blog/twarog-deutschland) findest du typische Spezialzutaten. Ladenroute: [Polenladen](/de/blog/polenladen-einkaufen). Ersatzquark ehrlich nach [Ersatzprodukte DE](/de/blog/ersatzprodukte-de).",
     shopPl:
       "Twaróg lub odsączony Quark, mąka, jajko, masło, bułka tarta. Konsystencja i zakupy w DE: [przewodnik po twarogu](/pl/blog/twarog-w-niemczech). Trasa: [sklep polski](/pl/blog/sklep-polski-zakupy). Zamienniki według [zamienników składników](/pl/blog/zamienniki-skladnikow).",
     techniqueDe:
@@ -120,9 +120,9 @@ export const W8_FACTS_D_RETROFIT: Record<string, ArticleFacts> = {
     mistakesPl:
       "Za mokra kapusta, za miękki makaron, za mało doprawienia. Pieprz i tłuszcz mają znaczenie.",
     variantsDe:
-      "Vegetarisch ohne Speck, mit Pilzen, oder neben [Bigos](/de/rezepte/bigos) als Kraut-Silo. Ferment vertiefen: [Kiszenie](/de/blog/kiszenie-guide). Einkauf: [Polenladen](/de/blog/polenladen-einkaufen).",
+      "Vegetarisch ohne Speck, mit Pilzen, oder neben [Bigos](/de/rezepte/bigos) als Kraut-Silo. Ferment vertiefen: [Kiszenie](/de/blog/kiszenie-guide). Im [Polenladen](/de/blog/polenladen-einkaufen) findest du typische Spezialzutaten.",
     variantsPl:
-      "Wegetariańskie bez boczku, z grzybami albo obok [bigosu](/pl/rezepte/bigos). Ferment: [kiszenie](/pl/blog/kiszenie-w-domu). Zakupy: [sklep polski](/pl/blog/sklep-polski-zakupy).",
+      "Wegetariańskie bez boczku, z grzybami albo obok [bigosu](/pl/rezepte/bigos). Ferment: [kiszenie](/pl/blog/kiszenie-w-domu). W [sklep polski](/pl/blog/sklep-polski-zakupy) kupisz typowe specjalności.",
   },
 
   "recipe-pyzy": {
@@ -172,7 +172,7 @@ export const W8_FACTS_D_RETROFIT: Record<string, ArticleFacts> = {
     shopDe:
       "Rinderplätzchen, Senf, Speck, Gewürzgurken, Brühe, Majoran. Topf: [Dutch Oven](/de/blog/dutch-oven-kaufberatung). Würzen: [Majeranek-Lexikon](/de/blog/majeranek). Einkauf Fleisch und Gurken oft Supermarkt + [Polenladen](/de/blog/polenladen-einkaufen).",
     shopPl:
-      "Plastry wołowiny, musztarda, boczek, ogórki, bulion, majeranek. Garnek: [dutch oven](/pl/blog/garnek-do-duszenia). Przyprawa: [majeranek](/pl/blog/majeranek-leksykon). Zakupy: market + [sklep polski](/pl/blog/sklep-polski-zakupy).",
+      "Plastry wołowiny, musztarda, boczek, ogórki, bulion, majeranek. Garnek: [dutch oven](/pl/blog/garnek-do-duszenia). Przyprawa: [majeranek](/pl/blog/majeranek-leksykon). Bazę kupisz w markecie, specjalności w [sklep polski](/pl/blog/sklep-polski-zakupy).",
     techniqueDe:
       "Fest rollen, anbraten, zugedeckt schmoren bis gabelweich. Soße abschmecken, nicht eilig. Deckel zu — wie bei anderen Schmorgerichten im Dutch Oven.",
     techniquePl:
@@ -207,7 +207,7 @@ export const W8_FACTS_D_RETROFIT: Record<string, ArticleFacts> = {
     shopDe:
       "Blauer Mohn, Mehl, Hefe, Milch, Butter, Eier, Zucker, optional Rosinen. Guter Mohn im [Polenladen](/de/blog/polenladen-einkaufen). DE-Ersatzlogik: [Ersatzprodukte](/de/blog/ersatzprodukte-de). Technik und Ofentemperatur: [Makowiec-Technik](/de/blog/makowiec-technik).",
     shopPl:
-      "Mak niebieski, mąka, drożdże, mleko, masło, jajka, cukier, opcjonalnie rodzynki. Dobry mak w [sklepie polskim](/pl/blog/sklep-polski-zakupy). Zamienniki: [zamienniki składników](/pl/blog/zamienniki-skladnikow). Technika i piec: [makowiec-technika](/pl/blog/makowiec-technika).",
+      "Mak niebieski, mąka, drożdże, mleko, masło, jajka, cukier, opcjonalnie rodzynki. Dobry mak w [sklepie polskim](/pl/blog/sklep-polski-zakupy). Zamienniki znajdziesz w [zamienniki składników](/pl/blog/zamienniki-skladnikow). Technika i piec: [makowiec-technika](/pl/blog/makowiec-technika).",
     techniqueDe:
       "Mohnmasse streichfähig binden, Teig elastisch gehen lassen, mit Randabstand rollen, mittlere Hitze, erst nach dem Abkühlen schneiden. Zu heiß zerstört die Spirale außen und lässt innen roh.",
     techniquePl:
@@ -236,13 +236,13 @@ export const W8_FACTS_D_RETROFIT: Record<string, ArticleFacts> = {
     vibeDe: "klein, intensiv pilzig, wigilijny",
     vibePl: "małe, intensywnie grzybowe, wigilijne",
     originDe:
-      "Uszka sind kleine Teigtaschen — oft mit Pilzfüllung — die klassisch in klarem [Barszcz](/de/rezepte/barszcz-czerwony) schwimmen. Eigene Rezeptseite, eigene Fokus. Barszcz bleibt Rezept für die Suppe; Technik der Klarheit: [Barszcz-Technik](/de/blog/barszcz-technik). Menü: [Wigilia-Speiseplan](/de/blog/wigilia-speiseplan). Große gefaltete Taschen: [Pierogi-Guide](/de/blog/pierogi-guide).",
+      "Uszka sind kleine Teigtaschen — oft mit Pilzfüllung — die klassisch in klarem [Barszcz](/de/rezepte/barszcz-czerwony) schwimmen. Eigene Rezeptseite, eigene Fokus. Barszcz bleibt Rezept für die Suppe; Technik der Klarheit: [Barszcz-Technik](/de/blog/barszcz-technik). Zum Menü passt [Wigilia-Speiseplan](/de/blog/wigilia-speiseplan). Große gefaltete Taschen: [Pierogi-Guide](/de/blog/pierogi-guide).",
     originPl:
-      "Uszka to małe pierogi — często z farszem grzybowym — klasycznie w klarownym [barszczu](/pl/rezepte/barszcz-czerwony). Własna Rezeptseite, własne fokus. Barszcz zostaje przepisem na zupy; klarowność: [technika barszczu](/pl/blog/jak-ugotowac-barszcz). Menu: [menu wigilijne](/pl/blog/menu-wigilijne). Duże sklejane: [przewodnik pierogi](/pl/blog/przewodnik-pierogi).",
+      "Uszka to małe pierogi — często z farszem grzybowym — klasycznie w klarownym [barszczu](/pl/rezepte/barszcz-czerwony). Własna Rezeptseite, własne fokus. Barszcz zostaje przepisem na zupy; klarowność: [technika barszczu](/pl/blog/jak-ugotowac-barszcz). Do menu pasuje [menu wigilijne](/pl/blog/menu-wigilijne). Duże sklejane: [przewodnik pierogi](/pl/blog/przewodnik-pierogi).",
     shopDe:
       "Getrocknete Pilze im [Polenladen](/de/blog/polenladen-einkaufen), Zwiebel, Mehl, Ei, Öl. Barszcz separat nach [Barszcz-Rezept](/de/rezepte/barszcz-czerwony). Teiggefühl: [Pierogi-Teig](/de/blog/pierogi-teig). Vortag formen: [Freezer-Guide](/de/blog/freezer-meal-prep).",
     shopPl:
-      "Suszone grzyby w [sklepie polskim](/pl/blog/sklep-polski-zakupy), cebula, mąka, jajko, olej. Barszcz osobno: [przepis na barszcz](/pl/rezepte/barszcz-czerwony). Ciasto: [ciasto na pierogi](/pl/blog/ciasto-na-pierogi). Dzień wcześniej: [mrożenie](/pl/blog/mrozenie-pierogow).",
+      "Suszone grzyby w [sklepie polskim](/pl/blog/sklep-polski-zakupy), cebula, mąka, jajko, olej. Barszcz osobno: [przepis na barszcz](/pl/rezepte/barszcz-czerwony). Przy cieście pomaga [ciasto na pierogi](/pl/blog/ciasto-na-pierogi). Dzień wcześniej: [mrożenie](/pl/blog/mrozenie-pierogow).",
     techniqueDe:
       "Füllung trocken schmoren, kleine Kreise, wenig Füllung, fest zu Öhrchen schließen. In leicht siedendem Wasser garen, bis sie aufschwimmen. In der Schale mit heißem Barszcz zusammenführen — nicht stundenlang in der Suppe lagern.",
     techniquePl:
@@ -252,17 +252,17 @@ export const W8_FACTS_D_RETROFIT: Record<string, ArticleFacts> = {
     servePl:
       "Jako logika pierwszego dania Wigilii z klarownym [barszczem](/pl/rezepte/barszcz-czerwony). Też same z masłem. Pokrewna forma: [krokiety](/pl/rezepte/krokiety) — inna forma, często ta sama rodzina farszu.",
     diasporaDe:
-      "Am 23. formen, einfrieren oder kühl lagern, am 24. nur kochen — entlastet den Abend neben Barszcz und [Makowiec](/de/rezepte/makowiec). Timeline: [Wigilia](/de/blog/wigilia-speiseplan).",
+      "Am 23. formen, einfrieren oder kühl lagern, am 24. nur kochen — entlastet den Abend neben Barszcz und [Makowiec](/de/rezepte/makowiec). Den Zeitplan findest du unter [Wigilia](/de/blog/wigilia-speiseplan).",
     diasporaPl:
-      "23. lepić, mrozić lub chłodzić, 24. tylko gotować — odciąża wieczór obok barszczu i [makowca](/pl/rezepte/makowiec). Timeline: [menu wigilijne](/pl/blog/menu-wigilijne).",
+      "23. lepić, mrozić lub chłodzić, 24. tylko gotować — odciąża wieczór obok barszczu i [makowca](/pl/rezepte/makowiec). Den Zeitplan findest du unter [menu wigilijne](/pl/blog/menu-wigilijne).",
     mistakesDe:
       "Nasse Füllung, zu große Stücke, zu aggressives Kochen, Uszka in der Suppe einweichen. Barszcz trüben durch Mitkochen der Teigtaschen.",
     mistakesPl:
       "Mokry farsz, za duże sztuki, zbyt gwałtowne gotowanie, namaczanie w zupie. Mętnienie barszczu przez gotowanie uszek w wywarze.",
     variantsDe:
-      "Mit Sauerkraut-Anteil, oder fertige Uszka aus dem Laden als Notfall. Klare Suppe: [Barszcz](/de/rezepte/barszcz-czerwony). Technik: [Barszcz-Technik](/de/blog/barszcz-technik). Teig: [Pierogi-Teig](/de/blog/pierogi-teig).",
+      "Mit Sauerkraut-Anteil, oder fertige Uszka aus dem Laden als Notfall. Die klare Suppe bleibt beim Rezept [Barszcz](/de/rezepte/barszcz-czerwony). Mehr dazu im Artikel [Barszcz-Technik](/de/blog/barszcz-technik). Zum Teig hilft [Pierogi-Teig](/de/blog/pierogi-teig).",
     variantsPl:
-      "Z udziałem kapusty kiszonej albo gotowe uszka ze sklepu. Klarowna zupa: [barszcz](/pl/rezepte/barszcz-czerwony). Technika: [jak ugotować barszcz](/pl/blog/jak-ugotowac-barszcz). Ciasto: [ciasto na pierogi](/pl/blog/ciasto-na-pierogi).",
+      "Z udziałem kapusty kiszonej albo gotowe uszka ze sklepu. Klarowna zupa zostaje przy przepisie [barszcz](/pl/rezepte/barszcz-czerwony). Więcej w artykule [jak ugotować barszcz](/pl/blog/jak-ugotowac-barszcz). Przy cieście pomaga [ciasto na pierogi](/pl/blog/ciasto-na-pierogi).",
   },
 
   "recipe-karp": {
@@ -277,7 +277,7 @@ export const W8_FACTS_D_RETROFIT: Record<string, ArticleFacts> = {
     shopDe:
       "Frisch oder tiefgekühlt an der Fischtheke / im [Polenladen](/de/blog/polenladen-einkaufen). Zwiebel, Zitrone, Majoran, Dill. Gewürz: [Majeranek-Lexikon](/de/blog/majeranek). Ersatz und Etiketten: [Ersatzprodukte DE](/de/blog/ersatzprodukte-de).",
     shopPl:
-      "Świeży lub mrożony w ladzie / [sklepie polskim](/pl/blog/sklep-polski-zakupy). Cebula, cytryna, majeranek, koperek. Przyprawa: [majeranek](/pl/blog/majeranek-leksykon). Zamienniki: [zamienniki składników](/pl/blog/zamienniki-skladnikow).",
+      "Świeży lub mrożony w ladzie / [sklepie polskim](/pl/blog/sklep-polski-zakupy). Cebula, cytryna, majeranek, koperek. Przyprawa: [majeranek](/pl/blog/majeranek-leksykon). Zamienniki znajdziesz w [zamienniki składników](/pl/blog/zamienniki-skladnikow).",
     techniqueDe:
       "Salzen, säuern, würzen, ziehen lassen; Zwiebeln anschwitzen; mittlere Ofentemperatur, bis sich die Fasern lösen. Nicht austrocknen.",
     techniquePl:
@@ -287,17 +287,17 @@ export const W8_FACTS_D_RETROFIT: Record<string, ArticleFacts> = {
     servePl:
       "Z cytryną i koperkiem, często po klarownym [barszczu](/pl/rezepte/barszcz-czerwony) i [uszkach](/pl/rezepte/uszka). Ziemniaki lub chleb według domu. Zimny kontrast: [śledź](/pl/rezepte/sledz).",
     diasporaDe:
-      "In DE ist lebender Karpfen selten Alltag — Portionen und Filets sind praxisnäher. Am 24. vormittags würzen, abends nur backen. Timeline: [Wigilia](/de/blog/wigilia-speiseplan).",
+      "In DE ist lebender Karpfen selten Alltag — Portionen und Filets sind praxisnäher. Am 24. vormittags würzen, abends nur backen. Den Zeitplan findest du unter [Wigilia](/de/blog/wigilia-speiseplan).",
     diasporaPl:
-      "W DE żywy karp rzadko jest codziennością — porcje i filety są praktyczniejsze. 24. rano doprawić, wieczorem tylko piec. Timeline: [menu wigilijne](/pl/blog/menu-wigilijne).",
+      "W DE żywy karp rzadko jest codziennością — porcje i filety są praktyczniejsze. 24. rano doprawić, wieczorem tylko piec. Den Zeitplan findest du unter [menu wigilijne](/pl/blog/menu-wigilijne).",
     mistakesDe:
       "Zu heiß und zu lange = trocken. Zu wenig Säure = fade. Speiseplan-Mengen hier duplizieren statt zu verlinken. Mit Śledź-Intent vermischen.",
     mistakesPl:
       "Za gorąco i za długo = suchy. Za mało kwasu = mdły. Duplikować menu zamiast linkować. Mieszać intent ze śledziem.",
     variantsDe:
-      "In Gelee, paniert gebraten, oder moderne Alternative Lachs — ehrlich benennen. Kalter Hering: [Śledź](/de/rezepte/sledz). Menü: [Wigilia](/de/blog/wigilia-speiseplan). Würze: [Majeranek](/de/blog/majeranek).",
+      "In Gelee, paniert gebraten, oder moderne Alternative Lachs — ehrlich benennen. Kalter Hering: [Śledź](/de/rezepte/sledz). Zum Menü passt [Wigilia](/de/blog/wigilia-speiseplan). Würze: [Majeranek](/de/blog/majeranek).",
     variantsPl:
-      "W galarecie, smażony w panierce albo łosoś — nazywać uczciwie. Zimny śledź: [śledź](/pl/rezepte/sledz). Menu: [menu wigilijne](/pl/blog/menu-wigilijne). Przyprawa: [majeranek](/pl/blog/majeranek-leksykon).",
+      "W galarecie, smażony w panierce albo łosoś — nazywać uczciwie. Zimny śledź: [śledź](/pl/rezepte/sledz). Do menu pasuje [menu wigilijne](/pl/blog/menu-wigilijne). Przyprawa: [majeranek](/pl/blog/majeranek-leksykon).",
   },
 
   "recipe-krokiety": {
@@ -308,11 +308,11 @@ export const W8_FACTS_D_RETROFIT: Record<string, ArticleFacts> = {
     originDe:
       "Krokiety sind gerollte, panierte Naleśniki — klassisch mit Kraut und Pilzen, oft neben klarem [Barszcz](/de/rezepte/barszcz-czerwony). Eigene Form (Rolle + Panade), eigener Fokus. Teiggefühl im [Naleśniki-Guide](/de/blog/nalesniki-guide); Panade-Logik: [Panieren-Guide](/de/blog/panieren-schabowy). Kleine Teigtaschen: [Uszka](/de/rezepte/uszka).",
     originPl:
-      "Krokiety to zwinięte, panierowane naleśniki — klasycznie z kapustą i grzybami, często obok klarownego [barszczu](/pl/rezepte/barszcz-czerwony). Własna forma (rolka + panierka), własne fokus. Ciasto: [przewodnik naleśników](/pl/blog/nalesniki-przewodnik); panierka: [panierowanie](/pl/blog/panierowanie-kotlet). Małe pierożki: [uszka](/pl/rezepte/uszka).",
+      "Krokiety to zwinięte, panierowane naleśniki — klasycznie z kapustą i grzybami, często obok klarownego [barszczu](/pl/rezepte/barszcz-czerwony). Własna forma (rolka + panierka), własne fokus. Przy cieście pomaga [przewodnik naleśników](/pl/blog/nalesniki-przewodnik); przy panierce [panierowanie](/pl/blog/panierowanie-kotlet). Małe pierożki znajdziesz przy [uszkach](/pl/rezepte/uszka).",
     shopDe:
-      "Mehl, Milch, Eier; Sauerkraut, getrocknete Pilze, Zwiebel; Semmelbrösel und Fett. Kapusta/Pilze: [Kiszenie](/de/blog/kiszenie-guide) und [Polenladen](/de/blog/polenladen-einkaufen). Teig: [Naleśniki-Guide](/de/blog/nalesniki-guide).",
+      "Mehl, Milch, Eier; Sauerkraut, getrocknete Pilze, Zwiebel; Semmelbrösel und Fett. Kapusta/Pilze: [Kiszenie](/de/blog/kiszenie-guide) und [Polenladen](/de/blog/polenladen-einkaufen). Zum Teig hilft [Naleśniki-Guide](/de/blog/nalesniki-guide).",
     shopPl:
-      "Mąka, mleko, jajka; kapusta kiszona, suszone grzyby, cebula; bułka tarta i tłuszcz. Kapusta/grzyby: [kiszenie](/pl/blog/kiszenie-w-domu) i [sklep polski](/pl/blog/sklep-polski-zakupy). Ciasto: [naleśniki-przewodnik](/pl/blog/nalesniki-przewodnik).",
+      "Mąka, mleko, jajka; kapusta kiszona, suszone grzyby, cebula; bułka tarta i tłuszcz. Kapusta/grzyby: [kiszenie](/pl/blog/kiszenie-w-domu) i [sklep polski](/pl/blog/sklep-polski-zakupy). Przy cieście pomaga [naleśniki-przewodnik](/pl/blog/nalesniki-przewodnik).",
     techniqueDe:
       "Dünne Naleśniki, trockene Füllung, fest rollen, panieren, goldbraun braten. Füllung muss abgekühlt sein. Zu nass = Rollen platzen; zu dick = Teig dominiert.",
     techniquePl:
@@ -324,7 +324,7 @@ export const W8_FACTS_D_RETROFIT: Record<string, ArticleFacts> = {
     diasporaDe:
       "Wochenendprojekt: vormittags Teig und Füllung, nachmittags rollen und braten. Freezer: geformte Rollen vor dem Panieren — siehe [Freezer-Guide](/de/blog/freezer-meal-prep). Menükontext: [Wigilia](/de/blog/wigilia-speiseplan).",
     diasporaPl:
-      "Projekt weekendowy: rano ciasto i farsz, po południu zwijać i smażyć. Freezer: uformowane rolki przed panierowaniem — [mrożenie](/pl/blog/mrozenie-pierogow). Menu: [menu wigilijne](/pl/blog/menu-wigilijne).",
+      "Projekt weekendowy: rano ciasto i farsz, po południu zwijać i smażyć. Freezer: uformowane rolki przed panierowaniem — [mrożenie](/pl/blog/mrozenie-pierogow). Do menu pasuje [menu wigilijne](/pl/blog/menu-wigilijne).",
     mistakesDe:
       "Nasse Füllung, zu dicke Pfannkuchen, kaltes Fett, Panade abplatzen lassen. Barszcz- oder Naleśniki-Hitze, Feuchtigkeit oder Garzeit falsch einschätzen.",
     mistakesPl:
@@ -367,7 +367,7 @@ export const W8_FACTS_D_RETROFIT: Record<string, ArticleFacts> = {
     variantsDe:
       "Ohne Boden, mit Rosinen, mit Schokotropfen, kleinerer Springform. Mohnrolle bleibt [Makowiec](/de/rezepte/makowiec). Hefegugelhupf aus der Form: [Babka](/de/rezepte/babka) — anderer Rezept. Honig-Gewürz: [Piernik](/de/rezepte/piernik). Technik-Feeling: [Makowiec-Technik](/de/blog/makowiec-technik). Quark: [Twaróg](/de/blog/twarog-deutschland).",
     variantsPl:
-      "Bez spodu, z rodzynkami, z czekoladą, mniejsza tortownica. Rolada makowa: [makowiec](/pl/rezepte/makowiec). Ciasto drożdżowe z formy: [babka](/pl/rezepte/babka) — inny Rezept. Miód i korzeń: [piernik](/pl/rezepte/piernik). Technika: [makowiec-technika](/pl/blog/makowiec-technika). Twaróg: [twaróg](/pl/blog/twarog-w-niemczech).",
+      "Bez spodu, z rodzynkami, z czekoladą, mniejsza tortownica. Rolada makowa: [makowiec](/pl/rezepte/makowiec). Ciasto drożdżowe z formy: [babka](/pl/rezepte/babka) — inny Rezept. Miód i korzeń: [piernik](/pl/rezepte/piernik). Więcej w artykule [makowiec-technika](/pl/blog/makowiec-technika). Twaróg: [twaróg](/pl/blog/twarog-w-niemczech).",
   },
 
   "recipe-sledz": {
@@ -376,9 +376,9 @@ export const W8_FACTS_D_RETROFIT: Record<string, ArticleFacts> = {
     vibeDe: "kalt, zwiebelig, salzig-fettig zum Brot",
     vibePl: "zimny, cebulowy, słono-tłusty do chleba",
     originDe:
-      "Śledź ist der kalte Fischgang vieler Wigilia-Tische und zugleich Alltagsteller mit Brot. In Öl mit Zwiebel ist die klarste diaspora-Variante. Rezeptseite für „Śledź Rezept“; Menü: [Wigilia-Speiseplan](/de/blog/wigilia-speiseplan); warmer Fisch: [Karp](/de/rezepte/karp). Einkauf: [Polenladen](/de/blog/polenladen-einkaufen).",
+      "Śledź ist der kalte Fischgang vieler Wigilia-Tische und zugleich Alltagsteller mit Brot. In Öl mit Zwiebel ist die klarste diaspora-Variante. Rezeptseite für „Śledź Rezept“; Menü: [Wigilia-Speiseplan](/de/blog/wigilia-speiseplan); warmer Fisch: [Karp](/de/rezepte/karp). Im [Polenladen](/de/blog/polenladen-einkaufen) findest du typische Spezialzutaten.",
     originPl:
-      "Śledź to zimna ryba wielu stołów wigilijnych i zarazem codzienny talerz z chlebem. W oleju z cebulą to najczytelniejszy wariant diasporowy. menu: [menu wigilijne](/pl/blog/menu-wigilijne); ryba ciepła: [karp](/pl/rezepte/karp). Zakupy: [sklep polski](/pl/blog/sklep-polski-zakupy).",
+      "Śledź to zimna ryba wielu stołów wigilijnych i zarazem codzienny talerz z chlebem. W oleju z cebulą to najczytelniejszy wariant diasporowy. menu: [menu wigilijne](/pl/blog/menu-wigilijne); ryba ciepła: [karp](/pl/rezepte/karp). W [sklep polski](/pl/blog/sklep-polski-zakupy) kupisz typowe specjalności.",
     shopDe:
       "Matjes oder Salzheringfilets (Polenladen/Kühltruhe), Zwiebeln, neutrales Öl, Lorbeer, Piment. Marken und Kühltruhe: [Polenladen](/de/blog/polenladen-einkaufen). Wenn nur Rollmops: ehrlich umdeklarieren — [Ersatzprodukte](/de/blog/ersatzprodukte-de).",
     shopPl:
@@ -392,16 +392,16 @@ export const W8_FACTS_D_RETROFIT: Record<string, ArticleFacts> = {
     servePl:
       "Zimne z chlebem, czasem z jajkiem lub ogórkiem. Na Wigilię obok innych zimnych; w tygodniu jako szybki talerz. Na ciepło: [karp](/pl/rezepte/karp). Wariant śmietany: [śmietana](/pl/blog/smietana-czy-schmand).",
     diasporaDe:
-      "Vorbereiten am 23., servieren am 24. — null Ofenstress neben [Barszcz](/de/rezepte/barszcz-czerwony) und [Karp](/de/rezepte/karp). Timeline: [Wigilia](/de/blog/wigilia-speiseplan).",
+      "Vorbereiten am 23., servieren am 24. — null Ofenstress neben [Barszcz](/de/rezepte/barszcz-czerwony) und [Karp](/de/rezepte/karp). Den Zeitplan findest du unter [Wigilia](/de/blog/wigilia-speiseplan).",
     diasporaPl:
-      "Przygotować 23., podać 24. — zero stresu pieca obok [barszczu](/pl/rezepte/barszcz-czerwony) i [karpia](/pl/rezepte/karp). Timeline: [menu wigilijne](/pl/blog/menu-wigilijne).",
+      "Przygotować 23., podać 24. — zero stresu pieca obok [barszczu](/pl/rezepte/barszcz-czerwony) i [karpia](/pl/rezepte/karp). Den Zeitplan findest du unter [menu wigilijne](/pl/blog/menu-wigilijne).",
     mistakesDe:
       "Zu salzig ohne Wässern, zu wenig Öl, warme Lagerung. Karp- oder Speiseplan-Hitze, Feuchtigkeit oder Garzeit falsch einschätzen. Mit Rollmops-Sauce als „klassisch“ verkaufen ohne Hinweis.",
     mistakesPl:
       "Za słony bez namaczania, za mało oleju, trzymanie w cieple. Kradzież fokus karpia lub menu. Rolmops w sosie jako „klasyka” bez dopisku.",
     variantsDe:
-      "Śledź w śmietanie, po kaszubsku mit Apfel, mit Senf. Sahne: [Śmietana](/de/blog/smietana-schmand). Warm: [Karp](/de/rezepte/karp). Menü: [Wigilia](/de/blog/wigilia-speiseplan). Laden: [Polenladen](/de/blog/polenladen-einkaufen).",
+      "Śledź w śmietanie, po kaszubsku mit Apfel, mit Senf. Sahne: [Śmietana](/de/blog/smietana-schmand). Warm: [Karp](/de/rezepte/karp). Zum Menü passt [Wigilia](/de/blog/wigilia-speiseplan). Laden: [Polenladen](/de/blog/polenladen-einkaufen).",
     variantsPl:
-      "Śledź w śmietanie, po kaszubsku z jabłkiem, z musztardą. Śmietana: [leksykon](/pl/blog/smietana-czy-schmand). Ciepło: [karp](/pl/rezepte/karp). Menu: [menu wigilijne](/pl/blog/menu-wigilijne). Sklep: [sklep polski](/pl/blog/sklep-polski-zakupy).",
+      "Śledź w śmietanie, po kaszubsku z jabłkiem, z musztardą. Śmietana: [leksykon](/pl/blog/smietana-czy-schmand). Ciepło: [karp](/pl/rezepte/karp). Do menu pasuje [menu wigilijne](/pl/blog/menu-wigilijne). Sklep: [sklep polski](/pl/blog/sklep-polski-zakupy).",
   },
 };

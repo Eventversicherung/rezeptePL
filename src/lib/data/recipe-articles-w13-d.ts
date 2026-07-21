@@ -68,8 +68,8 @@ export const W13_FACTS_D: Record<string, ArticleFacts> = {
     mistakesPl:
       "Ciemna grillowa jako „biała”. Gwałtowne gotowanie (pęka). Mylenie z [kaszanką](/pl/rezepte/kaszanka) lub fokus rodzajów z [leksykonu kiełbasy](/pl/blog/rodzaje-kielbasy). Nie mieszać ilości i kroków z sąsiednim przepisem. nie: tu cook, tam zupa lub okazja.",
     variantsDe:
-      "Nur Topf, nur Ofen, oder beides: kurz garziehen und leicht nachbacken. Mit Zwiebeln im Ofen. Einlage-Variante bleibt an [Żurek](/de/rezepte/zurek) gekoppelt. Nachbar Blutwurst: [Kaszanka](/de/rezepte/kaszanka). Types und Qualitätslesen: [Kiełbasa-Arten](/de/blog/kielbasa-arten). Anlass: [Wielkanoc](/de/blog/wielkanoc-speiseplan). Ansatz-Kontext: [Zakwas](/de/blog/zakwas-zurek).",
+      "Nur Topf, nur Ofen, oder beides: kurz garziehen und leicht nachbacken. Mit Zwiebeln im Ofen. Einlage-Variante bleibt an [Żurek](/de/rezepte/zurek) gekoppelt. Nachbar Blutwurst: [Kaszanka](/de/rezepte/kaszanka). Types und Qualitätslesen: [Kiełbasa-Arten](/de/blog/kielbasa-arten). Zum Anlass passt [Wielkanoc](/de/blog/wielkanoc-speiseplan). Ansatz-Kontext: [Zakwas](/de/blog/zakwas-zurek).",
     variantsPl:
-      "Tylko garnek, tylko piekarnik, albo jedno i drugie: krótko gotować i lekko dopiec. Z cebulą w piekarniku. Wariant dodatku zostaje przy [żurku](/pl/rezepte/zurek). Sąsiad: [kaszanka](/pl/rezepte/kaszanka). Typy i jakość: [rodzaje kiełbasy](/pl/blog/rodzaje-kielbasy). Okazja: [menu wielkanocne](/pl/blog/menu-wielkanocne). Zakwas: [zakwas na żur](/pl/blog/zakwas-na-zurek).",
+      "Tylko garnek, tylko piekarnik, albo jedno i drugie: krótko gotować i lekko dopiec. Z cebulą w piekarniku. Wariant dodatku zostaje przy [żurku](/pl/rezepte/zurek). Sąsiad: [kaszanka](/pl/rezepte/kaszanka). Typy i jakość: [rodzaje kiełbasy](/pl/blog/rodzaje-kielbasy). Do okazji pasuje [menu wielkanocne](/pl/blog/menu-wielkanocne). Zakwas: [zakwas na żur](/pl/blog/zakwas-na-zurek).",
   },
 };

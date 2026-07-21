@@ -67,9 +67,9 @@ export const W13_FACTS_C: Record<string, ArticleFacts> = {
     mistakesPl:
       "Za gorące mleko (zabite drożdże). Forma babkowa zamiast warkocza → clash z [babką](/pl/rezepte/babka). Mylenie z [pączkami](/pl/rezepte/paczki) lub [racuchami](/pl/rezepte/racuchy-jablka). Za krótkie wyrastanie. Roszczenie rozróżnienie menu zamiast [menu wielkanocnego](/pl/blog/menu-wielkanocne).",
     variantsDe:
-      "Mit Rosinen im Teig (Hausbrauch, ehrlich im Title); ohne Sesam; kleinerer Zopf. Nachbarn: [Babka](/de/rezepte/babka), [Pączki](/de/rezepte/paczki), [Racuchy](/de/rezepte/racuchy-jablka). Anlass: [Wielkanoc](/de/blog/wielkanoc-speiseplan), [Sonntagsessen](/de/blog/sonntagsessen-polnisch). Einkauf: [Polenladen](/de/blog/polenladen-einkaufen), [Ersatzprodukte](/de/blog/ersatzprodukte-de).",
+      "Mit Rosinen im Teig (Hausbrauch, ehrlich im Title); ohne Sesam; kleinerer Zopf. Passende Nachbarn sind [Babka](/de/rezepte/babka), [Pączki](/de/rezepte/paczki), [Racuchy](/de/rezepte/racuchy-jablka). Anlass: [Wielkanoc](/de/blog/wielkanoc-speiseplan), [Sonntagsessen](/de/blog/sonntagsessen-polnisch). Im [Polenladen](/de/blog/polenladen-einkaufen) und unter [Ersatzprodukte](/de/blog/ersatzprodukte-de) findest du Einkaufshilfen.",
     variantsPl:
-      "Z rodzynkami w cieście (zwyczaj domu, uczciwie w tytule); bez sezamu; mniejszy warkocz. Sąsiedzi: [babka](/pl/rezepte/babka), [pączki](/pl/rezepte/paczki), [racuchy](/pl/rezepte/racuchy-jablka). Okazja: [menu wielkanocne](/pl/blog/menu-wielkanocne), [obiad niedzielny](/pl/blog/obiad-niedzielny). Zakupy: [sklep polski](/pl/blog/sklep-polski-zakupy), [zamienniki](/pl/blog/zamienniki-skladnikow).",
+      "Z rodzynkami w cieście (zwyczaj domu, uczciwie w tytule); bez sezamu; mniejszy warkocz. Pasujący sąsiedzi to [babka](/pl/rezepte/babka), [pączki](/pl/rezepte/paczki), [racuchy](/pl/rezepte/racuchy-jablka). Okazja: [menu wielkanocne](/pl/blog/menu-wielkanocne), [obiad niedzielny](/pl/blog/obiad-niedzielny). W [sklep polski](/pl/blog/sklep-polski-zakupy) i pod [zamienniki](/pl/blog/zamienniki-skladnikow) znajdziesz wskazówki zakupowe.",
   },
 
   "recipe-pasztet": {
@@ -94,16 +94,16 @@ export const W13_FACTS_C: Record<string, ArticleFacts> = {
     servePl:
       "Zimny w plasterkach na półmisku z chlebem, chrzanem, musztardą, opcjonalnie ogórkiem. Bufet obok [menu wielkanocnego](/pl/blog/menu-wielkanocne); codzienność: [obiad niedzielny](/pl/blog/obiad-niedzielny). Nie mieszać z [kaszanką](/pl/rezepte/kaszanka). Resztki szczelnie w lodówce, zużyć szybko.",
     diasporaDe:
-      "In DE oft Freitagabend backen, Samstag kühlen, Sonntag schneiden — entlastet den Festmorgen. TK-Leber ehrlich benennen und gut abtropfen. Kinder dürfen Brötchen einweichen; heißer Ofen und Mixer bei Erwachsenen. Ein Kasten reicht für Gäste; Qualität vor drei Fleischaufschnitten. Einkauf: [Polenladen](/de/blog/polenladen-einkaufen).",
+      "In DE oft Freitagabend backen, Samstag kühlen, Sonntag schneiden — entlastet den Festmorgen. TK-Leber ehrlich benennen und gut abtropfen. Kinder dürfen Brötchen einweichen; heißer Ofen und Mixer bei Erwachsenen. Ein Kasten reicht für Gäste; Qualität vor drei Fleischaufschnitten. Im [Polenladen](/de/blog/polenladen-einkaufen) findest du typische Spezialzutaten.",
     diasporaPl:
-      "W DE często piecz w piątek, sobotę chłodź, niedzielę kroić — odciąża poranek. Mrożona wątróbka — nazwać uczciwie i odsączyć. Dzieci namoczą bułkę; gorący piec i blender u dorosłych. Jedna keksówka wystarczy; jakość przed trzema wędlinami. Zakupy: [sklep polski](/pl/blog/sklep-polski-zakupy).",
+      "W DE często piecz w piątek, sobotę chłodź, niedzielę kroić — odciąża poranek. Mrożona wątróbka — nazwać uczciwie i odsączyć. Dzieci namoczą bułkę; gorący piec i blender u dorosłych. Jedna keksówka wystarczy; jakość przed trzema wędlinami. W [sklep polski](/pl/blog/sklep-polski-zakupy) kupisz typowe specjalności.",
     mistakesDe:
       "Leber verkochen (trocken/bitter). Mit [Kaszanka](/de/rezepte/kaszanka) oder [Kotlet mielony](/de/rezepte/kotlet-mielony) verwechseln. Warm schneiden. Kiełbasa-Arten-Hitze, Feuchtigkeit oder Garzeit falsch einschätzen. Speiseplan-Abgrenzung beanspruchen statt [Wielkanoc](/de/blog/wielkanoc-speiseplan).",
     mistakesPl:
       "Wygotowana wątróbka (sucha/gorzka). Mylenie z [kaszanką](/pl/rezepte/kaszanka) lub [kotletem mielonym](/pl/rezepte/kotlet-mielony). Krojenie na ciepło. Kradzież fokus rodzajów kiełbasy zamiast [rodzaje kiełbasy](/pl/blog/rodzaje-kielbasy). Roszczenie menu zamiast [menu wielkanocnego](/pl/blog/menu-wielkanocne).",
     variantsDe:
-      "Mit etwas Speck im Teig (Hausbrauch); mildere Kinderportion ohne starken Majeranek. Nachbarn: [Kaszanka](/de/rezepte/kaszanka) (≠ Pastete), [Kotlet mielony](/de/rezepte/kotlet-mielony), [Klopsy](/de/rezepte/klopsy). Guides: [Sonntagsessen](/de/blog/sonntagsessen-polnisch), [Wielkanoc](/de/blog/wielkanoc-speiseplan), [Kiełbasa-Arten](/de/blog/kielbasa-arten), [Polenladen](/de/blog/polenladen-einkaufen).",
+      "Mit etwas Speck im Teig (Hausbrauch); mildere Kinderportion ohne starken Majeranek. Passende Nachbarn sind [Kaszanka](/de/rezepte/kaszanka) (≠ Pastete), [Kotlet mielony](/de/rezepte/kotlet-mielony), [Klopsy](/de/rezepte/klopsy). Guides: [Sonntagsessen](/de/blog/sonntagsessen-polnisch), [Wielkanoc](/de/blog/wielkanoc-speiseplan), [Kiełbasa-Arten](/de/blog/kielbasa-arten), [Polenladen](/de/blog/polenladen-einkaufen).",
     variantsPl:
-      "Z odrobiną boczku w masie (zwyczaj domu); łagodniej dla dzieci bez mocnego majeranku. Sąsiedzi: [kaszanka](/pl/rezepte/kaszanka) (≠ pasztet), [kotlet mielony](/pl/rezepte/kotlet-mielony), [klopsy](/pl/rezepte/klopsy). Przewodniki: [obiad niedzielny](/pl/blog/obiad-niedzielny), [menu wielkanocne](/pl/blog/menu-wielkanocne), [rodzaje kiełbasy](/pl/blog/rodzaje-kielbasy), [sklep polski](/pl/blog/sklep-polski-zakupy).",
+      "Z odrobiną boczku w masie (zwyczaj domu); łagodniej dla dzieci bez mocnego majeranku. Pasujący sąsiedzi to [kaszanka](/pl/rezepte/kaszanka) (≠ pasztet), [kotlet mielony](/pl/rezepte/kotlet-mielony), [klopsy](/pl/rezepte/klopsy). Przewodniki: [obiad niedzielny](/pl/blog/obiad-niedzielny), [menu wielkanocne](/pl/blog/menu-wielkanocne), [rodzaje kiełbasy](/pl/blog/rodzaje-kielbasy), [sklep polski](/pl/blog/sklep-polski-zakupy).",
   },
 };

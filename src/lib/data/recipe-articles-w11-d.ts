@@ -67,9 +67,9 @@ export const W11_FACTS_D: Record<string, ArticleFacts> = {
     mistakesPl:
       "Za rzadki sos. Spalone warzywa zamiast duszenia. Mylenie z [karpem](/pl/rezepte/karp). Za krótki odpoczynek. Za dużo cukru. Nie mieszać ilości i kroków z sąsiednim przepisem. nie, tam zostaje owner okazji.",
     variantsDe:
-      "Mit Sellerie statt Petersilienwurzel; ohne Nelke milder; etwas Paprika. Warm nur kurz anwärmen, nicht neu braten. Nachbar-Fisch: [Karp](/de/rezepte/karp), [Śledź](/de/rezepte/sledz). Einkauf: [Polenladen](/de/blog/polenladen-einkaufen), [Ersatzprodukte](/de/blog/ersatzprodukte-de).",
+      "Mit Sellerie statt Petersilienwurzel; ohne Nelke milder; etwas Paprika. Warm nur kurz anwärmen, nicht neu braten. Nachbar-Fisch: [Karp](/de/rezepte/karp), [Śledź](/de/rezepte/sledz). Im [Polenladen](/de/blog/polenladen-einkaufen) und unter [Ersatzprodukte](/de/blog/ersatzprodukte-de) findest du Einkaufshilfen.",
     variantsPl:
-      "Z selerem zamiast pietruszki; bez goździka łagodniej; odrobina papryki. Na ciepło tylko krótko podgrzej. Sąsiedzi: [karp](/pl/rezepte/karp), [śledź](/pl/rezepte/sledz). Zakupy: [sklep polski](/pl/blog/sklep-polski-zakupy), [zamienniki](/pl/blog/zamienniki-skladnikow).",
+      "Z selerem zamiast pietruszki; bez goździka łagodniej; odrobina papryki. Na ciepło tylko krótko podgrzej. Pasujący sąsiedzi to [karp](/pl/rezepte/karp), [śledź](/pl/rezepte/sledz). W [sklep polski](/pl/blog/sklep-polski-zakupy) i pod [zamienniki](/pl/blog/zamienniki-skladnikow) znajdziesz wskazówki zakupowe.",
   },
 
   "recipe-golonka": {
@@ -102,9 +102,9 @@ export const W11_FACTS_D: Record<string, ArticleFacts> = {
     mistakesPl:
       "Za ostro i za krótko. Mylenie ze schabowym/schabem/żeberkami. Za dużo majeranku. Skórka od początku i suche mięso. Za mało płynu. Nie mieszać ilości i kroków z sąsiednim przepisem. nie.",
     variantsDe:
-      "Bier oder Apfelsaft im Fond; mit Kümmel; nur geschmort ohne Nachbräunen. Nachbarn: [Żeberka](/de/rezepte/zeberka), [Schab pieczony](/de/rezepte/schab-pieczony), [Schabowy](/de/rezepte/kotlet-schabowy). Gear: [Dutch Oven](/de/blog/dutch-oven-kaufberatung), Gewürz: [Majeranek](/de/blog/majeranek).",
+      "Bier oder Apfelsaft im Fond; mit Kümmel; nur geschmort ohne Nachbräunen. Passende Nachbarn sind [Żeberka](/de/rezepte/zeberka), [Schab pieczony](/de/rezepte/schab-pieczony), [Schabowy](/de/rezepte/kotlet-schabowy). Gear: [Dutch Oven](/de/blog/dutch-oven-kaufberatung), Gewürz: [Majeranek](/de/blog/majeranek).",
     variantsPl:
-      "Piwo lub sok jabłkowy w sosie; z kminkiem; tylko duszenie bez zapiekania. Sąsiedzi: [żeberka](/pl/rezepte/zeberka), [schab pieczony](/pl/rezepte/schab-pieczony), [schabowy](/pl/rezepte/kotlet-schabowy). Sprzęt: [garnek](/pl/blog/garnek-do-duszenia), przyprawa: [majeranek](/pl/blog/majeranek-leksykon).",
+      "Piwo lub sok jabłkowy w sosie; z kminkiem; tylko duszenie bez zapiekania. Pasujący sąsiedzi to [żeberka](/pl/rezepte/zeberka), [schab pieczony](/pl/rezepte/schab-pieczony), [schabowy](/pl/rezepte/kotlet-schabowy). Sprzęt: [garnek](/pl/blog/garnek-do-duszenia), przyprawa: [majeranek](/pl/blog/majeranek-leksykon).",
   },
 
   "recipe-kompot-z-suszu": {
@@ -137,8 +137,8 @@ export const W11_FACTS_D: Record<string, ArticleFacts> = {
     mistakesPl:
       "Za dużo cukru od razu. Zbyt mocne gotowanie. Świeże owoce 1:1 zamiast suszu. Mylenie z [kisiel](/pl/rezepte/kisiel) (masa ze skrobią bez kawałków suszu). Udawanie ownera menu zamiast przepisu. Zostawione goździki. Linki do okazji do [menu wigilijnego](/pl/blog/menu-wigilijne).",
     variantsDe:
-      "Mehr Pflaume dunkler; mehr Aprikose heller; ohne Nelke milder; mit etwas Zitronensaft. Nachbarn am Tisch: [Ryba po grecku](/de/rezepte/ryba-po-grecku), [Karp](/de/rezepte/karp), [Makowiec](/de/rezepte/makowiec); gestärkte Fruchtcreme bleibt [Kisiel](/de/rezepte/kisiel). Einkauf: [Polenladen](/de/blog/polenladen-einkaufen), [Ersatzprodukte](/de/blog/ersatzprodukte-de).",
+      "Mehr Pflaume dunkler; mehr Aprikose heller; ohne Nelke milder; mit etwas Zitronensaft. Nachbarn am Tisch: [Ryba po grecku](/de/rezepte/ryba-po-grecku), [Karp](/de/rezepte/karp), [Makowiec](/de/rezepte/makowiec); gestärkte Fruchtcreme bleibt [Kisiel](/de/rezepte/kisiel). Im [Polenladen](/de/blog/polenladen-einkaufen) und unter [Ersatzprodukte](/de/blog/ersatzprodukte-de) findest du Einkaufshilfen.",
     variantsPl:
-      "Więcej śliwki ciemniej; więcej moreli jaśniej; bez goździka łagodniej; z sokiem z cytryny. Sąsiedzi: [ryba po grecku](/pl/rezepte/ryba-po-grecku), [karp](/pl/rezepte/karp), [makowiec](/pl/rezepte/makowiec); masa ze skrobią zostaje [kisiel](/pl/rezepte/kisiel). Zakupy: [sklep polski](/pl/blog/sklep-polski-zakupy), [zamienniki](/pl/blog/zamienniki-skladnikow).",
+      "Więcej śliwki ciemniej; więcej moreli jaśniej; bez goździka łagodniej; z sokiem z cytryny. Pasujący sąsiedzi to [ryba po grecku](/pl/rezepte/ryba-po-grecku), [karp](/pl/rezepte/karp), [makowiec](/pl/rezepte/makowiec); masa ze skrobią zostaje [kisiel](/pl/rezepte/kisiel). W [sklep polski](/pl/blog/sklep-polski-zakupy) i pod [zamienniki](/pl/blog/zamienniki-skladnikow) znajdziesz wskazówki zakupowe.",
   },
 };

@@ -32,7 +32,7 @@ export const W10_FACTS_W9_RETROFIT: Record<string, ArticleFacts> = {
     originPl:
       "Pierogi leniwe to nie sklejane pierogi: twaróg, mąka i jajko formuje się w kluseczki i gotuje. Szybki start dla dzieci i dni bez czasu na lepienie — blisko smaku naleśników z twarogiem, ale inna technika. Rodzinę ciast porządkuje [przewodnik po pierogach](/pl/blog/przewodnik-pierogi); knedle owocowe to [knedle ze śliwkami](/pl/rezepte/knedle-sliwki), nie ta strona. Gorący makaron z twarogiem to inny talerz: [makaron z serem](/pl/rezepte/makaron-z-serem).",
     shopDe:
-      "Twaróg oder abgetropfter Speisequark, Mehl, Ei, Butter, Semmelbrösel. Konsistenz und DE-Einkauf: [Twaróg-Guide](/de/blog/twarog-deutschland). Ladenroute: [Polenladen](/de/blog/polenladen-einkaufen). Ersatzquark ehrlich nach [Ersatzprodukte DE](/de/blog/ersatzprodukte-de).",
+      "Twaróg oder abgetropfter Speisequark, Mehl, Ei, Butter, Semmelbrösel. Konsistenz und DE-Im [Twaróg-Guide](/de/blog/twarog-deutschland) findest du typische Spezialzutaten. Ladenroute: [Polenladen](/de/blog/polenladen-einkaufen). Ersatzquark ehrlich nach [Ersatzprodukte DE](/de/blog/ersatzprodukte-de).",
     shopPl:
       "Twaróg lub odsączony Quark, mąka, jajko, masło, bułka tarta. Konsystencja i zakupy w DE: [przewodnik po twarogu](/pl/blog/twarog-w-niemczech). Trasa: [sklep polski](/pl/blog/sklep-polski-zakupy). Zamienniki według [zamienników składników](/pl/blog/zamienniki-skladnikow).",
     techniqueDe:
@@ -87,8 +87,8 @@ export const W10_FACTS_W9_RETROFIT: Record<string, ArticleFacts> = {
     mistakesPl:
       "Za mokra kapusta, za miękki makaron, za mało doprawienia. Pieprz i tłuszcz mają znaczenie. Nie mylić ze słodkim [makaronem z serem](/pl/rezepte/makaron-z-serem).",
     variantsDe:
-      "Vegetarisch ohne Speck, mit Pilzen, oder neben [Bigos](/de/rezepte/bigos) als Kraut-Silo. Ferment vertiefen: [Kiszenie](/de/blog/kiszenie-guide). Einkauf: [Polenladen](/de/blog/polenladen-einkaufen). Quark-Pasta-Nachbar: [Makaron z serem](/de/rezepte/makaron-z-serem).",
+      "Vegetarisch ohne Speck, mit Pilzen, oder neben [Bigos](/de/rezepte/bigos) als Kraut-Silo. Ferment vertiefen: [Kiszenie](/de/blog/kiszenie-guide). Im [Polenladen](/de/blog/polenladen-einkaufen) findest du typische Spezialzutaten. Quark-Pasta-Nachbar: [Makaron z serem](/de/rezepte/makaron-z-serem).",
     variantsPl:
-      "Wegetariańskie bez boczku, z grzybami albo obok [bigosu](/pl/rezepte/bigos). Ferment: [kiszenie](/pl/blog/kiszenie-w-domu). Zakupy: [sklep polski](/pl/blog/sklep-polski-zakupy). Sąsiad twarogowy: [makaron z serem](/pl/rezepte/makaron-z-serem).",
+      "Wegetariańskie bez boczku, z grzybami albo obok [bigosu](/pl/rezepte/bigos). Ferment: [kiszenie](/pl/blog/kiszenie-w-domu). W [sklep polski](/pl/blog/sklep-polski-zakupy) kupisz typowe specjalności. Sąsiad twarogowy: [makaron z serem](/pl/rezepte/makaron-z-serem).",
   },
 };

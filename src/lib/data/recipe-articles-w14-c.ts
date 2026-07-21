@@ -60,7 +60,7 @@ export const W14_FACTS_C: Record<string, ArticleFacts> = {
     serveDe:
       "Heiß, 2–3 Puffer pro Person, Gulasch großzügig, optional Käse und Śmietana am Rand. Menü [Sonntagsessen](/de/blog/sonntagsessen-polnisch). Wer die Komponenten einzeln will: [Placki](/de/rezepte/placki/ziemniaczane) oder [Gulasz](/de/rezepte/gulasz-wieprzowy). Technik-Nachschlag: [Placki-Guide](/de/blog/placki-guide).",
     servePl:
-      "Gorące, 2–3 placki na osobę, gulasz hojnie, opcjonalnie ser i śmietana z boku. Menu [obiad niedzielny](/pl/blog/obiad-niedzielny). Osobne komponenty: [placki](/pl/rezepte/placki/ziemniaczane) lub [gulasz](/pl/rezepte/gulasz-wieprzowy). Technika: [przewodnik](/pl/blog/placki-przewodnik).",
+      "Gorące, 2–3 placki na osobę, gulasz hojnie, opcjonalnie ser i śmietana z boku. Menu [obiad niedzielny](/pl/blog/obiad-niedzielny). Osobne komponenty: [placki](/pl/rezepte/placki/ziemniaczane) lub [gulasz](/pl/rezepte/gulasz-wieprzowy). Więcej w artykule [przewodnik](/pl/blog/placki-przewodnik).",
     diasporaDe:
       "In DE oft Samstag Gulasch, Sonntag nur Placki braten und anrichten — entlastet den Tag. Kinder dürfen reiben und Käse streuen; heißes Öl und Schmortopf bei Erwachsenen. Ein zusammengesetzter Teller statt zwei getrennter Gerichte. Einkauf früh: [Polenladen](/de/blog/polenladen-einkaufen). Kulturrahmen bleibt bei [Sonntagsessen](/de/blog/sonntagsessen-polnisch).",
     diasporaPl:
@@ -70,9 +70,9 @@ export const W14_FACTS_C: Record<string, ArticleFacts> = {
     mistakesPl:
       "Same gołe placki → clash z [plackami](/pl/rezepte/placki/ziemniaczane). Sama miska gulaszu → clash z [gulaszem](/pl/rezepte/gulasz-wieprzowy). Kradzież broad w [przewodniku](/pl/blog/placki-przewodnik). Placki za długo pod sosem. Roszczenie menu zamiast [obiadu niedzielnego](/pl/blog/obiad-niedzielny).",
     variantsDe:
-      "Ohne Käse; mit Pilzgulasch (ehrlich benennen); schärfer. Nachbarn: [Placki](/de/rezepte/placki/ziemniaczane), [Gulasz](/de/rezepte/gulasz-wieprzowy), Guide [Placki](/de/blog/placki-guide), [Sonntagsessen](/de/blog/sonntagsessen-polnisch), [Dutch Oven](/de/blog/dutch-oven-kaufberatung), [Polenladen](/de/blog/polenladen-einkaufen).",
+      "Ohne Käse; mit Pilzgulasch (ehrlich benennen); schärfer. Passende Nachbarn sind [Placki](/de/rezepte/placki/ziemniaczane), [Gulasz](/de/rezepte/gulasz-wieprzowy), Guide [Placki](/de/blog/placki-guide), [Sonntagsessen](/de/blog/sonntagsessen-polnisch), [Dutch Oven](/de/blog/dutch-oven-kaufberatung), [Polenladen](/de/blog/polenladen-einkaufen).",
     variantsPl:
-      "Bez sera; z gulaszem pieczarkowym (nazwać uczciwie); ostrzej. Sąsiedzi: [placki](/pl/rezepte/placki/ziemniaczane), [gulasz](/pl/rezepte/gulasz-wieprzowy), [przewodnik](/pl/blog/placki-przewodnik), [obiad niedzielny](/pl/blog/obiad-niedzielny), [dutch oven](/pl/blog/garnek-do-duszenia), [sklep polski](/pl/blog/sklep-polski-zakupy).",
+      "Bez sera; z gulaszem pieczarkowym (nazwać uczciwie); ostrzej. Pasujący sąsiedzi to [placki](/pl/rezepte/placki/ziemniaczane), [gulasz](/pl/rezepte/gulasz-wieprzowy), [przewodnik](/pl/blog/placki-przewodnik), [obiad niedzielny](/pl/blog/obiad-niedzielny), [dutch oven](/pl/blog/garnek-do-duszenia), [sklep polski](/pl/blog/sklep-polski-zakupy).",
   },
 
   "recipe-zapiekanka": {
@@ -87,28 +87,28 @@ export const W14_FACTS_C: Record<string, ArticleFacts> = {
     originPl:
       "Zapiekanka to polskiej bagietki ulicznej: przekrojona wzdłuż, z podsmażonymi pieczarkami (± szynką) i serem, klasycznie z keczupem. To ani [krokiety](/pl/rezepte/krokiety) (zwijane, panierowane), ani [naleśniki](/pl/rezepte/nalesniki/twarog), ani [pierogi](/pl/rezepte/pierogi/ruskie). Tu: forma bagietki + ser. Zakupy i diaspora: [sklep polski](/pl/blog/sklep-polski-zakupy), zamienniki [zamienniki składników](/pl/blog/zamienniki-skladnikow). Codzienność [obiad niedzielny](/pl/blog/obiad-niedzielny) — przewodnik kulturowy zostaje tam; tu tylko cook uliczny.",
     shopDe:
-      "Baguette, Champignons, Zwiebel, Schinken, schmelzfähiger Käse, Butter/Öl, Ketchup — alles oft im Supermarkt; Schinken und Käse-Feeling im [Polenladen](/de/blog/polenladen-einkaufen). Käse-Ersatz: [Ersatzprodukte DE](/de/blog/ersatzprodukte-de). Wer Rollen will: [Krokiety](/de/rezepte/krokiety). Wer Pfannkuchen: [Naleśniki](/de/rezepte/nalesniki/twarog).",
+      "Baguette, Champignons, Zwiebel, Schinken, schmelzfähiger Käse, Butter/Öl, Ketchup — alles oft im Supermarkt; Schinken und Käse-Feeling im [Polenladen](/de/blog/polenladen-einkaufen). Käse-Alternativen stehen unter [Ersatzprodukte DE](/de/blog/ersatzprodukte-de). Wer Rollen will: [Krokiety](/de/rezepte/krokiety). Wer Pfannkuchen: [Naleśniki](/de/rezepte/nalesniki/twarog).",
     shopPl:
-      "Bagietka, pieczarki, cebula, szynka, ser do pieczenia, masło/olej, keczup — często supermarket; szynka i ser w [sklepie polskim](/pl/blog/sklep-polski-zakupy). Zamienniki: [zamienniki](/pl/blog/zamienniki-skladnikow). Zwinięte: [krokiety](/pl/rezepte/krokiety). Naleśniki: [naleśniki](/pl/rezepte/nalesniki/twarog).",
+      "Bagietka, pieczarki, cebula, szynka, ser do pieczenia, masło/olej, keczup — często supermarket; szynka i ser w [sklepie polskim](/pl/blog/sklep-polski-zakupy). Zamienniki znajdziesz w [zamienniki](/pl/blog/zamienniki-skladnikow). Zwinięte: [krokiety](/pl/rezepte/krokiety). Naleśniki: [naleśniki](/pl/rezepte/nalesniki/twarog).",
     techniqueDe:
       "Pilze ausdämpfen, sonst wird das Brot nass. Baguette andrösten, Belag gleichmäßig, Käse großzügig. Backen bis Schmelz und knusprige Ränder — zu lang = hartes Brot. Ketchup erst nach dem Ofen. Vegetarisch: Schinken weglassen und ehrlich benennen.",
     techniquePl:
       "Pieczarki odparować, inaczej chleb mokry. Bagietkę podpiec, farsz równo, ser hojnie. Piec do roztopu i chrupkich brzegów — za długo = twardy chleb. Keczup po pieczeniu. Wege: bez szynki, nazwać uczciwie.",
     serveDe:
-      "Heiß aus der Hand oder auf Brett, längs oder in Stücken, Ketchup-Strich, optional Schnittlauch. Alltag neben [Sonntagsessen](/de/blog/sonntagsessen-polnisch). Nicht mit [Pierogi](/de/rezepte/pierogi/ruskie) oder [Krokiety](/de/rezepte/krokiety) mischen. Einkauf: [Polenladen](/de/blog/polenladen-einkaufen).",
+      "Heiß aus der Hand oder auf Brett, längs oder in Stücken, Ketchup-Strich, optional Schnittlauch. Alltag neben [Sonntagsessen](/de/blog/sonntagsessen-polnisch). Nicht mit [Pierogi](/de/rezepte/pierogi/ruskie) oder [Krokiety](/de/rezepte/krokiety) mischen. Im [Polenladen](/de/blog/polenladen-einkaufen) findest du typische Spezialzutaten.",
     servePl:
-      "Gorące z ręki lub na desce, wzdłuż lub w kawałkach, keczup, opcjonalnie szczypiorek. Codzienność obok [obiadu niedzielnego](/pl/blog/obiad-niedzielny). Nie mieszać z [pierogami](/pl/rezepte/pierogi/ruskie) ani [krokietami](/pl/rezepte/krokiety). Zakupy: [sklep polski](/pl/blog/sklep-polski-zakupy).",
+      "Gorące z ręki lub na desce, wzdłuż lub w kawałkach, keczup, opcjonalnie szczypiorek. Codzienność obok [obiadu niedzielnego](/pl/blog/obiad-niedzielny). Nie mieszać z [pierogami](/pl/rezepte/pierogi/ruskie) ani [krokietami](/pl/rezepte/krokiety). W [sklep polski](/pl/blog/sklep-polski-zakupy) kupisz typowe specjalności.",
     diasporaDe:
-      "In DE oft Freitagabend oder nach dem Training — 20 Minuten, wenig Geschirr. Kinder streuen Käse; heißer Ofen bei Erwachsenen. Ein Baguette reicht für vier Portionen. Nostalgie ohne Restaurantfahrt. Einkauf: [Polenladen](/de/blog/polenladen-einkaufen); Alternativen: [Ersatzprodukte](/de/blog/ersatzprodukte-de).",
+      "In DE oft Freitagabend oder nach dem Training — 20 Minuten, wenig Geschirr. Kinder streuen Käse; heißer Ofen bei Erwachsenen. Ein Baguette reicht für vier Portionen. Nostalgie ohne Restaurantfahrt. Im [Polenladen](/de/blog/polenladen-einkaufen) findest du Spezialzutaten; Alternativen stehen unter [Ersatzprodukte](/de/blog/ersatzprodukte-de).",
     diasporaPl:
-      "W DE często piątkowy wieczór lub po treningu — 20 minut, mało naczyń. Dzieci sypią ser; gorący piekarnik u dorosłych. Jedna bagietka na cztery porcje. Nostalgia bez restauracji. Zakupy: [sklep polski](/pl/blog/sklep-polski-zakupy); zamienniki: [zamienniki](/pl/blog/zamienniki-skladnikow).",
+      "W DE często piątkowy wieczór lub po treningu — 20 minut, mało naczyń. Dzieci sypią ser; gorący piekarnik u dorosłych. Jedna bagietka na cztery porcje. Nostalgia bez restauracji. W [sklep polski](/pl/blog/sklep-polski-zakupy) kupisz specjalności; zamienniki znajdziesz w [zamienniki](/pl/blog/zamienniki-skladnikow).",
     mistakesDe:
       "Nasse Pilze aufs Brot. Mit [Krokiety](/de/rezepte/krokiety) oder [Naleśniki](/de/rezepte/nalesniki/twarog) verwechseln. Runde Pizza statt Baguette-Form. Speiseplan-Hitze, Feuchtigkeit oder Garzeit falsch einschätzen. Käse sparen — dann kein Street-Feeling.",
     mistakesPl:
       "Mokre pieczarki na chleb. Mylenie z [krokietami](/pl/rezepte/krokiety) lub [naleśnikami](/pl/rezepte/nalesniki/twarog). Okrągła pizza zamiast bagietki. Kradzież fokus menu zamiast [obiadu niedzielnego](/pl/blog/obiad-niedzielny). Za mało sera — brak ulicznego charakteru.",
     variantsDe:
-      "Nur Pilze (vegetarisch ehrlich); mit Kiełbasa statt Schinken; schärferer Ketchup. Nachbarn: [Krokiety](/de/rezepte/krokiety), [Naleśniki](/de/rezepte/nalesniki/twarog), [Pierogi](/de/rezepte/pierogi/ruskie). Guides: [Polenladen](/de/blog/polenladen-einkaufen), [Ersatzprodukte](/de/blog/ersatzprodukte-de), [Sonntagsessen](/de/blog/sonntagsessen-polnisch).",
+      "Nur Pilze (vegetarisch ehrlich); mit Kiełbasa statt Schinken; schärferer Ketchup. Passende Nachbarn sind [Krokiety](/de/rezepte/krokiety), [Naleśniki](/de/rezepte/nalesniki/twarog), [Pierogi](/de/rezepte/pierogi/ruskie). Guides: [Polenladen](/de/blog/polenladen-einkaufen), [Ersatzprodukte](/de/blog/ersatzprodukte-de), [Sonntagsessen](/de/blog/sonntagsessen-polnisch).",
     variantsPl:
-      "Tylko pieczarki (wege uczciwie); z kiełbasą zamiast szynki; ostrzejszy keczup. Sąsiedzi: [krokiety](/pl/rezepte/krokiety), [naleśniki](/pl/rezepte/nalesniki/twarog), [pierogi](/pl/rezepte/pierogi/ruskie). Przewodniki: [sklep polski](/pl/blog/sklep-polski-zakupy), [zamienniki](/pl/blog/zamienniki-skladnikow), [obiad niedzielny](/pl/blog/obiad-niedzielny).",
+      "Tylko pieczarki (wege uczciwie); z kiełbasą zamiast szynki; ostrzejszy keczup. Pasujący sąsiedzi to [krokiety](/pl/rezepte/krokiety), [naleśniki](/pl/rezepte/nalesniki/twarog), [pierogi](/pl/rezepte/pierogi/ruskie). Przewodniki: [sklep polski](/pl/blog/sklep-polski-zakupy), [zamienniki](/pl/blog/zamienniki-skladnikow), [obiad niedzielny](/pl/blog/obiad-niedzielny).",
   },
 };

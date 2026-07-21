@@ -56,8 +56,8 @@ export const W9_FACTS_C: Record<string, W9ArticleFacts> = {
     mistakesPl:
       "Za gorące mleko (zabite drożdże), za dużo mąki, przepełniona forma, zbyt gorący piec, zbyt wczesne wyjmowanie, kradzież fokus makowca/sernika/pączków w title, roszczenie menu wielkanocnego jako Rezeptseitea.",
     variantsDe:
-      "Mit Rosinen, Kakao-Marmor (Hausbrauch), Zitronenglasur. Kleinerer Napfkuchen für kleinere Öfen. Mohnrolle bleibt [Makowiec](/de/rezepte/makowiec); Käsekuchen [Sernik](/de/rezepte/sernik); Honig-Gewürz [Piernik](/de/rezepte/piernik). Geflochtener Hefezopf/Laib (nicht Gugelhupf): [Chałka](/de/rezepte/chalka). Hefe-Kontext: [Makowiec-Technik](/de/blog/makowiec-technik). Anlass: [Wielkanoc](/de/blog/wielkanoc-speiseplan).",
+      "Mit Rosinen, Kakao-Marmor (Hausbrauch), Zitronenglasur. Kleinerer Napfkuchen für kleinere Öfen. Mohnrolle bleibt [Makowiec](/de/rezepte/makowiec); Käsekuchen [Sernik](/de/rezepte/sernik); Honig-Gewürz [Piernik](/de/rezepte/piernik). Geflochtener Hefezopf/Laib (nicht Gugelhupf): [Chałka](/de/rezepte/chalka). Hefe-Kontext: [Makowiec-Technik](/de/blog/makowiec-technik). Zum Anlass passt [Wielkanoc](/de/blog/wielkanoc-speiseplan).",
     variantsPl:
-      "Z rodzynkami, marmurkiem kakaowym (zwyczaj domu), lukrem cytrynowym. Mniejsza babka do mniejszego pieca. Rolada makowa: [makowiec](/pl/rezepte/makowiec); sernik: [sernik](/pl/rezepte/sernik); miód i korzeń: [piernik](/pl/rezepte/piernik). Pleciony chleb drożdżowy (nie forma): [chałka](/pl/rezepte/chalka). Wyczucie drożdży: [technika makowca](/pl/blog/makowiec-technika). Okazja: [Wielkanoc](/pl/blog/menu-wielkanocne).",
+      "Z rodzynkami, marmurkiem kakaowym (zwyczaj domu), lukrem cytrynowym. Mniejsza babka do mniejszego pieca. Rolada makowa: [makowiec](/pl/rezepte/makowiec); sernik: [sernik](/pl/rezepte/sernik); miód i korzeń: [piernik](/pl/rezepte/piernik). Pleciony chleb drożdżowy (nie forma): [chałka](/pl/rezepte/chalka). Wyczucie drożdży: [technika makowca](/pl/blog/makowiec-technika). Do okazji pasuje [Wielkanoc](/pl/blog/menu-wielkanocne).",
   },
 };

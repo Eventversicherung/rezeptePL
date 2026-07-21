@@ -67,9 +67,9 @@ export const W12_FACTS_A: Record<string, ArticleFacts> = {
     mistakesPl:
       "Płyn z moczenia bez przecedzenia (piasek). Mylenie z [barszczem](/pl/rezepte/barszcz-czerwony) lub [flakami](/pl/rezepte/flaki). Mylenie z zupą jęczmienną [krupnik](/pl/rezepte/krupnik). Za krótkie moczenie. Śmietana do wrzątku. Nie mieszać ilości i kroków z sąsiednim przepisem. nie.",
     variantsDe:
-      "Mit frischen Champignons ergänzt; mit Uszka-Nachbar statt Nudeln; cremig nur im Alltag. Nachbarn: [Barszcz](/de/rezepte/barszcz-czerwony), [Ogórkowa](/de/rezepte/ogorkowa), [Flaki](/de/rezepte/flaki), [Krupnik](/de/rezepte/krupnik). Einkauf: [Polenladen](/de/blog/polenladen-einkaufen), [Ersatzprodukte](/de/blog/ersatzprodukte-de), Anlass: [Wigilia](/de/blog/wigilia-speiseplan).",
+      "Mit frischen Champignons ergänzt; mit Uszka-Nachbar statt Nudeln; cremig nur im Alltag. Passende Nachbarn sind [Barszcz](/de/rezepte/barszcz-czerwony), [Ogórkowa](/de/rezepte/ogorkowa), [Flaki](/de/rezepte/flaki), [Krupnik](/de/rezepte/krupnik). Im [Polenladen](/de/blog/polenladen-einkaufen) und unter [Ersatzprodukte](/de/blog/ersatzprodukte-de) findest du Einkaufshilfen; zum Anlass passt [Wigilia](/de/blog/wigilia-speiseplan).",
     variantsPl:
-      "Ze świeżymi pieczarkami; uszka zamiast makaronu; kremowo tylko na co dzień. Sąsiedzi: [barszcz](/pl/rezepte/barszcz-czerwony), [ogórkowa](/pl/rezepte/ogorkowa), [flaki](/pl/rezepte/flaki), [krupnik](/pl/rezepte/krupnik). Zakupy: [sklep polski](/pl/blog/sklep-polski-zakupy), [zamienniki](/pl/blog/zamienniki-skladnikow), okazja: [menu wigilijne](/pl/blog/menu-wigilijne).",
+      "Ze świeżymi pieczarkami; uszka zamiast makaronu; kremowo tylko na co dzień. Pasujący sąsiedzi to [barszcz](/pl/rezepte/barszcz-czerwony), [ogórkowa](/pl/rezepte/ogorkowa), [flaki](/pl/rezepte/flaki), [krupnik](/pl/rezepte/krupnik). W [sklep polski](/pl/blog/sklep-polski-zakupy) i pod [zamienniki](/pl/blog/zamienniki-skladnikow) znajdziesz wskazówki zakupowe; do okazji pasuje [menu wigilijne](/pl/blog/menu-wigilijne).",
   },
 
   "recipe-grochowka": {
@@ -102,8 +102,8 @@ export const W12_FACTS_A: Record<string, ArticleFacts> = {
     mistakesPl:
       "Mylenie z [fasolką](/pl/rezepte/fasolka-po-bretonsku). Mylenie z [kapuśniakiem](/pl/rezepte/kapusniak). Mylenie z [krupnikiem](/pl/rezepte/krupnik). Za krótko gotowane. Kiełbasa od początku do bladości. Nie mieszać ilości i kroków z sąsiednim przepisem. nie.",
     variantsDe:
-      "Mit mehr Speck rauchiger; vegetarisch mit geräuchertem Paprika ehrlich benannt; dicker oder dünner nach Hausbrauch. Nachbarn: [Fasolka](/de/rezepte/fasolka-po-bretonsku), [Kapuśniak](/de/rezepte/kapusniak), [Rosół](/de/rezepte/rosol). Guides: [Polnische Suppen](/de/blog/polnische-suppen), [Kiełbasa-Arten](/de/blog/kielbasa-arten), [Sonntagsessen](/de/blog/sonntagsessen-polnisch), [Ersatzprodukte](/de/blog/ersatzprodukte-de).",
+      "Mit mehr Speck rauchiger; vegetarisch mit geräuchertem Paprika ehrlich benannt; dicker oder dünner nach Hausbrauch. Passende Nachbarn sind [Fasolka](/de/rezepte/fasolka-po-bretonsku), [Kapuśniak](/de/rezepte/kapusniak), [Rosół](/de/rezepte/rosol). Guides: [Polnische Suppen](/de/blog/polnische-suppen), [Kiełbasa-Arten](/de/blog/kielbasa-arten), [Sonntagsessen](/de/blog/sonntagsessen-polnisch), [Ersatzprodukte](/de/blog/ersatzprodukte-de).",
     variantsPl:
-      "Z większą ilością słoniny bardziej wędzona; wege z wędzoną papryką uczciwie nazwana; gęstsza lub rzadsza według domu. Sąsiedzi: [fasolka](/pl/rezepte/fasolka-po-bretonsku), [kapuśniak](/pl/rezepte/kapusniak), [rosół](/pl/rezepte/rosol). Przewodniki: [polskie zupy](/pl/blog/polskie-zupy), [rodzaje kiełbasy](/pl/blog/rodzaje-kielbasy), [obiad niedzielny](/pl/blog/obiad-niedzielny), [zamienniki](/pl/blog/zamienniki-skladnikow).",
+      "Z większą ilością słoniny bardziej wędzona; wege z wędzoną papryką uczciwie nazwana; gęstsza lub rzadsza według domu. Pasujący sąsiedzi to [fasolka](/pl/rezepte/fasolka-po-bretonsku), [kapuśniak](/pl/rezepte/kapusniak), [rosół](/pl/rezepte/rosol). Przewodniki: [polskie zupy](/pl/blog/polskie-zupy), [rodzaje kiełbasy](/pl/blog/rodzaje-kielbasy), [obiad niedzielny](/pl/blog/obiad-niedzielny), [zamienniki](/pl/blog/zamienniki-skladnikow).",
   },
 };

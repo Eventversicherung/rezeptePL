@@ -67,8 +67,8 @@ export const W14_FACTS_D: Record<string, ArticleFacts> = {
     mistakesPl:
       "Mylenie z [gulaszem wieprzowym](/pl/rezepte/gulasz-wieprzowy) i 90 minut kostki mięsa — złe fokus. Papryka surowa (za krótko). Za mało pomidora (sucho). Sama ciemna grillowa bez dominacji warzyw. Nie mieszać ilości i kroków z sąsiednim przepisem. nie. Nie nadpisywać [obiadu niedzielnego](/pl/blog/obiad-niedzielny).",
     variantsDe:
-      "Ohne Wurst vegetarisch (Paprika-Tomate allein). Mit Ei zugedeckt gestockt. Schärfer mit Chili. Nachbar-Schmor-Fleisch bleibt [Gulasz](/de/rezepte/gulasz-wieprzowy); Kraut-Topf [Bigos](/de/rezepte/bigos); Bohnen [Fasolka](/de/rezepte/fasolka-po-bretonsku). Würze: [Majeranek](/de/blog/majeranek). Wurst-Typen: [Kiełbasa-Arten](/de/blog/kielbasa-arten). Einkauf: [Polenladen](/de/blog/polenladen-einkaufen).",
+      "Ohne Wurst vegetarisch (Paprika-Tomate allein). Mit Ei zugedeckt gestockt. Schärfer mit Chili. Nachbar-Schmor-Fleisch bleibt [Gulasz](/de/rezepte/gulasz-wieprzowy); Kraut-Topf [Bigos](/de/rezepte/bigos); Bohnen [Fasolka](/de/rezepte/fasolka-po-bretonsku). Würze: [Majeranek](/de/blog/majeranek). Wurst-Typen: [Kiełbasa-Arten](/de/blog/kielbasa-arten). Im [Polenladen](/de/blog/polenladen-einkaufen) findest du typische Spezialzutaten.",
     variantsPl:
-      "Bez kiełbasy wegetariańsko (sama papryka-pomidor). Z jajkiem pod przykryciem. Ostrzej z chili. Sąsiad mięsny zostaje [gulaszem](/pl/rezepte/gulasz-wieprzowy); kapusta [bigos](/pl/rezepte/bigos); fasola [fasolka](/pl/rezepte/fasolka-po-bretonsku). Przyprawa: [majeranek](/pl/blog/majeranek-leksykon). Typy kiełbasy: [rodzaje kiełbasy](/pl/blog/rodzaje-kielbasy). Zakupy: [sklep polski](/pl/blog/sklep-polski-zakupy).",
+      "Bez kiełbasy wegetariańsko (sama papryka-pomidor). Z jajkiem pod przykryciem. Ostrzej z chili. Sąsiad mięsny zostaje [gulaszem](/pl/rezepte/gulasz-wieprzowy); kapusta [bigos](/pl/rezepte/bigos); fasola [fasolka](/pl/rezepte/fasolka-po-bretonsku). Przyprawa: [majeranek](/pl/blog/majeranek-leksykon). Typy kiełbasy: [rodzaje kiełbasy](/pl/blog/rodzaje-kielbasy). W [sklep polski](/pl/blog/sklep-polski-zakupy) kupisz typowe specjalności.",
   },
 };

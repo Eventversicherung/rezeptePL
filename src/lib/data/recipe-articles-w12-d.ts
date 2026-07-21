@@ -58,17 +58,17 @@ export const W12_FACTS_D: Record<string, ArticleFacts> = {
     servePl:
       "Gorące z sosem, ziemniakami, ryżem lub chlebem. Koperek i opcjonalnie ogórek. Menu [obiad niedzielny](/pl/blog/obiad-niedzielny). Kto chce chrupiącą panierkę: [kotlet mielony](/pl/rezepte/kotlet-mielony) lub [schabowy](/pl/rezepte/kotlet-schabowy). Resztki w sosie — często lepsze nazajutrz.",
     diasporaDe:
-      "Hack und Brötchen sind überall in DE greifbar; Dill und Śmietana machen den polnischen Charakter. Kinder formen Kugeln; heiße Soße bleibt bei Erwachsenen. Schneller als volle Panade-Station laut [Panieren](/de/blog/panieren-schabowy). Einkauf: [Polenladen](/de/blog/polenladen-einkaufen) für Śmietana und Majoran.",
+      "Hack und Brötchen sind überall in DE greifbar; Dill und Śmietana machen den polnischen Charakter. Kinder formen Kugeln; heiße Soße bleibt bei Erwachsenen. Schneller als volle Panade-Station laut [Panieren](/de/blog/panieren-schabowy). Im [Polenladen](/de/blog/polenladen-einkaufen) findest du Śmietana und Majoran.",
     diasporaPl:
-      "Mięso i bułka są w DE wszędzie; koperek i śmietana budują polski charakter. Dzieci formują kulki; gorący sos u dorosłych. Szybciej niż pełna stacja panierki według [panierowania](/pl/blog/panierowanie-kotlet). Zakupy: [sklep polski](/pl/blog/sklep-polski-zakupy) po śmietanę i majeranek.",
+      "Mięso i bułka są w DE wszędzie; koperek i śmietana budują polski charakter. Dzieci formują kulki; gorący sos u dorosłych. Szybciej niż pełna stacja panierki według [panierowania](/pl/blog/panierowanie-kotlet). W [sklep polski](/pl/blog/sklep-polski-zakupy) kupisz śmietanę i majeranek.",
     mistakesDe:
       "Mit [Kotlet mielony](/de/rezepte/kotlet-mielony) verwechseln und panieren. Śmietana aufkochen lassen (flockt). Zu wenig Dill. Zu große Klopsy. Mengen und Schritte nicht mit dem verlinkten Nachbarn vermischen. nein, dort bleibt Kultur-Guide.",
     mistakesPl:
       "Mylenie z [kotletem mielonym](/pl/rezepte/kotlet-mielony) i panierowanie. Zagotowanie śmietany. Za mało koperku. Za duże klopsy. Nie mieszać ilości i kroków z sąsiednim przepisem. nie.",
     variantsDe:
-      "Tomatensoße statt Dill als Hausvariante — Fokus bleibt Dill-Linie auf dieser URL. Mit Pute milder. Nachbarn: [Kotlet mielony](/de/rezepte/kotlet-mielony), [Schabowy](/de/rezepte/kotlet-schabowy). Guides: [Panieren](/de/blog/panieren-schabowy), [Śmietana](/de/blog/smietana-schmand), [Sonntagsessen](/de/blog/sonntagsessen-polnisch).",
+      "Tomatensoße statt Dill als Hausvariante — Fokus bleibt Dill-Linie auf dieser URL. Mit Pute milder. Passende Nachbarn sind [Kotlet mielony](/de/rezepte/kotlet-mielony), [Schabowy](/de/rezepte/kotlet-schabowy). Guides: [Panieren](/de/blog/panieren-schabowy), [Śmietana](/de/blog/smietana-schmand), [Sonntagsessen](/de/blog/sonntagsessen-polnisch).",
     variantsPl:
-      "Sos pomidorowy zamiast koperkowego jako wariant domu — fokus tej URL zostaje linia koperkowa. Z indykiem łagodniej. Sąsiedzi: [kotlet mielony](/pl/rezepte/kotlet-mielony), [schabowy](/pl/rezepte/kotlet-schabowy). Przewodniki: [panierowanie](/pl/blog/panierowanie-kotlet), [śmietana](/pl/blog/smietana-czy-schmand), [obiad niedzielny](/pl/blog/obiad-niedzielny).",
+      "Sos pomidorowy zamiast koperkowego jako wariant domu — fokus tej URL zostaje linia koperkowa. Z indykiem łagodniej. Pasujący sąsiedzi to [kotlet mielony](/pl/rezepte/kotlet-mielony), [schabowy](/pl/rezepte/kotlet-schabowy). Przewodniki: [panierowanie](/pl/blog/panierowanie-kotlet), [śmietana](/pl/blog/smietana-czy-schmand), [obiad niedzielny](/pl/blog/obiad-niedzielny).",
   },
 
   "recipe-kluski-kladzione": {
@@ -101,8 +101,8 @@ export const W12_FACTS_D: Record<string, ArticleFacts> = {
     mistakesPl:
       "Mylenie z [kluskami śląskimi](/pl/rezepte/kluski-slaskie) lub [kopytkami](/pl/rezepte/kopytka). Zbyt twarde wyrabianie. Zbyt gwałtowne gotowanie. Nie mieszać ilości i kroków z sąsiednim przepisem. nie.",
     variantsDe:
-      "Mehr Ei fester; etwas Grieß. Mit Butter statt Brühe als Beilage. Nachbarn: [Rosół](/de/rezepte/rosol), [Kluski śląskie](/de/rezepte/kluski-slaskie), [Kopytka](/de/rezepte/kopytka). Guides: [Rosół-Technik](/de/blog/rosol-technik), [Polnische Suppen](/de/blog/polnische-suppen), [Sonntagsessen](/de/blog/sonntagsessen-polnisch).",
+      "Mehr Ei fester; etwas Grieß. Mit Butter statt Brühe als Beilage. Passende Nachbarn sind [Rosół](/de/rezepte/rosol), [Kluski śląskie](/de/rezepte/kluski-slaskie), [Kopytka](/de/rezepte/kopytka). Guides: [Rosół-Technik](/de/blog/rosol-technik), [Polnische Suppen](/de/blog/polnische-suppen), [Sonntagsessen](/de/blog/sonntagsessen-polnisch).",
     variantsPl:
-      "Więcej jaj twardziej; odrobina kaszy manny. Z masłem zamiast bulionu jako dodatek. Sąsiedzi: [rosół](/pl/rezepte/rosol), [kluski śląskie](/pl/rezepte/kluski-slaskie), [kopytka](/pl/rezepte/kopytka). Przewodniki: [rosół](/pl/blog/jak-ugotowac-rosol), [polskie zupy](/pl/blog/polskie-zupy), [obiad niedzielny](/pl/blog/obiad-niedzielny).",
+      "Więcej jaj twardziej; odrobina kaszy manny. Z masłem zamiast bulionu jako dodatek. Pasujący sąsiedzi to [rosół](/pl/rezepte/rosol), [kluski śląskie](/pl/rezepte/kluski-slaskie), [kopytka](/pl/rezepte/kopytka). Przewodniki: [rosół](/pl/blog/jak-ugotowac-rosol), [polskie zupy](/pl/blog/polskie-zupy), [obiad niedzielny](/pl/blog/obiad-niedzielny).",
   },
 };

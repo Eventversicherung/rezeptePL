@@ -60,9 +60,9 @@ export const W10_FACTS_B: Record<string, ArticleFacts> = {
     mistakesPl:
       "Gotowanie miodu do goryczy; zbyt gorący piec; kradzież fokus makowca lub babki (drożdże/mak w tytule); zbyt wczesne krojenie; stare, płaskie przyprawy; lukier na gorące. Duplikować menu zamiast linkować.",
     variantsDe:
-      "Mit Powidła zwischen zwei Böden, mit Schokoglasur, als kleinere Muffins für den Freezer der Nachbarn. Mohnrolle bleibt [Makowiec](/de/rezepte/makowiec); Form-Hefe [Babka](/de/rezepte/babka); Käsekuchen [Sernik](/de/rezepte/sernik); Apfelkuchen-Blech [Szarlotka](/de/rezepte/szarlotka) (≠ Piernik-Rezept). Technik-Feeling: [Makowiec-Technik](/de/blog/makowiec-technik). Anlass: [Wigilia](/de/blog/wigilia-speiseplan). Einkauf: [Polenladen](/de/blog/polenladen-einkaufen).",
+      "Mit Powidła zwischen zwei Böden, mit Schokoglasur, als kleinere Muffins für den Freezer der Nachbarn. Mohnrolle bleibt [Makowiec](/de/rezepte/makowiec); Form-Hefe [Babka](/de/rezepte/babka); Käsekuchen [Sernik](/de/rezepte/sernik); Apfelkuchen-Blech [Szarlotka](/de/rezepte/szarlotka) (≠ Piernik-Rezept). Technik-Feeling: [Makowiec-Technik](/de/blog/makowiec-technik). Zum Anlass passt [Wigilia](/de/blog/wigilia-speiseplan). Im [Polenladen](/de/blog/polenladen-einkaufen) findest du typische Spezialzutaten.",
     variantsPl:
-      "Z powidłami między dwoma blatami, z lukrem czekoladowym, jako mniejsze babeczki. Rolada makowa: [makowiec](/pl/rezepte/makowiec); drożdże z formy: [babka](/pl/rezepte/babka); sernik: [sernik](/pl/rezepte/sernik); ciasto jabłkowe z blachy: [szarlotka](/pl/rezepte/szarlotka) (≠ Piernik-Rezept). Technika: [makowiec-technika](/pl/blog/makowiec-technika). Okazja: [menu wigilijne](/pl/blog/menu-wigilijne). Zakupy: [sklep polski](/pl/blog/sklep-polski-zakupy).",
+      "Z powidłami między dwoma blatami, z lukrem czekoladowym, jako mniejsze babeczki. Rolada makowa: [makowiec](/pl/rezepte/makowiec); drożdże z formy: [babka](/pl/rezepte/babka); sernik: [sernik](/pl/rezepte/sernik); ciasto jabłkowe z blachy: [szarlotka](/pl/rezepte/szarlotka) (≠ Piernik-Rezept). Więcej w artykule [makowiec-technika](/pl/blog/makowiec-technika). Do okazji pasuje [menu wigilijne](/pl/blog/menu-wigilijne). W [sklep polski](/pl/blog/sklep-polski-zakupy) kupisz typowe specjalności.",
   },
   "recipe-zupa-pomidorowa": {
     dishDe: "Zupa pomidorowa",
