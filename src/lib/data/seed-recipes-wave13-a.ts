@@ -72,7 +72,7 @@ export const seedRecipesWave13A: Recipe[] = [
           },
           {
             text: "Opcjonalnie dogotuj kurczaka lub dodaj ugotowane mięso późno. Dopraw solą; kwasu mało. Wymieszaj koperkiem lub pietruszką. To nie ciemny wywar z suszu jak [zupa grzybowa](/pl/rezepte/zupa-grzybowa).",
-            tip: "Miejsce w menu: [obiad niedzielny](/pl/blog/obiad-niedzielny). fokus zostaje krupnik.",
+            tip: "Miejsce w menu: [obiad niedzielny](/pl/blog/obiad-niedzielny). tu zostaje krupnik.",
           },
           {
             text: "Podawaj gorącą w głębokich talerzach; chleb obok. Resztki często lepsze nazajutrz — kasza ciągnie płyn, dolej bulionu.",

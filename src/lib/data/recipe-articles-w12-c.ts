@@ -57,7 +57,7 @@ export const W12_FACTS_C: Record<string, ArticleFacts> = {
     serveDe:
       "In Rauten oder Rechtecken auf Platte, optional getrocknete Früchte. Am Ostertisch neben Żurek und Eiern; Fokus bleibt dieses Rezept, Menü-Artikel [Wielkanoc](/de/blog/wielkanoc-speiseplan). Wer Höhe und Hefe will: [Babka](/de/rezepte/babka). Wer Quark: [Sernik](/de/rezepte/sernik). Wer Mohnspirale: [Makowiec](/de/rezepte/makowiec). Reste luftdicht — Belag hält knusprig-nussig.",
     servePl:
-      "W romby lub prostokąty na półmisek, opcjonalnie suszone owoce. Przy stole obok żurku i jaj; fokus zostaje ten przepis, owner menu: [menu wielkanocne](/pl/blog/menu-wielkanocne). Kto chce wysokość i drożdże: [babka](/pl/rezepte/babka). Twaróg: [sernik](/pl/rezepte/sernik). Mak: [makowiec](/pl/rezepte/makowiec). Resztki szczelnie — wierzch zostaje chrupiący.",
+      "W romby lub prostokąty na półmisek, opcjonalnie suszone owoce. Przy stole obok żurku i jaj; tu zostaje ten przepis, menu: [menu wielkanocne](/pl/blog/menu-wielkanocne). Kto chce wysokość i drożdże: [babka](/pl/rezepte/babka). Twaróg: [sernik](/pl/rezepte/sernik). Mak: [makowiec](/pl/rezepte/makowiec). Resztki szczelnie — wierzch zostaje chrupiący.",
     diasporaDe:
       "In DE oft Samstag backen, Sonntag nur anrichten — entlastet den Ostermorgen. Kinder dürfen Nüsse zählen und Rauten legen; heißer Ofen bei Erwachsenen. Ein Blech reicht für viele Gäste; Qualität vor drei verschiedenen Kuchen. Einkauf früh im [Polenladen](/de/blog/polenladen-einkaufen), bevor Nuss- und Honigregale leer sind. Speiseplan nicht als Rezeptseite beanspruchen — [Wielkanoc](/de/blog/wielkanoc-speiseplan) bleibt Anlass.",
     diasporaPl:

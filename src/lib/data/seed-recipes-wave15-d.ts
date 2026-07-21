@@ -39,11 +39,11 @@ export const seedRecipesWave15D: Recipe[] = [
         steps: [
           {
             text: "Kartoffeln würfeln, Zwiebel fein hacken. In Butter oder Öl Zwiebel glasig dünsten, mit leichter Gemüse- oder Hühnerbrühe auffüllen, Kartoffeln zugeben und weich kochen (ca. 15–20 Minuten).",
-            tip: "Das ist Dill-Primary — nicht klare Festtagsbrühe wie [Rosół](/de/rezepte/rosol). Überblick: [Polnische Suppen](/de/blog/polnische-suppen).",
+            tip: "Das ist Dill-Fokus — nicht klare Festtagsbrühe wie [Rosół](/de/rezepte/rosol). Überblick: [Polnische Suppen](/de/blog/polnische-suppen).",
           },
           {
             text: "Einen Teil der Kartoffeln leicht zerdrücken oder kurz pürieren, damit der Topf leicht bindet — noch stückig lassen. Frischen Dill grob hacken (Stiele fein oder weglassen).",
-            tip: "Nicht Sauerampfer-Linie: [Szczawiowa](/de/rezepte/szczawiowa) bleibt anderer Primary. Einkauf Dill/Śmietana: [Polenladen](/de/blog/polenladen-einkaufen).",
+            tip: "Nicht Sauerampfer-Linie: [Szczawiowa](/de/rezepte/szczawiowa) bleibt anderes Gericht. Einkauf Dill/Śmietana: [Polenladen](/de/blog/polenladen-einkaufen).",
           },
           {
             text: "Topf vom Herd nehmen oder Hitze stark reduzieren. Śmietana temperieren (mit etwas heißer Suppe verrühren) und einrühren — nicht aufkochen lassen. Mit Salz und Pfeffer abschmecken; den größten Teil des Dills unterheben.",
@@ -51,7 +51,7 @@ export const seedRecipesWave15D: Recipe[] = [
           },
           {
             text: "Hartgekochte Eier vierteln. Suppe heiß in tiefen Tellern anrichten, Ei und restlichen Dill darauf. Optional Butterkrümel oder Brot dazu.",
-            tip: "Menüplatz descriptiv: [polnisches Sonntagsessen](/de/blog/sonntagsessen-polnisch) — Kultur-Owner bleibt dort; hier nur der Cook.",
+            tip: "Menüplatz descriptiv: [polnisches Sonntagsessen](/de/blog/sonntagsessen-polnisch) — Kulturrahmen bleibt bei dort; hier nur der Cook.",
           },
         ],
         seoTitle: "Zupa koperkowa Rezept | Dillsuppe polnisch | Alemniam",
@@ -66,11 +66,11 @@ export const seedRecipesWave15D: Recipe[] = [
         steps: [
           {
             text: "Ziemniaki pokrój w kostkę, cebulę drobno. Na maśle lub oleju zeszklij cebulę, zalej lekkim bulionem warzywnym lub drobiowym, dodaj ziemniaki i gotuj do miękkości (ok. 15–20 minut).",
-            tip: "To primary koperku — nie klarowny wywar jak [rosół](/pl/rezepte/rosol). Przegląd: [polskie zupy](/pl/blog/polskie-zupy).",
+            tip: "To fokus koperku — nie klarowny wywar jak [rosół](/pl/rezepte/rosol). Przegląd: [polskie zupy](/pl/blog/polskie-zupy).",
           },
           {
             text: "Część ziemniaków lekko rozgnieć lub krótko zblenduj, by zupa lekko zgęstniała — zostaw kawałki. Świeży koperek grubo posiekaj (łodygi drobno lub odłóż).",
-            tip: "Nie linia szczawiu: [szczawiowa](/pl/rezepte/szczawiowa) to inny primary. Zakupy: [sklep polski](/pl/blog/sklep-polski-zakupy).",
+            tip: "Nie linia szczawiu: [szczawiowa](/pl/rezepte/szczawiowa) to inny fokus. Zakupy: [sklep polski](/pl/blog/sklep-polski-zakupy).",
           },
           {
             text: "Zdejmij z ognia lub mocno zmniejsz. Zahartuj śmietanę (z odrobiną gorącej zupy) i wmieszaj — nie gotuj. Dopraw solą i pieprzem; większość koperku wmieszaj.",
@@ -78,7 +78,7 @@ export const seedRecipesWave15D: Recipe[] = [
           },
           {
             text: "Jajka na twardo pokrój na ćwiartki. Podawaj gorącą w głębokich talerzach z jajkiem i resztą koperku. Opcjonalnie bułka lub chleb.",
-            tip: "Miejsce w menu opisowo: [obiad niedzielny](/pl/blog/obiad-niedzielny) — owner kultury zostaje tam; tu tylko cook.",
+            tip: "Miejsce w menu opisowo: [obiad niedzielny](/pl/blog/obiad-niedzielny) — przewodnik kulturowy zostaje tam; tu tylko cook.",
           },
         ],
         seoTitle: "Zupa koperkowa przepis | Dillsuppe | Alemniam",
@@ -206,7 +206,7 @@ export const seedRecipesWave15D: Recipe[] = [
           },
           {
             text: "Vom Herd nehmen, abschmecken (Säure mit etwas Zitrone, Süße mit Zucker). Heiß in Gläser oder Schalen füllen; Haut vermeiden: Folie direkt auf die Oberfläche oder leicht rühren beim Abkühlen.",
-            tip: "Kein Weizen-Mohn-Dessert: [Kutia](/de/rezepte/kutia) bleibt anderer Primary. Speiseplan-Owner bleibt Wigilia — hier nur der Cook.",
+            tip: "Kein Weizen-Mohn-Dessert: [Kutia](/de/rezepte/kutia) bleibt anderes Gericht. Speiseplan-Owner bleibt Wigilia — hier nur der Cook.",
           },
           {
             text: "Warm, lauwarm oder kalt servieren. Optional frische Beeren oder ein Löffel Śmietana. Reste abgedeckt im Kühlschrank 1–2 Tage.",
@@ -232,7 +232,7 @@ export const seedRecipesWave15D: Recipe[] = [
           },
           {
             text: "Zdejmij z ognia, dopraw (kwas cytryną, słodycz cukrem). Gorący przelej do szklanek lub miseczek; unikaj kożucha: folia na powierzchni lub lekkie mieszanie przy studzeniu.",
-            tip: "To nie deser zbożowy: [kutia](/pl/rezepte/kutia) zostaje innym primary. Owner planu: menu wigilijne — tu tylko cook.",
+            tip: "To nie deser zbożowy: [kutia](/pl/rezepte/kutia) zostaje innym fokus. Owner planu: menu wigilijne — tu tylko cook.",
           },
           {
             text: "Podawaj ciepły, letni lub zimny. Opcjonalnie świeże owoce lub łyżka śmietany. Resztki przykryte w lodówce 1–2 dni.",

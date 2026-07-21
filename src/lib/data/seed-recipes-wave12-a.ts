@@ -76,7 +76,7 @@ export const seedRecipesWave12A: Recipe[] = [
           },
           {
             text: "Podawaj gorącą z koperkiem lub pietruszką. Na Wigilię często klarowna, bez śmietany; na co dzień opcjonalnie łyżka ocieplonej śmietany — nie do wrzątku.",
-            tip: "Śmietanę zahartuj jak w [śmietana/Schmand](/pl/blog/smietana-czy-schmand); fokus zostaje zupa grzybowa.",
+            tip: "Śmietanę zahartuj jak w [śmietana/Schmand](/pl/blog/smietana-czy-schmand); tu zostaje zupa grzybowa.",
           },
         ],
         seoTitle: "Zupa grzybowa przepis | Zupa z suszonych grzybów | Alemniam",
@@ -232,7 +232,7 @@ export const seedRecipesWave12A: Recipe[] = [
           },
           {
             text: "Podawaj gorącą z koperkiem lub majerankiem; chleb obok. Resztki często lepsze nazajutrz — freezer porcjami.",
-            tip: "Brak wędzonki: uczciwa zamiana według [zamienników](/pl/blog/zamienniki-skladnikow) — fokus zostaje grochówka.",
+            tip: "Brak wędzonki: uczciwa zamiana według [zamienników](/pl/blog/zamienniki-skladnikow) — tu zostaje grochówka.",
           },
         ],
         seoTitle: "Grochówka przepis | Zupa grochowa | Alemniam",

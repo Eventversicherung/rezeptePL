@@ -82,7 +82,7 @@ export const seedRecipesWave13C: Recipe[] = [
           },
           {
             text: "Piecz w 180 °C (termoobieg nieco niżej) 30–35 min na złoto. Ostudź na kratce. Kroić ciepłe lub letnie.",
-            tip: "Przy stole [menu wielkanocne](/pl/blog/menu-wielkanocne) zostaje przepisem na okazji. Zamienniki: [zamienniki składników](/pl/blog/zamienniki-skladnikow).",
+            tip: "Przy stole [menu wielkanocne](/pl/blog/menu-wielkanocne) zostaje artykułem o okazji. Zamienniki: [zamienniki składników](/pl/blog/zamienniki-skladnikow).",
           },
         ],
         seoTitle: "Chałka przepis | Polski chleb drożdżowy warkocz | Alemniam",
@@ -241,7 +241,7 @@ export const seedRecipesWave13C: Recipe[] = [
           },
           {
             text: "Krój w plasterki; podawaj z chlebem, chrzanem lub musztardą — zimny jako wędlina albo letni.",
-            tip: "Miejsce w menu: [obiad niedzielny](/pl/blog/obiad-niedzielny) lub [menu wielkanocne](/pl/blog/menu-wielkanocne) — plan zostaje przepisem na okazji.",
+            tip: "Miejsce w menu: [obiad niedzielny](/pl/blog/obiad-niedzielny) lub [menu wielkanocne](/pl/blog/menu-wielkanocne) — plan zostaje artykułem o okazji.",
           },
         ],
         seoTitle: "Pasztet przepis | Pasztet drobiowy domowy | Alemniam",

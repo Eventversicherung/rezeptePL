@@ -72,7 +72,7 @@ export const seedRecipesWave12B: Recipe[] = [
           },
           {
             text: "Mak (niebieski, najlepiej mielony) zalej gorącym mlekiem lub wodą, odsącz; wymieszaj z cukrem, roztopionym masłem oraz opcjonalnie miodem, rodzynkami i skórką cytryny do smarownej, nie cieknącej masy.",
-            tip: "Jakość maku i zakupy świąteczne: [sklep polski](/pl/blog/sklep-polski-zakupy). Wyczucie masy jak w [technice makowca](/pl/blog/makowiec-technika) — fokus zostaje makaron+mak, nie rolada.",
+            tip: "Jakość maku i zakupy świąteczne: [sklep polski](/pl/blog/sklep-polski-zakupy). Wyczucie masy jak w [technice makowca](/pl/blog/makowiec-technika) — tu zostaje makaron+mak, nie rolada.",
           },
           {
             text: "Wymieszaj gorący makaron z masą makową i masłem; w razie potrzeby dodaj odrobinę wody z gotowania. Dopraw: słodko, makowo, bez goryczy.",
@@ -233,7 +233,7 @@ export const seedRecipesWave12B: Recipe[] = [
           },
           {
             text: "Wciśnij spód w natłuszczoną formę lub na blachę; rozłóż jabłka; resztę ciasta jako kratkę, pokrywę lub kruszonkę. Piecz na złoto w średniej temperaturze; patyczek w cieście, jabłka miękkie.",
-            tip: "Kawowe niedzielne wyczucie [obiad niedzielny](/pl/blog/obiad-niedzielny) — fokus zostaje szarlotka.",
+            tip: "Kawowe niedzielne wyczucie [obiad niedzielny](/pl/blog/obiad-niedzielny) — tu zostaje szarlotka.",
           },
           {
             text: "Ostudź, pokrój w kawałki; opcjonalnie cukier puder. Podawaj ciepło lub w temperaturze pokojowej do herbaty/kawy.",

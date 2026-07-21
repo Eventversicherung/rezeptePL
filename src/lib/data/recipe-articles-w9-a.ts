@@ -49,7 +49,7 @@ export const W9_FACTS_A: Record<string, W9ArticleFacts> = {
     diasporaDe:
       "In DE oft einfacher als gedacht: Rippen aus dem Supermarkt, Majoran aus dem Gewürzregal oder [Polenladen](/de/blog/polenladen-einkaufen), Ofen übernimmt die Zeit. Marinade am Samstag, Sonntag nur noch backen — genau die Logik des Sonntags-Guides. Wer Topf-Feeling sucht, liest den [Dutch-Oven-Guide](/de/blog/dutch-oven-kaufberatung); Fokus bleibt Ofenrippen hier.",
     diasporaPl:
-      "W DE często prościej niż myślisz: żebra z marketu, majeranek z półki lub [sklepu polskiego](/pl/blog/sklep-polski-zakupy), piec bierze czas. Marynata w sobotę, niedziela tylko pieczenie — logika przewodnika niedzielnego. Kto szuka garnka, czyta [garnek do duszenia](/pl/blog/garnek-do-duszenia); fokus zostaje przy żeberkach z pieca.",
+      "W DE często prościej niż myślisz: żebra z marketu, majeranek z półki lub [sklepu polskiego](/pl/blog/sklep-polski-zakupy), piec bierze czas. Marynata w sobotę, niedziela tylko pieczenie — logika przewodnika niedzielnego. Kto szuka garnka, czyta [garnek do duszenia](/pl/blog/garnek-do-duszenia); tu zostaje przy żeberkach z pieca.",
     mistakesDe:
       "Zu kurze Marinade, zu heißer Ofen ohne Flüssigkeit, mit Gulasz verwechseln, Majeranek-Hitze, Feuchtigkeit oder Garzeit falsch einschätzen.",
     mistakesPl:
@@ -71,7 +71,7 @@ export const W9_FACTS_A: Record<string, W9ArticleFacts> = {
     shopDe:
       "Dünne Fleischscheiben zum Rollen (Rind oder Schwein), Speck, Zwiebel, Senf, Brühe, Lorbeer, sparsam [Majeranek](/de/blog/majeranek). Topf mit Deckel — Kaufkriterien im [Dutch-Oven-Guide](/de/blog/dutch-oven-kaufberatung) ( Gear-Owner bleibt dort). Beilage-Kartoffeln oder Stärke für Kluski separat einkaufen.",
     shopPl:
-      "Cienkie plastry do zwijania (wołowina lub wieprzowina), boczek, cebula, musztarda, bulion, liść laurowy, oszczędnie [majeranek](/pl/blog/majeranek-leksykon). Garnek z pokrywką — kryteria w [poradniku garnka](/pl/blog/garnek-do-duszenia) (). Ziemniaki lub skrobia na kluski osobno.",
+      "Cienkie plastry do zwijania (wołowina lub wieprzowina), boczek, cebula, musztarda, bulion, liść laurowy, oszczędnie [majeranek](/pl/blog/majeranek-leksykon). Garnek z pokrywką — kryteria w [poradniku garnka](/pl/blog/garnek-do-duszenia). Ziemniaki lub skrobia na kluski osobno.",
     techniqueDe:
       "Fest rollen, anbraten, ablöschen, zugedeckt schmoren bis gabelweich. Soße abschmecken. Deckel zu — sonst trocknet die Oberfläche. Nicht mit Zrazy-Schritten verwechseln: andere Füll-Priorität, gleiches ruhiges Schmoren.",
     techniquePl:

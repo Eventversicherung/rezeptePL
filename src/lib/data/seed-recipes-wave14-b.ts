@@ -74,10 +74,10 @@ export const seedRecipesWave14B: Recipe[] = [
           },
           {
             text: "Wypełnij białka łyżeczką lub rękawem cukierniczym. Posyp szczypiorkiem lub papryką. Chłodź co najmniej 30 minut, aż masa się ułoży.",
-            tip: "Kontekst świąt [menu wielkanocne](/pl/blog/menu-wielkanocne) — plan menu zostaje przepisem na okazji; tu tylko cook.",
+            tip: "Kontekst świąt [menu wielkanocne](/pl/blog/menu-wielkanocne) — plan menu zostaje artykułem o okazji; tu tylko cook.",
           },
           {
-            text: "Podawaj na zimno jako półmisek bufetowy lub przystawkę. Obok [białej kiełbasy](/pl/rezepte/biala-kielbasa) i [pasztetu](/pl/rezepte/pasztet) często na zimnej półce — fokus zostaje przy jajkach. Resztki przykryte w lodówce; higiena majonezu.",
+            text: "Podawaj na zimno jako półmisek bufetowy lub przystawkę. Obok [białej kiełbasy](/pl/rezepte/biala-kielbasa) i [pasztetu](/pl/rezepte/pasztet) często na zimnej półce — tu zostaje przy jajkach. Resztki przykryte w lodówce; higiena majonezu.",
             tip: "Niedzielne wyczucie: [obiad niedzielny](/pl/blog/obiad-niedzielny) — osobny farsz i osobne ilości.",
           },
         ],
@@ -212,7 +212,7 @@ export const seedRecipesWave14B: Recipe[] = [
           },
           {
             text: "Odstaw na zimno na 1–2 godziny (lepiej na noc), żeby ostrość i kolor się połączyły. Przed podaniem wymieszaj i dopraw.",
-            tip: "Miejsce w menu: [menu wielkanocne](/pl/blog/menu-wielkanocne) — plan zostaje przepisem na okazji.",
+            tip: "Miejsce w menu: [menu wielkanocne](/pl/blog/menu-wielkanocne) — plan zostaje artykułem o okazji.",
           },
           {
             text: "Podawaj na zimno w misce lub słoiku do kiełbasy, [pasztetu](/pl/rezepte/pasztet), jaj i chleba. Klasycznie obok [białej kiełbasy](/pl/rezepte/biala-kielbasa). Trzyma kilka dni w lodówce; barwi — rękawiczki opcjonalnie.",

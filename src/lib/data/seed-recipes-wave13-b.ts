@@ -71,7 +71,7 @@ export const seedRecipesWave13B: Recipe[] = [
           },
           {
             text: "Mak niebieski zalej gorącą wodą lub mlekiem, odsącz; zmiel lub rozetrzyj. Wymieszaj z miodem (lub cukrem), posiekanymi orzechami włoskimi lub migdałami, rodzynkami oraz opcjonalnie wanilią/skórką cytryny do wiążącej, nie suchej masy.",
-            tip: "Jakość maku i zakupy świąteczne: [sklep polski](/pl/blog/sklep-polski-zakupy). Wyczucie masy jak [technika makowca](/pl/blog/makowiec-technika) — fokus zostaje zboże+mak, nie rolada drożdżowa.",
+            tip: "Jakość maku i zakupy świąteczne: [sklep polski](/pl/blog/sklep-polski-zakupy). Wyczucie masy jak [technika makowca](/pl/blog/makowiec-technika) — tu zostaje zboże+mak, nie rolada drożdżowa.",
           },
           {
             text: "Wymieszaj pszenicę z masą makowo-orzechową; w razie potrzeby dodaj odrobinę mleka lub miodu. Dopraw: słodko, makowo, orzechowo — bez goryczy, bez piaszczystej suchości.",
@@ -233,7 +233,7 @@ export const seedRecipesWave13B: Recipe[] = [
           },
           {
             text: "Układaj na przemian płat ciasta i krem (zwykle 2–3 warstwy ciasta). Wierzch oprósz cukrem pudrem lub lekko lukruj. Chłodź co najmniej 2–3 godziny przed krojeniem.",
-            tip: "Kawowe niedzielne wyczucie [obiad niedzielny](/pl/blog/obiad-niedzielny) — fokus zostaje napoleonka/kremówka.",
+            tip: "Kawowe niedzielne wyczucie [obiad niedzielny](/pl/blog/obiad-niedzielny) — tu zostaje napoleonka/kremówka.",
           },
           {
             text: "Ostrym nożem pokrój w prostokąty; podawaj na zimno. Resztki przykryte w lodówce — ciasto z czasem mięknie, smak zostaje.",

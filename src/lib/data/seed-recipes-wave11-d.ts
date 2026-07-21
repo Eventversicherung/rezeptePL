@@ -389,7 +389,7 @@ export const seedRecipesWave11D: Recipe[] = [
         title: "Kompot z suszu",
         slug: "kompot-z-suszu",
         excerpt:
-          "Ciemny kompot z suszonych śliwek, jabłek, gruszek i moreli — napój i deser Wigilii. fokus zostaje kompot, nie pillar menu.",
+          "Ciemny kompot z suszonych śliwek, jabłek, gruszek i moreli — napój i deser Wigilii. tu zostaje kompot, nie pillar menu.",
         steps: [
           {
             text: "Susz (śliwki, jabłka, gruszki, morele; opcjonalnie rodzynki) opłucz. Zalej 2–2,5 l zimnej wody; namocz 30 minut, jeśli owoce są bardzo twarde.",

@@ -76,7 +76,7 @@ export const seedRecipesWave14A: Recipe[] = [
           },
           {
             text: "Ostrym nożem kroić w prostokąty. Podawać zimne — klasycznie z opcjonalnym czubkiem śmietany. Resztki trzymają 2–3 dni w chłodzie; przed podaniem polewę lekko wygładź.",
-            tip: "Brak dobrej śmietanki lub kakao: uczciwie według [zamienników](/pl/blog/zamienniki-skladnikow). fokus zostaje wuzetka.",
+            tip: "Brak dobrej śmietanki lub kakao: uczciwie według [zamienników](/pl/blog/zamienniki-skladnikow). tu zostaje wuzetka.",
           },
         ],
         seoTitle: "Wuzetka przepis | Tort czekoladowo-śmietankowy | Alemniam",
@@ -242,7 +242,7 @@ export const seedRecipesWave14A: Recipe[] = [
           },
           {
             text: "Ostudź na blasze, kroić w prostokąty. Ciepłe lub letnie do kawy. Opcjonalnie lekko oprósz cukrem pudrem. Resztki szczelnie — nazajutrz krótko podgrzej.",
-            tip: "Brak drożdży lub typu mąki: uczciwie według [zamienników](/pl/blog/zamienniki-skladnikow). fokus zostaje drożdżówka / placek drożdżowy.",
+            tip: "Brak drożdży lub typu mąki: uczciwie według [zamienników](/pl/blog/zamienniki-skladnikow). tu zostaje drożdżówka / placek drożdżowy.",
           },
         ],
         seoTitle:

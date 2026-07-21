@@ -69,7 +69,7 @@ export const W13_FACTS_A: Record<string, ArticleFacts> = {
     variantsDe:
       "Mit mehr Huhn sättigender; vegetarisch ehrlich ohne Fleisch; mit getrockneten Pilzen nur als Beinote — Fokus bleibt Gerste, nicht [Zupa grzybowa](/de/rezepte/zupa-grzybowa). Nachbarn: [Grochówka](/de/rezepte/grochowka), [Kapuśniak](/de/rezepte/kapusniak), [Rosół](/de/rezepte/rosol). Guides: [Polnische Suppen](/de/blog/polnische-suppen), [Sonntagsessen](/de/blog/sonntagsessen-polnisch), [Polenladen](/de/blog/polenladen-einkaufen), [Ersatzprodukte](/de/blog/ersatzprodukte-de).",
     variantsPl:
-      "Z większą ilością kurczaka sycący; wege uczciwie bez mięsa; z suszonymi grzybami tylko jako dopisek — fokus zostaje kasza, nie [zupa grzybowa](/pl/rezepte/zupa-grzybowa). Sąsiedzi: [grochówka](/pl/rezepte/grochowka), [kapuśniak](/pl/rezepte/kapusniak), [rosół](/pl/rezepte/rosol). Przewodniki: [polskie zupy](/pl/blog/polskie-zupy), [obiad niedzielny](/pl/blog/obiad-niedzielny), [sklep polski](/pl/blog/sklep-polski-zakupy), [zamienniki](/pl/blog/zamienniki-skladnikow).",
+      "Z większą ilością kurczaka sycący; wege uczciwie bez mięsa; z suszonymi grzybami tylko jako dopisek — tu zostaje kasza, nie [zupa grzybowa](/pl/rezepte/zupa-grzybowa). Sąsiedzi: [grochówka](/pl/rezepte/grochowka), [kapuśniak](/pl/rezepte/kapusniak), [rosół](/pl/rezepte/rosol). Przewodniki: [polskie zupy](/pl/blog/polskie-zupy), [obiad niedzielny](/pl/blog/obiad-niedzielny), [sklep polski](/pl/blog/sklep-polski-zakupy), [zamienniki](/pl/blog/zamienniki-skladnikow).",
   },
 
   "recipe-szczawiowa": {

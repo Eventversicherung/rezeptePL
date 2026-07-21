@@ -46,6 +46,14 @@ const GLOBS = [
   "src/lib/data/recipe-articles-w14-d.ts",
 ];
 
+function listArticleFactFiles() {
+  const dir = path.join(root, "src/lib/data");
+  return fs
+    .readdirSync(dir)
+    .filter((f) => f.startsWith("recipe-articles") && f.endsWith(".ts"))
+    .map((f) => path.join("src/lib/data", f));
+}
+
 function listSeedRecipeFiles() {
   const dir = path.join(root, "src/lib/data");
   return fs
@@ -464,7 +472,9 @@ const BANNED =
   /\b(Primary|SEO-Hinweis|Cook-Owner|Owner-URL|cannibal|Ownership|Cook-Intent|Broad-Owner|Money Page|Cook-Primary|Primary-KW)\b/i;
 
 function main() {
-  const files = [...GLOBS, ...listSeedRecipeFiles()];
+  const files = [
+    ...new Set([...GLOBS, ...listArticleFactFiles(), ...listSeedRecipeFiles()]),
+  ];
   let totalChanged = 0;
   let filesTouched = 0;
   const remaining = [];

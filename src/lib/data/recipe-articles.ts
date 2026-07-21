@@ -206,7 +206,7 @@ const FACTS: Record<string, ArticleFacts> = {
     serveDe:
       "Heiß mit Sauerrahm, Zucker (ja, wirklich), Gulasch oder geräucherter Sahne. Sofort servieren. Composed Teller Puffer+Gulasch obenauf: [Placek po węgiersku](/de/rezepte/placek-po-wegiersku) — das Rezept dafür findest du dort.",
     servePl:
-      "Gorące ze śmietaną, cukrem (tak), gulaszem albo wędzoną śmietaną. Podawać od razu. Composed talerz placki+gulasz na wierzchu: [placek po węgiersku](/pl/rezepte/placek-po-wegiersku) — fokus zostaje tam.",
+      "Gorące ze śmietaną, cukrem (tak), gulaszem albo wędzoną śmietaną. Podawać od razu. Composed talerz placki+gulasz na wierzchu: [placek po węgiersku](/pl/rezepte/placek-po-wegiersku) — tu zostaje tam.",
     diasporaDe:
       "Placki sind Weeknight-Food: wenig Zutaten, großer Effekt. In deutschen Küchen ohne spezielle Geräte machbar.",
     diasporaPl:
@@ -260,9 +260,9 @@ const FACTS: Record<string, ArticleFacts> = {
     vibeDe: "klar, säuerlich, festlich rot",
     vibePl: "klarowny, kwaśny, odświętnie czerwony",
     originDe:
-      "Barszcz ist mehr als Rote-Bete-Suppe: Er ist Farbe, Ritual und Säurekultur. Zur Wigilia oft klar — die kleinen Teigtaschen dazu gehören auf die eigene Uszka-strona przepisu, nicht als Duplikat dieses Rezepts.",
+      "Barszcz ist mehr als Rote-Bete-Suppe: Er ist Farbe, Ritual und Säurekultur. Zur Wigilia oft klar — die kleinen Teigtaschen dazu gehören auf das eigene [Uszka](/de/rezepte/uszka)-Rezept, nicht als Duplikat hier.",
     originPl:
-      "Barszcz to więcej niż zupa z buraków: to kolor, rytuał i kultura kwasu. Na Wigilię często klarowny — małe pierogi do niego mają własną Rezeptseite Uszka, nie duplikat tego przepisu.",
+      "Barszcz to więcej niż zupa z buraków: to kolor, rytuał i kultura kwasu. Na Wigilię często klarowny — małe pierogi do niego mają własny przepis [uszka](/pl/rezepte/uszka), nie duplikat tutaj.",
     shopDe:
       "Frische Rote Bete, gute Brühe, Allspice (Piment), Essig oder Zitronensäure zum Feinabschmecken. Uszka separat kochen — Rezept Uszka — oder fertig aus dem Polenladen. Barszcz-Technik für klare Brühe vs. Alltagsvariante.",
     shopPl:
@@ -716,7 +716,7 @@ const FACTS: Record<string, ArticleFacts> = {
     serveDe:
       "Mit Placki und Śmietana — der klassische Sonntagsteller in vielen Diaspora-Haushalten. Composed auf einem Teller (Puffer + Gulasch obenauf): [Placek po węgiersku](/de/rezepte/placek-po-wegiersku) — das Rezept dafür findest du dort.",
     servePl:
-      "Z plackami i śmietaną — klasyczny niedzielny talerz w wielu domach w diasporze. Composed na jednym talerzu (placki + gulasz na wierzchu): [placek po węgiersku](/pl/rezepte/placek-po-wegiersku) — fokus zostaje tam.",
+      "Z plackami i śmietaną — klasyczny niedzielny talerz w wielu domach w diasporze. Composed na jednym talerzu (placki + gulasz na wierzchu): [placek po węgiersku](/pl/rezepte/placek-po-wegiersku) — tu zostaje tam.",
     diasporaDe:
       "In deutschen Wohnungen riecht Gulasz nach langem Schmorren — ideal, wenn alle nach der Schicht hungrig sind und Placki schnell gehen.",
     diasporaPl:

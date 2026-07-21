@@ -45,7 +45,7 @@ export const seedRecipesWave15A: Recipe[] = [
           },
           {
             text: "Ca. 90–120 Minuten backen (je nach Gewicht: ca. 45–50 Min pro kg), alle 20–25 Minuten mit Bratensaft begießen. Haut soll knusprig, Fleisch saftig bleiben. Optional letzte 10 Minuten Grillstufe — nicht verbrennen.",
-            tip: "Einkauf Ente/Majoran oft im [Polenladen](/de/blog/polenladen-einkaufen). Kein Schweinekamm-Intent — Primary bleibt Kaczka.",
+            tip: "Einkauf Ente/Majoran oft im [Polenladen](/de/blog/polenladen-einkaufen). Kein Schweinekamm-Intent — Fokus bleibt Kaczka.",
           },
           {
             text: "10–15 Minuten ruhen lassen, dann tranchieren. Mit Kartoffeln, Rotkohl oder Beilage servieren. Bratensaft abschmecken; Fett abschöpfen. Reste kalt oder aufgewärmt — Haut separat knusprig halten.",
@@ -72,7 +72,7 @@ export const seedRecipesWave15A: Recipe[] = [
           },
           {
             text: "Piecz ok. 90–120 min (ok. 45–50 min na kg), co 20–25 min polewaj sokiem. Skóra ma być chrupiąca, mięso soczyste. Opcjonalnie ostatnie 10 min grill — bez przypalenia.",
-            tip: "Zakupy kaczka/majeranek często w [sklepie polskim](/pl/blog/sklep-polski-zakupy). Bez intentu schabu — primary zostaje kaczka.",
+            tip: "Zakupy kaczka/majeranek często w [sklepie polskim](/pl/blog/sklep-polski-zakupy). Bez intentu schabu — tu zostaje kaczka.",
           },
           {
             text: "Odstaw 10–15 min, potem porcjuj. Podawaj z ziemniakami, czerwoną kapustą lub dodatkiem. Sos dopraw; tłuszcz zbierz. Resztki zimne lub odgrzane — skórę trzymaj osobno chrupką.",
@@ -185,7 +185,7 @@ export const seedRecipesWave15A: Recipe[] = [
           },
           {
             text: "10 Minuten ruhen, dann in Scheiben schneiden — Ei-Kern soll sichtbar sein. Mit Kartoffeln, Surówka oder Soße servieren. Reste kalt oder aufgewärmt; hält 2–3 Tage gekühlt.",
-            tip: "Fehlt Brötchen/Hack-Qualität: ehrlich laut [Ersatzprodukte DE](/de/blog/ersatzprodukte-de). Primary bleibt Pieczeń rzymska.",
+            tip: "Fehlt Brötchen/Hack-Qualität: ehrlich laut [Ersatzprodukte DE](/de/blog/ersatzprodukte-de). Fokus bleibt Pieczeń rzymska.",
           },
         ],
         seoTitle:
@@ -213,7 +213,7 @@ export const seedRecipesWave15A: Recipe[] = [
           },
           {
             text: "Odstaw 10 min, kroić w plastry — jajko w środku ma być widoczne. Podawaj z ziemniakami, surówką lub sosem. Resztki 2–3 dni w chłodzie.",
-            tip: "Brak bułki/jakości mięsa: uczciwie według [zamienników](/pl/blog/zamienniki-skladnikow). Primary zostaje pieczeń rzymska.",
+            tip: "Brak bułki/jakości mięsa: uczciwie według [zamienników](/pl/blog/zamienniki-skladnikow). tu zostaje pieczeń rzymska.",
           },
         ],
         seoTitle:

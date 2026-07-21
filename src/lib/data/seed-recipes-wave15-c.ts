@@ -188,7 +188,7 @@ export const seedRecipesWave15C: Recipe[] = [
           },
           {
             text: "Sofort heiß servieren. Optional Dill oder Petersilie. Reste kurz in der Pfanne aufwärmen — Brösel sonst weich.",
-            tip: "Wer Tomate+Kiełbasa+weiße Bohnen will: zurück zu [Fasolka po bretońsku](/de/rezepte/fasolka-po-bretonsku) — anderer Primary.",
+            tip: "Wer Tomate+Kiełbasa+weiße Bohnen will: zurück zu [Fasolka po bretońsku](/de/rezepte/fasolka-po-bretonsku) — anderes Gericht.",
           },
         ],
         seoTitle:
@@ -204,7 +204,7 @@ export const seedRecipesWave15C: Recipe[] = [
         steps: [
           {
             text: "Fasolkę szparagową umyj, obetnij końce, ewentualnie przekrój na pół. Gotuj w osolonej wodzie 6–10 min al dente, odcedź.",
-            tip: "To zielone strąki, nie gulasz z białej fasoli — [fasolka po bretońsku](/pl/rezepte/fasolka-po-bretonsku) i [przewodnik fasolki](/pl/blog/fasolka-po-bretonsku) zostają ownerem eintopf/gulaszu.",
+            tip: "To zielone strąki, nie gulasz z białej fasoli — [fasolka po bretońsku](/pl/rezepte/fasolka-po-bretonsku) i [przewodnik fasolki](/pl/blog/fasolka-po-bretonsku) zostają przepisem na eintopf/gulaszu.",
           },
           {
             text: "Na patelni rozpuść masło. Opcjonalnie drobno posiekaną cebulę lub czosnek krótko zeszklij — nie przypalaj.",
@@ -219,7 +219,7 @@ export const seedRecipesWave15C: Recipe[] = [
           },
           {
             text: "Podawaj od razu gorące. Opcjonalnie koper lub pietruszka. Resztki krótko na patelni — inaczej bułka mięknie.",
-            tip: "Kto chce pomidor+kiełbasę+białą fasolę: wróć do [fasolki po bretońsku](/pl/rezepte/fasolka-po-bretonsku) — inny primary.",
+            tip: "Kto chce pomidor+kiełbasę+białą fasolę: wróć do [fasolki po bretońsku](/pl/rezepte/fasolka-po-bretonsku) — inny fokus.",
           },
         ],
         seoTitle:

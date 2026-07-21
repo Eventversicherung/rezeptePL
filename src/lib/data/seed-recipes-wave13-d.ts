@@ -81,7 +81,7 @@ export const seedRecipesWave13D: Recipe[] = [
             text: "Opcja piekarnik: 180 °C przez 15–20 minut, aż powierzchnia lekko się zarumieni, ale zostanie jasna — bez grillowego char jak ciemna wędzonka.",
           },
           {
-            text: "Podawaj gorącą z chrzanem, musztardą i chlebem albo w plastrach do [żurku](/pl/rezepte/zurek). Kontekst świąt: [menu wielkanocne](/pl/blog/menu-wielkanocne) — plan menu zostaje przepisem na okazji.",
+            text: "Podawaj gorącą z chrzanem, musztardą i chlebem albo w plastrach do [żurku](/pl/rezepte/zurek). Kontekst świąt: [menu wielkanocne](/pl/blog/menu-wielkanocne) — plan menu zostaje artykułem o okazji.",
           },
         ],
         seoTitle: "Biała kiełbasa przepis | Gotowanie i pieczenie | Alemniam",

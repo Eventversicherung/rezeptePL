@@ -69,7 +69,7 @@ export const seedRecipesWave10B: Recipe[] = [
           },
           {
             text: "Przełóż do natłuszczonej formy, piecz na złoto w średniej temperaturze; patyczek w środku. Ostudź.",
-            tip: "Cierpliwość pieca jak w [technice makowca](/pl/blog/makowiec-technika) — fokus zostaje piernik, nie drożdże/mak.",
+            tip: "Cierpliwość pieca jak w [technice makowca](/pl/blog/makowiec-technika) — tu zostaje piernik, nie drożdże/mak.",
           },
           {
             text: "Opcjonalnie lukier czekoladowy lub cukier puder; podawaj w plastrach lub kostkach — do herbaty/kawy albo jako słodki finał po [menu wigilijnym](/pl/blog/menu-wigilijne).",

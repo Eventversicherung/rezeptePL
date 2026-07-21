@@ -82,7 +82,7 @@ export const seedRecipesWave12C: Recipe[] = [
           },
           {
             text: "Piecz kolejne 15–20 minut, aż wierzch będzie złoty i związany. Ostudź, pokrój w romby. Opcjonalnie cukier puder lub suszone owoce.",
-            tip: "Przy stole w menu; fokus zostaje ten przepis — owner planu: [menu wielkanocne](/pl/blog/menu-wielkanocne).",
+            tip: "Przy stole w menu; tu zostaje ten przepis — owner planu: [menu wielkanocne](/pl/blog/menu-wielkanocne).",
           },
         ],
         seoTitle: "Mazurek przepis | Mazurek orzechowy wielkanocny | Alemniam",

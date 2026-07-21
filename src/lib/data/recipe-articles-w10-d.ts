@@ -66,6 +66,6 @@ export const W10_FACTS_D: Record<string, ArticleFacts> = {
     variantsDe:
       "Süß klassisch; salzig mit Dill; mit gerösteten Bröseln; mit einem Klecks Śmietana am Rand ( Fokus bleibt Pasta+Quark). Teig-Nachbar: [Pierogi leniwe](/de/rezepte/pierogi-leniwe). Herzhafter Pasta-Nachbar mit Kraut: [Łazanki](/de/rezepte/lazanki). Beilage-Kartoffel-Teig: [Kopytka](/de/rezepte/kopytka). Wigilia-Mohn-Pasta (≠ Twaróg): [Makaron z makiem](/de/rezepte/makaron-z-makiem). Einkauf und Ersatz: [Polenladen](/de/blog/polenladen-einkaufen), [Ersatzprodukte](/de/blog/ersatzprodukte-de).",
     variantsPl:
-      "Słodko klasycznie; wytrawnie z koperkiem; z bułką na maśle; z łyżką śmietany z boku (fokus zostaje makaron+twaróg). Sąsiad ciasta: [pierogi leniwe](/pl/rezepte/pierogi-leniwe). Makaron z kapustą: [łazanki](/pl/rezepte/lazanki). Kluski ziemniaczane: [kopytka](/pl/rezepte/kopytka). Wigilijny makaron z makiem (≠ twaróg): [makaron z makiem](/pl/rezepte/makaron-z-makiem). Zakupy: [sklep polski](/pl/blog/sklep-polski-zakupy), [zamienniki](/pl/blog/zamienniki-skladnikow).",
+      "Słodko klasycznie; wytrawnie z koperkiem; z bułką na maśle; z łyżką śmietany z boku (tu zostaje makaron+twaróg). Sąsiad ciasta: [pierogi leniwe](/pl/rezepte/pierogi-leniwe). Makaron z kapustą: [łazanki](/pl/rezepte/lazanki). Kluski ziemniaczane: [kopytka](/pl/rezepte/kopytka). Wigilijny makaron z makiem (≠ twaróg): [makaron z makiem](/pl/rezepte/makaron-z-makiem). Zakupy: [sklep polski](/pl/blog/sklep-polski-zakupy), [zamienniki](/pl/blog/zamienniki-skladnikow).",
   },
 };
