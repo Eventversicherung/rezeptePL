@@ -27,7 +27,7 @@ export type Place = {
   phone: string | null;
   website: string | null;
   email: string | null;
-  openingHours: Record<string, string>;
+  openingHours: Record<string, string> & { raw?: string };
   imageUrl: string;
   tags: string[];
   source: PlaceSource;

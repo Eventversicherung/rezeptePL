@@ -19,14 +19,157 @@ UA = "AlemniamPlaceImport/1.0 (OSM ODbL; https://github.com/Eventversicherung/re
 PHOTON = "https://photon.komoot.io/api/"
 OVERPASS = "https://overpass.openstreetmap.fr/api/interpreter"
 
-QUERIES = [
+# Base names + city-biased variants (Photon limit=50 per query; cities fill gaps).
+BASE_QUERIES = [
     "Polski Sklep",
     "Sklep Polski",
     "Polonia Market",
     "Polenmarkt",
     "Delikatesy",
     "Polnische Delikatessen",
+    "Polnischer Laden",
+    "Polnische Spezialitäten",
+    "Mini Europa",
+    "Smak Polski",
+    "Smacznie",
 ]
+
+CITIES = [
+    "Berlin",
+    "Hamburg",
+    "München",
+    "Köln",
+    "Frankfurt",
+    "Stuttgart",
+    "Düsseldorf",
+    "Dortmund",
+    "Essen",
+    "Leipzig",
+    "Bremen",
+    "Dresden",
+    "Hannover",
+    "Nürnberg",
+    "Duisburg",
+    "Bochum",
+    "Wuppertal",
+    "Bielefeld",
+    "Bonn",
+    "Münster",
+    "Karlsruhe",
+    "Mannheim",
+    "Augsburg",
+    "Wiesbaden",
+    "Mönchengladbach",
+    "Gelsenkirchen",
+    "Aachen",
+    "Braunschweig",
+    "Chemnitz",
+    "Kiel",
+    "Magdeburg",
+    "Freiburg",
+    "Krefeld",
+    "Lübeck",
+    "Oberhausen",
+    "Erfurt",
+    "Rostock",
+    "Kassel",
+    "Hagen",
+    "Saarbrücken",
+    "Potsdam",
+    "Ludwigshafen",
+    "Oldenburg",
+    "Osnabrück",
+    "Leverkusen",
+    "Heidelberg",
+    "Darmstadt",
+    "Regensburg",
+    "Ingolstadt",
+    "Würzburg",
+    "Wolfsburg",
+    "Ulm",
+    "Heilbronn",
+    "Paderborn",
+    "Göttingen",
+    "Offenbach",
+    "Bottrop",
+    "Recklinghausen",
+    "Reutlingen",
+    "Koblenz",
+    "Bremerhaven",
+    "Remscheid",
+    "Bergisch Gladbach",
+    "Jena",
+    "Trier",
+    "Erlangen",
+    "Moers",
+    "Siegen",
+    "Hildesheim",
+    "Salzgitter",
+]
+
+
+def build_queries() -> list[str]:
+    qs = list(BASE_QUERIES)
+    for city in CITIES:
+        for base in (
+            "Polski Sklep",
+            "Polonia Market",
+            "Delikatesy",
+            "Polnische Delikatessen",
+        ):
+            qs.append(f"{base} {city}")
+    return qs
+
+DE_STATES = {
+    "baden-württemberg",
+    "baden-wuerttemberg",
+    "bayern",
+    "bavaria",
+    "berlin",
+    "brandenburg",
+    "bremen",
+    "hamburg",
+    "hessen",
+    "hesse",
+    "mecklenburg-vorpommern",
+    "niedersachsen",
+    "lower saxony",
+    "nordrhein-westfalen",
+    "north rhine-westphalia",
+    "rheinland-pfalz",
+    "rhineland-palatinate",
+    "saarland",
+    "sachsen",
+    "saxony",
+    "sachsen-anhalt",
+    "saxony-anhalt",
+    "schleswig-holstein",
+    "thüringen",
+    "thuringia",
+}
+
+
+def is_germany(props: dict, lat: float, lon: float) -> bool:
+    cc = (props.get("countrycode") or "").upper()
+    if cc in ("DE", "DEU"):
+        return True
+    if cc and cc not in ("DE", "DEU"):
+        return False
+    state = (props.get("state") or "").strip().lower()
+    if state in DE_STATES:
+        return True
+    # Fallback: mainland DE bbox (excludes most NL/PL hits)
+    return 47.25 <= lat <= 55.1 and 5.85 <= lon <= 15.05 and state not in {
+        "limburg",
+        "geldern",
+        "gelderland",
+        "overijssel",
+        "woiwodschaft westpommern",
+        "woiwodschaft lebus",
+        "woiwodschaft niederschlesien",
+        "westpomeranian voivodeship",
+        "lubusz voivodeship",
+    }
 
 
 def fetch_photon(q: str) -> list[dict]:
@@ -44,27 +187,41 @@ def esc(s: str | None) -> str:
 
 def main() -> None:
     merged: dict = {}
-    for q in QUERIES:
-        for f in fetch_photon(q):
+    queries = build_queries()
+    for i, q in enumerate(queries):
+        try:
+            features = fetch_photon(q)
+        except Exception as exc:  # noqa: BLE001 — keep crawl resilient
+            print(f"-- photon fail {q}: {exc}", file=__import__("sys").stderr)
+            time.sleep(2.0)
+            continue
+        for f in features:
             props = f.get("properties") or {}
             coords = (f.get("geometry") or {}).get("coordinates") or []
             if len(coords) < 2:
                 continue
             lon, lat = coords[0], coords[1]
-            if not (47.2 <= lat <= 55.1 and 5.8 <= lon <= 15.1):
+            if not is_germany(props, lat, lon):
                 continue
             name = props.get("name")
             if not name:
                 continue
             nl = name.lower()
             if not re.search(
-                r"polsk|polonia|polenmarkt|polnisch|delikatesy\b|mini\s*europa",
+                r"polsk|polonia|polenmarkt|polnisch|delikatesy\b|mini\s*europa|"
+                r"smak\s*polski|smacznie",
                 nl,
             ):
+                continue
+            # skip indoor playgrounds / fuel noise on market names
+            if "indoorspielplatz" in nl or "spielplatz" in nl:
                 continue
             k = props.get("osm_key")
             if k in ("highway", "place", "office", "landuse", "building", "man_made"):
                 continue
+            if k == "amenity" and props.get("osm_value") not in ("marketplace", None):
+                if props.get("osm_value") != "marketplace":
+                    continue
             key = (props.get("osm_type"), props.get("osm_id"))
             if not key[1]:
                 continue
@@ -86,7 +243,13 @@ def main() -> None:
                 "osm_key": k,
                 "osm_value": props.get("osm_value"),
             }
-        time.sleep(1.0)
+        # Be polite to Photon; city queries are many
+        time.sleep(0.35 if i >= len(BASE_QUERIES) else 0.8)
+        if (i + 1) % 40 == 0:
+            print(
+                f"-- progress {i+1}/{len(queries)} unique={len(merged)}",
+                file=__import__("sys").stderr,
+            )
 
     nodes = [str(v["osm_id"]) for v in merged.values() if v["osm_type"] == "N"]
     ways = [str(v["osm_id"]) for v in merged.values() if v["osm_type"] == "W"]
@@ -198,8 +361,8 @@ on conflict (place_id, locale) do update set
 commit;
 """
     )
-    print(f"-- imported candidates: {len(vals)}", file=__import__("sys").stderr)
-    print(f"-- types: {Counter()}", file=__import__("sys").stderr)
+    kinds = Counter(v.split("'::public.place_kind")[0].rsplit("'", 1)[-1] for v in vals)
+    print(f"-- imported candidates: {len(vals)} kinds={dict(kinds)}", file=__import__("sys").stderr)
 
 
 if __name__ == "__main__":

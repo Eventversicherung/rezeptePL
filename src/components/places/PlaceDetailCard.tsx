@@ -1,9 +1,8 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { Link } from "@/i18n/navigation";
 import { formatDistanceKm } from "@/lib/geo/distance";
-import { mapsDirectionsUrl } from "@/lib/geo/maps-url";
+import { mapsDirectionsUrl, mapsPlaceUrl } from "@/lib/geo/maps-url";
 import type { Place } from "@/types/place";
 
 type Props = {
@@ -11,6 +10,12 @@ type Props = {
   locale: string;
   onClose: () => void;
 };
+
+function openingHoursText(place: Place): string | null {
+  const raw = place.openingHours?.raw;
+  if (typeof raw === "string" && raw.trim()) return raw.trim();
+  return null;
+}
 
 export function PlaceDetailCard({ place, locale, onClose }: Props) {
   const t = useTranslations("places");
@@ -25,6 +30,11 @@ export function PlaceDetailCard({ place, locale, onClose }: Props) {
     ? place.website.startsWith("http")
       ? place.website
       : `https://${place.website}`
+    : null;
+
+  const hours = openingHoursText(place);
+  const phoneHref = place.phone
+    ? `tel:${place.phone.replace(/\s+/g, "")}`
     : null;
 
   return (
@@ -45,9 +55,7 @@ export function PlaceDetailCard({ place, locale, onClose }: Props) {
         </button>
 
         <div className="place-card__badges">
-          <span
-            className={`place-card__kind place-card__kind--${place.kind}`}
-          >
+          <span className={`place-card__kind place-card__kind--${place.kind}`}>
             {place.kind === "market" ? t("kindMarket") : t("kindShop")}
           </span>
           {place.distanceKm != null ? (
@@ -60,30 +68,40 @@ export function PlaceDetailCard({ place, locale, onClose }: Props) {
         <h2 className="place-card__title font-display">
           {place.translation.name}
         </h2>
-        <p className="place-card__address">{address}</p>
 
-        {place.translation.description ? (
-          <p className="place-card__desc">{place.translation.description}</p>
-        ) : null}
+        {address ? <p className="place-card__address">{address}</p> : null}
 
-        {place.translation.scheduleNote ? (
-          <p className="place-card__note">{place.translation.scheduleNote}</p>
-        ) : null}
-
-        {place.tags.length > 0 ? (
-          <ul className="place-card__tags">
-            {place.tags.map((tag) => (
-              <li key={tag}>{tag}</li>
-            ))}
-          </ul>
-        ) : null}
+        <dl className="place-card__meta">
+          {phoneHref && place.phone ? (
+            <div>
+              <dt>{t("phone")}</dt>
+              <dd>
+                <a href={phoneHref}>{place.phone}</a>
+              </dd>
+            </div>
+          ) : null}
+          {hours ? (
+            <div>
+              <dt>{t("hours")}</dt>
+              <dd>{hours}</dd>
+            </div>
+          ) : null}
+        </dl>
 
         <div className="place-card__actions">
+          <a
+            href={mapsPlaceUrl(place)}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-primary"
+          >
+            {t("openInMaps")}
+          </a>
           <a
             href={mapsDirectionsUrl(place)}
             target="_blank"
             rel="noopener noreferrer"
-            className="btn-primary"
+            className="btn-secondary"
           >
             {t("directions")}
           </a>
@@ -97,27 +115,7 @@ export function PlaceDetailCard({ place, locale, onClose }: Props) {
               {t("website")}
             </a>
           ) : null}
-          <Link href="/blog/polenladen-einkaufen" className="btn-ghost">
-            {t("shoppingGuide")}
-          </Link>
         </div>
-        {place.source === "osm" ? (
-          <p className="place-card__source">
-            {t("osmAttribution")}
-            {place.sourceUrl ? (
-              <>
-                {" · "}
-                <a
-                  href={place.sourceUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  OSM
-                </a>
-              </>
-            ) : null}
-          </p>
-        ) : null}
       </div>
     </aside>
   );
