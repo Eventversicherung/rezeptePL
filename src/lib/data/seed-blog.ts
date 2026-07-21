@@ -188,6 +188,9 @@ const seedBlogPostsLive: BlogPost[] = [
       "recipe-drozdzowka",
       "recipe-zapiekanka",
       "recipe-placek-po-wegiersku",
+      "recipe-koperkowa",
+      "recipe-kisiel",
+      "recipe-kaczka",
     ],
     relatedPostIds: [
       "post-twarog",
@@ -243,6 +246,7 @@ const seedBlogPostsLive: BlogPost[] = [
       "recipe-ryba-po-grecku",
       "recipe-kompot-z-suszu",
       "recipe-zupa-grzybowa",
+      "recipe-kisiel",
     ],
     relatedPostIds: [
       "post-pierogi-guide",

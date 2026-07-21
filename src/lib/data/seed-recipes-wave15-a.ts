@@ -201,7 +201,7 @@ export const seedRecipesWave15A: Recipe[] = [
         steps: [
           {
             text: "Bułkę namocz w mleku, odciśnij. Cebulę drobno pokrój i zeszklij. Wymieszaj mielone z bułką, jajkiem, cebulą, solą, pieprzem i majerankiem, aż masa się spoi. Odstaw 15–20 min w chłodzie.",
-            tip: "To bochenek z pieca, nie płaskie kotlety z patelni: [kotlet mielony](/pl/rezepte/kotlet-mielony) to inny URL. Mielenie: [Fleischwolf](/pl/blog/fleischwolf-kaufberatung).",
+            tip: "To bochenek z pieca, nie płaskie kotlety z patelni: [kotlet mielony](/pl/rezepte/kotlet-mielony) to inny URL. Mielenie: [wilk do mięsa](/pl/blog/wilk-do-miesa).",
           },
           {
             text: "Jajka na twardo obierz. Uformuj bochenek: połowę masy spłaszcz, ułóż jajka wzdłuż środka, przykryj resztą i domknij w walec. Opcjonalnie owiń cienkim boczkiem.",

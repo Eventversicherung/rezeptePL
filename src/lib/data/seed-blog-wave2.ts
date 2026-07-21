@@ -190,6 +190,7 @@ export const seedBlogPostsWave2: BlogPost[] = [
       "recipe-kluski-kladzione",
       "recipe-krupnik",
       "recipe-szczawiowa",
+      "recipe-koperkowa",
     ],
     relatedPostIds: [
       "post-rosol-technik",
@@ -469,6 +470,8 @@ export const seedBlogPostsWave2: BlogPost[] = [
       "recipe-wuzetka",
       "recipe-drozdzowka",
       "recipe-zapiekanka",
+      "recipe-pieczen-rzymska",
+      "recipe-kisiel",
     ],
     relatedPostIds: [
       "post-polenladen",
@@ -638,6 +641,9 @@ export const seedBlogPostsWave2: BlogPost[] = [
       "recipe-drozdzowka",
       "recipe-placek-po-wegiersku",
       "recipe-zapiekanka",
+      "recipe-kaczka",
+      "recipe-pieczen-rzymska",
+      "recipe-koperkowa",
     ],
     relatedPostIds: [
       "post-rosol-technik",
@@ -727,7 +733,12 @@ export const seedBlogPostsWave2: BlogPost[] = [
     coverImage:
       "https://images.unsplash.com/photo-1556911220-bff31c8120b0?w=1600&q=80",
     siloIds: ["gear"],
-    relatedRecipeIds: ["recipe-pierogi-meat", "recipe-golabki", "recipe-rosol"],
+    relatedRecipeIds: [
+      "recipe-pierogi-meat",
+      "recipe-golabki",
+      "recipe-rosol",
+      "recipe-pieczen-rzymska",
+    ],
     relatedPostIds: [
       "post-pierogi-guide",
       "post-teigmaschine",

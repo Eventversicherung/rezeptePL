@@ -127,8 +127,16 @@ Eine Primary KW = eine Owner-URL. Andere Seiten nur mit descriptive Anchors verl
 | Leczo / Paprikagemüse polnisch | `/rezepte/leczo` |
 | Placek po węgiersku / Ungarischer Kartoffelpuffer | `/rezepte/placek-po-wegiersku` |
 | Zapiekanka / Polnisches Baguette überbacken | `/rezepte/zapiekanka` |
+| Kaczka pieczona / Ente polnisch Ofen | `/rezepte/kaczka` |
+| Pieczeń rzymska / Polnischer Hackbraten | `/rezepte/pieczen-rzymska` |
 | Marchewka z groszkiem / Möhren Erbsen Beilage | `/rezepte/marchewka-groszek` |
 | Fasolka szparagowa po polsku / Grüne Bohnen polnisch | `/rezepte/fasolka-szparagowa` |
+| Zupa koperkowa / Dillsuppe polnisch | `/rezepte/koperkowa` |
+| Kisiel owocowy / Fruchtkisiel polnisch | `/rezepte/kisiel` |
+
+**Intent-Trennung (Wave 15 A draft):** Kaczka pieczona = ganze/halbe Ofenente (Apfel/Majoran-Hauslinie) ≠ Schab pieczony ≠ Golonka ≠ Żeberka. Pieczeń rzymska = Ofen-Hacklaib mit Ei-Kern ≠ Kotlet mielony (Pfanne) ≠ Pasztet. Sonntagsessen / Majeranek bleiben Kultur-/Lexikon-Owner.
+
+**Intent-Trennung (Wave 15 D draft):** Zupa koperkowa = helle Dillsuppe (Kartoffel/Śmietana/Ei; Dill-dominant) ≠ Rosół ≠ Szczawiowa ≠ Botwinka ≠ Ogórkowa; Overview bleibt `/blog/polnische-suppen`. Kisiel owocowy = gestärkte Fruchtcreme (z. B. Himbeere) ≠ Kompot z suszu ≠ Kutia; Wigilia bleibt Anlass-Owner.
 
 **Intent-Trennung (Wave 15 C draft):** Marchewka z groszkiem = warme Möhren+Erbsen-Beilage (Butter/Glasur) ≠ Mizeria (kalt/Gurke) ≠ Buraczki (Rote Bete warm). Fasolka szparagowa = grüne Stangenbohnen-Beilage (Butter/Semmelbrösel) ≠ Fasolka po bretońsku Cook `/rezepte/fasolka-po-bretonsku` ≠ Fasolka-Guide Broad `/blog/fasolka-po-bretonsku` (Eintopf bleibt dort Primary; hier nur descriptive Anchors). Sonntagsessen bleibt Kultur-/Speiseplan-Owner.
 

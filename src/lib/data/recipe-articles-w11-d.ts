@@ -113,9 +113,9 @@ export const W11_FACTS_D: Record<string, ArticleFacts> = {
     vibeDe: "dunkel, würzig-süß, nach Pflaume und Zimt — Getränk und Dessert",
     vibePl: "ciemny, korzenno-słodki, ze śliwką i cynamonem — napój i deser",
     originDe:
-      "Kompot z suszu ist das Rezept für den klassischen Trockenobstkompot — Pflaume, Apfel, Birne, Aprikose, oft mit Zimt und Nelke — als Getränk und zugleich fruchtiger Abschluss. An Wigilia im [Speiseplan](/de/blog/wigilia-speiseplan) verankert, aber Fokus bleibt dieses Rezept: Mengen, Ziehzeit, Süße. Es stiehlt weder den Pillar noch den Fisch-Fokus von [Karp](/de/rezepte/karp) oder [Ryba po grecku](/de/rezepte/ryba-po-grecku). In der Diaspora oft der ruhigste Gang: ein Topf, wenig Handarbeit, großer Geschmack.",
+      "Kompot z suszu ist das Rezept für den klassischen Trockenobstkompot — Pflaume, Apfel, Birne, Aprikose, oft mit Zimt und Nelke — als Getränk und zugleich fruchtiger Abschluss. An Wigilia im [Speiseplan](/de/blog/wigilia-speiseplan) verankert, aber Fokus bleibt dieses Rezept: Mengen, Ziehzeit, Süße. Es stiehlt weder den Pillar noch den Fisch-Fokus von [Karp](/de/rezepte/karp) oder [Ryba po grecku](/de/rezepte/ryba-po-grecku). Klar getrennt vom gestärkten Frucht-[Kisiel](/de/rezepte/kisiel) (keine ganzen Susz-Stücke, Stärke-Bindung). In der Diaspora oft der ruhigste Gang: ein Topf, wenig Handarbeit, großer Geschmack.",
     originPl:
-      "Kompot z suszu to przepis: klasyczny kompot z suszonych owoców — śliwka, jabłko, gruszka, morela, często z cynamonem i goździkiem — jako napój i owocowy finał. Na Wigilii w [menu](/pl/blog/menu-wigilijne), ale fokus zostaje ten przepis: ilości, czas, słodycz. Nie kradnie pillara ani fokus ryb [karpia](/pl/rezepte/karp) lub [ryby po grecku](/pl/rezepte/ryba-po-grecku). W diasporze często najspokojniejszy element: jeden garnek, mało pracy, duży smak.",
+      "Kompot z suszu to przepis: klasyczny kompot z suszonych owoców — śliwka, jabłko, gruszka, morela, często z cynamonem i goździkiem — jako napój i owocowy finał. Na Wigilii w [menu](/pl/blog/menu-wigilijne), ale fokus zostaje ten przepis: ilości, czas, słodycz. Nie kradnie pillara ani fokus ryb [karpia](/pl/rezepte/karp) lub [ryby po grecku](/pl/rezepte/ryba-po-grecku). Jasno osobno od owocowego [kisielu](/pl/rezepte/kisiel) (bez kawałków suszu, wiązanie skrobią). W diasporze często najspokojniejszy element: jeden garnek, mało pracy, duży smak.",
     shopDe:
       "Fertige Susz-Mischung oder einzelne Sorten im [Polenladen](/de/blog/polenladen-einkaufen); Supermarkt-Trockenobst geht, wenn Qualität stimmt. Fehlt eine Sorte: ehrlich ersetzen laut [Ersatzprodukte DE](/de/blog/ersatzprodukte-de). Zimt und Nelke aus dem Regal; Orangenschale ungespritzt. Wasser und Zucker/Honig reichen als Basis.",
     shopPl:
@@ -133,12 +133,12 @@ export const W11_FACTS_D: Record<string, ArticleFacts> = {
     diasporaPl:
       "Gotuj 23., 24. tylko schłodź — odciąża kuchenkę. Dzieci odmierzą owoce; gorący garnek u dorosłych. Resztki na śniadanie. Zakupy wcześniej w [sklepie polskim](/pl/blog/sklep-polski-zakupy), zanim zniknie susz.",
     mistakesDe:
-      "Zu viel Zucker von Anfang an. Zu starkes Kochen (Brei). Frisches Obst 1:1 statt Susz — anderer Charakter. Als Speiseplan statt Rezept auftreten. Vergessen, Nelken zu entfernen. Links zum Anlass bleiben zum [Wigilia-Speiseplan](/de/blog/wigilia-speiseplan).",
+      "Zu viel Zucker von Anfang an. Zu starkes Kochen (Brei). Frisches Obst 1:1 statt Susz — anderer Charakter. Mit [Kisiel](/de/rezepte/kisiel) verwechseln (Stärke-Fruchtcreme ohne Susz-Stücke). Als Speiseplan statt Rezept auftreten. Vergessen, Nelken zu entfernen. Links zum Anlass bleiben zum [Wigilia-Speiseplan](/de/blog/wigilia-speiseplan).",
     mistakesPl:
-      "Za dużo cukru od razu. Zbyt mocne gotowanie. Świeże owoce 1:1 zamiast suszu. Udawanie ownera menu zamiast przepisu. Zostawione goździki. Linki do okazji do [menu wigilijnego](/pl/blog/menu-wigilijne).",
+      "Za dużo cukru od razu. Zbyt mocne gotowanie. Świeże owoce 1:1 zamiast suszu. Mylenie z [kisielu](/pl/rezepte/kisiel) (masa ze skrobią bez kawałków suszu). Udawanie ownera menu zamiast przepisu. Zostawione goździki. Linki do okazji do [menu wigilijnego](/pl/blog/menu-wigilijne).",
     variantsDe:
-      "Mehr Pflaume dunkler; mehr Aprikose heller; ohne Nelke milder; mit etwas Zitronensaft. Nachbarn am Tisch: [Ryba po grecku](/de/rezepte/ryba-po-grecku), [Karp](/de/rezepte/karp), [Makowiec](/de/rezepte/makowiec). Einkauf: [Polenladen](/de/blog/polenladen-einkaufen), [Ersatzprodukte](/de/blog/ersatzprodukte-de).",
+      "Mehr Pflaume dunkler; mehr Aprikose heller; ohne Nelke milder; mit etwas Zitronensaft. Nachbarn am Tisch: [Ryba po grecku](/de/rezepte/ryba-po-grecku), [Karp](/de/rezepte/karp), [Makowiec](/de/rezepte/makowiec); gestärkte Fruchtcreme bleibt [Kisiel](/de/rezepte/kisiel). Einkauf: [Polenladen](/de/blog/polenladen-einkaufen), [Ersatzprodukte](/de/blog/ersatzprodukte-de).",
     variantsPl:
-      "Więcej śliwki ciemniej; więcej moreli jaśniej; bez goździka łagodniej; z sokiem z cytryny. Sąsiedzi: [ryba po grecku](/pl/rezepte/ryba-po-grecku), [karp](/pl/rezepte/karp), [makowiec](/pl/rezepte/makowiec). Zakupy: [sklep polski](/pl/blog/sklep-polski-zakupy), [zamienniki](/pl/blog/zamienniki-skladnikow).",
+      "Więcej śliwki ciemniej; więcej moreli jaśniej; bez goździka łagodniej; z sokiem z cytryny. Sąsiedzi: [ryba po grecku](/pl/rezepte/ryba-po-grecku), [karp](/pl/rezepte/karp), [makowiec](/pl/rezepte/makowiec); masa ze skrobią zostaje [kisiel](/pl/rezepte/kisiel). Zakupy: [sklep polski](/pl/blog/sklep-polski-zakupy), [zamienniki](/pl/blog/zamienniki-skladnikow).",
   },
 };

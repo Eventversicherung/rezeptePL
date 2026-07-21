@@ -211,7 +211,7 @@ Przełącz u góry na ruskie, mięso albo kapustę z grzybami.`,
         title: "Naleśniki mit Marmelade",
         slug: "dzem",
         excerpt:
-          "Süße Naleśniki mit Dżem — eigene Varianten-URL, nicht die Twaróg-Fokus. Schnell und kinderfreundlich.",
+          "Süße Naleśniki mit Dżem oder Powidła. Schnell, kinderfreundlich, eigene Variante neben der Quark-Füllung.",
         steps: [
           {
             text: "Naleśniki-Teig anrühren, 20–30 Minuten ruhen, dünne Pfannkuchen backen.",
