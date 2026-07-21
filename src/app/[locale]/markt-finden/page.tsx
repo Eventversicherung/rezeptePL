@@ -43,7 +43,7 @@ export default async function MarktFindenPage({
   const places = await listPublishedPlaces(locale);
 
   return (
-    <div className="mx-auto w-full max-w-7xl px-4 pb-8 pt-2 sm:px-8">
+    <div className="space-y-8 sm:space-y-10">
       <Breadcrumbs
         ariaLabel={tCommon("breadcrumbs")}
         items={[
@@ -52,12 +52,12 @@ export default async function MarktFindenPage({
         ]}
       />
 
-      <header className="mb-5 max-w-2xl">
+      <header className="reveal max-w-3xl">
         <p className="section-kicker">{t("kicker")}</p>
-        <h1 className="mt-2 font-display text-3xl font-semibold tracking-tight text-[var(--navy)] sm:text-4xl">
+        <h1 className="mt-2 font-display text-2xl font-semibold tracking-tight text-[var(--navy)] sm:text-[1.75rem]">
           {t("title")}
         </h1>
-        <p className="mt-2 text-[var(--fg-muted)]">{t("sub")}</p>
+        <p className="mt-2 text-sm text-muted sm:text-base">{t("sub")}</p>
       </header>
 
       {places.length === 0 ? (
