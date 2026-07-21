@@ -96,13 +96,13 @@ Reste gehören zur Kultur: gut beschriften, kühl stellen, am nächsten Tag bewu
 `;
 
 export const bodyFasolkaGuideDe = `
-Fasolka po bretońsku ist eines der dünnsten Money-Pages-Themen im Katalog — und gleichzeitig ein Gericht, das in der Diaspora oft vorkommt: Bohnen, Tomate, Wurst, Majoran, langer Topf. Dieser Guide schließt die Lücke um das Rezept [Fasolka po bretońsku](/de/rezepte/fasolka-po-bretonsku): Einkauf in DE, Technik, Würzen, Reste und Verbindungen zu Kiełbasa und Majeranek — ohne Fake-Lab-Tests und ohne den Rezept-Owner zu kannibalisieren.
+Fasolka po bretońsku ist in der Diaspora oft auf dem Tisch: Bohnen, Tomate, Wurst, Majoran, langer Topf. Mengen und Kochschritte stehen im Rezept [Fasolka po bretońsku](/de/rezepte/fasolka-po-bretonsku). Dieser Text ergänzt Einkauf in DE, Würzen, Reste und Verbindungen zu Kiełbasa und Majeranek — ohne das Rezept zu wiederholen.
 
 ## Was Fasolka po bretońsku ist
 
 Trotz des Namens ist es polnische Hausmannskost mit weißen Bohnen, Tomatensoße, oft Kiełbasa oder Speck, Lorbeer und Majoran. Bretonisch im Sinne einer Tomaten-Bohnen-Linie, nicht eines französischen Kochkurses. In deutschen Küchen landet es zwischen Eintopf und Sonntag: satt, günstig, gut vorzubereiten.
 
-Es ist kein Bigos und kein Gulasz — weniger Kraut, mehr Bohne, klarere Tomate. Wer Bigos kennt, erkennt die Logik langer Hitze; wer [Gulasz](/de/rezepte/gulasz-wieprzowy) kocht, kennt Schmor-Geduld. Fasolka bleibt eigenständig und verdient eigene Primary-Keywords am Rezept.
+Es ist kein Bigos und kein Gulasz — weniger Kraut, mehr Bohne, klarere Tomate. Wer Bigos kennt, erkennt die Logik langer Hitze; wer [Gulasz](/de/rezepte/gulasz-wieprzowy) kocht, kennt Schmor-Geduld. Fasolka bleibt eigenständig — kochen auf der Rezeptseite.
 
 ## Bohnen: trocken, Glas, Dose
 
@@ -150,7 +150,7 @@ Oft zu wenig Majoran, zu wenig Salz am Ende, oder zu wässrige Tomate. Abschmeck
 
 ### Wie verbindet sich das mit dem Rezept?
 
-Kochschritte und Mengen: [Fasolka-Rezept](/de/rezepte/fasolka-po-bretonsku). Dieser Guide liefert Kontext und Einkauf.
+Kochschritte und Mengen: [Fasolka-Rezept](/de/rezepte/fasolka-po-bretonsku). Hier: Einkauf, Würze, Reste.
 
 ## Weiterlesen
 
@@ -160,45 +160,7 @@ Kochschritte und Mengen: [Fasolka-Rezept](/de/rezepte/fasolka-po-bretonsku). Die
 - [Polenladen](/de/blog/polenladen-einkaufen)
 - [Dutch Oven](/de/blog/dutch-oven-kaufberatung)
 
-Ruhig schmoren, klar würzen, Reste nutzen — so wird Fasolka in DE wiederholbar und sättigend.
-
-In der Praxis zählt Wiederholung mehr als Perfektion. Wer denselben Ablauf zweimal ruhig durchspielt, spart sich später Frust und Fehlkäufe. Notizen am Telefon oder auf einem Zettel neben dem Herd helfen mehr als ein weiteres Video.
-
-Für Haushalte in Deutschland bleibt der Polenladen ein gezielter Stopp, kein Pflichtprogramm für jeden Gang. Supermarkt für Basis, Spezialitäten dort, wo sie den Charakter tragen. So bleibt Einkaufen planbar und der Geschmack klar.
-
-Kinder können abmessen, rühren und servieren — heiße und scharfe Schritte bleiben bei Erwachsenen. Das senkt Stress und baut positive Erinnerung am Tisch auf, ohne Leistungsdruck.
-
-Reste gehören zur Kultur: gut beschriften, kühl stellen, am nächsten Tag bewusst aufwärmen. Mikrowelle ist Notfall; Pfanne oder Ofen erhalten Textur besser. Freezer nur, wenn die Technik es verträgt.
-
-Interne Links auf Alemniam sind bewusst gesetzt: Guides für Technik und Kauf, Rezepte für Mengen und Schritte. Eine Primary-Keyword-URL bleibt Owner — andere Seiten verlinken beschreibend, ohne denselben Intent zu klaue.
-
-In der Praxis zählt Wiederholung mehr als Perfektion. Wer denselben Ablauf zweimal ruhig durchspielt, spart sich später Frust und Fehlkäufe. Notizen am Telefon oder auf einem Zettel neben dem Herd helfen mehr als ein weiteres Video.
-
-Für Haushalte in Deutschland bleibt der Polenladen ein gezielter Stopp, kein Pflichtprogramm für jeden Gang. Supermarkt für Basis, Spezialitäten dort, wo sie den Charakter tragen. So bleibt Einkaufen planbar und der Geschmack klar.
-
-Kinder können abmessen, rühren und servieren — heiße und scharfe Schritte bleiben bei Erwachsenen. Das senkt Stress und baut positive Erinnerung am Tisch auf, ohne Leistungsdruck.
-
-Reste gehören zur Kultur: gut beschriften, kühl stellen, am nächsten Tag bewusst aufwärmen. Mikrowelle ist Notfall; Pfanne oder Ofen erhalten Textur besser. Freezer nur, wenn die Technik es verträgt.
-
-Interne Links auf Alemniam sind bewusst gesetzt: Guides für Technik und Kauf, Rezepte für Mengen und Schritte. Eine Primary-Keyword-URL bleibt Owner — andere Seiten verlinken beschreibend, ohne denselben Intent zu klaue.
-
-In der Praxis zählt Wiederholung mehr als Perfektion. Wer denselben Ablauf zweimal ruhig durchspielt, spart sich später Frust und Fehlkäufe. Notizen am Telefon oder auf einem Zettel neben dem Herd helfen mehr als ein weiteres Video.
-
-Für Haushalte in Deutschland bleibt der Polenladen ein gezielter Stopp, kein Pflichtprogramm für jeden Gang. Supermarkt für Basis, Spezialitäten dort, wo sie den Charakter tragen. So bleibt Einkaufen planbar und der Geschmack klar.
-
-Kinder können abmessen, rühren und servieren — heiße und scharfe Schritte bleiben bei Erwachsenen. Das senkt Stress und baut positive Erinnerung am Tisch auf, ohne Leistungsdruck.
-
-Reste gehören zur Kultur: gut beschriften, kühl stellen, am nächsten Tag bewusst aufwärmen. Mikrowelle ist Notfall; Pfanne oder Ofen erhalten Textur besser. Freezer nur, wenn die Technik es verträgt.
-
-Interne Links auf Alemniam sind bewusst gesetzt: Guides für Technik und Kauf, Rezepte für Mengen und Schritte. Eine Primary-Keyword-URL bleibt Owner — andere Seiten verlinken beschreibend, ohne denselben Intent zu klaue.
-
-In der Praxis zählt Wiederholung mehr als Perfektion. Wer denselben Ablauf zweimal ruhig durchspielt, spart sich später Frust und Fehlkäufe. Notizen am Telefon oder auf einem Zettel neben dem Herd helfen mehr als ein weiteres Video.
-
-Für Haushalte in Deutschland bleibt der Polenladen ein gezielter Stopp, kein Pflichtprogramm für jeden Gang. Supermarkt für Basis, Spezialitäten dort, wo sie den Charakter tragen. So bleibt Einkaufen planbar und der Geschmack klar.
-
-Kinder können abmessen, rühren und servieren — heiße und scharfe Schritte bleiben bei Erwachsenen. Das senkt Stress und baut positive Erinnerung am Tisch auf, ohne Leistungsdruck.
-
-Reste gehören zur Kultur: gut beschriften, kühl stellen, am nächsten Tag bewusst aufwärmen. Mikrowelle ist Notfall; Pfanne oder Ofen erhalten Textur besser. Freezer nur, wenn die Technik es verträgt.
+Ruhig schmoren, klar würzen, Reste nutzen — so wird Fasolka in DE wiederholbar. Polenladen gezielt für Wurst und Majoran; Basis aus dem Supermarkt reicht oft.
 `;
 
 export const bodyMajeranekDe = `

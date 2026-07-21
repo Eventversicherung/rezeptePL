@@ -244,21 +244,17 @@ Ohne Uszka. Teigtaschen separat; Suppe klar einfrieren, langsam auftauen und san
 `;
 
 export const bodyPlackiGuideDe = `
-**Placki ziemniaczane** — polnische Kartoffelpuffer — sind in der Diaspora oft das erste Gericht, das Kinder und Nachbarn mögen: außen knusprig, innen weich, mit **Śmietana** oder Gulasch. Das [Placki-Rezept](/de/rezepte/placki/ziemniaczane) liefert Mengen und Schritte; dieser Guide erklärt die **Pillar-Logik**: Kartoffelwahl, Abtropfen, Teigfehler, Braten in der richtigen Pfanne, Servieren und Reste — ohne das Rezept zu duplizieren.
+**Placki ziemniaczane** — polnische Kartoffelpuffer — sind in der Diaspora oft das erste Gericht, das Kinder und Nachbarn mögen: außen knusprig, innen weich, mit **Śmietana** oder Gulasch. Mengen und Schritte: [Placki-Rezept](/de/rezepte/placki/ziemniaczane). Hier: Unterschied zu Reibekuchen, Kartoffelwahl, typische Fehler über die Varianten, Servieren und Reste — ohne das Rezept zu wiederholen.
 
-Wir kochen zwischen Rewe-Kartoffeln und Polenladen-Śmietana, zwischen Reibekuchen-Erinnerung und polnischem Sonntagsteller. Orientierung zu Kartoffeln und ausgewogener Küche: [BZfE](https://www.bzfe.de), [was-wir-essen.de](https://www.was-wir-essen.de), [EU-Landwirtschaft](https://agriculture.ec.europa.eu). Kein Kitsch — Placki sind Pfannenküche mit klaren Hebeln.
+Wir kochen zwischen Rewe-Kartoffeln und Polenladen-Śmietana, zwischen Reibekuchen-Erinnerung und polnischem Sonntagsteller. Orientierung zu Kartoffeln: [BZfE](https://www.bzfe.de), [was-wir-essen.de](https://www.was-wir-essen.de).
 
-## Was Placki sind — vs. Reibekuchen, Entity
+## Was Placki sind — vs. Reibekuchen
 
-**Placki ziemniaczane** sind **geriebene rohe Kartoffeln**, gebunden mit Ei und etwas Mehl (oder Stärke), in Öl gebraten — flache Puffer, nicht Ofenkartoffeln, nicht Klöße. In Polen Beilage, Snack oder leichtes Hauptgericht; in DE oft mit [Gulaszem](/de/rezepte/placki/ziemniaczane) oder pur mit Sauerrahm.
+**Placki ziemniaczane** sind **geriebene rohe Kartoffeln**, gebunden mit Ei und etwas Mehl (oder Stärke), in Öl gebraten — flache Puffer, nicht Ofenkartoffeln, nicht Klöße. In Polen Beilage, Snack oder leichtes Hauptgericht; in DE oft pur mit Sauerrahm oder zu Gulasch. Varianten: [Zucchini](/de/rezepte/placki/cukinia), [Käse](/de/rezepte/placki/mit-kaese), [Apfel](/de/rezepte/placki/mit-apfel).
 
-**Reibekuchen** (deutsch, besonders Rheinland/NRW): verwandt, oft ähnliche Basis — geriebene Kartoffeln, gebraten. Unterschiede sind regional und haushaltsintern: mehr oder weniger Zwiebel, Speck ja/nein, Größe der Puffer, ob gekochte Kartoffeln dabei sind. **Placki** im polnischen Sinn: typisch **nur roh**, eher dünn, knusprig, neutral würzig — Śmietana oder Pilz-Gulasch als Partner.
+**Reibekuchen** (deutsch, besonders Rheinland/NRW): verwandt — geriebene Kartoffeln, gebraten. Unterschiede regional: Zwiebel, Speck, Größe, manchmal gekochte Kartoffeln dazu. **Placki** typisch **nur roh**, eher dünn, knusprig — Śmietana oder Pilz-Gulasch als Partner.
 
-**Entity-Merkmale:** Knusprige Ränder, weiches Inneres, Kartoffelgeschmack vorne, nicht mehlig-dominiert. Form: handtellergroß, nicht Riesen-Puffer — gleichmäßige Garzeit.
-
-**Placki vs. Latkes:** Jüdische Latkes teilen die Technik; Würzung und Beilage unterscheiden sich. Diaspora-Küche kann beides kennen — polnische Placki eher zu [Sonntagsessen](/de/blog/sonntagsessen-polnisch) oder als schnelle Hauptmahlzeit.
-
-Dieser Text ist **Guide-Owner** für Placki-Technik; [Kasza-Lexikon](/de/blog/kasza-buchweizen) und [Gusseisen](/de/blog/gusseisenpfanne) bleiben eigene Owner — wir verlinken nur.
+**Placki vs. Latkes:** ähnliche Technik, andere Würzung und Beilage. Polnische Placki oft im Kontext [Sonntagsessen](/de/blog/sonntagsessen-polnisch). Pfanne: [Gusseisen](/de/blog/gusseisenpfanne); Beilage-Idee: [Kasza](/de/blog/kasza-buchweizen).
 
 ## Kartoffeln: Sorte, abtropfen, Stärke
 
@@ -310,7 +306,7 @@ Dieser Text ist **Guide-Owner** für Placki-Technik; [Kasza-Lexikon](/de/blog/ka
 
 **Śmietana:** Klassisch — kühler Löffel pro Teller. Polnische **Śmietana** vs. deutscher Schmand: [Lexikon](/de/blog/smietana-schmand). Wir kaufen im Polenladen oder ersetzen bewusst — Geschmack säuerlicher-milder je nach Marke.
 
-**Gulasz:** Placki als **Beilage zu Gulasch** — deftiges Sonntagsbild. [Rezept](/de/rezepte/placki/ziemniaczane) verknüpft Varianten; Gulasch separat warm, Placki frisch gebraten. Composed auf einem Teller (Puffer **mit** Gulasch obenauf, Primary dort): [Placek po węgiersku](/de/rezepte/placek-po-wegiersku) — Placki-Broad bleibt hier.
+**Gulasz:** Placki als **Beilage zu Gulasch** — deftiges Sonntagsbild. Gulasch separat warm, Placki frisch gebraten. Auf einem Teller mit Gulasch obenauf: [Placek po węgiersku](/de/rezepte/placek-po-wegiersku). Klassische Puffer allein: [Placki ziemniaczane](/de/rezepte/placki/ziemniaczane).
 
 **Solo:** Mit Salat oder [Kasza](/de/blog/kasza-buchweizen) statt doppelter Kartoffel — leichter Teller, diaspora-praktisch.
 

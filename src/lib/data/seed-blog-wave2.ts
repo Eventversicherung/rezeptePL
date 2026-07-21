@@ -335,7 +335,7 @@ export const seedBlogPostsWave2: BlogPost[] = [
           "Bigos verstehen: Kapusta, Fleisch, Ruhezeiten, Aufwärmen und warum ein guter Schmortopf hilft.",
         seoTitle: "Bigos Guide | Technik & Varianten | Alemniam",
         seoDescription:
-          "Bigos Guide: Varianten, Zeitplan, Kapusta-Qualität und Schmortopf. Ergänzt das Bigos-Rezept — ohne Cannibalization.",
+          "Bigos Guide: Varianten, Zeitplan, Kapusta-Qualität und Schmortopf. Kochen mit Mengen im Bigos-Rezept.",
         body: bodyBigosGuideDe.trim(),
       },
       pl: {

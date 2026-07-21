@@ -3,273 +3,115 @@
  */
 
 export const bodyGolabkiGuidePl = `
-Gołąbki to jedno z tych dań, które w diasporze w Niemczech często wracają na stół w niedzielę albo przed wizytą rodziny — nie dlatego, że są „tradycją z obowiązku”, ale dlatego, że dobrze zrobione naprawdę karmią: miękkie liście kapusty, soczysty farsz, sos, który trzyma wszystko razem. Ten przewodnik nie zastępuje [przepisu na gołąbki](/pl/rezepte/golabki), ale zbiera technikę, typowe błędy i decyzje zakupowe pod realne warunki w Niemczech: niemiecki supermarket, czasem polski sklep, zwykła kuchnia bez teatralnego folkloru.
+Gołąbki w diasporze często wracają w niedzielę albo przed wizytą rodziny — miękkie liście, soczysty farsz, sos, który trzyma całość. Ilości i kolejność kroków są w [przepisie na gołąbki](/pl/rezepte/golabki). Tutaj: miejsce przy stole, decyzje o sosie, warianty i batch — bez powtarzania przepisu.
 
-## Co to są gołąbki — i dlaczego warto je ugotować u siebie
+## Co to są gołąbki
 
-Gołąbki to zwinięte liście kapusty wypełnione farszem — najczęściej ryżem z mięsem mielonym, czasem kaszą, czasem w wersji wegetariańskiej z grzybami. Po złożeniu układa się je w garnku warstwami i dusi, zwykle w sosie pomidorowym, choć w domach spotkasz też wariant na resztkach rosołu albo z dodatkiem śmietany.
+Zwinięte liście kapusty z farszem (ryż z mięsem, czasem kasza albo grzyby), duszone w sosie. Obok [rosołu](/pl/rezepte/rosol) i [bigosu](/pl/rezepte/bigos) bywają filarem niedzieli — szerszy kontekst: [obiad niedzielny](/pl/blog/obiad-niedzielny). To danie planu: raz wkład, wiele porcji.
 
-Nazwa brzmi lekko, ale danie jest konkretne: wymaga czasu na przygotowanie liści, farszu i układania w naczyniu. Za to nagradza porcjami — jedna sesja gotowania to często obiad na niedzielę i zapas na tydzień. W wielu polskich domach w Niemczech gołąbki stoją obok [rosółu](/pl/rezepte/rosol) i [bigosu](/pl/rezepte/bigos) jako trzeci filar „niedzielnego obiadu”, o którym piszemy szerzej w artykule o [niedzielnym obiedzie](/pl/blog/obiad-niedzielny).
+## Sos: trzy ścieżki
 
-> Gołąbki to nie szybki obiad w tygodniu po pracy — to danie planu. Ale plan, który się opłaca.
+**Pomidor** — przewidywalny, dobrze znosi mrożenie. **Resztki rosołu** — głębszy, „niedzielny” smak; technika: [jak ugotować rosół](/pl/blog/jak-ugotowac-rosol). **Śmietana** — łagodniej; porównanie nabiału: [śmietana czy Schmand](/pl/blog/smietana-czy-schmand). Sos ma prawie zakrywać rolki — szczegóły w przepisie.
 
-Smak końcowy zależy od trzech filarów: giętkiej kapusty, dobrze doprawionego farszu i cierpliwego duszenia. Jeśli któryś z nich zawiedzie, nawet dobry przepis nie uratuje talerza. Dlatego ten tekst skupia się na technice, a nie na sentencjach o „prababci z wsi”.
+## Warianty i batch
 
-## Jak przygotować kapustę: blanszowanie i żyłki
+Wege z grzybami lub soczewicą; [kasza gryczana](/pl/blog/kasza-gryczana) zamiast ryżu — ugotowana al dente, nie za mokra. Gołąbki lubią poprawki domu, byle kapusta, balans farszu i czas duszenia trzymały się razem.
 
-Kapusta biała z REWE, Kauflandu czy Lidla zwykle nadaje się do gołąbków bez problemu. Szukamy główki ciężkiej, zwartej, z jasnymi, nie pożółkłymi liśćmi zewnętrznymi. Zbyt lekka albo pęknięta główka często oznacza suszenie — liście będą kruche i pękną przy zwijaniu.
+Batch: duży garnek, porcje na tydzień; nazajutrz często lepiej. Ugotowane z sosem do zamrażarki. Surowe zwinięte mrozić ostrożniej — bezpieczniej ugotować. Garnek: [garnek do duszenia](/pl/blog/garnek-do-duszenia).
 
-Blanszowanie zaczynamy od usunięcia uszkodzonych liści zewnętrznych i przekrojenia główki u podstawy, żeby łatwiej zdejmować liście warstwami. W dużym garnku gotujemy osoloną wodę i wrzucamy liście partiami na 2–3 minuty — aż zmiękną na brzegach, ale nie rozpadną się. Wyjmujemy łopatką, zdejmujemy kolejne warstwy z główki, dopóki nie dojdziemy do twardego głąbika, i studzimy liście, zanim dotkniemy ich bez rękawic.
+## Typowe błędy
 
-Blanszowanie ma sens: surowa kapusta nie da się sensownie zwinąć, a zbyt długie gotowanie liści robi z nich papkę. Jeśli liść jest gruby u środka, delikatnie „postukaj” tylną stroną noża albo spłaszcz grube żyłki nożem — to prosta sztuczka, która ratuje wiele zwitek.
+- Za ciasno / za mokry lub surowy ryż → pękają
+- Grube żyłki → „gryzą” mimo godzin w garnku
+- Za gwałtowne gotowanie → sos i rolki cierpią
+- Za mało płynu → suche brzegi
+- Zbyt chude mięso → suchy farsz przy miękkiej kapuście
 
-### Żyłki i brzegi
+Korekty i ilości: [przepis gołąbki](/pl/rezepte/golabki).
 
-Grube nerwy na liściu to najczęstszy powód, że gołąbki „gryzą” mimo długiego duszenia. Nie musisz wycinać całego liścia — wystarczy cieniutko zmniejszyć grubość środkowej żyłki. Brzegi liścia też warto lekko przyciąć, jeśli są wyjątkowo twarde albo ciemno zielone.
+## FAQ krótko
 
-W polskim sklepie czasem trafisz na mrożone, już blanszowane liście kapusty. To opcja ratunkowa, gdy nie masz dwóch godzin na stanie przy garnku. Jakość bywa różna — przed zakupem sprawdź, czy liście nie są poszarpane na małe fragmenty.
+### Czy kapusta tylko ze sklepu polskiego?
 
-## Farsz: ryż, mięso, przyprawy — i błędy, które widzimy najczęściej
+Nie. Biała z supermarketu zwykle wystarczy. Polski sklep — gdy są gotowe liście albo lepszy majeranek.
 
-Klasyczny farsz to ryż z mięsem mielonym, cebulą, solą, pieprzem i ziołami. Proporcje bywają domowe, ale sensowny punkt wyjścia to około połowa suchego ryżu do połowy mięsa — po ugotowaniu ryż pęcznieje i farsz „pracuje” w środku rolki.
+### Pomidor czy rosół?
 
-### Ryż
-
-Używamy ryżu białego, krótkoziarnistego albo średnioziarnistego — ten z niemieckiego supermarketu działa. Ważne: ryż gotujemy do półmiękkości albo mocno parzymy na sucho przed wymieszaniem z mięsem, zależnie od przepisu. Surowy ryż w farszu wchłonie cały sos w trakcie duszenia i da twarde centrum. To jeden z najczęstszych błędów.
-
-### Mięso
-
-Mięso mielone wieprzowo-wołowe z niemieckiego sklepu jest standardem. Wołowina dodaje smaku, wieprzowina soczystości. Patrz na zawartość tłuszczu — zbyt chude mięso daje suchy farsz. Cebulę podsmaż na złoto przed wymieszaniem; surowa cebula w środku kapusty bywa gorzka po długim gotowaniu.
-
-Przyprawy: sól, pieprz, majeranek, czasem tymianek albo liść laurowy w sosie. Nie przesadzaj z czosnkiem, jeśli gotujesz dla dzieci wychowanych w Niemczech — lepiej dodać go do sosu niż do całego farszu. Bezpieczeństwo przy surowym mięsie to nie pedanteria: trzymaj osobną deskę, myj ręce po farszu, a resztki surowego mięsa szybko schowaj do lodówki. Praktyczne wskazówki znajdziesz m.in. na stronie [Narodowego Centrum Edukacji Żywieniowej](https://ncez.pzh.gov.pl) oraz niemieckiego [BZfE](https://www.bzfe.de).
-
-### Typowe błędy farszu
-
-- **Za mokry farsz** — kapnie przez liść i robi wodnisty sos.
-- **Za ciasno zwinięte** — ryż nie ma gdzie pęcznieć, rolki pękają.
-- **Za mało soli przed duszeniem** — kapusta i sos „rozmywają” smak; lepiej doprawić farsz wyraźniej, niż wydaje się na początku.
-- **Za dużo surowego ryżu** — twarde środki mimo godzin w garnku.
-
-## Zwijanie i układanie w garnku
-
-Zwijanie to moment, w którym gołąbki albo wyglądają jak danie z menu, albo jak przypadkowy zawijany placek. Nie chodzi o perfekcję estetyczną — chodzi o szczelność i równomierne ugotowanie.
-
-Zwijamy na wypukłej stronie liścia: farsz kładziemy na dolną trzecią część w kształt podłużnego wałka, zgijamy dolny brzeg, boki i rolujemy do góry jak nieduży burrito. Końcówkę liścia układamy pod spodem rolki — wtedy nie rozwinie się w garnku.
-
-Nie napinamy liścia jak pierogi na wigilię. Farsz potrzebuje odrobinę miejsca. Jeśli liść jest mały, użyj dwóch nałożonych na siebie albo połówki dużego liścia.
-
-### Warstwy w garnku
-
-Spód garnka smarujemy tłuszczem albo układamy kilka zewnętrznych liści kapusty — działają jak podkładka i zapobiegają przypalaniu. Gołąbki układamy szwem do dołu, ciasno obok siebie, warstwa po warstwie. Między warstwami można dać listek laurowy, ziele angielskie, plasterki cebuli.
-
-Na wierzch przykryj całość liśćmi kapusty albo arkuszem papieru do pieczenia z małym otworem — utrzymuje parę i kolor sosu. Do duszenia sprawdza się [garnek do duszenia](/pl/blog/garnek-do-duszenia): ciężka pokrywa, równomierne ciepło, mniej parującego sosu niż w cienkim garnku z niedopasowaną pokrywką.
-
-## Sos: pomidor, resztki rosołu czy śmietana
-
-Sos to nie dodatek — to medium, w którym gołąbki dochodzą do końca. Trzy ścieżki są najczęstsze w domach w Niemczech.
-
-### Sos pomidorowy — klasyka
-
-Passata albo przecier pomidorowy z supermarketu plus bulion, sól, pieprz, odrobina cukru, jeśli pomidory są kwaśne. Prosty sos pomidorowy jest przewidywalny i dobrze znosi mrożenie. To wariant, który dzieci zwykle akceptują najszybciej.
-
-### Na resztkach rosołu
-
-Jeśli w lodówce masz [rosół](/pl/rezepte/rosol) z poprzedniego dnia, rozcieńcz go wodą albo passatą i użyj jako bazy. Smak jest głębszy, bardziej „niedzielny”. Technika rosołu ma znaczenie — jeśli bulion jest mętny albo przesolony, gołąbki odziedziczą ten problem. Pomaga krótki artykuł o tym, [jak ugotować rosół](/pl/blog/jak-ugotowac-rosol).
-
-### Ze śmietaną
-
-Łagodniejszy, kremowy profil — szczególnie w wersjach z kaszą albo grzybami. W Niemczech wybór między śmietaną, Schmand a crème fraîche bywa mylący; różnice tłuszczu i kwaśności wpływają na to, czy sos się zetnie albo rozejdzie. Porównanie produktów: [śmietana czy Schmand](/pl/blog/smietana-czy-schmand).
-
-Niezależnie od wariantu: sos powinien prawie zakrywać gołąbki. Za mało płynu = suche brzegi liści i nierównomierne mięknięcie.
-
-## Warianty: wegetariańskie i z kaszą gryczaną
-
-Nie każdy dom je mięso w każdą niedzielę — i nie trzeba rezygnować z gołąbków.
-
-**Wegetariańskie:** farsz z kaszy jaglanej albo ryżu z duszonymi pieczarkami, suszonymi grzybami i cebulą. Grzyby namocz wcześniej — woda po namoczeniu to baza sosu. Dopraw wyraźniej niż wersję mięsną.
-
-**Z kaszą gryczaną zamiast ryżu:** smak ziemistszy, bardziej „wschodni” profil. Kaszę ugotuj al dente, ostudź, wymieszaj z cebulą i ewentualnie odrobiną twarogu lub grzybów. Sos pomidorowy nadal działa; grzybowy bywa jeszcze lepszy.
-
-**Bez glutenu:** same gołąbki z naturalnych składników zwykle są bez glutenu — uważaj na bulion i przyprawy w proszku z dodatkami. Sprawdź etykiety, jak przy każdym gotowaniu dla alergików.
-
-Krótko: warianty to korekta smaku domu, nie konkurs na autentyczność.
-
-## Batch, mrożenie i ponowne podgrzewanie
-
-Gołąbki są idealne do gotowania partiami — szczególnie gdy zapraszasz rodzinę albo chcesz zjeść coś polskiego w środku tygodnia bez trzygodzinnego projektu.
-
-### Plan batcha
-
-- Przygotuj wszystkie liście i farsz w jednej sesji.
-- Zwiń gołąbki surowe albo dusz do półmiękkości — obie metody mają zwolenników.
-- W dużym garnku ugotuj większą porcję; resztę ostudź szybko i schowaj.
-
-### Mrożenie
-
-**Surowe, nieugotowane zwinięte gołąbki:** układaj na blaszce, zamroź, potem przesyp do worka. Gotuj z zamrożenia dłużej, w większej ilości sosu.
-
-**Ugotowane:** porcjuj do pojemników z sosem. W lodówce trzymaj 2–3 dni; w zamrażarce — do około trzech miesięcy, jeśli szczelnie zamknięte.
-
-Przy odmrożaniu podgrzewaj powoli, na małym ogniu, z przykryciem. Mikrofala ratuje lunch w pracy, ale tekstura liścia będzie gorsza niż po podgrzaniu w garnku.
-
-Zasady bezpiecznego przechowywania i temperatury w zamrażarce opisuje też m.in. [Europejski Urząd ds. Bezpieczeństwa Żywności (EFSA)](https://www.efsa.europa.eu) — warto trzymać się prostych reguł: szybkie chłodzenie, szczelne pojemniki, nie mroź ponownie po rozmrożeniu.
-
-## FAQ — gołąbki w Niemczech
-
-### Czy musimy kupować kapustę w sklepie polskim?
-
-Nie. Biała kapusta z niemieckiego supermarketu sprawdza się w większości przypadków. Polski sklep pomaga, gdy znajdziemy gotowe blanszowane liście albo lepszy wybór przy większych główkach sezonowo.
-
-### Dlaczego nasze gołąbki wychodzą twarde?
-
-Najczęściej: za krótkie duszenie, za grube żyłki albo za mało sosu. Kapusta potrzebuje czasu i wilgoci. Sprawdzamy też, czy ryż w farszu był wstępnie ugotowany.
-
-### Czy możemy przygotować gołąbki dzień wcześniej?
-
-Tak — i często smakują lepiej następnego dnia, gdy sos wniknie w farsz. Chowamy w lodówce w garnku albo w pojemniku i podgrzewamy delikatnie przed podaniem.
-
-### Co robimy, gdy zabraknie nam liści kapusty?
-
-Dokańczamy farsz jako „kapuśniaki” — luźne klopsiki w tym samym sosie. Smak zostaje, tylko forma się zmienia. To normalna domowa adaptacja, nie porażka.
-
-### Czy dzieci w Niemczech zjedzą gołąbki?
-
-W wielu domach tak, jeśli sos jest łagodny i kapusta dobrze miękka. Zaczynamy od mniejszych rolek i pomidorowego sosu bez ostrej papryki. Miękkie liście są ważniejsze niż idealny wygląd.
-
-### Ile czasu planujemy na całość?
-
-Na pierwszy raz liczymy z trzema godzinami z przerwami. Po kilku próbach — około dwóch godzin, jeśli liście blanszujemy sprawnie i mamy duży garnek.
+Smak i to, co jest w lodówce. Można mieszać.
 
 ## Co czytać dalej
 
-- [Przepis: gołąbki](/pl/rezepte/golabki) — składniki, kroki, lista zakupów.
-- [Rosół](/pl/rezepte/rosol) — baza sosu i niedzielnego menu.
-- [Bigos](/pl/rezepte/bigos) — drugie danie kapustowe na batch w weekend.
-- [Niedzielny obiad po polsku](/pl/blog/obiad-niedzielny) — jak ułożyć rosół, mięso i dodatek w jeden plan.
-- [Garnek do duszenia](/pl/blog/garnek-do-duszenia) — sprzęt pod gołąbki, bigos i długie gotowanie.
-- [Śmietana czy Schmand](/pl/blog/smietana-czy-schmand) — wybór nabiału do sosu.
-- [Jak ugotować rosół](/pl/blog/jak-ugotowac-rosol) — bulion, który podnosi cały obiad.
-
-Gołąbki nie wymagają polskiego sklepu na każdym kroku — wymagają cierpliwości, dobrego sosu i kapusty, którą da się zwinąć. Reszta to praktyka, którą w diasporze i tak zdobywamy talerz po talerzu.
+- [Przepis: gołąbki](/pl/rezepte/golabki)
+- [Rosół](/pl/rezepte/rosol) · [jak ugotować rosół](/pl/blog/jak-ugotowac-rosol)
+- [Bigos](/pl/rezepte/bigos)
+- [Niedzielny obiad](/pl/blog/obiad-niedzielny)
+- [Garnek do duszenia](/pl/blog/garnek-do-duszenia)
+- [Śmietana czy Schmand](/pl/blog/smietana-czy-schmand)
 `;
 
 export const bodyNalesnikiGuidePl = `
-Naleśniki to jedno z tych dań, które w diasporze wracają szybciej niż bigos albo pierogi z kapustą — bo są szybkie, elastyczne i dobrze znane dzieciom. W Niemczech łatwo jednak pomylić je z Eierkuchen albo Pfannkuchen z restauracji: grubsze, bardziej „deserowe”, często podawane z syropem albo Nutellą bez zwijania. Polskie naleśniki są cieńsze, bardziej jak cienkie crêpes, i zwykle idą dalej — z farszem, zwinięte, czasem jeszcze raz podsmażone na maśle. Ten przewodnik jest dla nas, którzy gotujemy w REWE, Aldi albo w sklepie polskim i chcemy powtarzalnego efektu bez domysłów. Przepis krok po kroku: [naleśniki z twarogiem](/pl/rezepte/nalesniki/twarog).
+Naleśniki w diasporze wracają szybciej niż bigos — są szybkie, elastyczne i znane dzieciom. Kto chce gotować, idzie do przepisów: start [naleśniki z twarogiem](/pl/rezepte/nalesniki/twarog), wytrawne [mięso](/pl/rezepte/nalesniki/mieso) albo [szpinak](/pl/rezepte/nalesniki/szpinak), słodkie bez twarogu [dżem](/pl/rezepte/nalesniki/dzem). Ten tekst porządkuje różnicę wobec niemieckich Eierkuchen, mapę farszy i typowe błędy wspólne dla wariantów — bez powtarzania przepisu.
 
-## Co to są naleśniki — i czym różnią się od niemieckich naleśników
+## Co to są naleśniki — a co Eierkuchen
 
-W polskiej kuchni domowej naleśniki to cienkie placki z mleka, mąki i jajek, smażone na patelni i — w wielu domach — wypełniane, zwijane albo składane na pół. Słodka linia z twarogiem, cukrem i wanilią to klasyk popołudniowy; wytrawna ze szpinakiem, serem albo pieczarkami bywa obiadem albo lekką kolacją. Niemiecki Pfannkuchen albo Eierkuchen zwykle jest grubszy, mniej elastyczny i częściej jedzony „sam w sobie” — z cukrem pudrem, dżemem albo owocami na wierzchu, bez rolowania.
+Polskie naleśniki to cienkie placki, zwykle z farszem, zwinięte, czasem jeszcze podsmażone na maśle. Niemiecki Pfannkuchen / Eierkuchen bywa grubszy, często jedzony sam z cukrem albo dżemem na wierzchu. To inna technika i inny rytm posiłku — nie „lepsze vs gorsze”.
 
-> Cienki placek, farsz w środku, opcjonalnie drugie smażenie — to trójca, która odróżnia naleśniki od grubszego niemieckiego odpowiednika.
+Logika jak przy [pierogach ruskich](/pl/rezepte/pierogi/ruskie): ciasto niesie, farsz prowadzi — tu płasko zamiast sklejania.
 
-Różnica nie jest kwestią „lepsze versus gorsze”. To inna technika i inny rytm posiłku. My traktujemy naleśniki jak platformę: ten sam teg może iść w stronę deseru z twarogiem albo w stronę słonego farszu — podobnie jak ten sam [twaróg](/pl/blog/twarog-w-niemczech) służy do [pierogów ruskich](/pl/rezepte/pierogi/ruskie), ale z inną wilgotnością i doprawieniem. Jeśli kiedykolwiek próbowaliście zrobić polskie naleśniki na bazie ciasta do Eierkuchen, prawdopodobnie wyszły zbyt grube albo pękały przy zwijaniu. Tu zaczyna się właściwy teg.
+## Który farsz kiedy?
 
-## Ciasto: cienkie, odpoczynek, mąka w Niemczech
+| Wariant | Kiedy | Przepis |
+|---------|-------|---------|
+| Twaróg słodki | dzieci, popołudnie, goście | [z twarogiem](/pl/rezepte/nalesniki/twarog) |
+| Dżem | szybko, bez twarogu | [z dżemem](/pl/rezepte/nalesniki/dzem) |
+| Mięso | niedziela, resztki mielonego | [z mięsem](/pl/rezepte/nalesniki/mieso) |
+| Szpinak | wege, lżejszy wieczór | [ze szpinakiem](/pl/rezepte/nalesniki/szpinak) |
+| Panierowana rolka | obok barszczu | [krokiety](/pl/rezepte/krokiety) |
 
-Ciasto na naleśniki ma być płynne — wlewasz je na patelnię łyżką wazową albo małą chochlą, a nie nakładasz łyżką jak na grubsze placki. Po wymieszaniu składników powinno przypominać gęstą śmietanę albo lekko rzadsze ciasto naleśnikowe z opakowania, ale bez grudek. Kluczowe składniki: mąka pszenna, mleko, jajka, szczypta soli, odrobina oleju albo roztopionego masła w cieście (ułatwia smażenie i daje elastyczność).
+Zakupy i wilgotność twarogu: [twaróg w Niemczech](/pl/blog/twarog-w-niemczech). Śmietana vs Schmand: [śmietana](/pl/blog/smietana-czy-schmand). Zamienniki: [zamienniki składników](/pl/blog/zamienniki-skladnikow).
 
-W Niemczech pracujemy zwykle na mące typu 405 albo 550 — te same typy, które znamy z [ciasta na pierogi](/pl/blog/ciasto-na-pierogi), ale proporcje są inne. Mleko z supermarketu, jajka L/XL, woda z kranu o innej twardości niż w Polsce — to normalne zmienne. Nie szukamy „polskiej mąki za granicą”; szukamy powtarzalności na swojej półce.
+Słodkiego i wytrawnego nie mieszamy na jednej blasze — inna wilgotność, inna temperatura przy drugim smażeniu.
 
-### Proporcje startowe (ok. 12–14 cienkich naleśników)
+## Błędy wspólne dla wszystkich wariantów
 
-- ok. 250 g mąki pszennej
-- ok. 500 ml mleka (start z mniejszej ilości, dokładaj łyżkami)
-- 2–3 jajka
-- szczypta soli
-- 1–2 łyżki oleju roślinnego albo roztopionego masła
-- opcjonalnie: łyżka cukru, jeśli planujecie słodką linię
+- **Za grube placki** — ciasto za gęste albo za dużo na patelni; pękają przy zwijaniu.
+- **Bez odpoczynku masy** — świeże ciasto klei i rwie; 20–30 minut pomaga.
+- **Mokry farsz** — twaróg bez odsączenia, szpinak bez odciśnięcia, gorące mięso.
+- **Pierwszy placek jako wzór** — zwykle kalibracja; oceniaj od drugiego.
+- **Mikrofala do odgrzewania** — robi gumę; lepiej patelnia albo łagodny piekarnik.
 
-Wymieszajcie składniki trzepaczką albo blenderem na gładko. Grudki psują pierwsze placki. Odstawcie ciasto minimum 20–30 minut w temperaturze pokojowej, przykryte. Gluten i mąka „dogadują się” z płynem; ciasto gęstnieje lekko i staje się bardziej jednolite. My często przygotowujemy je rano w weekend albo wieczorem wcześniej — wtedy smażenie idzie szybciej.
+Ilości i kolejność kroków: w przepisie wybranej wersji.
 
-### Typowe błędy w cieście
+## Meal prep (krótko)
 
-Zbyt gęste ciasto daje grube, ciężkie placki — bliżej Eierkuchen niż naleśników. Zbyt rzadkie rwie się przy przewracaniu. Jeśli po odpoczynku ciasto wygląda jak gęsta śmietana, jesteście blisko. Jeśli stoi jak budyń — dolejcie mleko łyżka po łyżce. Zbyt dużo mąki na końcu „ratuje” tylko na chwilę i daje gumowaty efekt.
+Puste placki z papierem między warstwami do zamrażarki — w tygodniu tylko farsz i podsmażenie. Gotowe zwinięte też się mrozi; odgrzewać na patelni. Opisz: słodkie / wytrawne. Przy pierogach ruskich w weekend ten sam odsączony twaróg może iść na naleśniki.
 
-Nie mylcie tego ciasta z ciastem pierogowym. Pierogi wymagają wyrabiania i innej wilgotności; naleśniki — płynności i spokoju. W jeden dzień możecie zrobić oba dania, ale trzymajcie miski osobno.
+## FAQ
 
-## Smażenie: patelnia, tłuszcz, pierwsza naleśnik-regel
+### Naleśniki czy Eierkuchen?
 
-Patelnia ma znaczenie, ale nie musi być profesjonalna. Ważniejsze: równomierne nagrzanie, cienka warstwa tłuszczu i cierpliwość. My używamy patelni nieprzywierającej o średnicy 24–26 cm albo mniejszej, jeśli kuchnia jest ciasna — na małej patelni robicie mniejsze, łatwiejsze do zwijania placki.
+Gdy zwijamy i nadziewamy — naleśniki. Gdy grube placki z cukrem — niemiecka linia. Obie legalne.
 
-Nagrzać patelnię na średnim ogniu. Wlać odrobinę oleju albo masła i rozprowadzić po powierzchni papierem kuchennym — cienko, bez sadzenia w głębokim tłuszczu. Wlać porcję ciasta, szybko przechylić patelnię, żeby rozlać masę równomiernie. Smażyć, aż brzegi się zrumienią i wierzch zwiąże, potem przewrócić delikatnie łopatką.
+### Czy trzeba patelni do crêpes?
 
-> Pierwszy naleśnik idzie na próbę — albo na kogoś głodnego przy patelni. Kalibruje tłuszcz, temperaturę i ilość ciasta.
+Nie. Równe ciepło, cienka warstwa tłuszczu. Żeliwo pomaga niektórym — [patelnia żeliwna](/pl/blog/patelnia-zelivna) — nie jest obowiązkiem.
 
-To nie żart kuchenny, tylko praktyka. Pierwszy placek bywa jałowy, zbyt gruby albo zbyt ciemny — i dokładnie dlatego służy kalibracji. Drugi i trzeci zwykle wyglądają już jak z domu. Jeśli placki ciemnieją za szybko, zmniejszcie ogień. Jeśli są blade i gumowate — patelnia za chłodna albo za gruba warstwa ciasta.
+### Naleśniki a blintzes?
 
-Między naleśnikami myjemy patelnię tylko wtedy, gdy coś przypali — zwykle wystarczy szybkie przetarcie papierem z odrobiną oleju. Stos ciast gotowych przykrywamy czystą ściereczką albo folią, żeby nie wysychały, zanim dojdzie farsz.
+Pokrewne, inna tradycja. Naleśniki to polska kuchnia domowa.
 
-## Farsz słodki z twarogiem versus wytrawny
+### Gdzie gotować konkretnie?
 
-Słodka linia z twarogiem to serce domowych naleśników — zwłaszcza gdy w domu są dzieci albo goście, którzy nie jedzą jeszcze mocno wytrawnych dań. Cook-primary twarogu: [naleśniki z twarogiem](/pl/rezepte/nalesniki/twarog). Druga słodka linia bez twarogu: [naleśniki z dżemem](/pl/rezepte/nalesniki/dzem) — własny URL wariantu. Twaróg ma być ziarnisty, dobrze odsączony, bez kałuży w misce. Szczegóły zakupu i odsączania opisujemy w [twarogu w Niemczech](/pl/blog/twarog-w-niemczech) — tu tylko tyle: mokry nabiał w zwiniętym naleśniku wypływa przy podsmażaniu i psuje teksturę.
+[Twaróg](/pl/rezepte/nalesniki/twarog), [mięso](/pl/rezepte/nalesniki/mieso), [szpinak](/pl/rezepte/nalesniki/szpinak) albo [dżem](/pl/rezepte/nalesniki/dzem).
 
-Do słodkiego farszu: twaróg (albo odsączony Quark), cukier, wanilia, skórka cytryny, opcjonalnie rodzynki namoczone w rumie albo w gorącej wodzie. Jajko w farszu bywa w domowych przepisach — wiąże masę, ale nie przesadzajcie z ilością płynu. Odrobina [śmietany albo Schmandu](/pl/blog/smietana-czy-schmand) zaokrągla smak; w Niemczech łatwo jednak dodać za dużo i zejść w stronę kremowego deseru z kubka. My trzymamy farsz zwarty, słodki, ale wciąż „ziarnisty w zębie”.
+## Co dalej
 
-### Wytrawne warianty
-
-Szpinak odciśnięty z wody, pieczarki podsmażone z cebulą, ser żółty, twaróg z solą i szczypiorkiem — to proste kierunki na obiad albo kolację. Wytrawny farsz musi być jeszcze bardziej suchy niż słodki: woda z szpinaku albo grzybów to najczęstszy powód rozpływania się naleśnika w patelni przy drugim smażeniu.
-
-Nie musicie wybierać jednej linii na zawsze. W ten sam dzień możecie zrobić pół porcji farszu słodkiego z twarogiem i pół wytrawnego — ten sam teg, dwie miseczki. To sprawdza się, gdy w domu mieszają się gusta „niemieckie” i „polskie”.
-
-## Zwijanie, podsmażanie i serwowanie
-
-Na gotowym, jeszcze ciepłym placku kładzie się pas farszu wzdłuż środka — nie do samej krawędzi, zostawcie margines. Zwijacie jak rulon albo składacie na pół i potem jeszcze raz, jak kopertę — zależnie od tradycji domu. Ważne: nie dociskajcie z całej siły. Farsz ma siedzieć stabilnie, ale zbyt mocne ściskanie rozrywa cienki placek.
-
-Klasyczny finisz to krótkie podsmażenie na maśle na złoto z obu stron. Maślane, chrupiące skórki z zewnątrz i miękki środek — to efekt, za którym wielu z nas tęskni. Można też podać naleśniki tylko zwinięte, bez drugiego smażenia: lżejsze, bardziej „popołudniowe”. Dzieci często wolą wersję bez rumienia.
-
-Na talerzu: cukier puder, owoc sezonowy, kleks śmietany — jeśli macie w domu akceptację dla słodyczy. Wytrawne podajemy z surówką, jogurtem albo po prostu same. Naleśniki smakują też na zimno następnego dnia — wygodne do lunchboxa, o ile farsz nie był zbyt wilgotny.
-
-Jeśli planujecie podsmażanie partii dla większej rodziny, trzymajcie gotowe rulony pod przykryciem w cieple (niska temperatura piekarnika albo talerz przykryty na kuchence) — ale nie godzinami, bo skórka mięknie. Lepiej smażyć w dwóch falach niż trzymać w cieple za długo.
-
-## Meal prep i mrożenie
-
-Naleśniki nadają się do planowania — i to jest ich duża zaleta w tygodniu po pracy. Możecie iść dwoma ścieżkami.
-
-**Ścieżka A — mrożenie samych placków:** Usmażcie cienkie naleśniki bez farszu, ostudźcie na kratce, ułóżcie przekładając papierem do pieczenia, zamroźcie w worku. W ciągu tygodnia rozmrażacie tyle, ile potrzeba, nadziewacie i ewentualnie podsmażacie. Elastyczne, bo farsz możecie zmieniać.
-
-**Ścieżka B — mrożenie gotowych, zwiniętych naleśników:** Usmażone, nadziane, zwinięte — bez drugiego smażenia albo z lekkim rumieniem. Zamrożone porcjami po 2–3 sztuki. Wieczorem: patelnia albo piekarnik, ciepły obiad w kilkanaście minut.
-
-My oznaczamy worki datą i typem farszu (słodki / szpinak / twaróg). Nabiał nie lubi nieskończonego mrożenia — trzymajmy się rozsądnych terminów i nie mroźmy farszu, który był już raz rozmrożony. Przy wytrawnych wersjach upewnijcie się, że szpinak i grzyby były dobrze odciśnięte przed zamrożeniem.
-
-Na większe gotowanie w weekend warto połączyć naleśniki z inną partią: np. [pierogi ruskie](/pl/rezepte/pierogi/ruskie) z tego samego odsączonego twarogu — efektywne użycie składników ze [sklepu polskiego](/pl/blog/sklep-polski-zakupy) albo z odsączonego Quarku z REWE.
-
-## FAQ — naleśniki w Niemczech
-
-### Czy musimy używać twarogu ze sklepu polskiego?
-
-Nie zawsze. My często zaczynamy od Quarku z supermarketu plus sito — opisane w [twarogu w Niemczech](/pl/blog/twarog-w-niemczech). Dobry twaróg z polskiej półki to przyjemność, ale nie warunek, żeby naleśniki wyszły dobrze.
-
-### Dlaczego nasze naleśniki pękają przy zwijaniu?
-
-Najczęściej: za grube ciasto, za mało odpoczynku masy albo zbyt wysuszone placki, które leżały odkryte za długo. Drugi plan: lekko cieplejszy farsz i cieplejsze placki — zimne, kruche na brzegach łamią się częściej.
-
-### Czy możemy pominąć drugie smażenie?
-
-Tak. Wersja bez podsmażania jest lżejsza i szybsza. My robimy drugie smażenie, gdy chcemy chrupiącej skórki albo podajemy danie „na ciepło na talerzu” jak w domu babci — ale to nie jest wymóg techniczny.
-
-### Pfannkuchen z niemieckiej mąki mix — czy to to samo?
-
-Nie do końca. Gotowe mieszanki często dają grubszy, słodszy placek. Działają w awarii, ale nie zastąpią cienkiego ciasta domowego, jeśli celem są zwijane naleśniki z farszem.
-
-### Jak łączyć naleśniki z innymi polskimi daniami w tygodniu?
-
-My traktujemy je jako „szybki comfort food” między cięższymi batchami. Po niedzielnych pierogach zostaje twaróg — naleśniki w środę. Albo odwrotnie: w weekend robimy placki na zapas, w tygodniu tylko farsz i podsmażenie. Szczegóły zamienników składników: [zamienniki składników](/pl/blog/zamienniki-skladnikow).
-
-### Czy dzieci w Niemczech jedzą wersję słodką czy wytrawną?
-
-Z doświadczenia: słodka z twarogiem wygrywa u młodszych; starsi często próbują szpinaku, jeśli nie nazywamy tego „dziwnym polskim jedzeniem”, tylko po prostu podajemy obok ketchupu albo jogurtu. Bez presji — naleśniki mają budować pozytywny skojarzenie ze stołem.
-
-## Co dalej czytać
-
-- [Naleśniki z twarogiem — przepis](/pl/rezepte/nalesniki/twarog) — konkretne proporcje i kolejność kroków
-- [Naleśniki z dżemem](/pl/rezepte/nalesniki/dzem) — słodka linia dżemowa (własny URL)
-- [Krokiety](/pl/rezepte/krokiety) — zwinięte, panierowane naleśniki (osobna money page)
-- [Twaróg w Niemczech](/pl/blog/twarog-w-niemczech) — Quark, odsączanie, wilgotność farszu
-- [Pierogi ruskie](/pl/rezepte/pierogi/ruskie) — ten sam twaróg, inna technika
-- [Śmietana czy Schmand](/pl/blog/smietana-czy-schmand) — kiedy który nabiał do farszu i podania
-- [Zamienniki składników](/pl/blog/zamienniki-skladnikow) — świadome zakupy w diasporze
-
-Naleśniki w Niemczech to nie projekt na „idealny polski weekend”, tylko danie, które da się wpisać w zwykły tydzień: cienkie ciasto, dobry farsz, patelnia, kilka minut uwagi. Gdy opanujemy płynność masy i pierwszą naleśnik-regelę, reszta to kwestia gustu — słodkiego z twarogiem albo wytrawnego ze szpinakiem. Spokojnie, powtarzalnie, bez porównywania talerza do zdjęcia z internetu.
+- [Naleśniki z twarogiem](/pl/rezepte/nalesniki/twarog)
+- [Naleśniki z dżemem](/pl/rezepte/nalesniki/dzem)
+- [Krokiety](/pl/rezepte/krokiety)
+- [Pierogi ruskie](/pl/rezepte/pierogi/ruskie)
+- [Twaróg w Niemczech](/pl/blog/twarog-w-niemczech)
+- [Śmietana czy Schmand](/pl/blog/smietana-czy-schmand)
 `;
 
 export const bodyOscypekPl = `

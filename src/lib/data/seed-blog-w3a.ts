@@ -30,28 +30,28 @@ export const seedBlogPostsW3a: BlogPost[] = [
     clusterIds: ["occasion-niedziela", "technique-schmoren"],
     translations: {
       de: {
-        title: "Gołąbki-Guide: Rollen, Sauce und Sonntag",
+        title: "Gołąbki-Guide: Sonntag, Sauce und Batch",
         slug: "golabki-guide",
         excerpt:
-          "Überblick zu Gołąbki: Kohl vorbereiten, Füllung, Schichten, Sauce und Freezer — für den Alltag in Deutschland.",
-        seoTitle: "Gołąbki Rezept Guide | Überblick & Technik | Alemniam",
+          "Gołąbki am Tisch: Sauce-Wege, Varianten, Batch und typische Fehler — Mengen und Schritte im Rezept.",
+        seoTitle: "Gołąbki Guide | Sauce, Varianten, Batch | Alemniam",
         seoDescription:
-          "Gołąbki Guide: Kohl, Füllung, Sauce, Varianten und Batch. Ergänzt das Rezept — klar für Haushalte in DE.",
+          "Gołąbki im Überblick: Tomate oder Rosół, vegetarisch, Freezer. Kochen mit Mengen im Gołąbki-Rezept.",
         body: bodyGolabkiGuideDe.trim(),
       },
       pl: {
-        title: "Przewodnik po gołąbkach: zawijanie, sos, niedziela",
+        title: "Przewodnik po gołąbkach: niedziela, sos, batch",
         slug: "golabki-przewodnik",
         excerpt:
-          "Przegląd gołąbków: kapusta, farsz, układanie, sos i zamrażarka — na codzienność w Niemczech.",
-        seoTitle: "Gołąbki przepis przewodnik | Technika | Alemniam",
+          "Gołąbki przy stole: sosy, warianty, batch i typowe błędy — ilości i kroki w przepisie.",
+        seoTitle: "Gołąbki przewodnik | Sos, warianty, batch | Alemniam",
         seoDescription:
-          "Gołąbki przewodnik: kapusta, farsz, sos, warianty i batch. Uzupełnia przepis — jasno dla domów w DE.",
+          "Przegląd gołąbków: pomidor lub rosół, wege, zamrażarka. Gotowanie z ilościami w przepisie na gołąbki.",
         body: bodyGolabkiGuidePl.trim(),
       },
     },
     publishedAt: "2026-07-25T09:00:00.000Z",
-    updatedAt: "2026-07-25T09:00:00.000Z",
+    updatedAt: "2026-07-21T12:00:00.000Z",
   },
   {
     id: "post-nalesniki-guide",
@@ -78,28 +78,28 @@ export const seedBlogPostsW3a: BlogPost[] = [
     clusterIds: ["technique-teig"],
     translations: {
       de: {
-        title: "Naleśniki-Guide: dünner Teig, Füllung, Alltag",
+        title: "Naleśniki-Guide: Varianten, Alltag, Diaspora",
         slug: "nalesniki-guide",
         excerpt:
-          "Naleśniki vs. deutsche Pfannkuchen: Teig, Braten, süße und herzhafte Füllungen, Meal-Prep — mit Link zu Twaróg.",
-        seoTitle: "Naleśniki Rezept Guide | Polnische Pfannkuchen | Alemniam",
+          "Naleśniki vs. deutsche Eierkuchen: welche Füllung wann, typische Fehler über Varianten — kochen auf den Rezepten.",
+        seoTitle: "Naleśniki Guide | Varianten & Alltag | Alemniam",
         seoDescription:
-          "Naleśniki Guide: Teig, Pfanne, Füllungen und Freezer. Ergänzt das Rezept — ohne Twaróg-Cannibalization.",
+          "Naleśniki im Überblick: Twaróg, Fleisch, Spinat, Dżem. Mengen und Schritte in den Rezepten — hier die Orientierung.",
         body: bodyNalesnikiGuideDe.trim(),
       },
       pl: {
-        title: "Przewodnik po naleśnikach: ciasto, farsz, codzienność",
+        title: "Przewodnik po naleśnikach: warianty i codzienność",
         slug: "nalesniki-przewodnik",
         excerpt:
-          "Naleśniki vs niemieckie Pfannkuchen: ciasto, smażenie, farsze słodkie i wytrawne, meal prep — z linkiem do twarogu.",
-        seoTitle: "Naleśniki przepis przewodnik | Alemniam",
+          "Naleśniki vs Eierkuchen: który farsz kiedy, typowe błędy — gotowanie w przepisach, tu orientacja.",
+        seoTitle: "Naleśniki przewodnik | Warianty i codzienność | Alemniam",
         seoDescription:
-          "Naleśniki przewodnik: ciasto, patelnia, farsze i mrożenie. Uzupełnia przepis — bez kanibalizacji słowa „twaróg”.",
+          "Przegląd naleśników: twaróg, mięso, szpinak, dżem. Ilości i kroki w przepisach — tutaj mapa wariantów.",
         body: bodyNalesnikiGuidePl.trim(),
       },
     },
     publishedAt: "2026-07-25T10:00:00.000Z",
-    updatedAt: "2026-07-25T10:00:00.000Z",
+    updatedAt: "2026-07-21T12:00:00.000Z",
   },
   {
     id: "post-oscypek",

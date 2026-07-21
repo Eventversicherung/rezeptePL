@@ -74,7 +74,6 @@ Dzieci mogą odmierzać, mieszać i podawać — gorące i ostre kroki zostają 
 
 Resztki należą do kultury: dobrze opisać, schłodzić, nazajutrz świadomie podgrzać. Mikrofalówka to awaria; patelnia albo piekarnik lepiej trzymają teksturę. Freezer tylko wtedy, gdy technika na to pozwala.
 
-Linki wewnętrzne na Alemniam są świadome: przewodniki dla techniki i zakupów, przepisy dla ilości i kroków. Jedna primary-URL zostaje właścicielem frazy — inne strony linkują opisowo, bez kradzieży tego samego intentu.
 
 W praktyce powtarzanie liczy się bardziej niż perfekcja. Kto dwa razy spokojnie przejdzie ten sam przebieg, oszczędza sobie później frustracji i złych zakupów. Notatki w telefonie albo na kartce przy kuchence pomagają bardziej niż kolejne wideo.
 
@@ -84,7 +83,6 @@ Dzieci mogą odmierzać, mieszać i podawać — gorące i ostre kroki zostają 
 
 Resztki należą do kultury: dobrze opisać, schłodzić, nazajutrz świadomie podgrzać. Mikrofalówka to awaria; patelnia albo piekarnik lepiej trzymają teksturę. Freezer tylko wtedy, gdy technika na to pozwala.
 
-Linki wewnętrzne na Alemniam są świadome: przewodniki dla techniki i zakupów, przepisy dla ilości i kroków. Jedna primary-URL zostaje właścicielem frazy — inne strony linkują opisowo, bez kradzieży tego samego intentu.
 
 W praktyce powtarzanie liczy się bardziej niż perfekcja. Kto dwa razy spokojnie przejdzie ten sam przebieg, oszczędza sobie później frustracji i złych zakupów. Notatki w telefonie albo na kartce przy kuchence pomagają bardziej niż kolejne wideo.
 
@@ -94,19 +92,18 @@ Dzieci mogą odmierzać, mieszać i podawać — gorące i ostre kroki zostają 
 
 Resztki należą do kultury: dobrze opisać, schłodzić, nazajutrz świadomie podgrzać. Mikrofalówka to awaria; patelnia albo piekarnik lepiej trzymają teksturę. Freezer tylko wtedy, gdy technika na to pozwala.
 
-Linki wewnętrzne na Alemniam są świadome: przewodniki dla techniki i zakupów, przepisy dla ilości i kroków. Jedna primary-URL zostaje właścicielem frazy — inne strony linkują opisowo, bez kradzieży tego samego intentu.
 
 W praktyce powtarzanie liczy się bardziej niż perfekcja. Kto dwa razy spokojnie przejdzie ten sam przebieg, oszczędza sobie później frustracji i złych zakupów. Notatki w telefonie albo na kartce przy kuchence pomagają bardziej niż kolejne wideo.
 `;
 
 export const bodyFasolkaGuidePl = `
-Fasolka po bretońsku to jedno z najcieńszych money-page w katalogu — i jednocześnie danie, które w diasporze wraca często: fasola, pomidor, kiełbasa, majeranek, długi garnek. Ten przewodnik zamyka lukę wokół przepisu [fasolka po bretońsku](/pl/rezepte/fasolka-po-bretonsku): zakupy w DE, technika, doprawianie, resztki i powiązania z kiełbasą oraz majerankiem — bez fałszywych testów i bez kanibalizacji ownera przepisu.
+Fasolka po bretońsku wraca w diasporze często: fasola, pomidor, kiełbasa, majeranek, długi garnek. Ilości i kroki są w przepisie [fasolka po bretońsku](/pl/rezepte/fasolka-po-bretonsku). Tutaj: zakupy w DE, doprawianie, resztki i powiązania z kiełbasą oraz majerankiem — bez powtarzania przepisu.
 
 ## Czym jest fasolka po bretońsku
 
 Mimo nazwy to polska kuchnia domowa z białą fasolą, sosem pomidorowym, często kiełbasą lub boczkiem, liściem laurowym i majerankiem. „Bretońska” w sensie linii fasola–pomidor, nie francuskiego kursu. W niemieckich kuchniach ląduje między gulaszem a niedzielą: sycąca, tania, dobra do przygotowania wcześniej.
 
-To nie bigos i nie gulasz — mniej kapusty, więcej fasoli, wyraźniejszy pomidor. Kto zna bigos, rozpoznaje logikę długiego ognia; kto gotuje [gulasz](/pl/rezepte/gulasz-wieprzowy), zna cierpliwość duszenia. Fasolka zostaje osobna i zasługuje na własne primary KW przy przepisie.
+To nie bigos i nie gulasz — mniej kapusty, więcej fasoli, wyraźniejszy pomidor. Kto zna bigos, rozpoznaje logikę długiego ognia; kto gotuje [gulasz](/pl/rezepte/gulasz-wieprzowy), zna cierpliwość duszenia. Fasolka zostaje osobna — gotowanie na stronie przepisu.
 
 ## Fasola: sucha, słoik, puszka
 
@@ -172,46 +169,10 @@ Dla domów w Niemczech sklep polski to celowy przystanek, nie obowiązek przy ka
 Dzieci mogą odmierzać, mieszać i podawać — gorące i ostre kroki zostają u dorosłych. To obniża stres i buduje dobre wspomnienie przy stole, bez presji wyniku.
 
 Resztki należą do kultury: dobrze opisać, schłodzić, nazajutrz świadomie podgrzać. Mikrofalówka to awaria; patelnia albo piekarnik lepiej trzymają teksturę. Freezer tylko wtedy, gdy technika na to pozwala.
-
-Linki wewnętrzne na Alemniam są świadome: przewodniki dla techniki i zakupów, przepisy dla ilości i kroków. Jedna primary-URL zostaje właścicielem frazy — inne strony linkują opisowo, bez kradzieży tego samego intentu.
-
-W praktyce powtarzanie liczy się bardziej niż perfekcja. Kto dwa razy spokojnie przejdzie ten sam przebieg, oszczędza sobie później frustracji i złych zakupów. Notatki w telefonie albo na kartce przy kuchence pomagają bardziej niż kolejne wideo.
-
-Dla domów w Niemczech sklep polski to celowy przystanek, nie obowiązek przy każdym daniu. Supermarket na bazę, specjalności tam, gdzie niosą charakter. Zakupy zostają planowalne, a smak jasny.
-
-Dzieci mogą odmierzać, mieszać i podawać — gorące i ostre kroki zostają u dorosłych. To obniża stres i buduje dobre wspomnienie przy stole, bez presji wyniku.
-
-Resztki należą do kultury: dobrze opisać, schłodzić, nazajutrz świadomie podgrzać. Mikrofalówka to awaria; patelnia albo piekarnik lepiej trzymają teksturę. Freezer tylko wtedy, gdy technika na to pozwala.
-
-Linki wewnętrzne na Alemniam są świadome: przewodniki dla techniki i zakupów, przepisy dla ilości i kroków. Jedna primary-URL zostaje właścicielem frazy — inne strony linkują opisowo, bez kradzieży tego samego intentu.
-
-W praktyce powtarzanie liczy się bardziej niż perfekcja. Kto dwa razy spokojnie przejdzie ten sam przebieg, oszczędza sobie później frustracji i złych zakupów. Notatki w telefonie albo na kartce przy kuchence pomagają bardziej niż kolejne wideo.
-
-Dla domów w Niemczech sklep polski to celowy przystanek, nie obowiązek przy każdym daniu. Supermarket na bazę, specjalności tam, gdzie niosą charakter. Zakupy zostają planowalne, a smak jasny.
-
-Dzieci mogą odmierzać, mieszać i podawać — gorące i ostre kroki zostają u dorosłych. To obniża stres i buduje dobre wspomnienie przy stole, bez presji wyniku.
-
-Resztki należą do kultury: dobrze opisać, schłodzić, nazajutrz świadomie podgrzać. Mikrofalówka to awaria; patelnia albo piekarnik lepiej trzymają teksturę. Freezer tylko wtedy, gdy technika na to pozwala.
-
-Linki wewnętrzne na Alemniam są świadome: przewodniki dla techniki i zakupów, przepisy dla ilości i kroków. Jedna primary-URL zostaje właścicielem frazy — inne strony linkują opisowo, bez kradzieży tego samego intentu.
-
-W praktyce powtarzanie liczy się bardziej niż perfekcja. Kto dwa razy spokojnie przejdzie ten sam przebieg, oszczędza sobie później frustracji i złych zakupów. Notatki w telefonie albo na kartce przy kuchence pomagają bardziej niż kolejne wideo.
-
-Dla domów w Niemczech sklep polski to celowy przystanek, nie obowiązek przy każdym daniu. Supermarket na bazę, specjalności tam, gdzie niosą charakter. Zakupy zostają planowalne, a smak jasny.
-
-Dzieci mogą odmierzać, mieszać i podawać — gorące i ostre kroki zostają u dorosłych. To obniża stres i buduje dobre wspomnienie przy stole, bez presji wyniku.
-
-Resztki należą do kultury: dobrze opisać, schłodzić, nazajutrz świadomie podgrzać. Mikrofalówka to awaria; patelnia albo piekarnik lepiej trzymają teksturę. Freezer tylko wtedy, gdy technika na to pozwala.
-
-Linki wewnętrzne na Alemniam są świadome: przewodniki dla techniki i zakupów, przepisy dla ilości i kroków. Jedna primary-URL zostaje właścicielem frazy — inne strony linkują opisowo, bez kradzieży tego samego intentu.
-
-W praktyce powtarzanie liczy się bardziej niż perfekcja. Kto dwa razy spokojnie przejdzie ten sam przebieg, oszczędza sobie później frustracji i złych zakupów. Notatki w telefonie albo na kartce przy kuchence pomagają bardziej niż kolejne wideo.
-
-Dla domów w Niemczech sklep polski to celowy przystanek, nie obowiązek przy każdym daniu. Supermarket na bazę, specjalności tam, gdzie niosą charakter. Zakupy zostają planowalne, a smak jasny.
 `;
 
 export const bodyMajeranekPl = `
-Majeranek to jedna z cichych przypraw polskiej kuchni — i w Niemczech często brakujący element między „smakuje jakoś” a „smakuje jak w domu”. Ten leksykon łączy dania mięsne, [gołąbki](/pl/rezepte/golabki), [fasolkę](/pl/rezepte/fasolka-po-bretonsku), zrazy i zakupy w markecie albo sklepie polskim. Bez ownera przepisu, bez lab-testów: orientacja przy doprawianiu i zakupach.
+Majeranek to jedna z cichych przypraw polskiej kuchni — i w Niemczech często brakujący element między „smakuje jakoś” a „smakuje jak w domu”. Ten leksykon łączy dania mięsne, [gołąbki](/pl/rezepte/golabki), [fasolkę](/pl/rezepte/fasolka-po-bretonsku), zrazy i zakupy w markecie albo sklepie polskim. Orientacja przy doprawianiu i zakupach — nie zastępuje przepisów na konkretne dania.
 
 ## Czym jest majeranek
 
@@ -289,7 +250,6 @@ Dzieci mogą odmierzać, mieszać i podawać — gorące i ostre kroki zostają 
 
 Resztki należą do kultury: dobrze opisać, schłodzić, nazajutrz świadomie podgrzać. Mikrofalówka to awaria; patelnia albo piekarnik lepiej trzymają teksturę. Freezer tylko wtedy, gdy technika na to pozwala.
 
-Linki wewnętrzne na Alemniam są świadome: przewodniki dla techniki i zakupów, przepisy dla ilości i kroków. Jedna primary-URL zostaje właścicielem frazy — inne strony linkują opisowo, bez kradzieży tego samego intentu.
 
 W praktyce powtarzanie liczy się bardziej niż perfekcja. Kto dwa razy spokojnie przejdzie ten sam przebieg, oszczędza sobie później frustracji i złych zakupów. Notatki w telefonie albo na kartce przy kuchence pomagają bardziej niż kolejne wideo.
 
@@ -299,7 +259,6 @@ Dzieci mogą odmierzać, mieszać i podawać — gorące i ostre kroki zostają 
 
 Resztki należą do kultury: dobrze opisać, schłodzić, nazajutrz świadomie podgrzać. Mikrofalówka to awaria; patelnia albo piekarnik lepiej trzymają teksturę. Freezer tylko wtedy, gdy technika na to pozwala.
 
-Linki wewnętrzne na Alemniam są świadome: przewodniki dla techniki i zakupów, przepisy dla ilości i kroków. Jedna primary-URL zostaje właścicielem frazy — inne strony linkują opisowo, bez kradzieży tego samego intentu.
 
 W praktyce powtarzanie liczy się bardziej niż perfekcja. Kto dwa razy spokojnie przejdzie ten sam przebieg, oszczędza sobie później frustracji i złych zakupów. Notatki w telefonie albo na kartce przy kuchence pomagają bardziej niż kolejne wideo.
 
@@ -309,7 +268,6 @@ Dzieci mogą odmierzać, mieszać i podawać — gorące i ostre kroki zostają 
 
 Resztki należą do kultury: dobrze opisać, schłodzić, nazajutrz świadomie podgrzać. Mikrofalówka to awaria; patelnia albo piekarnik lepiej trzymają teksturę. Freezer tylko wtedy, gdy technika na to pozwala.
 
-Linki wewnętrzne na Alemniam są świadome: przewodniki dla techniki i zakupów, przepisy dla ilości i kroków. Jedna primary-URL zostaje właścicielem frazy — inne strony linkują opisowo, bez kradzieży tego samego intentu.
 
 W praktyce powtarzanie liczy się bardziej niż perfekcja. Kto dwa razy spokojnie przejdzie ten sam przebieg, oszczędza sobie później frustracji i złych zakupów. Notatki w telefonie albo na kartce przy kuchence pomagają bardziej niż kolejne wideo.
 
@@ -319,7 +277,6 @@ Dzieci mogą odmierzać, mieszać i podawać — gorące i ostre kroki zostają 
 
 Resztki należą do kultury: dobrze opisać, schłodzić, nazajutrz świadomie podgrzać. Mikrofalówka to awaria; patelnia albo piekarnik lepiej trzymają teksturę. Freezer tylko wtedy, gdy technika na to pozwala.
 
-Linki wewnętrzne na Alemniam są świadome: przewodniki dla techniki i zakupów, przepisy dla ilości i kroków. Jedna primary-URL zostaje właścicielem frazy — inne strony linkują opisowo, bez kradzieży tego samego intentu.
 
 W praktyce powtarzanie liczy się bardziej niż perfekcja. Kto dwa razy spokojnie przejdzie ten sam przebieg, oszczędza sobie później frustracji i złych zakupów. Notatki w telefonie albo na kartce przy kuchence pomagają bardziej niż kolejne wideo.
 

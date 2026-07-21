@@ -3,255 +3,117 @@
  */
 
 export const bodyGolabkiGuideDe = `
-Gołąbki sind für viele von uns in Deutschland mehr als ein Kohlgericht: Sie sind Sonntagsessen, Familientreffen und oft das Gericht, das nach dem ersten Biss sofort nach Hause schmeckt. Anders als bei schnellen Alltagsgerichten zählt hier Geduld — Kohl biegsam machen, Füllung balancieren, langsam schmoren. Dieser Guide erklärt, was Gołąbki als Entity sind, wo die Technik entscheidet und welche Fehler wir vermeiden, ohne das Rezept Schritt für Schritt zu wiederholen. Die konkreten Mengen und Zeiten stehen in unserem [Gołąbki Rezept](/de/rezepte/golabki); hier geht es um Verständnis, Planung und die Ruhe, die aus einem guten Topf entsteht.
+Gołąbki sind für viele von uns in Deutschland mehr als ein Kohlgericht: Sonntagsessen, Familientreffen, das Gericht, das nach dem ersten Biss nach Hause schmeckt. Mengen, Blanchierzeiten und die Schrittfolge stehen im [Gołąbki-Rezept](/de/rezepte/golabki). Hier geht es um den Platz am Tisch, Sauce-Entscheidungen, Varianten und Batch — ohne das Rezept zu wiederholen.
 
 ## Was Gołąbki sind
 
-Gołąbki — wörtlich „Täubchen“, weil die gerollten Kohlblätter an kleine Vögel erinnern — sind gefüllte Kohlrouladen aus der polnischen Hausmannskost. Der Kern ist fast immer derselbe: weiche Kohlblätter, eine Reis-Fleisch-Füllung, eine tragende Soße und langes, sanftes Garen. In Polen stehen sie neben [Rosół](/de/rezepte/rosol) und [Bigos](/de/rezepte/bigos) auf dem Sonntagstisch; in der Diaspora sind sie oft das Gericht, das wir kochen, wenn Gäste kommen oder wenn wir eine Woche vorausdenken wollen.
+Gefüllte Kohlrouladen: biegsame Blätter, Reis-Fleisch-Füllung (oder vegetarisch), tragende Soße, langes sanftes Schmoren. In Polen oft neben [Rosół](/de/rezepte/rosol) und [Bigos](/de/rezepte/bigos); in der Diaspora das Gericht für Gäste oder die Woche im Voraus. Anders als manche deutsche Kohlroulade: oft feiner gewürzt, mehr Reis, Soße tomaten- oder brühebasiert. Manche servieren [Śmietana](/de/blog/smietana-schmand) — beides legitim, wenn der Kohl zart bleibt.
 
-Was Gołąbki von deutschen Kohlrouladen unterscheidet, ist weniger der Name als die Balance: Die Füllung ist meist feiner gewürzt, der Reisanteil höher, die Soße häufig tomatenbasiert oder aus Brühenresten aufgebaut. Manche Familien servieren sie mit [Śmietana](/de/blog/smietana-schmand), andere mit Dill und Brot — beides ist legitim, solange der Kohl zart ist und die Füllung saftig bleibt.
+## Sauce: drei Wege
 
-Gołąbki sind Event-Cooking: einmal Aufwand, viele Portionen. Wer versteht, dass das Gericht aus drei Schichten besteht — flexibler Kohl, gebundene Füllung, stützende Flüssigkeit — kann Variationen probieren, ohne das Grundprinzip zu verlieren. Orientierung zu ausgewogener Ernährung und Lebensmittelqualität liefert das [Bundeszentrum für Ernährung](https://www.bzfe.de); wir ergänzen das mit dem, was unsere Küche konkret braucht: guten Kohl, sauberes Hack und Zeit im Topf.
+**Tomate** — Diaspora-Klassiker: Farbe, Säure, Freezer-freundlich. **Rosół-Rest** — Tiefe ohne Tomatenrot; wer Sonntags [Rosół](/de/rezepte/rosol) kocht, plant Gołąbki oft für den Tag danach. Technik: [Rosół-Technik](/de/blog/rosol-technik). **Śmietana** — mild am Teller oder sparsam untergerührt; nicht kochend aufkochen. Details: [Śmietana vs. Schmand](/de/blog/smietana-schmand).
 
-## Kohl vorbereiten: Blanchieren und Adern
+Entscheidend: genug Flüssigkeit, Rollen bedeckt, sanftes Köcheln — Details im Rezept.
 
-Der Kohl entscheidet, ob Gołąbki Freude oder Frust sind. Wir nehmen einen großen, festen Weißkohl — nicht zu jung, nicht matschig. Die äußeren Blätter entfernen wir; die inneren müssen groß genug sein, um zwei bis drei Esslöffel Füllung zu tragen, aber nicht so dick, dass sie nach dem Garen kauen wie Leder.
+## Varianten und Batch
 
-Blanchieren ist der Schlüssel. Wir tauchen den ganzen Kopf oder einzelne Blätter kurz in kochendes Salzwasser, bis sie biegsam werden — meist ein bis drei Minuten pro Charge, je nach Frische. Sofort in kaltes Wasser oder unter fließendem Wasser abkühlen, damit die Farbe bleibt und das Blatt nicht weiter gart. Wer zu lange blanchiert, bekommt zwar weiche Blätter, verliert aber Struktur beim Rollen.
+Vegetarisch mit Pilzen oder Linsen; [Kasza gryczana](/de/blog/kasza-buchweizen) statt Reis — vorgegart, nicht zu nass. Gołąbki vertragen Anpassung, solange Kohl, Füllungsbalance und Schmorzeit stimmen.
 
-Die dicke Rippe in der Mitte jedes Blattes — die „Ader“ — muss flach werden. Mit einem scharfen Messer schneiden wir sie dünn an, ohne das Blatt zu durchstechen. Bleibt die Rippe stehen, bricht sie beim Rollen oder bleibt hart im fertigen Gericht. Manche schneiden große Blätter in zwei Hälften; das spart Material und macht gleichmäßigere Portionen.
+Batch lohnt: ein Topf, viele Portionen; am nächsten Tag oft besser. Gekocht einfrieren mit Soße (2–3 Monate Qualität). Roh gefüllt frieren ist heikler — lieber durchkochen. Topf: [Dutch Oven](/de/blog/dutch-oven-kaufberatung) hilft, ist aber nicht Pflicht. Sonntagskontext: [polnisches Sonntagsessen](/de/blog/sonntagsessen-polnisch).
 
-In manchen Polenläden gibt es vorbereitete Kohlblätter im Glas — selten, aber praktisch, wenn Zeit knapp ist. Für den Alltag lohnt sich das Selbstblanchieren: frischer Kohl aus dem Supermarkt reicht völlig, wenn wir einen ruhigen Nachmittag einplanen. Lebensmittelsicherheit bei der Zubereitung von Gemüse und Fleisch beschreibt auch das [NCEZ](https://ncez.pzh.gov.pl) — hilfreich, wenn wir größere Mengen vorbereiten und zwischen Schritten Pausen einlegen.
+## Typische Fehler (über alle Hausrezepte)
 
-## Füllung: Reis, Fleisch, Gewürze — und typische Fehler
+- Zu straff gerollt oder zu nasser/roher Reis → Platzer
+- Rippe nicht flach → hartes Kauen trotz langer Zeit
+- Zu heftig kochen statt sanft → Soße trennt, Rollen springen
+- Zu wenig Flüssigkeit → trockene Blätter oben
+- Zu mageres Hack allein → trockene Füllung trotz weichem Kohl
 
-Die klassische Füllung mischt vorgekochten Reis mit Hackfleisch — meist gemischtes Schwein-Rind, manchmal nur Schwein. Der Reis darf nicht roh in die Rolle: Er quillt beim Schmoren weiter und kann die Füllung sprengen, wenn er zu hart oder zu nass startet. Wir kochen ihn al dente, kühlen ab und mischen ihn kalt unter das Fleisch.
+Die Korrekturen und Mengen: [Gołąbki-Rezept](/de/rezepte/golabki).
 
-Zwiebel ist Pflicht: fein gewürfelt, in Butter oder Öl glasig angebraten, abgekühlt. So vermeiden wir rohe Zwiebelstücke im fertigen Biss und bekommen Süße in die Masse. Salz, Pfeffer, Majoran und manchmal etwas Knoblauch oder frische Kräuter — Dill, Petersilie — geben die Hausnote. Manche Familien binden mit einem Ei; andere verzichten darauf. Beides funktioniert, solange die Masse nicht zu feucht ist.
+## FAQ kurz
 
-Typische Fehler, die wir in deutschen Küchen oft sehen:
+### Polenladen Pflicht?
 
-- **Zu nasser Reis:** Die Füllung wird matschig und läuft aus der Rolle.
-- **Zu mageres Hack allein:** Ohne etwas Fett oder Brühe wird die Füllung trocken, obwohl der Kohl weich ist.
-- **Zu viel Salz vor dem Garen:** Die Soße konzentriert sich; lieber vorsichtig würzen und am Ende nachjustieren.
-- **Kaltes Fleisch direkt aus dem Kühlschrank:** Die Füllung klebt schlechter am Blatt; kurz temperieren lohnt sich.
+Nein für den Einstieg. Weißkohl, Hack, Reis, Tomaten reichen aus dem Supermarkt. Polenladen später für Majoran-Note oder Śmietana.
 
-Wir mischen die Füllung mit den Händen, bis sie homogen ist, aber nicht zu lange — sonst wird das Hack warm und klebrig. Eine Probe in der Pfanne (Mini-Frikadelle) zeigt, ob Salz und Majoran stimmen, bevor wir rollen. Das spart Enttäuschung nach zwei Stunden Schmoren.
+### Tomate oder Rosół?
 
-## Rollen und schichten im Topf
-
-Rollen ist Handwerk, kein Wettbewerb in Straffheit. Wir legen die Füllung auf das untere Drittel des Blattes, falten die Seitenränder ein und rollen fest, aber nicht so straff, dass die Füllung beim Quellen platzt. Die Nahtseite nach unten in den Topf — so bleibt die Rolle geschlossen.
-
-Im Topf schichten wir dicht, aber nicht quetschend. Kohlblätter oder Karottenscheiben unten verhindern Anbrennen; manche legen Speck oder Zwiebelscheiben zwischen die Schichten für zusätzlichen Geschmack. Die Rollen stehen eng, damit sie sich gegenseitig stützen, mit der Naht nach unten.
-
-Flüssigkeit kommt erst, wenn alle Rollen liegen. Zu wenig Flüssigkeit = trockene Stellen; zu viel = wässrige, blasse Soße. Ein schwerer Deckel oder ein Blech darauf hält die Rollen unter der Soße — wichtig beim langsamen Köcheln. Wer einen [Dutch Oven](/de/blog/dutch-oven-kaufberatung) nutzt, profitiert von gleichmäßiger Hitze und guter Feuchtigkeitsführung; ein schwerer Schmortopf mit dichtem Deckel reicht aber genauso.
-
-Die Garzeit ist lang: oft 90 Minuten und mehr bei niedriger Temperatur. Gołąbki sind kein Gericht für Eile. Wer ungeduldig wird und zu heftig kocht, bekommt zwar schneller weichen Kohl, aber auch aufgegangene Rollen und eine Soße, die sich nicht bindet. Geduld ist hier keine Romantik, sondern Technik.
-
-## Sauce: Tomate vs. Rosół-Rest vs. Śmietana
-
-Die Soße trägt das Gericht. Drei Wege sind in polnischen Küchen verbreitet — oft je nach Region und Wochentag.
-
-**Tomatensoße** ist der Diaspora-Klassiker: passierte Tomaten, etwas Brühe, Zwiebel, Lorbeer, manchmal ein Stück Wurzelgemüse. Sie gibt Farbe, Säure und Halt. Wir würzen früh leicht und justieren am Ende — Tomaten und Salz konzentrieren sich beim Schmoren. Zu dünne Soße binden wir mit reduzierter Kochzeit oder, sparsam, mit etwas Tomatenmark; Mehl-Einlagen wirken oft mehlig und sind nicht unsere erste Wahl.
-
-**Rosół-Rest** nutzt, was nach einem [Sonntagsessen](/de/blog/sonntagsessen-polnisch) ohnehin da ist: die letzten Tassen klare Brühe vom Huhn. Sie gibt Tiefe ohne Tomatenrot. Wer regelmäßig [Rosół](/de/rezepte/rosol) kocht, plant Gołąbki bewusst für den Tag danach — effizient und geschmacklich stimmig. Details zur Brühe: [Rosół-Technik](/de/blog/rosol-technik).
-
-**Śmietana** — Sauerrahm oder Schmand — kommt oft zum Servieren oder wird in manchen Hausrezepten in die Soße gerührt. Sie macht die Sauce milder und cremiger. Unterschiede zwischen polnischer Śmietana und deutschem Schmand erklären wir im [Śmietana-Guide](/de/blog/smietana-schmand); für Gołąbki zählt: nicht kochend aufkochen, sondern am Ende unterrühren oder pro Portion oben drauf.
-
-Manche kombinieren Tomate und Brühe; andere bleiben bei reiner Tomatenbasis. Entscheidend ist, dass genug Flüssigkeit im Topf bleibt und die Rollen bedeckt sind. Offizielle Hinweise zu Lebensmittelherkunft und Qualitätsstandards in der EU finden sich bei der [Europäischen Kommission Landwirtschaft](https://agriculture.ec.europa.eu) — nützlich, wenn wir Tomatenprodukte und Fleisch bewusst einkaufen.
-
-## Varianten: vegetarisch, Buchweizen und mehr
-
-Die klassische Füllung ist nicht das einzige legitime Modell. **Vegetarische Gołąbki** ersetzen Hack durch fein gewürfelte Pilze — frisch oder getrocknet eingeweicht —, Linsen oder eine Mischung aus Reis und geröstetem Gemüse. Wichtig: mehr Bindung und etwas Öl, damit die Füllung nicht trocken wird. Pilzvarianten harmonieren gut mit Soße auf Brühenbasis statt reiner Tomate.
-
-**Buchweizen (Kasza gryczana)** statt Reis ist in manchen Regionen traditionell. Er hat ein kräftigeres, nussigeres Profil und quillt anders — wir kochen ihn separat und mischen ihn kühl unter, wie beim Reis. Wer Kasza mag, findet Parallelen zu anderen Gerichten mit Buchweizen in der polnischen Küche; die Logik bleibt dieselbe: vorgegart, nicht zu nass, gut gewürzt.
-
-Kleinere Abweichungen: etwas mehr Knoblauch, Paprika in der Füllung, Dill in der Soße statt nur beim Servieren. Gołąbki vertragen Anpassung, solange Kohl, Füllungsbalance und Schmorzeit stimmen. Wir müssen nicht jedes Familienrezept eins zu eins kopieren — aber wir sollten das Grundgerüst respektieren, wenn wir zum ersten Mal kochen.
-
-## Batch und Freezer
-
-Gołąbki sind ideal für Batch-Kochen. Ein Topf für acht bis zwölf Portionen lohnt sich, wenn wir Gäste erwarten oder die Woche vorausplanen. Am Tag danach schmecken sie oft besser: Füllung und Soße haben sich ausgeglichen, der Kohl ist durchgängig zart.
-
-**Einfrieren** funktioniert gut — gekocht und abgekühlt, in Portionen. Wir legen Rollen mit etwas Soße in gefrierfeste Behälter, lassen wenig Luft, beschriften mit Datum. Haltbarkeit: etwa zwei bis drei Monate bei bester Qualität. Auftauen im Kühlschrank über Nacht; erwärmen langsam in Soße auf niedriger Hitze, damit nichts austrocknet. Mikrowelle geht für den Alltag, aber Ofen oder Topf mit Deckel geben bessere Textur.
-
-Roh gefüllte, ungekochte Rollen einzufrieren ist möglich, aber heikel: Reis und Fleisch quellen unterschiedlich, und die Textur kann leiden. Wer batcht, kocht lieber durch und friert fertig ein — weniger Risiko, klarere Planung.
-
-Für Meal Prep im Sinne der Diaspora-Woche: Sonntag kochen, Montag und Dienstag Portionen aus dem Kühlschrank oder Gefrierer. Dazu Brot, Salat oder einfache Kartoffeln — kein zweites Großgericht nötig. So bleibt polnische Hausmannskost alltagstauglich, ohne jeden Abend neu zu starten.
-
-## FAQ: Gołąbki in der Praxis
-
-### Warum platzen unsere Gołąbki beim Schmoren?
-
-Meist liegt es an zu straff gerollten Rouladen, zu nass oder zu roh vorbereitetem Reis in der Füllung, oder an zu heftigem Kochen statt sanftem Köcheln. Wenn der Reis beim Mischen noch heiß und glitschig ist, dehnt er sich im Topf weiter aus und drückt gegen die Naht. Wir rollen fest, aber mit etwas Spielraum, blanchieren den Kohl gründlich und lassen die Füllung abkühlen, bevor wir formen. Im Topf sollte die Flüssigkeit nur leise blubbern — ein schwerer Deckel hält alles unter Kontrolle. Wer diese drei Punkte beachtet, hat deutlich weniger Platzer.
-
-### Können wir Gołąbki ohne Fleisch gut hinbekommen?
-
-Ja, wenn wir die Füllung bewusst neu balancieren. Pilze, Linsen oder geröstetes Gemüse brauchen Salz, Pfeffer, Majoran und etwas Fett — Olivenöl, Butter oder Öl aus angebratenen Zwiebeln. Trockene Pilze einweichen, Sud zurück in die Füllung geben; frische Pilze vorher anbraten, damit Feuchtigkeit verdampft. Vegetarische Rollen profitieren oft von Brühen- oder Pilzsoße statt reiner Tomatensoße. Die Garzeit bleibt lang; der Kohl braucht dieselbe Geduld wie bei Fleisch. Wir probieren eine Mini-Rolle vor dem großen Batch — so sehen wir, ob die Masse bindet und schmeckt, bevor wir zwölf Portionen schmoren.
-
-### Tomatensoße oder Rosół — was passt besser zu Gołąbki?
-
-Beides ist traditionell; die Wahl hängt von unserem Geschmack und davon ab, was im Kühlschrank steht. Tomatensoße gibt Farbe und leichte Säure — vertraut für viele in der Diaspora. Rosół-Rest oder klare Fleischbrühe macht die Soße tiefer und milder, fast wie bei [Bigos](/de/rezepte/bigos) in der Brühenlogik. Manche mischen beides: Tomaten als Basis, Brühe zum Verlängern. Wichtig ist Volumen und Salzbalance, nicht die ideologische Reinheit. Wer Sonntags [Rosół](/de/rezepte/rosol) kocht, nutzt den Rest am Montag — das ist effizient und schmeckt zusammenhängend.
-
-### Wie lange halten sich Gołąbki im Kühlschrank und Gefrierer?
-
-Im Kühlschrank, gut abgedeckt, sind drei bis vier Tage realistisch; wir erwärmen nur die Portion, die wir essen, und lassen den Rest kühl stehen. Im Gefrierer, in Soße eingebettet, halten sie zwei bis drei Monate bei bester Textur — länger ist oft noch sicher, aber der Kohl wird weicher und die Soße kann sich trennen. Auftauen im Kühlschrank über Nacht, dann langsam in Soße erwärmen. Nicht mehrfach durchhitzen und wieder kühlen; das verschlechtert Qualität und ist hygienisch unsauber. Beschriftet Behälter mit Datum und Portionen — bei Batch-Kochen verliert man sonst schnell den Überblick.
-
-### Brauchen wir spezielle Zutaten aus dem Polenladen?
-
-Nein für den Einstieg. Weißkohl, Hack, Reis, Tomaten und Gewürze bekommen wir im deutschen Supermarkt — das reicht vollständig für den ersten Topf. Der Polenladen lohnt sich später für Majoran in der gewohnten Note, manchmal vorbereitete Kohlblätter im Glas oder Śmietana in der Konsistenz, die wir von zu Hause kennen. Wer regelmäßig kocht, kann dort nachjustieren; wer zum ersten Mal Gołąbki macht, startet ruhig mit REWE oder Kaufland. Qualität zählt mehr als Etikett: frischer Kohl und gutes Hack schlagen exotische Dosen. Erst wenn das Grundgericht sitzt, lohnt Feintuning mit Spezialzutaten.
-
-### Was ist der häufigste Fehler bei der Kohlvorbereitung?
-
-Zu kurzes Blanchieren oder das Vergessen, die dicke Rippe flach zu schneiden — das sehen wir am häufigsten. Harte Rippen bleiben im fertigen Gericht kauen wie Plastik; zu steife Blätter reißen beim Rollen und lassen Füllung auslaufen. Wir nehmen uns für den Kohl eine halbe Stunde ohne Stress: äußere Blätter entfernen, innere einzeln prüfen, Rippen dünn anritzen, in Salzwasser kurz weich machen, sofort abkühlen. Wer das einmal sauber macht, rollt entspannt und spart Frust im Topf. Vorbereitete Blätter aus dem Glas sind eine Abkürzung — wir prüfen aber Salzgehalt und Weichheit, bevor wir sie nutzen.
+Geschmack und was im Kühlschrank steht. Manche mischen. Volumen und Salzbalance zählen mehr als Reinheit.
 
 ## Weiterlesen
 
-Gołąbki stehen selten allein auf dem Tisch. Wer das Sonntagsritual verstehen will, liest unseren [Guide zum polnischen Sonntagsessen](/de/blog/sonntagsessen-polnisch). Für die Brühe, die in Soße und Planung einfließt: [Rosół-Technik](/de/blog/rosol-technik) und das [Rosół-Rezept](/de/rezepte/rosol). Śmietana am Teller erklären wir in [Śmietana vs. Schmand](/de/blog/smietana-schmand); für Schmorgerichte und Topfwahl lohnt die [Dutch-Oven-Kaufberatung](/de/blog/dutch-oven-kaufberatung).
-
-Wenn die Rollen stehen und wir die genauen Mengen brauchen, geht es ins [Gołąbki Rezept](/de/rezepte/golabki). Für den nächsten Batch aus dem Gefrierer oder einen zweiten Topf am Wochenende: [Bigos](/de/rezepte/bigos) als Schmortopf-Schwestergericht. Ruhig vorbereiten, langsam schmoren — so bleiben Gołąbki in Deutschland das Gericht, das sich lohnt.
+- [Gołąbki Rezept](/de/rezepte/golabki)
+- [Rosół](/de/rezepte/rosol) · [Rosół-Technik](/de/blog/rosol-technik)
+- [Bigos](/de/rezepte/bigos)
+- [Sonntagsessen](/de/blog/sonntagsessen-polnisch)
+- [Dutch-Oven-Kaufberatung](/de/blog/dutch-oven-kaufberatung)
+- [Śmietana vs. Schmand](/de/blog/smietana-schmand)
 `;
 
 export const bodyNalesnikiGuideDe = `
-Naleśniki sind für viele von uns in Deutschland kein Sonntagsprojekt mit Show, sondern ein ruhiger Klassiker: dünne Pfannkuchen, gefüllt, aufgerollt, kurz angebraten – süß mit Quark oder herzhaft mit Pilzen und Käse. Wer polnische Pfannkuchen sucht, landet oft bei dicken deutschen Eierkuchen und wundert sich, warum das Ergebnis „falsch“ wirkt. Dieser Guide erklärt den Unterschied, den Teig für deutsche Mehle, die Pfannentechnik und wie wir Naleśniki batch-fertig für die Woche oder den Freezer vorbereiten – ohne Folklore, mit klaren Schritten.
+Naleśniki sind in vielen Diaspora-Küchen der ruhige Alltagsklassiker: dünne Pfannkuchen, gefüllt, gerollt — süß oder herzhaft. Wer kochen will, findet Mengen und Schritte auf den Rezepten: Start mit [Naleśniki mit Twaróg](/de/rezepte/nalesniki/twarog), herzhaft [Fleisch](/de/rezepte/nalesniki/fleisch) oder [Spinat](/de/rezepte/nalesniki/szpinak), süß ohne Quark [Marmelade](/de/rezepte/nalesniki/dzem). Dieser Text ordnet den Unterschied zu deutschen Eierkuchen, die Füllungs-Landschaft und typische Fehler über alle Varianten — ohne das Rezept zu wiederholen.
 
 ## Was Naleśniki sind vs. deutsche Pfannkuchen
 
-Naleśniki sind dünne, flexible Crêpes aus einem flüssigen Teig. Sie werden nicht als fertiges Gericht aus der Pfanne gegessen, sondern mit Füllung bestreichen, aufrollen und meist noch einmal in Butter oder Öl kurz anbraten. Das macht sie strukturell näher an französischen Crêpes als an den klassischen dicken deutschen Pfannkuchen, die oft pur mit Zucker, Apfelmus oder Speck serviert werden.
+Naleśniki sind dünne, flexible Crêpes. Sie werden selten pur aus der Pfanne gegessen, sondern gefüllt, gerollt und oft noch einmal kurz in Butter gebräunt. Das liegt näher an französischen Crêpes als an dicken deutschen Eierkuchen mit Backpulver oder dickem Teig.
 
-Der deutsche Pfannkuchen-Teig ist häufig dicker, manchmal mit Backpulver oder mehr Mehl, damit er fluffig wird. Naleśniki-Teig bleibt bewusst dünn und elastisch: wenig Mehl, mehr Flüssigkeit, oft etwas Öl im Teig, damit die Pfanne kooperiert. Das Ergebnis soll biegsam sein – sonst reißt es beim Rollen und die Füllung quillt aus.
+Der Teig bleibt bewusst flüssig und elastisch — biegsam genug zum Rollen. Geschmacklich sind Naleśniki kein reines Dessert: Twaróg ist Klassiker, aber Fleisch, Spinat oder Pilze gehören genauso zum Haushalt. Die Logik kennt, wer [Pierogi Ruskie](/de/rezepte/pierogi/ruskie) macht: Teig trägt, Füllung führt — hier flach statt gefaltet.
 
-Geschmacklich sind Naleśniki kein Dessert im engeren Sinn, auch wenn die süße Twaróg-Variante beliebt ist. Herzhafte Füllungen mit Pilzen, Fleisch oder Käse sind genauso Hausmannskost. Wer schon [Pierogi Ruskie](/de/rezepte/pierogi/ruskie) kennt, erkennt die Logik: Teig als Träger, Füllung als Hauptakteur. Nur eben flach statt gefaltet.
+## Welche Füllung wann?
 
-In polnischen Haushalten stehen Naleśniki oft neben anderen Teiggerichten – nicht als Ersatz für Pierogi, sondern als schnellere Alternative, wenn wir weniger Zeit zum Formen haben. Für den Einstieg lohnt das konkrete Rezept [Naleśniki mit Twaróg](/de/rezepte/nalesniki/twarog); dieser Guide liefert die Technik dahinter.
+| Variante | Wann | Rezept |
+|----------|------|--------|
+| Twaróg süß | Kinder, Nachmittag, Gäste | [mit Twaróg](/de/rezepte/nalesniki/twarog) |
+| Dżem / Marmelade | schnell, ohne Quark | [mit Marmelade](/de/rezepte/nalesniki/dzem) |
+| Fleisch | Sonntag, Reste vom Hack | [mit Fleisch](/de/rezepte/nalesniki/fleisch) |
+| Spinat | vegetarisch, leichter Abend | [mit Spinat](/de/rezepte/nalesniki/szpinak) |
+| Panierte Rolle | neben klarer Suppe / Barszcz | [Krokiety](/de/rezepte/krokiety) |
 
-## Teig: dünn, ruhen, Mehl in DE
+Twaróg und Quark: Konsistenz und Einkauf im [Twaróg Guide](/de/blog/twarog-deutschland). Beilage Śmietana vs. Schmand: [Śmietana-Guide](/de/blog/smietana-schmand). Ersatz im deutschen Regal: [Ersatzprodukte](/de/blog/ersatzprodukte-de).
 
-Ein tragfähiger Naleśniki-Teig für vier Personen (etwa 12–14 dünne Pfannkuchen) startet ungefähr so:
+Süß und herzhaft nicht auf demselben Blech mischen — unterschiedliche Feuchte, unterschiedliche Hitze beim zweiten Braten.
 
-- 250 g Weizenmehl Type 405 oder 550
-- 2 Eier
-- 400–450 ml Milch (kalt oder handwarm)
-- 2 EL neutrales Öl (Sonnenblume oder Raps)
-- 1 Prise Salz
-- optional: 1 EL Zucker, wenn wir süße Füllungen planen
+## Was bei allen Varianten schiefgeht
 
-Alles glatt verrühren, Klümpchen ausstreichen – am besten mit Schneebesen oder Stabmixer kurz, nicht minutenlang schlagen. Der Teig soll die Konsistenz von dünner Sahne haben: er läuft vom Löffel, bleibt aber nicht wässrig. Zu dick = steife, brüchige Pfannkuchen. Zu dünn = sie reißen beim Wenden.
+- **Zu dicke Platten** — Teig zu steif oder zu viel in die Pfanne; Ergebnis wie Eierkuchen, reißt beim Rollen.
+- **Keine Ruhe** — Teig frisch gerührt klebt und reißt; 20–30 Minuten Pause lohnen sich.
+- **Nasse Füllung** — Quark ohne Abseihen, Spinat ohne Ausdrücken, heißes Hack: läuft aus oder weicht den Teig auf.
+- **Erste Platte als Maßstab** — die erste ist oft Kalibrierung; erst ab der zweiten bewerten.
+- **Mikrowelle zum Aufwärmen** — macht Gummi; Pfanne oder milder Ofen sind ruhiger.
 
-**Ruhen ist Pflicht.** Mindestens 20–30 Minuten abgedeckt bei Raumtemperatur. In der Pause quellen Stärke und Gluten; der Teig wird ruhiger, die erste Pfanne weniger zäh. Wer am Vortag plant, kann den Teig bis zu 24 Stunden kühl lagern und vor dem Backen kurz umrühren. Eine Nacht im Kühlschrank macht manche Teige sogar geschmeidiger – dann eventuell einen Esslöffel Milch nachgeben, wenn er zu fest geworden ist.
+Mengen, Zeiten und die konkrete Schrittfolge stehen im jeweiligen Rezept — hier nur die gemeinsamen Hebel.
 
-**Mehl in Deutschland:** Type 405 ergibt feinere, zarte Naleśniki; Type 550 ist etwas robuster und verzeiht mehr beim Wenden. Beide funktionieren. Wir meiden Selbstbackende Mischungen – Backpulver hat hier nichts zu suchen. Im Winter trocknet Mehl oft stärker aus als im Sommer; deshalb sind Milliliter-Angaben Startwerte, keine Gesetze. Fingerprobe: Teig soll glatt fließen, nicht klumpen.
+## Alltag und Freezer (kurz)
 
-Wer ohne Milch arbeitet, kann Wasser plus einen Klecks Sahne oder pflanzliche Alternative nutzen – Geschmack und Bräunung ändern sich leicht. Für klassische Hausmannskost bleibt Milch die ruhige Wahl. Orientierung zu Getreide und Mehlqualität liefert das [Bundeszentrum für Ernährung](https://www.bzfe.de); wir übersetzen das in praktische Mengen für unsere Küche.
+Ungefüllte Platten stapeln (Backpapier dazwischen) und einfrieren: unter der Woche nur füllen und braten. Gefüllt und angebraten portionieren und einfrieren geht auch — aufwärmen in der Pfanne. Beschriften: süß vs. herzhaft. Wer am Wochenende [Pierogi Ruskie](/de/rezepte/pierogi/ruskie) macht, kann denselben abgeseihten Twaróg für Naleśniki mitplanen.
 
-Häufiger Fehler: zu viel Mehl nachkorrigieren, weil der Teig „zu flüssig“ wirkt. Naleśniki sollen dünn sein. Lieber 30 Minuten ruhen und dann entscheiden, statt sofort nachzuschütten.
+## FAQ
 
-## Braten: Pfanne, Fett, erste Crêpe-Regel
+### Naleśniki oder Eierkuchen — was kochen wir?
 
-Die Pfanne entscheidet mit. Idealerweise eine schwere Crêpe- oder Bratpfanne mit 24–28 cm Durchmesser, gut vorheizen, dann moderates Fett. Butter schmeckt, verbrennt aber schnell – Butter plus ein Tropfen Öl ist stabiler. Zu viel Fett macht die Naleśniki fettig und verhindert gleichmäßige Bräunung.
+Wenn wir rollen und füllen wollen: Naleśniki. Wenn dicke Platten pur mit Zucker oder Apfelmus: eher der deutsche Weg. Beides legitim — andere Technik.
 
-**Die erste Crêpe-Regel:** Der erste Pfannkuchen ist Probe und Opfer zugleich. Er zeigt, ob Teig, Temperatur und Fett stimmen. Zu blass = Hitze erhöhen oder etwas mehr Ruhezeit. Zu dunkel = Pfanne kurz abkühlen lassen. Zu dick = Teig verdünnen oder weniger in die Pfanne gießen. Wir essen den ersten still selbst oder füllen ihn als Test – nicht als Maßstab für den Rest.
+### Brauchen wir eine Crêpe-Pfanne?
 
-So geht's Schritt für Schritt:
-
-1. Pfanne auf mittlere bis mittelhohe Hitze bringen.
-2. Dünn mit Öl oder Butter einfetten – jedes Mal nur wenig, nicht schwimmen lassen.
-3. Eine Schöpfkelle Teig in die Mitte gießen, Pfanne schwenken, bis der Boden bedeckt ist.
-4. Sobald der Rand goldbraun wirkt und die Oberfläche matt ist, wenden.
-5. Kurz die zweite Seite bräunen, auf einen Teller stapeln, abdecken.
-
-Naleśniki brauchen keine lange Garzeit. Sekunden zählen auf der zweiten Seite. Zu lange = trocken und brüchig beim Rollen.
-
-Wer in einer Mietwohnung mit induktionsanfälliger Pfanne kocht, arbeitet lieber konstant mittel als heiß-impulsiv. Gleichmäßige Hitze schlägt Show-Flammen. EU-Hinweise zu Lebensmittelhygiene und sicherer Zubereitung finden sich bei der [Europäischen Kommission Landwirtschaft](https://agriculture.ec.europa.eu) – für uns heißt das vor allem: saubere Arbeitsfläche, rohe Eier nicht lange warm stehen lassen, Teig kühl lagern wenn nötig.
-
-## Füllung süß (Twaróg) vs. herzhaft
-
-Naleśniki leben von der Füllung. Der Teig ist neutral – die Masse innen trägt Geschmack und Textur.
-
-### Süß mit Twaróg
-
-Die klassische süße Variante nutzt trockenen, krümeligen Quark – in Polen Twaróg genannt. Cook-Primary bleibt [Naleśniki mit Twaróg](/de/rezepte/nalesniki/twarog). Eine zweite süße Linie ohne Quark: [Naleśniki mit Marmelade](/de/rezepte/nalesniki/dzem) — eigene Varianten-URL, kein Twaróg-Steal. Für Pierogi und Naleśniki brauchen wir bei Quark dieselbe Konsistenz: nicht den wässrigen Speisequark aus dem Kühlregal. Wie wir Twaróg in Deutschland finden oder ersetzen, steht im [Twaróg Guide](/de/blog/twarog-deutschland) – dort gehört die Zutat hin, nicht hier im Detail.
-
-Kurz für die Küche: Twaróg mit Eigelb, Zucker, Vanille und optional Rosinen oder Zitronenschale verrühren. Die Masse soll streichfähig sein, nicht laufen. Zu feucht = auslaufende Füllung beim Braten. Im Zweifel abseihen oder etwas mehr Quark einarbeiten.
-
-Dazu passt [Śmietana](/de/blog/smietana-schmand) – saurer Sahne oder Schmand, je nachdem was wir im Laden finden. Der Guide erklärt, wann welche Variante sinnvoll ist. Auf dem Teller: Naleśniki warm, einen Klecks Śmietana daneben, optional Puderzucker.
-
-### Herzhaft
-
-Herzhafte Naleśniki sind keine Randnotiz. Pilze (gut eingekocht und abgekühlt), Spinat mit Knoblauch, geriebener Käse, oder eine feste Fleischfarce aus Resten – alles funktioniert, wenn die Füllung nicht zu saftig ist. Kapusta oder Kraut wie bei Pierogi? Möglich, aber gut ausdrücken. Nasse Füllung macht den Teig weich.
-
-Wer Ersatzprodukte vergleichen will – welcher Quark, welcher Schmand, welcher Käse im deutschen Regal taugt – findet Orientierung unter [Ersatzprodukte in DE](/de/blog/ersatzprodukte-de). Wir nutzen den Guide, statt blind zu improvisieren.
-
-Süß und herzhaft nicht mischen auf einem Blech: unterschiedliche Füllungen, unterschiedliche Bratenzeiten. Erst eine Sorte fertig rollen und anbraten, dann die nächste.
-
-## Aufrollen, anbraten, servieren
-
-Gefüllte Naleśniki sind ein zweistufiger Prozess. Erst backen, dann füllen, rollen, nochmal braten.
-
-**Füllen:** Jeden Pfannkuchen warm oder lauwarm bestreichen – nicht randvoll. Etwa zwei Esslöffel süße Füllung oder etwas mehr bei herzhaft, je nach Pfannkuchengröße. Rand freilassen, damit nichts ausläuft. Von einer Seite aufrollen wie ein Roulade, oder falten: Seiten einschlagen, dann rollen – letzteres hält saftige Füllungen sicherer.
-
-**Anbraten:** Rolle in wenig Butter bei mittlerer Hitze von allen Seiten goldbraun braten. Ziel: Außen leicht knusprig, innen warm und die Füllung gebunden. Das dauert pro Rolle nur wenige Minuten. Zu heiß = verbrannte Butter, kalter Kern.
-
-**Servieren:** Süße Naleśniki sofort mit Śmietana und optional Beeren oder Kompott. Herzhafte mit frischem Dill, saurer Gurke oder einfachem Salat – je nach Füllung. Naleśniki sind kein Fingerfood; Messer und Gabel sind normal.
-
-Reste vom Vortag lassen sich im Kühlschrank halten und in der Pfanne kurz aufwärmen – besser als Mikrowelle, die den Teig gummiartig macht. Wer [Pierogi Ruskie](/de/rezepte/pierogi/ruskie) am Wochenende macht, kann Twaróg-Füllung parallel vorbereiten und einen Teil für Naleśniki reservieren. Gleiche Zutat, zwei Gerichte – effizient für Meal Prep.
-
-> Rollen, kurz anbraten, sofort servieren – Naleśniki wollen Wärme, nicht Wartezeit auf dem Blech.
-
-## Meal-Prep / einfrieren
-
-Naleśniki eignen sich gut für Vorbereitung, wenn wir die Schritte trennen.
-
-**Teig:** Am Vortag mixen, kühl lagern. Vor dem Backen umrühren.
-
-**Ungefüllte Pfannkuchen:** Backen, zwischen Backpapier stapeln, luftdicht kühl bis zwei Tage oder einfrieren. Auftauen bei Raumtemperatur oder kurz in der Pfanne.
-
-**Gefüllt und angebraten:** Portionieren, abkühlen, einzeln oder in Paaren einfrieren. Aufwärmen in Pfanne oder Ofen bei 160 °C, bis der Kern warm ist. Mikrowelle geht im Notfall, Textur leidet.
-
-**Roh gefüllt und gerollt:** Möglich, aber heikel – Füllung muss trocken sein. Kurz anbraten, abkühlen, einfrieren. Beim Aufwärmen länger in moderate Hitze, damit der Kern mitkommt.
-
-Für eine Diaspora-Woche rechnen wir realistisch: Sonntag Teig und Pfannkuchen, Montag oder Dienstag füllen und braten. Freezer ist Freund, kein Notbehelf. Beschriften mit Datum und Füllung – herzhaft und süß verwechselt niemand gern.
-
-Polnische Ernährungsorientierung bietet das [Nationale Zentrum für Ernährungsbildung](https://ncez.pzh.gov.pl) – hilfreich als Hintergrund zu Milchprodukten und ausgewogener Kost; unsere Portionen richten wir nach Appetit und Alltag. Praktische Alltagstipps finden sich auch auf [was-wir-essen.de](https://www.was-wir-essen.de).
-
-## FAQ: Naleśniki
-
-### Warum werden unsere Naleśniki dick und schwer statt dünn?
-
-Meist zu viel Mehl oder zu wenig Ruhezeit. Naleśniki-Teig soll flüssig bleiben. Wir prüfen nach 30 Minuten Ruhe: läuft er noch dünnflüssig vom Löffel? Wenn ja, nicht nachjustieren. Auch zu große Pfannkuchen durch zu viel Teig auf einmal machen das Ergebnis pfannkuchenartig statt crêpeartig. Weniger gießen, Pfanne schwenken, Geduld.
-
-### Können wir den Teig ohne Milch machen?
-
-Ja, mit Wasser und etwas Öl oder pflanzlicher Milchalternative. Geschmack und Bräunung weichen leicht ab. Für klassische süße Naleśniki mit Twaróg bleibt Milch im Teig die vertrautere Basis. Wer laktosefrei kocht, nutzt laktosefreie Milch – funktioniert zuverlässig.
-
-### Was tun, wenn die Füllung beim Braten ausläuft?
-
-Füllung war zu nass oder der Rand nicht frei gelassen. Twaróg vorher prüfen und gegebenenfalls abseihen – siehe [Twaróg Guide](/de/blog/twarog-deutschland). Herzhafte Füllungen gut einkochen und abkühlen lassen. Beim Rollen nicht sparen, aber auch nicht überfüllen. Erste Rolle als Test behandeln.
-
-### Brauchen wir eine spezielle Crêpe-Pfanne?
-
-Nein, aber eine flache Pfanne mit guter Wärmeverteilung hilft. Wichtiger als Marke ist gleichmäßige Hitze und das richtige Einfetten. Antihaft erleichtert das Wenden; Stahl oder Gusseisen geht mit etwas mehr Butter und Übung genauso.
+Nein. Flache Pfanne, gleichmäßige Hitze, wenig Fett. Gusseisen hilft manchen — siehe [Gusseisenpfanne](/de/blog/gusseisenpfanne) — Pflicht ist es nicht.
 
 ### Wie unterscheiden sich Naleśniki von Blintzes?
 
-Blintzes sind verwandt – auch gefüllte, gerollte Pfannkuchen –, aber die jüdische Variante nutzt oft andere Teig- und Füllungstraditionen. Naleśniki sind polnische Hausmannskost mit Twaróg, Pilzen oder herzhaften Resten. Technisch ähnlich, kulturell eigenständig. Wer beides kennt, erkennt die Parallele; wer nur eins kocht, braucht keine Verwechslung.
+Verwandt (gefüllt, gerollt), aber andere Tradition. Naleśniki sind polnische Hausmannskost — Twaróg, Fleisch, Spinat, Alltag.
 
-### Können wir Naleśniki komplett vorbereiten und nur noch aufwärmen?
+### Wohin mit dem Kochhunger?
 
-Ja, gefüllt und angebraten halten sich eingefroren zwei bis drei Monate gut. Frisch schmecken sie am besten direkt aus der Pfanne – für Wochentag und Büro ist Aufwärmen in der Pfanne aber völlig in Ordnung. Teig und ungefüllte Pfannkuchen separat vorbereiten gibt maximale Flexibilität: unter der Woche nur füllen und braten.
+Direkt ins Rezept: [Twaróg](/de/rezepte/nalesniki/twarog), [Fleisch](/de/rezepte/nalesniki/fleisch), [Spinat](/de/rezepte/nalesniki/szpinak) oder [Marmelade](/de/rezepte/nalesniki/dzem).
 
 ## Weiterlesen
 
-Technik sitzt – als Nächstes konkret kochen und Zutaten sauber einordnen:
-
-- [Naleśniki mit Twaróg](/de/rezepte/nalesniki/twarog) — Rezept mit Mengen und Schritten
-- [Naleśniki mit Marmelade](/de/rezepte/nalesniki/dzem) — süße Dżem-Variante (eigene URL)
-- [Krokiety](/de/rezepte/krokiety) — gerollte, panierte Naleśniki (andere Money Page)
-- [Pierogi Ruskie](/de/rezepte/pierogi/ruskie) — gleicher Quark, andere Form
-- [Twaróg Guide](/de/blog/twarog-deutschland) — Kauf und Konsistenz in DE
-- [Śmietana und Schmand](/de/blog/smietana-schmand) — passende Beilage und Füllung
-- [Ersatzprodukte in DE](/de/blog/ersatzprodukte-de) — wenn der Polenladen zu weit ist
-
-Ruhig backen, dünn halten, Füllung trocken – so bleiben Naleśniki in der deutschen Küche alltagstauglich, ohne dass wir jedes Mal neu anfangen müssen.
+- [Naleśniki mit Twaróg](/de/rezepte/nalesniki/twarog)
+- [Naleśniki mit Marmelade](/de/rezepte/nalesniki/dzem)
+- [Krokiety](/de/rezepte/krokiety)
+- [Pierogi Ruskie](/de/rezepte/pierogi/ruskie)
+- [Twaróg Guide](/de/blog/twarog-deutschland)
+- [Śmietana und Schmand](/de/blog/smietana-schmand)
 `;
 
 export const bodyOscypekDe = `

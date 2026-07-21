@@ -6,9 +6,9 @@ Eine Primary KW = eine Owner-URL. Andere Seiten nur mit descriptive Anchors verl
 
 | Primary KW DE | Primary KW PL | Owner |
 |---------------|---------------|--------|
-| Pierogi Rezept (broad) | pierogi przepis | `/blog/pierogi-guide` · `/blog/przewodnik-pierogi` |
+| Pierogi Varianten-Überblick (nicht Cook) | przewodnik pierogi | `/blog/pierogi-guide` · `/blog/przewodnik-pierogi` |
 | Pierogi Teig | ciasto na pierogi | `/blog/pierogi-teig` |
-| Pierogi Ruskie Rezept | pierogi ruskie przepis | `/rezepte/pierogi/ruskie` |
+| Pierogi Ruskie Rezept (Default-Cook) | pierogi ruskie przepis | `/rezepte/pierogi/ruskie` |
 | Pierogi mit Fleisch | pierogi z mięsem | `/rezepte/pierogi/fleisch` · `/mieso` |
 | Pierogi Kraut Pilze | pierogi z kapustą | `/rezepte/pierogi/kraut-pilze` |
 | Pierogi mit Heidelbeeren / Pierogi z jagodami | pierogi z jagodami | `/rezepte/pierogi/jagody` |
@@ -30,8 +30,8 @@ Eine Primary KW = eine Owner-URL. Andere Seiten nur mit descriptive Anchors verl
 | Zupa ogórkowa | `/rezepte/ogorkowa` |
 | Kapuśniak Rezept | `/rezepte/kapusniak` |
 | Flaki Rezept / Kuttelsuppe polnisch | `/rezepte/flaki` |
-| Bigos Guide | `/blog/bigos-guide` |
-| Bigos Rezept | `/rezepte/bigos` |
+| Bigos Rezept (cook) | `/rezepte/bigos` |
+| Bigos Zeit / Varianten / Topf (nicht Cook) | `/blog/bigos-guide` |
 
 **Intent-Trennung (Wave 8):** Ogórkowa = warme Kiszone-Gurkensuppe; Kapuśniak = Sauerkraut**suppe** (≠ Bigos-Schmorgericht); Żurek = Zakwas; Barszcz = Rote Bete; Chłodnik = kalt/Sommer. Pączki Technik = Pillar; Pączki Rezept = Cook; Tłusty = Anlass; Faworki = Fatgebäck-Owner. Knedle ≠ Pierogi/Leniwe/Pyzy. Mizeria ≠ Chłodnik-Salat-KW.
 
@@ -51,8 +51,8 @@ Eine Primary KW = eine Owner-URL. Andere Seiten nur mit descriptive Anchors verl
 | Tłusty Czwartek | `/blog/tlusty-czwartek` |
 | Polnisches Sonntagsessen | `/blog/sonntagsessen-polnisch` |
 | Panieren Schabowy | `/blog/panieren-schabowy` · `/blog/panierowanie-kotlet` |
-| Placki Rezept (broad) | `/blog/placki-guide` · `/blog/placki-przewodnik` |
-| Placki ziemniaczane | `/rezepte/placki/ziemniaczane` |
+| Placki ziemniaczane (Default-Cook) | `/rezepte/placki/ziemniaczane` |
+| Placki vs. Reibekuchen / Varianten-Überblick (nicht Cook) | `/blog/placki-guide` · `/blog/placki-przewodnik` |
 | Placki mit Zucchini | `/rezepte/placki/cukinia` |
 | Placki mit Käse | `/rezepte/placki/mit-kaese` · `/ser` |
 | Placki mit Apfel | `/rezepte/placki/mit-apfel` · `/jablka` |
@@ -63,13 +63,13 @@ Eine Primary KW = eine Owner-URL. Andere Seiten nur mit descriptive Anchors verl
 | Kluski kładzione / Fallnudeln | `/rezepte/kluski-kladzione` |
 | Racuchy z jabłkami | `/rezepte/racuchy-jablka` |
 | Chłodnik litewski | `/rezepte/chlodnik-litewski` |
-| Gołąbki Rezept (broad) | `/blog/golabki-guide` |
 | Gołąbki Rezept (cook) | `/rezepte/golabki` |
-| Naleśniki Rezept (broad) | `/blog/nalesniki-guide` |
-| Naleśniki mit Twaróg | `/rezepte/nalesniki/twarog` |
+| Gołąbki Kultur / Sauce / Batch (nicht Cook) | `/blog/golabki-guide` |
+| Naleśniki mit Twaróg (Default-Cook) | `/rezepte/nalesniki/twarog` |
 | Naleśniki mit Fleisch | `/rezepte/nalesniki/fleisch` · `/mieso` |
 | Naleśniki mit Spinat | `/rezepte/nalesniki/szpinak` |
 | Naleśniki mit Marmelade / Naleśniki z dżemem | `/rezepte/nalesniki/dzem` |
+| Naleśniki Varianten / vs. Eierkuchen (nicht Cook) | `/blog/nalesniki-guide` |
 | Pierogi leniwe | `/rezepte/pierogi-leniwe` |
 | Kopytka | `/rezepte/kopytka` |
 | Łazanki | `/rezepte/lazanki` |
@@ -82,8 +82,8 @@ Eine Primary KW = eine Owner-URL. Andere Seiten nur mit descriptive Anchors verl
 | Faworki Rezept | `/rezepte/faworki` |
 | Pączki Technik / Hefe frittieren | `/blog/paczek-technik` · `/blog/paczki-technika` |
 | Pączki Rezept | `/rezepte/paczki` |
-| Fasolka Guide (broad) | `/blog/fasolka-po-bretonsku` |
 | Fasolka Rezept (cook) | `/rezepte/fasolka-po-bretonsku` |
+| Fasolka Einkauf / Würze / Diaspora (nicht Cook) | `/blog/fasolka-po-bretonsku` |
 | Majeranek / Majoran | `/blog/majeranek` · `/blog/majeranek-leksykon` |
 | Oscypek kaufen DE | `/blog/oscypek-deutschland` |
 | Oscypek mit Preiselbeeren | `/rezepte/oscypek-preiselbeeren` |

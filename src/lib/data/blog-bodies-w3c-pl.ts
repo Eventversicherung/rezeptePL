@@ -69,7 +69,7 @@ Kolejność jest święta: **mąka → jajo → bułka tarta**. Każda warstwa m
 
 **Sól dwa razy:** Solone mięso + sól w bułce + sól na talerzu = za słone. Trzymamy sól na etapie mięsa.
 
-**Nie klopsy:** [Klopsy / pulpety](/pl/rezepte/klopsy) to kulki w sosie bez trójstopniowej panierki — inny cook-primary niż panierowany [kotlet mielony](/pl/rezepte/kotlet-mielony). Owner panierowania zostaje tu.
+**Nie klopsy:** [Klopsy / pulpety](/pl/rezepte/klopsy) to kulki w sosie bez trójstopniowej panierki — inna technika niż panierowany [kotlet mielony](/pl/rezepte/kotlet-mielony).
 
 ## Warianty: panko, bez jaja, inne mięso
 
@@ -238,9 +238,9 @@ Placki ziemniaczane to w polskiej kuchni coś między daniem a symbolem — chru
 
 Kontekst: REWE kartofle firmowe, tarka z Lidla, [patelnia żeliwna](/pl/blog/patelnia-zelivna) obok starej stalowej. Źródła: [BZfE](https://www.bzfe.de) co do kartofli jako warzywa skrobiowego, [was-wir-essen.de](https://www.was-wir-essen.de) przy smażeniu, [Komisja Europejska — rolnictwo](https://agriculture.ec.europa.eu) przy sezonowości ziemniaków.
 
-## Czym są placki — vs. Reibekuchen, entity
+## Czym są placki — vs. Reibekuchen
 
-**Placki ziemniaczane** to **tarte surowe kartofle** (czasem z odrobiną gotowanego — regionalnie), jajo, mąka lub skrobia, sól — smażone na patelni w porcjach. Chrupiąca skórka, środek miękki ale nie surowy. Entity polska blisko niemieckiego Reibekuchen, ale domowe placki bywają **cieńsze, mniej jaj**, czasem bez cebuli w masie (cebula osobno w gulaszu).
+**Placki ziemniaczane** to **tarte surowe kartofle** (czasem z odrobiną gotowanego — regionalnie), jajo, mąka lub skrobia, sól — smażone na patelni w porcjach. Chrupiąca skórka, środek miękki ale nie surowy. Polska linia blisko niemieckiego Reibekuchen, ale domowe placki bywają **cieńsze, mniej jaj**, czasem bez cebuli w masie (cebula osobno w gulaszu).
 
 **Reibekuchen** w Gaststätte: grubsze, często z sosem jabłkowym — u nas [śmietana](/pl/blog/smietana-czy-schmand) lub gulasz. **Hash browns** amerykańskie — inna tekstura, prasowane. Nie mieszamy nazw w przepisie rodzinnym — „placki” to placki.
 
@@ -298,7 +298,7 @@ W diasporze placki to też **tani obiad** między droższymi zakupami mięsa —
 
 ## Podawanie: śmietana, gulasz, solo
 
-**Klasycznie:** Placki + **[gulasz](/pl/rezepte/gulasz-wieprzowy)** (mięsny lub pieczarkowy w diasporze) + łyżka śmietany. Śmietana 18% z polskiego sklepu albo Schmand rozcieńczony — [śmietana czy Schmand](/pl/blog/smietana-czy-schmand). Composed na jednym talerzu (placki **z** gulaszem na wierzchu, primary tam): [placek po węgiersku](/pl/rezepte/placek-po-wegiersku) — broad placków zostaje tu.
+**Klasycznie:** Placki + **[gulasz](/pl/rezepte/gulasz-wieprzowy)** (mięsny lub pieczarkowy w diasporze) + łyżka śmietany. Śmietana 18% z polskiego sklepu albo Schmand rozcieńczony — [śmietana czy Schmand](/pl/blog/smietana-czy-schmand). Na jednym talerzu z gulaszem na wierzchu: [placek po węgiersku](/pl/rezepte/placek-po-wegiersku). Same placki: [placki ziemniaczane](/pl/rezepte/placki/ziemniaczane).
 
 **Solo:** Placki ze śmietaną i szczypiorkiem — szybki obiad bez mięsa.
 

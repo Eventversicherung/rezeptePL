@@ -234,13 +234,13 @@ const FACTS: Record<string, ArticleFacts> = {
     originPl:
       "Gołąbki to rolki z kapusty z farszem mięsno-ryżowym. Danie cierpliwości, które się opłaca. Kapusta musi być giętka, farsz aromatyczny, sos nośny.",
     shopDe:
-      "Ein großer Weißkohl, Hackfleisch gemischt, Reis und passierte Tomaten. Dill zum Servieren. Im Polenladen gibt es manchmal schon vorbereitete Blätter. Gołąbki-Guide für Blanchieren, Rollen und Schmorzeit.",
+      "Ein großer Weißkohl, Hackfleisch gemischt, Reis und passierte Tomaten. Dill zum Servieren. Im Polenladen manchmal vorbereitete Blätter. Sauce- und Batch-Kontext: [Gołąbki-Guide](/de/blog/golabki-guide).",
     shopPl:
-      "Duża kapusta, mięso mielone, ryż i passata. Koper do podania. W polskim sklepie czasem są gotowe liście. Przewodnik po gołąbkach — blanszowanie, zwijanie i duszenie.",
+      "Duża kapusta, mięso mielone, ryż i passata. Koper do podania. W polskim sklepie czasem gotowe liście. Kontekst sosu i batcha: [przewodnik gołąbków](/pl/blog/golabki-przewodnik).",
     techniqueDe:
-      "Blätter blanchieren, dicke Rippen flach schneiden, fest aber nicht zu straff rollen. Langsam schmoren, damit der Kohl weich wird und die Füllung saftig bleibt.",
+      "Blätter blanchieren bis biegsam, dicke Rippen flach schneiden, fest aber mit Spielraum rollen (Reis quillt). Reis al dente vorkochen, Füllung kalt mischen. Naht unten, Flüssigkeit bedeckt die Rollen, sanft köcheln — nicht sprudeln.",
     techniquePl:
-      "Blanszuj liście, spłaszcz grube głąbiki, zwijaj ciasno, ale nie za mocno. Duś powoli, aż kapusta zmięknie, a farsz zostanie soczysty.",
+      "Blanszuj liście do giętkości, spłaszcz grube żyłki, zwijaj z luzem (ryż pęcznieje). Ryż ugotuj al dente, farsz mieszaj zimny. Szem do dołu, płyn zakrywa rolki, duś łagodnie — bez burzenia.",
     serveDe:
       "Mit Tomatensoße, Dill und Brot. Am nächsten Tag oft besser.",
     servePl:
@@ -254,9 +254,9 @@ const FACTS: Record<string, ArticleFacts> = {
     mistakesPl:
       "Zbyt twarde zwinięcie, za krótkie duszenie, zbyt wodnisty sos. Kapusta potrzebuje czasu.",
     variantsDe:
-      "Mit Buchweizen statt Reis, vegetarisch mit Pilzen, oder in Pilzsoße statt Tomate. Gołąbki-Guide für Schmor-Topf und Flüssigkeitsmenge.",
+      "Mit Buchweizen statt Reis, vegetarisch mit Pilzen, oder in Pilzsoße statt Tomate. Sauce-Wege und Batch: [Gołąbki-Guide](/de/blog/golabki-guide).",
     variantsPl:
-      "Z kaszą zamiast ryżu, wegetariańskie z grzybami albo w sosie grzybowym zamiast pomidorowego. Przewodnik po gołąbkach przy garnku i sosie.",
+      "Z kaszą zamiast ryżu, wegetariańskie z grzybami albo w sosie grzybowym zamiast pomidorowego. Sosy i batch: [przewodnik gołąbków](/pl/blog/golabki-przewodnik).",
   },
   "recipe-barszcz": {
     dishDe: "Barszcz czerwony",
@@ -332,33 +332,33 @@ const FACTS: Record<string, ArticleFacts> = {
     vibeDe: "zart, süß-mild, nach Nachmittag zu Hause",
     vibePl: "delikatne, słodko-łagodne, jak popołudnie w domu",
     originDe:
-      "Naleśniki sind polnische Pfannkuchen: dünner als deutsche Eierkuchen, vielseitig süß oder herzhaft. Mit Twaróg werden sie zum Klassiker für Kinder und Gäste.",
+      "Naleśniki sind polnische Pfannkuchen: dünner und biegsamer als deutsche Eierkuchen, zum Füllen und Rollen gedacht. Mit Twaróg werden sie zum Klassiker für Kinder und Gäste. Überblick Varianten: [Naleśniki-Guide](/de/blog/nalesniki-guide).",
     originPl:
-      "Naleśniki są cieńsze niż niemieckie naleśniki/eierkuchen i bywają słodkie albo wytrawne. Z twarogiem stają się klasyką dla dzieci i gości.",
+      "Naleśniki są cieńsze i bardziej giętkie niż niemieckie Eierkuchen — do farszu i zwijania. Z twarogiem stają się klasyką dla dzieci i gości. Mapa wariantów: [przewodnik naleśników](/pl/blog/nalesniki-przewodnik).",
     shopDe:
-      "Milch, Mehl, Eier, Twaróg oder Quark, Zucker, Vanille. Twaróg Guide für Kauf und Konsistenz in DE. Naleśniki-Guide für Teig und Wenden.",
+      "Milch, Mehl Type 405 oder 550, Eier, Twaróg oder gut abgeseihten Quark, Zucker, Vanille. Kauf und Konsistenz: [Twaróg Guide](/de/blog/twarog-deutschland).",
     shopPl:
-      "Mleko, mąka, jajka, twaróg lub Quark, cukier, wanilia. Przewodnik po twarogu przy zakupach w Niemczech. Naleśniki-Guide przy cieście i przewracaniu.",
+      "Mleko, mąka typ 405 lub 550, jajka, twaróg lub dobrze odsączony Quark, cukier, wanilia. Zakupy i konsystencja: [twaróg w Niemczech](/pl/blog/twarog-w-niemczech).",
     techniqueDe:
-      "Teig ruhen lassen, Pfanne leicht einfetten, dünn ausbacken. Füllung nicht zu nass. Optional in Butter goldbraun fertigstellen.",
+      "Teig wie dünne Sahne, 20–30 Minuten ruhen, Pfanne nur leicht einfetten, dünn ausgießen. Erste Platte ist oft Kalibrierung. Füllung streichfähig, nicht nass; Rand freilassen, rollen, optional in Butter goldbraun. Ungefüllte Platten mit Backpapier einfrieren — unter der Woche nur füllen.",
     techniquePl:
-      "Ciasto odstawić, patelnię lekko natłuścić, smażyć cienko. Farsz nie za mokry. Opcjonalnie domknąć na maśle na złoto.",
+      "Ciasto jak rzadka śmietana, 20–30 minut odpoczynku, patelnia lekko natłuszczona, cienko rozlewać. Pierwszy placek często kalibracja. Farsz smarowalny, nie mokry; zostaw margines, zwiń, opcjonalnie na maśle na złoto. Puste placki z papierem do mrożenia — w tygodniu tylko farsz.",
     serveDe:
-      "Mit Puderzucker, Obst oder einfach so. Auch kalt aus der Dose am nächsten Tag gut.",
+      "Mit Puderzucker, Obst oder [Śmietana](/de/blog/smietana-schmand). Auch kalt am nächsten Tag gut. Aufwärmen in der Pfanne, nicht in der Mikrowelle.",
     servePl:
-      "Z cukrem pudrem, owocami albo samego. Nazajutrz też smakuje na zimno.",
+      "Z cukrem pudrem, owocami albo [śmietaną](/pl/blog/smietana-czy-schmand). Nazajutrz też na zimno. Odgrzewać na patelni, nie w mikrofalówce.",
     diasporaDe:
-      "Schnelles Comfort Food, wenn Sehnsucht nach zu Hause groß ist. Und der Polenladen Twaróg hat.",
+      "Schnelles Comfort Food, wenn Sehnsucht nach zu Hause groß ist. Quark aus dem Supermarkt geht — abseihen wie im Twaróg-Guide.",
     diasporaPl:
-      "Szybki comfort food, gdy tęsknota za domem jest duża. A w sklepie jest twaróg.",
+      "Szybki comfort food, gdy tęsknota za domem jest duża. Quark z marketu działa — odsącz jak w przewodniku po twarogu.",
     mistakesDe:
-      "Zu dicker Teig, zu heiße Pfanne, körnige trockene Füllung. Balance aus Flüssigkeit und Ruhezeit hilft.",
+      "Zu dicker Teig (nachkorrigiertes Mehl), keine Ruhe, zu heiße Pfanne, nasser Quark, überfüllte Rolle. Weniger gießen und Füllung abseihen hilft mehr als mehr Mehl.",
     mistakesPl:
-      "Zbyt gęste ciasto, za gorąca patelnia, suchy farsz. Pomaga równowaga płynów i odpoczynek ciasta.",
+      "Zbyt gęste ciasto (dokładana mąka), brak odpoczynku, za gorąca patelnia, mokry twaróg, przeładowany farsz. Mniej masy na patelnię i odsączenie pomaga bardziej niż dokładanie mąki.",
     variantsDe:
-      "Oben wechseln zu [Fleisch](/de/rezepte/nalesniki/fleisch), [Spinat](/de/rezepte/nalesniki/szpinak) oder süß [Marmelade](/de/rezepte/nalesniki/dzem). Naleśniki-Guide und Twaróg Guide für süße und herzhafte Füllungen — Dżem hat eigene Varianten-URL.",
+      "Oben wechseln zu [Fleisch](/de/rezepte/nalesniki/fleisch), [Spinat](/de/rezepte/nalesniki/szpinak) oder süß [Marmelade](/de/rezepte/nalesniki/dzem). Orientierung über alle Varianten: [Naleśniki-Guide](/de/blog/nalesniki-guide).",
     variantsPl:
-      "Przełącz na [mięso](/pl/rezepte/nalesniki/mieso), [szpinak](/pl/rezepte/nalesniki/szpinak) albo słodki [dżem](/pl/rezepte/nalesniki/dzem). Naleśniki-Guide i przewodnik po twarogu — dżem ma własny URL wariantu.",
+      "Przełącz na [mięso](/pl/rezepte/nalesniki/mieso), [szpinak](/pl/rezepte/nalesniki/szpinak) albo słodki [dżem](/pl/rezepte/nalesniki/dzem). Orientacja po wariantach: [przewodnik naleśników](/pl/blog/nalesniki-przewodnik).",
   },
   "recipe-nalesniki-mieso": {
     dishDe: "Naleśniki mit Fleisch",
