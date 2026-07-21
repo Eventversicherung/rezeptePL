@@ -89,7 +89,11 @@ export function PlacesFinder({ places, locale }: Props) {
   return (
     <div className="places-finder">
       <div className="places-finder__toolbar">
-        <div className="places-finder__filters" role="group" aria-label={t("filterLabel")}>
+        <div
+          className="places-finder__filters"
+          role="group"
+          aria-label={t("filterLabel")}
+        >
           {(
             [
               ["all", t("filterAll")],
@@ -117,14 +121,13 @@ export function PlacesFinder({ places, locale }: Props) {
               className="btn-secondary places-finder__geo-btn"
               onClick={requestLocation}
               disabled={geoStatus === "prompting"}
+              title={t("geoPrivacy")}
             >
               {geoStatus === "prompting" ? t("geoPrompting") : t("geoEnable")}
             </button>
           )}
         </div>
       </div>
-
-      <p className="places-finder__privacy">{t("geoPrivacy")}</p>
 
       <div className="places-finder__stage">
         <PlacesMap
@@ -139,10 +142,6 @@ export function PlacesFinder({ places, locale }: Props) {
           onClose={() => setSelectedId(null)}
         />
       </div>
-
-      <p className="places-finder__count">
-        {t("count", { count: enriched.length })}
-      </p>
     </div>
   );
 }

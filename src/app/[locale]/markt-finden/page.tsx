@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { PlacesFinder } from "@/components/places/PlacesFinder";
 import { listPublishedPlaces } from "@/lib/data/places";
 import { siteUrl } from "@/lib/utils";
@@ -17,7 +16,7 @@ export async function generateMetadata({
   const base = siteUrl();
   return {
     title: `${t("title")} | Alemniam`,
-    description: t("sub"),
+    description: t("seoDescription"),
     alternates: {
       canonical: `${base}/${locale}/markt-finden`,
       languages: {
@@ -39,26 +38,12 @@ export default async function MarktFindenPage({
   setRequestLocale(locale);
 
   const t = await getTranslations("places");
-  const tCommon = await getTranslations("common");
   const places = await listPublishedPlaces(locale);
 
   return (
-    <div className="space-y-8 sm:space-y-10">
-      <Breadcrumbs
-        ariaLabel={tCommon("breadcrumbs")}
-        items={[
-          { href: "/", label: tCommon("home") },
-          { label: t("title") },
-        ]}
-      />
-
-      <header className="reveal max-w-3xl">
-        <p className="section-kicker">{t("kicker")}</p>
-        <h1 className="mt-2 font-display text-2xl font-semibold tracking-tight text-[var(--navy)] sm:text-[1.75rem]">
-          {t("title")}
-        </h1>
-        <p className="mt-2 text-sm text-muted sm:text-base">{t("sub")}</p>
-      </header>
+    <div className="places-page">
+      {/* Screen-reader / SEO title only — map is the composition */}
+      <h1 className="sr-only">{t("title")}</h1>
 
       {places.length === 0 ? (
         <p className="rounded-[var(--radius)] bg-[var(--bg-elevated)] px-4 py-6 text-[var(--fg-muted)]">

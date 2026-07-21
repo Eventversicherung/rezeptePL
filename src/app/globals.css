@@ -963,10 +963,14 @@ a.btn-hero-secondary:hover {
 }
 
 /* —— Markt finden / Places map —— */
+.places-page {
+  margin-top: 0.25rem;
+}
+
 .places-finder {
   display: flex;
   flex-direction: column;
-  gap: var(--space-md);
+  gap: var(--space-sm);
 }
 
 .places-finder__toolbar {
@@ -974,7 +978,7 @@ a.btn-hero-secondary:hover {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  gap: var(--space-md);
+  gap: var(--space-sm);
 }
 
 .places-finder__filters {
@@ -1015,15 +1019,9 @@ a.btn-hero-secondary:hover {
   min-height: 2.5rem;
 }
 
-.places-finder__privacy {
-  margin: 0;
-  font-size: 0.82rem;
-  color: var(--fg-muted);
-}
-
 .places-finder__stage {
   position: relative;
-  min-height: min(68dvh, 640px);
+  min-height: min(78dvh, 760px);
   border-radius: calc(var(--radius) + 4px);
   overflow: hidden;
   border: 1px solid color-mix(in srgb, var(--accent) 18%, #e5e5e7);
@@ -1033,7 +1031,7 @@ a.btn-hero-secondary:hover {
 
 .places-map {
   width: 100%;
-  height: min(68dvh, 640px);
+  height: min(78dvh, 760px);
   background: #f7f7f8;
 }
 
@@ -1226,12 +1224,6 @@ a.btn-hero-secondary:hover {
   margin-top: 0.9rem;
 }
 
-.places-finder__count {
-  margin: 0;
-  font-size: 0.85rem;
-  color: var(--fg-muted);
-}
-
 @keyframes placeCardIn {
   from {
     opacity: 0;
@@ -1255,7 +1247,7 @@ a.btn-hero-secondary:hover {
 @media (max-width: 640px) {
   .places-finder__stage,
   .places-map {
-    min-height: min(62dvh, 520px);
-    height: min(62dvh, 520px);
+    min-height: min(72dvh, 620px);
+    height: min(72dvh, 620px);
   }
 }

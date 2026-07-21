@@ -209,23 +209,21 @@
     "breadcrumbs": "Ścieżka nawigacji"
   },
   "places": {
-    "kicker": "Zakupy",
     "title": "Znajdź targ",
-    "sub": "Polskie sklepy i targi w Niemczech — blisko Ciebie, na mapie.",
+    "seoDescription": "Znajdź polski sklep i targ w pobliżu — na mapie, w Niemczech.",
     "empty": "Brak miejsc. Sprawdź połączenie z Supabase.",
     "filterLabel": "Filtruj miejsca",
     "filterAll": "Wszystkie",
     "filterShops": "Sklepy",
     "filterMarkets": "Targi",
-    "kindShop": "Sklep polski",
-    "kindMarket": "Targ polski",
+    "kindShop": "Sklep",
+    "kindMarket": "Targ",
     "directions": "Otwórz trasę",
     "shoppingGuide": "Poradnik zakupów",
     "close": "Zamknij",
     "geoEnable": "Włącz lokalizację",
     "geoPrompting": "Ustalanie lokalizacji…",
-    "geoActive": "Mapa pokazuje Twój obszar",
-    "geoPrivacy": "Twoja lokalizacja zostaje w przeglądarce — nie jest zapisywana.",
-    "count": "{count} miejsc"
+    "geoActive": "Twój obszar",
+    "geoPrivacy": "Twoja lokalizacja zostaje w przeglądarce — nie jest zapisywana."
   }
 }
