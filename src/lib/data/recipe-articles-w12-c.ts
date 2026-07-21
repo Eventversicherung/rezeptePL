@@ -65,7 +65,7 @@ export const W12_FACTS_C: Record<string, ArticleFacts> = {
  mistakesDe:
  "Zu dicker Boden. Belag ohne Vorbacken (matschig). Mit [Babka](/de/rezepte/babka) oder [Sernik](/de/rezepte/sernik) verwechseln. Heiß schneiden. Den Speiseplan hier nicht ersetzen — dafür gibt es [Wielkanoc](/de/blog/wielkanoc-speiseplan).",
  mistakesPl:
- "Za gruby spód. Wierzch bez podpieczenia. Mylenie z [babką](/pl/rezepte/babka) lub [sernikiem](/pl/rezepte/sernik). Kradzież fokus [makowca](/pl/rezepte/makowiec). Krojenie na gorąco. Roszczenie rozróżnienie menu zamiast [menu wielkanocnego](/pl/blog/menu-wielkanocne).",
+ "Za gruby spód. Wierzch bez podpieczenia. Mylenie z [babką](/pl/rezepte/babka) lub [sernikiem](/pl/rezepte/sernik) albo z [makowcem](/pl/rezepte/makowiec) gubi charakter. Krojenie na gorąco. Plan Wielkanocy zostaje przy [menu wielkanocnym](/pl/blog/menu-wielkanocne).",
  variantsDe:
  "Kajmak-Belag statt Nüssen (Hausbrauch, ehrlich im Title); nur Walnuss; mit getrockneten Aprikosen. Passende Nachbarn sind [Babka](/de/rezepte/babka), [Sernik](/de/rezepte/sernik), [Makowiec](/de/rezepte/makowiec), [Piernik](/de/rezepte/piernik). Zum Anlass passt [Wielkanoc](/de/blog/wielkanoc-speiseplan). Im [Polenladen](/de/blog/polenladen-einkaufen) und unter [Ersatzprodukte](/de/blog/ersatzprodukte-de) findest du Einkaufshilfen.",
  variantsPl:

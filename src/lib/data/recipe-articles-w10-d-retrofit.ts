@@ -32,9 +32,9 @@ export const W10_FACTS_W9_RETROFIT: Record<string, ArticleFacts> = {
  originPl:
  "Pierogi leniwe to nie sklejane pierogi: twaróg, mąka i jajko formuje się w kluseczki i gotuje. Szybki start dla dzieci i dni bez czasu na lepienie — blisko smaku naleśników z twarogiem, ale inna technika. Rodzinę ciast porządkuje [przewodnik po pierogach](/pl/blog/przewodnik-pierogi); knedle owocowe to [knedle ze śliwkami](/pl/rezepte/knedle-sliwki), nie ta strona. Gorący makaron z twarogiem to inny talerz: [makaron z serem](/pl/rezepte/makaron-z-serem).",
  shopDe:
- "Twaróg oder abgetropfter Speisequark, Mehl, Ei, Butter, Semmelbrösel. Konsistenz und DE-Im [Twaróg-Guide](/de/blog/twarog-deutschland) findest du typische Spezialzutaten. Ladenroute: [Polenladen](/de/blog/polenladen-einkaufen). Ersatzquark ehrlich nach [Ersatzprodukte DE](/de/blog/ersatzprodukte-de).",
+ "Twaróg oder abgetropfter Speisequark, Mehl und Ei sowie Butter und Semmelbrösel reichen. Konsistenz und DE-Einkauf erklärt der [Twaróg-Guide](/de/blog/twarog-deutschland); die Route über den [Polenladen](/de/blog/polenladen-einkaufen) oft lohnt sich.",
  shopPl:
- "Twaróg lub odsączony Quark, mąka, jajko, masło, bułka tarta. Konsystencja i zakupy w DE: [przewodnik po twarogu](/pl/blog/twarog-w-niemczech). Trasa: [sklep polski](/pl/blog/sklep-polski-zakupy). Zamienniki według [zamienników składników](/pl/blog/zamienniki-skladnikow).",
+ "Twaróg lub odsączony Quark, mąka i jajko oraz masło i bułka tarta wystarczą. Konsystencję i zakupy w DE opisuje [przewodnik po twarogu](/pl/blog/twarog-w-niemczech); trasa przez [sklep polski](/pl/blog/sklep-polski-zakupy) często się opłaca.",
  techniqueDe:
  "Der Teig soll weich, aber formbar bleiben — zu viel Mehl macht die Klößchen gummiartig. Koche sie in leicht siedendem, nicht sprudelndem Wasser und nimm sie heraus, sobald sie aufschwimmen. Das ist kein Nudelkochen mit Quark-Sauce — das wäre [Makaron z serem](/de/rezepte/makaron-z-serem).",
  techniquePl:

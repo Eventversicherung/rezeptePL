@@ -298,9 +298,9 @@ const FACTS: Record<string, ArticleFacts> = {
  vibeDe: "golden, knusprig, unapologetisch sättigend",
  vibePl: "złoty, chrupiący, bez kompleksów sycący",
  originDe:
- "Schabowy ist das polnische Schnitzel: oft dicker als das Wiener Pendant, oft in Butterschmalz oder Schmalz gebraten, immer mit Haltung. Es ist kein Fine-Dining-Stück, sondern Sonntagsstolz neben Kartoffeln und Surówka. Wie der Teller zusammenkommt, beschreibt der [Sonntagsessen-Guide](/de/blog/sonntagsessen-polnisch); Mengen und Pfannentechnik stehen oben im Rezept.",
+ "Kotlet schabowy ist das panierte Schweineschnitzel der polnischen Hausküche — dünn geklopft, in Semmelbröseln, in der Pfanne goldbraun. Das ist ausdrücklich kein Ofenschab wie [Schab pieczony](/de/rezepte/schab-pieczony): dort Ofenbraten ohne Panade. Panier-Reihenfolge erklärt der [Panieren-Guide](/de/blog/panieren-schabowy); Hitze hilft die [Gusseisenpfanne](/de/blog/gusseisenpfanne).",
  originPl:
- "Schabowy to polski kotlet: często grubszy niż wiedeński, często na smalcu lub maśle klarowanym, zawsze z charakterem. To nie fine dining, tylko niedzielna duma obok ziemniaków i surówki. Układ talerza opisuje [obiad niedzielny](/pl/blog/obiad-niedzielny); tu zostają ilości i patelnia.",
+ "Kotlet schabowy to panierowany kotlet wieprzowy polskiej kuchni domowej — cienko rozbity, w bułce tartej, na patelni na złoto. To wyraźnie nie schab z pieca jak [schab pieczony](/pl/rezepte/schab-pieczony): tam pieczeń bez panierki. Kolejność panierki opisuje [panierowanie](/pl/blog/panierowanie-kotlet); ciepło daje [patelnia żeliwna](/pl/blog/patelnia-zelivna).",
  shopDe:
  "Gute Schweineschnitzel, frische Semmelbrösel, Eier und Mehl reichen. Butterschmalz oder Schmalz geben den richtigen Geschmack. Die Reihenfolge erklärt der [Panieren-Guide](/de/blog/panieren-schabowy); gleichmäßige Hitze hilft eine [Gusseisenpfanne](/de/blog/gusseisenpfanne). Semmelbrösel und Schmalz findest du oft im [Polenladen](/de/blog/polenladen-einkaufen).",
  shopPl:
@@ -336,9 +336,9 @@ const FACTS: Record<string, ArticleFacts> = {
  originPl:
  "Naleśniki są cieńsze i bardziej giętkie niż niemieckie Eierkuchen — do farszu i zwijania. Z twarogiem stają się klasyką dla dzieci i gości. Mapa wariantów: [przewodnik naleśników](/pl/blog/nalesniki-przewodnik).",
  shopDe:
- "Milch, Mehl Type 405 oder 550, Eier, Twaróg oder gut abgeseihten Quark, Zucker und Vanille tragen Teig und Füllung. Kauf und Konsistenz erklärt der [Twaróg-Guide](/de/blog/twarog-deutschland); die Platten-Technik ordnet der [Naleśniki-Guide](/de/blog/nalesniki-guide).",
+ "Milch, Mehl (Type 405 oder 550), Eier sowie Twaróg oder gut abgeseihten Quark, Zucker und Vanille tragen Teig und Füllung. Kauf und Konsistenz erklärt der [Twaróg-Guide](/de/blog/twarog-deutschland); die Platten-Technik ordnet der [Naleśniki-Guide](/de/blog/nalesniki-guide).",
  shopPl:
- "Mleko, mąka typ 405 lub 550, jajka, twaróg lub dobrze odsączony Quark, cukier i wanilia niosą ciasto i farsz. Zakupy i konsystencję wyjaśnia [twaróg w Niemczech](/pl/blog/twarog-w-niemczech); technikę placków porządkuje [przewodnik naleśników](/pl/blog/nalesniki-przewodnik).",
+ "Mleko, mąka (typ 405 lub 550), jajka oraz twaróg lub dobrze odsączony Quark, cukier i wanilia niosą ciasto i farsz. Zakupy i konsystencję opisuje [przewodnik po twarogu](/pl/blog/twarog-w-niemczech); cienką płytę [przewodnik naleśników](/pl/blog/nalesniki-przewodnik).",
  techniqueDe:
  "Teig wie dünne Sahne, 20–30 Minuten ruhen, Pfanne nur leicht einfetten, dünn ausgießen. Erste Platte ist oft Kalibrierung. Füllung streichfähig, nicht nass; Rand freilassen, rollen, optional in Butter goldbraun. Ungefüllte Platten mit Backpapier einfrieren — unter der Woche nur füllen.",
  techniquePl:
@@ -506,9 +506,9 @@ const FACTS: Record<string, ArticleFacts> = {
  originPl:
  "Faworki — też chrust lub chruściki — należą do Tłustego Czwartku i karnawałowej kuchni. Papierowo cienkie ciasto, gorący olej, dużo cukru pudru. Nie ciężkie ciasto, tylko chrupiące pętle. Miękki, nadziewany sąsiad tego samego dnia: [pączki](/pl/rezepte/paczki) — inny fokus, inna technika ([technika pączków](/pl/blog/paczki-technika)).",
  shopDe:
- "Im deutschen Supermarkt findest du alles: Weizenmehl, Eigelb, saure Sahne oder Schmand, Backpulver, Zucker, einen Schuss Wodka oder Rum, Frittieröl und Puderzucker. Traditionell gehören Faworki zu Tłusty Czwartek — den Feiertagskontext erklärt der Guide, die Technik bleibt hier im Rezept.",
+ "Im deutschen Supermarkt findest du alles für den Teig: Weizenmehl, Eigelb, saure Sahne oder Schmand, Backpulver, Zucker, einen Schuss Wodka oder Rum, Frittieröl und Puderzucker. Traditionell gehören Faworki zu Tłusty Czwartek — den Feiertagskontext erklärt der Guide, die Technik bleibt hier im Rezept.",
  shopPl:
- "W niemieckim markecie kupisz wszystko: mąkę, żółtka, śmietanę, proszek do pieczenia, cukier, łyk wódki lub rumu, olej do smażenia i cukier puder. Tradycyjnie faworki należą do Tłustego Czwartku — kontekst święta zostaje w przewodniku, technika w tym przepisie.",
+ "W niemieckim markecie kupisz wszystko na ciasto: mąkę, żółtka, śmietanę, proszek do pieczenia, cukier, łyk wódki lub rumu, olej do smażenia i cukier puder. Tradycyjnie faworki należą do Tłustego Czwartku — kontekst święta opisuje przewodnik, technika zostaje w przepisie.",
  techniqueDe:
  "Knete den Teig lange, rolle ihn hauchdünn aus, forme Schlingen und frittiere bei 170–180 °C. Lasse die Schleifen gut abtropfen und bestäube sie noch warm — der Alkohol im Teig reduziert die Ölaufnahme.",
  techniquePl:
@@ -744,9 +744,9 @@ const FACTS: Record<string, ArticleFacts> = {
  originPl:
  "Kotlety z mielonego mięsa w panierce — nie schabowy: tu mielone, tam rozbite kotlety. W diasporze szybko, tanio, znajomo. Namoczona bułka trzyma soczystość. Kulki w sosie koperkowym to inna linia: [klopsy](/pl/rezepte/klopsy).",
  shopDe:
- "Hack gemischt, altes Brötchen, Milch, Semmelbrösel, Butterschmalz. Panieren Guide für Reihenfolge; Gusseisenpfanne für gleichmäßige Kruste.",
+ "Gemischtes Hack, ein altes Brötchen und Milch sowie Semmelbrösel und Butterschmalz tragen die Pfannen-Kotlets. Die Reihenfolge erklärt der [Panieren-Guide](/de/blog/panieren-schabowy); gleichmäßige Hitze hilft eine [Gusseisenpfanne](/de/blog/gusseisenpfanne). Ofenlaib mit Ei-Kern ist [Pieczeń rzymska](/de/rezepte/pieczen-rzymska).",
  shopPl:
- "Mięso mielone, czerstwa bułka, mleko, bułka tarta, smalec. Przewodnik po panierce; patelnia żeliwna przy rumieniu.",
+ "Mielone mieszane, czerstwa bułka i mleko oraz bułka tarta i smalec lub masło klarowane niosą kotlety z patelni. Kolejność opisuje [panierowanie](/pl/blog/panierowanie-kotlet); równomierne ciepło daje [patelnia żeliwna](/pl/blog/patelnia-zelivna). Bochenek z jajkiem to [pieczeń rzymska](/pl/rezepte/pieczen-rzymska).",
  techniqueDe:
  "Masse 30 Min kalt stellen, flache Kotlets formen, durch Mehl-Ei-Panade. Nicht zu heiß — Panade verbrennt schneller als bei Schabowy.",
  techniquePl:
@@ -814,7 +814,7 @@ const FACTS: Record<string, ArticleFacts> = {
  shopDe:
  "Mehl, Milch, ein Päckchen Trockenhefe, Zucker und fest-säuerliche Äpfel reichen. Der [Placki-Guide](/de/blog/placki-guide) erklärt den Unterschied zu Kartoffel-Placki mit Apfel — hier arbeitest du mit Hefe, nicht mit geriebener Kartoffel.",
  shopPl:
- "Wystarczą mąka, mleko, saszetka drożdży suszonych, cukier i twarde, kwaśne jabłka. [Przewodnik po plackach](/pl/blog/placki-przewodnik) wyjaśnia różnicę względem placków ziemniaczanych z jabłkiem — tu pracujesz na drożdżach, nie na startej ziemniaku.",
+ "Mąka, mleko, saszetka drożdży suszonych, cukier i jabłka kwaskowate wystarczą. [Przewodnik po plackach](/pl/blog/placki-przewodnik) wyjaśnia różnicę wobec placków ziemniaczanych z jabłkiem — tu pracujesz na drożdżach, nie na startej ziemniaczce.",
  techniqueDe:
  "Löse die Hefe in lauwarmer, nicht heißer Milch, lass den Teig rund 45 Minuten gehen und schneide die Apfelspalten nicht zu dick. Backe bei mittlerer Hitze, damit die Racuchy innen durchgaren, ohne außen zu verbrennen.",
  techniquePl:
@@ -846,9 +846,9 @@ const FACTS: Record<string, ArticleFacts> = {
  originPl:
  "Chłodnik to zimna zupa z buraków, kefiru lub jogurtu, ogórka i koperku — kwaśno-świeża, nie gorący barszcz. Letnia tradycja na gorące dni w diasporze.",
  shopDe:
- "Gekochte Rote Bete (Glas spart Zeit), Kefir oder Naturjoghurt, Gurke, Radieschen, Dill, Śmietana. Polnische Suppen-Guide ordnet Chłodnik neben Barszcz und Żurek ein.",
+ "Gekochte Rote Bete (Glas spart Zeit), Kefir oder Naturjoghurt sowie Gurke, Radieschen, Dill und Śmietana tragen den kalten Becher. Der Überblick [Polnische Suppen](/de/blog/polnische-suppen) ordnet Chłodnik neben Barszcz und Żurek ein.",
  shopPl:
- "Buraki ugotowane (słoik oszczędza czas), kefir lub jogurt, ogórek, rzodkiewka, koperek, śmietana. Przewodnik po polskich zupach — chłodnik obok barszczu i żurku.",
+ "Ugotowane buraki (słoik oszczędza czas), kefir lub jogurt oraz ogórek, rzodkiewka, koper i śmietana niosą zimny kubek. Przegląd [polskie zupy](/pl/blog/polskie-zupy) porządkuje chłodnik obok barszczu i żurku.",
  techniqueDe:
  "Basis kalt mixen, Gemüse fein würfeln, mindestens zwei Stunden kühlen — am nächsten Tag oft besser. Säure und Salz erst am Ende justieren.",
  techniquePl:
@@ -880,9 +880,9 @@ const FACTS: Record<string, ArticleFacts> = {
  originPl:
  "Pierogi leniwe to nie sklejane pierogi: twaróg, mąka i jajko formuje się w kluseczki i gotuje. Szybki start dla dzieci i dni bez czasu na lepienie — blisko smaku naleśników z twarogiem, ale inna technika.",
  shopDe:
- "Twaróg oder abgetropfter Speisequark, Mehl, Ei, Butter, Semmelbrösel. Twaróg-Guide für Konsistenz in DE.",
+ "Twaróg oder abgetropfter Speisequark, Mehl und Ei sowie Butter und Semmelbrösel. Der [Twaróg-Guide](/de/blog/twarog-deutschland) hilft bei der Konsistenz in DE.",
  shopPl:
- "Twaróg lub odsączony Quark, mąka, jajko, masło, bułka tarta. Przewodnik po twarogu przy konsystencji w DE.",
+ "Twaróg lub odsączony Quark, mąka i jajko oraz masło i bułka tarta. [Przewodnik po twarogu](/pl/blog/twarog-w-niemczech) pomaga przy konsystencji w DE.",
  techniqueDe:
  "Teig weich aber formbar. Nicht zu viel Mehl. In leicht siedendem Wasser — nicht sprudelnd — garen bis sie schwimmen.",
  techniquePl:
@@ -914,9 +914,9 @@ const FACTS: Record<string, ArticleFacts> = {
  originPl:
  "Kopytka to kluseczki ziemniaczane — blisko gnocchi, ale polskie w podaniu: cebula na maśle albo gulasz. Partner gulaszu wieprzowego i niedzielnego stołu.",
  shopDe:
- "Kartoffeln, Mehl, Ei, Butter, Zwiebel. Gulasz-Rezept und Dutch Oven wenn die Soße mitkommt.",
+ "Kartoffeln, Mehl und Ei sowie Butter und Zwiebel reichen. Zum Gulasch passt das [Gulasz](/de/rezepte/gulasz-wieprzowy)-Rezept; zum Topf der [Dutch Oven](/de/blog/dutch-oven-kaufberatung).",
  shopPl:
- "Ziemniaki, mąka, jajko, masło, cebula. Przepis na gulasz i dutch oven gdy idzie sos.",
+ "Ziemniaki, mąka i jajko oraz masło i cebula wystarczą. Do gulaszu pasuje przepis [gulasz](/pl/rezepte/gulasz-wieprzowy); do garnka [dutch oven](/pl/blog/garnek-do-duszenia).",
  techniqueDe:
  "Kartoffeln gut ausdampfen. Teig nicht zu weich. Schräg schneiden, sanft kochen, nach dem Aufschwimmen herausnehmen.",
  techniquePl:
@@ -982,9 +982,9 @@ const FACTS: Record<string, ArticleFacts> = {
  originPl:
  "Pyzy to duże kluski ziemniaczane z farszem — bardziej pracochłonne niż kopytka, bardziej sycące niż pierogi. Spokojny niedzielny projekt dla domów z czasem i apetytem.",
  shopDe:
- "Kartoffeln, Stärke, Hack, Zwiebel, Butter. Fleischwolf und Freezer-Logik helfen bei Chargen.",
+ "Kartoffeln, Stärke und Hack sowie Zwiebel und Butter. Chargen und Farce: [Fleischwolf-Kaufberatung](/de/blog/fleischwolf-kaufberatung). Freezer-Logik: [Pierogi einfrieren](/de/blog/freezer-meal-prep).",
  shopPl:
- "Ziemniaki, skrobia, mielone, cebula, masło. Wilk i logika Freezer pomagają przy partiach.",
+ "Ziemniaki, skrobia i mielone oraz cebula i masło. Partie i farsz: [wilk do mięsa](/pl/blog/wilk-do-miesa). Logika mrożenia: [mrożenie pierogów](/pl/blog/mrozenie-pierogow).",
  techniqueDe:
  "Masse muss halten. Füllung kalt. Sanft kochen, nicht werfen. Erste Probe-Pyza testen.",
  techniquePl:
@@ -1016,9 +1016,9 @@ const FACTS: Record<string, ArticleFacts> = {
  originPl:
  "Zrazy to wołowe zawijane: musztarda, boczek, ogórek, długo duszone. Śląskie i niedzielne — partner klusek śląskich i jasnego sosu.",
  shopDe:
- "Rinderplätzchen, Senf, Speck, Gewürzgurken, Brühe, Majoran. Dutch Oven oder Schmortopf; Majeranek-Lexikon fürs Würzen.",
+ "Rinderplätzchen, Senf, Speck und Gewürzgurken sowie Brühe und Majoran. Dutch Oven oder Schmortopf halten die Wärme; Würzen erklärt das [Majeranek-Lexikon](/de/blog/majeranek).",
  shopPl:
- "Plastry wołowiny, musztarda, boczek, ogórki, bulion, majeranek. Dutch oven lub garnek; leksykon majeranku przy doprawianiu.",
+ "Plastry wołowiny, musztarda, boczek i ogórki oraz bulion i majeranek. Dutch oven lub garnek do duszenia trzyma ciepło; przyprawę opisuje [leksykon majeranku](/pl/blog/majeranek-leksykon).",
  techniqueDe:
  "Fest rollen, anbraten, zugedeckt schmoren bis gabelweich. Soße abschmecken, nicht eilig.",
  techniquePl:
@@ -1046,13 +1046,13 @@ const FACTS: Record<string, ArticleFacts> = {
  vibeDe: "festlich, mohnig, gerollt und geduldig",
  vibePl: "świąteczny, makowy, zwinięty i cierpliwy",
  originDe:
- "Makowiec ist der gerollte polnische Mohnkuchen: Hefeteig, dichte Mohnmasse, oft zur Wigilia. Kein Blech-Mohnkuchen und kein Strudel — eigene Form, eigene Technik. Der Back-Guide erklärt Handgriffe; Mengen und Ablauf stehen oben im Rezept.",
+ "Makowiec ist die polnische Hefe-Mohnrolle — oft zur Wigilia, aber auch für Sonntagskaffee. Eigene Form, eigene Technik: Teig rollen, Mohnmasse streichen, backen. Nudel-Mohn bleibt bei [Makaron z makiem](/de/rezepte/makaron-z-makiem); die Körner-Schüssel bei [Kutia](/de/rezepte/kutia).",
  originPl:
- "Makowiec to polska rolada makowa: ciasto drożdżowe, gęsta masa, często na Wigilię. Nie ciasto z blachy i nie strudel — własna forma, własna technika. Filar pieczenia tłumaczy gesty; tu zostają ilości i przebieg.",
+ "Makowiec to polska rolada drożdżowa z makiem — często na Wigilię, ale też do niedzielnej kawy. Własna forma, własna technika: rozwałkować ciasto, rozsmarować masę, upiec. Makaron z makiem zostaje przy [makaronie z makiem](/pl/rezepte/makaron-z-makiem); miska z ziarnami przy [kutii](/pl/rezepte/kutia).",
  shopDe:
- "Blauer Mohn (gemahlen oder zum Mahlen), Mehl, Hefe, Milch, Butter, Eier, Zucker, optional Rosinen. Polenladen für guten Mohn. Makowiec-Technik für Masse und Ofentemperatur; Wigilia-Speiseplan für den Menüplatz.",
+ "Für Rolle und Masse brauchst du blauen Mohn — gemahlen oder zum Mahlen — sowie Mehl, Hefe, Milch, Butter, Eier und Zucker; Rosinen sind optional. Guten Mohn holst du im Polenladen. Masse und Ofentemperatur erklärt die Makowiec-Technik; Menüplatz der Wigilia-Speiseplan.",
  shopPl:
- "Mak niebieski (mielony lub do zmielenia), mąka, drożdże, mleko, masło, jajka, cukier, opcjonalnie rodzynki. Sklep polski po dobry mak. Technika makowca przy masie i piecu; menu wigilijne przy miejscu w menu.",
+ "Na rolkę i masę potrzebujesz niebieskiego maku — mielonego lub do zmielenia — oraz mąki, drożdży, mleka, masła, jajek i cukru; rodzynki są opcjonalne. Dobry mak kupisz w sklepie polskim. Technik makowca przy masie i piecu; miejsce w menu przy planie wigilijnym.",
  techniqueDe:
  "Mohnmasse streichfähig binden, Teig elastisch gehen lassen, mit Randabstand rollen, mittlere Hitze, erst nach dem Abkühlen schneiden. Zu heiß zerstört die Spirale außen und lässt innen roh.",
  techniquePl:
@@ -1084,9 +1084,9 @@ const FACTS: Record<string, ArticleFacts> = {
  originPl:
  "Uszka to małe pierogi — często z farszem grzybowym — klasycznie w klarownym barszczu. To nie wielka partia pierogów i nie duplikat przepisu na barszcz: własna Rezept, własny fokus. Barszcz zostaje przepisem na zupy; uszka zostają przepisem na pierożki.",
  shopDe:
- "Getrocknete Pilze (Polenladen), Zwiebel, Mehl, Ei, Öl. Barszcz separat nach Barszcz-Rezept und Barszcz-Technik. Pierogi-Teig-Guide für Teiggefühl; Freezer-Guide wenn ihr am Vortag formt.",
+ "Getrocknete Pilze holst du am zuverlässigsten im [Polenladen](/de/blog/polenladen-einkaufen); dazu Zwiebel, Mehl, Ei und Öl. Den Barszcz kochst du separat nach dem [Barszcz-Rezept](/de/rezepte/barszcz-czerwony) und der [Barszcz-Technik](/de/blog/barszcz-technik). Teiggefühl gibt der [Pierogi-Teig](/de/blog/pierogi-teig)-Guide; wer am Vortag formt, nutzt den [Freezer-Guide](/de/blog/freezer-meal-prep).",
  shopPl:
- "Suszone grzyby (sklep polski), cebula, mąka, jajko, olej. Barszcz osobno według przepisu i techniki barszczu. Przewodnik po cieście na pierogi przy wyczuciu; freezer gdy lepicie dzień wcześniej.",
+ "Suszone grzyby najpewniej kupisz w [sklepie polskim](/pl/blog/sklep-polski-zakupy); do tego cebula, mąka, jajko i olej. Barszcz gotujesz osobno według [przepisu](/pl/rezepte/barszcz-czerwony) i [techniki](/pl/blog/jak-ugotowac-barszcz). Przy cieście pomaga [ciasto na pierogi](/pl/blog/ciasto-na-pierogi); dzień wcześniej — [mrożenie](/pl/blog/mrozenie-pierogow).",
  techniqueDe:
  "Füllung trocken schmoren, kleine Kreise, wenig Füllung, fest zu Öhrchen schließen. In leicht siedendem Wasser garen, bis sie aufschwimmen. In der Schale mit heißem Barszcz zusammenführen — nicht stundenlang in der Suppe lagern.",
  techniquePl:
@@ -1152,9 +1152,9 @@ const FACTS: Record<string, ArticleFacts> = {
  originPl:
  "Krokiety to zwinięte, panierowane naleśniki — klasycznie z kapustą i grzybami, często obok klarownego barszczu. To nie deserowe naleśniki i nie duplikat pierogów z kapustą: własna forma (rolka + panierka), własny fokus KW „krokiety przepis”.",
  shopDe:
- "Mehl, Milch, Eier für den Teig; Sauerkraut, getrocknete Pilze, Zwiebel für die Füllung; Semmelbrösel und Fett zum Braten. Naleśniki-Guide für Teiggefühl; Kiszenie/Polenladen für Kraut und Pilze; Panieren-Guide für die Panade-Logik.",
+ "Mehl, Milch und Eier für den Teig; Sauerkraut, getrocknete Pilze und Zwiebel für die Füllung; Semmelbrösel und Fett zum Braten. Teiggefühl im [Naleśniki-Guide](/de/blog/nalesniki-guide); Kraut und Pilze über [Kiszenie](/de/blog/kiszenie-guide) oder [Polenladen](/de/blog/polenladen-einkaufen); Panade-Logik im [Panieren-Guide](/de/blog/panieren-schabowy).",
  shopPl:
- "Mąka, mleko, jajka na ciasto; kapusta kiszona, suszone grzyby, cebula na farsz; bułka tarta i tłuszcz do smażenia. Przewodnik naleśników przy cieście; kiszenie/sklep polski przy kapuście i grzybach; panierowanie przy panierce.",
+ "Mąka, mleko i jajka na ciasto; kapusta kiszona, suszone grzyby i cebula na farsz; bułka tarta i tłuszcz do smażenia. Przy cieście pomaga [przewodnik naleśników](/pl/blog/nalesniki-przewodnik); przy kapuście i grzybach [kiszenie](/pl/blog/kiszenie-przewodnik) lub [sklep polski](/pl/blog/sklep-polski-zakupy); przy panierce [panierowanie](/pl/blog/panierowanie-kotlet).",
  techniqueDe:
  "Dünne Naleśniki, trockene Füllung, fest rollen, panieren, goldbraun braten. Füllung muss abgekühlt sein. Zu nass = Rollen platzen; zu dick = Teig dominiert.",
  techniquePl:
@@ -1170,7 +1170,7 @@ const FACTS: Record<string, ArticleFacts> = {
  mistakesDe:
  "Nasse Füllung, zu dicke Pfannkuchen, kaltes Fett, Panade abplatzen lassen. Barszcz- oder ",
  mistakesPl:
- "Mokry farsz, za grube naleśniki, zimny tłuszcz, odpadająca panierka. Kradzież fokus KW barszczu lub naleśników.",
+ "Mokry farsz, za grube naleśniki, zimny tłuszcz albo odpadająca panierka psują krokiety. Nie mieszaj ich z przepisem na [barszcz](/pl/rezepte/barszcz-czerwony) ani z cienkimi [naleśnikami](/pl/rezepte/nalesniki/twarog) — tu liczą się rolka i panierka.",
  variantsDe:
  "Mit Fleischfüllung, mit Champignons statt Trockenpilzen, vegetarisch streng ohne Speck. Pierogi Kraut-Pilze bleiben gefaltete Variante derselben Aromen.",
  variantsPl:
@@ -1186,9 +1186,9 @@ const FACTS: Record<string, ArticleFacts> = {
  originPl:
  "Sernik to polski sernik na twarogu — gęstszy i często wyższy niż niejedne niemieckie serniki. Należy do silosu pieczenia obok makowca, bez przejmowania jego Fokus: makowiec zostaje roladą makową; sernik zostaje sernikiem. Technika makowca pomaga przy piecu i planie świąt, nie jako owner przepisu.",
  shopDe:
- "Twaróg sernikowy oder gut abgetropfter Speisequark, Eier, Zucker, Butter, etwas Bindung (Mehl/Pudding), Vanille, optional Mürbeteigboden. Twaróg-Guide und Ersatzprodukte für DE-Einkauf; Polenladen für typische Quarkqualität.",
+ "Twaróg sernikowy oder gut abgetropfter Speisequark, Eier, Zucker und Butter sowie etwas Bindung (Mehl/Pudding), Vanille und optional Mürbeteigboden. [Twaróg-Guide](/de/blog/twarog-deutschland) und [Ersatzprodukte DE](/de/blog/ersatzprodukte-de) für den Einkauf; typische Quarkqualität oft im [Polenladen](/de/blog/polenladen-einkaufen).",
  shopPl:
- "Twaróg sernikowy lub dobrze odsączony Quark, jajka, cukier, masło, odrobina spoiwa (mąka/budyń), wanilia, opcjonalnie kruchy spód. Przewodnik twarogu i zamienniki przy zakupach w DE; sklep polski po typową jakość.",
+ "Twaróg sernikowy lub dobrze odsączony Quark, jajka, cukier i masło oraz odrobina spoiwa (mąka/budyń), wanilia i opcjonalnie kruchy spód. [Przewodnik twarogu](/pl/blog/twarog-w-niemczech) i [zamienniki](/pl/blog/zamienniki-skladnikow) przy zakupach; typową jakość często w [sklepie polskim](/pl/blog/sklep-polski-zakupy).",
  techniqueDe:
  "Masse glatt, nicht überrühren bis schaumig-kollabierend; mittlere Hitze; Mitte darf leicht wackeln; im Ofen nachruhen; erst kalt schneiden. Risse oft durch zu heiße Hitze oder Zugluft.",
  techniquePl:
@@ -1220,9 +1220,9 @@ const FACTS: Record<string, ArticleFacts> = {
  originPl:
  "Śledź to zimna ryba wielu stołów wigilijnych i zarazem codzienny talerz z chlebem. W oleju z cebulą to najczytelniejszy wariant diasporowy: mało techniki, dużo marynowania. menu wigilijne zostaje przepisem na menu; karp zostaje rybą ciepłą.",
  shopDe:
- "Matjes oder Salzheringfilets (Polenladen/Kühltruhe), Zwiebeln, neutrales Öl, Lorbeer, Piment. Abtropfen und bei Bedarf wässern. Polenladen-Guide für Marken; Ersatzprodukte wenn nur Rollmops verfügbar — ehrlich umdeklarieren.",
+ "Matjes oder Salzheringfilets (Polenladen/Kühltruhe), Zwiebeln und neutrales Öl sowie Lorbeer und Piment. Abtropfen und bei Bedarf wässern. Marken und Alternativen: [Polenladen-Guide](/de/blog/polenladen-einkaufen) und [Ersatzprodukte DE](/de/blog/ersatzprodukte-de) — Rollmops ehrlich umdeklarieren.",
  shopPl:
- "Matjas lub filety solone (sklep polski/chłodnia), cebula, olej, liść laurowy, ziele angielskie. Odsączyć, w razie potrzeby namoczyć. Przewodnik sklepu przy markach; zamienniki gdy tylko rolmops — uczciwie nazwać.",
+ "Matjasy lub filety śledziowe (sklep polski/chłodnia), cebule i olej neutralny oraz liść laurowy i ziele angielskie. Odsączyć i w razie potrzeby wymoczyć. Marki i zamienniki: [sklep polski](/pl/blog/sklep-polski-zakupy) i [zamienniki](/pl/blog/zamienniki-skladnikow) — rolmopsy nazwać uczciwie.",
  techniqueDe:
  "Schneiden, schichten, würzen, ziehen lassen — Kühlschrank, abgedeckt. Schärfe der Zwiebel mit kurzem Brühen mildern. Nicht kochen. Zu früh servieren = flach; über Nacht oft besser.",
  techniquePl:
@@ -1238,7 +1238,7 @@ const FACTS: Record<string, ArticleFacts> = {
  mistakesDe:
  "Zu salzig ohne Wässern, zu wenig Öl, warme Lagerung. Karp- oder Mit Rollmops-Sauce als „klassisch“ verkaufen ohne Hinweis.",
  mistakesPl:
- "Za słony bez namaczania, za mało oleju, trzymanie w cieple. Kradzież fokus karpia lub menu. Rolmops w sosie jako „klasyka” bez dopisku.",
+ "Za słony bez namaczania, za mało oleju albo trzymanie w cieple psuje filety. Nie myl z [karpem](/pl/rezepte/karp) ani z całym planem Wigili. Rolmops w sosie jako „klasyka” — tylko z dopiskiem, że to inna forma.",
  variantsDe:
  "Śledź w śmietanie, po kaszubsku mit Apfel, mit Senf. Sahnevariante: Śmietana-Lexikon. Anderer Fisch warm: Karp.",
  variantsPl:

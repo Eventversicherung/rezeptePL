@@ -30,9 +30,9 @@ export const W8_FACTS_D_RETROFIT: Record<string, ArticleFacts> = {
  originPl:
  "Pierogi leniwe to nie sklejane pierogi: twaróg, mąka i jajko formuje się w kluseczki i gotuje. Szybki start dla dzieci i dni bez czasu na lepienie — blisko smaku naleśników z twarogiem, ale inna technika. Rodzinę ciast porządkuje [przewodnik po pierogach](/pl/blog/przewodnik-pierogi); knedle owocowe to [knedle ze śliwkami](/pl/rezepte/knedle-sliwki), nie ta strona.",
  shopDe:
- "Twaróg oder abgetropfter Speisequark, Mehl, Ei, Butter, Semmelbrösel. Konsistenz und DE-Im [Twaróg-Guide](/de/blog/twarog-deutschland) findest du typische Spezialzutaten. Ladenroute: [Polenladen](/de/blog/polenladen-einkaufen). Ersatzquark ehrlich nach [Ersatzprodukte DE](/de/blog/ersatzprodukte-de).",
+ "Twaróg oder gut abgetropfter Speisequark, Mehl und Ei tragen die Masse — dazu Butter und Semmelbrösel zum Anrichten. Konsistenz und DE-Einkauf erklärt der [Twaróg-Guide](/de/blog/twarog-deutschland); die Route über den [Polenladen](/de/blog/polenladen-einkaufen) oft lohnt sich. Das sind keine gefüllten [Pierogi](/de/rezepte/pierogi/ruskie) — Leniwe werden geschnitten und gekocht, nicht gefaltet.",
  shopPl:
- "Twaróg lub odsączony Quark, mąka, jajko, masło, bułka tarta. Konsystencja i zakupy w DE: [przewodnik po twarogu](/pl/blog/twarog-w-niemczech). Trasa: [sklep polski](/pl/blog/sklep-polski-zakupy). Zamienniki według [zamienników składników](/pl/blog/zamienniki-skladnikow).",
+ "Twaróg lub dobrze odsączony Quark, mąka i jajko niosą masę — plus masło i bułka tarta do podania. Konsystencję i zakupy w DE opisuje [przewodnik po twarogu](/pl/blog/twarog-w-niemczech); trasa przez [sklep polski](/pl/blog/sklep-polski-zakupy) często się opłaca. To nie nadziewane [pierogi](/pl/rezepte/pierogi/ruskie) — leniwe kroisz i gotujesz, nie sklejasz.",
  techniqueDe:
  "Der Teig soll weich, aber formbar bleiben — zu viel Mehl macht die Klößchen gummiartig. Koche sie in leicht siedendem, nicht sprudelndem Wasser und nimm sie heraus, sobald sie aufschwimmen.",
  techniquePl:
@@ -135,9 +135,9 @@ export const W8_FACTS_D_RETROFIT: Record<string, ArticleFacts> = {
  originPl:
  "Pyzy to duże kluski ziemniaczane z farszem — bardziej pracochłonne niż [kopytka](/pl/rezepte/kopytka), bardziej sycące niż sklejane pierogi. Spokojny projekt na [obiad niedzielny](/pl/blog/obiad-niedzielny). Nie mylić z [knedlami ze śliwkami](/pl/rezepte/knedle-sliwki) (słodkie, owoc).",
  shopDe:
- "Kartoffeln, Stärke, Hack, Zwiebel, Butter. Chargen und Farce: [Fleischwolf-Kaufberatung](/de/blog/fleischwolf-kaufberatung). Freezer-Logik: [Pierogi einfrieren / Freezer](/de/blog/freezer-meal-prep) — gleiche Vorbereitungsdisziplin, anderer Teig.",
+ "Mehlig kochende Kartoffeln, Stärke und Hack sowie Zwiebel und Butter tragen Teig und Farce. Chargen und Feinmahlen erklärt die [Fleischwolf-Kaufberatung](/de/blog/fleischwolf-kaufberatung); Freezer-Logik der [Pierogi-einfrieren](/de/blog/freezer-meal-prep)-Guide. Runde Obst-Knödel bleiben bei [Knedle](/de/rezepte/knedle-sliwki).",
  shopPl:
- "Ziemniaki, skrobia, mielone, cebula, masło. Partie i farsz: [wilk do mięsa](/pl/blog/wilk-do-miesa). Freezer: [mrożenie pierogów](/pl/blog/mrozenie-pierogow) — ta sama dyscyplina przygotowań, inne ciasto.",
+ "Ziemniaki mączyste, skrobia i mielone oraz cebula i masło niosą ciasto i farsz. Partie i mielenie opisuje [wilk do mięsa](/pl/blog/wilk-do-miesa); logikę mrożenia [mrożenie pierogów](/pl/blog/mrozenie-pierogow). Okrągłe knedle owocowe zostają przy [knedlach](/pl/rezepte/knedle-sliwki).",
  techniqueDe:
  "Der Kartoffelteig muss fest genug sein, um die Fleischfüllung zu tragen, ohne zu reißen. Forme gleichmäßige Kugeln, verschließe die Naht gut und koche sanft — zu wildes Wasser öffnet die Pyzy.",
  techniquePl:
@@ -170,9 +170,9 @@ export const W8_FACTS_D_RETROFIT: Record<string, ArticleFacts> = {
  originPl:
  "Zrazy to wołowe zawijane: musztarda, boczek, ogórek, długo duszone. Śląskie i niedzielne — partner [klusek śląskich](/pl/rezepte/kluski-slaskie) i jasnego sosu. Bardziej odświętne niż [gulasz wieprzowy](/pl/rezepte/gulasz-wieprzowy), ta sama logika duszenia. Rama: [obiad niedzielny](/pl/blog/obiad-niedzielny).",
  shopDe:
- "Rinderplätzchen, Senf, Speck, Gewürzgurken, Brühe, Majoran. Topf: [Dutch Oven](/de/blog/dutch-oven-kaufberatung). Würzen: [Majeranek-Lexikon](/de/blog/majeranek). Einkauf Fleisch und Gurken oft Supermarkt + [Polenladen](/de/blog/polenladen-einkaufen).",
+ "Nimm Rinderplätzchen, Senf, Speck und Gewürzgurken sowie Brühe und Majoran. Der Topf mit Deckel hält die Wärme — Kaufkriterien im [Dutch Oven](/de/blog/dutch-oven-kaufberatung); Würzen im [Majeranek-Lexikon](/de/blog/majeranek). Roll-Logik mit andererer Füllung ist [Rolada śląska](/de/rezepte/rolada-slaska).",
  shopPl:
- "Plastry wołowiny, musztarda, boczek, ogórki, bulion, majeranek. Garnek: [dutch oven](/pl/blog/garnek-do-duszenia). Przyprawa: [majeranek](/pl/blog/majeranek-leksykon). Bazę kupisz w markecie, specjalności w [sklep polski](/pl/blog/sklep-polski-zakupy).",
+ "Weź plastry wołowiny, musztardę, boczek i ogórki oraz bulion i majeranek. Garnek z pokrywką trzyma ciepło — kryteria w [dutch oven](/pl/blog/garnek-do-duszenia); przyprawa w [majeranku](/pl/blog/majeranek-leksykon). Logika rolki z innym farszem to [rolada śląska](/pl/rezepte/rolada-slaska).",
  techniqueDe:
  "Klopfe das Fleisch dünn, streiche Senf, rolle Speck und Gurke fest ein und schmore lange bei niedriger Hitze. Die Soße soll den Löffel tragen, ohne zu mehlig zu werden.",
  techniquePl:
@@ -205,9 +205,9 @@ export const W8_FACTS_D_RETROFIT: Record<string, ArticleFacts> = {
  originPl:
  "Makowiec to polska rolada makowa: ciasto drożdżowe, gęsta masa, często na Wigilię. Nie ciasto z blachy i nie strudel — własna forma, własna technika. Gesty w filarze [technika makowca](/pl/blog/makowiec-technika); miejsce w menu: [menu wigilijne](/pl/blog/menu-wigilijne). Sernik zostaje przy [serniku](/pl/rezepte/sernik) — inny fokus.",
  shopDe:
- "Blauer Mohn, Mehl, Hefe, Milch, Butter, Eier, Zucker und optional Rosinen tragen Rolle und Masse. Guten Mohn findest du im [Polenladen](/de/blog/polenladen-einkaufen); wenn etwas fehlt, hilft die ehrliche Logik in [Ersatzprodukte DE](/de/blog/ersatzprodukte-de). Ofentemperatur und Handgriffe vertieft der [Makowiec-Technik](/de/blog/makowiec-technik)-Guide.",
+ "Für Rolle und Masse brauchst du blauen Mohn — gemahlen oder zum Mahlen — sowie Mehl, Hefe, Milch, Butter, Eier und Zucker; Rosinen sind optional. Guten Mohn findest du im [Polenladen](/de/blog/polenladen-einkaufen). Masse und Ofentemperatur erklärt die [Makowiec-Technik](/de/blog/makowiec-technik); Menüplatz der [Wigilia-Speiseplan](/de/blog/wigilia-speiseplan).",
  shopPl:
- "Niebieski mak, mąka, drożdże, mleko, masło, jajka, cukier i opcjonalnie rodzynki niosą rolkę i masę. Dobry mak kupisz w [sklepie polskim](/pl/blog/sklep-polski-zakupy); gdy czegoś brakuje, pomaga uczciwa logika w [zamiennikach](/pl/blog/zamienniki-skladnikow). Temperaturę pieca i chwyty pogłębia [technika makowca](/pl/blog/makowiec-technika).",
+ "Na rolkę i masę potrzebujesz niebieskiego maku — mielonego lub do zmielenia — oraz mąki, drożdży, mleka, masła, jajek i cukru; rodzynki są opcjonalne. Dobry mak kupisz w [sklepie polskim](/pl/blog/sklep-polski-zakupy). Masę i temperaturę pieca opisuje [technika makowca](/pl/blog/makowiec-technika); miejsce w menu daje [menu wigilijne](/pl/blog/menu-wigilijne).",
  techniqueDe:
  "Mohnmasse streichfähig binden, Teig elastisch gehen lassen, mit Randabstand rollen, mittlere Hitze, erst nach dem Abkühlen schneiden. Zu heiß zerstört die Spirale außen und lässt innen roh.",
  techniquePl:
@@ -236,13 +236,13 @@ export const W8_FACTS_D_RETROFIT: Record<string, ArticleFacts> = {
  vibeDe: "klein, intensiv pilzig, wigilijny",
  vibePl: "małe, intensywnie grzybowe, wigilijne",
  originDe:
- "Uszka sind kleine Teigtaschen — oft mit Pilzfüllung — die klassisch in klarem [Barszcz](/de/rezepte/barszcz-czerwony) schwimmen. Eigene Rezept, eigener Fokus. Barszcz bleibt Rezept für die Suppe; Technik der Klarheit: [Barszcz-Technik](/de/blog/barszcz-technik). Zum Menü passt [Wigilia-Speiseplan](/de/blog/wigilia-speiseplan). Große gefaltete Taschen: [Pierogi-Guide](/de/blog/pierogi-guide).",
+ "Uszka sind kleine, fest geschlossene Teigtaschen — meist mit intensiver Pilzfüllung — die klassisch in klarem [Barszcz](/de/rezepte/barszcz-czerwony) landen. Sie sind kein großes Pierogi-produkt und keine Suppe: die Brühe bleibt beim Barszcz-Rezept, die Klarheit erklärt die [Barszcz-Technik](/de/blog/barszcz-technik). Zum Heiligabend ordnet sie der [Wigilia-Speiseplan](/de/blog/wigilia-speiseplan); Teiggefühl und Naht vertieft der [Pierogi-Teig](/de/blog/pierogi-teig)-Guide, ohne Uszka dort aufzulösen.",
  originPl:
- "Uszka to małe pierogi — często z farszem grzybowym — klasycznie w klarownym [barszczu](/pl/rezepte/barszcz-czerwony). Własna Rezept, własny fokus. Barszcz zostaje przepisem na zupy; klarowność: [technika barszczu](/pl/blog/jak-ugotowac-barszcz). Do menu pasuje [menu wigilijne](/pl/blog/menu-wigilijne). Duże sklejane: [przewodnik pierogi](/pl/blog/przewodnik-pierogi).",
+ "Uszka to małe, szczelnie zlepione pierożki — zwykle z intensywnym farszem grzybowym — klasycznie w klarownym [barszczu](/pl/rezepte/barszcz-czerwony). To nie duże pierogi i nie zupa: wywar zostaje przy przepisie na barszcz, klarowność opisuje [technika barszczu](/pl/blog/jak-ugotowac-barszcz). Na Wigilię porządkuje je [menu wigilijne](/pl/blog/menu-wigilijne); wyczucie ciasta i szwu daje [ciasto na pierogi](/pl/blog/ciasto-na-pierogi), bez rozpuszczania uszek w przewodniku.",
  shopDe:
- "Getrocknete Pilze im [Polenladen](/de/blog/polenladen-einkaufen), Zwiebel, Mehl, Ei, Öl. Barszcz separat nach [Barszcz-Rezept](/de/rezepte/barszcz-czerwony). Teiggefühl: [Pierogi-Teig](/de/blog/pierogi-teig). Vortag formen: [Freezer-Guide](/de/blog/freezer-meal-prep).",
+ "Getrocknete Borowiki oder Mischpilze holst du am zuverlässigsten im [Polenladen](/de/blog/polenladen-einkaufen); dazu Zwiebel, Mehl, Ei und etwas Öl für Teig und Füllung. Den klaren Barszcz kochst du separat nach dem [Barszcz-Rezept](/de/rezepte/barszcz-czerwony) — Uszka kommen erst in die Schale. Teigruhe und Ausrollen erklärt [Pierogi-Teig](/de/blog/pierogi-teig); wer am Vortag formt, plant mit dem [Freezer-Guide](/de/blog/freezer-meal-prep).",
  shopPl:
- "Suszone grzyby w [sklepie polskim](/pl/blog/sklep-polski-zakupy), cebula, mąka, jajko, olej. Barszcz osobno: [przepis na barszcz](/pl/rezepte/barszcz-czerwony). Przy cieście pomaga [ciasto na pierogi](/pl/blog/ciasto-na-pierogi). Dzień wcześniej: [mrożenie](/pl/blog/mrozenie-pierogow).",
+ "Suszone borowiki lub mieszankę grzybów najpewniej kupisz w [sklepie polskim](/pl/blog/sklep-polski-zakupy); do tego cebula, mąka, jajko i odrobina oleju na ciasto i farsz. Klarowny barszcz gotujesz osobno według [przepisu na barszcz](/pl/rezepte/barszcz-czerwony) — uszka trafiają dopiero do miski. Odpoczynek ciasta i wałkowanie opisuje [ciasto na pierogi](/pl/blog/ciasto-na-pierogi); kto lepi dzień wcześniej, planuje z [mrożeniem](/pl/blog/mrozenie-pierogow).",
  techniqueDe:
  "Füllung trocken schmoren, kleine Kreise, wenig Füllung, fest zu Öhrchen schließen. In leicht siedendem Wasser garen, bis sie aufschwimmen. In der Schale mit heißem Barszcz zusammenführen — nicht stundenlang in der Suppe lagern.",
  techniquePl:
@@ -254,11 +254,11 @@ export const W8_FACTS_D_RETROFIT: Record<string, ArticleFacts> = {
  diasporaDe:
  "Am 23. formen, einfrieren oder kühl lagern, am 24. nur kochen — entlastet den Abend neben Barszcz und [Makowiec](/de/rezepte/makowiec). Den Zeitplan findest du unter [Wigilia](/de/blog/wigilia-speiseplan).",
  diasporaPl:
- "23. lepić, mrozić lub chłodzić, 24. tylko gotować — odciąża wieczór obok barszczu i [makowca](/pl/rezepte/makowiec). Den Zeitplan findest du unter [menu wigilijne](/pl/blog/menu-wigilijne).",
+ "23. lepić, mrozić lub chłodzić, 24. tylko gotować — odciąża wieczór obok barszczu i [makowca](/pl/rezepte/makowiec). Harmonogram znajdziesz w [menu wigilijnym](/pl/blog/menu-wigilijne).",
  mistakesDe:
- "Nasse Füllung, zu große Stücke, zu aggressives Kochen, Uszka in der Suppe einweichen. Barszcz trüben durch Mitkochen der Teigtaschen.",
+ "Nasse Füllung reißt die Naht; zu große Stücke brauchen länger und zerreißen leicht. Zu wildes Kochen öffnet die Öhrchen. Uszka stundenlang in der Suppe zu lagern trübt den Barszcz — erst kochen, dann in der Schale zusammenführen.",
  mistakesPl:
- "Mokry farsz, za duże sztuki, zbyt gwałtowne gotowanie, namaczanie w zupie. Mętnienie barszczu przez gotowanie uszek w wywarze.",
+ "Mokry farsz rwie szew; za duże sztuki gotują się dłużej i łatwiej pękają. Zbyt gwałtowne gotowanie otwiera uszka. Trzymanie godzinami w zupie mąci barszcz — najpierw ugotuj, potem połącz w misce.",
  variantsDe:
  "Mit Sauerkraut-Anteil, oder fertige Uszka aus dem Laden als Notfall. Die klare Suppe bleibt beim Rezept [Barszcz](/de/rezepte/barszcz-czerwony). Mehr dazu im Artikel [Barszcz-Technik](/de/blog/barszcz-technik). Zum Teig hilft [Pierogi-Teig](/de/blog/pierogi-teig).",
  variantsPl:
@@ -345,9 +345,9 @@ export const W8_FACTS_D_RETROFIT: Record<string, ArticleFacts> = {
  originPl:
  "Sernik to polski sernik na twarogu — gęstszy i często wyższy niż niejedne niemieckie serniki. Stoi obok [makowca](/pl/rezepte/makowiec) na stole świątecznym, ale zostaje osobnym daniem: tu ser i wanilia, tam rolada makowa. Piec i plan świąt pogłębia [technika makowca](/pl/blog/makowiec-technika); jakość twarogu opisuje [przewodnik](/pl/blog/twarog-w-niemczech). Do menu pasuje [Wielkanoc](/pl/blog/menu-wielkanocne).",
  shopDe:
- "Twaróg sernikowy oder gut abgetropfter Speisequark, Eier, Zucker, Butter, etwas Bindung, Vanille und optional ein Mürbeteigboden. Orientierung geben [Twaróg-Guide](/de/blog/twarog-deutschland) und [Ersatzprodukte DE](/de/blog/ersatzprodukte-de); typische Qualität findest du im [Polenladen](/de/blog/polenladen-einkaufen).",
+ "Twaróg sernikowy oder gut abgetropfter Speisequark, Eier, Zucker und Butter sowie etwas Bindung (Mehl oder Pudding), Vanille und optional ein Mürbeteigboden. Orientierung geben [Twaróg-Guide](/de/blog/twarog-deutschland) und [Ersatzprodukte DE](/de/blog/ersatzprodukte-de); typische Quarkqualität oft im [Polenladen](/de/blog/polenladen-einkaufen). Apfelblech ist [Szarlotka](/de/rezepte/szarlotka); Schoko-Sahne [Wuzetka](/de/rezepte/wuzetka).",
  shopPl:
- "Twaróg sernikowy lub dobrze odsączony Quark, jajka, cukier, masło, odrobina spoiwa, wanilia i opcjonalnie kruchy spód. Orientację dają [twaróg](/pl/blog/twarog-w-niemczech) i [zamienniki](/pl/blog/zamienniki-skladnikow); typową jakość kupisz w [sklepie polskim](/pl/blog/sklep-polski-zakupy).",
+ "Twaróg sernikowy lub dobrze odsączony Quark, jajka, cukier i masło oraz odrobina spoiwa (mąka lub budyń), wanilia i opcjonalnie kruchy spód. Orientację dają [twaróg](/pl/blog/twarog-w-niemczech) i [zamienniki](/pl/blog/zamienniki-skladnikow); typową jakość często kupisz w [sklepie polskim](/pl/blog/sklep-polski-zakupy). Jabłko z blachy to [szarlotka](/pl/rezepte/szarlotka); czekolada ze śmietaną [wuzetka](/pl/rezepte/wuzetka).",
  techniqueDe:
  "Die Masse glatt rühren, aber nicht schaumig überrühren — sonst bricht sie später ein. Bei mittlerer Hitze backen; die Mitte darf leicht wackeln. Im ausgeschalteten Ofen nachruhen und erst kalt schneiden. Risse entstehen oft durch zu hohe Hitze oder Zugluft beim Öffnen.",
  techniquePl:

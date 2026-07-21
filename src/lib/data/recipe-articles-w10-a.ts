@@ -67,11 +67,11 @@ export const W10_FACTS_A: Record<string, W10ArticleFacts> = {
  originDe:
  "Schab pieczony ist der polnische Ofenschweinebraten — Schab mit oder ohne Knochen, eingerieben mit Knoblauch und [Majeranek](/de/blog/majeranek), ruhig im Ofen. Das ist ausdrücklich **kein** [Kotlet schabowy](/de/rezepte/kotlet-schabowy): dort Panade und Pfanne, hier Ofenbraten ohne Panade. Fokus bleibt „Schab pieczony / Schweinebraten polnisch Ofen“, nicht „Schabowy“. Menü-Kultur: [polnisches Sonntagsessen](/de/blog/sonntagsessen-polnisch). Rippen-Nachbar: [Żeberka pieczone](/de/rezepte/zeberka) — anderes Stück, gleiche Ofen-Logik.",
  originPl:
- "Schab pieczony to polska pieczeń wieprzowa z piekarnika — schab z kością lub bez, natarty czosnkiem i [majerankiem](/pl/blog/majeranek-leksykon), spokojnie w piecu. To wyraźnie **nie** [kotlet schabowy](/pl/rezepte/kotlet-schabowy): tam panierka i patelnia, tu pieczeń bez panierki. chodzi o „schab pieczony”, nie „schabowy”. Kultura menu: [obiad niedzielny](/pl/blog/obiad-niedzielny). Sąsiad żeber: [żeberka pieczone](/pl/rezepte/zeberka) — inny kawałek, ta sama logika pieca.",
+ "Schab pieczony to polska pieczeń wieprzowa z piekarnika — schab z kością lub bez, natarty czosnkiem i [majerankiem](/pl/blog/majeranek-leksykon), spokojnie pieczony. To wyraźnie nie [kotlet schabowy](/pl/rezepte/kotlet-schabowy): tam panierka i patelnia, tu pieczeń bez panierki. Chodzi o spokojny ofenschab, nie o „schabowy” z nazwy. Ramę menu daje [obiad niedzielny](/pl/blog/obiad-niedzielny); sąsiadem na kości są [żeberka pieczone](/pl/rezepte/zeberka) — inny kawałek, ta sama logika pieca.",
  shopDe:
- "Schab / Schweinenacken von der Fleischtheke — gleichmäßig, mit etwas Fett. Knoblauch, Majoran, Senf, Öl, Salz, Pfeffer. Spezialitäten-Feeling: [Polenladen](/de/blog/polenladen-einkaufen). Form oder [Dutch Oven](/de/blog/dutch-oven-kaufberatung) für Wärmehaltung  — Kaufkriterien bleiben im Gear-Guide. Keine Semmelbrösel, kein Panier-Setup.",
+ "An der Fleischtheke nimmst du einen gleichmäßigen Schab oder Schweinenacken mit etwas Fett — zu mager wird er schnell trocken. Knoblauch, Majoran, Senf, Öl, Salz und Pfeffer reichen für die Reibung; Majoran mit Charakter findest du oft im [Polenladen](/de/blog/polenladen-einkaufen). Eine feste Form oder ein [Dutch Oven](/de/blog/dutch-oven-kaufberatung) hält die Wärme gleichmäßig. Semmelbrösel und Panierstation brauchst du nicht — sonst driftet das Gericht Richtung [Kotlet schabowy](/de/rezepte/kotlet-schabowy).",
  shopPl:
- "Schab z lady — równy, z odrobiną tłuszczu. Czosnek, majeranek, musztarda, olej, sól, pieprz. Specjały: [sklep polski](/pl/blog/sklep-polski-zakupy). Naczynie lub [garnek do duszenia](/pl/blog/garnek-do-duszenia) — gear-owner zostaje tam; tu tylko cook. Bez bułki tartej, bez stanowiska panierowania.",
+ "Przy ladzie wybierz równy schab lub kark z odrobiną tłuszczu — zbyt chudy kawałek szybko wysycha. Czosnek, majeranek, musztarda, olej, sól i pieprz wystarczą do natarcia; majeranek z charakterem często jest w [sklepie polskim](/pl/blog/sklep-polski-zakupy). Stabilne naczynie lub [garnek do duszenia](/pl/blog/garnek-do-duszenia) trzyma ciepło równo. Bułka tarta i stanowisko panierowania nie są potrzebne — inaczej danie dryfuje w stronę [kotleta schabowego](/pl/rezepte/kotlet-schabowy).",
  techniqueDe:
  "Trocken tupfen, einreiben, ruhen lassen. Mittelheißer Ofen, Flüssigkeit in der Form, begießen, ruhen vor dem Schneiden. Zu heiß zu früh = trocken. Keine Panade-Schritte aus dem Schabowy-Rezept übernehmen — Fokus bricht sofort.",
  techniquePl:
@@ -85,12 +85,12 @@ export const W10_FACTS_A: Record<string, W10ArticleFacts> = {
  diasporaPl:
  "W niemieckich mieszkaniach opłaca się niedziela z pieca: marynata w sobotę, niedziela tylko pieczenie — logika przewodnika niedzielnego. Majeranek i sklep polski zostają sąsiadami; nie myl z panierowaniem. Tego samego dnia panierujesz — schabowy zostaje osobny przepis.",
  mistakesDe:
- "Mit Schabowy/Panade verwechseln, zu mageres Stück ohne Fett, zu heißer Ofen ohne Flüssigkeit, ",
+ "Mit paniertem [Kotlet schabowy](/de/rezepte/kotlet-schabowy) zu verwechseln ist der häufigste Fehler — hier gibt es keine Panade. Zu mageres Fleisch ohne Fett trocknet; zu heißer Ofen ohne Flüssigkeit in der Form ebenfalls. Schneide erst nach kurzer Ruhezeit, sonst läuft der Saft aus.",
  mistakesPl:
- "Mylenie ze schabowym/panierką, zbyt chudy kawałek, za gorący piec bez płynu, mylenie z „schabowy” w tytule, za krótki odpoczynek przed krojeniem.",
+ "Najczęstszy błąd to mylenie z panierowanym [kotletem schabowym](/pl/rezepte/kotlet-schabowy) — tu nie ma panierki. Zbyt chude mięso bez tłuszczu wysycha; za gorący piec bez płynu w naczyniu też. Krojenie dopiero po krótkim odpoczynku, inaczej ucieka sok.",
  variantsDe:
  "Mit Knochen für mehr Geschmack, mit Honig-Senf-Glasur (Hausvariante), oder mit Kümmel — ehrlich benennen. [Żeberka](/de/rezepte/zeberka) bleiben Rippen-Owner; Schabowy bleibt Panade-Owner. Beilage-Klassiker: Mizeria.",
  variantsPl:
- "Z kością dla smaku, z glazurą miodowo-musztardową (wariant domu), albo z kminkiem — nazwać uczciwie. [Żeberka](/pl/rezepte/zeberka) owną żebra; schabowy owną panierkę. Klasyka dodatku: mizeria.",
+ "Z kością dla głębszego smaku, z glazurą miodowo-musztardową albo z kminkiem — nazwij wariant uczciwie. [Żeberka](/pl/rezepte/zeberka) zostają przy żebrach; schabowy przy panierce. Klasyka dodatku: [mizeria](/pl/rezepte/mizeria).",
  },
 };

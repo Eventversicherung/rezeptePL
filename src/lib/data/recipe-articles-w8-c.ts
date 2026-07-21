@@ -10,13 +10,13 @@ export const W8_FACTS_C = {
  vibeDe: "weich, gefüllt, puderzuckerweiß am Fettdonnerstag",
  vibePl: "miękkie, nadziewane, w cukrze pudrze na Tłusty Czwartek",
  originDe:
- "Pączki sind weiche Hefe-Krapfen mit Füllung — der klassische süße Fokus von Tłusty Czwartek. Sie sind kein Berliner-Klischee und kein Chrust: eigene Form, eigene Technik. Der Menü-Rahmen bleibt bei [Tłusty Czwartek](/de/blog/tlusty-czwartek); Handgriffe stehen im [Pączki-Technik-Guide](/de/blog/paczek-technik); Mengen stehen oben im Rezept. [Faworki](/de/rezepte/faworki) sind verwandtes Fettgebäck ohne Füllung — anderes Gericht.",
+ "Pączki sind weiche Hefe-Krapfen mit Füllung — der klassische süße Fokus von Tłusty Czwartek. Sie sind kein Berliner-Klischee und kein Chrust: eigene Form, eigene Technik. Den Menü-Rahmen setzt [Tłusty Czwartek](/de/blog/tlusty-czwartek); Handgriffe stehen im [Pączki-Technik-Guide](/de/blog/paczek-technik). [Faworki](/de/rezepte/faworki) sind verwandtes Fettgebäck ohne Füllung — anderes Gericht.",
  originPl:
  "Pączki to miękkie drożdżowe wypieki z nadzieniem — klasyczny słodki fokus Tłustego Czwartku. To nie klisza Berlinera i nie chrust: własna forma, własna technika. Artykuł o okazji zostaje [Tłusty Czwartek](/pl/blog/tlusty-czwartek-przepisy); gesty są w [przewodniku techniki pączków](/pl/blog/paczki-technika); tu zostają ilości i gotowanie. [Faworki](/pl/rezepte/faworki) to pokrewne ciasto tłuszczowe bez nadzienia — inny fokus.",
  shopDe:
- "Mehl 405 oder 550, Hefe, Milch, Butter, Eier, Zucker, Rosenmarmelade oder Pflaumenmus, Frittierfett und Puderzucker tragen Teig und Füllung. Charakter-Füllung findest du oft im [Polenladen](/de/blog/polenladen-einkaufen); wenn etwas fehlt, hilft [Ersatzprodukte DE](/de/blog/ersatzprodukte-de). Handgriffe vor dem Einkauf: [Pączki-Technik](/de/blog/paczek-technik).",
+ "Für Teig und Füllung brauchst du Mehl (405 oder 550), Hefe, Milch, Butter, Eier und Zucker sowie Rosenmarmelade oder Pflaumenmus, Frittierfett und Puderzucker. Charakter-Füllung findest du oft im [Polenladen](/de/blog/polenladen-einkaufen); wenn etwas fehlt, hilft [Ersatzprodukte DE](/de/blog/ersatzprodukte-de). Handgriffe vor dem Einkauf: [Pączki-Technik](/de/blog/paczek-technik).",
  shopPl:
- "Mąka 405/550, drożdże, mleko, masło, jajka, cukier, konfitura różana lub powidła, tłuszcz do smażenia, cukier puder. Nadzienie z charakterem często w [sklepie polskim](/pl/blog/sklep-polski-zakupy). Gdy czegoś brakuje: [zamienniki składników](/pl/blog/zamienniki-skladnikow). Technika przed zakupami: [technika pączków](/pl/blog/paczki-technika).",
+ "Na ciasto i nadzienie potrzebujesz mąki (405 lub 550), drożdży, mleka, masła, jajek i cukru oraz konfitury różanej lub powideł, tłuszczu do smażenia i cukru pudru. Nadzienie z charakterem często kupisz w [sklepie polskim](/pl/blog/sklep-polski-zakupy); brak — pomaga [zamienniki](/pl/blog/zamienniki-skladnikow). Chwyty przed zakupami: [technika pączków](/pl/blog/technika-paczkow).",
  techniqueDe:
  "Hefe lauwarm aktivieren, Teig elastisch kneten und gehen lassen, Füllung abgetropft einlegen, Ränder fest schließen, zweites Gehen, bei 170–180 °C schwimmend frittieren, warm zuckern. Details und Fehler: [Pączki-Technik](/de/blog/paczek-technik). Knusprige Alternative am selben Tag: [Faworki-Technik](/de/blog/faworki-technik).",
  techniquePl:
