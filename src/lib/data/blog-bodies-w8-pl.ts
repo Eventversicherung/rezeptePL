@@ -8,15 +8,15 @@ Tu chodzi o **technikę drożdży i smażenia polskich pączków**: prowadzenie 
 
 Pączki to nie niemiecki Berliner i nie klisza „krapfen”: to **miękkie ciasto drożdżowe**, często z różą, powidłami lub innymi domowymi nadzieniami, złote na zewnątrz, puszyste w środku, po smażeniu posypane cukrem lub lekko lukrowane. Kto szuka tylko „czegoś słodkiego na drożdżach”, łatwo ląduje przy racuchach — smaczne, ale patelnia zamiast frytkownicy i inne słowo kluczowe.
 
-## Ownership trzymajmy czytelnie
+## Co gdzie należy
 
 - **Okazja / kultura:** [Tłusty Czwartek](/pl/blog/tlusty-czwartek-przepisy) — dzień, kupić vs robić, dzielenie, miara
 - **Technika pączków:** ten filar — drożdże, nadzienie, tłuszcz
-- **Intent gotowania:** [przepis na pączki](/pl/rezepte/paczki) — ilości i kroki
+- **Przepis:** [pączki](/pl/rezepte/paczki) — ilości i kroki
 - **Faworki:** [technika](/pl/blog/faworki-technika) + [przepis](/pl/rezepte/faworki) — chrust, nie pączek
 - **Pokrewieństwo drożdży w piecu:** [technika makowca](/pl/blog/makowiec-technika) — drożdże i cierpliwość, ale piec zamiast kąpieli w tłuszczu
 
-Primary keywords zostają rozdzielone. Inne strony linkują opisowo.
+Każdy link prowadzi do osobnego tematu — technika, przepis albo okazja.
 
 ## Ciasto drożdżowe: ciepło, odpoczynek, wyczucie
 

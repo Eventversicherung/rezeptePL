@@ -55,7 +55,7 @@ Sucha masa makowa, za dużo mąki, zbyt gorący piec, zbyt wczesne krojenie, mas
 - [Piernik](/pl/rezepte/piernik) — piernik miodowo-korzenny (≠ rolada makowa; inny cook-primary; tu tylko sąsiad pieczenia opisowo)
 - [Makaron z makiem](/pl/rezepte/makaron-z-makiem) — makaron z masą makową (≠ rolada; inny cook-primary; tu tylko sąsiad maku opisowo)
 
-Primary keywords zostają rozdzielone: technika tu, przepis na money page, menu przy okazji. Piernik i makaron z makiem nie kradną primary drożdży ani rolady makowej.
+Technika zostaje tu, ilości w przepisie, menu przy okazji. Piernik i makaron z makiem nie zastępują ani drożdżowej roli, ani masy makowej tego przewodnika.
 
 ## FAQ: technika makowca
 

@@ -1,11 +1,11 @@
 export const bodyMakowiecTechnikDe = `
-Makowiec — der gerollte Mohnkuchen — ist für viele von uns der süße Schluss der Wigilia und zugleich ein technisches Projekt: Hefeteig, Mohnmasse, Rollen, Backen, Geduld. In Deutschland scheitert der Tag oft nicht am Willen, sondern an trockener Füllung, rissigem Teig oder zu heißem Ofen. Dieser Guide unterstützt das Rezept [Makowiec](/de/rezepte/makowiec) und den [Wigilia-Speiseplan](/de/blog/wigilia-speiseplan) — ohne Mengen zu duplizieren, ohne Fake-Lab-Theater und ohne den Rezept-Owner zu kannibalisieren. Formkuchen ohne Mohnspirale ist [Babka](/de/rezepte/babka) — anderer Cook-Primary; hier bleiben Rolle, Masse und Wigilia-Technik.
+Makowiec — der gerollte Mohnkuchen — ist für viele von uns der süße Schluss der Wigilia und zugleich ein technisches Projekt: Hefeteig, Mohnmasse, Rollen, Backen, Geduld. In Deutschland scheitert der Tag oft nicht am Willen, sondern an trockener Füllung, rissigem Teig oder zu heißem Ofen. Dieser Guide unterstützt das Rezept [Makowiec](/de/rezepte/makowiec) und den [Wigilia-Speiseplan](/de/blog/wigilia-speiseplan) — ohne Mengen zu duplizieren, ohne Fake-Lab-Theater und ohne den Rezept zu überlagern. Formkuchen ohne Mohnspirale ist [Babka](/de/rezepte/babka) — ein anderes Gebäck; hier bleiben Rolle, Masse und die Wigilia-Technik.
 
-## Was dieser Pillar ist (und was nicht)
+## Worum es hier geht
 
-Hier geht es um **Backtechnik für polnischen Mohnkuchen**: Teigführung, Mohn vorbereiten, Rollen, Ofentemperatur, typische Fehler, Einkauf in DE und Ablauf für den 24. Dezember. Das Rezept bleibt Owner für „Makowiec Rezept“ mit Grammzahlen und Schritten. [Faworki-Technik](/de/blog/faworki-technik) bleibt Owner für ausgebackenes Fettgebäck — verwandt als Festtagsbacken, andere Methode.
+Hier geht es um **Backtechnik für polnischen Mohnkuchen**: Teigführung, Mohn vorbereiten, Rollen, Ofentemperatur, typische Fehler, Einkauf in DE und Ablauf für den 24. Dezember. Mengen und Schritte stehen im Rezept — hier geht es um die Handgriffe dazwischen. Für dünnes Fettgebäck bleibt die [Faworki-Technik](/de/blog/faworki-technik) — verwandt als Festtagsbacken, andere Methode.
 
-Makowiec ist kein Strudel und kein deutscher Mohnkuchen vom Blech: Es ist ein **Hefeteig-Rollenkuchen** mit dichter Mohnfüllung, oft mit mancherlei Zusätzen (Rosinen, Honig, Zitronenschale), außen goldbraun, innen feucht aber nicht nass. Wer nur „etwas mit Mohn“ sucht, landet leicht bei Blechkuchen — schmeckt, ist aber ein anderes Gericht und ein anderes Keyword.
+Makowiec ist kein Strudel und kein deutscher Mohnkuchen vom Blech: Es ist ein **Hefeteig-Rollenkuchen** mit dichter Mohnfüllung, oft mit mancherlei Zusätzen (Rosinen, Honig, Zitronenschale), außen goldbraun, innen feucht aber nicht nass. Wer nur „etwas mit Mohn“ sucht, landet leicht bei Blechkuchen — schmeckt, ist aber ein anderes Gericht und ein anderes Gericht.
 
 ## Mohn: der Charakterträger
 
@@ -13,7 +13,7 @@ Blauer Mohn (mak niebieski) trägt Aroma und Farbe. In DE: Polenladen für gute 
 
 Klassische Vorbereitung: Mohn mit heißer Milch oder Wasser aufquellen, abkühlen, mit Zucker, Butter/Schmalz, Eiweiß oder Ei, optional Honig und Zitronenschale binden. Die Masse soll streichfähig sein wie eine dicke Creme — nicht tropfen, nicht krümeln. Abschmecken: süß, leicht nussig, nicht bitter. Bitterkeit kommt oft von alten Samen oder zu starkem Rösten.
 
-Rosinen (eingeweicht) sind Hausbrauch, kein Pflichtprogramm. Wer sie mag, gibt sie unter die Masse; wer nicht, lässt sie weg — der Pillar bleibt gültig.
+Rosinen (eingeweicht) sind Hausbrauch, kein Pflichtprogramm. Wer sie mag, gibt sie unter die Masse; wer nicht, lässt sie weg — der Guide bleibt gültig.
 
 ## Hefeteig: Wärme, Ruhe, Gefühl
 
@@ -39,23 +39,23 @@ Parallelplanung: während die Rolle geht, [Uszka](/de/rezepte/uszka) formen oder
 
 Liste nach Charakter: Mehl (Type 405/550), Hefe, Milch, Butter, Eier, Zucker, Mohn, optional Rosinen, Honig, Zitrone, Vanille. [Polenladen](/de/blog/polenladen-einkaufen) für Mohn und Feiertagszutaten. Ersatzlogik: [Zutaten ersetzen](/de/blog/ersatzprodukte-de). Fertig-Makowiec aus dem Laden rettet Zeit, ersetzt aber nicht die Technik, wenn ihr selbst backen wollt.
 
-Werkzeug: großes Blech, Backpapier, Nudelholz, saubere Küchentücher. Keine Pflicht-Teigmaschine — hilft bei großen Mengen, Kriterien wie bei [Teigmaschine Pierogi](/de/blog/teigmaschine-pierogi) denken, ohne denselben Kauf-Intent zu klaue.
+Werkzeug: großes Blech, Backpapier, Nudelholz, saubere Küchentücher. Keine Pflicht-Teigmaschine — hilft bei großen Mengen, Kriterien wie bei [Teigmaschine Pierogi](/de/blog/teigmaschine-pierogi) denken, ohne dieselbe Kaufberatung zu wiederholen.
 
 ## Typische Fehler
 
 Trockene Mohnmasse, zu viel Mehl im Teig, zu heißer Ofen, zu früh schneiden, Füllung bis an den Rand ohne Randzone, Hefe mit kochender Flüssigkeit abgetötet, Rolle zu lose (Lufttaschen) oder zu fest (Füllung quillt seitlich). Auch der Irrtum, Makowiec und Faworki am selben Nachmittag „nebenbei“ zu erfinden — zwei Fett-/Ofenprojekte brauchen getrennte Zeitfenster.
 
-## Verwandte Gerichte und Silo-Logik
+## Verwandte Gerichte
 
-- [Makowiec Rezept](/de/rezepte/makowiec) — Mengen und Schritte (Owner cook-Intent)
+- [Makowiec Rezept](/de/rezepte/makowiec) — Mengen und Schritte
 - [Faworki](/de/rezepte/faworki) + [Faworki-Technik](/de/blog/faworki-technik) — anderes Festtagsbacken
 - [Racuchy](/de/rezepte/racuchy-jablka) — Hefe, süß, Alltag/Tłusty
 - [Pierogi-Teig](/de/blog/pierogi-teig) — Teiggefühl, aber anderer Teigtyp
 - [Wigilia-Speiseplan](/de/blog/wigilia-speiseplan) — Menürahmen
-- [Piernik](/de/rezepte/piernik) — Honig-Gewürz-Lebkuchen (≠ Mohnrolle; anderer Cook-Primary; hier nur Back-Nachbar descriptiv)
-- [Makaron z makiem](/de/rezepte/makaron-z-makiem) — Nudeln mit Mohnmasse (≠ Rolle; anderer Cook-Primary; hier nur Mohn-Nachbar descriptiv)
+- [Piernik](/de/rezepte/piernik) — Honig-Gewürz-Lebkuchen (kein Mohnrollen-Rezept; hier nur als Back-Nachbar)
+- [Makaron z makiem](/de/rezepte/makaron-z-makiem) — Nudeln mit Mohnmasse (keine Rolle; hier nur als Mohn-Nachbar)
 
-Primary-Keywords bleiben getrennt: Technik hier, Rezept auf der Money Page, Speiseplan beim Anlass. Piernik und Makaron z makiem stehlen weder Hefe- noch Mohnrollen-Primary.
+Technik bleibt hier, Mengen im Rezept, Menüplanung beim Speiseplan. Piernik und Makaron z makiem ersetzen weder die Hefe-Rolle noch die Mohnmasse dieses Guides.
 
 ## FAQ: Makowiec-Technik
 
@@ -77,7 +77,7 @@ In Scheiben oder als ganze Rolle gut verpackt. Auftauen langsam; Textur bleibt a
 
 ### Ist Makowiec dasselbe wie deutscher Mohnkuchen?
 
-Nein. Blechkuchen und Hefeteilchen sind verwandt im Geschmack, anders in Form und Keyword. Dieser Pillar meint den gerollten polnischen Makowiec.
+Nein. Blechkuchen und Hefeteilchen sind verwandt im Geschmack, anders in Form und Keyword. Dieser Guide meint den gerollten polnischen Makowiec.
 
 ### Wo stehen die genauen Mengen?
 
@@ -104,8 +104,8 @@ In deutschen Küchen fehlen manchmal der große Backofen-Einschub oder die Ruhe 
 ## Weiterlesen
 
 - [Makowiec Rezept](/de/rezepte/makowiec)
-- [Sernik](/de/rezepte/sernik) — Käsekuchen-Linie im Back-Silo (anderer Primary)
-- [Babka](/de/rezepte/babka) — Hefegugelhupf aus der Form (≠ Mohnrolle; anderer Cook-Primary)
+- [Sernik](/de/rezepte/sernik) — Käsekuchen, anderes Gebäck
+- [Babka](/de/rezepte/babka) — Hefegugelhupf aus der Form (≠ Mohnrolle; anderer Rezept-Fokus)
 - [Wigilia Speiseplan](/de/blog/wigilia-speiseplan)
 - [Faworki Technik](/de/blog/faworki-technik)
 - [Pączki Technik](/de/blog/paczek-technik) — Hefe-Festtagsbacken, anderes Fettprojekt
@@ -120,7 +120,7 @@ In der Praxis zählt Wiederholung mehr als Perfektion beim ersten Mal: dieselbe 
 
 Für Haushalte in Deutschland bleibt der Polenladen der gezielte Stopp für Mohn und Feiertagszutaten, nicht für jedes Gramm Mehl. Supermarkt für Basis, Spezialität dort, wo sie den Charakter trägt.
 
-Interne Links auf Alemniam sind bewusst gesetzt: Guides für Technik und Anlass, Rezepte für Mengen und Schritte. Eine Primary-Keyword-URL bleibt Owner — andere Seiten verlinken beschreibend.
+Guides vertiefen Technik und Anlass; unter den Rezepten stehen Mengen und Schritte. Die Links führen dorthin, wo du als Nächstes weiterkochen willst.
 
 Wer den süßen Teil der Wigilia entlasten will, backt bewusst früher und serviert später. Der Geruch am Backtag reicht als Vorfreude; am Heiligabend zählt Ruhe am Tisch mehr als frische Ofenglut.
 

@@ -356,9 +356,9 @@ Wir kaufen lieber **eine bewährte Marke in 500 g–1 kg** nach, als Riesensack,
 
 **Kasza z grochem (mit Speck):** Deftige Beilage oder leichtes Hauptgericht — Speck, Zwiebel, oft hart gekochtes Ei. Passt zu [Rosół](/de/rezepte/rosol)-Resten oder einfachem Sonntag — siehe [Sonntagsessen](/de/blog/sonntagsessen-polnisch).
 
-**Beilage zu mięsem:** Statt Kartoffeln — schneller, wenn Kasza schon im Schrank. Gut zu [Schabowy](/de/rezepte/kotlet-schabowy) oder einfachen Panierten — nicht Owner von Panade-Themen, nur Pairing.
+**Beilage zu mięsem:** Statt Kartoffeln — schneller, wenn Kasza schon im Schrank. Gut zu [Schabowy](/de/rezepte/kotlet-schabowy) oder einfachen Panierten — nur als Pairing, nicht als Panier-Anleitung.
 
-**Bigos-Kontext:** Kasza als Beilage zu [Bigos](/de/rezepte/bigos), nicht im Bigos selbst — der Guide [Bigos](/de/blog/bigos-guide) bleibt Owner für Eintopf-Logik; Kasza ergänzt den Teller.
+**Bigos-Kontext:** Kasza als Beilage zu [Bigos](/de/rezepte/bigos), nicht im Bigos selbst — der [Bigos-Guide](/de/blog/bigos-guide) erklärt den Eintopf; Kasza ergänzt den Teller.
 
 **Pierogi / Placki:** Nicht Standard, aber diaspora-kreativ: Kasza-Beilage zu [Placki](/de/rezepte/placki/ziemniaczane) statt purer Kartoffel-Doppelung.
 
@@ -406,7 +406,7 @@ Orientierung 60–80 g trocken pro Erwachsenen — je nach Beilage zum Hauptgeri
 
 ### Passt Kasza zu Wigilia?
 
-Als Beilage ohne Fleisch ja — Kasza zasmazana mit Pilzen statt Speck für fastenfreundlichere Varianten. Nicht jedes Wigilia-Menü braucht Kasza; Pierogi und Suppen dominieren oft — [Wigilia](/de/blog/wigilia-speiseplan) als Planungs-Owner.
+Als Beilage ohne Fleisch ja — Kasza zasmazana mit Pilzen statt Speck für fastenfreundlichere Varianten. Nicht jedes Wigilia-Menü braucht Kasza; Pierogi und Suppen dominieren oft — [Wigilia](/de/blog/wigilia-speiseplan) für die Menüplanung.
 
 ## Häufige Fehler in der Diaspora-Küche
 

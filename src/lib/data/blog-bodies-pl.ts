@@ -351,7 +351,7 @@ Klasyka: ziemniak + twaróg / Quark + cebula. Przepis bazowy: [pierogi ruskie](/
 
 Twaróg bywa bazą past kanapkowych, dodatkiem do makaronu na szybko, elementem wypieków. Zasada ta sama: dobierz tłustość i wilgotność do techniki. To, co działa na kanapce, nie zawsze działa w cieście gotowanym w wodzie.
 
-Gdy twaróg ma iść na gorący makaron — nie do ciasta — Cook-Intent jest osobny: [makaron z serem](/pl/rezepte/makaron-z-serem). To nie [pierogi leniwe](/pl/rezepte/pierogi-leniwe) i nie [łazanki](/pl/rezepte/lazanki). Owner składnika zostaje w tym przewodniku; przepis zostaje cook.
+Gdy twaróg ma iść na gorący makaron — nie do ciasta — osobny przepis jest przy [makaronie z serem](/pl/rezepte/makaron-z-serem). To nie [pierogi leniwe](/pl/rezepte/pierogi-leniwe) i nie [łazanki](/pl/rezepte/lazanki). Ten przewodnik zostaje przy składniku; gotowanie zostaje w przepisie.
 
 ## Smak, sól, tłuszcz — bez mitów dietetycznych
 

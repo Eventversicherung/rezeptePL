@@ -74,7 +74,7 @@ Kinder können abmessen, rühren und servieren — heiße und scharfe Schritte b
 
 Reste gehören zur Kultur: gut beschriften, kühl stellen, am nächsten Tag bewusst aufwärmen. Mikrowelle ist Notfall; Pfanne oder Ofen erhalten Textur besser. Freezer nur, wenn die Technik es verträgt.
 
-Interne Links auf Alemniam sind bewusst gesetzt: Guides für Technik und Kauf, Rezepte für Mengen und Schritte. Eine Primary-Keyword-URL bleibt Owner — andere Seiten verlinken beschreibend, ohne denselben Intent zu klaue.
+Guides vertiefen Technik und Einkauf; unter den Rezepten stehen Mengen und Schritte. Die Links führen dorthin, wo du als Nächstes weiterkochen oder einkaufen willst — ohne denselben Text noch einmal zu wiederholen.
 
 In der Praxis zählt Wiederholung mehr als Perfektion. Wer denselben Ablauf zweimal ruhig durchspielt, spart sich später Frust und Fehlkäufe. Notizen am Telefon oder auf einem Zettel neben dem Herd helfen mehr als ein weiteres Video.
 
@@ -84,7 +84,7 @@ Kinder können abmessen, rühren und servieren — heiße und scharfe Schritte b
 
 Reste gehören zur Kultur: gut beschriften, kühl stellen, am nächsten Tag bewusst aufwärmen. Mikrowelle ist Notfall; Pfanne oder Ofen erhalten Textur besser. Freezer nur, wenn die Technik es verträgt.
 
-Interne Links auf Alemniam sind bewusst gesetzt: Guides für Technik und Kauf, Rezepte für Mengen und Schritte. Eine Primary-Keyword-URL bleibt Owner — andere Seiten verlinken beschreibend, ohne denselben Intent zu klaue.
+Guides vertiefen Technik und Einkauf; unter den Rezepten stehen Mengen und Schritte. Die Links führen dorthin, wo du als Nächstes weiterkochen oder einkaufen willst — ohne denselben Text noch einmal zu wiederholen.
 
 In der Praxis zählt Wiederholung mehr als Perfektion. Wer denselben Ablauf zweimal ruhig durchspielt, spart sich später Frust und Fehlkäufe. Notizen am Telefon oder auf einem Zettel neben dem Herd helfen mehr als ein weiteres Video.
 
@@ -164,7 +164,7 @@ Ruhig schmoren, klar würzen, Reste nutzen — so wird Fasolka in DE wiederholba
 `;
 
 export const bodyMajeranekDe = `
-Majeranek ist eines der stillen Gewürze der polnischen Küche — und in Deutschland oft das fehlende Stück zwischen „schmeckt irgendwie“ und „schmeckt wie zu Hause“. Dieses Lexikon verbindet Fleischgerichte, [Gołąbki](/de/rezepte/golabki), [Fasolka](/de/rezepte/fasolka-po-bretonsku), Zrazy und den Einkauf im Supermarkt oder Polenladen. Kein Rezept-Owner, keine Lab-Tests: Orientierung zum Würzen und Einkaufen.
+Majeranek ist eines der stillen Gewürze der polnischen Küche — und in Deutschland oft das fehlende Stück zwischen „schmeckt irgendwie“ und „schmeckt wie zu Hause“. Dieses Lexikon verbindet Fleischgerichte, [Gołąbki](/de/rezepte/golabki), [Fasolka](/de/rezepte/fasolka-po-bretonsku), Zrazy und den Einkauf im Supermarkt oder Polenladen. Kein Rezept, keine Lab-Tests: Orientierung zum Würzen und Einkaufen.
 
 ## Was Majeranek ist
 
@@ -242,7 +242,7 @@ Kinder können abmessen, rühren und servieren — heiße und scharfe Schritte b
 
 Reste gehören zur Kultur: gut beschriften, kühl stellen, am nächsten Tag bewusst aufwärmen. Mikrowelle ist Notfall; Pfanne oder Ofen erhalten Textur besser. Freezer nur, wenn die Technik es verträgt.
 
-Interne Links auf Alemniam sind bewusst gesetzt: Guides für Technik und Kauf, Rezepte für Mengen und Schritte. Eine Primary-Keyword-URL bleibt Owner — andere Seiten verlinken beschreibend, ohne denselben Intent zu klaue.
+Guides vertiefen Technik und Einkauf; unter den Rezepten stehen Mengen und Schritte. Die Links führen dorthin, wo du als Nächstes weiterkochen oder einkaufen willst — ohne denselben Text noch einmal zu wiederholen.
 
 In der Praxis zählt Wiederholung mehr als Perfektion. Wer denselben Ablauf zweimal ruhig durchspielt, spart sich später Frust und Fehlkäufe. Notizen am Telefon oder auf einem Zettel neben dem Herd helfen mehr als ein weiteres Video.
 
@@ -252,7 +252,7 @@ Kinder können abmessen, rühren und servieren — heiße und scharfe Schritte b
 
 Reste gehören zur Kultur: gut beschriften, kühl stellen, am nächsten Tag bewusst aufwärmen. Mikrowelle ist Notfall; Pfanne oder Ofen erhalten Textur besser. Freezer nur, wenn die Technik es verträgt.
 
-Interne Links auf Alemniam sind bewusst gesetzt: Guides für Technik und Kauf, Rezepte für Mengen und Schritte. Eine Primary-Keyword-URL bleibt Owner — andere Seiten verlinken beschreibend, ohne denselben Intent zu klaue.
+Guides vertiefen Technik und Einkauf; unter den Rezepten stehen Mengen und Schritte. Die Links führen dorthin, wo du als Nächstes weiterkochen oder einkaufen willst — ohne denselben Text noch einmal zu wiederholen.
 
 In der Praxis zählt Wiederholung mehr als Perfektion. Wer denselben Ablauf zweimal ruhig durchspielt, spart sich später Frust und Fehlkäufe. Notizen am Telefon oder auf einem Zettel neben dem Herd helfen mehr als ein weiteres Video.
 
@@ -262,7 +262,7 @@ Kinder können abmessen, rühren und servieren — heiße und scharfe Schritte b
 
 Reste gehören zur Kultur: gut beschriften, kühl stellen, am nächsten Tag bewusst aufwärmen. Mikrowelle ist Notfall; Pfanne oder Ofen erhalten Textur besser. Freezer nur, wenn die Technik es verträgt.
 
-Interne Links auf Alemniam sind bewusst gesetzt: Guides für Technik und Kauf, Rezepte für Mengen und Schritte. Eine Primary-Keyword-URL bleibt Owner — andere Seiten verlinken beschreibend, ohne denselben Intent zu klaue.
+Guides vertiefen Technik und Einkauf; unter den Rezepten stehen Mengen und Schritte. Die Links führen dorthin, wo du als Nächstes weiterkochen oder einkaufen willst — ohne denselben Text noch einmal zu wiederholen.
 
 In der Praxis zählt Wiederholung mehr als Perfektion. Wer denselben Ablauf zweimal ruhig durchspielt, spart sich später Frust und Fehlkäufe. Notizen am Telefon oder auf einem Zettel neben dem Herd helfen mehr als ein weiteres Video.
 
@@ -272,7 +272,7 @@ Kinder können abmessen, rühren und servieren — heiße und scharfe Schritte b
 
 Reste gehören zur Kultur: gut beschriften, kühl stellen, am nächsten Tag bewusst aufwärmen. Mikrowelle ist Notfall; Pfanne oder Ofen erhalten Textur besser. Freezer nur, wenn die Technik es verträgt.
 
-Interne Links auf Alemniam sind bewusst gesetzt: Guides für Technik und Kauf, Rezepte für Mengen und Schritte. Eine Primary-Keyword-URL bleibt Owner — andere Seiten verlinken beschreibend, ohne denselben Intent zu klaue.
+Guides vertiefen Technik und Einkauf; unter den Rezepten stehen Mengen und Schritte. Die Links führen dorthin, wo du als Nächstes weiterkochen oder einkaufen willst — ohne denselben Text noch einmal zu wiederholen.
 
 In der Praxis zählt Wiederholung mehr als Perfektion. Wer denselben Ablauf zweimal ruhig durchspielt, spart sich später Frust und Fehlkäufe. Notizen am Telefon oder auf einem Zettel neben dem Herd helfen mehr als ein weiteres Video.
 

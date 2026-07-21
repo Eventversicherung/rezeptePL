@@ -3,7 +3,7 @@
  */
 
 export const bodyPanierenDe = `
-Panieren — die knusprige Panade um ein saftiges Stück Fleisch — ist in der polnischen Küche kein Nebenbei, sondern Kernkompetenz. Der **Kotlet schabowy** ist Sonntagsklassiker, Wielkanoc-Teller und Alltagsgericht zugleich; wer ihn zu Hause nachkocht, scheitert selten am Fleisch allein, sondern an der Technik: Dicke, Feuchte in der Panade, Hitze in der Pfanne, Ruhe danach. Dieser Guide erklärt die Entity Panieren im Schabowy-Kontext — ohne das [Kotlet-schabowy-Rezept](/de/rezepte/kotlet-schabowy) zu duplizieren und ohne die [Gusseisen-Kaufberatung](/de/blog/gusseisenpfanne) zum Owner zu machen.
+Panieren — die knusprige Panade um ein saftiges Stück Fleisch — ist in der polnischen Küche kein Nebenbei, sondern Kernkompetenz. Der **Kotlet schabowy** ist Sonntagsklassiker, Wielkanoc-Teller und Alltagsgericht zugleich; wer ihn zu Hause nachkocht, scheitert selten am Fleisch allein, sondern an der Technik: Dicke, Feuchte in der Panade, Hitze in der Pfanne, Ruhe danach. Dieser Guide erklärt die Entity Panieren im Schabowy-Kontext — ohne das [Kotlet-schabowy-Rezept](/de/rezepte/kotlet-schabowy) zu duplizieren und ohne die [Gusseisen-Kaufberatung](/de/blog/gusseisenpfanne) zu ersetzen.
 
 Wir schreiben für Haushalte in der Diaspora: deutsches Schweineschnitzel neben polnischem Kotlet, Semmelbrösel aus dem Rewe neben Panko aus dem Asiamarkt. Orientierung zu Fleisch und ausgewogener Ernährung: [BZfE](https://www.bzfe.de), [was-wir-essen.de](https://www.was-wir-essen.de), [EU-Landwirtschaft](https://agriculture.ec.europa.eu). Kein Kitsch — Panieren ist praktisches Küchenwissen, das sich wiederholt anwenden lässt.
 
@@ -73,7 +73,7 @@ Die **klassische Dreifach-Panade** folgt einer festen Reihenfolge:
 
 **Falsches Fleisch:** Durchzogenes Hack-Kotlet braucht andere Kerntemperatur als Schnitzel — nicht verwechseln. Schabowy-Technik gilt für ganzes Muskelstück.
 
-**Nicht Klopsy:** [Klopsy / Pulpety](/de/rezepte/klopsy) sind Kugeln in Soße ohne Dreifach-Panade — anderer Cook-Primary als panierter [Kotlet mielony](/de/rezepte/kotlet-mielony). Panieren-Owner bleibt dieser Guide.
+**Nicht Klopsy:** [Klopsy / Pulpety](/de/rezepte/klopsy) sind Kugeln in Soße ohne Dreifach-Panade — ein anderes Gericht als panierter [Kotlet mielony](/de/rezepte/kotlet-mielony). Panieren bleibt in diesem Guide.
 
 Wir haben alle diese Fehler mindestens einmal in einer deutschen Mietküche produziert — die Liste ist Erfahrung, nicht Belehrung.
 

@@ -1,22 +1,22 @@
 /** Wave 8 Paket C — Pączki Technik pillar (DE). */
 export const bodyPaczekTechnikDe = `
-Pączki sind für viele von uns der weiche, gefüllte Teil von Tłusty Czwartek: Hefeteig, Füllung, heißes Fett, Puderzucker. In Deutschland scheitert der Tag oft nicht am Willen, sondern an Technik — Teig zu schwer, Fett zu kühl, Füllung zu nass, Zeitdruck am Morgen. Dieser Guide unterstützt das Rezept [Pączki](/de/rezepte/paczki) und den Kulturartikel [Tłusty Czwartek](/de/blog/tlusty-czwartek) — ohne Mengen zu duplizieren, ohne Fake-Lab-Theater und ohne den Anlass-Owner zu kannibalisieren.
+Pączki sind für viele von uns der weiche, gefüllte Teil von Tłusty Czwartek: Hefeteig, Füllung, heißes Fett, Puderzucker. In Deutschland scheitert der Tag oft nicht am Willen, sondern an Technik — Teig zu schwer, Fett zu kühl, Füllung zu nass, Zeitdruck am Morgen. Dieser Guide unterstützt das Rezept [Pączki](/de/rezepte/paczki) und den Kulturartikel [Tłusty Czwartek](/de/blog/tlusty-czwartek) — ohne Mengen zu duplizieren, ohne Fake-Lab-Theater und ohne den Anlass-Artikel zu überlagern.
 
-## Was dieser Pillar ist (und was nicht)
+## Worum es hier geht
 
-Hier geht es um **Hefetechnik und Frittieren für polnische Pączki**: Teigführung, Gehen, Formen, Füllen, Fett-Temperatur, Glasur oder Zucker, typische Fehler, Einkauf in DE und ein ruhiger Ablauf. Das Rezept bleibt Owner für „Pączki Rezept“ mit Grammzahlen und Schritten. [Tłusty Czwartek](/de/blog/tlusty-czwartek) bleibt Owner für Anlass, Kultur und Maß — nicht für Koch-Intent. [Faworki-Technik](/de/blog/faworki-technik) bleibt Owner für dünnes ausgebackenes Fettgebäck — verwandt als Festtagsbacken, andere Methode.
+Hier geht es um **Hefetechnik und Frittieren für polnische Pączki**: Teigführung, Gehen, Formen, Füllen, Fett-Temperatur, Glasur oder Zucker, typische Fehler, Einkauf in DE und ein ruhiger Ablauf. Mengen und Schritte stehen im Rezept. [Tłusty Czwartek](/de/blog/tlusty-czwartek) bleibt der Artikel für Anlass, Kultur und Maß. Für dünnes Fettgebäck hilft die [Faworki-Technik](/de/blog/faworki-technik) — verwandt als Festtagsbacken, andere Methode.
 
-Pączki sind kein deutscher Berliner und kein Krapfen-Klischee: Es ist ein **weicher Hefeteig**, oft mit Rose, Pflaume oder anderen Hausfüllungen, außen gold, innen luftig, nach dem Braten gezuckert oder leicht glasiert. Wer nur „etwas Süßes mit Hefe“ sucht, landet leicht bei Racuchy — schmeckt, ist aber Pfanne statt Fritteuse und ein anderes Keyword.
+Pączki sind kein deutscher Berliner und kein Krapfen-Klischee: Es ist ein **weicher Hefeteig**, oft mit Rose, Pflaume oder anderen Hausfüllungen, außen gold, innen luftig, nach dem Braten gezuckert oder leicht glasiert. Wer nur „etwas Süßes mit Hefe“ sucht, landet leicht bei Racuchy — schmeckt, ist aber Pfanne statt Fritteuse und ein anderes Gericht.
 
-## Ownership klar halten
+## Was wohin gehört
 
 - **Anlass / Kultur:** [Tłusty Czwartek](/de/blog/tlusty-czwartek) — Tag, Kaufen vs. Backen, Teilen, Maß
-- **Technik Pączki:** dieser Pillar — Hefe, Füllung, Fett
-- **Cook-Intent:** [Pączki-Rezept](/de/rezepte/paczki) — Mengen und Schritte
+- **Technik Pączki:** dieser Guide — Hefe, Füllung, Fett
+- **Kochrezept:** [Pączki-Rezept](/de/rezepte/paczki) — Mengen und Schritte
 - **Faworki:** [Technik](/de/blog/faworki-technik) + [Rezept](/de/rezepte/faworki) — Chrust, nicht Krapfen
 - **Hefeverwandtschaft Ofen:** [Makowiec-Technik](/de/blog/makowiec-technik) — Hefe und Geduld, aber Backofen statt Fettbad
 
-Primary-Keywords bleiben getrennt. Andere Seiten verlinken beschreibend.
+Jeder Link führt zu einem eigenen Thema — Technik, Rezept oder Anlass.
 
 ## Hefeteig: Wärme, Ruhe, Gefühl
 
@@ -52,7 +52,7 @@ Zu kaltes Fett, zu nasse Füllung, zu viel Mehl, Hefe mit heißer Milch abgetöt
 
 ## Einkaufen in Deutschland
 
-Liste nach Charakter: Mehl Type 405 oder 550, Frisch- oder Trockenhefe, Milch, Butter, Eier, Zucker, Füllung, Frittieröl oder Schmalz, Puderzucker. [Polenladen](/de/blog/polenladen-einkaufen) für Rosenmarmelade und Feiertagszutaten. Supermarkt für Basis. Ersatz: [Zutaten ersetzen](/de/blog/ersatzprodukte-de). Gekaufte Pączki aus einer guten Bäckerei sind legitim — dieser Pillar ist für Selbstmachen, nicht gegen Kaufen.
+Liste nach Charakter: Mehl Type 405 oder 550, Frisch- oder Trockenhefe, Milch, Butter, Eier, Zucker, Füllung, Frittieröl oder Schmalz, Puderzucker. [Polenladen](/de/blog/polenladen-einkaufen) für Rosenmarmelade und Feiertagszutaten. Supermarkt für Basis. Ersatz: [Zutaten ersetzen](/de/blog/ersatzprodukte-de). Gekaufte Pączki aus einer guten Bäckerei sind legitim — dieser Guide ist für Selbstmachen, nicht gegen Kaufen.
 
 Werkzeug: großer Topf oder Fritteuse, Schaumlöffel, Thermometer hilfreich aber nicht Pflicht, Backpapier/Tücher zum Gehen. Keine Pflicht-Teigmaschine — hilft bei großen Mengen.
 
@@ -74,7 +74,7 @@ Meist zu kaltes Fett oder zu dichtes Gehen. Hitze prüfen, Chargen verkleinern, 
 
 ### Berliner oder Pączki — ist das dasselbe?
 
-Verwandt in der Idee, anders in Füllung, Teigkultur und Keyword. Dieser Pillar meint polnische Pączki — nicht den deutschen Berliner als Primary.
+Verwandt in der Idee, anders in Füllung, Teigkultur und Keyword. Dieser Guide meint polnische Pączki — nicht den deutschen Berliner.
 
 ### Können wir Pączki im Ofen backen?
 
@@ -86,7 +86,7 @@ Abgedeckt einige Stunden bis über Nacht. Vor dem Formen temperieren. Fertige P�
 
 ### Was ist der Unterschied zu Faworki?
 
-Faworki sind dünn, ungefüllt, sofort knusprig; Pączki sind weich, gefüllt, hefig. Technik und Primary bleiben getrennt — siehe [Faworki-Technik](/de/blog/faworki-technik).
+Faworki sind dünn, ungefüllt, sofort knusprig; Pączki sind weich, gefüllt, hefig. Technik und Rezept bleiben getrennt — siehe [Faworki-Technik](/de/blog/faworki-technik).
 
 ### Wo stehen die genauen Mengen?
 
@@ -117,7 +117,7 @@ In der Praxis zählt Wiederholung mehr als Perfektion beim ersten Mal: dieselbe 
 
 Für Haushalte in Deutschland bleibt der Polenladen der gezielte Stopp für Füllung und Feiertagszutaten, nicht für jedes Gramm Mehl. Supermarkt für Basis, Spezialität dort, wo sie den Charakter trägt.
 
-Interne Links auf Alemniam sind bewusst gesetzt: Guides für Technik und Anlass, Rezepte für Mengen und Schritte. Eine Primary-Keyword-URL bleibt Owner — andere Seiten verlinken beschreibend, ohne denselben Intent zu klaue.
+Guides vertiefen Technik und Anlass; unter den Rezepten stehen Mengen und Schritte. Die Links führen dorthin, wo du als Nächstes weiterkochen willst — ohne denselben Text noch einmal zu wiederholen.
 
 Wer den süßen Teil von Tłusty Czwartek entlasten will, plant bewusst: Teig früher, Fett später, Gäste mit Kaffee statt mit Leistungsdruck. Der Geruch beim Gehen reicht als Vorfreude; am Tisch zählt Teilen mehr als Perfektion der Glasur.
 

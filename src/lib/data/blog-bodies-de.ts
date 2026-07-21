@@ -26,7 +26,7 @@ Vermeiden wir Produkte, die extrem weich wirken, wässrig abtropfen oder nach k�
 
 Für Meal Prep schneiden wir Kielbasa in Scheiben, braten sie mit Zwiebel und Paprika und portionieren sie für die Woche. Dazu passen Kartoffeln, Kasza oder ein einfacher Salat. So bleibt polnische Hausmannskost alltagstauglich – ruhig, modern, ohne Show. Wer daraus einen richtigen Paprika-Tomaten-Eintopf machen will (Gemüse-dominant, klar ≠ Gulasz wieprzowy), geht zum Cook [Leczo](/de/rezepte/leczo).
 
-Kaszanka aus dem Polenladen ist ein eigener Cook-Intent: gebraten mit Zwiebel nach dem [Kaszanka-Rezept](/de/rezepte/kaszanka). Arten, Qualitätslesen und Einsatz in Żurek/Bigos bleiben im [Kiełbasa-Arten-Guide](/de/blog/kielbasa-arten).
+Kaszanka aus dem Polenladen ist ein eigener Kochrezept: gebraten mit Zwiebel nach dem [Kaszanka-Rezept](/de/rezepte/kaszanka). Arten, Qualitätslesen und Einsatz in Żurek/Bigos bleiben im [Kiełbasa-Arten-Guide](/de/blog/kielbasa-arten).
 
 ## Twaróg, Kapusta, Zakwas: die drei Säulen
 
@@ -431,7 +431,7 @@ Süße Variante bleibt alltagstauglich ohne Kitsch: gute Butter in der Pfanne, f
 
 ## Makaron z serem: Quark über Nudeln
 
-Wenn Twaróg nicht in Teig oder Füllung soll, sondern über heiße Pasta: [Makaron z serem](/de/rezepte/makaron-z-serem) — Butter, abgeseihter Quark, Zucker oder salzig-haushaltlich. Das ist kein [Pierogi leniwe](/de/rezepte/pierogi-leniwe)-Teig und kein [Łazanki](/de/rezepte/lazanki)-Kapusta-Teller. Zutaten-Owner bleibt dieser Guide; das Rezept bleibt Cook-Intent.
+Wenn Twaróg nicht in Teig oder Füllung soll, sondern über heiße Pasta: [Makaron z serem](/de/rezepte/makaron-z-serem) — Butter, abgeseihter Quark, Zucker oder salzig-haushaltlich. Das ist kein [Pierogi leniwe](/de/rezepte/pierogi-leniwe)-Teig und kein [Łazanki](/de/rezepte/lazanki)-Kapusta-Teller. Einkauf und Konsistenz bleiben in diesem Guide; Mengen und Schritte stehen im Rezept.
 
 ## Polenladen vs. Supermarkt: Entscheidungshilfe
 
@@ -502,12 +502,12 @@ Traditionell symbolisieren zwölf Speisen Fülle und den Jahreskreis. In der Pra
 1. [Barszcz](/de/rezepte/barszcz-czerwony) mit [Uszka](/de/rezepte/uszka) oder zu Kraut-Pilz-Pierogi
 2. Pierogi mit Kapusta und Pilzen
 3. Fisch nach Familie ([Karp](/de/rezepte/karp), [Ryba po grecku](/de/rezepte/ryba-po-grecku) als kalte Filet-Sauce-Linie, [Śledź](/de/rezepte/sledz), oder moderne Alternative)
-4. [Śledź](/de/rezepte/sledz) in Öl — oder cremig als [Sałatka śledziowa](/de/rezepte/salatka-sledziowa) (Mayo-Salat ≠ Öl-Filets; Speiseplan bleibt Anlass-Owner)
-5. [Kompot z suszu](/de/rezepte/kompot-z-suszu) — Trockenobstkompot (Getränk-Primary; Speiseplan bleibt Anlass-Owner)
+4. [Śledź](/de/rezepte/sledz) in Öl — oder cremig als [Sałatka śledziowa](/de/rezepte/salatka-sledziowa) (Mayo-Salat ≠ Öl-Filets; Speiseplan bleibt Anlass-Artikel)
+5. [Kompot z suszu](/de/rezepte/kompot-z-suszu) — Trockenobstkompot (Getränk; Speiseplan bleibt Anlass-Artikel)
 6. Mohnspeise — Cook oft [Makaron z makiem](/de/rezepte/makaron-z-makiem) (Nudeln+Mohn, ≠ Rolle) — oder [Makowiec](/de/rezepte/makowiec); alternativ [Sernik](/de/rezepte/sernik) oder Honig-Gewürz-[Piernik](/de/rezepte/piernik)
 7. Krautsalat oder warme Kapusta
-8. Pilze in Sahne oder als Beilage — alternativ klare [Zupa grzybowa](/de/rezepte/zupa-grzybowa) als eigener Cook (≠ Barszcz-Primary; Speiseplan bleibt Anlass-Owner)
-9. [Kutia](/de/rezepte/kutia) — Weizenkörner+Mohn+Honig (≠ Nudeln/[Makaron z makiem](/de/rezepte/makaron-z-makiem); Speiseplan bleibt Anlass-Owner); alternativ gestärkte Fruchtcreme [Kisiel](/de/rezepte/kisiel) (≠ Kompot; Speiseplan bleibt Anlass-Owner)
+8. Pilze in Sahne oder als Beilage — alternativ klare [Zupa grzybowa](/de/rezepte/zupa-grzybowa) als eigenes Rezept (kein Barszcz; Speiseplan bleibt Anlass-Artikel)
+9. [Kutia](/de/rezepte/kutia) — Weizenkörner+Mohn+Honig (≠ Nudeln/[Makaron z makiem](/de/rezepte/makaron-z-makiem); Speiseplan bleibt Anlass-Artikel); alternativ gestärkte Fruchtcreme [Kisiel](/de/rezepte/kisiel) (≠ Kompot; Speiseplan bleibt Anlass-Artikel)
 10. Gemüsebraten / Fischfrikadellen als praktische Variante
 11. Brot und Butter zum Teilen
 12. Etwas Süßes zum Abschluss
