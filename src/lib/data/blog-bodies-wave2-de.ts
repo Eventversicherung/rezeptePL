@@ -122,27 +122,27 @@ Zwei Personen: 40–50 Stück/2 Wochen. Vier Personen: 70–90. Wigilia nach Gä
 
 ### Müssen wir vorkochen vor dem Einfrieren?
 
-Nein – roh ist für Qualität meist besser. Vorkochen lohnt vor allem für Reste. Roh gefrorene Pierogi garen gleichmäßiger. Füllung kalt, Nähte dicht, einzeln anfrieren. Eine Pilotcharge von zehn Stück eine Woche später testen, bevor wir große Mengen riskieren. Wir bleiben dabei praxisnah und vermeiden Extreme. Notizen aus dem eigenen Haushalt helfen mehr als starre Regeln. So bleibt die Entscheidung wiederholbar und alltagstauglich. Qualität und Klarheit haben Vorrang vor Impuls und Optik. Das gilt besonders für volle Wochen und gemischte Tische der Diaspora. Wir bleiben dabei praxisnah und vermeiden Extreme.
+Nein – roh ist für Qualität meist besser. Vorkochen lohnt vor allem für Reste. Roh gefrorene Pierogi garen gleichmäßiger. Füllung kalt, Nähte dicht, einzeln anfrieren. Eine Pilotcharge von zehn Stück eine Woche später testen, bevor wir große Mengen riskieren.
 
 ### Wie lange halten sie?
 
-Für beste Textur zwei bis drei Monate bei sauberer Verpackung und stabiler Temperatur. Länger oft essbar, aber flacher. Datum schreiben, FIFO nutzen. Bei Reif, Fremdgeruch oder defekter Verpackung entsorgen. Lagerlogik: bzfe.de. Wir bleiben dabei praxisnah und vermeiden Extreme. Notizen aus dem eigenen Haushalt helfen mehr als starre Regeln. So bleibt die Entscheidung wiederholbar und alltagstauglich. Qualität und Klarheit haben Vorrang vor Impuls und Optik. Das gilt besonders für volle Wochen und gemischte Tische der Diaspora. Wir bleiben dabei praxisnah und vermeiden Extreme. Notizen aus dem eigenen Haushalt helfen mehr als starre Regeln.
+Für beste Textur zwei bis drei Monate bei sauberer Verpackung und stabiler Temperatur. Länger oft essbar, aber flacher. Datum schreiben, FIFO nutzen. Bei Reif, Fremdgeruch oder defekter Verpackung entsorgen. Lagerlogik: bzfe.de.
 
 ### Verschiedene Füllungen in einem Beutel?
 
-Besser getrennt – wegen Allergien, Fleisch/Vegetarisch und Stress am Herd. Kleine beschriftete Beutel schlagen einen Mischblock. Vor Festtagen greifen wir sonst falsch zur Charge. Wir bleiben dabei praxisnah und vermeiden Extreme. Notizen aus dem eigenen Haushalt helfen mehr als starre Regeln. So bleibt die Entscheidung wiederholbar und alltagstauglich. Qualität und Klarheit haben Vorrang vor Impuls und Optik. Das gilt besonders für volle Wochen und gemischte Tische der Diaspora. Wir bleiben dabei praxisnah und vermeiden Extreme. Notizen aus dem eigenen Haushalt helfen mehr als starre Regeln.
+Besser getrennt – wegen Allergien, Fleisch/Vegetarisch und Stress am Herd. Kleine beschriftete Beutel schlagen einen Mischblock. Vor Festtagen greifen wir sonst falsch zur Charge.
 
 ### Warum platzen Freezer-Pierogi?
 
-Nasse Füllung, schlechte Naht, wildes Wasser oder überfüllter Topf. Naht vor dem Einfrieren prüfen, Chargen klein halten, Wasser nur leicht kochen lassen. Zu dünner Teig reißt nach Frost leichter. Technik: Pierogi-Teig Guide. Wir bleiben dabei praxisnah und vermeiden Extreme. Notizen aus dem eigenen Haushalt helfen mehr als starre Regeln. So bleibt die Entscheidung wiederholbar und alltagstauglich. Qualität und Klarheit haben Vorrang vor Impuls und Optik. Das gilt besonders für volle Wochen und gemischte Tische der Diaspora. Wir bleiben dabei praxisnah und vermeiden Extreme. Notizen aus dem eigenen Haushalt helfen mehr als starre Regeln.
+Nasse Füllung, schlechte Naht, wildes Wasser oder überfüllter Topf. Naht vor dem Einfrieren prüfen, Chargen klein halten, Wasser nur leicht kochen lassen. Zu dünner Teig reißt nach Frost leichter. Technik: Pierogi-Teig Guide.
 
 ### Ist Vakuumieren nötig?
 
-Nein. Gut entlüftete Beutel oder Boxen reichen. Vakuum kann Gefrierbrand mindern, ersetzt aber weder Anfrieren noch Beschriftung. Nicht weiche, noch nicht harte Pierogi unter starkem Druck vakuumieren. Wir bleiben dabei praxisnah und vermeiden Extreme. Notizen aus dem eigenen Haushalt helfen mehr als starre Regeln. So bleibt die Entscheidung wiederholbar und alltagstauglich. Qualität und Klarheit haben Vorrang vor Impuls und Optik. Das gilt besonders für volle Wochen und gemischte Tische der Diaspora. Wir bleiben dabei praxisnah und vermeiden Extreme. Notizen aus dem eigenen Haushalt helfen mehr als starre Regeln.
+Nein. Gut entlüftete Beutel oder Boxen reichen. Vakuum kann Gefrierbrand mindern, ersetzt aber weder Anfrieren noch Beschriftung. Nicht weiche, noch nicht harte Pierogi unter starkem Druck vakuumieren.
 
 ### Wie ins Wochenmenü einbauen?
 
-Ein Batch am Wochenende, zwei bis drei schnelle Mahlzeiten unter der Woche, einfache Beilagen. Vor Wigilia separate Kraut-Pilz-Charge. So bleibt Hausküche neben Job und Schule machbar – ohne jeden Abend neu zu teigen. Wir bleiben dabei praxisnah und vermeiden Extreme. Notizen aus dem eigenen Haushalt helfen mehr als starre Regeln. So bleibt die Entscheidung wiederholbar und alltagstauglich. Qualität und Klarheit haben Vorrang vor Impuls und Optik. Das gilt besonders für volle Wochen und gemischte Tische der Diaspora. Wir bleiben dabei praxisnah und vermeiden Extreme. Notizen aus dem eigenen Haushalt helfen mehr als starre Regeln.
+Ein Batch am Wochenende, zwei bis drei schnelle Mahlzeiten unter der Woche, einfache Beilagen. Vor Wigilia separate Kraut-Pilz-Charge. So bleibt Hausküche neben Job und Schule machbar – ohne jeden Abend neu zu teigen.
 
 ## Gefrierbrand verstehen
 
@@ -152,33 +152,6 @@ Gefrierbrand kommt von Luft und Temperaturschwankungen. Oberflächen werden stum
 
 Nicht nur „Pierogi“, sondern Füllung, Datum, Stückzahl und ggf. „scharf/mild“. Masking Tape auf Beutel hält. Unklare Boxen erzeugen Food Waste – das Gegenteil von Meal Prep.
 
-## Gefrierbrand verstehen
-
-Gefrierbrand kommt von Luft und Temperaturschwankungen. Oberflächen werden stumpf und trocken. Beutel flach drücken, Freezer nicht unnötig öffnen, schnell anfrieren. Stark betroffenen Chargen eher für Alltag als für Gäste nutzen.
-
-## Beschriftung, die wirklich hilft
-
-Nicht nur „Pierogi“, sondern Füllung, Datum, Stückzahl und ggf. „scharf/mild“. Masking Tape auf Beutel hält. Unklare Boxen erzeugen Food Waste – das Gegenteil von Meal Prep.
-
-## Gefrierbrand verstehen
-
-Gefrierbrand kommt von Luft und Temperaturschwankungen. Oberflächen werden stumpf und trocken. Beutel flach drücken, Freezer nicht unnötig öffnen, schnell anfrieren. Stark betroffenen Chargen eher für Alltag als für Gäste nutzen.
-
-## Beschriftung, die wirklich hilft
-
-Nicht nur „Pierogi“, sondern Füllung, Datum, Stückzahl und ggf. „scharf/mild“. Masking Tape auf Beutel hält. Unklare Boxen erzeugen Food Waste – das Gegenteil von Meal Prep.
-
-## Gefrierbrand verstehen
-
-Gefrierbrand kommt von Luft und Temperaturschwankungen. Oberflächen werden stumpf und trocken. Beutel flach drücken, Freezer nicht unnötig öffnen, schnell anfrieren. Stark betroffenen Chargen eher für Alltag als für Gäste nutzen.
-
-## Beschriftung, die wirklich hilft
-
-Nicht nur „Pierogi“, sondern Füllung, Datum, Stückzahl und ggf. „scharf/mild“. Masking Tape auf Beutel hält. Unklare Boxen erzeugen Food Waste – das Gegenteil von Meal Prep.
-
-## Gefrierbrand verstehen
-
-Gefrierbrand kommt von Luft und Temperaturschwankungen. Oberflächen werden stumpf und trocken. Beutel flach drücken, Freezer nicht unnötig öffnen, schnell anfrieren. Stark betroffenen Chargen eher für Alltag als für Gäste nutzen.
 `;
 
 export const bodyPierogiFormenDe = `
@@ -248,27 +221,27 @@ Kriterien > Markenliebe. Keine Fake-Rankings hier. Spätere Tests folgen einheit
 
 ### Brauchen wir wirklich eine Form?
 
-Nein. Glas und Hand reichen für gute Pierogi. Formen lohnen bei Frequent Batching und Größenwunsch. Erst Teigtechnik lernen, dann Werkzeug – sonst multipliziert die Form nur ungenaue Stücke. Wir bleiben praxisnah und kauffaul nur wenn sinnvoll. Kriterien schlagen Hochglanzfotos. Notizen aus dem eigenen Haushalt helfen. Klarheit vor Impulskauf. Garantie und Ersatzteile mitdenken. Wir bleiben praxisnah und kauffaul nur wenn sinnvoll. Kriterien schlagen Hochglanzfotos. Notizen aus dem eigenen Haushalt helfen. Klarheit vor Impulskauf. Garantie und Ersatzteile mitdenken. Wir bleiben praxisnah und kauffaul nur wenn sinnvoll. Kriterien schlagen Hochglanzfotos. Notizen aus dem eigenen Haushalt helfen.
+Nein. Glas und Hand reichen für gute Pierogi. Formen lohnen bei Frequent Batching und Größenwunsch. Erst Teigtechnik lernen, dann Werkzeug – sonst multipliziert die Form nur ungenaue Stücke.
 
 ### Welcher Durchmesser für Ruskie?
 
-Häufig 7–9 cm Rohkreis, je nach gewünschter Endgröße und Füllmenge. Zu klein frustriert bei Kartoffel-Quark; zu groß wird schwer zu schließen. Pilotcharge ohne Großinvest testen. Wir bleiben praxisnah und kauffaul nur wenn sinnvoll. Kriterien schlagen Hochglanzfotos. Notizen aus dem eigenen Haushalt helfen. Klarheit vor Impulskauf. Garantie und Ersatzteile mitdenken. Wir bleiben praxisnah und kauffaul nur wenn sinnvoll. Kriterien schlagen Hochglanzfotos. Notizen aus dem eigenen Haushalt helfen. Klarheit vor Impulskauf. Garantie und Ersatzteile mitdenken. Wir bleiben praxisnah und kauffaul nur wenn sinnvoll. Kriterien schlagen Hochglanzfotos. Notizen aus dem eigenen Haushalt helfen.
+Häufig 7–9 cm Rohkreis, je nach gewünschter Endgröße und Füllmenge. Zu klein frustriert bei Kartoffel-Quark; zu groß wird schwer zu schließen. Pilotcharge ohne Großinvest testen.
 
 ### Presse oder nur Ausstecher?
 
-Ausstecher zuerst. Presse nur wenn Teig und Füllung konstant sind und Reinigung tragbar bleibt. Viele Haushalte sind mit Ausstecher plus Handnaht schneller und zuverlässiger. Wir bleiben praxisnah und kauffaul nur wenn sinnvoll. Kriterien schlagen Hochglanzfotos. Notizen aus dem eigenen Haushalt helfen. Klarheit vor Impulskauf. Garantie und Ersatzteile mitdenken. Wir bleiben praxisnah und kauffaul nur wenn sinnvoll. Kriterien schlagen Hochglanzfotos. Notizen aus dem eigenen Haushalt helfen. Klarheit vor Impulskauf. Garantie und Ersatzteile mitdenken. Wir bleiben praxisnah und kauffaul nur wenn sinnvoll. Kriterien schlagen Hochglanzfotos. Notizen aus dem eigenen Haushalt helfen. Klarheit vor Impulskauf.
+Ausstecher zuerst. Presse nur wenn Teig und Füllung konstant sind und Reinigung tragbar bleibt. Viele Haushalte sind mit Ausstecher plus Handnaht schneller und zuverlässiger.
 
 ### Metall oder Kunststoff?
 
-Metall oft langlebiger und präziser im Schnitt; Kunststoff leichter und günstiger. Kantenqualität und Reinigung entscheiden mehr als Materialdogma. Scharfe Grate meiden. Wir bleiben praxisnah und kauffaul nur wenn sinnvoll. Kriterien schlagen Hochglanzfotos. Notizen aus dem eigenen Haushalt helfen. Klarheit vor Impulskauf. Garantie und Ersatzteile mitdenken. Wir bleiben praxisnah und kauffaul nur wenn sinnvoll. Kriterien schlagen Hochglanzfotos. Notizen aus dem eigenen Haushalt helfen. Klarheit vor Impulskauf. Garantie und Ersatzteile mitdenken. Wir bleiben praxisnah und kauffaul nur wenn sinnvoll. Kriterien schlagen Hochglanzfotos. Notizen aus dem eigenen Haushalt helfen. Klarheit vor Impulskauf. Garantie und Ersatzteile mitdenken.
+Metall oft langlebiger und präziser im Schnitt; Kunststoff leichter und günstiger. Kantenqualität und Reinigung entscheiden mehr als Materialdogma. Scharfe Grate meiden.
 
 ### Hilft die Form bei Wigilia?
 
-Ja für Tempo und Einheitlichkeit, wenn mehrere Personen ausstechen. Sie ersetzt keine Füllarbeit. Parallelstationen und Freezer entlasten mehr als ein teures Einzelgerät. Wir bleiben praxisnah und kauffaul nur wenn sinnvoll. Kriterien schlagen Hochglanzfotos. Notizen aus dem eigenen Haushalt helfen. Klarheit vor Impulskauf. Garantie und Ersatzteile mitdenken. Wir bleiben praxisnah und kauffaul nur wenn sinnvoll. Kriterien schlagen Hochglanzfotos. Notizen aus dem eigenen Haushalt helfen. Klarheit vor Impulskauf. Garantie und Ersatzteile mitdenken. Wir bleiben praxisnah und kauffaul nur wenn sinnvoll. Kriterien schlagen Hochglanzfotos. Notizen aus dem eigenen Haushalt helfen. Klarheit vor Impulskauf.
+Ja für Tempo und Einheitlichkeit, wenn mehrere Personen ausstechen. Sie ersetzt keine Füllarbeit. Parallelstationen und Freezer entlasten mehr als ein teures Einzelgerät.
 
 ### Was statt teurer Form?
 
-Glas, scharfes Messer für Quadrate/Varianten, gutes Nudelholz, Twaróg-Qualität, Teigruhe. Geld in Zutaten und Übung oft höherer ROI als Impulskauf vor dem Fest. Wir bleiben praxisnah und kauffaul nur wenn sinnvoll. Kriterien schlagen Hochglanzfotos. Notizen aus dem eigenen Haushalt helfen. Klarheit vor Impulskauf. Garantie und Ersatzteile mitdenken. Wir bleiben praxisnah und kauffaul nur wenn sinnvoll. Kriterien schlagen Hochglanzfotos. Notizen aus dem eigenen Haushalt helfen. Klarheit vor Impulskauf. Garantie und Ersatzteile mitdenken. Wir bleiben praxisnah und kauffaul nur wenn sinnvoll. Kriterien schlagen Hochglanzfotos. Notizen aus dem eigenen Haushalt helfen. Klarheit vor Impulskauf.
+Glas, scharfes Messer für Quadrate/Varianten, gutes Nudelholz, Twaróg-Qualität, Teigruhe. Geld in Zutaten und Übung oft höherer ROI als Impulskauf vor dem Fest.
 
 ## Form und Füllmenge kalibrieren
 
@@ -282,65 +255,6 @@ Stoppuhr nach dem Batch: Minuten für Form vs. Minuten für Handfalten-Differenz
 
 Zwei Größen brauchen zwei Werkzeuge oder bewusste Kompromisse. Für Festtags-Uszka kleine Ausstecher bereithalten; Alltags-Ruskie nicht in Mini zwängen.
 
-## Form und Füllmenge kalibrieren
-
-Wir notieren: Durchmesser, Teigdicke, Löffelgröße Füllung, Platzerquote. Nach zwei Sessions sitzt das Hausmaß. Ohne Notizen kaufen wir die nächste Form „ins Blaue“.
-
-## Reinigungszeit ehrlich messen
-
-Stoppuhr nach dem Batch: Minuten für Form vs. Minuten für Handfalten-Differenz. Wenn netto keine Stunde pro Monat spart, ist die Form Komfort – kein Muss. Komfort darf man kaufen, aber bewusst.
-
-## Uszka vs. große Pierogi
-
-Zwei Größen brauchen zwei Werkzeuge oder bewusste Kompromisse. Für Festtags-Uszka kleine Ausstecher bereithalten; Alltags-Ruskie nicht in Mini zwängen.
-
-## Form und Füllmenge kalibrieren
-
-Wir notieren: Durchmesser, Teigdicke, Löffelgröße Füllung, Platzerquote. Nach zwei Sessions sitzt das Hausmaß. Ohne Notizen kaufen wir die nächste Form „ins Blaue“.
-
-## Reinigungszeit ehrlich messen
-
-Stoppuhr nach dem Batch: Minuten für Form vs. Minuten für Handfalten-Differenz. Wenn netto keine Stunde pro Monat spart, ist die Form Komfort – kein Muss. Komfort darf man kaufen, aber bewusst.
-
-## Uszka vs. große Pierogi
-
-Zwei Größen brauchen zwei Werkzeuge oder bewusste Kompromisse. Für Festtags-Uszka kleine Ausstecher bereithalten; Alltags-Ruskie nicht in Mini zwängen.
-
-## Form und Füllmenge kalibrieren
-
-Wir notieren: Durchmesser, Teigdicke, Löffelgröße Füllung, Platzerquote. Nach zwei Sessions sitzt das Hausmaß. Ohne Notizen kaufen wir die nächste Form „ins Blaue“.
-
-## Reinigungszeit ehrlich messen
-
-Stoppuhr nach dem Batch: Minuten für Form vs. Minuten für Handfalten-Differenz. Wenn netto keine Stunde pro Monat spart, ist die Form Komfort – kein Muss. Komfort darf man kaufen, aber bewusst.
-
-## Uszka vs. große Pierogi
-
-Zwei Größen brauchen zwei Werkzeuge oder bewusste Kompromisse. Für Festtags-Uszka kleine Ausstecher bereithalten; Alltags-Ruskie nicht in Mini zwängen.
-
-## Form und Füllmenge kalibrieren
-
-Wir notieren: Durchmesser, Teigdicke, Löffelgröße Füllung, Platzerquote. Nach zwei Sessions sitzt das Hausmaß. Ohne Notizen kaufen wir die nächste Form „ins Blaue“.
-
-## Reinigungszeit ehrlich messen
-
-Stoppuhr nach dem Batch: Minuten für Form vs. Minuten für Handfalten-Differenz. Wenn netto keine Stunde pro Monat spart, ist die Form Komfort – kein Muss. Komfort darf man kaufen, aber bewusst.
-
-## Uszka vs. große Pierogi
-
-Zwei Größen brauchen zwei Werkzeuge oder bewusste Kompromisse. Für Festtags-Uszka kleine Ausstecher bereithalten; Alltags-Ruskie nicht in Mini zwängen.
-
-## Form und Füllmenge kalibrieren
-
-Wir notieren: Durchmesser, Teigdicke, Löffelgröße Füllung, Platzerquote. Nach zwei Sessions sitzt das Hausmaß. Ohne Notizen kaufen wir die nächste Form „ins Blaue“.
-
-## Reinigungszeit ehrlich messen
-
-Stoppuhr nach dem Batch: Minuten für Form vs. Minuten für Handfalten-Differenz. Wenn netto keine Stunde pro Monat spart, ist die Form Komfort – kein Muss. Komfort darf man kaufen, aber bewusst.
-
-## Uszka vs. große Pierogi
-
-Zwei Größen brauchen zwei Werkzeuge oder bewusste Kompromisse. Für Festtags-Uszka kleine Ausstecher bereithalten; Alltags-Ruskie nicht in Mini zwängen.
 `;
 
 export const bodyPolnischeSuppenDe = `
@@ -352,31 +266,31 @@ Polnische Suppen leben von Brühe, Säure, Gemüse und Geduld – nicht von Schw
 
 ## Flaki (Kuttelsuppe)
 
-Wenn der Topf deftige Einlage und Majeranek will — nicht Rote Bete, nicht Zakwas, nicht Kiszone-Gurke: [Flaki](/de/rezepte/flaki). Cook-Primary liegt auf der Rezept-URL; dieser Overview bleibt Broad-Owner für die Suppen-Landschaft.
+Wenn der Topf deftige Einlage und Majeranek will — nicht Rote Bete, nicht Zakwas, nicht Kiszone-Gurke: [Flaki](/de/rezepte/flaki). Mengen und Schritte stehen im Rezept; hier bleibt der Überblick über die Suppen-Landschaft.
 
 ## Alltag: Zupa pomidorowa
 
-**Zupa pomidorowa** — polnische Tomatensuppe mit Reis oder Nudeln und Śmietana — ist Alltagsküche aus oft Rosół-Resten, kein Festtags-Barszcz und keine Kiszone-Ogórkowa. Cook-Rezept: [Zupa pomidorowa](/de/rezepte/zupa-pomidorowa). Dieser Überblick bleibt Broad-Owner; die Money Page trägt nur den Tomaten-Teller.
+**Zupa pomidorowa** — polnische Tomatensuppe mit Reis oder Nudeln und Śmietana — ist Alltagsküche aus oft Rosół-Resten, kein Festtags-Barszcz und keine Kiszone-Ogórkowa. Rezept: [Zupa pomidorowa](/de/rezepte/zupa-pomidorowa). Hier bleibt der Überblick; Mengen und Schritte stehen dort.
 
 ## Herbst / Wigilia: Zupa grzybowa
 
-**Zupa grzybowa** — klare Pilzsuppe aus Trockenpilzen — ist eigener Cook-Primary (Wald/Fond), nicht Rote Bete und nicht Kutteln. Rezept: [Zupa grzybowa](/de/rezepte/zupa-grzybowa). Dieser Überblick bleibt Broad-Owner.
+**Zupa grzybowa** — klare Pilzsuppe aus Trockenpilzen — ist die klare Pilzlinie (Wald/Fond), nicht Rote Bete und nicht Kutteln. Rezept: [Zupa grzybowa](/de/rezepte/zupa-grzybowa).
 
 ## Deftig: Grochówka
 
-**Grochówka** — Erbsensuppe mit oft Rauchwurst — ist Erbsen-Primary, nicht Bohnen-[Fasolka](/de/rezepte/fasolka-po-bretonsku) und nicht [Kapuśniak](/de/rezepte/kapusniak). Cook: [Grochówka](/de/rezepte/grochowka). Overview bleibt Broad.
+**Grochówka** — Erbsensuppe mit oft Rauchwurst — ist die Erbsenlinie, nicht Bohnen-[Fasolka](/de/rezepte/fasolka-po-bretonsku) und nicht [Kapuśniak](/de/rezepte/kapusniak). Rezept: [Grochówka](/de/rezepte/grochowka).
 
 ## Gerste: Krupnik
 
-**Krupnik** — Gerstensuppe mit Wurzelgemüse, optional Huhn — ist Gersten-Primary, nicht Erbsen-[Grochówka](/de/rezepte/grochowka) und nicht Pilz-[Zupa grzybowa](/de/rezepte/zupa-grzybowa). Cook: [Krupnik](/de/rezepte/krupnik). Overview bleibt Broad.
+**Krupnik** — Gerstensuppe mit Wurzelgemüse, optional Huhn — ist die Gerstenlinie, nicht Erbsen-[Grochówka](/de/rezepte/grochowka) und nicht Pilz-[Zupa grzybowa](/de/rezepte/zupa-grzybowa). Rezept: [Krupnik](/de/rezepte/krupnik).
 
 ## Grün / Saison: Szczawiowa
 
-**Zupa szczawiowa** — grüne Sauerampfersuppe mit oft Ei und Śmietana — ist Sauerampfer-Primary, nicht [Botwinka](/de/rezepte/botwinka), nicht [Ogórkowa](/de/rezepte/ogorkowa) und nicht kalter [Chłodnik](/de/rezepte/chlodnik-litewski). Cook: [Szczawiowa](/de/rezepte/szczawiowa). Overview bleibt Broad.
+**Zupa szczawiowa** — grüne Sauerampfersuppe mit oft Ei und Śmietana — ist die Sauerampferlinie, nicht [Botwinka](/de/rezepte/botwinka), nicht [Ogórkowa](/de/rezepte/ogorkowa) und nicht kalter [Chłodnik](/de/rezepte/chlodnik-litewski). Rezept: [Szczawiowa](/de/rezepte/szczawiowa).
 
 ## Dill: Zupa koperkowa
 
-**Zupa koperkowa** — helle Dillsuppe mit oft Kartoffeln, Śmietana und Ei — ist Dill-Primary, nicht [Rosół](/de/rezepte/rosol), nicht [Szczawiowa](/de/rezepte/szczawiowa) und nicht [Ogórkowa](/de/rezepte/ogorkowa). Cook: [Koperkowa](/de/rezepte/koperkowa). Overview bleibt Broad.
+**Zupa koperkowa** — helle Dillsuppe mit oft Kartoffeln, Śmietana und Ei — ist die Dilllinie, nicht [Rosół](/de/rezepte/rosol), nicht [Szczawiowa](/de/rezepte/szczawiowa) und nicht [Ogórkowa](/de/rezepte/ogorkowa). Rezept: [Koperkowa](/de/rezepte/koperkowa).
 
 ## Einkauf DE
 
@@ -434,79 +348,34 @@ Starke Suppe, ruhige Fortsetzung. Getränke einfach. Hunger planen, nicht Speise
 
 ### Beste Einsteiger-Suppe?
 
-Rosół: transparente Technik, frühe Fehlerbilder, wenig Spezialzutaten. Danach Zakwas/Żurek. Barszcz braucht Balance. Wer Rosół kann, hat Fond für viele Töpfe. Wir bleiben praxisnah und vermeiden Extreme. Eigene Notizen schlagen starre Regeln. So bleibt die Entscheidung wiederholbar. Klarheit hat Vorrang vor Impuls. Das hilft besonders in vollen Diaspora-Wochen. Wir bleiben praxisnah und vermeiden Extreme. Eigene Notizen schlagen starre Regeln. So bleibt die Entscheidung wiederholbar. Klarheit hat Vorrang vor Impuls. Das hilft besonders in vollen Diaspora-Wochen. Wir bleiben praxisnah und vermeiden Extreme. Eigene Notizen schlagen starre Regeln. So bleibt die Entscheidung wiederholbar.
+Rosół: transparente Technik, frühe Fehlerbilder, wenig Spezialzutaten. Danach Zakwas/Żurek. Barszcz braucht Balance. Wer Rosół kann, hat Fond für viele Töpfe.
 
 ### Zakwas ersetzen?
 
-Nicht mit Essig, wenn Żurek gemeint ist. Polenladen oder Selbstansatz. Andere Säuren = anderes Gericht. Lexikon und Rezept nutzen; Geruch muss frisch-getreideartig sauer sein. Wir bleiben praxisnah und vermeiden Extreme. Eigene Notizen schlagen starre Regeln. So bleibt die Entscheidung wiederholbar. Klarheit hat Vorrang vor Impuls. Das hilft besonders in vollen Diaspora-Wochen. Wir bleiben praxisnah und vermeiden Extreme. Eigene Notizen schlagen starre Regeln. So bleibt die Entscheidung wiederholbar. Klarheit hat Vorrang vor Impuls. Das hilft besonders in vollen Diaspora-Wochen. Wir bleiben praxisnah und vermeiden Extreme. Eigene Notizen schlagen starre Regeln.
+Nicht mit Essig, wenn Żurek gemeint ist. Polenladen oder Selbstansatz. Andere Säuren = anderes Gericht. Lexikon und Rezept nutzen; Geruch muss frisch-getreideartig sauer sein.
 
 ### Trübe Brühe vermeiden?
 
-Langsam erhitzen, schäumen, nicht sprudeln, vorsichtig seihen, Gemüse nicht zerkochen, Salz später. Trüb ≠ automatisch schlecht, aber Klarheit ist das Ziel klassischer Rosół-Technik. Wir bleiben praxisnah und vermeiden Extreme. Eigene Notizen schlagen starre Regeln. So bleibt die Entscheidung wiederholbar. Klarheit hat Vorrang vor Impuls. Das hilft besonders in vollen Diaspora-Wochen. Wir bleiben praxisnah und vermeiden Extreme. Eigene Notizen schlagen starre Regeln. So bleibt die Entscheidung wiederholbar. Klarheit hat Vorrang vor Impuls. Das hilft besonders in vollen Diaspora-Wochen. Wir bleiben praxisnah und vermeiden Extreme. Eigene Notizen schlagen starre Regeln.
+Langsam erhitzen, schäumen, nicht sprudeln, vorsichtig seihen, Gemüse nicht zerkochen, Salz später. Trüb ≠ automatisch schlecht, aber Klarheit ist das Ziel klassischer Rosół-Technik.
 
 ### Meal Prep mit Suppen?
 
-Brühe batchen/einfrieren, Einlagen separat, Milchprodukte beim Servieren. Żurek/Barszcz oft Vortag. Portionen beschriften. Freezer-Logik analog zu Pierogi. Wir bleiben praxisnah und vermeiden Extreme. Eigene Notizen schlagen starre Regeln. So bleibt die Entscheidung wiederholbar. Klarheit hat Vorrang vor Impuls. Das hilft besonders in vollen Diaspora-Wochen. Wir bleiben praxisnah und vermeiden Extreme. Eigene Notizen schlagen starre Regeln. So bleibt die Entscheidung wiederholbar. Klarheit hat Vorrang vor Impuls. Das hilft besonders in vollen Diaspora-Wochen. Wir bleiben praxisnah und vermeiden Extreme. Eigene Notizen schlagen starre Regeln. So bleibt die Entscheidung wiederholbar. Klarheit hat Vorrang vor Impuls.
+Brühe batchen/einfrieren, Einlagen separat, Milchprodukte beim Servieren. Żurek/Barszcz oft Vortag. Portionen beschriften. Freezer-Logik analog zu Pierogi.
 
 ### Barszcz oder Żurek zu Festen?
 
-Hausbrauch. Viele: Barszcz zu Wigilia; Żurek stark zu Ostern. Ehrlich planen statt fremde Listen erfüllen. Speisepläne Wigilia/Wielkanoc helfen. Wir bleiben praxisnah und vermeiden Extreme. Eigene Notizen schlagen starre Regeln. So bleibt die Entscheidung wiederholbar. Klarheit hat Vorrang vor Impuls. Das hilft besonders in vollen Diaspora-Wochen. Wir bleiben praxisnah und vermeiden Extreme. Eigene Notizen schlagen starre Regeln. So bleibt die Entscheidung wiederholbar. Klarheit hat Vorrang vor Impuls. Das hilft besonders in vollen Diaspora-Wochen. Wir bleiben praxisnah und vermeiden Extreme. Eigene Notizen schlagen starre Regeln. So bleibt die Entscheidung wiederholbar.
+Hausbrauch. Viele: Barszcz zu Wigilia; Żurek stark zu Ostern. Ehrlich planen statt fremde Listen erfüllen. Speisepläne Wigilia/Wielkanoc helfen.
 
 ### Beilage ohne Überfüllung?
 
-Wenig Nudeln oder Brot oft besser. Bei Żurek als Hauptsuppe dürfen Kartoffeln sättigen. Kinderportionen getrennt. Raum für weiteren Gang lassen. Wir bleiben praxisnah und vermeiden Extreme. Eigene Notizen schlagen starre Regeln. So bleibt die Entscheidung wiederholbar. Klarheit hat Vorrang vor Impuls. Das hilft besonders in vollen Diaspora-Wochen. Wir bleiben praxisnah und vermeiden Extreme. Eigene Notizen schlagen starre Regeln. So bleibt die Entscheidung wiederholbar. Klarheit hat Vorrang vor Impuls. Das hilft besonders in vollen Diaspora-Wochen. Wir bleiben praxisnah und vermeiden Extreme. Eigene Notizen schlagen starre Regeln. So bleibt die Entscheidung wiederholbar.
+Wenig Nudeln oder Brot oft besser. Bei Żurek als Hauptsuppe dürfen Kartoffeln sättigen. Kinderportionen getrennt. Raum für weiteren Gang lassen.
 
 ## Suppe als Wochenanker
-
-Wir entscheiden sonntags, welche Brühe die Woche trägt. Das reduziert Entscheidungsmüdigkeit und Food Waste. Ein Topf Struktur schlägt fünf spontane Ideensuppen, die halb aufgegessen im Kühlschrank landen.
 
 ## Salz und Reduktion
 
 Reduzierte Brühe salzt sich selbst nach oben. Deshalb gestaffelt würzen und nach dem Reduzieren erneut kosten. Besonders wichtig bei Freezer-Brühe, die später eingeengt wird.
 
-## Suppe als Wochenanker
-
-Wir entscheiden sonntags, welche Brühe die Woche trägt. Das reduziert Entscheidungsmüdigkeit und Food Waste. Ein Topf Struktur schlägt fünf spontane Ideensuppen, die halb aufgegessen im Kühlschrank landen.
-
-## Salz und Reduktion
-
-Reduzierte Brühe salzt sich selbst nach oben. Deshalb gestaffelt würzen und nach dem Reduzieren erneut kosten. Besonders wichtig bei Freezer-Brühe, die später eingeengt wird.
-
-## Suppe als Wochenanker
-
-Wir entscheiden sonntags, welche Brühe die Woche trägt. Das reduziert Entscheidungsmüdigkeit und Food Waste. Ein Topf Struktur schlägt fünf spontane Ideensuppen, die halb aufgegessen im Kühlschrank landen.
-
-## Salz und Reduktion
-
-Reduzierte Brühe salzt sich selbst nach oben. Deshalb gestaffelt würzen und nach dem Reduzieren erneut kosten. Besonders wichtig bei Freezer-Brühe, die später eingeengt wird.
-
-## Suppe als Wochenanker
-
-Wir entscheiden sonntags, welche Brühe die Woche trägt. Das reduziert Entscheidungsmüdigkeit und Food Waste. Ein Topf Struktur schlägt fünf spontane Ideensuppen, die halb aufgegessen im Kühlschrank landen.
-
-## Salz und Reduktion
-
-Reduzierte Brühe salzt sich selbst nach oben. Deshalb gestaffelt würzen und nach dem Reduzieren erneut kosten. Besonders wichtig bei Freezer-Brühe, die später eingeengt wird.
-
-## Suppe als Wochenanker
-
-Wir entscheiden sonntags, welche Brühe die Woche trägt. Das reduziert Entscheidungsmüdigkeit und Food Waste. Ein Topf Struktur schlägt fünf spontane Ideensuppen, die halb aufgegessen im Kühlschrank landen.
-
-## Salz und Reduktion
-
-Reduzierte Brühe salzt sich selbst nach oben. Deshalb gestaffelt würzen und nach dem Reduzieren erneut kosten. Besonders wichtig bei Freezer-Brühe, die später eingeengt wird.
-
-## Suppe als Wochenanker
-
-Wir entscheiden sonntags, welche Brühe die Woche trägt. Das reduziert Entscheidungsmüdigkeit und Food Waste. Ein Topf Struktur schlägt fünf spontane Ideensuppen, die halb aufgegessen im Kühlschrank landen.
-
-## Salz und Reduktion
-
-Reduzierte Brühe salzt sich selbst nach oben. Deshalb gestaffelt würzen und nach dem Reduzieren erneut kosten. Besonders wichtig bei Freezer-Brühe, die später eingeengt wird.
-
-## Suppe als Wochenanker
-
-Wir entscheiden sonntags, welche Brühe die Woche trägt. Das reduziert Entscheidungsmüdigkeit und Food Waste. Ein Topf Struktur schlägt fünf spontane Ideensuppen, die halb aufgegessen im Kühlschrank landen.
 `;
 
 export const bodyRosolTechnikDe = `
@@ -626,27 +495,27 @@ Selten kochen → Kaufware. Monatlich → Kultur führen. Beide Wege modern, wen
 
 ### Essig als Ersatz?
 
-Für echten Żurek nein. Essig säuert ohne Fermentgetreide-Note. Andere Suppe ehrlich benennen. Polenladen oder früh selbst ansetzen; dazwischen Rosół/Barszcz kochen. Wir bleiben praxisnah und vermeiden Extreme. Eigene Notizen schlagen starre Regeln. So bleibt die Entscheidung wiederholbar. Klarheit hat Vorrang vor Impuls. Das hilft besonders in vollen Diaspora-Wochen. Wir bleiben praxisnah und vermeiden Extreme. Eigene Notizen schlagen starre Regeln. So bleibt die Entscheidung wiederholbar. Klarheit hat Vorrang vor Impuls. Das hilft besonders in vollen Diaspora-Wochen. Wir bleiben praxisnah und vermeiden Extreme. Eigene Notizen schlagen starre Regeln. So bleibt die Entscheidung wiederholbar.
+Für echten Żurek nein. Essig säuert ohne Fermentgetreide-Note. Andere Suppe ehrlich benennen. Polenladen oder früh selbst ansetzen; dazwischen Rosół/Barszcz kochen.
 
 ### Verdorben erkennen?
 
-Schimmel, Fäulnisgeruch, seltsame Farben, Schleim. Bodensatz allein ist ok. Im Zweifel entsorgen. Sicherheit vor Sparsamkeit, besonders mit Gästen. Wir bleiben praxisnah und vermeiden Extreme. Eigene Notizen schlagen starre Regeln. So bleibt die Entscheidung wiederholbar. Klarheit hat Vorrang vor Impuls. Das hilft besonders in vollen Diaspora-Wochen. Wir bleiben praxisnah und vermeiden Extreme. Eigene Notizen schlagen starre Regeln. So bleibt die Entscheidung wiederholbar. Klarheit hat Vorrang vor Impuls. Das hilft besonders in vollen Diaspora-Wochen. Wir bleiben praxisnah und vermeiden Extreme. Eigene Notizen schlagen starre Regeln. So bleibt die Entscheidung wiederholbar.
+Schimmel, Fäulnisgeruch, seltsame Farben, Schleim. Bodensatz allein ist ok. Im Zweifel entsorgen. Sicherheit vor Sparsamkeit, besonders mit Gästen.
 
 ### Dauer Selbstansatz?
 
-Oft mehrere Tage. Täglich prüfen. Warm schneller/unkontrollierter, kalt langsamer. Notizen helfen. Kaufware parallel entlastet den ersten Żurek. Wir bleiben praxisnah und vermeiden Extreme. Eigene Notizen schlagen starre Regeln. So bleibt die Entscheidung wiederholbar. Klarheit hat Vorrang vor Impuls. Das hilft besonders in vollen Diaspora-Wochen. Wir bleiben praxisnah und vermeiden Extreme. Eigene Notizen schlagen starre Regeln. So bleibt die Entscheidung wiederholbar. Klarheit hat Vorrang vor Impuls. Das hilft besonders in vollen Diaspora-Wochen. Wir bleiben praxisnah und vermeiden Extreme. Eigene Notizen schlagen starre Regeln. So bleibt die Entscheidung wiederholbar. Klarheit hat Vorrang vor Impuls.
+Oft mehrere Tage. Täglich prüfen. Warm schneller/unkontrollierter, kalt langsamer. Notizen helfen. Kaufware parallel entlastet den ersten Żurek.
 
 ### Welches Roggenmehl?
 
-Frisch genug aus dem Supermarkt meist ok. Alte Mehle flach. Bio zweitrangig zu Sauberkeit. Bei Wiederholungsfehlern Charge/Glas/Wasser prüfen. Wir bleiben praxisnah und vermeiden Extreme. Eigene Notizen schlagen starre Regeln. So bleibt die Entscheidung wiederholbar. Klarheit hat Vorrang vor Impuls. Das hilft besonders in vollen Diaspora-Wochen. Wir bleiben praxisnah und vermeiden Extreme. Eigene Notizen schlagen starre Regeln. So bleibt die Entscheidung wiederholbar. Klarheit hat Vorrang vor Impuls. Das hilft besonders in vollen Diaspora-Wochen. Wir bleiben praxisnah und vermeiden Extreme. Eigene Notizen schlagen starre Regeln. So bleibt die Entscheidung wiederholbar.
+Frisch genug aus dem Supermarkt meist ok. Alte Mehle flach. Bio zweitrangig zu Sauberkeit. Bei Wiederholungsfehlern Charge/Glas/Wasser prüfen.
 
 ### Wann in die Suppe?
 
-Gegen Ende, heiß aber nicht tobend, portionsweise. Langes Kochen flacht ab. Milchprodukte danach temperieren. Feinjustierung diktiert das Glas. Wir bleiben praxisnah und vermeiden Extreme. Eigene Notizen schlagen starre Regeln. So bleibt die Entscheidung wiederholbar. Klarheit hat Vorrang vor Impuls. Das hilft besonders in vollen Diaspora-Wochen. Wir bleiben praxisnah und vermeiden Extreme. Eigene Notizen schlagen starre Regeln. So bleibt die Entscheidung wiederholbar. Klarheit hat Vorrang vor Impuls. Das hilft besonders in vollen Diaspora-Wochen. Wir bleiben praxisnah und vermeiden Extreme. Eigene Notizen schlagen starre Regeln. So bleibt die Entscheidung wiederholbar.
+Gegen Ende, heiß aber nicht tobend, portionsweise. Langes Kochen flacht ab. Milchprodukte danach temperieren. Feinjustierung diktiert das Glas.
 
 ### Ist Kaufware weniger echt?
 
-Nein. Gute Kaufware ist ehrlich für seltene Żurek-Tage. Selbstansatz lohnt bei regelmäßiger Nutzung. Qualität und Umgang zählen, nicht Moral des Glases. Wir bleiben praxisnah und vermeiden Extreme. Eigene Notizen schlagen starre Regeln. So bleibt die Entscheidung wiederholbar. Klarheit hat Vorrang vor Impuls. Das hilft besonders in vollen Diaspora-Wochen. Wir bleiben praxisnah und vermeiden Extreme. Eigene Notizen schlagen starre Regeln. So bleibt die Entscheidung wiederholbar. Klarheit hat Vorrang vor Impuls. Das hilft besonders in vollen Diaspora-Wochen. Wir bleiben praxisnah und vermeiden Extreme. Eigene Notizen schlagen starre Regeln. So bleibt die Entscheidung wiederholbar.
+Nein. Gute Kaufware ist ehrlich für seltene Żurek-Tage. Selbstansatz lohnt bei regelmäßiger Nutzung. Qualität und Umgang zählen, nicht Moral des Glases.
 
 ## Zakwas und Majoran
 
@@ -656,73 +525,6 @@ Majoran trägt Żurek, ersetzt aber keine Fermentsäure. Erst Zakwas-Balance, da
 
 Lieber zwei kleinere Gläser als ein Riesenglas, das halb verdirbt. Frische Entnahmen halten die Kultur sauberer.
 
-## Zakwas und Majoran
-
-Majoran trägt Żurek, ersetzt aber keine Fermentsäure. Erst Zakwas-Balance, dann Kräuter. Zu viel Majoran maskiert Fehler im Ansatz.
-
-## Glasgröße praktisches Maß
-
-Lieber zwei kleinere Gläser als ein Riesenglas, das halb verdirbt. Frische Entnahmen halten die Kultur sauberer.
-
-## Zakwas und Majoran
-
-Majoran trägt Żurek, ersetzt aber keine Fermentsäure. Erst Zakwas-Balance, dann Kräuter. Zu viel Majoran maskiert Fehler im Ansatz.
-
-## Glasgröße praktisches Maß
-
-Lieber zwei kleinere Gläser als ein Riesenglas, das halb verdirbt. Frische Entnahmen halten die Kultur sauberer.
-
-## Zakwas und Majoran
-
-Majoran trägt Żurek, ersetzt aber keine Fermentsäure. Erst Zakwas-Balance, dann Kräuter. Zu viel Majoran maskiert Fehler im Ansatz.
-
-## Glasgröße praktisches Maß
-
-Lieber zwei kleinere Gläser als ein Riesenglas, das halb verdirbt. Frische Entnahmen halten die Kultur sauberer.
-
-## Zakwas und Majoran
-
-Majoran trägt Żurek, ersetzt aber keine Fermentsäure. Erst Zakwas-Balance, dann Kräuter. Zu viel Majoran maskiert Fehler im Ansatz.
-
-## Glasgröße praktisches Maß
-
-Lieber zwei kleinere Gläser als ein Riesenglas, das halb verdirbt. Frische Entnahmen halten die Kultur sauberer.
-
-## Zakwas und Majoran
-
-Majoran trägt Żurek, ersetzt aber keine Fermentsäure. Erst Zakwas-Balance, dann Kräuter. Zu viel Majoran maskiert Fehler im Ansatz.
-
-## Glasgröße praktisches Maß
-
-Lieber zwei kleinere Gläser als ein Riesenglas, das halb verdirbt. Frische Entnahmen halten die Kultur sauberer.
-
-## Zakwas und Majoran
-
-Majoran trägt Żurek, ersetzt aber keine Fermentsäure. Erst Zakwas-Balance, dann Kräuter. Zu viel Majoran maskiert Fehler im Ansatz.
-
-## Glasgröße praktisches Maß
-
-Lieber zwei kleinere Gläser als ein Riesenglas, das halb verdirbt. Frische Entnahmen halten die Kultur sauberer.
-
-## Zakwas und Majoran
-
-Majoran trägt Żurek, ersetzt aber keine Fermentsäure. Erst Zakwas-Balance, dann Kräuter. Zu viel Majoran maskiert Fehler im Ansatz.
-
-## Glasgröße praktisches Maß
-
-Lieber zwei kleinere Gläser als ein Riesenglas, das halb verdirbt. Frische Entnahmen halten die Kultur sauberer.
-
-## Zakwas und Majoran
-
-Majoran trägt Żurek, ersetzt aber keine Fermentsäure. Erst Zakwas-Balance, dann Kräuter. Zu viel Majoran maskiert Fehler im Ansatz.
-
-## Glasgröße praktisches Maß
-
-Lieber zwei kleinere Gläser als ein Riesenglas, das halb verdirbt. Frische Entnahmen halten die Kultur sauberer.
-
-## Zakwas und Majoran
-
-Majoran trägt Żurek, ersetzt aber keine Fermentsäure. Erst Zakwas-Balance, dann Kräuter. Zu viel Majoran maskiert Fehler im Ansatz.
 `;
 
 export const bodyBigosGuideDe = `
@@ -841,27 +643,27 @@ Restaurant-„mit Schmand“ oft Standarddosis; zu Hause selbst dosieren und Qua
 
 ### Bester Allround-Ersatz?
 
-Oft Schmand für herzhafte Teller; saure Sahne für leichtere kalte Nutzung; Crème fraîche für tragende Saucen. Funktion testen und Fettstufe notieren – kein universeller Sieger. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls.
+Oft Schmand für herzhafte Teller; saure Sahne für leichtere kalte Nutzung; Crème fraîche für tragende Saucen. Funktion testen und Fettstufe notieren – kein universeller Sieger.
 
 ### Warum flockt die Suppe?
 
-Zu heiß oder nicht temperiert. Heiße Suppe in den Schmand rühren, zurück, nicht sprudelnd kochen. Stark saure Basen erhöhen Risiko. Im Zweifel separat auf dem Teller. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls.
+Zu heiß oder nicht temperiert. Heiße Suppe in den Schmand rühren, zurück, nicht sprudelnd kochen. Stark saure Basen erhöhen Risiko. Im Zweifel separat auf dem Teller.
 
 ### Pflanzliche Alternativen?
 
-Möglich, wenn Funktion passt und Erwartungen klar sind. Hitzeverhalten testen. Festtagsgerichte offen kommunizieren. Basisbrühe bleibt wichtiger als Label. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah.
+Möglich, wenn Funktion passt und Erwartungen klar sind. Hitzeverhalten testen. Festtagsgerichte offen kommunizieren. Basisbrühe bleibt wichtiger als Label.
 
 ### Was zu Ruskie?
 
-Schmand oder saure Sahne kalt, plus Zwiebelbutter. Zu schwere Crème kann erschlagen. Freezer-Pierogi mit guter Butter und frischem Klecks auffrischen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen.
+Schmand oder saure Sahne kalt, plus Zwiebelbutter. Zu schwere Crème kann erschlagen. Freezer-Pierogi mit guter Butter und frischem Klecks auffrischen.
 
 ### Haltbarkeit geöffnet?
 
-Zügig, kühl, sauberer Löffel. Sinne prüfen. Für Gäste frisch öffnen. bzfe.de-Lagerlogik. Reste lieber als Dip am nächsten Tag. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah.
+Zügig, kühl, sauberer Löffel. Sinne prüfen. Für Gäste frisch öffnen. bzfe.de-Lagerlogik. Reste lieber als Dip am nächsten Tag.
 
 ### Ist polnisches Etikett besser?
 
-Nicht automatisch. Fett, Frische, Geschmack prüfen. Manche DE-Produkte treffen Funktion besser. Etikett = Hinweis, kein Urteil. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen.
+Nicht automatisch. Fett, Frische, Geschmack prüfen. Manche DE-Produkte treffen Funktion besser. Etikett = Hinweis, kein Urteil.
 
 ## Śmietana und Kinderportionen
 
@@ -871,61 +673,6 @@ Separat reichen verhindert Übercremen. Kinder dosieren selbst; Erwachsene ebenf
 
 Nur bei niedriger Hitze und Temperieren. Für Bratensaft oft Crème fraîche oder Kochsahne stabiler. Werkzeug der Hitze wählen, nicht das romantische Label.
 
-## Śmietana und Kinderportionen
-
-Separat reichen verhindert Übercremen. Kinder dosieren selbst; Erwachsene ebenfalls. Das senkt Verschwendung und Streit über „zu viel“.
-
-## Saure Sahne in der Pfanne
-
-Nur bei niedriger Hitze und Temperieren. Für Bratensaft oft Crème fraîche oder Kochsahne stabiler. Werkzeug der Hitze wählen, nicht das romantische Label.
-
-## Śmietana und Kinderportionen
-
-Separat reichen verhindert Übercremen. Kinder dosieren selbst; Erwachsene ebenfalls. Das senkt Verschwendung und Streit über „zu viel“.
-
-## Saure Sahne in der Pfanne
-
-Nur bei niedriger Hitze und Temperieren. Für Bratensaft oft Crème fraîche oder Kochsahne stabiler. Werkzeug der Hitze wählen, nicht das romantische Label.
-
-## Śmietana und Kinderportionen
-
-Separat reichen verhindert Übercremen. Kinder dosieren selbst; Erwachsene ebenfalls. Das senkt Verschwendung und Streit über „zu viel“.
-
-## Saure Sahne in der Pfanne
-
-Nur bei niedriger Hitze und Temperieren. Für Bratensaft oft Crème fraîche oder Kochsahne stabiler. Werkzeug der Hitze wählen, nicht das romantische Label.
-
-## Śmietana und Kinderportionen
-
-Separat reichen verhindert Übercremen. Kinder dosieren selbst; Erwachsene ebenfalls. Das senkt Verschwendung und Streit über „zu viel“.
-
-## Saure Sahne in der Pfanne
-
-Nur bei niedriger Hitze und Temperieren. Für Bratensaft oft Crème fraîche oder Kochsahne stabiler. Werkzeug der Hitze wählen, nicht das romantische Label.
-
-## Śmietana und Kinderportionen
-
-Separat reichen verhindert Übercremen. Kinder dosieren selbst; Erwachsene ebenfalls. Das senkt Verschwendung und Streit über „zu viel“.
-
-## Saure Sahne in der Pfanne
-
-Nur bei niedriger Hitze und Temperieren. Für Bratensaft oft Crème fraîche oder Kochsahne stabiler. Werkzeug der Hitze wählen, nicht das romantische Label.
-
-## Śmietana und Kinderportionen
-
-Separat reichen verhindert Übercremen. Kinder dosieren selbst; Erwachsene ebenfalls. Das senkt Verschwendung und Streit über „zu viel“.
-
-## Saure Sahne in der Pfanne
-
-Nur bei niedriger Hitze und Temperieren. Für Bratensaft oft Crème fraîche oder Kochsahne stabiler. Werkzeug der Hitze wählen, nicht das romantische Label.
-
-## Śmietana und Kinderportionen
-
-Separat reichen verhindert Übercremen. Kinder dosieren selbst; Erwachsene ebenfalls. Das senkt Verschwendung und Streit über „zu viel“.
-
-## Saure Sahne in der Pfanne
-
-Nur bei niedriger Hitze und Temperieren. Für Bratensaft oft Crème fraîche oder Kochsahne stabiler. Werkzeug der Hitze wählen, nicht das romantische Label.
 `;
 
 export const bodyKielbasaArtenDe = `
@@ -937,11 +684,11 @@ Bratfest, kochfest, aufschnittfähig, stark/mild geräuchert. Namen variieren �
 
 ## Types vs Cook: Kaszanka
 
-Dieses Lexikon bleibt Owner für **Arten, Qualität und Einsatz** (Żurek, Bigos, Alltagswurst). Gebratene **Kaszanka mit Zwiebel** ist ein eigener Cook-Intent — Mengen und Pfannenschritte stehen im [Kaszanka-Rezept](/de/rezepte/kaszanka), nicht hier. Descriptive Anchors nur; Primary „Kaszanka Rezept“ stehlen wir nicht.
+Dieses Lexikon ordnet **Arten, Qualität und Einsatz** (Żurek, Bigos, Alltagswurst). Gebratene **Kaszanka mit Zwiebel** hat ein eigenes Rezept — Mengen und Pfannenschritte stehen im [Kaszanka-Rezept](/de/rezepte/kaszanka), nicht hier.
 
 ## Types vs Cook: Biała kiełbasa
 
-Helle frische Weißwurst **kochen oder backen** ist ein eigener Cook-Intent — Mengen und Garzeiten stehen im [Biała-kiełbasa-Rezept](/de/rezepte/biala-kielbasa), nicht hier. Dieses Lexikon bleibt Owner für Arten, Qualität und Einsatz-Breite; Primary „Biała kiełbasa Rezept“ stehlen wir nicht.
+Helle frische Weißwurst **kochen oder backen** hat ein eigenes Rezept — Mengen und Garzeiten stehen im [Biała-kiełbasa-Rezept](/de/rezepte/biala-kielbasa), nicht hier. Dieses Lexikon ordnet Arten, Qualität und Einsatz-Breite.
 
 ## Nutzung
 
@@ -999,27 +746,27 @@ Stechend-eindimensional + lange Liste = Warnsignal. Nach Braten Charakter prüfe
 
 ### Kiełbasa für Bigos?
 
-Fest, aromatisch, spät. Wässrige Ware verwässert. Qualität vor Quantität. Bigos-Guide für Schmorlogik; Polenladen für Auswahl. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen.
+Fest, aromatisch, spät. Wässrige Ware verwässert. Qualität vor Quantität. Bigos-Guide für Schmorlogik; Polenladen für Auswahl.
 
 ### Deutsche Bratwurst ok?
 
-Ja, wenn Struktur/Geschmack passen und wir ehrlich bleiben. Für Topfgerichte eher würzig als süßlich. Funktion schlägt Schriftzug. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah.
+Ja, wenn Struktur/Geschmack passen und wir ehrlich bleiben. Für Topfgerichte eher würzig als süßlich. Funktion schlägt Schriftzug.
 
 ### Kunstrauch erkennen?
 
-Stechender Einheitsrauch, oft lange Zusätze. Natürliche Räucherung wirkt komplexer. Marke wechseln und notieren. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar.
+Stechender Einheitsrauch, oft lange Zusätze. Natürliche Räucherung wirkt komplexer. Marke wechseln und notieren.
 
 ### Einfrieren?
 
-Ja portionsweise. Für Kochen meist fein; Aufschnitt lieber frisch. Nicht erneut einfrieren. Freezer ≠ Kühlketten-Ersatz. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen.
+Ja portionsweise. Für Kochen meist fein; Aufschnitt lieber frisch. Nicht erneut einfrieren. Freezer ≠ Kühlketten-Ersatz.
 
 ### Zu Żurek?
 
-Würzig, nicht zu fett, spät oder separat angebraten. Zakwas bleibt Hauptrolle – siehe Zakwas-Lexikon. Zu viel Wurst = Wurstsauce. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah.
+Würzig, nicht zu fett, spät oder separat angebraten. Zakwas bleibt Hauptrolle – siehe Zakwas-Lexikon. Zu viel Wurst = Wurstsauce.
 
 ### Menge pro Person?
 
-Oft 80–120 g im Menükontext. Bigos weniger, Pfanne mehr. Reste einplanen. Hunger und Beilagen mitdenken. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen.
+Oft 80–120 g im Menükontext. Bigos weniger, Pfanne mehr. Reste einplanen. Hunger und Beilagen mitdenken.
 
 ## Wurst und Säuregerichte
 
@@ -1029,65 +776,6 @@ In Żurek und Bigos muss Wurst die Säure ergänzen. Extrem starke Räucherware 
 
 Teure Wurst, die niemand mag, ist teurer als mittlere Qualität, die leergegessen wird. Verkostung kleiner Mengen vor dem Festtagseinkauf.
 
-## Wurst und Säuregerichte
-
-In Żurek und Bigos muss Wurst die Säure ergänzen. Extrem starke Räucherware deckt Ferment und Kraut zu. Dosieren und spät zugeben schützt die Balance.
-
-## Preis pro Genuss
-
-Teure Wurst, die niemand mag, ist teurer als mittlere Qualität, die leergegessen wird. Verkostung kleiner Mengen vor dem Festtagseinkauf.
-
-## Wurst und Säuregerichte
-
-In Żurek und Bigos muss Wurst die Säure ergänzen. Extrem starke Räucherware deckt Ferment und Kraut zu. Dosieren und spät zugeben schützt die Balance.
-
-## Preis pro Genuss
-
-Teure Wurst, die niemand mag, ist teurer als mittlere Qualität, die leergegessen wird. Verkostung kleiner Mengen vor dem Festtagseinkauf.
-
-## Wurst und Säuregerichte
-
-In Żurek und Bigos muss Wurst die Säure ergänzen. Extrem starke Räucherware deckt Ferment und Kraut zu. Dosieren und spät zugeben schützt die Balance.
-
-## Preis pro Genuss
-
-Teure Wurst, die niemand mag, ist teurer als mittlere Qualität, die leergegessen wird. Verkostung kleiner Mengen vor dem Festtagseinkauf.
-
-## Wurst und Säuregerichte
-
-In Żurek und Bigos muss Wurst die Säure ergänzen. Extrem starke Räucherware deckt Ferment und Kraut zu. Dosieren und spät zugeben schützt die Balance.
-
-## Preis pro Genuss
-
-Teure Wurst, die niemand mag, ist teurer als mittlere Qualität, die leergegessen wird. Verkostung kleiner Mengen vor dem Festtagseinkauf.
-
-## Wurst und Säuregerichte
-
-In Żurek und Bigos muss Wurst die Säure ergänzen. Extrem starke Räucherware deckt Ferment und Kraut zu. Dosieren und spät zugeben schützt die Balance.
-
-## Preis pro Genuss
-
-Teure Wurst, die niemand mag, ist teurer als mittlere Qualität, die leergegessen wird. Verkostung kleiner Mengen vor dem Festtagseinkauf.
-
-## Wurst und Säuregerichte
-
-In Żurek und Bigos muss Wurst die Säure ergänzen. Extrem starke Räucherware deckt Ferment und Kraut zu. Dosieren und spät zugeben schützt die Balance.
-
-## Preis pro Genuss
-
-Teure Wurst, die niemand mag, ist teurer als mittlere Qualität, die leergegessen wird. Verkostung kleiner Mengen vor dem Festtagseinkauf.
-
-## Wurst und Säuregerichte
-
-In Żurek und Bigos muss Wurst die Säure ergänzen. Extrem starke Räucherware deckt Ferment und Kraut zu. Dosieren und spät zugeben schützt die Balance.
-
-## Preis pro Genuss
-
-Teure Wurst, die niemand mag, ist teurer als mittlere Qualität, die leergegessen wird. Verkostung kleiner Mengen vor dem Festtagseinkauf.
-
-## Wurst und Säuregerichte
-
-In Żurek und Bigos muss Wurst die Säure ergänzen. Extrem starke Räucherware deckt Ferment und Kraut zu. Dosieren und spät zugeben schützt die Balance.
 `;
 
 export const bodyErsatzprodukteDe = `
@@ -1153,27 +841,27 @@ Haltbare gute Ersatz stapeln; Frisches zeitnah. Freezer für Pierogi/Brühe/Bigo
 
 ### Was dürfen wir bedenkenlos ersetzen?
 
-Viele Basics: Mehltypen, Gemüse, Butter, milde Kapusta nachgewürzt, Schmand statt Śmietana je nach Funktion. Kritisch bleiben Zakwas und trockener Twaróg. Funktionstest schlägt Hoffnung auf dem Etikett. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls.
+Viele Basics: Mehltypen, Gemüse, Butter, milde Kapusta nachgewürzt, Schmand statt Śmietana je nach Funktion. Kritisch bleiben Zakwas und trockener Twaróg. Funktionstest schlägt Hoffnung auf dem Etikett.
 
 ### Schlechtester Ersatz-Fehler?
 
-Essig in Żurek als Zakwas ausgeben und Frischkäse in Ruskie. Beides verändert Struktur und Kultur des Gerichts. Lieber anderes Gericht kochen als Charakter fälschen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls.
+Essig in Żurek als Zakwas ausgeben und Frischkäse in Ruskie. Beides verändert Struktur und Kultur des Gerichts. Lieber anderes Gericht kochen als Charakter fälschen.
 
 ### Wie testen wir fair?
 
-Gleiche Rezeptbasis, nur eine Zutat tauschen, blind oder mit Notiz kosten. Mengen notieren. Zwei Marken an einem Tag überfordern. Wiederholung bestätigt Zufallstreffer. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen.
+Gleiche Rezeptbasis, nur eine Zutat tauschen, blind oder mit Notiz kosten. Mengen notieren. Zwei Marken an einem Tag überfordern. Wiederholung bestätigt Zufallstreffer.
 
 ### Polenladen noch nötig?
 
-Oft ja für Fermente, Twaróg, Pilze, bestimmte Wurst – nicht für jedes Gemüse. Hybrid-Einkauf ist effizient. Guide Polenladen nutzen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah.
+Oft ja für Fermente, Twaróg, Pilze, bestimmte Wurst – nicht für jedes Gemüse. Hybrid-Einkauf ist effizient. Guide Polenladen nutzen.
 
 ### Sind Fertigmischungen ok?
 
-Manchmal als Notlösung, oft zu süß/salzig/aromatisiert. Zutatenliste lesen. Für Gäste eher selbst würzen. Qualität der Basis bleibt sichtbar. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah.
+Manchmal als Notlösung, oft zu süß/salzig/aromatisiert. Zutatenliste lesen. Für Gäste eher selbst würzen. Qualität der Basis bleibt sichtbar.
 
 ### Wie dokumentieren?
 
-Küchenheft oder Notizapp: Gericht, Marke, Fettstufe/Menge, Urteil. Das wird zur privaten Ersatzdatenbank der Diaspora-Küche und spart Geld. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah.
+Küchenheft oder Notizapp: Gericht, Marke, Fettstufe/Menge, Urteil. Das wird zur privaten Ersatzdatenbank der Diaspora-Küche und spart Geld.
 
 ## Ersatz und Sprache am Tisch
 
@@ -1183,61 +871,6 @@ Wir sagen ehrlich, was im Topf ist. Partner:innen und Gäste schätzen Klarheit 
 
 Manchmal ist die Antwort: anderes Gericht. Rosół statt Żurek, wenn Zakwas fehlt. Kartoffelpfanne statt Ruskie, wenn Quark nicht trocken wird. Flexible Küche ist Stärke.
 
-## Ersatz und Sprache am Tisch
-
-Wir sagen ehrlich, was im Topf ist. Partner:innen und Gäste schätzen Klarheit mehr als Theater um „authentisch“. Authentizität liegt in Sorgfalt, nicht im Schriftzug.
-
-## Wenn nichts passt
-
-Manchmal ist die Antwort: anderes Gericht. Rosół statt Żurek, wenn Zakwas fehlt. Kartoffelpfanne statt Ruskie, wenn Quark nicht trocken wird. Flexible Küche ist Stärke.
-
-## Ersatz und Sprache am Tisch
-
-Wir sagen ehrlich, was im Topf ist. Partner:innen und Gäste schätzen Klarheit mehr als Theater um „authentisch“. Authentizität liegt in Sorgfalt, nicht im Schriftzug.
-
-## Wenn nichts passt
-
-Manchmal ist die Antwort: anderes Gericht. Rosół statt Żurek, wenn Zakwas fehlt. Kartoffelpfanne statt Ruskie, wenn Quark nicht trocken wird. Flexible Küche ist Stärke.
-
-## Ersatz und Sprache am Tisch
-
-Wir sagen ehrlich, was im Topf ist. Partner:innen und Gäste schätzen Klarheit mehr als Theater um „authentisch“. Authentizität liegt in Sorgfalt, nicht im Schriftzug.
-
-## Wenn nichts passt
-
-Manchmal ist die Antwort: anderes Gericht. Rosół statt Żurek, wenn Zakwas fehlt. Kartoffelpfanne statt Ruskie, wenn Quark nicht trocken wird. Flexible Küche ist Stärke.
-
-## Ersatz und Sprache am Tisch
-
-Wir sagen ehrlich, was im Topf ist. Partner:innen und Gäste schätzen Klarheit mehr als Theater um „authentisch“. Authentizität liegt in Sorgfalt, nicht im Schriftzug.
-
-## Wenn nichts passt
-
-Manchmal ist die Antwort: anderes Gericht. Rosół statt Żurek, wenn Zakwas fehlt. Kartoffelpfanne statt Ruskie, wenn Quark nicht trocken wird. Flexible Küche ist Stärke.
-
-## Ersatz und Sprache am Tisch
-
-Wir sagen ehrlich, was im Topf ist. Partner:innen und Gäste schätzen Klarheit mehr als Theater um „authentisch“. Authentizität liegt in Sorgfalt, nicht im Schriftzug.
-
-## Wenn nichts passt
-
-Manchmal ist die Antwort: anderes Gericht. Rosół statt Żurek, wenn Zakwas fehlt. Kartoffelpfanne statt Ruskie, wenn Quark nicht trocken wird. Flexible Küche ist Stärke.
-
-## Ersatz und Sprache am Tisch
-
-Wir sagen ehrlich, was im Topf ist. Partner:innen und Gäste schätzen Klarheit mehr als Theater um „authentisch“. Authentizität liegt in Sorgfalt, nicht im Schriftzug.
-
-## Wenn nichts passt
-
-Manchmal ist die Antwort: anderes Gericht. Rosół statt Żurek, wenn Zakwas fehlt. Kartoffelpfanne statt Ruskie, wenn Quark nicht trocken wird. Flexible Küche ist Stärke.
-
-## Ersatz und Sprache am Tisch
-
-Wir sagen ehrlich, was im Topf ist. Partner:innen und Gäste schätzen Klarheit mehr als Theater um „authentisch“. Authentizität liegt in Sorgfalt, nicht im Schriftzug.
-
-## Wenn nichts passt
-
-Manchmal ist die Antwort: anderes Gericht. Rosół statt Żurek, wenn Zakwas fehlt. Kartoffelpfanne statt Ruskie, wenn Quark nicht trocken wird. Flexible Küche ist Stärke.
 `;
 
 export const bodyWielkanocDe = `
@@ -1245,7 +878,7 @@ Wielkanoc soll Menschen zusammenbringen, nicht den Kühlschrank überfordern. Wi
 
 ## Menüprinzip
 
-Weniger Gerichte, bessere Ausführung. Żurek oft Zentrum; dazu Eier, gekochte [Biała kiełbasa](/de/rezepte/biala-kielbasa) (Cook; Arten bleiben im [Kiełbasa-Lexikon](/de/blog/kielbasa-arten)), Brot, Rettich/Kräuter, kühle [Mizeria](/de/rezepte/mizeria) und/oder [Sałatka jarzynowa](/de/rezepte/salatka-jarzynowa) als Festsalat (Mayo-Gemüse ≠ Gurke/Śmietana), Kuchen nach Brauch. Gefüllte Eier als eigene Buffet-Linie: [Jajka faszerowane](/de/rezepte/jajka-faszerowane) (Cook; ≠ Sałatka, ≠ Mizeria). Scharfer kalter Bete-Meerrettich-Relish: [Ćwikła](/de/rezepte/cwikla) (Cook; ≠ warme [Buraczki](/de/rezepte/buraczki), ≠ Barszcz/Botwinka). Speiseplan bleibt Anlass-Owner. Saisonal im Frühjahr optional warme [Botwinka](/de/rezepte/botwinka) statt schwerer Bete-Klarsuppe. Nicht alles gleichzeitig warm halten.
+Weniger Gerichte, bessere Ausführung. Żurek oft Zentrum; dazu Eier, gekochte [Biała kiełbasa](/de/rezepte/biala-kielbasa) (Cook; Arten bleiben im [Kiełbasa-Lexikon](/de/blog/kielbasa-arten)), Brot, Rettich/Kräuter, kühle [Mizeria](/de/rezepte/mizeria) und/oder [Sałatka jarzynowa](/de/rezepte/salatka-jarzynowa) als Festsalat (Mayo-Gemüse ≠ Gurke/Śmietana), Kuchen nach Brauch. Gefüllte Eier als eigene Buffet-Linie: [Jajka faszerowane](/de/rezepte/jajka-faszerowane) (Cook; ≠ Sałatka, ≠ Mizeria). Scharfer kalter Bete-Meerrettich-Relish: [Ćwikła](/de/rezepte/cwikla) (Cook; ≠ warme [Buraczki](/de/rezepte/buraczki), ≠ Barszcz/Botwinka). Speiseplan bleibt Menü-Artikel. Saisonal im Frühjahr optional warme [Botwinka](/de/rezepte/botwinka) statt schwerer Bete-Klarsuppe. Nicht alles gleichzeitig warm halten.
 
 ## Zeitplan
 
@@ -1277,11 +910,11 @@ Zwei Touren: Spezial + Volumen. Leere Regale vor Feiertagen real – Puffer.
 
 ## Süßes
 
-Ein Kuchen reicht oft — Qualität vor Vielfalt. Klassische Form: [Babka](/de/rezepte/babka) (Hefegugelhupf); flacher Belag-Osterkuchen: [Mazurek orzechowy](/de/rezepte/mazurek) (Cook-Intent, Speiseplan bleibt Menü-Owner). Alternativ Käsekuchen-Linie [Sernik](/de/rezepte/sernik) oder Kaufware ohne Scham. Geflochtener Hefezopf/Laib (nicht Gugelhupf): [Chałka](/de/rezepte/chalka) — Cook-Primary dort; Speiseplan bleibt Menü-Owner.
+Ein Kuchen reicht oft — Qualität vor Vielfalt. Klassische Form: [Babka](/de/rezepte/babka) (Hefegugelhupf); flacher Belag-Osterkuchen: [Mazurek orzechowy](/de/rezepte/mazurek) (Mengen und Schritte im Rezept; Speiseplan bleibt Menü-Rahmen). Alternativ Käsekuchen-Linie [Sernik](/de/rezepte/sernik) oder Kaufware ohne Scham. Geflochtener Hefezopf/Laib (nicht Gugelhupf): [Chałka](/de/rezepte/chalka) — Mengen und Schritte dort; Speiseplan bleibt Menü-Rahmen.
 
 ## Aufschnitt: Pasztet
 
-Haus-Pastete angeschnitten statt nur Kaufwurst: [Pasztet drobiowy](/de/rezepte/pasztet) — klar ≠ [Kaszanka](/de/rezepte/kaszanka). Arten/Qualität von Wurst bleiben im [Kiełbasa-Arten-Lexikon](/de/blog/kielbasa-arten); hier nur descriptiver Menüplatz.
+Haus-Pastete angeschnitten statt nur Kaufwurst: [Pasztet drobiowy](/de/rezepte/pasztet) — klar ≠ [Kaszanka](/de/rezepte/kaszanka). Arten/Qualität von Wurst bleiben im [Kiełbasa-Arten-Lexikon](/de/blog/kielbasa-arten); hier nur als Menüplatz.
 
 ## Tisch
 
@@ -1307,27 +940,27 @@ Kompot, Wasser, Tee/Kaffee. Alkohol nach Haus, nicht Pflicht.
 
 ### Muss Żurek auf den Tisch?
 
-Nur wenn es euer Brauch ist. Manche Familien kochen andere Suppen. Respekt heißt Zuhören. Wer Żurek will, plant Zakwas früh. Alternative klar kommunizieren statt peinlicher Lücke. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls.
+Nur wenn es euer Brauch ist. Manche Familien kochen andere Suppen. Respekt heißt Zuhören. Wer Żurek will, plant Zakwas früh. Alternative klar kommunizieren statt peinlicher Lücke.
 
 ### Wie viele Gerichte?
 
-Tragfähig für den Haushalt, nicht maximal. Gäste erinnern Atmosphäre und ein gutes Żurek stärker als Zählpflicht. Qualität vor Listenlänge. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah.
+Tragfähig für den Haushalt, nicht maximal. Gäste erinnern Atmosphäre und ein gutes Żurek stärker als Zählpflicht. Qualität vor Listenlänge.
 
 ### Zakwas am Vortag reicht?
 
-Für Kaufware oft ja; Selbstansatz braucht Tage. Nicht am Morgen riskieren. Parallel Brühe vorbereiten. Lexikon lesen, Timeline rückwärts planen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah.
+Für Kaufware oft ja; Selbstansatz braucht Tage. Nicht am Morgen riskieren. Parallel Brühe vorbereiten. Lexikon lesen, Timeline rückwärts planen.
 
 ### Buffet oder Gänge?
 
-Oft Mischform: Suppe zuerst, dann kalte Platte. Alles-offen-Buffet stressiger für Kühlung. Nachfüllen schlägt Marathon-Warmhalten. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen.
+Oft Mischform: Suppe zuerst, dann kalte Platte. Alles-offen-Buffet stressiger für Kühlung. Nachfüllen schlägt Marathon-Warmhalten.
 
 ### Reste sicher nutzen?
 
-Schnell kühlen, zeitnah verbrauchen, gründlich erhitzen wo nötig. Eiersalate nicht endlos warm. Bei Zweifel entsorgen. bzfe.de-Logik. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen.
+Schnell kühlen, zeitnah verbrauchen, gründlich erhitzen wo nötig. Eiersalate nicht endlos warm. Bei Zweifel entsorgen. bzfe.de-Logik.
 
 ### Gemischte Traditionen?
 
-Sprechen, priorisieren, je ein Gericht aus Linien. Nicht alles parallel erzwingen. Moderne Diaspora-Tische dürfen gemischt sichtbar sein. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah.
+Sprechen, priorisieren, je ein Gericht aus Linien. Nicht alles parallel erzwingen. Moderne Diaspora-Tische dürfen gemischt sichtbar sein.
 
 ## Wielkanoc ohne Schamreduktion
 
@@ -1337,77 +970,6 @@ Fertigkuchen oder Kauf-Zakwas sind ok, wenn der Tisch ruhig bleibt. Heldentum, d
 
 Vorher aussortieren. Kalte Platten stapelbar planen. Freezer für Vorbereitetes nutzen. Logistik ist Teil der Küche.
 
-## Wielkanoc ohne Schamreduktion
-
-Fertigkuchen oder Kauf-Zakwas sind ok, wenn der Tisch ruhig bleibt. Heldentum, das alle erschöpft, ist kein Brauchgewinn.
-
-## Platz im Kühlschrank
-
-Vorher aussortieren. Kalte Platten stapelbar planen. Freezer für Vorbereitetes nutzen. Logistik ist Teil der Küche.
-
-## Wielkanoc ohne Schamreduktion
-
-Fertigkuchen oder Kauf-Zakwas sind ok, wenn der Tisch ruhig bleibt. Heldentum, das alle erschöpft, ist kein Brauchgewinn.
-
-## Platz im Kühlschrank
-
-Vorher aussortieren. Kalte Platten stapelbar planen. Freezer für Vorbereitetes nutzen. Logistik ist Teil der Küche.
-
-## Wielkanoc ohne Schamreduktion
-
-Fertigkuchen oder Kauf-Zakwas sind ok, wenn der Tisch ruhig bleibt. Heldentum, das alle erschöpft, ist kein Brauchgewinn.
-
-## Platz im Kühlschrank
-
-Vorher aussortieren. Kalte Platten stapelbar planen. Freezer für Vorbereitetes nutzen. Logistik ist Teil der Küche.
-
-## Wielkanoc ohne Schamreduktion
-
-Fertigkuchen oder Kauf-Zakwas sind ok, wenn der Tisch ruhig bleibt. Heldentum, das alle erschöpft, ist kein Brauchgewinn.
-
-## Platz im Kühlschrank
-
-Vorher aussortieren. Kalte Platten stapelbar planen. Freezer für Vorbereitetes nutzen. Logistik ist Teil der Küche.
-
-## Wielkanoc ohne Schamreduktion
-
-Fertigkuchen oder Kauf-Zakwas sind ok, wenn der Tisch ruhig bleibt. Heldentum, das alle erschöpft, ist kein Brauchgewinn.
-
-## Platz im Kühlschrank
-
-Vorher aussortieren. Kalte Platten stapelbar planen. Freezer für Vorbereitetes nutzen. Logistik ist Teil der Küche.
-
-## Wielkanoc ohne Schamreduktion
-
-Fertigkuchen oder Kauf-Zakwas sind ok, wenn der Tisch ruhig bleibt. Heldentum, das alle erschöpft, ist kein Brauchgewinn.
-
-## Platz im Kühlschrank
-
-Vorher aussortieren. Kalte Platten stapelbar planen. Freezer für Vorbereitetes nutzen. Logistik ist Teil der Küche.
-
-## Wielkanoc ohne Schamreduktion
-
-Fertigkuchen oder Kauf-Zakwas sind ok, wenn der Tisch ruhig bleibt. Heldentum, das alle erschöpft, ist kein Brauchgewinn.
-
-## Platz im Kühlschrank
-
-Vorher aussortieren. Kalte Platten stapelbar planen. Freezer für Vorbereitetes nutzen. Logistik ist Teil der Küche.
-
-## Wielkanoc ohne Schamreduktion
-
-Fertigkuchen oder Kauf-Zakwas sind ok, wenn der Tisch ruhig bleibt. Heldentum, das alle erschöpft, ist kein Brauchgewinn.
-
-## Platz im Kühlschrank
-
-Vorher aussortieren. Kalte Platten stapelbar planen. Freezer für Vorbereitetes nutzen. Logistik ist Teil der Küche.
-
-## Wielkanoc ohne Schamreduktion
-
-Fertigkuchen oder Kauf-Zakwas sind ok, wenn der Tisch ruhig bleibt. Heldentum, das alle erschöpft, ist kein Brauchgewinn.
-
-## Platz im Kühlschrank
-
-Vorher aussortieren. Kalte Platten stapelbar planen. Freezer für Vorbereitetes nutzen. Logistik ist Teil der Küche.
 `;
 
 export const bodyTlustyCzwartekDe = `
@@ -1427,11 +989,11 @@ Nicht nur Glasur. Füllung echt (Rose, Marmelade), Fett nicht ranzig, Größe al
 
 ## Zu Hause backen
 
-Hefeteig braucht Zeit und Wärme. Öltemperatur stabil halten. Erste Stücke testen. Rezept notieren. Nicht parallel drei Desserts. Mengen und Schritte für weiche, gefüllte Pączki: [Pączki-Rezept](/de/rezepte/paczki). Handgriffe zu Hefe, Füllung und Fett: [Pączki-Technik](/de/blog/paczek-technik) — dieser Artikel bleibt Anlass und Kultur, nicht Cook-Owner.
+Hefeteig braucht Zeit und Wärme. Öltemperatur stabil halten. Erste Stücke testen. Rezept notieren. Nicht parallel drei Desserts. Mengen und Schritte für weiche, gefüllte Pączki: [Pączki-Rezept](/de/rezepte/paczki). Handgriffe zu Hefe, Füllung und Fett: [Pączki-Technik](/de/blog/paczek-technik) — dieser Artikel bleibt Anlass und Kultur — Mengen und Schritte stehen im Rezept.
 
 ## Faworki
 
-Dünn, knusprig, Puderzucker. Feuchtigkeit = Feind. Kühl trocken lagern kurzfristig. Technik und Rezept bleiben bei Faworki-Ownern; Pączki sind das weiche Gegenstück — siehe [Pączki-Technik](/de/blog/paczek-technik).
+Dünn, knusprig, Puderzucker. Feuchtigkeit = Feind. Kühl trocken lagern kurzfristig. Technik und Mengen für Faworki bleiben beim Faworki-Artikel; Pączki sind das weiche Gegenstück — siehe [Pączki-Technik](/de/blog/paczek-technik).
 
 ## Teilen
 
@@ -1473,27 +1035,27 @@ Anders als [Wigilia](/de/anlaesse/wigilia) oder [Wielkanoc](/de/blog/wielkanoc-s
 
 ### Backen oder kaufen?
 
-Beides legitim. Wer selten Hefeteig macht, kauft besser. Wer gern backt, plant Zeit und Ölqualität. Mischform: kaufen plus kleine Eigencharge zum Lernen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen.
+Beides legitim. Wer selten Hefeteig macht, kauft besser. Wer gern backt, plant Zeit und Ölqualität. Mischform: kaufen plus kleine Eigencharge zum Lernen.
 
 ### Woran frische Pączki erkennen?
 
-Leichtigkeit, sauberer Duft, Füllung nicht industriell-flach, Oberfläche nicht durchfettend nass. Preis allein sagt wenig. Kleine Testmenge vor Großeinkauf. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah.
+Leichtigkeit, sauberer Duft, Füllung nicht industriell-flach, Oberfläche nicht durchfettend nass. Preis allein sagt wenig. Kleine Testmenge vor Großeinkauf.
 
 ### Wie transportieren?
 
-Kühlere Box, nicht warm luftdicht. Erschütterungen minimieren. Glasur kann abdrücken – Papier trennen. Am Ziel zeitnah servieren. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah.
+Kühlere Box, nicht warm luftdicht. Erschütterungen minimieren. Glasur kann abdrücken – Papier trennen. Am Ziel zeitnah servieren.
 
 ### Gesündere Version?
 
-Oft enttäuschend, wenn sie „wie Pączki“ sein soll. Besser: kleinere Portion klassisch. Oder ganz anderes Gebäck ehrlich wählen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah.
+Oft enttäuschend, wenn sie „wie Pączki“ sein soll. Besser: kleinere Portion klassisch. Oder ganz anderes Gebäck ehrlich wählen.
 
 ### Öl mehrmals nutzen?
 
-Nur wenn sauber und nicht überhitzt; filtern; nicht endlos. Ranziges Öl verdirbt alles. Sicherheit und Geschmack vor Sparzwang. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah.
+Nur wenn sauber und nicht überhitzt; filtern; nicht endlos. Ranziges Öl verdirbt alles. Sicherheit und Geschmack vor Sparzwang.
 
 ### Wie viel pro Person?
 
-Oft 1–2 Pączki reichen mit Kaffee. Kinder weniger. Teilen einplanen. Übriges bewusst verteilen statt zwangsessen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen.
+Oft 1–2 Pączki reichen mit Kaffee. Kinder weniger. Teilen einplanen. Übriges bewusst verteilen statt zwangsessen.
 
 ## Zucker und Erwartung
 
@@ -1503,65 +1065,6 @@ Tłusty Czwartek ist kein Wettbewerb im Blutzucker. Wer verzichtet, darf das ohn
 
 Traditionsfüllungen und moderne Varianten können nebeneinander stehen. Wir kosten und wählen – ohne Kulturkampf auf dem Bäckerteller.
 
-## Zucker und Erwartung
-
-Tłusty Czwartek ist kein Wettbewerb im Blutzucker. Wer verzichtet, darf das ohne Rechtfertigung; wer genießt, ohne Rechtfertigung. Respekt geht in beide Richtungen.
-
-## Füllungen jenseits von Klischee
-
-Traditionsfüllungen und moderne Varianten können nebeneinander stehen. Wir kosten und wählen – ohne Kulturkampf auf dem Bäckerteller.
-
-## Zucker und Erwartung
-
-Tłusty Czwartek ist kein Wettbewerb im Blutzucker. Wer verzichtet, darf das ohne Rechtfertigung; wer genießt, ohne Rechtfertigung. Respekt geht in beide Richtungen.
-
-## Füllungen jenseits von Klischee
-
-Traditionsfüllungen und moderne Varianten können nebeneinander stehen. Wir kosten und wählen – ohne Kulturkampf auf dem Bäckerteller.
-
-## Zucker und Erwartung
-
-Tłusty Czwartek ist kein Wettbewerb im Blutzucker. Wer verzichtet, darf das ohne Rechtfertigung; wer genießt, ohne Rechtfertigung. Respekt geht in beide Richtungen.
-
-## Füllungen jenseits von Klischee
-
-Traditionsfüllungen und moderne Varianten können nebeneinander stehen. Wir kosten und wählen – ohne Kulturkampf auf dem Bäckerteller.
-
-## Zucker und Erwartung
-
-Tłusty Czwartek ist kein Wettbewerb im Blutzucker. Wer verzichtet, darf das ohne Rechtfertigung; wer genießt, ohne Rechtfertigung. Respekt geht in beide Richtungen.
-
-## Füllungen jenseits von Klischee
-
-Traditionsfüllungen und moderne Varianten können nebeneinander stehen. Wir kosten und wählen – ohne Kulturkampf auf dem Bäckerteller.
-
-## Zucker und Erwartung
-
-Tłusty Czwartek ist kein Wettbewerb im Blutzucker. Wer verzichtet, darf das ohne Rechtfertigung; wer genießt, ohne Rechtfertigung. Respekt geht in beide Richtungen.
-
-## Füllungen jenseits von Klischee
-
-Traditionsfüllungen und moderne Varianten können nebeneinander stehen. Wir kosten und wählen – ohne Kulturkampf auf dem Bäckerteller.
-
-## Zucker und Erwartung
-
-Tłusty Czwartek ist kein Wettbewerb im Blutzucker. Wer verzichtet, darf das ohne Rechtfertigung; wer genießt, ohne Rechtfertigung. Respekt geht in beide Richtungen.
-
-## Füllungen jenseits von Klischee
-
-Traditionsfüllungen und moderne Varianten können nebeneinander stehen. Wir kosten und wählen – ohne Kulturkampf auf dem Bäckerteller.
-
-## Zucker und Erwartung
-
-Tłusty Czwartek ist kein Wettbewerb im Blutzucker. Wer verzichtet, darf das ohne Rechtfertigung; wer genießt, ohne Rechtfertigung. Respekt geht in beide Richtungen.
-
-## Füllungen jenseits von Klischee
-
-Traditionsfüllungen und moderne Varianten können nebeneinander stehen. Wir kosten und wählen – ohne Kulturkampf auf dem Bäckerteller.
-
-## Zucker und Erwartung
-
-Tłusty Czwartek ist kein Wettbewerb im Blutzucker. Wer verzichtet, darf das ohne Rechtfertigung; wer genießt, ohne Rechtfertigung. Respekt geht in beide Richtungen.
 `;
 
 export const bodySonntagsessenDe = `
@@ -1585,23 +1088,23 @@ Samstag Spezialitäten, Sonntag Frisches minimal. [Polenladen](/de/blog/polenlad
 
 ## Sonntagsfleisch (Ofen & Schmoren)
 
-Neben Schabowy lohnen ruhige Fleisch-Mittelpunkte: [Golonka](/de/rezepte/golonka) als geschmorte Haxe am Knochen (klar ≠ Panade, ≠ Rippen, ≠ Ofenschab), [Żeberka pieczone](/de/rezepte/zeberka) aus dem Ofen mit Majeranek-Senf-Marinade, [Schab pieczony](/de/rezepte/schab-pieczony) als Ofenschweinebraten (ohne Panade — klar ≠ Kotlet schabowy), oder [Rolada śląska](/de/rezepte/rolada-slaska) als geschmorte Roulade — klar getrennt von [Zrazy](/de/rezepte/zrazy) (andere Füll-Logik). Kein Eintopf wie Gulasz; Kultur-Owner bleibt dieser Sonntags-Guide, Cook-Primary liegt auf den Rezept-URLs. Für den schnelleren Paprika-Tomaten-Topf mit Wurst (Gemüse-dominant, klar ≠ Schweine-Schmor-Gulasz) siehe Cook [Leczo](/de/rezepte/leczo) — Primary bleibt dort. Composed Sonntagsteller Placki **mit** Gulasch obenauf: [Placek po węgiersku](/de/rezepte/placek-po-wegiersku) — Primary dort; Placki- und Gulasz-Einzeln-URLs bleiben Owner ihrer Broad-Intents.
+Neben Schabowy lohnen ruhige Fleisch-Mittelpunkte: [Golonka](/de/rezepte/golonka) als geschmorte Haxe am Knochen (klar ≠ Panade, ≠ Rippen, ≠ Ofenschab), [Żeberka pieczone](/de/rezepte/zeberka) aus dem Ofen mit Majeranek-Senf-Marinade, [Schab pieczony](/de/rezepte/schab-pieczony) als Ofenschweinebraten (ohne Panade — klar ≠ Kotlet schabowy), oder [Rolada śląska](/de/rezepte/rolada-slaska) als geschmorte Roulade — klar getrennt von [Zrazy](/de/rezepte/zrazy) (andere Füll-Logik). Kein Eintopf wie Gulasz; hier bleibt der Kulturrahmen für den Sonntag, Mengen und Schritte stehen in den Rezepten. Für den schnelleren Paprika-Tomaten-Topf mit Wurst (Gemüse-dominant, klar ≠ Schweine-Schmor-Gulasz): [Leczo](/de/rezepte/leczo). Placki **mit** Gulasch obenauf: [Placek po węgiersku](/de/rezepte/placek-po-wegiersku) — eigene Rezeptseite; Placki und Gulasz allein bleiben eigene Gerichte.
 
-## Straßenfood-Alltag (nicht Speiseplan-Steal)
+## Straßenfood-Alltag
 
-Schnell überbackenes Baguette mit Pilzen und Käse: [Zapiekanka](/de/rezepte/zapiekanka) — Cook-Primary dort; dieser Guide bleibt Kultur-Owner.
+Schnell überbackenes Baguette mit Pilzen und Käse: [Zapiekanka](/de/rezepte/zapiekanka) — Mengen und Schritte dort; hier bleibt der Kulturrahmen.
 
 ## Beilagen
 
-Kartoffeln/Kasza/Brot + Gurke/Salat. Klassisch kalt: [Mizeria](/de/rezepte/mizeria); warm und säuerlich: [Kapusta zasmażana](/de/rezepte/kapusta-zasmażana); warme Rote-Bete-Beilage: [Buraczki](/de/rezepte/buraczki) (Cook ≠ Botwinka-Suppe, ≠ Barszcz). Fest- und Buffetsalat mit Mayo-Gemüse: [Sałatka jarzynowa](/de/rezepte/salatka-jarzynowa) — anderer Intent als Mizeria. Nicht sechs Salate.
+Kartoffeln/Kasza/Brot + Gurke/Salat. Klassisch kalt: [Mizeria](/de/rezepte/mizeria); warm und säuerlich: [Kapusta zasmażana](/de/rezepte/kapusta-zasmażana); warme Rote-Bete-Beilage: [Buraczki](/de/rezepte/buraczki) (≠ Botwinka-Suppe, ≠ Barszcz). Fest- und Buffetsalat mit Mayo-Gemüse: [Sałatka jarzynowa](/de/rezepte/salatka-jarzynowa) — anderer Intent als Mizeria. Nicht sechs Salate.
 
 ## Süßes zum Kaffee
 
-Ein Blech reicht oft: [Szarlotka](/de/rezepte/szarlotka) als polnischer Apfelkuchen (≠ [Racuchy](/de/rezepte/racuchy-jablka) in der Pfanne). Geflochtener Hefezopf statt Formkuchen: [Chałka](/de/rezepte/chalka) (≠ [Babka](/de/rezepte/babka)). Kultur-Owner bleibt dieser Guide; Cook-Primary auf der Rezept-URL.
+Ein Blech reicht oft: [Szarlotka](/de/rezepte/szarlotka) als polnischer Apfelkuchen (≠ [Racuchy](/de/rezepte/racuchy-jablka) in der Pfanne). Geflochtener Hefezopf statt Formkuchen: [Chałka](/de/rezepte/chalka) (≠ [Babka](/de/rezepte/babka)). Hier bleibt der Kulturrahmen; Mengen und Schritte stehen im Rezept.
 
 ## Aufschnitt: Pasztet
 
-Kalte Platte mit Haus-Pastete: [Pasztet drobiowy](/de/rezepte/pasztet) — angeschnitten auf Brot, klar ≠ [Kaszanka](/de/rezepte/kaszanka). Kultur-Owner bleibt dieser Guide.
+Kalte Platte mit Haus-Pastete: [Pasztet drobiowy](/de/rezepte/pasztet) — angeschnitten auf Brot, klar ≠ [Kaszanka](/de/rezepte/kaszanka). Kulturrahmen bleibt dieser Guide.
 
 ## Gäste
 
@@ -1609,7 +1112,7 @@ Allergien fragen; vegetarische Option; Wasser neben Kompot/Kaffee. Kinderportion
 
 ## Deftige Erbsensuppe
 
-Wenn der Mittelpunkt ein Topf sein soll: [Grochówka](/de/rezepte/grochowka) — Erbsen mit oft Rauchwurst, klar ≠ Fasolka und ≠ Kapuśniak. Gersten-Nachbar descriptiv: [Krupnik](/de/rezepte/krupnik). Cook-Primary auf der Rezept-URL; Kultur-Owner bleibt dieser Sonntags-Guide.
+Wenn der Mittelpunkt ein Topf sein soll: [Grochówka](/de/rezepte/grochowka) — Erbsen mit oft Rauchwurst, klar ≠ Fasolka und ≠ Kapuśniak. Gersten-Nachbar: [Krupnik](/de/rezepte/krupnik). Mengen und Schritte im Rezept; hier bleibt der Sonntags-Rahmen.
 
 ## Reste
 
@@ -1629,11 +1132,11 @@ Winter schmorend; Sommer leichter + Grillwurst-Linie ehrlich. [Kiełbasa](/de/bl
 
 ## Schnelle Pfanne: Kaszanka
 
-Wenn der Sonntag kurz ist: [Kaszanka mit Zwiebel](/de/rezepte/kaszanka) aus dem Polenladen — Cook-Rezept dort; Arten und Qualitätslesen bleiben im Kiełbasa-Lexikon. Passt zu Brot, Kartoffeln oder Kapusta zasmażana, ohne den Mittelpunkt-Plan zu sprengen.
+Wenn der Sonntag kurz ist: [Kaszanka mit Zwiebel](/de/rezepte/kaszanka) aus dem Polenladen — Mengen und Schritte dort; Arten und Qualitätslesen bleiben im Kiełbasa-Lexikon. Passt zu Brot, Kartoffeln oder Kapusta zasmażana, ohne den Mittelpunkt-Plan zu sprengen.
 
 ## Hack in Soße: Klopsy
 
-Alltag und ruhiger Sonntag: [Klopsy in Dillsoße](/de/rezepte/klopsy) — Kugeln/Pulpety in Soße, klar ≠ panierter [Kotlet mielony](/de/rezepte/kotlet-mielony). Kultur-Owner bleibt dieser Guide; Cook-Primary auf der Rezept-URL.
+Alltag und ruhiger Sonntag: [Klopsy in Dillsoße](/de/rezepte/klopsy) — Kugeln/Pulpety in Soße, klar ≠ panierter [Kotlet mielony](/de/rezepte/kotlet-mielony). Hier bleibt der Kulturrahmen; Mengen und Schritte stehen im Rezept.
 
 ## Rosół-Einlage: Kluski kładzione
 
@@ -1659,27 +1162,27 @@ Separat reichen – [Śmietana/Schmand](/de/blog/smietana-schmand).
 
 ### Was wenn wenig Zeit?
 
-Freezer-Pierogi oder aufgewärmter Bigos plus Gurke und Brot. Rosół aus dem Freezer mit frischen Nudeln. Sonntag darf effizient sein und trotzdem polnisch schmecken. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen.
+Freezer-Pierogi oder aufgewärmter Bigos plus Gurke und Brot. Rosół aus dem Freezer mit frischen Nudeln. Sonntag darf effizient sein und trotzdem polnisch schmecken.
 
 ### Müssen wir Fleisch servieren?
 
-Nein. Pierogi, Krautgerichte, Pilzlinien können tragen. Ehrlich benennen. Gäste vorher informieren, wenn Erwartung fleischhaltig war. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen.
+Nein. Pierogi, Krautgerichte, Pilzlinien können tragen. Ehrlich benennen. Gäste vorher informieren, wenn Erwartung fleischhaltig war.
 
 ### Wie viele Gänge?
 
-Oft Suppe + Haupt oder nur Haupt. Drei Gänge nur wenn Energie da. Qualität der Pause zwischen Gängen zählt. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah.
+Oft Suppe + Haupt oder nur Haupt. Drei Gänge nur wenn Energie da. Qualität der Pause zwischen Gängen zählt.
 
 ### Kinder einbinden?
 
-Teig ausstechen, Tisch decken, Kräuter zupfen. Keine Zwangsverkostung. Kleine Erfolge bauen Beziehung zur Küche. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen.
+Teig ausstechen, Tisch decken, Kräuter zupfen. Keine Zwangsverkostung. Kleine Erfolge bauen Beziehung zur Küche.
 
 ### Alkohol Pflicht?
 
-Nein. Wasser und Kompot reichen. Wer trinkt, moderat. Fokus bleibt Essen und Gespräch. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar.
+Nein. Wasser und Kompot reichen. Wer trinkt, moderat. Fokus bleibt Essen und Gespräch.
 
 ### Wie planen mit Schichtarbeit?
 
-Hauptkochtag verschieben, Freezer nutzen, warmhalten begrenzt. Sonntagsessen ist Rhythmus, nicht Uhrzeitdogma. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar.
+Hauptkochtag verschieben, Freezer nutzen, warmhalten begrenzt. Sonntagsessen ist Rhythmus, nicht Uhrzeitdogma.
 
 ## Sonntag als Reset
 
@@ -1689,73 +1192,6 @@ Einkaufsliste für die Woche während des Kochens schreiben. Brühe extra portio
 
 Gerichte wählen, die warten können: Bigos, Brühe separat, Pierogi erst kochen wenn alle da. Flexibilität schlägt trockenes Warmhalten.
 
-## Sonntag als Reset
-
-Einkaufsliste für die Woche während des Kochens schreiben. Brühe extra portionieren. Der Sonntag füttert die Woche – das ist effiziente Diaspora-Logistik.
-
-## Wenn Gäste zu spät kommen
-
-Gerichte wählen, die warten können: Bigos, Brühe separat, Pierogi erst kochen wenn alle da. Flexibilität schlägt trockenes Warmhalten.
-
-## Sonntag als Reset
-
-Einkaufsliste für die Woche während des Kochens schreiben. Brühe extra portionieren. Der Sonntag füttert die Woche – das ist effiziente Diaspora-Logistik.
-
-## Wenn Gäste zu spät kommen
-
-Gerichte wählen, die warten können: Bigos, Brühe separat, Pierogi erst kochen wenn alle da. Flexibilität schlägt trockenes Warmhalten.
-
-## Sonntag als Reset
-
-Einkaufsliste für die Woche während des Kochens schreiben. Brühe extra portionieren. Der Sonntag füttert die Woche – das ist effiziente Diaspora-Logistik.
-
-## Wenn Gäste zu spät kommen
-
-Gerichte wählen, die warten können: Bigos, Brühe separat, Pierogi erst kochen wenn alle da. Flexibilität schlägt trockenes Warmhalten.
-
-## Sonntag als Reset
-
-Einkaufsliste für die Woche während des Kochens schreiben. Brühe extra portionieren. Der Sonntag füttert die Woche – das ist effiziente Diaspora-Logistik.
-
-## Wenn Gäste zu spät kommen
-
-Gerichte wählen, die warten können: Bigos, Brühe separat, Pierogi erst kochen wenn alle da. Flexibilität schlägt trockenes Warmhalten.
-
-## Sonntag als Reset
-
-Einkaufsliste für die Woche während des Kochens schreiben. Brühe extra portionieren. Der Sonntag füttert die Woche – das ist effiziente Diaspora-Logistik.
-
-## Wenn Gäste zu spät kommen
-
-Gerichte wählen, die warten können: Bigos, Brühe separat, Pierogi erst kochen wenn alle da. Flexibilität schlägt trockenes Warmhalten.
-
-## Sonntag als Reset
-
-Einkaufsliste für die Woche während des Kochens schreiben. Brühe extra portionieren. Der Sonntag füttert die Woche – das ist effiziente Diaspora-Logistik.
-
-## Wenn Gäste zu spät kommen
-
-Gerichte wählen, die warten können: Bigos, Brühe separat, Pierogi erst kochen wenn alle da. Flexibilität schlägt trockenes Warmhalten.
-
-## Sonntag als Reset
-
-Einkaufsliste für die Woche während des Kochens schreiben. Brühe extra portionieren. Der Sonntag füttert die Woche – das ist effiziente Diaspora-Logistik.
-
-## Wenn Gäste zu spät kommen
-
-Gerichte wählen, die warten können: Bigos, Brühe separat, Pierogi erst kochen wenn alle da. Flexibilität schlägt trockenes Warmhalten.
-
-## Sonntag als Reset
-
-Einkaufsliste für die Woche während des Kochens schreiben. Brühe extra portionieren. Der Sonntag füttert die Woche – das ist effiziente Diaspora-Logistik.
-
-## Wenn Gäste zu spät kommen
-
-Gerichte wählen, die warten können: Bigos, Brühe separat, Pierogi erst kochen wenn alle da. Flexibilität schlägt trockenes Warmhalten.
-
-## Sonntag als Reset
-
-Einkaufsliste für die Woche während des Kochens schreiben. Brühe extra portionieren. Der Sonntag füttert die Woche – das ist effiziente Diaspora-Logistik.
 `;
 
 export const bodyKiszenieDe = `
@@ -1821,27 +1257,27 @@ Datum, Salz%, Raumtemp, Tag der Kühlung notieren.
 
 ### Essig statt Ferment?
 
-Ergibt Essiggurken/-kraut, nicht klassisches Kiszenie. Mag ok schmecken, ist aber anderes. Für Lernerfolg Fermentregeln einhalten oder bewusst Essigprodukt wählen und so nennen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen.
+Ergibt Essiggurken/-kraut, nicht klassisches Kiszenie. Mag ok schmecken, ist aber anderes. Für Lernerfolg Fermentregeln einhalten oder bewusst Essigprodukt wählen und so nennen.
 
 ### Welches Salz?
 
-Rezept folgen; oft unjodiert/ohne Antiklumpmittel bevorzugt in Fermentkreisen – Herstellerangaben und erprobte Rezepte nutzen statt Internetmythen. Menge genau wiegen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah.
+Rezept folgen; oft unjodiert/ohne Antiklumpmittel bevorzugt in Fermentkreisen – Herstellerangaben und erprobte Rezepte nutzen statt Internetmythen. Menge genau wiegen.
 
 ### Schimmel – retten?
 
-Nein bei Unsicherheit. Vollständig entsorgen, Gefäß reinigen, neu starten. Gesundheit geht vor. Besonders bei weichem Gemüse und Raumwärme streng sein. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen.
+Nein bei Unsicherheit. Vollständig entsorgen, Gefäß reinigen, neu starten. Gesundheit geht vor. Besonders bei weichem Gemüse und Raumwärme streng sein.
 
 ### Wie lange fermentieren?
 
-Bis gewünschte Säure; Temperaturabhängig. Kosten und riechen. Dann kühlen. Kalender allein reicht nicht. Kleine Charge lehrt Tempo eures Zuhauses. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah.
+Bis gewünschte Säure; Temperaturabhängig. Kosten und riechen. Dann kühlen. Kalender allein reicht nicht. Kleine Charge lehrt Tempo eures Zuhauses.
 
 ### Kinder & Immunschwache?
 
-Vorsicht mit Hausfermenten; ggf. zuverlässige Kaufprodukte. Im Zweifel fachlich informieren und risikoarm wählen. bzfe.de/ncez als Rahmen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen.
+Vorsicht mit Hausfermenten; ggf. zuverlässige Kaufprodukte. Im Zweifel fachlich informieren und risikoarm wählen. bzfe.de/ncez als Rahmen.
 
 ### Welches Gefäß?
 
-Lebensmittelgeeignetes Glas bewährt. Beschädigte Deckel meiden. Gasentwicklung bedenken. Zu große Fässer erst nach Erfahrung. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen. So bleibt es wiederholbar. Klarheit vor Impuls. Hilfreich in vollen Wochen. Wir bleiben praxisnah. Notizen schlagen Dogmen.
+Lebensmittelgeeignetes Glas bewährt. Beschädigte Deckel meiden. Gasentwicklung bedenken. Zu große Fässer erst nach Erfahrung.
 
 ## Kiszenie und Wochenmenü
 
@@ -1851,77 +1287,6 @@ Ein Glas Gurken oder Kraut macht einfache Kartoffel- und Pierogiteller spannende
 
 Mit milden Beilagen ausgleichen, in Saucen dosieren, oder als Würzkomponente statt Hauptbeilage. Nächste Charge früher kühlen.
 
-## Kiszenie und Wochenmenü
-
-Ein Glas Gurken oder Kraut macht einfache Kartoffel- und Pierogiteller spannender ohne zweiten Topf. Vorrat ist Geschmacksinfrastruktur.
-
-## Wenn es zu sauer wird
-
-Mit milden Beilagen ausgleichen, in Saucen dosieren, oder als Würzkomponente statt Hauptbeilage. Nächste Charge früher kühlen.
-
-## Kiszenie und Wochenmenü
-
-Ein Glas Gurken oder Kraut macht einfache Kartoffel- und Pierogiteller spannender ohne zweiten Topf. Vorrat ist Geschmacksinfrastruktur.
-
-## Wenn es zu sauer wird
-
-Mit milden Beilagen ausgleichen, in Saucen dosieren, oder als Würzkomponente statt Hauptbeilage. Nächste Charge früher kühlen.
-
-## Kiszenie und Wochenmenü
-
-Ein Glas Gurken oder Kraut macht einfache Kartoffel- und Pierogiteller spannender ohne zweiten Topf. Vorrat ist Geschmacksinfrastruktur.
-
-## Wenn es zu sauer wird
-
-Mit milden Beilagen ausgleichen, in Saucen dosieren, oder als Würzkomponente statt Hauptbeilage. Nächste Charge früher kühlen.
-
-## Kiszenie und Wochenmenü
-
-Ein Glas Gurken oder Kraut macht einfache Kartoffel- und Pierogiteller spannender ohne zweiten Topf. Vorrat ist Geschmacksinfrastruktur.
-
-## Wenn es zu sauer wird
-
-Mit milden Beilagen ausgleichen, in Saucen dosieren, oder als Würzkomponente statt Hauptbeilage. Nächste Charge früher kühlen.
-
-## Kiszenie und Wochenmenü
-
-Ein Glas Gurken oder Kraut macht einfache Kartoffel- und Pierogiteller spannender ohne zweiten Topf. Vorrat ist Geschmacksinfrastruktur.
-
-## Wenn es zu sauer wird
-
-Mit milden Beilagen ausgleichen, in Saucen dosieren, oder als Würzkomponente statt Hauptbeilage. Nächste Charge früher kühlen.
-
-## Kiszenie und Wochenmenü
-
-Ein Glas Gurken oder Kraut macht einfache Kartoffel- und Pierogiteller spannender ohne zweiten Topf. Vorrat ist Geschmacksinfrastruktur.
-
-## Wenn es zu sauer wird
-
-Mit milden Beilagen ausgleichen, in Saucen dosieren, oder als Würzkomponente statt Hauptbeilage. Nächste Charge früher kühlen.
-
-## Kiszenie und Wochenmenü
-
-Ein Glas Gurken oder Kraut macht einfache Kartoffel- und Pierogiteller spannender ohne zweiten Topf. Vorrat ist Geschmacksinfrastruktur.
-
-## Wenn es zu sauer wird
-
-Mit milden Beilagen ausgleichen, in Saucen dosieren, oder als Würzkomponente statt Hauptbeilage. Nächste Charge früher kühlen.
-
-## Kiszenie und Wochenmenü
-
-Ein Glas Gurken oder Kraut macht einfache Kartoffel- und Pierogiteller spannender ohne zweiten Topf. Vorrat ist Geschmacksinfrastruktur.
-
-## Wenn es zu sauer wird
-
-Mit milden Beilagen ausgleichen, in Saucen dosieren, oder als Würzkomponente statt Hauptbeilage. Nächste Charge früher kühlen.
-
-## Kiszenie und Wochenmenü
-
-Ein Glas Gurken oder Kraut macht einfache Kartoffel- und Pierogiteller spannender ohne zweiten Topf. Vorrat ist Geschmacksinfrastruktur.
-
-## Wenn es zu sauer wird
-
-Mit milden Beilagen ausgleichen, in Saucen dosieren, oder als Würzkomponente statt Hauptbeilage. Nächste Charge früher kühlen.
 `;
 
 export const bodyFleischwolfDe = `
@@ -1991,27 +1356,27 @@ Keine Fake-Siegerliste. Spätere Tests: kg/h, Temperaturanstieg, Reinigungsminut
 
 ### Lohnt ein Wolf für nur Pierogi?
 
-Nur bei regelmäßigen Fleischfüllungen und Freude an Kontrolle. Sonst spezifiziertes Metzger-Hack. Gerät kostet Geld, Platz und Reinigungszeit – ROI ehrlich rechnen. Wir bleiben praxisnah und kauffaul nur wenn sinnvoll. Kriterien schlagen Hochglanzfotos. Notizen aus dem eigenen Haushalt helfen. Klarheit vor Impulskauf. Garantie und Ersatzteile mitdenken. Wir bleiben praxisnah und kauffaul nur wenn sinnvoll. Kriterien schlagen Hochglanzfotos. Notizen aus dem eigenen Haushalt helfen. Klarheit vor Impulskauf. Garantie und Ersatzteile mitdenken. Wir bleiben praxisnah und kauffaul nur wenn sinnvoll. Kriterien schlagen Hochglanzfotos. Notizen aus dem eigenen Haushalt helfen. Klarheit vor Impulskauf. Garantie und Ersatzteile mitdenken.
+Nur bei regelmäßigen Fleischfüllungen und Freude an Kontrolle. Sonst spezifiziertes Metzger-Hack. Gerät kostet Geld, Platz und Reinigungszeit – ROI ehrlich rechnen.
 
 ### Manuell oder elektrisch?
 
-Manuell für kleine Mengen und Kontrolle; elektrisch ab regelmäßigen Batches. Kraft und Sicherheit beachten. Ein schwacher Elektro frustriert mehr als ein guter Handwolf. Wir bleiben praxisnah und kauffaul nur wenn sinnvoll. Kriterien schlagen Hochglanzfotos. Notizen aus dem eigenen Haushalt helfen. Klarheit vor Impulskauf. Garantie und Ersatzteile mitdenken. Wir bleiben praxisnah und kauffaul nur wenn sinnvoll. Kriterien schlagen Hochglanzfotos. Notizen aus dem eigenen Haushalt helfen. Klarheit vor Impulskauf. Garantie und Ersatzteile mitdenken. Wir bleiben praxisnah und kauffaul nur wenn sinnvoll. Kriterien schlagen Hochglanzfotos. Notizen aus dem eigenen Haushalt helfen. Klarheit vor Impulskauf.
+Manuell für kleine Mengen und Kontrolle; elektrisch ab regelmäßigen Batches. Kraft und Sicherheit beachten. Ein schwacher Elektro frustriert mehr als ein guter Handwolf.
 
 ### Welche Lochscheibe?
 
-Mittelfein oft allround für Füllungen; grob für rustikal; fein für glattere Farce. Mehrere Scheiben erhöhen Nutzen. Stumpf = schmieren – schärfen/ersetzen. Wir bleiben praxisnah und kauffaul nur wenn sinnvoll. Kriterien schlagen Hochglanzfotos. Notizen aus dem eigenen Haushalt helfen. Klarheit vor Impulskauf. Garantie und Ersatzteile mitdenken. Wir bleiben praxisnah und kauffaul nur wenn sinnvoll. Kriterien schlagen Hochglanzfotos. Notizen aus dem eigenen Haushalt helfen. Klarheit vor Impulskauf. Garantie und Ersatzteile mitdenken. Wir bleiben praxisnah und kauffaul nur wenn sinnvoll. Kriterien schlagen Hochglanzfotos. Notizen aus dem eigenen Haushalt helfen. Klarheit vor Impulskauf. Garantie und Ersatzteile mitdenken.
+Mittelfein oft allround für Füllungen; grob für rustikal; fein für glattere Farce. Mehrere Scheiben erhöhen Nutzen. Stumpf = schmieren – schärfen/ersetzen.
 
 ### Wie vermeiden wir Schmiere?
 
-Fleisch und Teile kalt halten, nicht überfüllen, scharfe Scheiben, Fettanteil sinnvoll. Pausen bei warmem Motor. Schmieren verschlechtert Füllung und Nahtverhalten. Wir bleiben praxisnah und kauffaul nur wenn sinnvoll. Kriterien schlagen Hochglanzfotos. Notizen aus dem eigenen Haushalt helfen. Klarheit vor Impulskauf. Garantie und Ersatzteile mitdenken. Wir bleiben praxisnah und kauffaul nur wenn sinnvoll. Kriterien schlagen Hochglanzfotos. Notizen aus dem eigenen Haushalt helfen. Klarheit vor Impulskauf. Garantie und Ersatzteile mitdenken. Wir bleiben praxisnah und kauffaul nur wenn sinnvoll. Kriterien schlagen Hochglanzfotos. Notizen aus dem eigenen Haushalt helfen. Klarheit vor Impulskauf. Garantie und Ersatzteile mitdenken.
+Fleisch und Teile kalt halten, nicht überfüllen, scharfe Scheiben, Fettanteil sinnvoll. Pausen bei warmem Motor. Schmieren verschlechtert Füllung und Nahtverhalten.
 
 ### Ist Kunststoff ok?
 
-An Belastungspunkten kritisch. Metallschnecke und stabile Gehäuse bevorzugen. Billigplastik bricht wenn’s ernst wird – genau dann braucht man den Wolf. Wir bleiben praxisnah und kauffaul nur wenn sinnvoll. Kriterien schlagen Hochglanzfotos. Notizen aus dem eigenen Haushalt helfen. Klarheit vor Impulskauf. Garantie und Ersatzteile mitdenken. Wir bleiben praxisnah und kauffaul nur wenn sinnvoll. Kriterien schlagen Hochglanzfotos. Notizen aus dem eigenen Haushalt helfen. Klarheit vor Impulskauf. Garantie und Ersatzteile mitdenken. Wir bleiben praxisnah und kauffaul nur wenn sinnvoll. Kriterien schlagen Hochglanzfotos. Notizen aus dem eigenen Haushalt helfen. Klarheit vor Impulskauf. Garantie und Ersatzteile mitdenken.
+An Belastungspunkten kritisch. Metallschnecke und stabile Gehäuse bevorzugen. Billigplastik bricht wenn’s ernst wird – genau dann braucht man den Wolf.
 
 ### Hygiene nach dem Mahlen?
 
-Sofort zerlegen und reinigen, Flächen desinfizieren/waschen, Roh/Gar trennen, Hände. Farce kühlen. bzfe.de-Logik. Reste nicht warm stehen lassen. Wir bleiben praxisnah und kauffaul nur wenn sinnvoll. Kriterien schlagen Hochglanzfotos. Notizen aus dem eigenen Haushalt helfen. Klarheit vor Impulskauf. Garantie und Ersatzteile mitdenken. Wir bleiben praxisnah und kauffaul nur wenn sinnvoll. Kriterien schlagen Hochglanzfotos. Notizen aus dem eigenen Haushalt helfen. Klarheit vor Impulskauf. Garantie und Ersatzteile mitdenken. Wir bleiben praxisnah und kauffaul nur wenn sinnvoll. Kriterien schlagen Hochglanzfotos. Notizen aus dem eigenen Haushalt helfen. Klarheit vor Impulskauf. Garantie und Ersatzteile mitdenken. Wir bleiben praxisnah und kauffaul nur wenn sinnvoll.
+Sofort zerlegen und reinigen, Flächen desinfizieren/waschen, Roh/Gar trennen, Hände. Farce kühlen. bzfe.de-Logik. Reste nicht warm stehen lassen.
 
 ## Wolf und Wurstambitionen
 
@@ -2025,89 +1390,6 @@ Elektrische Wölfe können laut sein. Tageszeiten wählen, Unterlage nutzen, Dau
 
 Schnecke, Scheiben, Dichtungen: Verfügbarkeit online prüfen. Ein orphaned Gerät nach zwei Jahren ist teurer Ausschuss.
 
-## Wolf und Wurstambitionen
-
-Wer Kiełbasa selbst machen will, braucht zusätzlich Wissen zu Salz, Pökeln wo relevant, Gehäuse und Sicherheit – nicht nur ein Gerät. Ohne Lernplan lieber Qualitätswurst kaufen.
-
-## Lärm und Nachbarn
-
-Elektrische Wölfe können laut sein. Tageszeiten wählen, Unterlage nutzen, Dauerbatches planen. Rücksicht ist Teil der Kaufentscheidung in Mehrfamilienhäusern.
-
-## Ersatzteile vor dem Kauf checken
-
-Schnecke, Scheiben, Dichtungen: Verfügbarkeit online prüfen. Ein orphaned Gerät nach zwei Jahren ist teurer Ausschuss.
-
-## Wolf und Wurstambitionen
-
-Wer Kiełbasa selbst machen will, braucht zusätzlich Wissen zu Salz, Pökeln wo relevant, Gehäuse und Sicherheit – nicht nur ein Gerät. Ohne Lernplan lieber Qualitätswurst kaufen.
-
-## Lärm und Nachbarn
-
-Elektrische Wölfe können laut sein. Tageszeiten wählen, Unterlage nutzen, Dauerbatches planen. Rücksicht ist Teil der Kaufentscheidung in Mehrfamilienhäusern.
-
-## Ersatzteile vor dem Kauf checken
-
-Schnecke, Scheiben, Dichtungen: Verfügbarkeit online prüfen. Ein orphaned Gerät nach zwei Jahren ist teurer Ausschuss.
-
-## Wolf und Wurstambitionen
-
-Wer Kiełbasa selbst machen will, braucht zusätzlich Wissen zu Salz, Pökeln wo relevant, Gehäuse und Sicherheit – nicht nur ein Gerät. Ohne Lernplan lieber Qualitätswurst kaufen.
-
-## Lärm und Nachbarn
-
-Elektrische Wölfe können laut sein. Tageszeiten wählen, Unterlage nutzen, Dauerbatches planen. Rücksicht ist Teil der Kaufentscheidung in Mehrfamilienhäusern.
-
-## Ersatzteile vor dem Kauf checken
-
-Schnecke, Scheiben, Dichtungen: Verfügbarkeit online prüfen. Ein orphaned Gerät nach zwei Jahren ist teurer Ausschuss.
-
-## Wolf und Wurstambitionen
-
-Wer Kiełbasa selbst machen will, braucht zusätzlich Wissen zu Salz, Pökeln wo relevant, Gehäuse und Sicherheit – nicht nur ein Gerät. Ohne Lernplan lieber Qualitätswurst kaufen.
-
-## Lärm und Nachbarn
-
-Elektrische Wölfe können laut sein. Tageszeiten wählen, Unterlage nutzen, Dauerbatches planen. Rücksicht ist Teil der Kaufentscheidung in Mehrfamilienhäusern.
-
-## Ersatzteile vor dem Kauf checken
-
-Schnecke, Scheiben, Dichtungen: Verfügbarkeit online prüfen. Ein orphaned Gerät nach zwei Jahren ist teurer Ausschuss.
-
-## Wolf und Wurstambitionen
-
-Wer Kiełbasa selbst machen will, braucht zusätzlich Wissen zu Salz, Pökeln wo relevant, Gehäuse und Sicherheit – nicht nur ein Gerät. Ohne Lernplan lieber Qualitätswurst kaufen.
-
-## Lärm und Nachbarn
-
-Elektrische Wölfe können laut sein. Tageszeiten wählen, Unterlage nutzen, Dauerbatches planen. Rücksicht ist Teil der Kaufentscheidung in Mehrfamilienhäusern.
-
-## Ersatzteile vor dem Kauf checken
-
-Schnecke, Scheiben, Dichtungen: Verfügbarkeit online prüfen. Ein orphaned Gerät nach zwei Jahren ist teurer Ausschuss.
-
-## Wolf und Wurstambitionen
-
-Wer Kiełbasa selbst machen will, braucht zusätzlich Wissen zu Salz, Pökeln wo relevant, Gehäuse und Sicherheit – nicht nur ein Gerät. Ohne Lernplan lieber Qualitätswurst kaufen.
-
-## Lärm und Nachbarn
-
-Elektrische Wölfe können laut sein. Tageszeiten wählen, Unterlage nutzen, Dauerbatches planen. Rücksicht ist Teil der Kaufentscheidung in Mehrfamilienhäusern.
-
-## Ersatzteile vor dem Kauf checken
-
-Schnecke, Scheiben, Dichtungen: Verfügbarkeit online prüfen. Ein orphaned Gerät nach zwei Jahren ist teurer Ausschuss.
-
-## Wolf und Wurstambitionen
-
-Wer Kiełbasa selbst machen will, braucht zusätzlich Wissen zu Salz, Pökeln wo relevant, Gehäuse und Sicherheit – nicht nur ein Gerät. Ohne Lernplan lieber Qualitätswurst kaufen.
-
-## Lärm und Nachbarn
-
-Elektrische Wölfe können laut sein. Tageszeiten wählen, Unterlage nutzen, Dauerbatches planen. Rücksicht ist Teil der Kaufentscheidung in Mehrfamilienhäusern.
-
-## Ersatzteile vor dem Kauf checken
-
-Schnecke, Scheiben, Dichtungen: Verfügbarkeit online prüfen. Ein orphaned Gerät nach zwei Jahren ist teurer Ausschuss.
 `;
 
 export const bodyDutchOvenDe = `
@@ -2157,10 +1439,6 @@ Dickes Edelstahl + Ofen; Slow Cooker nur mit angepasstem Erwartungsprofil – an
 
 Volumen für Umrühren lassen; nicht bis Rand; [Kiełbasa](/de/blog/kielbasa-arten) spät.
 
-## Tests & Erfahrungen
-
-Dieser Abschnitt ist für spätere, nachvollziehbare Praxistests vorbereitet. Wir dokumentieren dann Menge, Material, Zeitaufwand, Reinigung, Stabilität, Handhabung und Ergebnis in einem einheitlichen Ablauf mit derselben Teig- bzw. Gerichtcharge. Bis reale Tests vorliegen, behaupten wir keine Rangliste und nennen keine Sieger. Empfehlungen folgen Kriterien, nicht Provision; Affiliate-Links kennzeichnen wir transparent, falls gesetzt.
-
 ## Checkliste
 
 Liter real; Gewicht voll schätzen; Herdkompatibilität; Deckel; Griffe; Säure; Garantie; Platz.
@@ -2177,27 +1455,27 @@ Keine Siegerliste ohne Testprotokoll. Später: Aufheizzeit, Ansetzverhalten mit 
 
 ### Emaille oder blankes Gusseisen für Bigos?
 
-Emaille ist bei säurehaltigem Langzeitschmoren oft unkomplizierter. Blankes Eisen braucht konsequente Pflege und ist nicht ideal für lange Sauerkraut-Sessions. Edelstahl dickbodig ist eine gute Alternative. Wir bleiben praxisnah und kauffaul nur wenn sinnvoll. Kriterien schlagen Hochglanzfotos. Notizen aus dem eigenen Haushalt helfen. Klarheit vor Impulskauf. Garantie und Ersatzteile mitdenken. Wir bleiben praxisnah und kauffaul nur wenn sinnvoll. Kriterien schlagen Hochglanzfotos. Notizen aus dem eigenen Haushalt helfen. Klarheit vor Impulskauf. Garantie und Ersatzteile mitdenken. Wir bleiben praxisnah und kauffaul nur wenn sinnvoll. Kriterien schlagen Hochglanzfotos. Notizen aus dem eigenen Haushalt helfen.
+Emaille ist bei säurehaltigem Langzeitschmoren oft unkomplizierter. Blankes Eisen braucht konsequente Pflege und ist nicht ideal für lange Sauerkraut-Sessions. Edelstahl dickbodig ist eine gute Alternative.
 
 ### Welche Literzahl?
 
-Für 4 Personen oft 5–7 l Nutzvolumen; für Batches 7–9 l. Rand zum Rühren lassen. Zu voll = ungleich und gefährlich schwer. Wir bleiben praxisnah und kauffaul nur wenn sinnvoll. Kriterien schlagen Hochglanzfotos. Notizen aus dem eigenen Haushalt helfen. Klarheit vor Impulskauf. Garantie und Ersatzteile mitdenken. Wir bleiben praxisnah und kauffaul nur wenn sinnvoll. Kriterien schlagen Hochglanzfotos. Notizen aus dem eigenen Haushalt helfen. Klarheit vor Impulskauf. Garantie und Ersatzteile mitdenken. Wir bleiben praxisnah und kauffaul nur wenn sinnvoll. Kriterien schlagen Hochglanzfotos. Notizen aus dem eigenen Haushalt helfen. Klarheit vor Impulskauf.
+Für 4 Personen oft 5–7 l Nutzvolumen; für Batches 7–9 l. Rand zum Rühren lassen. Zu voll = ungleich und gefährlich schwer.
 
 ### Reiner Edelstahl genug?
 
-Ja mit gutem Sandwichboden und Deckel. Wärmespeicher etwas anders als Gusseisen, für Bigos absolut praktikabel und leichter. Anbratphase bewusst führen. Wir bleiben praxisnah und kauffaul nur wenn sinnvoll. Kriterien schlagen Hochglanzfotos. Notizen aus dem eigenen Haushalt helfen. Klarheit vor Impulskauf. Garantie und Ersatzteile mitdenken. Wir bleiben praxisnah und kauffaul nur wenn sinnvoll. Kriterien schlagen Hochglanzfotos. Notizen aus dem eigenen Haushalt helfen. Klarheit vor Impulskauf. Garantie und Ersatzteile mitdenken. Wir bleiben praxisnah und kauffaul nur wenn sinnvoll. Kriterien schlagen Hochglanzfotos. Notizen aus dem eigenen Haushalt helfen. Klarheit vor Impulskauf. Garantie und Ersatzteile mitdenken.
+Ja mit gutem Sandwichboden und Deckel. Wärmespeicher etwas anders als Gusseisen, für Bigos absolut praktikabel und leichter. Anbratphase bewusst führen.
 
 ### Ofentauglichkeit nötig?
 
-Für klassischen Bigos oft nicht zwingend, erhöht aber Vielseitigkeit (Braten, Brot). Knöpfe/Griffe auf Maximaltemperatur prüfen. Wir bleiben praxisnah und kauffaul nur wenn sinnvoll. Kriterien schlagen Hochglanzfotos. Notizen aus dem eigenen Haushalt helfen. Klarheit vor Impulskauf. Garantie und Ersatzteile mitdenken. Wir bleiben praxisnah und kauffaul nur wenn sinnvoll. Kriterien schlagen Hochglanzfotos. Notizen aus dem eigenen Haushalt helfen. Klarheit vor Impulskauf. Garantie und Ersatzteile mitdenken. Wir bleiben praxisnah und kauffaul nur wenn sinnvoll. Kriterien schlagen Hochglanzfotos. Notizen aus dem eigenen Haushalt helfen. Klarheit vor Impulskauf. Garantie und Ersatzteile mitdenken. Wir bleiben praxisnah und kauffaul nur wenn sinnvoll.
+Für klassischen Bigos oft nicht zwingend, erhöht aber Vielseitigkeit (Braten, Brot). Knöpfe/Griffe auf Maximaltemperatur prüfen.
 
 ### Was tun bei Emaille-Chip?
 
-Je nach Stelle und Hersteller: nicht ignorieren. Metallkontakt mit Lebensmitteln im Chipbereich vermeiden; ggf. ersetzen. Garantiefall prüfen. Weiterkochen „trotz Absplitterung“ ist kein guter Plan. Wir bleiben praxisnah und kauffaul nur wenn sinnvoll. Kriterien schlagen Hochglanzfotos. Notizen aus dem eigenen Haushalt helfen. Klarheit vor Impulskauf. Garantie und Ersatzteile mitdenken. Wir bleiben praxisnah und kauffaul nur wenn sinnvoll. Kriterien schlagen Hochglanzfotos. Notizen aus dem eigenen Haushalt helfen. Klarheit vor Impulskauf. Garantie und Ersatzteile mitdenken. Wir bleiben praxisnah und kauffaul nur wenn sinnvoll. Kriterien schlagen Hochglanzfotos. Notizen aus dem eigenen Haushalt helfen. Klarheit vor Impulskauf.
+Je nach Stelle und Hersteller: nicht ignorieren. Metallkontakt mit Lebensmitteln im Chipbereich vermeiden; ggf. ersetzen. Garantiefall prüfen. Weiterkochen „trotz Absplitterung“ ist kein guter Plan.
 
 ### Wann lieber nicht Gusseisen?
 
-Wenn Heben problematisch ist, Induktionspassform unsicher, Pflege unrealistisch oder nur selten geschmort wird. Dann Edelstahl. Werkzeug muss zum Körper und Alltag passen. Wir bleiben praxisnah und kauffaul nur wenn sinnvoll. Kriterien schlagen Hochglanzfotos. Notizen aus dem eigenen Haushalt helfen. Klarheit vor Impulskauf. Garantie und Ersatzteile mitdenken. Wir bleiben praxisnah und kauffaul nur wenn sinnvoll. Kriterien schlagen Hochglanzfotos. Notizen aus dem eigenen Haushalt helfen. Klarheit vor Impulskauf. Garantie und Ersatzteile mitdenken. Wir bleiben praxisnah und kauffaul nur wenn sinnvoll. Kriterien schlagen Hochglanzfotos. Notizen aus dem eigenen Haushalt helfen. Klarheit vor Impulskauf.
+Wenn Heben problematisch ist, Induktionspassform unsicher, Pflege unrealistisch oder nur selten geschmort wird. Dann Edelstahl. Werkzeug muss zum Körper und Alltag passen.
 
 ## Deckel als Qualitätsmerkmal
 
@@ -2211,85 +1489,6 @@ Zwiebeln und Fleisch zuerst Farbe holen, dann Kraut – das Profil von Bigos. Ei
 
 Möglich bei intakter Emaille und planem Boden. Risse, Rostlöcher, schwere Verformung meiden. Reinigen und Testschmoren vor Bigos für Gäste.
 
-## Deckel als Qualitätsmerkmal
-
-Ein Deckel, der klappert und Dampf unkontrolliert verliert, verlängert Schmorzeiten und trocknet Ränder. Sitz prüfen: leicht drehen, Spaltmaß fühlen.
-
-## Anbraten im Schmortopf
-
-Zwiebeln und Fleisch zuerst Farbe holen, dann Kraut – das Profil von Bigos. Ein Topf, der nur „weichen“ kann, aber nicht ordentlich anbraten, ist für uns weniger allround.
-
-## Second-Hand-Gusseisen
-
-Möglich bei intakter Emaille und planem Boden. Risse, Rostlöcher, schwere Verformung meiden. Reinigen und Testschmoren vor Bigos für Gäste.
-
-## Deckel als Qualitätsmerkmal
-
-Ein Deckel, der klappert und Dampf unkontrolliert verliert, verlängert Schmorzeiten und trocknet Ränder. Sitz prüfen: leicht drehen, Spaltmaß fühlen.
-
-## Anbraten im Schmortopf
-
-Zwiebeln und Fleisch zuerst Farbe holen, dann Kraut – das Profil von Bigos. Ein Topf, der nur „weichen“ kann, aber nicht ordentlich anbraten, ist für uns weniger allround.
-
-## Second-Hand-Gusseisen
-
-Möglich bei intakter Emaille und planem Boden. Risse, Rostlöcher, schwere Verformung meiden. Reinigen und Testschmoren vor Bigos für Gäste.
-
-## Deckel als Qualitätsmerkmal
-
-Ein Deckel, der klappert und Dampf unkontrolliert verliert, verlängert Schmorzeiten und trocknet Ränder. Sitz prüfen: leicht drehen, Spaltmaß fühlen.
-
-## Anbraten im Schmortopf
-
-Zwiebeln und Fleisch zuerst Farbe holen, dann Kraut – das Profil von Bigos. Ein Topf, der nur „weichen“ kann, aber nicht ordentlich anbraten, ist für uns weniger allround.
-
-## Second-Hand-Gusseisen
-
-Möglich bei intakter Emaille und planem Boden. Risse, Rostlöcher, schwere Verformung meiden. Reinigen und Testschmoren vor Bigos für Gäste.
-
-## Deckel als Qualitätsmerkmal
-
-Ein Deckel, der klappert und Dampf unkontrolliert verliert, verlängert Schmorzeiten und trocknet Ränder. Sitz prüfen: leicht drehen, Spaltmaß fühlen.
-
-## Anbraten im Schmortopf
-
-Zwiebeln und Fleisch zuerst Farbe holen, dann Kraut – das Profil von Bigos. Ein Topf, der nur „weichen“ kann, aber nicht ordentlich anbraten, ist für uns weniger allround.
-
-## Second-Hand-Gusseisen
-
-Möglich bei intakter Emaille und planem Boden. Risse, Rostlöcher, schwere Verformung meiden. Reinigen und Testschmoren vor Bigos für Gäste.
-
-## Deckel als Qualitätsmerkmal
-
-Ein Deckel, der klappert und Dampf unkontrolliert verliert, verlängert Schmorzeiten und trocknet Ränder. Sitz prüfen: leicht drehen, Spaltmaß fühlen.
-
-## Anbraten im Schmortopf
-
-Zwiebeln und Fleisch zuerst Farbe holen, dann Kraut – das Profil von Bigos. Ein Topf, der nur „weichen“ kann, aber nicht ordentlich anbraten, ist für uns weniger allround.
-
-## Second-Hand-Gusseisen
-
-Möglich bei intakter Emaille und planem Boden. Risse, Rostlöcher, schwere Verformung meiden. Reinigen und Testschmoren vor Bigos für Gäste.
-
-## Deckel als Qualitätsmerkmal
-
-Ein Deckel, der klappert und Dampf unkontrolliert verliert, verlängert Schmorzeiten und trocknet Ränder. Sitz prüfen: leicht drehen, Spaltmaß fühlen.
-
-## Anbraten im Schmortopf
-
-Zwiebeln und Fleisch zuerst Farbe holen, dann Kraut – das Profil von Bigos. Ein Topf, der nur „weichen“ kann, aber nicht ordentlich anbraten, ist für uns weniger allround.
-
-## Second-Hand-Gusseisen
-
-Möglich bei intakter Emaille und planem Boden. Risse, Rostlöcher, schwere Verformung meiden. Reinigen und Testschmoren vor Bigos für Gäste.
-
-## Deckel als Qualitätsmerkmal
-
-Ein Deckel, der klappert und Dampf unkontrolliert verliert, verlängert Schmorzeiten und trocknet Ränder. Sitz prüfen: leicht drehen, Spaltmaß fühlen.
-
-## Anbraten im Schmortopf
-
-Zwiebeln und Fleisch zuerst Farbe holen, dann Kraut – das Profil von Bigos. Ein Topf, der nur „weichen“ kann, aber nicht ordentlich anbraten, ist für uns weniger allround.
 `;
 
 export const bodyGusseisenDe = `
@@ -2359,27 +1558,27 @@ Keine Sieger ohne Protokoll. Später: Placki-Release, Schnitzelbräune, Reinigun
 
 ### Reicht eine beschichtete Pfanne?
 
-Für viele Haushalte ja – besonders ohne Pflegeinteresse. Gusseisen lohnt bei regelmäßigen Placki/Schabowy und Freude an Hitze/Patina. Werkzeug dem Verhalten anpassen, nicht umgekehrt. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen. Klarheit vor Impuls. Pflege und Gewicht mitdenken. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen. Klarheit vor Impuls. Pflege und Gewicht mitdenken. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen. Klarheit vor Impuls. Pflege und Gewicht mitdenken. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen. Klarheit vor Impuls. Pflege und Gewicht mitdenken. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen.
+Für viele Haushalte ja – besonders ohne Pflegeinteresse. Gusseisen lohnt bei regelmäßigen Placki/Schabowy und Freude an Hitze/Patina. Werkzeug dem Verhalten anpassen, nicht umgekehrt. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen.
 
 ### Welcher Durchmesser?
 
-26–28 cm ist vielseitig; 24 cm für Singles/kleine Herdplatten; 30 cm nur wenn tragbar und Herd groß genug. Zu voll stapeln verschlechtert Kruste. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen. Klarheit vor Impuls. Pflege und Gewicht mitdenken. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen. Klarheit vor Impuls. Pflege und Gewicht mitdenken. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen. Klarheit vor Impuls. Pflege und Gewicht mitdenken. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen. Klarheit vor Impuls. Pflege und Gewicht mitdenken. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen.
+26–28 cm ist vielseitig; 24 cm für Singles/kleine Herdplatten; 30 cm nur wenn tragbar und Herd groß genug. Zu voll stapeln verschlechtert Kruste. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen.
 
 ### Emailliert für Placki?
 
-Ja, oft unkompliziert. Etwas anderes Release-Verhalten als blankes Eisen mit Patina. Fett trotzdem nutzen. Chips in Emaille ernst nehmen. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen. Klarheit vor Impuls. Pflege und Gewicht mitdenken. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen. Klarheit vor Impuls. Pflege und Gewicht mitdenken. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen. Klarheit vor Impuls. Pflege und Gewicht mitdenken. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen. Klarheit vor Impuls. Pflege und Gewicht mitdenken. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen. Klarheit vor Impuls.
+Ja, oft unkompliziert. Etwas anderes Release-Verhalten als blankes Eisen mit Patina. Fett trotzdem nutzen. Chips in Emaille ernst nehmen. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen.
 
 ### Wie verhindern wir Ankleben?
 
-Langsam vorheizen, ausreichend Fett, Teig/Panade nicht eiskalt-nass einlegen, Geduld vor dem Wenden. Sofort auf Hochstufe knallen erzeugt Hotspots und Kleber. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen. Klarheit vor Impuls. Pflege und Gewicht mitdenken. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen. Klarheit vor Impuls. Pflege und Gewicht mitdenken. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen. Klarheit vor Impuls. Pflege und Gewicht mitdenken. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen. Klarheit vor Impuls. Pflege und Gewicht mitdenken. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen. Klarheit vor Impuls.
+Langsam vorheizen, ausreichend Fett, Teig/Panade nicht eiskalt-nass einlegen, Geduld vor dem Wenden. Sofort auf Hochstufe knallen erzeugt Hotspots und Kleber. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen.
 
 ### Darf Säure hinein?
 
-In blankem Eisen Saucen mit viel Säure nicht lange lagern; kurz kochen oft ok je nach Patina. Emaille toleranter. Herstellerhinweise lesen. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen. Klarheit vor Impuls. Pflege und Gewicht mitdenken. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen. Klarheit vor Impuls. Pflege und Gewicht mitdenken. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen. Klarheit vor Impuls. Pflege und Gewicht mitdenken. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen. Klarheit vor Impuls. Pflege und Gewicht mitdenken. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen. Klarheit vor Impuls.
+In blankem Eisen Saucen mit viel Säure nicht lange lagern; kurz kochen oft ok je nach Patina. Emaille toleranter. Herstellerhinweise lesen. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen.
 
 ### Zwei Pfannen statt einer großen?
 
-Oft ja: handlicher, bessere Hitze, paralleles Braten. Eine übergroße Pfanne überfordert viele Herdplatten und Handgelenke. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen. Klarheit vor Impuls. Pflege und Gewicht mitdenken. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen. Klarheit vor Impuls. Pflege und Gewicht mitdenken. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen. Klarheit vor Impuls. Pflege und Gewicht mitdenken. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen. Klarheit vor Impuls. Pflege und Gewicht mitdenken. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen. Klarheit vor Impuls. Pflege und Gewicht mitdenken.
+Oft ja: handlicher, bessere Hitze, paralleles Braten. Eine übergroße Pfanne überfordert viele Herdplatten und Handgelenke. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken.
 
 ## Aufheizen als Ritual
 
@@ -2393,85 +1592,6 @@ Neutrale Öle mit ausreichendem Rauchpunkt; Butter zum Schluss für Aroma, nicht
 
 Trocken, ggf. Papier zwischen gestapelten Pfannen. Feuchte Schubladen erzeugen Rost. Griffhaken nutzen, wenn Wandmontage sicher ist.
 
-## Aufheizen als Ritual
-
-Fünf bis zehn Minuten moderate Hitze vor dem Fett sind keine Zeitverschwendung. Wer das hasst, sollte kein blankes Eisen kaufen. Emaille oder Edelstahl sind dann ehrlicher.
-
-## Fettwahl für Placki und Schnitzel
-
-Neutrale Öle mit ausreichendem Rauchpunkt; Butter zum Schluss für Aroma, nicht allein zum scharfen Braten. Zu wenig Fett an Eisen ist der Klassikerfrust.
-
-## Lagerung
-
-Trocken, ggf. Papier zwischen gestapelten Pfannen. Feuchte Schubladen erzeugen Rost. Griffhaken nutzen, wenn Wandmontage sicher ist.
-
-## Aufheizen als Ritual
-
-Fünf bis zehn Minuten moderate Hitze vor dem Fett sind keine Zeitverschwendung. Wer das hasst, sollte kein blankes Eisen kaufen. Emaille oder Edelstahl sind dann ehrlicher.
-
-## Fettwahl für Placki und Schnitzel
-
-Neutrale Öle mit ausreichendem Rauchpunkt; Butter zum Schluss für Aroma, nicht allein zum scharfen Braten. Zu wenig Fett an Eisen ist der Klassikerfrust.
-
-## Lagerung
-
-Trocken, ggf. Papier zwischen gestapelten Pfannen. Feuchte Schubladen erzeugen Rost. Griffhaken nutzen, wenn Wandmontage sicher ist.
-
-## Aufheizen als Ritual
-
-Fünf bis zehn Minuten moderate Hitze vor dem Fett sind keine Zeitverschwendung. Wer das hasst, sollte kein blankes Eisen kaufen. Emaille oder Edelstahl sind dann ehrlicher.
-
-## Fettwahl für Placki und Schnitzel
-
-Neutrale Öle mit ausreichendem Rauchpunkt; Butter zum Schluss für Aroma, nicht allein zum scharfen Braten. Zu wenig Fett an Eisen ist der Klassikerfrust.
-
-## Lagerung
-
-Trocken, ggf. Papier zwischen gestapelten Pfannen. Feuchte Schubladen erzeugen Rost. Griffhaken nutzen, wenn Wandmontage sicher ist.
-
-## Aufheizen als Ritual
-
-Fünf bis zehn Minuten moderate Hitze vor dem Fett sind keine Zeitverschwendung. Wer das hasst, sollte kein blankes Eisen kaufen. Emaille oder Edelstahl sind dann ehrlicher.
-
-## Fettwahl für Placki und Schnitzel
-
-Neutrale Öle mit ausreichendem Rauchpunkt; Butter zum Schluss für Aroma, nicht allein zum scharfen Braten. Zu wenig Fett an Eisen ist der Klassikerfrust.
-
-## Lagerung
-
-Trocken, ggf. Papier zwischen gestapelten Pfannen. Feuchte Schubladen erzeugen Rost. Griffhaken nutzen, wenn Wandmontage sicher ist.
-
-## Aufheizen als Ritual
-
-Fünf bis zehn Minuten moderate Hitze vor dem Fett sind keine Zeitverschwendung. Wer das hasst, sollte kein blankes Eisen kaufen. Emaille oder Edelstahl sind dann ehrlicher.
-
-## Fettwahl für Placki und Schnitzel
-
-Neutrale Öle mit ausreichendem Rauchpunkt; Butter zum Schluss für Aroma, nicht allein zum scharfen Braten. Zu wenig Fett an Eisen ist der Klassikerfrust.
-
-## Lagerung
-
-Trocken, ggf. Papier zwischen gestapelten Pfannen. Feuchte Schubladen erzeugen Rost. Griffhaken nutzen, wenn Wandmontage sicher ist.
-
-## Aufheizen als Ritual
-
-Fünf bis zehn Minuten moderate Hitze vor dem Fett sind keine Zeitverschwendung. Wer das hasst, sollte kein blankes Eisen kaufen. Emaille oder Edelstahl sind dann ehrlicher.
-
-## Fettwahl für Placki und Schnitzel
-
-Neutrale Öle mit ausreichendem Rauchpunkt; Butter zum Schluss für Aroma, nicht allein zum scharfen Braten. Zu wenig Fett an Eisen ist der Klassikerfrust.
-
-## Lagerung
-
-Trocken, ggf. Papier zwischen gestapelten Pfannen. Feuchte Schubladen erzeugen Rost. Griffhaken nutzen, wenn Wandmontage sicher ist.
-
-## Aufheizen als Ritual
-
-Fünf bis zehn Minuten moderate Hitze vor dem Fett sind keine Zeitverschwendung. Wer das hasst, sollte kein blankes Eisen kaufen. Emaille oder Edelstahl sind dann ehrlicher.
-
-## Fettwahl für Placki und Schnitzel
-
-Neutrale Öle mit ausreichendem Rauchpunkt; Butter zum Schluss für Aroma, nicht allein zum scharfen Braten. Zu wenig Fett an Eisen ist der Klassikerfrust.
 `;
 
 export const bodyTeigmaschineUpgradeDe = `
@@ -2517,10 +1637,6 @@ Teig portionsweise 2–3 Tage vorher; Füllung schmoren; formen/frieren; am Tag 
 
 Kriterien vor Provision; Kennzeichnung wenn Links provisioniert; keine Fake-Sieger.
 
-## Tests & Erfahrungen
-
-Dieser Abschnitt ist für spätere, nachvollziehbare Praxistests vorbereitet. Wir dokumentieren dann Aufheizzeit, Bräunung, Anhaften, Reinigung, Gewichtshandling und Ergebnis mit derselben Rezeptcharge. Bis reale Tests vorliegen, keine Rangliste und keine Sieger. Kriterien, Anleitung, Garantie und Ersatzteile entscheiden.
-
 ## Checkliste vor Klick
 
 Häufigkeit/Monat; typische Mehlmenge; Nutzvolumen; Haken; Ersatzteile; Reinigung; Lautstärke; Platz; Geld besser in Übung?
@@ -2541,27 +1657,27 @@ Maschine + Freezer entlasten erst zusammen. Nur kneten ohne Einfrierplan bringt 
 
 ### Brauchen wir eine Maschine für gute Pierogi?
 
-Nein. Gute Pierogi kommen aus Verhältnis, Ruhe und Naht. Die Maschine nimmt Knetarbeit ab. Sinnvoll bei regelmäßigen Batches und Wigilia-Volumen. Zuerst Technik, dann Gerät. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen. Klarheit vor Impuls. Pflege und Gewicht mitdenken. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen. Klarheit vor Impuls. Pflege und Gewicht mitdenken. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen. Klarheit vor Impuls. Pflege und Gewicht mitdenken. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen. Klarheit vor Impuls. Pflege und Gewicht mitdenken. Wir bleiben praxisnah. Kriterien schlagen Fotos.
+Nein. Gute Pierogi kommen aus Verhältnis, Ruhe und Naht. Die Maschine nimmt Knetarbeit ab. Sinnvoll bei regelmäßigen Batches und Wigilia-Volumen. Zuerst Technik, dann Gerät. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos.
 
 ### Reicht das Angebot-Gerät?
 
-Manchmal. Knethaken und Drehmoment zählen, nicht Aktionspreis. Wer schon bei Hefeteig schwächelt, scheitert an Pierogi-Teig. Garantie/Ersatzteile prüfen. Im Zweifel Hand + gute Form. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen. Klarheit vor Impuls. Pflege und Gewicht mitdenken. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen. Klarheit vor Impuls. Pflege und Gewicht mitdenken. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen. Klarheit vor Impuls. Pflege und Gewicht mitdenken. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen. Klarheit vor Impuls. Pflege und Gewicht mitdenken. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen.
+Manchmal. Knethaken und Drehmoment zählen, nicht Aktionspreis. Wer schon bei Hefeteig schwächelt, scheitert an Pierogi-Teig. Garantie/Ersatzteile prüfen. Im Zweifel Hand + gute Form. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen.
 
 ### Schüsselgröße Wigilia?
 
-Für 1–1,5 kg eher 5–6 l nutzbar oder zwei Chargen. Überfüllen schadet Motor und Gleichmäßigkeit. Speiseplan nutzen und portionsweise kneten. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen. Klarheit vor Impuls. Pflege und Gewicht mitdenken. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen. Klarheit vor Impuls. Pflege und Gewicht mitdenken. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen. Klarheit vor Impuls. Pflege und Gewicht mitdenken. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen. Klarheit vor Impuls. Pflege und Gewicht mitdenken. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen. Klarheit vor Impuls.
+Für 1–1,5 kg eher 5–6 l nutzbar oder zwei Chargen. Überfüllen schadet Motor und Gleichmäßigkeit. Speiseplan nutzen und portionsweise kneten. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen.
 
 ### Budget, Allround oder Family?
 
-Selten/klein → Budget. Regelmäßig 0,75–1 kg → Allround. Häufig große Volumina über Jahre → Family-Batch. Nutzungsfrequenz ehrlich schätzen, nicht Wunschfrequenz. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen. Klarheit vor Impuls. Pflege und Gewicht mitdenken. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen. Klarheit vor Impuls. Pflege und Gewicht mitdenken. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen. Klarheit vor Impuls. Pflege und Gewicht mitdenken. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen. Klarheit vor Impuls. Pflege und Gewicht mitdenken. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen. Klarheit vor Impuls.
+Selten/klein → Budget. Regelmäßig 0,75–1 kg → Allround. Häufig große Volumina über Jahre → Family-Batch. Nutzungsfrequenz ehrlich schätzen, nicht Wunschfrequenz. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen.
 
 ### Wie laut darf sie sein?
 
-In Mehrfamilienhäusern Rücksicht: Tageszeit, Unterlage, Dauer. Lautstärke ist Kaufkriterium, kein Luxusdetail. Wer nachts vor Wigilia knetet, plant das sozial. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen. Klarheit vor Impuls. Pflege und Gewicht mitdenken. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen. Klarheit vor Impuls. Pflege und Gewicht mitdenken. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen. Klarheit vor Impuls. Pflege und Gewicht mitdenken. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen. Klarheit vor Impuls. Pflege und Gewicht mitdenken. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen. Klarheit vor Impuls.
+In Mehrfamilienhäusern Rücksicht: Tageszeit, Unterlage, Dauer. Lautstärke ist Kaufkriterium, kein Luxusdetail. Wer nachts vor Wigilia knetet, plant das sozial. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen.
 
 ### Was nach dem Kauf zuerst?
 
-Erste Charge nach Pierogi-Teig-Guide, füllen als Ruskie oder Kraut-Pilz, Freezer testen. So validieren wir Gerät und Ablauf vor dem Festtagsstress. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen. Klarheit vor Impuls. Pflege und Gewicht mitdenken. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen. Klarheit vor Impuls. Pflege und Gewicht mitdenken. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen. Klarheit vor Impuls. Pflege und Gewicht mitdenken. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen. Klarheit vor Impuls. Pflege und Gewicht mitdenken. Wir bleiben praxisnah. Kriterien schlagen Fotos. Notizen helfen. Klarheit vor Impuls.
+Erste Charge nach Pierogi-Teig-Guide, füllen als Ruskie oder Kraut-Pilz, Freezer testen. So validieren wir Gerät und Ablauf vor dem Festtagsstress. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen.
 
 ## Drehmoment ohne Watt-Glaube
 
@@ -2575,83 +1691,4 @@ Ein Gerät, das 20 Minuten Spülärger macht, bleibt stehen. Schüssel und Haken
 
 Möglich bei geprüftem Haken, Schüsselzustand und Motorverhalten unter Last. Verschleißteile-Preise vorher checken. Ohne Ersatzteilstrategie riskant.
 
-## Drehmoment ohne Watt-Glaube
-
-Wattzahlen allein sagen wenig. Dichte Teige brauchen Kraft bei niedriger Stufe und einen Haken, der Teig vom Boden holt. Demo-Videos mit Rührteig beweisen nichts für Pierogi.
-
-## Reinigung entscheidet über Nutzung
-
-Ein Gerät, das 20 Minuten Spülärger macht, bleibt stehen. Schüssel und Haken griffgünstig wählen. Eingetrockneter Teig ist vermeidbar durch sofortiges Vorreinigen.
-
-## Second-Hand-Küchenmaschinen
-
-Möglich bei geprüftem Haken, Schüsselzustand und Motorverhalten unter Last. Verschleißteile-Preise vorher checken. Ohne Ersatzteilstrategie riskant.
-
-## Drehmoment ohne Watt-Glaube
-
-Wattzahlen allein sagen wenig. Dichte Teige brauchen Kraft bei niedriger Stufe und einen Haken, der Teig vom Boden holt. Demo-Videos mit Rührteig beweisen nichts für Pierogi.
-
-## Reinigung entscheidet über Nutzung
-
-Ein Gerät, das 20 Minuten Spülärger macht, bleibt stehen. Schüssel und Haken griffgünstig wählen. Eingetrockneter Teig ist vermeidbar durch sofortiges Vorreinigen.
-
-## Second-Hand-Küchenmaschinen
-
-Möglich bei geprüftem Haken, Schüsselzustand und Motorverhalten unter Last. Verschleißteile-Preise vorher checken. Ohne Ersatzteilstrategie riskant.
-
-## Drehmoment ohne Watt-Glaube
-
-Wattzahlen allein sagen wenig. Dichte Teige brauchen Kraft bei niedriger Stufe und einen Haken, der Teig vom Boden holt. Demo-Videos mit Rührteig beweisen nichts für Pierogi.
-
-## Reinigung entscheidet über Nutzung
-
-Ein Gerät, das 20 Minuten Spülärger macht, bleibt stehen. Schüssel und Haken griffgünstig wählen. Eingetrockneter Teig ist vermeidbar durch sofortiges Vorreinigen.
-
-## Second-Hand-Küchenmaschinen
-
-Möglich bei geprüftem Haken, Schüsselzustand und Motorverhalten unter Last. Verschleißteile-Preise vorher checken. Ohne Ersatzteilstrategie riskant.
-
-## Drehmoment ohne Watt-Glaube
-
-Wattzahlen allein sagen wenig. Dichte Teige brauchen Kraft bei niedriger Stufe und einen Haken, der Teig vom Boden holt. Demo-Videos mit Rührteig beweisen nichts für Pierogi.
-
-## Reinigung entscheidet über Nutzung
-
-Ein Gerät, das 20 Minuten Spülärger macht, bleibt stehen. Schüssel und Haken griffgünstig wählen. Eingetrockneter Teig ist vermeidbar durch sofortiges Vorreinigen.
-
-## Second-Hand-Küchenmaschinen
-
-Möglich bei geprüftem Haken, Schüsselzustand und Motorverhalten unter Last. Verschleißteile-Preise vorher checken. Ohne Ersatzteilstrategie riskant.
-
-## Drehmoment ohne Watt-Glaube
-
-Wattzahlen allein sagen wenig. Dichte Teige brauchen Kraft bei niedriger Stufe und einen Haken, der Teig vom Boden holt. Demo-Videos mit Rührteig beweisen nichts für Pierogi.
-
-## Reinigung entscheidet über Nutzung
-
-Ein Gerät, das 20 Minuten Spülärger macht, bleibt stehen. Schüssel und Haken griffgünstig wählen. Eingetrockneter Teig ist vermeidbar durch sofortiges Vorreinigen.
-
-## Second-Hand-Küchenmaschinen
-
-Möglich bei geprüftem Haken, Schüsselzustand und Motorverhalten unter Last. Verschleißteile-Preise vorher checken. Ohne Ersatzteilstrategie riskant.
-
-## Drehmoment ohne Watt-Glaube
-
-Wattzahlen allein sagen wenig. Dichte Teige brauchen Kraft bei niedriger Stufe und einen Haken, der Teig vom Boden holt. Demo-Videos mit Rührteig beweisen nichts für Pierogi.
-
-## Reinigung entscheidet über Nutzung
-
-Ein Gerät, das 20 Minuten Spülärger macht, bleibt stehen. Schüssel und Haken griffgünstig wählen. Eingetrockneter Teig ist vermeidbar durch sofortiges Vorreinigen.
-
-## Second-Hand-Küchenmaschinen
-
-Möglich bei geprüftem Haken, Schüsselzustand und Motorverhalten unter Last. Verschleißteile-Preise vorher checken. Ohne Ersatzteilstrategie riskant.
-
-## Drehmoment ohne Watt-Glaube
-
-Wattzahlen allein sagen wenig. Dichte Teige brauchen Kraft bei niedriger Stufe und einen Haken, der Teig vom Boden holt. Demo-Videos mit Rührteig beweisen nichts für Pierogi.
-
-## Reinigung entscheidet über Nutzung
-
-Ein Gerät, das 20 Minuten Spülärger macht, bleibt stehen. Schüssel und Haken griffgünstig wählen. Eingetrockneter Teig ist vermeidbar durch sofortiges Vorreinigen.
 `;
