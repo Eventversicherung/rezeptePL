@@ -388,7 +388,7 @@ Polnische Suppen leben von Brühe, Säure, Gemüse und Geduld – nicht von Schw
 
 ## Vier Säulen
 
-**Rosół:** klare Brühe, niedrige Hitze – [Rosół-Technik](/de/blog/rosol-technik). **Żurek:** Zakwas, Majoran, Einlagen – [Zakwas](/de/blog/zakwas-zurek). **Barszcz:** Rote Bete, Balance statt Zucker. **Krupnik** und die Kiszone-Suppen [Kapuśniak](/de/rezepte/kapusniak) sowie [Ogórkowa](/de/rezepte/ogorkowa): Einlagen nach Basis. **Frühling:** [Botwinka](/de/rezepte/botwinka) — junge Bete mit Blättern, warm und einlagenreich, klar ≠ Barszcz und ≠ kalter Chłodnik. Immer: Basis zuerst, Säure und Salz steuern.
+**Rosół:** klare Brühe, niedrige Hitze – [Rosół-Technik](/de/blog/rosol-technik). **Żurek:** Zakwas, Majoran, Einlagen – [Zakwas](/de/blog/zakwas-zurek). **Barszcz:** Rote Bete, Balance statt Zucker. **[Krupnik](/de/rezepte/krupnik)** (Gerste) und die Kiszone-Suppen [Kapuśniak](/de/rezepte/kapusniak) sowie [Ogórkowa](/de/rezepte/ogorkowa): Einlagen nach Basis. **Frühling:** [Botwinka](/de/rezepte/botwinka) — junge Bete mit Blättern; grüne Sauerampfer-Linie: [Szczawiowa](/de/rezepte/szczawiowa). Immer: Basis zuerst, Säure und Salz steuern.
 
 ## Flaki (Kuttelsuppe)
 
@@ -404,7 +404,15 @@ Wenn der Topf deftige Einlage und Majeranek will — nicht Rote Bete, nicht Zakw
 
 ## Deftig: Grochówka
 
-**Grochówka** — Erbsensuppe mit oft Rauchwurst — ist Erbsen-Primary, nicht Bohnen-[Fasolka](/de/rezepte/fasolka-po-bretonsku) und nicht [Kapuśniak](/de/rezepte/kapusniak). Cook: [Grochówka](/de/rezepte/grochowka). Krupnik später; Overview bleibt Broad.
+**Grochówka** — Erbsensuppe mit oft Rauchwurst — ist Erbsen-Primary, nicht Bohnen-[Fasolka](/de/rezepte/fasolka-po-bretonsku) und nicht [Kapuśniak](/de/rezepte/kapusniak). Cook: [Grochówka](/de/rezepte/grochowka). Overview bleibt Broad.
+
+## Gerste: Krupnik
+
+**Krupnik** — Gerstensuppe mit Wurzelgemüse, optional Huhn — ist Gersten-Primary, nicht Erbsen-[Grochówka](/de/rezepte/grochowka) und nicht Pilz-[Zupa grzybowa](/de/rezepte/zupa-grzybowa). Cook: [Krupnik](/de/rezepte/krupnik). Overview bleibt Broad.
+
+## Grün / Saison: Szczawiowa
+
+**Zupa szczawiowa** — grüne Sauerampfersuppe mit oft Ei und Śmietana — ist Sauerampfer-Primary, nicht [Botwinka](/de/rezepte/botwinka), nicht [Ogórkowa](/de/rezepte/ogorkowa) und nicht kalter [Chłodnik](/de/rezepte/chlodnik-litewski). Cook: [Szczawiowa](/de/rezepte/szczawiowa). Overview bleibt Broad.
 
 ## Einkauf DE
 
@@ -1152,6 +1160,10 @@ Bratfest, kochfest, aufschnittfähig, stark/mild geräuchert. Namen variieren �
 
 Dieses Lexikon bleibt Owner für **Arten, Qualität und Einsatz** (Żurek, Bigos, Alltagswurst). Gebratene **Kaszanka mit Zwiebel** ist ein eigener Cook-Intent — Mengen und Pfannenschritte stehen im [Kaszanka-Rezept](/de/rezepte/kaszanka), nicht hier. Descriptive Anchors nur; Primary „Kaszanka Rezept“ stehlen wir nicht.
 
+## Types vs Cook: Biała kiełbasa
+
+Helle frische Weißwurst **kochen oder backen** ist ein eigener Cook-Intent — Mengen und Garzeiten stehen im [Biała-kiełbasa-Rezept](/de/rezepte/biala-kielbasa), nicht hier. Dieses Lexikon bleibt Owner für Arten, Qualität und Einsatz-Breite; Primary „Biała kiełbasa Rezept“ stehlen wir nicht.
+
 ## Nutzung
 
 **Braten:** fester Biss, wenig Wasseraustritt. **Kochen:** aromatisch, nicht dominant, spät in Bigos/Żurek. **Aufschnitt:** klare Struktur. **Grill:** stabile Hülle.
@@ -1454,7 +1466,7 @@ Wielkanoc soll Menschen zusammenbringen, nicht den Kühlschrank überfordern. Wi
 
 ## Menüprinzip
 
-Weniger Gerichte, bessere Ausführung. Żurek oft Zentrum; dazu Eier, [Kiełbasa](/de/blog/kielbasa-arten), Brot, Rettich/Kräuter, kühle [Mizeria](/de/rezepte/mizeria) und/oder [Sałatka jarzynowa](/de/rezepte/salatka-jarzynowa) als Festsalat (Mayo-Gemüse ≠ Gurke/Śmietana), Kuchen nach Brauch. Saisonal im Frühjahr optional warme [Botwinka](/de/rezepte/botwinka) statt schwerer Bete-Klarsuppe. Nicht alles gleichzeitig warm halten.
+Weniger Gerichte, bessere Ausführung. Żurek oft Zentrum; dazu Eier, gekochte [Biała kiełbasa](/de/rezepte/biala-kielbasa) (Cook; Arten bleiben im [Kiełbasa-Lexikon](/de/blog/kielbasa-arten)), Brot, Rettich/Kräuter, kühle [Mizeria](/de/rezepte/mizeria) und/oder [Sałatka jarzynowa](/de/rezepte/salatka-jarzynowa) als Festsalat (Mayo-Gemüse ≠ Gurke/Śmietana), Kuchen nach Brauch. Saisonal im Frühjahr optional warme [Botwinka](/de/rezepte/botwinka) statt schwerer Bete-Klarsuppe. Nicht alles gleichzeitig warm halten.
 
 ## Zeitplan
 
@@ -1486,7 +1498,11 @@ Zwei Touren: Spezial + Volumen. Leere Regale vor Feiertagen real – Puffer.
 
 ## Süßes
 
-Ein Kuchen reicht oft — Qualität vor Vielfalt. Klassische Form: [Babka](/de/rezepte/babka) (Hefegugelhupf); flacher Belag-Osterkuchen: [Mazurek orzechowy](/de/rezepte/mazurek) (Cook-Intent, Speiseplan bleibt Menü-Owner). Alternativ Käsekuchen-Linie [Sernik](/de/rezepte/sernik) oder Kaufware ohne Scham.
+Ein Kuchen reicht oft — Qualität vor Vielfalt. Klassische Form: [Babka](/de/rezepte/babka) (Hefegugelhupf); flacher Belag-Osterkuchen: [Mazurek orzechowy](/de/rezepte/mazurek) (Cook-Intent, Speiseplan bleibt Menü-Owner). Alternativ Käsekuchen-Linie [Sernik](/de/rezepte/sernik) oder Kaufware ohne Scham. Geflochtener Hefezopf/Laib (nicht Gugelhupf): [Chałka](/de/rezepte/chalka) — Cook-Primary dort; Speiseplan bleibt Menü-Owner.
+
+## Aufschnitt: Pasztet
+
+Haus-Pastete angeschnitten statt nur Kaufwurst: [Pasztet drobiowy](/de/rezepte/pasztet) — klar ≠ [Kaszanka](/de/rezepte/kaszanka). Arten/Qualität von Wurst bleiben im [Kiełbasa-Arten-Lexikon](/de/blog/kielbasa-arten); hier nur descriptiver Menüplatz.
 
 ## Tisch
 
@@ -1798,7 +1814,11 @@ Kartoffeln/Kasza/Brot + Gurke/Salat. Klassisch kalt: [Mizeria](/de/rezepte/mizer
 
 ## Süßes zum Kaffee
 
-Ein Blech reicht oft: [Szarlotka](/de/rezepte/szarlotka) als polnischer Apfelkuchen (≠ [Racuchy](/de/rezepte/racuchy-jablka) in der Pfanne). Kultur-Owner bleibt dieser Guide; Cook-Primary auf der Rezept-URL.
+Ein Blech reicht oft: [Szarlotka](/de/rezepte/szarlotka) als polnischer Apfelkuchen (≠ [Racuchy](/de/rezepte/racuchy-jablka) in der Pfanne). Geflochtener Hefezopf statt Formkuchen: [Chałka](/de/rezepte/chalka) (≠ [Babka](/de/rezepte/babka)). Kultur-Owner bleibt dieser Guide; Cook-Primary auf der Rezept-URL.
+
+## Aufschnitt: Pasztet
+
+Kalte Platte mit Haus-Pastete: [Pasztet drobiowy](/de/rezepte/pasztet) — angeschnitten auf Brot, klar ≠ [Kaszanka](/de/rezepte/kaszanka). Kultur-Owner bleibt dieser Guide.
 
 ## Gäste
 
@@ -1806,7 +1826,7 @@ Allergien fragen; vegetarische Option; Wasser neben Kompot/Kaffee. Kinderportion
 
 ## Deftige Erbsensuppe
 
-Wenn der Mittelpunkt ein Topf sein soll: [Grochówka](/de/rezepte/grochowka) — Erbsen mit oft Rauchwurst, klar ≠ Fasolka und ≠ Kapuśniak. Cook-Primary auf der Rezept-URL; Kultur-Owner bleibt dieser Sonntags-Guide.
+Wenn der Mittelpunkt ein Topf sein soll: [Grochówka](/de/rezepte/grochowka) — Erbsen mit oft Rauchwurst, klar ≠ Fasolka und ≠ Kapuśniak. Gersten-Nachbar descriptiv: [Krupnik](/de/rezepte/krupnik). Cook-Primary auf der Rezept-URL; Kultur-Owner bleibt dieser Sonntags-Guide.
 
 ## Reste
 

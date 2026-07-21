@@ -90,8 +90,8 @@ export const W9_FACTS_B: Record<string, ArticleFacts> = {
     mistakesPl:
       "Mylenie z barszczem i przecedzanie wszystkiego; podawanie zimne jak chłodnik; gotowanie liści od początku do szarości; śmietana do wrzątku; kradzież primary techniki barszczu lub ogórkowej.",
     variantsDe:
-      "Mit mehr Kartoffel sättigender, mit weniger Śmietana leichter, vegetarisch auf Gemüsefond. Übersicht: [Polnische Suppen](/de/blog/polnische-suppen). Klarer Nachbar: [Barszcz](/de/rezepte/barszcz-czerwony) + [Barszcz-Technik](/de/blog/barszcz-technik). Kalt/Sommer: [Chłodnik](/de/rezepte/chlodnik-litewski). Kiszone-Gurken-Linie: [Ogórkowa](/de/rezepte/ogorkowa).",
+      "Mit mehr Kartoffel sättigender, mit weniger Śmietana leichter, vegetarisch auf Gemüsefond. Übersicht: [Polnische Suppen](/de/blog/polnische-suppen). Klarer Nachbar: [Barszcz](/de/rezepte/barszcz-czerwony) + [Barszcz-Technik](/de/blog/barszcz-technik). Kalt/Sommer: [Chłodnik](/de/rezepte/chlodnik-litewski). Kiszone-Gurken-Linie: [Ogórkowa](/de/rezepte/ogorkowa). Grün/Sauerampfer-Nachbar: [Szczawiowa](/de/rezepte/szczawiowa).",
     variantsPl:
-      "Z większą ilością ziemniaka sycąca, z mniejszą śmietaną lżejsza, wegetariańska na warzywnym. Przegląd: [polskie zupy](/pl/blog/polskie-zupy). Klarowny sąsiad: [barszcz](/pl/rezepte/barszcz-czerwony) + [technika barszczu](/pl/blog/jak-ugotowac-barszcz). Zimno/lato: [chłodnik](/pl/rezepte/chlodnik-litewski). Linia ogórkowa: [ogórkowa](/pl/rezepte/ogorkowa).",
+      "Z większą ilością ziemniaka sycąca, z mniejszą śmietaną lżejsza, wegetariańska na warzywnym. Przegląd: [polskie zupy](/pl/blog/polskie-zupy). Klarowny sąsiad: [barszcz](/pl/rezepte/barszcz-czerwony) + [technika barszczu](/pl/blog/jak-ugotowac-barszcz). Zimno/lato: [chłodnik](/pl/rezepte/chlodnik-litewski). Linia ogórkowa: [ogórkowa](/pl/rezepte/ogorkowa). Sąsiad szczawiowy: [szczawiowa](/pl/rezepte/szczawiowa).",
   },
 };

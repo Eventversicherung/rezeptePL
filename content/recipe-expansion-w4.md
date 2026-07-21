@@ -174,6 +174,22 @@ Full-catalog Unsplash retrofit (54) + Family covers Pierogi/Placki/Naleśniki sy
 - Affiliate guide-only on recipes  
 - Target inventory: **65** recipes · **36** blog · Families **3** · `SEED_VERSION` **26**
 
+## Wave 13 — Diaspora classics (+7) · SHIPPED
+
+| Dish | ID | Ownership note |
+|------|-----|----------------|
+| Krupnik | `recipe-krupnik` | ≠ Grochówka / Grzybowa |
+| Szczawiowa | `recipe-szczawiowa` | ≠ Botwinka / Ogórkowa |
+| Kutia | `recipe-kutia` | ≠ Makaron z makiem / Makowiec |
+| Napoleonka | `recipe-napoleonka` | ≠ Szarlotka; Wuzetka HOLD |
+| Chałka | `recipe-chalka` | ≠ Babka / Pączki |
+| Pasztet | `recipe-pasztet` | ≠ Kaszanka / Mielony |
+| Biała kiełbasa | `recipe-biala-kielbasa` | Cook ≠ Kiełbasa-Arten Lexikon |
+
+### Tech SEO
+- Affiliate guide-only on recipes  
+- Target inventory: **72** recipes · **36** blog · Families **3** · `SEED_VERSION` **27**
+
 ## Still HOLD / next backlog
 
 - Kotlet family hub (SEO-safe split)  
@@ -181,7 +197,7 @@ Full-catalog Unsplash retrofit (54) + Family covers Pierogi/Placki/Naleśniki sy
 - Lab product tests  
 - Meal-Prep Arbeitswoche ≠ Freezer-Pierogi  
 - Czernina, Placek po węgiersku, Drożdżówka  
-- Später: Krupnik, Kutia, Napoleonka, Chałka, Biała kiełbasa Cook, Pasztet  
+- Später: Wuzetka, Jajka faszerowane, Zapiekanka, Leczo, Kaczka pieczona  
 - Cover-Proxy upgrades (Żurek, Bigos, Kapuśniak, Mizeria, Faworki, …)  
 
 ## Keyword ownership

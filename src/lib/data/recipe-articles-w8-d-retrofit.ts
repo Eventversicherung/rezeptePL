@@ -225,9 +225,9 @@ export const W8_FACTS_D_RETROFIT: Record<string, ArticleFacts> = {
     mistakesPl:
       "Sucha masa, za dużo mąki, zbyt gorący piec, zbyt wczesne krojenie, drożdże zabite wrzątkiem. Nie zapomnij strefy brzegowej przy smarowaniu.",
     variantsDe:
-      "Mit Rosinen, mit Zuckerguss, kleinere Rollen. Anderes Festtagsbacken: [Faworki](/de/rezepte/faworki) + [Faworki-Technik](/de/blog/faworki-technik). Käsekuchen-Linie: [Sernik](/de/rezepte/sernik). Formkuchen ohne Mohnspirale: [Babka](/de/rezepte/babka) — anderer Cook-Primary. Honig-Gewürz-Lebkuchen (≠ Mohnrolle): [Piernik](/de/rezepte/piernik).",
+      "Mit Rosinen, mit Zuckerguss, kleinere Rollen. Anderes Festtagsbacken: [Faworki](/de/rezepte/faworki) + [Faworki-Technik](/de/blog/faworki-technik). Käsekuchen-Linie: [Sernik](/de/rezepte/sernik). Formkuchen ohne Mohnspirale: [Babka](/de/rezepte/babka) — anderer Cook-Primary. Honig-Gewürz-Lebkuchen (≠ Mohnrolle): [Piernik](/de/rezepte/piernik). Weizenkörner+Mohn in der Schüssel (≠ Rolle): [Kutia](/de/rezepte/kutia).",
     variantsPl:
-      "Z rodzynkami, z lukrem, mniejsze rolady. Inne pieczenie świąteczne: [faworki](/pl/rezepte/faworki) + [technika faworków](/pl/blog/faworki-technika). Linia sernika: [sernik](/pl/rezepte/sernik). Ciasto z formy bez spirali: [babka](/pl/rezepte/babka) — inny cook-primary. Piernik miodowo-korzenny (≠ rolada makowa): [piernik](/pl/rezepte/piernik).",
+      "Z rodzynkami, z lukrem, mniejsze rolady. Inne pieczenie świąteczne: [faworki](/pl/rezepte/faworki) + [technika faworków](/pl/blog/faworki-technika). Linia sernika: [sernik](/pl/rezepte/sernik). Ciasto z formy bez spirali: [babka](/pl/rezepte/babka) — inny cook-primary. Piernik miodowo-korzenny (≠ rolada makowa): [piernik](/pl/rezepte/piernik). Pszenica+mak w misce (≠ rolada): [kutia](/pl/rezepte/kutia).",
   },
 
   "recipe-uszka": {

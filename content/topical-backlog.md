@@ -3,7 +3,7 @@
 Status: LIVE | W2 | W3 | W4 | HOLD  
 Affiliate auf Rezepten: **guide-only** (Gear-Blog-Cards); Affiliate-Karten in Buying-Guides.
 
-**SEO-Snapshot & erweiterter Plan:** [`topical-authority-status.md`](./topical-authority-status.md) (36 Blog · 65 Rezepte · Score 9/10 · `SEED_VERSION` 26).
+**SEO-Snapshot & erweiterter Plan:** [`topical-authority-status.md`](./topical-authority-status.md) (36 Blog · 72 Rezepte · Score 9/10 · `SEED_VERSION` 27).
 
 ## LIVE
 
@@ -185,6 +185,22 @@ Plan: `content/wave-11-plan.md` (shipped).
 
 Plan: `content/wave-12-plan.md` (shipped).
 
+## LIVE (Wave 13 shipped — 7 Diaspora-Klassiker)
+
+| What | Notes |
+|------|-------|
+| `recipe-krupnik` | Gerstensuppe; ≠ Grochówka / Grzybowa |
+| `recipe-szczawiowa` | Grüne Sauerampfersuppe; ≠ Botwinka / Ogórkowa |
+| `recipe-kutia` | Weizen+Mohn Wigilia; ≠ Makaron z makiem / Makowiec |
+| `recipe-napoleonka` | Blätterteig-Creme; ≠ Szarlotka / Wuzetka (HOLD) |
+| `recipe-chalka` | Geflochtener Hefezopf; ≠ Babka / Pączki |
+| `recipe-pasztet` | Haus-Pastete; ≠ Kaszanka / Mielony |
+| `recipe-biala-kielbasa` | Cook hell; ≠ Kiełbasa-Arten Lexikon |
+| Kein neuer Blog-Pillar | Ownership über bestehende Guides |
+| `SEED_VERSION` | **27** · Rezepte **72** · Blog **36** |
+
+Plan: `content/wave-13-plan.md` (shipped).
+
 ## HOLD
 
-Region-Blogs, Meal-Prep Woche, Lab-Tests, Region-Hub-Intros ≥400 vor Index, Kotlet family, Czernina, Placek po węgiersku, Drożdżówka. Später: Krupnik, Kutia, Napoleonka, Chałka, Biała kiełbasa Cook, Pasztet. Cover-Proxy-Upgrades (Żurek, Bigos, Kapuśniak, Mizeria, Faworki, …).
+Region-Blogs, Meal-Prep Woche, Lab-Tests, Region-Hub-Intros ≥400 vor Index, Kotlet family, Czernina, Placek po węgiersku, Drożdżówka. Später: Wuzetka, Jajka faszerowane, Zapiekanka, Leczo, Kaczka pieczona. Cover-Proxy-Upgrades (Żurek, Bigos, Kapuśniak, Mizeria, Faworki, …).

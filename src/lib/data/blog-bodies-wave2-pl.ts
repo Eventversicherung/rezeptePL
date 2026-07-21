@@ -297,7 +297,15 @@ Gdy garnek chce treściwy dodatek i majeranek — nie buraki, nie zakwas, nie og
 
 ## Treściwie: grochówka
 
-**Grochówka** — zupa z grochu często z wędzoną kiełbasą — to primary grochu, nie fasolowa [fasolka](/pl/rezepte/fasolka-po-bretonsku) i nie [kapuśniak](/pl/rezepte/kapusniak). Cook: [grochówka](/pl/rezepte/grochowka). Krupnik później; przegląd zostaje broad.
+**Grochówka** — zupa z grochu często z wędzoną kiełbasą — to primary grochu, nie fasolowa [fasolka](/pl/rezepte/fasolka-po-bretonsku) i nie [kapuśniak](/pl/rezepte/kapusniak). Cook: [grochówka](/pl/rezepte/grochowka). Przegląd zostaje broad.
+
+## Kasza: krupnik
+
+**Krupnik** — zupa z kaszy jęczmiennej i warzyw, opcjonalnie z kurczakiem — to primary jęczmienia, nie grochowa [grochówka](/pl/rezepte/grochowka) i nie grzybowa [zupa grzybowa](/pl/rezepte/zupa-grzybowa). Cook: [krupnik](/pl/rezepte/krupnik). Przegląd zostaje broad.
+
+## Zieleń / sezon: szczawiowa
+
+**Zupa szczawiowa** — zielona ze szczawiu, często z jajkiem i śmietaną — to primary szczawiu, nie [botwinka](/pl/rezepte/botwinka), nie [ogórkowa](/pl/rezepte/ogorkowa) i nie zimny [chłodnik](/pl/rezepte/chlodnik-litewski). Cook: [szczawiowa](/pl/rezepte/szczawiowa). Przegląd zostaje broad.
 
 ## Wywar to fundament
 
@@ -456,6 +464,10 @@ Biała kiełbasa pasuje do [żurku](/pl/rezepte/zurek) i pieczenia, ale nie potr
 
 Ten leksykon zostaje ownerem **rodzajów, jakości i zastosowania** (żurek, bigos, kiełbasa na co dzień). Smażona **kaszanka z cebulą** to osobny intent cook — ilości i kroki na patelni są w [przepisie na kaszankę](/pl/rezepte/kaszanka), nie tutaj. Tylko descriptive anchors; primary „kaszanka przepis” nie kradniemy.
 
+## Typy vs cook: biała kiełbasa
+
+Gotowanie lub pieczenie **jasnej świeżej kiełbasy** to osobny intent cook — ilości i czasy są w [przepisie na białą kiełbasę](/pl/rezepte/biala-kielbasa), nie tutaj. Ten leksykon zostaje ownerem rodzajów, jakości i szerokiego zastosowania; primary „biała kiełbasa przepis” nie kradniemy.
+
 ## Bezpieczna obróbka
 
 Surowa biała kiełbasa musi być dogotowana, ale gotowana wędlina nie wymaga kolejnego długiego katowania. My rozdzielamy deskę i nóż po surowym mięsie, a resztki szybko chłodzimy. W żurku wkładamy kiełbasę w odpowiednim momencie, żeby była soczysta, a nie sucha i pęknięta.
@@ -512,7 +524,7 @@ export const bodyWielkanocPl = `Wielkanoc w Niemczech nie musi być próbą odtw
 
 ## Ustalcie własny rdzeń
 
-My wybieramy żurek lub barszcz biały, jajka, jedną dobrą sałatkę — często [mizerię](/pl/rezepte/mizeria) albo świąteczną [sałatkę jarzynową](/pl/rezepte/salatka-jarzynowa) (majonez i warzywa ≠ ogórek ze śmietaną) — i wypiek albo deser. Wiosną opcjonalnie ciepła [botwinka](/pl/rezepte/botwinka). Klasyczna forma: [babka](/pl/rezepte/babka) (ciasto drożdżowe z formy); płaski placek z wierzchem: [mazurek orzechowy](/pl/rezepte/mazurek) (cook-intent, menu zostaje ownerem planu). Alternatywnie [sernik](/pl/rezepte/sernik) albo kupiony wypiek bez wstydu. Do tego biała kiełbasa, chrzan oraz pieczywo. Jeśli przyjeżdża rodzina, można dodać [bigos](/pl/rezepte/bigos) lub pierogi, ale nie robimy wszystkiego tylko dlatego, że „tak wypada”. Świąteczny stół ma być gościnny także dla gospodarzy.
+My wybieramy żurek lub barszcz biały, jajka, jedną dobrą sałatkę — często [mizerię](/pl/rezepte/mizeria) albo świąteczną [sałatkę jarzynową](/pl/rezepte/salatka-jarzynowa) (majonez i warzywa ≠ ogórek ze śmietaną) — i wypiek albo deser. Wiosną opcjonalnie ciepła [botwinka](/pl/rezepte/botwinka). Klasyczna forma: [babka](/pl/rezepte/babka) (ciasto drożdżowe z formy); płaski placek z wierzchem: [mazurek orzechowy](/pl/rezepte/mazurek) (cook-intent, menu zostaje ownerem planu). Alternatywnie [sernik](/pl/rezepte/sernik) albo kupiony wypiek bez wstydu. Pleciony chleb drożdżowy (nie babka z formy): [chałka](/pl/rezepte/chalka) — cook-primary tam; menu zostaje ownerem. Domowy [pasztet drobiowy](/pl/rezepte/pasztet) na zimną półmiskę — jasno ≠ [kaszanka](/pl/rezepte/kaszanka); typy wędlin zostają w [rodzajach kiełbasy](/pl/blog/rodzaje-kielbasy). Do tego ugotowana [biała kiełbasa](/pl/rezepte/biala-kielbasa) (cook; rodzaje zostają w [leksykonie kiełbasy](/pl/blog/rodzaje-kielbasy)), chrzan oraz pieczywo. Jeśli przyjeżdża rodzina, można dodać [bigos](/pl/rezepte/bigos) lub pierogi, ale nie robimy wszystkiego tylko dlatego, że „tak wypada”. Świąteczny stół ma być gościnny także dla gospodarzy.
 
 ## Harmonogram
 
@@ -578,7 +590,7 @@ export const bodySonntagsessenPl = `Niedzielny obiad nie musi zaczynać się o s
 
 ## Formuła trzech elementów
 
-My wybieramy jedno danie główne, prosty dodatek i coś świeżego. Może to być [rosół](/pl/rezepte/rosol) oraz pieczone mięso z ziemniakami, pierogi z [mizerią](/pl/rezepte/mizeria), chłodna [sałatka jarzynowa](/pl/rezepte/salatka-jarzynowa) jako majonezowy dodatek bufetowy (inny intent niż mizeria), ciepła [kapusta zasmażana](/pl/rezepte/kapusta-zasmażana), ciepłe [buraczki](/pl/rezepte/buraczki) (dodatek ≠ botwinka-zupa, ≠ barszcz), treściwa [grochówka](/pl/rezepte/grochowka) (groch ≠ fasolka, ≠ kapuśniak) albo [bigos](/pl/rezepte/bigos) z chlebem. Na słodko do kawy często wystarczy jedna blacha [szarlotki](/pl/rezepte/szarlotka) (≠ [racuchy](/pl/rezepte/racuchy-jablka) na patelni). Nie potrzebujemy przystawki, dwóch deserów i pięciu misek, aby dom pachniał niedzielą.
+My wybieramy jedno danie główne, prosty dodatek i coś świeżego. Może to być [rosół](/pl/rezepte/rosol) oraz pieczone mięso z ziemniakami, pierogi z [mizerią](/pl/rezepte/mizeria), chłodna [sałatka jarzynowa](/pl/rezepte/salatka-jarzynowa) jako majonezowy dodatek bufetowy (inny intent niż mizeria), ciepła [kapusta zasmażana](/pl/rezepte/kapusta-zasmażana), ciepłe [buraczki](/pl/rezepte/buraczki) (dodatek ≠ botwinka-zupa, ≠ barszcz), treściwa [grochówka](/pl/rezepte/grochowka) (groch ≠ fasolka, ≠ kapuśniak), zupa jęczmienna [krupnik](/pl/rezepte/krupnik) albo [bigos](/pl/rezepte/bigos) z chlebem. Na słodko do kawy często wystarczy jedna blacha [szarlotki](/pl/rezepte/szarlotka) (≠ [racuchy](/pl/rezepte/racuchy-jablka) na patelni) albo pleciona [chałka](/pl/rezepte/chalka) (≠ [babka](/pl/rezepte/babka)). Na zimną półmiskę: [pasztet drobiowy](/pl/rezepte/pasztet) — jasno ≠ [kaszanka](/pl/rezepte/kaszanka). Nie potrzebujemy przystawki, dwóch deserów i pięciu misek, aby dom pachniał niedzielą.
 
 ## Mięso niedzielne (piec i duszenie)
 

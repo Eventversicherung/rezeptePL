@@ -63,8 +63,8 @@ export const W9_FACTS_D: Record<string, ArticleFacts> = {
     mistakesPl:
       "Za mocny ogień (pęka). Mylenie z primary rodzajów kiełbasy albo przepisywanie leksykonu. Za dużo majeranku (gorzki). Wodnista tania kaszanka. Flaki lub inne HOLD tu wymyślać — nie. Ownership: cook tutaj, leksykon tam.",
     variantsDe:
-      "Mit Apfel, mit Senf am Rand, gegrillt statt Pfanne, oder als Beilage-Teller neben Kapusta. Schmor-Nachbar bleibt [Bigos](/de/rezepte/bigos); Beilagen-Kohl [Kapusta zasmażana](/de/rezepte/kapusta-zasmażana). Types und Qualitätslesen weiter im [Kiełbasa-Arten-Guide](/de/blog/kielbasa-arten).",
+      "Mit Apfel, mit Senf am Rand, gegrillt statt Pfanne, oder als Beilage-Teller neben Kapusta. Schmor-Nachbar bleibt [Bigos](/de/rezepte/bigos); Beilagen-Kohl [Kapusta zasmażana](/de/rezepte/kapusta-zasmażana). Gebackene Haus-Pastete (≠ Blutwurst): [Pasztet drobiowy](/de/rezepte/pasztet). Types und Qualitätslesen weiter im [Kiełbasa-Arten-Guide](/de/blog/kielbasa-arten).",
     variantsPl:
-      "Z jabłkiem, z musztardą z boku, grill zamiast patelni, albo jako talerz z kapustą. Sąsiad duszony: [bigos](/pl/rezepte/bigos); dodatek: [kapusta zasmażana](/pl/rezepte/kapusta-zasmażana). Typy i jakość dalej w [przewodniku rodzajów kiełbasy](/pl/blog/rodzaje-kielbasy).",
+      "Z jabłkiem, z musztardą z boku, grill zamiast patelni, albo jako talerz z kapustą. Sąsiad duszony: [bigos](/pl/rezepte/bigos); dodatek: [kapusta zasmażana](/pl/rezepte/kapusta-zasmażana). Pieczony pasztet domowy (≠ kaszanka): [pasztet drobiowy](/pl/rezepte/pasztet). Typy i jakość dalej w [przewodniku rodzajów kiełbasy](/pl/blog/rodzaje-kielbasy).",
   },
 };

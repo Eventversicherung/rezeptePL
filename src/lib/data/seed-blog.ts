@@ -179,6 +179,8 @@ const seedBlogPostsLive: BlogPost[] = [
       "recipe-kaszanka",
       "recipe-makaron-z-makiem",
       "recipe-szarlotka",
+      "recipe-kutia",
+      "recipe-napoleonka",
     ],
     relatedPostIds: [
       "post-twarog",
@@ -226,6 +228,7 @@ const seedBlogPostsLive: BlogPost[] = [
       "recipe-uszka",
       "recipe-makowiec",
       "recipe-makaron-z-makiem",
+      "recipe-kutia",
       "recipe-karp",
       "recipe-sledz",
       "recipe-pierogi",

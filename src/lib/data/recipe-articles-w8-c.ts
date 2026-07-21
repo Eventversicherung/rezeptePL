@@ -34,8 +34,8 @@ export const W8_FACTS_C = {
     mistakesPl:
       "Za chłodny tłuszcz, za mokre nadzienie, za dużo mąki, zabite drożdże, za krótkie wyrastanie, kradzież primary faworków lub Tłustego w title. Za duże sztuki smażą się nierówno.",
     variantsDe:
-      "Rose, Pflaume, Pudding — Hausbrauch. Ofenvariante möglich, andere Textur. Knusprig und ungefüllt: [Faworki](/de/rezepte/faworki). Hefe-Pfanne: [Racuchy](/de/rezepte/racuchy-jablka). Technik-Pillar bleibt [Pączki-Technik](/de/blog/paczek-technik).",
+      "Rose, Pflaume, Pudding — Hausbrauch. Ofenvariante möglich, andere Textur. Knusprig und ungefüllt: [Faworki](/de/rezepte/faworki). Hefe-Pfanne: [Racuchy](/de/rezepte/racuchy-jablka). Geflochtener Hefezopf (kein Frittieren): [Chałka](/de/rezepte/chalka). Technik-Pillar bleibt [Pączki-Technik](/de/blog/paczek-technik).",
     variantsPl:
-      "Róża, powidła, budyń — zwyczaj domu. Wariant pieczony możliwy, inna tekstura. Chrupiące i bez nadzienia: [faworki](/pl/rezepte/faworki). Drożdże na patelni: [racuchy](/pl/rezepte/racuchy-jablka). Filar techniki zostaje [techniką pączków](/pl/blog/paczki-technika).",
+      "Róża, powidła, budyń — zwyczaj domu. Wariant pieczony możliwy, inna tekstura. Chrupiące i bez nadzienia: [faworki](/pl/rezepte/faworki). Drożdże na patelni: [racuchy](/pl/rezepte/racuchy-jablka). Pleciony chleb drożdżowy (bez smażenia): [chałka](/pl/rezepte/chalka). Filar techniki zostaje [techniką pączków](/pl/blog/paczki-technika).",
   },
 };

@@ -13,6 +13,7 @@ export const seedBlogPostsW6: BlogPost[] = [
     relatedRecipeIds: [
       "recipe-makowiec",
       "recipe-makaron-z-makiem",
+      "recipe-kutia",
       "recipe-sernik",
       "recipe-babka",
       "recipe-faworki",

@@ -1,12 +1,12 @@
 # Topical Authority Status — SEO Snapshot
 
-Stand: 2026-07-21 · `SEED_VERSION` 26 · Quelle: Live-Seed
+Stand: 2026-07-21 · `SEED_VERSION` 27 · Quelle: Live-Seed
 
 ## Urteil (Senior SEO)
 
-**Wave 12 shipped:** +8 Diaspora-Klassiker (Zupa grzybowa, Grochówka, Makaron z makiem, Szarlotka, Mazurek, Buraczki, Klopsy, Kluski kładzione). Kein neuer Blog-Pillar. Ownership sauber vs Barszcz/Flaki/Fasolka · Makowiec · Racuchy · Babka/Sernik · Botwinka · Mielony · Śląskie. Families unverändert 4/4/4. Cover-IDs unique · HTTP 200.
+**Wave 13 shipped:** +7 Diaspora-Klassiker (Krupnik, Szczawiowa, Kutia, Napoleonka, Chałka, Pasztet, Biała kiełbasa Cook). Kein neuer Blog-Pillar. Ownership sauber vs Grochówka/Grzybowa · Botwinka/Ogórkowa · Makaron z makiem/Makowiec · Szarlotka/Wuzetka-HOLD · Babka/Pączki · Kaszanka · Kiełbasa-Arten-Lexikon. Families unverändert 4/4/4. Cover-IDs unique · HTTP 200 · Visual Acceptance Criteria bestanden.
 
-**Score gesamt: 9/10 Topical Density** — Money-Page-Lücken Alltag/Wigilia/Ostern/Sonntag geschlossen; Rest-Hebel Region-Hub-Tiefe (HOLD) und echte Lab-Tests (HOLD).
+**Score gesamt: 9/10 Topical Density** — Suppen-Rest, Wigilia-Süß, Bäckerei-Creme, Hefezopf, Aufschnitt und Ostern-Wurst-Cook geschlossen; Rest-Hebel Region-Hub-Tiefe (HOLD) und echte Lab-Tests (HOLD).
 
 ---
 
@@ -15,12 +15,12 @@ Stand: 2026-07-21 · `SEED_VERSION` 26 · Quelle: Live-Seed
 | Layer | LIVE | Indexierbare URLs (DE+PL) | Notiz |
 |-------|------|---------------------------|--------|
 | **Blog** | **36** Posts | **72** | unverändert (kein neuer Pillar) |
-| **Rezepte** | **65** | **130** (+ Family-Hubs) | +8 Wave-12 |
+| **Rezepte** | **72** | **144** (+ Family-Hubs) | +7 Wave-13 |
 | **RecipeFamilies** | **3** | Pierogi, Placki, Naleśniki | unverändert (4/4/4) |
 | **Cluster-Hubs** | **31** | ~62 | Region-Hubs thin → `noindex,follow` |
-| **Catalog-Karten** | ~51 | Families einmal + Standalone | |
+| **Catalog-Karten** | ~58 | Families einmal + Standalone | |
 
-**Blog:Rezept ≈ 1 : 1.8** — gesund.
+**Blog:Rezept ≈ 1 : 2.0** — noch gesund.
 
 ---
 
@@ -29,7 +29,7 @@ Stand: 2026-07-21 · `SEED_VERSION` 26 · Quelle: Live-Seed
 | Metrik | Wert |
 |--------|------|
 | Wortzahl-Gate (≥1100 Guides) | unverändert; kein neuer Pillar |
-| Related Recipes / Posts | Suppen/Sonntag/Wigilia/Wielkanoc/Panieren/Rosół updated |
+| Related Recipes / Posts | Suppen/Sonntag/Wigilia/Wielkanoc/Kiełbasa/Makowiec updated |
 | Affiliate | guide-only auf Rezepten |
 | Blog JSON-LD | `BlogPosting` + `FAQPage` (parsed) |
 | Recipe JSON-LD | Author Org + dates + absolute image |
@@ -40,12 +40,12 @@ Stand: 2026-07-21 · `SEED_VERSION` 26 · Quelle: Live-Seed
 
 | Silo | Status | Stärke |
 |------|--------|--------|
-| **A Gerichtsfamilien** | + Grzybowa/Grochówka/Makaron-makiem/Szarlotka/Mazurek/Buraczki/Klopsy/Kładzione | Stark |
+| **A Gerichtsfamilien** | + Krupnik/Szczawiowa/Kutia/Napoleonka/Chałka/Pasztet/Biała | Stark |
 | **B Regionen** | Hubs thin → noindex bis Intro ≥400 | HOLD |
-| **C Anlässe** | Wigilia (+ Grzybowa/Makaron), Wielkanoc (+ Mazurek), Sonntag (+ Buraczki/Klopsy) | Stark |
-| **D Techniken** | Makowiec/Panieren nur Abgrenzung; Rosół → Kładzione | Stark |
+| **C Anlässe** | Wigilia (+ Kutia), Wielkanoc (+ Chałka/Pasztet/Biała), Sonntag (+ Krupnik/Napoleonka) | Stark |
+| **D Techniken** | Makowiec nur Abgrenzung Kutia; Zakwas → Biała descriptiv | Stark |
 | **E Zutaten** | unverändert | Stark |
-| **F Diaspora** | Polenladen / Ersatzprodukte → Makaron/Szarlotka | OK |
+| **F Diaspora** | Polenladen / Ersatzprodukte → Kutia/Napoleonka/Szczawiowa | OK |
 | **H Gear** | Buying-Guides | Stark — Lab-Tests HOLD |
 
 ---
@@ -54,18 +54,17 @@ Stand: 2026-07-21 · `SEED_VERSION` 26 · Quelle: Live-Seed
 
 | Metrik | Wert |
 |--------|------|
-| Mit Longform (≥400 via seed oder FACTS) | **65 / 65** |
-| Mit `relatedPostIds` | **65 / 65** |
-| Wave-12 neu | Grzybowa, Grochówka, Makaron z makiem, Szarlotka, Mazurek, Buraczki, Klopsy, Kładzione |
-| Wave-12 covers | 65 unique Unsplash · HTTP 200 |
-| Ownership Grzybowa vs Barszcz/Flaki | Getrennt (Pilz ≠ Bete ≠ Kutteln) |
-| Ownership Grochówka vs Fasolka | Erbsen ≠ Bohnen |
-| Ownership Makaron z makiem vs Makowiec | Nudeln+Mohn ≠ Rolle |
-| Ownership Szarlotka vs Racuchy | Blech-Apfelkuchen ≠ Hefe-Pfanne |
-| Ownership Mazurek vs Babka/Sernik | Flacher Belag ≠ Gugelhupf ≠ Käsekuchen |
-| Ownership Buraczki vs Botwinka | Beilage ≠ Suppe |
-| Ownership Klopsy vs Mielony | Kugeln in Sauce ≠ panierte Bulette |
-| Ownership Kładzione vs Śląskie | Fallnudeln ≠ Mulden-Kartoffelklöße |
+| Mit Longform (≥400 via seed oder FACTS) | **72 / 72** |
+| Mit `relatedPostIds` | **72 / 72** |
+| Wave-13 neu | Krupnik, Szczawiowa, Kutia, Napoleonka, Chałka, Pasztet, Biała kiełbasa |
+| Wave-13 covers | 72 unique Unsplash (neue 7) · HTTP 200 · Visual-Fit QA |
+| Ownership Krupnik vs Grochówka/Grzybowa | Gerste ≠ Erbsen ≠ Pilzfond |
+| Ownership Szczawiowa vs Botwinka/Ogórkowa | Grün ≠ Rosa/Bete ≠ Gurke |
+| Ownership Kutia vs Makaron z makiem/Makowiec | Weizenkörner ≠ Nudeln ≠ Rolle |
+| Ownership Napoleonka vs Szarlotka/Wuzetka | Blätterteig-Creme ≠ Apfel ≠ Schoko-HOLD |
+| Ownership Chałka vs Babka/Pączki | Zopf/Laib ≠ Gugelhupf ≠ Berliner |
+| Ownership Pasztet vs Kaszanka/Mielony | Terrine ≠ Blutwurst ≠ Bulette |
+| Ownership Biała Cook vs Kiełbasa-Arten | Cook eng ≠ Lexikon Broad |
 
 ---
 
@@ -74,11 +73,10 @@ Stand: 2026-07-21 · `SEED_VERSION` 26 · Quelle: Live-Seed
 Nach Indexierung (GSC, 4–8 Wochen):
 
 - [ ] Pierogi / Placki / Naleśniki Owner-URLs inkl. Varianten: Impressionen ↑, **kein** CTR-Clash  
-- [ ] Grzybowa / Grochówka vs Barszcz / Flaki / Fasolka / Kapuśniak  
-- [ ] Makaron z makiem vs Makowiec / Makaron z serem  
-- [ ] Szarlotka vs Racuchy / Piernik / Sernik  
-- [ ] Mazurek vs Babka / Sernik; Buraczki vs Botwinka  
-- [ ] Klopsy vs Mielony; Kładzione vs Śląskie / Kopytka  
+- [ ] Krupnik / Szczawiowa vs Grochówka / Grzybowa / Botwinka / Ogórkowa  
+- [ ] Kutia vs Makaron z makiem / Makowiec; Napoleonka vs Szarlotka / Sernik  
+- [ ] Chałka vs Babka / Pączki; Pasztet vs Kaszanka  
+- [ ] Biała Cook vs Kiełbasa-Arten Lexikon / Żurek  
 - [ ] Thin Region-Hubs bleiben `noindex,follow` bis Intro ≥400  
 - [ ] Affiliate: Rezepte guide-only  
 
@@ -88,7 +86,7 @@ Nach Indexierung (GSC, 4–8 Wochen):
 
 - Region-Blogs · Meal-Prep Arbeitswoche · Lab-Produkt-Tests  
 - Kotlet family hub · Czernina · Placek po węgiersku · Drożdżówka  
-- Später messen: Krupnik, Kutia, Napoleonka, Chałka, Biała kiełbasa Cook, Pasztet  
+- Später messen: Wuzetka, Jajka faszerowane, Zapiekanka, Leczo, Kaczka pieczona  
 
 ---
 
@@ -96,6 +94,6 @@ Nach Indexierung (GSC, 4–8 Wochen):
 
 | Frage | Antwort |
 |-------|---------|
-| Wie viele Beiträge? | **36 Blog** + **65 Rezepte** (+ 3 Families, 31 Hubs) |
-| Wie gut? | Blog + Rezept-Longform **grün**; Wave-12 Ownership-Splits sauber |
-| Was als Nächstes? | **Messen** (GSC) · Krupnik/Kutia nach Signal · Region-Hubs nur mit Tiefe |
+| Wie viele Beiträge? | **36 Blog** + **72 Rezepte** (+ 3 Families, 31 Hubs) |
+| Wie gut? | Blog + Rezept-Longform **grün**; Wave-13 Ownership-Splits sauber |
+| Was als Nächstes? | **Messen** (GSC) · Wuzetka/Jajka nach Signal · Region-Hubs nur mit Tiefe |

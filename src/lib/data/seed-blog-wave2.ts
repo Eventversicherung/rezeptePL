@@ -188,6 +188,8 @@ export const seedBlogPostsWave2: BlogPost[] = [
       "recipe-zupa-grzybowa",
       "recipe-grochowka",
       "recipe-kluski-kladzione",
+      "recipe-krupnik",
+      "recipe-szczawiowa",
     ],
     relatedPostIds: [
       "post-rosol-technik",
@@ -363,6 +365,7 @@ export const seedBlogPostsWave2: BlogPost[] = [
       "recipe-pierogi",
       "recipe-mizeria",
       "recipe-zupa-pomidorowa",
+      "recipe-szczawiowa",
     ],
     relatedPostIds: [
       "post-ersatzprodukte-de",
@@ -409,6 +412,7 @@ export const seedBlogPostsWave2: BlogPost[] = [
       "recipe-bigos",
       "recipe-kaszanka",
       "recipe-grochowka",
+      "recipe-biala-kielbasa",
     ],
     relatedPostIds: [
       "post-polenladen",
@@ -457,6 +461,9 @@ export const seedBlogPostsWave2: BlogPost[] = [
       "recipe-makaron-z-serem",
       "recipe-makaron-z-makiem",
       "recipe-szarlotka",
+      "recipe-szczawiowa",
+      "recipe-kutia",
+      "recipe-napoleonka",
     ],
     relatedPostIds: [
       "post-polenladen",
@@ -507,6 +514,9 @@ export const seedBlogPostsWave2: BlogPost[] = [
       "recipe-mazurek",
       "recipe-salatka-jarzynowa",
       "recipe-botwinka",
+      "recipe-chalka",
+      "recipe-pasztet",
+      "recipe-biala-kielbasa",
     ],
     relatedPostIds: [
       "post-zakwas-zurek",
@@ -608,9 +618,13 @@ export const seedBlogPostsWave2: BlogPost[] = [
       "recipe-salatka-jarzynowa",
       "recipe-golonka",
       "recipe-grochowka",
+      "recipe-krupnik",
       "recipe-szarlotka",
+      "recipe-napoleonka",
       "recipe-klopsy",
       "recipe-kluski-kladzione",
+      "recipe-chalka",
+      "recipe-pasztet",
     ],
     relatedPostIds: [
       "post-rosol-technik",

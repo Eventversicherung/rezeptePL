@@ -24,6 +24,8 @@ import { seedRecipesWave10 } from "./seed-recipes-wave10";
 import { seedRecipesWave11 } from "./seed-recipes-wave11";
 /** Wave 12 — A Suppen · B Wigilia-Pasta+Szarlotka · C Ostern+Buraczki · D Klopsy+Kładzione */
 import { seedRecipesWave12 } from "./seed-recipes-wave12";
+/** Wave 13 — A Suppen · B Kutia+Napoleonka · C Chałka+Pasztet · D Biała kiełbasa */
+import { seedRecipesWave13 } from "./seed-recipes-wave13";
 
 export const seedClusters = expandedClusters;
 export { seedFamilies, seedBlogPosts };
@@ -316,7 +318,10 @@ Ziemniaki, twaróg, cebula. Bez widowiska — smak, który wielu łączy z domem
             text: "Żur-Ansatz mit Wasser und Gewürzen aufkochen.",
             tip: "Fertigen Żur gibt’s im Polenladen.",
           },
-          { text: "Wurst und Kartoffeln mitgaren." },
+          {
+            text: "Wurst und Kartoffeln mitgaren.",
+            tip: "Einlage schonend: [Biała kiełbasa](/de/rezepte/biala-kielbasa) (Cook); Arten im [Kiełbasa-Lexikon](/de/blog/kielbasa-arten).",
+          },
           { text: "Mit Knoblauch und Majoran abschmecken, Ei dazugeben." },
         ],
         seoTitle: "Żurek Rezept | Alemniam",
@@ -331,7 +336,10 @@ Ziemniaki, twaróg, cebula. Bez widowiska — smak, który wielu łączy z domem
             text: "Zagotuj zakwas żuru z wodą i przyprawami.",
             tip: "Gotowy żur kupisz w polskim sklepie.",
           },
-          { text: "Ugotuj kiełbasę i ziemniaki w zupie." },
+          {
+            text: "Ugotuj kiełbasę i ziemniaki w zupie.",
+            tip: "Dodatek delikatnie: [biała kiełbasa](/pl/rezepte/biala-kielbasa) (cook); rodzaje w [leksykonie kiełbasy](/pl/blog/rodzaje-kielbasy).",
+          },
           { text: "Dopraw czosnkiem i majerankiem, dodaj jajko." },
         ],
         seoTitle: "Żurek przepis | Alemniam",
@@ -2023,6 +2031,7 @@ export const seedRecipes: Recipe[] = [
   ...seedRecipesWave10,
   ...seedRecipesWave11,
   ...seedRecipesWave12,
+  ...seedRecipesWave13,
 ].map((recipe) => {
   if (recipe.id === "recipe-nalesniki") {
     return {

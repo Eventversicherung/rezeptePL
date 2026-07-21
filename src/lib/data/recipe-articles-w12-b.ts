@@ -63,9 +63,9 @@ export const W12_FACTS_B: Record<string, ArticleFacts> = {
     mistakesPl:
       "Mylenie z makowcem (rolada zamiast makaronu). Mylenie z makaronem z serem (twaróg zamiast maku). Za sucha, piaszczysta masa; gorzki stary mak; za dużo wody → zupa; duplikować menu zamiast linkować. Wymyślać drożdże lub piec jako primary.",
     variantsDe:
-      "Mit mehr Honig runder; mit Rosinen klassisch; mit Orangenschale statt Zitrone; kalt als Restespeise. Mohnrolle bleibt [Makowiec](/de/rezepte/makowiec); Pasta+Quark: [Makaron z serem](/de/rezepte/makaron-z-serem). Anlass: [Wigilia](/de/blog/wigilia-speiseplan). Technik-Feeling: [Makowiec-Technik](/de/blog/makowiec-technik). Einkauf: [Polenladen](/de/blog/polenladen-einkaufen), [Ersatzprodukte](/de/blog/ersatzprodukte-de).",
+      "Mit mehr Honig runder; mit Rosinen klassisch; mit Orangenschale statt Zitrone; kalt als Restespeise. Mohnrolle bleibt [Makowiec](/de/rezepte/makowiec); Pasta+Quark: [Makaron z serem](/de/rezepte/makaron-z-serem). Weizenkörner+Mohn (≠ Nudeln): [Kutia](/de/rezepte/kutia). Anlass: [Wigilia](/de/blog/wigilia-speiseplan). Technik-Feeling: [Makowiec-Technik](/de/blog/makowiec-technik). Einkauf: [Polenladen](/de/blog/polenladen-einkaufen), [Ersatzprodukte](/de/blog/ersatzprodukte-de).",
     variantsPl:
-      "Z większą ilością miodu łagodniej; z rodzynkami klasycznie; ze skórką pomarańczy zamiast cytryny; na zimno jako resztka. Rolada: [makowiec](/pl/rezepte/makowiec); pasta+twaróg: [makaron z serem](/pl/rezepte/makaron-z-serem). Okazja: [menu wigilijne](/pl/blog/menu-wigilijne). Technika: [makowiec-technika](/pl/blog/makowiec-technika). Zakupy: [sklep polski](/pl/blog/sklep-polski-zakupy), [zamienniki](/pl/blog/zamienniki-skladnikow).",
+      "Z większą ilością miodu łagodniej; z rodzynkami klasycznie; ze skórką pomarańczy zamiast cytryny; na zimno jako resztka. Rolada: [makowiec](/pl/rezepte/makowiec); pasta+twaróg: [makaron z serem](/pl/rezepte/makaron-z-serem). Pszenica+mak (≠ makaron): [kutia](/pl/rezepte/kutia). Okazja: [menu wigilijne](/pl/blog/menu-wigilijne). Technika: [makowiec-technika](/pl/blog/makowiec-technika). Zakupy: [sklep polski](/pl/blog/sklep-polski-zakupy), [zamienniki](/pl/blog/zamienniki-skladnikow).",
   },
   "recipe-szarlotka": {
     dishDe: "Szarlotka",
@@ -97,8 +97,8 @@ export const W12_FACTS_B: Record<string, ArticleFacts> = {
     mistakesPl:
       "Mylenie z racuchami (patelnia/drożdże). Kradzież primary piernika lub sernika. Zbyt ciepłe wyrabianie masła; zbyt słodkie jabłka bez kwasu; mokry spód (kałuża soku); zbyt wczesne krojenie. Generyczne SEO apple pie zamiast szarlotki.",
     variantsDe:
-      "Mit Streusel (kruszonka), mit Gitter, mit Deckel, mit mehr Zimt. Apfel-Pfanne: [Racuchy](/de/rezepte/racuchy-jablka). Honig-Gewürz: [Piernik](/de/rezepte/piernik). Käsekuchen: [Sernik](/de/rezepte/sernik). Hefe-Form: [Babka](/de/rezepte/babka). Alltagskultur: [Sonntagsessen](/de/blog/sonntagsessen-polnisch). Einkauf: [Polenladen](/de/blog/polenladen-einkaufen).",
+      "Mit Streusel (kruszonka), mit Gitter, mit Deckel, mit mehr Zimt. Apfel-Pfanne: [Racuchy](/de/rezepte/racuchy-jablka). Honig-Gewürz: [Piernik](/de/rezepte/piernik). Käsekuchen: [Sernik](/de/rezepte/sernik). Hefe-Form: [Babka](/de/rezepte/babka). Blätterteig+Vanillecreme (≠ Apfel): [Napoleonka](/de/rezepte/napoleonka). Alltagskultur: [Sonntagsessen](/de/blog/sonntagsessen-polnisch). Einkauf: [Polenladen](/de/blog/polenladen-einkaufen).",
     variantsPl:
-      "Z kruszonką, z kratką, z pokrywą, z większą ilością cynamonu. Jabłko na patelni: [racuchy](/pl/rezepte/racuchy-jablka). Miód i korzeń: [piernik](/pl/rezepte/piernik). Sernik: [sernik](/pl/rezepte/sernik). Drożdże z formy: [babka](/pl/rezepte/babka). Kultura dnia: [obiad niedzielny](/pl/blog/obiad-niedzielny). Zakupy: [sklep polski](/pl/blog/sklep-polski-zakupy).",
+      "Z kruszonką, z kratką, z pokrywą, z większą ilością cynamonu. Jabłko na patelni: [racuchy](/pl/rezepte/racuchy-jablka). Miód i korzeń: [piernik](/pl/rezepte/piernik). Sernik: [sernik](/pl/rezepte/sernik). Drożdże z formy: [babka](/pl/rezepte/babka). Ciasto francuskie+krem (≠ jabłko): [napoleonka](/pl/rezepte/napoleonka). Kultura dnia: [obiad niedzielny](/pl/blog/obiad-niedzielny). Zakupy: [sklep polski](/pl/blog/sklep-polski-zakupy).",
   },
 };

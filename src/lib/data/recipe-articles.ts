@@ -19,6 +19,10 @@ import { W12_FACTS_A } from "./recipe-articles-w12-a";
 import { W12_FACTS_B } from "./recipe-articles-w12-b";
 import { W12_FACTS_C } from "./recipe-articles-w12-c";
 import { W12_FACTS_D } from "./recipe-articles-w12-d";
+import { W13_FACTS_A } from "./recipe-articles-w13-a";
+import { W13_FACTS_B } from "./recipe-articles-w13-b";
+import { W13_FACTS_C } from "./recipe-articles-w13-c";
+import { W13_FACTS_D } from "./recipe-articles-w13-d";
 
 type ArticleFacts = {
   dishDe: string;
@@ -120,17 +124,17 @@ const FACTS: Record<string, ArticleFacts> = {
     originPl:
       "Żurek to zupa na zakwasie żytnim. Smak, który wielu łączy z Wielkanocą, ale sprawdza się przez cały rok. Kwasowość pochodzi z zakwasu, nie z samej śmietany czy octu.",
     shopDe:
-      "Fertigen Żur-Ansatz gibt es im Polenladen in Flaschen — wer selbst ansetzt, folgt dem Zakwas Guide. Weiße Wurst (biała kiełbasa) ebenfalls dort. Majoran ist das Aroma, das Żurek sofort „polnisch“ macht. Polenladen-Einkauf spart Feiertagsstress.",
+      "Fertigen Żur-Ansatz gibt es im Polenladen in Flaschen — wer selbst ansetzt, folgt dem Zakwas Guide. Weiße Wurst (biała kiełbasa) ebenfalls dort; Mengen und Garzeiten für die Wurst allein: [Biała kiełbasa](/de/rezepte/biala-kielbasa) (Cook). Majoran ist das Aroma, das Żurek sofort „polnisch“ macht. Polenladen-Einkauf spart Feiertagsstress.",
     shopPl:
-      "Gotowy zakwas na żur kupisz w butelkach w polskim sklepie — własny zakwas opisuje przewodnik po zakwasie. Biała kiełbasa również tam. Majeranek to aromat, który od razu czyni żurek „polskim”. Polski sklep ratuje harmonogram przed świętami.",
+      "Gotowy zakwas na żur kupisz w butelkach w polskim sklepie — własny zakwas opisuje przewodnik po zakwasie. Biała kiełbasa również tam; ilości i czasy samej kiełbasy: [biała kiełbasa](/pl/rezepte/biala-kielbasa) (cook). Majeranek to aromat, który od razu czyni żurek „polskim”. Polski sklep ratuje harmonogram przed świętami.",
     techniqueDe:
-      "Nicht zu stark kochen, sonst wird die Suppe trüb und die Wurst hart. Kartoffeln weich garen, Ei zum Schluss oder separat. Abschmecken erst am Ende. Die Säure verändert sich beim Kochen.",
+      "Nicht zu stark kochen, sonst wird die Suppe trüb und die Wurst hart. Kartoffeln weich garen, Ei zum Schluss oder separat. Abschmecken erst am Ende. Die Säure verändert sich beim Kochen. Einlage-Wurst schonend: siehe [Biała kiełbasa](/de/rezepte/biala-kielbasa).",
     techniquePl:
-      "Nie gotuj zbyt gwałtownie, bo zupa zmętnieje, a kiełbasa stwardnieje. Ziemniaki ugotuj miękko, jajko na końcu lub osobno. Doprawiaj na końcu. Kwasowość zmienia się podczas gotowania.",
+      "Nie gotuj zbyt gwałtownie, bo zupa zmętnieje, a kiełbasa stwardnieje. Ziemniaki ugotuj miękko, jajko na końcu lub osobno. Doprawiaj na końcu. Kwasowość zmienia się podczas gotowania. Kiełbasa jako dodatek delikatnie: [biała kiełbasa](/pl/rezepte/biala-kielbasa).",
     serveDe:
-      "Im Teller mit Wurstscheiben, Ei und Brot. Manche reichen Sauerrahm extra. Geschmackssache.",
+      "Im Teller mit Wurstscheiben, Ei und Brot. Manche reichen Sauerrahm extra. Geschmackssache. Wurst auch separat als Cook: [Biała kiełbasa](/de/rezepte/biala-kielbasa).",
     servePl:
-      "Na talerzu z kiełbasą, jajkiem i chlebem. Niektórzy podają śmietanę osobno. Kwestia gustu.",
+      "Na talerzu z kiełbasą, jajkiem i chlebem. Niektórzy podają śmietanę osobno. Kwestia gustu. Kiełbasę też osobno jako cook: [biała kiełbasa](/pl/rezepte/biala-kielbasa).",
     diasporaDe:
       "Für Feiertage in Deutschland rettet Flaschen-Żur den Zeitplan. Wer selbst ansetzt, braucht ein paar Tage Vorlauf. Lohnt sich für den reineren Geschmack.",
     diasporaPl:
@@ -752,9 +756,9 @@ const FACTS: Record<string, ArticleFacts> = {
     mistakesPl:
       "Bez bułki za sucho, za grube kotlety, panierka za wcześnie. Najpierw jedna próba. Nie mylić z [klopsami](/pl/rezepte/klopsy) (kulki w sosie).",
     variantsDe:
-      "Mit Pute, ohne Panade gebraten, oder neben Rosół am Sonntag. Panieren Guide gilt für alle Varianten. Soßen-Intent: [Klopsy](/de/rezepte/klopsy).",
+      "Mit Pute, ohne Panade gebraten, oder neben Rosół am Sonntag. Panieren Guide gilt für alle Varianten. Soßen-Intent: [Klopsy](/de/rezepte/klopsy). Gebackene Pastete (≠ Panade-Hack): [Pasztet drobiowy](/de/rezepte/pasztet).",
     variantsPl:
-      "Z indyka, bez panierki na patelni albo obok rosołu w niedzielę. Przewodnik po panierce dla wszystkich wersji. Intent sosowy: [klopsy](/pl/rezepte/klopsy).",
+      "Z indyka, bez panierki na patelni albo obok rosołu w niedzielę. Przewodnik po panierce dla wszystkich wersji. Intent sosowy: [klopsy](/pl/rezepte/klopsy). Pieczony pasztet (≠ panierowane mielone): [pasztet drobiowy](/pl/rezepte/pasztet).",
   },
   "recipe-kluski-slaskie": {
     dishDe: "Kluski śląskie",
@@ -1285,6 +1289,12 @@ Object.assign(FACTS, W11_FACTS_D);
  * A Suppen · B Wigilia-Pasta+Szarlotka · C Ostern+Buraczki · D Klopsy+Kładzione.
  */
 Object.assign(FACTS, W12_FACTS_A, W12_FACTS_B, W12_FACTS_C, W12_FACTS_D);
+
+/**
+ * Wave 13 — merge order:
+ * A Suppen · B Kutia+Napoleonka · C Chałka+Pasztet · D Biała kiełbasa.
+ */
+Object.assign(FACTS, W13_FACTS_A, W13_FACTS_B, W13_FACTS_C, W13_FACTS_D);
 
 function expand(locale: Locale, f: ArticleFacts): string {
   if (locale === "de") {

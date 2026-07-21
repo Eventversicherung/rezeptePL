@@ -101,6 +101,7 @@ Eine Primary KW = eine Owner-URL. Andere Seiten nur mit descriptive Anchors verl
 | Kapusta zasmażana | `/rezepte/kapusta-zasmażana` |
 | Knedle mit Pflaumen / Knedle ze śliwkami | `/rezepte/knedle-sliwki` |
 | Kaszanka Rezept | `/rezepte/kaszanka` |
+| Biała kiełbasa Rezept (Cook) | `/rezepte/biala-kielbasa` |
 | Makaron z serem | `/rezepte/makaron-z-serem` |
 | Piernik Rezept / Polnischer Lebkuchen | `/rezepte/piernik` |
 | Zupa pomidorowa Rezept | `/rezepte/zupa-pomidorowa` |
@@ -113,8 +114,16 @@ Eine Primary KW = eine Owner-URL. Andere Seiten nur mit descriptive Anchors verl
 | Grochówka / Erbsensuppe polnisch | `/rezepte/grochowka` |
 | Makaron z makiem / Nudeln mit Mohn | `/rezepte/makaron-z-makiem` |
 | Szarlotka / Polnischer Apfelkuchen | `/rezepte/szarlotka` |
+| Kutia / Weizen Mohn Wigilia | `/rezepte/kutia` |
+| Napoleonka / Kremówka | `/rezepte/napoleonka` |
+| Chałka / Polnisches Hefezopf-Brot | `/rezepte/chalka` |
+| Pasztet / Polnisches Pastete Rezept (drobiowy) | `/rezepte/pasztet` |
+| Krupnik / Gerstensuppe polnisch | `/rezepte/krupnik` |
+| Szczawiowa / Sauerampfersuppe | `/rezepte/szczawiowa` |
 
-**Intent-Trennung (Wave 12 final):** Zupa grzybowa = klare/getrocknete-Pilz-Cook ≠ Barszcz ≠ Flaki ≠ Ogórkowa; Overview bleibt `/blog/polnische-suppen`. Grochówka = Erbsensuppe ≠ Fasolka ≠ Kapuśniak (Krupnik später). Makaron z makiem = Nudeln+Mohn ≠ Makowiec (Rolle; Technik `/blog/makowiec-technik`) ≠ Makaron z serem. Szarlotka = Apfelkuchen Blech/Form ≠ Racuchy ≠ Piernik ≠ Sernik. Mazurek orzechowy = flacher Belag-Osterkuchen ≠ Babka ≠ Sernik ≠ Makowiec ≠ Piernik; Wielkanoc bleibt Anlass-Owner. Buraczki = warme Rote-Bete-Beilage ≠ Botwinka ≠ Barszcz ≠ Sałatka. Klopsy / Pulpety = Kugeln in Dillsoße ≠ Kotlet mielony ≠ Schabowy. Kluski kładzione = Fallnudeln ≠ Kluski śląskie ≠ Kopytka ≠ Makaron z serem. Sonntagsessen / Wigilia bleiben Kultur-/Anlass-Owner.
+**Intent-Trennung (Wave 13 final):** Krupnik = Gersten-/Gemüsesuppe (Perlgerste) ≠ Grochówka (Erbsen) ≠ Zupa grzybowa (Pilzfond) ≠ Kapuśniak; Overview bleibt `/blog/polnische-suppen`. Szczawiowa = grüne Sauerampfersuppe (oft Ei/Śmietana) ≠ Botwinka ≠ Ogórkowa ≠ Chłodnik ≠ Żurek. Kutia = Weizenkörner+Mohn+Honig (Schüssel) ≠ Makaron z makiem (Nudeln) ≠ Makowiec (Rolle) ≠ Kompot z suszu; Wigilia bleibt Anlass-Owner. Napoleonka / Kremówka = Blätterteig+Vanillecreme ≠ Szarlotka ≠ Sernik ≠ Mazurek; Wuzetka bleibt HOLD. Chałka = geflochtener Hefezopf/Laib ≠ Babka (Gugelhupf) ≠ Pączki ≠ Racuchy; Drożdżówka bleibt HOLD. Pasztet drobiowy = gebackene Haus-Pastete ≠ Kaszanka ≠ Kotlet mielony. Biała kiełbasa Cook = hell kochen/backen (Ostern/Żurek-Einlage) ≠ Kiełbasa-Arten Lexikon (Broad) ≠ Kaszanka ≠ dunkle Grill-/Rauchwurst; Żurek bleibt Suppen-Primary; Wielkanoc / Sonntagsessen bleiben Anlass-/Kultur-Owner.
+
+**Intent-Trennung (Wave 12 final):** Zupa grzybowa = klare/getrocknete-Pilz-Cook ≠ Barszcz ≠ Flaki ≠ Ogórkowa; Overview bleibt `/blog/polnische-suppen`. Grochówka = Erbsensuppe ≠ Fasolka ≠ Kapuśniak ≠ Krupnik (Gerste). Makaron z makiem = Nudeln+Mohn ≠ Makowiec (Rolle; Technik `/blog/makowiec-technik`) ≠ Makaron z serem. Szarlotka = Apfelkuchen Blech/Form ≠ Racuchy ≠ Piernik ≠ Sernik. Mazurek orzechowy = flacher Belag-Osterkuchen ≠ Babka ≠ Sernik ≠ Makowiec ≠ Piernik; Wielkanoc bleibt Anlass-Owner. Buraczki = warme Rote-Bete-Beilage ≠ Botwinka ≠ Barszcz ≠ Sałatka. Klopsy / Pulpety = Kugeln in Dillsoße ≠ Kotlet mielony ≠ Schabowy. Kluski kładzione = Fallnudeln ≠ Kluski śląskie ≠ Kopytka ≠ Makaron z serem. Sonntagsessen / Wigilia bleiben Kultur-/Anlass-Owner.
 
 **Intent-Trennung (Wave 9 final):** Żeberka = Ofenrippen ≠ Gulasz/Zrazy; Rolada śląska = Schmor-Roulade ≠ Zrazy; Sałatka ≠ Mizeria; Botwinka ≠ Barszcz/Chłodnik; Babka = Hefegugelhupf ≠ Makowiec/Sernik/Pączki Primary; Kaszanka = Cook ≠ Kiełbasa-Arten Lexikon.
 
