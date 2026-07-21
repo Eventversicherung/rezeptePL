@@ -217,6 +217,23 @@ Plan: `content/wave-13-plan.md` (shipped).
 
 Plan: `content/wave-14-plan.md` (shipped).
 
+## LIVE (Wave 15 shipped — 8 Diaspora-Restklassiker)
+
+| What | Notes |
+|------|-------|
+| `recipe-kaczka` | Ofenente Apfel/Majoran; ≠ Schab / Golonka / Żeberka |
+| `recipe-pieczen-rzymska` | Ofen-Hacklaib Ei-Kern; ≠ Mielony / Pasztet |
+| `recipe-galareta` | Kalte Sülze; ≠ Pasztet / Sałatka / Jajka |
+| `recipe-salatka-sledziowa` | Mayo-Heringssalat; ≠ Śledź w oleju / Jarzynowa |
+| `recipe-marchewka-groszek` | Warme Möhren+Erbsen; ≠ Mizeria / Buraczki |
+| `recipe-fasolka-szparagowa` | Grüne Bohnen-Beilage; ≠ Fasolka po bretońsku |
+| `recipe-koperkowa` | Dillsuppe; ≠ Rosół / Szczawiowa / Ogórkowa |
+| `recipe-kisiel` | Fruchtkisiel; ≠ Kompot z suszu / Kutia |
+| Kein neuer Blog-Pillar | Ownership über bestehende Guides |
+| `SEED_VERSION` | **31** · Rezepte **87** · Blog **36** |
+
+Plan: `content/wave-15-plan.md` (shipped).
+
 ## HOLD
 
-Region-Blogs, Meal-Prep Woche, Lab-Tests, Region-Hub-Intros ≥400 vor Index, Kotlet family, Czernina, Kaczka pieczona, Sękacz. Cover-Proxy-Upgrades (Żurek, Bigos, Kapuśniak, Mizeria, Faworki, …).
+Region-Blogs, Meal-Prep Woche, Lab-Tests, Region-Hub-Intros ≥400 vor Index, Kotlet family, Czernina, Sękacz, Surówka, Kotlet de volaille. Cover-Proxy-Upgrades (Żurek, Bigos, Kapuśniak, Mizeria, Faworki, …).

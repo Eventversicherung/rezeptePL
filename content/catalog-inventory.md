@@ -9,15 +9,15 @@ Stand: 2026-07-21 · Quelle: `src/lib/data/seed*.ts` + `store.ts` (programmatisc
 
 | Metrik | Wert |
 |--------|------|
-| `SEED_VERSION` | **28** |
-| Rezepte (published) | **79** |
+| `SEED_VERSION` | **31** |
+| Rezepte (published) | **87** |
 | Rezepte draft/other | **0** |
-| Standalone (ohne Family) | **67** |
+| Standalone (ohne Family) | **75** |
 | Family-Varianten (tagged `familyId`) | **12** |
 | RecipeFamilies | **3** (Pierogi / Placki / Naleśniki) |
 | Blog Posts | **36** |
 | Cluster-Hubs gesamt | **31** (category 5 · occasion 9 · technique 9 · region 8) |
-| Blog : Rezept | **36 : 79** ≈ **1 : 2.19** |
+| Blog : Rezept | **36 : 87** ≈ **1 : 2.42** |
 
 ### Families (Variant counts)
 
@@ -203,14 +203,14 @@ Audit-Kriterien: kulturelle Gewichtigkeit für DE/PL-Diaspora + Search-Intent + 
 
 | Gericht | Status | Priorität | Begründung |
 |---------|--------|-----------|------------|
-| **Kaczka pieczona** | **MISSING** | hoch | Fest-/Sonntagsbraten; W14 bewusst HOLD „später“; ownership-klar ≠ Schab/Golonka |
-| **Galareta / nóźki w galarecie** | **MISSING** | hoch | Fest-/Buffet-Klassiker (kalt); kein Clash im Katalog |
-| **Sałatka śledziowa** | **MISSING** | hoch | Wigilia-Buffet Mayo-Heringssalat; ≠ `recipe-sledz` (Śledź w oleju) |
-| **Marchewka z groszkiem** | **MISSING** | mittel–hoch | Sonntags-Beilage DE-Diaspora-Alltag; kein Owner |
-| **Zupa koperkowa** | **MISSING** | mittel–hoch | Dillsuppe saisonal; ≠ Rosół ≠ Szczawiowa ≠ Botwinka |
-| **Pieczeń rzymska** | **MISSING** | mittel | Hackbraten-Ofen Klassiker; ≠ Kotlet mielony (Pfanne) ≠ Pasztet |
-| **Kisiel owocowy** | **MISSING** | mittel | Wigilia/Kinder-Dessertgetränk; ≠ Kompot z suszu |
-| **Fasolka szparagowa po polsku** | **MISSING** | mittel | Grüne Bohnen Beilage; ≠ Fasolka po bretońsku (Eintopf) |
+| **Kaczka pieczona** | **LIVE** (W15) | — | `/rezepte/kaczka` |
+| **Galareta / nóźki w galarecie** | **LIVE** (W15) | — | `/rezepte/galareta` |
+| **Sałatka śledziowa** | **LIVE** (W15) | — | `/rezepte/salatka-sledziowa` |
+| **Marchewka z groszkiem** | **LIVE** (W15) | — | `/rezepte/marchewka-groszek` |
+| **Zupa koperkowa** | **LIVE** (W15) | — | `/rezepte/koperkowa` |
+| **Pieczeń rzymska** | **LIVE** (W15) | — | `/rezepte/pieczen-rzymska` |
+| **Kisiel owocowy** | **LIVE** (W15) | — | `/rezepte/kisiel` |
+| **Fasolka szparagowa po polsku** | **LIVE** (W15) | — | `/rezepte/fasolka-szparagowa` |
 | **Kotlet de volaille** | **MISSING** | mittel | Restaurant/Sonntag; Panade-Nachbar zu Schabowy — Ownership eng halten |
 | **Surówka z kapusty** | **MISSING** | mittel | Alltags-Rohkost; ≠ Kapusta zasmażana ≠ Mizeria |
 | **Barszcz biały** | **HOLD** | — | Intent ≈ Żurek; Primary bleibt `/rezepte/zurek` (+ Zakwas-Pillar) |
@@ -227,10 +227,10 @@ Audit-Kriterien: kulturelle Gewichtigkeit für DE/PL-Diaspora + Search-Intent + 
 
 | Bucket | Count |
 |--------|------:|
-| Important MISSING (hoch + mittel–hoch + klar mittel mit Diaspora-Wert) | **≥8** (Kaczka, Galareta, Sałatka śledziowa, Marchewka, Koperkowa, Pieczeń rzymska, Kisiel, Fasolka szparagowa; optional Surówka / de volaille) |
+| Important MISSING | **Surówka / de volaille** (+ HOLD-Liste) |
 | Bewusst HOLD | 8+ (Czernina, Barszcz biały, Sękacz, …) |
 
-→ **Wave 15 ist gerechtfertigt** (siehe `content/wave-15-plan.md`), aber **kein Spray**: nur ownership-sichere + photo-fit Gerichte. Parallel: Cover-QA / Region-Hubs bleiben strategisch relevant.
+→ **Wave 15 SHIPPED** (+8 · SEED **31** · **87** Rezepte). Parallel: Cover-QA / Region-Hubs / GSC.
 
 ---
 
@@ -281,8 +281,8 @@ Audit-Kriterien: kulturelle Gewichtigkeit für DE/PL-Diaspora + Search-Intent + 
 
 | Frage | Antwort |
 |-------|---------|
-| Katalog voll? | **Kern-Diaspora weitgehend voll** (79 Cooks · Score ~9/10), aber **≥6 wichtige MISSING** bleiben |
-| Nächster Schritt Content? | **Wave 15** (+6–8) — siehe Plan |
-| Parallel? | Cover-Proxy-Upgrades · GSC messen · Region-Hubs nur mit Intro ≥400 |
+| Katalog voll? | **Kern-Diaspora sehr voll** (87 Cooks · Score ~9.2/10); Rest: Surówka / de volaille / HOLD |
+| Nächster Schritt Content? | GSC messen · Cover-Proxy · HOLD nur bei klarer Nachfrage |
+| Parallel? | Cover-Proxy-Upgrades · Region-Hubs nur mit Intro ≥400 |
 
 *Generiert aus Live-Seed — bei Seed-Änderungen Doc aktualisieren.*

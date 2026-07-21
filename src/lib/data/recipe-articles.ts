@@ -27,6 +27,10 @@ import { W14_FACTS_A } from "./recipe-articles-w14-a";
 import { W14_FACTS_B } from "./recipe-articles-w14-b";
 import { W14_FACTS_C } from "./recipe-articles-w14-c";
 import { W14_FACTS_D } from "./recipe-articles-w14-d";
+import { W15_FACTS_A } from "./recipe-articles-w15-a";
+import { W15_FACTS_B } from "./recipe-articles-w15-b";
+import { W15_FACTS_C } from "./recipe-articles-w15-c";
+import { W15_FACTS_D } from "./recipe-articles-w15-d";
 
 type ArticleFacts = {
   dishDe: string;
@@ -1305,6 +1309,12 @@ Object.assign(FACTS, W13_FACTS_A, W13_FACTS_B, W13_FACTS_C, W13_FACTS_D);
  * A Bäckerei · B Ostern · C Placek+Zapiekanka · D Leczo.
  */
 Object.assign(FACTS, W14_FACTS_A, W14_FACTS_B, W14_FACTS_C, W14_FACTS_D);
+
+/**
+ * Wave 15 — merge order:
+ * A Festfleisch · B Buffet · C Beilagen · D Suppe+Kisiel.
+ */
+Object.assign(FACTS, W15_FACTS_A, W15_FACTS_B, W15_FACTS_C, W15_FACTS_D);
 
 function expand(locale: Locale, f: ArticleFacts): string {
   if (locale === "de") {

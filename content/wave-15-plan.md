@@ -1,8 +1,8 @@
 # Wave 15 — Execution Plan (Planner → 4 Implementer → Integrator)
 
-Status: **PLANNED** (noch nicht shipped)  
-Basis: `content/catalog-inventory.md` (SEED **28** · **79** Rezepte · **36** Blog)  
-Nach Ship: `SEED_VERSION` **29** · Rezepte **87** (+8) · Blog **36** · Families **3** (unverändert 4/4/4)
+Status: **SHIPPED** (Integrator E · 2026-07-21)  
+Basis vor Ship: SEED **30** · **79** Rezepte · **36** Blog  
+Nach Ship: `SEED_VERSION` **31** · Rezepte **87** (+8) · Blog **36** · Families **3** (unverändert 4/4/4)
 
 Team-Modell: **1 Planner** (dieser Doc) → **4 parallele Implementer (A–D)** → **1 Integrator/QA (E)** → **ein Push**.
 
@@ -14,12 +14,12 @@ Team-Modell: **1 Planner** (dieser Doc) → **4 parallele Implementer (A–D)** 
 
 | Layer | LIVE | Notiz |
 |-------|------|--------|
-| Rezepte | **79** | inkl. Family-Varianten |
+| Rezepte | **87** | inkl. Family-Varianten (+8 Wave 15) |
 | RecipeFamilies | **3** | Pierogi 4 · Placki 4 · Naleśniki 4 |
-| Blog | **36** | kein neuer Pillar nötig |
+| Blog | **36** | kein neuer Pillar |
 | Cluster-Hubs | **31** | Region thin → `noindex,follow` (HOLD) |
-| `SEED_VERSION` | **28** | `src/lib/data/store.ts` |
-| Blog:Rezept | **~1 : 2.19** | nach W15 ~1 : 2.4 — noch ok; kein Pillar erzwingen |
+| `SEED_VERSION` | **31** | `src/lib/data/store.ts` |
+| Blog:Rezept | **~1 : 2.42** | noch ok; kein Pillar erzwingen |
 
 Vollständige Listen: [`catalog-inventory.md`](./catalog-inventory.md).
 
@@ -67,7 +67,7 @@ Vollständige Listen: [`catalog-inventory.md`](./catalog-inventory.md).
 | Rezepte | 79 | **87** (+8) |
 | Blog | 36 | **36** (+0) |
 | Families | 3 | **3** (unverändert) |
-| `SEED_VERSION` | 28 | **29** (nur Agent E) |
+| `SEED_VERSION` | 30 | **31** (nur Agent E; nach SEO-jargon fix) |
 
 **Primary-KW → Owner-URL (Ownership-Doc erweitern):**
 
@@ -135,7 +135,7 @@ flowchart LR
   B --> E
   C --> E
   D --> E
-  E --> Push[Ein Push SEED 29]
+  E --> Push[Ein Push SEED 31]
 ```
 
 ### Globale Gates
@@ -144,7 +144,7 @@ flowchart LR
 - Unique Unsplash: `https://images.unsplash.com/photo-{ID}?w=1600&q=80`
 - GET **200** + Visual-Fit vor Merge
 - Descriptive Anchors; Locale-Pfade `/de/...` · `/pl/...`
-- `SEED_VERSION` nur Agent E → **29**
+- `SEED_VERSION` nur Agent E → **31**
 - Datei-Isolation: `wave15-a|b|c|d` — fremde Pakete nicht überschreiben
 - **Kein PL-Routing-Break** (keine Legacy-Slug-Regression an Families)
 
@@ -251,7 +251,7 @@ flowchart LR
 2. Related-Maps / Bidirektion wo sinnvoll (ohne Pillar-Steal)
 3. Cover-Dedup global (alle 87 Photo-IDs unique)
 4. Stichprobe: keine PL-Family-Routing-Regression (`/pl/przepisy/pierogi/...` etc.)
-5. `SEED_VERSION` **28 → 29** in `store.ts`
+5. `SEED_VERSION` **30 → 31** in `store.ts`
 6. Ownership-Intent-Trennung-Absatz Wave 15
 7. Update `topical-backlog.md` / `topical-authority-status.md` (kurz)
 8. **Ein** Push nach grünem Lint/Build-Smoke (nur wenn User/Integrator freigibt)
@@ -362,7 +362,7 @@ Aufgaben:
 2) relatedPostIds / Backlinks konsolidieren (kein Pillar-Steal)
 3) Cover-Dedup: alle 87 Photo-IDs unique; GET 200 Stichprobe Neuware
 4) keyword-ownership Intent-Trennung Wave 15 Absatz
-5) SEED_VERSION 28 → 29 nur hier
+5) SEED_VERSION 30 → 31 nur hier
 6) topical-backlog + topical-authority-status kurz updaten
 7) Smoke: Families Pierogi/Placki/Naleśniki DE+PL Pfade unverändert
 8) Push nur nach expliziter Freigabe / wenn Auftrag Push enthält
@@ -372,4 +372,4 @@ Aufgaben:
 
 ## Kurzfazit Planner
 
-Wave 15 = **+8** ownership-sichere Diaspora-Restklassiker nach vollständiger Seed-Inventur. Ziel **87** Rezepte · `SEED_VERSION` **29** · kein Pillar · keine Family-Erweiterung. Czernina/Barszcz biały bewusst draußen. Parallel weiterhin sinnvoll: Cover-Proxy-QA + GSC-Messung — aber Content-Lücken ≥6 rechtfertigen diese Wave.
+Wave 15 = **+8** ownership-sichere Diaspora-Restklassiker — **SHIPPED**. **87** Rezepte · `SEED_VERSION` **31** · kein Pillar · keine Family-Erweiterung. Czernina/Barszcz biały bewusst draußen.

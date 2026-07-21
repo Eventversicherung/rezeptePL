@@ -472,6 +472,9 @@ export const seedBlogPostsWave2: BlogPost[] = [
       "recipe-zapiekanka",
       "recipe-pieczen-rzymska",
       "recipe-kisiel",
+      "recipe-salatka-sledziowa",
+      "recipe-marchewka-groszek",
+      "recipe-fasolka-szparagowa",
     ],
     relatedPostIds: [
       "post-polenladen",
@@ -527,6 +530,7 @@ export const seedBlogPostsWave2: BlogPost[] = [
       "recipe-biala-kielbasa",
       "recipe-jajka-faszerowane",
       "recipe-cwikla",
+      "recipe-galareta",
     ],
     relatedPostIds: [
       "post-zakwas-zurek",
@@ -644,6 +648,9 @@ export const seedBlogPostsWave2: BlogPost[] = [
       "recipe-kaczka",
       "recipe-pieczen-rzymska",
       "recipe-koperkowa",
+      "recipe-galareta",
+      "recipe-marchewka-groszek",
+      "recipe-fasolka-szparagowa",
     ],
     relatedPostIds: [
       "post-rosol-technik",

@@ -502,7 +502,7 @@ Traditionell symbolisieren zwölf Speisen Fülle und den Jahreskreis. In der Pra
 1. [Barszcz](/de/rezepte/barszcz-czerwony) mit [Uszka](/de/rezepte/uszka) oder zu Kraut-Pilz-Pierogi
 2. Pierogi mit Kapusta und Pilzen
 3. Fisch nach Familie ([Karp](/de/rezepte/karp), [Ryba po grecku](/de/rezepte/ryba-po-grecku) als kalte Filet-Sauce-Linie, [Śledź](/de/rezepte/sledz), oder moderne Alternative)
-4. [Śledź](/de/rezepte/sledz) in Öl oder Sahne
+4. [Śledź](/de/rezepte/sledz) in Öl — oder cremig als [Sałatka śledziowa](/de/rezepte/salatka-sledziowa) (Mayo-Salat ≠ Öl-Filets; Speiseplan bleibt Anlass-Owner)
 5. [Kompot z suszu](/de/rezepte/kompot-z-suszu) — Trockenobstkompot (Getränk-Primary; Speiseplan bleibt Anlass-Owner)
 6. Mohnspeise — Cook oft [Makaron z makiem](/de/rezepte/makaron-z-makiem) (Nudeln+Mohn, ≠ Rolle) — oder [Makowiec](/de/rezepte/makowiec); alternativ [Sernik](/de/rezepte/sernik) oder Honig-Gewürz-[Piernik](/de/rezepte/piernik)
 7. Krautsalat oder warme Kapusta

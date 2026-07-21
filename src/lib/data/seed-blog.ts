@@ -191,6 +191,11 @@ const seedBlogPostsLive: BlogPost[] = [
       "recipe-koperkowa",
       "recipe-kisiel",
       "recipe-kaczka",
+      "recipe-pieczen-rzymska",
+      "recipe-galareta",
+      "recipe-salatka-sledziowa",
+      "recipe-marchewka-groszek",
+      "recipe-fasolka-szparagowa",
     ],
     relatedPostIds: [
       "post-twarog",
@@ -247,6 +252,8 @@ const seedBlogPostsLive: BlogPost[] = [
       "recipe-kompot-z-suszu",
       "recipe-zupa-grzybowa",
       "recipe-kisiel",
+      "recipe-salatka-sledziowa",
+      "recipe-galareta",
     ],
     relatedPostIds: [
       "post-pierogi-guide",

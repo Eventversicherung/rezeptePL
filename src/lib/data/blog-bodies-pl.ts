@@ -425,7 +425,7 @@ Nie musimy udowadniać polskości liczbą misek. Lepiej postawić kilka rzeczy n
 - [Kompot z suszu](/pl/rezepte/kompot-z-suszu) albo [makowiec](/pl/rezepte/makowiec) / [sernik](/pl/rezepte/sernik) / miodowo-korzenny [piernik](/pl/rezepte/piernik) — kompot ma własny cook-primary; menu zostaje ownerem okazji
 - Potrawa makowa bez rolady: [makaron z makiem](/pl/rezepte/makaron-z-makiem) (makaron+mak, ≠ makowiec; menu zostaje ownerem okazji)
 - Deser zbożowy wigilijny: [kutia](/pl/rezepte/kutia) — pszenica+mak+miód (≠ makaron; menu zostaje ownerem okazji); alternatywnie owocowy [kisiel](/pl/rezepte/kisiel) ze skrobią (≠ kompot; menu zostaje ownerem okazji)
-- Ryba: [karp](/pl/rezepte/karp) na ciepło, [ryba po grecku](/pl/rezepte/ryba-po-grecku) jako zimna linia filet–sos, albo [śledź](/pl/rezepte/sledz) — albo jasna alternatywa, jeśli ryba odpada
+- Ryba: [karp](/pl/rezepte/karp) na ciepło, [ryba po grecku](/pl/rezepte/ryba-po-grecku) jako zimna linia filet–sos, albo [śledź](/pl/rezepte/sledz) w oleju — albo kremowo jako [sałatka śledziowa](/pl/rezepte/salatka-sledziowa) (majonez ≠ filety w oleju; menu zostaje ownerem okazji)
 - Opcjonalnie klarowna [zupa grzybowa](/pl/rezepte/zupa-grzybowa) jako osobny cook (≠ barszcz-primary; menu zostaje ownerem okazji)
 
 > Dwanaście potraw to kompas, nie ustawa. Gościnność smakuje lepiej niż checklista.

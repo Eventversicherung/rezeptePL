@@ -12,7 +12,7 @@
  * Ownership:
  * - Kaczka pieczona ≠ Schab pieczony / Golonka / Żeberka
  * - Pieczeń rzymska ≠ Kotlet mielony (Pfanne) / Pasztet
- * - Sonntagsessen bleibt Kultur-Owner; hier nur Cook-Primary
+ * - Sonntagsessen bleibt Kultur-Guide; hier nur Cook-Rezept
  */
 
 export type ArticleFacts = {

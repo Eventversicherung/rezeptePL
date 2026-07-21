@@ -12,8 +12,8 @@
  * Ownership CRITICAL:
  * - Marchewka z groszkiem = warme Möhren+Erbsen-Beilage ≠ Mizeria ≠ Buraczki
  * - Fasolka szparagowa = grüne Stangenbohnen-Beilage
- *   ≠ Fasolka po bretońsku (recipe-fasolka + post-fasolka-guide Primary)
- * - Sonntagsessen bleibt Kultur-Owner; Fasolka-Guide nur descriptive (Beilage ≠ Eintopf)
+ *   ≠ Fasolka po bretońsku (recipe-fasolka + post-fasolka-guide)
+ * - Sonntagsessen bleibt Kultur-Guide; Fasolka-Guide nur descriptive (Beilage ≠ Eintopf)
  */
 
 export type ArticleFacts = {
@@ -62,9 +62,9 @@ export const W15_FACTS_C: Record<string, ArticleFacts> = {
     servePl:
       "Gorące w misce lub obok [schabowego](/pl/rezepte/kotlet-schabowy), ziemniaków, kaszy. Menu opisowo: [obiad niedzielny](/pl/blog/obiad-niedzielny). Nie mylić z [buraczkami](/pl/rezepte/buraczki) ani [mizerią](/pl/rezepte/mizeria) — inny kolor, temperatura, intent. Zakupy: [sklep polski](/pl/blog/sklep-polski-zakupy).",
     diasporaDe:
-      "TK-Erbsen und vorbereitete Möhrenwürfel retten den Sonntag nach Schichtarbeit — ehrlich benennen. Kinder dürfen Dill hacken; heiße Pfanne bei Erwachsenen. Reste am Folgetag kurz mit Butter in der Pfanne. Kultur- und Speiseplan-Owner bleibt [Sonntagsessen](/de/blog/sonntagsessen-polnisch); Zutaten-Hilfe: [Ersatzprodukte](/de/blog/ersatzprodukte-de), [Polenladen](/de/blog/polenladen-einkaufen).",
+      "TK-Erbsen und vorbereitete Möhrenwürfel retten den Sonntag nach Schichtarbeit — ehrlich benennen. Kinder dürfen Dill hacken; heiße Pfanne bei Erwachsenen. Reste am Folgetag kurz mit Butter in der Pfanne. Speiseplan und Sonntagskultur bleiben bei [Sonntagsessen](/de/blog/sonntagsessen-polnisch); Zutaten-Hilfe: [Ersatzprodukte](/de/blog/ersatzprodukte-de), [Polenladen](/de/blog/polenladen-einkaufen).",
     diasporaPl:
-      "Mrożony groszek i przygotowana kostka marchewki ratują niedzielę po zmianie — nazwać uczciwie. Dzieci siekają koper; gorąca patelnia u dorosłych. Resztki nazajutrz krótko z masłem. Owner kultury: [obiad niedzielny](/pl/blog/obiad-niedzielny); pomoc: [zamienniki](/pl/blog/zamienniki-skladnikow), [sklep polski](/pl/blog/sklep-polski-zakupy).",
+      "Mrożony groszek i przygotowana kostka marchewki ratują niedzielę po zmianie — nazwać uczciwie. Dzieci siekają koper; gorąca patelnia u dorosłych. Resztki nazajutrz krótko z masłem. Kultura niedzieli: [obiad niedzielny](/pl/blog/obiad-niedzielny); pomoc: [zamienniki](/pl/blog/zamienniki-skladnikow), [sklep polski](/pl/blog/sklep-polski-zakupy).",
     mistakesDe:
       "Roh servieren oder als Surówka verkaufen → Clash mit Rohkost-Intent. Mit [Mizeria](/de/rezepte/mizeria) (Gurke/Śmietana) oder [Buraczki](/de/rezepte/buraczki) (Rote Bete) verwechseln. Zu lange kochen bis Brei. Speiseplan-Abgrenzung stehlen statt [Sonntagsessen](/de/blog/sonntagsessen-polnisch). Zu wenig Butter — dann kein Glanz und kein Beilagen-Charakter.",
     mistakesPl:
@@ -99,9 +99,9 @@ export const W15_FACTS_C: Record<string, ArticleFacts> = {
     servePl:
       "Gorące jako dodatek obok [schabowego](/pl/rezepte/kotlet-schabowy), pieczenia lub kaszy — nie jako sycący gulasz z chlebem jak [fasolka po bretońsku](/pl/rezepte/fasolka-po-bretonsku). Menu: [obiad niedzielny](/pl/blog/obiad-niedzielny). Przewodnik tylko opisowo: [fasolka guide](/pl/blog/fasolka-po-bretonsku). Zakupy: [sklep polski](/pl/blog/sklep-polski-zakupy).",
     diasporaDe:
-      "TK-Bohnen und fertige bułka tarta machen den Alltag kurz — ehrlich. Kinder streuen Brösel; heiße Butter bei Erwachsenen. Reste kurz in der Pfanne, sonst weiche Krümel. Speiseplan-Owner: [Sonntagsessen](/de/blog/sonntagsessen-polnisch). Wer den Eintopf will, bleibt bei Cook+Guide: [Fasolka po bretońsku](/de/rezepte/fasolka-po-bretonsku), [Fasolka-Guide](/de/blog/fasolka-po-bretonsku).",
+      "TK-Bohnen und fertige bułka tarta machen den Alltag kurz — ehrlich. Kinder streuen Brösel; heiße Butter bei Erwachsenen. Reste kurz in der Pfanne, sonst weiche Krümel. Speiseplan: [Sonntagsessen](/de/blog/sonntagsessen-polnisch). Wer den Eintopf will, bleibt bei Cook+Guide: [Fasolka po bretońsku](/de/rezepte/fasolka-po-bretonsku), [Fasolka-Guide](/de/blog/fasolka-po-bretonsku).",
     diasporaPl:
-      "Mrożona fasolka i gotowa bułka skracają dzień — uczciwie. Dzieci sypią bułkę; gorące masło u dorosłych. Resztki krótko na patelni. Owner menu: [obiad niedzielny](/pl/blog/obiad-niedzielny). Gulasz: [fasolka po bretońsku](/pl/rezepte/fasolka-po-bretonsku), [przewodnik](/pl/blog/fasolka-po-bretonsku).",
+      "Mrożona fasolka i gotowa bułka skracają dzień — uczciwie. Dzieci sypią bułkę; gorące masło u dorosłych. Resztki krótko na patelni. Menu niedzielne: [obiad niedzielny](/pl/blog/obiad-niedzielny). Gulasz: [fasolka po bretońsku](/pl/rezepte/fasolka-po-bretonsku), [przewodnik](/pl/blog/fasolka-po-bretonsku).",
     mistakesDe:
       "Weiße Bohnen + Tomate + Kiełbasa kochen → Clash mit [Fasolka po bretońsku](/de/rezepte/fasolka-po-bretonsku) und Steal am [Fasolka-Guide](/de/blog/fasolka-po-bretonsku). Bohnen zu weich. Brösel verbrennen. Als Hauptgericht-Eintopf verkaufen statt Beilage. Sonntags-Abgrenzung stehlen statt [Sonntagsessen](/de/blog/sonntagsessen-polnisch).",
     mistakesPl:

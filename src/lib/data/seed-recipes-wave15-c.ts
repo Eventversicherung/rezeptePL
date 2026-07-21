@@ -5,7 +5,7 @@ import type { Recipe } from "@/types/content";
  * - recipe-marchewka-groszek — warme Möhren+Erbsen-Beilage (Butter/Glasur)
  *   ≠ Mizeria ≠ Buraczki ≠ Surówka
  * - recipe-fasolka-szparagowa — grüne Stangenbohnen po polsku (Butter/Semmelbrösel)
- *   ≠ Fasolka po bretońsku (Eintopf / recipe-fasolka + post-fasolka-guide Primary)
+ *   ≠ Fasolka po bretońsku (Eintopf / recipe-fasolka + post-fasolka-guide)
  *
  * Integrator E: merge into seed aggregator + recipe-articles + related maps.
  * Affiliate: guide-only (no relatedProductIds).

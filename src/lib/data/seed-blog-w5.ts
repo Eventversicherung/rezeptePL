@@ -69,6 +69,7 @@ export const seedBlogPostsW5: BlogPost[] = [
       "recipe-bigos",
       "recipe-golabki",
       "recipe-zrazy",
+      "recipe-fasolka-szparagowa",
     ],
     relatedPostIds: [
       "post-kielbasa-arten",

@@ -1,12 +1,12 @@
 # Topical Authority Status — SEO Snapshot
 
-Stand: 2026-07-21 · `SEED_VERSION` 28 · Quelle: Live-Seed
+Stand: 2026-07-21 · `SEED_VERSION` 31 · Quelle: Live-Seed
 
 ## Urteil (Senior SEO)
 
-**Wave 14 shipped:** +7 Diaspora-Klassiker (Wuzetka, Drożdżówka, Jajka faszerowane, Ćwikła, Placek po węgiersku, Zapiekanka, Leczo). Kein neuer Blog-Pillar. Ownership sauber vs Napoleonka/Chałka/Babka/Pączki · Sałatka/Mizeria · Buraczki · Placki/Gulasz (Composed vs Singles) · Krokiety · Gulasz/Bigos/Fasolka. Families unverändert 4/4/4. Cover-IDs unique · HTTP 200 · Visual Acceptance Criteria bestanden (Leczo-Cover Integrator-Swap auf Paprika-Sauce).
+**Wave 15 shipped:** +8 Diaspora-Restklassiker (Kaczka, Pieczeń rzymska, Galareta, Sałatka śledziowa, Marchewka z groszkiem, Fasolka szparagowa, Zupa koperkowa, Kisiel). Kein neuer Blog-Pillar. Ownership sauber vs Schab/Golonka/Żeberka · Mielony/Pasztet · Śledź/Jarzynowa · Fasolka bretońsku · Rosół/Szczawiowa · Kompot/Kutia. Families unverändert 4/4/4. Cover-IDs unique · HTTP 200 · Visual Acceptance · `gate:reader-copy` PASS.
 
-**Score gesamt: 9/10 Topical Density** — Bäckerei-Rest, Ostern-Beilagen, Composed Placki, Streetfood und Alltag-Eintopf geschlossen; Rest-Hebel Region-Hub-Tiefe (HOLD) und echte Lab-Tests (HOLD).
+**Score gesamt: 9.2/10 Topical Density** — Festbraten, Buffet, Sonntags-Beilagen, Dillsuppe und Kisiel geschlossen; Rest-Hebel Region-Hub-Tiefe (HOLD) und echte Lab-Tests (HOLD).
 
 ---
 
@@ -15,12 +15,12 @@ Stand: 2026-07-21 · `SEED_VERSION` 28 · Quelle: Live-Seed
 | Layer | LIVE | Indexierbare URLs (DE+PL) | Notiz |
 |-------|------|---------------------------|--------|
 | **Blog** | **36** Posts | **72** | unverändert (kein neuer Pillar) |
-| **Rezepte** | **79** | **158** (+ Family-Hubs) | +7 Wave-14 |
+| **Rezepte** | **87** | **174** (+ Family-Hubs) | +8 Wave-15 |
 | **RecipeFamilies** | **3** | Pierogi, Placki, Naleśniki | unverändert (4/4/4) |
 | **Cluster-Hubs** | **31** | ~62 | Region-Hubs thin → `noindex,follow` |
-| **Catalog-Karten** | ~65 | Families einmal + Standalone | |
+| **Catalog-Karten** | ~73 | Families einmal + Standalone | |
 
-**Blog:Rezept ≈ 1 : 2.2** — noch akzeptabel.
+**Blog:Rezept ≈ 1 : 2.42** — noch akzeptabel.
 
 ---
 

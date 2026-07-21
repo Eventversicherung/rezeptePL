@@ -12,7 +12,7 @@
  * Ownership:
  * - Zupa koperkowa (Dill + Kartoffel/Ei/Śmietana) ≠ Rosół ≠ Szczawiowa ≠ Botwinka ≠ Ogórkowa
  * - Kisiel owocowy (Stärke-Fruchtcreme) ≠ Kompot z suszu ≠ Kutia
- * - Polnische Suppen / Wigilia bleiben Broad-/Anlass-Owner
+ * - Polnische Suppen / Wigilia bleiben Broad-/Anlass-Guides
  */
 
 export type ArticleFacts = {
@@ -80,7 +80,7 @@ export const W15_FACTS_D: Record<string, ArticleFacts> = {
     originDe:
       "Kisiel owocowy ist der Rezept für die klassische polnische Fruchtcreme aus Fruchtsaft und Speisestärke — hier als eine klare Himbeer-Linie: Beeren auskochen, absieben, mit Stärke binden, bis der Topf dicklich-glänzend und semi-transparent ist. Das ist kein Trockenobstkompot mit ganzen Fruchtstücken wie [Kompot z suszu](/de/rezepte/kompot-z-suszu) und kein Weizen-Mohn-Dessert wie [Kutia](/de/rezepte/kutia). An Wigilia im [Wigilia-Speiseplan](/de/blog/wigilia-speiseplan) verankern — Menü-Rahmen bleibt bei der Speiseplan, Rezept dieses Rezept. Diaspora-Einkauf und Ersatzlogik: [Polenladen](/de/blog/polenladen-einkaufen) und [Ersatzprodukte DE](/de/blog/ersatzprodukte-de).",
     originPl:
-      "Kisiel owocowy to przepis: klasyczna polska masa owocowa z soku i skrobi — tu jedna linia malinowa: owoce ugotować, przecedzić, zagęścić skrobią, aż garnek będzie gęsty, błyszczący i półprzezroczysty. To nie kompot z całymi kawałkami suszu jak [kompot z suszu](/pl/rezepte/kompot-z-suszu) i nie deser zbożowy jak [kutia](/pl/rezepte/kutia). Na Wigilii w [menu wigilijnym](/pl/blog/menu-wigilijne) — owner okazji zostaje przy planie, Rezept przy tym przepisie. Zakupy i zamienniki: [sklep polski](/pl/blog/sklep-polski-zakupy) i [zamienniki składników](/pl/blog/zamienniki-skladnikow).",
+      "Kisiel owocowy to przepis: klasyczna polska masa owocowa z soku i skrobi — tu jedna linia malinowa: owoce ugotować, przecedzić, zagęścić skrobią, aż garnek będzie gęsty, błyszczący i półprzezroczysty. To nie kompot z całymi kawałkami suszu jak [kompot z suszu](/pl/rezepte/kompot-z-suszu) i nie deser zbożowy jak [kutia](/pl/rezepte/kutia). Na Wigilii w [menu wigilijnym](/pl/blog/menu-wigilijne) — okazja zostaje przy planie, ilości i kroki przy tym przepisie. Zakupy i zamienniki: [sklep polski](/pl/blog/sklep-polski-zakupy) i [zamienniki składników](/pl/blog/zamienniki-skladnikow).",
     shopDe:
       "Himbeeren frisch oder TK — Supermarkt ganzjährig. Speisestärke (Kartoffelstärke klassisch) im Backregal oder [Polenladen](/de/blog/polenladen-einkaufen). Zucker, Zitrone, Wasser. Fehlt Himbeere: Johannisbeere oder Erdbeere ehrlich als andere Fruchtlinie laut [Ersatzprodukte DE](/de/blog/ersatzprodukte-de). Kein Susz-Mix und keine Weizenkörner — sonst driftet der Intent zu [Kompot z suszu](/de/rezepte/kompot-z-suszu) bzw. [Kutia](/de/rezepte/kutia). Anlass-Rahmen bleibt [Wigilia](/de/blog/wigilia-speiseplan).",
     shopPl:
@@ -96,9 +96,9 @@ export const W15_FACTS_D: Record<string, ArticleFacts> = {
     diasporaDe:
       "Kisiel ist schnell und kinderfreundlich: TK-Beeren, Stärke aus dem Vorrat, zehn Minuten Herd. Am Vortag kochen und kaltstellen entlastet den Festtag — Fokus bleibt dieses Rezept, Menü-Artikel [Wigilia](/de/blog/wigilia-speiseplan). Stärke-Typen und fehlende Beeren ehrlich im [Ersatzprodukte](/de/blog/ersatzprodukte-de)-Guide und im [Polenladen](/de/blog/polenladen-einkaufen). Nicht mit Susz-Kompot verwechseln: [Kompot z suszu](/de/rezepte/kompot-z-suszu).",
     diasporaPl:
-      "Kisiel jest szybki i przyjazny dzieciom: mrożone owoce, skrobia ze spiżarni, dziesięć minut przy kuchence. Dzień wcześniej ugotuj i schłodź — odciąża święto; tu zostaje ten przepis, owner menu [menu wigilijne](/pl/blog/menu-wigilijne). Typy skrobi i brak owoców uczciwie w [zamiennikach](/pl/blog/zamienniki-skladnikow) i [sklepie polskim](/pl/blog/sklep-polski-zakupy). Nie mylić z kompotem: [kompot z suszu](/pl/rezepte/kompot-z-suszu).",
+      "Kisiel jest szybki i przyjazny dzieciom: mrożone owoce, skrobia ze spiżarni, dziesięć minut przy kuchence. Dzień wcześniej ugotuj i schłodź — odciąża święto; tu zostaje ten przepis; menu okazji: [menu wigilijne](/pl/blog/menu-wigilijne). Typy skrobi i brak owoców uczciwie w [zamiennikach](/pl/blog/zamienniki-skladnikow) i [sklepie polskim](/pl/blog/sklep-polski-zakupy). Nie mylić z kompotem: [kompot z suszu](/pl/rezepte/kompot-z-suszu).",
     mistakesDe:
-      "Mit [Kompot z suszu](/de/rezepte/kompot-z-suszu) verwechseln (Susz-Getränk mit Fruchtstücken). Mit [Kutia](/de/rezepte/kutia) verwechseln (Weizen+Mohn). Stärke klumpig einrühren. Zu lange kochen (Gummi). Als Speiseplan-Owner auftreten statt Rezept — nein, Anlass bleibt [Wigilia](/de/blog/wigilia-speiseplan). Einkaufs-Owner bleibt [Polenladen](/de/blog/polenladen-einkaufen).",
+      "Mit [Kompot z suszu](/de/rezepte/kompot-z-suszu) verwechseln (Susz-Getränk mit Fruchtstücken). Mit [Kutia](/de/rezepte/kutia) verwechseln (Weizen+Mohn). Stärke klumpig einrühren. Zu lange kochen (Gummi). Den Speiseplan ersetzen wollen statt Rezept — nein, Anlass bleibt [Wigilia](/de/blog/wigilia-speiseplan). Einkaufshilfe bleibt [Polenladen](/de/blog/polenladen-einkaufen).",
     mistakesPl:
       "Mylenie z [kompotem z suszu](/pl/rezepte/kompot-z-suszu). Mylenie z [kutią](/pl/rezepte/kutia). Skrobia w grudkach. Zbyt długie gotowanie. Udawanie ownera menu zamiast przepisu — nie, okazja zostaje przy [menu wigilijnym](/pl/blog/menu-wigilijne). Zakupy: [sklep polski](/pl/blog/sklep-polski-zakupy).",
     variantsDe:
