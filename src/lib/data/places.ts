@@ -22,6 +22,7 @@ type PlaceRow = {
   image_url: string;
   tags: string[] | null;
   source: string;
+  source_url: string | null;
   verified_at: string | null;
   place_translations: Array<{
     name: string;
@@ -60,6 +61,7 @@ function mapRow(row: PlaceRow, locale: Locale): Place | null {
     imageUrl: row.image_url ?? "",
     tags: row.tags ?? [],
     source: row.source as Place["source"],
+    sourceUrl: row.source_url,
     verifiedAt: row.verified_at,
     translation: {
       name: preferred.name,
@@ -84,7 +86,7 @@ export async function listPublishedPlaces(
       .select(
         `
         id, slug, kind, status, lat, lng, street, postal_code, city, state, country,
-        phone, website, email, opening_hours, image_url, tags, source, verified_at,
+        phone, website, email, opening_hours, image_url, tags, source, source_url, verified_at,
         place_translations ( name, description, schedule_note, seo_title, seo_description, locale )
       `,
       )

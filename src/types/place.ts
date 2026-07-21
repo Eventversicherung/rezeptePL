@@ -2,7 +2,7 @@ import type { Locale } from "./content";
 
 export type PlaceKind = "shop" | "market";
 export type PlaceStatus = "draft" | "published" | "closed";
-export type PlaceSource = "curated" | "scrape" | "community";
+export type PlaceSource = "curated" | "scrape" | "community" | "osm";
 
 export type PlaceTranslation = {
   name: string;
@@ -31,6 +31,7 @@ export type Place = {
   imageUrl: string;
   tags: string[];
   source: PlaceSource;
+  sourceUrl: string | null;
   verifiedAt: string | null;
   translation: PlaceTranslation;
   /** Populated client-side when user location is known */

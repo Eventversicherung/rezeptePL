@@ -219,11 +219,13 @@
     "kindShop": "Sklep",
     "kindMarket": "Targ",
     "directions": "Otwórz trasę",
+    "website": "Strona",
     "shoppingGuide": "Poradnik zakupów",
     "close": "Zamknij",
     "geoEnable": "Włącz lokalizację",
     "geoPrompting": "Ustalanie lokalizacji…",
     "geoActive": "Twój obszar",
-    "geoPrivacy": "Twoja lokalizacja zostaje w przeglądarce — nie jest zapisywana."
+    "geoPrivacy": "Twoja lokalizacja zostaje w przeglądarce — nie jest zapisywana.",
+    "osmAttribution": "Dane © OpenStreetMap"
   }
 }

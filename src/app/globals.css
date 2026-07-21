@@ -1224,6 +1224,24 @@ a.btn-hero-secondary:hover {
   margin-top: 0.9rem;
 }
 
+.place-card__source {
+  margin: 0.7rem 0 0;
+  font-size: 0.72rem;
+  color: var(--fg-muted);
+}
+
+.place-card__source a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.places-finder__attribution {
+  margin: 0;
+  font-size: 0.72rem;
+  color: var(--fg-muted);
+}
+
 @keyframes placeCardIn {
   from {
     opacity: 0;

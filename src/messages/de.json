@@ -219,11 +219,13 @@
     "kindShop": "Laden",
     "kindMarket": "Markt",
     "directions": "Route öffnen",
+    "website": "Website",
     "shoppingGuide": "Einkaufs-Guide",
     "close": "Schließen",
     "geoEnable": "Standort aktivieren",
     "geoPrompting": "Standort wird ermittelt…",
     "geoActive": "Dein Bereich",
-    "geoPrivacy": "Dein Standort bleibt im Browser — er wird nicht gespeichert."
+    "geoPrivacy": "Dein Standort bleibt im Browser — er wird nicht gespeichert.",
+    "osmAttribution": "Daten © OpenStreetMap"
   }
 }

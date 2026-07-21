@@ -21,6 +21,12 @@ export function PlaceDetailCard({ place, locale, onClose }: Props) {
     .filter(Boolean)
     .join(", ");
 
+  const websiteHref = place.website
+    ? place.website.startsWith("http")
+      ? place.website
+      : `https://${place.website}`
+    : null;
+
   return (
     <aside
       key={place.id}
@@ -81,10 +87,37 @@ export function PlaceDetailCard({ place, locale, onClose }: Props) {
           >
             {t("directions")}
           </a>
-          <Link href="/blog/polenladen-einkaufen" className="btn-secondary">
+          {websiteHref ? (
+            <a
+              href={websiteHref}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-secondary"
+            >
+              {t("website")}
+            </a>
+          ) : null}
+          <Link href="/blog/polenladen-einkaufen" className="btn-ghost">
             {t("shoppingGuide")}
           </Link>
         </div>
+        {place.source === "osm" ? (
+          <p className="place-card__source">
+            {t("osmAttribution")}
+            {place.sourceUrl ? (
+              <>
+                {" · "}
+                <a
+                  href={place.sourceUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  OSM
+                </a>
+              </>
+            ) : null}
+          </p>
+        ) : null}
       </div>
     </aside>
   );

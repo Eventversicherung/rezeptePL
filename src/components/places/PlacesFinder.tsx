@@ -142,6 +142,8 @@ export function PlacesFinder({ places, locale }: Props) {
           onClose={() => setSelectedId(null)}
         />
       </div>
+
+      <p className="places-finder__attribution">{t("osmAttribution")}</p>
     </div>
   );
 }

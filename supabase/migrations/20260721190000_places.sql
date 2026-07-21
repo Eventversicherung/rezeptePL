@@ -5,7 +5,7 @@ create extension if not exists postgis with schema extensions;
 
 create type public.place_kind as enum ('shop', 'market');
 create type public.place_status as enum ('draft', 'published', 'closed');
-create type public.place_source as enum ('curated', 'scrape', 'community');
+create type public.place_source as enum ('curated', 'scrape', 'community', 'osm');
 
 create table public.places (
   id uuid primary key default gen_random_uuid(),
