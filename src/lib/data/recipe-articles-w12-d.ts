@@ -50,7 +50,7 @@ export const W12_FACTS_D: Record<string, ArticleFacts> = {
  shopPl:
  "Na klopsy weź mielone mieszane, czerstwą bułkę, jajko i cebulę oraz bulion do gotowania. Świeży koper kupisz w markecie; śmietanę (12–18 %) często w [sklepie polskim](/pl/blog/sklep-polski-zakupy). To nie płaski [kotlet mielony](/pl/rezepte/kotlet-mielony) z patelni i nie bochenek jak [pieczeń rzymska](/pl/rezepte/pieczen-rzymska) — tu klopsy pływają w sosie koperkowo-śmietanowym.",
  techniqueDe:
- "Masse binden, Kugeln formen, anbraten, Soße aufbauen, dann in der Soße garziehen. Śmietana erst bei reduzierter Hitze — sonst flockt sie. Dill am Ende. Zu große Klopsy bleiben innen roh; zu kleine trocknen. Keine Dreifach-Panade — das wäre die [Mielony](/de/rezepte/kotlet-mielony)-Li",
+ "Masse binden, Kugeln formen, anbraten, Soße aufbauen, dann in der Soße garziehen. Śmietana erst bei reduzierter Hitze — sonst flockt sie. Dill am Ende. Zu große Klopsy bleiben innen roh; zu kleine trocknen. Keine Dreifach-Panade — das wäre die [Mielony](/de/rezepte/kotlet-mielony)-Linie.",
  techniquePl:
  "Związać farsz, uformować kulki, obsmażyć, zbudować sos, potem dusić w sosie. Śmietanę przy obniżonym ogniu — inaczej się zetnie. Koper na końcu. Za duże klopsy zostaną surowe w środku; za małe wyschną. Bez trójstopniowej panierki — to linia [mielonego](/pl/rezepte/kotlet-mielony).",
  serveDe:
@@ -77,7 +77,7 @@ export const W12_FACTS_D: Record<string, ArticleFacts> = {
  vibeDe: "weich, eiig, unregelmäßig — Fallnudeln für klare Brühe",
  vibePl: "miękkie, jajeczne, nieregularne — kluski do jasnego bulionu",
  originDe:
- "Kluski kładzione sind das Rezept für Fallnudeln: ein zäher Ei-Mehl-Teig, der mit dem Löffel in kochendes Wasser oder [Rosół](/de/rezepte/rosol) gelegt wird. Das ist weder die schlesische Mulden-Kartoffelklößchen-Linie [Kluski śląskie](/de/rezepte/kluski-slaskie) noch die ausgerollten Kartoffelstückchen [Kopytka](/de/rezepte/kopytka) noch die Pasta+Twaróg-Linie [Makaron z serem](/de/rezepte/makaron-z-serem). Technik-Guide für klare Brühe bleibt [Rosół-Technik](/de/blog/rosol-technik); Overview der Suppenfamilie: [Polnische Suppen](/de/blog/polnische-suppen). Hier liegt der enge Nudel-Rezept.",
+ "Kluski kładzione sind Fallnudeln: ein zäher Ei-Mehl-Teig, der mit dem Löffel in kochendes Wasser oder [Rosół](/de/rezepte/rosol) gelegt wird. Das ist weder die schlesische Mulden-Kartoffelklößchen-Linie [Kluski śląskie](/de/rezepte/kluski-slaskie) noch die ausgerollten Kartoffelstückchen [Kopytka](/de/rezepte/kopytka) noch Pasta mit Quark wie bei [Makaron z serem](/de/rezepte/makaron-z-serem). Technik für klare Brühe bleibt bei der [Rosół-Technik](/de/blog/rosol-technik); den Überblick über die Suppenfamilie gibt [Polnische Suppen](/de/blog/polnische-suppen).",
  originPl:
  "Kluski kładzione to przepis na ciasto jajeczno-mączne odkładane łyżką do wrzątku lub [rosołu](/pl/rezepte/rosol). To ani linia śląskich knedli z dziurką [kluski śląskie](/pl/rezepte/kluski-slaskie), ani wałkowane [kopytka](/pl/rezepte/kopytka), ani pasta z twarogiem [makaron z serem](/pl/rezepte/makaron-z-serem). Owner techniki jasnego bulionu: [jak ugotować rosół](/pl/blog/jak-ugotowac-rosol); przegląd zup: [polskie zupy](/pl/blog/polskie-zupy). Tu wąski Rezept klusek.",
  shopDe:
@@ -93,7 +93,7 @@ export const W12_FACTS_D: Record<string, ArticleFacts> = {
  servePl:
  "W gorącym [rosołe](/pl/rezepte/rosol) z marchewką i pietruszką albo z masłem i koperkiem. Menu [obiad niedzielny](/pl/blog/obiad-niedzielny). Inne dodatki ciastowe osobno: [kluski śląskie](/pl/rezepte/kluski-slaskie), [kopytka](/pl/rezepte/kopytka). Nie trzymaj klusek w resztkach bulionu.",
  diasporaDe:
- "Schnellste frische Nudel zum Sonntags-[Rosół](/de/rezepte/rosol), wenn keine Packungsnudeln gewünscht sind. Kinder dürfen Teig rühren; heißer Topf bei Erwachsenen. Technik-Rahmen: [Rosół-Technik](/de/blog/rosol-technik). Overview [Polnische Suppen](/de/blog/polnische-suppen).",
+ "Die schnellste frische Nudel zum Sonntags-[Rosół](/de/rezepte/rosol), wenn keine Packungsnudeln gewünscht sind. Kinder dürfen den Teig rühren; der heiße Topf bleibt bei Erwachsenen. Technik-Rahmen gibt die [Rosół-Technik](/de/blog/rosol-technik); den Überblick die [Polnischen Suppen](/de/blog/polnische-suppen).",
  diasporaPl:
  "Najszybszy świeży makaron do niedzielnego [rosołu](/pl/rezepte/rosol), gdy nie chcesz nitek z paczki. Dzieci mieszają ciasto; gorący garnek u dorosłych. Rama: [jak ugotować rosół](/pl/blog/jak-ugotowac-rosol). Przegląd osobny farsz i osobne ilości.: [polskie zupy](/pl/blog/polskie-zupy).",
  mistakesDe:

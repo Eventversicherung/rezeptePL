@@ -42,9 +42,9 @@ export const W14_FACTS_C: Record<string, ArticleFacts> = {
  dishDe: "Placek po węgiersku",
  dishPl: "Placek po węgiersku",
  vibeDe:
- "knusprige Puffer, paprikarotes Gulasch obenauf, optional Käse — ein Composed-Teller",
+ "knusprige Puffer, paprikarotes Gulasch obenauf, optional Käse — ein zusammengesetzter Teller",
  vibePl:
- "chrupiące placki, paprykowy gulasz na wierzchu, opcjonalnie ser — złożony talerz",
+ "chrupiące placki, paprykowy gulasz na wierzchu, opcjonalnie ser — jeden złożony talerz",
  originDe:
  "Placek po węgiersku ist der zusammengesetzte Sonntagsteller: knusprige Kartoffelpuffer mit paprikarotem Schweinegulasch obenauf — oft noch mit geschmolzenem Käse. Er verbindet zwei Klassiker zu einem Gericht, ohne die Einzelrezepte zu ersetzen: die Puffer allein bleiben bei [Placki ziemniaczane](/de/rezepte/placki/ziemniaczane), der Eintopf allein bei [Gulasz wieprzowy](/de/rezepte/gulasz-wieprzowy). Masse und Pfannentechnik vertieft der [Placki-Guide](/de/blog/placki-guide); den Menürahmen setzt [Sonntagsessen](/de/blog/sonntagsessen-polnisch). In der Diaspora ist das oft der Tag, an dem man beide Stränge bewusst plant — Gulasch früh, Placki zuletzt.",
  originPl:
@@ -58,9 +58,9 @@ export const W14_FACTS_C: Record<string, ArticleFacts> = {
  techniquePl:
  "Dwa tory, jeden talerz: gulasz wcześniej (obsmażyć, nie spalić papryki, długo dusić). Placki na końcu — odcisnąć masę, smażyć na gorąco, trzymać ciepłe bez stosu. Podanie: sos **na wierzchu**, nie obok jako „dwa dania na stole”. Ser opcjonalnie pod grillem. Timing: gulasz poczeka, placki nie — inaczej miękną pod sosem.",
  serveDe:
- "Heiß, 2–3 Puffer pro Person, Gulasch großzügig, optional Käse und Śmietana am Rand. Menü [Sonntagsessen](/de/blog/sonntagsessen-polnisch). Wer die Komponenten einzeln will: [Placki](/de/rezepte/placki/ziemniaczane) oder [Gulasz](/de/rezepte/gulasz-wieprzowy). Technik-Nachschlag: [Placki-Guide](/de/blog/placki-guide).",
+ "Serviere heiß zwei bis drei Puffer pro Person, Gulasch großzügig darüber, optional Käse und Śmietana am Rand. Den Menürahmen setzt [Sonntagsessen](/de/blog/sonntagsessen-polnisch). Wer die Komponenten einzeln will, bleibt bei [Placki](/de/rezepte/placki/ziemniaczane) oder [Gulasz](/de/rezepte/gulasz-wieprzowy); Technik nachschlagen hilft der [Placki-Guide](/de/blog/placki-guide).",
  servePl:
- "Gorące, 2–3 placki na osobę, gulasz hojnie, opcjonalnie ser i śmietana z boku. Menu [obiad niedzielny](/pl/blog/obiad-niedzielny). Osobne komponenty: [placki](/pl/rezepte/placki/ziemniaczane) lub [gulasz](/pl/rezepte/gulasz-wieprzowy). Więcej w artykule [przewodnik](/pl/blog/placki-przewodnik).",
+ "Podawaj gorące dwa do trzech placków na osobę, gulasz hojnie na wierzchu, opcjonalnie ser i śmietanę z boku. Ramę menu daje [obiad niedzielny](/pl/blog/obiad-niedzielny). Osobne komponenty zostają przy [plackach](/pl/rezepte/placki/ziemniaczane) lub [gulaszu](/pl/rezepte/gulasz-wieprzowy); technikę pogłębia [przewodnik po plackach](/pl/blog/placki-przewodnik).",
  diasporaDe:
  "In DE oft Samstag Gulasch, Sonntag nur Placki braten und anrichten — entlastet den Tag. Kinder dürfen reiben und Käse streuen; heißes Öl und Schmortopf bei Erwachsenen. Ein zusammengesetzter Teller statt zwei getrennter Gerichte. Einkauf früh: [Polenladen](/de/blog/polenladen-einkaufen). Kulturrahmen bleibt bei [Sonntagsessen](/de/blog/sonntagsessen-polnisch).",
  diasporaPl:
@@ -91,9 +91,9 @@ export const W14_FACTS_C: Record<string, ArticleFacts> = {
  shopPl:
  "Na uliczny charakter wystarczy chrupiąca bagietka, pieczarki i cebula oraz szynka, ser do pieczenia, masło lub olej i keczup. Baza jest w markecie; szynkę i ser z charakterem kupisz w [sklepie polskim](/pl/blog/sklep-polski-zakupy). Brakuje odmiany — pomaga [zamienniki](/pl/blog/zamienniki-skladnikow). Kto chce rolki z panierką, idzie do [krokietów](/pl/rezepte/krokiety); kto naleśniki — do [naleśników](/pl/rezepte/nalesniki/twarog).",
  techniqueDe:
- "Pilze ausdämpfen, sonst wird das Brot nass. Baguette andrösten, Belag gleichmäßig, Käse großzügig. Backen bis Schmelz und knusprige Ränder — zu lang = hartes Brot. Ketchup erst nach dem Ofen. Vegetarisch: Schinken weglassen und ehrlich benennen.",
+ "Dämpfe die Pilze gut aus, sonst wird das Brot nass. Röste das Baguette an, verteile den Belag gleichmäßig und gib Käse großzügig darüber. Backe bis zum Schmelz mit knusprigen Rändern — zu lange wird das Brot hart. Ketchup kommt erst nach dem Ofen. Vegetarisch: Schinken weglassen und ehrlich benennen.",
  techniquePl:
- "Pieczarki odparować, inaczej chleb mokry. Bagietkę podpiec, farsz równo, ser hojnie. Piec do roztopu i chrupkich brzegów — za długo = twardy chleb. Keczup po pieczeniu. Wege: bez szynki, nazwać uczciwie.",
+ "Odparuj pieczarki dokładnie, inaczej chleb robi się mokry. Podpiecz bagietkę, rozłóż farsz równo i daj ser hojnie. Piecz do roztopu i chrupkich brzegów — za długo chleb twardnieje. Keczup dodaj dopiero po pieczeniu. Wersja wegetariańska: bez szynki, nazwij uczciwie.",
  serveDe:
  "Heiß aus der Hand oder auf Brett, längs oder in Stücken, Ketchup-Strich, optional Schnittlauch. Alltag neben [Sonntagsessen](/de/blog/sonntagsessen-polnisch). Nicht mit [Pierogi](/de/rezepte/pierogi/ruskie) oder [Krokiety](/de/rezepte/krokiety) mischen. Im [Polenladen](/de/blog/polenladen-einkaufen) findest du typische Spezialzutaten.",
  servePl:

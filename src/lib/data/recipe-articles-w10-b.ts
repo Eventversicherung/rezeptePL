@@ -86,7 +86,7 @@ export const W10_FACTS_B: Record<string, ArticleFacts> = {
  servePl:
  "Gorąca z koperkiem lub pietruszką, często z dodatkową śmietaną na stole. Jako lekki główny lub przystawka przed mięsem — kultura menu pod [obiadem niedzielnym](/pl/blog/obiad-niedzielny). Na stole: klarowny [barszcz](/pl/rezepte/barszcz-czerwony) na Wigilię/uszka; kwaśna [ogórkowa](/pl/rezepte/ogorkowa); klarowny [rosół](/pl/rezepte/rosol) bez pomidora. Resztki chłodno; przy odgrzewaniu nie gotować śmietany ponow",
  diasporaDe:
- "In DE ist Pomidorowa oft die Suppe, die Kinder kennen und Erwachsene aus Rosół-Resten retten. Ein Topf für zwei Mittage. Overview ohne neuen Überblick: [Polnische Suppen](/de/blog/polnische-suppen). Wer Brühe batcht, hat die Basis; Tomate und Reis/Nudeln machen den Charakter. Kein Zwang zu polnischer Flaschenmarke — gute Passata zählt.",
+ "In DE ist Pomidorowa oft die Suppe, die Kinder kennen und Erwachsene aus Rosół-Resten retten. Ein Topf für zwei Mittage. Den Überblick ohne neuen Guide gibt [Polnische Suppen](/de/blog/polnische-suppen). Wer Brühe batcht, hat die Basis; Tomate und Reis oder Nudeln machen den Charakter. Kein Zwang zu polnischer Flaschenmarke — gute Passata zählt.",
  diasporaPl:
  "W DE pomidorowa bywa zupą, którą znają dzieci i którą dorośli ratują z resztek rosołu. Jeden garnek na dwa obiady. Przegląd bez nowego filaru: [polskie zupy](/pl/blog/polskie-zupy). Kto batche wywar, ma bazę; pomidor i ryż/makaron robią charakter. Bez przymusu polskiej marki — liczy się dobra passata.",
  mistakesDe:

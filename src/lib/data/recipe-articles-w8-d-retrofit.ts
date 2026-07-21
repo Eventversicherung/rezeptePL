@@ -143,21 +143,21 @@ export const W8_FACTS_D_RETROFIT: Record<string, ArticleFacts> = {
  techniquePl:
  "Ciasto ziemniaczane musi być na tyle twarde, by unieść farsz bez pękania. Formuj równe kule, dobrze zamknij szew i gotuj delikatnie — zbyt burząca woda otwiera pyzy.",
  serveDe:
- "Mit Butterzwiebeln — klassisch. Ein bis zwei Pyzy pro Person reichen oft. Beilage-Schwester ohne Füllung: [Kopytka](/de/rezepte/kopytka).",
+ "Serviere Pyzy klassisch mit Butterzwiebeln. Ein bis zwei Stück pro Person reichen oft schon. Die Beilage-Schwester ohne Füllung findest du bei [Kopytka](/de/rezepte/kopytka).",
  servePl:
- "Z cebulą na maśle — klasycznie. Jedna–dwie pyzy na osobę często wystarczą. Siostra bez nadzienia: [kopytka](/pl/rezepte/kopytka).",
+ "Podawaj pyzy klasycznie z cebulą na maśle. Jedna lub dwie sztuki na osobę często wystarczą. Siostrę bez nadzienia znajdziesz przy [kopytkach](/pl/rezepte/kopytka).",
  diasporaDe:
- "Weniger bekannt als Pierogi in DE — lohnt als Familienprojekt am Wochenende mit [Sonntagsessen](/de/blog/sonntagsessen-polnisch)-Rhythmus.",
+ "In Deutschland sind Pyzy weniger bekannt als Pierogi — genau deshalb lohnen sie als Familienprojekt am Wochenende im Rhythmus des [Sonntagsessens](/de/blog/sonntagsessen-polnisch).",
  diasporaPl:
- "Mniej znane niż pierogi w DE — warto jako rodzinny projekt w rytmie [obiadu niedzielnego](/pl/blog/obiad-niedzielny).",
+ "W Niemczech pyzy są mniej znane niż pierogi — właśnie dlatego warto potraktować je jako rodzinny projekt w rytmie [obiadu niedzielnego](/pl/blog/obiad-niedzielny).",
  mistakesDe:
  "Zu weicher Teig, zu nasse Füllung und zu starkes Kochen sind die häufigsten Fehler. Teste eine Kugel, bevor du die ganze Charge formst, und korrigiere Mehl oder Feuchtigkeit früh.",
  mistakesPl:
  "Za miękkie ciasto, zbyt mokry farsz i zbyt gwałtowne gotowanie to najczęstsze błędy. Przetestuj jedną kulę, zanim uformujesz całą partię, i wcześnie popraw mąkę lub wilgotność.",
  variantsDe:
- "Mit Pilzfüllung, oder [Kopytka](/de/rezepte/kopytka) als einfachere Alternative ohne Füllen. Würzen mit [Majeranek](/de/blog/majeranek). Batch: [Freezer-Guide](/de/blog/freezer-meal-prep).",
+ "Mit Pilzfüllung oder mit [Kopytka](/de/rezepte/kopytka) als einfacherer Alternative ohne Füllen. Würzen hilft das [Majeranek-Lexikon](/de/blog/majeranek); Chargen und Einfrieren ordnet der [Freezer-Guide](/de/blog/freezer-meal-prep).",
  variantsPl:
- "Z farszem grzybowym albo [kopytka](/pl/rezepte/kopytka) bez nadziewania. Doprawianie: [majeranek](/pl/blog/majeranek-leksykon). Batch: [mrożenie](/pl/blog/mrozenie-pierogow).",
+ "Z farszem grzybowym albo z [kopytkami](/pl/rezepte/kopytka) jako prostszą alternatywą bez nadziewania. Przy przyprawianiu pomaga [majeranek](/pl/blog/majeranek-leksykon); partie i mrożenie porządkuje [mrożenie pierogów](/pl/blog/mrozenie-pierogow).",
  },
 
  "recipe-zrazy": {
@@ -178,21 +178,21 @@ export const W8_FACTS_D_RETROFIT: Record<string, ArticleFacts> = {
  techniquePl:
  "Rozbij mięso cienko, posmaruj musztardą, szczelnie zwiń z boczkiem i ogórkiem i duś długo na małym ogniu. Sos ma nieść łyżkę, bez mącznej gęstości.",
  serveDe:
- "Mit [Kluski śląskie](/de/rezepte/kluski-slaskie), Kartoffeln oder Kasza. Soße großzügig — sie trägt den Teller. Schnellere Schmor-Alternative: [Gulasz](/de/rezepte/gulasz-wieprzowy).",
+ "Serviere Zrazy mit [Kluski śląskie](/de/rezepte/kluski-slaskie), Kartoffeln oder Kasza und gib die Soße großzügig dazu — sie trägt den Teller. Eine schnellere Schmor-Alternative ist [Gulasz](/de/rezepte/gulasz-wieprzowy).",
  servePl:
- "Z [kluskami śląskimi](/pl/rezepte/kluski-slaskie), ziemniakami albo kaszą. Sos hojnie — on niesie talerz. Szybsza alternatywa: [gulasz](/pl/rezepte/gulasz-wieprzowy).",
+ "Podawaj zrazy z [kluskami śląskimi](/pl/rezepte/kluski-slaskie), ziemniakami albo kaszą i dolewaj sos hojnie — on niesie talerz. Szybszą alternatywą duszenia jest [gulasz](/pl/rezepte/gulasz-wieprzowy).",
  diasporaDe:
- "Länger als Gulasz, festlicher — gut wenn Gäste kommen und Zeit da ist. Plant ihn bewusst in den [Sonntagsessen](/de/blog/sonntagsessen-polnisch)-Slot.",
+ "Zrazy brauchen länger als Gulasz und wirken festlicher — gut, wenn Gäste kommen und wirklich Zeit da ist. Plane sie bewusst in den Slot des [Sonntagsessens](/de/blog/sonntagsessen-polnisch).",
  diasporaPl:
- "Dłuższe niż gulasz, bardziej odświętne — dobre gdy są goście i czas. Planuj świadomie w slot [obiadu niedzielnego](/pl/blog/obiad-niedzielny).",
+ "Zrazy potrzebują więcej czasu niż gulasz i wyglądają odświętniej — dobre, gdy są goście i naprawdę jest czas. Planuj je świadomie w slot [obiadu niedzielnego](/pl/blog/obiad-niedzielny).",
  mistakesDe:
  "Zu kurze Schmorzeit, zu wenig Flüssigkeit und lockere Rollen lassen Zrazy trocken oder formlos. Binde die Rouladen fest und gib dem Topf Zeit — wie beim [Sonntagsessen](/de/blog/sonntagsessen-polnisch).",
  mistakesPl:
  "Za krótkie duszenie, za mało płynu i luźne rolki zostawiają zrazy suche albo bez kształtu. Mocno zwiąż rolady i daj garnkowi czas — jak przy [obiedzie niedzielnym](/pl/blog/obiad-niedzielny).",
  variantsDe:
- "Mit Pilzen in der Füllung, oder [Gulasz](/de/rezepte/gulasz-wieprzowy) als schnellere Schmor-Alternative. Beilage: [Kluski śląskie](/de/rezepte/kluski-slaskie). Würze: [Majeranek](/de/blog/majeranek).",
+ "Mit Pilzen in der Füllung oder mit [Gulasz](/de/rezepte/gulasz-wieprzowy) als schnellerer Schmor-Alternative. Als Beilage passen [Kluski śląskie](/de/rezepte/kluski-slaskie); beim Würzen hilft [Majeranek](/de/blog/majeranek).",
  variantsPl:
- "Z grzybami w farszu albo [gulasz](/pl/rezepte/gulasz-wieprzowy) jako szybsza alternatywa. Dodatek: [kluski śląskie](/pl/rezepte/kluski-slaskie). Przyprawa: [majeranek](/pl/blog/majeranek-leksykon).",
+ "Z grzybami w farszu albo z [gulaszem](/pl/rezepte/gulasz-wieprzowy) jako szybszą alternatywą. Jako dodatek pasują [kluski śląskie](/pl/rezepte/kluski-slaskie); przy przyprawianiu pomaga [majeranek](/pl/blog/majeranek-leksykon).",
  },
 
  "recipe-makowiec": {
@@ -217,17 +217,17 @@ export const W8_FACTS_D_RETROFIT: Record<string, ArticleFacts> = {
  servePl:
  "W plastrach, często z cukrem pudrem. Upieczony dzień wcześniej spokojniejszy na Wigilię. Pasuje jako finał po [barszczu](/pl/rezepte/barszcz-czerwony) i [uszkach](/pl/rezepte/uszka).",
  diasporaDe:
- "In DE rettet früher Backtag den 24.: Geruch am 23., Ruhe am Abend. Fertigware aus dem Laden ist Notfall, nicht Technikersatz — siehe [Makowiec-Technik](/de/blog/makowiec-technik).",
+ "In Deutschland rettet ein früher Backtag den 24.: Geruch am 23., Ruhe am Abend. Fertigware aus dem Laden ist Notfall, nicht Technikersatz — siehe [Makowiec-Technik](/de/blog/makowiec-technik).",
  diasporaPl:
- "W DE wcześniejszy dzień pieczenia ratuje 24.: zapach 23., spokój wieczorem. Gotowiec ze sklepu to awaria, nie zamiennik techniki — [makowiec-technika](/pl/blog/makowiec-technika).",
+ "W Niemczech wcześniejszy dzień pieczenia ratuje 24.: zapach 23., spokój wieczorem. Gotowiec ze sklepu to awaria, nie zamiennik techniki — szczegóły w [technice makowca](/pl/blog/makowiec-technika).",
  mistakesDe:
  "Eine trockene Mohnmasse, zu viel Mehl im Teig, ein zu heißer Ofen, zu frühes Schneiden und kochende Flüssigkeit auf der Hefe ruinieren Spirale und Krume. Lass beim Füllen einen Rand stehen und warte mit dem Anschneiden, bis der Laib ruhig ist.",
  mistakesPl:
- "Sucha masa makowa, za dużo mąki w cieście, zbyt gorący piekarnik, zbyt wczesne krojenie i wrzątek na drożdżach psują spiralę i miękisz. Przy nadziewaniu zostaw brzeg i czekaj z krojeniem, aż bochenek ostyg",
+ "Sucha masa makowa, za dużo mąki w cieście, zbyt gorący piekarnik, zbyt wczesne krojenie i wrzątek na drożdżach psują spiralę i miękisz. Przy nadziewaniu zostaw brzeg i czekaj z krojeniem, aż bochenek ostygnie.",
  variantsDe:
- "Mit Rosinen, mit Zuckerguss, kleinere Rollen. Anderes Festtagsbacken: [Faworki](/de/rezepte/faworki) + [Faworki-Technik](/de/blog/faworki-technik). Käsekuchen-Linie: [Sernik](/de/rezepte/sernik). Formkuchen ohne Mohnspirale: [Babka](/de/rezepte/babka) — anderer Rezept. Honig-Gewürz-Lebkuchen (≠ Mohnrolle): [Piernik](/de/rezepte/piernik). Weizenkörner+Mohn in der Schüssel (≠ Rolle): [Kutia](/de/rezepte/kutia).",
+ "Mit Rosinen, mit Zuckerguss oder als kleinere Rollen. Anderes Festtagsbacken: [Faworki](/de/rezepte/faworki) und [Faworki-Technik](/de/blog/faworki-technik). Käsekuchen bleibt [Sernik](/de/rezepte/sernik); Formkuchen ohne Mohnspirale ist [Babka](/de/rezepte/babka). Honig-Gewürz-Lebkuchen statt Mohnrolle: [Piernik](/de/rezepte/piernik). Weizenkörner mit Mohn in der Schüssel: [Kutia](/de/rezepte/kutia).",
  variantsPl:
- "Z rodzynkami, z lukrem, mniejsze rolady. Inne pieczenie świąteczne: [faworki](/pl/rezepte/faworki) + [technika faworków](/pl/blog/faworki-technika). Linia sernika: [sernik](/pl/rezepte/sernik). Ciasto z formy bez spirali: [babka](/pl/rezepte/babka) — inny Rezept. Piernik miodowo-korzenny (≠ rolada makowa): [piernik](/pl/rezepte/piernik). Pszenica+mak w misce (≠ rolada): [kutia](/pl/rezepte/kutia).",
+ "Z rodzynkami, z lukrem albo jako mniejsze rolady. Inne pieczenie świąteczne: [faworki](/pl/rezepte/faworki) i [technika faworków](/pl/blog/faworki-technika). Sernik zostaje przy [serniku](/pl/rezepte/sernik); ciasto z formy bez spirali to [babka](/pl/rezepte/babka). Piernik miodowo-korzenny zamiast rolady makowej: [piernik](/pl/rezepte/piernik). Pszenica z makiem w misce: [kutia](/pl/rezepte/kutia).",
  },
 
  "recipe-uszka": {
@@ -248,9 +248,9 @@ export const W8_FACTS_D_RETROFIT: Record<string, ArticleFacts> = {
  techniquePl:
  "Farsz dusić na sucho, małe koła, mało farszu, szczelnie zamykać w uszka. Gotować w lekko wrzącej wodzie aż wypłyną. W misce łączyć z gorącym barszczem — nie trzymać godzinami w zupie.",
  serveDe:
- "Als erste Gang-Logik zur Wigilia mit klarem [Barszcz](/de/rezepte/barszcz-czerwony). Auch allein mit Butter. Verwandte Rolle/Panade: [Krokiety](/de/rezepte/krokiety) — andere Form, oft dieselbe Füllungsfamilie.",
+ "Zur Wigilia gehören Uszka als erste Gang-Logik in klaren [Barszcz](/de/rezepte/barszcz-czerwony). Du kannst sie auch allein mit Butter servieren. Verwandte Form mit Panade: [Krokiety](/de/rezepte/krokiety).",
  servePl:
- "Jako logika pierwszego dania Wigilii z klarownym [barszczem](/pl/rezepte/barszcz-czerwony). Też same z masłem. Pokrewna forma: [krokiety](/pl/rezepte/krokiety) — inna forma, często ta sama rodzina farszu.",
+ "Na Wigilię uszka należą do logiki pierwszego dania z klarownym [barszczem](/pl/rezepte/barszcz-czerwony). Możesz podać je też same z masłem. Pokrewna forma z panierką: [krokiety](/pl/rezepte/krokiety).",
  diasporaDe:
  "Am 23. formen, einfrieren oder kühl lagern, am 24. nur kochen — entlastet den Abend neben Barszcz und [Makowiec](/de/rezepte/makowiec). Den Zeitplan findest du unter [Wigilia](/de/blog/wigilia-speiseplan).",
  diasporaPl:
@@ -316,11 +316,11 @@ export const W8_FACTS_D_RETROFIT: Record<string, ArticleFacts> = {
  techniqueDe:
  "Rolle die gefüllten Platten fest, paniere sie sorgfältig und brate bei mittlerer Hitze goldbraun. Die Füllung muss kalt und nicht zu nass sein, sonst weicht die Kruste auf, bevor sie schließt.",
  techniquePl:
- "Zwijaj napełnione placki szczelnie, starannie obtocz i smaż na średnim ogniu na złoto. Farsz musi być zimny i niezbyt mokry, inaczej skórka rozmięknie, zanim się zamk",
+ "Zwijaj napełnione placki szczelnie, starannie obtocz i smaż na średnim ogniu na złoto. Farsz musi być zimny i niezbyt mokry, inaczej skórka rozmięknie, zanim się zamknie.",
  serveDe:
- "Heiß mit klarem [Barszcz](/de/rezepte/barszcz-czerwony) oder allein mit Śmietana — [Śmietana/Schmand](/de/blog/smietana-schmand). Reste erneut in der Pfanne knusprig. Wigilia-Partner: [Uszka](/de/rezepte/uszka).",
+ "Serviere die Krokiety heiß mit klarem [Barszcz](/de/rezepte/barszcz-czerwony) oder allein mit Śmietana — siehe [Śmietana/Schmand](/de/blog/smietana-schmand). Reste erneut in der Pfanne knusprig machen. Wigilia-Partner: [Uszka](/de/rezepte/uszka).",
  servePl:
- "Gorące z klarownym [barszczem](/pl/rezepte/barszcz-czerwony) albo same ze śmietaną — [śmietana/Schmand](/pl/blog/smietana-czy-schmand). Resztki odsmażyć. Partner Wigilii: [uszka](/pl/rezepte/uszka).",
+ "Podawaj krokiety gorące z klarownym [barszczem](/pl/rezepte/barszcz-czerwony) albo same ze śmietaną — [śmietana czy Schmand](/pl/blog/smietana-czy-schmand). Resztki odsmaż na patelni. Partner Wigilii: [uszka](/pl/rezepte/uszka).",
  diasporaDe:
  "Wochenendprojekt: vormittags Teig und Füllung, nachmittags rollen und braten. Freezer: geformte Rollen vor dem Panieren — siehe [Freezer-Guide](/de/blog/freezer-meal-prep). Menükontext: [Wigilia](/de/blog/wigilia-speiseplan).",
  diasporaPl:
@@ -384,9 +384,9 @@ export const W8_FACTS_D_RETROFIT: Record<string, ArticleFacts> = {
  shopPl:
  "Weź filety śledziowe matjes lub solone z chłodni [sklepu polskiego](/pl/blog/sklep-polski-zakupy), cebulę, olej, liść laurowy i ziele angielskie. Gdy jest tylko rolmops, nazwij talerz uczciwie — orientację dają [zamienniki](/pl/blog/zamienniki-skladnikow).",
  techniqueDe:
- "Schneiden, schichten, würzen, ziehen lassen — Kühlschrank, abgedeckt. Schärfe der Zwiebel mit kurzem Brühen mildern. Nicht kochen. Über Nacht oft besser.",
+ "Schneide die Filets, schichte sie mit Zwiebeln, würze ruhig und lass alles abgedeckt im Kühlschrank ziehen. Die Schärfe der Zwiebel milderst du mit kurzem Brühen. Nicht kochen — über Nacht wird der Teller oft besser.",
  techniquePl:
- "Kroić, warstwić, przyprawiać, odstawić — lodówka, przykryte. Ostrość cebuli złagodzić krótkim sparzeniem. Nie gotować. Przez noc często lepiej.",
+ "Pokrój filety, ułóż warstwami z cebulą, przypraw spokojnie i odstaw przykryte do lodówki. Ostrość cebuli złagodzisz krótkim sparzeniem. Nie gotuj — przez noc talerz często smakuje lepiej.",
  serveDe:
  "Kalt mit Brot, manchmal mit Ei oder Gurke. An Wigilia oft neben anderen kalten Speisen; an Werktagen als schneller Teller. Warm: [Karp](/de/rezepte/karp). Sahnevariante: [Śmietana-Lexikon](/de/blog/smietana-schmand).",
  servePl:
@@ -394,14 +394,14 @@ export const W8_FACTS_D_RETROFIT: Record<string, ArticleFacts> = {
  diasporaDe:
  "Vorbereiten am 23., servieren am 24. — null Ofenstress neben [Barszcz](/de/rezepte/barszcz-czerwony) und [Karp](/de/rezepte/karp). Den Zeitplan findest du unter [Wigilia](/de/blog/wigilia-speiseplan).",
  diasporaPl:
- "Przygotować 23., podać 24. — zero stresu pieca obok [barszczu](/pl/rezepte/barszcz-czerwony) i [karpia](/pl/rezepte/karp). Den Zeitplan findest du unter [menu wigilijne](/pl/blog/menu-wigilijne).",
+ "Przygotuj 23., podaj 24. — zero stresu pieca obok [barszczu](/pl/rezepte/barszcz-czerwony) i [karpia](/pl/rezepte/karp). Harmonogram znajdziesz w [menu wigilijnym](/pl/blog/menu-wigilijne).",
  mistakesDe:
  "Zu kurze Marinade, zu scharfe Zwiebel ohne Bad und zu wenig Öl lassen den Hering streng oder trocken. Plane ein paar Stunden Ruhe im Kühlschrank, bevor der Teller auf den Tisch kommt.",
  mistakesPl:
  "Za krótka marynata, zbyt ostra cebula bez namoczenia i za mało oleju zostawiają śledzia ostrego albo suchego. Zaplanuj kilka godzin spokoju w lodówce, zanim talerz trafi na stół.",
  variantsDe:
- "Śledź w śmietanie, po kaszubsku mit Apfel, mit Senf. Sahne: [Śmietana](/de/blog/smietana-schmand). Warm: [Karp](/de/rezepte/karp). Zum Menü passt [Wigilia](/de/blog/wigilia-speiseplan). Laden: [Polenladen](/de/blog/polenladen-einkaufen).",
+ "Du kannst Śledź w śmietanie, po kaszubsku mit Apfel oder mit Senf wählen. Orientierung zur Sahne gibt das [Śmietana-Lexikon](/de/blog/smietana-schmand); warmer Fisch bleibt bei [Karp](/de/rezepte/karp). Zum Menü passt der [Wigilia-Speiseplan](/de/blog/wigilia-speiseplan).",
  variantsPl:
- "Śledź w śmietanie, po kaszubsku z jabłkiem, z musztardą. Śmietana: [leksykon](/pl/blog/smietana-czy-schmand). Ciepło: [karp](/pl/rezepte/karp). Do menu pasuje [menu wigilijne](/pl/blog/menu-wigilijne). Sklep: [sklep polski](/pl/blog/sklep-polski-zakupy).",
+ "Możesz wybrać śledzia w śmietanie, po kaszubsku z jabłkiem albo z musztardą. Orientację przy śmietanie daje [leksykon śmietany](/pl/blog/smietana-czy-schmand); ciepła ryba zostaje przy [karpie](/pl/rezepte/karp). Do menu pasuje [menu wigilijne](/pl/blog/menu-wigilijne).",
  },
 };

@@ -47,7 +47,7 @@ export const W9_FACTS_W8_RETROFIT: Record<string, ArticleFacts> = {
  mistakesDe:
  "Zu dunkle Zasmażka (bitter). Komplett gespültes Kraut (fade). Mit Bigos verwechseln oder Zu viel Wasser wird zur Suppe statt Beilage. Zu früh Wurst rein — anderes Gericht.",
  mistakesPl:
- "Zbyt ciemna zasmażka (gorzka). Całkiem wypłukana kapusta (mdła). Mylenie z bigosem lub mylenie z kiszenia. Za dużo wody robi się zupa zamiast dodatku. Wczesna kiełbasa — inne da",
+ "Zbyt ciemna zasmażka robi się gorzka, a całkowicie wypłukana kapusta mdła. Za dużo wody wychodzi zupa zamiast dodatku. Nie myl z bigosem ani z samym kiszeniem — a wczesna kiełbasa to już inne danie.",
  variantsDe:
  "Mit Speckwürfeln (Hausvariante), mit frischem Weißkohl gemischt milder, mit Pilzen näher an Wigilia-Feeling — ehrlich benennen. Bigos bleibt der verwandte Kohl-Eintopf mit Fleisch; Kapusta zasmażana bleibt Beilage. Pfannen-Fleisch/Wurst-Nachbar: [Kaszanka](/de/rezepte/kaszanka).",
  variantsPl:

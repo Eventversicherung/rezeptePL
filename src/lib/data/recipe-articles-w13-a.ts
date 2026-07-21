@@ -59,13 +59,13 @@ export const W13_FACTS_A: Record<string, ArticleFacts> = {
  servePl:
  "Gorąca z koperkiem, chleb obok. Starter lub obiad w duchu [obiadu niedzielnego](/pl/blog/obiad-niedzielny). Groch: [grochówka](/pl/rezepte/grochowka); grzyby: [zupa grzybowa](/pl/rezepte/zupa-grzybowa); klarowny wywar: [rosół](/pl/rezepte/rosol). Krajobraz: [polskie zupy](/pl/blog/polskie-zupy). W [sklep polski](/pl/blog/sklep-polski-zakupy) kupisz typowe specjalności.",
  diasporaDe:
- "Krupnik ist Diaspora-freundlich: ein Topf, Gerste aus dem Vorrat, Gemüse aus dem Supermarkt. Batch für zwei Tage möglich — Gerste zieht Flüssigkeit, am zweiten Tag Brühe nachgießen. Kinder dürfen Gerste abmessen; heißer Topf bei Erwachsenen. Vor dem Wochenende Gerste checken im [Polenladen](/de/blog/polenladen-einkaufen). Speiseplan entlasten heißt: klare Cook-URL, Kultur bleibt [Sonntagsessen](/de/blog/sonntagsessen-polnisch).",
+ "Krupnik ist Diaspora-freundlich: ein Topf, Gerste aus dem Vorrat, Gemüse aus dem Supermarkt. Batch für zwei Tage möglich — Gerste zieht Flüssigkeit, am zweiten Tag Brühe nachgießen. Kinder dürfen Gerste abmessen; heißer Topf bei Erwachsenen. Vor dem Wochenende Gerste checken im [Polenladen](/de/blog/polenladen-einkaufen). Speiseplan entlasten heißt: klare Rezeptseite, Kultur bleibt beim [Sonntagsessen](/de/blog/sonntagsessen-polnisch).",
  diasporaPl:
- "Krupnik lubi diasporę: jeden garnek, kasza ze spiżarni, warzywa z marketu. Zapas na dwa dni — kasza ciągnie płyn, nazajutrz dolej. Dzieci odmierzą kaszę; gorący garnek u dorosłych. Przed weekendem sprawdź kaszę w [sklepie polskim](/pl/blog/sklep-polski-zakupy). Odciążenie menu: jasny cook-URL, kultura zostaje w [obiadzie niedzielnym](/pl/blog/obiad-niedzielny).",
+ "Krupnik lubi diasporę: jeden garnek, kasza ze spiżarni, warzywa z marketu. Zapas na dwa dni — kasza ciągnie płyn, nazajutrz dolej. Dzieci odmierzą kaszę; gorący garnek u dorosłych. Przed weekendem sprawdź kaszę w [sklepie polskim](/pl/blog/sklep-polski-zakupy). Odciążenie menu: jasna strona przepisu, kultura zostaje w [obiadzie niedzielnym](/pl/blog/obiad-niedzielny).",
  mistakesDe:
- "Mit [Grochówka](/de/rezepte/grochowka) verwechseln (Erbsen). Mit [Zupa grzybowa](/de/rezepte/zupa-grzybowa) verwechseln (Pilz). Zu stark pürieren bis Brei. Gerste ungewaschen. Kultur.",
+ "Häufig wird Krupnik mit [Grochówka](/de/rezepte/grochowka) (Erbsen) oder [Zupa grzybowa](/de/rezepte/zupa-grzybowa) (Pilz) verwechselt. Zu stark pürieren macht Brei daraus, und ungewaschene Gerste trübt den Topf. Die Kultur bleibt beim klaren Gersten-Charakter.",
  mistakesPl:
- "Mylenie z [grochówką](/pl/rezepte/grochowka). Mylenie z [zupą grzybową](/pl/rezepte/zupa-grzybowa). Zbyt mocne blendowanie. Kasza bez płukania. Nie mieszać ilości i kroków z sąsiednim przepisem.",
+ "Często krupnik myli się z [grochówką](/pl/rezepte/grochowka) albo [zupą grzybową](/pl/rezepte/zupa-grzybowa). Zbyt mocne blendowanie robi z tego papkę, a kasza bez płukania mąci garnek. Nie mieszaj ilości i kroków z sąsiednim przepisem.",
  variantsDe:
  "Mit mehr Huhn sättigender; vegetarisch ehrlich ohne Fleisch; mit getrockneten Pilzen nur als Beinote — Fokus bleibt Gerste, nicht [Zupa grzybowa](/de/rezepte/zupa-grzybowa). Passende Nachbarn sind [Grochówka](/de/rezepte/grochowka), [Kapuśniak](/de/rezepte/kapusniak), [Rosół](/de/rezepte/rosol). Guides: [Polnische Suppen](/de/blog/polnische-suppen), [Sonntagsessen](/de/blog/sonntagsessen-polnisch), [Polenladen](/de/blog/polenladen-einkaufen), [Ersatzprodukte](/de/blog/ersatzprodukte-de).",
  variantsPl:
@@ -94,7 +94,7 @@ export const W13_FACTS_A: Record<string, ArticleFacts> = {
  servePl:
  "Gorąca, zielona, z jajkiem i koperkiem. Wiosna i wczesne lato; chleb obok. Młode buraki z botwiną: [botwinka](/pl/rezepte/botwinka); kwas ogórkowy: [ogórkowa](/pl/rezepte/ogorkowa); zimno i często różowo: [chłodnik](/pl/rezepte/chlodnik-litewski). Krajobraz: [polskie zupy](/pl/blog/polskie-zupy). Nabiał: [śmietana/Schmand](/pl/blog/smietana-czy-schmand).",
  diasporaDe:
- "In DE ist frischer Sauerampfer das Nadelöhr — wer ihn findet, kocht; wer nicht, wartet auf die Saison oder nennt den gefrorenen Vorrat ehrlich. Ein Topf für den gleichen Tag, Farbe frisch halten. Kinder dürfen Eier schälen; heißer Topf und scharfe Messer bei Erwachsenen. Einkaufshilfe: [Ersatzprodukte DE](/de/blog/ersatzprodukte-de) und [Polenladen](/de/blog/polenladen-einkaufen). Overview [Polnische Suppen](/de/blog/polnische-suppen).",
+ "In DE ist frischer Sauerampfer das Nadelöhr — wer ihn findet, kocht; wer nicht, wartet auf die Saison oder nennt den gefrorenen Vorrat ehrlich. Ein Topf für den gleichen Tag, Farbe frisch halten. Kinder dürfen Eier schälen; heißer Topf und scharfe Messer bei Erwachsenen. Einkaufshilfe: [Ersatzprodukte DE](/de/blog/ersatzprodukte-de) und [Polenladen](/de/blog/polenladen-einkaufen). Den Überblick gibt [Polnische Suppen](/de/blog/polnische-suppen).",
  diasporaPl:
  "W DE świeży szczaw to wąskie gardło — kto znajdzie, gotuje; kto nie, czeka na sezon albo nazywa mrożonkę uczciwie. Jeden garnek na ten sam dzień, kolor świeży. Dzieci obiorą jajka; gorący garnek u dorosłych. W [zamienniki](/pl/blog/zamienniki-skladnikow) i pod [sklep polski](/pl/blog/sklep-polski-zakupy) znajdziesz wskazówki zakupowe. Przegląd osobny farsz i osobne ilości.: [polskie zupy](/pl/blog/polskie-zupy).",
  mistakesDe:

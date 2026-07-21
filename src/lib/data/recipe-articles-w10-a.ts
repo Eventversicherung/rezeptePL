@@ -33,7 +33,7 @@ export const W10_FACTS_A: Record<string, W10ArticleFacts> = {
  originDe:
  "Flaki sind die polnische Kuttelsuppe: Rinderkutteln in kräftiger Brühe mit Gemüse, Paprika und reichlich [Majeranek](/de/blog/majeranek). Das ist kein [Barszcz](/de/rezepte/barszcz-czerwony) (Rote Bete), kein [Żurek](/de/rezepte/zurek) (Zakwas), keine [Ogórkowa](/de/rezepte/ogorkowa) (Kiszone-Gurke) und keine [Botwinka](/de/rezepte/botwinka) (junge Bete mit Blättern). Hier geht es um das Rezept „Flaki / Kuttelsuppe“. Der breite Überblick bleibt beim Guide [Polnische Suppen](/de/blog/polnische-suppen) — hier bleibt nur das Gericht.",
  originPl:
- "Flaki to polska zupa z flaków: flaki wołowe w mocnym wywarze z warzywami, papryką i solidnym [majerankiem](/pl/blog/majeranek-leksykon). To nie [barszcz](/pl/rezepte/barszcz-czerwony) (buraki), nie [żurek](/pl/rezepte/zurek) (zakwas), nie [ogórkowa](/pl/rezepte/ogorkowa) (ogórek kiszony) i nie [botwinka](/pl/rezepte/botwinka) (młode buraki z botwiną). Tu chodzi o Rezept „flaki”. Szeroki przegląd zostaje przy [polskich zupach](/pl/blog/polskie-zupy) — tu zostaje tylko da",
+ "Flaki to polska zupa z flaków: flaki wołowe w mocnym wywarze z warzywami, papryką i solidnym [majerankiem](/pl/blog/majeranek-leksykon). To nie [barszcz](/pl/rezepte/barszcz-czerwony) (buraki), nie [żurek](/pl/rezepte/zurek) (zakwas), nie [ogórkowa](/pl/rezepte/ogorkowa) (ogórek kiszony) i nie [botwinka](/pl/rezepte/botwinka) (młode buraki z botwiną). Tu chodzi o Rezept „flaki”. Szeroki przegląd zostaje przy [polskich zupach](/pl/blog/polskie-zupy) — tu zostaje tylko danie flaki.",
  shopDe:
  "Vorbereitete Rinderkutteln holst du am zuverlässigsten im [Polenladen](/de/blog/polenladen-einkaufen) oder an der Fleischtheke — oft schon geputzt. Brühe, Suppengrün, Tomatenmark, Paprika, Lorbeer, Piment. Majeranek hilft bei der Dosierung; hier zählt die Anwendung im Topf. Kein Zakwas, keine Rote Bete, keine Kiszone-Gurken als Hauptgericht hier.",
  shopPl:
@@ -47,7 +47,7 @@ export const W10_FACTS_A: Record<string, W10ArticleFacts> = {
  servePl:
  "Gorące z chlebem lub ziemniakami. Pasuje jako treściwa zupa w [obiedzie niedzielnym](/pl/blog/obiad-niedzielny), gdy stół chce ciepła i majeranku. Nawigacja silosu: z powrotem do [polskich zup](/pl/blog/polskie-zupy). Resztki następnego dnia często lepsze — odgrzać, doprawić, ewentualnie dolać bulionu.",
  diasporaDe:
- "In DE sind geputzte Kutteln der Schlüssel: ohne stundenlanges Putzen bleibt Flaki planbar. Polenladen für Fleisch und aromatischen Majoran; Supermarkt für Gemüse und Mark. Wer die Suppen-Landschaft ordnen will, startet beim Overview und landet hier beim Cook. Kein Region-Blog und nicht mit Barszcz oder Żurek vermischen.",
+ "In DE sind geputzte Kutteln der Schlüssel: ohne stundenlanges Putzen bleibt Flaki planbar. Polenladen für Fleisch und aromatischen Majoran; Supermarkt für Gemüse und Mark. Wer die Suppen-Landschaft ordnen will, startet beim Überblick unter [Polnische Suppen](/de/blog/polnische-suppen) und landet hier beim konkreten Topf. Nicht mit Barszcz oder Żurek vermischen.",
  diasporaPl:
  "W DE klucz to oczyszczone flaki: bez godzin czyszczenia flaki zostają planowalne. Sklep polski na mięso i aromatyczny majeranek; market na warzywa i koncentrat. Kto chce uporządkować krajobraz zup, zaczyna od overview i ląduje tu przy cook. Bez bloga regionalnego i osobny farsz i osobne ilości. barszczu/żurku.",
  mistakesDe:

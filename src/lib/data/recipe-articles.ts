@@ -72,9 +72,9 @@ const FACTS: Record<string, ArticleFacts> = {
  techniquePl:
  "Ciasto potrzebuje odpoczynku, brzegi muszą być szczelnie zlepione, a woda tylko lekko wrzeć. Gdy pierogi wypłyną, zwykle są gotowe. Masło i złota cebula to nie dodatek, tylko część dania.",
  serveDe:
- "Serviere heiß, mit Sauerrahm oder ohne. Reste brät man am nächsten Tag in der Pfanne. Viele finden sie dann sogar besser.",
+ "Serviere die Pierogi heiß, mit Sauerrahm oder ohne. Reste brät man am nächsten Tag in der Pfanne — viele finden sie dann sogar besser, weil die Naht knusprig wird.",
  servePl:
- "Podawaj gorące, ze śmietaną lub bez. Resztki smaży się następnego dnia na patelni. Wielu uważa, że wtedy smakują jeszcze lepiej.",
+ "Podawaj pierogi gorące, ze śmietaną lub bez. Resztki smaży się następnego dnia na patelni — wielu uważa, że wtedy smakują jeszcze lepiej, bo szew robi się chrupiący.",
  diasporaDe:
  "Für Polen in Deutschland ist Pierogi-Tag oft Ritual: Teig am Vormittag, Füllen am Nachmittag, gemeinsames Essen am Abend. Mit Kindern gehen die Mengen schnell nach oben. Plane großzügig.",
  diasporaPl:
@@ -98,17 +98,17 @@ const FACTS: Record<string, ArticleFacts> = {
  originPl:
  "Bigos to polskie danie narodowe w najlepszym sensie: nie sztywny przepis, lecz metoda. Kapusta kiszona, mięso, czasem dziczyzna, suszone grzyby i czas. Powstaje gulasz, który opowiada historię domu.",
  shopDe:
- "Sauerkraut und getrocknete Pilze holst du am zuverlässigsten im Polenladen. Fleisch darf gemischt sein: Schwein, Wurstreste, Speck. Lorbeer und Piment sind Pflicht. Für Schmor-Topf und Timing: Bigos-Guide und Dutch Oven.",
+ "Sauerkraut und getrocknete Pilze holst du am zuverlässigsten im [Polenladen](/de/blog/polenladen-einkaufen). Fleisch darf gemischt sein: Schwein, Wurstreste, Speck. Lorbeer und Piment sind Pflicht. Für Topf und Schmorzeit helfen der [Bigos-Guide](/de/blog/bigos-guide) und die [Dutch-Oven-Kaufberatung](/de/blog/dutch-oven-kaufberatung).",
  shopPl:
- "Kapustę kiszoną i suszone grzyby najpewniej kupisz w polskim sklepie. Mięso może być mieszane: wieprzowina, resztki kiełbasy, boczek. Liść laurowy i ziele angielskie są obowiązkowe. Garnek i czas — w przewodniku po bigosie i Dutch oven.",
+ "Kapustę kiszoną i suszone grzyby najpewniej kupisz w [sklepie polskim](/pl/blog/sklep-polski-zakupy). Mięso może być mieszane: wieprzowina, resztki kiełbasy, boczek. Liść laurowy i ziele angielskie są obowiązkowe. Przy garnku i czasie pomagają [przewodnik po bigosie](/pl/blog/bigos-przewodnik) oraz [garnek do duszenia](/pl/blog/garnek-do-duszenia).",
  techniqueDe:
- "Bigos will Niedrigtemperatur und Geduld. Anbraten für Röstaromen, dann langes Schmoren. Über Nacht im Kühlschrank verdichten sich die Aromen. Plane ihn bewusst einen Tag vorher.",
+ "Bigos will niedrige Hitze und Geduld. Brate das Fleisch zuerst an, damit Röstaromen entstehen, und schmore danach lange unter dem Deckel. Über Nacht im Kühlschrank verdichten sich die Aromen — plane ihn bewusst einen Tag vorher.",
  techniquePl:
- "Bigos lubi niską temperaturę i cierpliwość. Podsmażenie dla aromatu, potem długie duszenie. Noc w lodówce zagęszcza smak. Planuj go świadomie dzień wcześniej.",
+ "Bigos lubi niską temperaturę i cierpliwość. Najpierw podsmaż mięso dla aromatu, potem długo duś pod przykryciem. Noc w lodówce zagęszcza smak — planuj go świadomie dzień wcześniej.",
  serveDe:
- "Mit kräftigem Brot, manchmal mit Kartoffeln. Bigos ist Reiseessen, Partyessen und Winteressen zugleich.",
+ "Serviere Bigos mit kräftigem Brot, manchmal mit Kartoffeln. Er eignet sich gleichermaßen als Reiseessen, Partytopf und Wintergericht — und schmeckt am zweiten Tag oft noch runder.",
  servePl:
- "Z mocnym chlebem, czasem z ziemniakami. Bigos jest jedzeniem w podróż, na imprezę i na zimę jednocześ",
+ "Podawaj bigos z mocnym chlebem, czasem z ziemniakami. Sprawdza się jako jedzenie w podróż, na imprezę i na zimę jednocześnie — a na drugi dzień smakuje często jeszcze pełniej.",
  diasporaDe:
  "In deutschen Wohnungen riecht Bigos oft nach Wochenende: ein großer Topf reicht für Gäste, und abgekühlte Portionen lassen sich gut einfrieren. Wer unter der Woche wenig Zeit hat, kocht ihn bewusst am Vortag und wärmt nur noch auf.",
  diasporaPl:
@@ -118,9 +118,9 @@ const FACTS: Record<string, ArticleFacts> = {
  mistakesPl:
  "Często bigos nie wychodzi przez za mało czasu, zbyt rzadki sos albo niejasny kwas. Ma być gęsty, nie jak zupa. Gdy jest zbyt kwaśny, krótko spłucz kapustę albo dodaj świeżej — cukier tylko jako ostatnia deska ratunku.",
  variantsDe:
- "Mit Äpfeln, mit Rotwein, mit mehr Wurst oder eher vegetarisch mit Extra-Pilzen. Bigos-Guide und Dutch-Oven-Tipps helfen bei Topf und Schmorzeit. Die Grundidee bleibt: Kraut, Umami, Zeit.",
+ "Du kannst Äpfel, einen Schuss Rotwein, mehr Wurst oder eher vegetarisch Extra-Pilze wählen. Der [Bigos-Guide](/de/blog/bigos-guide) und die [Dutch-Oven-Kaufberatung](/de/blog/dutch-oven-kaufberatung) helfen bei Topf und Schmorzeit. Die Grundidee bleibt: Kraut, Umami und Zeit.",
  variantsPl:
- "Z jabłkami, z czerwonym winem, z większą ilością kiełbasy albo bardziej wegetariańsko z dodatkiem grzybów. Przewodnik po bigosie i garnek do duszenia pomagają z czasem. Idea zostaje: kapusta, umami, czas.",
+ "Możesz dodać jabłka, łyk czerwonego wina, więcej kiełbasy albo iść bardziej wegetariańsko z dodatkiem grzybów. [Przewodnik po bigosie](/pl/blog/bigos-przewodnik) i [garnek do duszenia](/pl/blog/garnek-do-duszenia) pomagają z czasem. Idea zostaje: kapusta, umami i czas.",
  },
  "recipe-zurek": {
  dishDe: "Żurek",
@@ -164,23 +164,23 @@ const FACTS: Record<string, ArticleFacts> = {
  originDe:
  "Oscypek kommt aus dem Podhale, der Tatra-Region. Der geräucherte Schafskäse ist geschützt und geschmacklich unverwechselbar: fest, rauchig, leicht salzig. Mit Preiselbeeren entsteht der typische Kontrast, den man von Berghütten kennt.",
  originPl:
- "Oscypek pochodzi z Podhala. Wędzony ser owczy jest chroniony i niepowtarzalny w smaku: zwarty, dymny, lekko słony. Z żurawiną powstaje kontrast znany z góralskich szałasów.",
+ "Oscypek pochodzi z Podhala, z regionu Tatr. Wędzony ser owczy jest chroniony i niepowtarzalny w smaku: zwarty, dymny, lekko słony. Z żurawiną powstaje kontrast, który znasz z góralskich szałasów.",
  shopDe:
- "Echten Oscypek gibt es im guten Polenladen oder saisonal auf Märkten — der Oscypek Guide erklärt PDO vs. Nachahmung. Alternativen: geräucherter Halloumi oder Bundz. Preiselbeeren als Kompott sind im deutschen Supermarkt leicht zu finden.",
+ "Echten Oscypek gibt es im guten [Polenladen](/de/blog/polenladen-einkaufen) oder saisonal auf Märkten — der [Oscypek-Guide](/de/blog/oscypek-deutschland) erklärt PDO und Nachahmung. Alternativen sind geräucherter Halloumi oder Bundz. Preiselbeeren als Kompott findest du leicht im deutschen Supermarkt.",
  shopPl:
- "Prawdziwy oscypek kupisz w dobrym polskim sklepie lub sezonowo na targu — przewodnik po oscypku wyjaśnia PDO i zamienniki. Żurawinę w słoiku łatwo znaleźć w niemieckim markecie.",
+ "Prawdziwy oscypek kupisz w dobrym [sklepie polskim](/pl/blog/sklep-polski-zakupy) lub sezonowo na targu — [przewodnik po oscypku](/pl/blog/oscypek-w-niemczech) wyjaśnia PDO i zamienniki. Żurawinę w słoiku łatwo znaleźć w niemieckim markecie.",
  techniqueDe:
  "Scheiben nicht zu dünn schneiden. Mittlere Hitze: der Käse soll an der Oberfläche goldbraun werden und innen weich anschmelzen, ohne völlig zu zerfließen. Zu heiß verbrennt der Rauchgeschmack.",
  techniquePl:
  "Nie kroić zbyt cienko. Średni ogień: ser ma się zarumienić i lekko podtopić w środku, bez całkowitego rozpływania. Za mocny ogień pali dymny aromat.",
  serveDe:
- "Iss den Käse sofort mit Roggenbrot und Preiselbeeren — als Vorspeise, Après-Ski-Teller oder schneller Abend nach der Schicht.",
+ "Iss den Käse sofort mit Roggenbrot und Preiselbeeren. Er eignet sich als Vorspeise, als Teller nach dem Ski und als schneller Abend nach der Schicht — Hauptsache heiß vom Rost oder aus der Pfanne.",
  servePl:
- "Jedz ser od razu z chlebem żytnim i żurawiną — jako przystawkę, talerz po nartach albo szybką kolację po zmia",
+ "Jedz ser od razu z chlebem żytnim i żurawiną. Sprawdza się jako przystawka, talerz po nartach albo szybka kolacja po zmianie — byle gorący z grilla lub z patelni.",
  diasporaDe:
- "Für viele in Deutschland ist Oscypek Erinnerung an Urlaub in Zakopane und gleichzeitig ein ehrliches 15-Minuten-Gericht, wenn nach der Arbeit wenig Zeit bleibt.",
+ "Für viele in Deutschland ist Oscypek Erinnerung an Zakopane und zugleich ein ehrliches Viertelstunden-Gericht, wenn nach der Arbeit wenig Zeit bleibt. Eine Packung und ein Glas Preiselbeeren reichen oft schon.",
  diasporaPl:
- "Dla wielu w Niemczech oscypek to wspomnienie Zakopanego i jednocześnie uczciwe 15-minutowe danie, gdy po pracy zostaje mało czasu.",
+ "Dla wielu w Niemczech oscypek to wspomnienie Zakopanego i jednocześnie uczciwe danie na kwadrans, gdy po pracy zostaje mało czasu. Jedno opakowanie sera i słoik żurawiny często wystarczą.",
  mistakesDe:
  "Zu langes Braten, zu viel Öl und zu süße Marmelade statt Preiselbeere zerstören den Kontrast. Der Käse soll goldbraun und innen weich bleiben, die Beilage sauer-frisch.",
  mistakesPl:
@@ -198,19 +198,19 @@ const FACTS: Record<string, ArticleFacts> = {
  originDe:
  "Kartoffelpuffer gibt es in vielen Küchen. Die polnische Version ist oft schlichter gewürzt und lebt von Technik: richtig reiben, richtig ausdrücken, richtig heiß ausbacken.",
  originPl:
- "Placki ziemniaczane zna wiele kuchni. Polska wersja bywa prościej przyprawiona i żyje techniką: dobre tarcie, dobre odciśnięcie, dobre, gorące smaże",
+ "Placki ziemniaczane zna wiele kuchni. Polska wersja bywa prościej przyprawiona i żyje techniką: dobre tarcie, dobre odciśnięcie i naprawdę gorące smażenie na patelni.",
  shopDe:
- "Mehligkochende oder vorwiegend festkochende Kartoffeln funktionieren. Sauerrahm (Schmand) aus dem Kühlregal, Öl mit hohem Rauchpunkt. Placki-Guide für Technik; Gusseisenpfanne für gleichmäßige Kruste.",
+ "Mehligkochende oder vorwiegend festkochende Kartoffeln funktionieren. Sauerrahm oder Schmand holst du im Kühlregal, Öl mit hohem Rauchpunkt aus dem Schrank. Technik und Varianten ordnet der [Placki-Guide](/de/blog/placki-guide); gleichmäßige Hitze hilft eine [Gusseisenpfanne](/de/blog/gusseisenpfanne).",
  shopPl:
- "Ziemniaki mączyste lub uniwersalne działają. Śmietana z lodówki, olej o wysokiej temperaturze dymienia. Placki-Guide przy technice; patelnia żeliwna przy równomiernym rumieniu.",
+ "Ziemniaki mączyste lub uniwersalne działają dobrze. Śmietanę lub schmand kupisz w lodówce, olej o wysokiej temperaturze dymienia w markecie. Technikę i warianty porządkuje [przewodnik po plackach](/pl/blog/placki-przewodnik); równomierne ciepło daje [patelnia żeliwna](/pl/blog/patelnia-zelivna).",
  techniqueDe:
  "Wasser aus der Reibemasse ist der Feind der Knusprigkeit. Gut ausdrücken, nicht zu viel Mehl, und die Pfanne wirklich heiß. Dicke Placki bleiben innen roh.",
  techniquePl:
  "Woda z tarcia to wróg chrupkości. Dobrze odciśnij, nie za dużo mąki i naprawdę gorąca patelnia. Grube placki zostają surowe w środku.",
  serveDe:
- "Heiß mit Sauerrahm, Zucker (ja, wirklich), Gulasch oder geräucherter Sahne. Sofort servieren. Composed Teller Puffer+Gulasch obenauf: [Placek po węgiersku](/de/rezepte/placek-po-wegiersku) — das Rezept dafür findest du dort.",
+ "Serviere die Placki heiß mit Sauerrahm, Zucker — ja, wirklich — Gulasch oder geräucherter Sahne. Sofort auf den Tisch stellen. Den zusammengesetzten Teller mit Gulasch obenauf findest du bei [Placek po węgiersku](/de/rezepte/placek-po-wegiersku).",
  servePl:
- "Gorące ze śmietaną, cukrem (tak), gulaszem albo wędzoną śmietaną. Podawać od razu. Composed talerz placki+gulasz na wierzchu: [placek po węgiersku](/pl/rezepte/placek-po-wegiersku) — tu zostaje tam.",
+ "Podawaj placki gorące ze śmietaną, cukrem — tak, naprawdę — gulaszem albo wędzoną śmietaną. Od razu na stół. Złożony talerz z gulaszem na wierzchu znajdziesz przy [placu po węgiersku](/pl/rezepte/placek-po-wegiersku).",
  diasporaDe:
  "Placki sind Weeknight-Food mit wenig Zutaten und großem Effekt — in deutschen Küchen ohne Spezialgeräte machbar, sobald die Pfanne wirklich heiß ist.",
  diasporaPl:
@@ -220,9 +220,9 @@ const FACTS: Record<string, ArticleFacts> = {
  mistakesPl:
  "Mokra masa z tarcia, zimna patelnia i za dużo ciasta naraz dają miękkie zamiast chrupiących placków. Lepiej smażyć mniejszymi partiami. Złożony talerz z gulaszem na wierzchu znajdziesz przy [placu po węgiersku](/pl/rezepte/placek-po-wegiersku).",
  variantsDe:
- "Mit Zucchini gemischt, mit Knoblauch, oder süß mit Zimt — alle Varianten im Placki-Guide. Gusseisen hilft bei jeder Mischung. Der Klassiker bleibt Kartoffel pur. Composed mit Gulasch-Topping: [Placek po węgiersku](/de/rezepte/placek-po-wegiersku).",
+ "Mit Zucchini gemischt, mit Knoblauch oder süß mit Zimt — alle Varianten ordnet der [Placki-Guide](/de/blog/placki-guide). Gusseisen hilft bei jeder Mischung. Der Klassiker bleibt Kartoffel pur. Mit Gulasch als Belag: [Placek po węgiersku](/de/rezepte/placek-po-wegiersku).",
  variantsPl:
- "Z cukinią, z czosnkiem albo na słodko z cynamonem — warianty w przewodniku po plackach. Patelnia żeliwna przy każdej mieszance. Klasyka to sama ziemniak. Composed z gulaszem na wierzchu: [placek po węgiersku](/pl/rezepte/placek-po-wegiersku).",
+ "Z cukinią, z czosnkiem albo na słodko z cynamonem — warianty porządkuje [przewodnik po plackach](/pl/blog/placki-przewodnik). Patelnia żeliwna pomaga przy każdej mieszance. Klasyka to sama ziemniak. Z gulaszem na wierzchu: [placek po węgiersku](/pl/rezepte/placek-po-wegiersku).",
  },
  "recipe-golabki": {
  dishDe: "Gołąbki",
@@ -230,33 +230,33 @@ const FACTS: Record<string, ArticleFacts> = {
  vibeDe: "zart, tomatenwarm, Sonntagsessen",
  vibePl: "delikatne, pomidorowe, niedzielne",
  originDe:
- "Gołąbki sind Kohlrouladen mit Reis-Fleisch-Füllung. Geduldessen, das sich lohnt. Der Kohl muss biegsam sein, die Füllung würzig, die Soße tragen.",
+ "Gołąbki sind Kohlrouladen mit Reis-Fleisch-Füllung — ein Geduldessen, das sich lohnt. Der Kohl muss biegsam sein, die Füllung würzig und die Soße tragfähig, damit die Rollen über Stunden weich werden ohne zu zerfallen.",
  originPl:
- "Gołąbki to rolki z kapusty z farszem mięsno-ryżowym. Danie cierpliwości, które się opłaca. Kapusta musi być giętka, farsz aromatyczny, sos nośny.",
+ "Gołąbki to rolki z kapusty z farszem mięsno-ryżowym — danie cierpliwości, które się opłaca. Kapusta musi być giętka, farsz aromatyczny, a sos na tyle gęsty, by rolki miękły godzinami bez rozpadania.",
  shopDe:
- "Ein großer Weißkohl, Hackfleisch gemischt, Reis und passierte Tomaten. Dill zum Servieren. Im Polenladen manchmal vorbereitete Blätter. Sauce- und Batch-Kontext: [Gołąbki-Guide](/de/blog/golabki-guide).",
+ "Du brauchst einen großen Weißkohl, gemischtes Hackfleisch, Reis und passierte Tomaten sowie Dill zum Servieren. Im [Polenladen](/de/blog/polenladen-einkaufen) gibt es manchmal vorbereitete Blätter. Sauce und Batch-Planung vertieft der [Gołąbki-Guide](/de/blog/golabki-guide).",
  shopPl:
- "Duża kapusta, mięso mielone, ryż i passata. Koper do podania. W polskim sklepie czasem gotowe liście. Kontekst sosu i batcha: [przewodnik gołąbków](/pl/blog/golabki-przewodnik).",
+ "Potrzebujesz dużej kapusty, mielonego mieszanego, ryżu i passaty oraz kopru do podania. W [sklepie polskim](/pl/blog/sklep-polski-zakupy) bywają gotowe liście. Sos i planowanie partii pogłębia [przewodnik gołąbków](/pl/blog/golabki-przewodnik).",
  techniqueDe:
  "Blätter blanchieren bis biegsam, dicke Rippen flach schneiden, fest aber mit Spielraum rollen (Reis quillt). Reis al dente vorkochen, Füllung kalt mischen. Naht unten, Flüssigkeit bedeckt die Rollen, sanft köcheln — nicht sprudeln.",
  techniquePl:
  "Blanszuj liście do giętkości, spłaszcz grube żyłki, zwijaj z luzem (ryż pęcznieje). Ryż ugotuj al dente, farsz mieszaj zimny. Szem do dołu, płyn zakrywa rolki, duś łagodnie — bez burzenia.",
  serveDe:
- "Serviere die Rouladen heiß mit Tomatensoße, Dill und Brot — am nächsten Tag schmecken sie oft noch runder, weil sich Kohl und Soße verbunden haben.",
+ "Serviere die Rouladen heiß mit Tomatensoße, Dill und Brot. Am nächsten Tag schmecken sie oft noch runder, weil sich Kohl und Soße über Nacht verbunden haben.",
  servePl:
- "Podawaj rolki gorące z sosem pomidorowym, koperkiem i chlebem — nazajutrz smakują często jeszcze pełniej, bo kapusta i sos się połączyły.",
+ "Podawaj rolki gorące z sosem pomidorowym, koperkiem i chlebem. Nazajutrz smakują często jeszcze pełniej, bo kapusta i sos połączyły się przez noc.",
  diasporaDe:
- "Gołąbki sind Event-Cooking: einmal Aufwand, viele Portionen, ideal wenn Gäste aus der Community kommen und der Ofen den Nachmittag trägt.",
+ "Gołąbki sind Event-Cooking: einmal Aufwand, viele Portionen. Ideal, wenn Gäste aus der Community kommen und der Ofen den Nachmittag trägt — dann reicht ein Topf für den ganzen Tisch.",
  diasporaPl:
- "Gołąbki to gotowanie na okazję: raz wkład, wiele porcji — idealne, gdy przychodzą goście ze społeczności, a piekarnik niesie popołud",
+ "Gołąbki to gotowanie na okazję: raz wkład, wiele porcji. Idealne, gdy przychodzą goście ze społeczności, a piekarnik niesie popołudnie — wtedy jeden garnek wystarczy na cały stół.",
  mistakesDe:
  "Zu hart gerollte Blätter, zu kurzes Schmoren und zu wässrige Soße sind die klassischen Fehler. Der Kohl braucht Zeit und genug Flüssigkeit, ohne in Suppe zu schwimmen.",
  mistakesPl:
  "Zbyt twarde zwinięcie, za krótkie duszenie i zbyt wodnisty sos to klasyczne błędy. Kapusta potrzebuje czasu i dość płynu, bez pływania w zupie.",
  variantsDe:
- "Mit Buchweizen statt Reis, vegetarisch mit Pilzen, oder in Pilzsoße statt Tomate. Sauce-Wege und Batch: [Gołąbki-Guide](/de/blog/golabki-guide).",
+ "Statt Reis kannst du Buchweizen wählen, vegetarisch mit Pilzen füllen oder statt Tomate eine Pilzsoße kochen. Sauce-Wege und Batch-Planung beschreibt der [Gołąbki-Guide](/de/blog/golabki-guide).",
  variantsPl:
- "Z kaszą zamiast ryżu, wegetariańskie z grzybami albo w sosie grzybowym zamiast pomidorowego. Sosy i batch: [przewodnik gołąbków](/pl/blog/golabki-przewodnik).",
+ "Zamiast ryżu możesz wziąć kaszę, nadziać wegetariańsko grzybami albo zamiast pomidora ugotować sos grzybowy. Drogi sosu i plan partii opisuje [przewodnik gołąbków](/pl/blog/golabki-przewodnik).",
  },
  "recipe-barszcz": {
  dishDe: "Barszcz czerwony",
@@ -268,17 +268,17 @@ const FACTS: Record<string, ArticleFacts> = {
  originPl:
  "Barszcz to więcej niż zupa z buraków: to kolor, rytuał i kultura kwasu. Na Wigilię często klarowny — małe pierogi do niego mają własny przepis [uszka](/pl/rezepte/uszka), nie duplikat tutaj.",
  shopDe:
- "Frische Rote Bete, gute Brühe, Allspice (Piment), Essig oder Zitronensäure zum Feinabschmecken. Uszka separat kochen — Rezept Uszka — oder fertig aus dem Polenladen. Barszcz-Technik für klare Brühe vs. Alltagsvariante.",
+ "Frische Rote Bete, gute Brühe, Piment sowie Essig oder Zitronensäure zum Feinabschmecken reichen für den Ansatz. [Uszka](/de/rezepte/uszka) kochst du separat — oder holst fertige aus dem [Polenladen](/de/blog/polenladen-einkaufen). Klare Festtagsbrühe und Alltagsvariante ordnet der [Barszcz-Technik](/de/blog/barszcz-technik)-Guide.",
  shopPl:
- "Świeże buraki, dobry bulion, ziele angielskie, ocet lub kwas do doprawienia. Uszka gotuj osobno — przepis Uszka — albo gotowe z polskiego sklepu. Barszcz-Technik — klarowny wigilijny vs. codzienny.",
+ "Świeże buraki, dobry bulion, ziele angielskie oraz ocet lub kwas do doprawienia wystarczą na bazę. [Uszka](/pl/rezepte/uszka) gotujesz osobno — albo bierzesz gotowe ze [sklepu polskiego](/pl/blog/sklep-polski-zakupy). Klarowny barszcz świąteczny i wersję codzienną porządkuje [jak ugotować barszcz](/pl/blog/jak-ugotowac-barszcz).",
  techniqueDe:
  "Für klare Brühe absieben; für Alltag stückig lassen. Säure erst am Ende justieren. Zu langes Kochen macht den Geschmack flach. Uszka nie in der Suppe mitkochen — separat garen und erst in der Schale zusammenführen.",
  techniquePl:
  "Dla klarownego barszczu przecedź; na co dzień zostaw z warzywami. Kwasowość ustawiaj na końcu. Zbyt długie gotowanie spłaszcza smak. Uszka nie gotuj w zupie — osobno, łącz dopiero w misce.",
  serveDe:
- "Heiß, mit Uszka (eigene Seite), Knödeln oder Kartoffeln. Ein Schuss Sauerrahm ist optional.",
+ "Serviere den Barszcz heiß mit [Uszka](/de/rezepte/uszka) von der eigenen Seite, mit Knödeln oder mit Kartoffeln. Ein Schuss Sauerrahm bleibt optional und gehört eher zum Alltagsteller als zur klaren Wigilia.",
  servePl:
- "Gorący, z uszkami (osobna strona), krokietami lub ziemniakami. Śmietana opcjonalna.",
+ "Podawaj barszcz gorący z [uszkami](/pl/rezepte/uszka) z osobnego przepisu, z krokietami albo z ziemniakami. Łyżka śmietany jest opcjonalna i częściej pasuje do codziennego talerza niż do klarownej Wigilii.",
  diasporaDe:
  "An Heiligabend in Deutschland trägt ein klarer Barszcz oft das Menü: er verbindet Generationen am Tisch und lässt sich gut vorbereiten, während Uszka separat warten.",
  diasporaPl:
@@ -334,7 +334,7 @@ const FACTS: Record<string, ArticleFacts> = {
  originDe:
  "Naleśniki sind polnische Pfannkuchen: dünner und biegsamer als deutsche Eierkuchen, zum Füllen und Rollen gedacht. Mit Twaróg werden sie zum Klassiker für Kinder und Gäste. Überblick Varianten: [Naleśniki-Guide](/de/blog/nalesniki-guide).",
  originPl:
- "Naleśniki są cieńsze i bardziej giętkie niż niemieckie Eierkuchen — do farszu i zwijania. Z twarogiem stają się klasyką dla dzieci i gości. Mapa wariantów: [przewodnik naleśników](/pl/blog/nalesniki-przewodnik).",
+ "Naleśniki są cieńsze i bardziej giętkie niż niemieckie Eierkuchen — przeznaczone do farszu i zwijania. Z twarogiem stają się klasyką dla dzieci i gości. Mapę wariantów daje [przewodnik naleśników](/pl/blog/nalesniki-przewodnik).",
  shopDe:
  "Milch, Mehl (Type 405 oder 550), Eier sowie Twaróg oder gut abgeseihten Quark, Zucker und Vanille tragen Teig und Füllung. Kauf und Konsistenz erklärt der [Twaróg-Guide](/de/blog/twarog-deutschland); die Platten-Technik ordnet der [Naleśniki-Guide](/de/blog/nalesniki-guide).",
  shopPl:
@@ -344,21 +344,21 @@ const FACTS: Record<string, ArticleFacts> = {
  techniquePl:
  "Ciasto jak rzadka śmietana, 20–30 minut odpoczynku, patelnia lekko natłuszczona, cienko rozlewać. Pierwszy placek często kalibracja. Farsz smarowalny, nie mokry; zostaw margines, zwiń, opcjonalnie na maśle na złoto. Puste placki z papierem do mrożenia — w tygodniu tylko farsz.",
  serveDe:
- "Mit Puderzucker, Obst oder [Śmietana](/de/blog/smietana-schmand). Auch kalt am nächsten Tag gut. Aufwärmen in der Pfanne, nicht in der Mikrowelle.",
+ "Serviere die Rollen mit Puderzucker, Obst oder [Śmietana](/de/blog/smietana-schmand). Auch kalt am nächsten Tag schmecken sie gut — aufwärmen lieber in der Pfanne als in der Mikrowelle.",
  servePl:
- "Z cukrem pudrem, owocami albo [śmietaną](/pl/blog/smietana-czy-schmand). Nazajutrz też na zimno. Odgrzewać na patelni, nie w mikrofalówce.",
+ "Podawaj rolki z cukrem pudrem, owocami albo [śmietaną](/pl/blog/smietana-czy-schmand). Nazajutrz smakują też na zimno — odgrzewaj raczej na patelni niż w mikrofalówce.",
  diasporaDe:
  "Wenn die Sehnsucht nach zu Hause groß ist, sind Naleśniki schnelles Comfort Food. Quark aus dem Supermarkt geht — vorausgesetzt, du seiht ihn ab wie im Twaróg-Guide beschrieben.",
  diasporaPl:
  "Gdy tęsknota za domem jest duża, naleśniki są szybkim comfort foodem. Quark z marketu działa — pod warunkiem, że odsączysz go jak w przewodniku po twarogu.",
  mistakesDe:
- "Zu dicker Teig (nachkorrigiertes Mehl), keine Ruhe, zu heiße Pfanne, nasser Quark, überfüllte Rolle. Weniger gießen und Füllung abseihen hilft mehr als mehr Mehl.",
+ "Zu dicker Teig nach nachgeschüttetem Mehl, fehlende Ruhezeit, zu heiße Pfanne, nasser Quark und überfüllte Rollen sind die klassischen Fehler. Weniger Masse auf die Pfanne und gut abgeseihten Twaróg helfen sofort.",
  mistakesPl:
- "Zbyt gęste ciasto (dokładana mąka), brak odpoczynku, za gorąca patelnia, mokry twaróg, przeładowany farsz. Mniej masy na patelnię i odsączenie pomaga bardziej niż dokładanie mąki.",
+ "Zbyt gęste ciasto po dokładanej mące, brak odpoczynku, za gorąca patelnia, mokry twaróg i przeładowany farsz to klasyczne błędy. Mniej masy na patelnię i dobrze odsączony twaróg pomagają od razu.",
  variantsDe:
  "Oben wechseln zu [Fleisch](/de/rezepte/nalesniki/fleisch), [Spinat](/de/rezepte/nalesniki/szpinak) oder süß [Marmelade](/de/rezepte/nalesniki/dzem). Orientierung über alle Varianten: [Naleśniki-Guide](/de/blog/nalesniki-guide).",
  variantsPl:
- "Przełącz na [mięso](/pl/rezepte/nalesniki/mieso), [szpinak](/pl/rezepte/nalesniki/szpinak) albo słodki [dżem](/pl/rezepte/nalesniki/dzem). Orientacja po wariantach: [przewodnik naleśników](/pl/blog/nalesniki-przewodnik).",
+ "Przełącz na [mięso](/pl/rezepte/nalesniki/mieso), [szpinak](/pl/rezepte/nalesniki/szpinak) albo słodki [dżem](/pl/rezepte/nalesniki/dzem). Opcje i technikę porządkuje [przewodnik naleśników](/pl/blog/nalesniki-przewodnik).",
  },
  "recipe-nalesniki-mieso": {
  dishDe: "Naleśniki mit Fleisch",
@@ -378,9 +378,9 @@ const FACTS: Record<string, ArticleFacts> = {
  techniquePl:
  "Farsz musi być zimny i suchy, inaczej placek się rozmięknie. Zwijaj cienkie naleśniki bez przeładowania i smaż na maśle na złoto — ogień trzymaj średni, żeby masło się nie spaliło.",
  serveDe:
- "Am Tisch reichen Dill, eine klare Soße oder einfach die Butterkruste. Ein saurer Gurkensalat oder knackiger Salat nebenbei hält den herzhaften Teller frisch.",
+ "Serviere die Fleischnaleśniki heiß mit Dill oder klarer Soße. Reste lassen sich gut in der Pfanne aufwärmen — die Füllung bleibt saftig, wenn du sie nicht austrocknest.",
  servePl:
- "Przy stole pasuje koperek, jasny sos albo sama maślana skórka. Kiszony ogórek albo chrupiąca sałatka obok trzyma wytrawny talerz świeżym.",
+ "Podawaj naleśniki z mięsem gorące z koperkiem albo jasnym sosem. Resztki dobrze odgrzewają się na patelni — farsz zostaje soczysty, byle nie wysuszyć go zbyt mocno.",
  diasporaDe:
  "Rest-Hack vom Sonntag findet hier einen guten zweiten Tag: leere Naleśniki einfrieren und unter der Woche nur noch frisch füllen und braten.",
  diasporaPl:
@@ -412,9 +412,9 @@ const FACTS: Record<string, ArticleFacts> = {
  techniquePl:
  "Mocno odciśnij szpinak, zanim zmieszasz farsz — resztki wody rozmiękczają rolkę i wypychają ser. Nie napełniaj placków zbyt gorącym farszem; gotowe rolki możesz jeszcze raz podsmażyć na maśle na złoto.",
  serveDe:
- "Serviere die Spinat-Naleśniki mit Śmietana, Jogurt oder einem Klecks Schmand; frischer Dill hebt die milde Füllung, ohne sie zu überdecken.",
+ "Serviere die Spinatrollen heiß mit etwas Butter oder leichter Sahnesoße. Sie wirken leichter als die Fleischvariante und passen gut, wenn der Tisch schon herzhaft genug ist.",
  servePl:
- "Podawaj naleśniki ze szpinakiem ze śmietaną, jogurtem albo kleksem schmandu; świeży koperek podnosi łagodny farsz, nie przykrywając go.",
+ "Podawaj rolki ze szpinakiem gorące z odrobiną masła albo lekkim sosem śmietanowym. Wychodzą lżejsze niż wersja z mięsem i pasują, gdy stół jest już wystarczająco treściwy.",
  diasporaDe:
  "TK-Spinat aus dem deutschen Supermarkt funktioniert zuverlässig — entscheidend ist nur, dass du ihn wirklich trocken ausgedrückt hast, bevor er in die Platte kommt.",
  diasporaPl:
@@ -480,9 +480,9 @@ const FACTS: Record<string, ArticleFacts> = {
  techniquePl:
  "Najpierw podsmaż boczek i cebulę, potem plastry kiełbasy, na końcu koncentrat i fasolę. Zredukuj do gęstości łyżki — majeranek dodaj pod koniec, żeby został świeży.",
  serveDe:
- "Serviere die Fasolka heiß mit kräftigem Brot; eine Gewürzgurke nebenbei schneidet die Tomatenwärme und macht den Teller vollständiger.",
+ "Serviere die Fasolka heiß mit kräftigem Brot; eine Gewürzgurke nebenbei schneidet die Tomatenwärme und macht den Teller vollständiger, ohne Extra-Fleisch zu brauchen.",
  servePl:
- "Podawaj fasolkę gorącą z mocnym chlebem; kiszony ogórek obok przecina pomidorowe ciepło i domyka talerz.",
+ "Podawaj fasolkę gorącą z mocnym chlebem; kiszony ogórek obok przecina pomidorowe ciepło i domyka talerz bez dodatkowego mięsa.",
  diasporaDe:
  "Nach dem Einkauf im Polenladen reicht oft eine Wurst und ein Glas Bohnen, und der Abend ist gerettet — genau diese Einfachheit macht das Gericht in deutschen Wohnungen so beliebt.",
  diasporaPl:
@@ -514,13 +514,13 @@ const FACTS: Record<string, ArticleFacts> = {
  techniquePl:
  "Długo wyrabiaj ciasto, rozwałkuj je papierowo cienko, formuj pętle i smaż w 170–180 °C. Dobrze odsącz i posyp jeszcze ciepłe — alkohol w cieście zmniejsza wchłanianie tłuszczu.",
  serveDe:
- "Noch warm mit viel Puderzucker servieren, zur Kaffee oder als Tłusty-Czwartek-Teller neben [Pączki](/de/rezepte/paczki).",
+ "Serviere die Faworki noch warm mit viel Puderzucker — zum Kaffee oder als Tłusty-Czwartek-Teller neben [Pączki](/de/rezepte/paczki).",
  servePl:
- "Podawaj jeszcze ciepłe, obficie w cukrze pudrze — do kawy albo na talerz Tłustego Czwartku obok [pączków](/pl/rezepte/paczki).",
+ "Podawaj faworki jeszcze ciepłe, obficie w cukrze pudrze — do kawy albo na talerz Tłustego Czwartku obok [pączków](/pl/rezepte/paczki).",
  diasporaDe:
  "In Deutschland oft leichter selbst zu machen als gute frische Faworki zu finden. Ein Nachmittag, ein Topf Öl — und der Geruch erinnert an zu Hause.",
  diasporaPl:
- "W Niemczech często łatwiej upiec samemu niż znaleźć dobre świeże faworki. Jedno popołudnie, garnek oleju — i zapach wraca do domu.",
+ "W Niemczech często łatwiej upiec faworki samemu niż znaleźć dobre świeże. Jedno popołudnie i garnek oleju wystarczą, by zapach wrócił do domu.",
  mistakesDe:
  "Zu dicker Teig, zu kaltes Öl, ein überfüllter Topf und Puderzucker erst nach dem Abkühlen machen Faworki ölig oder weich. Lieber kleinere Batches frittieren und sofort bestäuben.",
  mistakesPl:
@@ -548,21 +548,21 @@ const FACTS: Record<string, ArticleFacts> = {
  techniquePl:
  "Farsz na zimno, szczelnie sklejone brzegi, gotowanie w osolonej wodzie na wolnym ogniu. Cebulka na maśle albo jasny sos to klasyk — w wielu domach obowiązkowy.",
  serveDe:
- "Heiß mit goldener Zwiebel oder leichter Brühe. Reste am nächsten Tag in der Pfanne — manche mögen sie dann knuspriger.",
+ "Serviere die Fleischpierogi heiß mit goldener Zwiebel oder mit leichter Brühe. Reste brät man am nächsten Tag in der Pfanne — manche mögen sie dann sogar knuspriger als frisch gekocht.",
  servePl:
- "Gorące ze złotą cebulą albo lekkim bulionem. Resztki na patelni następnego dnia — niektórzy wolą je wtedy chrupiące.",
+ "Podawaj pierogi z mięsem gorące ze złotą cebulą albo lekkim bulionem. Resztki smaży się następnego dnia na patelni — niektórzy wolą je wtedy bardziej chrupiące niż świeżo ugotowane.",
  diasporaDe:
  "Fleisch-Pierogi sind Event-Kochen: einmal Aufwand, viele Portionen. In Deutschland oft am Sonntag, wenn Ruskie zu alltäglich und Kraut-Pilze der Wigilia vorbehalten sind.",
  diasporaPl:
  "Pierogi z mięsem to gotowanie na okazję: raz wkład, wiele porcji. W Niemczech często w niedzielę — między codziennymi ruskimi a wigilijną kapustą.",
  mistakesDe:
- "Rohe Füllung, zu nasse Masse, zu aggressives Kochen. Erste Charge testen, bevor du große Mengen formst.",
+ "Rohe Füllung, zu nasse Masse und zu aggressives Kochen öffnen die Nähte. Teste lieber eine kleine Charge, bevor du große Mengen formst — so korrigierst du Farce und Verschluss früh.",
  mistakesPl:
- "Surowy farsz, zbyt mokra masa, zbyt gwałtowne gotowanie. Przetestuj małą partię, zanim ulepisz dużo.",
+ "Surowy farsz, zbyt mokra masa i zbyt gwałtowne gotowanie otwierają szwy. Lepiej przetestować małą partię, zanim ulepisz dużo — wtedy wcześnie poprawisz farsz i zamknięcie.",
  variantsDe:
  "Wechsle zu [Ruskie](/de/rezepte/pierogi/ruskie), [Kraut-Pilze](/de/rezepte/pierogi/kraut-pilze) oder süß [Heidelbeeren](/de/rezepte/pierogi/jagody). Pierogi-Guide und Teig Guide für Teig, Formen und Einfrieren.",
  variantsPl:
- "Przełącz na [ruskie](/pl/rezepte/pierogi/ruskie), [kapustę z grzybami](/pl/rezepte/pierogi/kapusta-grzyby) albo słodkie [jagody](/pl/rezepte/pierogi/jagody). Pierogi-Guide i przewodnik po cieście — ciasto, formy, mroże",
+ "Przełącz na [ruskie](/pl/rezepte/pierogi/ruskie), [kapustę z grzybami](/pl/rezepte/pierogi/kapusta-grzyby) albo słodkie [jagody](/pl/rezepte/pierogi/jagody). [Przewodnik pierogi](/pl/blog/przewodnik-pierogi) i [ciasto na pierogi](/pl/blog/ciasto-na-pierogi) pomagają przy cieście, formach i mrożeniu.",
  },
  "recipe-pierogi-cabbage": {
  dishDe: "Pierogi mit Kraut und Pilzen",
@@ -578,21 +578,21 @@ const FACTS: Record<string, ArticleFacts> = {
  shopPl:
  "Kapusta kiszona i suszone grzyby w polskim sklepie — zamienniki z supermarketu bywają łagodniejsze. Cebula, majeranek, pieprz. Pierogi-Guide i przewodnik po cieście; przewodnik po kiszeniu przy własnej kapuście.",
  techniqueDe:
- "Füllung vorher einkochen und vollständig abkühlen — heiße Masse reißt den Teig. Ränder doppelt andrücken, damit nichts ausläuft beim Kochen.",
+ "Die Füllung vorher einkochen und vollständig abkühlen lassen — heiße Masse reißt den Teig. Die Ränder doppelt andrücken, damit beim Kochen nichts ausläuft, und das Wasser nur leicht köcheln.",
  techniquePl:
- "Farsz wcześniej dusić i całkowicie ostudzić — gorąca masa pęka ciasto. Brzegi mocno zlepiać, żeby nic nie wypłynęło podczas gotowania.",
+ "Farsz wcześniej dusić i całkowicie ostudzić — gorąca masa pęka ciasto. Brzegi mocno zlepiać, żeby nic nie wypłynęło podczas gotowania, a wodę trzymać tylko w lekkim wrzeniu.",
  serveDe:
- "Mit Zwiebel auf Butter oder klar — ohne Sahne, damit die Säure der Füllung bleibt. Auf der Wigilia oft neben Barszcz.",
+ "Serviere sie mit Zwiebeln auf Butter oder klar — ohne Sahne, damit die Säure der Füllung bleibt. Zur Wigilia stehen sie oft neben Barszcz, ohne in der Suppe mitzukochen.",
  servePl:
- "Z cebulką na maśle albo jasno — bez śmietany, żeby kwas farszu został. Na Wigilię często obok barszczu.",
+ "Podawaj z cebulką na maśle albo jasno — bez śmietany, żeby kwas farszu został. Na Wigilię często stoją obok barszczu, ale nie gotują się w zupie.",
  diasporaDe:
- "Für viele in Deutschland ist diese Variante der Geschmack von Heiligabend. Planung lohnt: Füllung am Vortag, Teig am Tag selbst.",
+ "Für viele in Deutschland ist diese Variante der Geschmack von Heiligabend. Planung lohnt: Füllung am Vortag vorbereiten, Teig und Formen am Tag selbst — so bleibt der Abend ruhig.",
  diasporaPl:
- "Dla wielu w Niemczech to smak Wigilii. Warto planować: farsz dzień wcześniej, ciasto w święto.",
+ "Dla wielu w Niemczech to smak Wigilii. Warto planować: farsz dzień wcześniej, ciasto i lepienie w święto — wtedy wieczór zostaje spokojniejszy.",
  mistakesDe:
- "Zu wässriges Kraut, zu wenig Pilz, zu heiße Füllung beim Formen. Lieber trocken schmoren als flüssig kochen.",
+ "Zu wässriges Kraut, zu wenig Pilz und zu heiße Füllung beim Formen sind die typischen Fehler. Lieber trocken schmoren als flüssig kochen — und die Masse erst kalt in den Teig geben.",
  mistakesPl:
- "Za mokra kapusta, za mało grzybów, za gorący farsz przy lepieniu. Lepiej dusić na sucho niż w wodzie.",
+ "Za mokra kapusta, za mało grzybów i za gorący farsz przy lepieniu to typowe błędy. Lepiej dusić na sucho niż w wodzie — i wkładać masę do ciasta dopiero zimną.",
  variantsDe:
  "Mit mehr Pfeffer oder extra Pilzen wird die Füllung intensiver. Oben wechselst du zu [Ruskie](/de/rezepte/pierogi/ruskie), [Fleisch](/de/rezepte/pierogi/fleisch) oder [Heidelbeeren](/de/rezepte/pierogi/jagody). Fürs Wigilia-Menü hilft der [Pierogi-Guide](/de/blog/pierogi-guide); elastischen Teig vertieft der [Pierogi-Teig](/de/blog/pierogi-teig)-Artikel.",
  variantsPl:
@@ -604,33 +604,33 @@ const FACTS: Record<string, ArticleFacts> = {
  vibeDe: "leichter, sommerlich, knusprig",
  vibePl: "lżejsze, letnie, chrupiące",
  originDe:
- "Wenn Zucchini im Garten oder Rewe-Regal überhand nehmen, rettet die Mischung mit Kartoffel die Saison. Etwa zwei Drittel Kartoffel, ein Drittel Zucchini — gleiche Technik, mehr Wasserarbeit.",
+ "Wenn Zucchini im Garten oder im Regal überhand nehmen, rettet die Mischung mit Kartoffel die Saison. Etwa zwei Drittel Kartoffel und ein Drittel Zucchini behalten die Placki-Technik bei — du brauchst nur mehr Kraft beim Auspressen.",
  originPl:
- "Gdy cukinia zalewa ogród albo promocję, mieszanka z ziemniakiem ratuje sezon. Około ⅔ ziemniaka, ⅓ cukinii — ta sama technika, więcej odciśnięcia.",
+ "Gdy cukinia zalewa ogród albo promocję, mieszanka z ziemniakiem ratuje sezon. Około dwóch trzecich ziemniaka i jednej trzeciej cukinii zachowuje technikę placków — potrzebujesz tylko więcej siły przy odciśnięciu.",
  shopDe:
  "Nimm festkochende oder vorwiegend festkochende Kartoffeln, eine mittelgroße Zucchini, Ei und wenig Mehl. Śmietana holst du im [Polenladen](/de/blog/polenladen-einkaufen) oder als Schmand im Kühlregal; Verhältnisse und Technik vertieft der [Placki-Guide](/de/blog/placki-guide).",
  shopPl:
  "Weź ziemniaki raczej mączyste lub uniwersalne, średnią cukinię, jajko i odrobinę mąki. Śmietanę kupisz w [sklepie polskim](/pl/blog/sklep-polski-zakupy) albo jako schmand; proporcje i technikę pogłębia [przewodnik po plackach](/pl/blog/placki-przewodnik).",
  techniqueDe:
- "Zucchini gibt mehr Flüssigkeit — kräftig auspressen, sonst bleiben die Placki weich statt knusprig. Pfanne heiß halten, kleine Batches.",
+ "Zucchini gibt mehr Flüssigkeit ab als Kartoffel — kräftig auspressen, sonst bleiben die Placki weich statt knusprig. Halte die Pfanne heiß und brate in kleinen Batches, damit die Temperatur nicht einbricht.",
  techniquePl:
- "Cukinia puszcza więcej wody — mocno odciśnij, inaczej placki będą miękkie zamiast chrupiących. Patelnia gorąca, małe partie.",
+ "Cukinia puszcza więcej wody niż ziemniak — mocno odciśnij, inaczej placki będą miękkie zamiast chrupiących. Trzymaj patelnię gorącą i smaż małymi partiami, żeby temperatura nie spadła.",
  serveDe:
- "Heiß mit Śmietana oder leichtem Salat — Sommeressen, kein schwerer Sonntag.",
+ "Serviere sie heiß mit Śmietana oder einem leichten Salat. Sie wirken sommerlich und leichter als reine Kartoffelplacki — kein schwerer Sonntagsteller.",
  servePl:
- "Gorące ze śmietaną albo lekką sałatą — letni obiad, nie ciężka niedziela.",
+ "Podawaj je gorące ze śmietaną albo lekką sałatą. Wychodzą letnie i lżejsze niż same ziemniaczane — bez ciężkiego niedzielnego talerza.",
  diasporaDe:
- "Praktisch, wenn deutsche Sommer heiß sind und schwere Kartoffelgerichte zu viel wirken. Kinder essen Zucchini oft eher als Salat.",
+ "Praktisch, wenn deutsche Sommer heiß sind und schwere Kartoffelgerichte zu viel wirken. Kinder essen Zucchini in den Placki oft eher als im Salat — und du brauchst keine Spezialzutaten.",
  diasporaPl:
- "Praktyczne, gdy niemieckie lato jest gorące, a ciężkie ziemniaki to za dużo. Dzieci często wolą cukinię w plackach niż w sałatce.",
+ "Praktyczne, gdy niemieckie lato jest gorące, a ciężkie ziemniaki to za dużo. Dzieci często wolą cukinię w plackach niż w sałatce — i nie potrzebujesz specjalnych składników.",
  mistakesDe:
  "Zu wenig ausgedrücktes Wasser, zu viel Teig auf einmal und eine kalte Pfanne lassen die Placki weich. Küchentuch oder Nussbeutel hilft beim Auspressen — und die erste kleine Charge zeigt, ob die Masse stimmt.",
  mistakesPl:
  "Za słabe odciśnięcie, za dużo ciasta naraz i zimna patelnia zostawiają placki miękkie. Ręcznik kuchenny albo worek pomaga przy odciśnięciu — a pierwsza mała partia pokaże, czy masa jest dobra.",
  variantsDe:
- "Zurück zu Kartoffelklassiker, Käse oder Apfel in der Placki-Familie. Placki-Guide vergleicht alle Varianten.",
+ "Zurück zu den klassischen Kartoffelplacki, zur Käsevariante oder zu Apfel in der Placki-Familie. Der [Placki-Guide](/de/blog/placki-guide) vergleicht die Varianten und die Wasserarbeit.",
  variantsPl:
- "Wróć do ziemniaczanych, z sera albo jabłka w rodzinie placków. Placki-Guide porównuje warianty.",
+ "Wróć do klasycznych ziemniaczanych, do wersji z serem albo z jabłkiem w rodzinie placków. [Przewodnik po plackach](/pl/blog/placki-przewodnik) porównuje warianty i pracę z wodą.",
  },
  "recipe-placki-ser": {
  dishDe: "Placki mit Käse",
@@ -638,33 +638,33 @@ const FACTS: Record<string, ArticleFacts> = {
  vibeDe: "herzhaft, cremig, knusprig außen",
  vibePl: "sycące, kremowe, chrupiące na zewnątrz",
  originDe:
- "Twaróg in der geriebenen Kartoffelmasse macht die Placki herzhafter und cremiger — ohne Füllung wie bei Pierogi. Der Käse muss trocken und krümelig sein, sonst wird die Masse weich.",
+ "Twaróg in der geriebenen Kartoffelmasse macht die Placki herzhafter und cremiger — ohne Füllung wie bei Pierogi. Der Käse muss trocken und krümelig sein, sonst wird die Masse weich und brät nicht knusprig aus.",
  originPl:
- "Twaróg w startej ziemniakowej masie czyni placki bardziej sycące i kremowe — bez nadzienia jak w pierogach. Ser musi być suchy i kruchy, inaczej masa robi się miękka.",
+ "Twaróg w startej ziemniakowej masie czyni placki bardziej sycące i kremowe — bez nadzienia jak w pierogach. Ser musi być suchy i kruchy, inaczej masa robi się miękka i nie wychodzi chrupiąca.",
  shopDe:
- "Kartoffeln, Twaróg im Polenladen — Twaróg Guide für Konsistenz in DE. Magerquark nur gut abgetropft. Placki-Guide und Gusseisen für Technik.",
+ "Kartoffeln und Twaróg holst du am besten im [Polenladen](/de/blog/polenladen-einkaufen); der [Twaróg-Guide](/de/blog/twarog-deutschland) erklärt die passende Konsistenz in Deutschland. Magerquark nur gut abgetropft. Technik und Hitze vertiefen [Placki-Guide](/de/blog/placki-guide) und [Gusseisenpfanne](/de/blog/gusseisenpfanne).",
  shopPl:
- "Ziemniaki, twaróg w polskim sklepie — przewodnik po twarogu przy konsystencji w DE. Placki-Guide i patelnia żeliwna przy technice.",
+ "Ziemniaki i twaróg najpewniej kupisz w [sklepie polskim](/pl/blog/sklep-polski-zakupy); [przewodnik po twarogu](/pl/blog/twarog-w-niemczech) wyjaśnia właściwą konsystencję w Niemczech. Quark tylko dobrze odsączony. Technikę i żar pogłębiają [przewodnik po plackach](/pl/blog/placki-przewodnik) oraz [patelnia żeliwna](/pl/blog/patelnia-zelivna).",
  techniqueDe:
- "Twaróg vorher abtropfen, mit Kartoffelmasse vermischen, nicht zu viel Mehl. Heiß ausbacken — der Käse schmilzt innen, die Kruste muss außen schließen.",
+ "Twaróg vorher abtropfen, mit der Kartoffelmasse vermischen und nicht zu viel Mehl zugeben. Heiß ausbacken: innen schmilzt der Käse leicht, außen muss die Kruste schließen, sonst wird der Teller weich.",
  techniquePl:
- "Twaróg wcześniej odsączyć, wymieszać z masą ziemniaczaną, nie za dużo mąki. Smażyć na gorąco — ser topi się w środku, skórka musi się zamknąć na zewnątrz.",
+ "Twaróg wcześniej odsącz, wymieszaj z masą ziemniaczaną i nie dokładaj za dużo mąki. Smaż na gorąco: w środku ser lekko się topi, a na zewnątrz skórka musi się zamknąć — inaczej talerz wychodzi miękki.",
  serveDe:
- "Heiß mit Śmietana, Kräuterdip oder neben Gulasch — deftig, nicht dekorativ.",
+ "Serviere sie heiß mit Śmietana, Kräuterdip oder neben Gulasch. Der Teller soll deftig und ehrlich wirken — nicht dekorativ, sondern sättigend.",
  servePl:
- "Gorące ze śmietaną, dipem ziołowym albo obok gulaszu — treściwie, bez ozdób.",
+ "Podawaj je gorące ze śmietaną, dipem ziołowym albo obok gulaszu. Talerz ma być treściwy i szczery — bez ozdób, za to sycący.",
  diasporaDe:
- "Wenn Twaróg im Polenladen da ist, ist das ein schneller Sonntags-Trick: eine Packung reicht für die ganze Masse.",
+ "Wenn Twaróg im Polenladen da ist, wird daraus ein schneller Sonntags-Trick: eine Packung reicht oft für die ganze Masse, und die Pfanne braucht nur heißes Fett und Geduld.",
  diasporaPl:
- "Gdy w polskim sklepie jest twaróg, to szybki niedzielny trik — jedno opakowanie wystarczy na całą masę.",
+ "Gdy w polskim sklepie jest twaróg, to szybki niedzielny trik: jedno opakowanie często wystarczy na całą masę, a patelnia potrzebuje tylko gorącego tłuszczu i cierpliwości.",
  mistakesDe:
- "Zu nasser Quark, zu dicke Placki, zu wenig Hitze. Erst eine Probe braten.",
+ "Zu nasser Quark, zu dicke Placki und zu wenig Hitze lassen die Masse weich. Brate zuerst eine Probe — sie zeigt sofort, ob du noch ausdrücken oder die Pfanne heißer machen musst.",
  mistakesPl:
- "Za mokry twaróg, za grube placki, za mało ognia. Najpierw jedna próbna sztuka.",
+ "Za mokry twaróg, za grube placki i za mało ognia zostawiają masę miękką. Najpierw usmaż jedną próbną sztukę — od razu pokaże, czy trzeba mocniej odcisnąć czy podgrzać patelnię.",
  variantsDe:
- "Mit extra Zwiebel oder ohne — Placki-Guide vergleicht mit Zucchini und Apfel.",
+ "Mit extra Zwiebel oder ohne — der [Placki-Guide](/de/blog/placki-guide) vergleicht die Käsevariante mit Zucchini und Apfel, damit du die passende Wasserarbeit wählst.",
  variantsPl:
- "Z dodatkową cebulą albo bez — Placki-Guide porównuje z cukinią i jabłkiem.",
+ "Z dodatkową cebulą albo bez — [przewodnik po plackach](/pl/blog/placki-przewodnik) porównuje wersję z serem z cukinią i jabłkiem, żebyś wybrał właściwą pracę z wodą.",
  },
  "recipe-placki-jablka": {
  dishDe: "Placki mit Apfel",
@@ -684,13 +684,13 @@ const FACTS: Record<string, ArticleFacts> = {
  techniquePl:
  "Jabłka nie za grubo — inaczej masa będzie kleista. Odciśnij wodę, ale nie czekaj zbyt długo, bo ściemnieje. Średni ogień, żeby środek się upiekł.",
  serveDe:
- "Warm mit Puderzucker, Apfelmus oder Sauerrahm — manche essen sie auch mit Zucker und Śmietana gleichzeitig.",
+ "Serviere die Apfelplacki warm mit Puderzucker, Apfelmus oder Sauerrahm. Manche essen sie mit Zucker und Śmietana gleichzeitig — das bleibt Hausbrauch, kein Rezeptgesetz.",
  servePl:
- "Ciepłe z cukrem pudrem, musem jabłkowym albo śmietaną — niektórzy jedzą z cukrem i śmietaną naraz.",
+ "Podawaj placki z jabłkami ciepłe z cukrem pudrem, musem jabłkowym albo śmietaną. Niektórzy jedzą z cukrem i śmietaną naraz — to zwyczaj domu, nie prawo przepisu.",
  diasporaDe:
- "Beliebt bei Kindern und wenn Äpfel aus dem deutschen Obstregal günstig sind. Schneller als Racuchy, weil kein Gehzeit.",
+ "Beliebt bei Kindern und wenn Äpfel aus dem deutschen Obstregal günstig sind. Schneller als Racuchy, weil keine Gehzeit nötig ist — die Pfanne entscheidet mehr als die Hefe.",
  diasporaPl:
- "Popularne u dzieci i gdy jabłka z niemieckiego sklepu są tanie. Szybsze niż racuchy — bez czasu na drożdże.",
+ "Popularne u dzieci i gdy jabłka z niemieckiego sklepu są tanie. Szybsze niż racuchy, bo nie trzeba czekać na drożdże — patelnia decyduje bardziej niż zaczyn.",
  mistakesDe:
  "Zu viel Zucker in der Masse verbrennt leicht, zu heiße Pfanne bräunt außen zu früh, und zu dicke Placki bleiben innen roh. Lieber mittlere Hitze und eine Probe zuerst.",
  mistakesPl:
@@ -710,29 +710,29 @@ const FACTS: Record<string, ArticleFacts> = {
  originPl:
  "Polski gulasz wieprzowy to nie węgierski paprykowy: więcej sosu, mniej ostrości, często koncentrat. Klasyczny partner placków — jeden stół, dwa dania, wspólny weekend. Gulasz warzywny z kiełbasą to inna linia: [leczo](/pl/rezepte/leczo) — tam papryka i pomidor prowadzą, nie fokus duszonnego mięsa.",
  shopDe:
- "Schweinenacken oder Schulter — Fett hält saftig. Paprika, Zwiebel, Tomatenmark, Paprikapulver edelsüß. Dutch Oven oder Schmortopf; Kiełbasa Arten wenn du Wurst extra willst.",
+ "Nimm Schweinenacken oder Schulter — das Fett hält das Fleisch saftig. Paprika, Zwiebel, Tomatenmark und edelsüßes Paprikapulver tragen die Soße. Ein guter Schmortopf oder [Dutch Oven](/de/blog/dutch-oven-kaufberatung) hilft; Kiełbasa holst du bei Bedarf im [Polenladen](/de/blog/polenladen-einkaufen).",
  shopPl:
- "Kark lub łopatka — tłuszcz trzyma soczystość. Papryka, cebula, koncentrat, papryka słodka. Dutch oven albo garnek do duszenia; rodzaje kiełbasy przy dodatku wędliny.",
+ "Weź kark lub łopatkę — tłuszcz trzyma mięso soczyste. Papryka, cebula, koncentrat i słodka papryka w proszku niosą sos. Dobry garnek albo [dutch oven](/pl/blog/garnek-do-duszenia) pomaga; kiełbasę kupisz w razie potrzeby w [sklepie polskim](/pl/blog/sklep-polski-zakupy).",
  techniqueDe:
  "Fleisch anbraten, Paprika kurz rösten (sonst bitter), dann zugedeckt 60–90 Minuten schmoren. Am Vortag schmeckt oft besser — Placki frisch braten, Gulasch warm halten. Schneller Gemüse-Topf ohne Würfelfleisch-Marathon: [Leczo](/de/rezepte/leczo).",
  techniquePl:
  "Mięso obsmażyć, paprykę podsmażyć chwilę (inaczej gorzka), potem pod przykryciem 60–90 min. Nazajutrz często lepszy — placki smaż świeżo, gulasz trzymaj ciepły. Szybszy garnek warzywny bez maratonu kostki: [leczo](/pl/rezepte/leczo).",
  serveDe:
- "Mit Placki und Śmietana — der klassische Sonntagsteller in vielen Diaspora-Haushalten. Composed auf einem Teller (Puffer + Gulasch obenauf): [Placek po węgiersku](/de/rezepte/placek-po-wegiersku) — das Rezept dafür findest du dort.",
+ "Serviere den Gulasz mit Placki und Śmietana — das ist der klassische Sonntagsteller in vielen Diaspora-Haushalten. Den zusammengesetzten Teller mit Gulasch oben auf den Puffern findest du bei [Placek po węgiersku](/de/rezepte/placek-po-wegiersku).",
  servePl:
- "Z plackami i śmietaną — klasyczny niedzielny talerz w wielu domach w diasporze. Composed na jednym talerzu (placki + gulasz na wierzchu): [placek po węgiersku](/pl/rezepte/placek-po-wegiersku) — tu zostaje tam.",
+ "Podawaj gulasz z plackami i śmietaną — to klasyczny niedzielny talerz w wielu domach w diasporze. Złożony talerz z gulaszem na plackach znajdziesz przy [placu po węgiersku](/pl/rezepte/placek-po-wegiersku).",
  diasporaDe:
- "In deutschen Wohnungen riecht Gulasz nach langem Schmorren — ideal, wenn alle nach der Schicht hungrig sind und Placki schnell gehen.",
+ "In deutschen Wohnungen riecht Gulasz nach langem Schmorren — ideal, wenn alle nach der Schicht hungrig sind. Die Placki bratest du frisch dazu, während der Topf warm bleibt.",
  diasporaPl:
- "W niemieckich mieszkaniach gulasz pachnie długim duszeniem — idealny, gdy wszyscy wracają głodni, a placki robią się szybko.",
+ "W niemieckich mieszkaniach gulasz pachnie długim duszeniem — idealny, gdy wszyscy wracają głodni po zmianie. Placki smażysz świeżo obok, a garnek trzymasz ciepły.",
  mistakesDe:
- "Paprika nicht angebraten, zu wenig Flüssigkeit, zu kurz geschmort. Fleisch soll mit Gabel zerfallen. Nicht mit [Leczo](/de/rezepte/leczo) verwechseln (Paprika-Tomate ± Wurst, kein Schweine-Schmor-Rezept). Zusammengesetzter Teller separat: [Placek po węgiersku](/de/rezepte/placek-po-wegiersku).",
+ "Paprika nicht angebraten, zu wenig Flüssigkeit und zu kurzes Schmoren machen den Topf flach. Das Fleisch soll mit der Gabel zerfallen. Nicht mit [Leczo](/de/rezepte/leczo) verwechseln — und den zusammengesetzten Teller findest du bei [Placek po węgiersku](/de/rezepte/placek-po-wegiersku).",
  mistakesPl:
- "Papryka niepodsmażona, za mało płynu, za krótkie duszenie. Mięso ma się rozpadać widelcem. Nie mylić z [leczo](/pl/rezepte/leczo) (papryka-pomidor ± kiełbasa, bez fokus duszonnej wieprzowiny). Talerza composed nie tu: [placek po węgiersku](/pl/rezepte/placek-po-wegiersku).",
+ "Niepodsmażona papryka, za mało płynu i za krótkie duszenie spłaszczają garnek. Mięso ma się rozpadać widelcem. Nie mylić z [leczo](/pl/rezepte/leczo) — a złożony talerz znajdziesz przy [placu po węgiersku](/pl/rezepte/placek-po-wegiersku).",
  variantsDe:
- "Mit Kiełbasa, schärfer, oder vegetarisch mit Pilzen — Placki-Guide für die Beilage; Dutch Oven für gleichmäßiges Schmoren. Paprika-Gemüse-Cook: [Leczo](/de/rezepte/leczo). Composed mit Placki-Topping: [Placek po węgiersku](/de/rezepte/placek-po-wegiersku).",
+ "Mit Kiełbasa, schärfer oder vegetarisch mit Pilzen — der [Placki-Guide](/de/blog/placki-guide) hilft bei der Beilage, der [Dutch Oven](/de/blog/dutch-oven-kaufberatung) beim gleichmäßigen Schmoren. Paprika-Gemüse-Topf: [Leczo](/de/rezepte/leczo). Mit Placki als Unterlage: [Placek po węgiersku](/de/rezepte/placek-po-wegiersku).",
  variantsPl:
- "Z kiełbasą, ostrzejszy albo wegetariański z grzybami — Placki-Guide przy dodatku; dutch oven przy równomiernym duszeniu. Cook warzywny: [leczo](/pl/rezepte/leczo). Composed z plackami na wierzchu: [placek po węgiersku](/pl/rezepte/placek-po-wegiersku).",
+ "Z kiełbasą, ostrzejszy albo wegetariański z grzybami — [przewodnik po plackach](/pl/blog/placki-przewodnik) pomaga przy dodatku, [garnek do duszenia](/pl/blog/garnek-do-duszenia) przy równym duszeniu. Garnek paprykowo-warzywny: [leczo](/pl/rezepte/leczo). Z plackami jako spodem: [placek po węgiersku](/pl/rezepte/placek-po-wegiersku).",
  },
  "recipe-kotlet-mielony": {
  dishDe: "Kotlet mielony",
@@ -748,25 +748,25 @@ const FACTS: Record<string, ArticleFacts> = {
  shopPl:
  "Mielone mieszane, czerstwa bułka i mleko oraz bułka tarta i smalec lub masło klarowane niosą kotlety z patelni. Kolejność opisuje [panierowanie](/pl/blog/panierowanie-kotlet); równomierne ciepło daje [patelnia żeliwna](/pl/blog/patelnia-zelivna). Bochenek z jajkiem to [pieczeń rzymska](/pl/rezepte/pieczen-rzymska).",
  techniqueDe:
- "Masse 30 Min kalt stellen, flache Kotlets formen, durch Mehl-Ei-Panade. Nicht zu heiß — Panade verbrennt schneller als bei Schabowy.",
+ "Stelle die Masse etwa 30 Minuten kalt, forme flache Kotlets und führe sie durch Mehl, Ei und Semmelbrösel. Brate nicht zu heiß — die Panade verbrennt bei Hackfleisch schneller als beim klassischen Schabowy.",
  techniquePl:
- "Masę 30 min w lodówce, formuj płaskie kotlety, obtocz mąka-jajko-bułka. Nie za mocno — panierka przypala się szybciej niż u schabowego.",
+ "Odstaw masę na około 30 minut do lodówki, formuj płaskie kotlety i obtocz je w mące, jajku i bułce tartej. Nie smaż za mocno — panierka przy mielonym przypala się szybciej niż przy klasycznym schabowym.",
  serveDe:
- "Mit Kartoffeln, Mizeria oder Ketchup — ohne Urteil, mit Brot wenn es schnell gehen muss. Soßen-Kugeln ohne Panade: [Klopsy](/de/rezepte/klopsy).",
+ "Serviere mit Kartoffeln, [Mizeria](/de/rezepte/mizeria) oder Ketchup — ohne Urteil, und mit Brot, wenn es schnell gehen muss. Kugeln in Soße ohne Panade gehören zu [Klopsy](/de/rezepte/klopsy).",
  servePl:
- "Z ziemniakami, mizerią albo keczupem — bez oceniania, z chlebem gdy trzeba szybko. Kulki w sosie bez panierki: [klopsy](/pl/rezepte/klopsy).",
+ "Podawaj z ziemniakami, [mizerią](/pl/rezepte/mizeria) albo keczupem — bez oceniania, a z chlebem gdy trzeba szybko. Kulki w sosie bez panierki należą do [klopsów](/pl/rezepte/klopsy).",
  diasporaDe:
- "Wochentags-Trost nach der Arbeit. Panade vorbereiten, braten wenn alle da sind — wie Schabowy, aber weniger Aufwand.",
+ "Das ist Wochentags-Trost nach der Arbeit: Panade vorbereiten, wenn noch Ruhe ist, und erst braten, wenn alle da sind. Weniger Aufwand als Schabowy, aber derselbe knusprige Trost.",
  diasporaPl:
- "Pocieszenie w tygodniu po pracy. Panierkę przygotuj wcześniej, smaż gdy wszyscy w domu — jak schabowy, ale mniej roboty.",
+ "To pocieszenie w tygodniu po pracy: panierkę przygotuj, gdy jest spokój, a smaż dopiero gdy wszyscy są w domu. Mniej roboty niż schabowy, ale ten sam chrupiący komfort.",
  mistakesDe:
- "Ohne Brötchen zu trocken, zu dick geformt, Panade zu früh. Erst eine Probe. Nicht mit [Klopsy](/de/rezepte/klopsy) verwechseln (Kugeln in Soße).",
+ "Ohne eingeweichtes Brötchen wird die Masse zu trocken, zu dicke Kotlets bleiben innen roh, und zu früh panierte Stücke saugen Fett. Brate zuerst eine Probe. Nicht mit [Klopsy](/de/rezepte/klopsy) verwechseln — das sind Kugeln in Soße.",
  mistakesPl:
- "Bez bułki za sucho, za grube kotlety, panierka za wcześnie. Najpierw jedna próba. Nie mylić z [klopsami](/pl/rezepte/klopsy) (kulki w sosie).",
+ "Bez namoczonej bułki masa wychodzi za sucha, za grube kotlety zostają surowe w środku, a zbyt wcześnie obtoczone sztuki wciągają tłuszcz. Najpierw jedna próba. Nie mylić z [klopsami](/pl/rezepte/klopsy) — to kulki w sosie.",
  variantsDe:
- "Mit Pute, ohne Panade gebraten, oder neben Rosół am Sonntag. Panieren Guide gilt für alle Varianten. Soßen-Nachbar: [Klopsy](/de/rezepte/klopsy). Gebackene Pastete (≠ Panade-Hack): [Pasztet drobiowy](/de/rezepte/pasztet).",
+ "Mit Pute, ohne Panade gebraten oder neben Rosół am Sonntag — der [Panieren-Guide](/de/blog/panieren-schabowy) gilt für alle Varianten. Soßen-Nachbar: [Klopsy](/de/rezepte/klopsy). Gebackene Pastete ohne Panade: [Pasztet drobiowy](/de/rezepte/pasztet).",
  variantsPl:
- "Z indyka, bez panierki na patelni albo obok rosołu w niedzielę. Przewodnik po panierce dla wszystkich wersji. Sąsiad z sosem: [klopsy](/pl/rezepte/klopsy). Pieczony pasztet (≠ panierowane mielone): [pasztet drobiowy](/pl/rezepte/pasztet).",
+ "Z indyka, bez panierki na patelni albo obok rosołu w niedzielę — [przewodnik po panierce](/pl/blog/panierowanie-kotlet) dotyczy wszystkich wersji. Sąsiad z sosem: [klopsy](/pl/rezepte/klopsy). Pieczony pasztet bez panierki: [pasztet drobiowy](/pl/rezepte/pasztet).",
  },
  "recipe-kluski-slaskie": {
  dishDe: "Kluski śląskie",
@@ -808,9 +808,9 @@ const FACTS: Record<string, ArticleFacts> = {
  vibeDe: "fluffig, hefig, goldbraun",
  vibePl: "puszyste, drożdżowe, złote",
  originDe:
- "Racuchy sind Hefeteig-Pfannkuchen mit Apfel — fluffiger als Placki mit Apfel. Teig braucht Ruhe; ohne Geduld werden sie flach und dicht.",
+ "Racuchy sind Hefeteig-Pfannkuchen mit Apfel — fluffiger als Placki mit Apfel. Der Teig braucht Ruhe; ohne Geduld werden sie flach und dicht statt luftig.",
  originPl:
- "Racuchy to racuchy drożdżowe z jabłkiem — bardziej puszyste niż placki z jabłkami. Ciasto potrzebuje czasu; bez cierpliwości wychodzą płaskie i ciężkie.",
+ "Racuchy to placki drożdżowe z jabłkiem — bardziej puszyste niż placki ziemniaczane z jabłkami. Ciasto potrzebuje czasu; bez cierpliwości wychodzą płaskie i ciężkie zamiast lekkich.",
  shopDe:
  "Mehl, Milch, ein Päckchen Trockenhefe, Zucker und fest-säuerliche Äpfel reichen. Der [Placki-Guide](/de/blog/placki-guide) erklärt den Unterschied zu Kartoffel-Placki mit Apfel — hier arbeitest du mit Hefe, nicht mit geriebener Kartoffel.",
  shopPl:
@@ -820,9 +820,9 @@ const FACTS: Record<string, ArticleFacts> = {
  techniquePl:
  "Rozpuść drożdże w ciepłym, nie gorącym mleku, zostaw ciasto około 45 minut i nie kroić jabłek zbyt grubo. Smaż na średnim ogniu, żeby racuchy upiekły się w środku, nie przypalając się na zewnątrz.",
  serveDe:
- "Serviere sie noch warm mit reichlich Puderzucker — zum Nachmittagskaffee oder als süßes, einfaches Abendessen.",
+ "Serviere sie noch warm mit reichlich Puderzucker — zum Nachmittagskaffee oder als süßes, einfaches Abendessen, wenn niemand ein großes Dessert will.",
  servePl:
- "Podawaj jeszcze ciepłe z dużą ilością cukru pudru — do popołudniowej kawy albo jako słodki, prosty obiad.",
+ "Podawaj jeszcze ciepłe z dużą ilością cukru pudru — do popołudniowej kawy albo jako słodki, prosty obiad, gdy nikt nie chce dużego deseru.",
  diasporaDe:
  "Kinder mögen sie sofort, und Trockenhefe aus dem deutschen Supermarkt funktioniert zuverlässig. Näher an Tłusty Czwartek als an Wigilia, aber ganzjährig machbar.",
  diasporaPl:
@@ -842,9 +842,9 @@ const FACTS: Record<string, ArticleFacts> = {
  vibeDe: "kalt, rosa, sommerfrisch",
  vibePl: "zimny, różowy, letnio świeży",
  originDe:
- "Chłodnik ist kalte Suppe aus Rote Bete, Kefir oder Joghurt, Gurke und Dill — säuerlich-frisch, nicht heißer Barszcz. Litauisch-polnische Sommertradition für heiße Diaspora-Tage.",
+ "Chłodnik ist kalte Suppe aus Rote Bete, Kefir oder Joghurt, Gurke und Dill — säuerlich-frisch, nicht heißer Barszcz. Es ist eine litauisch-polnische Sommertradition für heiße Tage, wenn niemand eine dampfende Schüssel will.",
  originPl:
- "Chłodnik to zimna zupa z buraków, kefiru lub jogurtu, ogórka i koperku — kwaśno-świeża, nie gorący barszcz. Letnia tradycja na gorące dni w diasporze.",
+ "Chłodnik to zimna zupa z buraków, kefiru lub jogurtu, ogórka i koperku — kwaśno-świeża, nie gorący barszcz. To litewsko-polska letnia tradycja na gorące dni, gdy nikt nie chce parującej miski.",
  shopDe:
  "Gekochte Rote Bete (Glas spart Zeit), Kefir oder Naturjoghurt sowie Gurke, Radieschen, Dill und Śmietana tragen den kalten Becher. Der Überblick [Polnische Suppen](/de/blog/polnische-suppen) ordnet Chłodnik neben Barszcz und Żurek ein.",
  shopPl:
@@ -852,15 +852,15 @@ const FACTS: Record<string, ArticleFacts> = {
  techniqueDe:
  "Basis kalt mixen, Gemüse fein würfeln, mindestens zwei Stunden kühlen — am nächsten Tag oft besser. Säure und Salz erst am Ende justieren.",
  techniquePl:
- "Bazę schładzać, warzywa drobno kroić, minimum 2 h w lodówce — często lepszy następnego dnia. Kwas i sól dopiero na końcu.",
+ "Bazę schładzaj, warzywa kroić drobno i daj wszystkiemu minimum dwie godziny w lodówce — oft schmeckt er am nächsten Tag besser. Kwas i sól ustaw dopiero na końcu, bo nabiał jeszcze pracuje.",
  serveDe:
- "Mit halber Kartoffel und hartgekochtem Ei — leichtes Hauptgericht, kein Vorspeisen-Schnipsel.",
+ "Serviere Chłodnik mit einer halben gekochten Kartoffel und hartgekochtem Ei. So wird daraus ein leichtes Hauptgericht, kein Vorspeisen-Schnipsel neben dem Grill.",
  servePl:
- "Z połówką ugotowanego ziemniaka i jajkiem na twardo — lekki obiad, nie tylko przystawka.",
+ "Podawaj chłodnik z połówką ugotowanego ziemniaka i jajkiem na twardo. Wychodzi lekki obiad, nie tylko przystawka obok grilla.",
  diasporaDe:
- "W deutschen Sommern ohne Klimaanlage rettet kalte Suppe den Appetit. Kinder mögen die rosa Farbe — ohne viel Überredung.",
+ "In deutschen Sommern ohne Klimaanlage rettet kalte Suppe den Appetit. Kinder mögen die rosa Farbe oft ohne viel Überredung — und du brauchst keinen Herd mehr, wenn die Basis steht.",
  diasporaPl:
- "W niemieckim lecie bez klimy zimna zupa ratuje apetyt. Dzieci lubią różowy kolor — bez przekonywania.",
+ "W niemieckim lecie bez klimy zimna zupa ratuje apetyt. Dzieci lubią różowy kolor często bez przekonywania — a gdy baza stoi, nie potrzebujesz już kuchenki.",
  mistakesDe:
  "Zu warm serviert, zu wässrig angesetzt und zu wenig Dill machen Chłodnik flach. Die Suppe muss richtig kalt sein — nicht lauwarm aus dem Topf — und Salz sowie Säure erst am Ende finden.",
  mistakesPl:

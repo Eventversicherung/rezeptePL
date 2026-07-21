@@ -63,32 +63,32 @@ export const W10_FACTS_W9_RETROFIT: Record<string, ArticleFacts> = {
  vibeDe: "deftig, säuerlich, alltagstauglich",
  vibePl: "treściwe, kwaśne, na co dzień",
  originDe:
- "Łazanki sind quadratische Nudeln, oft mit Sauerkraut und Speck — Diaspora-Alltagsteller zwischen [Bigos](/de/rezepte/bigos) und Pasta. Weniger Drama als Bigos, mehr Struktur als Kraut allein. Kapusta-Kontext: [Kiszenie-Guide](/de/blog/kiszenie-guide). Süß-cremige Pasta mit Quark ist ein anderer Charakter: [Makaron z serem](/de/rezepte/makaron-z-serem).",
+ "Łazanki sind quadratische Nudeln, oft mit Sauerkraut und Speck — ein Diaspora-Alltagsteller zwischen [Bigos](/de/rezepte/bigos) und Pasta. Weniger Drama als Bigos, mehr Struktur als Kraut allein. Ferment-Kontext gibt der [Kiszenie-Guide](/de/blog/kiszenie-guide). Süß-cremige Pasta mit Quark ist ein anderer Charakter: [Makaron z serem](/de/rezepte/makaron-z-serem).",
  originPl:
- "Łazanki to kwadratowy makaron, często z kapustą i boczkiem — talerz diasporowy między [bigosem](/pl/rezepte/bigos) a pastą. Mniej dramatu niż bigos, więcej struktury niż sama kapusta. Kontekst kapusty: [kiszenie w domu](/pl/blog/kiszenie-w-domu). Słodko-kremowy makaron z twarogiem to inny charakter: [makaron z serem](/pl/rezepte/makaron-z-serem).",
+ "Łazanki to kwadratowy makaron, często z kapustą i boczkiem — talerz diasporowy między [bigosem](/pl/rezepte/bigos) a pastą. Mniej dramatu niż bigos, więcej struktury niż sama kapusta. Kontekst fermentu daje [kiszenie w domu](/pl/blog/kiszenie-w-domu). Słodko-kremowy makaron z twarogiem to inny charakter: [makaron z serem](/pl/rezepte/makaron-z-serem).",
  shopDe:
- "Łazanki im [Polenladen](/de/blog/polenladen-einkaufen) oder breite Bandnudeln, Sauerkraut, Zwiebel, Speck optional. Ferment-Logik: [Kiszenie-Guide](/de/blog/kiszenie-guide). Bigos-Tiefe zum Vergleich: [Bigos-Guide](/de/blog/bigos-guide).",
+ "Łazanki holst du im [Polenladen](/de/blog/polenladen-einkaufen), sonst helfen breite Bandnudeln. Sauerkraut, Zwiebel und optional Speck tragen den Teller. Ferment-Logik erklärt der [Kiszenie-Guide](/de/blog/kiszenie-guide); Bigos-Tiefe zum Vergleich der [Bigos-Guide](/de/blog/bigos-guide).",
  shopPl:
- "Łazanki w [sklepie polskim](/pl/blog/sklep-polski-zakupy) lub szeroki makaron, kapusta kiszona, cebula, boczek opcjonalnie. Ferment: [kiszenie w domu](/pl/blog/kiszenie-w-domu). Głębia bigosu: [przewodnik po bigosie](/pl/blog/bigos-przewodnik).",
+ "Łazanki kupisz w [sklepie polskim](/pl/blog/sklep-polski-zakupy), inaczej pomaga szeroki makaron. Kapusta kiszona, cebula i opcjonalnie boczek niosą talerz. Ferment opisuje [kiszenie w domu](/pl/blog/kiszenie-w-domu); głębię bigosu porównasz w [przewodniku po bigosie](/pl/blog/bigos-przewodnik).",
  techniqueDe:
- "Schmore das Kraut, bis es weich und aromatisch ist, koche die Nudeln al dente und mische erst dann — zu viel Flüssigkeit macht den Teller wässrig. Das bleibt ein herzhafter Kraut-Teller, kein Quark-Butter-Zucker-Gericht wie [Makaron z serem](/de/rezepte/makaron-z-serem).",
+ "Schmore das Kraut, bis es weich und aromatisch ist, koche die Nudeln al dente und mische erst dann. Zu viel Flüssigkeit macht den Teller wässrig statt deftig — abtropfen und abschmecken entscheiden mehr als Extra-Kraut. Das bleibt ein herzhafter Kraut-Teller, kein Quark-Butter-Zucker-Gericht wie [Makaron z serem](/de/rezepte/makaron-z-serem).",
  techniquePl:
- "Duś kapustę do miękkości i aromatu, ugotuj makaron al dente i dopiero wtedy wymieszaj — za dużo płynu robi talerz wodnisty. To zostaje wytrawny talerz z kapustą, nie danie z twarogiem i cukrem jak [makaron z serem](/pl/rezepte/makaron-z-serem).",
+ "Duś kapustę do miękkości i aromatu, ugotuj makaron al dente i dopiero wtedy wymieszaj. Za dużo płynu robi talerz wodnisty zamiast treściwy — odsączenie i doprawienie decydują bardziej niż dodatkowa kapusta. To zostaje wytrawny talerz z kapustą, nie danie z twarogiem i cukrem jak [makaron z serem](/pl/rezepte/makaron-z-serem).",
  serveDe:
- "Heiß, mit Dill oder pur. Reste braten am nächsten Tag in der Pfanne auf. Wer länger schmoren will: [Bigos-Rezept](/de/rezepte/bigos).",
+ "Serviere Łazanki heiß, mit Dill oder pur. Reste brät man am nächsten Tag in der Pfanne auf. Wer länger schmoren will, geht zum [Bigos-Rezept](/de/rezepte/bigos).",
  servePl:
- "Gorące, z koperkiem albo same. Resztki podsmaż nazajutrz na patelni. Kto chce dłuższe duszenie: [przepis na bigos](/pl/rezepte/bigos).",
+ "Podawaj łazanki gorące, z koperkiem albo same. Resztki podsmaż nazajutrz na patelni. Kto chce dłuższe duszenie, idzie do [przepisu na bigos](/pl/rezepte/bigos).",
  diasporaDe:
- "Schneller als Bigos, nutzt dieselbe Kapusta-Logik. Gut für Wochentage nach dem [Sonntagsessen](/de/blog/sonntagsessen-polnisch)-Rest. Cremige Quark-Pasta ohne Kraut: [Makaron z serem](/de/rezepte/makaron-z-serem).",
+ "Schneller als Bigos, aber mit derselben Kapusta-Logik. Gut für Wochentage nach dem [Sonntagsessen](/de/blog/sonntagsessen-polnisch), wenn noch Kraut übrig ist. Cremige Quark-Pasta ohne Kraut: [Makaron z serem](/de/rezepte/makaron-z-serem).",
  diasporaPl:
- "Szybsze niż bigos, ta sama logika kapusty. Dobre na tydzień po resztkach [obiadu niedzielnego](/pl/blog/obiad-niedzielny). Kremowy makaron z twarogiem bez kapusty: [makaron z serem](/pl/rezepte/makaron-z-serem).",
+ "Szybsze niż bigos, ale z tą samą logiką kapusty. Dobre na tydzień po [obiedzie niedzielnym](/pl/blog/obiad-niedzielny), gdy zostaje kapusta. Kremowy makaron z twarogiem bez kapusty: [makaron z serem](/pl/rezepte/makaron-z-serem).",
  mistakesDe:
  "Zu nasses Kraut, zu weiche Nudeln und zu wenig Abschmecken lassen Łazanki flach. Pfeffer und genug Fett zählen — und vermische den Teller nicht mit süßem [Makaron z serem](/de/rezepte/makaron-z-serem).",
  mistakesPl:
  "Za mokra kapusta, za miękki makaron i za mało doprawienia spłaszczają łazanki. Pieprz i dość tłuszczu mają znaczenie — nie mylić ze słodkim [makaronem z serem](/pl/rezepte/makaron-z-serem).",
  variantsDe:
- "Vegetarisch ohne Speck, mit Pilzen, oder neben [Bigos](/de/rezepte/bigos) als Kraut-Silo. Ferment vertiefen: [Kiszenie](/de/blog/kiszenie-guide). Im [Polenladen](/de/blog/polenladen-einkaufen) findest du typische Spezialzutaten. Quark-Pasta-Nachbar: [Makaron z serem](/de/rezepte/makaron-z-serem).",
+ "Vegetarisch ohne Speck, mit Pilzen oder neben [Bigos](/de/rezepte/bigos) als Kraut-Silo. Ferment vertieft der [Kiszenie-Guide](/de/blog/kiszenie-guide). Im [Polenladen](/de/blog/polenladen-einkaufen) findest du typische Spezialzutaten. Quark-Pasta-Nachbar: [Makaron z serem](/de/rezepte/makaron-z-serem).",
  variantsPl:
- "Wegetariańskie bez boczku, z grzybami albo obok [bigosu](/pl/rezepte/bigos). Ferment: [kiszenie](/pl/blog/kiszenie-w-domu). W [sklep polski](/pl/blog/sklep-polski-zakupy) kupisz typowe specjalności. Sąsiad twarogowy: [makaron z serem](/pl/rezepte/makaron-z-serem).",
+ "Wegetariańskie bez boczku, z grzybami albo obok [bigosu](/pl/rezepte/bigos). Ferment pogłębia [kiszenie w domu](/pl/blog/kiszenie-w-domu). W [sklepie polskim](/pl/blog/sklep-polski-zakupy) kupisz typowe specjalności. Sąsiad twarogowy: [makaron z serem](/pl/rezepte/makaron-z-serem).",
  },
 };

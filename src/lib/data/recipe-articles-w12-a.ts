@@ -59,9 +59,9 @@ export const W12_FACTS_A: Record<string, ArticleFacts> = {
  servePl:
  "Gorąca w głębokich talerzach, z koperkiem. Święta: obok pierogów i ryby — rama [menu wigilijne](/pl/blog/menu-wigilijne). Buraki: [barszcz](/pl/rezepte/barszcz-czerwony); treściwe flaki z majerankiem: [flaki](/pl/rezepte/flaki). Sąsiad codzienny [zupa pomidorowa](/pl/rezepte/zupa-pomidorowa). Przegląd: [polskie zupy](/pl/blog/polskie-zupy).",
  diasporaDe:
- "In DE oft der pragmatische Wigilia- oder Herbsttopf: Trockenpilze früh einweichen, Fond am Vortag, am Tag nur erhitzen. Kinder dürfen Pilze abmessen; heißer Topf bei Erwachsenen. Einkauf vor den Feiertagen im [Polenladen](/de/blog/polenladen-einkaufen), bevor die Regale leer sind. Speiseplan entlasten heißt: klare Cook-URLs, Anlass bleibt [Wigilia-Speiseplan](/de/blog/wigilia-speiseplan).",
+ "In DE oft der pragmatische Wigilia- oder Herbsttopf: Trockenpilze früh einweichen, Fond am Vortag, am Tag nur erhitzen. Kinder dürfen Pilze abmessen; heißer Topf bei Erwachsenen. Einkauf vor den Feiertagen im [Polenladen](/de/blog/polenladen-einkaufen), bevor die Regale leer sind. Speiseplan entlasten heißt: klare Rezeptseiten, Anlass bleibt beim [Wigilia-Speiseplan](/de/blog/wigilia-speiseplan).",
  diasporaPl:
- "W DE często pragmatyczny garnek wigilijny lub jesienny: susz namocz wcześniej, wywar dzień wcześniej, w dniu tylko podgrzej. Dzieci odmierzą grzyby; gorący garnek u dorosłych. Zakupy przed świętami w [sklepie polskim](/pl/blog/sklep-polski-zakupy). Odciążenie menu: jasne cook-URL, okazja zostaje w [menu wigilijnym](/pl/blog/menu-wigilijne).",
+ "W DE często pragmatyczny garnek wigilijny lub jesienny: susz namocz wcześniej, wywar dzień wcześniej, w dniu tylko podgrzej. Dzieci odmierzą grzyby; gorący garnek u dorosłych. Zakupy przed świętami w [sklepie polskim](/pl/blog/sklep-polski-zakupy). Odciążenie menu: jasne strony przepisów, okazja zostaje w [menu wigilijnym](/pl/blog/menu-wigilijne).",
  mistakesDe:
  "Pilzflüssigkeit ungefiltert (Sand). Mit [Barszcz](/de/rezepte/barszcz-czerwony) oder [Flaki](/de/rezepte/flaki) verwechseln. Mit Gerstensuppe [Krupnik](/de/rezepte/krupnik) verwechseln. Zu kurze Einweichzeit. Sahne kochend einrühren. Anlass.",
  mistakesPl:

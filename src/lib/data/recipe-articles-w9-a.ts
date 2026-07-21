@@ -39,9 +39,9 @@ export const W9_FACTS_A: Record<string, W9ArticleFacts> = {
  shopPl:
  "Żeberka wieprzowe z lady — równe, z odrobiną tłuszczu. Musztarda, majeranek suszony (sklep polski często aromatyczniejszy), czosnek, olej, sól, pieprz. Specjały: [przewodnik po sklepie polskim](/pl/blog/sklep-polski-zakupy). Majeranek zostaje przepisem na leksykonu dawki; tu tylko zastosowanie w marynacie. Nie musisz mieć dutch oven — wystarczy solidne naczynie do pieca.",
  techniqueDe:
- "Trocken tupfen, Marinade einreiben, Zeit geben. Mittelheißer Ofen, Flüssigkeit in der Form gegen Anbrennen, wenden, am Ende knusprig nachziehen. Innere Temperatur und Saftigkeit schlagen die Uhr allein. Zu heiß zu früh = trocken außen, roh innen.",
+ "Tupfe die Rippchen trocken, reibe die Marinade ein und gib ihnen Zeit im Kühlschrank. Backe bei mittlerer Hitze mit etwas Flüssigkeit in der Form, wende zwischendurch und ziehe am Ende knusprig nach. Innere Temperatur und Saftigkeit schlagen die Uhr allein — zu heiß zu früh macht sie außen trocken und innen roh.",
  techniquePl:
- "Osuszyć, natrzeć marynatą, dać czas. Średni piec, płyn w naczyniu przeciw przypaleniu, przewracać, na końcu dopiec do chrupkości. Soczystość ważniejsza niż sam zegar. Za gorąco za wcześnie = suche z zewnątrz, surowe w środku.",
+ "Osusz żebra, natrzyj marynatą i daj im czas w lodówce. Piecz w średniej temperaturze z odrobiną płynu w naczyniu, przewracaj i na końcu dopiecz do chrupkości. Soczystość ważniejsza niż sam zegar — za gorąco za wcześnie robi je suche z zewnątrz i surowe w środku.",
  serveDe:
  "Heiß mit Kartoffeln, Kraut oder einfachem Salat. Passt in den [Sonntagsessen](/de/blog/sonntagsessen-polnisch)-Plan als ruhiger Fleisch-Mittelpunkt ohne Pfannen-Marathon. Wer denselben Tag paniert, bleibt beim Schabowy als Nachbar. Reste am nächsten Tag im Ofen aufwärmen, nicht in der Mikrowelle ausdörren. Mit [Gulasz](/de/rezepte/gulasz-wieprzowy) nicht verwechseln — andere Form, anderer Charakter.",
  servePl:
@@ -53,7 +53,7 @@ export const W9_FACTS_A: Record<string, W9ArticleFacts> = {
  mistakesDe:
  "Zu kurze Marinade, ein zu heißer Ofen ohne Flüssigkeit und zu mageres Fleisch ohne Fett machen die Rippchen trocken. Verwechsle sie nicht mit [Gulasz wieprzowy](/de/rezepte/gulasz-wieprzowy) — hier zählt Knochen und lange Garzeit.",
  mistakesPl:
- "Za krótka marynata, za gorący piec bez płynu, mylenie z gulaszem, mylenie z majeranku, zbyt chude mięso bez tłuszczu.",
+ "Za krótka marynata, za gorący piec bez płynu i zbyt chude mięso bez tłuszczu zostawiają żebra suche. Nie myl ich z [gulaszem wieprzowym](/pl/rezepte/gulasz-wieprzowy) — tu liczą się kość i długie pieczenie, nie kostka w garnku.",
  variantsDe:
  "Mit Honig-Senf-Glasur (Hausvariante, ehrlich benennen), mit etwas Chili, oder am Grill statt Ofen — dann andere Textur. [Rolada śląska](/de/rezepte/rolada-slaska) ist geschmorte Roulade, kein Rippen-Ersatz. Schabowy bleibt der panierte Nachbar.",
  variantsPl:
@@ -73,21 +73,21 @@ export const W9_FACTS_A: Record<string, W9ArticleFacts> = {
  shopPl:
  "Weź cienkie plastry do zwijania (wołowina lub wieprzowina), boczek, cebulę, musztardę i bulion — plus liść laurowy i oszczędnie [majeranek](/pl/blog/majeranek-leksykon). Garnek z pokrywką trzyma ciepło; kryteria zakupu są w przewodniku [dutch oven](/pl/blog/garnek-do-duszenia). To nie płaskie [zrazy](/pl/rezepte/zrazy) bez logiki rolki i nie panierowany [schabowy](/pl/rezepte/kotlet-schabowy).",
  techniqueDe:
- "Fest rollen, anbraten, ablöschen, zugedeckt schmoren bis gabelweich. Soße abschmecken. Deckel zu — sonst trocknet die Oberfläche. Nicht mit Zrazy-Schritten verwechseln: andere Füll-Priorität, gleiches ruhiges Schmoren.",
+ "Rolle das Fleisch fest ein, brate es an, lösche ab und schmore zugedeckt bis gabelweich. Die Soße zum Schluss abschmecken und den Deckel geschlossen halten — sonst trocknet die Oberfläche. Nicht mit den Schritten von [Zrazy](/de/rezepte/zrazy) verwechseln: andere Füll-Priorität, gleiches ruhiges Schmoren.",
  techniquePl:
- "Szczelnie zwinąć, obsmażyć, zalać, dusić pod przykryciem do miękkości. Sos doprawić. Pokrywka zamknięta. Nie mylić kroków ze zrazami: inna hierarchia farszu, to samo spokojne dusze",
+ "Zwiń mięso szczelnie, obsmaż, zalej i duś pod przykryciem do miękkości. Sos dopraw na końcu i trzymaj pokrywkę zamkniętą — inaczej powierzchnia wysycha. Nie myl kroków ze [zrazami](/pl/rezepte/zrazy): inna hierarchia farszu, to samo spokojne duszenie.",
  serveDe:
- "In Scheiben mit Soße und [Kluski śląskie](/de/rezepte/kluski-slaskie) — das klassische Pairing. Alternativ Kartoffeln oder Kasza (siehe Kasza-Guide ). Im [Sonntagsessen](/de/blog/sonntagsessen-polnisch) als Schmor-Mittelpunkt, wenn Zeit da ist. [Zrazy](/de/rezepte/zrazy) bleiben die verwandte, aber eigenes Rezept.",
+ "Serviere die Rolada in Scheiben mit Soße und [Kluski śląskie](/de/rezepte/kluski-slaskie) — das klassische Pairing. Alternativ passen Kartoffeln oder Kasza. Im [Sonntagsessen](/de/blog/sonntagsessen-polnisch) ist sie der Schmor-Mittelpunkt, wenn Zeit da ist. [Zrazy](/de/rezepte/zrazy) bleiben verwandt, aber ein eigenes Rezept.",
  servePl:
- "W plastrach z sosem i [klusami śląskimi](/pl/rezepte/kluski-slaskie) — klasyczne pairing. Alternatywnie ziemniaki lub kasza. W [obiedzie niedzielnym](/pl/blog/obiad-niedzielny) jako danie duszone, gdy jest czas. [Zrazy](/pl/rezepte/zrazy) zostają pokrewną, ale osobny przepis.",
+ "Podawaj roladę w plastrach z sosem i [kluskami śląskimi](/pl/rezepte/kluski-slaskie) — klasyczne połączenie. Alternatywnie pasują ziemniaki albo kasza. W [obiedzie niedzielnym](/pl/blog/obiad-niedzielny) jest daniem duszonym, gdy jest czas. [Zrazy](/pl/rezepte/zrazy) zostają pokrewne, ale osobnym przepisem.",
  diasporaDe:
- "In deutschen Wohnungen lohnt der schwere Topf: Anbraten auf dem Herd, dann niedrige Hitze oder Ofen. Der [Dutch-Oven-Kaufguide](/de/blog/dutch-oven-kaufberatung) hilft bei Größe und Material — ohne Bigos-Zeiten zu vermischen. Majeranek und Polenladen bleiben Nachbarn; Abgrenzung der Roulade liegt hier.",
+ "In deutschen Wohnungen lohnt der schwere Topf: Anbraten auf dem Herd, dann niedrige Hitze oder Ofen. Der [Dutch-Oven-Kaufguide](/de/blog/dutch-oven-kaufberatung) hilft bei Größe und Material — ohne Bigos-Zeiten zu vermischen.",
  diasporaPl:
- "W niemieckich mieszkaniach opłaca się ciężki garnek: obsmażenie na płycie, potem niska temperatura lub piekarnik. [Poradnik dutch oven](/pl/blog/garnek-do-duszenia) pomaga przy rozmiarze — osobny farsz i osobne ilości. bigosu. Majeranek i sklep polski zostają sąsiadami; rozróżnienie rolady jest tutaj.",
+ "W niemieckich mieszkaniach opłaca się ciężki garnek: obsmażenie na płycie, potem niska temperatura albo piekarnik. [Poradnik dutch oven](/pl/blog/garnek-do-duszenia) pomaga przy rozmiarze — osobny farsz i osobne ilości, bez mieszania z rytmem bigosu.",
  mistakesDe:
  "Lose Rollen und zu kurze Schmorzeit lassen die Füllung austreten oder das Fleisch zäh. Binde die Rouladen fest und gib dem Topf Zeit — und verwechsle die Technik nicht mit [Zrazy](/de/rezepte/zrazy).",
  mistakesPl:
- "Luźne rolady, za krótkie duszenie, mylenie ze zrazami lub blogiem regionalnym, za dużo majeranku w sosie.",
+ "Luźne rolady i za krótkie duszenie wypuszczają farsz albo zostawiają mięso twarde. Mocno zwiąż rolady i daj garnkowi czas — nie myl techniki ze [zrazami](/pl/rezepte/zrazy) i nie przesadzaj z majerankiem w sosie.",
  variantsDe:
  "Mit Pilzen in der Füllung (Hausvariante), Schwein statt Rind, oder Soße mit etwas Śmietana. [Żeberka pieczone](/de/rezepte/zeberka) sind Ofenrippen — anderer Charakter. Zrazy bleiben die Gurken-Roulade.",
  variantsPl:

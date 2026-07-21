@@ -32,7 +32,7 @@ export const W9_FACTS_C: Record<string, W9ArticleFacts> = {
  vibeDe: "luftig, formgebacken, puderzuckerweiß zu Ostern",
  vibePl: "puszysta, z formy, w cukrze pudrze na Wielkanoc",
  originDe:
- "Babka (Babka wielkanocna) ist der polnische Hefegugelhupf aus der Form — oft Ostern, manchmal Sonntagskaffee. Sie ist kein gerollter Mohnkuchen und kein Käsekuchen: eigene Form, eigener Teig. Den Menü-Rahmen findest du im [Wielkanoc-Speiseplan](/de/blog/wielkanoc-speiseplan); Hefe- und Ofengeduld im [Makowiec-Technik](/de/blog/makowiec-technik)-Guide, ohne dessen Rollen-Logik. [Makowiec](/de/rezepte/makowiec) bleibt die gerollte Wigilia-Linie; [Sernik](/de/rezepte/sernik) die Twaróg-Li",
+ "Babka (Babka wielkanocna) ist der polnische Hefegugelhupf aus der Form — oft Ostern, manchmal Sonntagskaffee. Sie ist kein gerollter Mohnkuchen und kein Käsekuchen: eigene Form, eigener Teig. Den Menü-Rahmen findest du im [Wielkanoc-Speiseplan](/de/blog/wielkanoc-speiseplan); Hefe- und Ofengeduld im [Makowiec-Technik](/de/blog/makowiec-technik)-Guide, ohne dessen Rollen-Logik. [Makowiec](/de/rezepte/makowiec) bleibt die gerollte Wigilia-Linie; [Sernik](/de/rezepte/sernik) die Twaróg-Linie.",
  originPl:
  "Babka (babka wielkanocna) to polskie ciasto drożdżowe z formy — często na Wielkanoc, czasem do niedzielnej kawy. To nie rolada makowa i nie sernik: własna forma, własne ciasto. Ramy menu znajdziesz w [menu wielkanocnym](/pl/blog/menu-wielkanocne); wyczucie drożdży i pieca w [technice makowca](/pl/blog/makowiec-technika), bez logiki zwijania. [Makowiec](/pl/rezepte/makowiec) zostaje linią wigilijną; [sernik](/pl/rezepte/sernik) linią twarogową.",
  shopDe:
