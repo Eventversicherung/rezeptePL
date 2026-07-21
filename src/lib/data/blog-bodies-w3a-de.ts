@@ -9,9 +9,13 @@ Gołąbki sind für viele von uns in Deutschland mehr als ein Kohlgericht: Sonnt
 
 Gefüllte Kohlrouladen: biegsame Blätter, Reis-Fleisch-Füllung (oder vegetarisch), tragende Soße, langes sanftes Schmoren. In Polen oft neben [Rosół](/de/rezepte/rosol) und [Bigos](/de/rezepte/bigos); in der Diaspora das Gericht für Gäste oder die Woche im Voraus. Anders als manche deutsche Kohlroulade: oft feiner gewürzt, mehr Reis, Soße tomaten- oder brühebasiert. Manche servieren [Śmietana](/de/blog/smietana-schmand) — beides legitim, wenn der Kohl zart bleibt.
 
+
+
+![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1743148843470-8fd92a31c473?w=1400&q=80)
+
 ## Sauce: drei Wege
 
-**Tomate** — Diaspora-Klassiker: Farbe, Säure, Freezer-freundlich. **Rosół-Rest** — Tiefe ohne Tomatenrot; wer Sonntags [Rosół](/de/rezepte/rosol) kocht, plant Gołąbki oft für den Tag danach. Technik: [Rosół-Technik](/de/blog/rosol-technik). **Śmietana** — mild am Teller oder sparsam untergerührt; nicht kochend aufkochen. Details: [Śmietana vs. Schmand](/de/blog/smietana-schmand).
+**Tomate** — Diaspora-Klassiker: Farbe, Säure, Freezer-freundlich. **Rosół-Rest** — Tiefe ohne Tomatenrot; wer Sonntags [Rosół](/de/rezepte/rosol) kocht, plant Gołąbki oft für den Tag danach. Mehr zur Brühe steht in der [Rosół-Technik](/de/blog/rosol-technik). **Śmietana** — mild am Teller oder sparsam untergerührt; nicht kochend aufkochen. Details: [Śmietana vs. Schmand](/de/blog/smietana-schmand).
 
 Entscheidend: genug Flüssigkeit, Rollen bedeckt, sanftes Köcheln — Details im Rezept.
 
@@ -30,6 +34,10 @@ Batch lohnt: ein Topf, viele Portionen; am nächsten Tag oft besser. Gekocht ein
 - Zu mageres Hack allein → trockene Füllung trotz weichem Kohl
 
 Die Korrekturen und Mengen: [Gołąbki-Rezept](/de/rezepte/golabki).
+
+
+
+![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1604908177528-946fc9d68799?w=1400&q=80)
 
 ## FAQ kurz
 
@@ -60,6 +68,10 @@ Naleśniki sind dünne, flexible Crêpes. Sie werden selten pur aus der Pfanne g
 
 Der Teig bleibt bewusst flüssig und elastisch — biegsam genug zum Rollen. Geschmacklich sind Naleśniki kein reines Dessert: Twaróg ist Klassiker, aber Fleisch, Spinat oder Pilze gehören genauso zum Haushalt. Die Logik kennt, wer [Pierogi Ruskie](/de/rezepte/pierogi/ruskie) macht: Teig trägt, Füllung führt — hier flach statt gefaltet.
 
+
+
+![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1770802858320-50848db704d5?w=1400&q=80)
+
 ## Welche Füllung wann?
 
 | Variante | Wann | Rezept |
@@ -87,6 +99,10 @@ Mengen, Zeiten und die konkrete Schrittfolge stehen im jeweiligen Rezept — hie
 ## Alltag und Freezer (kurz)
 
 Ungefüllte Platten stapeln (Backpapier dazwischen) und einfrieren: unter der Woche nur füllen und braten. Gefüllt und angebraten portionieren und einfrieren geht auch — aufwärmen in der Pfanne. Beschriften: süß vs. herzhaft. Wer am Wochenende [Pierogi Ruskie](/de/rezepte/pierogi/ruskie) macht, kann denselben abgeseihten Twaróg für Naleśniki mitplanen.
+
+
+
+![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1567620905732-2d1ac7ab1b30?w=1400&q=80)
 
 ## FAQ
 
@@ -126,6 +142,10 @@ Oscypek ist ein geräucherter Schafskäse aus der Region Podhale am Fuß der Tat
 Wichtig, ohne Mythos: PDO ist kein Qualitätssiegel für jeden einzelnen Laib und kein Garant dafür, dass alles andere schlecht schmeckt. Es ist eine **Herkunfts- und Verfahrensregel**. Oscypek aus der geschützten Zone kann trotzdem variieren — je nach Saison, Herde, Rauchzeit und Reife. Wir lesen deshalb Etiketten, nicht nur das Wort auf der Verpackung. Wer den Unterschied zwischen echtem Oscypek und Nachahmungen verstehen will, muss nicht die gesamte Berggeschichte kennen — nur Milchart, Herkunft und ob der Name rechtlich geschützt ist.
 
 In der Praxis schmeckt echter Oscypek salzig, leicht säuerlich, deutlich rauchig und fest genug, um in Scheiben geschnitten und in der Pfanne erhitzt zu werden. Die Oberfläche wird goldbraun, innen bleibt er weich, aber nicht flüssig wie Mozzarella. Das ist sein Alltagscharakter: schnell zubereitet, kräftig im Geschmack, wenig Zutaten nötig. Für einen konkreten Teller mit Preiselbeeren und Brot: [Gegrillter Oscypek mit Preiselbeeren](/de/rezepte/oscypek-preiselbeeren).
+
+
+
+![Geräucherter Käse auf dem Brett](https://images.unsplash.com/photo-1718939046345-f607c89e92d9?w=1400&q=80)
 
 ## Echt vs. „Oscypek-ähnlich“ im DE-Laden
 
@@ -184,6 +204,10 @@ Oscypek ist kein Gericht für zwölf Komponenten. Die klassische Kombination aus
 Für ein vollständigeres Sonntagsessen kombinieren wir Oscypek mit [Placki Ziemniaczane](/de/rezepte/placki/ziemniaczane): Kartoffelpuffer sind neutral und füllen den Teller, ohne den Rauchgeschmack zu verwässern. Eine grüne Salatseite mit saurer Note (Essig, Dill) rundet ab, wenn wir mehr Gemüse wollen.
 
 Serviertemperaturen: Oscypek heiß vom Blech oder der Pfanne, Beilagen warm oder kalt je nach Vorliebe. Preiselbeere kühl zum heißen Käse ist der übliche Kontrast — das reicht für Gäste und Alltag gleichermaßen.
+
+
+
+![Oscypek in der Pfanne — goldbraun](https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?w=1400&q=80)
 
 ## Lagerung & Ersatz
 

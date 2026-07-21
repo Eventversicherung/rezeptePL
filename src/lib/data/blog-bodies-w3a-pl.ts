@@ -9,6 +9,10 @@ Gołąbki w diasporze często wracają w niedzielę albo przed wizytą rodziny �
 
 Zwinięte liście kapusty z farszem (ryż z mięsem, czasem kasza albo grzyby), duszone w sosie. Obok [rosołu](/pl/rezepte/rosol) i [bigosu](/pl/rezepte/bigos) bywają filarem niedzieli — szerszy kontekst: [obiad niedzielny](/pl/blog/obiad-niedzielny). To danie planu: raz wkład, wiele porcji.
 
+
+
+![Danie z polskiej kuchni](https://images.unsplash.com/photo-1743148843470-8fd92a31c473?w=1400&q=80)
+
 ## Sos: trzy ścieżki
 
 **Pomidor** — przewidywalny, dobrze znosi mrożenie. **Resztki rosołu** — głębszy, „niedzielny” smak; technika: [jak ugotować rosół](/pl/blog/jak-ugotowac-rosol). **Śmietana** — łagodniej; porównanie nabiału: [śmietana czy Schmand](/pl/blog/smietana-czy-schmand). Sos ma prawie zakrywać rolki — szczegóły w przepisie.
@@ -28,6 +32,10 @@ Batch: duży garnek, porcje na tydzień; nazajutrz często lepiej. Ugotowane z s
 - Zbyt chude mięso → suchy farsz przy miękkiej kapuście
 
 Korekty i ilości: [przepis gołąbki](/pl/rezepte/golabki).
+
+
+
+![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1604908177528-946fc9d68799?w=1400&q=80)
 
 ## FAQ krótko
 
@@ -58,6 +66,10 @@ Polskie naleśniki to cienkie placki, zwykle z farszem, zwinięte, czasem jeszcz
 
 Logika jak przy [pierogach ruskich](/pl/rezepte/pierogi/ruskie): ciasto niesie, farsz prowadzi — tu płasko zamiast sklejania.
 
+
+
+![Danie z polskiej kuchni](https://images.unsplash.com/photo-1770802858320-50848db704d5?w=1400&q=80)
+
 ## Który farsz kiedy?
 
 | Wariant | Kiedy | Przepis |
@@ -68,7 +80,7 @@ Logika jak przy [pierogach ruskich](/pl/rezepte/pierogi/ruskie): ciasto niesie, 
 | Szpinak | wege, lżejszy wieczór | [ze szpinakiem](/pl/rezepte/nalesniki/szpinak) |
 | Panierowana rolka | obok barszczu | [krokiety](/pl/rezepte/krokiety) |
 
-Zakupy i wilgotność twarogu: [twaróg w Niemczech](/pl/blog/twarog-w-niemczech). Śmietana vs Schmand: [śmietana](/pl/blog/smietana-czy-schmand). Zamienniki: [zamienniki składników](/pl/blog/zamienniki-skladnikow).
+Zakupy i wilgotność twarogu opisuje [twaróg w Niemczech](/pl/blog/twarog-w-niemczech). Śmietana vs Schmand: [śmietana](/pl/blog/smietana-czy-schmand). Sensowne zamiany znajdziesz w [zamiennikach składników](/pl/blog/zamienniki-skladnikow).
 
 Słodkiego i wytrawnego nie mieszamy na jednej blasze — inna wilgotność, inna temperatura przy drugim smażeniu.
 
@@ -85,6 +97,10 @@ Ilości i kolejność kroków: w przepisie wybranej wersji.
 ## Meal prep (krótko)
 
 Puste placki z papierem między warstwami do zamrażarki — w tygodniu tylko farsz i podsmażenie. Gotowe zwinięte też się mrozi; odgrzewać na patelni. Opisz: słodkie / wytrawne. Przy pierogach ruskich w weekend ten sam odsączony twaróg może iść na naleśniki.
+
+
+
+![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1567620905732-2d1ac7ab1b30?w=1400&q=80)
 
 ## FAQ
 
@@ -126,6 +142,10 @@ Oscypek to twardy, wędzony ser owczy z Podhala — regionu u podnóża Tatr, gd
 Dla nas w diasporze ważne są trzy cechy sensoryczne: zwarta, lekko sprężysta struktura; wyraźny, ale nie agresywny dym; sól na tyle wyraźna, że ser dobrze znosi kwaśny kontrast. Oscypek nie jest serem „do kanapki z masłem” — to produkt, który najlepiej pokazuje się po podgrzaniu, gdy tłuszcz zaczyna pracować, a powierzchnia robi się złota. Jeśli szukasz szybkiego wprowadzenia w technikę, zacznij od przepisu [oscypek z żurawiną](/pl/rezepte/oscypek-zurawina): piętnaście minut, patelnia, gotowe.
 
 Chroniona nazwa nie oznacza, że produkty spoza PDO są „gorsze moralnie”. Oznacza tylko, że nie są oscypkiem w sensie prawnym. W kontekście europejskiej polityki jakości żywności sensownym tłem jest strona [Komisji Europejskiej ds. rolnictwa](https://agriculture.ec.europa.eu) — nie jako przepis kulinarny, lecz jako przypomnienie, że nazwy regionalne mają definicję, a nie tylko sentyment.
+
+
+
+![Wędzony ser na desce](https://images.unsplash.com/photo-1718939046345-f607c89e92d9?w=1400&q=80)
 
 ## Prawdziwy oscypek a „oscypekopodobny” w niemieckim sklepie
 
@@ -186,6 +206,10 @@ Boczek to wariant bardziej sycący: cienki plasterek boczku owinięty wokół ka
 - **Piwo lub herbata** — u nas częściej herbata; piwo zostaje na spotkania towarzyskie.
 
 Jeśli planujesz oscypek jako przystawkę przed [placki ziemniaczane](/pl/rezepte/placki/ziemniaczane), trzymaj porcje małe — oba dania są sycące i ciężkie w sensie dobrym, nie w sensie „nie da się ruszyć z stołu”.
+
+
+
+![Oscypek na patelni — złocisty](https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?w=1400&q=80)
 
 ## Przechowywanie i zamienniki
 

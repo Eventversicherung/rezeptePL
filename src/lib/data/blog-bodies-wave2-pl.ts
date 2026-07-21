@@ -103,6 +103,10 @@ Sklejane pierogi z suchym farszem, spokojnie gotowane, często z masłem, cebul�
 
 **To nie pierogi:** [knedle ze śliwkami](/pl/rezepte/knedle-sliwki) to okrągłe knedle owocowe. [Pierogi leniwe](/pl/rezepte/pierogi-leniwe) to kluseczki z twarogu bez lepienia. Obie strony mają własne przepisy.
 
+
+
+![Danie z polskiej kuchni](https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=1400&q=80)
+
 ## Który farsz kiedy?
 
 | Wariant | Kiedy | Przepis |
@@ -113,7 +117,7 @@ Sklejane pierogi z suchym farszem, spokojnie gotowane, często z masłem, cebul�
 | Jagody | słodko, lato | [jagody](/pl/rezepte/pierogi/jagody) |
 | Uszka | małe pierogi w klarownej zupie | [uszka](/pl/rezepte/uszka) |
 
-Twaróg: [twaróg w Niemczech](/pl/blog/twarog-w-niemczech). Śmietana: [śmietana czy Schmand](/pl/blog/smietana-czy-schmand). Zakupy: [sklep polski](/pl/blog/sklep-polski-zakupy).
+O twarogu piszemy w [twaróg w Niemczech](/pl/blog/twarog-w-niemczech), o śmietanie w [śmietana czy Schmand](/pl/blog/smietana-czy-schmand). Specjały bierzemy w [sklepie polskim](/pl/blog/sklep-polski-zakupy).
 
 Jeden farsz na sesję — trzy naraz tylko wydłużają dzień.
 
@@ -131,7 +135,11 @@ Goście bez stresu: formujemy i mrozimy wcześniej, w dniu podania gotujemy z za
 - Za dużo farszu → słaby rant
 - Wszystko jednego dnia → słaba jakość
 
-Korekty i ilości: właściwy przepis. Ciasto: [ciasto na pierogi](/pl/blog/ciasto-na-pierogi). Partie: [mrożenie](/pl/blog/mrozenie-pierogow). Forma opcjonalnie: [foremki](/pl/blog/foremki-do-pierogow).
+Korekty i ilości: właściwy przepis. O cieście piszemy w [ciasto na pierogi](/pl/blog/ciasto-na-pierogi). Partie i mrożenie: [mrożenie](/pl/blog/mrozenie-pierogow). Forma opcjonalnie: [foremki](/pl/blog/foremki-do-pierogow).
+
+
+
+![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1626200419199-391ae4be7a41?w=1400&q=80)
 
 ## FAQ krótko
 
@@ -159,6 +167,10 @@ export const bodyFreezerMealPrepPl = `Zamrażarka w polskim domu w Niemczech nie
 
 My mrozimy [pierogi ruskie](/pl/rezepte/pierogi/ruskie), porcje [bigosu](/pl/rezepte/bigos), rosół bez makaronu i farsz do naleśników. Osobno trzymamy bazę, osobno dodatki, które po rozmrożeniu tracą strukturę. Śmietanę, świeże zioła i chrupiące surówki dodajemy dopiero przy podaniu. Dzięki temu danie nie smakuje jak „odgrzewane resztki”.
 
+
+
+![Danie z polskiej kuchni](https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?w=1400&q=80)
+
 ## Bezpieczny rytm
 
 Potrawę dzielimy na płaskie porcje, szybko schładzamy i opisujemy: nazwa, data, liczba porcji. My nie zamrażamy ponownie produktu, który już raz rozmroził się poza lodówką. Najbezpieczniej rozmrażać nocą w chłodzie lub od razu podgrzewać z zamrożenia, gdy przepis na to pozwala. Porcje z mięsem podgrzewamy dokładnie, a nie tylko do letniej temperatury.
@@ -166,6 +178,10 @@ Potrawę dzielimy na płaskie porcje, szybko schładzamy i opisujemy: nazwa, dat
 ## Menu na dwa tygodnie
 
 Jednego weekendu robimy pierogi, drugiego [żurek](/pl/rezepte/zurek) albo bigos. W tygodniu dokładamy prosty dodatek z lokalnego sklepu: sałatę, pieczone warzywa, chleb. Nie próbujemy mrozić całego życia; wystarczą cztery do sześciu porcji awaryjnych. To pomaga także wtedy, gdy dzieci wracają głodne, a my mamy mało energii.
+
+
+
+![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1606787366850-de6330128bfc?w=1400&q=80)
 
 ## FAQ — mrożenie domowych dań
 
@@ -192,6 +208,10 @@ My sprawdzamy najpierw średnicę: 7–9 cm pasuje do klasycznych ruskich, bardz
 
 Wykrawacz daje równe koła — dobry pierwszy krok. Prosta praska składa półksiężyc jednym ruchem, ale wymaga ćwiczenia z ilością farszu. Zestaw wielostanowiskowy ma sens przy [Wigilii](/pl/anlaesse/wigilia), gdy kręcimy setki sztuk; na co dzień często wystarczy jeden solidny wykrawacz i ręce.
 
+
+
+![Danie z polskiej kuchni](https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?w=1400&q=80)
+
 ## Klasy na 2026
 
 **Budget:** stabilny wykrawacz, jeśli chcemy ujednolicić rozmiar. **Allround:** wykrawacz plus prosta praska do regularnych partii. **Family-batch:** kilka identycznych wykrawaczy i duża taca — niekoniecznie skomplikowane urządzenie wielofunkcyjne. My nie kupujemy formy, która przy grubszym farszu ciągle się zacina albo której mycie trwa dłużej niż ręczne składanie.
@@ -203,6 +223,10 @@ Stal nierdzewna dobrze znosi mycie i nie chowa zapachów. Plastik jest lżejszy 
 ## Czy forma zastąpi technikę?
 
 Nie. Forma nie naprawi mokrego farszu ani ciasta bez odpoczynku. My najpierw opanowujemy ręczny szew, potem dokładamy narzędzie. Przy [pierogach ruskich](/pl/rezepte/pierogi/ruskie) testujemy jedną sztukę przed całą partią — forma też wymaga kalibracji ilości nadzienia.
+
+
+
+![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=1400&q=80)
 
 ## Mycie i przechowywanie
 
@@ -241,6 +265,10 @@ export const bodyPolnischeSuppenPl = `Polska zupa w Niemczech ma wielką przewag
 
 [Rosół](/pl/rezepte/rosol) budujemy na mięsie, warzywach i spokojnym gotowaniu. [Żurek](/pl/rezepte/zurek) potrzebuje dobrego zakwasu, majeranku i białej kiełbasy. Barszcz czerwony opiera się na burakach i kontroli kwasowości. [Kapuśniak](/pl/rezepte/kapusniak) korzysta z dobrej kapusty kiszonej, nie z nadmiaru przypraw — to zupa, nie bigos. [Ogórkowa](/pl/rezepte/ogorkowa) bierze kwas z ogórków kiszonych i zalewy. Wiosną [botwinka](/pl/rezepte/botwinka) — młode buraki z botwiną, ciepła i z dodatkami, jasno ≠ barszcz klarowny i ≠ zimny chłodnik. My wybieramy jedną zupę na tydzień i robimy ją tak, aby starczyła na dwa obiady.
 
+
+
+![Danie z polskiej kuchni](https://images.unsplash.com/photo-1547592166-23ac45744acd?w=1400&q=80)
+
 ## Flaki
 
 Gdy garnek chce treściwy dodatek i majeranek — nie buraki, nie zakwas, nie ogórek kiszony: [flaki](/pl/rezepte/flaki). Ilości i kroki są w przepisie; tutaj zostaje przegląd zup.
@@ -260,6 +288,10 @@ Gdy garnek chce treściwy dodatek i majeranek — nie buraki, nie zakwas, nie og
 ## Kasza: krupnik
 
 **Krupnik** — zupa z kaszy jęczmiennej i warzyw, opcjonalnie z kurczakiem — to linia jęczmienna, nie grochowa [grochówka](/pl/rezepte/grochowka) i nie grzybowa [zupa grzybowa](/pl/rezepte/zupa-grzybowa). Przepis: [krupnik](/pl/rezepte/krupnik).
+
+
+
+![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1547592180-85f173990554?w=1400&q=80)
 
 ## Zieleń / sezon: szczawiowa
 
@@ -305,6 +337,10 @@ Zimna woda na start, zbieranie piany, potem tylko lekkie mruczenie — bez burze
 
 Tę samą cierpliwość wykorzystują zupy z dodatkami jak [ogórkowa](/pl/rezepte/ogorkowa) i [kapuśniak](/pl/rezepte/kapusniak) — inny kwas, ta sama spokojna temperatura.
 
+
+
+![Danie z polskiej kuchni](https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?w=1400&q=80)
+
 ## Niedziela i resztki
 
 Rano zakładamy, przecedzamy, doprawiamy, makaron osobno. Mięso wyjmujemy zanim się rozpadnie — na farsz, sałatkę albo kolejny dzień. Po ostudzeniu zbieramy tłuszcz. Freezer bez makaronu: płaskie porcje, opis, dokładne podgrzanie.
@@ -320,6 +356,10 @@ Sól późno. Liść i ziele angielskie oszczędnie. Kostka rosołowa nie zastą
 - Spalona cebula → gorycz
 
 Ilości i kroki: [przepis na rosół](/pl/rezepte/rosol).
+
+
+
+![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1547592166-23ac45744acd?w=1400&q=80)
 
 ## FAQ krótko
 
@@ -346,6 +386,10 @@ export const bodyZakwasZurekPl = `Zakwas na żurek jest prosty, ale nie jest pro
 
 Używamy wyparzonego słoika, mąki żytniej i przegotowanej, ostudzonej wody. Dodajemy czosnek, czasem liść laurowy lub ziele angielskie. Słoik przykrywamy gazą albo luźną pokrywką — fermentacja potrzebuje wymiany powietrza, ale nie kurzu. Nie używamy naczynia z reaktywnego metalu.
 
+
+
+![Danie z polskiej kuchni](https://images.unsplash.com/photo-1606923829579-0cb981a83e2e?w=1400&q=80)
+
 ## Fermentacja bez pośpiechu
 
 Zakwas stoi w temperaturze pokojowej kilka dni, zależnie od ciepła kuchni. Codziennie sprawdzamy zapach i mieszamy czystą łyżką. Ma pachnieć wyraźnie kwaśno, zbożowo, nie zgniło ani pleśniowo. Gdy pojawi się puszysta pleśń, nietypowy kolor albo odpychający zapach, nie ratujemy go — zaczynamy od nowa.
@@ -353,6 +397,10 @@ Zakwas stoi w temperaturze pokojowej kilka dni, zależnie od ciepła kuchni. Cod
 ## Gotowanie żurku
 
 Do gorącego wywaru wlewamy przecedzony zakwas stopniowo, mieszając. Dodajemy majeranek, białą kiełbasę i ziemniaki według przepisu [żurek](/pl/rezepte/zurek). Zakwasu nie gotujemy agresywnie przez pół godziny; po połączeniu wystarczy spokojne dogotowanie i korekta smaku. Część zostawiamy jako bazę do następnego gotowania tylko wtedy, gdy była przechowywana higienicznie.
+
+
+
+![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1604908177528-946fc9d68799?w=1400&q=80)
 
 ## FAQ — własny zakwas
 
@@ -380,6 +428,10 @@ Duszone danie z kwasem kapusty kiszonej, często słodyczą białej kapusty, gł
 
 Często nie centrum Wigilii; mocny jako danie dla gości i zapas na tydzień. Dodatki: chleb, ziemniaki, [kasza](/pl/blog/kasza-gryczana), ogórki. Śmietana tylko według domu — [śmietana czy Schmand](/pl/blog/smietana-czy-schmand).
 
+
+
+![Danie z polskiej kuchni](https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=1400&q=80)
+
 ## Zakupy w DE
 
 Market: kapusta, cebula, przyprawy, jabłko lub śliwka oszczędnie. Sklep polski: kapusta kiszona, suszone grzyby, kiełbasa — [sklep polski](/pl/blog/sklep-polski-zakupy). Kapustę próbujemy przed gotowaniem: zbyt ostra — krótko spłukać (nie wypłukać smaku); zbyt słodka przemysłowa — unikać.
@@ -395,6 +447,10 @@ Cebula i mięso podsmażyć → kapusta → grzyby z płynem → przyprawy → s
 Płasko schłodzić, porcje, dokładnie podgrzać. Łagodniejsza porcja dla dzieci zmniejsza konflikt.
 
 Typowe błędy: sama kiszona; kiełbasa od początku; za dużo płynu; brak cierpliwości; za mało rumienia. Korekty: [przepis na bigos](/pl/rezepte/bigos).
+
+
+
+![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1432139509613-5c4255815697?w=1400&q=80)
 
 ## FAQ krótko
 
@@ -425,6 +481,10 @@ export const bodySmietanaSchmandPl = `Śmietana, Schmand, Crème fraîche i Quar
 
 Schmand jest gęsty i tłustszy, więc dobrze znosi ciepłe sosy. Saure Sahne jest lżejsza i może się zwarzyć, gdy dodamy ją prosto do wrzątku. Crème fraîche jest stabilna, ale ma inny, bardziej kremowy profil. Klasyczne zimne zastosowanie: [mizeria](/pl/rezepte/mizeria) z ogórkiem i koperkiem. Do farszu ruskiego wybieramy raczej odsączony Quark zgodnie z tekstem [twaróg w Niemczech](/pl/blog/twarog-w-niemczech), nie kubek śmietany.
 
+
+
+![Danie z polskiej kuchni](https://images.unsplash.com/photo-1563636619-e9143da7973b?w=1400&q=80)
+
 ## Hartowanie do zupy
 
 My mieszamy kilka łyżek gorącej zupy ze śmietaną w kubku, a dopiero potem wlewamy całość do garnka zdjętego z ognia. To ogranicza ryzyko zwarzenia. Przy [żurku](/pl/rezepte/zurek) i barszczu porcję śmietany można podać osobno — każdy ustawia kremowość po swojemu. W codziennej [zupie pomidorowej](/pl/rezepte/zupa-pomidorowa) ta sama logika zahartowania.
@@ -432,6 +492,10 @@ My mieszamy kilka łyżek gorącej zupy ze śmietaną w kubku, a dopiero potem w
 ## Smak i przechowywanie
 
 Produkty mleczne trzymamy chłodno i używamy czystej łyżki. Otwartego kubka nie traktujemy jak składnika wiecznego. My wybieramy tłustość pod danie, a nie pod hasło z opakowania: czasem mniej tłuszczu wystarczy, czasem pełniejszy produkt daje lepszy efekt w małej ilości.
+
+
+
+![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=1400&q=80)
 
 ## FAQ — śmietana i Schmand
 
@@ -454,6 +518,10 @@ export const bodyKielbasaArtenPl = `Kiełbasa w polskiej kuchni nie jest jedną 
 
 Biała kiełbasa pasuje do [żurku](/pl/rezepte/zurek) i pieczenia, ale nie potrzebuje agresywnego gotowania. Wędzona dodaje bigosowi, fasolce albo [grochówce](/pl/rezepte/grochowka) aromatu, dlatego używamy jej jako przyprawy, nie wyłącznie jako głównego mięsa. Kiełbasę kupowaną w Niemczech czytamy po składzie: udział mięsa, sól, woda i dodatki mówią więcej niż nazwa na etykiecie.
 
+
+
+![Danie z polskiej kuchni](https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=1400&q=80)
+
 ## Typy vs cook: kaszanka
 
 Ten leksykon porządkuje **rodzaje, jakość i zastosowanie** (żurek, bigos, kiełbasa na co dzień). Smażona **kaszanka z cebulą** ma osobny przepis — ilości i kroki na patelni są w [przepisie na kaszankę](/pl/rezepte/kaszanka), nie tutaj.
@@ -465,6 +533,10 @@ Gotowanie lub pieczenie **jasnej świeżej kiełbasy** to osobny przepis — ilo
 ## Bezpieczna obróbka
 
 Surowa biała kiełbasa musi być dogotowana, ale gotowana wędlina nie wymaga kolejnego długiego katowania. My rozdzielamy deskę i nóż po surowym mięsie, a resztki szybko chłodzimy. W żurku wkładamy kiełbasę w odpowiednim momencie, żeby była soczysta, a nie sucha i pęknięta.
+
+
+
+![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=1400&q=80)
 
 ## Zakup bez nostalgii
 
@@ -491,6 +563,10 @@ export const bodyErsatzproduktePl = `Zamienniki w Niemczech nie są porażką tr
 
 Twaróg zastępujemy odsączonym Quarkiem, bo szukamy zwartej, lekko kwaśnej struktury do [pierogów ruskich](/pl/rezepte/pierogi/ruskie) i do [makaronu z serem](/pl/rezepte/makaron-z-serem). Polską śmietanę dopasowujemy Schmandem albo saure Sahne, zależnie od temperatury dania. Mąkę do pierogów wybieramy 405 lub 550, obserwując wodę. Kapustę kiszoną kupujemy lokalnie tylko po próbie smaku; jeśli jest zbyt słodka, nie uratuje jej sama ilość majeranku.
 
+
+
+![Danie z polskiej kuchni](https://images.unsplash.com/photo-1604719312566-8912e9227c6a?w=1400&q=80)
+
 ## Testuj małą porcję
 
 My przy nowym produkcie gotujemy jeden pieróg, jedną chochlę zupy albo mały kawałek farszu. To zabezpiecza cały obiad. Zmiennik może mieć więcej wody, soli czy tłuszczu, dlatego przepis traktujemy jako punkt wyjścia. Właśnie w ten sposób powstaje własna, niemiecko-polska wiedza kuchni.
@@ -498,6 +574,10 @@ My przy nowym produkcie gotujemy jeden pieróg, jedną chochlę zupy albo mały 
 ## Kiedy nie iść na skróty
 
 Zakwas do żurku, dobre grzyby suszone i charakterystyczna kiełbasa bywają rdzeniem dania. My nie zastępujemy ich przypadkowym produktem bez sprawdzenia, tylko zmieniamy menu albo robimy bazę samodzielnie. Więcej o zakupach: [sklep polski](/pl/blog/sklep-polski-zakupy).
+
+
+
+![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1542838132-92c53300491e?w=1400&q=80)
 
 ## FAQ — zamienniki
 
@@ -520,6 +600,10 @@ export const bodyWielkanocPl = `Wielkanoc w Niemczech nie musi być próbą odtw
 
 My wybieramy żurek lub barszcz biały, jajka, jedną dobrą sałatkę — często [mizerię](/pl/rezepte/mizeria) albo świąteczną [sałatkę jarzynową](/pl/rezepte/salatka-jarzynowa) (majonez i warzywa ≠ ogórek ze śmietaną) — i wypiek albo deser. Osobna linia bufetowa: [jajka faszerowane](/pl/rezepte/jajka-faszerowane) (≠ sałatka, ≠ mizeria). Ostry zimny relish burak–chrzan: [ćwikła](/pl/rezepte/cwikla) (≠ ciepłe [buraczki](/pl/rezepte/buraczki), ≠ barszcz/botwinka). Menu zostaje planem okazji. Wiosną opcjonalnie ciepła [botwinka](/pl/rezepte/botwinka). Klasyczna forma: [babka](/pl/rezepte/babka) (ciasto drożdżowe z formy); płaski placek z wierzchem: [mazurek orzechowy](/pl/rezepte/mazurek) (ilości w przepisie; menu zostaje planem stołu). Alternatywnie [sernik](/pl/rezepte/sernik) albo kupiony wypiek bez wstydu. Pleciony chleb drożdżowy (nie babka z formy): [chałka](/pl/rezepte/chalka) — przepis tam; menu zostaje planem stołu. Domowy [pasztet drobiowy](/pl/rezepte/pasztet) na zimną półmiskę — jasno ≠ [kaszanka](/pl/rezepte/kaszanka); typy wędlin zostają w [rodzajach kiełbasy](/pl/blog/rodzaje-kielbasy). Do tego ugotowana [biała kiełbasa](/pl/rezepte/biala-kielbasa) (rodzaje zostają w [leksykonie kiełbasy](/pl/blog/rodzaje-kielbasy)), chrzan oraz pieczywo. Jeśli przyjeżdża rodzina, można dodać [bigos](/pl/rezepte/bigos) lub pierogi, ale nie robimy wszystkiego tylko dlatego, że „tak wypada”. Świąteczny stół ma być gościnny także dla gospodarzy.
 
+
+
+![Danie z polskiej kuchni](https://images.unsplash.com/photo-1525310072745-f49212b5ac6d?w=1400&q=80)
+
 ## Harmonogram
 
 W czwartek kupujemy suche produkty i sprawdzamy lodówkę. W piątek gotujemy zakwas lub wywar, robimy ciasto, a w sobotę przygotowujemy dodatki zimne. W niedzielę zostawiamy tylko podgrzanie i składanie. My dzielimy zakupy na niemiecki supermarket oraz sklep polski, aby nie szukać na ostatnią chwilę majeranku czy białej kiełbasy.
@@ -527,6 +611,10 @@ W czwartek kupujemy suche produkty i sprawdzamy lodówkę. W piątek gotujemy za
 ## Jajka i bezpieczeństwo
 
 Jajka przechowujemy zgodnie z informacją na opakowaniu, a dania z majonezem nie stoją godzinami na ciepłym stole. Przy dzieciach, seniorach i kobietach w ciąży szczególnie pilnujemy higieny. Domowy chrzan, ćwikła i sałatka są świetne, jeśli robimy je w ilości, którą realnie zjemy.
+
+
+
+![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1495521821757-a1efb6729352?w=1400&q=80)
 
 ## FAQ — Wielkanoc w DE
 
@@ -549,6 +637,10 @@ export const bodyTlustyCzwartekPl = `Tłusty czwartek w Niemczech może być ma�
 
 My decydujemy wcześniej: kupujemy kilka dobrych pączków, robimy faworki albo smażymy małą partię domową. Niemiecki „Berliner” bywa miły, ale ma inną strukturę i nadzienie; nie musi udawać polskiego pączka. Jeśli pieczemy, dbamy o świeże drożdże, temperaturę mleka i odpoczynek ciasta. Ilości i kroki: [przepis na pączki](/pl/rezepte/paczki). Gesty drożdży, nadzienia i tłuszczu: [technika pączków](/pl/blog/paczki-technika) — ten artykuł zostaje okazją i kulturą, nie przewodnikiem po gotowania.
 
+
+
+![Danie z polskiej kuchni](https://images.unsplash.com/photo-1551024601-bec78aea704b?w=1400&q=80)
+
 ## Smażenie spokojnie
 
 Tłuszcz ogrzewamy stabilnie, nie na maksymalnej mocy. Zbyt chłodny da ciężkie, nasiąknięte sztuki, a zbyt gorący spali skórkę przed upieczeniem środka. My smażymy po kilka pączków, odsączamy je na papierze i nie zostawiamy garnka bez nadzoru. Dzieci trzymamy z dala od strefy gorącego tłuszczu. Szczegóły techniki bez kradzieży fokus przepisu: [technika pączków](/pl/blog/paczki-technika).
@@ -556,6 +648,10 @@ Tłuszcz ogrzewamy stabilnie, nie na maksymalnej mocy. Zbyt chłodny da ciężki
 ## Bez presji
 
 Jedzenie jednego pączka nie wymaga „odrabiania” go następnego dnia. My celebrujemy smak, dzielimy się i kończymy wtedy, gdy mamy dość. To zdrowszy rytuał niż liczenie albo wstyd.
+
+
+
+![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1558326567-98ae2405596b?w=1400&q=80)
 
 ## FAQ — tłusty czwartek
 
@@ -585,6 +681,10 @@ export const bodySonntagsessenPl = `Niedzielny obiad nie musi zaczynać się o s
 
 My wybieramy jedno danie główne, prosty dodatek i coś świeżego. Może to być [rosół](/pl/rezepte/rosol) oraz pieczone mięso z ziemniakami, pierogi z [mizerią](/pl/rezepte/mizeria), chłodna [sałatka jarzynowa](/pl/rezepte/salatka-jarzynowa) jako majonezowy dodatek bufetowy (inny temat niż mizeria), ciepła [kapusta zasmażana](/pl/rezepte/kapusta-zasmażana), ciepłe [buraczki](/pl/rezepte/buraczki) (dodatek ≠ botwinka-zupa, ≠ barszcz), treściwa [grochówka](/pl/rezepte/grochowka) (groch ≠ fasolka, ≠ kapuśniak), zupa jęczmienna [krupnik](/pl/rezepte/krupnik) albo [bigos](/pl/rezepte/bigos) z chlebem. Na słodko do kawy często wystarczy jedna blacha [szarlotki](/pl/rezepte/szarlotka) (≠ [racuchy](/pl/rezepte/racuchy-jablka) na patelni) albo pleciona [chałka](/pl/rezepte/chalka) (≠ [babka](/pl/rezepte/babka)). Na zimną półmiskę: [pasztet drobiowy](/pl/rezepte/pasztet) — jasno ≠ [kaszanka](/pl/rezepte/kaszanka). Nie potrzebujemy przystawki, dwóch deserów i pięciu misek, aby dom pachniał niedzielą.
 
+
+
+![Danie z polskiej kuchni](https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1400&q=80)
+
 ## Mięso niedzielne (piec i duszenie)
 
 Obok schabowego warto spokojne mięso: [golonka](/pl/rezepte/golonka) duszona na kości (jasno ≠ panierka, ≠ żeberka, ≠ schab z pieca), [żeberka pieczone](/pl/rezepte/zeberka) z piekarnika (majeranek, musztarda), [schab pieczony](/pl/rezepte/schab-pieczony) jako pieczeń z pieca (bez panierki — jasno ≠ kotlet schabowy) albo [rolada śląska](/pl/rezepte/rolada-slaska) duszona — wyraźnie osobno od [zrazów](/pl/rezepte/zrazy) (inna logika farszu). To nie gulasz w garnku; tutaj zostaje rama niedzieli, ilości i kroki są w przepisach. Na szybszy garnek paprykowo-pomidorowy z kiełbasą (warzywa prowadzą, jasno ≠ gulasz wieprzowy): [leczo](/pl/rezepte/leczo). Talerz złożony: placki **z** gulaszem na wierzchu — [placek po węgiersku](/pl/rezepte/placek-po-wegiersku); osobne przepisy na placki i gulasz zostają osobnymi daniami.
@@ -602,6 +702,10 @@ Codzienność i spokojna niedziela: [klopsy w sosie koperkowym](/pl/rezepte/klop
 ## Dodatek do rosołu: kluski kładzione
 
 Do jasnego bulionu pasują świeże kluski: [kluski kładzione](/pl/rezepte/kluski-kladzione) — ciasto łyżką, nie knedle z dziurką jak [kluski śląskie](/pl/rezepte/kluski-slaskie).
+
+
+
+![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1400&q=80)
 
 ## Podziel pracę w czasie
 
@@ -632,6 +736,10 @@ export const bodyKiszeniePl = `Kiszenie to nie trend, lecz praktyczna technika, 
 
 My używamy czystych słoików, świeżych warzyw i soli bez dodatków przeciwzbrylających, jeśli przepis tego wymaga. Warzywa muszą pozostać pod zalewą; kontakt z powietrzem zwiększa ryzyko pleśni. Słoik stawiamy na talerzyku, bo fermentacja potrafi wypchnąć płyn.
 
+
+
+![Danie z polskiej kuchni](https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=1400&q=80)
+
 ## Obserwuj, nie zgaduj
 
 Fermentacja pachnie kwaśno i świeżo, może musować, ale nie powinna budzić odrazy. My nie próbujemy produktu z widoczną pleśnią albo nietypowym zapachem. Po osiągnięciu smaku, który nam odpowiada, przenosimy słoik do lodówki. Temperatura kuchni w Niemczech zimą i latem będzie inna, więc czas z przepisu traktujemy jako orientacyjny.
@@ -639,6 +747,10 @@ Fermentacja pachnie kwaśno i świeżo, może musować, ale nie powinna budzić 
 ## Jak używać
 
 Kiszoną kapustę dodajemy do [bigosu](/pl/rezepte/bigos), do [kapuśniaka](/pl/rezepte/kapusniak), ciepłej [kapusty zasmażanej](/pl/rezepte/kapusta-zasmażana), farszu i surówek. Ogórki podajemy do obiadu albo gotujemy z nich [ogórkową](/pl/rezepte/ogorkowa); zalewę wykorzystujemy ostrożnie. My zaczynamy od małych słoików — łatwiej zrozumieć własną kuchnię niż zmarnować pięć litrów.
+
+
+
+![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1400&q=80)
 
 ## FAQ — kiszenie
 
@@ -668,6 +780,10 @@ export const bodyFleischwolfPl = `Maszynka do mięsa ma sens, gdy regularnie rob
 
 Ręczna maszynka sprawdzi się przy małej ilości, jeśli mamy stabilny blat i cierpliwość. Elektryczna daje wygodę przy większych porcjach, ale potrzebuje miejsca oraz dokładnego mycia. Przystawka do robota ma sens tylko wtedy, gdy już mamy zgodny model. My wybieramy metalowe elementy kontaktowe, kilka rozmiarów sit i możliwość kupienia noża albo ślimaka osobno.
 
+
+
+![Danie z polskiej kuchni](https://images.unsplash.com/photo-1556911220-bff31c8120b0?w=1400&q=80)
+
 ## Mięso i struktura
 
 Mięso trzymamy zimne, kroimy na równe kawałki i usuwamy twarde błony. Nie przepuszczamy go przez maszynkę, gdy jest ciepłe i miękkie. Do farszu z rosołu mielimy mięso z odrobiną warzyw, a potem doprawiamy i testujemy mały pieróg. Jedno mielenie daje bardziej wyczuwalną strukturę, dwa — gładszą masę.
@@ -675,6 +791,10 @@ Mięso trzymamy zimne, kroimy na równe kawałki i usuwamy twarde błony. Nie pr
 ## Mycie bez kompromisów
 
 Po surowym mięsie rozkładamy urządzenie od razu. Myjemy części zgodnie z instrukcją, suszymy całkowicie i nie wkładamy ręki do gardzieli przy podłączonym sprzęcie. My nie odkładamy zaschniętego tłuszczu „na jutro”, bo potem sprzęt jest mniej higieniczny i trudniejszy do użycia.
+
+
+
+![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=1400&q=80)
 
 ## FAQ — maszynka do mięsa
 
@@ -704,6 +824,10 @@ export const bodyDutchOvenPl = `Garnek typu Dutch oven jest przydatny nie dlateg
 
 My sprawdzamy liczbę domowników i wielkość płyty. Garnek 4–5 litrów wystarcza wielu rodzinom na obiad oraz jedną porcję na jutro; większy przydaje się do batchowania, ale jest ciężki w zlewie. Pokrywka musi leżeć stabilnie, a uchwyt pozwalać na bezpieczne użycie rękawic kuchennych.
 
+
+
+![Danie z polskiej kuchni](https://images.unsplash.com/photo-1585515320310-259814833e62?w=1400&q=80)
+
 ## Od palnika do piekarnika
 
 Najpierw rozgrzewamy garnek umiarkowanie, potem obsmażamy mięso partiami. Nie wrzucamy wszystkiego naraz, bo temperatura spadnie i zamiast karmelizacji powstanie gotowanie. Po dodaniu płynu i warzyw garnek przejmuje spokojną, długą pracę w piekarniku. To świetne rozwiązanie na niedzielę, gdy chcemy mieć wolne ręce — także przy duszonej [roladzie śląskiej](/pl/rezepte/rolada-slaska): obsmażyć, zalać, pokrywka.
@@ -711,6 +835,10 @@ Najpierw rozgrzewamy garnek umiarkowanie, potem obsmażamy mięso partiami. Nie 
 ## Emalia czy surowe żeliwo
 
 Emalia jest łatwiejsza przy kwaśnych daniach i codziennym myciu. Surowe żeliwo wymaga sezonowania, ale daje mocną powierzchnię do smażenia. My wybieramy materiał pod sposób użycia, a nie pod kolor. Więcej o pielęgnacji: [żeliwo w kuchni](/pl/blog/gusseisen).
+
+
+
+![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=1400&q=80)
 
 ## FAQ — Dutch oven
 
@@ -740,6 +868,10 @@ export const bodyGusseisenPl = `Żeliwo odwdzięcza się za regularność, nie z
 
 Surowe żeliwo myjemy i osuszamy zgodnie z instrukcją, potem nakładamy bardzo cienką warstwę oleju o wysokiej temperaturze dymienia. Celem nie jest lepka skorupa, tylko cienka, utwardzona warstwa. My powtarzamy proces cierpliwie, zamiast nalewać pół szklanki oleju i liczyć na cud.
 
+
+
+![Danie z polskiej kuchni](https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=1400&q=80)
+
 ## Codzienna pielęgnacja
 
 Po gotowaniu zdejmujemy resztki, myjemy bez długiego moczenia, dokładnie suszymy i lekko natłuszczamy, jeśli powierzchnia tego potrzebuje. Rdza nie jest końcem świata: zwykle można ją usunąć, wysuszyć naczynie i ponownie zabezpieczyć. Żeliwo nie lubi przechowywania mokrego ani gwałtownych zmian temperatury.
@@ -762,6 +894,10 @@ W wielu przypadkach tak, lecz my nie skrobiemy agresywnie świeżej powłoki.
 
 Nie. My upewniamy się, że jest całkowicie sucha.
 
+
+
+![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1585515320310-259814833e62?w=1400&q=80)
+
 ## Realistyczna ocena po zakupie
 
 My nie oceniamy sprzętu w dniu rozpakowania. Pierwsze użycie bywa niezręczne — nowe zatrzaski, inna waga, inny hałas. Dopiero trzecia i czwarta sesja pokazują, czy narzędzie naprawdę wspiera naszą kuchnię. My zapisujemy: ile minut zaoszczędziliśmy, czy mycie nie zniechęca, czy efekt jest powtarzalny. Jeśli sprzęt stoi tygodniami, to sygnał — nie wina, tylko informacja. Można go sprzedać, przekazać albo zmienić sposób pracy.
@@ -782,6 +918,10 @@ export const bodyTeigmaschineUpgradePl = `Wymiana robota do ciasta nie powinna w
 
 My zapisujemy, co dokładnie nie działa. Za mała misa? Za słaby hak? Zbyt głośna praca? Brak części? Każdy problem prowadzi do innego rozwiązania. Czasem wystarczy robić dwa mniejsze batche lub poprawić [ciasto na pierogi](/pl/blog/ciasto-na-pierogi); czasem nowy sprzęt rzeczywiście oszczędzi barki i czas przed świętami.
 
+
+
+![Danie z polskiej kuchni](https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=1400&q=80)
+
 ## Co porównać
 
 Pojemność, stabilność, realne ograniczenia dla ciężkiego ciasta, materiał haka, dostępność części i warunki gwarancji są ważniejsze niż deklarowane waty na pudełku. My czytamy instrukcję konkretnego modelu: producenci często podają maksymalną ilość mąki oraz wymagane przerwy. Robot, który dobrze ubija pianę, nie musi dobrze wyrabiać zwartej masy.
@@ -789,6 +929,10 @@ Pojemność, stabilność, realne ograniczenia dla ciężkiego ciasta, materiał
 ## Zmiana bez generowania elektrośmieci
 
 Jeśli stary sprzęt działa, rozważamy naprawę, sprzedaż lub przekazanie komuś, kto użyje go do lżejszych zadań. My nie kupujemy wszystkich nasadek w dniu wymiany. Najpierw sprawdzamy podstawowy hak i misę przez kilka tygodni, potem decydujemy, czy wałkowarka lub maszynka do mięsa naprawdę wejdą do rytmu domu.
+
+
+
+![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1571115177098-24ec42ed204d?w=1400&q=80)
 
 ## FAQ — upgrade robota
 

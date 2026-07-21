@@ -1,17 +1,21 @@
 /** Wave 8 Paket C — Pączki Technik pillar (PL). */
 export const bodyPaczekTechnikPl = `
-Pączki to dla wielu z nas miękka, nadziewana część Tłustego Czwartku: ciasto drożdżowe, nadzienie, gorący tłuszcz, cukier puder. W Niemczech dzień pada często nie przez brak chęci, lecz przez technikę — ciasto za ciężkie, tłuszcz za chłodny, nadzienie za mokre, pośpiech rano. Ten przewodnik wspiera przepis [Pączki](/pl/rezepte/paczki) i artykuł kulturowy [Tłusty Czwartek](/pl/blog/tlusty-czwartek-przepisy) — bez powielania ilości, bez fałszywego teatru „lab” i bez kanibalizacji ownera okazji.
+Pączki to dla wielu z nas miękka, nadziewana część Tłustego Czwartku: ciasto drożdżowe, nadzienie, gorący tłuszcz, cukier puder. W Niemczech dzień pada często nie przez brak chęci, lecz przez technikę — ciasto za ciężkie, tłuszcz za chłodny, nadzienie za mokre, pośpiech rano. Ten przewodnik wspiera przepis [Pączki](/pl/rezepte/paczki) i artykuł kulturowy [Tłusty Czwartek](/pl/blog/tlusty-czwartek-przepisy) — bez powielania ilości i bez fałszywego teatru laboratorium.
 
-## Czym jest ten filar (a czym nie)
+## O czym jest ten przewodnik
 
-Tu chodzi o **technikę drożdży i smażenia polskich pączków**: prowadzenie ciasta, wyrastanie, formowanie, nadziewanie, temperatura tłuszczu, lukier lub cukier, typowe błędy, zakupy w DE i spokojny przebieg. Przepis zostaje ownerem „pączki przepis” z gramami i krokami. [Tłusty Czwartek](/pl/blog/tlusty-czwartek-przepisy) zostaje ownerem okazji, kultury i miary — nie intentu gotowania. [Technika faworków](/pl/blog/faworki-technika) zostaje ownerem cienkiego, smażonego ciasta — pokrewne pieczenie świąteczne, inna metoda.
+Tu chodzi o **technikę drożdży i smażenia polskich pączków**: prowadzenie ciasta, wyrastanie, formowanie, nadziewanie, temperatura tłuszczu, lukier lub cukier, typowe błędy, zakupy w DE i spokojny przebieg. Gramów i kroków szukaj w przepisie. [Tłusty Czwartek](/pl/blog/tlusty-czwartek-przepisy) opisuje okazję, kulturę i miarę. [Technika faworków](/pl/blog/faworki-technika) dotyczy cienkiego, smażonego ciasta — pokrewne pieczenie świąteczne, inna metoda.
 
-Pączki to nie niemiecki Berliner i nie klisza „krapfen”: to **miękkie ciasto drożdżowe**, często z różą, powidłami lub innymi domowymi nadzieniami, złote na zewnątrz, puszyste w środku, po smażeniu posypane cukrem lub lekko lukrowane. Kto szuka tylko „czegoś słodkiego na drożdżach”, łatwo ląduje przy racuchach — smaczne, ale patelnia zamiast frytkownicy i inne słowo kluczowe.
+Pączki to nie niemiecki Berliner i nie klisza „krapfen”: to **miękkie ciasto drożdżowe**, często z różą, powidłami lub innymi domowymi nadzieniami, złote na zewnątrz, puszyste w środku, po smażeniu posypane cukrem lub lekko lukrowane. Kto szuka tylko „czegoś słodkiego na drożdżach”, łatwo ląduje przy racuchach — smaczne, ale patelnia zamiast frytkownicy.
+
+
+
+![Danie z polskiej kuchni](https://images.unsplash.com/photo-1558326567-98ae2405596b?w=1400&q=80)
 
 ## Co gdzie należy
 
 - **Okazja / kultura:** [Tłusty Czwartek](/pl/blog/tlusty-czwartek-przepisy) — dzień, kupić vs robić, dzielenie, miara
-- **Technika pączków:** ten filar — drożdże, nadzienie, tłuszcz
+- **Technika pączków:** ten tekst — drożdże, nadzienie, tłuszcz
 - **Przepis:** [pączki](/pl/rezepte/paczki) — ilości i kroki
 - **Faworki:** [technika](/pl/blog/faworki-technika) + [przepis](/pl/rezepte/faworki) — chrust, nie pączek
 - **Pokrewieństwo drożdży w piecu:** [technika makowca](/pl/blog/makowiec-technika) — drożdże i cierpliwość, ale piec zamiast kąpieli w tłuszczu
@@ -50,9 +54,13 @@ Bezpieczeństwo: dystans dzieci, stabilny garnek, pokrywka w zasięgu, nigdy wod
 
 Za chłodny tłuszcz, za mokre nadzienie, za dużo mąki, drożdże zabite gorącym mlekiem, za krótkie wyrastanie, za duże sztuki, cukier dopiero po całkowitym wystygnięciu (słabo trzyma), równoległa produkcja faworków bez planu. Też błąd: wymyślać pączki i [faworki](/pl/rezepte/faworki) „przy okazji” tego samego rana — dwa projekty tłuszczowe potrzebują osobnych okien albo jasnego priorytetu (często: jedno domowe, jedno kupione).
 
+
+
+![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1551024601-bec78aea704b?w=1400&q=80)
+
 ## Zakupy w Niemczech
 
-Lista według charakteru: mąka typ 405 lub 550, drożdże świeże lub suszone, mleko, masło, jajka, cukier, nadzienie, olej lub smalec, cukier puder. [Sklep polski](/pl/blog/sklep-polski-zakupy) po konfiturę różaną i składniki świąteczne. Market po bazę. Zamienniki: [zamienniki składników](/pl/blog/zamienniki-skladnikow). Kupione pączki z dobrej cukierni są legitimne — ten filar jest do robienia w domu, nie przeciw kupowaniu.
+Lista według charakteru: mąka typ 405 lub 550, drożdże świeże lub suszone, mleko, masło, jajka, cukier, nadzienie, olej lub smalec, cukier puder. [Sklep polski](/pl/blog/sklep-polski-zakupy) po konfiturę różaną i składniki świąteczne. Market po bazę. Sensowne zamiany opisują [zamienniki składników](/pl/blog/zamienniki-skladnikow). Kupione pączki z dobrej cukierni są legitimne — ten tekst jest do robienia w domu, nie przeciw kupowaniu.
 
 Narzędzia: duży garnek lub frytkownica, łyżka cedzakowa, termometr pomocny ale nie obowiązkowy, papier/ściereczki do wyrastania. Robot nie jest obowiązkowy — pomaga przy dużych ilościach.
 
@@ -74,7 +82,7 @@ Najczęściej za chłodny tłuszcz albo zbyt gęste wyrastanie. Sprawdź tempera
 
 ### Berliner czy pączek — to to samo?
 
-Pokrewne w idei, inne w nadzieniu, kulturze ciasta i keyword. Ten filar mówi o polskich pączkach — nie o niemieckim Berlinerze jako primary.
+Pokrewne w idei, inne w nadzieniu i kulturze ciasta. Ten tekst mówi o polskich pączkach — nie o niemieckim Berlinerze jako zamienniku jeden-do-jednego.
 
 ### Czy można piec pączki w piekarniku?
 
@@ -86,7 +94,7 @@ Przykryte kilka godzin do nocy. Przed formowaniem doprowadzić do temperatury po
 
 ### Czym różnią się od faworków?
 
-Faworki są cienkie, bez nadzienia, od razu chrupiące; pączki miękkie, nadziewane, drożdżowe. Technika i primary zostają osobno — zobacz [technikę faworków](/pl/blog/faworki-technika).
+Faworki są cienkie, bez nadzienia, od razu chrupiące; pączki miękkie, nadziewane, drożdżowe. To dwie osobne techniki — zobacz [technikę faworków](/pl/blog/faworki-technika).
 
 ### Gdzie są dokładne ilości?
 
@@ -117,7 +125,7 @@ W praktyce liczy się powtórzenie bardziej niż perfekcja za pierwszym razem: t
 
 Dla domów w Niemczech sklep polski zostaje celowym przystankiem po nadzienie i składniki świąteczne, nie po każdy gram mąki. Market po bazę, specjalność tam, gdzie niesie charakter.
 
-Linki wewnętrzne na Alemniam są świadome: przewodniki do techniki i okazji, przepisy do ilości i kroków. Jeden primary-keyword URL zostaje ownerem — inne strony linkują opisowo, bez kradzieży intentu.
+Na Alemniam przewodniki zostają przy technice i okazjach; ilości i kroki są w przepisach. Linkujemy opisowo, żeby każdy tekst miał jasne zadanie przy stole.
 
 Kto chce odciążyć słodką część Tłustego Czwartku, planuje świadomie: ciasto wcześniej, tłuszcz później, goście z kawą zamiast z presją wyniku. Zapach przy wyrastaniu wystarczy jako przedsmak; przy stole liczy się dzielenie bardziej niż perfekcja lukru.
 

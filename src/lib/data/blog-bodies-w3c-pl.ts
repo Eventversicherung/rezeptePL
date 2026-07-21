@@ -15,6 +15,10 @@ Panierka daje **chrupkość, barierę wilgoci i równomierne rumienienie**. Mię
 
 W Niemczech porównujemy często do Wiener Art — tam cieniej, jaśniej, często bez mocnego rozbicia. Polski schabowy bywa **grubszy po rozbiciu**, panierka ciemniejsza (stara bułka, własna tarta bułka). Nie chodzi o „lepszy” styl, tylko o inną technikę. Kto panieruje po polsku w Monachium czy Berlinie, musi to wiedzieć — inaczej wychodzi coś w połowie między obiema tradycjami i nikt z rodziny nie jest zadowolony.
 
+
+
+![Danie z polskiej kuchni](https://images.unsplash.com/photo-1604908177528-946fc9d68799?w=1400&q=80)
+
 ## Przygotowanie mięsa: rozbicie, grubość, sól
 
 **Wybór mięsa:** Schab bez kości, równy placek — w DE często „Schweineschnitzel natur” albo „Schweinerücken“. Grubość przed rozbiciem ok. 1–1,5 cm; po rozbiciu ok. 4–6 mm. Za gruby środek = surowy rdzeń przy zbyt krótkim smażeniu. Za cienki = suszone płaty.
@@ -70,6 +74,10 @@ Kolejność jest święta: **mąka → jajo → bułka tarta**. Każda warstwa m
 **Sól dwa razy:** Solone mięso + sól w bułce + sól na talerzu = za słone. Trzymamy sól na etapie mięsa.
 
 **Nie klopsy:** [Klopsy / pulpety](/pl/rezepte/klopsy) to kulki w sosie bez trójstopniowej panierki — inna technika niż panierowany [kotlet mielony](/pl/rezepte/kotlet-mielony).
+
+
+
+![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1432139555190-58575bd5c0be?w=1400&q=80)
 
 ## Warianty: panko, bez jaja, inne mięso
 
@@ -130,6 +138,10 @@ Obok: [technika rosołu](/pl/blog/jak-ugotowac-rosol). Przegląd: [polskie zupy]
 
 Klarowny **czerwony** jest przecedzony, rubinowy, bez śmietany w garnku — inny niż biały, ukraiński czy gęsta zupa buraczana na co dzień. Na Wigilię często bez mięsa, z [uszkami](/pl/rezepte/uszka); w niedzielę wywar może być mięsny. Ciepła wiosenna botwina: [botwinka](/pl/rezepte/botwinka) — nie klarowny barszcz i nie zimny chłodnik.
 
+
+
+![Danie z polskiej kuchni](https://images.unsplash.com/photo-1608818580423-ccfb08a254af?w=1400&q=80)
+
 ## Buraki i zakupy w DE
 
 **Świeże:** pełniejszy smak, więcej pracy. **Vacuum / słoik:** standard diasporowy. **Koncentrat:** szybko — często łączymy z własnym wywarem na kolor i głębię. Soku z buraka nie wylewamy. Marki z PL: [sklep polski](/pl/blog/sklep-polski-zakupy).
@@ -147,6 +159,10 @@ Wywar roślinny w Wigilię — [menu wigilijne](/pl/blog/menu-wigilijne). Mała 
 Podgrzewać łagodnie. Freezer bez śmietany i bez uszek. Lodówka 3–4 dni — drugi dzień często lepszy.
 
 Ilości: [przepis barszcz](/pl/rezepte/barszcz-czerwony). Uszka: [uszka](/pl/rezepte/uszka).
+
+
+
+![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1547592180-85f173990554?w=1400&q=80)
 
 ## FAQ krótko
 
@@ -181,6 +197,10 @@ Warianty: [cukinia](/pl/rezepte/placki/cukinia), [ser](/pl/rezepte/placki/ser), 
 
 Tarte **surowe** kartofle z jajkiem i odrobiną mąki/skrobi, smażone na patelni — płaskie placki, nie pieczone ziemniaki. Blisko niemieckiego Reibekuchen, zwykle cieńsze i chrupiące; partner często śmietana lub gulasz zamiast musu jabłkowego. Patelnia: [żeliwo](/pl/blog/patelnia-zelivna). Kontekst: [obiad niedzielny](/pl/blog/obiad-niedzielny).
 
+
+
+![Danie z polskiej kuchni](https://images.unsplash.com/photo-1573080496219-b83aa30643ae?w=1400&q=80)
+
 ## Kartofle i wilgoć (krótko)
 
 Mączyste / mehlig lepiej trzymają formę. Klucz: mocno odsączyć masę — za mokro klei się i robi gumę. Skrobię z dna miski zostawić. Ilości w przepisie — tu tylko dźwignia.
@@ -200,6 +220,10 @@ Ciepłe trzymanie: piekarnik 80–100 °C, osobno, bez stosu. Resztki chrupić n
 Śmietana zimna na talerzu — [śmietana czy Schmand](/pl/blog/smietana-czy-schmand). Solo z sałatą albo [kaszą](/pl/blog/kasza-gryczana). Placki od razu — tekstura cierpi co minutę.
 
 Głód gotowania: [placki ziemniaczane](/pl/rezepte/placki/ziemniaczane).
+
+
+
+![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=1400&q=80)
 
 ## FAQ krótko
 

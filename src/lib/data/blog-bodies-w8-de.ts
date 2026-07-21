@@ -8,6 +8,10 @@ Hier geht es um **Hefetechnik und Frittieren für polnische Pączki**: Teigführ
 
 Pączki sind kein deutscher Berliner und kein Krapfen-Klischee: Es ist ein **weicher Hefeteig**, oft mit Rose, Pflaume oder anderen Hausfüllungen, außen gold, innen luftig, nach dem Braten gezuckert oder leicht glasiert. Wer nur „etwas Süßes mit Hefe“ sucht, landet leicht bei Racuchy — schmeckt, ist aber Pfanne statt Fritteuse und ein anderes Gericht.
 
+
+
+![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1558326567-98ae2405596b?w=1400&q=80)
+
 ## Was wohin gehört
 
 - **Anlass / Kultur:** [Tłusty Czwartek](/de/blog/tlusty-czwartek) — Tag, Kaufen vs. Backen, Teilen, Maß
@@ -50,9 +54,13 @@ Sicherheit: Kinderabstand, stabiler Topf, Deckel in Reichweite, nie Wasser ins h
 
 Zu kaltes Fett, zu nasse Füllung, zu viel Mehl, Hefe mit heißer Milch abgetötet, zu kurzes Gehen, zu große Stücke, Zucker erst nach dem kompletten Auskühlen (hält dann schlecht), parallele Faworki-Produktion ohne Zeitplan. Auch der Irrtum, Pączki und [Faworki](/de/rezepte/faworki) am selben Morgen „nebenbei“ zu erfinden — zwei Fettprojekte brauchen getrennte Fenster oder klare Priorität (oft: eine selbst, eine gekauft).
 
+
+
+![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1551024601-bec78aea704b?w=1400&q=80)
+
 ## Einkaufen in Deutschland
 
-Liste nach Charakter: Mehl Type 405 oder 550, Frisch- oder Trockenhefe, Milch, Butter, Eier, Zucker, Füllung, Frittieröl oder Schmalz, Puderzucker. [Polenladen](/de/blog/polenladen-einkaufen) für Rosenmarmelade und Feiertagszutaten. Supermarkt für Basis. Ersatz: [Zutaten ersetzen](/de/blog/ersatzprodukte-de). Gekaufte Pączki aus einer guten Bäckerei sind legitim — dieser Guide ist für Selbstmachen, nicht gegen Kaufen.
+Liste nach Charakter: Mehl Type 405 oder 550, Frisch- oder Trockenhefe, Milch, Butter, Eier, Zucker, Füllung, Frittieröl oder Schmalz, Puderzucker. [Polenladen](/de/blog/polenladen-einkaufen) für Rosenmarmelade und Feiertagszutaten. Supermarkt für Basis. Wenn etwas fehlt, hilft [Zutaten ersetzen](/de/blog/ersatzprodukte-de). Gekaufte Pączki aus einer guten Bäckerei sind legitim — dieser Guide ist für Selbstmachen, nicht gegen Kaufen.
 
 Werkzeug: großer Topf oder Fritteuse, Schaumlöffel, Thermometer hilfreich aber nicht Pflicht, Backpapier/Tücher zum Gehen. Keine Pflicht-Teigmaschine — hilft bei großen Mengen.
 

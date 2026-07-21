@@ -7,6 +7,10 @@ Faworki to paski ciasta jajecznego, przeplecione albo nacięte, smażone w tłus
 
 Nazwa chrust bierze się z chrupiącej tekstury. W diasporze słyszymy obie nazwy; ważny jest talerz, nie dyskusja folklorystyczna. Racuchy i inne słodkości mogą towarzyszyć dniowi, ale nie zastępują ani faworków, ani pączków.
 
+
+
+![Danie z polskiej kuchni](https://images.unsplash.com/photo-1551024601-bec78aea704b?w=1400&q=80)
+
 ## Ciasto: odpoczynek, cienkość, czucie
 
 Dobre ciasto na faworki potrzebuje jajek, mąki, odrobiny śmietany, często łyku spirytusu (wódka albo ocet) — pomaga ograniczyć wchłanianie tłuszczu. Dokładne ilości są w przepisie; tu technika: zagnieść do gładkości, odstawić, cienko wałkować. Za grube = w środku surowe, na zewnątrz ciemne. Za cienkie = rwą się przy przewracaniu.
@@ -25,7 +29,11 @@ Za grube ciasto, za zimny tłuszcz, za duże kawałki, cukier dopiero po ostudze
 
 ## Zakupy w DE
 
-Mąka typ 405 lub 550, jajka, smalec lub olej, cukier puder, opcjonalnie spirytus. Śmietana — zobacz [leksykon śmietany](/pl/blog/smietana-schmand). Sklep polski na specjalności i gotowe pączki. Zamienniki: [zamienniki składników](/pl/blog/zamienniki-skladnikow).
+Mąka typ 405 lub 550, jajka, smalec lub olej, cukier puder, opcjonalnie spirytus. Śmietana — zobacz [leksykon śmietany](/pl/blog/smietana-schmand). Sklep polski na specjalności i gotowe pączki. Sensowne zamiany opisują [zamienniki składników](/pl/blog/zamienniki-skladnikow).
+
+
+
+![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1509440159596-0249088772ff?w=1400&q=80)
 
 ## Przebieg Tłustego Czwartku
 
@@ -105,6 +113,10 @@ Mimo nazwy to polska kuchnia domowa z białą fasolą, sosem pomidorowym, częst
 
 To nie bigos i nie gulasz — mniej kapusty, więcej fasoli, wyraźniejszy pomidor. Kto zna bigos, rozpoznaje logikę długiego ognia; kto gotuje [gulasz](/pl/rezepte/gulasz-wieprzowy), zna cierpliwość duszenia. Fasolka zostaje osobna — gotowanie na stronie przepisu.
 
+
+
+![Danie z polskiej kuchni](https://images.unsplash.com/photo-1546549032-9571cd6b27df?w=1400&q=80)
+
 ## Fasola: sucha, słoik, puszka
 
 Sucha: moczyć, gotować, zaplanować czas. Słoik lub puszka: szybszy dzień, sprawdzić jakość (nie papka). W DE biała fasola leży w markecie; sklep polski pomaga przy kiełbasie i przyprawach. Sucha fasola = plan dzień wcześniej, nie głodny wieczór.
@@ -123,9 +135,13 @@ Majeranek to nie dekoracja. W fasolce, gołąbkach i wielu daniach mięsnych nie
 
 Dutch oven albo stabilny garnek pomaga — nie obowiązek. Ważne: pokrywka, mały ogień, mieszanie. Dzień wcześniej często lepiej. Freezer: porcje, płasko, dokładnie podgrzać.
 
+
+
+![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=1400&q=80)
+
 ## Zakupy i sklep polski
 
-Lista według dania: fasola, pomidor, cebula, czosnek, kiełbasa, majeranek, liść. [Sklep polski](/pl/blog/sklep-polski-zakupy). Zamienniki: [zamienniki](/pl/blog/zamienniki-skladnikow). Ilości w przepisie; tu logika.
+Lista według dania: fasola, pomidor, cebula, czosnek, kiełbasa, majeranek, liść. [Sklep polski](/pl/blog/sklep-polski-zakupy). Gdy czegoś brakuje, pomagają [zamienniki](/pl/blog/zamienniki-skladnikow). Ilości w przepisie; tu logika.
 
 ## FAQ — fasolka
 
@@ -172,6 +188,10 @@ Majeranek (Origanum majorana) jest łagodnie korzenny, lekko słodkawy, inny ni�
 
 Suszony majeranek to standard dnia: aromatyczny, trwały, mierzalny. Świeży bywa rzadszy i łagodniejszy; kto ma, dodaje późno. Stary i zakurzony w szafce smakuje niczym — lepiej mała świeża paczka.
 
+
+
+![Danie z polskiej kuchni](https://images.unsplash.com/photo-1596040033229-a0b3b83e0aa3?w=1400&q=80)
+
 ## Kiedy robi różnicę
 
 Farsz do gołąbków, fasolka, zrazy, pierogi z mięsem, kotlet mielony, niektóre zupy: majeranek ustawia linię „po polsku treściwie”. Bez niego dania często płaskie, nawet gdy sól gra. Za dużo — gorzko i lekarsko. Dlatego smakować, nie sypać.
@@ -185,6 +205,10 @@ Market: często jako „Majoran” w przyprawach. Sklep polski: bywa aromatyczni
 ## Dawkowanie i technika
 
 Suszony dość wcześnie do farszu lub sosu, by pociągnął. Na końcu sprawdzić. W mielonym z solą i pieprzem. W gulaszach z liściem laurowym — liść w tle, majeranek z przodu.
+
+
+
+![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1506368248146-8a4e4e5c0b3d?w=1400&q=80)
 
 ## Połączenia w silosie
 

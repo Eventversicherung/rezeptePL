@@ -15,6 +15,10 @@ Rohe Pierogi profitieren von flachen, breiten Boxen: eine Lage, wenig Druck von 
 
 Beutel eignen sich für flaches Vor-Anfrieren auf dem Blech; danach überführen wir in Boxen. Pure Beutel-Logik ohne Zwischenschritt führt oft zu eingeklemmten Pierogi und gebrochenen Nähten. Boxen sind kein Luxus, sondern Struktur — besonders, wenn mehrere Personen im Haushalt aus dem Gefrierer nehmen.
 
+
+
+![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1610557898930-061537b2f3ba?w=1400&q=80)
+
 ## Kriterien: Material, Dichtung, Stapelbarkeit
 
 **Material:** Lebensmittelechtes Polypropylen (PP, oft „BPA-frei“) oder Glas mit Kunststoffdeckel. PP ist leicht, stapelbar und in DE weit verbreitet. Glas ist schwerer, bruchanfälliger im Gefrierfach, aber geruchsneutral und langlebig — wir reservieren es eher für gekochte Suppenreste als für rohe Pierogi-Stapel.
@@ -72,6 +76,10 @@ Wir duplizieren keine Schritt-für-Schritt-Anleitung zum Kochen aus dem Gefriere
 ## Tests & Erfahrungen
 
 Dieser Abschnitt ist für spätere Praxistests vorbereitet. Wir dokumentieren dann Stapelhöhe unter Last, Dichtheit nach drei Monaten Gefrierer, Spülmaschinen-Zyklen, Etikettenhaftung und Handling mit nassen Händen — immer mit derselben Pierogi-Charge (Ruskie, eine Lage). Bis reale Tests vorliegen, behaupten wir keine Rangliste und nennen keine Sieger. Empfehlungen folgen Kriterien, nicht Provision; Affiliate-Links kennzeichnen wir transparent.
+
+
+
+![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?w=1400&q=80)
 
 ## Checkliste vor dem Kauf
 
@@ -149,6 +157,10 @@ Hintergrund zu Lebensmittelhygiene: [BZfE](https://www.bzfe.de), [NCEZ](https://
 **Plastikeimer mit Ventil:** Leicht, günstig — wir achten auf lebensmittelechtes Material und Geruchsneutralität. Für Ogórki und schnelle Chargen ok; bei langjähriger Nutzung prüfen wir Kratzer und Geruchsbindung.
 
 Entscheidung: **Volumen, Häufigkeit, Platz**. Ein Haushalt, der zweimal im Jahr Ogórki macht, braucht andere Gläser als jemand, der Kapusta für [Bigos](/de/rezepte/bigos) dauerhaft vorhält.
+
+
+
+![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1400&q=80)
 
 ## Kriterien: Glas, Deckel, Luftspalt
 
@@ -245,6 +257,10 @@ Fermentierende Gläser brauchen **stabile Temperatur** — nicht direkt neben de
 
 Geruch: aktive Kapusta riecht — normal, nicht automatisch schlecht. Nachbarn in Mietwohnungen: enge Dichtung, kein offenes Gären im Flur. Ogórki sind kürzer und milder.
 
+
+
+![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=1400&q=80)
+
 ## Salz, Gewichte und Zubehör
 
 Gläser allein reichen nicht — **Gewichte** (Keramik, Glas, spezielle Follower) halten Gemüse unter Lake. Luftkontakt oben = Schimmel. Für Schraubgläser: kleineres Glas als Inner Weight oder fermentations weights aus Edelstahl.
@@ -324,6 +340,10 @@ Formen im Handel:
 
 Kasza schmeckt **erdig-nussig**; bitter wird sie durch Überkochen, alte Ware oder selten durch zu grobe Spültechnik. Sie quillt anders als Reis — wer Reis-Logik 1:2 eins zu eins überträgt, scheitert oft.
 
+
+
+![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1596797038530-2c14fded7a3e?w=1400&q=80)
+
 ## Einkauf in Deutschland
 
 **Polenladen:** Zuverlässigste Quelle für Marken, die wir aus PL kennen — geröstet, passende Packungsgrößen, manchmal lose. Siehe [Polenladen einkaufen](/de/blog/polenladen-einkaufen).
@@ -381,6 +401,10 @@ Wer im Rewe nur hellen Bio-Buchweizen findet: funktioniert, aber für nussige Go
 Trocken, dunkel, verschlossen — wie Reis. Geöffnete Packung in Dose oder Clip-Beutel; in deutschen Wohnungen mit Zentralheizung nicht neben dem Herd lagern. Haltbarkeit Monate bis über ein Jahr; Geruch und Schädlinge sind das Signal zum Wegwerfen, nicht das Datum allein.
 
 Gekochte Kasza: Kühlschrank 3–4 Tage, gut abgedeckt; beim Erwärmen etwas Wasser oder Brühe — sonst trocken. Einfrieren geht portionsweise; Textur etwas weicher nach Auftauen — für Füllung oft ok, für lockere Beilage frisch kochen.
+
+
+
+![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1516684669134-de6f7c473a2a?w=1400&q=80)
 
 ## FAQ
 

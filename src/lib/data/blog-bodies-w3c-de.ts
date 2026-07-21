@@ -17,6 +17,10 @@ Deutschland kennt das Wiener Schnitzel — ähnliche Logik, andere Details. Poln
 
 Panieren ist auch **Batch-Thema**: Mehrere Kotlets nacheinander, gleichmäßige Hitze, warm halten ohne Matsch. Das Rezept liefert Mengen und Zeiten — hier die Technik, die zwischen „gut“ und „fällt auseinander“ entscheidet.
 
+
+
+![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1604908177528-946fc9d68799?w=1400&q=80)
+
 ## Fleisch vorbereiten: Schlag, Dicke, Salz
 
 **Fleischwahl:** Klassisch Schweinerücken ohne Knochen — im deutschen Handel oft als Schnitzel oder Kotelett ohne Knochen. Alternativ Kalbs- oder Putenschnitzel; Garzeit und Hitze anpassen. Im [Schabowy-Rezept](/de/rezepte/kotlet-schabowy) steht, welche Stücke wir bevorzugen.
@@ -77,6 +81,10 @@ Die **klassische Dreifach-Panade** folgt einer festen Reihenfolge:
 
 Wir haben alle diese Fehler mindestens einmal in einer deutschen Mietküche produziert — die Liste ist Erfahrung, nicht Belehrung.
 
+
+
+![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1432139555190-58575bd5c0be?w=1400&q=80)
+
 ## Varianten kurz — ohne Rezept zu duplizieren
 
 **Panko:** Japanische Panade, größere Flocken, extra knusprig — funktioniert für Schabowy-Varianten oder Hähnchen. Etwas anderes Mundgefühl, weniger „Oma-Panade“, diaspora-tauglich wenn im Asiamarkt griffbereit.
@@ -136,6 +144,10 @@ Spiegel zu [Rosół-Technik](/de/blog/rosol-technik): gleiche Geduld mit dem Top
 
 Klarer **czerwony** ist durchgeseiht, rubinrot, ohne Sahne im Topf — anders als Barszcz biały, ukraiński oder stückige Alltagssuppe. An Wigilia oft ohne Fleisch, vor [Uszka](/de/rezepte/uszka); am Sonntag darf der Wywar fleischig sein. Warme Frühlings-Bete mit Grün: [Botwinka](/de/rezepte/botwinka) — nicht klarer Barszcz und nicht kalter Chłodnik.
 
+
+
+![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1608818580423-ccfb08a254af?w=1400&q=80)
+
 ## Buraki und Einkauf in DE
 
 **Frisch:** voller Geschmack, mehr Arbeit. **Vacuum/Glas:** Diaspora-Standard. **Konserve / Konzentrat:** schnell — oft mit eigenem Wywar gemischt für Farbe und Tiefe. Saft von der Bete nicht wegschütten. Polenladen für Marken, die wir aus PL kennen: [Polenladen](/de/blog/polenladen-einkaufen).
@@ -153,6 +165,10 @@ Pflanzlicher Wywar an Heiligabend — siehe [Wigilia-Speiseplan](/de/blog/wigili
 Aufwärmen sanft, nicht kochend. Freezer ohne Śmietana und ohne Uszka. Kühlschrank 3–4 Tage — Tag zwei oft besser.
 
 Mengen und Schritte: [Barszcz-Rezept](/de/rezepte/barszcz-czerwony). Uszka: [Uszka-Rezept](/de/rezepte/uszka).
+
+
+
+![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1547592180-85f173990554?w=1400&q=80)
 
 ## FAQ kurz
 
@@ -187,6 +203,10 @@ Varianten: [Zucchini](/de/rezepte/placki/cukinia), [Käse](/de/rezepte/placki/mi
 
 Geriebene **rohe** Kartoffeln, gebunden mit Ei und wenig Mehl/Stärke, in Öl gebraten — flache Puffer, nicht Ofenkartoffeln. Verwandt mit deutschen Reibekuchen, typisch dünner und knuspriger; Partner oft Śmietana oder Gulasch statt Apfelmus. Pfanne: [Gusseisen](/de/blog/gusseisenpfanne). Kontext: [Sonntagsessen](/de/blog/sonntagsessen-polnisch).
 
+
+
+![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1573080496219-b83aa30643ae?w=1400&q=80)
+
 ## Kartoffeln und Feuchtigkeit (kurz)
 
 Festkochend oder vorwiegend festkochend halten Form besser. Entscheidend: Masse kräftig ausdrücken — zu nass klebt und wird gummiartig. Natürliche Stärke am Schüsselboden mit backen. Mengen im Rezept — hier nur der Hebel.
@@ -206,6 +226,10 @@ Warm halten: Ofen 80–100 °C, einzeln, nicht stapeln. Reste in Pfanne oder Ofe
 Śmietana kalt am Teller — [Śmietana vs. Schmand](/de/blog/smietana-schmand). Solo mit Salat oder [Kasza](/de/blog/kasza-buchweizen). Placki sofort servieren — Textur leidet jede Minute.
 
 Kochhunger: [Placki ziemniaczane](/de/rezepte/placki/ziemniaczane).
+
+
+
+![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=1400&q=80)
 
 ## FAQ kurz
 

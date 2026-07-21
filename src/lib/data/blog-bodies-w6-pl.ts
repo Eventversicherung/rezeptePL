@@ -1,11 +1,15 @@
 export const bodyMakowiecTechnikPl = `
-Makowiec — rolada z makiem — dla wielu z nas jest słodkim domknięciem Wigilii i jednocześnie projektem technicznym: ciasto drożdżowe, masa makowa, zwijanie, pieczenie, cierpliwość. W Niemczech dzień często psuje nie brak chęci, lecz sucha masa, pękające ciasto albo zbyt gorący piekarnik. Ten przewodnik wspiera przepis [Makowiec](/pl/rezepte/makowiec) i [menu wigilijne](/pl/blog/menu-wigilijne) — bez powielania gramatur, bez teatralnych „testów lab” i bez kanibalizacji ownera przepisu. Ciasto z formy bez spirali makowej to [babka](/pl/rezepte/babka) — inny cook-primary; tu zostają rolada, masa i technika wigilijna.
+Makowiec — rolada z makiem — dla wielu z nas jest słodkim domknięciem Wigilii i jednocześnie projektem technicznym: ciasto drożdżowe, masa makowa, zwijanie, pieczenie, cierpliwość. W Niemczech dzień często psuje nie brak chęci, lecz sucha masa, pękające ciasto albo zbyt gorący piekarnik. Ten przewodnik wspiera przepis [Makowiec](/pl/rezepte/makowiec) i [menu wigilijne](/pl/blog/menu-wigilijne) — bez powielania gramatur i bez udawania laboratorium. Ciasto z formy bez spirali makowej to [babka](/pl/rezepte/babka) — inne danie; tu zostają rolada, masa i technika wigilijna.
 
-## Czym jest ten filar (a czym nie)
+## O czym jest ten przewodnik
 
-Tu chodzi o **technikę pieczenia polskiego makowca**: prowadzenie ciasta, przygotowanie maku, zwijanie, temperatura pieca, typowe błędy, zakupy w DE i timeline na 24 grudnia. Przepis pozostaje ownerem frazy „makowiec przepis” z ilościami i krokami. [Technika faworków](/pl/blog/faworki-technika) zostaje ownerem smażonego ciasta tłustoczwartkowego — spokrewnione świętowanie, inna metoda.
+Tu chodzi o **technikę pieczenia polskiego makowca**: prowadzenie ciasta, przygotowanie maku, zwijanie, temperatura pieca, typowe błędy, zakupy w DE i timeline na 24 grudnia. Ilości i kroki są w przepisie. [Technika faworków](/pl/blog/faworki-technika) opisuje smażone ciasto na Tłusty Czwartek — spokrewnione świętowanie, inna metoda.
 
-Makowiec to nie strudel i nie niemieckie ciasto makowe z blachy: to **rolada drożdżowa** z gęstą masą makową, często z dodatkami (rodzynki, miód, skórka cytryny), z zewnątrz złocista, w środku wilgotna, ale nie mokra. Kto szuka tylko „czegoś z makiem”, łatwo ląduje przy cieście blaszanym — smaczne, ale inne danie i inne słowo kluczowe.
+Makowiec to nie strudel i nie niemieckie ciasto makowe z blachy: to **rolada drożdżowa** z gęstą masą makową, często z dodatkami (rodzynki, miód, skórka cytryny), z zewnątrz złocista, w środku wilgotna, ale nie mokra. Kto szuka tylko „czegoś z makiem”, łatwo ląduje przy cieście blaszanym — smaczne, ale inne danie.
+
+
+
+![Danie z polskiej kuchni](https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=1400&q=80)
 
 ## Mak: nośnik charakteru
 
@@ -13,7 +17,7 @@ Mak niebieski buduje aromat i kolor. W DE: sklep polski dla dobrej jakości i cz
 
 Klasyczne przygotowanie: mak zalać gorącym mlekiem lub wodą, ostudzić, związać cukrem, masłem/smalcem, białkiem lub jajkiem, opcjonalnie miodem i skórką cytryny. Masa ma się smarować jak gęsta pasta — nie kapać, nie kruszyć. Smakować: słodko, lekko orzechowo, nie gorzko. Gorycz bywa ze starych ziaren albo zbyt mocnego prażenia.
 
-Rodzynki (namoczone) to domowy zwyczaj, nie obowiązek. Kto lubi — dodaje; kto nie — pomija. Filar zostaje ważny.
+Rodzynki (namoczone) to domowy zwyczaj, nie obowiązek. Kto lubi — dodaje; kto nie — pomija. Ważna zostaje wilgotność masy.
 
 ## Ciasto drożdżowe: ciepło, odpoczynek, wyczucie
 
@@ -37,25 +41,29 @@ Równolegle: gdy ciasto rośnie, lepić [uszka](/pl/rezepte/uszka) albo przecedz
 
 ## Zakupy w Niemczech
 
-Lista według charakteru: mąka (typ 405/550), drożdże, mleko, masło, jajka, cukier, mak, opcjonalnie rodzynki, miód, cytryna, wanilia. [Sklep polski](/pl/blog/sklep-polski-zakupy) po mak i święta. Zamienniki: [zamienniki składników](/pl/blog/zamienniki-skladnikow). Gotowy makowiec ze sklepu ratuje czas, ale nie zastępuje techniki, gdy chcecie piec sami.
+Lista według charakteru: mąka (typ 405/550), drożdże, mleko, masło, jajka, cukier, mak, opcjonalnie rodzynki, miód, cytryna, wanilia. [Sklep polski](/pl/blog/sklep-polski-zakupy) po mak i święta. Sensowne zamiany znajdziesz w [zamiennikach składników](/pl/blog/zamienniki-skladnikow). Gotowy makowiec ze sklepu ratuje czas, ale nie zastępuje techniki, gdy chcecie piec sami.
 
-Narzędzia: duża blacha, papier, wałek, czyste ściereczki. Robot nie jest obowiązkowy — pomaga przy dużych partiach; kryteria jak przy [robocie do ciasta](/pl/blog/robot-do-ciasta-pierogi), bez kradzieży tego samego intentu zakupowego.
+Narzędzia: duża blacha, papier, wałek, czyste ściereczki. Robot nie jest obowiązkowy — pomaga przy dużych partiach; kryteria jak przy [robocie do ciasta](/pl/blog/robot-do-ciasta-pierogi).
 
 ## Typowe błędy
 
 Sucha masa makowa, za dużo mąki, zbyt gorący piec, zbyt wczesne krojenie, masa do samego brzegu bez strefy brzegowej, zabite drożdże wrzątkiem, rolada za luźna (powietrze) albo za ciasna (masa wypływa bokiem). Też złudzenie, że makowiec i faworki „przy okazji” tego samego popołudnia — dwa projekty wypiekowe potrzebują osobnych okien czasu.
 
-## Spokrewnione dania i logika silosu
 
-- [Przepis na makowiec](/pl/rezepte/makowiec) — ilości i kroki (owner cook-intent)
+
+![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=1400&q=80)
+
+## Spokrewnione dania
+
+- [Przepis na makowiec](/pl/rezepte/makowiec) — ilości i kroki
 - [Faworki](/pl/rezepte/faworki) + [technika faworków](/pl/blog/faworki-technika) — inne pieczenie świąteczne
 - [Racuchy](/pl/rezepte/racuchy-jablka) — drożdże, słodko, codzienność/Tłusty
 - [Ciasto na pierogi](/pl/blog/ciasto-na-pierogi) — wyczucie ciasta, inny typ
 - [Menu wigilijne](/pl/blog/menu-wigilijne) — rama stołu
-- [Piernik](/pl/rezepte/piernik) — piernik miodowo-korzenny (≠ rolada makowa; inny cook-primary; tu tylko sąsiad pieczenia opisowo)
-- [Makaron z makiem](/pl/rezepte/makaron-z-makiem) — makaron z masą makową (≠ rolada; inny cook-primary; tu tylko sąsiad maku opisowo)
+- [Piernik](/pl/rezepte/piernik) — piernik miodowo-korzenny, nie rolada makowa
+- [Makaron z makiem](/pl/rezepte/makaron-z-makiem) — makaron z masą makową, nie rolada
 
-Technika zostaje tu, ilości w przepisie, menu przy okazji. Piernik i makaron z makiem nie zastępują ani drożdżowej roli, ani masy makowej tego przewodnika.
+Technika zostaje tu, ilości w przepisie, menu przy okazji. Piernik i makaron z makiem nie zastępują drożdżowej rolady ani masy makowej z tego przewodnika.
 
 ## FAQ: technika makowca
 
@@ -77,7 +85,7 @@ W plastrach lub całą rolą, dobrze zapakowane. Rozmrażać powoli; tekstura je
 
 ### Czy makowiec to to samo co niemieckie ciasto makowe?
 
-Nie. Blacha i drożdżówki są blisko smakiem, inaczej formą i słowem kluczowym. Ten filar oznacza polską roladę makową.
+Nie. Blacha i drożdżówki są blisko smakiem, inaczej formą. Tu chodzi o polską roladę makową.
 
 ### Gdzie są dokładne ilości?
 
@@ -104,8 +112,8 @@ W niemieckich kuchniach bywa brak dużego pieca albo spokoju w chaosie rodzinnym
 ## Czytaj dalej
 
 - [Makowiec przepis](/pl/rezepte/makowiec)
-- [Sernik](/pl/rezepte/sernik) — linia sernika w silosie pieczenia (inny primary)
-- [Babka](/pl/rezepte/babka) — ciasto drożdżowe z formy (≠ rolada makowa; inny cook-primary)
+- [Sernik](/pl/rezepte/sernik) — inna linia pieczenia świątecznego
+- [Babka](/pl/rezepte/babka) — ciasto drożdżowe z formy, nie rolada makowa
 - [Menu wigilijne](/pl/blog/menu-wigilijne)
 - [Faworki technika](/pl/blog/faworki-technika)
 - [Technika pączków](/pl/blog/paczki-technika) — drożdże świąteczne, inny projekt tłuszczowy
@@ -120,7 +128,7 @@ W praktyce powtórzenie bije perfekcję za pierwszym razem: ta sama masa prowadz
 
 Dla gospodarstw w Niemczech sklep polski zostaje celowym przystankiem po mak i święta, nie po każde gram mąki. Supermarket na bazę, specjalność tam, gdzie buduje charakter.
 
-Linki wewnętrzne na Alemniam są świadome: przewodniki dla techniki i okazji, przepisy dla ilości i kroków. Jedna primary-keyword-URL zostaje ownerem — inne strony linkują opisowo.
+Na Alemniam przewodniki zostają przy technice i okazjach; ilości i kroki są w przepisach.
 
 Kto chce odciążyć słodką część Wigilii, piecze wcześniej i podaje później. Zapach w dniu pieczenia wystarczy jako zapowiedź; wieczorem 24. liczy się spokój przy stole bardziej niż świeży żar z pieca.
 

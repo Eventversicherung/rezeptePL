@@ -12,6 +12,10 @@ Gefaltete Teigtaschen mit trockener Füllung, ruhig gekocht, oft mit Butter, Zwi
 
 **Nicht Pierogi:** [Knedle ze śliwkami](/de/rezepte/knedle-sliwki) sind runde Obst-Knödel mit Kartoffelteig. [Pierogi leniwe](/de/rezepte/pierogi-leniwe) sind Quark-Klößchen ohne Falten. Beide haben eigene Seiten.
 
+
+
+![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=1400&q=80)
+
 ## Welche Füllung wann?
 
 | Variante | Wann | Rezept |
@@ -22,7 +26,7 @@ Gefaltete Teigtaschen mit trockener Füllung, ruhig gekocht, oft mit Butter, Zwi
 | Heidelbeeren | süß, Sommer | [Jagody](/de/rezepte/pierogi/jagody) |
 | Uszka | kleine Taschen in klarer Suppe | [Uszka](/de/rezepte/uszka) |
 
-Twaróg und Quark: [Twaróg Guide](/de/blog/twarog-deutschland). Beilage: [Śmietana vs. Schmand](/de/blog/smietana-schmand). Einkauf: [Polenladen](/de/blog/polenladen-einkaufen), [Ersatzprodukte](/de/blog/ersatzprodukte-de).
+Twaróg und Quark erklärt der [Twaróg Guide](/de/blog/twarog-deutschland). Zur Beilage hilft [Śmietana vs. Schmand](/de/blog/smietana-schmand). Im [Polenladen](/de/blog/polenladen-einkaufen) und unter [Ersatzprodukten](/de/blog/ersatzprodukte-de) findest du die praktische Einkaufslogik.
 
 Eine Füllung pro Session lernen — parallel drei Varianten verlängert nur den Tag.
 
@@ -41,6 +45,10 @@ Gäste ohne Stress: formen und frieren Tage vorher, am Serviertag aus dem Freeze
 - Alles an einem Tag erzwingen → matte Qualität
 
 Korrekturen und Mengen: jeweiliges Rezept. Teig-Details: [Pierogi-Teig](/de/blog/pierogi-teig). Batch: [einfrieren](/de/blog/freezer-meal-prep). Form optional: [Pierogi-Formen](/de/blog/pierogi-formen).
+
+
+
+![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1626200419199-391ae4be7a41?w=1400&q=80)
 
 ## FAQ kurz
 
@@ -74,6 +82,10 @@ Der Gefrierschrank macht Pierogi alltagstauglich: Wir kochen einmal konzentriert
 
 Bereits gekochte Pierogi frieren wir nur als Restestrategie; roh gefrorene garen gleichmäßiger und behalten mehr Biss. Der Freezer ist Planung, kein Vergessenslager. Teigbasis: [Pierogi-Teig](/de/blog/pierogi-teig). Überblick: [Pierogi-Guide](/de/blog/pierogi-rezept).
 
+
+
+![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?w=1400&q=80)
+
 ## Schritt-für-Schritt
 
 1) Nähte prüfen. 2) Mit Abstand auf bemehltes Blech. 3) 2–3 Stunden anfrieren. 4) In Beutel/Boxen umfüllen, Luft raus. 5) Füllung, Datum, Stückzahl beschriften. 6) Flach stapeln. Ohne Anfrieren entstehen Klumpen und Risse.
@@ -92,7 +104,7 @@ Beste Qualität 2–3 Monate. Warnsignale: Reif, Fremdgeruch, offene Beutel, Ver
 
 ## Wochenplan
 
-Wochenende: 50–80 Stück einer Füllung. Unter der Woche 15–20 Minuten Kochen. Vor [Wigilia](/de/anlaesse/wigilia) separate Kraut-Pilz-Charge zu [Barszcz](/de/rezepte/barszcz-czerwony). Einkauf: [Polenladen](/de/blog/polenladen-einkaufen), [Twaróg](/de/blog/twarog-deutschland).
+Wochenende: 50–80 Stück einer Füllung. Unter der Woche 15–20 Minuten Kochen. Vor [Wigilia](/de/anlaesse/wigilia) separate Kraut-Pilz-Charge zu [Barszcz](/de/rezepte/barszcz-czerwony). Zutaten holen wir im [Polenladen](/de/blog/polenladen-einkaufen); zu Quark und Feuchtigkeit hilft der [Twaróg-Guide](/de/blog/twarog-deutschland).
 
 ## Fehlerliste
 
@@ -101,6 +113,10 @@ Warm einfrieren; ohne Anfrieren; überfüllter Topf; unbeschriftet; mehrfach auf
 ## Kühlschrank nach dem Kochen
 
 1–2 Tage verschlossen, zügig abkühlen. Wiedererwärmen in Butter oder kurz im Wasser. Lunchboxen getrennt von nassen Salaten.
+
+
+
+![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1606787366850-de6330128bfc?w=1400&q=80)
 
 ## Organisation im Freezer
 
@@ -161,6 +177,10 @@ Eine Pierogi-Form ist kein Muss. Sie lohnt, wenn wir oft große Mengen formen, g
 
 Häufigkeit pro Monat, typische Stückzahl, Uszka vs. klassische Größe, Solo vs. Team. Wer selten kocht, kauft Übung und Twaróg statt Gerät – [Twaróg](/de/blog/twarog-deutschland), [Pierogi-Guide](/de/blog/pierogi-rezept).
 
+
+
+![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?w=1400&q=80)
+
 ## Kriterien
 
 Durchmesser 7–9 cm oft allround; kleiner für Uszka. Schnittkante sauber, nicht zerquetschend. Material: Metall langlebig, Kunststoff leicht. Griffe sicher. Presse nur bei konstanter Teigdicke/Füllung zeitsparend. Reinigung ohne versteckte Ritzen.
@@ -196,6 +216,10 @@ Sofort vorreinigen, trocknen, Kanten schützen. Spülmaschine nur wenn erlaubt. 
 ## Wann nicht kaufen
 
 Seltene Nutzung; kein Platz; Erwartung „Maschine macht Pierogi fertig“; Budget besser in Zutaten.
+
+
+
+![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=1400&q=80)
 
 ## Checkliste vor Klick
 
@@ -264,6 +288,10 @@ Polnische Suppen leben von Brühe, Säure, Gemüse und Geduld – nicht von Schw
 
 **Rosół:** klare Brühe, niedrige Hitze – [Rosół-Technik](/de/blog/rosol-technik). **Żurek:** Zakwas, Majoran, Einlagen – [Zakwas](/de/blog/zakwas-zurek). **Barszcz:** Rote Bete, Balance statt Zucker. **[Krupnik](/de/rezepte/krupnik)** (Gerste) und die Kiszone-Suppen [Kapuśniak](/de/rezepte/kapusniak) sowie [Ogórkowa](/de/rezepte/ogorkowa): Einlagen nach Basis. **Frühling:** [Botwinka](/de/rezepte/botwinka) — junge Bete mit Blättern; grüne Sauerampfer-Linie: [Szczawiowa](/de/rezepte/szczawiowa). Immer: Basis zuerst, Säure und Salz steuern.
 
+
+
+![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1547592166-23ac45744acd?w=1400&q=80)
+
 ## Flaki (Kuttelsuppe)
 
 Wenn der Topf deftige Einlage und Majeranek will — nicht Rote Bete, nicht Zakwas, nicht Kiszone-Gurke: [Flaki](/de/rezepte/flaki). Mengen und Schritte stehen im Rezept; hier bleibt der Überblick über die Suppen-Landschaft.
@@ -311,6 +339,10 @@ Sonntag Brühe; Dienstag Żurek; Donnerstag Reste-Brühe; Festtag Barszcz über 
 ## Fehler
 
 Hart kochen; Essig statt Zakwas; Barszcz überzuckern; Milchprodukte kochen; früh salzen; Einlagen zerkochen.
+
+
+
+![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1547592180-85f173990554?w=1400&q=80)
 
 ## Regionalität
 
@@ -391,6 +423,10 @@ Kalt ansetzen, Schaum nehmen, dann nur leicht ziehen — kein Rollen. Deckel lei
 
 Denselben ruhigen Ansatz nutzen Einlagen-Suppen wie [Ogórkowa](/de/rezepte/ogorkowa) und [Kapuśniak](/de/rezepte/kapusniak) — andere Säure, gleiche Geduld.
 
+
+
+![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?w=1400&q=80)
+
 ## Sonntag und Reste
 
 Morgen ansetzen, seihen, abschmecken, Nudeln separat. Fleisch herausnehmen bevor es zerfällt — für Füllung, Salat oder den nächsten Tag. Nach dem Kühlen Fett abheben; Gästeversion oft klarer, Alltag darf etwas trüber sein.
@@ -408,6 +444,10 @@ Salz spät. Lorbeer und Piment sparsam. Fertigwürze verdeckt Zeit und Knochen.
 - Verbrannte Zwiebel → bittere Note
 
 Mengen, Zeiten und Schritte: [Rosół-Rezept](/de/rezepte/rosol).
+
+
+
+![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1547592166-23ac45744acd?w=1400&q=80)
 
 ## FAQ kurz
 
@@ -438,6 +478,10 @@ Zakwas na żurek ist ein fermentierter Roggenmehl-Wasser-Ansatz. Er trägt die g
 ## Was es ist
 
 Milchsaure Roggenkultur über Tage – kein Brotstarter-Identitätstausch, kein Instantpulver. Essig/Zitrone/Joghurt ≠ gleichwertig für Żurek.
+
+
+
+![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1606923829579-0cb981a83e2e?w=1400&q=80)
 
 ## Erkennen
 
@@ -470,6 +514,10 @@ Stark mit [Wielkanoc](/de/blog/wielkanoc-speiseplan) verknüpft. Zakwas Tage vor
 ## Fehler
 
 Essig-1:1; Sonne; fest dicht ohne Entlüftung; Schimmel weiterverwenden; stark kochen; schmutziges Glas.
+
+
+
+![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1604908177528-946fc9d68799?w=1400&q=80)
 
 ## Lagern
 
@@ -538,6 +586,10 @@ Schmorgericht aus Sauerkraut-Säure, oft Weißkohl-Süße, Pilz-Tiefe und Fleisc
 
 Oft nicht das Zentrum der Wigilia; stark als Gästeessen und Wochenvorrat. Beilagen: Brot, Kartoffeln, [Kasza](/de/blog/kasza-buchweizen), Gurken. Śmietana nur nach Brauch — [Śmietana/Schmand](/de/blog/smietana-schmand).
 
+
+
+![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=1400&q=80)
+
 ## Einkauf in DE
 
 Supermarkt: Kohl, Zwiebel, Gewürze, Apfel oder Pflaume sparsam. Polenladen: Kapusta, getrocknete Pilze, Wurst — [Polenladen](/de/blog/polenladen-einkaufen), [Ersatzprodukte](/de/blog/ersatzprodukte-de). Kapusta vor dem Kochen kosten: zu scharf kurz spülen (nicht auswaschen), zu süß industriell meiden.
@@ -555,6 +607,10 @@ Flach abkühlen, portionieren, gründlich erhitzen — nicht tagelang nur anwär
 Typische Fehler: nur Sauerkraut; Wurst von Anfang an; zu viel Flüssigkeit; Ungeduld; zu wenig Röstaroma. Korrekturen und Mengen: [Bigos-Rezept](/de/rezepte/bigos).
 
 Varianten: mehr Pilze, fleischarm, vegetarisch mit Räuchernote — ehrlich benennen. Eine Variable pro Durchgang.
+
+
+
+![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1432139509613-5c4255815697?w=1400&q=80)
 
 ## FAQ kurz
 
@@ -587,6 +643,10 @@ export const bodySmietanaSchmandDe = `
 
 Polnisch „śmietana“ deckt Fettstufen ab. DE-Regal: mehrere Produkte. Hitze, Säure, Cremigkeit entscheiden.
 
+
+
+![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1563636619-e9143da7973b?w=1400&q=80)
+
 ## Matrix
 
 **Schmand:** stabil, gut zu Pierogi. **Saure Sahne:** leichter, hitzeempfindlich. **Crème fraîche:** trägt Saucen. **Kochsahne:** stabil, weniger frische Säure. **Süße Sahne:** süße Linien.
@@ -618,6 +678,10 @@ Hering, Dips, Salate: abschmecken, nicht zu früh mit Salzigem mischen. Buffet k
 ## Kochen vs Verfeinern
 
 Kochsahne stabilisiert; frische Produkte verfeinern. Rolle vor dem Herd klären.
+
+
+
+![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=1400&q=80)
 
 ## Balance
 
@@ -682,6 +746,10 @@ Kiełbasa ist keine einzelne Wurst, sondern Nutzungstypen: braten, mitkochen, Au
 
 Bratfest, kochfest, aufschnittfähig, stark/mild geräuchert. Namen variieren – Funktion zuerst.
 
+
+
+![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=1400&q=80)
+
 ## Types vs Cook: Kaszanka
 
 Dieses Lexikon ordnet **Arten, Qualität und Einsatz** (Żurek, Bigos, Alltagswurst). Gebratene **Kaszanka mit Zwiebel** hat ein eigenes Rezept — Mengen und Pfannenschritte stehen im [Kaszanka-Rezept](/de/rezepte/kaszanka), nicht hier.
@@ -717,6 +785,10 @@ Pfanne, Żurek, Bigos, [Grochówka](/de/rezepte/grochowka) (Rauchwurst in der Er
 ## Sicherheit
 
 Kühlkette, Bretter trennen, erhitzen wenn nötig. bzfe.de.
+
+
+
+![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=1400&q=80)
 
 ## Fehler
 
@@ -779,11 +851,15 @@ Teure Wurst, die niemand mag, ist teurer als mittlere Qualität, die leergegesse
 `;
 
 export const bodyErsatzprodukteDe = `
-Ersatzprodukte sind sinnvoll, wenn sie Funktion und Geschmack respektieren. Wir suchen nicht die identische Verpackung, sondern Säure, Trockenheit, Struktur oder Röstaroma. So bleibt polnische Küche in DE machbar, ohne beliebig zu werden. Orientierung: [bzfe.de](https://www.bzfe.de), [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl), [agriculture.ec.europa.eu](https://agriculture.ec.europa.eu), [was-wir-essen.de](https://www.was-wir-essen.de). Einkauf: [Polenladen](/de/blog/polenladen-einkaufen).
+Ersatzprodukte sind sinnvoll, wenn sie Funktion und Geschmack respektieren. Wir suchen nicht die identische Verpackung, sondern Säure, Trockenheit, Struktur oder Röstaroma. So bleibt polnische Küche in DE machbar, ohne beliebig zu werden. Orientierung: [bzfe.de](https://www.bzfe.de), [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl), [agriculture.ec.europa.eu](https://agriculture.ec.europa.eu), [was-wir-essen.de](https://www.was-wir-essen.de). Spezielles holen wir im [Polenladen](/de/blog/polenladen-einkaufen).
 
 ## Prinzip
 
 Funktion klären → Kandidaten testen → notieren. Etikett „polnisch“ ist kein Qualitätsbeweis.
+
+
+
+![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1604719312566-8912e9227c6a?w=1400&q=80)
 
 ## Twaróg
 
@@ -816,6 +892,10 @@ Type 405/550 statt „Spezialmehl“-Mythos – [Pierogi-Teig](/de/blog/pierogi-
 ## Wann nicht tricksen
 
 Zakwas≠Essig; Qualität≠Rauchsalz; Twaróg≠Frischkäse; Ferment≠Zuckerdecke.
+
+
+
+![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1542838132-92c53300491e?w=1400&q=80)
 
 ## Testprotokoll
 
@@ -880,6 +960,10 @@ Wielkanoc soll Menschen zusammenbringen, nicht den Kühlschrank überfordern. Wi
 
 Weniger Gerichte, bessere Ausführung. Żurek oft Zentrum; dazu Eier, gekochte [Biała kiełbasa](/de/rezepte/biala-kielbasa) (Cook; Arten bleiben im [Kiełbasa-Lexikon](/de/blog/kielbasa-arten)), Brot, Rettich/Kräuter, kühle [Mizeria](/de/rezepte/mizeria) und/oder [Sałatka jarzynowa](/de/rezepte/salatka-jarzynowa) als Festsalat (Mayo-Gemüse ≠ Gurke/Śmietana), Kuchen nach Brauch. Gefüllte Eier als eigene Buffet-Linie: [Jajka faszerowane](/de/rezepte/jajka-faszerowane) (Cook; ≠ Sałatka, ≠ Mizeria). Scharfer kalter Bete-Meerrettich-Relish: [Ćwikła](/de/rezepte/cwikla) (Cook; ≠ warme [Buraczki](/de/rezepte/buraczki), ≠ Barszcz/Botwinka). Speiseplan bleibt Menü-Artikel. Saisonal im Frühjahr optional warme [Botwinka](/de/rezepte/botwinka) statt schwerer Bete-Klarsuppe. Nicht alles gleichzeitig warm halten.
 
+
+
+![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1525310072745-f49212b5ac6d?w=1400&q=80)
+
 ## Zeitplan
 
 **−2 Tage:** Zakwas/Brühe, haltbarer Einkauf – [Zakwas](/de/blog/zakwas-zurek), [Polenladen](/de/blog/polenladen-einkaufen). **−1 Tag:** Eier, kalte Salate, Kuchen. **Tag:** erwärmen, anrichten, Frisches.
@@ -915,6 +999,10 @@ Ein Kuchen reicht oft — Qualität vor Vielfalt. Klassische Form: [Babka](/de/r
 ## Aufschnitt: Pasztet
 
 Haus-Pastete angeschnitten statt nur Kaufwurst: [Pasztet drobiowy](/de/rezepte/pasztet) — klar ≠ [Kaszanka](/de/rezepte/kaszanka). Arten/Qualität von Wurst bleiben im [Kiełbasa-Arten-Lexikon](/de/blog/kielbasa-arten); hier nur als Menüplatz.
+
+
+
+![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1495521821757-a1efb6729352?w=1400&q=80)
 
 ## Tisch
 
@@ -979,6 +1067,10 @@ Tłusty Czwartek braucht keine Übertreibung. Pączki, Faworki oder eine bewusst
 
 Traditioneller Fettdonnerstag vor der Fastenzeit – heute oft kultureller Genusstag. Wir erklären kurz, feiern ohne Zwang.
 
+
+
+![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1551024601-bec78aea704b?w=1400&q=80)
+
 ## Kaufen vs Backen
 
 Bäckerei mit überzeugender Füllung/Fettqualität oder überschaubare Eigenmenge. Frische: leichter Teig, sauberer Duft, nicht fettig-nass.
@@ -1010,6 +1102,10 @@ Zeitnah essen; Aufbacken rettet nicht alles. Einfrieren mancher Pączki möglich
 ## Mit Kindern
 
 Mitbacken = Prozess; Zuckerlimit kommunizieren; Enttäuschung über „zu wenig“ mit Qualität auffangen.
+
+
+
+![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1558326567-98ae2405596b?w=1400&q=80)
 
 ## Diaspora-Logistik
 
@@ -1074,6 +1170,10 @@ Polnisches Sonntagsessen braucht keinen Drei-Topf-Zwang. Wir wählen einen Mitte
 
 Ein Gericht trägt; der Rest unterstützt. Entscheidung Freitagabend spart Samstagsstress.
 
+
+
+![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1400&q=80)
+
 ## Drei Menüs
 
 1) Rosół + später einfaches Fleisch. 2) Bigos + Brot/Gurken. 3) [Pierogi Ruskie](/de/rezepte/pierogi/ruskie) + Zwiebel/Schmand. Eines wählen.
@@ -1096,7 +1196,7 @@ Schnell überbackenes Baguette mit Pilzen und Käse: [Zapiekanka](/de/rezepte/za
 
 ## Beilagen
 
-Kartoffeln/Kasza/Brot + Gurke/Salat. Klassisch kalt: [Mizeria](/de/rezepte/mizeria); warm und säuerlich: [Kapusta zasmażana](/de/rezepte/kapusta-zasmażana); warme Rote-Bete-Beilage: [Buraczki](/de/rezepte/buraczki) (≠ Botwinka-Suppe, ≠ Barszcz). Fest- und Buffetsalat mit Mayo-Gemüse: [Sałatka jarzynowa](/de/rezepte/salatka-jarzynowa) — anderer Intent als Mizeria. Nicht sechs Salate.
+Kartoffeln/Kasza/Brot + Gurke/Salat. Klassisch kalt: [Mizeria](/de/rezepte/mizeria); warm und säuerlich: [Kapusta zasmażana](/de/rezepte/kapusta-zasmażana); warme Rote-Bete-Beilage: [Buraczki](/de/rezepte/buraczki) (≠ Botwinka-Suppe, ≠ Barszcz). Fest- und Buffetsalat mit Mayo-Gemüse: [Sałatka jarzynowa](/de/rezepte/salatka-jarzynowa) — ein anderer Teller als Mizeria. Nicht sechs Salate.
 
 ## Süßes zum Kaffee
 
@@ -1121,6 +1221,10 @@ Suppe/Bigos oft besser Folgetag. Plan mit Restelogik entlastet Einkauf.
 ## Tempo & Atmosphäre
 
 Pünktlich essen > perfekte Garnitur. Arbeit teilen.
+
+
+
+![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1400&q=80)
 
 ## Geräte
 
@@ -1201,6 +1305,10 @@ Kiszenie ist kontrollierte Milchsäuregärung – keine Essig-Abkürzung. Sauber
 
 Milchsäurebakterien säuern unter der Lake. Luftkontakt und Schmutz sind Feinde. Essig ergibt anderes Produkt.
 
+
+
+![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=1400&q=80)
+
 ## Starter-Setup
 
 Sauberes Glas/Gefäß, Gewicht zum Unter-Lake-Halten, geeignetes Salz, frisches unbeschädigtes Gemüse, Rezept mit Salzmenge – nicht raten.
@@ -1232,6 +1340,10 @@ Nach gewünschter Säure kühl. Sauberer Entnahmelöffel. Kleine Chargen zum Ler
 ## Hygiene
 
 Hände, Gläser, keine beschädigten Deckel die nicht entlüften können wenn nötig. bzfe.de-Mindset.
+
+
+
+![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1400&q=80)
 
 ## Küche DE
 
@@ -1296,6 +1408,10 @@ Ein Fleischwolf lohnt, wenn wir Fettanteil, Körnung und Herkunft für Füllunge
 
 Wie oft im Jahr? Welche Mengen? Nur Pierogi-Farce oder auch Wurst? Platz? Reinigungsbereitschaft? Wenn unklar: erst Metzger-Hack spezifizieren.
 
+
+
+![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1556911220-bff31c8120b0?w=1400&q=80)
+
 ## Kriterien
 
 Solide Schnecke, scharfe Lochscheiben, sichere Verriegelung, vollständige Zerlegbarkeit, geringer Erwärmungseffekt, Standfestigkeit, Ersatzteile, klare Trennung roh/gar in der Küchenpraxis.
@@ -1331,6 +1447,10 @@ Selten Bedarf; kein Platz; niemand reinigt; Erwartung „Wurstautomat ohne Wisse
 ## Metzger-Alternative
 
 Schnitt und Fettanteil bestellen, zweimal drehen lassen. Oft beste Qualitätskontrolle ohne Gerät.
+
+
+
+![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=1400&q=80)
 
 ## Kombi mit Freezer
 
@@ -1399,6 +1519,10 @@ Ein Schmortopf für [Bigos](/de/rezepte/bigos) muss Wärme halten, Kohlvolumen f
 
 Personenanzahl, nur Bigos oder auch Brot/Braten, Induktion/Gas/Ceran, Kraft zum Heben, Ofennutzung.
 
+
+
+![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1585515320310-259814833e62?w=1400&q=80)
+
 ## Kriterien
 
 Nutzvolumen (Familien oft ≥5–7 l), Deckel-Sitz, Bodenbreite, Griff-Sicherheit, Ofentauglichkeit, Emaille vs. blank vs. Edelstahl, Reinigung, Garantie.
@@ -1434,6 +1558,10 @@ Abkühlen lassen, nicht thermoshocken, Emaille nicht knallen, blankes Eisen troc
 ## Alternativen
 
 Dickes Edelstahl + Ofen; Slow Cooker nur mit angepasstem Erwartungsprofil – anderes Gerät.
+
+
+
+![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=1400&q=80)
 
 ## Bigos-Praxis
 
@@ -1498,6 +1626,10 @@ Eine Gusseisenpfanne kann Placki knusprig und Schabowy gleichmäßig braten – 
 
 Placki, Schabowy, Alltagsbraten? Induktion? Handkraft? Bereitschaft zum Einbrennen/Pflegen? Sonst gute beschichtete oder Edelstahlpfanne ehrlicher.
 
+
+
+![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=1400&q=80)
+
 ## Kriterien
 
 Durchmesser (oft 26–28 cm Allround), Bodenebenheit, Griff, Ausgießer, Herdkompatibilität, Emaille vs. blank, Gewicht, Ofentauglichkeit.
@@ -1533,6 +1665,10 @@ Warm reinigen, trocknen, dünn ölen. Keine lange Einweichorgien. Rost sofort be
 ## Wann nicht
 
 Zu schwer; Induktion ohne passende Basis; niemand pflegt; nur Spiegeleier-Erwartung ohne Aufheizgeduld.
+
+
+
+![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1585515320310-259814833e62?w=1400&q=80)
 
 ## Alternativen
 
@@ -1601,6 +1737,10 @@ Eine Teigmaschine für Pierogi ist sinnvoll, wenn sie wiederkehrendes Kneten ver
 
 Nutzvolumen (nicht nur Nennliter), echter Knethaken, Drehmoment bei niedriger Stufe, Überlastverhalten, Stand, Lautstärke, Ersatzteile, Reinigung, Garantie.
 
+
+
+![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=1400&q=80)
+
 ## 500 g vs Wigilia
 
 500 g Mehl-Charge ≠ 1–1,5 kg. Für kleine Haushalte Gerät wählen, das auch kleinere Mengen erfasst. Für Festtage eher Chargen als Überfüllen.
@@ -1636,6 +1776,10 @@ Teig portionsweise 2–3 Tage vorher; Füllung schmoren; formen/frieren; am Tag 
 ## Transparenz/Affiliate
 
 Kriterien vor Provision; Kennzeichnung wenn Links provisioniert; keine Fake-Sieger.
+
+
+
+![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1571115177098-24ec42ed204d?w=1400&q=80)
 
 ## Checkliste vor Klick
 

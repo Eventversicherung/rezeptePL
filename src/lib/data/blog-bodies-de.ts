@@ -18,6 +18,10 @@ Praktisch denken wir in drei Körben:
 
 Wer regelmäßig kocht, spart Zeit, wenn der Polenladen zur festen Route wird – nicht als Museum, sondern als effizienter Nachschub. Orientierung zu ausgewogener Ernährung liefert auch das [Bundeszentrum für Ernährung](https://www.bzfe.de); wir ergänzen das mit dem, was unsere Küche konkret braucht.
 
+
+
+![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1542838132-92c53300491e?w=1400&q=80)
+
 ## Kielbasa: Qualität erkennen, ohne Marketing
 
 Kielbasa ist nicht gleich Kielbasa. Wir achten auf kurze Zutatenlisten, sichtbare Fleischstruktur, sinnvollen Fettanteil und Gewürze, die nach Kümmel, Pfeffer, Knoblauch oder Majoran riechen – nicht nach flacher Raucharomatisierung. Für den Alltag reicht oft eine gute gekochte Wurst zum Anbraten mit Zwiebeln; für Gäste oder Sonntag wählen wir eine festere, würzigere Variante.
@@ -80,6 +84,10 @@ Wigilia ist Planung, kein Stresswettbewerb. Eine tragfähige Liste:
 - Zakwas oder Fertigbasis nur, wenn Żurek Teil eurer Tradition ist – viele Familien bleiben bei Barszcz
 
 Mehr Struktur: [Wigilia Speiseplan](/de/blog/wigilia-speiseplan) und der Anlass-Hub [Wigilia](/de/anlaesse/wigilia). EU-Hinweise zu Lebensmittelqualität und Herkunft finden sich bei der [Europäischen Kommission Landwirtschaft](https://agriculture.ec.europa.eu) – hilfreich, wenn wir Labels und geschützte Bezeichnungen lesen.
+
+
+
+![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1604719312566-8912e9227c6a?w=1400&q=80)
 
 ## Ersatzprodukte, die funktionieren (und die, die es nicht tun)
 
@@ -144,6 +152,10 @@ Type 405 ergibt oft einen feineren, etwas zarteren Teig; Type 550 ist etwas krä
 
 Öl macht den Teig geschmeidiger und die Naht kooperativer. Wer ohne Ei arbeitet, braucht etwas mehr Feuchtigkeit und Geduld – klassisch möglich, aber für Einsteiger mit Ei entspannter. Vertiefung zur Technik: [Teig](/de/techniken/teig). Offizielle Orientierung zu Getreide und Mehlqualität findet ihr auch über das [Bundeszentrum für Ernährung](https://www.bzfe.de).
 
+
+
+![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1495521821757-a1efb6729352?w=1400&q=80)
+
 ## Kneten: Zeit statt Kraft
 
 Acht bis zehn Minuten von Hand reichen. Zuerst Mehl und Salz mischen, Ei und Öl einarbeiten, Wasser portionsweise zugeben. Dann kneten, bis die Oberfläche glatt wirkt und der Teig zurückfedert. Zu kurzes Kneten = Risse beim Falten. Zu langes Kneten mit zu viel Mehl = harter, trockener Teig.
@@ -181,6 +193,10 @@ Für Sonntags-Batches: Teig verdoppeln (1 kg Mehl-Basis), Füllungen parallel vo
 ## Maschine vs. Hand
 
 Handarbeit gibt Gefühl für Feuchtigkeit – ideal zum Lernen. Die Maschine spart Kraft bei 1 kg und mehr, besonders vor Wigilia. Sie ersetzt nicht das Ausrollen und Füllen; sie nimmt nur das Kneten ab. Details und Wann-nicht-kaufen: [Teigmaschine](/de/blog/teigmaschine-pierogi).
+
+
+
+![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=1400&q=80)
 
 ## Drei Varianten, ein Teig
 
@@ -363,7 +379,7 @@ Transparent: Kennzeichnung, wenn Provision möglich ist, und Empfehlung nur bei 
 
 ## Nach dem Kauf: sofort nutzen
 
-Maschine ausgepackt – erste Charge nach [Pierogi-Teig](/de/blog/pierogi-teig), füllen als [Pierogi Ruskie](/de/rezepte/pierogi/ruskie) oder Kraut-Pilze zu [Barszcz](/de/rezepte/barszcz-czerwony). Einkauf: [Polenladen](/de/blog/polenladen-einkaufen). Kriterien bleiben Maßstab; Marketingtexte nicht. So bleibt die Kaufberatung im Dienst der Küche, nicht des Warenkorbs.
+Maschine ausgepackt – erste Charge nach [Pierogi-Teig](/de/blog/pierogi-teig), füllen als [Pierogi Ruskie](/de/rezepte/pierogi/ruskie) oder Kraut-Pilze zu [Barszcz](/de/rezepte/barszcz-czerwony). Spezielles holen wir im [Polenladen](/de/blog/polenladen-einkaufen). Kriterien bleiben Maßstab; Marketingtexte nicht. So bleibt die Kaufberatung im Dienst der Küche, nicht des Warenkorbs.
 `;
 
 export const bodyTwarogDe = `
@@ -381,6 +397,10 @@ Für Füllungen suchen wir:
 - sauberen Milchgeschmack ohne Bitterkeit
 
 Zu nass = matschige Füllung, weicher Teig, Platzer. Zu fett und glatt (wie mancher Frischkäse) = falsche Textur und schwerer Geschmack. Orientierung zu Milchprodukten und Portionsbewusstsein bieten [bzfe.de](https://www.bzfe.de) und [was-wir-essen.de](https://www.was-wir-essen.de); wir übersetzen das in Füllungslogik.
+
+
+
+![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1628088062854-d1870b4553da?w=1400&q=80)
 
 ## Quarktypen im deutschen Regal
 
@@ -440,6 +460,10 @@ Wenn Twaróg nicht in Teig oder Füllung soll, sondern über heiße Pasta: [Maka
 Preise vergleichen pro Gramm Trockenmasse – nicht nur pro Becher. Feuchter Quark ist teures Wasser. Für Wigilia und große Pierogi-Tage lieber früh den richtigen Quark sichern als am 23. Dezember kompromissieren. Planung: [Wigilia Speiseplan](/de/blog/wigilia-speiseplan).
 
 Polnische Ernährungsorientierung findet sich beim Nationalen Zentrum für Ernährungsbildung: [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl) – hilfreich als Hintergrund, ohne unsere Hausrezepte zu ersetzen.
+
+
+
+![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1550583724-b2692b85b150?w=1400&q=80)
 
 ## Häufige Fehler
 
@@ -514,6 +538,10 @@ Traditionell symbolisieren zwölf Speisen Fülle und den Jahreskreis. In der Pra
 
 Nicht jede Region und nicht jede Familie füllt die Liste gleich. Schlesien, Kleinpolen, Kaschubei, Großstädte – Bräuche unterscheiden sich. Respekt heißt: übernehmen, was bei euch Sinn ergibt, ohne andere zu belehren. Anlass-Hub: [Wigilia](/de/anlaesse/wigilia).
 
+
+
+![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1481391319762-47dff72954d9?w=1400&q=80)
+
 ## Barszcz und Pierogi: das stabile Duo
 
 Klare Rote-Bete-Brühe, nicht zu süß, mit Tiefgang durch Pilzfond oder Röstgemüse. Dazu [Uszka](/de/rezepte/uszka) oder volle Kraut-Pilz-Pierogi; wer gerollte Panade mag, plant [Krokiety](/de/rezepte/krokiety) als verwandten Gang. Der Teig folgt [Pierogi-Teig](/de/blog/pierogi-teig); Füllung braucht ausgedrückte Kapusta und intensiv geschmorte Pilze. Viele von uns kochen Barszcz einen Tag vorher – Geschmack rundet sich.
@@ -585,6 +613,10 @@ Listen konkret halten – siehe auch [Polenladen](/de/blog/polenladen-einkaufen)
 - Brot
 
 Das sind keine zwölf – und es reicht für einen ruhigen Abend. Wer erweitern will, addiert Uszka, eine zweite Fischvariante, Kutia. Wer reduzieren will, streicht Süßes oder doppelte Fischlinien. Speiseplan-Detailseite: [Wigilia Speiseplan](/de/blog/wigilia-speiseplan).
+
+
+
+![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1544025162-d76694265947?w=1400&q=80)
 
 ## Geschmackslinien, die zusammenpassen
 

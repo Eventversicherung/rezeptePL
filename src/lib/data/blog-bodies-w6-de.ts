@@ -7,6 +7,10 @@ Hier geht es um **Backtechnik für polnischen Mohnkuchen**: Teigführung, Mohn v
 
 Makowiec ist kein Strudel und kein deutscher Mohnkuchen vom Blech: Es ist ein **Hefeteig-Rollenkuchen** mit dichter Mohnfüllung, oft mit mancherlei Zusätzen (Rosinen, Honig, Zitronenschale), außen goldbraun, innen feucht aber nicht nass. Wer nur „etwas mit Mohn“ sucht, landet leicht bei Blechkuchen — schmeckt, ist aber ein anderes Gericht und ein anderes Gericht.
 
+
+
+![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=1400&q=80)
+
 ## Mohn: der Charakterträger
 
 Blauer Mohn (mak niebieski) trägt Aroma und Farbe. In DE: Polenladen für gute Qualität und oft schon gemahlenen Mohn; Supermarkt manchmal im Backregal oder international. Ganze Samen vorher mahlen oder dämpfen — sonst bleibt die Masse sandig und bitter. Zu trocken = bröselig und rissig beim Rollen. Zu nass = Teig weicht, Füllung läuft.
@@ -44,6 +48,10 @@ Werkzeug: großes Blech, Backpapier, Nudelholz, saubere Küchentücher. Keine Pf
 ## Typische Fehler
 
 Trockene Mohnmasse, zu viel Mehl im Teig, zu heißer Ofen, zu früh schneiden, Füllung bis an den Rand ohne Randzone, Hefe mit kochender Flüssigkeit abgetötet, Rolle zu lose (Lufttaschen) oder zu fest (Füllung quillt seitlich). Auch der Irrtum, Makowiec und Faworki am selben Nachmittag „nebenbei“ zu erfinden — zwei Fett-/Ofenprojekte brauchen getrennte Zeitfenster.
+
+
+
+![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=1400&q=80)
 
 ## Verwandte Gerichte
 

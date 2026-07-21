@@ -7,6 +7,10 @@ Faworki sind Streifen aus Mürbeteig-ähnlichem Eierteig, geschlungen oder einge
 
 Der Name Chrust kommt von der knusprigen, fast holzigen Textur. In der Diaspora hören wir beide Namen; wichtig ist das Ergebnis auf dem Teller, nicht die Folklore-Diskussion. Racuchy und andere süße Klassiker können denselben Tag begleiten, ersetzen aber weder Faworki noch Pączki.
 
+
+
+![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1551024601-bec78aea704b?w=1400&q=80)
+
 ## Teig: Ruhe, Dünne, Gefühl
 
 Ein tragfähiger Faworki-Teig braucht Eier, Mehl, etwas Sauerrahm oder Śmietana, oft einen Schuss Spirituoses (Wodka oder Essig) — der hilft, Fettaufnahme zu begrenzen. Genau Mengen stehen im Rezept; hier die Technik: Teig kneten bis glatt, ruhen lassen, dünn ausrollen. Zu dick = innen roh und außen dunkel. Zu dünn = zerreißen beim Wenden.
@@ -26,6 +30,10 @@ Zu dicker Teig, zu kaltes Fett, zu große Stücke, Zucker erst nach dem Abkühle
 ## Einkaufen in DE
 
 Mehl Type 405 oder 550, Eier, Schmalz oder Frittieröl, Puderzucker, optional Spirituoses. Śmietana oder Schmand — siehe [Śmietana-Lexikon](/de/blog/smietana-schmand). Polenladen für Spezialitäten und fertige Pączki als Ergänzung. Ersatzprodukte: [Zutaten ersetzen](/de/blog/ersatzprodukte-de).
+
+
+
+![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1509440159596-0249088772ff?w=1400&q=80)
 
 ## Ablauf für Tłusty Czwartek
 
@@ -104,6 +112,10 @@ Trotz des Namens ist es polnische Hausmannskost mit weißen Bohnen, Tomatensoße
 
 Es ist kein Bigos und kein Gulasz — weniger Kraut, mehr Bohne, klarere Tomate. Wer Bigos kennt, erkennt die Logik langer Hitze; wer [Gulasz](/de/rezepte/gulasz-wieprzowy) kocht, kennt Schmor-Geduld. Fasolka bleibt eigenständig — kochen auf der Rezeptseite.
 
+
+
+![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1546549032-9571cd6b27df?w=1400&q=80)
+
 ## Bohnen: trocken, Glas, Dose
 
 Getrocknete Bohnen: einweichen, kochen, Zeit einplanen. Glas oder Dose: schneller Alltag, Qualität prüfen (nicht zu matschig). In DE liegen weiße Bohnen zuverlässig im Supermarkt; Polenladen hilft bei Wurst und Gewürzen. Wer trockene Bohnen wählt, plant den Vortag ein — nicht den hungrigen Abend.
@@ -122,9 +134,13 @@ Majoran ist kein Deko-Kraut. In Fasolka, Gołąbki und vielen Fleischgerichten t
 
 Dutch Oven oder stabiler Schmortopf helfen — siehe Kaufberatung — sind aber nicht Pflicht. Wichtig: Deckel, niedrige Hitze, Rühren gegen Ansetzen. Am Vortag gekocht oft besser. Freezer: portionieren, flach einfrieren, gründlich erhitzen.
 
+
+
+![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=1400&q=80)
+
 ## Einkaufen und Polenladen
 
-Liste nach Gericht: Bohnen, Tomate, Zwiebel, Knoblauch, Wurst, Majoran, Lorbeer. [Polenladen](/de/blog/polenladen-einkaufen) für Wurst und Gewürze. Ersatz: [Ersatzprodukte](/de/blog/ersatzprodukte-de). Mengen im Rezept; hier die Logik.
+Liste nach Gericht: Bohnen, Tomate, Zwiebel, Knoblauch, Wurst, Majoran, Lorbeer. [Polenladen](/de/blog/polenladen-einkaufen) für Wurst und Gewürze. Wenn etwas fehlt, helfen [Ersatzprodukte](/de/blog/ersatzprodukte-de). Mengen im Rezept; hier die Logik.
 
 ## FAQ: Fasolka
 
@@ -172,6 +188,10 @@ Majoran (Origanum majorana) ist mild-würzig, leicht süßlich, anders als Orega
 
 Getrockneter Majeranek ist der Alltagsstandard: aromatisch, lagerfähig, dosierbar. Frischer Majoran ist seltener und milder; wer ihn hat, gibt ihn spät dazu. Alt und verstaubt im Regal schmeckt nach nichts — lieber kleine Packung frisch kaufen.
 
+
+
+![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1596040033229-a0b3b83e0aa3?w=1400&q=80)
+
 ## Wann er den Unterschied macht
 
 Gołąbki-Füllung, Fasolka, Zrazy, Pierogi mit Fleisch, Kotlet mielony, manche Suppen: Majeranek setzt die Linie „polnisch-deftig“. Ohne ihn wirken Gerichte oft flach, selbst wenn Salz stimmt. Mit zu viel wird es bitter und medizinisch — deshalb abschmecken, nicht schütten.
@@ -185,6 +205,10 @@ Supermarkt: oft als „Majoran“ im Gewürzregal. Polenladen: häufig aromatisc
 ## Dosierung und Technik
 
 Getrocknet früh genug in die Füllung oder Soße, damit er zieht. Am Ende noch einmal prüfen. In Hack mit Salz und Pfeffer verkneten. In Eintöpfen mit Lorbeer kombinieren — Lorbeer für Hintergrund, Majeranek für Vordergrund.
+
+
+
+![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1506368248146-8a4e4e5c0b3d?w=1400&q=80)
 
 ## Verbindungen im Silo
 

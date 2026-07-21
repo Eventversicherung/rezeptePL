@@ -3,6 +3,7 @@ import { Link } from "@/i18n/navigation";
 import { SetLocaleAlternates } from "@/components/i18n/LocaleAlternates";
 import { AffiliateCard } from "@/components/affiliate/AffiliateCard";
 import { BlogRelatedRecipeCard } from "@/components/blog/BlogRelatedRecipeCard";
+import { renderBlogBody } from "@/lib/markdown/blog-body";
 import { familyVariantPath, recipePath } from "@/lib/data/recipe-paths";
 import type {
   AffiliateProduct,
@@ -11,116 +12,6 @@ import type {
   Recipe,
   RecipeFamily,
 } from "@/types/content";
-
-function renderBody(body: string) {
-  const blocks = body.split(/\n\n+/);
-  return blocks.map((block, i) => {
-    const trimmed = block.trim();
-    if (!trimmed) return null;
-    if (trimmed.startsWith("## ")) {
-      return (
-        <h2
-          key={i}
-          className="mt-12 font-display text-[clamp(1.45rem,3vw,1.85rem)] font-semibold first:mt-0"
-        >
-          {trimmed.slice(3)}
-        </h2>
-      );
-    }
-    if (trimmed.startsWith("### ")) {
-      return (
-        <h3 key={i} className="mt-8 text-lg font-semibold text-[var(--navy)]">
-          {trimmed.slice(4)}
-        </h3>
-      );
-    }
-    if (trimmed.startsWith("> ")) {
-      return (
-        <blockquote
-          key={i}
-          className="mt-6 border-l-4 border-accent bg-accent-soft/40 px-4 py-3 text-base leading-relaxed"
-        >
-          {linkify(trimmed.replace(/^>\s?/gm, ""))}
-        </blockquote>
-      );
-    }
-    if (trimmed.startsWith("- ")) {
-      const items = trimmed.split("\n").filter((l) => l.startsWith("- "));
-      return (
-        <ul
-          key={i}
-          className="mt-4 list-disc space-y-2.5 pl-5 text-base leading-relaxed"
-        >
-          {items.map((item, j) => (
-            <li key={j}>{linkify(item.slice(2))}</li>
-          ))}
-        </ul>
-      );
-    }
-    if (/^\d+\.\s/.test(trimmed)) {
-      const items = trimmed.split("\n").filter((l) => /^\d+\.\s/.test(l));
-      return (
-        <ol
-          key={i}
-          className="mt-4 list-decimal space-y-2.5 pl-5 text-base leading-relaxed"
-        >
-          {items.map((item, j) => (
-            <li key={j}>{linkify(item.replace(/^\d+\.\s/, ""))}</li>
-          ))}
-        </ol>
-      );
-    }
-    return (
-      <p key={i} className="mt-4 text-base leading-[1.75] text-foreground/90">
-        {linkify(trimmed)}
-      </p>
-    );
-  });
-}
-
-function linkify(text: string) {
-  const parts = text.split(/(\[[^\]]+\]\([^)]+\))/g);
-  return parts.map((part, i) => {
-    const m = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
-    if (!m) return part;
-    const href = m[2];
-    const label = m[1];
-    const internal = href.match(/^\/(de|pl)(\/.*)$/);
-    if (internal) {
-      return (
-        <Link
-          key={i}
-          href={internal[2]}
-          className="font-medium text-accent underline-offset-2 hover:underline"
-        >
-          {label}
-        </Link>
-      );
-    }
-    if (href.startsWith("/")) {
-      return (
-        <Link
-          key={i}
-          href={href}
-          className="font-medium text-accent underline-offset-2 hover:underline"
-        >
-          {label}
-        </Link>
-      );
-    }
-    return (
-      <a
-        key={i}
-        href={href}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="font-medium text-accent underline-offset-2 hover:underline"
-      >
-        {label}
-      </a>
-    );
-  });
-}
 
 export function BlogArticle({
   post,
@@ -167,8 +58,8 @@ export function BlogArticle({
   return (
     <>
       <SetLocaleAlternates de={alternates.de} pl={alternates.pl} />
-      <article className="mx-auto max-w-3xl pb-28 md:pb-16">
-        <div className="relative aspect-[16/9] overflow-hidden rounded-[calc(var(--radius)+10px)] bg-elevated shadow-[0_20px_50px_rgba(28,20,18,0.12)]">
+      <article className="mx-auto w-full max-w-3xl pb-28 md:pb-16">
+        <div className="relative aspect-[16/10] overflow-hidden rounded-[calc(var(--radius)+10px)] bg-elevated shadow-[0_20px_50px_rgba(28,20,18,0.12)] sm:aspect-[16/9]">
           <Image
             src={post.coverImage}
             alt={t.title}
@@ -178,18 +69,18 @@ export function BlogArticle({
             sizes="(max-width: 768px) 100vw, 768px"
           />
         </div>
-        <h1 className="mt-8 font-display text-[clamp(2rem,6vw,3.2rem)] font-semibold leading-[1.08]">
+        <h1 className="mt-6 font-display text-[clamp(1.85rem,6.5vw,3.2rem)] font-semibold leading-[1.08] sm:mt-8">
           {t.title}
         </h1>
-        <p className="mt-4 max-w-[65ch] text-lg leading-relaxed text-muted">
+        <p className="mt-3 max-w-[65ch] text-base leading-relaxed text-muted sm:mt-4 sm:text-lg">
           {t.excerpt}
         </p>
-        <div className="prose-blog mt-10 border-t border-border pt-8">
-          {renderBody(t.body)}
+        <div className="prose-blog mt-8 border-t border-border pt-6 sm:mt-10 sm:pt-8">
+          {renderBlogBody(t.body)}
         </div>
 
         {relatedRecipes.length > 0 ? (
-          <section className="mt-16">
+          <section className="mt-14 sm:mt-16">
             <p className="text-xs font-semibold uppercase tracking-[0.14em] text-accent">
               Alemniam
             </p>
@@ -215,7 +106,7 @@ export function BlogArticle({
         ) : null}
 
         {products.length > 0 ? (
-          <section className="mt-16">
+          <section className="mt-14 sm:mt-16">
             <p className="text-xs font-semibold uppercase tracking-[0.14em] text-muted">
               {labels.disclosure}
             </p>
@@ -236,7 +127,7 @@ export function BlogArticle({
         ) : null}
 
         {relatedPosts.length > 0 ? (
-          <section className="mt-16">
+          <section className="mt-14 sm:mt-16">
             <h2 className="font-display text-[clamp(1.5rem,3vw,2rem)] font-semibold">
               {labels.relatedPosts}
             </h2>
@@ -274,12 +165,12 @@ export function BlogArticle({
           </section>
         ) : null}
 
-        <section className="mt-16 rounded-[calc(var(--radius)+8px)] border border-border bg-elevated px-6 py-8 sm:px-8">
+        <section className="mt-14 rounded-[calc(var(--radius)+8px)] border border-border bg-elevated px-5 py-7 sm:mt-16 sm:px-8 sm:py-8">
           <h2 className="font-display text-xl font-semibold sm:text-2xl">
             {labels.ctaTitle}
           </h2>
           <p className="mt-3 max-w-[48ch] text-muted">{labels.ctaBody}</p>
-          <Link href={ctaHref} className="btn-primary mt-6 inline-flex">
+          <Link href={ctaHref} className="btn-primary mt-6 inline-flex min-h-11 items-center">
             {labels.ctaButton}
           </Link>
         </section>

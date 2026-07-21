@@ -13,6 +13,10 @@ Niemiecki supermarket jest świetny w logistyce: świeże warzywa, mięso, nabia
 
 To podejście działa szczególnie dobrze w weekend: lista na REWE w piątek wieczorem, krótka wizyta w sklepie polskim w sobotę rano, gotowanie wieczorem albo w niedzielę. Jeśli planujesz [Wigilię](/pl/anlaesse/wigilia), ten rytm warto rozłożyć na kilka dni — o tym piszemy w [menu wigilijnym](/pl/blog/menu-wigilijne).
 
+
+
+![Danie z polskiej kuchni](https://images.unsplash.com/photo-1542838132-92c53300491e?w=1400&q=80)
+
 ## Co zawsze warto brać w sklepie polskim
 
 Poniższa lista nie jest dogmatem, ale w praktyce gospodarstw w Niemczech wraca niemal przy każdym większym gotowaniu.
@@ -66,6 +70,10 @@ Wielu z nas gotuje dla osób, które wychowały się już w Niemczech i nie maj�
 
 Jeśli kupujesz z dziećmi, trzymaj listę krótką: trzy rzeczy „polskie” na wizytę, reszta w markecie. Unikasz chaosu i impulsywnych zakupów słodyczy, które i tak znikną przed niedzielnym obiadem.
 
+
+
+![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1604719312566-8912e9227c6a?w=1400&q=80)
+
 ## Przechowywanie i marnowanie jedzenia
 
 Kapustę kiszoną trzymaj w chłodzie, zawsze przykrytą sokiem. Zakwas — zgodnie z etykietą, zwykle chłodno po otwarciu. Kiełbasę planuj w menu tygodnia, nie „na wszelki wypadek na dnie szuflady”. Suszone grzyby trzymaj szczelnie, z dala od wilgoci. Twaróg jedz szybko albo wykorzystaj w farszu i mroź pierogi — to lepsza strategia niż mrożenie samego twarogu w przypadkowym pojemniku.
@@ -109,6 +117,10 @@ Ciasto ma być miękkie, elastyczne, lekko wilgotne w dotyku, ale nie lepiące s
 > Proporcje dają start. Odpoczynek daje elastyczność. Spokojne wałkowanie daje powtarzalność.
 
 Jeśli uczysz się od zera, zacznij od mniejszych partii. Dopiero potem skaluj. Hub techniczny: [ciasto](/pl/techniken/ciasto). Przy większych ilościach pomaga [robot do ciasta](/pl/blog/robot-do-ciasta-pierogi) — ale najpierw zrozum rękę.
+
+
+
+![Danie z polskiej kuchni](https://images.unsplash.com/photo-1495521821757-a1efb6729352?w=1400&q=80)
 
 ## Proporcje bazowe (ok. 4 porcje)
 
@@ -169,6 +181,10 @@ Do ruskich i [naleśników](/pl/rezepte/nalesniki/twarog) jakość twarogu / Qua
 Wrzucaj do lekko wrzącej, osolonej wody partiami. Po wypłynięciu zwykle 2–4 minuty, zależnie od grubości. Nie walcz z gwałtownym wrzeniem jak przy makaronie „na ostro” — delikatniejsze gotowanie mniej niszczy szwy. Wyjmuj łyżką cedzakową. Możesz od razu podawać z masłem i cebulką albo chwilę odparować i podsmażyć.
 
 Jeśli pierogi mają iść do mrożenia: lepiej mrozić surowe, ułożone osobno, potem zsypane do worka. Gotujesz prosto z mrożenia, bez rozmrażania. To fundament spokojnego batchowania przed świętami — spójne z planem w [menu wigilijnym](/pl/blog/menu-wigilijne).
+
+
+
+![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=1400&q=80)
 
 ## Mąka w Niemczech: typ 405, 550 i „coś nie tak”
 
@@ -320,6 +336,10 @@ Twaróg w tradycyjnym polskim użyciu kuchennym to masa o wyczuwalnym ziarnie, k
 
 Jeśli macie dostęp do świeżego twarogu w [sklepie polskim](/pl/blog/sklep-polski-zakupy) — bierzcie go jako pierwszy wybór, ale i tak oceniajcie wilgotność. Etykieta nie zwalnia z sita.
 
+
+
+![Danie z polskiej kuchni](https://images.unsplash.com/photo-1628088062854-d1870b4553da?w=1400&q=80)
+
 ## Co kupować w niemieckim supermarkecie
 
 - **Speisequark 20% / Fettstufe według etykiety** — uniwersalny start; często wymaga odsączenia 30–60 minut.
@@ -364,6 +384,10 @@ Nie moralizujemy o tłuszczu. Farsz ma smakować. Chudszy nabiał wymaga czasem 
 3. **Przesól na starcie** — lepiej doprawić po wymieszaniu i spróbować na zimno.
 4. **Zastępowanie twarogu serkiem kremowym 1:1** — inna chemia, inny smak, często za tłusto i za gładko.
 5. **Kupowanie na zapas bez planu** — nabiał lubi konkretny termin użycia w menu tygodnia.
+
+
+
+![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1550583724-b2692b85b150?w=1400&q=80)
 
 ## Zakupy: krótka ścieżka decyzyjna
 
@@ -422,11 +446,11 @@ Nie musimy udowadniać polskości liczbą misek. Lepiej postawić kilka rzeczy n
 - [Barszcz czerwony](/pl/rezepte/barszcz-czerwony) — czysty, aromatyczny, z [uszkami](/pl/rezepte/uszka) albo bez
 - Pierogi z kapustą i grzybami — sygnał świąt; pokrewne [krokiety](/pl/rezepte/krokiety) gdy wolicie panierowaną rolkę
 - Opcjonalnie [pierogi ruskie](/pl/rezepte/pierogi/ruskie) — most dla dzieci i gości mniej „kapuścianych”
-- [Kompot z suszu](/pl/rezepte/kompot-z-suszu) albo [makowiec](/pl/rezepte/makowiec) / [sernik](/pl/rezepte/sernik) / miodowo-korzenny [piernik](/pl/rezepte/piernik) — kompot ma własny cook-primary; menu zostaje ownerem okazji
-- Potrawa makowa bez rolady: [makaron z makiem](/pl/rezepte/makaron-z-makiem) (makaron+mak, ≠ makowiec; menu zostaje ownerem okazji)
-- Deser zbożowy wigilijny: [kutia](/pl/rezepte/kutia) — pszenica+mak+miód (≠ makaron; menu zostaje ownerem okazji); alternatywnie owocowy [kisiel](/pl/rezepte/kisiel) ze skrobią (≠ kompot; menu zostaje ownerem okazji)
-- Ryba: [karp](/pl/rezepte/karp) na ciepło, [ryba po grecku](/pl/rezepte/ryba-po-grecku) jako zimna linia filet–sos, albo [śledź](/pl/rezepte/sledz) w oleju — albo kremowo jako [sałatka śledziowa](/pl/rezepte/salatka-sledziowa) (majonez ≠ filety w oleju; menu zostaje ownerem okazji)
-- Opcjonalnie klarowna [zupa grzybowa](/pl/rezepte/zupa-grzybowa) jako osobny cook (≠ barszcz-primary; menu zostaje ownerem okazji)
+- [Kompot z suszu](/pl/rezepte/kompot-z-suszu) albo [makowiec](/pl/rezepte/makowiec) / [sernik](/pl/rezepte/sernik) / miodowo-korzenny [piernik](/pl/rezepte/piernik) — kompot ma własny przepis; tu zostaje plan stołu
+- Potrawa makowa bez rolady: [makaron z makiem](/pl/rezepte/makaron-z-makiem) (makaron z makiem, nie makowiec)
+- Deser zbożowy wigilijny: [kutia](/pl/rezepte/kutia) — pszenica, mak, miód (nie makaron); alternatywnie owocowy [kisiel](/pl/rezepte/kisiel) ze skrobią (nie kompot)
+- Ryba: [karp](/pl/rezepte/karp) na ciepło, [ryba po grecku](/pl/rezepte/ryba-po-grecku) jako zimna linia filet–sos, albo [śledź](/pl/rezepte/sledz) w oleju — albo kremowo jako [sałatka śledziowa](/pl/rezepte/salatka-sledziowa) (majonez to nie filety w oleju)
+- Opcjonalnie klarowna [zupa grzybowa](/pl/rezepte/zupa-grzybowa) jako osobne danie obok barszczu
 
 > Dwanaście potraw to kompas, nie ustawa. Gościnność smakuje lepiej niż checklista.
 
@@ -440,6 +464,10 @@ Respekt dla różnic regionalnych i rodzinnych jest częścią tradycji, nie jej
 4. Ugotujcie [barszcz](/pl/rezepte/barszcz-czerwony) dzień wcześniej.
 5. Zostawcie bufor czasowy przed kolacją — bez nowych przepisów „na szybko”.
 
+
+
+
+![Danie z polskiej kuchni](https://images.unsplash.com/photo-1481391319762-47dff72954d9?w=1400&q=80)
 
 ## Harmonogram, który broni nerwów
 
@@ -506,6 +534,10 @@ Jeśli obchodzicie Wigilię w dniu dogodnym logistycznie, a nie „tylko 24. wie
 Święta to nie czas na skrajne eksperymenty dietetyczne wbrew domowi, ale warto pamiętać o przechowywaniu, nie marnowaniu i umiarze. Edukacyjne ramy żywieniowe znajdziecie m.in. na [NCEZ](https://ncez.pzh.gov.pl) oraz [BZFE](https://www.bzfe.de). Przy rybach i nabiale pilnujcie łańcucha chłodniczego w drodze ze sklepu — zwłaszcza gdy robicie większe zakupy „na raz”.
 
 W kontekście jakości produktów rolnych i szerszej perspektywy europejskiej sensownym punktem orientacyjnym bywa też [agriculture.ec.europa.eu](https://agriculture.ec.europa.eu) — nie jako przepis kulinarny, lecz jako przypomnienie, że jedzenie ma swoją drogę zanim trafi na wigilijny obrus.
+
+
+
+![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1544025162-d76694265947?w=1400&q=80)
 
 ## Co świadomie odpuszczamy
 

@@ -51,12 +51,55 @@ const colonLinkDump =
 const bannedSeoEnglish =
   /\b(Intent|Primary|Ownership|Pillar)\b/;
 
+function scanText(text, id, locale, failures) {
+  const seo = text.match(bannedSeo);
+  if (seo) {
+    const idx = text.toLowerCase().indexOf(seo[0].toLowerCase());
+    const snippet = text
+      .slice(Math.max(0, idx - 40), idx + 60)
+      .replace(/\s+/g, " ");
+    failures.push({ id, locale, term: seo[0], snippet });
+    return;
+  }
+
+  for (const re of bannedPhrases) {
+    const m = text.match(re);
+    if (m) {
+      const idx = text.toLowerCase().indexOf(m[0].toLowerCase());
+      const snippet = text
+        .slice(Math.max(0, idx - 40), idx + 60)
+        .replace(/\s+/g, " ");
+      failures.push({ id, locale, term: m[0], snippet });
+      return;
+    }
+  }
+
+  const dump = text.match(colonLinkDump);
+  if (dump) {
+    const idx = text.indexOf(dump[0]);
+    const snippet = text
+      .slice(Math.max(0, idx - 20), idx + 55)
+      .replace(/\s+/g, " ");
+    failures.push({ id, locale, term: dump[0].trim(), snippet });
+    return;
+  }
+
+  const eng = text.match(bannedSeoEnglish);
+  if (eng) {
+    const idx = text.indexOf(eng[0]);
+    const snippet = text
+      .slice(Math.max(0, idx - 40), idx + 60)
+      .replace(/\s+/g, " ");
+    failures.push({ id, locale, term: eng[0], snippet });
+  }
+}
+
 async function main() {
   const { getRecipeArticle } = await import(
     "../src/lib/data/recipe-articles.ts"
   );
 
-  const { seedRecipes } = await import("../src/lib/data/seed.ts");
+  const { seedRecipes, seedBlogPosts } = await import("../src/lib/data/seed.ts");
   const ids = seedRecipes.map((r) => r.id);
   const locales = ["de", "pl"];
   let checked = 0;
@@ -66,55 +109,22 @@ async function main() {
     for (const locale of locales) {
       const text = getRecipeArticle(id, locale);
       checked += 1;
+      scanText(text, id, locale, failures);
+    }
+  }
 
-      const seo = text.match(bannedSeo);
-      if (seo) {
-        const idx = text.toLowerCase().indexOf(seo[0].toLowerCase());
-        const snippet = text
-          .slice(Math.max(0, idx - 40), idx + 60)
-          .replace(/\s+/g, " ");
-        failures.push({ id, locale, term: seo[0], snippet });
-        continue;
-      }
-
-      let hitBanned = false;
-      for (const re of bannedPhrases) {
-        const m = text.match(re);
-        if (m) {
-          const idx = text.toLowerCase().indexOf(m[0].toLowerCase());
-          const snippet = text
-            .slice(Math.max(0, idx - 40), idx + 60)
-            .replace(/\s+/g, " ");
-          failures.push({ id, locale, term: m[0], snippet });
-          hitBanned = true;
-          break;
-        }
-      }
-      if (hitBanned) continue;
-
-      const dump = text.match(colonLinkDump);
-      if (dump) {
-        const idx = text.indexOf(dump[0]);
-        const snippet = text
-          .slice(Math.max(0, idx - 20), idx + 55)
-          .replace(/\s+/g, " ");
-        failures.push({ id, locale, term: dump[0].trim(), snippet });
-        continue;
-      }
-
-      const eng = text.match(bannedSeoEnglish);
-      if (eng) {
-        const idx = text.indexOf(eng[0]);
-        const snippet = text
-          .slice(Math.max(0, idx - 40), idx + 60)
-          .replace(/\s+/g, " ");
-        failures.push({ id, locale, term: eng[0], snippet });
-      }
+  let blogChecked = 0;
+  for (const post of seedBlogPosts) {
+    for (const locale of locales) {
+      const text = post.translations[locale]?.body ?? "";
+      blogChecked += 1;
+      checked += 1;
+      scanText(text, post.id, locale, failures);
     }
   }
 
   console.log(
-    `Checked ${checked} expanded articles (${ids.length} recipes × 2 locales).`,
+    `Checked ${checked} texts (${ids.length} recipes × 2 + ${seedBlogPosts.length} blog posts × 2).`,
   );
   if (failures.length) {
     console.error(`FAIL: ${failures.length} hits`);
@@ -126,7 +136,7 @@ async function main() {
     process.exit(1);
   }
   console.log(
-    "PASS: no SEO jargon, banned brand phrases, or colon-link dumps.",
+    `PASS: no SEO jargon, banned brand phrases, or colon-link dumps (incl. ${blogChecked} blog bodies).`,
   );
 }
 

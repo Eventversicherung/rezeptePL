@@ -15,6 +15,10 @@ Surowe pierogi lubią płaskie, szerokie boxy: jedna warstwa, mało nacisku od g
 
 Worki nadają się do płaskiego mrożenia na blasze; potem przesypujemy do pojemników. Same worki bez tego kroku często zgniatają pierogi i psują szwy. Boxy to nie luksus, tylko porządek — zwłaszcza gdy kilka osób sięga do zamrażarki.
 
+
+
+![Danie z polskiej kuchni](https://images.unsplash.com/photo-1610557898930-061537b2f3ba?w=1400&q=80)
+
 ## Kryteria: materiał, uszczelnienie, stos
 
 **Materiał:** PP z atestem spożywczym (często „bez BPA”) albo szkło z plastikową pokrywą. PP jest lekki i powszechny w DE. Szkło cięższe i kruche w zamrażarce — zostawiamy je raczej na rosół niż na stos surowych pierogów.
@@ -79,6 +83,10 @@ Sekcja przygotowana pod przyszłe testy: wysokość stosu pod obciążeniem, szc
 - Zmywarka tak/nie
 - Jedna seria czy mix formatów
 - Budżet na zapasowe pokrywy
+
+
+
+![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?w=1400&q=80)
 
 ## FAQ
 
@@ -163,6 +171,10 @@ Tło higieniczne: [BZfE](https://www.bzfe.de), [NCEZ](https://ncez.pzh.gov.pl), 
 **Plastikowy kubeł z zaworem:** Lekki, tani — materiał spożywczy i neutralny zapachowo. Na ogórki i szybkie partie ok; po latach sprawdzamy rysy i zapach.
 
 Decyzja: **objętość, częstotliwość, miejsce**. Dom, który robi ogórki dwa razy w roku, ma inne potrzeby niż ktoś trzyma kapustę pod [bigos](/pl/rezepte/bigos).
+
+
+
+![Danie z polskiej kuchni](https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1400&q=80)
 
 ## Kryteria: szkło, pokrywa, odgazowanie
 
@@ -259,6 +271,10 @@ Fermentujące słoiki potrzebują **stabilnej temperatury** — nie obok kaloryf
 
 Zapach aktywnej kapusty bywa — to norma, nie od razu wada. W bloku: szczelne zamknięcie, bez otwartego fermentu na klatce. Ogórki krótsze i łagodniejsze.
 
+
+
+![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=1400&q=80)
+
 ## Sól, obciążenia, dodatki
 
 Słoiki to nie wszystko — **obciążenie** trzyma warzywa pod solanką. Kontakt z powietrzem = pleśń. W słoiku na wkrętkę: mniejszy słoik jako follower albo stalowe obciążniki fermentacyjne.
@@ -352,6 +368,10 @@ Smak: **ziemisty, orzechowy**; goryczka zwykle z przedgotowania, starej partii l
 
 Importowane opakowania bywają opisane po rosyjsku albo ukraińsku — liczy się forma **ziarna prażonego**, nie mąka gryczana ani kasza instant do szybkiej zupki. Mąka i kasza to osobne produkty w koszyku; pomyłka na półce to częsty błąd pierwszego zakupu w DE.
 
+
+
+![Danie z polskiej kuchni](https://images.unsplash.com/photo-1596797038530-2c14fded7a3e?w=1400&q=80)
+
 ## Zakupy w Niemczech
 
 **Sklep polski:** Najpewniejsze marki z PL — prażona, znane opakowania. Zob. [sklep polski](/pl/blog/sklep-polski-zakupy).
@@ -390,7 +410,7 @@ Lepiej **500 g–1 kg sprawdzonej marki** niż wielki worek na trzy lata w piwni
 
 **Do mięsa:** Zamiast kartofli — szybciej, gdy kasza już leży w szafce. Obok [schabowego](/pl/rezepte/kotlet-schabowy) czy panierki — bez przejmowania techniki panierki.
 
-**Kontekst bigosu:** Kasza na talerzu obok [bigosu](/pl/rezepte/bigos), nie w środku — [bigos przewodnik](/pl/blog/bigos-przewodnik) zostaje ownerem gulaszu.
+**Kontekst bigosu:** Kasza na talerzu obok [bigosu](/pl/rezepte/bigos), nie w środku — więcej o bigosie w [przewodniku](/pl/blog/bigos-przewodnik).
 
 **Placki:** Kreatywnie w diasporze — kasza obok [placków](/pl/rezepte/placki/ziemniaczane), żeby nie dublować kartofli.
 
@@ -415,6 +435,10 @@ Sucho, ciemno, zamknięte — jak ryż. Otwarte w puszce lub z klipsem; nie nad 
 Nie dosypujemy świeżej partii do starego słoika ze stęchłym opakowaniem — stara kasza przenosi wilgoć i zapach na nową partię w kilka tygodni.
 
 Ugotowana: lodówka 3–4 dni, szczelnie; podgrzewamy z odrobiną wody. Mrożenie porcjami — tekstura miększa po rozmrożeniu; do farszu ok, na luźny dodatek lepiej świeżo.
+
+
+
+![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1516684669134-de6f7c473a2a?w=1400&q=80)
 
 ## FAQ
 
