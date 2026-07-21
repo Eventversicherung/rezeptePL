@@ -36,10 +36,40 @@ export function PlacesMap({
 
     const map = new maplibregl.Map({
       container: containerRef.current,
-      style: "https://tiles.openfreemap.org/styles/liberty",
+      // Cool white/gray basemap — no warm yellow paper look
+      style: "https://basemaps.cartocdn.com/gl/positron-gl-style/style.json",
       center: GERMANY_CENTER,
       zoom: GERMANY_ZOOM,
       attributionControl: { compact: true },
+    });
+
+    map.on("style.load", () => {
+      const landIds = [
+        "background",
+        "landcover",
+        "landuse",
+        "park",
+        "national_park",
+      ];
+      for (const id of landIds) {
+        if (!map.getLayer(id)) continue;
+        try {
+          if (id === "background") {
+            map.setPaintProperty(id, "background-color", "#f7f7f8");
+          } else {
+            map.setPaintProperty(id, "fill-color", "#f3f3f5");
+          }
+        } catch {
+          /* layer paint type may differ — ignore */
+        }
+      }
+      if (map.getLayer("water")) {
+        try {
+          map.setPaintProperty("water", "fill-color", "#e8eef5");
+        } catch {
+          /* ignore */
+        }
+      }
     });
 
     map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");

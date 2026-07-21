@@ -1026,28 +1026,39 @@ a.btn-hero-secondary:hover {
   min-height: min(68dvh, 640px);
   border-radius: calc(var(--radius) + 4px);
   overflow: hidden;
-  border: 1px solid var(--border);
-  background: var(--bg-elevated);
-  box-shadow: 0 18px 40px color-mix(in srgb, var(--navy) 8%, transparent);
+  border: 1px solid color-mix(in srgb, var(--accent) 18%, #e5e5e7);
+  background: #ffffff;
+  box-shadow: 0 18px 40px color-mix(in srgb, var(--accent) 8%, transparent);
 }
 
 .places-map {
   width: 100%;
   height: min(68dvh, 640px);
+  background: #f7f7f8;
+}
+
+/* Keep basemap cool/white; markers stay vivid crimson */
+.places-map .maplibregl-canvas {
+  filter: saturate(0.55) contrast(1.02);
 }
 
 .places-map .maplibregl-ctrl-group {
-  border: none !important;
-  box-shadow: 0 8px 20px color-mix(in srgb, var(--navy) 12%, transparent);
+  border: 1px solid color-mix(in srgb, var(--accent) 14%, #e5e5e7) !important;
+  box-shadow: 0 8px 20px color-mix(in srgb, var(--navy) 8%, transparent);
   overflow: hidden;
   border-radius: 12px !important;
+  background: #fff !important;
+}
+
+.places-map .maplibregl-ctrl-group button + button {
+  border-top-color: color-mix(in srgb, var(--accent) 12%, #e5e5e7) !important;
 }
 
 .place-marker {
   width: 18px;
   height: 18px;
   padding: 0;
-  border: 2px solid #fffdfb;
+  border: 2px solid #ffffff;
   border-radius: 999px;
   background: var(--accent);
   box-shadow: 0 0 0 0 color-mix(in srgb, var(--accent) 45%, transparent);
@@ -1058,8 +1069,11 @@ a.btn-hero-secondary:hover {
     box-shadow 220ms var(--ease-out);
 }
 
+/* Markets: white fill + crimson ring so the map stays white/red */
 .place-marker--market {
-  background: var(--navy);
+  background: #ffffff;
+  border: 2.5px solid var(--accent);
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--accent) 35%, transparent);
 }
 
 .place-marker:hover,
@@ -1075,18 +1089,21 @@ a.btn-hero-secondary:hover {
 .place-marker--market:hover,
 .place-marker--market.is-glow,
 .place-marker--market.is-selected {
+  background: var(--accent);
+  border-color: #ffffff;
   box-shadow:
-    0 0 0 6px color-mix(in srgb, var(--navy) 18%, transparent),
-    0 0 22px color-mix(in srgb, var(--accent) 40%, transparent);
+    0 0 0 6px color-mix(in srgb, var(--accent) 22%, transparent),
+    0 0 22px color-mix(in srgb, var(--accent) 55%, transparent);
 }
 
 .place-user-dot {
   width: 14px;
   height: 14px;
   border-radius: 999px;
-  background: #3b82f6;
-  border: 2px solid #fff;
-  box-shadow: 0 0 0 6px color-mix(in srgb, #3b82f6 25%, transparent);
+  background: var(--accent);
+  border: 2px solid #ffffff;
+  box-shadow: 0 0 0 6px color-mix(in srgb, var(--accent) 22%, transparent);
+  opacity: 0.85;
 }
 
 .place-card {
