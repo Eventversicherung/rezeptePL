@@ -178,6 +178,28 @@ def pick_source_url(row: dict) -> str | None:
     return website if website else (source or None)
 
 
+def is_excluded(row: dict) -> bool:
+    """Skip if the place itself is a restaurant/bar (not notes about neighbours)."""
+    blob = " ".join(str(row.get(k) or "").lower() for k in ("category", "name"))
+    return bool(
+        re.search(
+            r"\b(restaurant|gaststätte|gaststaette|imbiss|kneipe)\b",
+            blob,
+        )
+    )
+
+
+def classify_kind(category: str, name: str) -> str:
+    """Larger food halls → market; Polenladen/Feinkost → shop."""
+    c = (category or "").lower()
+    n = (name or "").lower()
+    if "lebensmittelmarkt" in c or "supermarkt" in c:
+        return "market"
+    if re.search(r"\b(polonia\s*market|supermarkt|lebensmittelmarkt)\b", n):
+        return "market"
+    return "shop"
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument(
@@ -200,7 +222,12 @@ def main() -> None:
 
     geocoded = []
     failed = []
+    skipped = 0
     for i, row in enumerate(rows):
+        if is_excluded(row):
+            skipped += 1
+            print(f"-- skip non-shop #{row['id']} {row['name']}", file=sys.stderr)
+            continue
         key = f"{row['street']}|{row['postal']}|{row['city']}"
         if key in cache:
             lat, lng = cache[key]
@@ -219,11 +246,18 @@ def main() -> None:
             if (i + 1) % 10 == 0:
                 cache_path.write_text(json.dumps(cache, ensure_ascii=False, indent=2))
                 print(f"-- geocode {i+1}/{len(rows)}", file=sys.stderr)
-        row = {**row, "lat": lat, "lng": lng}
+        kind = classify_kind(row["category"], row["name"])
+        row = {**row, "lat": lat, "lng": lng, "kind": kind}
         geocoded.append(row)
 
     cache_path.write_text(json.dumps(cache, ensure_ascii=False, indent=2))
-    print(f"-- geocoded {len(geocoded)} failed {len(failed)}", file=sys.stderr)
+    shops = sum(1 for r in geocoded if r["kind"] == "shop")
+    markets = sum(1 for r in geocoded if r["kind"] == "market")
+    print(
+        f"-- geocoded {len(geocoded)} failed {len(failed)} skipped {skipped} "
+        f"shops={shops} markets={markets}",
+        file=sys.stderr,
+    )
 
     print("-- Curated Excel import: feste Polenläden DE")
     print("-- Source file: data/polenlaeden_feste_standorte_deutschland.xlsx")
@@ -246,16 +280,15 @@ def main() -> None:
         hours = row["hours"] or ""
         oh = json.dumps({"raw": hours} if hours else {}, ensure_ascii=False)
         desc_de, desc_pl = build_description(row)
-        tags = ["xlsx", "feste-standorte"]
-        if "markt" in (row["category"] or "").lower() and "fachmarkt" not in (
-            row["category"] or ""
-        ).lower():
-            # still shops (feste Geschäfte), not open-air markets
-            tags.append("fachmarkt")
+        kind = row["kind"]
+        tags = ["xlsx", "feste-standorte", kind]
+        cat_slug = slugify(row["category"])[:32]
+        if cat_slug:
+            tags.append(cat_slug)
         source_url = pick_source_url(row)
         vals.append(
             "("
-            f"{esc(slug)}, 'shop'::public.place_kind, {row['lat']}, {row['lng']}, "
+            f"{esc(slug)}, '{kind}'::public.place_kind, {row['lat']}, {row['lng']}, "
             f"{esc(row['street'])}, {esc(row['postal'])}, {esc(row['city'])}, "
             f"{esc(row['state'])}, {esc(website) if website else 'null'}, "
             f"{esc(oh)}::jsonb, array[{','.join(esc(t) for t in tags)}]::text[], "

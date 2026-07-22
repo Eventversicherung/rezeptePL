@@ -26,6 +26,16 @@ export function PlacesFinder({ places, locale }: Props) {
   const [geoStatus, setGeoStatus] = useState<GeoStatus>("idle");
   const [, startTransition] = useTransition();
 
+  const counts = useMemo(() => {
+    let shops = 0;
+    let markets = 0;
+    for (const p of places) {
+      if (p.kind === "market") markets += 1;
+      else shops += 1;
+    }
+    return { all: places.length, shop: shops, market: markets };
+  }, [places]);
+
   const requestLocation = () => {
     if (typeof navigator === "undefined" || !navigator.geolocation) {
       setGeoStatus("unsupported");
@@ -86,49 +96,24 @@ export function PlacesFinder({ places, locale }: Props) {
 
   const selected = enriched.find((p) => p.id === selectedId) ?? null;
 
+  useEffect(() => {
+    if (selectedId && !enriched.some((p) => p.id === selectedId)) {
+      setSelectedId(null);
+    }
+  }, [enriched, selectedId]);
+
+  const filters = [
+    { value: "all" as const, label: t("filterAll"), count: counts.all },
+    { value: "shop" as const, label: t("filterShops"), count: counts.shop },
+    {
+      value: "market" as const,
+      label: t("filterMarkets"),
+      count: counts.market,
+    },
+  ];
+
   return (
     <div className="places-finder">
-      <div className="places-finder__toolbar">
-        <div
-          className="places-finder__filters"
-          role="group"
-          aria-label={t("filterLabel")}
-        >
-          {(
-            [
-              ["all", t("filterAll")],
-              ["shop", t("filterShops")],
-              ["market", t("filterMarkets")],
-            ] as const
-          ).map(([value, label]) => (
-            <button
-              key={value}
-              type="button"
-              className={`places-filter-chip${filter === value ? " is-active" : ""}`}
-              onClick={() => setFilter(value)}
-            >
-              {label}
-            </button>
-          ))}
-        </div>
-
-        <div className="places-finder__geo">
-          {geoStatus === "granted" ? (
-            <p className="places-finder__geo-status">{t("geoActive")}</p>
-          ) : (
-            <button
-              type="button"
-              className="btn-secondary places-finder__geo-btn"
-              onClick={requestLocation}
-              disabled={geoStatus === "prompting"}
-              title={t("geoPrivacy")}
-            >
-              {geoStatus === "prompting" ? t("geoPrompting") : t("geoEnable")}
-            </button>
-          )}
-        </div>
-      </div>
-
       <div className="places-finder__stage">
         <PlacesMap
           places={enriched}
@@ -136,6 +121,61 @@ export function PlacesFinder({ places, locale }: Props) {
           userLocation={userLocation}
           onSelect={setSelectedId}
         />
+
+        <div className="places-finder__overlay">
+          <div
+            className="places-finder__filters"
+            role="group"
+            aria-label={t("filterLabel")}
+          >
+            {filters.map(({ value, label, count }) => (
+              <button
+                key={value}
+                type="button"
+                className={`places-filter-chip places-filter-chip--${value}${filter === value ? " is-active" : ""}`}
+                onClick={() => setFilter(value)}
+                aria-pressed={filter === value}
+              >
+                {value !== "all" ? (
+                  <span
+                    className={`places-filter-chip__swatch places-filter-chip__swatch--${value}`}
+                    aria-hidden="true"
+                  />
+                ) : null}
+                <span className="places-filter-chip__label">{label}</span>
+                <span className="places-filter-chip__count">{count}</span>
+              </button>
+            ))}
+          </div>
+
+          <div className="places-finder__geo">
+            {geoStatus === "granted" ? (
+              <p className="places-finder__geo-status">{t("geoActive")}</p>
+            ) : (
+              <button
+                type="button"
+                className="btn-secondary places-finder__geo-btn"
+                onClick={requestLocation}
+                disabled={geoStatus === "prompting"}
+                title={t("geoPrivacy")}
+              >
+                {geoStatus === "prompting" ? t("geoPrompting") : t("geoEnable")}
+              </button>
+            )}
+          </div>
+        </div>
+
+        <p className="places-finder__legend" aria-hidden="true">
+          <span>
+            <span className="places-legend-dot places-legend-dot--shop" />
+            {t("kindShop")}
+          </span>
+          <span>
+            <span className="places-legend-dot places-legend-dot--market" />
+            {t("kindMarket")}
+          </span>
+        </p>
+
         <PlaceDetailCard
           place={selected}
           locale={locale}

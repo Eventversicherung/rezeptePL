@@ -3,7 +3,7 @@
 import { useEffect, useRef } from "react";
 import maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
-import type { Place } from "@/types/place";
+import type { Place, PlaceKind } from "@/types/place";
 
 const GERMANY_CENTER: [number, number] = [10.45, 51.16];
 const GERMANY_ZOOM = 5.4;
@@ -18,6 +18,27 @@ type Props = {
   onSelect: (placeId: string) => void;
 };
 
+function createMarkerElement(kind: PlaceKind, label: string): HTMLButtonElement {
+  const el = document.createElement("button");
+  el.type = "button";
+  el.className = `place-marker place-marker--${kind}`;
+  el.setAttribute("aria-label", label);
+
+  const core = document.createElement("span");
+  core.className = "place-marker__core";
+  core.setAttribute("aria-hidden", "true");
+  el.appendChild(core);
+
+  if (kind === "shop") {
+    const tip = document.createElement("span");
+    tip.className = "place-marker__tip";
+    tip.setAttribute("aria-hidden", "true");
+    el.appendChild(tip);
+  }
+
+  return el;
+}
+
 export function PlacesMap({
   places,
   selectedId,
@@ -27,6 +48,7 @@ export function PlacesMap({
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<maplibregl.Map | null>(null);
   const markersRef = useRef<Map<string, maplibregl.Marker>>(new Map());
+  const kindRef = useRef<Map<string, PlaceKind>>(new Map());
   const userMarkerRef = useRef<maplibregl.Marker | null>(null);
   const onSelectRef = useRef(onSelect);
   onSelectRef.current = onSelect;
@@ -36,7 +58,6 @@ export function PlacesMap({
 
     const map = new maplibregl.Map({
       container: containerRef.current,
-      // Cool white/gray basemap — no warm yellow paper look
       style: "https://basemaps.cartocdn.com/gl/positron-gl-style/style.json",
       center: GERMANY_CENTER,
       zoom: GERMANY_ZOOM,
@@ -60,7 +81,7 @@ export function PlacesMap({
             map.setPaintProperty(id, "fill-color", "#f3f3f5");
           }
         } catch {
-          /* layer paint type may differ — ignore */
+          /* ignore */
         }
       }
       if (map.getLayer("water")) {
@@ -72,12 +93,16 @@ export function PlacesMap({
       }
     });
 
-    map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");
+    map.addControl(
+      new maplibregl.NavigationControl({ showCompass: false }),
+      "top-right",
+    );
     mapRef.current = map;
 
     return () => {
       markersRef.current.forEach((m) => m.remove());
       markersRef.current.clear();
+      kindRef.current.clear();
       userMarkerRef.current?.remove();
       map.remove();
       mapRef.current = null;
@@ -89,22 +114,29 @@ export function PlacesMap({
     if (!map) return;
 
     const existing = markersRef.current;
+    const kinds = kindRef.current;
     const nextIds = new Set(places.map((p) => p.id));
 
     existing.forEach((marker, id) => {
       if (!nextIds.has(id)) {
         marker.remove();
         existing.delete(id);
+        kinds.delete(id);
       }
     });
 
     for (const place of places) {
       let marker = existing.get(place.id);
+      const prevKind = kinds.get(place.id);
+
+      if (marker && prevKind && prevKind !== place.kind) {
+        marker.remove();
+        existing.delete(place.id);
+        marker = undefined;
+      }
+
       if (!marker) {
-        const el = document.createElement("button");
-        el.type = "button";
-        el.className = `place-marker place-marker--${place.kind}`;
-        el.setAttribute("aria-label", place.translation.name);
+        const el = createMarkerElement(place.kind, place.translation.name);
         el.addEventListener("click", (e) => {
           e.stopPropagation();
           onSelectRef.current(place.id);
@@ -114,6 +146,7 @@ export function PlacesMap({
           .setLngLat([place.lng, place.lat])
           .addTo(map);
         existing.set(place.id, marker);
+        kinds.set(place.id, place.kind);
       }
 
       const el = marker.getElement();
@@ -159,7 +192,7 @@ export function PlacesMap({
       center: [place.lng, place.lat],
       zoom: Math.max(map.getZoom(), 11),
       duration: 500,
-      padding: { top: 40, bottom: 220, left: 40, right: 40 },
+      padding: { top: 100, bottom: 220, left: 40, right: 40 },
     });
   }, [selectedId, places]);
 

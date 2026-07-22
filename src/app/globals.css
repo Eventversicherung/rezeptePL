@@ -973,52 +973,6 @@ a.btn-hero-secondary:hover {
   gap: var(--space-sm);
 }
 
-.places-finder__toolbar {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  gap: var(--space-sm);
-}
-
-.places-finder__filters {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem;
-}
-
-.places-filter-chip {
-  min-height: 2.5rem;
-  padding: 0.45rem 0.95rem;
-  border-radius: 999px;
-  border: 1px solid var(--border);
-  background: var(--surface);
-  color: var(--navy);
-  font-size: 0.9rem;
-  font-weight: 600;
-  transition:
-    background-color 160ms var(--ease-out),
-    border-color 160ms var(--ease-out),
-    color 160ms var(--ease-out);
-}
-
-.places-filter-chip.is-active {
-  background: var(--accent-soft);
-  border-color: color-mix(in srgb, var(--accent) 35%, transparent);
-  color: var(--accent);
-}
-
-.places-finder__geo-status {
-  margin: 0;
-  font-size: 0.88rem;
-  font-weight: 600;
-  color: var(--navy);
-}
-
-.places-finder__geo-btn {
-  min-height: 2.5rem;
-}
-
 .places-finder__stage {
   position: relative;
   min-height: min(78dvh, 760px);
@@ -1027,6 +981,169 @@ a.btn-hero-secondary:hover {
   border: 1px solid color-mix(in srgb, var(--accent) 18%, #e5e5e7);
   background: #ffffff;
   box-shadow: 0 18px 40px color-mix(in srgb, var(--accent) 8%, transparent);
+}
+
+.places-finder__overlay {
+  position: absolute;
+  z-index: 4;
+  top: 0.75rem;
+  left: 0.75rem;
+  right: 3.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.55rem;
+  pointer-events: none;
+}
+
+.places-finder__overlay > * {
+  pointer-events: auto;
+}
+
+.places-finder__filters {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  padding: 0.28rem;
+  border-radius: 999px;
+  background: color-mix(in srgb, #fff 92%, transparent);
+  border: 1px solid color-mix(in srgb, var(--navy) 10%, transparent);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 10px 28px color-mix(in srgb, var(--navy) 10%, transparent);
+}
+
+.places-filter-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  min-height: 2.35rem;
+  padding: 0.35rem 0.75rem;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--navy);
+  font-size: 0.86rem;
+  font-weight: 650;
+  transition:
+    background-color 160ms var(--ease-out),
+    border-color 160ms var(--ease-out),
+    color 160ms var(--ease-out),
+    transform 160ms var(--ease-out);
+}
+
+.places-filter-chip__swatch {
+  width: 0.7rem;
+  height: 0.7rem;
+  flex-shrink: 0;
+}
+
+.places-filter-chip__swatch--shop {
+  border-radius: 999px;
+  background: var(--accent);
+  box-shadow: 0 0 0 1.5px #fff;
+}
+
+.places-filter-chip__swatch--market {
+  border-radius: 0.2rem;
+  background: #fff;
+  border: 2px solid var(--accent);
+  transform: rotate(45deg);
+}
+
+.places-filter-chip__count {
+  min-width: 1.35rem;
+  padding: 0.08rem 0.35rem;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--navy) 7%, white);
+  color: var(--fg-muted);
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.places-filter-chip.is-active {
+  background: var(--accent);
+  color: #fff;
+}
+
+.places-filter-chip.is-active .places-filter-chip__count {
+  background: color-mix(in srgb, #fff 22%, transparent);
+  color: #fff;
+}
+
+.places-filter-chip.is-active .places-filter-chip__swatch--shop {
+  background: #fff;
+  box-shadow: none;
+}
+
+.places-filter-chip.is-active .places-filter-chip__swatch--market {
+  background: #fff;
+  border-color: #fff;
+}
+
+.places-finder__geo-status {
+  margin: 0;
+  padding: 0.45rem 0.75rem;
+  border-radius: 999px;
+  background: color-mix(in srgb, #fff 92%, transparent);
+  border: 1px solid color-mix(in srgb, var(--navy) 10%, transparent);
+  backdrop-filter: blur(12px);
+  font-size: 0.82rem;
+  font-weight: 650;
+  color: var(--navy);
+  box-shadow: 0 8px 20px color-mix(in srgb, var(--navy) 8%, transparent);
+}
+
+.places-finder__geo-btn {
+  min-height: 2.35rem;
+  box-shadow: 0 8px 20px color-mix(in srgb, var(--navy) 8%, transparent);
+}
+
+.places-finder__legend {
+  position: absolute;
+  z-index: 4;
+  left: 0.75rem;
+  bottom: 0.75rem;
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 0;
+  padding: 0.4rem 0.7rem;
+  border-radius: 999px;
+  background: color-mix(in srgb, #fff 92%, transparent);
+  border: 1px solid color-mix(in srgb, var(--navy) 10%, transparent);
+  backdrop-filter: blur(12px);
+  font-size: 0.74rem;
+  font-weight: 650;
+  color: var(--navy);
+  box-shadow: 0 8px 20px color-mix(in srgb, var(--navy) 8%, transparent);
+}
+
+.places-finder__legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.places-legend-dot {
+  display: inline-block;
+  width: 0.75rem;
+  height: 0.75rem;
+  flex-shrink: 0;
+}
+
+.places-legend-dot--shop {
+  border-radius: 999px;
+  background: var(--accent);
+  box-shadow: 0 0 0 1.5px #fff;
+}
+
+.places-legend-dot--market {
+  border-radius: 0.18rem;
+  background: #fff;
+  border: 2px solid var(--accent);
+  transform: rotate(45deg);
 }
 
 .places-map {
@@ -1053,45 +1170,79 @@ a.btn-hero-secondary:hover {
 }
 
 .place-marker {
-  width: 18px;
-  height: 18px;
+  position: relative;
+  width: 22px;
+  height: 28px;
   padding: 0;
-  border: 2px solid #ffffff;
-  border-radius: 999px;
-  background: var(--accent);
-  box-shadow: 0 0 0 0 color-mix(in srgb, var(--accent) 45%, transparent);
+  border: none;
+  background: transparent;
   cursor: pointer;
   transform-origin: center bottom;
-  transition:
-    transform 220ms var(--ease-out),
-    box-shadow 220ms var(--ease-out);
+  transition: transform 220ms var(--ease-out);
 }
 
-/* Markets: white fill + crimson ring so the map stays white/red */
+.place-marker__core {
+  display: block;
+  width: 16px;
+  height: 16px;
+  margin: 0 auto;
+  border: 2px solid #fff;
+  background: var(--accent);
+  box-shadow: 0 2px 8px color-mix(in srgb, var(--accent) 35%, transparent);
+}
+
+.place-marker--shop .place-marker__core {
+  border-radius: 999px;
+}
+
+.place-marker--shop .place-marker__tip {
+  display: block;
+  width: 10px;
+  height: 10px;
+  margin: -5px auto 0;
+  background: var(--accent);
+  transform: rotate(45deg);
+  border-radius: 1px;
+  box-shadow: 1px 1px 0 #fff;
+}
+
+/* Markets: rotated square — clearly different from shop pins */
 .place-marker--market {
-  background: #ffffff;
+  width: 24px;
+  height: 24px;
+}
+
+.place-marker--market .place-marker__core {
+  width: 15px;
+  height: 15px;
+  margin-top: 4px;
+  border-radius: 3px;
+  background: #fff;
   border: 2.5px solid var(--accent);
-  box-shadow: 0 0 0 1px color-mix(in srgb, var(--accent) 35%, transparent);
+  transform: rotate(45deg);
+  box-shadow: 0 2px 8px color-mix(in srgb, var(--navy) 16%, transparent);
 }
 
 .place-marker:hover,
 .place-marker.is-glow,
 .place-marker.is-selected {
-  transform: scale(1.35);
-  box-shadow:
-    0 0 0 6px color-mix(in srgb, var(--accent) 22%, transparent),
-    0 0 22px color-mix(in srgb, var(--accent) 55%, transparent);
+  transform: scale(1.28);
   z-index: 2;
 }
 
-.place-marker--market:hover,
-.place-marker--market.is-glow,
-.place-marker--market.is-selected {
-  background: var(--accent);
-  border-color: #ffffff;
+.place-marker.is-selected .place-marker__core,
+.place-marker.is-glow .place-marker__core,
+.place-marker:hover .place-marker__core {
   box-shadow:
-    0 0 0 6px color-mix(in srgb, var(--accent) 22%, transparent),
-    0 0 22px color-mix(in srgb, var(--accent) 55%, transparent);
+    0 0 0 5px color-mix(in srgb, var(--accent) 20%, transparent),
+    0 0 18px color-mix(in srgb, var(--accent) 45%, transparent);
+}
+
+.place-marker--market.is-selected .place-marker__core,
+.place-marker--market.is-glow .place-marker__core,
+.place-marker--market:hover .place-marker__core {
+  background: var(--accent);
+  border-color: #fff;
 }
 
 .place-user-dot {
@@ -1283,5 +1434,37 @@ a.btn-hero-secondary:hover {
   .places-map {
     min-height: min(72dvh, 620px);
     height: min(72dvh, 620px);
+  }
+
+  .places-finder__overlay {
+    right: 0.65rem;
+    top: 0.65rem;
+  }
+
+  .places-finder__filters {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .places-filter-chip {
+    flex: 1 1 auto;
+    justify-content: center;
+    min-height: 2.5rem;
+    padding: 0.35rem 0.5rem;
+    font-size: 0.8rem;
+  }
+
+  .places-finder__legend {
+    bottom: auto;
+    top: auto;
+    /* Sit above the detail card area when closed; still clear of filters */
+    left: 0.65rem;
+    right: auto;
+    bottom: 0.65rem;
+  }
+
+  .place-card ~ .places-finder__legend,
+  .places-finder__stage:has(.place-card) .places-finder__legend {
+    display: none;
   }
 }
