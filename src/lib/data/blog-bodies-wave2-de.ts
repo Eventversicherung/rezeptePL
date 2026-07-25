@@ -517,7 +517,7 @@ Essig-1:1; Sonne; fest dicht ohne Entlüftung; Schimmel weiterverwenden; stark k
 
 
 
-![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1604908177528-946fc9d68799?w=1400&q=80)
+![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=1400&q=80)
 
 ## Lagern
 
@@ -1410,7 +1410,7 @@ Wie oft im Jahr? Welche Mengen? Nur Pierogi-Farce oder auch Wurst? Platz? Reinig
 
 
 
-![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1556911220-bff31c8120b0?w=1400&q=80)
+![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=1400&q=80)
 
 ## Kriterien
 

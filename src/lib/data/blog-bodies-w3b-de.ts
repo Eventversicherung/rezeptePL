@@ -17,7 +17,7 @@ Beutel eignen sich für flaches Vor-Anfrieren auf dem Blech; danach überführen
 
 
 
-![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1610557898930-061537b2f3ba?w=1400&q=80)
+![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=1400&q=80)
 
 ## Kriterien: Material, Dichtung, Stapelbarkeit
 
@@ -342,7 +342,7 @@ Kasza schmeckt **erdig-nussig**; bitter wird sie durch Überkochen, alte Ware od
 
 
 
-![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1596797038530-2c14fded7a3e?w=1400&q=80)
+![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=1400&q=80)
 
 ## Einkauf in Deutschland
 

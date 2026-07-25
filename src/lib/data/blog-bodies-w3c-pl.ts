@@ -17,7 +17,7 @@ W Niemczech porównujemy często do Wiener Art — tam cieniej, jaśniej, częst
 
 
 
-![Danie z polskiej kuchni](https://images.unsplash.com/photo-1604908177528-946fc9d68799?w=1400&q=80)
+![Danie z polskiej kuchni](https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=1400&q=80)
 
 ## Przygotowanie mięsa: rozbicie, grubość, sól
 
@@ -140,7 +140,7 @@ Klarowny **czerwony** jest przecedzony, rubinowy, bez śmietany w garnku — inn
 
 
 
-![Danie z polskiej kuchni](https://images.unsplash.com/photo-1608818580423-ccfb08a254af?w=1400&q=80)
+![Danie z polskiej kuchni](https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1400&q=80)
 
 ## Buraki i zakupy w DE
 
@@ -199,7 +199,7 @@ Tarte **surowe** kartofle z jajkiem i odrobiną mąki/skrobi, smażone na pateln
 
 
 
-![Danie z polskiej kuchni](https://images.unsplash.com/photo-1573080496219-b83aa30643ae?w=1400&q=80)
+![Danie z polskiej kuchni](https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=1400&q=80)
 
 ## Kartofle i wilgoć (krótko)
 

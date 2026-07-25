@@ -19,7 +19,7 @@ Panieren ist auch **Batch-Thema**: Mehrere Kotlets nacheinander, gleichmäßige 
 
 
 
-![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1604908177528-946fc9d68799?w=1400&q=80)
+![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=1400&q=80)
 
 ## Fleisch vorbereiten: Schlag, Dicke, Salz
 
@@ -146,7 +146,7 @@ Klarer **czerwony** ist durchgeseiht, rubinrot, ohne Sahne im Topf — anders al
 
 
 
-![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1608818580423-ccfb08a254af?w=1400&q=80)
+![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1400&q=80)
 
 ## Buraki und Einkauf in DE
 
@@ -205,7 +205,7 @@ Geriebene **rohe** Kartoffeln, gebunden mit Ei und wenig Mehl/Stärke, in Öl ge
 
 
 
-![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1573080496219-b83aa30643ae?w=1400&q=80)
+![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=1400&q=80)
 
 ## Kartoffeln und Feuchtigkeit (kurz)
 

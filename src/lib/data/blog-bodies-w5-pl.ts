@@ -190,7 +190,7 @@ Suszony majeranek to standard dnia: aromatyczny, trwały, mierzalny. Świeży by
 
 
 
-![Danie z polskiej kuchni](https://images.unsplash.com/photo-1596040033229-a0b3b83e0aa3?w=1400&q=80)
+![Danie z polskiej kuchni](https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=1400&q=80)
 
 ## Kiedy robi różnicę
 

@@ -17,7 +17,7 @@ Worki nadają się do płaskiego mrożenia na blasze; potem przesypujemy do poje
 
 
 
-![Danie z polskiej kuchni](https://images.unsplash.com/photo-1610557898930-061537b2f3ba?w=1400&q=80)
+![Danie z polskiej kuchni](https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=1400&q=80)
 
 ## Kryteria: materiał, uszczelnienie, stos
 
@@ -370,7 +370,7 @@ Importowane opakowania bywają opisane po rosyjsku albo ukraińsku — liczy si�
 
 
 
-![Danie z polskiej kuchni](https://images.unsplash.com/photo-1596797038530-2c14fded7a3e?w=1400&q=80)
+![Danie z polskiej kuchni](https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=1400&q=80)
 
 ## Zakupy w Niemczech
 

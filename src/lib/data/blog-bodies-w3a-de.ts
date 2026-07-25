@@ -37,7 +37,7 @@ Die Korrekturen und Mengen: [Gołąbki-Rezept](/de/rezepte/golabki).
 
 
 
-![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1604908177528-946fc9d68799?w=1400&q=80)
+![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=1400&q=80)
 
 ## FAQ kurz
 

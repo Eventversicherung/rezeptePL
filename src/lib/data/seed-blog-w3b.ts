@@ -16,7 +16,7 @@ export const seedBlogPostsW3b: BlogPost[] = [
     status: "published",
     postType: "buying-guide",
     coverImage:
-      "https://images.unsplash.com/photo-1610557898930-061537b2f3ba?w=1600&q=80",
+      "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=1600&q=80",
     siloIds: ["gear"],
     relatedRecipeIds: [
       "recipe-pierogi",
@@ -106,7 +106,7 @@ export const seedBlogPostsW3b: BlogPost[] = [
     status: "published",
     postType: "lexicon",
     coverImage:
-      "https://images.unsplash.com/photo-1596797038530-2c14fded7a3e?w=1600&q=80",
+      "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=1600&q=80",
     siloIds: ["ingredient", "diaspora"],
     relatedRecipeIds: ["recipe-golabki", "recipe-placki", "recipe-bigos"],
     relatedPostIds: [

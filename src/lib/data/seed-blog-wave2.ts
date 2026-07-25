@@ -738,7 +738,7 @@ export const seedBlogPostsWave2: BlogPost[] = [
     status: "published",
     postType: "buying-guide",
     coverImage:
-      "https://images.unsplash.com/photo-1556911220-bff31c8120b0?w=1600&q=80",
+      "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=1600&q=80",
     siloIds: ["gear"],
     relatedRecipeIds: [
       "recipe-pierogi-meat",

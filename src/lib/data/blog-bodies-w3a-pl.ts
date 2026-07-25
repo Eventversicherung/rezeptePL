@@ -35,7 +35,7 @@ Korekty i ilości: [przepis gołąbki](/pl/rezepte/golabki).
 
 
 
-![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1604908177528-946fc9d68799?w=1400&q=80)
+![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=1400&q=80)
 
 ## FAQ krótko
 

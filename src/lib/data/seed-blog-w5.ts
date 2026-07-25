@@ -109,7 +109,7 @@ export const seedBlogPostsW5: BlogPost[] = [
     status: "published",
     postType: "lexicon",
     coverImage:
-      "https://images.unsplash.com/photo-1596040033229-a0b3b83e0aa3?w=1600&q=80",
+      "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=1600&q=80",
     siloIds: ["ingredient"],
     relatedRecipeIds: [
       "recipe-golabki",
