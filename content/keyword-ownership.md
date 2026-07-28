@@ -136,6 +136,17 @@ Eine Primary KW = eine Owner-URL. Andere Seiten nur mit descriptive Anchors verl
 | Kisiel owocowy / Fruchtkisiel polnisch | `/rezepte/kisiel` |
 | Galareta / nóźki w galarecie | `/rezepte/galareta` |
 | Sałatka śledziowa / Heringssalat Mayo | `/rezepte/salatka-sledziowa` |
+| Surówka z kapusty / Krautsalat polnisch | `/rezepte/surowka` |
+| Kotlet de volaille / Cordon bleu polnisch | `/rezepte/de-volaille` |
+| Kasza gryczana Rezept (Cook) | `/rezepte/kasza-gryczana` |
+| Pierniczki / Lebkuchenplätzchen polnisch | `/rezepte/pierniczki` |
+| Knedle z truskawkami / Erdbeerknödel | `/rezepte/knedle-truskawki` |
+| Tatar wołowy / Beefsteaktatar polnisch | `/rezepte/tatar` |
+| Chrzan tarty / Meerrettich polnisch | `/rezepte/chrzan` |
+| Kurczak pieczony / Huhn polnisch Ofen | `/rezepte/kurczak-pieczony` |
+| Fehler polnisch kochen Diaspora (nicht Cook) | `/blog/fehler-polnisch-kochen-deutschland` · `/blog/bledy-polskie-gotowanie-niemcy` |
+
+**Intent-Trennung (Wave 16 final):** Surówka z kapusty = knackiger Krautsalat (Rohkost±Karotte) ≠ Mizeria ≠ Sałatka jarzynowa ≠ Kapusta zasmażana. Kotlet de volaille = paniertes Hähnchen mit Butter-/Käsefüllung ≠ Kotlet schabowy (Schwein) ≠ Kurczak pieczony (Ofenvogel). Kasza gryczana Cook = sypka-Buchweizen Topf `/rezepte/kasza-gryczana` ≠ Kasza-Lexikon Broad `/blog/kasza-buchweizen` (Sorten/Einkauf bleiben dort). Pierniczki = Gewürzplätzchen ≠ Piernik-Laib. Knedle z truskawkami = Erdbeer-Knödel ≠ Knedle ze śliwkami ≠ Pierogi jagody. Tatar wołowy = rohes fein gehacktes Rind ≠ Pasztet ≠ Kotlet mielony. Chrzan tarty = weißer Meerrettich ≠ Ćwikła (Bete+Meerrettich). Kurczak pieczony = Ofenhuhn mit Majeranek ≠ Kaczka ≠ Schabowy ≠ Schab pieczony. Fehler-Blog = Muster über Gerichte (Hitze/Feuchtigkeit/Ersatz) ≠ Cook-Owner einzelner Rezepte. Wigilia / Wielkanoc / Sonntagsessen / Kasza-Guide / Majeranek / Polenladen bleiben Anlass-/Lexikon-/Einkauf-Owner.
 
 **Intent-Trennung (Wave 15 final):** Kaczka pieczona = ganze/halbe Ofenente (Apfel/Majoran-Hauslinie) ≠ Schab pieczony ≠ Golonka ≠ Żeberka. Pieczeń rzymska = Ofen-Hacklaib mit Ei-Kern ≠ Kotlet mielony (Pfanne) ≠ Pasztet. Galareta / nóźki w galarecie = kalte Sülze (Fleisch in klarem Gelee) ≠ Pasztet ≠ Sałatka jarzynowa ≠ Jajka faszerowane. Sałatka śledziowa = Mayo-Heringssalat (Zwiebel/Apfel/Ei) ≠ Śledź w oleju ≠ Sałatka jarzynowa. Marchewka z groszkiem = warme Möhren+Erbsen-Beilage (Butter/Glasur) ≠ Mizeria ≠ Buraczki. Fasolka szparagowa = grüne Stangenbohnen-Beilage (Butter/Semmelbrösel) ≠ Fasolka po bretońsku Cook `/rezepte/fasolka-po-bretonsku` ≠ Fasolka-Guide Broad `/blog/fasolka-po-bretonsku` (Eintopf bleibt dort; hier nur descriptive Anchors). Zupa koperkowa = helle Dillsuppe (Kartoffel/Śmietana/Ei; Dill-dominant) ≠ Rosół ≠ Szczawiowa ≠ Botwinka ≠ Ogórkowa; Overview bleibt `/blog/polnische-suppen`. Kisiel owocowy = gestärkte Fruchtcreme (z. B. Himbeere) ≠ Kompot z suszu ≠ Kutia. Wigilia / Wielkanoc / Sonntagsessen / Majeranek / Polenladen bleiben Anlass-/Kultur-/Lexikon-/Einkauf-Owner.
 

@@ -234,6 +234,23 @@ Plan: `content/wave-14-plan.md` (shipped).
 
 Plan: `content/wave-15-plan.md` (shipped).
 
+## LIVE (Wave 16 shipped — 8 Diaspora + 1 Fehler-Blog)
+
+| What | Notes |
+|------|-------|
+| `recipe-surowka` | Krautsalat; ≠ Mizeria / Jarzynowa |
+| `recipe-de-volaille` | Huhn+Butterfüllung; ≠ Schabowy |
+| `recipe-kasza-gryczana` | Cook sypka; Lexikon bleibt `post-kasza` |
+| `recipe-pierniczki` | Plätzchen; ≠ Piernik-Laib |
+| `recipe-knedle-truskawki` | Erdbeere; ≠ Śliwki / Jagody-Pierogi |
+| `recipe-tatar` | Roh Rind; ≠ Pasztet / Mielony |
+| `recipe-chrzan` | Weißer Meerrettich; ≠ Ćwikła |
+| `recipe-kurczak-pieczony` | Ofenhuhn; ≠ Kaczka / Schabowy / Schab |
+| `post-fehler-diaspora` | Silo-safe Fehler über Gerichte |
+| `SEED_VERSION` | **42** · Rezepte **95** · Blog **37** |
+
+Plan: `content/wave-16-plan.md` (shipped).
+
 ## HOLD
 
-Region-Blogs, Meal-Prep Woche, Lab-Tests, Region-Hub-Intros ≥400 vor Index, Kotlet family, Czernina, Sękacz, Surówka, Kotlet de volaille. Cover-Proxy-Upgrades (Żurek, Bigos, Kapuśniak, Mizeria, Faworki, …).
+Region-Blogs, Meal-Prep Woche, Lab-Tests, Region-Hub-Intros ≥400 vor Index, Kotlet family, Czernina, Sękacz, Kwaśnica (Cover), Barszcz biały. Cover-Proxy-Upgrades (Żurek, Bigos, Kapuśniak, Mizeria, Faworki, …).

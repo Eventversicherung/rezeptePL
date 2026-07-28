@@ -31,6 +31,10 @@ import { W15_FACTS_A } from "./recipe-articles-w15-a";
 import { W15_FACTS_B } from "./recipe-articles-w15-b";
 import { W15_FACTS_C } from "./recipe-articles-w15-c";
 import { W15_FACTS_D } from "./recipe-articles-w15-d";
+import { W16_FACTS_A } from "./recipe-articles-w16-a";
+import { W16_FACTS_B } from "./recipe-articles-w16-b";
+import { W16_FACTS_C } from "./recipe-articles-w16-c";
+import { W16_FACTS_D } from "./recipe-articles-w16-d";
 
 type ArticleFacts = {
  dishDe: string;
@@ -1315,6 +1319,12 @@ Object.assign(FACTS, W14_FACTS_A, W14_FACTS_B, W14_FACTS_C, W14_FACTS_D);
  * A Festfleisch · B Buffet · C Beilagen · D Suppe+Kisiel.
  */
 Object.assign(FACTS, W15_FACTS_A, W15_FACTS_B, W15_FACTS_C, W15_FACTS_D);
+
+/**
+ * Wave 16 — merge order:
+ * A Surówka+De volaille · B Kasza+Tatar · C Pierniczki+Knedle · D Chrzan+Kurczak.
+ */
+Object.assign(FACTS, W16_FACTS_A, W16_FACTS_B, W16_FACTS_C, W16_FACTS_D);
 
 /**
  * Longform assembler — calm cooking prose, not brand or SEO padding.

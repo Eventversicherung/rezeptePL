@@ -30,6 +30,8 @@ import { seedRecipesWave13 } from "./seed-recipes-wave13";
 import { seedRecipesWave14 } from "./seed-recipes-wave14";
 /** Wave 15 — A Festfleisch · B Buffet · C Beilagen · D Suppe+Kisiel */
 import { seedRecipesWave15 } from "./seed-recipes-wave15";
+/** Wave 16 — A Surówka+De volaille · B Kasza+Tatar · C Pierniczki+Knedle · D Chrzan+Kurczak */
+import { seedRecipesWave16 } from "./seed-recipes-wave16";
 
 export const seedClusters = expandedClusters;
 export { seedFamilies, seedBlogPosts };
@@ -2038,6 +2040,7 @@ export const seedRecipes: Recipe[] = [
   ...seedRecipesWave13,
   ...seedRecipesWave14,
   ...seedRecipesWave15,
+  ...seedRecipesWave16,
 ].map((recipe) => {
   if (recipe.id === "recipe-nalesniki") {
     return {
