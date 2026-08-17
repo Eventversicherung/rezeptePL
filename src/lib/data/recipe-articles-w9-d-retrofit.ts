@@ -37,13 +37,13 @@ export const W9_FACTS_W8_RETROFIT: Record<string, ArticleFacts> = {
  techniquePl:
  "Cebula na szklisto, kapusta dusić do miękkości, zasmażka jasna (nie gorzka), wmieszać, krótko gotować. Nadmiar płynu wcześniej odparować. Doprawić solą i pieprzem — cukier tylko awaryjnie przy ostrym kwasie.",
  serveDe:
- "Heiß zu [Kotlet schabowy](/de/rezepte/kotlet-schabowy), Braten oder einfachen Kartoffeln. Passt in den Rahmen des [polnischen Sonntagsessens](/de/blog/sonntagsessen-polnisch). Deftige Pfannen-Nachbarschaft: [Kaszanka mit Zwiebel](/de/rezepte/kaszanka) — Rezept dort, Types bleiben im [Kiełbasa-Arten-Guide](/de/blog/kielbasa-arten). Reste am nächsten Tag oft runder; erneut erhitzen, ggf. etwas Wasser.",
+ "Heiß zu [Kotlet schabowy](/de/rezepte/kotlet-schabowy), Braten oder einfachen Kartoffeln. Passt in den Rahmen des [polnischen Sonntagsessens](/de/blog/sonntagsessen-polnisch). Deftige Pfannen-Nachbarschaft: [Kaszanka mit Zwiebel](/de/rezepte/kaszanka) — Rezept dort, Sorten im [Kiełbasa-Arten-Guide](/de/blog/kielbasa-arten). Reste am nächsten Tag oft runder; erneut erhitzen, ggf. etwas Wasser.",
  servePl:
  "Gorącą do [kotleta schabowego](/pl/rezepte/kotlet-schabowy), piezeni lub ziemniaków. Pasuje do [obiadu niedzielnego](/pl/blog/obiad-niedzielny). Treściwe sąsiedztwo z patelni: [kaszanka z cebulą](/pl/rezepte/kaszanka) — cook tam, typy w [przewodniku rodzajów kiełbasy](/pl/blog/rodzaje-kielbasy). Resztki następnego dnia często lepsze; odgrzać, ewentualnie odrobinę wody.",
  diasporaDe:
  "In deutschen Wohnungen riecht Kapusta zasmażana nach ruhigem Sonntag ohne Drei-Topf-Theater. Kraut aus dem Kühlregal, Schwitze in fünf Minuten — machbar nach Schicht. Wer Majoran liebt, hält die Dosis klein und liest das [Majeranek-Lexikon](/de/blog/majeranek) als Gewürz-Nachbar, nicht als Ersatz für dieses Rezept.",
  diasporaPl:
- "W niemieckich mieszkaniach kapusta zasmażana pachnie spokojną niedzielą bez maratonu garnków. Kiszona z chłodni, zasmażka w pięć minut — po zmianie też możliwe. Majeranek ostrożnie; [leksykon majeranku](/pl/blog/majeranek-leksykon) jako sąsiad przypraw, nie owner przepisu.",
+ "W niemieckich mieszkaniach kapusta zasmażana pachnie spokojną niedzielą bez maratonu garnków. Kiszona z chłodni, zasmażka w pięć minut — po zmianie też możliwe. Majeranek ostrożnie; [leksykon majeranku](/pl/blog/majeranek-leksykon) jako sąsiad przypraw, nie zamiennik tego przepisu.",
  mistakesDe:
  "Zu dunkle Zasmażka (bitter). Komplett gespültes Kraut (fade). Mit Bigos verwechseln oder Zu viel Wasser wird zur Suppe statt Beilage. Zu früh Wurst rein — anderes Gericht.",
  mistakesPl:

@@ -52,9 +52,9 @@ export const W10_FACTS_D: Record<string, ArticleFacts> = {
  techniquePl:
  "Makaron al dente, woda z gotowania pod ręką, masło rozpuścić, wmieszać twaróg, związać odrobiną wody — kremowo, nie wodniście. Za mokry twaróg wcześniej odsącz. Cukier dopiero po związaniu; linia wytrawna: sól i pieprz. Opcjonalnie bułka na maśle na złoto — chrupki kontrast bez nowego dania.",
  serveDe:
- "Sofort auf Tellern, heiß. Süß mit Zucker und optional Vanille; salzig mit Dill oder Bröseln. Das ist ein Alltagsteller — nicht der Sonntagsbraten und nicht das Kapusta-Silo. Wer Teig kneten will, geht zu [Pierogi leniwe](/de/rezepte/pierogi-leniwe); wer Kraut-Nudeln will, zu [Łazanki](/de/rezepte/lazanki). Quark-Einkauf bleibt im [Twaróg-Guide](/de/blog/twarog-deutschland).",
+ "Sofort auf Tellern, heiß. Süß mit Zucker und optional Vanille; salzig mit Dill oder Bröseln. Das ist ein Alltagsteller — nicht der Sonntagsbraten und nicht das Krautgericht. Wer Teig kneten will, geht zu [Pierogi leniwe](/de/rezepte/pierogi-leniwe); wer Kraut-Nudeln will, zu [Łazanki](/de/rezepte/lazanki). Quark-Einkauf bleibt im [Twaróg-Guide](/de/blog/twarog-deutschland).",
  servePl:
- "Od razu na talerzach, gorące. Na słodko z cukrem i opcjonalnie wanilią; wytrawnie z koperkiem lub bułką. To talerz codzienny — nie pieczeń niedzielna i nie silos kapusty. Kto chce ciasto: [pierogi leniwe](/pl/rezepte/pierogi-leniwe); kto kapustę z makaronem: [łazanki](/pl/rezepte/lazanki). Zakupy nabiału: [przewodnik po twarogu](/pl/blog/twarog-w-niemczech).",
+ "Od razu na talerzach, gorące. Na słodko z cukrem i opcjonalnie wanilią; wytrawnie z koperkiem lub bułką. To talerz codzienny — nie pieczeń niedzielna i nie danie z kapusty. Kto chce ciasto: [pierogi leniwe](/pl/rezepte/pierogi-leniwe); kto kapustę z makaronem: [łazanki](/pl/rezepte/lazanki). Zakupy nabiału: [przewodnik po twarogu](/pl/blog/twarog-w-niemczech).",
  diasporaDe:
  "Nach Schicht, nach Kita, wenn der Polenladen zu weit ist: Nudeln, Quark, Butter. Kinder dürfen Zucker streuen oder Brösel rühren — heißer Topf bei Erwachsenen. Reste am nächsten Tag in der Pfanne mit etwas Butter aufwärmen. Kein Freezer-Projekt, kein Falten-Training — reine Comfort-Pasta mit polnischer Quark-Logik.",
  diasporaPl:

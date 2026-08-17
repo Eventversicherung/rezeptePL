@@ -469,7 +469,7 @@ function sanitizeFileContent(source) {
 }
 
 const BANNED =
-  /\b(Primary|SEO-Hinweis|Cook-Owner|Owner-URL|cannibal|Ownership|Cook-Intent|Broad-Owner|Money Page|Cook-Primary|Primary-KW)\b/i;
+  /\b(Primary|SEO-Hinweis|Cook-Owner|Owner-URL|cannibal|Ownership|Cook-Intent|Broad-Owner|Money Page|Cook-Primary|Primary-KW|Silo|silosu|silosie)\b/i;
 
 function main() {
   const files = [

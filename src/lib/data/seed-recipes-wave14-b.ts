@@ -47,7 +47,7 @@ export const seedRecipesWave14B: Recipe[] = [
           },
           {
             text: "Füllung mit Löffel oder Sterntülle in die Eiweiß-Hälften füllen. Mit etwas Schnittlauch oder Paprika bestreuen. Mindestens 30 Minuten kühlen, damit die Masse setzt.",
-            tip: "Menü-Kontext Ostern [Wielkanoc Speiseplan](/de/blog/wielkanoc-speiseplan) — Speiseplan bleibt Menü-Artikel; hier nur Cook.",
+            tip: "Menü-Kontext Ostern [Wielkanoc Speiseplan](/de/blog/wielkanoc-speiseplan) — Speiseplan bleibt der Menü-Rahmen; hier nur das Rezept.",
           },
           {
             text: "Kalt als Buffet- oder Vorspeisenplatte servieren. Neben [Biała kiełbasa](/de/rezepte/biala-kielbasa) und [Pasztet](/de/rezepte/pasztet) oft auf der kalten Platte — Fokus bleibt gefüllte Eier. Reste abgedeckt im Kühlschrank; Mayo-Hygiene beachten.",
@@ -74,7 +74,7 @@ export const seedRecipesWave14B: Recipe[] = [
           },
           {
             text: "Wypełnij białka łyżeczką lub rękawem cukierniczym. Posyp szczypiorkiem lub papryką. Chłodź co najmniej 30 minut, aż masa się ułoży.",
-            tip: "Kontekst świąt [menu wielkanocne](/pl/blog/menu-wielkanocne) — plan menu zostaje artykułem o okazji; tu tylko cook.",
+            tip: "Kontekst świąt [menu wielkanocne](/pl/blog/menu-wielkanocne) — plan menu zostaje ramą stołu; tu tylko przepis.",
           },
           {
             text: "Podawaj na zimno jako półmisek bufetowy lub przystawkę. Obok [białej kiełbasy](/pl/rezepte/biala-kielbasa) i [pasztetu](/pl/rezepte/pasztet) często na zimnej półce — tu zostaje przy jajkach. Resztki przykryte w lodówce; higiena majonezu.",

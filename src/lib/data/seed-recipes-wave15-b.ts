@@ -47,7 +47,7 @@ export const seedRecipesWave15B: Recipe[] = [
           },
           {
             text: "Fleisch und optional Karottenscheiben in Formen oder eine flache Schüssel schichten. Heiße, geklärte Brühe darüber gießen, sodass alles bedeckt ist. Abkühlen, dann mindestens 6–8 Stunden (besser über Nacht) im Kühlschrank fest werden lassen — das Gelee muss klar und schnittfest sein.",
-            tip: "Menü-Kontext descriptiv: [Wielkanoc Speiseplan](/de/blog/wielkanoc-speiseplan) oder [Sonntagsessen](/de/blog/sonntagsessen-polnisch) — Anlass bleibt Owner; hier nur Cook.",
+            tip: "Menü-Kontext: [Wielkanoc Speiseplan](/de/blog/wielkanoc-speiseplan) oder [Sonntagsessen](/de/blog/sonntagsessen-polnisch) — Anlass bleibt dort; hier nur das Rezept.",
           },
           {
             text: "Zum Servieren aus der Form stürzen oder in Scheiben/Würfel schneiden. Kalt mit Essig, Meerrettich oder Senf. Neben [Jajka faszerowane](/de/rezepte/jajka-faszerowane) oft auf der kalten Platte — Fokus bleibt Galareta. Hält 2–3 Tage gekühlt.",
@@ -74,7 +74,7 @@ export const seedRecipesWave15B: Recipe[] = [
           },
           {
             text: "Ułóż mięso i opcjonalnie plasterki marchewki w foremkach lub płaskiej misce. Zalej gorącym, klarownym wywarem. Ostudź, potem chłodź 6–8 godzin (lepiej na noc) — galaretka ma być klarowna i krajalna.",
-            tip: "Kontekst menu opisowo: [menu wielkanocne](/pl/blog/menu-wielkanocne) lub [obiad niedzielny](/pl/blog/obiad-niedzielny) — okazja zostaje ownerem; tu tylko cook.",
+            tip: "Kontekst menu: [menu wielkanocne](/pl/blog/menu-wielkanocne) lub [obiad niedzielny](/pl/blog/obiad-niedzielny) — okazja zostaje tam; tu tylko przepis.",
           },
           {
             text: "Wyjmij z foremki lub pokrój. Podawaj na zimno z octem, chrzanem lub musztardą. Obok [jajek faszerowanych](/pl/rezepte/jajka-faszerowane) często na zimnej półce — fokus zostaje przy galarecie. Trzyma 2–3 dni w lodówce.",
@@ -220,7 +220,7 @@ export const seedRecipesWave15B: Recipe[] = [
           },
           {
             text: "Mindestens 1–2 Stunden kalt ziehen lassen, damit sich Aromen verbinden. Vor dem Servieren umrühren und nachwürzen — die Cremigkeit muss sichtbar bleiben.",
-            tip: "Menüplatz Wigilia descriptiv: [Wigilia Speiseplan](/de/blog/wigilia-speiseplan) — Speiseplan bleibt Anlass-Owner; hier nur Cook.",
+            tip: "Menüplatz Wigilia: [Wigilia Speiseplan](/de/blog/wigilia-speiseplan) — Speiseplan bleibt der Menü-Rahmen; hier nur das Rezept.",
           },
           {
             text: "Kalt in Schüssel servieren, optional mit Schnittlauch. Neben Öl-Hering auf dem Tisch möglich — Fokus bleibt dieser Mayo-Salat. Mayo-Hygiene: gekühlt halten.",
@@ -247,7 +247,7 @@ export const seedRecipesWave15B: Recipe[] = [
           },
           {
             text: "Chłodź 1–2 godziny. Przed podaniem wymieszaj i dopraw — kremowość ma być widoczna.",
-            tip: "Miejsce w menu opisowo: [menu wigilijne](/pl/blog/menu-wigilijne) — plan zostaje ownerem okazji; tu tylko cook.",
+            tip: "Miejsce w menu: [menu wigilijne](/pl/blog/menu-wigilijne) — plan zostaje ramą stołu; tu tylko przepis.",
           },
           {
             text: "Podawaj na zimno, opcjonalnie ze szczypiorkiem. Obok śledzia w oleju możliwe — fokus zostaje przy tej majonezowej sałatce. Higiena majonezu: trzymać zimno.",

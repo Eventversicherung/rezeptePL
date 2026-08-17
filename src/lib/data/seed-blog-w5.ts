@@ -84,7 +84,7 @@ export const seedBlogPostsW5: BlogPost[] = [
         title: "Fasolka po bretońsku: Bohnen, Wurst, Majoran, Geduld",
         slug: "fasolka-po-bretonsku",
         excerpt:
-          "Einkauf, Bohnen, Kiełbasa und Würzen — Pillar-Guide zur Fasolka in DE, ohne Rezept zu duplizieren.",
+          "Einkauf, Bohnen, Kiełbasa und Würzen — Guide zur Fasolka in DE, ohne das Rezept zu duplizieren.",
         seoTitle: "Fasolka po bretońsku Guide | Alemniam",
         seoDescription:
           "Fasolka Guide: Bohnen, Tomate, Kiełbasa, Majeranek. Ergänzt Rezept und Einkauf in Deutschland.",

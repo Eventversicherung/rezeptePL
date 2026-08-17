@@ -43,19 +43,19 @@ export const W10_FACTS_A: Record<string, W10ArticleFacts> = {
  techniquePl:
  "Flaki podgotować i spłukać, warzywa zeszklić, paprykę/koncentrat podsmażyć, zalać, długo łagodnie gotować. Majeranek dość wcześnie — za późno i za mało smakuje płasko. Wyczucie wywaru może przypominać [rosół](/pl/rezepte/rosol), ale dodatek i przyprawy robią flaki. Nie wrzeć gwałtownie; zbierać pianę.",
  serveDe:
- "Heiß mit Brot oder Kartoffeln. Passt als deftiger Suppen-Mittelpunkt im [Sonntagsessen](/de/blog/sonntagsessen-polnisch), wenn der Tisch Wärme und Majeranek will. Silo-Navigation: zurück zu [Polnische Suppen](/de/blog/polnische-suppen). Reste am nächsten Tag oft runder — erneut erhitzen, abschmecken, ggf. etwas Brühe.",
+ "Heiß mit Brot oder Kartoffeln. Passt als deftiger Suppen-Mittelpunkt im [Sonntagsessen](/de/blog/sonntagsessen-polnisch), wenn der Tisch Wärme und Majeranek will. Mehr dazu im Überblick: [Polnische Suppen](/de/blog/polnische-suppen). Reste am nächsten Tag oft runder — erneut erhitzen, abschmecken, ggf. etwas Brühe.",
  servePl:
- "Gorące z chlebem lub ziemniakami. Pasuje jako treściwa zupa w [obiedzie niedzielnym](/pl/blog/obiad-niedzielny), gdy stół chce ciepła i majeranku. Nawigacja silosu: z powrotem do [polskich zup](/pl/blog/polskie-zupy). Resztki następnego dnia często lepsze — odgrzać, doprawić, ewentualnie dolać bulionu.",
+ "Gorące z chlebem lub ziemniakami. Pasuje jako treściwa zupa w [obiedzie niedzielnym](/pl/blog/obiad-niedzielny), gdy stół chce ciepła i majeranku. Więcej w przeglądzie: [polskie zupy](/pl/blog/polskie-zupy). Resztki następnego dnia często lepsze — odgrzać, doprawić, ewentualnie dolać bulionu.",
  diasporaDe:
- "In DE sind geputzte Kutteln der Schlüssel: ohne stundenlanges Putzen bleibt Flaki planbar. Polenladen für Fleisch und aromatischen Majoran; Supermarkt für Gemüse und Mark. Wer die Suppen-Landschaft ordnen will, startet beim Überblick unter [Polnische Suppen](/de/blog/polnische-suppen) und landet hier beim konkreten Topf. Nicht mit Barszcz oder Żurek vermischen.",
+ "In DE sind geputzte Kutteln der Schlüssel: ohne stundenlanges Putzen bleibt Flaki planbar. Polenladen für Fleisch und aromatischen Majoran; Supermarkt für Gemüse und Mark. Wer die Suppen ordnen will, startet beim Überblick unter [Polnische Suppen](/de/blog/polnische-suppen) und landet hier beim konkreten Topf. Nicht mit Barszcz oder Żurek vermischen.",
  diasporaPl:
- "W DE klucz to oczyszczone flaki: bez godzin czyszczenia flaki zostają planowalne. Sklep polski na mięso i aromatyczny majeranek; market na warzywa i koncentrat. Kto chce uporządkować krajobraz zup, zaczyna od overview i ląduje tu przy cook. Bez bloga regionalnego i osobny farsz i osobne ilości. barszczu/żurku.",
+ "W DE klucz to oczyszczone flaki: bez godzin czyszczenia flaki zostają planowalne. Sklep polski na mięso i aromatyczny majeranek; market na warzywa i koncentrat. Kto chce uporządkować zupy, zaczyna od przeglądu [polskich zup](/pl/blog/polskie-zupy) i ląduje tu przy garnku. Nie mylić z barszczem ani żurkiem.",
  mistakesDe:
  "Unzureichend gereinigte Kutteln, zu wenig Majeranek und zu hartes Kochen machen Flaki streng oder zäh. Nimm dir Zeit fürs Vorkochen und Würzen — und verwechsle den Topf nicht mit [Barszcz](/de/rezepte/barszcz-czerwony), [Żurek](/de/rezepte/zurek) oder [Ogórkowa](/de/rezepte/ogorkowa).",
  mistakesPl:
  "Niedostatecznie oczyszczone flaki, za mało majeranku i zbyt twarde gotowanie robią zupę ostrą albo łykowatą. Daj sobie czas na wstępne gotowanie i doprawienie — nie mylić garnka z [barszczem](/pl/rezepte/barszcz-czerwony), [żurkiem](/pl/rezepte/zurek) ani [ogórkową](/pl/rezepte/ogorkowa).",
  variantsDe:
- "Mit mehr Paprika (Hausvariante), mit etwas Chili, oder klarerer Brühe ohne Mark — ehrlich benennen. [Rosół](/de/rezepte/rosol) bleibt klare Brühe-Owner; Flaki bleibt Kuttel-Owner. Frühlingssuppe [Botwinka](/de/rezepte/botwinka) ist ein anderer Charakter.",
+ "Mit mehr Paprika (Hausvariante), mit etwas Chili, oder klarerer Brühe ohne Mark — ehrlich benennen. [Rosół](/de/rezepte/rosol) bleibt die klare Brühe; Flaki bleibt die Kuttelsuppe. Frühlingssuppe [Botwinka](/de/rezepte/botwinka) ist ein anderer Charakter.",
  variantsPl:
  "Z większą ilością papryki (wariant domu), z chili, albo jaśniejszym wywarem bez koncentratu — nazwać uczciwie. [Rosół](/pl/rezepte/rosol) zostaje przepisem na klarownego wywaru; flaki to przepis na flaki. Wiosenna [botwinka](/pl/rezepte/botwinka) to inny charakter.",
  },
@@ -89,7 +89,7 @@ export const W10_FACTS_A: Record<string, W10ArticleFacts> = {
  mistakesPl:
  "Najczęstszy błąd to mylenie z panierowanym [kotletem schabowym](/pl/rezepte/kotlet-schabowy) — tu nie ma panierki. Zbyt chude mięso bez tłuszczu wysycha; za gorący piec bez płynu w naczyniu też. Krojenie dopiero po krótkim odpoczynku, inaczej ucieka sok.",
  variantsDe:
- "Mit Knochen für mehr Geschmack, mit Honig-Senf-Glasur (Hausvariante), oder mit Kümmel — ehrlich benennen. [Żeberka](/de/rezepte/zeberka) bleiben Rippen-Owner; Schabowy bleibt Panade-Owner. Beilage-Klassiker: Mizeria.",
+ "Mit Knochen für mehr Geschmack, mit Honig-Senf-Glasur (Hausvariante), oder mit Kümmel — ehrlich benennen. [Żeberka](/de/rezepte/zeberka) bleiben das Rippenrezept; Schabowy bleibt das panierte Schnitzel. Beilage-Klassiker: Mizeria.",
  variantsPl:
  "Z kością dla głębszego smaku, z glazurą miodowo-musztardową albo z kminkiem — nazwij wariant uczciwie. [Żeberka](/pl/rezepte/zeberka) zostają przy żebrach; schabowy przy panierce. Klasyka dodatku: [mizeria](/pl/rezepte/mizeria).",
  },

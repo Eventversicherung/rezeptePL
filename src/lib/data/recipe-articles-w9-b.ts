@@ -46,7 +46,7 @@ export const W9_FACTS_B: Record<string, ArticleFacts> = {
  serveDe:
  "Kalt in einer Schüssel, oft mit Petersilie oben. Klassisch zu Schinken, Weißwurst, Ei und [Schabowy](/de/rezepte/kotlet-schabowy); an Ostern nach dem [Wielkanoc-Speiseplan](/de/blog/wielkanoc-speiseplan). Schwester-Beilage mit anderem Fokus: [Mizeria](/de/rezepte/mizeria) für Gurke/Śmietana. Am Sonntag reicht oft eine kühle Beilage — siehe [Sonntagsessen](/de/blog/sonntagsessen-polnisch). Reste abgedeckt im Kühlschrank; erneut abschmecken, ggf. Mayo nachlegen.",
  servePl:
- "Zimna w misce, często z pietruszką. Klasycznie do szynki, białej kiełbasy, jaj i [schabowego](/pl/rezepte/kotlet-schabowy); na Wielkanoc według [menu wielkanocnego](/pl/blog/menu-wielkanocne). Siostrzany dodatek z innym intentem: [mizeria](/pl/rezepte/mizeria) na ogórek/śmietanę. W niedzielę często wystarczy jeden chłodny dodatek — [obiad niedzielny](/pl/blog/obiad-niedzielny). Resztki szczelnie w lodówce; dopraw, ewentualnie dołóż majonezu.",
+ "Zimna w misce, często z pietruszką. Klasycznie do szynki, białej kiełbasy, jaj i [schabowego](/pl/rezepte/kotlet-schabowy); na Wielkanoc według [menu wielkanocnego](/pl/blog/menu-wielkanocne). Siostrzany dodatek o innym charakterze: [mizeria](/pl/rezepte/mizeria) na ogórek/śmietanę. W niedzielę często wystarczy jeden chłodny dodatek — [obiad niedzielny](/pl/blog/obiad-niedzielny). Resztki szczelnie w lodówce; dopraw, ewentualnie dołóż majonezu.",
  diasporaDe:
  "In DE ist Sałatka jarzynowa oft das Gericht, das Nachbarn als „polnischen Kartoffelsalat“ erkennen — erkläre ruhig den Mayo-Gemüse-Charakter statt Mizeria. Vorbereiten am Vortag entlastet Oster- und Sonntagsmorgen. Einkauf zweigeteilt: Volumen im Supermarkt, Kiszone und Mayo-Qualität im Polenladen. Kein Affiliate-Zwang: gute Mayo aus dem Regal reicht.",
  diasporaPl:
@@ -80,7 +80,7 @@ export const W9_FACTS_B: Record<string, ArticleFacts> = {
  serveDe:
  "Heiß als leichte Hauptsuppe oder Frühjahrsstarter, mit Dill und optional Ei. Nach Ostern oder an milden Sonntagen statt schwerem Barszcz — Menüplanung bleibt bei [Wielkanoc](/de/blog/wielkanoc-speiseplan) bzw. Kultur [Sonntagsessen](/de/blog/sonntagsessen-polnisch); hier nur das Gericht. Auf dem Tisch klar halten: klarer [Barszcz](/de/rezepte/barszcz-czerwony) zu Wigilia/Uszka, kalter [Chłodnik](/de/rezepte/chlodnik-litewski) im Hochsommer.",
  servePl:
- "Gorąca jako lekka zupa główna lub wiosenny starter, z koperkiem i opcjonalnie jajkiem. Po Wielkanocy lub w łagodne niedziele zamiast ciężkiego barszczu — owner speiseplanu zostaje [Wielkanoc](/pl/blog/menu-wielkanocne) / [obiad niedzielny](/pl/blog/obiad-niedzielny); tu tylko danie. Na stole: klarowny [barszcz](/pl/rezepte/barszcz-czerwony) na Wigilię/uszka, zimny [chłodnik](/pl/rezepte/chlodnik-litewski) w upał.",
+ "Gorąca jako lekka zupa główna lub wiosenny starter, z koperkiem i opcjonalnie jajkiem. Po Wielkanocy lub w łagodne niedziele zamiast ciężkiego barszczu — plan stołu zostaje w [Wielkanoc](/pl/blog/menu-wielkanocne) / [obiad niedzielny](/pl/blog/obiad-niedzielny); tu tylko danie. Na stole: klarowny [barszcz](/pl/rezepte/barszcz-czerwony) na Wigilię/uszka, zimny [chłodnik](/pl/rezepte/chlodnik-litewski) w upał.",
  diasporaDe:
  "In deutschen Küchen ist frische Botwina saisonal — wer sie findet, kocht Botwinka; wer nicht, wartet oder benennt die Ersatzgrün-Variante. Ein Topf für zwei warme Mittage. Überblick und Einordnung ohne neuen Überblick: [Polnische Suppen](/de/blog/polnische-suppen).",
  diasporaPl:

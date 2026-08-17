@@ -35,7 +35,7 @@ export const seedRecipesWave9D: Recipe[] = [
         steps: [
           {
             text: "Kaszanka aus dem Kühlschrank nehmen, Hülle prüfen; in 2–3 cm Scheiben schneiden (oder im Ganzen anbraten und später teilen).",
-            tip: "Einkauf und Qualitätscheck: [Polenladen](/de/blog/polenladen-einkaufen). Welche Wurst wohin gehört, bleibt im [Kiełbasa-Arten-Guide](/de/blog/kielbasa-arten) — hier nur Cook.",
+            tip: "Einkauf und Qualitätscheck: [Polenladen](/de/blog/polenladen-einkaufen). Welche Wurst wohin gehört, bleibt im [Kiełbasa-Arten-Guide](/de/blog/kielbasa-arten) — hier nur das Braten.",
           },
           {
             text: "Zwiebeln in Ringe oder Halbringe schneiden; Pfanne mit etwas Schmalz oder Öl auf mittlere Hitze bringen.",

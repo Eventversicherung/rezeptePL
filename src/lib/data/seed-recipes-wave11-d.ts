@@ -360,7 +360,7 @@ export const seedRecipesWave11D: Recipe[] = [
         title: "Kompot z suszu",
         slug: "kompot-z-suszu",
         excerpt:
-          "Dunkler Trockenobstkompot aus Pflaume, Apfel, Birne und Aprikose — Getränk und Dessert der Wigilia. Fokus bleibt das Kompot, nicht der Speiseplan-Pillar.",
+          "Dunkler Trockenobstkompot aus Pflaume, Apfel, Birne und Aprikose — Getränk und Dessert der Wigilia. Fokus bleibt das Kompot, nicht der Speiseplan.",
         steps: [
           {
             text: "Trockenobst (Pflaumen, Äpfel, Birnen, Aprikosen; optional Rosinen) abspülen. In einem großen Topf mit 2–2,5 l kaltem Wasser ansetzen; 30 Minuten einweichen, wenn die Früchte sehr hart sind.",
@@ -397,7 +397,7 @@ export const seedRecipesWave11D: Recipe[] = [
           },
           {
             text: "Dodaj laskę cynamonu, 2–3 goździki i opcjonalnie skórkę pomarańczy. Zagotuj, potem gotuj 30–40 minut na małym ogniu, aż owoce zmiękną, a płyn będzie aromatyczny i ciemny.",
-            tip: "Okazja [menu wigilijne](/pl/blog/menu-wigilijne) — tam owner planu; tu Rezept kompotu.",
+            tip: "Okazja [menu wigilijne](/pl/blog/menu-wigilijne) — tam plan stołu; tu przepis na kompot.",
           },
           {
             text: "Dopraw cukrem lub miodem — nie przesładzaj; słodycz owoców ma prowadzić. Wyjmij cynamon i goździki.",

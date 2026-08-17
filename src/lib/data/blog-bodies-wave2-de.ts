@@ -750,11 +750,11 @@ Bratfest, kochfest, aufschnittfähig, stark/mild geräuchert. Namen variieren �
 
 ![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=1400&q=80)
 
-## Types vs Cook: Kaszanka
+## Kaszanka braten
 
 Dieses Lexikon ordnet **Arten, Qualität und Einsatz** (Żurek, Bigos, Alltagswurst). Gebratene **Kaszanka mit Zwiebel** hat ein eigenes Rezept — Mengen und Pfannenschritte stehen im [Kaszanka-Rezept](/de/rezepte/kaszanka), nicht hier.
 
-## Types vs Cook: Biała kiełbasa
+## Biała kiełbasa kochen
 
 Helle frische Weißwurst **kochen oder backen** hat ein eigenes Rezept — Mengen und Garzeiten stehen im [Biała-kiełbasa-Rezept](/de/rezepte/biala-kielbasa), nicht hier. Dieses Lexikon ordnet Arten, Qualität und Einsatz-Breite.
 
@@ -958,7 +958,7 @@ Wielkanoc soll Menschen zusammenbringen, nicht den Kühlschrank überfordern. Wi
 
 ## Menüprinzip
 
-Weniger Gerichte, bessere Ausführung. Żurek oft Zentrum; dazu Eier, gekochte [Biała kiełbasa](/de/rezepte/biala-kielbasa) (Cook; Arten bleiben im [Kiełbasa-Lexikon](/de/blog/kielbasa-arten)), Brot, Rettich/Kräuter, kühle [Mizeria](/de/rezepte/mizeria) und/oder [Sałatka jarzynowa](/de/rezepte/salatka-jarzynowa) als Festsalat (Mayo-Gemüse ≠ Gurke/Śmietana), Kuchen nach Brauch. Gefüllte Eier als eigene Buffet-Linie: [Jajka faszerowane](/de/rezepte/jajka-faszerowane) (Cook; ≠ Sałatka, ≠ Mizeria). Scharfer kalter Bete-Meerrettich-Relish: [Ćwikła](/de/rezepte/cwikla) (Cook; ≠ warme [Buraczki](/de/rezepte/buraczki), ≠ Barszcz/Botwinka). Speiseplan bleibt Menü-Artikel. Saisonal im Frühjahr optional warme [Botwinka](/de/rezepte/botwinka) statt schwerer Bete-Klarsuppe. Nicht alles gleichzeitig warm halten.
+Weniger Gerichte, bessere Ausführung. Żurek oft Zentrum; dazu Eier, gekochte [Biała kiełbasa](/de/rezepte/biala-kielbasa) (Sorten im [Kiełbasa-Lexikon](/de/blog/kielbasa-arten)), Brot, Rettich/Kräuter, kühle [Mizeria](/de/rezepte/mizeria) und/oder [Sałatka jarzynowa](/de/rezepte/salatka-jarzynowa) als Festsalat (Mayo-Gemüse, nicht Gurke mit Śmietana), Kuchen nach Brauch. Gefüllte Eier als eigene Buffet-Linie: [Jajka faszerowane](/de/rezepte/jajka-faszerowane) — nicht derselbe Teller wie Sałatka oder Mizeria. Scharfer kalter Bete-Meerrettich: [Ćwikła](/de/rezepte/cwikla) — nicht die warmen [Buraczki](/de/rezepte/buraczki) und nicht Barszcz oder Botwinka. Der Speiseplan bleibt der Menü-Rahmen. Saisonal im Frühjahr optional warme [Botwinka](/de/rezepte/botwinka) statt schwerer Bete-Klarsuppe. Nicht alles gleichzeitig warm halten.
 
 
 

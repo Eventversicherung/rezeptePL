@@ -522,11 +522,11 @@ Biała kiełbasa pasuje do [żurku](/pl/rezepte/zurek) i pieczenia, ale nie potr
 
 ![Danie z polskiej kuchni](https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=1400&q=80)
 
-## Typy vs cook: kaszanka
+## Kaszanka na patelni
 
 Ten leksykon porządkuje **rodzaje, jakość i zastosowanie** (żurek, bigos, kiełbasa na co dzień). Smażona **kaszanka z cebulą** ma osobny przepis — ilości i kroki na patelni są w [przepisie na kaszankę](/pl/rezepte/kaszanka), nie tutaj.
 
-## Typy vs cook: biała kiełbasa
+## Biała kiełbasa do garnka
 
 Gotowanie lub pieczenie **jasnej świeżej kiełbasy** to osobny przepis — ilości i czasy są w [przepisie na białą kiełbasę](/pl/rezepte/biala-kielbasa), nie tutaj. Ten leksykon porządkuje rodzaje, jakość i szerokie zastosowanie.
 
@@ -643,7 +643,7 @@ My decydujemy wcześniej: kupujemy kilka dobrych pączków, robimy faworki albo 
 
 ## Smażenie spokojnie
 
-Tłuszcz ogrzewamy stabilnie, nie na maksymalnej mocy. Zbyt chłodny da ciężkie, nasiąknięte sztuki, a zbyt gorący spali skórkę przed upieczeniem środka. My smażymy po kilka pączków, odsączamy je na papierze i nie zostawiamy garnka bez nadzoru. Dzieci trzymamy z dala od strefy gorącego tłuszczu. Szczegóły techniki bez kradzieży fokus przepisu: [technika pączków](/pl/blog/paczki-technika).
+Tłuszcz ogrzewamy stabilnie, nie na maksymalnej mocy. Zbyt chłodny da ciężkie, nasiąknięte sztuki, a zbyt gorący spali skórkę przed upieczeniem środka. My smażymy po kilka pączków, odsączamy je na papierze i nie zostawiamy garnka bez nadzoru. Dzieci trzymamy z dala od strefy gorącego tłuszczu. Szczegóły techniki: [technika pączków](/pl/blog/paczki-technika).
 
 ## Bez presji
 

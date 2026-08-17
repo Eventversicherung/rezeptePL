@@ -39,7 +39,7 @@ export const seedRecipesWave8D: Recipe[] = [
           },
           {
             text: "Teig flach drücken, Pflaume einpacken, fest zu einer Kugel schließen — keine Luftblasen, keine Risse.",
-            tip: "Abgrenzung: gefaltete Teigtaschen bleiben im [Pierogi-Guide](/de/blog/pierogi-guide); Knedle sind runde Obst-Knödel.",
+            tip: "Gefaltete Teigtaschen bleiben im [Pierogi-Guide](/de/blog/pierogi-guide); Knedle sind runde Obst-Knödel.",
           },
           {
             text: "In leicht siedendem Salzwasser garen, bis sie aufschwimmen; 2–3 Minuten nachziehen, herausnehmen.",

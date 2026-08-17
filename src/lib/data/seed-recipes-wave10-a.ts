@@ -37,13 +37,13 @@ export const seedRecipesWave10A: Recipe[] = [
           },
           {
             text: "In einem großen Topf Zwiebel, Karotte, Sellerie und Lauch in etwas Fett anschwitzen. Paprika und etwas Tomatenmark kurz mitrösten, dann Brühe auffüllen.",
-            tip: "Fond-Feeling wie bei [Rosół](/de/rezepte/rosol), aber Intent ist Kuttelsuppe — nicht klare Sonntagsbrühe.",
+            tip: "Fond-Feeling wie bei [Rosół](/de/rezepte/rosol), aber hier geht es um Kuttelsuppe — nicht klare Sonntagsbrühe.",
           },
           {
             text: "Kutteln, Lorbeer, Piment und reichlich [Majeranek](/de/blog/majeranek) zugeben. Sanft 60–90 Minuten köcheln, bis die Kutteln weich sind. Mit Salz, Pfeffer und ggf. etwas Paprikapulver abschmecken.",
           },
           {
-            text: "Heiß mit Brot servieren. Überblick im Silo: [Polnische Suppen](/de/blog/polnische-suppen). Nicht mit [Barszcz](/de/rezepte/barszcz-czerwony), [Żurek](/de/rezepte/zurek) oder [Ogórkowa](/de/rezepte/ogorkowa) verwechseln — andere Primärzutaten, anderer Intent.",
+            text: "Heiß mit Brot servieren. Überblick: [Polnische Suppen](/de/blog/polnische-suppen). Nicht mit [Barszcz](/de/rezepte/barszcz-czerwony), [Żurek](/de/rezepte/zurek) oder [Ogórkowa](/de/rezepte/ogorkowa) verwechseln — andere Hauptzutaten, anderes Gericht.",
           },
         ],
         seoTitle: "Flaki Rezept | Kuttelsuppe polnisch | Alemniam",
@@ -68,7 +68,7 @@ export const seedRecipesWave10A: Recipe[] = [
             text: "Dodaj flaki, liść laurowy, ziele angielskie i solidnie [majeranek](/pl/blog/majeranek-leksykon). Gotuj łagodnie 60–90 minut do miękkości. Dopraw solą, pieprzem, ewentualnie papryką.",
           },
           {
-            text: "Podawaj gorące z chlebem. Przegląd silosu: [polskie zupy](/pl/blog/polskie-zupy). Nie mylić z [barszczem](/pl/rezepte/barszcz-czerwony), [żurkiem](/pl/rezepte/zurek) ani [ogórkową](/pl/rezepte/ogorkowa) — inne przepisy, inny intent.",
+            text: "Podawaj gorące z chlebem. Przegląd: [polskie zupy](/pl/blog/polskie-zupy). Nie mylić z [barszczem](/pl/rezepte/barszcz-czerwony), [żurkiem](/pl/rezepte/zurek) ani [ogórkową](/pl/rezepte/ogorkowa) — inne przepisy, inne danie.",
           },
         ],
         seoTitle: "Flaki przepis | Zupa flaczki | Alemniam",

@@ -105,7 +105,7 @@ Schritt [Pierogi-Teig](/de/blog/pierogi-teig) · [Teigmaschine](/de/blog/teigmas
 
 ### Geschwister
 
-Nur über den Varianten-Switcher: Fleisch, Kraut & Pilze, Heidelbeeren.`,
+Oben wechseln zu Fleisch, Kraut & Pilze oder Heidelbeeren.`,
       },
       pl: {
         title: "Pierogi ruskie",
@@ -326,7 +326,7 @@ Ziemniaki, twaróg, cebula. Bez widowiska — smak, który wielu łączy z domem
           },
           {
             text: "Wurst und Kartoffeln mitgaren.",
-            tip: "Einlage schonend: [Biała kiełbasa](/de/rezepte/biala-kielbasa) (Cook); Arten im [Kiełbasa-Lexikon](/de/blog/kielbasa-arten).",
+            tip: "Einlage schonend: [Biała kiełbasa](/de/rezepte/biala-kielbasa); Sorten im [Kiełbasa-Lexikon](/de/blog/kielbasa-arten).",
           },
           { text: "Mit Knoblauch und Majoran abschmecken, Ei dazugeben." },
         ],
@@ -344,7 +344,7 @@ Ziemniaki, twaróg, cebula. Bez widowiska — smak, który wielu łączy z domem
           },
           {
             text: "Ugotuj kiełbasę i ziemniaki w zupie.",
-            tip: "Dodatek delikatnie: [biała kiełbasa](/pl/rezepte/biala-kielbasa) (cook); rodzaje w [leksykonie kiełbasy](/pl/blog/rodzaje-kielbasy).",
+            tip: "Dodatek delikatnie: [biała kiełbasa](/pl/rezepte/biala-kielbasa); rodzaje w [leksykonie kiełbasy](/pl/blog/rodzaje-kielbasy).",
           },
           { text: "Dopraw czosnkiem i majerankiem, dodaj jajko." },
         ],
@@ -808,7 +808,7 @@ Przełącz u góry: [cukinia](/pl/rezepte/placki/cukinia), [ser](/pl/rezepte/pla
           { text: "Durch Mehl, Ei und Panade ziehen." },
           { text: "In Butterschmalz goldbraun braten.", tip: "Nicht zu heiß. Panade soll nicht verbrennen." },
           {
-            text: "Mit Zitrone und Beilagen servieren — klassisch [Mizeria](/de/rezepte/mizeria), warme [Kapusta zasmażana](/de/rezepte/kapusta-zasmażana) oder [Buraczki](/de/rezepte/buraczki) (Rote-Bete-Beilage ≠ Suppe). Anderer Sonntags-Fleisch-Nachbar: [Żeberka pieczone](/de/rezepte/zeberka). Ofenschweinebraten ohne Panade: [Schab pieczony](/de/rezepte/schab-pieczony) — anderer Intent (Ofen vs. Pfanne/Panade).",
+            text: "Mit Zitrone und Beilagen servieren — klassisch [Mizeria](/de/rezepte/mizeria), warme [Kapusta zasmażana](/de/rezepte/kapusta-zasmażana) oder [Buraczki](/de/rezepte/buraczki) (Rote-Bete-Beilage, nicht die Suppe). Anderer Sonntags-Fleisch-Nachbar: [Żeberka pieczone](/de/rezepte/zeberka). Ofenschweinebraten ohne Panade: [Schab pieczony](/de/rezepte/schab-pieczony) — andere Zubereitung (Ofen statt Pfanne und Panade).",
           },
         ],
         seoTitle: "Kotlet schabowy Rezept | Alemniam",
@@ -823,7 +823,7 @@ Przełącz u góry: [cukinia](/pl/rezepte/placki/cukinia), [ser](/pl/rezepte/pla
           { text: "Obtocz w mące, jajku i bułce tartej." },
           { text: "Smaż na złoto na smalcu lub maśle klarowanym.", tip: "Nie za mocno. Panierka nie może się przypalić." },
           {
-            text: "Podawaj z cytryną i dodatkami — klasycznie [mizeria](/pl/rezepte/mizeria), ciepła [kapusta zasmażana](/pl/rezepte/kapusta-zasmażana) albo [buraczki](/pl/rezepte/buraczki) (dodatek z buraków ≠ zupa). Inny niedzielny sąsiad mięsny: [żeberka pieczone](/pl/rezepte/zeberka). Pieczeń z pieca bez panierki: [schab pieczony](/pl/rezepte/schab-pieczony) — inny intent (piec vs. patelnia/panierka).",
+            text: "Podawaj z cytryną i dodatkami — klasycznie [mizeria](/pl/rezepte/mizeria), ciepła [kapusta zasmażana](/pl/rezepte/kapusta-zasmażana) albo [buraczki](/pl/rezepte/buraczki) (dodatek z buraków, nie zupa). Inny niedzielny sąsiad mięsny: [żeberka pieczone](/pl/rezepte/zeberka). Pieczeń z pieca bez panierki: [schab pieczony](/pl/rezepte/schab-pieczony) — inne przygotowanie (piec zamiast patelni i panierki).",
           },
         ],
 

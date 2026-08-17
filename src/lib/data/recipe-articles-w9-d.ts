@@ -43,7 +43,7 @@ export const W9_FACTS_D: Record<string, ArticleFacts> = {
  originPl:
  "Kaszanka to przepis na smażona lub grillowana kaszanka z gryką albo jęczmieniem, klasycznie z cebulą. To nie wpis w [leksykonie rodzajów kiełbasy](/pl/blog/rodzaje-kielbasy) — tam zostają typy, jakość i użycie w żurku/bigosie. Tu chodzi o patelnię, ogień i dodatki. W wielu kuchniach diaspory kaszanka to szybki niedzielny lub wieczorny talerz, gdy [sklep polski](/pl/blog/sklep-polski-zakupy) ma dobrą partię. Dzieli korzenne feeling z wędzoną kiełbasą, ale zostaje własnym daniem i Rezept.",
  shopDe:
- "Feste, würzige Kaszanka aus dem [Polenladen](/de/blog/polenladen-einkaufen): kurze Liste, sichtbare Grütze, kein wässriger Anschnitt. Zwiebeln, Schmalz oder Öl, optional Apfel, Majoran, Brot oder Kartoffeln. Welche Wurstsorten wohin gehören, erklärt weiter der Types-Guide — hier nur Kauf fürs Braten. Kühlkette und MHD prüfen; geöffnete Packung zügig verbrauchen.",
+ "Feste, würzige Kaszanka aus dem [Polenladen](/de/blog/polenladen-einkaufen): kurze Liste, sichtbare Grütze, kein wässriger Anschnitt. Zwiebeln, Schmalz oder Öl, optional Apfel, Majoran, Brot oder Kartoffeln. Welche Wurstsorten wohin gehören, erklärt weiter der [Kiełbasa-Arten-Guide](/de/blog/kielbasa-arten) — hier nur Kauf fürs Braten. Kühlkette und MHD prüfen; geöffnete Packung zügig verbrauchen.",
  shopPl:
  "Zwarta, korzenna kaszanka ze [sklepu polskiego](/pl/blog/sklep-polski-zakupy): krótki skład, widoczna kasza, bez wodnistego przekroju. Cebula, smalec lub olej, opcjonalnie jabłko, majeranek, chleb lub ziemniaki. Które rodzaje kiełbasy gdzie pasują, zostaje w przewodniku typów — tu tylko zakup pod smażenie. Sprawdź łańcuch chłodniczy i datę; otwarte opakowanie zużyj szybko.",
  techniqueDe:
@@ -59,11 +59,11 @@ export const W9_FACTS_D: Record<string, ArticleFacts> = {
  diasporaPl:
  "W DE często szybki piątkowy lub niedzielny obiad: jedna paczka ze sklepu, dwie cebule, gotowe. Dzieci mogą sortować cebulę — gorąca patelnia u dorosłych. Resztki następnego dnia na patelni; nie trzymać godzinami na ciepło. Po zmianie możliwe bez maratonu garnków.",
  mistakesDe:
- "Zu hohe Hitze (platzt). Mit dem Kiełbasa-Arten-Übersicht verwechseln oder Types-Guide umschreiben. Zu viel Majeranek (bitter). Wässrige Billigware. Keine anderen Suppen hier miterfinden. Mengen und Hitze hier; Arten und Qualität im Lexikon.",
+ "Zu hohe Hitze (platzt). Mit der Kiełbasa-Arten-Übersicht verwechseln oder das Lexikon umschreiben. Zu viel Majeranek (bitter). Wässrige Billigware. Keine anderen Suppen hier miterfinden. Mengen und Hitze hier; Arten und Qualität im Lexikon.",
  mistakesPl:
- "Za mocny ogień (pęka). Mylenie z fokus rodzajów kiełbasy albo przepisywanie leksykonu. Za dużo majeranku (gorzki). Wodnista tania kaszanka. Flaki lub inne HOLD tu wymyślać — nie. Auf dem Tisch klar halten: cook tutaj, leksykon tam.",
+ "Za mocny ogień (pęka). Mylenie z rodzajem kiełbasy albo przepisywanie leksykonu. Za dużo majeranku (gorzki). Wodnista tania kaszanka. Nie wymyślać tu innych zup. Ilości i ogień tutaj; rodzaje i jakość w leksykonie.",
  variantsDe:
- "Mit Apfel, mit Senf am Rand, gegrillt statt Pfanne, oder als Beilage-Teller neben Kapusta. Schmor-Nachbar bleibt [Bigos](/de/rezepte/bigos); Beilagen-Kohl [Kapusta zasmażana](/de/rezepte/kapusta-zasmażana). Gebackene Haus-Pastete (≠ Blutwurst): [Pasztet drobiowy](/de/rezepte/pasztet). Types und Qualitätslesen weiter im [Kiełbasa-Arten-Guide](/de/blog/kielbasa-arten).",
+ "Mit Apfel, mit Senf am Rand, gegrillt statt Pfanne, oder als Beilage-Teller neben Kapusta. Schmor-Nachbar bleibt [Bigos](/de/rezepte/bigos); Beilagen-Kohl [Kapusta zasmażana](/de/rezepte/kapusta-zasmażana). Gebackene Haus-Pastete (≠ Blutwurst): [Pasztet drobiowy](/de/rezepte/pasztet). Sorten und Qualitätslesen weiter im [Kiełbasa-Arten-Guide](/de/blog/kielbasa-arten).",
  variantsPl:
  "Z jabłkiem, z musztardą z boku, grill zamiast patelni, albo jako talerz z kapustą. Sąsiad duszony: [bigos](/pl/rezepte/bigos); dodatek: [kapusta zasmażana](/pl/rezepte/kapusta-zasmażana). Pieczony pasztet domowy (≠ kaszanka): [pasztet drobiowy](/pl/rezepte/pasztet). Typy i jakość dalej w [przewodniku rodzajów kiełbasy](/pl/blog/rodzaje-kielbasy).",
  },

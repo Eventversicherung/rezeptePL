@@ -41,7 +41,7 @@ export const seedRecipesWave13C: Recipe[] = [
           },
           {
             text: "Mit Mehl, restlichem Zucker, Eiern, weicher Butter, Prise Salz zu glattem, elastischem Teig kneten. Abgedeckt gehen lassen, bis verdoppelt (ca. 60–90 Min).",
-            tip: "Kein Frittier-Intent — [Pączki](/de/rezepte/paczki) bleiben eigene Cook-URL. Einkauf: [Polenladen](/de/blog/polenladen-einkaufen).",
+            tip: "Kein Frittieren — [Pączki](/de/rezepte/paczki) bleiben ein eigenes Rezept. Einkauf: [Polenladen](/de/blog/polenladen-einkaufen).",
           },
           {
             text: "Teig in 3 (oder 4) gleich schwere Stränge teilen, zu Rollen formen und zu einem Zopf flechten. Enden unterschieben, auf ein Backblech mit Backpapier setzen.",
@@ -71,7 +71,7 @@ export const seedRecipesWave13C: Recipe[] = [
           },
           {
             text: "Zagnieć z mąką, resztą cukru, jajkami, miękkim masłem i szczyptą soli na gładkie, elastyczne ciasto. Przykryte odstaw aż podwoi objętość (ok. 60–90 min).",
-            tip: "Bez smażenia w tłuszczu — [pączki](/pl/rezepte/paczki) zostają osobnym cook-URL. Zakupy: [sklep polski](/pl/blog/sklep-polski-zakupy).",
+            tip: "Bez smażenia w tłuszczu — [pączki](/pl/rezepte/paczki) zostają osobnym przepisem. Zakupy: [sklep polski](/pl/blog/sklep-polski-zakupy).",
           },
           {
             text: "Podziel ciasto na 3 (lub 4) równe wałki i splot w warkocz. Końce spój, ułóż na blasze z papierem.",
@@ -205,7 +205,7 @@ export const seedRecipesWave13C: Recipe[] = [
           },
           {
             text: "Kastenform ausfetten und mit Backpapier auslegen. Masse einfüllen, glatt streichen, optional mit Butterflocken belegen.",
-            tip: "Keine Panade-Bulette — [Kotlet mielony](/de/rezepte/kotlet-mielony) ist anderer Intent. Einkauf: [Polenladen](/de/blog/polenladen-einkaufen).",
+            tip: "Keine Panade-Bulette — [Kotlet mielony](/de/rezepte/kotlet-mielony) ist ein anderes Gericht. Einkauf: [Polenladen](/de/blog/polenladen-einkaufen).",
           },
           {
             text: "Im Wasserbad bei 170 °C ca. 60–70 Minuten backen, bis die Mitte fest ist (Stäbchenprobe). Abkühlen, dann kalt stellen (idealerweise über Nacht).",
@@ -227,7 +227,7 @@ export const seedRecipesWave13C: Recipe[] = [
         steps: [
           {
             text: "Wątróbkę opłucz, usuń żyłki. Cebulę i marchew pokrój grubo; zeszklij na maśle, dodaj wątróbkę krótko (nie doprowadzaj do pełnego ugotowania), ostudź.",
-            tip: "To pasztet/terrina, nie kaszanka — [kaszanka](/pl/rezepte/kaszanka) zostaje osobnym cook. Kontekst wędlin [rodzaje kiełbasy](/pl/blog/rodzaje-kielbasy).",
+            tip: "To pasztet/terrina, nie kaszanka — [kaszanka](/pl/rezepte/kaszanka) zostaje osobnym przepisem. Kontekst wędlin [rodzaje kiełbasy](/pl/blog/rodzaje-kielbasy).",
           },
           {
             text: "Zmiksuj masę z jajkami, namoczoną i odciśniętą bułką, majerankiem, solą i pieprzem na gładko, do smarowania.",

@@ -213,7 +213,7 @@ Fleisch nicht roh in den Teig. Immer anbraten und abkühlen. Zu nasse Füllung w
 
 Hack gemischt oder Rind/Schwein nach Geschmack. Majoran oft im Polenladen aromatischer. Butter und Zwiebel überall.
 
-### Intern weiter
+### Weitere Varianten
 
 Wechsle oben zu [Ruskie](/de/rezepte/pierogi/ruskie), [Kraut-Pilze](/de/rezepte/pierogi/kraut-pilze) oder [Heidelbeeren](/de/rezepte/pierogi/jagody). Technik: [Teig](/de/techniken/teig). Guide: [Pierogi-Teig](/de/blog/pierogi-teig) · [Teigmaschine](/de/blog/teigmaschine-pierogi).`,
       },
@@ -379,7 +379,7 @@ Kapusta kiszona im Polenladen. Getrocknete Steinpilze oder Mischpilze dort oder 
 
 Füllung gut auspressen. Nasse Füllung = platzen. Pilzsud sparsam zum Abschmecken, nicht zum Schwemmen.
 
-### Weiter im Silo
+### Weitere Varianten
 
 [Ruskie](/de/rezepte/pierogi/ruskie) · [Fleisch](/de/rezepte/pierogi/fleisch) · [Heidelbeeren](/de/rezepte/pierogi/jagody) · [Wigilia Speiseplan](/de/blog/wigilia-speiseplan) · [Teig](/de/techniken/teig)`,
       },
@@ -541,7 +541,7 @@ Festkochende Kartoffeln, mittelgroße Zucchini. Śmietana im Polenladen oder Sch
 
 ### Geschwister
 
-Oben wechseln zu [Kartoffelklassiker](/de/rezepte/placki/ziemniaczane), [Käse](/de/rezepte/placki/mit-kaese) oder [Apfel](/de/rezepte/placki/mit-apfel). Technik-Pillar: [Placki-Guide](/de/blog/placki-guide).`,
+Oben wechseln zu [Kartoffelklassiker](/de/rezepte/placki/ziemniaczane), [Käse](/de/rezepte/placki/mit-kaese) oder [Apfel](/de/rezepte/placki/mit-apfel). Technik: [Placki-Guide](/de/blog/placki-guide).`,
       },
       pl: {
         title: "Placki z cukinią",
@@ -691,7 +691,7 @@ Quark (Magerquark) gut abtropfen. Ausführlich: [Twaróg-Guide](/de/blog/twarog-
 
 Gleiche Regeln wie beim Klassiker: heiße Pfanne, nicht zu dick formen, Wasser auspressen. [Gusseisen-Guide](/de/blog/gusseisenpfanne) · [Placki-Guide](/de/blog/placki-guide).
 
-### Varianten-Switcher
+### Weitere Varianten
 
 [Kartoffelklassiker](/de/rezepte/placki/ziemniaczane) · [Zucchini](/de/rezepte/placki/cukinia) · [Apfel](/de/rezepte/placki/mit-apfel).`,
       },

@@ -203,7 +203,7 @@ export const seedRecipesWave13B: Recipe[] = [
           },
           {
             text: "Vanillecreme (budyń-artig oder klassische Puddingcreme): Milch mit Vanille erhitzen; Eigelb, Zucker und Speisestärke verrühren, einrühren, dicklich kochen; Butter unterziehen. Abdecken und lauwarm bis kühl werden lassen — streichfähig, nicht flüssig.",
-            tip: "Vanille und Stärke oft im [Polenladen](/de/blog/polenladen-einkaufen) oder Supermarkt; Ersatz: [Ersatzprodukte DE](/de/blog/ersatzprodukte-de). Keine Schoko-Sahne-Torte (Wuzetka bleibt HOLD).",
+            tip: "Vanille und Stärke oft im [Polenladen](/de/blog/polenladen-einkaufen) oder Supermarkt; Ersatz: [Ersatzprodukte DE](/de/blog/ersatzprodukte-de). Keine Schoko-Sahne-Torte — Wuzetka ist ein anderes Rezept.",
           },
           {
             text: "Abwechselnd Teigplatte und Creme schichten (meist 2–3 Teiglagen). Oben mit Puderzucker bestäuben oder dünn glasieren. Mindestens 2–3 Stunden kühlen, damit sich schneiden lässt.",
@@ -229,7 +229,7 @@ export const seedRecipesWave13B: Recipe[] = [
           },
           {
             text: "Krem waniliowy (budyniowy lub klasyczny): podgrzej mleko z wanilią; wymieszaj żółtka, cukier i skrobię, wlej, gotuj do gęstości; włącz masło. Przykryj i ostudź do smarowności — nie ma być płynny.",
-            tip: "Wanilia i skrobia często w [sklepie polskim](/pl/blog/sklep-polski-zakupy) lub markecie; zamienniki: [zamienniki składników](/pl/blog/zamienniki-skladnikow). Bez tortu czekoladowo-śmietankowego (wuzetka zostaje HOLD).",
+            tip: "Wanilia i skrobia często w [sklepie polskim](/pl/blog/sklep-polski-zakupy) lub markecie; zamienniki: [zamienniki składników](/pl/blog/zamienniki-skladnikow). Bez tortu czekoladowo-śmietankowego — wuzetka to inny przepis.",
           },
           {
             text: "Układaj na przemian płat ciasta i krem (zwykle 2–3 warstwy ciasta). Wierzch oprósz cukrem pudrem lub lekko lukruj. Chłodź co najmniej 2–3 godziny przed krojeniem.",

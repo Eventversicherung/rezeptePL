@@ -83,7 +83,7 @@ export const W8_FACTS_A: Record<string, W8ArticleFacts> = {
  diasporaDe:
  "In deutschen Wohnungen riecht Kapusta zasmażana nach ruhigem Sonntag ohne Drei-Topf-Theater. Kraut aus dem Kühlregal, Schwitze in fünf Minuten — machbar nach Schicht. Wer Majoran liebt, hält die Dosis klein und liest das [Majeranek-Lexikon](/de/blog/majeranek) als Gewürz-Nachbar, nicht als Ersatz für dieses Rezept.",
  diasporaPl:
- "W niemieckich mieszkaniach kapusta zasmażana pachnie spokojną niedzielą bez maratonu garnków. Kiszona z chłodni, zasmażka w pięć minut — po zmianie też możliwe. Majeranek ostrożnie; [leksykon majeranku](/pl/blog/majeranek-leksykon) jako sąsiad przypraw, nie owner przepisu.",
+ "W niemieckich mieszkaniach kapusta zasmażana pachnie spokojną niedzielą bez maratonu garnków. Kiszona z chłodni, zasmażka w pięć minut — po zmianie też możliwe. Majeranek ostrożnie; [leksykon majeranku](/pl/blog/majeranek-leksykon) jako sąsiad przypraw, nie zamiennik tego przepisu.",
  mistakesDe:
  "Zu dunkle Zasmażka (bitter). Komplett gespültes Kraut (fade). Mit Bigos verwechseln oder Zu viel Wasser wird zur Suppe statt Beilage. Zu früh Wurst rein — anderes Gericht.",
  mistakesPl:

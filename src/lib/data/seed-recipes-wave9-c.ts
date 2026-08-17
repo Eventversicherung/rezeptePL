@@ -34,7 +34,7 @@ export const seedRecipesWave9C: Recipe[] = [
         steps: [
           {
             text: "Hefe in lauwarmer Milch mit etwas Zucker auflösen, 10 Minuten gehen lassen, bis sie schäumt.",
-            tip: "Milch nur lauwarm — zu heiß tötet Hefe. Hefe-Kontext: [Makowiec-Technik](/de/blog/makowiec-technik) (Rollenkuchen-Owner bleibt Makowiec).",
+            tip: "Milch nur lauwarm — zu heiß tötet Hefe. Hefe-Kontext: [Makowiec-Technik](/de/blog/makowiec-technik) (die Mohnrolle bleibt beim Makowiec-Rezept).",
           },
           {
             text: "Mit Mehl, restlichem Zucker, Eiern, weicher Butter, Prise Salz und Vanille/Zitronenschale zu glattem, elastischem Teig kneten. Abgedeckt gehen lassen, bis verdoppelt (ca. 60–90 Min).",
@@ -63,7 +63,7 @@ export const seedRecipesWave9C: Recipe[] = [
         steps: [
           {
             text: "Rozpuść drożdże w letnim mleku z odrobiną cukru, odstaw 10 min aż spienieją.",
-            tip: "Mleko tylko letnie — za gorące zabija drożdże. Wyczucie drożdży: [technika makowca](/pl/blog/makowiec-technika) (owner rolady zostaje makowiec).",
+            tip: "Mleko tylko letnie — za gorące zabija drożdże. Wyczucie drożdży: [technika makowca](/pl/blog/makowiec-technika) (rolada zostaje przy makowcu).",
           },
           {
             text: "Zagnieć z mąką, resztą cukru, jajkami, miękkim masłem, szczyptą soli oraz wanilią/skórką cytryny na gładkie, elastyczne ciasto. Przykryte odstaw aż podwoi objętość (ok. 60–90 min).",

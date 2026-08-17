@@ -41,15 +41,15 @@ export const seedRecipesWave15A: Recipe[] = [
           },
           {
             text: "Ofen auf 180 °C Ober-/Unterhitze vorheizen. Ente Brustseite nach oben in eine feste Form legen; etwas Wasser oder leichte Brühe auf den Boden. Erste 20 Minuten bei 200 °C anbräunen, dann auf 180 °C senken.",
-            tip: "Rippen bleiben bei [Żeberka pieczone](/de/rezepte/zeberka). Menü-Rahmen descriptiv: [polnisches Sonntagsessen](/de/blog/sonntagsessen-polnisch).",
+            tip: "Rippen bleiben bei [Żeberka pieczone](/de/rezepte/zeberka). Menü-Rahmen: [polnisches Sonntagsessen](/de/blog/sonntagsessen-polnisch).",
           },
           {
             text: "Ca. 90–120 Minuten backen (je nach Gewicht: ca. 45–50 Min pro kg), alle 20–25 Minuten mit Bratensaft begießen. Haut soll knusprig, Fleisch saftig bleiben. Optional letzte 10 Minuten Grillstufe — nicht verbrennen.",
-            tip: "Einkauf Ente/Majoran oft im [Polenladen](/de/blog/polenladen-einkaufen). Kein Schweinekamm-Intent — Fokus bleibt Kaczka.",
+            tip: "Einkauf Ente/Majoran oft im [Polenladen](/de/blog/polenladen-einkaufen). Kein Schweinekamm — Fokus bleibt Kaczka.",
           },
           {
             text: "10–15 Minuten ruhen lassen, dann tranchieren. Mit Kartoffeln, Rotkohl oder Beilage servieren. Bratensaft abschmecken; Fett abschöpfen. Reste kalt oder aufgewärmt — Haut separat knusprig halten.",
-            tip: "Festbraten-Nachbar descriptiv: [Schab](/de/rezepte/schab-pieczony) / [Golonka](/de/rezepte/golonka) — andere Stücke, andere URLs.",
+            tip: "Festbraten-Nachbar: [Schab](/de/rezepte/schab-pieczony) / [Golonka](/de/rezepte/golonka) — andere Stücke, andere Rezepte.",
           },
         ],
         seoTitle: "Kaczka pieczona Rezept | Ente polnisch Ofen | Alemniam",
@@ -72,7 +72,7 @@ export const seedRecipesWave15A: Recipe[] = [
           },
           {
             text: "Piecz ok. 90–120 min (ok. 45–50 min na kg), co 20–25 min polewaj sokiem. Skóra ma być chrupiąca, mięso soczyste. Opcjonalnie ostatnie 10 min grill — bez przypalenia.",
-            tip: "Zakupy kaczka/majeranek często w [sklepie polskim](/pl/blog/sklep-polski-zakupy). Bez intentu schabu — tu zostaje kaczka.",
+            tip: "Zakupy kaczka/majeranek często w [sklepie polskim](/pl/blog/sklep-polski-zakupy). Bez schabu — tu zostaje kaczka.",
           },
           {
             text: "Odstaw 10–15 min, potem porcjuj. Podawaj z ziemniakami, czerwoną kapustą lub dodatkiem. Sos dopraw; tłuszcz zbierz. Resztki zimne lub odgrzane — skórę trzymaj osobno chrupką.",
@@ -177,7 +177,7 @@ export const seedRecipesWave15A: Recipe[] = [
           },
           {
             text: "Hartgekochte Eier schälen. Masse zu einem Laib formen: Hälfte flach drücken, Eier längs in die Mitte legen, Restmasse darüber und zu einem festen Zylinder schließen. Optional dünn mit Speck umwickeln.",
-            tip: "Keine Pasteten-Terrine — [Pasztet](/de/rezepte/pasztet) ist anderer Intent. Menü descriptiv: [Sonntagsessen](/de/blog/sonntagsessen-polnisch).",
+            tip: "Keine Pasteten-Terrine — [Pasztet](/de/rezepte/pasztet) ist ein anderes Gericht. Menü: [Sonntagsessen](/de/blog/sonntagsessen-polnisch).",
           },
           {
             text: "Laib in eine gefettete Form oder auf ein Blech mit Backpapier legen. Bei 180 °C ca. 60–75 Minuten backen, bis die Kruste braun und der Kern durch ist (Innere ca. 75 °C). Zwischendurch ggf. mit Bratensaft begießen.",
@@ -205,7 +205,7 @@ export const seedRecipesWave15A: Recipe[] = [
           },
           {
             text: "Jajka na twardo obierz. Uformuj bochenek: połowę masy spłaszcz, ułóż jajka wzdłuż środka, przykryj resztą i domknij w walec. Opcjonalnie owiń cienkim boczkiem.",
-            tip: "Bez terriny pasztetowej — [pasztet](/pl/rezepte/pasztet) to inny intent. Menu opisowo: [obiad niedzielny](/pl/blog/obiad-niedzielny).",
+            tip: "Bez terriny pasztetowej — [pasztet](/pl/rezepte/pasztet) to inne danie. Menu: [obiad niedzielny](/pl/blog/obiad-niedzielny).",
           },
           {
             text: "Ułóż w natłuszczonej formie lub na blasze z papierem. Piecz w 180 °C ok. 60–75 min, aż skórka będzie brązowa, a środek wypieczony (ok. 75 °C). Polewaj sokiem w razie potrzeby.",

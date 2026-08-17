@@ -49,7 +49,7 @@ export const seedRecipesWave13A: Recipe[] = [
           },
           {
             text: "Heiß in tiefen Tellern servieren; Brot dazu. Reste halten sich und werden oft am zweiten Tag runder — Gerste zieht weiter Flüssigkeit, ggf. Brühe nachgießen.",
-            tip: "Fehlt Gerste: ehrlich ersetzen laut [Ersatzprodukte DE](/de/blog/ersatzprodukte-de) — Intent bleibt Gerstensuppe, nicht Erbsen.",
+            tip: "Fehlt Gerste: ehrlich ersetzen laut [Ersatzprodukte DE](/de/blog/ersatzprodukte-de) — es bleibt Gerstensuppe, nicht Erbsen.",
           },
         ],
         seoTitle: "Krupnik Rezept | Polnische Gerstensuppe | Alemniam",
@@ -76,7 +76,7 @@ export const seedRecipesWave13A: Recipe[] = [
           },
           {
             text: "Podawaj gorącą w głębokich talerzach; chleb obok. Resztki często lepsze nazajutrz — kasza ciągnie płyn, dolej bulionu.",
-            tip: "Brak kaszy: uczciwa zamiana według [zamienników](/pl/blog/zamienniki-skladnikow) — intent zostaje zupą jęczmienną, nie grochową.",
+            tip: "Brak kaszy: uczciwa zamiana według [zamienników](/pl/blog/zamienniki-skladnikow) — zostaje zupa jęczmienna, nie grochowa.",
           },
         ],
         seoTitle: "Krupnik przepis | Zupa jęczmienna | Alemniam",
@@ -203,7 +203,7 @@ export const seedRecipesWave13A: Recipe[] = [
           },
           {
             text: "Vom Herd nehmen. Śmietana temperieren und einrühren — nicht kochend. Hartgekochte Eier halbieren oder würfeln und in die Teller legen; Dill darüber.",
-            tip: "Śmietana temperieren wie im [Śmietana/Schmand](/de/blog/smietana-schmand)-Guide. Kalt und rosa wäre [Chłodnik](/de/rezepte/chlodnik-litewski) — anderer Intent.",
+            tip: "Śmietana temperieren wie im [Śmietana/Schmand](/de/blog/smietana-schmand)-Guide. Kalt und rosa wäre [Chłodnik](/de/rezepte/chlodnik-litewski) — anderes Gericht.",
           },
           {
             text: "Heiß servieren, solange die Suppe noch kräftig grün ist. Brot dazu. Reste kühlen; Farbe dunkelt nach — am besten frisch am gleichen Tag.",
@@ -230,7 +230,7 @@ export const seedRecipesWave13A: Recipe[] = [
           },
           {
             text: "Zdejmij z ognia. Zahartuj śmietanę i wmieszaj — nie do wrzątku. Jajka na twardo przekrój lub pokrój do talerzy; koperek.",
-            tip: "Śmietanę jak w [śmietana/Schmand](/pl/blog/smietana-czy-schmand). Zimno i różowo to [chłodnik](/pl/rezepte/chlodnik-litewski) — inny intent.",
+            tip: "Śmietanę jak w [śmietana/Schmand](/pl/blog/smietana-czy-schmand). Zimno i różowo to [chłodnik](/pl/rezepte/chlodnik-litewski) — inne danie.",
           },
           {
             text: "Podawaj gorącą, póki zupa jest wyraźnie zielona. Chleb obok. Resztki chłodź; kolor ciemnieje — najlepiej tego samego dnia.",
@@ -254,8 +254,8 @@ export const seedRecipesWave13A: Recipe[] = [
         group: "produce",
         storeHintDe: "Saison Markt / Polenladen — gefroren ehrlich benennen",
         substitute: {
-          de: "Gefrorener Szczaw — Intent benennen",
-          pl: "Mrożony szczaw — nazwać intent",
+          de: "Gefrorener Szczaw — klar als Sauerampfer benennen",
+          pl: "Mrożony szczaw — nazwać jako szczaw",
         },
       },
       {

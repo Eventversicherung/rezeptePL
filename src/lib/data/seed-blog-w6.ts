@@ -34,7 +34,7 @@ export const seedBlogPostsW6: BlogPost[] = [
         title: "Makowiec-Technik: Hefeteig, Mohnmasse, ruhig rollen",
         slug: "makowiec-technik",
         excerpt:
-          "Mohn, Teigführung und Ofentemperatur — Back-Pillar zu Makowiec für Wigilia in DE.",
+          "Mohn, Teigführung und Ofentemperatur — Backtechnik zu Makowiec für Wigilia in DE.",
         seoTitle: "Makowiec Technik Guide | Polnisches Backen | Alemniam",
         seoDescription:
           "Makowiec richtig backen: Mohnmasse, Hefeteig, Rollen, Fehler. Ergänzt Rezept und Wigilia-Speiseplan.",
@@ -44,7 +44,7 @@ export const seedBlogPostsW6: BlogPost[] = [
         title: "Technika makowca: ciasto drożdżowe, masa makowa, spokojne zwijanie",
         slug: "makowiec-technika",
         excerpt:
-          "Mak, prowadzenie ciasta i temperatura pieca — filar pieczenia makowca na Wigilię w DE.",
+          "Mak, prowadzenie ciasta i temperatura pieca — technika pieczenia makowca na Wigilię w DE.",
         seoTitle: "Makowiec technika | Polskie pieczenie | Alemniam",
         seoDescription:
           "Jak upiec makowiec: masa makowa, ciasto drożdżowe, zwijanie, błędy. Uzupełnia przepis i menu wigilijne.",

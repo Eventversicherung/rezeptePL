@@ -210,7 +210,7 @@ Getrocknet früh genug in die Füllung oder Soße, damit er zieht. Am Ende noch 
 
 ![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1506368248146-8a4e4e5c0b3d?w=1400&q=80)
 
-## Verbindungen im Silo
+## Passt gut zu
 
 - [Gołąbki](/de/rezepte/golabki) und [Gołąbki-Guide](/de/blog/golabki-guide)
 - [Fasolka](/de/rezepte/fasolka-po-bretonsku) und [Fasolka-Guide](/de/blog/fasolka-po-bretonsku)
@@ -220,8 +220,8 @@ Getrocknet früh genug in die Füllung oder Soße, damit er zieht. Am Ende noch 
 - [Flaki](/de/rezepte/flaki) — Majeranek in der Kuttelsuppe
 - [Rolada śląska](/de/rezepte/rolada-slaska) — sparsam in der Schmor-Soße
 - [Pierogi mit Fleisch](/de/rezepte/pierogi/fleisch)
-- [Kiełbasa](/de/blog/kielbasa-arten)
-- [Kaszanka](/de/rezepte/kaszanka) (Cook; Types bleiben im Kiełbasa-Lexikon)
+- [Kiełbasa-Arten](/de/blog/kielbasa-arten)
+- [Kaszanka](/de/rezepte/kaszanka) — Rezept; Sorten im [Kiełbasa-Lexikon](/de/blog/kielbasa-arten)
 
 ## FAQ: Majeranek
 

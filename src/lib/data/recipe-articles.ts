@@ -972,9 +972,9 @@ const FACTS: Record<string, ArticleFacts> = {
  mistakesPl:
  "Za mokra kapusta, za miękki makaron, za mało doprawienia. Pieprz i tłuszcz mają znacze",
  variantsDe:
- "Vegetarisch ohne Speck, mit Pilzen, oder neben Bigos als Kraut-Silo.",
+ "Vegetarisch ohne Speck, mit Pilzen, oder neben Bigos als weiteres Krautgericht.",
  variantsPl:
- "Wegetariańskie bez boczku, z grzybami albo obok bigosu w silosie kapusty.",
+ "Wegetariańskie bez boczku, z grzybami albo obok bigosu jako kolejne danie z kapusty.",
  },
  "recipe-pyzy": {
  dishDe: "Pyzy mit Fleisch",
@@ -1186,9 +1186,9 @@ const FACTS: Record<string, ArticleFacts> = {
  vibeDe: "cremig, festlich, nach Twaróg und Vanille",
  vibePl: "kremowy, świąteczny, z twarogu i wanilii",
  originDe:
- "Sernik ist der polnische Käsekuchen auf Twaróg-Basis — dichter und oft höher als mancher deutscher Käsekuchen. Er gehört zum Back-Silo neben Makowiec, ohne dessen Fokus zu übernehmen: Makowiec bleibt die Mohnrolle; Sernik bleibt der Käsekuchen. Der Makowiec-Technik-Guide hilft bei Ofengeduld und Festtagsplanung.",
+ "Sernik ist der polnische Käsekuchen auf Twaróg-Basis — dichter und oft höher als mancher deutsche Käsekuchen. Er gehört zum Festtagsbacken neben Makowiec, ohne dessen Platz zu übernehmen: Makowiec bleibt die Mohnrolle; Sernik bleibt der Käsekuchen. Der Makowiec-Technik-Guide hilft bei Ofengeduld und Festtagsplanung.",
  originPl:
- "Sernik to polski sernik na twarogu — gęstszy i często wyższy niż niejedne niemieckie serniki. Należy do silosu pieczenia obok makowca, bez przejmowania jego Fokus: makowiec zostaje roladą makową; sernik zostaje sernikiem. Technika makowca pomaga przy piecu i planie świąt, nie jako owner przepisu.",
+ "Sernik to polski sernik na twarogu — gęstszy i często wyższy niż niejedne niemieckie serniki. Należy do wypieków świątecznych obok makowca, bez przejmowania jego miejsca: makowiec zostaje roladą makową; sernik zostaje sernikiem. Technika makowca pomaga przy piecu i planie świąt, nie jako zamiennik tego przepisu.",
  shopDe:
  "Twaróg sernikowy oder gut abgetropfter Speisequark, Eier, Zucker und Butter sowie etwas Bindung (Mehl/Pudding), Vanille und optional Mürbeteigboden. [Twaróg-Guide](/de/blog/twarog-deutschland) und [Ersatzprodukte DE](/de/blog/ersatzprodukte-de) für den Einkauf; typische Quarkqualität oft im [Polenladen](/de/blog/polenladen-einkaufen).",
  shopPl:
@@ -1204,7 +1204,7 @@ const FACTS: Record<string, ArticleFacts> = {
  diasporaDe:
  "Am Vortag backen entlastet Gästeessen. Deutscher Quark braucht oft Abtropfen. Nicht mit Faworki/Pączki-Charakter vermischen — anderes Fettgebäck.",
  diasporaPl:
- "Pieczenie dzień wcześniej odciąża gości. Niemiecki Quark często wymaga odsączenia. Nie mieszać z intentem faworków/pączków — inne wypieki tłuszczowe.",
+ "Pieczenie dzień wcześniej odciąża gości. Niemiecki Quark często wymaga odsączenia. Nie mieszać z faworkami ani pączkami — inne wypieki tłuszczowe.",
  mistakesDe:
  "Zu nasser Quark, zu heißer Ofen, zu früh schneiden, Makowiec nicht als Hauptname dieses Rezepts verkaufen. Boden roh lassen durch zu kurze Zeit.",
  mistakesPl:
@@ -1212,7 +1212,7 @@ const FACTS: Record<string, ArticleFacts> = {
  variantsDe:
  "Ohne Boden, mit Rosinen, mit Schokotropfen (modern), kleinerer Springform. Makowiec bleibt die Mohnrolle — anderes Rezept.",
  variantsPl:
- "Bez spodu, z rodzynkami, z czekoladą (nowocześnie), mniejsza tortownica. Makowiec zostaje roladą makową — osobny owner.",
+ "Bez spodu, z rodzynkami, z czekoladą (nowocześnie), mniejsza tortownica. Makowiec zostaje roladą makową — osobny przepis.",
  },
  "recipe-sledz": {
  dishDe: "Śledź w oleju",

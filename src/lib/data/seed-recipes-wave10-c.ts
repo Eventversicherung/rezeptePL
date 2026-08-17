@@ -69,9 +69,9 @@ export const seedRecipesWave10C: Recipe[] = [
         seoTitle: "Pierogi mit Heidelbeeren Rezept | Pierogi z jagodami | Alemniam",
         seoDescription:
           "Pierogi z jagodami: süße Heidelbeer-Füllung, Teig und Kochen — bilingual, klar ≠ Knedle śliwki.",
-        article: `## Pierogi mit Heidelbeeren — süße Switcher-Variante
+        article: `## Pierogi mit Heidelbeeren — süße Variante
 
-Gefaltete Pierogi mit Heidelbeeren: dieselbe Teigfamilie wie [Ruskie](/de/rezepte/pierogi/ruskie), [Fleisch](/de/rezepte/pierogi/fleisch) und [Kraut & Pilze](/de/rezepte/pierogi/kraut-pilze) — anderer Tag, anderer Intent. Broad-Owner bleibt der [Pierogi-Guide](/de/blog/pierogi-guide).
+Gefaltete Pierogi mit Heidelbeeren: dieselbe Teigfamilie wie [Ruskie](/de/rezepte/pierogi/ruskie), [Fleisch](/de/rezepte/pierogi/fleisch) und [Kraut & Pilze](/de/rezepte/pierogi/kraut-pilze) — anderer Tag, anderes Gericht. Technik erklärt der [Pierogi-Guide](/de/blog/pierogi-guide).
 
 ### Nicht Knedle
 
@@ -114,9 +114,9 @@ Oben wechseln zu Ruskie, Fleisch oder Kraut-Pilze.`,
         seoTitle: "Pierogi z jagodami przepis | Alemniam",
         seoDescription:
           "Pierogi z jagodami: słodki farsz, ciasto i gotowanie — dwujęzycznie, jasno ≠ knedle ze śliwkami.",
-        article: `## Pierogi z jagodami — słodki wariant w przełączniku
+        article: `## Pierogi z jagodami — słodki wariant
 
-Sklejane pierogi z jagodami: ta sama rodzina co [ruskie](/pl/rezepte/pierogi/ruskie), [mięso](/pl/rezepte/pierogi/mieso) i [kapusta z grzybami](/pl/rezepte/pierogi/kapusta-grzyby). Broad-owner: [przewodnik pierogi](/pl/blog/przewodnik-pierogi).
+Sklejane pierogi z jagodami: ta sama rodzina co [ruskie](/pl/rezepte/pierogi/ruskie), [mięso](/pl/rezepte/pierogi/mieso) i [kapusta z grzybami](/pl/rezepte/pierogi/kapusta-grzyby). Technikę opisuje [przewodnik pierogi](/pl/blog/przewodnik-pierogi).
 
 ### Nie knedle
 
@@ -226,23 +226,23 @@ Przełącz u góry na ruskie, mięso albo kapustę z grzybami.`,
           },
           {
             text: "Mit Puderzucker servieren. Optional Śmietana oder frische Beeren.",
-            tip: "Twaróg bleibt Zutaten-Guide: [Twaróg-Guide](/de/blog/twarog-deutschland) — hier nur als verwandte süße Linie.",
+            tip: "Twaróg-Einkauf: [Twaróg-Guide](/de/blog/twarog-deutschland) — hier nur als verwandte süße Linie.",
           },
         ],
         seoTitle: "Naleśniki mit Marmelade Rezept | Naleśniki z dżemem | Alemniam",
         seoDescription:
           "Naleśniki z dżemem: süße Marmeladen-Variante bilingual — klar getrennt von Twaróg-Naleśniki.",
-        article: `## Naleśniki mit Marmelade — süße Switcher-Variante
+        article: `## Naleśniki mit Marmelade — süße Variante
 
-Dieselbe dünne Plattform wie [Twaróg](/de/rezepte/nalesniki/twarog), [Fleisch](/de/rezepte/nalesniki/fleisch) und [Spinat](/de/rezepte/nalesniki/szpinak) — Primary hier nur Dżem/Marmelade. Broad-Owner: [Naleśniki-Guide](/de/blog/nalesniki-guide).
+Dieselbe dünne Teigplattform wie [Twaróg](/de/rezepte/nalesniki/twarog), [Fleisch](/de/rezepte/nalesniki/fleisch) und [Spinat](/de/rezepte/nalesniki/szpinak) — hier geht es um Dżem oder Marmelade. Technik: [Naleśniki-Guide](/de/blog/nalesniki-guide).
 
-### Nicht Twaróg stehlen
+### Nicht die Quark-Variante
 
 Die Quark-Füllung bleibt unter [/rezepte/nalesniki/twarog](/de/rezepte/nalesniki/twarog). Hier: Dżem oder Powidła als Füllung.
 
 ### Technik
 
-Dünn backen, trocken rollen. Guide: [Naleśniki](/de/blog/nalesniki-guide). Anlass-Feeling descriptiv: [Tłusty Czwartek](/de/blog/tlusty-czwartek).
+Dünn backen, trocken rollen. Guide: [Naleśniki](/de/blog/nalesniki-guide). Zum Anlass: [Tłusty Czwartek](/de/blog/tlusty-czwartek).
 
 ### Geschwister
 
@@ -252,7 +252,7 @@ Oben zu Twaróg, Fleisch oder Spinat.`,
         title: "Naleśniki z dżemem",
         slug: "dzem",
         excerpt:
-          "Słodkie naleśniki z dżemem — własny URL wariantu, nie fokus twarogu. Szybkie i przyjazne dzieciom.",
+          "Słodkie naleśniki z dżemem — osobny wariant, nie farsz z twarogiem. Szybkie i przyjazne dzieciom.",
         steps: [
           {
             text: "Zrób ciasto na naleśniki, odstaw 20–30 min, usmaż cienkie placki.",
@@ -267,23 +267,23 @@ Oben zu Twaróg, Fleisch oder Spinat.`,
           },
           {
             text: "Podawaj z cukrem pudrem. Opcjonalnie śmietana albo świeże owoce.",
-            tip: "Twaróg zostaje przepisem na składnika: [twaróg w DE](/pl/blog/twarog-w-niemczech).",
+            tip: "Zakupy twarogu: [twaróg w DE](/pl/blog/twarog-w-niemczech).",
           },
         ],
         seoTitle: "Naleśniki z dżemem przepis | Alemniam",
         seoDescription:
           "Naleśniki z dżemem: słodki wariant dwujęzycznie — jasno oddzielony od naleśników z twarogiem.",
-        article: `## Naleśniki z dżemem — słodki wariant w przełączniku
+        article: `## Naleśniki z dżemem — słodki wariant
 
-Ta sama cienka platforma co [twaróg](/pl/rezepte/nalesniki/twarog), [mięso](/pl/rezepte/nalesniki/mieso) i [szpinak](/pl/rezepte/nalesniki/szpinak). Broad-owner: [nalesniki-przewodnik](/pl/blog/nalesniki-przewodnik).
+Ta sama cienka platforma co [twaróg](/pl/rezepte/nalesniki/twarog), [mięso](/pl/rezepte/nalesniki/mieso) i [szpinak](/pl/rezepte/nalesniki/szpinak). Technika: [przewodnik naleśników](/pl/blog/nalesniki-przewodnik).
 
-### Nie kraść primary twarogu
+### Nie wariant z twarogiem
 
 Farsz twarogowy zostaje pod [/rezepte/nalesniki/twarog](/pl/rezepte/nalesniki/twarog). Tu: dżem lub powidła.
 
 ### Technika
 
-Cienko, sucho zwinąć. [Przewodnik](/pl/blog/nalesniki-przewodnik). Okazja opisowo: [Tłusty Czwartek](/pl/blog/tlusty-czwartek).
+Cienko, sucho zwinąć. [Przewodnik](/pl/blog/nalesniki-przewodnik). Do okazji: [Tłusty Czwartek](/pl/blog/tlusty-czwartek).
 
 ### Rodzeństwo
 

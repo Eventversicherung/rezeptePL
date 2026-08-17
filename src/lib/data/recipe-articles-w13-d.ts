@@ -58,7 +58,7 @@ export const W13_FACTS_D: Record<string, ArticleFacts> = {
  serveDe:
  "Klassisch mit Meerrettich, Senf und Brot — oder in Scheiben im Teller [Żurek](/de/rezepte/zurek). Ostern-Buffet laut [Wielkanoc](/de/blog/wielkanoc-speiseplan): Speiseplan bleibt Menü-Artikel, hier nur das Wurst-Cook. Nicht mit gebratener [Kaszanka](/de/rezepte/kaszanka) verwechseln. Reste kühlen, am nächsten Tag in der Suppe oder kurz erwärmt mit Brot.",
  servePl:
- "Klasycznie z chrzanem, musztardą i chlebem — albo w plastrach w [żurku](/pl/rezepte/zurek). Buffet wielkanocny według [menu](/pl/blog/menu-wielkanocne): plan zostaje przepisem na menu, tu tylko cook kiełbasy. Nie mylić ze smażoną [kaszanką](/pl/rezepte/kaszanka). Resztki schłodzić; nazajutrz w zupie albo krótko podgrzane z chlebem.",
+ "Klasycznie z chrzanem, musztardą i chlebem — albo w plastrach w [żurku](/pl/rezepte/zurek). Buffet wielkanocny według [menu](/pl/blog/menu-wielkanocne): plan zostaje ramą stołu, tu tylko kiełbasa. Nie mylić ze smażoną [kaszanką](/pl/rezepte/kaszanka). Resztki schłodzić; nazajutrz w zupie albo krótko podgrzane z chlebem.",
  diasporaDe:
  "In DE oft der Ostern-Must-Kauf im [Polenladen](/de/blog/polenladen-einkaufen) vor dem Feiertag — Regale leeren sich früh. Kinder dürfen Senf/Meerrettich wählen; heißer Topf bei Erwachsenen. Parallel zu [Żurek](/de/rezepte/zurek) planen, ohne den Speiseplan zu überladen — [Wielkanoc](/de/blog/wielkanoc-speiseplan). Types-Fragen weiter im Lexikon, nicht hier umschreiben.",
  diasporaPl:
@@ -66,9 +66,9 @@ export const W13_FACTS_D: Record<string, ArticleFacts> = {
  mistakesDe:
  "Dunkle Grillwurst als „biała“ verwenden. Stark sprudelnd kochen (platzt). Mit [Kaszanka](/de/rezepte/kaszanka) oder dem Arten-Übersicht des [Kiełbasa-Lexikons](/de/blog/kielbasa-arten) verwechseln. nein: hier die Wurst, dort Suppe bzw. Menü.",
  mistakesPl:
- "Ciemna grillowa jako „biała”. Gwałtowne gotowanie (pęka). Mylenie z [kaszanką](/pl/rezepte/kaszanka) lub fokus rodzajów z [leksykonu kiełbasy](/pl/blog/rodzaje-kielbasy). Nie mieszać ilości i kroków z sąsiednim przepisem. nie: tu cook, tam zupa lub okazja.",
+ "Ciemna grillowa jako „biała”. Gwałtowne gotowanie (pęka). Mylenie z [kaszanką](/pl/rezepte/kaszanka) lub rodzajami z [leksykonu kiełbasy](/pl/blog/rodzaje-kielbasy). Nie mieszać ilości i kroków z sąsiednim przepisem. Tu kiełbasa, tam zupa lub menu.",
  variantsDe:
- "Nur Topf, nur Ofen, oder beides: kurz garziehen und leicht nachbacken. Mit Zwiebeln im Ofen. Einlage-Variante bleibt an [Żurek](/de/rezepte/zurek) gekoppelt. Nachbar Blutwurst: [Kaszanka](/de/rezepte/kaszanka). Types und Qualitätslesen: [Kiełbasa-Arten](/de/blog/kielbasa-arten). Zum Anlass passt [Wielkanoc](/de/blog/wielkanoc-speiseplan). Ansatz-Kontext: [Zakwas](/de/blog/zakwas-zurek).",
+ "Nur Topf, nur Ofen, oder beides: kurz garziehen und leicht nachbacken. Mit Zwiebeln im Ofen. Einlage-Variante bleibt an [Żurek](/de/rezepte/zurek) gekoppelt. Nachbar Blutwurst: [Kaszanka](/de/rezepte/kaszanka). Sorten und Qualitätslesen: [Kiełbasa-Arten](/de/blog/kielbasa-arten). Zum Anlass passt [Wielkanoc](/de/blog/wielkanoc-speiseplan). Ansatz-Kontext: [Zakwas](/de/blog/zakwas-zurek).",
  variantsPl:
  "Tylko garnek, tylko piekarnik, albo jedno i drugie: krótko gotować i lekko dopiec. Z cebulą w piekarniku. Wariant dodatku zostaje przy [żurku](/pl/rezepte/zurek). Sąsiad: [kaszanka](/pl/rezepte/kaszanka). Typy i jakość: [rodzaje kiełbasy](/pl/blog/rodzaje-kielbasy). Do okazji pasuje [menu wielkanocne](/pl/blog/menu-wielkanocne). Zakwas: [zakwas na żur](/pl/blog/zakwas-na-zurek).",
  },

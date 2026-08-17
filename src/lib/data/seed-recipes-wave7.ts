@@ -282,7 +282,7 @@ export const seedRecipesWave7: Recipe[] = [
           },
           {
             text: "Bei mittlerer Ofentemperatur backen, bis die Mitte noch leicht wackelt; im Ofen nachruhen lassen.",
-            tip: "Back-Feeling und Ofengeduld: [Makowiec-Technik](/de/blog/makowiec-technik) — verwandtes Festtagsbacken, anderer Owner.",
+            tip: "Back-Feeling und Ofengeduld: [Makowiec-Technik](/de/blog/makowiec-technik) — verwandtes Festtagsbacken, anderes Rezept.",
           },
           {
             text: "Vollständig abkühlen, kalt stellen, in Stücke schneiden. Mit Puderzucker oder Früchten servieren.",
@@ -307,7 +307,7 @@ export const seedRecipesWave7: Recipe[] = [
           },
           {
             text: "Piecz w średniej temperaturze, aż środek lekko drga; dociągnij w wyłączonym piecu.",
-            tip: "Wyczucie pieca: [technika makowca](/pl/blog/makowiec-technika) — pokrewne pieczenie świąteczne, inny owner.",
+            tip: "Wyczucie pieca: [technika makowca](/pl/blog/makowiec-technika) — pokrewne pieczenie świąteczne, inny przepis.",
           },
           {
             text: "Całkowicie ostudź, schłodź, pokrój. Podawaj z cukrem pudrem lub owocami.",

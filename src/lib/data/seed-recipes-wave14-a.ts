@@ -37,7 +37,7 @@ export const seedRecipesWave14A: Recipe[] = [
         steps: [
           {
             text: "Für den Kakao-Biskuit Eier mit Zucker schaumig schlagen, Mehl und Kakao vorsichtig unterheben. In eine gefettete Rechteckform (ca. 20×30 cm) geben und bei 180 °C etwa 25–30 Minuten backen, bis der Spieß trocken kommt. Auskühlen lassen, horizontal einmal durchschneiden.",
-            tip: "Das ist dunkler Kakao-Biskuit, kein Blätterteig: [Napoleonka](/de/rezepte/napoleonka) bleibt andere Cook-URL. Einkauf Kakao/Vanille oft im [Polenladen](/de/blog/polenladen-einkaufen).",
+            tip: "Das ist dunkler Kakao-Biskuit, kein Blätterteig: [Napoleonka](/de/rezepte/napoleonka) bleibt ein anderes Rezept. Einkauf Kakao/Vanille oft im [Polenladen](/de/blog/polenladen-einkaufen).",
           },
           {
             text: "Sahne sehr kalt steif schlagen, leicht süßen (Puderzucker) und optional mit etwas Gelatine oder Speisestärke stabilisieren. Untere Biskuithälfte leicht mit Kaffee oder Kakao-Milch bepinseln, dicke Sahne-Schicht gleichmäßig streichen, zweite Hälfte daraufsetzen. Fest andrücken.",
@@ -64,7 +64,7 @@ export const seedRecipesWave14A: Recipe[] = [
         steps: [
           {
             text: "Na biszkopt kakaowy ubij jajka z cukrem na puszysto, delikatnie wmieszaj mąkę i kakao. Przełóż do natłuszczonej formy prostokątnej (ok. 20×30 cm) i piecz w 180 °C ok. 25–30 min, aż patyczek będzie suchy. Ostudź, przekrój poziomo na pół.",
-            tip: "To ciemny biszkopt kakaowy, nie ciasto francuskie: [napoleonka](/pl/rezepte/napoleonka) to inny cook-URL. Zakupy kakao/wanilia często w [sklepie polskim](/pl/blog/sklep-polski-zakupy).",
+            tip: "To ciemny biszkopt kakaowy, nie ciasto francuskie: [napoleonka](/pl/rezepte/napoleonka) to inny przepis. Zakupy kakao/wanilia często w [sklepie polskim](/pl/blog/sklep-polski-zakupy).",
           },
           {
             text: "Bardzo zimną śmietankę ubij na sztywno, lekko osłodź (cukier puder) i opcjonalnie ustabilizuj żelatyną lub skrobią. Dolną połowę biszkoptu lekko skrop kawą lub kakao z mlekiem, nałóż grubą warstwę śmietany, przykryj drugą połową. Dociskaj równo.",
@@ -206,7 +206,7 @@ export const seedRecipesWave14A: Recipe[] = [
           },
           {
             text: "Teig auf ein gefettetes Blech (ca. 30×40 cm) drücken oder ausrollen — flacher Placek, keine Flechtstränge. Optional dünne Apfelscheiben oder -würfel auflegen. Für Streusel (kruszonka): kalte Butter, Mehl und Zucker zu Krümeln reiben; dick über den Teig streuen.",
-            tip: "Kein Frittieren — [Pączki](/de/rezepte/paczki) bleiben eigene Cook-URL. Apfel-Pfannkuchen: [Racuchy](/de/rezepte/racuchy-jablka).",
+            tip: "Kein Frittieren — [Pączki](/de/rezepte/paczki) bleiben ein eigenes Rezept. Apfel-Pfannkuchen: [Racuchy](/de/rezepte/racuchy-jablka).",
           },
           {
             text: "Kurz nachgehen lassen (15–20 Min). Bei 180 °C (Umluft etwas niedriger) 30–35 Minuten goldbraun backen, bis der Streusel knusprig und der Teig durchgebacken ist.",
@@ -234,7 +234,7 @@ export const seedRecipesWave14A: Recipe[] = [
           },
           {
             text: "Ciasto rozciągnij na natłuszczonej blasze (ok. 30×40 cm) — płaski placek, bez splotów. Opcjonalnie ułóż cienkie plasterki lub kostkę jabłka. Na kruszonkę: zimne masło, mąka i cukier zetrzyj w okruchy; gęsto posyp ciasto.",
-            tip: "Bez smażenia — [pączki](/pl/rezepte/paczki) zostają osobnym cook-URL. Racuchy jabłkowe: [racuchy](/pl/rezepte/racuchy-jablka).",
+            tip: "Bez smażenia — [pączki](/pl/rezepte/paczki) zostają osobnym przepisem. Racuchy jabłkowe: [racuchy](/pl/rezepte/racuchy-jablka).",
           },
           {
             text: "Krótko odczekaj drugiego wyrastania (15–20 min). Piecz w 180 °C (termoobieg nieco niżej) 30–35 min na złoto, aż kruszonka będzie chrupiąca, a ciasto wypieczone.",
@@ -349,8 +349,8 @@ export const seedRecipesWave14A: Recipe[] = [
         unit: { de: "Stück", pl: "szt." },
         group: "produce",
         substitute: {
-          de: "Pflaume saisonal — Intent Streusel-Hefekuchen behalten",
-          pl: "Śliwka sezonowo — intent placek z kruszonką",
+          de: "Pflaume saisonal — Streusel-Hefekuchen behalten",
+          pl: "Śliwka sezonowo — placek z kruszonką zachować",
         },
       },
     ],

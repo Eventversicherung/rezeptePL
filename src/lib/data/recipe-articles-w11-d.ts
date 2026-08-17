@@ -45,7 +45,7 @@ export const W11_FACTS_D: Record<string, ArticleFacts> = {
  originDe:
  "Ryba po grecku ist das Rezept für gebratenen Weißfisch unter einer dicken Sauce aus Karotte, Zwiebel, Wurzelgemüse und Tomate — klassisch kalt serviert, oft schon am Vortag gezogen. Der Name meint die polnische Hausküche-Linie „griechische Art“, nicht ein griechisches Restaurantgericht. Klar getrennt vom ganzen Ofkarpfen: [Karp](/de/rezepte/karp) bleibt die Knochen-/Ofen-Fischlinie der Wigilia; hier arbeiten Filet und Gemüsesauce. Menürahmen und Timeline bleiben im [Wigilia-Speiseplan](/de/blog/wigilia-speiseplan) — dort Menü-Artikel, hier der enge Rezept. Als kalte Vorspeise oder Buffetstück trägt das Gericht auch außerhalb der Feiertage.",
  originPl:
- "Ryba po grecku to przepis na smażony biały filet pod gęstym sosem z marchewki, cebuli, warzyw korzeniowych i pomidora — klasycznie na zimno, często zrobiony dzień wcześniej. Nazwa to polska linia domowa „po grecku”, nie grecka restauracja. Wyraźnie osobno od całego karpia z pieca: [karp](/pl/rezepte/karp) zostaje linią kości/pieca na Wigilię; tu filet i sos warzywny. Ramę menu zostawiamy w [menu wigilijnym](/pl/blog/menu-wigilijne) — tam owner okazji, tu wąski Rezept. Jako zimna przystawka lub bufet działa też poza świętami.",
+ "Ryba po grecku to przepis na smażony biały filet pod gęstym sosem z marchewki, cebuli, warzyw korzeniowych i pomidora — klasycznie na zimno, często zrobiony dzień wcześniej. Nazwa to polska linia domowa „po grecku”, nie grecka restauracja. Wyraźnie osobno od całego karpia z pieca: [karp](/pl/rezepte/karp) zostaje linią kości/pieca na Wigilię; tu filet i sos warzywny. Ramę menu zostawiamy w [menu wigilijnym](/pl/blog/menu-wigilijne) — tam plan stołu, tu wąski przepis. Jako zimna przystawka lub bufet działa też poza świętami.",
  shopDe:
  "Weißfischfilets aus der Frischtheke oder TK, Karotten, Zwiebeln, Tomatenmark. Petersilienwurzel oder Sellerie oft im [Polenladen](/de/blog/polenladen-einkaufen); fehlt sie, ehrlich mit mehr Karotte und Selleriestange arbeiten laut [Ersatzprodukte DE](/de/blog/ersatzprodukte-de). Lorbeer und Nelke aus dem Gewürzregal. Kein ganzer Karpfen nötig — das spart Grätenstress und hält den Fokus klar neben [Karp](/de/rezepte/karp).",
  shopPl:
@@ -63,9 +63,9 @@ export const W11_FACTS_D: Record<string, ArticleFacts> = {
  diasporaPl:
  "W DE często pragmatyczna linia ryby: filety zamiast całego karpia, sos dzień wcześniej, lodówka pracuje. Dzieci mogą tarć warzywa; gorący olej u dorosłych. Kto odciąża menu: pierogi z mrożenia i jasna zupa — szczegóły w [menu wigilijnym](/pl/blog/menu-wigilijne).",
  mistakesDe:
- "Sauce zu wässrig. Gemüse verbrannt statt gedünstet. Mit [Karp](/de/rezepte/karp) verwechseln (ganzer Fisch/Ofen). Zu kurz ziehen. Zu viel Zucker — Fruchtigkeit der Karotte reicht oft. nein, [Wigilia](/de/blog/wigilia-speiseplan) bleibt Menü-Artikel.",
+ "Sauce zu wässrig. Gemüse verbrannt statt gedünstet. Mit [Karp](/de/rezepte/karp) verwechseln (ganzer Fisch/Ofen). Zu kurz ziehen. Zu viel Zucker — Fruchtigkeit der Karotte reicht oft. Der Speiseplan bleibt im [Wigilia-Artikel](/de/blog/wigilia-speiseplan).",
  mistakesPl:
- "Za rzadki sos. Spalone warzywa zamiast duszenia. Mylenie z [karpem](/pl/rezepte/karp). Za krótki odpoczynek. Za dużo cukru. Nie mieszać ilości i kroków z sąsiednim przepisem. nie, tam zostaje owner okazji.",
+ "Za rzadki sos. Spalone warzywa zamiast duszenia. Mylenie z [karpem](/pl/rezepte/karp). Za krótki odpoczynek. Za dużo cukru. Nie mieszać ilości i kroków z sąsiednim przepisem. Plan stołu zostaje w [menu wigilijnym](/pl/blog/menu-wigilijne).",
  variantsDe:
  "Mit Sellerie statt Petersilienwurzel; ohne Nelke milder; etwas Paprika. Warm nur kurz anwärmen, nicht neu braten. Nachbar-Fisch: [Karp](/de/rezepte/karp), [Śledź](/de/rezepte/sledz). Im [Polenladen](/de/blog/polenladen-einkaufen) und unter [Ersatzprodukte](/de/blog/ersatzprodukte-de) findest du Einkaufshilfen.",
  variantsPl:
@@ -127,7 +127,7 @@ export const W11_FACTS_D: Record<string, ArticleFacts> = {
  serveDe:
  "Kalt in Karaffe mit Früchten oder abgeseiht. Am Tisch neben Barszcz und Fisch; Menürahmen bleibt [Wigilia](/de/blog/wigilia-speiseplan). Passt zu [Makowiec](/de/rezepte/makowiec) am Folgetag. Nicht mit frischem Apfelkompot verwechseln — hier trägt Susz den Charakter.",
  servePl:
- "Na zimno w karafce z owocami lub przecedzony. Przy stole obok barszczu i ryby; owner planu: [menu wigilijne](/pl/blog/menu-wigilijne). Pasuje do [makowca](/pl/rezepte/makowiec) nazajutrz. Nie mylić z kompotem ze świeżych jabłek — tu charakter buduje susz.",
+ "Na zimno w karafce z owocami lub przecedzony. Przy stole obok barszczu i ryby; plan stołu: [menu wigilijne](/pl/blog/menu-wigilijne). Pasuje do [makowca](/pl/rezepte/makowiec) nazajutrz. Nie mylić z kompotem ze świeżych jabłek — tu charakter buduje susz.",
  diasporaDe:
  "Am 23. kochen, am 24. nur kaltstellen — entlastet den Herd. Kinder dürfen Obst abmessen und Zimt riechen; heißer Topf bei Erwachsenen. Reste zum Frühstück oder als Beilage. Einkauf früh im [Polenladen](/de/blog/polenladen-einkaufen), bevor die Susz-Regale leer sind.",
  diasporaPl:

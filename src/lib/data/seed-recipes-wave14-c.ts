@@ -231,7 +231,7 @@ export const seedRecipesWave14C: Recipe[] = [
           },
           {
             text: "Heiß mit Ketchup (klassisch) und optional Schnittlauch servieren. Sofort essen — Käse zieht beim Abkühlen.",
-            tip: "Nicht mit [Pierogi](/de/rezepte/pierogi/ruskie) verwechseln — anderer Teig-Intent. Reste kurz im Ofen aufwärmen, nicht Mikrowelle.",
+            tip: "Nicht mit [Pierogi](/de/rezepte/pierogi/ruskie) verwechseln — anderer Teig. Reste kurz im Ofen aufwärmen, nicht Mikrowelle.",
           },
         ],
         seoTitle:

@@ -40,7 +40,7 @@ export const seedRecipesWave13D: Recipe[] = [
         steps: [
           {
             text: "Biała kiełbasa aus dem Kühlschrank nehmen. Hülle prüfen: frisch, blassrosa bis grauweiß, nicht stark geräuchert oder dunkelbraun. Bei Bedarf in Portionen teilen, ohne die Hülle unnötig aufzuschlitzen.",
-            tip: "Einkauf und Qualitätslesen: [Polenladen](/de/blog/polenladen-einkaufen). Welche Wurst wohin gehört, bleibt im [Kiełbasa-Arten-Lexikon](/de/blog/kielbasa-arten) — hier nur Cook.",
+            tip: "Einkauf und Qualitätslesen: [Polenladen](/de/blog/polenladen-einkaufen). Welche Wurst wohin gehört, bleibt im [Kiełbasa-Arten-Lexikon](/de/blog/kielbasa-arten) — hier nur das Kochen.",
           },
           {
             text: "Einen Topf mit Wasser (oder leichter Brühe) aufsetzen, bis knapp unter dem Siedepunkt erhitzen — nicht sprudelnd kochen. Optional Lorbeer und ein paar Pfefferkörner mitgeben.",

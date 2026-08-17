@@ -210,7 +210,7 @@ Suszony dość wcześnie do farszu lub sosu, by pociągnął. Na końcu sprawdzi
 
 ![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1506368248146-8a4e4e5c0b3d?w=1400&q=80)
 
-## Połączenia w silosie
+## Dobrze pasuje do
 
 - [Gołąbki](/pl/rezepte/golabki) i [przewodnik](/pl/blog/golabki-przewodnik)
 - [Fasolka](/pl/rezepte/fasolka-po-bretonsku) i [przewodnik fasolki](/pl/blog/fasolka-po-bretonsku)
@@ -220,8 +220,8 @@ Suszony dość wcześnie do farszu lub sosu, by pociągnął. Na końcu sprawdzi
 - [Flaki](/pl/rezepte/flaki) — majeranek w zupie z flaków
 - [Rolada śląska](/pl/rezepte/rolada-slaska) — oszczędnie w sosie duszonym
 - [Pierogi z mięsem](/pl/rezepte/pierogi/mieso)
-- [Kiełbasa](/pl/blog/rodzaje-kielbasy)
-- [Kaszanka](/pl/rezepte/kaszanka) (cook; typy zostają w leksykonie kiełbasy)
+- [Rodzaje kiełbasy](/pl/blog/rodzaje-kielbasy)
+- [Kaszanka](/pl/rezepte/kaszanka) — przepis; rodzaje w [leksykonie kiełbasy](/pl/blog/rodzaje-kielbasy)
 
 ## FAQ — majeranek
 

@@ -120,7 +120,7 @@ export const W8_FACTS_D_RETROFIT: Record<string, ArticleFacts> = {
  mistakesPl:
  "Za mokra kapusta, za miękki makaron i za mało doprawienia spłaszczają łazanki. Pieprz i dość tłuszczu znaczą tu więcej niż dodatkowa kapusta.",
  variantsDe:
- "Vegetarisch ohne Speck, mit Pilzen, oder neben [Bigos](/de/rezepte/bigos) als Kraut-Silo. Ferment vertiefen: [Kiszenie](/de/blog/kiszenie-guide). Im [Polenladen](/de/blog/polenladen-einkaufen) findest du typische Spezialzutaten.",
+ "Vegetarisch ohne Speck, mit Pilzen, oder neben [Bigos](/de/rezepte/bigos) als weiteres Krautgericht. Ferment vertiefen: [Kiszenie](/de/blog/kiszenie-guide). Im [Polenladen](/de/blog/polenladen-einkaufen) findest du typische Spezialzutaten.",
  variantsPl:
  "Wegetariańskie bez boczku, z grzybami albo obok [bigosu](/pl/rezepte/bigos). Ferment: [kiszenie](/pl/blog/kiszenie-w-domu). W [sklep polski](/pl/blog/sklep-polski-zakupy) kupisz typowe specjalności.",
  },

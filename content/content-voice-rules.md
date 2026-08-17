@@ -12,6 +12,9 @@ Do **not** write internal SEO or editorial jargon into articles, tips, mistakes,
 - SEO-Hinweis, Topical Authority, “descriptiv(e)” as process note
 - “Primary stehlen”, “Ownership stehlen”, “Guide als Cook-Owner beanspruchen”
 - “Abgrenzung:” as a label (write a normal sentence instead)
+- **Silo / silos / Silo-Navigation / Verbindungen im Silo / Weiter im Silo** — say “passt gut zu”, “weitere Varianten”, “Überblick”
+- Types vs Cook, Intern weiter, Varianten-Switcher, Cook-URL, HOLD, Pillar, Intent
+- Editorial asides like `(Cook; Types bleiben im Lexikon)` — name the dish and the guide in a normal sentence
 
 Keep ownership mapping in `content/keyword-ownership.md` and file-header comments only.
 
@@ -48,7 +51,7 @@ These read as SEO notes or telegram style; rewrite into cooking prose:
 - Mistake stacks without verbs: “Zu viel Mehl, zu nasse Kartoffeln, zu starkes Kochen. Erste Charge als Test.”
 - Meta leftovers: “Hitze, Feuchtigkeit oder Garzeit falsch einschätzen”, “nein, dort bleibt Kultur-Guide”, “Owner”, “Primary”, “in title”
 - Standalone crumbs: “Geschmackssache.” / “Mit Brot. Fertig.” without a surrounding sentence
-- Blog sections titled for editors (“Ownership klar halten”, “Was dieser Pillar ist”) — use reader headings
+- Blog sections titled for editors (“Ownership klar halten”, “Was dieser Pillar ist”, “Verbindungen im Silo”, “Types vs Cook”) — use reader headings
 
 `npm run gate:reader-copy` catches jargon and colon-dumps; it does **not** prove food-editor quality. Spot-check expand() paragraphs by ear.
 

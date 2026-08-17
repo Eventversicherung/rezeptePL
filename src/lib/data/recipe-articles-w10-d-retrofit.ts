@@ -87,7 +87,7 @@ export const W10_FACTS_W9_RETROFIT: Record<string, ArticleFacts> = {
  mistakesPl:
  "Za mokra kapusta, za miękki makaron i za mało doprawienia spłaszczają łazanki. Pieprz i dość tłuszczu mają znaczenie — nie mylić ze słodkim [makaronem z serem](/pl/rezepte/makaron-z-serem).",
  variantsDe:
- "Vegetarisch ohne Speck, mit Pilzen oder neben [Bigos](/de/rezepte/bigos) als Kraut-Silo. Ferment vertieft der [Kiszenie-Guide](/de/blog/kiszenie-guide). Im [Polenladen](/de/blog/polenladen-einkaufen) findest du typische Spezialzutaten. Quark-Pasta-Nachbar: [Makaron z serem](/de/rezepte/makaron-z-serem).",
+ "Vegetarisch ohne Speck, mit Pilzen oder neben [Bigos](/de/rezepte/bigos) als weiteres Krautgericht. Ferment vertieft der [Kiszenie-Guide](/de/blog/kiszenie-guide). Im [Polenladen](/de/blog/polenladen-einkaufen) findest du typische Spezialzutaten. Quark-Pasta-Nachbar: [Makaron z serem](/de/rezepte/makaron-z-serem).",
  variantsPl:
  "Wegetariańskie bez boczku, z grzybami albo obok [bigosu](/pl/rezepte/bigos). Ferment pogłębia [kiszenie w domu](/pl/blog/kiszenie-w-domu). W [sklepie polskim](/pl/blog/sklep-polski-zakupy) kupisz typowe specjalności. Sąsiad twarogowy: [makaron z serem](/pl/rezepte/makaron-z-serem).",
  },

@@ -170,7 +170,7 @@ export const seedRecipesWave9A: Recipe[] = [
         steps: [
           {
             text: "Fleischscheiben (Rind oder Schwein) flach klopfen, salzen, pfeffern, dünn mit Senf bestreichen. Füllung: Speckstreifen und fein gehackte Zwiebel (optional etwas Majoran) — fest rollen und mit Garn oder Zahnstocher fixieren.",
-            tip: "Andere Logik als [Zrazy zawijane](/de/rezepte/zrazy): hier keine Gurken-Primärfüllung; Intent ist schlesische Sonntags-Roulade mit Kluski-Pairing.",
+            tip: "Andere Logik als [Zrazy zawijane](/de/rezepte/zrazy): hier keine Gurkenfüllung; es geht um die schlesische Sonntags-Roulade mit Kluski.",
           },
           {
             text: "Rollen rundum in heißem Fett anbraten, bis sie Farbe haben. Zwiebelreste und Lorbeer in denselben Topf — ideal ein [Schmortopf / Dutch Oven](/de/blog/dutch-oven-kaufberatung).",

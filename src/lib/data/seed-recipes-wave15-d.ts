@@ -47,11 +47,11 @@ export const seedRecipesWave15D: Recipe[] = [
           },
           {
             text: "Topf vom Herd nehmen oder Hitze stark reduzieren. Śmietana temperieren (mit etwas heißer Suppe verrühren) und einrühren — nicht aufkochen lassen. Mit Salz und Pfeffer abschmecken; den größten Teil des Dills unterheben.",
-            tip: "Śmietana-Technik descriptiv: [Śmietana/Schmand](/de/blog/smietana-schmand). Keine Kiszone-Gurke wie [Ogórkowa](/de/rezepte/ogorkowa).",
+            tip: "Śmietana-Technik: [Śmietana/Schmand](/de/blog/smietana-schmand). Keine Kiszone-Gurke wie [Ogórkowa](/de/rezepte/ogorkowa).",
           },
           {
             text: "Hartgekochte Eier vierteln. Suppe heiß in tiefen Tellern anrichten, Ei und restlichen Dill darauf. Optional Butterkrümel oder Brot dazu.",
-            tip: "Menüplatz descriptiv: [polnisches Sonntagsessen](/de/blog/sonntagsessen-polnisch) — Kulturrahmen bleibt bei dort; hier nur der Cook.",
+            tip: "Menüplatz: [polnisches Sonntagsessen](/de/blog/sonntagsessen-polnisch) — Kulturrahmen bleibt dort; hier nur das Rezept.",
           },
         ],
         seoTitle: "Zupa koperkowa Rezept | Dillsuppe polnisch | Alemniam",
@@ -78,7 +78,7 @@ export const seedRecipesWave15D: Recipe[] = [
           },
           {
             text: "Jajka na twardo pokrój na ćwiartki. Podawaj gorącą w głębokich talerzach z jajkiem i resztą koperku. Opcjonalnie bułka lub chleb.",
-            tip: "Miejsce w menu opisowo: [obiad niedzielny](/pl/blog/obiad-niedzielny) — przewodnik kulturowy zostaje tam; tu tylko cook.",
+            tip: "Miejsce w menu: [obiad niedzielny](/pl/blog/obiad-niedzielny) — przewodnik kulturowy zostaje tam; tu tylko przepis.",
           },
         ],
         seoTitle: "Zupa koperkowa przepis | Dillsuppe | Alemniam",
@@ -198,7 +198,7 @@ export const seedRecipesWave15D: Recipe[] = [
         steps: [
           {
             text: "Himbeeren (frisch oder aufgetaut) mit 600 ml Wasser und Zucker aufkochen; 5 Minuten köcheln, dann durch ein Sieb streichen (Kerne optional entfernen) — klarer Fruchtsaft bleibt.",
-            tip: "Das ist gestärkte Fruchtcreme — kein Trockenobstgetränk wie [Kompot z suszu](/de/rezepte/kompot-z-suszu). Anlass descriptiv: [Wigilia-Speiseplan](/de/blog/wigilia-speiseplan).",
+            tip: "Das ist gestärkte Fruchtcreme — kein Trockenobstgetränk wie [Kompot z suszu](/de/rezepte/kompot-z-suszu). Anlass: [Wigilia-Speiseplan](/de/blog/wigilia-speiseplan).",
           },
           {
             text: "Speisestärke (Kartoffel- oder Maisstärke) mit 100 ml kaltem Wasser glatt rühren. Den heißen Fruchtsaft wieder zum leichten Köcheln bringen; Stärkemilch unter Rühren einlaufen lassen, bis der Kisiel dicklich-glänzend bindet (1–3 Minuten).",
@@ -206,7 +206,7 @@ export const seedRecipesWave15D: Recipe[] = [
           },
           {
             text: "Vom Herd nehmen, abschmecken (Säure mit etwas Zitrone, Süße mit Zucker). Heiß in Gläser oder Schalen füllen; Haut vermeiden: Folie direkt auf die Oberfläche oder leicht rühren beim Abkühlen.",
-            tip: "Kein Weizen-Mohn-Dessert: [Kutia](/de/rezepte/kutia) bleibt anderes Gericht. Speiseplan-Owner bleibt Wigilia — hier nur der Cook.",
+            tip: "Kein Weizen-Mohn-Dessert: [Kutia](/de/rezepte/kutia) bleibt anderes Gericht. Speiseplan bleibt bei Wigilia — hier nur das Rezept.",
           },
           {
             text: "Warm, lauwarm oder kalt servieren. Optional frische Beeren oder ein Löffel Śmietana. Reste abgedeckt im Kühlschrank 1–2 Tage.",
@@ -232,7 +232,7 @@ export const seedRecipesWave15D: Recipe[] = [
           },
           {
             text: "Zdejmij z ognia, dopraw (kwas cytryną, słodycz cukrem). Gorący przelej do szklanek lub miseczek; unikaj kożucha: folia na powierzchni lub lekkie mieszanie przy studzeniu.",
-            tip: "To nie deser zbożowy: [kutia](/pl/rezepte/kutia) zostaje innym fokus. Owner planu: menu wigilijne — tu tylko cook.",
+            tip: "To nie deser zbożowy: [kutia](/pl/rezepte/kutia) zostaje innym daniem. Plan stołu: menu wigilijne — tu tylko przepis.",
           },
           {
             text: "Podawaj ciepły, letni lub zimny. Opcjonalnie świeże owoce lub łyżka śmietany. Resztki przykryte w lodówce 1–2 dni.",

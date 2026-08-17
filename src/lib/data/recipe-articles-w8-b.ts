@@ -44,9 +44,9 @@ export const W8_FACTS_B: Record<string, ArticleFacts> = {
  techniquePl:
  "Najpierw ugotuj warzywa w wywarze, potem ogórki i zalewę — inaczej ziemniaki się rozpadną, zanim będzie kwas. Zalewę dawkuje: lepiej dodać niż od razu przesolić kwasem. Śmietanę włącz po zdjęciu z ognia. Gotuj łagodnie, nie burząc. Koperek świeży na końcu.",
  serveDe:
- "Heiß als Hauptsuppe mit Brot — sättigend genug für einen Wochentag. Optional Speckwürfel oder ein Ei, aber der Kern bleibt Gurke und Dill. Neben [Kapuśniak](/de/rezepte/kapusniak) die zweite große Kiszone-Suppe im Silo; zu Festen eher [Barszcz](/de/rezepte/barszcz-czerwony) oder Żurek wählen. Reste kühlen, am nächsten Tag vorsichtig erwärmen und Śmietana erneut prüfen.",
+ "Heiß als Hauptsuppe mit Brot — sättigend genug für einen Wochentag. Optional Speckwürfel oder ein Ei, aber der Kern bleibt Gurke und Dill. Neben [Kapuśniak](/de/rezepte/kapusniak) die zweite große Kiszone-Suppe in dieser Reihe; zu Festen eher [Barszcz](/de/rezepte/barszcz-czerwony) oder Żurek wählen. Reste kühlen, am nächsten Tag vorsichtig erwärmen und Śmietana erneut prüfen.",
  servePl:
- "Gorąca jako zupa główna z chlebem — wystarczająco sycąca na dzień powszedni. Opcjonalnie boczek lub jajko, ale rdzeń to ogórek i koperek. Obok [kapuśniaka](/pl/rezepte/kapusniak) druga duża zupa z kiszonek w silosie; na święta raczej [barszcz](/pl/rezepte/barszcz-czerwony) albo żurek. Resztki chłodzić, nazajutrz ogrzewać ostrożnie i sprawdzić śmietanę.",
+ "Gorąca jako zupa główna z chlebem — wystarczająco sycąca na dzień powszedni. Opcjonalnie boczek lub jajko, ale rdzeń to ogórek i koperek. Obok [kapuśniaka](/pl/rezepte/kapusniak) druga duża zupa z kiszonek w tej rodzinie; na święta raczej [barszcz](/pl/rezepte/barszcz-czerwony) albo żurek. Resztki chłodzić, nazajutrz ogrzewać ostrożnie i sprawdzić śmietanę.",
  diasporaDe:
  "In deutschen Küchen rettet Ogórkowa das angebrochene Gurkenglas nach dem Grillabend. Ein Topf für zwei Mittage — ideal zwischen Schicht und Kita. Wer Fermentieren lernt, verbindet Einkauf und Topf über [Kiszenie](/de/blog/kiszenie-guide) und den Suppen-Überblick.",
  diasporaPl:

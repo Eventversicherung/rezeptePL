@@ -44,7 +44,7 @@ export const seedRecipesWave8A: Recipe[] = [
           },
           {
             text: "Kalt servieren zu [Kotlet schabowy](/de/rezepte/kotlet-schabowy), Kartoffeln oder als Oster-Beilage — siehe [Wielkanoc-Speiseplan](/de/blog/wielkanoc-speiseplan).",
-            tip: "Fest-Buffetsalat mit Mayo-Gemüse ist ein anderer Intent: [Sałatka jarzynowa](/de/rezepte/salatka-jarzynowa).",
+            tip: "Fest-Buffetsalat mit Mayo-Gemüse ist ein anderes Gericht: [Sałatka jarzynowa](/de/rezepte/salatka-jarzynowa).",
           },
         ],
         seoTitle: "Mizeria Rezept | Gurkensalat mit Śmietana | Alemniam",
@@ -70,7 +70,7 @@ export const seedRecipesWave8A: Recipe[] = [
           },
           {
             text: "Podawaj zimną do [kotleta schabowego](/pl/rezepte/kotlet-schabowy), ziemniaków albo jako dodatek wielkanocny — [menu wielkanocne](/pl/blog/menu-wielkanocne).",
-            tip: "Sałatka bufetowa z majonezem to inny intent: [sałatka jarzynowa](/pl/rezepte/salatka-jarzynowa).",
+            tip: "Sałatka bufetowa z majonezem to inne danie: [sałatka jarzynowa](/pl/rezepte/salatka-jarzynowa).",
           },
         ],
         seoTitle: "Mizeria przepis | Sałatka z ogórków | Alemniam",
@@ -191,7 +191,7 @@ export const seedRecipesWave8A: Recipe[] = [
         steps: [
           {
             text: "Odciśnij kapustę kiszoną (kwas według smaku zostaw lub krótko wypłucz), posiekaj. Cebulę zeszklij na tłuszczu.",
-            tip: "Jakość kiszonki i ferment: [przewodnik kiszenia](/pl/blog/kiszenie-w-domu) — tu tylko wykorzystanie, nie owner fermentu.",
+            tip: "Jakość kiszonki i ferment: [przewodnik kiszenia](/pl/blog/kiszenie-w-domu) — tu tylko wykorzystanie, nie przewodnik po kiszeniu.",
           },
           {
             text: "Dodaj kapustę, podlej odrobiną wody lub bulionu, liść laurowy i pieprz; duś 25–35 minut na średnim ogniu aż będzie miękka, nie rozgotowana.",

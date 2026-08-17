@@ -173,7 +173,7 @@ export const seedRecipesWave15C: Recipe[] = [
         steps: [
           {
             text: "Grüne Stangenbohnen waschen, Enden abschneiden, bei Bedarf halbieren. In Salzwasser 6–10 Minuten bissfest garen, abgießen.",
-            tip: "Das sind grüne Schoten, kein weißer Bohnen-Eintopf — [Fasolka po bretońsku](/de/rezepte/fasolka-po-bretonsku) und der [Fasolka-Guide](/de/blog/fasolka-po-bretonsku) bleiben Eintopf-Owner.",
+            tip: "Das sind grüne Schoten, kein weißer Bohnen-Eintopf — [Fasolka po bretońsku](/de/rezepte/fasolka-po-bretonsku) und der [Fasolka-Guide](/de/blog/fasolka-po-bretonsku) bleiben das Eintopfrezept.",
           },
           {
             text: "In einer Pfanne Butter schmelzen. Optional fein gehackte Zwiebel oder Knoblauch kurz glasig dünsten — nicht braun brennen.",
