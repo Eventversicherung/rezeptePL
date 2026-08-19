@@ -41,14 +41,14 @@ const baseRecipes: Recipe[] = [
     id: "recipe-pierogi",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1662116663511-9d79d49da183?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-pierogi/ffa4f850-6746-4b55-8710-b19e03abf532.webp",
     prepMinutes: 45,
     cookMinutes: 20,
     servings: 4,
     familyId: "family-pierogi",
     variantLabel: { de: "Ruskie", pl: "ruskie" },
     variantImage:
-      "https://images.unsplash.com/photo-1662116663511-9d79d49da183?w=400&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-pierogi/ffa4f850-6746-4b55-8710-b19e03abf532.webp",
     regionIds: [],
     occasionIds: ["occasion-wigilia", "occasion-niedziela"],
     techniqueIds: ["technique-teig", "technique-freezer"],
@@ -402,7 +402,7 @@ Ziemniaki, twaróg, cebula. Bez widowiska — smak, który wielu łączy z domem
     id: "recipe-oscypek",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1774853602664-9f6321892e6d?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-oscypek/3b3f26ff-eab8-45b5-92f8-3fa0adbc758b.webp",
     prepMinutes: 10,
     cookMinutes: 15,
     servings: 2,
@@ -479,14 +479,14 @@ Ziemniaki, twaróg, cebula. Bez widowiska — smak, który wielu łączy z domem
     id: "recipe-placki",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1678527040378-ca2285fbee57?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-placki/27392e29-e109-488c-8da8-18fc88f28867.webp",
     prepMinutes: 20,
     cookMinutes: 25,
     servings: 4,
     familyId: "family-placki",
     variantLabel: { de: "Ziemniaczane", pl: "ziemniaczane" },
     variantImage:
-      "https://images.unsplash.com/photo-1678527040378-ca2285fbee57?w=400&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-placki/27392e29-e109-488c-8da8-18fc88f28867.webp",
     regionIds: [],
     occasionIds: ["occasion-niedziela"],
     techniqueIds: ["technique-panieren"],
@@ -979,7 +979,7 @@ Przełącz u góry: [cukinia](/pl/rezepte/placki/cukinia), [ser](/pl/rezepte/pla
     id: "recipe-rosol",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1612966948332-81d747414a8f?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-rosol/58a70d2d-5448-4aae-ad60-d3d35e6140d0.webp",
     prepMinutes: 20,
     cookMinutes: 120,
     servings: 6,
@@ -1144,7 +1144,7 @@ Przełącz u góry: [cukinia](/pl/rezepte/placki/cukinia), [ser](/pl/rezepte/pla
     id: "recipe-faworki",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1714545049821-9eddecf6e20d?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-faworki/2f402758-49a4-42b0-8f6e-0213ae8b749d.webp",
     prepMinutes: 15,
     cookMinutes: 30,
     servings: 50,
@@ -1883,7 +1883,7 @@ Blisko tradycji [Tłusty Czwartek](/pl/blog/tlusty-czwartek), ale przez cały ro
     id: "recipe-chlodnik",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1621608953630-00d9eb860392?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-chlodnik/d31adac5-90fd-4815-965e-a9d243d59924.webp",
     prepMinutes: 30,
     cookMinutes: 0,
     servings: 4,
