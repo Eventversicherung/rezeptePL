@@ -203,7 +203,7 @@ Ziemniaki, twaróg, cebula. Bez widowiska — smak, który wielu łączy z domem
     id: "recipe-bigos",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1740993382511-c9ab25afb7d4?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-bigos/66cdab94-ccf4-4b59-8ec0-55c2a0c24c6b.webp",
     prepMinutes: 30,
     cookMinutes: 120,
     servings: 6,
@@ -305,7 +305,7 @@ Ziemniaki, twaróg, cebula. Bez widowiska — smak, który wielu łączy z domem
     id: "recipe-zurek",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1625147541750-dfecb0a624a5?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-zurek/bbfde075-0c6c-4698-a8a0-0f8e5765ae98.webp",
     prepMinutes: 20,
     cookMinutes: 50,
     servings: 4,
@@ -619,7 +619,7 @@ Przełącz u góry: [cukinia](/pl/rezepte/placki/cukinia), [ser](/pl/rezepte/pla
     id: "recipe-golabki",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1622220734058-23ce1f89d84d?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-golabki/56ae4f6d-22d3-4bcd-9886-e71c4cba3244.webp",
     prepMinutes: 40,
     cookMinutes: 60,
     servings: 4,
@@ -700,7 +700,7 @@ Przełącz u góry: [cukinia](/pl/rezepte/placki/cukinia), [ser](/pl/rezepte/pla
     id: "recipe-barszcz",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1677889173479-c8a0ab15ae18?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-barszcz/efe9222b-f6b5-42df-a683-71394e5dbd21.webp",
     prepMinutes: 25,
     cookMinutes: 45,
     servings: 4,
@@ -789,7 +789,7 @@ Przełącz u góry: [cukinia](/pl/rezepte/placki/cukinia), [ser](/pl/rezepte/pla
     id: "recipe-schabowy",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1599921841143-819065a55cc6?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-schabowy/c2614c7e-bc01-4c37-a0b8-45b4c581ec92.webp",
     prepMinutes: 20,
     cookMinutes: 20,
     servings: 4,
