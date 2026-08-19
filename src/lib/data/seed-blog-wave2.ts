@@ -699,6 +699,9 @@ export const seedBlogPostsWave2: BlogPost[] = [
       "recipe-ogorkowa",
       "recipe-kapusniak",
       "recipe-kapusta-zasmażana",
+      "recipe-ogorki-kiszone",
+      "recipe-kapusta-kiszona",
+      "recipe-czosnek-kiszony",
     ],
     relatedPostIds: [
       "post-bigos-guide",

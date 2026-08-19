@@ -581,4 +581,24 @@ export const seedClusters: Cluster[] = [
     coverImage:
       "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-category-vegetarisch/7c59eaa7-55ab-4784-8892-c1d8cd3e7d87.webp",
   },
+  {
+    id: "category-eingelegt",
+    kind: "category",
+    slug: { de: "eingelegtes", pl: "kiszonki" },
+    title: { de: "Eingelegtes", pl: "Kiszonki" },
+    description: {
+      de: "Gurken, Kapusta, Pilze, Paprika — Kiszonki und Essiggläser für den Vorrat.",
+      pl: "Ogórki, kapusta, grzyby, papryka — kiszonki i słoiki z octem na zapas.",
+    },
+    seoTitle: {
+      de: "Eingelegtes polnisch | Kiszonki | Alemniam",
+      pl: "Kiszonki i marynaty | Alemniam",
+    },
+    seoDescription: {
+      de: "Traditionelle polnische Kiszonki und Marynaty: Gurken, Sauerkraut, Pilze, Pflaumen. Bilingual, mit sicherer Technik.",
+      pl: "Tradycyjne polskie kiszonki i marynaty: ogórki, kapusta, grzyby, śliwki. Dwujęzycznie, z bezpieczną techniką.",
+    },
+    coverImage:
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-category-eingelegt/212de5d4-a0de-40c2-8baa-10b53d7d3785.webp",
+  },
 ];

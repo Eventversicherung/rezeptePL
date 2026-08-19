@@ -162,7 +162,7 @@ export const seedRecipesWave14B: Recipe[] = [
     regionIds: [],
     occasionIds: ["occasion-wielkanoc", "occasion-niedziela"],
     techniqueIds: [],
-    categoryIds: ["category-vegetarisch", "category-schnell"],
+    categoryIds: ["category-vegetarisch", "category-schnell", "category-eingelegt"],
     relatedPostIds: [
       "post-wielkanoc",
       "post-polenladen",
