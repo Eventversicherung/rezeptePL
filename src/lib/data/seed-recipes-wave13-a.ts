@@ -14,7 +14,7 @@ export const seedRecipesWave13A: Recipe[] = [
     id: "recipe-krupnik",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1636044993194-9d2ec4b0cb89?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-krupnik/d71fb2f2-23ab-4055-a851-2042de77b343.webp",
     prepMinutes: 20,
     cookMinutes: 55,
     servings: 4,

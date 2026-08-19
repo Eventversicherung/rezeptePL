@@ -10,7 +10,7 @@ export const seedRecipesWave8D: Recipe[] = [
     id: "recipe-knedle-sliwki",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1747628857843-96f695316cfc?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-knedle-sliwki/f76d417a-c9bc-4421-ab92-c7460c2ecd04.webp",
     prepMinutes: 45,
     cookMinutes: 25,
     servings: 4,

@@ -14,7 +14,7 @@ export const seedRecipesWave14A: Recipe[] = [
     id: "recipe-wuzetka",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1536749605762-e7445a2d43ec?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-wuzetka/af352ac0-8bba-44dd-a4d2-8bb8d02e6865.webp",
     prepMinutes: 45,
     cookMinutes: 35,
     servings: 12,
@@ -179,7 +179,7 @@ export const seedRecipesWave14A: Recipe[] = [
     id: "recipe-drozdzowka",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1609099724543-937e6493fcd0?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-drozdzowka/d180cda8-d1ac-47f9-bd43-2b0c19ceecdb.webp",
     prepMinutes: 40,
     cookMinutes: 35,
     servings: 12,

@@ -14,7 +14,7 @@ export const seedRecipesWave13C: Recipe[] = [
     id: "recipe-chalka",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1629321962567-e15cd77bb5ec?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-chalka/5f16e0c3-59ac-40de-86ba-5c61ac7cd71d.webp",
     prepMinutes: 40,
     cookMinutes: 35,
     servings: 12,
@@ -175,7 +175,7 @@ export const seedRecipesWave13C: Recipe[] = [
     id: "recipe-pasztet",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1605992728160-8d119bf2b5db?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-pasztet/3dc0ec3c-bd40-4fe7-a285-48eba8dc8c3e.webp",
     prepMinutes: 35,
     cookMinutes: 70,
     servings: 10,
