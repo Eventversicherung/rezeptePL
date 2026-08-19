@@ -6,7 +6,7 @@ export const seedRecipesWave5: Recipe[] = [
     id: "recipe-pierogi-leniwe",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1601556123240-462c758a50db?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-pierogi-leniwe/85296ce9-d2f4-4900-a1fd-4323e53cccfa.webp",
     prepMinutes: 25,
     cookMinutes: 15,
     servings: 4,
@@ -113,7 +113,7 @@ export const seedRecipesWave5: Recipe[] = [
     id: "recipe-kopytka",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1745871136691-8fb229223fc8?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-kopytka/a8e6e483-ff01-44f3-8f1e-10e00f54e8b4.webp",
     prepMinutes: 35,
     cookMinutes: 20,
     servings: 4,
@@ -212,7 +212,7 @@ export const seedRecipesWave5: Recipe[] = [
     id: "recipe-lazanki",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1587544704492-243de6821419?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-lazanki/6ba332e9-4f6a-4264-9700-45e5432d1de4.webp",
     prepMinutes: 20,
     cookMinutes: 35,
     servings: 4,
@@ -308,7 +308,7 @@ export const seedRecipesWave5: Recipe[] = [
     id: "recipe-pyzy",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1698688332650-8724293b2ad8?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-pyzy/ff5c7156-8041-4f10-8c56-9ad177c5fb70.webp",
     prepMinutes: 50,
     cookMinutes: 30,
     servings: 4,
@@ -418,7 +418,7 @@ export const seedRecipesWave5: Recipe[] = [
     id: "recipe-zrazy",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1703553591265-91e21fca98ad?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-zrazy/56637b7b-9202-4ed1-8c0b-9aa4d927e40c.webp",
     prepMinutes: 40,
     cookMinutes: 90,
     servings: 4,
