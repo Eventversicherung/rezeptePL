@@ -16,7 +16,7 @@ export const seedRecipesWave13D: Recipe[] = [
     id: "recipe-biala-kielbasa",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1675619448864-4b46c66e7212?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-biala-kielbasa/6f6f246e-9e55-42ae-99a6-94384e3bdd66.webp",
     prepMinutes: 10,
     cookMinutes: 35,
     servings: 4,

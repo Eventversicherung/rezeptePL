@@ -15,7 +15,7 @@ export const seedRecipesWave14C: Recipe[] = [
     id: "recipe-placek-po-wegiersku",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1780019676104-79da19c02d8f?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-placek-po-wegiersku/ddab9a77-5412-49dc-9767-553605893db3.webp",
     prepMinutes: 35,
     cookMinutes: 90,
     servings: 4,
@@ -193,7 +193,7 @@ export const seedRecipesWave14C: Recipe[] = [
     id: "recipe-zapiekanka",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1670843633381-46d78a3fb6a0?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-zapiekanka/136f0761-9145-4ca4-8820-16592a163737.webp",
     prepMinutes: 20,
     cookMinutes: 15,
     servings: 4,

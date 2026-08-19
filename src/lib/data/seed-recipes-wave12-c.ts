@@ -14,7 +14,7 @@ export const seedRecipesWave12C: Recipe[] = [
     id: "recipe-mazurek",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1776268927285-21968dfe5fcb?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-mazurek/bfb03b99-ac14-47da-b69d-c24dc641771f.webp",
     prepMinutes: 35,
     cookMinutes: 40,
     servings: 12,

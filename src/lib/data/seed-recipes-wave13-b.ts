@@ -14,7 +14,7 @@ export const seedRecipesWave13B: Recipe[] = [
     id: "recipe-kutia",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1558985212-fdbd3c3eb611?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-kutia/0088aa6b-0eb5-4e7f-af68-56c011688e28.webp",
     prepMinutes: 25,
     cookMinutes: 90,
     servings: 8,
@@ -176,7 +176,7 @@ export const seedRecipesWave13B: Recipe[] = [
     id: "recipe-napoleonka",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1659275798960-ca2c2056d516?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-napoleonka/9306475f-0fef-4acc-9daf-a0b3250b17d0.webp",
     prepMinutes: 45,
     cookMinutes: 35,
     servings: 12,
