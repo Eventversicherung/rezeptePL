@@ -2,8 +2,8 @@ import type { Recipe } from "@/types/content";
 
 /**
  * Wave 13 Paket C — Hefezopf + Aufschnitt.
- * - recipe-chalka — geflochtener Hefezopf/Laib (≠ Babka-Gugelhupf ≠ Pączki ≠ Racuchy)
- * - recipe-pasztet — Haus-Pastete Geflügelleber (≠ Kaszanka ≠ Kotlet mielony)
+ * - recipe-chalka — geflochtener Hefezopf/Laib, anders als Babka-Gugelhupf, Pączki und Racuchy
+ * - recipe-pasztet — Haus-Pastete aus Geflügelleber, anders als Kaszanka und Kotlet mielony
  *
  * Integrator E: merge into seed aggregator + recipe-articles + related maps.
  * Affiliate: guide-only (no relatedProductIds).
@@ -33,61 +33,61 @@ export const seedRecipesWave13C: Recipe[] = [
         title: "Chałka",
         slug: "chalka",
         excerpt:
-          "Geflochtener helles Hefebrot mit optionalem Sesam — Laib/Zopf, klar ≠ Babka-Gugelhupf und ≠ Pączki.",
+          "Ein geflochtenes, helles Hefebrot mit optionalem Sesam, das als Laib oder Zopf auf den Frühstücks- und Ostertisch kommt und mit dem Gugelhupf Babka oder den frittierten Pączki nichts zu tun hat.",
         steps: [
           {
-            text: "Hefe in lauwarmer Milch mit 1 TL Zucker auflösen, 10 Minuten gehen lassen, bis sie schäumt.",
-            tip: "Milch nur lauwarm — zu heiß tötet Hefe. Hefe-Kontext: [Makowiec-Technik](/de/blog/makowiec-technik). Gugelhupf-Form ist ein anderes Gericht: [Babka](/de/rezepte/babka).",
+            text: "Die Hefe in lauwarmer Milch mit 1 Teelöffel Zucker auflösen und 10 Minuten stehen lassen, bis sie an der Oberfläche schäumt.",
+            tip: "Die Milch darf wirklich nur lauwarm sein, zu heiß tötet die Hefe ab. Mehr zum Umgang mit Hefe zeigt die [Makowiec-Technik](/de/blog/makowiec-technik), die Gugelhupf-Form dagegen gehört zur [Babka](/de/rezepte/babka).",
           },
           {
-            text: "Mit Mehl, restlichem Zucker, Eiern, weicher Butter, Prise Salz zu glattem, elastischem Teig kneten. Abgedeckt gehen lassen, bis verdoppelt (ca. 60–90 Min).",
-            tip: "Kein Frittieren — [Pączki](/de/rezepte/paczki) bleiben ein eigenes Rezept. Einkauf: [Polenladen](/de/blog/polenladen-einkaufen).",
+            text: "Mehl, restlichen Zucker, Eier, weiche Butter und eine Prise Salz zu einem glatten, elastischen Teig verkneten. Den Teig abgedeckt gehen lassen, bis er sich verdoppelt hat, das dauert etwa 60 bis 90 Minuten.",
+            tip: "Hier wird nichts frittiert, [Pączki](/de/rezepte/paczki) bleiben ein eigenes Rezept. Gute Zutaten für den Teig findest du im [Polenladen](/de/blog/polenladen-einkaufen).",
           },
           {
-            text: "Teig in 3 (oder 4) gleich schwere Stränge teilen, zu Rollen formen und zu einem Zopf flechten. Enden unterschieben, auf ein Backblech mit Backpapier setzen.",
+            text: "Den Teig in drei oder vier gleich schwere Stränge teilen, zu Rollen formen und zu einem Zopf flechten. Die Enden gut unterschieben und den Zopf auf ein mit Backpapier ausgelegtes Blech legen.",
           },
           {
-            text: "Abgedeckt 20–30 Minuten nachgehen lassen. Mit verquirltem Ei bestreichen, optional Sesam streuen.",
-            tip: "Zopf sichtbar lassen — keine Gugelhupf-Form wie bei [Babka](/de/rezepte/babka). Apfel-Pfannkuchen bleiben [Racuchy](/de/rezepte/racuchy-jablka).",
+            text: "Den Zopf abgedeckt weitere 20 bis 30 Minuten gehen lassen. Mit verquirltem Ei bestreichen und optional mit Sesam bestreuen.",
+            tip: "Der Zopf soll sichtbar bleiben, das ist keine Gugelhupf-Form wie bei der [Babka](/de/rezepte/babka). Apfelpfannkuchen bleiben ein eigenes Gericht, die [Racuchy](/de/rezepte/racuchy-jablka).",
           },
           {
-            text: "Bei 180 °C (Umluft etwas niedriger) 30–35 Minuten goldbraun backen. Abkühlen auf Gitter. Warm oder lauwarm in Scheiben servieren.",
-            tip: "Am Ostertisch [Wielkanoc Speiseplan](/de/blog/wielkanoc-speiseplan) bleibt Menü-Artikel. Ersatzhinweise: [Ersatzprodukte DE](/de/blog/ersatzprodukte-de).",
+            text: "Bei 180 Grad, mit Umluft etwas niedriger, 30 bis 35 Minuten goldbraun backen. Auf einem Gitter abkühlen lassen und warm oder lauwarm in Scheiben servieren.",
+            tip: "Auf dem Ostertisch bleibt der [Wielkanoc-Speiseplan](/de/blog/wielkanoc-speiseplan) der Menü-Rahmen. Fehlt eine Zutat, hilft der Beitrag zu [Ersatzprodukten](/de/blog/ersatzprodukte-de) weiter.",
           },
         ],
         seoTitle: "Chałka Rezept | Polnisches Hefezopf-Brot | Alemniam",
         seoDescription:
-          "Chałka backen: geflochtener Hefezopf mit Sesam. Bilingual, Ostern/Sonntag, klar ≠ Babka und Pączki.",
+          "Chałka backen: geflochtener Hefezopf mit Sesam, klar getrennt von Babka und Pączki. Bilingual, für Ostern und den Sonntagstisch.",
       },
       pl: {
         title: "Chałka",
         slug: "chalka",
         excerpt:
-          "Pleciony jasny chleb drożdżowy z opcjonalnym sezamem — bochenek/warkocz, jasno ≠ babka z formy i ≠ pączki.",
+          "Pleciony, jasny chleb drożdżowy z opcjonalnym sezamem, podawany jako bochenek lub warkocz na śniadanie i na Wielkanoc, zupełnie inny niż babka z formy czy pączki.",
         steps: [
           {
-            text: "Rozpuść drożdże w letnim mleku z 1 łyżeczką cukru, odstaw 10 min aż spienieją.",
-            tip: "Mleko tylko letnie — za gorące zabija drożdże. Wyczucie drożdży: [technika makowca](/pl/blog/makowiec-technika). Forma babkowa to inny fokus: [babka](/pl/rezepte/babka).",
+            text: "Rozpuść drożdże w letnim mleku z łyżeczką cukru i odstaw na 10 minut, aż na wierzchu pojawi się piana.",
+            tip: "Mleko powinno być naprawdę tylko letnie, za gorące zabija drożdże. Więcej o pracy z drożdżami mówi [technika makowca](/pl/blog/makowiec-technika), a forma babkowa to zupełnie inny przepis, [babka](/pl/rezepte/babka).",
           },
           {
-            text: "Zagnieć z mąką, resztą cukru, jajkami, miękkim masłem i szczyptą soli na gładkie, elastyczne ciasto. Przykryte odstaw aż podwoi objętość (ok. 60–90 min).",
-            tip: "Bez smażenia w tłuszczu — [pączki](/pl/rezepte/paczki) zostają osobnym przepisem. Zakupy: [sklep polski](/pl/blog/sklep-polski-zakupy).",
+            text: "Zagnieć mąkę, resztę cukru, jajka, miękkie masło i szczyptę soli na gładkie, elastyczne ciasto. Odstaw przykryte, aż podwoi objętość, co zajmuje zwykle 60 do 90 minut.",
+            tip: "Tu nic się nie smaży w tłuszczu, [pączki](/pl/rezepte/paczki) zostają osobnym przepisem. Dobre składniki na ciasto znajdziesz w [sklepie polskim](/pl/blog/sklep-polski-zakupy).",
           },
           {
-            text: "Podziel ciasto na 3 (lub 4) równe wałki i splot w warkocz. Końce spój, ułóż na blasze z papierem.",
+            text: "Podziel ciasto na trzy lub cztery równe wałki i zaplot je w warkocz. Końce dobrze spój i ułóż warkocz na blasze wyłożonej papierem.",
           },
           {
-            text: "Przykryte odczekaj 20–30 min drugiego wyrastania. Posmaruj roztrzepanym jajkiem, opcjonalnie posyp sezamem.",
-            tip: "Zostaw widoczny warkocz — nie forma babkowa jak [babka](/pl/rezepte/babka). Racuchy jabłkowe: [racuchy](/pl/rezepte/racuchy-jablka).",
+            text: "Odstaw przykryty warkocz na kolejne 20 do 30 minut do wyrastania. Posmaruj roztrzepanym jajkiem i opcjonalnie posyp sezamem.",
+            tip: "Warkocz ma zostać widoczny, to nie forma babkowa jak przy [babce](/pl/rezepte/babka). Racuchy jabłkowe to osobne danie, [racuchy](/pl/rezepte/racuchy-jablka).",
           },
           {
-            text: "Piecz w 180 °C (termoobieg nieco niżej) 30–35 min na złoto. Ostudź na kratce. Kroić ciepłe lub letnie.",
-            tip: "Przy stole [menu wielkanocne](/pl/blog/menu-wielkanocne) zostaje artykułem o okazji. Zamienniki: [zamienniki składników](/pl/blog/zamienniki-skladnikow).",
+            text: "Piecz w 180 stopniach, z termoobiegiem nieco niżej, 30 do 35 minut na złoto. Ostudź na kratce i kroić na ciepło lub letnio.",
+            tip: "Przy wielkanocnym stole ramą menu zostaje [menu wielkanocne](/pl/blog/menu-wielkanocne). Gdy brakuje składnika, pomogą [zamienniki składników](/pl/blog/zamienniki-skladnikow).",
           },
         ],
         seoTitle: "Chałka przepis | Polski chleb drożdżowy warkocz | Alemniam",
         seoDescription:
-          "Chałka w domu: pleciony chleb drożdżowy z sezamem. Dwujęzycznie, na Wielkanoc/niedzielę, jasno ≠ babka i pączki.",
+          "Chałka w domu: pleciony chleb drożdżowy z sezamem, jasno osobno od babki i pączków. Dwujęzycznie, na Wielkanoc i niedzielę.",
       },
     },
     ingredients: [
@@ -111,10 +111,10 @@ export const seedRecipesWave13C: Recipe[] = [
         amount: 25,
         unit: { de: "g", pl: "g" },
         group: "pantry",
-        storeHintDe: "Trockenhefe: Packungsangabe umrechnen",
+        storeHintDe: "Bei Trockenhefe die Angabe auf der Packung umrechnen",
         substitute: {
-          de: "7–8 g Trockenhefe statt 25 g frisch",
-          pl: "7–8 g drożdży suchych zamiast 25 g świeżych",
+          de: "7 bis 8 g Trockenhefe statt 25 g frischer Hefe",
+          pl: "7 do 8 g drożdży suszonych zamiast 25 g świeżych",
         },
       },
       {
@@ -161,10 +161,10 @@ export const seedRecipesWave13C: Recipe[] = [
         amount: 2,
         unit: { de: "EL", pl: "łyżki" },
         group: "pantry",
-        storeHintDe: "Oft im Shopping-Aisle / Polenladen",
+        storeHintDe: "Oft im Backregal oder im Polenladen erhältlich",
         substitute: {
-          de: "Weglassen oder Mohn sparsam — ehrlich benennen",
-          pl: "Pominąć lub mak oszczędnie — nazwać uczciwie",
+          de: "Weglassen oder sparsam Mohn verwenden und das ehrlich benennen",
+          pl: "Pominąć albo użyć oszczędnie maku i uczciwie to zaznaczyć",
         },
       },
     ],
@@ -194,59 +194,59 @@ export const seedRecipesWave13C: Recipe[] = [
         title: "Pasztet drobiowy",
         slug: "pasztet",
         excerpt:
-          "Haus-Pastete aus Geflügelleber, gebacken und angeschnitten — Fest-/Aufschnitt-Klassiker, klar ≠ Kaszanka und ≠ panierter Hackbraten.",
+          "Eine hausgemachte Pastete aus Geflügelleber, im Kasten gebacken und kalt in Scheiben geschnitten, ein klassischer Fest- und Aufschnitt-Teller, der weder mit Kaszanka noch mit paniertem Hackbraten verwechselt werden sollte.",
         steps: [
           {
-            text: "Geflügelleber waschen, Sehnen entfernen. Zwiebel und Karotte grob würfeln; in Butter glasig dünsten, Leber kurz mitbraten (nicht durchgaren), abkühlen.",
-            tip: "Das ist Pastete/Terrine, keine Blutwurst — [Kaszanka](/de/rezepte/kaszanka) bleibt eigener Cook. Aufschnitt-Kontext [Kiełbasa-Arten](/de/blog/kielbasa-arten).",
+            text: "Die Geflügelleber waschen und Sehnen entfernen. Zwiebel und Karotte grob würfeln und in Butter glasig dünsten, die Leber kurz mitbraten, ohne sie durchzugaren, und alles abkühlen lassen.",
+            tip: "Hier entsteht eine Pastete beziehungsweise Terrine, keine Blutwurst wie [Kaszanka](/de/rezepte/kaszanka), das bleibt ein eigenes Rezept. Mehr zum Aufschnitt allgemein bietet der Beitrag zu [Kiełbasa-Arten](/de/blog/kielbasa-arten).",
           },
           {
-            text: "Leber-Gemüse-Masse mit Eiern, eingeweichtem Brötchen (ausgedrückt), Majoran, Salz und Pfeffer fein pürieren, bis streichfähig-fein.",
+            text: "Die Leber-Gemüse-Masse mit Eiern, eingeweichtem und gut ausgedrücktem Brötchen, Majoran, Salz und Pfeffer fein pürieren, bis sie streichfähig und homogen ist.",
           },
           {
-            text: "Kastenform ausfetten und mit Backpapier auslegen. Masse einfüllen, glatt streichen, optional mit Butterflocken belegen.",
-            tip: "Keine Panade-Bulette — [Kotlet mielony](/de/rezepte/kotlet-mielony) ist ein anderes Gericht. Einkauf: [Polenladen](/de/blog/polenladen-einkaufen).",
+            text: "Eine Kastenform ausfetten und mit Backpapier auslegen. Die Masse einfüllen, glatt streichen und optional mit ein paar Butterflocken belegen.",
+            tip: "Es gibt keine Panade wie beim [Kotlet mielony](/de/rezepte/kotlet-mielony), das ist ein anderes Gericht. Zutaten dafür findest du im [Polenladen](/de/blog/polenladen-einkaufen).",
           },
           {
-            text: "Im Wasserbad bei 170 °C ca. 60–70 Minuten backen, bis die Mitte fest ist (Stäbchenprobe). Abkühlen, dann kalt stellen (idealerweise über Nacht).",
+            text: "Im Wasserbad bei 170 Grad etwa 60 bis 70 Minuten backen, bis die Mitte fest ist, das prüfst du mit der Stäbchenprobe. Abkühlen lassen und dann kalt stellen, idealerweise über Nacht.",
           },
           {
-            text: "In Scheiben schneiden, mit Brot, Meerrettich oder Senf servieren — kalt als Aufschnitt oder lauwarm.",
-            tip: "Menüplatz: [Sonntagsessen](/de/blog/sonntagsessen-polnisch) oder [Wielkanoc](/de/blog/wielkanoc-speiseplan) — Speiseplan bleibt Menü-Artikel.",
+            text: "In Scheiben schneiden und mit Brot, Meerrettich oder Senf servieren, kalt als Aufschnitt oder auch lauwarm.",
+            tip: "Als Menüplatz passt das [polnische Sonntagsessen](/de/blog/sonntagsessen-polnisch) oder der [Wielkanoc-Speiseplan](/de/blog/wielkanoc-speiseplan), beide bleiben eigene Menü-Artikel.",
           },
         ],
         seoTitle: "Pasztet Rezept | Polnische Pastete Geflügelleber | Alemniam",
         seoDescription:
-          "Pasztet drobiowy: Haus-Pastete aus Geflügelleber. Bilingual, Festaufschnitt, klar ≠ Kaszanka und Mielony.",
+          "Pasztet drobiowy: Hausgemachte Pastete aus Geflügelleber, klar getrennt von Kaszanka und Kotlet mielony. Bilingual, als Festaufschnitt.",
       },
       pl: {
         title: "Pasztet drobiowy",
         slug: "pasztet",
         excerpt:
-          "Domowy pasztet z wątróbki drobiowej, pieczony i pokrojony — klasyk świąteczny/wędlina, jasno ≠ kaszanka i ≠ panierowany kotlet mielony.",
+          "Domowy pasztet z wątróbki drobiowej, pieczony w keksówce i pokrojony na zimno, klasyczna wędlina świąteczna, którą łatwo pomylić z kaszanką albo panierowanym kotletem mielonym, choć to zupełnie inne dania.",
         steps: [
           {
-            text: "Wątróbkę opłucz, usuń żyłki. Cebulę i marchew pokrój grubo; zeszklij na maśle, dodaj wątróbkę krótko (nie doprowadzaj do pełnego ugotowania), ostudź.",
-            tip: "To pasztet/terrina, nie kaszanka — [kaszanka](/pl/rezepte/kaszanka) zostaje osobnym przepisem. Kontekst wędlin [rodzaje kiełbasy](/pl/blog/rodzaje-kielbasy).",
+            text: "Wątróbkę opłucz i usuń żyłki. Cebulę i marchew pokrój grubo, zeszklij na maśle, dodaj wątróbkę i podsmaż krótko, nie doprowadzając jej do pełnego ugotowania, a następnie ostudź całość.",
+            tip: "To pasztet, czyli terrina, a nie kaszanka, [kaszanka](/pl/rezepte/kaszanka) zostaje osobnym przepisem. Więcej o wędlinach opisuje [przewodnik po rodzajach kiełbasy](/pl/blog/rodzaje-kielbasy).",
           },
           {
-            text: "Zmiksuj masę z jajkami, namoczoną i odciśniętą bułką, majerankiem, solą i pieprzem na gładko, do smarowania.",
+            text: "Zmiksuj masę z jajkami, namoczoną i dobrze odciśniętą bułką, majerankiem, solą i pieprzem na gładko, tak żeby dało się ją smarować.",
           },
           {
-            text: "Formę keksową natłuść i wyłóż papierem. Włóż masę, wygładź, opcjonalnie połóż płatki masła.",
-            tip: "Bez panierki jak [kotlet mielony](/pl/rezepte/kotlet-mielony). Zakupy: [sklep polski](/pl/blog/sklep-polski-zakupy).",
+            text: "Formę keksową natłuść i wyłóż papierem. Włóż masę, wygładź powierzchnię i opcjonalnie połóż na wierzchu płatki masła.",
+            tip: "Tu nie ma panierki jak przy [kotlecie mielonym](/pl/rezepte/kotlet-mielony), to inne danie. Składniki znajdziesz w [sklepie polskim](/pl/blog/sklep-polski-zakupy).",
           },
           {
-            text: "Piecz w kąpieli wodnej w 170 °C ok. 60–70 min, aż środek będzie zwarty (patyczek). Ostudź, potem schłodź (najlepiej przez noc).",
+            text: "Piecz w kąpieli wodnej w 170 stopniach około 60 do 70 minut, aż środek będzie zwarty, sprawdź patyczkiem. Ostudź, a potem schłodź, najlepiej przez całą noc.",
           },
           {
-            text: "Krój w plasterki; podawaj z chlebem, chrzanem lub musztardą — zimny jako wędlina albo letni.",
-            tip: "Miejsce w menu: [obiad niedzielny](/pl/blog/obiad-niedzielny) lub [menu wielkanocne](/pl/blog/menu-wielkanocne) — plan zostaje artykułem o okazji.",
+            text: "Pokrój w plasterki i podawaj z chlebem, chrzanem lub musztardą, na zimno jako wędlinę albo na letnio.",
+            tip: "Jako miejsce w menu pasuje [obiad niedzielny](/pl/blog/obiad-niedzielny) albo [menu wielkanocne](/pl/blog/menu-wielkanocne), oba zostają osobnymi artykułami o okazji.",
           },
         ],
         seoTitle: "Pasztet przepis | Pasztet drobiowy domowy | Alemniam",
         seoDescription:
-          "Pasztet drobiowy: domowa pasteta z wątróbki. Dwujęzycznie, na święta, jasno ≠ kaszanka i mielony.",
+          "Pasztet drobiowy: domowa pasteta z wątróbki, jasno osobno od kaszanki i kotleta mielonego. Dwujęzycznie, na święta i niedzielę.",
       },
     },
     ingredients: [
@@ -256,7 +256,7 @@ export const seedRecipesWave13C: Recipe[] = [
         amount: 600,
         unit: { de: "g", pl: "g" },
         group: "other",
-        storeHintDe: "Frisch oder TK — Farbe und Geruch prüfen",
+        storeHintDe: "Frisch oder tiefgekühlt, Farbe und Geruch vor dem Kauf prüfen",
       },
       {
         id: "pa-2",
@@ -293,8 +293,8 @@ export const seedRecipesWave13C: Recipe[] = [
         unit: { de: "Stück", pl: "szt." },
         group: "pantry",
         substitute: {
-          de: "2 Scheiben Toast — gut ausdrücken",
-          pl: "2 kromki tosta — dobrze odcisnąć",
+          de: "2 Scheiben Toastbrot, gut ausgedrückt",
+          pl: "2 kromki tosta, dobrze odciśnięte",
         },
       },
       {
@@ -303,7 +303,7 @@ export const seedRecipesWave13C: Recipe[] = [
         amount: 1,
         unit: { de: "TL", pl: "łyżeczka" },
         group: "spices",
-        storeHintDe: "Oft im Polenladen aromatischer",
+        storeHintDe: "Im Polenladen oft aromatischer als die Supermarktware",
       },
       {
         id: "pa-8",
@@ -324,7 +324,7 @@ export const seedRecipesWave13C: Recipe[] = [
         amount: 2,
         unit: { de: "EL", pl: "łyżki" },
         group: "pantry",
-        storeHintDe: "Polenladen / Glasware",
+        storeHintDe: "Im Polenladen als Glasware erhältlich",
       },
     ],
     createdAt: "2026-07-21T11:00:00.000Z",

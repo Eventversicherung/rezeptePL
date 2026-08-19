@@ -66,32 +66,33 @@ export const seedRecipesWave14C: Recipe[] = [
         title: "Placek po węgiersku",
         slug: "placek-po-wegiersku",
         excerpt:
-          "Composed talerz: chrupiące placki ziemniaczane z gulaszem wieprzowym na wierzchu i opcjonalnym serem — fokus to cały talerz, nie same placki i nie sam gulasz.",
+          "Chrupiące placki ziemniaczane z aromatycznym gulaszem wieprzowym na wierzchu i opcjonalnym serem, złożony talerz, w którym liczy się całość, a nie same placki czy sam gulasz.",
         steps: [
           {
             text: "Przygotuj gulasz: kark wieprzowy w kostkę, obsmaż, zeszklij cebulę i paprykę, podsmaż koncentrat i paprykę w proszku, zalej bulionem i duś 60–90 min pod przykryciem, aż mięso będzie miękkie.",
-            tip: "Sam gulasz zostaje przy [gulaszu wieprzowym](/pl/rezepte/gulasz-wieprzowy) — tu tylko topping composed. Garnek: [dutch oven](/pl/blog/garnek-do-duszenia).",
+            tip: "Sam gulasz zostaje przy [gulaszu wieprzowym](/pl/rezepte/gulasz-wieprzowy), tu służy tylko jako topping na placki. Odpowiedni garnek do duszenia opisuje przewodnik o [dutch oven](/pl/blog/garnek-do-duszenia).",
           },
           {
             text: "Równolegle masa na placki: zetrzyj ziemniaki i cebulę, mocno odciśnij, wymieszaj z jajkiem, mąką, solą i pieprzem.",
-            tip: "Technika i odsączanie w [przewodniku po plackach](/pl/blog/placki-przewodnik). Gołe placki bez sosu to [placki ziemniaczane](/pl/rezepte/placki/ziemniaczane) — inny fokus.",
+            tip: "Technikę i odsączanie opisuje szczegółowo [przewodnik po plackach](/pl/blog/placki-przewodnik). Gołe placki bez sosu to osobne danie, [placki ziemniaczane](/pl/rezepte/placki/ziemniaczane).",
           },
           {
-            text: "Smaż średnie placki na złoto na gorącym oleju (ok. 3–5 mm). Trzymaj ciepłe (piekarnik 90 °C, osobno na blasze — nie stosuj w stos).",
+            text: "Smaż średnie placki na złoto na gorącym oleju (ok. 3–5 mm). Trzymaj ciepłe w piekarniku w 90°C, układając je osobno na blasze, nie w stos, bo inaczej zmiękną.",
+            tip: "Placki ułożone jeden na drugim tracą chrupkość pod wpływem własnej pary, dlatego przy większej ilości warto użyć dwóch blach.",
           },
           {
-            text: "Na talerzu: 2–3 gorące placki, hojnie gulasz na wierzchu. Opcjonalnie starty gouda/edam i krótko pod grillem, aż ser się stopi.",
-            tip: "Ser to linia domu, nie obowiązek — uczciwie w excerpt. Miejsce w menu: [obiad niedzielny](/pl/blog/obiad-niedzielny).",
+            text: "Na talerzu ułóż dwa do trzech gorących placków, hojnie polej gulaszem na wierzchu. Opcjonalnie posyp startą goudą lub edamem i wstaw na chwilę pod grill, aż ser się roztopi.",
+            tip: "Ser to wariant domowy, a nie obowiązek, warto to uczciwie napisać. Jako danie na talerzu dobrze pasuje do [obiadu niedzielnego](/pl/blog/obiad-niedzielny).",
           },
           {
-            text: "Podawaj od razu — inaczej placki miękną pod sosem. Opcjonalnie łyżka śmietany z boku.",
-            tip: "Gotuj dwa elementy osobno i łącz dopiero na talerzu — rozróżnienie placków i gulaszu zostaje jasne.",
+            text: "Podawaj od razu, inaczej placki miękną pod sosem. Opcjonalnie dodaj łyżkę śmietany z boku.",
+            tip: "Gdy szykujesz danie dla gości, gotuj oba elementy osobno i połącz je dopiero na talerzu, dzięki temu placki zostają chrupiące aż do podania.",
           },
         ],
         seoTitle:
           "Placek po węgiersku przepis | Placki z gulaszem | Alemniam",
         seoDescription:
-          "Placek po węgiersku: placki z gulaszem na wierzchu i opcjonalnym serem. talerz złożony, dwujęzycznie, jasno ≠ same placki ≠ sam gulasz.",
+          "Placek po węgiersku: placki z gulaszem na wierzchu i opcjonalnym serem. Talerz złożony, dwujęzycznie, jasno różny od samych placków i samego gulaszu.",
       },
     },
     ingredients: [
@@ -172,8 +173,8 @@ export const seedRecipesWave14C: Recipe[] = [
         unit: { de: "g", pl: "g" },
         group: "dairy",
         substitute: {
-          de: "Weglassen — dann klar ohne Käse-Linie benennen",
-          pl: "Pominąć — wtedy jasno bez linii serowej",
+          de: "Weglassen, dann im Rezept klar als Variante ohne Käse benennen",
+          pl: "Pominąć, wtedy jasno napisać, że danie jest bez sera",
         },
       },
       {
