@@ -9,7 +9,7 @@ Der Name Chrust kommt von der knusprigen, fast holzigen Textur. In der Diaspora 
 
 
 
-![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1551024601-bec78aea704b?w=1400&q=80)
+![Gericht aus der polnischen Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-faworki/2f402758-49a4-42b0-8f6e-0213ae8b749d.webp)
 
 ## Teig: Ruhe, Dünne, Gefühl
 
@@ -33,7 +33,7 @@ Mehl Type 405 oder 550, Eier, Schmalz oder Frittieröl, Puderzucker, optional Sp
 
 
 
-![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1509440159596-0249088772ff?w=1400&q=80)
+![Zubereitung in der Diaspora-Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-paczki/be50cfd6-63a9-423d-b088-3dedb5e6e93b.webp)
 
 ## Ablauf für Tłusty Czwartek
 
@@ -114,7 +114,7 @@ Es ist kein Bigos und kein Gulasz — weniger Kraut, mehr Bohne, klarere Tomate.
 
 
 
-![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1546549032-9571cd6b27df?w=1400&q=80)
+![Gericht aus der polnischen Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-fasolka-szparagowa/b77438bf-1db3-4f2b-98d9-95076e60db03.webp)
 
 ## Bohnen: trocken, Glas, Dose
 
@@ -136,7 +136,7 @@ Dutch Oven oder stabiler Schmortopf helfen — siehe Kaufberatung — sind aber 
 
 
 
-![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=1400&q=80)
+![Zubereitung in der Diaspora-Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-leczo/dfefb489-d2b6-40fb-ab9e-90c09754aca0.webp)
 
 ## Einkaufen und Polenladen
 
@@ -190,7 +190,7 @@ Getrockneter Majeranek ist der Alltagsstandard: aromatisch, lagerfähig, dosierb
 
 
 
-![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=1400&q=80)
+![Gericht aus der polnischen Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-schab-pieczony/9bc66840-1648-4957-ad82-67989c692788.webp)
 
 ## Wann er den Unterschied macht
 
@@ -208,7 +208,7 @@ Getrocknet früh genug in die Füllung oder Soße, damit er zieht. Am Ende noch 
 
 
 
-![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1506368248146-8a4e4e5c0b3d?w=1400&q=80)
+![Zubereitung in der Diaspora-Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-golabki/56ae4f6d-22d3-4bcd-9886-e71c4cba3244.webp)
 
 ## Passt gut zu
 

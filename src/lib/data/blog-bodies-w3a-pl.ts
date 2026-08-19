@@ -11,7 +11,7 @@ Zwinięte liście kapusty z farszem (ryż z mięsem, czasem kasza albo grzyby), 
 
 
 
-![Danie z polskiej kuchni](https://images.unsplash.com/photo-1743148843470-8fd92a31c473?w=1400&q=80)
+![Danie z polskiej kuchni](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-golabki/56ae4f6d-22d3-4bcd-9886-e71c4cba3244.webp)
 
 ## Sos: trzy ścieżki
 
@@ -35,7 +35,7 @@ Korekty i ilości: [przepis gołąbki](/pl/rezepte/golabki).
 
 
 
-![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=1400&q=80)
+![Przygotowanie w kuchni diaspory](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-kapusta-zasmazana/c654bc3b-88e7-4165-aec5-c6ab3c83a573.webp)
 
 ## FAQ krótko
 
@@ -68,7 +68,7 @@ Logika jak przy [pierogach ruskich](/pl/rezepte/pierogi/ruskie): ciasto niesie, 
 
 
 
-![Danie z polskiej kuchni](https://images.unsplash.com/photo-1770802858320-50848db704d5?w=1400&q=80)
+![Danie z polskiej kuchni](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-nalesniki-mieso/31658e07-9ebc-4f2d-8a29-aa07e5cb188f.webp)
 
 ## Który farsz kiedy?
 
@@ -100,7 +100,7 @@ Puste placki z papierem między warstwami do zamrażarki — w tygodniu tylko fa
 
 
 
-![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1567620905732-2d1ac7ab1b30?w=1400&q=80)
+![Przygotowanie w kuchni diaspory](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-nalesniki-szpinak/580056ff-e3d0-413a-b5e2-27c73286a884.webp)
 
 ## FAQ
 
@@ -145,7 +145,7 @@ Chroniona nazwa nie oznacza, że produkty spoza PDO są „gorsze moralnie”. O
 
 
 
-![Wędzony ser na desce](https://images.unsplash.com/photo-1718939046345-f607c89e92d9?w=1400&q=80)
+![Wędzony ser na desce](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-oscypek/3b3f26ff-eab8-45b5-92f8-3fa0adbc758b.webp)
 
 ## Prawdziwy oscypek a „oscypekopodobny” w niemieckim sklepie
 
@@ -209,7 +209,7 @@ Jeśli planujesz oscypek jako przystawkę przed [placki ziemniaczane](/pl/rezept
 
 
 
-![Oscypek na patelni — złocisty](https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?w=1400&q=80)
+![Oscypek na patelni — złocisty](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-cwikla/6ae28221-2f69-4a14-bf3f-8e83eac61d4c.webp)
 
 ## Przechowywanie i zamienniki
 

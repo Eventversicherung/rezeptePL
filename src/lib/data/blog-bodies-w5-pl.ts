@@ -9,7 +9,7 @@ Nazwa chrust bierze się z chrupiącej tekstury. W diasporze słyszymy obie nazw
 
 
 
-![Danie z polskiej kuchni](https://images.unsplash.com/photo-1551024601-bec78aea704b?w=1400&q=80)
+![Danie z polskiej kuchni](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-faworki/2f402758-49a4-42b0-8f6e-0213ae8b749d.webp)
 
 ## Ciasto: odpoczynek, cienkość, czucie
 
@@ -33,7 +33,7 @@ Mąka typ 405 lub 550, jajka, smalec lub olej, cukier puder, opcjonalnie spirytu
 
 
 
-![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1509440159596-0249088772ff?w=1400&q=80)
+![Przygotowanie w kuchni diaspory](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-paczki/be50cfd6-63a9-423d-b088-3dedb5e6e93b.webp)
 
 ## Przebieg Tłustego Czwartku
 
@@ -115,7 +115,7 @@ To nie bigos i nie gulasz — mniej kapusty, więcej fasoli, wyraźniejszy pomid
 
 
 
-![Danie z polskiej kuchni](https://images.unsplash.com/photo-1546549032-9571cd6b27df?w=1400&q=80)
+![Danie z polskiej kuchni](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-fasolka-szparagowa/b77438bf-1db3-4f2b-98d9-95076e60db03.webp)
 
 ## Fasola: sucha, słoik, puszka
 
@@ -137,7 +137,7 @@ Dutch oven albo stabilny garnek pomaga — nie obowiązek. Ważne: pokrywka, ma�
 
 
 
-![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=1400&q=80)
+![Przygotowanie w kuchni diaspory](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-leczo/dfefb489-d2b6-40fb-ab9e-90c09754aca0.webp)
 
 ## Zakupy i sklep polski
 
@@ -190,7 +190,7 @@ Suszony majeranek to standard dnia: aromatyczny, trwały, mierzalny. Świeży by
 
 
 
-![Danie z polskiej kuchni](https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=1400&q=80)
+![Danie z polskiej kuchni](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-schab-pieczony/9bc66840-1648-4957-ad82-67989c692788.webp)
 
 ## Kiedy robi różnicę
 
@@ -208,7 +208,7 @@ Suszony dość wcześnie do farszu lub sosu, by pociągnął. Na końcu sprawdzi
 
 
 
-![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1506368248146-8a4e4e5c0b3d?w=1400&q=80)
+![Przygotowanie w kuchni diaspory](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-golabki/56ae4f6d-22d3-4bcd-9886-e71c4cba3244.webp)
 
 ## Dobrze pasuje do
 

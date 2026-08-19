@@ -262,7 +262,7 @@ export async function createRecipeDraft(): Promise<Recipe> {
     id,
     status: "draft",
     coverImage:
-      "https://images.unsplash.com/photo-1495521821757-a1efb6729352?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-pierogi/ffa4f850-6746-4b55-8710-b19e03abf532.webp",
     prepMinutes: 15,
     cookMinutes: 30,
     servings: 4,
@@ -557,7 +557,7 @@ export async function moderateSubmission(
         id: recipeId,
         status: "published",
         coverImage:
-          "https://images.unsplash.com/photo-1495521821757-a1efb6729352?w=1600&q=80",
+          "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-pierogi/ffa4f850-6746-4b55-8710-b19e03abf532.webp",
         prepMinutes: 20,
         cookMinutes: 30,
         servings: 4,

@@ -43,31 +43,31 @@ const TOPICS: {
     key: "guide",
     type: "guide",
     coverImage:
-      "https://images.unsplash.com/photo-1495521821757-a1efb6729352?w=1200&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-pierogi-guide/d1e4f6b2-280f-49a2-9a34-bf6a2d42a8a4.webp",
   },
   {
     key: "lexicon",
     type: "lexicon",
     coverImage:
-      "https://images.unsplash.com/photo-1628088062854-d1870b4553da?w=1200&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-twarog/8948afdf-bc98-4abc-a5eb-10ce0213e069.webp",
   },
   {
     key: "culture",
     type: "culture",
     coverImage:
-      "https://images.unsplash.com/photo-1481391319762-47dff72954d9?w=1200&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-wigilia/5d4a7a91-2d49-4f18-a8b0-a1d265c65de8.webp",
   },
   {
     key: "diaspora",
     type: "diaspora",
     coverImage:
-      "https://images.unsplash.com/photo-1542838132-92c53300491e?w=1200&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-polenladen/a241ecc3-c9c5-4acd-ac5f-94ba76f76790.webp",
   },
   {
     key: "gear",
     type: "buying-guide",
     coverImage:
-      "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=1200&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-teigmaschine/5e38d094-ee79-4c83-88ed-ef36d24e654b.webp",
   },
 ];
 

@@ -17,7 +17,7 @@ Beutel eignen sich für flaches Vor-Anfrieren auf dem Blech; danach überführen
 
 
 
-![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=1400&q=80)
+![Gericht aus der polnischen Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-pierogi/ffa4f850-6746-4b55-8710-b19e03abf532.webp)
 
 ## Kriterien: Material, Dichtung, Stapelbarkeit
 
@@ -79,7 +79,7 @@ Dieser Abschnitt ist für spätere Praxistests vorbereitet. Wir dokumentieren da
 
 
 
-![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?w=1400&q=80)
+![Zubereitung in der Diaspora-Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-pierogi-cabbage/3b6f2648-b78b-4bbe-a2fc-760e5e7aa65e.webp)
 
 ## Checkliste vor dem Kauf
 
@@ -160,7 +160,7 @@ Entscheidung: **Volumen, Häufigkeit, Platz**. Ein Haushalt, der zweimal im Jahr
 
 
 
-![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1400&q=80)
+![Gericht aus der polnischen Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-ogorkowa/fe6aee59-9d09-475d-8464-4012dab7203a.webp)
 
 ## Kriterien: Glas, Deckel, Luftspalt
 
@@ -259,7 +259,7 @@ Geruch: aktive Kapusta riecht — normal, nicht automatisch schlecht. Nachbarn i
 
 
 
-![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=1400&q=80)
+![Zubereitung in der Diaspora-Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-kapusniak/d602b625-35e3-4b65-88c1-1202fd7d9507.webp)
 
 ## Salz, Gewichte und Zubehör
 
@@ -342,7 +342,7 @@ Kasza schmeckt **erdig-nussig**; bitter wird sie durch Überkochen, alte Ware od
 
 
 
-![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=1400&q=80)
+![Gericht aus der polnischen Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-kasza-gryczana/1525c13f-8f09-4fbd-93d7-b047d7b8208b.webp)
 
 ## Einkauf in Deutschland
 
@@ -404,7 +404,7 @@ Gekochte Kasza: Kühlschrank 3–4 Tage, gut abgedeckt; beim Erwärmen etwas Was
 
 
 
-![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1516684669134-de6f7c473a2a?w=1400&q=80)
+![Zubereitung in der Diaspora-Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-klopsy/216ad15e-a2cc-4ed6-9540-4ed87c4b4570.webp)
 
 ## FAQ
 

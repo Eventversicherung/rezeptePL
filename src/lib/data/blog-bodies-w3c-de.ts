@@ -19,7 +19,7 @@ Panieren ist auch **Batch-Thema**: Mehrere Kotlets nacheinander, gleichmäßige 
 
 
 
-![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=1400&q=80)
+![Gericht aus der polnischen Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-schabowy/c2614c7e-bc01-4c37-a0b8-45b4c581ec92.webp)
 
 ## Fleisch vorbereiten: Schlag, Dicke, Salz
 
@@ -83,7 +83,7 @@ Wir haben alle diese Fehler mindestens einmal in einer deutschen Mietküche prod
 
 
 
-![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1432139555190-58575bd5c0be?w=1400&q=80)
+![Zubereitung in der Diaspora-Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-de-volaille/87147728-879d-49aa-9871-0e1a78285f4b.webp)
 
 ## Varianten kurz — ohne Rezept zu duplizieren
 
@@ -146,7 +146,7 @@ Klarer **czerwony** ist durchgeseiht, rubinrot, ohne Sahne im Topf — anders al
 
 
 
-![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1400&q=80)
+![Gericht aus der polnischen Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-barszcz/efe9222b-f6b5-42df-a683-71394e5dbd21.webp)
 
 ## Buraki und Einkauf in DE
 
@@ -168,7 +168,7 @@ Mengen und Schritte: [Barszcz-Rezept](/de/rezepte/barszcz-czerwony). Uszka: [Usz
 
 
 
-![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1547592180-85f173990554?w=1400&q=80)
+![Zubereitung in der Diaspora-Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-uszka/e1c529d7-d5b5-4dc1-8500-da989dc7efe9.webp)
 
 ## FAQ kurz
 
@@ -205,7 +205,7 @@ Geriebene **rohe** Kartoffeln, gebunden mit Ei und wenig Mehl/Stärke, in Öl ge
 
 
 
-![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=1400&q=80)
+![Gericht aus der polnischen Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-placki-cukinia/4d34373d-0681-4667-876b-b237b1f0a48e.webp)
 
 ## Kartoffeln und Feuchtigkeit (kurz)
 
@@ -229,7 +229,7 @@ Kochhunger: [Placki ziemniaczane](/de/rezepte/placki/ziemniaczane).
 
 
 
-![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=1400&q=80)
+![Zubereitung in der Diaspora-Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-placki-jablka/518f80c7-b02e-4cc6-ae24-edae9e075431.webp)
 
 ## FAQ kurz
 

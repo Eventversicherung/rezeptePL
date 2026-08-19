@@ -1331,31 +1331,31 @@ Object.assign(FACTS, W16_FACTS_A, W16_FACTS_B, W16_FACTS_C, W16_FACTS_D);
  * Prefer 2–3 earned sections; FACTS fields must already be full sentences.
  */
 function expand(locale: Locale, f: ArticleFacts): string {
- if (locale === "de") {
- return [
- `${f.dishDe} — ${f.vibeDe}. ${f.originDe}`,
- `## Einkaufen und kochen`,
- f.shopDe,
- f.techniqueDe,
- f.diasporaDe,
- `## Am Tisch`,
- f.serveDe,
- f.mistakesDe,
- f.variantsDe,
- ].join("\n\n");
- }
+  if (locale === "de") {
+    return [
+      `${f.dishDe}, ${f.vibeDe}. ${f.originDe}`,
+      `## Einkaufen und kochen`,
+      f.shopDe,
+      f.techniqueDe,
+      f.diasporaDe,
+      `## Am Tisch`,
+      f.serveDe,
+      f.mistakesDe,
+      f.variantsDe,
+    ].join("\n\n");
+  }
 
- return [
- `${f.dishPl} — ${f.vibePl}. ${f.originPl}`,
- `## Zakupy i gotowanie`,
- f.shopPl,
- f.techniquePl,
- f.diasporaPl,
- `## Przy stole`,
- f.servePl,
- f.mistakesPl,
- f.variantsPl,
- ].join("\n\n");
+  return [
+    `${f.dishPl}, ${f.vibePl}. ${f.originPl}`,
+    `## Zakupy i gotowanie`,
+    f.shopPl,
+    f.techniquePl,
+    f.diasporaPl,
+    `## Przy stole`,
+    f.servePl,
+    f.mistakesPl,
+    f.variantsPl,
+  ].join("\n\n");
 }
 
 export function getRecipeArticle(

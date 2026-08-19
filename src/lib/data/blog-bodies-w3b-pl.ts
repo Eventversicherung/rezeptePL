@@ -17,7 +17,7 @@ Worki nadają się do płaskiego mrożenia na blasze; potem przesypujemy do poje
 
 
 
-![Danie z polskiej kuchni](https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=1400&q=80)
+![Danie z polskiej kuchni](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-pierogi/ffa4f850-6746-4b55-8710-b19e03abf532.webp)
 
 ## Kryteria: materiał, uszczelnienie, stos
 
@@ -86,7 +86,7 @@ Sekcja przygotowana pod przyszłe testy: wysokość stosu pod obciążeniem, szc
 
 
 
-![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?w=1400&q=80)
+![Przygotowanie w kuchni diaspory](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-pierogi-cabbage/3b6f2648-b78b-4bbe-a2fc-760e5e7aa65e.webp)
 
 ## FAQ
 
@@ -174,7 +174,7 @@ Decyzja: **objętość, częstotliwość, miejsce**. Dom, który robi ogórki dw
 
 
 
-![Danie z polskiej kuchni](https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1400&q=80)
+![Danie z polskiej kuchni](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-ogorkowa/fe6aee59-9d09-475d-8464-4012dab7203a.webp)
 
 ## Kryteria: szkło, pokrywa, odgazowanie
 
@@ -273,7 +273,7 @@ Zapach aktywnej kapusty bywa — to norma, nie od razu wada. W bloku: szczelne z
 
 
 
-![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=1400&q=80)
+![Przygotowanie w kuchni diaspory](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-kapusniak/d602b625-35e3-4b65-88c1-1202fd7d9507.webp)
 
 ## Sól, obciążenia, dodatki
 
@@ -370,7 +370,7 @@ Importowane opakowania bywają opisane po rosyjsku albo ukraińsku — liczy si�
 
 
 
-![Danie z polskiej kuchni](https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=1400&q=80)
+![Danie z polskiej kuchni](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-kasza-gryczana/1525c13f-8f09-4fbd-93d7-b047d7b8208b.webp)
 
 ## Zakupy w Niemczech
 
@@ -438,7 +438,7 @@ Ugotowana: lodówka 3–4 dni, szczelnie; podgrzewamy z odrobiną wody. Mrożeni
 
 
 
-![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1516684669134-de6f7c473a2a?w=1400&q=80)
+![Przygotowanie w kuchni diaspory](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-klopsy/216ad15e-a2cc-4ed6-9540-4ed87c4b4570.webp)
 
 ## FAQ
 

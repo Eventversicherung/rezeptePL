@@ -105,7 +105,7 @@ Sklejane pierogi z suchym farszem, spokojnie gotowane, często z masłem, cebul�
 
 
 
-![Danie z polskiej kuchni](https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=1400&q=80)
+![Danie z polskiej kuchni](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-pierogi/ffa4f850-6746-4b55-8710-b19e03abf532.webp)
 
 ## Który farsz kiedy?
 
@@ -139,7 +139,7 @@ Korekty i ilości: właściwy przepis. O cieście piszemy w [ciasto na pierogi](
 
 
 
-![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1626200419199-391ae4be7a41?w=1400&q=80)
+![Przygotowanie w kuchni diaspory](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-pierogi-jagody/7a99e3b2-93c1-41b9-b3a0-2217cab6271d.webp)
 
 ## FAQ krótko
 
@@ -169,7 +169,7 @@ My mrozimy [pierogi ruskie](/pl/rezepte/pierogi/ruskie), porcje [bigosu](/pl/rez
 
 
 
-![Danie z polskiej kuchni](https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?w=1400&q=80)
+![Danie z polskiej kuchni](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-pierogi-meat/eca2d558-97cf-431f-ac53-76375f409c61.webp)
 
 ## Bezpieczny rytm
 
@@ -181,7 +181,7 @@ Jednego weekendu robimy pierogi, drugiego [żurek](/pl/rezepte/zurek) albo bigos
 
 
 
-![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1606787366850-de6330128bfc?w=1400&q=80)
+![Przygotowanie w kuchni diaspory](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-golabki/56ae4f6d-22d3-4bcd-9886-e71c4cba3244.webp)
 
 ## FAQ — mrożenie domowych dań
 
@@ -210,7 +210,7 @@ Wykrawacz daje równe koła — dobry pierwszy krok. Prosta praska składa pół
 
 
 
-![Danie z polskiej kuchni](https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?w=1400&q=80)
+![Danie z polskiej kuchni](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-pierogi/ffa4f850-6746-4b55-8710-b19e03abf532.webp)
 
 ## Klasy na 2026
 
@@ -226,7 +226,7 @@ Nie. Forma nie naprawi mokrego farszu ani ciasta bez odpoczynku. My najpierw opa
 
 
 
-![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=1400&q=80)
+![Przygotowanie w kuchni diaspory](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-pierogi-cabbage/3b6f2648-b78b-4bbe-a2fc-760e5e7aa65e.webp)
 
 ## Mycie i przechowywanie
 
@@ -267,7 +267,7 @@ export const bodyPolnischeSuppenPl = `Polska zupa w Niemczech ma wielką przewag
 
 
 
-![Danie z polskiej kuchni](https://images.unsplash.com/photo-1547592166-23ac45744acd?w=1400&q=80)
+![Danie z polskiej kuchni](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-zupa-pomidorowa/1dc1deb5-b454-41f4-a58d-5561a4cf7613.webp)
 
 ## Flaki
 
@@ -291,7 +291,7 @@ Gdy garnek chce treściwy dodatek i majeranek — nie buraki, nie zakwas, nie og
 
 
 
-![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1547592180-85f173990554?w=1400&q=80)
+![Przygotowanie w kuchni diaspory](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-krupnik/d71fb2f2-23ab-4055-a851-2042de77b343.webp)
 
 ## Zieleń / sezon: szczawiowa
 
@@ -339,7 +339,7 @@ Tę samą cierpliwość wykorzystują zupy z dodatkami jak [ogórkowa](/pl/rezep
 
 
 
-![Danie z polskiej kuchni](https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?w=1400&q=80)
+![Danie z polskiej kuchni](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-rosol/58a70d2d-5448-4aae-ad60-d3d35e6140d0.webp)
 
 ## Niedziela i resztki
 
@@ -359,7 +359,7 @@ Ilości i kroki: [przepis na rosół](/pl/rezepte/rosol).
 
 
 
-![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1547592166-23ac45744acd?w=1400&q=80)
+![Przygotowanie w kuchni diaspory](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-zupa-grzybowa/4ae13a23-9f9d-4886-a2a9-e487414bd014.webp)
 
 ## FAQ krótko
 
@@ -388,7 +388,7 @@ Używamy wyparzonego słoika, mąki żytniej i przegotowanej, ostudzonej wody. D
 
 
 
-![Danie z polskiej kuchni](https://images.unsplash.com/photo-1606923829579-0cb981a83e2e?w=1400&q=80)
+![Danie z polskiej kuchni](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-zurek/bbfde075-0c6c-4698-a8a0-0f8e5765ae98.webp)
 
 ## Fermentacja bez pośpiechu
 
@@ -400,7 +400,7 @@ Do gorącego wywaru wlewamy przecedzony zakwas stopniowo, mieszając. Dodajemy m
 
 
 
-![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=1400&q=80)
+![Przygotowanie w kuchni diaspory](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-biala-kielbasa/6f6f246e-9e55-42ae-99a6-94384e3bdd66.webp)
 
 ## FAQ — własny zakwas
 
@@ -430,7 +430,7 @@ Często nie centrum Wigilii; mocny jako danie dla gości i zapas na tydzień. Do
 
 
 
-![Danie z polskiej kuchni](https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=1400&q=80)
+![Danie z polskiej kuchni](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-bigos/66cdab94-ccf4-4b59-8ec0-55c2a0c24c6b.webp)
 
 ## Zakupy w DE
 
@@ -450,7 +450,7 @@ Typowe błędy: sama kiszona; kiełbasa od początku; za dużo płynu; brak cier
 
 
 
-![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1432139509613-5c4255815697?w=1400&q=80)
+![Przygotowanie w kuchni diaspory](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-kapusniak/d602b625-35e3-4b65-88c1-1202fd7d9507.webp)
 
 ## FAQ krótko
 
@@ -483,7 +483,7 @@ Schmand jest gęsty i tłustszy, więc dobrze znosi ciepłe sosy. Saure Sahne je
 
 
 
-![Danie z polskiej kuchni](https://images.unsplash.com/photo-1563636619-e9143da7973b?w=1400&q=80)
+![Danie z polskiej kuchni](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-mizeria/6f3ac245-1a4c-47cb-a36b-27f86d7d25c1.webp)
 
 ## Hartowanie do zupy
 
@@ -495,7 +495,7 @@ Produkty mleczne trzymamy chłodno i używamy czystej łyżki. Otwartego kubka n
 
 
 
-![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=1400&q=80)
+![Przygotowanie w kuchni diaspory](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-zurek/bbfde075-0c6c-4698-a8a0-0f8e5765ae98.webp)
 
 ## FAQ — śmietana i Schmand
 
@@ -520,7 +520,7 @@ Biała kiełbasa pasuje do [żurku](/pl/rezepte/zurek) i pieczenia, ale nie potr
 
 
 
-![Danie z polskiej kuchni](https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=1400&q=80)
+![Danie z polskiej kuchni](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-kaszanka/773ab0d3-89e2-41d8-b0e1-dd616cc97f5d.webp)
 
 ## Kaszanka na patelni
 
@@ -536,7 +536,7 @@ Surowa biała kiełbasa musi być dogotowana, ale gotowana wędlina nie wymaga k
 
 
 
-![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=1400&q=80)
+![Przygotowanie w kuchni diaspory](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-leczo/dfefb489-d2b6-40fb-ab9e-90c09754aca0.webp)
 
 ## Zakup bez nostalgii
 
@@ -565,7 +565,7 @@ Twaróg zastępujemy odsączonym Quarkiem, bo szukamy zwartej, lekko kwaśnej st
 
 
 
-![Danie z polskiej kuchni](https://images.unsplash.com/photo-1604719312566-8912e9227c6a?w=1400&q=80)
+![Danie z polskiej kuchni](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-surowka/59d2b015-2967-4fcf-bc23-53afe6dbb174.webp)
 
 ## Testuj małą porcję
 
@@ -577,7 +577,7 @@ Zakwas do żurku, dobre grzyby suszone i charakterystyczna kiełbasa bywają rdz
 
 
 
-![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1542838132-92c53300491e?w=1400&q=80)
+![Przygotowanie w kuchni diaspory](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-ersatzprodukte-de/7109608a-9b52-4c63-8abb-84d3dacb8430.webp)
 
 ## FAQ — zamienniki
 
@@ -602,7 +602,7 @@ My wybieramy żurek lub barszcz biały, jajka, jedną dobrą sałatkę — częs
 
 
 
-![Danie z polskiej kuchni](https://images.unsplash.com/photo-1525310072745-f49212b5ac6d?w=1400&q=80)
+![Danie z polskiej kuchni](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-babka/84d44e7f-75f4-4463-88c9-f32c015c879b.webp)
 
 ## Harmonogram
 
@@ -614,7 +614,7 @@ Jajka przechowujemy zgodnie z informacją na opakowaniu, a dania z majonezem nie
 
 
 
-![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1495521821757-a1efb6729352?w=1400&q=80)
+![Przygotowanie w kuchni diaspory](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-mazurek/bfb03b99-ac14-47da-b69d-c24dc641771f.webp)
 
 ## FAQ — Wielkanoc w DE
 
@@ -639,7 +639,7 @@ My decydujemy wcześniej: kupujemy kilka dobrych pączków, robimy faworki albo 
 
 
 
-![Danie z polskiej kuchni](https://images.unsplash.com/photo-1551024601-bec78aea704b?w=1400&q=80)
+![Danie z polskiej kuchni](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-paczki/be50cfd6-63a9-423d-b088-3dedb5e6e93b.webp)
 
 ## Smażenie spokojnie
 
@@ -651,7 +651,7 @@ Jedzenie jednego pączka nie wymaga „odrabiania” go następnego dnia. My cel
 
 
 
-![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1558326567-98ae2405596b?w=1400&q=80)
+![Przygotowanie w kuchni diaspory](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-faworki/2f402758-49a4-42b0-8f6e-0213ae8b749d.webp)
 
 ## FAQ — tłusty czwartek
 
@@ -683,7 +683,7 @@ My wybieramy jedno danie główne, prosty dodatek i coś świeżego. Może to by
 
 
 
-![Danie z polskiej kuchni](https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1400&q=80)
+![Danie z polskiej kuchni](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-schabowy/c2614c7e-bc01-4c37-a0b8-45b4c581ec92.webp)
 
 ## Mięso niedzielne (piec i duszenie)
 
@@ -705,7 +705,7 @@ Do jasnego bulionu pasują świeże kluski: [kluski kładzione](/pl/rezepte/klus
 
 
 
-![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1400&q=80)
+![Przygotowanie w kuchni diaspory](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-rosol/58a70d2d-5448-4aae-ad60-d3d35e6140d0.webp)
 
 ## Podziel pracę w czasie
 
@@ -738,7 +738,7 @@ My używamy czystych słoików, świeżych warzyw i soli bez dodatków przeciwzb
 
 
 
-![Danie z polskiej kuchni](https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=1400&q=80)
+![Danie z polskiej kuchni](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-ogorkowa/fe6aee59-9d09-475d-8464-4012dab7203a.webp)
 
 ## Obserwuj, nie zgaduj
 
@@ -750,7 +750,7 @@ Kiszoną kapustę dodajemy do [bigosu](/pl/rezepte/bigos), do [kapuśniaka](/pl/
 
 
 
-![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1400&q=80)
+![Przygotowanie w kuchni diaspory](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-kapusniak/d602b625-35e3-4b65-88c1-1202fd7d9507.webp)
 
 ## FAQ — kiszenie
 
@@ -782,7 +782,7 @@ Ręczna maszynka sprawdzi się przy małej ilości, jeśli mamy stabilny blat i 
 
 
 
-![Danie z polskiej kuchni](https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=1400&q=80)
+![Danie z polskiej kuchni](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-pierogi-meat/eca2d558-97cf-431f-ac53-76375f409c61.webp)
 
 ## Mięso i struktura
 
@@ -794,7 +794,7 @@ Po surowym mięsie rozkładamy urządzenie od razu. Myjemy części zgodnie z in
 
 
 
-![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=1400&q=80)
+![Przygotowanie w kuchni diaspory](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-kotlet-mielony/f11503e2-8ecb-4e14-919a-cbaf9489eae8.webp)
 
 ## FAQ — maszynka do mięsa
 
@@ -826,7 +826,7 @@ My sprawdzamy liczbę domowników i wielkość płyty. Garnek 4–5 litrów wyst
 
 
 
-![Danie z polskiej kuchni](https://images.unsplash.com/photo-1585515320310-259814833e62?w=1400&q=80)
+![Danie z polskiej kuchni](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-bigos/66cdab94-ccf4-4b59-8ec0-55c2a0c24c6b.webp)
 
 ## Od palnika do piekarnika
 
@@ -838,7 +838,7 @@ Emalia jest łatwiejsza przy kwaśnych daniach i codziennym myciu. Surowe żeliw
 
 
 
-![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=1400&q=80)
+![Przygotowanie w kuchni diaspory](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-gulasz/3e8865b3-7bee-49c0-8406-8905d5eee76c.webp)
 
 ## FAQ — Dutch oven
 
@@ -870,7 +870,7 @@ Surowe żeliwo myjemy i osuszamy zgodnie z instrukcją, potem nakładamy bardzo 
 
 
 
-![Danie z polskiej kuchni](https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=1400&q=80)
+![Danie z polskiej kuchni](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-placki-cukinia/4d34373d-0681-4667-876b-b237b1f0a48e.webp)
 
 ## Codzienna pielęgnacja
 
@@ -896,7 +896,7 @@ Nie. My upewniamy się, że jest całkowicie sucha.
 
 
 
-![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1585515320310-259814833e62?w=1400&q=80)
+![Przygotowanie w kuchni diaspory](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-schabowy/c2614c7e-bc01-4c37-a0b8-45b4c581ec92.webp)
 
 ## Realistyczna ocena po zakupie
 
@@ -920,7 +920,7 @@ My zapisujemy, co dokładnie nie działa. Za mała misa? Za słaby hak? Zbyt gł
 
 
 
-![Danie z polskiej kuchni](https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=1400&q=80)
+![Danie z polskiej kuchni](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-pierogi/ffa4f850-6746-4b55-8710-b19e03abf532.webp)
 
 ## Co porównać
 
@@ -932,7 +932,7 @@ Jeśli stary sprzęt działa, rozważamy naprawę, sprzedaż lub przekazanie kom
 
 
 
-![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1571115177098-24ec42ed204d?w=1400&q=80)
+![Przygotowanie w kuchni diaspory](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-pierogi-cabbage/3b6f2648-b78b-4bbe-a2fc-760e5e7aa65e.webp)
 
 ## FAQ — upgrade robota
 

@@ -10,7 +10,7 @@ export const seedAffiliateProducts: AffiliateProduct[] = [
     partner: "amazon",
     url: "https://www.amazon.de/s?k=Pierogi+Form+Set",
     imageUrl:
-      "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=800&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-pierogi-formen/bf60d0dc-888a-4dab-b1f9-520da0297e1f.webp",
     title: {
       de: "Pierogi-Formen Set",
       pl: "Zestaw foremek do pierogów",
@@ -38,7 +38,7 @@ export const seedAffiliateProducts: AffiliateProduct[] = [
     partner: "amazon",
     url: "https://www.amazon.de/s?k=Teigroller+Holz",
     imageUrl:
-      "https://images.unsplash.com/photo-1495521821757-a1efb6729352?w=800&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-pierogi-teig/ba5876fe-10c2-4ed4-8025-632c2caae7b6.webp",
     title: {
       de: "Holz-Teigroller",
       pl: "Wałek drewniany",
@@ -66,7 +66,7 @@ export const seedAffiliateProducts: AffiliateProduct[] = [
     partner: "amazon",
     url: "https://www.amazon.de/s?k=Kartoffelpresse",
     imageUrl:
-      "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-twarog/8948afdf-bc98-4abc-a5eb-10ce0213e069.webp",
     title: {
       de: "Kartoffelpresse",
       pl: "Praska do ziemniaków",
@@ -90,7 +90,7 @@ export const seedAffiliateProducts: AffiliateProduct[] = [
     partner: "amazon",
     url: "https://www.amazon.de/s?k=Gusseisenpfanne+28cm",
     imageUrl:
-      "https://images.unsplash.com/photo-1556911220-bff31c812dba?w=800&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-gusseisen/b5a3a862-2d77-49d1-9b47-fea3ac47c78a.webp",
     title: {
       de: "Gusseisenpfanne",
       pl: "Patelnia żeliwna",
@@ -122,7 +122,7 @@ export const seedAffiliateProducts: AffiliateProduct[] = [
     partner: "amazon",
     url: "https://www.amazon.de/s?k=K%C3%BCchenmaschine+Knethaken",
     imageUrl:
-      "https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?w=800&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-teigmaschine/5e38d094-ee79-4c83-88ed-ef36d24e654b.webp",
     title: {
       de: "Küchenmaschine mit Knethaken",
       pl: "Robot kuchenny z hakiem",
@@ -150,7 +150,7 @@ export const seedAffiliateProducts: AffiliateProduct[] = [
     partner: "amazon",
     url: "https://www.amazon.de/s?k=Dutch+Oven+Emaille",
     imageUrl:
-      "https://images.unsplash.com/photo-1584990347448-a0df0c031b0b?w=800&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-dutch-oven/ab86eeb0-055d-46c5-8575-7d53b41b7fc9.webp",
     title: {
       de: "Großer Schmortopf",
       pl: "Duży garnek do duszenia",
@@ -173,7 +173,7 @@ export const seedAffiliateProducts: AffiliateProduct[] = [
     partner: "amazon",
     url: "https://www.amazon.de/s?k=Gefrierdosen+Set",
     imageUrl:
-      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?w=800&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-freezer-boxen/3849a8bc-9f1f-41ef-86cb-9898d5b433b4.webp",
     title: {
       de: "Freezer-Boxen Set",
       pl: "Pojemniki do mrożenia",
@@ -201,7 +201,7 @@ export const seedAffiliateProducts: AffiliateProduct[] = [
     partner: "amazon",
     url: "https://www.amazon.de/s?k=Fermentierglas+Set+G%C3%A4rdeckel",
     imageUrl:
-      "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-ferment-glaeser/bf28b593-c1ea-4c6f-9c0c-839db226b9b0.webp",
     title: {
       de: "Fermentiergläser Set",
       pl: "Zestaw słoików do kiszenia",

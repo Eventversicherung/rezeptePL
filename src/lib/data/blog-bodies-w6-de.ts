@@ -9,7 +9,7 @@ Makowiec ist kein Strudel und kein deutscher Mohnkuchen vom Blech: Es ist ein **
 
 
 
-![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=1400&q=80)
+![Gericht aus der polnischen Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-makowiec/53f5d3bc-8156-4441-a67e-83ddff7184b9.webp)
 
 ## Mohn: der Charakterträger
 
@@ -51,7 +51,7 @@ Trockene Mohnmasse, zu viel Mehl im Teig, zu heißer Ofen, zu früh schneiden, F
 
 
 
-![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=1400&q=80)
+![Zubereitung in der Diaspora-Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-kutia/0088aa6b-0eb5-4e7f-af68-56c011688e28.webp)
 
 ## Verwandte Gerichte
 

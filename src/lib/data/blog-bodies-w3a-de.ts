@@ -11,7 +11,7 @@ Gefüllte Kohlrouladen: biegsame Blätter, Reis-Fleisch-Füllung (oder vegetaris
 
 
 
-![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1743148843470-8fd92a31c473?w=1400&q=80)
+![Gericht aus der polnischen Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-golabki/56ae4f6d-22d3-4bcd-9886-e71c4cba3244.webp)
 
 ## Sauce: drei Wege
 
@@ -37,7 +37,7 @@ Die Korrekturen und Mengen: [Gołąbki-Rezept](/de/rezepte/golabki).
 
 
 
-![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=1400&q=80)
+![Zubereitung in der Diaspora-Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-kapusta-zasmazana/c654bc3b-88e7-4165-aec5-c6ab3c83a573.webp)
 
 ## FAQ kurz
 
@@ -70,7 +70,7 @@ Der Teig bleibt bewusst flüssig und elastisch — biegsam genug zum Rollen. Ges
 
 
 
-![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1770802858320-50848db704d5?w=1400&q=80)
+![Gericht aus der polnischen Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-nalesniki-mieso/31658e07-9ebc-4f2d-8a29-aa07e5cb188f.webp)
 
 ## Welche Füllung wann?
 
@@ -102,7 +102,7 @@ Ungefüllte Platten stapeln (Backpapier dazwischen) und einfrieren: unter der Wo
 
 
 
-![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1567620905732-2d1ac7ab1b30?w=1400&q=80)
+![Zubereitung in der Diaspora-Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-nalesniki-szpinak/580056ff-e3d0-413a-b5e2-27c73286a884.webp)
 
 ## FAQ
 
@@ -145,7 +145,7 @@ In der Praxis schmeckt echter Oscypek salzig, leicht säuerlich, deutlich rauchi
 
 
 
-![Geräucherter Käse auf dem Brett](https://images.unsplash.com/photo-1718939046345-f607c89e92d9?w=1400&q=80)
+![Geräucherter Käse auf dem Brett](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-oscypek/3b3f26ff-eab8-45b5-92f8-3fa0adbc758b.webp)
 
 ## Echt vs. „Oscypek-ähnlich“ im DE-Laden
 
@@ -207,7 +207,7 @@ Serviertemperaturen: Oscypek heiß vom Blech oder der Pfanne, Beilagen warm oder
 
 
 
-![Oscypek in der Pfanne — goldbraun](https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?w=1400&q=80)
+![Oscypek in der Pfanne — goldbraun](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-cwikla/6ae28221-2f69-4a14-bf3f-8e83eac61d4c.webp)
 
 ## Lagerung & Ersatz
 

@@ -10,7 +10,7 @@ Pączki to nie niemiecki Berliner i nie klisza „krapfen”: to **miękkie cias
 
 
 
-![Danie z polskiej kuchni](https://images.unsplash.com/photo-1558326567-98ae2405596b?w=1400&q=80)
+![Danie z polskiej kuchni](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-paczki/be50cfd6-63a9-423d-b088-3dedb5e6e93b.webp)
 
 ## Co gdzie należy
 
@@ -56,7 +56,7 @@ Za chłodny tłuszcz, za mokre nadzienie, za dużo mąki, drożdże zabite gorą
 
 
 
-![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1551024601-bec78aea704b?w=1400&q=80)
+![Przygotowanie w kuchni diaspory](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-faworki/2f402758-49a4-42b0-8f6e-0213ae8b749d.webp)
 
 ## Zakupy w Niemczech
 

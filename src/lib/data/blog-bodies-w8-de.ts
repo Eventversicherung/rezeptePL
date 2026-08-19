@@ -10,7 +10,7 @@ Pączki sind kein deutscher Berliner und kein Krapfen-Klischee: Es ist ein **wei
 
 
 
-![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1558326567-98ae2405596b?w=1400&q=80)
+![Gericht aus der polnischen Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-paczki/be50cfd6-63a9-423d-b088-3dedb5e6e93b.webp)
 
 ## Was wohin gehört
 
@@ -56,7 +56,7 @@ Zu kaltes Fett, zu nasse Füllung, zu viel Mehl, Hefe mit heißer Milch abgetöt
 
 
 
-![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1551024601-bec78aea704b?w=1400&q=80)
+![Zubereitung in der Diaspora-Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-faworki/2f402758-49a4-42b0-8f6e-0213ae8b749d.webp)
 
 ## Einkaufen in Deutschland
 

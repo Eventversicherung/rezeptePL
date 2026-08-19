@@ -9,7 +9,7 @@ Makowiec to nie strudel i nie niemieckie ciasto makowe z blachy: to **rolada dro
 
 
 
-![Danie z polskiej kuchni](https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=1400&q=80)
+![Danie z polskiej kuchni](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-makowiec/53f5d3bc-8156-4441-a67e-83ddff7184b9.webp)
 
 ## Mak: nośnik charakteru
 
@@ -51,7 +51,7 @@ Sucha masa makowa, za dużo mąki, zbyt gorący piec, zbyt wczesne krojenie, mas
 
 
 
-![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=1400&q=80)
+![Przygotowanie w kuchni diaspory](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-kutia/0088aa6b-0eb5-4e7f-af68-56c011688e28.webp)
 
 ## Spokrewnione dania
 

@@ -14,7 +14,7 @@ Gefaltete Teigtaschen mit trockener Füllung, ruhig gekocht, oft mit Butter, Zwi
 
 
 
-![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=1400&q=80)
+![Gericht aus der polnischen Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-pierogi/ffa4f850-6746-4b55-8710-b19e03abf532.webp)
 
 ## Welche Füllung wann?
 
@@ -48,7 +48,7 @@ Korrekturen und Mengen: jeweiliges Rezept. Teig-Details: [Pierogi-Teig](/de/blog
 
 
 
-![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1626200419199-391ae4be7a41?w=1400&q=80)
+![Zubereitung in der Diaspora-Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-pierogi-jagody/7a99e3b2-93c1-41b9-b3a0-2217cab6271d.webp)
 
 ## FAQ kurz
 
@@ -84,7 +84,7 @@ Bereits gekochte Pierogi frieren wir nur als Restestrategie; roh gefrorene garen
 
 
 
-![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?w=1400&q=80)
+![Gericht aus der polnischen Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-pierogi-meat/eca2d558-97cf-431f-ac53-76375f409c61.webp)
 
 ## Schritt-für-Schritt
 
@@ -116,7 +116,7 @@ Warm einfrieren; ohne Anfrieren; überfüllter Topf; unbeschriftet; mehrfach auf
 
 
 
-![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1606787366850-de6330128bfc?w=1400&q=80)
+![Zubereitung in der Diaspora-Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-golabki/56ae4f6d-22d3-4bcd-9886-e71c4cba3244.webp)
 
 ## Organisation im Freezer
 
@@ -179,7 +179,7 @@ Häufigkeit pro Monat, typische Stückzahl, Uszka vs. klassische Größe, Solo v
 
 
 
-![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?w=1400&q=80)
+![Gericht aus der polnischen Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-pierogi/ffa4f850-6746-4b55-8710-b19e03abf532.webp)
 
 ## Kriterien
 
@@ -219,7 +219,7 @@ Seltene Nutzung; kein Platz; Erwartung „Maschine macht Pierogi fertig“; Budg
 
 
 
-![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=1400&q=80)
+![Zubereitung in der Diaspora-Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-pierogi-cabbage/3b6f2648-b78b-4bbe-a2fc-760e5e7aa65e.webp)
 
 ## Checkliste vor Klick
 
@@ -290,7 +290,7 @@ Polnische Suppen leben von Brühe, Säure, Gemüse und Geduld – nicht von Schw
 
 
 
-![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1547592166-23ac45744acd?w=1400&q=80)
+![Gericht aus der polnischen Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-zupa-pomidorowa/1dc1deb5-b454-41f4-a58d-5561a4cf7613.webp)
 
 ## Flaki (Kuttelsuppe)
 
@@ -342,7 +342,7 @@ Hart kochen; Essig statt Zakwas; Barszcz überzuckern; Milchprodukte kochen; fr�
 
 
 
-![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1547592180-85f173990554?w=1400&q=80)
+![Zubereitung in der Diaspora-Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-krupnik/d71fb2f2-23ab-4055-a851-2042de77b343.webp)
 
 ## Regionalität
 
@@ -425,7 +425,7 @@ Denselben ruhigen Ansatz nutzen Einlagen-Suppen wie [Ogórkowa](/de/rezepte/ogor
 
 
 
-![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?w=1400&q=80)
+![Gericht aus der polnischen Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-rosol/58a70d2d-5448-4aae-ad60-d3d35e6140d0.webp)
 
 ## Sonntag und Reste
 
@@ -447,7 +447,7 @@ Mengen, Zeiten und Schritte: [Rosół-Rezept](/de/rezepte/rosol).
 
 
 
-![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1547592166-23ac45744acd?w=1400&q=80)
+![Zubereitung in der Diaspora-Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-zupa-grzybowa/4ae13a23-9f9d-4886-a2a9-e487414bd014.webp)
 
 ## FAQ kurz
 
@@ -481,7 +481,7 @@ Milchsaure Roggenkultur über Tage – kein Brotstarter-Identitätstausch, kein 
 
 
 
-![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1606923829579-0cb981a83e2e?w=1400&q=80)
+![Gericht aus der polnischen Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-zurek/bbfde075-0c6c-4698-a8a0-0f8e5765ae98.webp)
 
 ## Erkennen
 
@@ -517,7 +517,7 @@ Essig-1:1; Sonne; fest dicht ohne Entlüftung; Schimmel weiterverwenden; stark k
 
 
 
-![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=1400&q=80)
+![Zubereitung in der Diaspora-Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-biala-kielbasa/6f6f246e-9e55-42ae-99a6-94384e3bdd66.webp)
 
 ## Lagern
 
@@ -588,7 +588,7 @@ Oft nicht das Zentrum der Wigilia; stark als Gästeessen und Wochenvorrat. Beila
 
 
 
-![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=1400&q=80)
+![Gericht aus der polnischen Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-bigos/66cdab94-ccf4-4b59-8ec0-55c2a0c24c6b.webp)
 
 ## Einkauf in DE
 
@@ -610,7 +610,7 @@ Varianten: mehr Pilze, fleischarm, vegetarisch mit Räuchernote — ehrlich bene
 
 
 
-![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1432139509613-5c4255815697?w=1400&q=80)
+![Zubereitung in der Diaspora-Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-kapusniak/d602b625-35e3-4b65-88c1-1202fd7d9507.webp)
 
 ## FAQ kurz
 
@@ -645,7 +645,7 @@ Polnisch „śmietana“ deckt Fettstufen ab. DE-Regal: mehrere Produkte. Hitze,
 
 
 
-![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1563636619-e9143da7973b?w=1400&q=80)
+![Gericht aus der polnischen Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-mizeria/6f3ac245-1a4c-47cb-a36b-27f86d7d25c1.webp)
 
 ## Matrix
 
@@ -681,7 +681,7 @@ Kochsahne stabilisiert; frische Produkte verfeinern. Rolle vor dem Herd klären.
 
 
 
-![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=1400&q=80)
+![Zubereitung in der Diaspora-Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-zurek/bbfde075-0c6c-4698-a8a0-0f8e5765ae98.webp)
 
 ## Balance
 
@@ -748,7 +748,7 @@ Bratfest, kochfest, aufschnittfähig, stark/mild geräuchert. Namen variieren �
 
 
 
-![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=1400&q=80)
+![Gericht aus der polnischen Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-kaszanka/773ab0d3-89e2-41d8-b0e1-dd616cc97f5d.webp)
 
 ## Kaszanka braten
 
@@ -788,7 +788,7 @@ Kühlkette, Bretter trennen, erhitzen wenn nötig. bzfe.de.
 
 
 
-![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=1400&q=80)
+![Zubereitung in der Diaspora-Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-leczo/dfefb489-d2b6-40fb-ab9e-90c09754aca0.webp)
 
 ## Fehler
 
@@ -859,7 +859,7 @@ Funktion klären → Kandidaten testen → notieren. Etikett „polnisch“ ist 
 
 
 
-![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1604719312566-8912e9227c6a?w=1400&q=80)
+![Gericht aus der polnischen Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-surowka/59d2b015-2967-4fcf-bc23-53afe6dbb174.webp)
 
 ## Twaróg
 
@@ -895,7 +895,7 @@ Zakwas≠Essig; Qualität≠Rauchsalz; Twaróg≠Frischkäse; Ferment≠Zuckerde
 
 
 
-![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1542838132-92c53300491e?w=1400&q=80)
+![Zubereitung in der Diaspora-Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-ersatzprodukte-de/7109608a-9b52-4c63-8abb-84d3dacb8430.webp)
 
 ## Testprotokoll
 
@@ -962,7 +962,7 @@ Weniger Gerichte, bessere Ausführung. Żurek oft Zentrum; dazu Eier, gekochte [
 
 
 
-![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1525310072745-f49212b5ac6d?w=1400&q=80)
+![Gericht aus der polnischen Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-babka/84d44e7f-75f4-4463-88c9-f32c015c879b.webp)
 
 ## Zeitplan
 
@@ -1002,7 +1002,7 @@ Haus-Pastete angeschnitten statt nur Kaufwurst: [Pasztet drobiowy](/de/rezepte/p
 
 
 
-![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1495521821757-a1efb6729352?w=1400&q=80)
+![Zubereitung in der Diaspora-Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-mazurek/bfb03b99-ac14-47da-b69d-c24dc641771f.webp)
 
 ## Tisch
 
@@ -1069,7 +1069,7 @@ Traditioneller Fettdonnerstag vor der Fastenzeit – heute oft kultureller Genus
 
 
 
-![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1551024601-bec78aea704b?w=1400&q=80)
+![Gericht aus der polnischen Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-paczki/be50cfd6-63a9-423d-b088-3dedb5e6e93b.webp)
 
 ## Kaufen vs Backen
 
@@ -1105,7 +1105,7 @@ Mitbacken = Prozess; Zuckerlimit kommunizieren; Enttäuschung über „zu wenig�
 
 
 
-![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1558326567-98ae2405596b?w=1400&q=80)
+![Zubereitung in der Diaspora-Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-faworki/2f402758-49a4-42b0-8f6e-0213ae8b749d.webp)
 
 ## Diaspora-Logistik
 
@@ -1172,7 +1172,7 @@ Ein Gericht trägt; der Rest unterstützt. Entscheidung Freitagabend spart Samst
 
 
 
-![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1400&q=80)
+![Gericht aus der polnischen Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-schabowy/c2614c7e-bc01-4c37-a0b8-45b4c581ec92.webp)
 
 ## Drei Menüs
 
@@ -1224,7 +1224,7 @@ Pünktlich essen > perfekte Garnitur. Arbeit teilen.
 
 
 
-![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1400&q=80)
+![Zubereitung in der Diaspora-Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-rosol/58a70d2d-5448-4aae-ad60-d3d35e6140d0.webp)
 
 ## Geräte
 
@@ -1307,7 +1307,7 @@ Milchsäurebakterien säuern unter der Lake. Luftkontakt und Schmutz sind Feinde
 
 
 
-![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=1400&q=80)
+![Gericht aus der polnischen Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-ogorkowa/fe6aee59-9d09-475d-8464-4012dab7203a.webp)
 
 ## Starter-Setup
 
@@ -1343,7 +1343,7 @@ Hände, Gläser, keine beschädigten Deckel die nicht entlüften können wenn n�
 
 
 
-![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1400&q=80)
+![Zubereitung in der Diaspora-Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-kapusniak/d602b625-35e3-4b65-88c1-1202fd7d9507.webp)
 
 ## Küche DE
 
@@ -1410,7 +1410,7 @@ Wie oft im Jahr? Welche Mengen? Nur Pierogi-Farce oder auch Wurst? Platz? Reinig
 
 
 
-![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=1400&q=80)
+![Gericht aus der polnischen Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-pierogi-meat/eca2d558-97cf-431f-ac53-76375f409c61.webp)
 
 ## Kriterien
 
@@ -1450,7 +1450,7 @@ Schnitt und Fettanteil bestellen, zweimal drehen lassen. Oft beste Qualitätskon
 
 
 
-![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=1400&q=80)
+![Zubereitung in der Diaspora-Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-kotlet-mielony/f11503e2-8ecb-4e14-919a-cbaf9489eae8.webp)
 
 ## Kombi mit Freezer
 
@@ -1521,7 +1521,7 @@ Personenanzahl, nur Bigos oder auch Brot/Braten, Induktion/Gas/Ceran, Kraft zum 
 
 
 
-![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1585515320310-259814833e62?w=1400&q=80)
+![Gericht aus der polnischen Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-bigos/66cdab94-ccf4-4b59-8ec0-55c2a0c24c6b.webp)
 
 ## Kriterien
 
@@ -1561,7 +1561,7 @@ Dickes Edelstahl + Ofen; Slow Cooker nur mit angepasstem Erwartungsprofil – an
 
 
 
-![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=1400&q=80)
+![Zubereitung in der Diaspora-Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-gulasz/3e8865b3-7bee-49c0-8406-8905d5eee76c.webp)
 
 ## Bigos-Praxis
 
@@ -1628,7 +1628,7 @@ Placki, Schabowy, Alltagsbraten? Induktion? Handkraft? Bereitschaft zum Einbrenn
 
 
 
-![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=1400&q=80)
+![Gericht aus der polnischen Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-placki-cukinia/4d34373d-0681-4667-876b-b237b1f0a48e.webp)
 
 ## Kriterien
 
@@ -1668,7 +1668,7 @@ Zu schwer; Induktion ohne passende Basis; niemand pflegt; nur Spiegeleier-Erwart
 
 
 
-![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1585515320310-259814833e62?w=1400&q=80)
+![Zubereitung in der Diaspora-Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-schabowy/c2614c7e-bc01-4c37-a0b8-45b4c581ec92.webp)
 
 ## Alternativen
 
@@ -1739,7 +1739,7 @@ Nutzvolumen (nicht nur Nennliter), echter Knethaken, Drehmoment bei niedriger St
 
 
 
-![Gericht aus der polnischen Küche](https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=1400&q=80)
+![Gericht aus der polnischen Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-pierogi/ffa4f850-6746-4b55-8710-b19e03abf532.webp)
 
 ## 500 g vs Wigilia
 
@@ -1779,7 +1779,7 @@ Kriterien vor Provision; Kennzeichnung wenn Links provisioniert; keine Fake-Sieg
 
 
 
-![Zubereitung in der Diaspora-Küche](https://images.unsplash.com/photo-1571115177098-24ec42ed204d?w=1400&q=80)
+![Zubereitung in der Diaspora-Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-pierogi-cabbage/3b6f2648-b78b-4bbe-a2fc-760e5e7aa65e.webp)
 
 ## Checkliste vor Klick
 

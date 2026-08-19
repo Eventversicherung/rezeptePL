@@ -15,7 +15,7 @@ To podejście działa szczególnie dobrze w weekend: lista na REWE w piątek wie
 
 
 
-![Danie z polskiej kuchni](https://images.unsplash.com/photo-1542838132-92c53300491e?w=1400&q=80)
+![Danie z polskiej kuchni](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-kaszanka/773ab0d3-89e2-41d8-b0e1-dd616cc97f5d.webp)
 
 ## Co zawsze warto brać w sklepie polskim
 
@@ -72,7 +72,7 @@ Jeśli kupujesz z dziećmi, trzymaj listę krótką: trzy rzeczy „polskie” n
 
 
 
-![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1604719312566-8912e9227c6a?w=1400&q=80)
+![Przygotowanie w kuchni diaspory](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-biala-kielbasa/6f6f246e-9e55-42ae-99a6-94384e3bdd66.webp)
 
 ## Przechowywanie i marnowanie jedzenia
 
@@ -120,7 +120,7 @@ Jeśli uczysz się od zera, zacznij od mniejszych partii. Dopiero potem skaluj. 
 
 
 
-![Danie z polskiej kuchni](https://images.unsplash.com/photo-1495521821757-a1efb6729352?w=1400&q=80)
+![Danie z polskiej kuchni](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-pierogi/ffa4f850-6746-4b55-8710-b19e03abf532.webp)
 
 ## Proporcje bazowe (ok. 4 porcje)
 
@@ -184,7 +184,7 @@ Jeśli pierogi mają iść do mrożenia: lepiej mrozić surowe, ułożone osobno
 
 
 
-![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=1400&q=80)
+![Przygotowanie w kuchni diaspory](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-pierogi-meat/eca2d558-97cf-431f-ac53-76375f409c61.webp)
 
 ## Mąka w Niemczech: typ 405, 550 i „coś nie tak”
 
@@ -338,7 +338,7 @@ Jeśli macie dostęp do świeżego twarogu w [sklepie polskim](/pl/blog/sklep-po
 
 
 
-![Danie z polskiej kuchni](https://images.unsplash.com/photo-1628088062854-d1870b4553da?w=1400&q=80)
+![Danie z polskiej kuchni](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-pierogi/ffa4f850-6746-4b55-8710-b19e03abf532.webp)
 
 ## Co kupować w niemieckim supermarkecie
 
@@ -387,7 +387,7 @@ Nie moralizujemy o tłuszczu. Farsz ma smakować. Chudszy nabiał wymaga czasem 
 
 
 
-![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1550583724-b2692b85b150?w=1400&q=80)
+![Przygotowanie w kuchni diaspory](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-nalesniki-dzem/4bfe90e1-f421-4b50-a190-3f87825dcf9a.webp)
 
 ## Zakupy: krótka ścieżka decyzyjna
 
@@ -467,7 +467,7 @@ Respekt dla różnic regionalnych i rodzinnych jest częścią tradycji, nie jej
 
 
 
-![Danie z polskiej kuchni](https://images.unsplash.com/photo-1481391319762-47dff72954d9?w=1400&q=80)
+![Danie z polskiej kuchni](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-barszcz/efe9222b-f6b5-42df-a683-71394e5dbd21.webp)
 
 ## Harmonogram, który broni nerwów
 
@@ -537,7 +537,7 @@ W kontekście jakości produktów rolnych i szerszej perspektywy europejskiej se
 
 
 
-![Przygotowanie w kuchni diaspory](https://images.unsplash.com/photo-1544025162-d76694265947?w=1400&q=80)
+![Przygotowanie w kuchni diaspory](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-uszka/e1c529d7-d5b5-4dc1-8500-da989dc7efe9.webp)
 
 ## Co świadomie odpuszczamy
 

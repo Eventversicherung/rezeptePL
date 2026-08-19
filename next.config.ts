@@ -18,10 +18,6 @@ const supabaseHost = supabaseHostname();
 const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "images.unsplash.com",
-      },
       // Own media in Supabase Storage (blog-media / recipe-media / place-media)
       ...(supabaseHost
         ? [
