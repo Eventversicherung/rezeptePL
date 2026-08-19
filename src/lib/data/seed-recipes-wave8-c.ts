@@ -23,59 +23,59 @@ export const seedRecipesWave8C: Recipe[] = [
         title: "Pączki",
         slug: "paczki",
         excerpt:
-          "Weiche Hefe-Pączki mit Füllung — Klassiker für Tłusty Czwartek, bilingual für DE-Küchen.",
+          "Weiche Hefe-Pączki mit Füllung, der süße Klassiker für Tłusty Czwartek, bilingual erklärt für DE-Küchen.",
         steps: [
           {
-            text: "Hefe in lauwarmer Milch mit etwas Zucker auflösen, 10 Minuten gehen lassen, bis sie schäumt.",
-            tip: "Milch nur lauwarm — zu heiß tötet Hefe. Technik-Details: [Pączki-Technik](/de/blog/paczek-technik).",
+            text: "Hefe in lauwarmer Milch mit etwas Zucker auflösen und 10 Minuten gehen lassen, bis sie schäumt.",
+            tip: "Die Milch sollte nur lauwarm sein, denn zu heiße Milch tötet die Hefe ab. Weitere Handgriffe zeigt die [Pączki-Technik](/de/blog/paczek-technik).",
           },
           {
-            text: "Mit Mehl, restlichem Zucker, Eiern, Butter, Prise Salz zu glattem, elastischem Teig kneten. Abgedeckt gehen lassen, bis verdoppelt (ca. 60–90 Min).",
+            text: "Mit Mehl, restlichem Zucker, Eiern, Butter und einer Prise Salz zu glattem, elastischem Teig kneten. Abgedeckt gehen lassen, bis er sich verdoppelt hat, etwa 60 bis 90 Minuten.",
           },
           {
-            text: "Teig portionieren, flach drücken, je einen Teelöffel abgetropfte Füllung (Rose/Pflaume) einlegen, gut verschließen, Kugeln formen. 20–30 Min zweites Gehen.",
-            tip: "Füllung nicht wässrig — sonst läuft sie aus. Anlass-Kontext: [Tłusty Czwartek](/de/blog/tlusty-czwartek).",
+            text: "Teig portionieren, flach drücken, je einen Teelöffel abgetropfte Füllung aus Rosenmarmelade oder Pflaumenmus einlegen, gut verschließen und zu Kugeln formen. Danach 20 bis 30 Minuten ein zweites Mal gehen lassen.",
+            tip: "Die Füllung sollte nicht wässrig sein, sonst läuft sie beim Frittieren aus. Den Anlass dahinter erklärt der Beitrag zu [Tłusty Czwartek](/de/blog/tlusty-czwartek).",
           },
           {
-            text: "Fett auf 170–180 °C erhitzen. Pączki portionsweise goldbraun frittieren, wenden, auf Küchenpapier abtropfen.",
-            tip: "Kleine Charge zuerst testen. Verwandtes knuspriges Gebäck: [Faworki](/de/rezepte/faworki).",
+            text: "Fett auf 170 bis 180 Grad erhitzen und die Pączki portionsweise goldbraun frittieren, dabei wenden und danach auf Küchenpapier abtropfen lassen.",
+            tip: "Teste zuerst eine kleine Charge, bevor du den ganzen Teig frittierst. Ein verwandtes, knuspriges Gebäck ohne Füllung sind [Faworki](/de/rezepte/faworki).",
           },
           {
-            text: "Noch warm mit Puderzucker bestäuben oder leicht glasieren. Zum Kaffee servieren.",
+            text: "Noch warm mit Puderzucker bestäuben oder leicht glasieren und zum Kaffee servieren.",
           },
         ],
         seoTitle: "Pączki Rezept | Polnische Hefe-Krapfen | Alemniam",
         seoDescription:
-          "Pączki selbst machen: Hefeteig, Füllung, Frittieren — bilingual mit DE-Einkauf und Tłusty-Czwartek-Kontext.",
+          "Pączki selbst machen: Hefeteig, Füllung, Frittieren, bilingual mit DE-Einkauf und Tłusty-Czwartek-Kontext.",
       },
       pl: {
         title: "Pączki",
         slug: "paczki",
         excerpt:
-          "Miękkie pączki drożdżowe z nadzieniem — klasyk na Tłusty Czwartek, dwujęzycznie dla kuchni w DE.",
+          "Miękkie pączki drożdżowe z nadzieniem, słodki klasyk na Tłusty Czwartek, opisany dwujęzycznie dla kuchni w DE.",
         steps: [
           {
-            text: "Rozpuść drożdże w letnim mleku z odrobiną cukru, odstaw 10 min aż spienieją.",
-            tip: "Mleko tylko letnie — za gorące zabija drożdże. Technika: [technika pączków](/pl/blog/paczki-technika).",
+            text: "Rozpuść drożdże w letnim mleku z odrobiną cukru i odstaw na 10 minut, aż zaczną się pienić.",
+            tip: "Mleko powinno być tylko letnie, bo za gorące zabija drożdże. Kolejne kroki pokazuje [technika pączków](/pl/blog/paczki-technika).",
           },
           {
-            text: "Zagnieć z mąką, resztą cukru, jajkami, masłem i szczyptą soli na gładkie, elastyczne ciasto. Przykryte odstaw aż podwoi objętość (ok. 60–90 min).",
+            text: "Zagnieć z mąką, resztą cukru, jajkami, masłem i szczyptą soli na gładkie, elastyczne ciasto. Przykryte odstaw, aż podwoi objętość, to zajmuje zwykle 60 do 90 minut.",
           },
           {
-            text: "Podziel ciasto, spłaszcz, włóż po łyżeczce odsączonego nadzienia (róża/powidła), szczelnie sklej, uformuj kulki. 20–30 min drugie wyrastanie.",
-            tip: "Nadzienie nie może być wodniste. Kontekst dnia: [Tłusty Czwartek](/pl/blog/tlusty-czwartek-przepisy).",
+            text: "Podziel ciasto, spłaszcz je, włóż po łyżeczce odsączonego nadzienia z róży lub powideł, szczelnie sklej i uformuj kulki. Odstaw na 20 do 30 minut na drugie wyrastanie.",
+            tip: "Nadzienie nie może być wodniste, bo inaczej wypłynie podczas smażenia. Kontekst tego dnia opisuje wpis o [Tłustym Czwartku](/pl/blog/tlusty-czwartek-przepisy).",
           },
           {
-            text: "Rozgrzej tłuszcz do 170–180 °C. Smaż pączki partiami na złoto, odwracaj, odsącz na papierze.",
-            tip: "Najpierw mała partia testowa. Pokrewne chrupiące ciasto: [faworki](/pl/rezepte/faworki).",
+            text: "Rozgrzej tłuszcz do 170 do 180 stopni i smaż pączki partiami na złoty kolor, odwracając je, a potem odsącz na papierze.",
+            tip: "Najpierw usmaż małą partię testową, zanim zajmiesz się resztą ciasta. Pokrewnym chrupiącym ciastem bez nadzienia są [faworki](/pl/rezepte/faworki).",
           },
           {
-            text: "Jeszcze ciepłe posyp cukrem pudrem albo lekko polukruj. Podawaj do kawy.",
+            text: "Jeszcze ciepłe posyp cukrem pudrem albo lekko polukruj i podawaj do kawy.",
           },
         ],
         seoTitle: "Pączki przepis | Drożdżowe z nadzieniem | Alemniam",
         seoDescription:
-          "Pączki w domu: ciasto drożdżowe, nadzienie, smażenie — dwujęzycznie z zakupami w DE i kontekstem Tłustego Czwartku.",
+          "Pączki w domu: ciasto drożdżowe, nadzienie, smażenie, dwujęzycznie z zakupami w DE i kontekstem Tłustego Czwartku.",
       },
     },
     ingredients: [
@@ -99,7 +99,7 @@ export const seedRecipesWave8C: Recipe[] = [
         amount: 25,
         unit: { de: "g", pl: "g" },
         group: "pantry",
-        storeHintDe: "oder Trockenhefe nach Packung",
+        storeHintDe: "Oder Trockenhefe nach Packungsangabe",
       },
       {
         id: "pc-4",
@@ -131,7 +131,7 @@ export const seedRecipesWave8C: Recipe[] = [
         amount: 200,
         unit: { de: "g", pl: "g" },
         group: "polish",
-        storeHintDe: "Polenladen — gut abtropfen lassen",
+        storeHintDe: "Aus dem Polenladen, vorher gut abtropfen lassen",
       },
       {
         id: "pc-8",
@@ -139,7 +139,7 @@ export const seedRecipesWave8C: Recipe[] = [
         amount: 1,
         unit: { de: "l", pl: "l" },
         group: "pantry",
-        storeHintDe: "genug Tiefe zum Schwimmen",
+        storeHintDe: "So viel, dass die Pączki darin schwimmen können",
       },
       {
         id: "pc-9",

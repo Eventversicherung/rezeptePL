@@ -29,53 +29,53 @@ export const seedRecipesWave8B: Recipe[] = [
         title: "Zupa ogórkowa",
         slug: "ogorkowa",
         excerpt:
-          "Saure-Gurken-Suppe mit Kartoffeln und Dill — Alltagsklassiker aus Kiszone-Gurken, nicht Żurek.",
+          "Saure-Gurken-Suppe mit Kartoffeln und Dill, ein warmer Alltagsklassiker aus fermentierten Gurken, der nichts mit Żurek zu tun hat.",
         steps: [
           {
-            text: "Brühe erhitzen; Kartoffeln und Suppengrün würfeln und weich garen — Brühe-Feeling wie bei [Rosół-Technik](/de/blog/rosol-technik), hier aber für Einlagen-Suppe.",
-            tip: "Keine klare Festtagsbrühe nötig; guter Fond reicht. Überblick: [Polnische Suppen](/de/blog/polnische-suppen).",
+            text: "Brühe erhitzen, Kartoffeln und Suppengrün würfeln und darin weich garen, ähnlich wie beim Brühe-Ansatz aus der [Rosół-Technik](/de/blog/rosol-technik), hier aber als Basis für eine Einlagen-Suppe.",
+            tip: "Eine klare Festtagsbrühe brauchst du dafür nicht, ein guter Fond reicht völlig aus. Einen Überblick über verwandte Suppen gibt [Polnische Suppen](/de/blog/polnische-suppen).",
           },
           {
-            text: "Saure Gurken (ogórki kiszone) grob raspeln oder fein würfeln; etwas Lake bereitstellen.",
-            tip: "Gurken aus dem [Kiszenie-Guide](/de/blog/kiszenie-guide) oder Glas aus dem Polenladen — Essiggurken ändern den Charakter.",
+            text: "Saure Gurken (ogórki kiszone) grob raspeln oder fein würfeln und etwas Lake beiseitestellen.",
+            tip: "Gurken kannst du selbst nach dem [Kiszenie-Guide](/de/blog/kiszenie-guide) einlegen oder fertig im Glas aus dem Polenladen kaufen, Essiggurken verändern dagegen den Charakter der Suppe deutlich.",
           },
           {
-            text: "Gurken und Lake zur Suppe geben, 10–15 Minuten sanft köcheln; mit Salz, Pfeffer und Dill abschmecken.",
+            text: "Gurken und Lake zur Suppe geben und 10 bis 15 Minuten sanft köcheln lassen, dann mit Salz, Pfeffer und Dill abschmecken.",
           },
           {
-            text: "Vom Herd nehmen, temperierte Śmietana einrühren; heiß mit frischem Dill servieren.",
-            tip: "Nicht verwechseln mit [Żurek](/de/rezepte/zurek) (Zakwas) oder kaltem [Chłodnik](/de/rezepte/chlodnik-litewski).",
+            text: "Vom Herd nehmen, temperierte Śmietana einrühren und heiß mit frischem Dill servieren.",
+            tip: "Verwechsle die Suppe nicht mit [Żurek](/de/rezepte/zurek), der auf Zakwas basiert, oder mit dem kalten [Chłodnik](/de/rezepte/chlodnik-litewski).",
           },
         ],
         seoTitle: "Zupa ogórkowa Rezept | Saure-Gurken-Suppe | Alemniam",
         seoDescription:
-          "Zupa ogórkowa kochen — saure Gurkensuppe mit Kartoffeln und Dill. Bilingual mit DE-Einkauf und Kiszenie-Tipps.",
+          "Zupa ogórkowa kochen, saure Gurkensuppe mit Kartoffeln und Dill. Bilingual mit DE-Einkauf und Kiszenie-Tipps.",
       },
       pl: {
         title: "Zupa ogórkowa",
         slug: "ogorkowa",
         excerpt:
-          "Zupa z ogórków kiszonych z ziemniakami i koperkiem — klasyk na co dzień, nie żurek.",
+          "Zupa z ogórków kiszonych z ziemniakami i koperkiem, ciepły klasyk na co dzień, który nie ma nic wspólnego z żurkiem.",
         steps: [
           {
-            text: "Podgrzej wywar; pokrój ziemniaki i włoszczyznę, gotuj do miękkości — wyczucie wywaru jak w [technice rosołu](/pl/blog/jak-ugotowac-rosol), tu pod zupę z dodatkami.",
-            tip: "Nie trzeba klarownego wywaru świątecznego; dobry fond wystarczy. Przegląd: [polskie zupy](/pl/blog/polskie-zupy).",
+            text: "Podgrzej wywar, pokrój w kostkę ziemniaki i włoszczyznę, gotuj do miękkości, podobnie jak przy przygotowaniu wywaru w [technice rosołu](/pl/blog/jak-ugotowac-rosol), tu jednak jako bazę pod zupę z dodatkami.",
+            tip: "Nie musisz gotować klarownego wywaru świątecznego, dobry fond w zupełności wystarczy. Przegląd pokrewnych zup znajdziesz w artykule o [polskich zupach](/pl/blog/polskie-zupy).",
           },
           {
-            text: "Ogórki kiszone zetrzyj lub drobno pokrój; odstaw trochę zalewy.",
-            tip: "Ogórki z [kiszenia w domu](/pl/blog/kiszenie-w-domu) albo ze słoika ze sklepu polskiego — ogórki z octu zmieniają charakter.",
+            text: "Ogórki kiszone zetrzyj lub drobno pokrój, a trochę zalewy odłóż na później.",
+            tip: "Ogórki możesz ukisić sam według [kiszenia w domu](/pl/blog/kiszenie-w-domu) albo kupić gotowe w słoiku ze sklepu polskiego, ogórki z octu zmieniają jednak charakter zupy.",
           },
           {
-            text: "Dodaj ogórki i zalewę, gotuj łagodnie 10–15 minut; dopraw solą, pieprzem i koperkiem.",
+            text: "Dodaj ogórki i zalewę, gotuj łagodnie 10 do 15 minut, a potem dopraw solą, pieprzem i koperkiem.",
           },
           {
-            text: "Zdejmij z ognia, wmieszaj letnią śmietanę; podawaj gorącą z świeżym koperkiem.",
-            tip: "Nie mylić z [żurkiem](/pl/rezepte/zurek) (zakwas) ani zimnym [chłodnikiem](/pl/rezepte/chlodnik-litewski).",
+            text: "Zdejmij z ognia, wmieszaj letnią śmietanę i podawaj gorącą ze świeżym koperkiem.",
+            tip: "Nie myl tej zupy z [żurkiem](/pl/rezepte/zurek), który opiera się na zakwasie, ani z zimnym [chłodnikiem](/pl/rezepte/chlodnik-litewski).",
           },
         ],
         seoTitle: "Zupa ogórkowa przepis | Ogórkowa | Alemniam",
         seoDescription:
-          "Zupa ogórkowa — przepis z ziemniakami i koperkiem. Dwujęzycznie z zakupami w DE i wskazówkami kiszenia.",
+          "Zupa ogórkowa, przepis z ziemniakami i koperkiem. Dwujęzycznie z zakupami w DE i wskazówkami kiszenia.",
       },
     },
     ingredients: [
@@ -85,7 +85,7 @@ export const seedRecipesWave8B: Recipe[] = [
         amount: 1.5,
         unit: { de: "l", pl: "l" },
         group: "pantry",
-        storeHintDe: "Eigenbrühe oder guter Fond — nicht nur Würfel",
+        storeHintDe: "Am besten Eigenbrühe oder ein guter Fond, nicht nur Brühwürfel",
       },
       {
         id: "og-2",
@@ -114,7 +114,7 @@ export const seedRecipesWave8B: Recipe[] = [
         amount: 4,
         unit: { de: "Stück", pl: "szt." },
         group: "polish",
-        storeHintDe: "Polenladen / Kiszone — nicht Essiggurken",
+        storeHintDe: "Aus dem Polenladen, wirklich kiszone Gurken und keine Essiggurken",
         substitute: {
           de: "Gute fermentierte Salzgurken aus dem Kühlregal",
           pl: "Dobre ogórki kiszone z lodówki supermarketu",
@@ -126,7 +126,7 @@ export const seedRecipesWave8B: Recipe[] = [
         amount: 100,
         unit: { de: "ml", pl: "ml" },
         group: "polish",
-        storeHintDe: "Aus dem gleichen Glas dosieren",
+        storeHintDe: "Einfach aus dem gleichen Glas dosieren",
       },
       {
         id: "og-7",
@@ -134,7 +134,7 @@ export const seedRecipesWave8B: Recipe[] = [
         amount: 150,
         unit: { de: "g", pl: "g" },
         group: "dairy",
-        storeHintDe: "Schmand 20–24 % als Alltagsersatz",
+        storeHintDe: "Schmand mit 20 bis 24 Prozent Fett als Alltagsersatz",
       },
       {
         id: "og-8",
@@ -178,55 +178,55 @@ export const seedRecipesWave8B: Recipe[] = [
         title: "Kapuśniak",
         slug: "kapusniak",
         excerpt:
-          "Sauerkrautsuppe mit Kartoffeln und geräucherter Wurst — Suppe, kein Bigos.",
+          "Sauerkrautsuppe mit Kartoffeln und geräucherter Wurst, ein löffelbarer Suppenklassiker und klar kein Bigos.",
         steps: [
           {
-            text: "Rauchfleisch oder Kiełbasa anbraten, Zwiebel glasig schwitzen; mit Brühe aufgießen.",
-            tip: "Wurstwahl: [Kiełbasa-Arten](/de/blog/kielbasa-arten) — geräuchert trägt besser als biała.",
+            text: "Rauchfleisch oder Kiełbasa anbraten, Zwiebel glasig anschwitzen und mit Brühe aufgießen.",
+            tip: "Bei der Wurstwahl hilft [Kiełbasa-Arten](/de/blog/kielbasa-arten), denn geräucherte Wurst trägt die Suppe besser als milde biała kiełbasa.",
           },
           {
-            text: "Kartoffeln und Karotte zugeben; Sauerkraut ausdrücken, grob schneiden, in den Topf geben.",
-            tip: "Kapusta-Qualität entscheidet — Kontext im [Kiszenie-Guide](/de/blog/kiszenie-guide).",
+            text: "Kartoffeln und Karotte zugeben, Sauerkraut ausdrücken, grob schneiden und ebenfalls in den Topf geben.",
+            tip: "Die Qualität der Kapusta entscheidet über den Geschmack der ganzen Suppe, mehr dazu im [Kiszenie-Guide](/de/blog/kiszenie-guide).",
           },
           {
-            text: "Mit Lorbeer, Piment und Majoran 40–50 Minuten sanft köcheln; abschmecken.",
-            tip: "Majoran sparsam und frisch genug — Lexikon: [Majeranek](/de/blog/majeranek).",
+            text: "Mit Lorbeer, Piment und Majoran 40 bis 50 Minuten sanft köcheln lassen und dann abschmecken.",
+            tip: "Majoran sparsam und möglichst frisch dosieren, mehr Hintergrund liefert das Lexikon zu [Majeranek](/de/blog/majeranek).",
           },
           {
-            text: "Heiß mit Brot servieren. Optional Schmand-Klecks.",
-            tip: "Das ist Suppe mit Löffel — nicht [Bigos](/de/rezepte/bigos) (Schmorgericht). Schwester-Suppe: [Ogórkowa](/de/rezepte/ogorkowa).",
+            text: "Heiß mit Brot servieren, optional mit einem Klecks Schmand.",
+            tip: "Das hier ist eine Suppe zum Löffeln, kein Schmorgericht wie [Bigos](/de/rezepte/bigos). Eine verwandte Schwester-Suppe ist [Ogórkowa](/de/rezepte/ogorkowa).",
           },
         ],
         seoTitle: "Kapuśniak Rezept | Sauerkrautsuppe | Alemniam",
         seoDescription:
-          "Kapuśniak kochen — polnische Sauerkrautsuppe mit Wurst und Kartoffeln. Bilingual, klar getrennt von Bigos.",
+          "Kapuśniak kochen, polnische Sauerkrautsuppe mit Wurst und Kartoffeln. Bilingual, klar getrennt von Bigos.",
       },
       pl: {
         title: "Kapuśniak",
         slug: "kapusniak",
         excerpt:
-          "Zupa z kapusty kiszonej z ziemniakami i wędzoną kiełbasą — zupa, nie bigos.",
+          "Zupa z kapusty kiszonej z ziemniakami i wędzoną kiełbasą, klasyczna zupa na łyżkę, zdecydowanie nie bigos.",
         steps: [
           {
-            text: "Podsmaż wędzonkę lub kiełbasę, zeszklij cebulę; zalej wywarem.",
-            tip: "Wybór kiełbasy: [rodzaje kiełbasy](/pl/blog/rodzaje-kielbasy) — wędzona niesie lepiej niż biała.",
+            text: "Podsmaż wędzonkę lub kiełbasę, zeszklij cebulę i zalej wywarem.",
+            tip: "Przy wyborze kiełbasy pomogą [rodzaje kiełbasy](/pl/blog/rodzaje-kielbasy), bo wędzona niesie smak zupy lepiej niż łagodna biała kiełbasa.",
           },
           {
-            text: "Dodaj ziemniaki i marchew; kapustę odciśnij, pokrój, wrzuć do garnka.",
-            tip: "Jakość kapusty decyduje — kontekst w [kiszeniu w domu](/pl/blog/kiszenie-w-domu).",
+            text: "Dodaj ziemniaki i marchew, kapustę odciśnij, pokrój i również wrzuć do garnka.",
+            tip: "Jakość kapusty decyduje o smaku całej zupy, więcej w [kiszeniu w domu](/pl/blog/kiszenie-w-domu).",
           },
           {
-            text: "Gotuj łagodnie 40–50 minut z liściem laurowym, zielem angielskim i majerankiem; dopraw.",
-            tip: "Majeranek oszczędnie i świeżo — leksykon: [majeranek](/pl/blog/majeranek-leksykon).",
+            text: "Gotuj łagodnie 40 do 50 minut z liściem laurowym, zielem angielskim i majerankiem, a potem dopraw.",
+            tip: "Majeranek dodawaj oszczędnie i możliwie świeży, więcej opisuje leksykon [majeranku](/pl/blog/majeranek-leksykon).",
           },
           {
-            text: "Podawaj gorący z chlebem. Opcjonalnie łyżka śmietany.",
-            tip: "To zupa na łyżkę — nie [bigos](/pl/rezepte/bigos) (danie duszone). Siostrzana zupa: [ogórkowa](/pl/rezepte/ogorkowa).",
+            text: "Podawaj gorący z chlebem, opcjonalnie z łyżką śmietany.",
+            tip: "To zupa na łyżkę, nie danie duszone jak [bigos](/pl/rezepte/bigos). Siostrzana zupa to [ogórkowa](/pl/rezepte/ogorkowa).",
           },
         ],
         seoTitle: "Kapuśniak przepis | Zupa z kapusty | Alemniam",
         seoDescription:
-          "Kapuśniak — zupa z kapusty kiszonej z kiełbasą i ziemniakami. Dwujęzycznie, jasno odróżniony od bigosu.",
+          "Kapuśniak, zupa z kapusty kiszonej z kiełbasą i ziemniakami. Dwujęzycznie, jasno odróżniony od bigosu.",
       },
     },
     ingredients: [
@@ -243,7 +243,7 @@ export const seedRecipesWave8B: Recipe[] = [
         amount: 500,
         unit: { de: "g", pl: "g" },
         group: "polish",
-        storeHintDe: "Polenladen — nicht zu süß industriell",
+        storeHintDe: "Aus dem Polenladen, nicht zu süß-industriell",
       },
       {
         id: "ka-3",
@@ -251,7 +251,7 @@ export const seedRecipesWave8B: Recipe[] = [
         amount: 250,
         unit: { de: "g", pl: "g" },
         group: "polish",
-        storeHintDe: "Polenladen — siehe Kiełbasa-Arten",
+        storeHintDe: "Aus dem Polenladen, siehe auch Kiełbasa-Arten",
       },
       {
         id: "ka-4",
@@ -280,7 +280,7 @@ export const seedRecipesWave8B: Recipe[] = [
         amount: 1,
         unit: { de: "TL", pl: "łyżeczka" },
         group: "spices",
-        storeHintDe: "Polenladen — getrocknet, aromatisch",
+        storeHintDe: "Aus dem Polenladen, getrocknet und aromatisch",
       },
       {
         id: "ka-8",

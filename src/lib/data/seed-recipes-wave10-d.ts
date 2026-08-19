@@ -36,59 +36,61 @@ export const seedRecipesWave10D: Recipe[] = [
         title: "Makaron z serem",
         slug: "makaron-z-serem",
         excerpt:
-          "Heiße Nudeln mit Twaróg und Butter — süß mit Zucker oder salzig-haushaltlich. Diaspora-Alltagsteller, klar getrennt von Leniwe und Łazanki.",
+          "Heiße Nudeln mit Twaróg und Butter, ein PRL-Klassiker der Alltagsküche, süß mit Zucker oder salzig-haushaltlich.",
         steps: [
           {
-            text: "Nudeln in reichlich Salzwasser al dente kochen; 1 Tasse Nudelwasser abschöpfen, abgießen.",
-            tip: "Kurze Eiernudeln oder Spiralen funktionieren gut. Twaróg-Qualität und Abseihen: [Twaróg-Guide](/de/blog/twarog-deutschland).",
+            text: "Nudeln in reichlich Salzwasser al dente kochen, eine Tasse Nudelwasser abschöpfen und dann abgießen.",
+            tip: "Kurze Eiernudeln oder Spiralen funktionieren am besten. Zur Twaróg-Qualität und zum Abseihen findest du mehr im [Twaróg-Guide](/de/blog/twarog-deutschland).",
           },
           {
-            text: "Butter in der noch heißen Nudelpfanne oder im Topf schmelzen; abgetropften Twaróg oder Speisequark zerdrücken und unterheben.",
-            tip: "Zu nasser Quark macht einen Brei — abseihen wie im Twaróg-Guide. Ersatzlogik: [Ersatzprodukte DE](/de/blog/ersatzprodukte-de).",
+            text: "Butter in der noch heißen Nudelpfanne oder im Topf schmelzen, den abgetropften Twaróg oder Speisequark zerdrücken und unterheben.",
+            tip: "Zu nasser Quark macht schnell einen Brei, deshalb lieber wie im Twaróg-Guide beschrieben abseihen. Zur Ersatzlogik hilft der Beitrag [Ersatzprodukte DE](/de/blog/ersatzprodukte-de).",
           },
           {
-            text: "Nudeln zurückgeben, mit etwas Nudelwasser zu einer cremigen, aber nicht wässrigen Masse binden.",
+            text: "Die Nudeln zurückgeben und mit etwas Nudelwasser zu einer cremigen, aber nicht wässrigen Masse binden.",
+            tip: "Gib das Wasser löffelweise dazu und rühre zwischendurch, so behältst du die Kontrolle über die Konsistenz.",
           },
           {
-            text: "Süß: Zucker und optional Vanille/Zitronenschale. Salzig: Salz, Pfeffer, optional Dill oder geröstete Semmelbrösel in Butter.",
-            tip: "Das ist kein Teig-Klößchen wie [Pierogi leniwe](/de/rezepte/pierogi-leniwe) und kein Kapusta-Nudelteller wie [Łazanki](/de/rezepte/lazanki).",
+            text: "Süß abschmecken mit Zucker und optional Vanille oder Zitronenschale, salzig mit Salz, Pfeffer, optional Dill oder in Butter geröstete Semmelbrösel.",
+            tip: "Das ist kein Teig-Klößchen wie [Pierogi leniwe](/de/rezepte/pierogi-leniwe) und kein Kapusta-Nudelteller wie [Łazanki](/de/rezepte/lazanki), hier bleibt es bei Pasta und Quark.",
           },
           {
-            text: "Sofort servieren — auf Tellern verteilt, optional mit mehr Butter oder Bröseln. Reste kalt oder kurz in der Pfanne aufwärmen.",
+            text: "Sofort servieren, auf Tellern verteilt und optional mit mehr Butter oder Bröseln. Reste kalt oder kurz in der Pfanne aufwärmen.",
           },
         ],
         seoTitle: "Makaron z serem Rezept | Nudeln mit Twaróg | Alemniam",
         seoDescription:
-          "Makaron z serem — Nudeln mit Twaróg, Butter und Zucker oder salzig. Bilingualer Alltagsteller. Nicht Leniwe, nicht Łazanki.",
+          "Makaron z serem, Nudeln mit Twaróg, Butter und Zucker oder salzig. Bilingualer Alltagsteller, nicht Leniwe, nicht Łazanki.",
       },
       pl: {
         title: "Makaron z serem",
         slug: "makaron-z-serem",
         excerpt:
-          "Gorący makaron z twarogiem i masłem — na słodko z cukrem albo wytrawnie domowo. Talerz diasporowy, wyraźnie inny niż leniwe i łazanki.",
+          "Gorący makaron z twarogiem i masłem, klasyk kuchni z czasów PRL, na słodko z cukrem albo wytrawnie domowo.",
         steps: [
           {
-            text: "Ugotuj makaron al dente w osolonej wodzie; odlej szklankę wody z gotowania, odcedź.",
-            tip: "Krótki makaron jajeczny lub świderki działają dobrze. Jakość twarogu i odsączanie: [przewodnik po twarogu](/pl/blog/twarog-w-niemczech).",
+            text: "Ugotuj makaron al dente w osolonej wodzie, odlej szklankę wody z gotowania i odcedź resztę.",
+            tip: "Krótki makaron jajeczny lub świderki działają najlepiej. O jakości twarogu i odsączaniu więcej w [przewodniku po twarogu](/pl/blog/twarog-w-niemczech).",
           },
           {
-            text: "W jeszcze gorącym garnku rozpuść masło; rozduś odsączony twaróg lub Speisequark i wmieszaj.",
-            tip: "Za mokry twaróg daje papkę — odsącz jak w przewodniku. Zamienniki: [zamienniki składników](/pl/blog/zamienniki-skladnikow).",
+            text: "W jeszcze gorącym garnku rozpuść masło, rozduś odsączony twaróg lub Speisequark i wmieszaj go do środka.",
+            tip: "Za mokry twaróg daje papkę, więc lepiej odsącz go zgodnie z przewodnikiem. Przy zamiennikach pomaga artykuł [zamienniki składników](/pl/blog/zamienniki-skladnikow).",
           },
           {
-            text: "Wróć makaron, zwiąż odrobiną wody z gotowania do kremowej, ale nie wodnistej masy.",
+            text: "Wróć makaron do garnka i zwiąż go odrobiną wody z gotowania do kremowej, ale nie wodnistej masy.",
+            tip: "Dolewaj wodę łyżką po łyżce i mieszaj między dolewkami, tak najłatwiej kontrolujesz konsystencję.",
           },
           {
-            text: "Na słodko: cukier i opcjonalnie wanilia/skórka cytryny. Na wytrawnie: sól, pieprz, opcjonalnie koperek lub bułka tarta na maśle.",
-            tip: "To nie kluseczki jak [pierogi leniwe](/pl/rezepte/pierogi-leniwe) i nie talerz z kapustą jak [łazanki](/pl/rezepte/lazanki).",
+            text: "Dopraw na słodko cukrem i opcjonalnie wanilią lub skórką cytryny, albo na wytrawnie solą, pieprzem, opcjonalnie koperkiem lub bułką tartą podsmażoną na maśle.",
+            tip: "To nie kluseczki jak [pierogi leniwe](/pl/rezepte/pierogi-leniwe) i nie talerz z kapustą jak [łazanki](/pl/rezepte/lazanki), tu zostaje makaron z twarogiem.",
           },
           {
-            text: "Podawaj od razu — na talerzach, opcjonalnie z dodatkowym masłem lub bułką. Resztki na zimno albo krótko na patelni.",
+            text: "Podawaj od razu, rozłożone na talerzach, opcjonalnie z dodatkowym masłem lub bułką. Resztki jedz na zimno albo krótko odgrzej na patelni.",
           },
         ],
         seoTitle: "Makaron z serem przepis | Makaron z twarogiem | Alemniam",
         seoDescription:
-          "Makaron z serem — makaron z twarogiem, masłem i cukrem lub wytrawnie. Dwujęzyczny talerz na co dzień. Nie leniwe, nie łazanki.",
+          "Makaron z serem, makaron z twarogiem, masłem i cukrem lub wytrawnie. Dwujęzyczny talerz na co dzień, nie leniwe, nie łazanki.",
       },
     },
     ingredients: [
@@ -101,7 +103,7 @@ export const seedRecipesWave10D: Recipe[] = [
         amount: 350,
         unit: { de: "g", pl: "g" },
         group: "pantry",
-        storeHintDe: "Supermarkt — keine Spezialform nötig",
+        storeHintDe: "Aus dem Supermarkt, keine Spezialform nötig",
       },
       {
         id: "mzs-2",
@@ -113,10 +115,10 @@ export const seedRecipesWave10D: Recipe[] = [
         unit: { de: "g", pl: "g" },
         group: "polish",
         storeHintDe:
-          "Polenladen oder Supermarkt + abseihen — siehe Twaróg-Guide",
+          "Polenladen oder Supermarkt und dann abseihen, siehe Twaróg-Guide",
         substitute: {
-          de: "Magerquark gut abgetropft — ehrlich benennen",
-          pl: "Magerquark dobrze odsączony — nazwać uczciwie",
+          de: "Gut abgetropfter Magerquark, das solltest du dann ehrlich benennen",
+          pl: "Dobrze odsączony Magerquark, warto to wtedy uczciwie nazwać",
         },
       },
       {

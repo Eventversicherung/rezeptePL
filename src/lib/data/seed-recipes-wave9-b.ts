@@ -29,53 +29,55 @@ export const seedRecipesWave9B: Recipe[] = [
         title: "Sałatka jarzynowa",
         slug: "salatka-jarzynowa",
         excerpt:
-          "Polnischer Gemüsesalat mit Mayo — Fest- und Sonntagsbeilage, klar getrennt von Mizeria.",
+          "Sałatka jarzynowa ist der cremige polnische Gemüsesalat mit Mayonnaise, der zu Ostern und an vielen Sonntagen neben Schinken und Wurst auf dem Tisch steht.",
         steps: [
           {
-            text: "Kartoffeln, Karotten und Sellerie in Salzwasser weich garen; Erbsen kurz mitkochen oder aus dem Glas abtropfen. Alles abkühlen lassen.",
-            tip: "Vortag möglich — kalt mischen hält besser. Menü-Rahmen: [Wielkanoc-Speiseplan](/de/blog/wielkanoc-speiseplan).",
+            text: "Kartoffeln, Karotten und Sellerie in Salzwasser weich garen, dabei die Erbsen entweder kurz mitkochen oder aus dem Glas abtropfen lassen. Alles vollständig abkühlen lassen.",
+            tip: "Das Gemüse lässt sich gut am Vortag kochen, denn kalt vermischt sich alles gleichmäßiger mit der Mayonnaise. Der passende Menürahmen steht im [Wielkanoc-Speiseplan](/de/blog/wielkanoc-speiseplan).",
           },
           {
-            text: "Gemüse und Apfel in kleine, gleichmäßige Würfel schneiden; saure Gurken fein würfeln; hartgekochte Eier hacken.",
-            tip: "Einheitliche Würfel entscheiden mehr als exotische Zutaten — Alltagseinkauf: [Polenladen](/de/blog/polenladen-einkaufen).",
+            text: "Das Gemüse und den Apfel in kleine, gleichmäßige Würfel schneiden, die sauren Gurken fein würfeln und die hartgekochten Eier klein hacken.",
+            tip: "Gleichmäßige Würfelgröße entscheidet mehr über das Ergebnis als exotische Zutaten. Für den Alltagseinkauf lohnt sich ein Blick in den [Polenladen](/de/blog/polenladen-einkaufen).",
           },
           {
-            text: "Mit Mayonnaise und etwas Gurkenlake oder Senf vermengen; mit Salz und Pfeffer abschmecken. Mindestens eine Stunde kühlen.",
+            text: "Alles mit Mayonnaise und etwas Gurkenlake oder Senf vermengen und mit Salz und Pfeffer abschmecken. Mindestens eine Stunde im Kühlschrank durchziehen lassen.",
+            tip: "Erst nach dem Kühlen noch einmal abschmecken, denn die Aromen von Gurke und Senf ziehen mit der Zeit stärker in den Salat ein.",
           },
           {
-            text: "Kalt servieren neben [Kotlet schabowy](/de/rezepte/kotlet-schabowy) oder zur Osterplatte — nicht mit [Mizeria](/de/rezepte/mizeria) verwechseln (Gurke/Śmietana).",
-            tip: "Sonntagsteller-Logik: [polnisches Sonntagsessen](/de/blog/sonntagsessen-polnisch).",
+            text: "Kalt servieren, klassisch neben [Kotlet schabowy](/de/rezepte/kotlet-schabowy) oder als Teil der Osterplatte. Nicht mit [Mizeria](/de/rezepte/mizeria) verwechseln, denn das ist ein einfacher Gurkensalat mit Śmietana.",
+            tip: "Der Menürahmen für den ganzen Tisch steht im [polnischen Sonntagsessen](/de/blog/sonntagsessen-polnisch).",
           },
         ],
         seoTitle: "Sałatka jarzynowa Rezept | Polnischer Gemüsesalat | Alemniam",
         seoDescription:
-          "Sałatka jarzynowa — polnischer Gemüsesalat mit Mayo für Ostern und Sonntag. Bilingual mit DE-Einkauf, klar ≠ Mizeria.",
+          "Sałatka jarzynowa: polnischer Gemüsesalat mit Mayo für Ostern und Sonntag, bilingual mit Einkaufstipps für Deutschland, klar getrennt von Mizeria.",
       },
       pl: {
         title: "Sałatka jarzynowa",
         slug: "salatka-jarzynowa",
         excerpt:
-          "Klasyczna sałatka z majonezem — na święta i niedzielę, jasno inna niż mizeria.",
+          "Sałatka jarzynowa to kremowa polska sałatka z majonezem, która na Wielkanoc i wiele niedziel stoi na stole obok szynki i wędlin.",
         steps: [
           {
-            text: "Ugotuj ziemniaki, marchew i seler w osolonej wodzie; groszek krótko dogotuj lub odsącz ze słoika. Całość ostudź.",
-            tip: "Można dzień wcześniej — zimne mieszanie trzyma się lepiej. Ramy menu: [menu wielkanocne](/pl/blog/menu-wielkanocne).",
+            text: "Ugotuj ziemniaki, marchew i seler w osolonej wodzie, a groszek krótko dogotuj albo odsącz ze słoika. Całość ostudź do końca.",
+            tip: "Warzywa spokojnie ugotujesz dzień wcześniej, bo zimne łączą się z majonezem równiej. Ramy menu opisuje [menu wielkanocne](/pl/blog/menu-wielkanocne).",
           },
           {
-            text: "Pokrój warzywa i jabłko w drobną, równą kostkę; ogórki kiszone drobno; jaja na twardo posiekaj.",
-            tip: "Równa kostka ważniejsza niż egzotyka — zakupy: [sklep polski](/pl/blog/sklep-polski-zakupy).",
+            text: "Pokrój warzywa i jabłko w drobną, równą kostkę, ogórki kiszone drobniej, a jaja na twardo posiekaj.",
+            tip: "Równa wielkość kostki ważniejsza niż egzotyczne dodatki. Na co dzień po składniki warto zajrzeć do [sklepu polskiego](/pl/blog/sklep-polski-zakupy).",
           },
           {
-            text: "Wymieszaj z majonezem i odrobiną zalewy lub musztardy; dopraw solą i pieprzem. Schłodź co najmniej godzinę.",
+            text: "Wymieszaj wszystko z majonezem i odrobiną zalewy lub musztardy, dopraw solą i pieprzem. Schłodź co najmniej godzinę.",
+            tip: "Dopraw sałatkę jeszcze raz po schłodzeniu, bo smak ogórka i musztardy z czasem mocniej się wyczuwa.",
           },
           {
-            text: "Podawaj zimną obok [kotleta schabowego](/pl/rezepte/kotlet-schabowy) lub na wielkanocnym stole — nie mylić z [mizerią](/pl/rezepte/mizeria) (ogórek/śmietana).",
-            tip: "Logika niedzieli: [obiad niedzielny](/pl/blog/obiad-niedzielny).",
+            text: "Podawaj na zimno, klasycznie obok [kotleta schabowego](/pl/rezepte/kotlet-schabowy) lub jako część wielkanocnego stołu. Nie myl jej z [mizerią](/pl/rezepte/mizeria), bo to prosta sałatka z ogórka ze śmietaną.",
+            tip: "Ramy całego stołu opisuje [obiad niedzielny](/pl/blog/obiad-niedzielny).",
           },
         ],
         seoTitle: "Sałatka jarzynowa przepis | Sałatka z majonezem | Alemniam",
         seoDescription:
-          "Sałatka jarzynowa — majonezowa sałatka warzywna na Wielkanoc i niedzielę. Dwujęzycznie, jasno ≠ mizeria.",
+          "Sałatka jarzynowa: majonezowa sałatka warzywna na Wielkanoc i niedzielę, dwujęzycznie i wyraźnie inna niż mizeria.",
       },
     },
     ingredients: [
@@ -99,7 +101,7 @@ export const seedRecipesWave9B: Recipe[] = [
         amount: 150,
         unit: { de: "g", pl: "g" },
         group: "produce",
-        storeHintDe: "Suppengrün-Sellerie oder Knolle — fest, nicht matschig",
+        storeHintDe: "Suppengrün-Sellerie oder Knolle, fest und nicht matschig",
       },
       {
         id: "sj-4",
@@ -114,7 +116,7 @@ export const seedRecipesWave9B: Recipe[] = [
         amount: 3,
         unit: { de: "Stück", pl: "szt." },
         group: "polish",
-        storeHintDe: "Polenladen — nicht süß-sauer industriell",
+        storeHintDe: "Im Polenladen, nicht die industriell süß-saure Variante",
       },
       {
         id: "sj-6",
@@ -136,10 +138,10 @@ export const seedRecipesWave9B: Recipe[] = [
         amount: 250,
         unit: { de: "g", pl: "g" },
         group: "pantry",
-        storeHintDe: "Gute Mayo; polnische Marken im Polenladen oft runder",
+        storeHintDe: "Eine gute Mayonnaise nehmen, polnische Marken im Polenladen schmecken oft runder",
         substitute: {
-          de: "Mayo + etwas Joghurt für leichtere Variante (Hausstil benennen)",
-          pl: "Majonez + trochę jogurtu na lżejszą wersję (nazwać wariantem domu)",
+          de: "Mayonnaise mit etwas Joghurt strecken ergibt eine leichtere Hausvariante",
+          pl: "Majonez wymieszany z odrobiną jogurtu daje lżejszy wariant domowy",
         },
       },
       {
@@ -183,55 +185,55 @@ export const seedRecipesWave9B: Recipe[] = [
         title: "Botwinka",
         slug: "botwinka",
         excerpt:
-          "Frühlings-Suppe aus junger Rote Bete inkl. Blätter — warm, grün-rosa, klar ≠ Barszcz und ≠ Chłodnik.",
+          "Botwinka ist die warme Frühlingssuppe aus jungen Rote-Bete-Knollen mitsamt ihren Blättern und Stielen, die im Mai und Juni frisch auf den Markt kommen.",
         steps: [
           {
-            text: "Junge Rote Bete putzen: Knollen schälen und würfeln, Blätter und Stiele waschen, Stiele klein schneiden, Blätter separat bereitlegen.",
-            tip: "Ohne frische Botwina: junge Bund-Bete mit Grün — Einkauf und Saison im [Suppen-Überblick](/de/blog/polnische-suppen).",
+            text: "Die junge Rote Bete putzen: die Knollen schälen und würfeln, Blätter und Stiele waschen, die Stiele klein schneiden und die Blätter separat bereitlegen.",
+            tip: "Gemeint ist echte Botwina, also junge Bund-Rote-Bete mit frischem Grün, keine ausgewachsene Knolle. Wann sie Saison hat und wo du sie findest, steht im [Suppen-Überblick](/de/blog/polnische-suppen).",
           },
           {
-            text: "In leichter Brühe Knollen und Stiele weich garen; Kartoffeln zugeben. Blätter erst gegen Ende einlegen, damit sie Farbe behalten.",
-            tip: "Das ist keine klare Festtagsbrühe wie [Barszcz](/de/rezepte/barszcz-czerwony) — hier bleiben Gemüse und Grün im Topf.",
+            text: "In leichter Brühe die Knollen und Stiele weich garen und die Kartoffeln dazugeben. Die Blätter erst gegen Ende einlegen, damit sie ihre Farbe behalten.",
+            tip: "Anders als beim klaren Festtagssud für [Barszcz](/de/rezepte/barszcz-czerwony) wird hier nichts durchgeseiht, denn Gemüse und Grün bleiben Teil der Suppe.",
           },
           {
-            text: "Mit Salz, Pfeffer und etwas Säure (Zitrone oder etwas Lake) abschmecken; vom Herd nehmen und temperierte Śmietana einrühren.",
-            tip: "Śmietana-Wahl: [Śmietana/Schmand](/de/blog/smietana-schmand) — nicht kochend einrühren.",
+            text: "Mit Salz, Pfeffer und etwas Säure wie Zitronensaft oder Gurkenlake abschmecken, dann vom Herd nehmen und temperierte Śmietana einrühren.",
+            tip: "Zur Wahl des Milchprodukts hilft der Beitrag zu [Śmietana und Schmand](/de/blog/smietana-schmand). Die Śmietana nie in die kochende Suppe geben, sonst flockt sie leicht aus.",
           },
           {
-            text: "Heiß mit Dill und optional Ei servieren. Nicht kalt wie [Chłodnik](/de/rezepte/chlodnik-litewski) und nicht Gurkensäure wie [Ogórkowa](/de/rezepte/ogorkowa).",
-            tip: "Technik-Abgrenzung klarer Bete-Brühe: [Barszcz-Technik](/de/blog/barszcz-technik).",
+            text: "Heiß mit Dill und optional einem halbierten Ei servieren.",
+            tip: "Botwinka wird warm serviert, anders als der kalte [Chłodnik](/de/rezepte/chlodnik-litewski) im Hochsommer und anders als die kräftig saure [Ogórkowa](/de/rezepte/ogorkowa) mit Gurke.",
           },
         ],
         seoTitle: "Botwinka Rezept | Junge Rote-Bete-Suppe | Alemniam",
         seoDescription:
-          "Botwinka kochen — Suppe aus junger Rote Bete mit Blättern. Warm und saisonal, klar getrennt von Barszcz und Chłodnik.",
+          "Botwinka kochen: Suppe aus junger Rote Bete mit Blättern, warm und saisonal, klar getrennt von Barszcz und Chłodnik.",
       },
       pl: {
         title: "Botwinka",
         slug: "botwinka",
         excerpt:
-          "Wiosenna zupa z młodych buraków z botwiną — ciepła, zielono-różowa, jasno ≠ barszcz i ≠ chłodnik.",
+          "Botwinka to ciepła, wiosenna zupa z młodych buraczków razem z liśćmi i ogonkami, które pojawiają się na straganach w maju i czerwcu.",
         steps: [
           {
-            text: "Oczyść botwinę: bulwy obierz i pokrój, liście i ogonki umyj; ogonki drobno, liście odłóż osobno.",
-            tip: "Bez świeżej botwiny: młode buraki z naćią — zakupy i sezon w [przeglądzie zup](/pl/blog/polskie-zupy).",
+            text: "Oczyść botwinę: bulwy obierz i pokrój, liście i ogonki umyj, ogonki potnij drobno, a liście odłóż osobno.",
+            tip: "Chodzi o prawdziwą botwinę, czyli młode buraczki w pęczku ze świeżą nacią, a nie o dojrzałą bulwę. Sezon i miejsce zakupu opisuje [przegląd zup](/pl/blog/polskie-zupy).",
           },
           {
-            text: "W lekkim wywarze ugotuj bulwy i ogonki; dodaj ziemniaki. Liście wrzuć pod koniec, żeby zachowały kolor.",
-            tip: "To nie klarowny barszcz świąteczny jak [barszcz czerwony](/pl/rezepte/barszcz-czerwony) — tu warzywa i zieleń zostają w garnku.",
+            text: "W lekkim wywarze ugotuj bulwy i ogonki, dodaj ziemniaki. Liście wrzuć dopiero pod koniec, żeby zachowały kolor.",
+            tip: "W przeciwieństwie do klarownego wywaru na świąteczny [barszcz czerwony](/pl/rezepte/barszcz-czerwony) tutaj nic się nie przecedza, bo warzywa i zieleń zostają w zupie.",
           },
           {
-            text: "Dopraw solą, pieprzem i odrobiną kwasu (cytryna lub zalewa); zdejmij z ognia i wmieszaj letnią śmietanę.",
-            tip: "Wybór nabiału: [śmietana/Schmand](/pl/blog/smietana-czy-schmand) — nie wlewaj do wrzątku.",
+            text: "Dopraw solą, pieprzem i odrobiną kwasu, na przykład sokiem z cytryny lub zalewą, zdejmij z ognia i wmieszaj letnią śmietanę.",
+            tip: "Przy wyborze nabiału pomaga wpis o [śmietanie i Schmandzie](/pl/blog/smietana-czy-schmand). Śmietany nigdy nie wlewaj do wrzącej zupy, bo łatwo się zważy.",
           },
           {
-            text: "Podawaj gorącą z koperkiem i opcjonalnie jajkiem. Nie zimna jak [chłodnik](/pl/rezepte/chlodnik-litewski) i nie z kwasem ogórkowym jak [ogórkowa](/pl/rezepte/ogorkowa).",
-            tip: "Rozróżnienie techniki klarownego wywaru: [jak ugotować barszcz](/pl/blog/jak-ugotowac-barszcz).",
+            text: "Podawaj gorącą z koperkiem i opcjonalnie połówką jajka.",
+            tip: "Botwinkę podaje się na ciepło, inaczej niż zimny letni [chłodnik](/pl/rezepte/chlodnik-litewski) i inaczej niż wyraźnie kwaśna [ogórkowa](/pl/rezepte/ogorkowa) na ogórkach.",
           },
         ],
         seoTitle: "Botwinka przepis | Zupa z botwiny | Alemniam",
         seoDescription:
-          "Botwinka — zupa z młodych buraków z liśćmi. Ciepła i sezonowa, jasno odróżniona od barszczu i chłodnika.",
+          "Botwinka: zupa z młodych buraków z liśćmi, ciepła i sezonowa, wyraźnie odróżniona od barszczu i chłodnika.",
       },
     },
     ingredients: [
@@ -244,7 +246,7 @@ export const seedRecipesWave9B: Recipe[] = [
         amount: 1,
         unit: { de: "Bund", pl: "pęczek" },
         group: "produce",
-        storeHintDe: "Frühjahr/Markt — Bund mit frischem Grün; sonst junge Knollen + Blattspinat ehrlich als Notvariante",
+        storeHintDe: "Im Frühjahr auf dem Markt als Bund mit frischem Grün erhältlich, sonst ehrlich als Notvariante junge Knollen mit Blattspinat kombinieren",
       },
       {
         id: "bw-2",
@@ -273,7 +275,7 @@ export const seedRecipesWave9B: Recipe[] = [
         amount: 150,
         unit: { de: "g", pl: "g" },
         group: "dairy",
-        storeHintDe: "Schmand 20–24 % — siehe Śmietana-Guide",
+        storeHintDe: "Schmand mit 20 bis 24 % Fettgehalt, siehe Śmietana-Guide",
       },
       {
         id: "bw-6",

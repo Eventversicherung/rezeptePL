@@ -30,59 +30,63 @@ export const seedRecipesWave9C: Recipe[] = [
         title: "Babka",
         slug: "babka",
         excerpt:
-          "Babka wielkanocna — luftiger Hefegugelhupf aus der Form, festlich für Ostern in DE-Küchen.",
+          "Babka wielkanocna ist der luftige polnische Hefegugelhupf aus der geriffelten Form, der zu Ostern fast in jedem polnischen Haushalt auf dem Tisch steht.",
         steps: [
           {
-            text: "Hefe in lauwarmer Milch mit etwas Zucker auflösen, 10 Minuten gehen lassen, bis sie schäumt.",
-            tip: "Milch nur lauwarm — zu heiß tötet Hefe. Hefe-Kontext: [Makowiec-Technik](/de/blog/makowiec-technik) (die Mohnrolle bleibt beim Makowiec-Rezept).",
+            text: "Die Hefe in lauwarmer Milch mit etwas Zucker auflösen und etwa 10 Minuten gehen lassen, bis sie schäumt.",
+            tip: "Die Milch darf nur lauwarm sein, denn zu heiße Flüssigkeit tötet die Hefe sofort ab. Wie du das richtige Gefühl für Hefeteig entwickelst, zeigt der [Makowiec-Technik](/de/blog/makowiec-technik)-Guide, auch wenn die gerollte Mohnrolle dort ein eigenes Rezept bleibt.",
           },
           {
-            text: "Mit Mehl, restlichem Zucker, Eiern, weicher Butter, Prise Salz und Vanille/Zitronenschale zu glattem, elastischem Teig kneten. Abgedeckt gehen lassen, bis verdoppelt (ca. 60–90 Min).",
+            text: "Mit Mehl, dem restlichen Zucker, Eiern, weicher Butter, einer Prise Salz sowie Vanille oder Zitronenschale zu einem glatten, elastischen Teig verkneten. Abgedeckt gehen lassen, bis sich das Volumen verdoppelt hat, das dauert etwa 60 bis 90 Minuten.",
+            tip: "Je länger und geduldiger der Teig geht, desto lockerer wird später die Krume, denn die Hefe braucht Zeit, um genug Gas für die feine Porung zu bilden.",
           },
           {
-            text: "Gugelhupf- oder Babka-Form gut fetten und mehlieren. Teig einfüllen (höchstens ⅔ voll), nochmals 20–30 Min gehen lassen, bis die Form gut gefüllt wirkt.",
-            tip: "Keine Mohnspirale — das bleibt [Makowiec](/de/rezepte/makowiec). Käsekuchen-Linie: [Sernik](/de/rezepte/sernik).",
+            text: "Die Gugelhupf- oder Babka-Form gut fetten und mehlieren, den Teig einfüllen, höchstens zu zwei Dritteln, und noch einmal 20 bis 30 Minuten gehen lassen, bis die Form gut gefüllt wirkt.",
+            tip: "Das ist keine gerollte Mohnspirale wie bei [Makowiec](/de/rezepte/makowiec) und keine Quarkmasse wie bei [Sernik](/de/rezepte/sernik), sondern ein eigener Teig in einer eigenen Form.",
           },
           {
-            text: "Bei 170–180 °C (Umluft etwas niedriger) goldbraun backen, ca. 45–55 Min. Stäbchenprobe im Teigkern; bei zu dunkler Kruste Folie auflegen.",
+            text: "Bei 170 bis 180 Grad, bei Umluft etwas niedriger, goldbraun backen, das dauert ungefähr 45 bis 55 Minuten. Mit einem Holzstäbchen die Mitte prüfen und bei zu dunkler Kruste rechtzeitig Alufolie darüberlegen.",
+            tip: "Ein zu heißer Ofen bräunt die Kruste, bevor der Kern durchgebacken ist, deshalb lieber etwas geduldiger bei mittlerer Hitze backen als die Temperatur zu hoch einzustellen.",
           },
           {
-            text: "10 Minuten in der Form ruhen, stürzen, abkühlen. Mit Puderzucker oder leichter Glasur servieren — oft am [Wielkanoc](/de/blog/wielkanoc-speiseplan)-Tisch.",
-            tip: "Hefe-Einkauf und Form: [Polenladen](/de/blog/polenladen-einkaufen).",
+            text: "Die Babka etwa 10 Minuten in der Form ruhen lassen, dann stürzen und vollständig abkühlen lassen. Mit Puderzucker oder einer leichten Glasur servieren, oft am [Wielkanoc](/de/blog/wielkanoc-speiseplan)-Tisch.",
+            tip: "Frische Hefe und eine passende Form findest du oft günstig im [Polenladen](/de/blog/polenladen-einkaufen).",
           },
         ],
         seoTitle: "Babka Rezept | Babka wielkanocna Hefegugelhupf | Alemniam",
         seoDescription:
-          "Babka selbst backen: Hefeteig in der Form, bilingual mit DE-Einkauf und Wielkanoc-Kontext — ohne Makowiec-Kannibalismus.",
+          "Babka selbst backen: Hefeteig in der Form, bilingual mit Einkaufstipps für Deutschland und Wielkanoc-Kontext.",
       },
       pl: {
         title: "Babka",
         slug: "babka",
         excerpt:
-          "Babka wielkanocna — puszyste ciasto drożdżowe z formy, świątecznie na Wielkanoc w kuchniach DE.",
+          "Babka wielkanocna to puszyste polskie ciasto drożdżowe z karbowanej formy, które na Wielkanoc stoi niemal na każdym polskim stole.",
         steps: [
           {
-            text: "Rozpuść drożdże w letnim mleku z odrobiną cukru, odstaw 10 min aż spienieją.",
-            tip: "Mleko tylko letnie — za gorące zabija drożdże. Wyczucie drożdży: [technika makowca](/pl/blog/makowiec-technika) (rolada zostaje przy makowcu).",
+            text: "Rozpuść drożdże w letnim mleku z odrobiną cukru i odstaw na około 10 minut, aż zaczną się pienić.",
+            tip: "Mleko musi być tylko letnie, bo zbyt gorące od razu zabija drożdże. Wyczucie ciasta drożdżowego pomaga wyćwiczyć [technika makowca](/pl/blog/makowiec-technika), choć zwijana rolada makowa zostaje tam osobnym przepisem.",
           },
           {
-            text: "Zagnieć z mąką, resztą cukru, jajkami, miękkim masłem, szczyptą soli oraz wanilią/skórką cytryny na gładkie, elastyczne ciasto. Przykryte odstaw aż podwoi objętość (ok. 60–90 min).",
+            text: "Zagnieć z mąką, resztą cukru, jajkami, miękkim masłem, szczyptą soli oraz wanilią lub skórką cytryny na gładkie, elastyczne ciasto. Przykryte odstaw, aż podwoi objętość, co zajmuje zwykle 60 do 90 minut.",
+            tip: "Im dłużej i cierpliwiej ciasto rośnie, tym bardziej puszysty miękisz wyjdzie później, bo drożdże potrzebują czasu, żeby wytworzyć wystarczająco gazu na drobne pory.",
           },
           {
-            text: "Formę babkową lub keksową dobrze natłuść i oprósz mąką. Włóż ciasto (max ⅔ wysokości), odczekaj 20–30 min drugiego wyrastania.",
-            tip: "Bez spirali makowej — to zostaje przy [makowcu](/pl/rezepte/makowiec). Linia sernika: [sernik](/pl/rezepte/sernik).",
+            text: "Formę babkową lub keksową dobrze natłuść i oprósz mąką, włóż ciasto maksymalnie do dwóch trzecich wysokości i odczekaj 20 do 30 minut drugiego wyrastania.",
+            tip: "To nie zwijana spirala makowa jak w [makowcu](/pl/rezepte/makowiec) ani masa twarogowa jak w [serniku](/pl/rezepte/sernik), tylko własne ciasto we własnej formie.",
           },
           {
-            text: "Piecz w 170–180 °C (termoobieg nieco niżej) na złoto, ok. 45–55 min. Patyczek w środku; przy zbyt ciemną skórką nałóż folię.",
+            text: "Piecz w 170 do 180 stopni, przy termoobiegu nieco niżej, na złoty kolor, co zajmuje około 45 do 55 minut. Sprawdź środek patyczkiem, a przy zbyt ciemnej skórce w porę przykryj folią aluminiową.",
+            tip: "Zbyt gorący piekarnik rumieni skórkę, zanim środek się dopiecze, dlatego lepiej piec cierpliwiej w średniej temperaturze niż ustawiać za wysoką.",
           },
           {
-            text: "10 min w formie, wyjmij, ostudź. Posyp cukrem pudrem lub lekko polukruj — często przy [menu wielkanocnym](/pl/blog/menu-wielkanocne).",
-            tip: "Zakupy drożdży i formy: [sklep polski](/pl/blog/sklep-polski-zakupy).",
+            text: "Odstaw babkę na około 10 minut w formie, potem wyjmij i całkowicie ostudź. Posyp cukrem pudrem lub polukruj lekko, często przy [menu wielkanocnym](/pl/blog/menu-wielkanocne).",
+            tip: "Świeże drożdże i pasującą formę często kupisz taniej w [sklepie polskim](/pl/blog/sklep-polski-zakupy).",
           },
         ],
         seoTitle: "Babka przepis | Babka wielkanocna z formy | Alemniam",
         seoDescription:
-          "Babka w domu: ciasto drożdżowe w formie, dwujęzycznie z zakupami w DE i kontekstem Wielkanocy — bez kanibalizacji makowca.",
+          "Babka w domu: ciasto drożdżowe w formie, dwujęzycznie z zakupami w Niemczech i kontekstem Wielkanocy.",
       },
     },
     ingredients: [

@@ -33,55 +33,55 @@ export const seedRecipesWave12A: Recipe[] = [
         title: "Zupa grzybowa",
         slug: "zupa-grzybowa",
         excerpt:
-          "Klare polnische Pilzsuppe aus eingeweichten Trockenpilzen — Wigilia- und Herbstteller, mit Nudeln oder Kartoffeln. Klar ≠ Barszcz und ≠ Flaki.",
+          "Klare polnische Pilzsuppe aus eingeweichten Trockenpilzen, die zur Wigilia und im Herbst auf den Tisch kommt, oft verfeinert mit Nudeln oder Kartoffeln.",
         steps: [
           {
-            text: "Getrocknete Steinpilze (Borowiki) in warmem Wasser 20–30 Minuten einweichen; Pilze herausnehmen, Flüssigkeit durch ein feines Sieb oder Tuch abseihen und aufbewahren. Pilze grob schneiden.",
-            tip: "Gute Trockenpilze oft im [Polenladen](/de/blog/polenladen-einkaufen). Das ist nicht [Barszcz](/de/rezepte/barszcz-czerwony) (Bete) und nicht [Flaki](/de/rezepte/flaki) (Kutteln).",
+            text: "Getrocknete Steinpilze (Borowiki) in warmem Wasser 20 bis 30 Minuten einweichen. Die Pilze herausnehmen, die Flüssigkeit durch ein feines Sieb oder ein Tuch abseihen und aufbewahren, die Pilze grob schneiden.",
+            tip: "Gute Trockenpilze findest du oft im [Polenladen](/de/blog/polenladen-einkaufen), wo die Qualität meist höher ist als in anonymen Supermarktmischungen. Diese Suppe hat mit der roten [Barszcz](/de/rezepte/barszcz-czerwony) aus Roter Bete oder mit der deftigen [Flaki](/de/rezepte/flaki)-Kuttelsuppe nichts zu tun.",
           },
           {
-            text: "Zwiebel und Karotte in Butter oder Öl glasig dünsten; Pilze zugeben, kurz mitrösten. Mit der Pilzflüssigkeit und etwas Wasser oder leichter Gemüsebrühe auffüllen; Lorbeer und Pfeffer dazugeben.",
-            tip: "Überblick SuppenÜberblick: [Polnische Suppen](/de/blog/polnische-suppen). Hier nur der enge Rezept Pilz.",
+            text: "Zwiebel und Karotte in Butter oder Öl glasig dünsten, die Pilze zugeben und kurz mitrösten. Mit der Pilzflüssigkeit und etwas Wasser oder leichter Gemüsebrühe auffüllen, Lorbeer und Pfeffer dazugeben.",
+            tip: "Einen Überblick über die ganze Familie der polnischen Suppen gibt der Beitrag zu [Polnischen Suppen](/de/blog/polnische-suppen), hier bleibt der Fokus auf dieser einen Pilzsuppe.",
           },
           {
-            text: "20–30 Minuten sanft köcheln, bis die Pilze weich und der Fond aromatisch sind. Optional kleine Nudeln oder Kartoffelwürfel mitgaren. Mit Salz abschmecken; Säure nur sparsam (Prise Zitrone), nicht wie Kiszone-Linien.",
-            tip: "Kiszone-Nachbar: [Ogórkowa](/de/rezepte/ogorkowa) — anderes Gericht. Menürahmen festlich: [Wigilia-Speiseplan](/de/blog/wigilia-speiseplan).",
+            text: "20 bis 30 Minuten sanft köcheln lassen, bis die Pilze weich und der Fond aromatisch sind. Optional kleine Nudeln oder Kartoffelwürfel mitgaren. Mit Salz abschmecken und Säure nur sparsam einsetzen, etwa mit einer Prise Zitrone.",
+            tip: "Wer eine saure Gurkensuppe sucht, findet sie bei [Ogórkowa](/de/rezepte/ogorkowa), die schmeckt völlig anders als diese milde Pilzsuppe. Den festlichen Rahmen für den ganzen Abend liefert der [Wigilia-Speiseplan](/de/blog/wigilia-speiseplan).",
           },
           {
-            text: "Heiß mit Dill oder Petersilie servieren. Für Wigilia oft klar und ohne Sahne; im Alltag optional einen Löffel temperierte Śmietana einrühren — nicht kochend.",
-            tip: "Śmietana temperieren wie im [Śmietana/Schmand](/de/blog/smietana-schmand)-Guide; Fokus bleibt Zupa grzybowa.",
+            text: "Heiß mit Dill oder Petersilie servieren. Für die Wigilia bleibt die Suppe oft klar und ohne Sahne, im Alltag darf ein Löffel temperierte Śmietana hinein, aber nicht kochend.",
+            tip: "Warum die Śmietana erst temperiert eingerührt gehört, erklärt der Guide zu [Śmietana und Schmand](/de/blog/smietana-schmand): Kalte Sahne im heißen Topf gerinnt sonst leicht.",
           },
         ],
         seoTitle: "Zupa grzybowa Rezept | Polnische Pilzsuppe | Alemniam",
         seoDescription:
-          "Zupa grzybowa — klare Pilzsuppe aus Trockenpilzen. Bilingual, Wigilia-tauglich, klar ≠ Barszcz und ≠ Flaki.",
+          "Zupa grzybowa: klare Pilzsuppe aus Trockenpilzen. Bilingual, Wigilia-tauglich, klar getrennt von Barszcz und Flaki.",
       },
       pl: {
         title: "Zupa grzybowa",
         slug: "zupa-grzybowa",
         excerpt:
-          "Klarowna polska zupa z namoczonych suszonych grzybów — talerz wigilijny i jesienny, z makaronem lub ziemniakami. Jasno ≠ barszcz i ≠ flaki.",
+          "Klarowna polska zupa z namoczonych suszonych grzybów, która trafia na stół na Wigilię i jesienią, często z makaronem lub ziemniakami.",
         steps: [
           {
-            text: "Suszone borowiki namocz w ciepłej wodzie 20–30 minut; grzyby wyjmij, płyn przecedź przez sito lub gazę i zachowaj. Grzyby pokrój grubo.",
-            tip: "Dobre suszone grzyby często w [sklepie polskim](/pl/blog/sklep-polski-zakupy). To nie [barszcz](/pl/rezepte/barszcz-czerwony) (burak) i nie [flaki](/pl/rezepte/flaki).",
+            text: "Suszone borowiki namocz w ciepłej wodzie na 20 do 30 minut. Grzyby wyjmij, płyn przecedź przez gęste sito lub gazę i zachowaj, grzyby pokrój grubo.",
+            tip: "Dobre suszone grzyby znajdziesz często w [sklepie polskim](/pl/blog/sklep-polski-zakupy), gdzie jakość bywa wyższa niż w anonimowych mieszankach z marketu. Ta zupa nie ma nic wspólnego z czerwonym [barszczem](/pl/rezepte/barszcz-czerwony) ani z treściwymi [flakami](/pl/rezepte/flaki).",
           },
           {
-            text: "Cebulę i marchew zeszklij na maśle lub oleju; dodaj grzyby, krótko podsmaż. Zalej płynem z moczenia i odrobiną wody lub lekkiego bulionu; dodaj liść laurowy i pieprz.",
-            tip: "Przegląd zup zostaje w przeglądzie: [polskie zupy](/pl/blog/polskie-zupy). Tu tylko wąski Rezept grzybowy.",
+            text: "Cebulę i marchew zeszklij na maśle lub oleju, dodaj grzyby i krótko podsmaż. Zalej płynem z moczenia i odrobiną wody lub lekkiego bulionu warzywnego, dodaj liść laurowy i pieprz.",
+            tip: "Przegląd całej rodziny polskich zup znajdziesz we wpisie [polskie zupy](/pl/blog/polskie-zupy), tutaj zostaje wąski fokus tej jednej zupy grzybowej.",
           },
           {
-            text: "Gotuj łagodnie 20–30 minut, aż grzyby zmiękną, a wywar nabierze aromatu. Opcjonalnie drobny makaron lub kostka ziemniaka. Dopraw solą; kwasu tylko szczypta (cytryna), nie jak linie kiszone.",
-            tip: "Sąsiad kiszony: [ogórkowa](/pl/rezepte/ogorkowa). Rama świąteczna: [menu wigilijne](/pl/blog/menu-wigilijne).",
+            text: "Gotuj łagodnie 20 do 30 minut, aż grzyby zmiękną, a wywar nabierze aromatu. Opcjonalnie dogotuj drobny makaron lub kostkę ziemniaka. Dopraw solą, a kwasu użyj oszczędnie, na przykład szczyptą soku z cytryny.",
+            tip: "Kto szuka kwaśnej zupy ogórkowej, znajdzie ją w [ogórkowej](/pl/rezepte/ogorkowa), smakuje zupełnie inaczej niż ta łagodna zupa grzybowa. Świąteczną ramę całego wieczoru daje [menu wigilijne](/pl/blog/menu-wigilijne).",
           },
           {
-            text: "Podawaj gorącą z koperkiem lub pietruszką. Na Wigilię często klarowna, bez śmietany; na co dzień opcjonalnie łyżka ocieplonej śmietany — nie do wrzątku.",
-            tip: "Śmietanę zahartuj jak w [śmietana/Schmand](/pl/blog/smietana-czy-schmand); tu zostaje zupa grzybowa.",
+            text: "Podawaj gorącą z koperkiem lub pietruszką. Na Wigilię zupa zostaje zwykle klarowna i bez śmietany, na co dzień można wmieszać łyżkę zahartowanej śmietany, ale nigdy do wrzątku.",
+            tip: "Dlaczego śmietanę trzeba najpierw zahartować, wyjaśnia przewodnik [śmietana czy schmand](/pl/blog/smietana-czy-schmand): zimna śmietana wlana do gorącego wywaru łatwo się zwarzy.",
           },
         ],
         seoTitle: "Zupa grzybowa przepis | Zupa z suszonych grzybów | Alemniam",
         seoDescription:
-          "Zupa grzybowa — klarowna z suszonych grzybów. Dwujęzycznie, na Wigilię, jasno ≠ barszcz i ≠ flaki.",
+          "Zupa grzybowa: klarowna zupa z suszonych grzybów. Dwujęzycznie, na Wigilię, jasno osobno od barszczu i flaków.",
       },
     },
     ingredients: [
@@ -94,7 +94,7 @@ export const seedRecipesWave12A: Recipe[] = [
         amount: 40,
         unit: { de: "g", pl: "g" },
         group: "pantry",
-        storeHintDe: "Polenladen — Qualität vor Menge",
+        storeHintDe: "Polenladen, Qualität zählt hier mehr als Menge",
       },
       {
         id: "zg-2",
@@ -137,8 +137,8 @@ export const seedRecipesWave12A: Recipe[] = [
         unit: { de: "g", pl: "g" },
         group: "pantry",
         substitute: {
-          de: "Ohne Einlage — klarer Wigilia-Teller",
-          pl: "Bez dodatku — klarowny talerz wigilijny",
+          de: "Ganz ohne Einlage bleibt es ein klarer Wigilia-Teller",
+          pl: "Zupełnie bez dodatku zostaje klarowny talerz wigilijny",
         },
       },
       {
@@ -160,7 +160,7 @@ export const seedRecipesWave12A: Recipe[] = [
         amount: 2,
         unit: { de: "EL", pl: "łyżki" },
         group: "dairy",
-        storeHintDe: "Temperieren — nicht kochend einrühren",
+        storeHintDe: "Erst temperieren, dann einrühren, nie kochend",
       },
     ],
     createdAt: "2026-07-21T10:00:00.000Z",
@@ -189,55 +189,55 @@ export const seedRecipesWave12A: Recipe[] = [
         title: "Grochówka",
         slug: "grochowka",
         excerpt:
-          "Klassische polnische Erbsensuppe aus gelben Trockenerbsen mit Rauchwurst und Kartoffeln — deftig, batchbar, klar ≠ Fasolka und ≠ Kapuśniak.",
+          "Klassische polnische Erbsensuppe aus gelben Trockenerbsen mit Rauchwurst und Kartoffeln, deftig und gut zum Vorkochen für mehrere Tage.",
         steps: [
           {
-            text: "Gelbe Trockenerbsen (groch) über Nacht einweichen oder nach Packungsangabe; abgießen. Mit frischem Wasser aufsetzen, Zwiebel, Karotte, Lorbeer und Majoran dazugeben; ruhig köcheln, bis die Erbsen weich fallen.",
-            tip: "Das sind Erbsen, keine Bohnen: [Fasolka po bretonsku](/de/rezepte/fasolka-po-bretonsku) bleibt anderer Cook. Überblick: [Polnische Suppen](/de/blog/polnische-suppen).",
+            text: "Gelbe Trockenerbsen (groch) über Nacht einweichen oder nach Packungsangabe vorbereiten, dann abgießen. Mit frischem Wasser aufsetzen, Zwiebel, Karotte, Lorbeer und Majoran dazugeben und ruhig köcheln lassen, bis die Erbsen weich fallen.",
+            tip: "Das sind Erbsen und keine Bohnen, das Bohnengericht [Fasolka po bretonsku](/de/rezepte/fasolka-po-bretonsku) bleibt ein eigenes Rezept. Einen Überblick über die Suppenfamilie gibt [Polnische Suppen](/de/blog/polnische-suppen).",
           },
           {
-            text: "Kartoffelwürfel zugeben und weich kochen. Parallel geräucherte Kiełbasa oder Speckwürfel anbraten; Wurstscheiben und Fond-Anteil in den Topf geben.",
-            tip: "Welche Wurst wohin: [Kiełbasa-Arten](/de/blog/kielbasa-arten). Einkauf oft [Polenladen](/de/blog/polenladen-einkaufen).",
+            text: "Kartoffelwürfel zugeben und weich kochen. Parallel geräucherte Kiełbasa oder Speckwürfel anbraten, dann Wurstscheiben und einen Teil des Bratfetts in den Topf geben.",
+            tip: "Welche Wurst am besten passt, zeigen die [Kiełbasa-Arten](/de/blog/kielbasa-arten), eingekauft meist im [Polenladen](/de/blog/polenladen-einkaufen).",
           },
           {
-            text: "Optional einen Teil der Erbsen mit dem Pürierstab anstoßen — dick, aber nicht Babybrei. Mit Salz, Pfeffer und Majoran abschmecken; Säure nur sparsam, nicht Kiszone-Kraut-Linie.",
-            tip: "≠ [Kapuśniak](/de/rezepte/kapusniak) (Sauerkrautsuppe). Menüplatz: [polnisches Sonntagsessen](/de/blog/sonntagsessen-polnisch).",
+            text: "Optional einen Teil der Erbsen mit dem Pürierstab anstoßen, dick, aber nicht wie Babybrei. Mit Salz, Pfeffer und Majoran abschmecken und Säure nur sparsam einsetzen, das ist keine Sauerkraut-Linie.",
+            tip: "Wer eine Sauerkrautsuppe sucht, findet sie bei [Kapuśniak](/de/rezepte/kapusniak). Als Menüplatz passt das [polnische Sonntagsessen](/de/blog/sonntagsessen-polnisch).",
           },
           {
-            text: "Heiß mit frischem Dill oder Majoran servieren; Brot dazu. Reste halten sich und werden oft am zweiten Tag runder — Freezer portionsweise möglich.",
-            tip: "Fehlt geräucherte Wurst: ehrlich ersetzen laut [Ersatzprodukte DE](/de/blog/ersatzprodukte-de) — Fokus bleibt Grochówka.",
+            text: "Heiß mit frischem Dill oder Majoran servieren, dazu Brot. Reste halten sich gut und schmecken am zweiten Tag oft noch runder, portionsweises Einfrieren ist möglich.",
+            tip: "Fehlt geräucherte Wurst, hilft ein ehrlicher Ersatz laut den [Ersatzprodukten DE](/de/blog/ersatzprodukte-de) weiter, der Fokus bleibt trotzdem diese Grochówka.",
           },
         ],
         seoTitle: "Grochówka Rezept | Polnische Erbsensuppe | Alemniam",
         seoDescription:
-          "Grochówka — Erbsensuppe mit Rauchwurst und Kartoffeln. Bilingual, Diaspora-Einkauf DE, klar ≠ Fasolka/Kapuśniak.",
+          "Grochówka: Erbsensuppe mit Rauchwurst und Kartoffeln. Bilingual, Diaspora-Einkauf in DE, klar getrennt von Fasolka und Kapuśniak.",
       },
       pl: {
         title: "Grochówka",
         slug: "grochowka",
         excerpt:
-          "Klasyczna polska zupa z grochu z wędzoną kiełbasą i ziemniakami — treściwa, na zapas, jasno ≠ fasolka i ≠ kapuśniak.",
+          "Klasyczna polska zupa z żółtego grochu z wędzoną kiełbasą i ziemniakami, treściwa i dobra na zapas na kilka dni.",
         steps: [
           {
-            text: "Groch namocz na noc lub według opakowania; odlej. Zalej świeżą wodą, dodaj cebulę, marchew, liść laurowy i majeranek; gotuj spokojnie do miękkości grochu.",
-            tip: "To groch, nie fasola: [fasolka po bretonsku](/pl/rezepte/fasolka-po-bretonsku) to inny cook. Przegląd: [polskie zupy](/pl/blog/polskie-zupy).",
+            text: "Groch namocz na noc albo według instrukcji na opakowaniu, potem odlej wodę. Zalej świeżą wodą, dodaj cebulę, marchew, liść laurowy i majeranek, gotuj spokojnie, aż groch zmięknie.",
+            tip: "To groch, nie fasola, danie z fasoli [fasolka po bretońsku](/pl/rezepte/fasolka-po-bretonsku) zostaje osobnym przepisem. Przegląd rodziny zup znajdziesz w [polskich zupach](/pl/blog/polskie-zupy).",
           },
           {
-            text: "Dodaj kostkę ziemniaka i dogotuj. Równolegle podsmaż wędzoną kiełbasę lub słoninę; plastry i część tłuszczu w garnek.",
-            tip: "Która kiełbasa gdzie: [rodzaje kiełbasy](/pl/blog/rodzaje-kielbasy). Zakupy: [sklep polski](/pl/blog/sklep-polski-zakupy).",
+            text: "Dodaj kostkę ziemniaka i dogotuj do miękkości. Równolegle podsmaż wędzoną kiełbasę lub słoninę, potem dodaj plastry i część tłuszczu do garnka.",
+            tip: "Która kiełbasa pasuje najlepiej, pokazują [rodzaje kiełbasy](/pl/blog/rodzaje-kielbasy), kupione najczęściej w [sklepie polskim](/pl/blog/sklep-polski-zakupy).",
           },
           {
-            text: "Opcjonalnie część grochu blenduj — gęsto, nie na papkę. Dopraw solą, pieprzem i majerankiem; kwasu mało, nie linia kapusty kiszonej.",
-            tip: "≠ [kapuśniak](/pl/rezepte/kapusniak). Miejsce w menu: [obiad niedzielny](/pl/blog/obiad-niedzielny).",
+            text: "Opcjonalnie zblenduj część grochu, ma być gęsto, ale nie jak papka dla niemowląt. Dopraw solą, pieprzem i majerankiem, kwasu użyj oszczędnie, to nie jest zupa na bazie kapusty kiszonej.",
+            tip: "Kto szuka zupy z kapustą kiszoną, znajdzie ją w [kapuśniaku](/pl/rezepte/kapusniak). Miejsce w menu daje [obiad niedzielny](/pl/blog/obiad-niedzielny).",
           },
           {
-            text: "Podawaj gorącą z koperkiem lub majerankiem; chleb obok. Resztki często lepsze nazajutrz — freezer porcjami.",
-            tip: "Brak wędzonki: uczciwa zamiana według [zamienników](/pl/blog/zamienniki-skladnikow) — tu zostaje grochówka.",
+            text: "Podawaj gorącą z koperkiem lub majerankiem, chleb obok. Resztki dobrze się trzymają i często smakują lepiej następnego dnia, można je też zamrozić w porcjach.",
+            tip: "Brak wędzonej kiełbasy zastąpią uczciwie dobrane [zamienniki składników](/pl/blog/zamienniki-skladnikow), fokus zostaje jednak przy tej grochówce.",
           },
         ],
         seoTitle: "Grochówka przepis | Zupa grochowa | Alemniam",
         seoDescription:
-          "Grochówka — zupa z grochu z kiełbasą i ziemniakami. Dwujęzycznie, zakupy w DE, jasno ≠ fasolka/kapuśniak.",
+          "Grochówka: zupa z grochu z kiełbasą i ziemniakami. Dwujęzycznie, zakupy w Niemczech, jasno osobno od fasolki i kapuśniaku.",
       },
     },
     ingredients: [
@@ -261,10 +261,10 @@ export const seedRecipesWave12A: Recipe[] = [
         amount: 250,
         unit: { de: "g", pl: "g" },
         group: "polish",
-        storeHintDe: "Polenladen — siehe Kiełbasa-Arten",
+        storeHintDe: "Polenladen, mehr dazu im Beitrag zu Kiełbasa-Arten",
         substitute: {
-          de: "Mild geräucherter Schinken — ehrlich benennen",
-          pl: "Łagodna wędzonka — nazwać uczciwie",
+          de: "Mild geräucherter Schinken funktioniert auch, das dann aber ehrlich benennen",
+          pl: "Łagodna wędzonka też się nada, tylko trzeba to uczciwie napisać",
         },
       },
       {

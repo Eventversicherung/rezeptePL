@@ -44,91 +44,93 @@ export const seedRecipesWave10C: Recipe[] = [
         title: "Pierogi mit Heidelbeeren",
         slug: "jagody",
         excerpt:
-          "Süße Pierogi mit Heidelbeeren — gefaltete Teigtaschen, nicht Knedle. Mit Zucker und Butter.",
+          "Süße Pierogi mit Heidelbeeren, gefaltete Teigtaschen mit fruchtiger Füllung, serviert mit Butter und Zucker.",
         steps: [
           {
-            text: "Pierogi-Teig kneten, 20–30 Minuten ruhen lassen, dünn ausrollen und Kreise ausstechen.",
-            tip: "Teig-Feeling: [Pierogi-Teig](/de/blog/pierogi-teig). Überblick Varianten: [Pierogi-Guide](/de/blog/pierogi-guide).",
+            text: "Pierogi-Teig kneten, 20 bis 30 Minuten ruhen lassen, dünn ausrollen und Kreise ausstechen.",
+            tip: "Das Teig-Gefühl erklärt der Beitrag [Pierogi-Teig](/de/blog/pierogi-teig), einen Überblick über alle Varianten gibt der [Pierogi-Guide](/de/blog/pierogi-guide).",
           },
           {
-            text: "Heidelbeeren waschen, abtropfen, mit Zucker und 1 TL Speisestärke mischen.",
-            tip: "Beeren müssen trocken sein — nasse Füllung platzt. Das sind keine [Knedle ze śliwkami](/de/rezepte/knedle-sliwki) (runde Obst-Knödel).",
+            text: "Heidelbeeren waschen, gut abtropfen lassen und mit Zucker und 1 TL Speisestärke mischen.",
+            tip: "Die Beeren müssen wirklich trocken sein, denn eine nasse Füllung lässt den Teig beim Kochen aufplatzen. Das sind übrigens keine [Knedle ze śliwkami](/de/rezepte/knedle-sliwki), also keine runden Obst-Knödel aus Kartoffelteig.",
           },
           {
-            text: "Wenig Füllung pro Kreis, Ränder fest schließen, Luft herausstreichen.",
-            tip: "Gleichmäßige Größe: [Pierogi-Formen](/de/blog/pierogi-formen).",
+            text: "Wenig Füllung mittig auf jeden Kreis geben, die Ränder fest verschließen und dabei die Luft heraus streichen.",
+            tip: "Für gleichmäßige Größe hilft der Beitrag zu [Pierogi-Formen](/de/blog/pierogi-formen), so garen alle Taschen in derselben Zeit.",
           },
           {
-            text: "In leicht siedendem Salzwasser garen, bis sie aufschwimmen; 1–2 Minuten nachziehen.",
+            text: "In leicht siedendem Salzwasser garen, bis die Pierogi aufschwimmen, dann noch 1 bis 2 Minuten nachziehen lassen.",
+            tip: "Koche sie in kleinen Portionen, damit sie im Topf genug Platz haben und nicht aneinander kleben.",
           },
           {
-            text: "Mit Butter und Zucker oder Puderzucker servieren. Optional Sahne.",
-            tip: "Batch einfrieren: [Pierogi einfrieren](/de/blog/freezer-meal-prep) — Beeren-Charge extra beschriften.",
+            text: "Mit Butter und Zucker oder Puderzucker servieren, optional mit etwas Sahne.",
+            tip: "Für später kannst du eine Charge roh einfrieren, wie im Beitrag [Pierogi einfrieren](/de/blog/freezer-meal-prep) beschrieben, beschrifte die Beeren-Charge aber separat.",
           },
         ],
         seoTitle: "Pierogi mit Heidelbeeren Rezept | Pierogi z jagodami | Alemniam",
         seoDescription:
-          "Pierogi z jagodami: süße Heidelbeer-Füllung, Teig und Kochen — bilingual, klar ≠ Knedle śliwki.",
-        article: `## Pierogi mit Heidelbeeren — süße Variante
+          "Pierogi z jagodami: süße Heidelbeer-Füllung, Teig und Kochen, bilingual, klar getrennt von Knedle śliwki.",
+        article: `## Pierogi mit Heidelbeeren, die süße Variante
 
-Gefaltete Pierogi mit Heidelbeeren: dieselbe Teigfamilie wie [Ruskie](/de/rezepte/pierogi/ruskie), [Fleisch](/de/rezepte/pierogi/fleisch) und [Kraut & Pilze](/de/rezepte/pierogi/kraut-pilze) — anderer Tag, anderes Gericht. Technik erklärt der [Pierogi-Guide](/de/blog/pierogi-guide).
+Gefaltete Pierogi mit Heidelbeeren gehören zur selben Teigfamilie wie [Ruskie](/de/rezepte/pierogi/ruskie), [Fleisch](/de/rezepte/pierogi/fleisch) und [Kraut & Pilze](/de/rezepte/pierogi/kraut-pilze). Nur der Tag und die Füllung sind hier anders, oben auf der Seite kannst du jederzeit zu den herzhaften Geschwistern wechseln. Die Technik hinter dem Falten und Kochen erklärt der [Pierogi-Guide](/de/blog/pierogi-guide) ausführlich.
 
-### Nicht Knedle
+### Keine Knedle
 
-[Knedle ze śliwkami](/de/rezepte/knedle-sliwki) sind runde Obst-Knödel mit Kartoffelteig. Hier: halbmondförmige Taschen, Mehlteig, Beerenfüllung.
+[Knedle ze śliwkami](/de/rezepte/knedle-sliwki) sind runde Obst-Knödel aus Kartoffelteig mit einer ganzen Pflaume im Kern. Hier dagegen entstehen halbmondförmige Taschen aus Mehlteig mit einer Beerenfüllung, das Ergebnis ist leichter und die Form völlig anders.
 
 ### Technik
 
-Füllung trocken und kalt. Teig: [Pierogi-Teig](/de/blog/pierogi-teig). Freezer: [Meal Prep](/de/blog/freezer-meal-prep).
+Die Füllung muss trocken und kalt bleiben, sonst platzt der Teig beim Kochen auf. Alles zum Teig selbst steht im Beitrag [Pierogi-Teig](/de/blog/pierogi-teig), und wer eine Charge für später vorbereiten will, findet die Details im [Freezer-Guide](/de/blog/freezer-meal-prep).
 
-### Geschwister
+### Geschwister in der Familie
 
-Oben wechseln zu Ruskie, Fleisch oder Kraut-Pilze.`,
+Oben auf der Seite kannst du jederzeit zu Ruskie, Fleisch oder Kraut-Pilze wechseln, wenn dir heute nach einer herzhaften Füllung ist.`,
       },
       pl: {
         title: "Pierogi z jagodami",
         slug: "jagody",
         excerpt:
-          "Słodkie pierogi z jagodami — sklejane pierogi, nie knedle. Z cukrem i masłem.",
+          "Słodkie pierogi z jagodami, sklejane pierogi z owocowym farszem, podawane z masłem i cukrem.",
         steps: [
           {
-            text: "Zagnieć ciasto na pierogi, odstaw 20–30 min, rozwałkuj i wykrawaj kółka.",
-            tip: "Ciasto: [ciasto na pierogi](/pl/blog/ciasto-na-pierogi). Przegląd: [przewodnik pierogi](/pl/blog/przewodnik-pierogi).",
+            text: "Zagnieć ciasto na pierogi, odstaw na 20 do 30 minut, rozwałkuj cienko i wykrawaj kółka.",
+            tip: "Wyczucie ciasta opisuje [ciasto na pierogi](/pl/blog/ciasto-na-pierogi), a przegląd wszystkich wariantów daje [przewodnik pierogi](/pl/blog/przewodnik-pierogi).",
           },
           {
-            text: "Umyj jagody, odsącz, wymieszaj z cukrem i 1 łyżeczką skrobi.",
-            tip: "Jagody muszą być suche — mokry farsz pęka. To nie [knedle ze śliwkami](/pl/rezepte/knedle-sliwki).",
+            text: "Umyj jagody, dobrze odsącz i wymieszaj z cukrem oraz 1 łyżeczką skrobi ziemniaczanej.",
+            tip: "Jagody muszą być naprawdę suche, bo mokry farsz rozsadza ciasto podczas gotowania. To nie [knedle ze śliwkami](/pl/rezepte/knedle-sliwki), czyli nie okrągłe knedle ziemniaczane.",
           },
           {
-            text: "Mało farszu na kółko, szczelnie sklej, wypchnij powietrze.",
-            tip: "Równy rozmiar: [foremki do pierogów](/pl/blog/foremki-do-pierogow).",
+            text: "Nałóż niewielką porcję farszu na środek każdego kółka, szczelnie sklej brzegi i wypchnij powietrze.",
+            tip: "Równy rozmiar ułatwiają [foremki do pierogów](/pl/blog/foremki-do-pierogow), dzięki nim wszystkie kęsy gotują się tyle samo czasu.",
           },
           {
-            text: "Gotuj w lekko wrzącej osolonej wodzie aż wypłyną; 1–2 min dogotuj.",
+            text: "Gotuj w lekko wrzącej osolonej wodzie, aż pierogi wypłyną na powierzchnię, potem dogotuj jeszcze 1 do 2 minut.",
+            tip: "Gotuj w mniejszych partiach, żeby pierogi miały w garnku dość miejsca i nie sklejały się ze sobą.",
           },
           {
-            text: "Podawaj z masłem i cukrem albo cukrem pudrem. Opcjonalnie śmietana.",
-            tip: "Mrożenie: [mrożenie pierogów](/pl/blog/mrozenie-pierogow) — osobna etykieta na jagody.",
+            text: "Podawaj z masłem i cukrem albo cukrem pudrem, opcjonalnie z odrobiną śmietany.",
+            tip: "Część możesz zamrozić na surowo według opisu w [mrożeniu pierogów](/pl/blog/mrozenie-pierogow), ale oznacz partię z jagodami osobną etykietą.",
           },
         ],
         seoTitle: "Pierogi z jagodami przepis | Alemniam",
         seoDescription:
-          "Pierogi z jagodami: słodki farsz, ciasto i gotowanie — dwujęzycznie, jasno ≠ knedle ze śliwkami.",
-        article: `## Pierogi z jagodami — słodki wariant
+          "Pierogi z jagodami: słodki farsz, ciasto i gotowanie, dwujęzycznie, jasno inne niż knedle ze śliwkami.",
+        article: `## Pierogi z jagodami, słodki wariant
 
-Sklejane pierogi z jagodami: ta sama rodzina co [ruskie](/pl/rezepte/pierogi/ruskie), [mięso](/pl/rezepte/pierogi/mieso) i [kapusta z grzybami](/pl/rezepte/pierogi/kapusta-grzyby). Technikę opisuje [przewodnik pierogi](/pl/blog/przewodnik-pierogi).
+Sklejane pierogi z jagodami należą do tej samej rodziny ciasta co [ruskie](/pl/rezepte/pierogi/ruskie), [mięso](/pl/rezepte/pierogi/mieso) i [kapusta z grzybami](/pl/rezepte/pierogi/kapusta-grzyby). Zmienia się tu tylko okazja i farsz, u góry strony możesz w każdej chwili przełączyć na wytrawne rodzeństwo. Technikę lepienia i gotowania szeroko opisuje [przewodnik pierogi](/pl/blog/przewodnik-pierogi).
 
-### Nie knedle
+### To nie knedle
 
-[Knedle ze śliwkami](/pl/rezepte/knedle-sliwki) to okrągłe knedle ziemniaczane. Tu: półksiężyce, ciasto mączne, jagody.
+[Knedle ze śliwkami](/pl/rezepte/knedle-sliwki) to okrągłe knedle z ciasta ziemniaczanego z całą śliwką w środku. Tutaj powstają za to półksiężycowe kieszonki z ciasta mącznego z farszem jagodowym, efekt jest lżejszy, a forma zupełnie inna.
 
 ### Technika
 
-Farsz suchy i zimny. [Ciasto](/pl/blog/ciasto-na-pierogi). Freezer: [mrożenie](/pl/blog/mrozenie-pierogow).
+Farsz musi zostać suchy i zimny, inaczej ciasto rozsadza się podczas gotowania. Wszystko o samym cieście znajdziesz w [cieście na pierogi](/pl/blog/ciasto-na-pierogi), a kto chce przygotować partię na później, sprawdzi szczegóły w [przewodniku mrożenia](/pl/blog/mrozenie-pierogow).
 
-### Rodzeństwo
+### Rodzeństwo w rodzinie
 
-Przełącz u góry na ruskie, mięso albo kapustę z grzybami.`,
+U góry strony możesz w każdej chwili przełączyć na ruskie, mięso albo kapustę z grzybami, jeśli akurat masz ochotę na wytrawny farsz.`,
       },
     },
     ingredients: [
@@ -152,7 +154,7 @@ Przełącz u góry na ruskie, mięso albo kapustę z grzybami.`,
         amount: 400,
         unit: { de: "g", pl: "g" },
         group: "produce",
-        storeHintDe: "TK gut abgetaut und abgetropft",
+        storeHintDe: "TK-Beeren gut abtauen und gründlich abtropfen lassen",
       },
       {
         id: "pj-4",
@@ -211,83 +213,85 @@ Przełącz u góry na ruskie, mięso albo kapustę z grzybami.`,
         title: "Naleśniki mit Marmelade",
         slug: "dzem",
         excerpt:
-          "Süße Naleśniki mit Dżem oder Powidła. Schnell, kinderfreundlich, eigene Variante neben der Quark-Füllung.",
+          "Süße Naleśniki mit Dżem oder Powidła, schnell gemacht und kinderfreundlich, die fruchtige Schwester der Quark-Füllung.",
         steps: [
           {
-            text: "Naleśniki-Teig anrühren, 20–30 Minuten ruhen, dünne Pfannkuchen backen.",
-            tip: "Technik: [Naleśniki-Guide](/de/blog/nalesniki-guide). Nicht mit [Twaróg-Füllung](/de/rezepte/nalesniki/twarog) verwechseln — eigene Variante.",
+            text: "Naleśniki-Teig anrühren, 20 bis 30 Minuten ruhen lassen und dünne Pfannkuchen ausbacken.",
+            tip: "Die Technik im Detail erklärt der [Naleśniki-Guide](/de/blog/nalesniki-guide). Verwechsle diese Variante nicht mit der [Twaróg-Füllung](/de/rezepte/nalesniki/twarog), das ist eine eigene, herzhaftere Richtung.",
           },
           {
-            text: "Jeden Pfannkuchen mit dicker Marmelade oder Powidła bestreichen — nicht randvoll.",
-            tip: "Dicker Dżem hält besser. Einkauf: [Ersatzprodukte DE](/de/blog/ersatzprodukte-de) wenn Polenladen-Powidła fehlen.",
+            text: "Jeden Pfannkuchen mit dicker Marmelade oder Powidła bestreichen, dabei nicht bis an den Rand gehen.",
+            tip: "Dickflüssiger Dżem hält beim Rollen besser als ein dünner. Fehlen Powidła aus dem Polenladen, hilft der Beitrag zu [Ersatzprodukten](/de/blog/ersatzprodukte-de) weiter.",
           },
           {
-            text: "Fest rollen oder falten, optional in Butter goldbraun anbraten.",
+            text: "Fest rollen oder falten und optional in etwas Butter goldbraun anbraten.",
+            tip: "Wer die zweite Bratrunde auslässt, bekommt eine leichtere, weniger süß-klebrige Version für den Alltag.",
           },
           {
-            text: "Mit Puderzucker servieren. Optional Śmietana oder frische Beeren.",
-            tip: "Twaróg-Einkauf: [Twaróg-Guide](/de/blog/twarog-deutschland) — hier nur als verwandte süße Linie.",
+            text: "Mit Puderzucker servieren, optional mit Śmietana oder frischen Beeren.",
+            tip: "Quark für die herzhafte Schwester dieses Rezepts kaufst du am besten nach dem [Twaróg-Guide](/de/blog/twarog-deutschland), hier bleibt die Füllung aber bei Marmelade.",
           },
         ],
         seoTitle: "Naleśniki mit Marmelade Rezept | Naleśniki z dżemem | Alemniam",
         seoDescription:
-          "Naleśniki z dżemem: süße Marmeladen-Variante bilingual — klar getrennt von Twaróg-Naleśniki.",
-        article: `## Naleśniki mit Marmelade — süße Variante
+          "Naleśniki z dżemem: süße Marmeladen-Variante bilingual, klar getrennt von Twaróg-Naleśniki.",
+        article: `## Naleśniki mit Marmelade, die süße Variante
 
-Dieselbe dünne Teigplattform wie [Twaróg](/de/rezepte/nalesniki/twarog), [Fleisch](/de/rezepte/nalesniki/fleisch) und [Spinat](/de/rezepte/nalesniki/szpinak) — hier geht es um Dżem oder Marmelade. Technik: [Naleśniki-Guide](/de/blog/nalesniki-guide).
+Diese Naleśniki nutzen dieselbe dünne Teigplattform wie [Twaróg](/de/rezepte/nalesniki/twarog), [Fleisch](/de/rezepte/nalesniki/fleisch) und [Spinat](/de/rezepte/nalesniki/szpinak), hier geht es aber ausschließlich um Dżem oder Marmelade als Füllung. Die Technik zum Teig und Wenden erklärt der [Naleśniki-Guide](/de/blog/nalesniki-guide) im Detail.
 
 ### Nicht die Quark-Variante
 
-Die Quark-Füllung bleibt unter [/rezepte/nalesniki/twarog](/de/rezepte/nalesniki/twarog). Hier: Dżem oder Powidła als Füllung.
+Die Quark-Füllung bleibt ein eigenes Rezept unter [Naleśniki mit Twaróg](/de/rezepte/nalesniki/twarog). Hier dagegen trägt dicker Dżem oder Powidła die ganze Süße, ohne Ei oder Quark in der Füllung.
 
 ### Technik
 
-Dünn backen, trocken rollen. Guide: [Naleśniki](/de/blog/nalesniki-guide). Zum Anlass: [Tłusty Czwartek](/de/blog/tlusty-czwartek).
+Der Teig soll dünn gebacken und die Rolle trocken geschlossen werden, damit die Marmelade nicht ausläuft. Mehr dazu im [Naleśniki-Guide](/de/blog/nalesniki-guide), zum Anlass passt außerdem der Beitrag [Tłusty Czwartek](/de/blog/tlusty-czwartek).
 
-### Geschwister
+### Geschwister in der Familie
 
-Oben zu Twaróg, Fleisch oder Spinat.`,
+Oben auf der Seite kannst du jederzeit zu Twaróg, Fleisch oder Spinat wechseln, wenn du heute lieber eine herzhafte Füllung möchtest.`,
       },
       pl: {
         title: "Naleśniki z dżemem",
         slug: "dzem",
         excerpt:
-          "Słodkie naleśniki z dżemem — osobny wariant, nie farsz z twarogiem. Szybkie i przyjazne dzieciom.",
+          "Słodkie naleśniki z dżemem, szybki i przyjazny dzieciom wariant, owocowa siostra farszu z twarogiem.",
         steps: [
           {
-            text: "Zrób ciasto na naleśniki, odstaw 20–30 min, usmaż cienkie placki.",
-            tip: "Technika: [przewodnik naleśników](/pl/blog/nalesniki-przewodnik). Nie mylić z [twarogiem](/pl/rezepte/nalesniki/twarog) — osobny wariant.",
+            text: "Zrób ciasto na naleśniki, odstaw na 20 do 30 minut i usmaż cienkie placki.",
+            tip: "Technikę dokładnie opisuje [przewodnik naleśników](/pl/blog/nalesniki-przewodnik). Nie myl tego wariantu z [twarogiem](/pl/rezepte/nalesniki/twarog), to osobny, bardziej wytrawny kierunek.",
           },
           {
-            text: "Posmaruj każdy placek gęstym dżemem albo powidłami — nie do samej krawędzi.",
-            tip: "Gęsty dżem trzyma lepiej. Zakupy: [zamienniki](/pl/blog/zamienniki-skladnikow) gdy brak powideł.",
+            text: "Posmaruj każdy placek gęstym dżemem albo powidłami, nie dochodząc do samej krawędzi.",
+            tip: "Gęsty dżem trzyma się lepiej podczas zwijania niż rzadki. Gdy brakuje powideł ze sklepu polskiego, pomaga przegląd [zamienników składników](/pl/blog/zamienniki-skladnikow).",
           },
           {
-            text: "Szczelnie zawiń lub złóż, opcjonalnie podsmaż na maśle na złoto.",
+            text: "Szczelnie zawiń lub złóż i opcjonalnie podsmaż na maśle na złoty kolor.",
+            tip: "Kto pomija drugie smażenie, dostaje lżejszą, mniej lepką wersję na dzień powszedni.",
           },
           {
-            text: "Podawaj z cukrem pudrem. Opcjonalnie śmietana albo świeże owoce.",
-            tip: "Zakupy twarogu: [twaróg w DE](/pl/blog/twarog-w-niemczech).",
+            text: "Podawaj z cukrem pudrem, opcjonalnie ze śmietaną albo świeżymi owocami.",
+            tip: "Twaróg do wytrawnej siostry tego przepisu najlepiej kupować według [poradnika twarogu](/pl/blog/twarog-w-niemczech), tutaj farsz zostaje jednak przy dżemie.",
           },
         ],
         seoTitle: "Naleśniki z dżemem przepis | Alemniam",
         seoDescription:
-          "Naleśniki z dżemem: słodki wariant dwujęzycznie — jasno oddzielony od naleśników z twarogiem.",
-        article: `## Naleśniki z dżemem — słodki wariant
+          "Naleśniki z dżemem: słodki wariant dwujęzycznie, jasno oddzielony od naleśników z twarogiem.",
+        article: `## Naleśniki z dżemem, słodki wariant
 
-Ta sama cienka platforma co [twaróg](/pl/rezepte/nalesniki/twarog), [mięso](/pl/rezepte/nalesniki/mieso) i [szpinak](/pl/rezepte/nalesniki/szpinak). Technika: [przewodnik naleśników](/pl/blog/nalesniki-przewodnik).
+Te naleśniki korzystają z tej samej cienkiej platformy ciasta co [twaróg](/pl/rezepte/nalesniki/twarog), [mięso](/pl/rezepte/nalesniki/mieso) i [szpinak](/pl/rezepte/nalesniki/szpinak), tutaj jednak farsz to wyłącznie dżem lub powidła. Technikę ciasta i obracania opisuje szczegółowo [przewodnik naleśników](/pl/blog/nalesniki-przewodnik).
 
-### Nie wariant z twarogiem
+### To nie wariant z twarogiem
 
-Farsz twarogowy zostaje pod [/rezepte/nalesniki/twarog](/pl/rezepte/nalesniki/twarog). Tu: dżem lub powidła.
+Farsz twarogowy zostaje osobnym przepisem pod [naleśnikami z twarogiem](/pl/rezepte/nalesniki/twarog). Tutaj całą słodycz niesie gęsty dżem lub powidła, bez jajka czy twarogu w farszu.
 
 ### Technika
 
-Cienko, sucho zwinąć. [Przewodnik](/pl/blog/nalesniki-przewodnik). Do okazji: [Tłusty Czwartek](/pl/blog/tlusty-czwartek).
+Ciasto ma być cienkie, a rolka sucho zamknięta, żeby dżem nie wypłynął. Więcej w [przewodniku naleśników](/pl/blog/nalesniki-przewodnik), do okazji pasuje też artykuł [Tłusty Czwartek](/pl/blog/tlusty-czwartek).
 
-### Rodzeństwo
+### Rodzeństwo w rodzinie
 
-Przełącz na twaróg, mięso albo szpinak.`,
+U góry strony możesz w każdej chwili przełączyć na twaróg, mięso albo szpinak, jeśli wolisz dziś wytrawny farsz.`,
       },
     },
     ingredients: [
@@ -318,10 +322,10 @@ Przełącz na twaróg, mięso albo szpinak.`,
         amount: 250,
         unit: { de: "g", pl: "g" },
         group: "polish",
-        storeHintDe: "Dicke Konfitüre / Powidła im Polenladen",
+        storeHintDe: "Dicke Konfitüre oder Powidła gibt es im Polenladen",
         substitute: {
-          de: "Dicke Aprikosen- oder Pflaumenmarmelade",
-          pl: "Gęsty dżem morelowy lub śliwkowy",
+          de: "Dicke Aprikosen- oder Pflaumenmarmelade funktioniert ebenso gut",
+          pl: "Gęsty dżem morelowy lub śliwkowy sprawdza się równie dobrze",
         },
       },
       {

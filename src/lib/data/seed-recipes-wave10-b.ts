@@ -31,53 +31,53 @@ export const seedRecipesWave10B: Recipe[] = [
         title: "Piernik",
         slug: "piernik",
         excerpt:
-          "Polnischer Lebkuchen mit Honig und Gewürz — weicher Kuchen, oft Wigilia oder Alltagskaffee, klar ≠ Makowiec.",
+          "Piernik ist der polnische Honig-Gewürzkuchen mit siebenhundertjähriger Geschichte aus Toruń, weich statt hart, oft zur Wigilia oder zum Alltagskaffee.",
         steps: [
           {
-            text: "Honig mit Butter und Zucker vorsichtig erwärmen, bis alles flüssig und glatt ist; abkühlen lassen, bis lauwarm.",
-            tip: "Nicht kochen lassen — sonst karamellisiert der Honig zu stark. Einkauf Gewürze: [Polenladen](/de/blog/polenladen-einkaufen).",
+            text: "Honig mit Butter und Zucker vorsichtig erwärmen, bis alles flüssig und glatt ist, danach abkühlen lassen, bis die Masse nur noch lauwarm ist.",
+            tip: "Lass den Honig nicht kochen, sonst karamellisiert er zu stark und schmeckt bitter. Gute Gewürze findest du oft im [Polenladen](/de/blog/polenladen-einkaufen).",
           },
           {
-            text: "Mehl mit Backpulver, Kakao (optional) und Gewürzen (Zimt, Nelke, Ingwer, Muskat, Piment) mischen; Eier und die Honigmasse unterrühren zu einem zähen Teig.",
-            tip: "Das ist kein Hefe-Rollenkuchen wie [Makowiec](/de/rezepte/makowiec) — hier arbeiten Honig und Gewürz, nicht Mohnspirale.",
+            text: "Mehl mit Backpulver, Kakao (optional) und Gewürzen (Zimt, Nelke, Ingwer, Muskat, Piment) mischen, dann Eier und die Honigmasse einrühren, bis ein zäher Teig entsteht.",
+            tip: "Das ist kein Hefe-Rollenkuchen wie [Makowiec](/de/rezepte/makowiec): Dort trägt eine Mohnspirale den Geschmack, hier tragen ihn Honig und Gewürz.",
           },
           {
-            text: "Teig in eine gefettete Form geben, bei mittlerer Ofentemperatur goldbraun backen; Stäbchenprobe im Kern. Auskühlen lassen.",
-            tip: "Ofengeduld wie im [Makowiec-Technik](/de/blog/makowiec-technik)-Guide — Fokus bleibt Piernik, nicht Hefe/Mohn.",
+            text: "Den Teig in eine gefettete Form geben und bei mittlerer Ofentemperatur goldbraun backen, mit der Stäbchenprobe die Mitte prüfen. Vollständig auskühlen lassen, bevor du ihn anschneidest.",
+            tip: "Dieselbe Ofengeduld wie im [Makowiec-Technik](/de/blog/makowiec-technik)-Guide zahlt sich auch hier aus, denn zu heiß gebacken bleibt der Kern klebrig.",
           },
           {
-            text: "Optional mit dünner Schokoglasur oder Puderzucker; in Scheiben oder Würfeln servieren — zu Tee/Kaffee oder als süßer Schluss nach [Wigilia](/de/blog/wigilia-speiseplan).",
+            text: "Optional mit dünner Schokoglasur oder Puderzucker bestreuen, dann in Scheiben oder Würfeln servieren, zu Tee oder Kaffee oder als süßer Schluss nach der [Wigilia](/de/blog/wigilia-speiseplan).",
           },
         ],
         seoTitle: "Piernik Rezept | Polnischer Lebkuchen | Alemniam",
         seoDescription:
-          "Piernik — polnischer Lebkuchen mit Honig und Gewürz. Bilingual mit DE-Einkauf, klar ≠ Makowiec/Sernik/Babka.",
+          "Piernik, polnischer Lebkuchen mit Honig und Gewürz. Bilingual mit DE-Einkauf, klar getrennt von Makowiec, Sernik und Babka.",
       },
       pl: {
         title: "Piernik",
         slug: "piernik",
         excerpt:
-          "Polski piernik miodowo-korzenny — miękkie ciasto, często na Wigilię lub do kawy, jasno ≠ makowiec.",
+          "Piernik to polski korzenno-miodowy piernik z siedmiuset lat historii sięgającej Torunia, miękkie ciasto, często na Wigilię lub do kawy.",
         steps: [
           {
-            text: "Podgrzej miód z masłem i cukrem ostrożnie, aż będzie płynny i gładki; ostudź do letniego.",
-            tip: "Nie gotuj — inaczej miód zbyt karmelizuje. Przyprawy: [sklep polski](/pl/blog/sklep-polski-zakupy).",
+            text: "Podgrzej miód z masłem i cukrem ostrożnie, aż będzie płynny i gładki, potem ostudź do ledwo letniej temperatury.",
+            tip: "Nie doprowadzaj miodu do wrzenia, inaczej zbyt się skarmelizuje i wyjdzie gorzki. Dobre przyprawy znajdziesz często w [sklepie polskim](/pl/blog/sklep-polski-zakupy).",
           },
           {
-            text: "Wymieszaj mąkę z proszkiem do pieczenia, kakao (opcjonalnie) i przyprawami (cynamon, goździk, imbir, gałka, ziele angielskie); dodaj jajka i masę miodową do gęstego ciasta.",
-            tip: "To nie rolada drożdżowa jak [makowiec](/pl/rezepte/makowiec) — tu niosą miód i korzeń, nie spirala makowa.",
+            text: "Wymieszaj mąkę z proszkiem do pieczenia, kakao (opcjonalnie) i przyprawami (cynamon, goździk, imbir, gałka, ziele angielskie), dodaj jajka i masę miodową, aż powstanie gęste ciasto.",
+            tip: "To nie rolada drożdżowa jak [makowiec](/pl/rezepte/makowiec): tam smak niesie spirala z makiem, tu niosą go miód i korzenie.",
           },
           {
-            text: "Przełóż do natłuszczonej formy, piecz na złoto w średniej temperaturze; patyczek w środku. Ostudź.",
-            tip: "Cierpliwość pieca jak w [technice makowca](/pl/blog/makowiec-technika) — tu zostaje piernik, nie drożdże/mak.",
+            text: "Przełóż ciasto do natłuszczonej formy i piecz na złoto w średniej temperaturze, sprawdzając środek patyczkiem. Ostudź całkowicie przed krojeniem.",
+            tip: "Ta sama cierpliwość pieca co w [technice makowca](/pl/blog/makowiec-technika) sprawdza się i tutaj, bo za gorący piec zostawia klejący środek.",
           },
           {
-            text: "Opcjonalnie lukier czekoladowy lub cukier puder; podawaj w plastrach lub kostkach — do herbaty/kawy albo jako słodki finał po [menu wigilijnym](/pl/blog/menu-wigilijne).",
+            text: "Opcjonalnie polej cienkim lukrem czekoladowym albo oprósz cukrem pudrem, podawaj w plastrach lub kostkach, do herbaty czy kawy albo jako słodki finał po [menu wigilijnym](/pl/blog/menu-wigilijne).",
           },
         ],
         seoTitle: "Piernik przepis | Piernik miodowy | Alemniam",
         seoDescription:
-          "Piernik — polski piernik miodowo-korzenny. Dwujęzycznie z zakupami w DE, jasno ≠ makowiec/sernik/babka.",
+          "Piernik, polski piernik miodowo-korzenny. Dwujęzycznie z zakupami w DE, jasno osobno od makowca, sernika i babki.",
       },
     },
     ingredients: [
@@ -87,7 +87,7 @@ export const seedRecipesWave10B: Recipe[] = [
         amount: 250,
         unit: { de: "g", pl: "g" },
         group: "pantry",
-        storeHintDe: "Milder Blütenhonig; dunkler Honig intensiver",
+        storeHintDe: "Milder Blütenhonig, dunkler Honig schmeckt intensiver",
       },
       {
         id: "pn-2",
@@ -133,7 +133,7 @@ export const seedRecipesWave10B: Recipe[] = [
         amount: 2,
         unit: { de: "TL", pl: "łyżeczki" },
         group: "spices",
-        storeHintDe: "Fertigmischung im Polenladen oder einzeln mischen",
+        storeHintDe: "Fertigmischung im Polenladen oder einzeln selbst gemischt",
       },
       {
         id: "pn-8",
@@ -176,53 +176,53 @@ export const seedRecipesWave10B: Recipe[] = [
         title: "Zupa pomidorowa",
         slug: "zupa-pomidorowa",
         excerpt:
-          "Polnische Tomatensuppe mit Reis oder Nudeln und Śmietana — Alltagsklassiker, klar ≠ Barszcz und ≠ Ogórkowa.",
+          "Zupa pomidorowa ist die polnische Alltags-Tomatensuppe mit Reis oder Nudeln und Śmietana, deutlich anders als Barszcz und Ogórkowa.",
         steps: [
           {
-            text: "Leichte Brühe erhitzen (oft Reste von [Rosół](/de/rezepte/rosol)); Zwiebel und Karotte kurz anschwitzen oder mitkochen.",
-            tip: "Alltags-Suppe, keine klare Festtagsbrühe — Überblick: [Polnische Suppen](/de/blog/polnische-suppen).",
+            text: "Eine leichte Brühe erhitzen, oft aus Resten von [Rosół](/de/rezepte/rosol), und Zwiebel sowie Karotte kurz darin anschwitzen oder mitkochen.",
+            tip: "Das ist eine Alltags-Suppe und keine klare Festtagsbrühe. Den Überblick über die ganze Familie gibt der Beitrag zu [polnischen Suppen](/de/blog/polnische-suppen).",
           },
           {
-            text: "Tomatensauce oder passierte Tomaten einrühren; 10–15 Minuten sanft köcheln. Reis oder kleine Nudeln separat garen oder in der Suppe weich kochen.",
-            tip: "Das ist nicht [Barszcz](/de/rezepte/barszcz-czerwony) (Bete) und nicht [Ogórkowa](/de/rezepte/ogorkowa) (Kiszone-Gurke).",
+            text: "Tomatensauce oder passierte Tomaten einrühren und 10 bis 15 Minuten sanft köcheln lassen. Reis oder kleine Nudeln separat garen oder direkt in der Suppe weich kochen.",
+            tip: "Das ist weder [Barszcz](/de/rezepte/barszcz-czerwony) mit roter Bete noch [Ogórkowa](/de/rezepte/ogorkowa) mit Kiszone-Gurke, sondern eine eigene, mild-tomatige Linie.",
           },
           {
-            text: "Mit Salz, Pfeffer und etwas Zucker oder Basilikum abschmecken; vom Herd nehmen und temperierte Śmietana einrühren.",
-            tip: "Śmietana temperieren — siehe [Śmietana/Schmand](/de/blog/smietana-schmand); nicht kochend einrühren.",
+            text: "Mit Salz, Pfeffer und etwas Zucker oder Basilikum abschmecken, dann vom Herd nehmen und die temperierte Śmietana einrühren.",
+            tip: "Temperiere die Śmietana wie im Beitrag zu [Śmietana und Schmand](/de/blog/smietana-schmand) beschrieben, sonst flockt sie beim Einrühren in die heiße Suppe.",
           },
           {
-            text: "Heiß mit Dill oder Petersilie servieren — als leichter Mittagsteller oder Sonntagsstarter im Sinne von [polnischem Sonntagsessen](/de/blog/sonntagsessen-polnisch).",
+            text: "Heiß mit Dill oder Petersilie servieren, als leichter Mittagsteller oder als Starter im Rahmen eines [polnischen Sonntagsessens](/de/blog/sonntagsessen-polnisch).",
           },
         ],
         seoTitle: "Zupa pomidorowa Rezept | Polnische Tomatensuppe | Alemniam",
         seoDescription:
-          "Zupa pomidorowa — polnische Tomatensuppe mit Reis/Nudeln und Śmietana. Bilingual, klar ≠ Barszcz/Ogórkowa.",
+          "Zupa pomidorowa, polnische Tomatensuppe mit Reis oder Nudeln und Śmietana. Bilingual, klar getrennt von Barszcz und Ogórkowa.",
       },
       pl: {
         title: "Zupa pomidorowa",
         slug: "zupa-pomidorowa",
         excerpt:
-          "Polska zupa pomidorowa z ryżem lub makaronem i śmietaną — klasyk codzienny, jasno ≠ barszcz i ≠ ogórkowa.",
+          "Zupa pomidorowa to polska zupa codzienna z ryżem lub makaronem i śmietaną, jasno inna niż barszcz i ogórkowa.",
         steps: [
           {
-            text: "Podgrzej lekki wywar (często resztki [rosołu](/pl/rezepte/rosol)); cebulę i marchew krótko zeszklij lub dogotuj.",
-            tip: "Zupa codzienna, nie klarowny wywar świąteczny — przegląd: [polskie zupy](/pl/blog/polskie-zupy).",
+            text: "Podgrzej lekki wywar, często z resztek [rosołu](/pl/rezepte/rosol), i krótko zeszklij w nim albo dogotuj cebulę i marchew.",
+            tip: "To zupa na co dzień, nie klarowny wywar świąteczny. Przegląd całej rodziny zup daje artykuł o [polskich zupach](/pl/blog/polskie-zupy).",
           },
           {
-            text: "Wymieszaj przecier lub passatę pomidorową; gotuj łagodnie 10–15 minut. Ryż lub drobny makaron ugotuj osobno albo w zupie do miękkości.",
-            tip: "To nie [barszcz](/pl/rezepte/barszcz-czerwony) (burak) i nie [ogórkowa](/pl/rezepte/ogorkowa) (ogórek kiszony).",
+            text: "Wymieszaj przecier lub passatę pomidorową i gotuj łagodnie 10 do 15 minut. Ryż lub drobny makaron ugotuj osobno albo wprost w zupie do miękkości.",
+            tip: "To ani [barszcz](/pl/rezepte/barszcz-czerwony) z burakiem, ani [ogórkowa](/pl/rezepte/ogorkowa) z ogórkiem kiszonym, tylko własna, łagodnie pomidorowa linia.",
           },
           {
-            text: "Dopraw solą, pieprzem i odrobiną cukru lub bazylii; zdejmij z ognia i włącz ocieploną śmietanę.",
-            tip: "Śmietanę zahartuj — [śmietana/Schmand](/pl/blog/smietana-czy-schmand); nie wlewaj do wrzątku.",
+            text: "Dopraw solą, pieprzem i odrobiną cukru lub bazylii, zdejmij z ognia i włącz ocieploną śmietanę.",
+            tip: "Zahartuj śmietanę zgodnie z opisem w artykule [śmietana czy Schmand](/pl/blog/smietana-czy-schmand), inaczej zważy się w gorącej zupie.",
           },
           {
-            text: "Podawaj gorącą z koperkiem lub pietruszką — lekki obiad albo starter niedzielny w duchu [obiadu niedzielnego](/pl/blog/obiad-niedzielny).",
+            text: "Podawaj gorącą z koperkiem lub pietruszką, jako lekki obiad albo starter w ramach [obiadu niedzielnego](/pl/blog/obiad-niedzielny).",
           },
         ],
         seoTitle: "Zupa pomidorowa przepis | Zupa z pomidorów | Alemniam",
         seoDescription:
-          "Zupa pomidorowa — z ryżem/makaronem i śmietaną. Dwujęzycznie, jasno ≠ barszcz/ogórkowa.",
+          "Zupa pomidorowa, z ryżem lub makaronem i śmietaną. Dwujęzycznie, jasno osobno od barszczu i ogórkowej.",
       },
     },
     ingredients: [
@@ -232,7 +232,7 @@ export const seedRecipesWave10B: Recipe[] = [
         amount: 1.2,
         unit: { de: "l", pl: "l" },
         group: "pantry",
-        storeHintDe: "Oft Reste von Rosół — sonst leichter Fond",
+        storeHintDe: "Oft Reste von Rosół, sonst ein leichter Fond",
       },
       {
         id: "zp-2",
@@ -243,7 +243,7 @@ export const seedRecipesWave10B: Recipe[] = [
         amount: 400,
         unit: { de: "g", pl: "g" },
         group: "pantry",
-        storeHintDe: "Gute Passata; polnische Flaschen im Polenladen oft runder",
+        storeHintDe: "Gute Passata, polnische Flaschen im Polenladen schmecken oft runder",
       },
       {
         id: "zp-3",
@@ -266,8 +266,8 @@ export const seedRecipesWave10B: Recipe[] = [
         unit: { de: "g", pl: "g" },
         group: "pantry",
         substitute: {
-          de: "Hausbrauch: Reis ODER Nudeln — nicht beides als Pflicht",
-          pl: "Zwyczaj domu: ryż ALBO makaron — nie oba naraz jako obowiązek",
+          de: "Nach Hausbrauch entweder Reis oder Nudeln, nicht beides gleichzeitig als Pflicht",
+          pl: "Zwyczajowo ryż albo makaron, nie oba naraz jako obowiązek",
         },
       },
       {
@@ -276,7 +276,7 @@ export const seedRecipesWave10B: Recipe[] = [
         amount: 150,
         unit: { de: "g", pl: "g" },
         group: "dairy",
-        storeHintDe: "18–22 %; temperieren vor dem Einrühren",
+        storeHintDe: "18 bis 22 %, vor dem Einrühren temperieren",
       },
       {
         id: "zp-7",

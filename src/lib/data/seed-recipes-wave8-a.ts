@@ -29,53 +29,53 @@ export const seedRecipesWave8A: Recipe[] = [
         title: "Mizeria",
         slug: "mizeria",
         excerpt:
-          "Gurkensalat mit Śmietana und Dill — kühle Beilage zu Schabowy und Sonntagsteller.",
+          "Ganz dünn gehobelte Gurken ziehen unter Salz ihren Saft, dann verbindet kalte Śmietana mit frischem Dill alles zu einer kühlen, erfrischenden Beilage für Schabowy und den Sonntagstisch.",
         steps: [
           {
-            text: "Gurken waschen, in sehr dünne Scheiben hobeln oder schneiden; leicht salzen und 10–15 Minuten Saft ziehen lassen.",
-            tip: "Salz entzieht Wasser — sonst verdünnt der Saft die Śmietana. Technik-Feeling zum Teller: [Panieren-Guide](/de/blog/panieren-schabowy).",
+            text: "Gurken waschen, in sehr dünne Scheiben hobeln oder schneiden, leicht salzen und 10 bis 15 Minuten Saft ziehen lassen.",
+            tip: "Salz entzieht der Gurke Wasser, sonst verdünnt der austretende Saft später die Śmietana. Wie sich das mit dem fertigen Teller verbindet, zeigt der [Panieren-Guide](/de/blog/panieren-schabowy) für Schabowy.",
           },
           {
-            text: "Gurken leicht ausdrücken oder abgießen. Mit [Śmietana/Schmand](/de/blog/smietana-schmand) (oder saurer Sahne), gehacktem Dill, einer Prise Zucker und Pfeffer vermengen.",
+            text: "Gurken leicht ausdrücken oder abgießen. Mit [Śmietana oder Schmand](/de/blog/smietana-schmand), gehacktem Dill, einer Prise Zucker und Pfeffer vermengen.",
           },
           {
-            text: "Abschmecken: Säure und Salz zuletzt. Optional etwas Zwiebel sehr fein.",
-            tip: "Nicht zu früh anmischen, wenn Gäste später kommen — sonst wässrig.",
+            text: "Zum Schluss abschmecken, denn Säure und Salz kommen erst jetzt dazu. Wer mag, reibt noch etwas Zwiebel sehr fein hinein.",
+            tip: "Mische den Salat nicht zu früh an, wenn Gäste erst später kommen, sonst wird er wässrig und verliert seinen Biss.",
           },
           {
-            text: "Kalt servieren zu [Kotlet schabowy](/de/rezepte/kotlet-schabowy), Kartoffeln oder als Oster-Beilage — siehe [Wielkanoc-Speiseplan](/de/blog/wielkanoc-speiseplan).",
-            tip: "Fest-Buffetsalat mit Mayo-Gemüse ist ein anderes Gericht: [Sałatka jarzynowa](/de/rezepte/salatka-jarzynowa).",
+            text: "Kalt servieren zu [Kotlet schabowy](/de/rezepte/kotlet-schabowy), Kartoffeln oder als Oster-Beilage nach dem [Wielkanoc-Speiseplan](/de/blog/wielkanoc-speiseplan).",
+            tip: "Ein Buffetsalat mit Mayonnaise und Gemüse ist ein ganz anderes Gericht, das findest du unter [Sałatka jarzynowa](/de/rezepte/salatka-jarzynowa).",
           },
         ],
         seoTitle: "Mizeria Rezept | Gurkensalat mit Śmietana | Alemniam",
         seoDescription:
-          "Mizeria — polnischer Gurkensalat mit Śmietana und Dill. Beilage zu Schabowy, bilingual mit DE-Einkauf.",
+          "Mizeria, polnischer Gurkensalat mit Śmietana und Dill. Beilage zu Schabowy, bilingual mit DE-Einkauf.",
       },
       pl: {
         title: "Mizeria",
         slug: "mizeria",
         excerpt:
-          "Sałatka z ogórków ze śmietaną i koperkiem — chłodny dodatek do schabowego i niedzielnego stołu.",
+          "Cienko pokrojone ogórki puszczają sok pod solą, a potem zimna śmietana ze świeżym koperkiem zamienia je w chłodny, orzeźwiający dodatek do schabowego i niedzielnego stołu.",
         steps: [
           {
-            text: "Ogórki umyj, pokrój lub zetrzyj w bardzo cienkie plasterki; lekko posól i odstaw na 10–15 minut, żeby puściły sok.",
-            tip: "Sól odciąga wodę — inaczej śmietana się rozrzedzi. Przy talerzu: [przewodnik panierowania](/pl/blog/panierowanie-kotlet).",
+            text: "Ogórki umyj, pokrój lub zetrzyj w bardzo cienkie plasterki, lekko posól i odstaw na 10 do 15 minut, żeby puściły sok.",
+            tip: "Sól odciąga z ogórka wodę, inaczej sok później rozrzedzi śmietanę. Jak to się łączy z gotowym talerzem, pokazuje [przewodnik panierowania](/pl/blog/panierowanie-kotlet) schabowego.",
           },
           {
-            text: "Lekko odciśnij lub odlej sok. Wymieszaj z [śmietaną/Schmandem](/pl/blog/smietana-czy-schmand) (lub kwaśną śmietaną), siekanym koperkiem, szczyptą cukru i pieprzem.",
+            text: "Lekko odciśnij lub odlej sok. Wymieszaj z [śmietaną lub Schmandem](/pl/blog/smietana-czy-schmand), siekanym koperkiem, szczyptą cukru i pieprzem.",
           },
           {
-            text: "Dopraw: kwas i sól na końcu. Opcjonalnie bardzo drobno cebula.",
-            tip: "Nie mieszaj za wcześnie przed gośćmi — zrobi się wodnista.",
+            text: "Dopraw na końcu, bo kwas i sól dodajesz dopiero teraz. Kto lubi, wciera jeszcze bardzo drobno startą cebulę.",
+            tip: "Nie mieszaj sałatki za wcześnie, jeśli goście przyjdą później, bo zrobi się wodnista i straci chrupkość.",
           },
           {
-            text: "Podawaj zimną do [kotleta schabowego](/pl/rezepte/kotlet-schabowy), ziemniaków albo jako dodatek wielkanocny — [menu wielkanocne](/pl/blog/menu-wielkanocne).",
-            tip: "Sałatka bufetowa z majonezem to inne danie: [sałatka jarzynowa](/pl/rezepte/salatka-jarzynowa).",
+            text: "Podawaj zimną do [kotleta schabowego](/pl/rezepte/kotlet-schabowy), ziemniaków albo jako dodatek wielkanocny według [menu wielkanocnego](/pl/blog/menu-wielkanocne).",
+            tip: "Sałatka bufetowa z majonezem i warzywami to zupełnie inne danie, znajdziesz je jako [sałatka jarzynowa](/pl/rezepte/salatka-jarzynowa).",
           },
         ],
         seoTitle: "Mizeria przepis | Sałatka z ogórków | Alemniam",
         seoDescription:
-          "Mizeria — ogórki ze śmietaną i koperkiem. Dodatek do schabowego, dwujęzycznie z zakupami w DE.",
+          "Mizeria, ogórki ze śmietaną i koperkiem. Dodatek do schabowego, dwujęzycznie z zakupami w DE.",
       },
     },
     ingredients: [
@@ -85,7 +85,8 @@ export const seedRecipesWave8A: Recipe[] = [
         amount: 4,
         unit: { de: "Stück", pl: "szt." },
         group: "produce",
-        storeHintDe: "Feste Gurken — im Sommer auch Feldgurken aus dem Polenladen",
+        storeHintDe:
+          "Feste Gurken nehmen, im Sommer eignen sich auch Feldgurken aus dem Polenladen",
       },
       {
         id: "mz-2",
@@ -93,10 +94,11 @@ export const seedRecipesWave8A: Recipe[] = [
         amount: 200,
         unit: { de: "g", pl: "g" },
         group: "dairy",
-        storeHintDe: "Schmand oder saure Sahne 20–24 % — siehe Śmietana-Guide",
+        storeHintDe:
+          "Schmand oder saure Sahne mit 20 bis 24 Prozent Fett, Details im Śmietana-Guide",
         substitute: {
-          de: "Saure Sahne oder Crème fraîche (weniger)",
-          pl: "Saure Sahne lub crème fraîche (mniej)",
+          de: "Saure Sahne oder etwas weniger Crème fraîche",
+          pl: "Kwaśna śmietana lub trochę mniej crème fraîche",
         },
       },
       {
@@ -162,51 +164,51 @@ export const seedRecipesWave8A: Recipe[] = [
         title: "Kapusta zasmażana",
         slug: "kapusta-zasmażana",
         excerpt:
-          "Geschmortes Sauerkraut mit Zasmażka — warme Beilage zu Schabowy und Sonntagsfleisch.",
+          "Geschmortes Sauerkraut mit heller Zasmażka, eine warme, mild-säuerliche Beilage zu Schabowy und Sonntagsfleisch.",
         steps: [
           {
-            text: "Sauerkraut ausdrücken (Säure nach Geschmack behalten oder kurz spülen), grob hacken. Zwiebel in Fett glasig anschwitzen.",
-            tip: "Kraut-Qualität und Ferment-Feeling: [Kiszenie-Guide](/de/blog/kiszenie-guide) — hier nur Verwertung, nicht der Ferment-Guide.",
+            text: "Sauerkraut ausdrücken, dabei die Säure je nach Geschmack behalten oder kurz spülen, dann grob hacken. Zwiebel in Fett glasig anschwitzen.",
+            tip: "Die Kraut-Qualität und alles rund ums Fermentieren erklärt der [Kiszenie-Guide](/de/blog/kiszenie-guide) im Detail, hier geht es nur um die Verwertung des fertigen Krauts.",
           },
           {
-            text: "Kraut dazugeben, mit wenig Wasser oder Brühe ansetzen, Lorbeer und Pfeffer; bei mittlerer Hitze 25–35 Minuten schmoren, bis weich aber nicht matschig.",
+            text: "Kraut dazugeben, mit wenig Wasser oder Brühe aufgießen, mit Lorbeer und Pfeffer würzen und bei mittlerer Hitze 25 bis 35 Minuten schmoren, bis es weich, aber nicht matschig ist.",
           },
           {
-            text: "Zasmażka: Mehl in Butter hell anrösten, mit etwas Flüssigkeit vom Kraut glatt rühren, unterheben; kurz aufkochen und abschmecken.",
-            tip: "Nicht zu dunkel rösten — sonst bitter. Klassiker-Teller mit [Kotlet schabowy](/de/rezepte/kotlet-schabowy).",
+            text: "Für die Zasmażka Mehl in Butter hell anrösten, mit etwas Flüssigkeit vom Kraut glattrühren und unterheben, dann kurz aufkochen und abschmecken.",
+            tip: "Röste das Mehl nicht zu dunkel, sonst schmeckt die Zasmażka bitter. Ein Klassiker-Teller entsteht mit [Kotlet schabowy](/de/rezepte/kotlet-schabowy).",
           },
           {
-            text: "Heiß servieren zu Fleisch, [Rosół](/de/rezepte/rosol)-Sonntag oder Kartoffeln — Menü-Kontext: [polnisches Sonntagsessen](/de/blog/sonntagsessen-polnisch).",
+            text: "Heiß servieren zu Fleisch, zum [Rosół](/de/rezepte/rosol)-Sonntag oder zu Kartoffeln, eingebettet in den Rahmen des [polnischen Sonntagsessens](/de/blog/sonntagsessen-polnisch).",
           },
         ],
         seoTitle: "Kapusta zasmażana Rezept | Geschmortes Kraut | Alemniam",
         seoDescription:
-          "Kapusta zasmażana — geschmortes Sauerkraut mit Mehlschwitze. Beilage zu Schabowy, bilingual.",
+          "Kapusta zasmażana, geschmortes Sauerkraut mit Mehlschwitze. Beilage zu Schabowy, bilingual.",
       },
       pl: {
         title: "Kapusta zasmażana",
         slug: "kapusta-zasmażana",
         excerpt:
-          "Duszona kapusta kiszona z zasmażką — ciepły dodatek do schabowego i niedzielnego mięsa.",
+          "Duszona kapusta kiszona z jasną zasmażką, ciepły, łagodnie kwaśny dodatek do schabowego i niedzielnego mięsa.",
         steps: [
           {
-            text: "Odciśnij kapustę kiszoną (kwas według smaku zostaw lub krótko wypłucz), posiekaj. Cebulę zeszklij na tłuszczu.",
-            tip: "Jakość kiszonki i ferment: [przewodnik kiszenia](/pl/blog/kiszenie-w-domu) — tu tylko wykorzystanie, nie przewodnik po kiszeniu.",
+            text: "Odciśnij kapustę kiszoną, zostawiając kwas według smaku albo krótko ją wypłucz, potem posiekaj. Cebulę zeszklij na tłuszczu.",
+            tip: "Jakość kiszonki i wszystko o fermentacji opisuje szczegółowo [przewodnik kiszenia](/pl/blog/kiszenie-w-domu), tu chodzi tylko o wykorzystanie gotowej kapusty.",
           },
           {
-            text: "Dodaj kapustę, podlej odrobiną wody lub bulionu, liść laurowy i pieprz; duś 25–35 minut na średnim ogniu aż będzie miękka, nie rozgotowana.",
+            text: "Dodaj kapustę, podlej odrobiną wody lub bulionu, dopraw liściem laurowym i pieprzem, a potem duś 25 do 35 minut na średnim ogniu, aż będzie miękka, ale nie rozgotowana.",
           },
           {
-            text: "Zasmażka: zasmaż mąkę na maśle na jasno, rozprowadź płynem z kapusty, wlej; krótko zagotuj i dopraw.",
-            tip: "Nie zasmażaj za ciemno — gorzknieje. Klasyka z [kotletem schabowym](/pl/rezepte/kotlet-schabowy).",
+            text: "Zasmaż mąkę na maśle na jasno, rozprowadź płynem z kapusty, wlej i wymieszaj, krótko zagotuj i dopraw.",
+            tip: "Nie zasmażaj mąki za ciemno, bo zasmażka zrobi się gorzka. Klasyczny talerz łączy ją z [kotletem schabowym](/pl/rezepte/kotlet-schabowy).",
           },
           {
-            text: "Podawaj gorącą do mięsa, niedzieli z [rosołem](/pl/rezepte/rosol) lub ziemniakami — kontekst: [obiad niedzielny](/pl/blog/obiad-niedzielny).",
+            text: "Podawaj gorącą do mięsa, do niedzieli z [rosołem](/pl/rezepte/rosol) lub do ziemniaków, w ramach [obiadu niedzielnego](/pl/blog/obiad-niedzielny).",
           },
         ],
         seoTitle: "Kapusta zasmażana przepis | Alemniam",
         seoDescription:
-          "Kapusta zasmażana — duszona kiszona z zasmażką. Dodatek do schabowego, dwujęzycznie.",
+          "Kapusta zasmażana, duszona kiszona z zasmażką. Dodatek do schabowego, dwujęzycznie.",
       },
     },
     ingredients: [
@@ -216,7 +218,8 @@ export const seedRecipesWave8A: Recipe[] = [
         amount: 800,
         unit: { de: "g", pl: "g" },
         group: "polish",
-        storeHintDe: "Polenladen oder Supermarkt — Säure prüfen, nicht zu wässrig",
+        storeHintDe:
+          "Aus dem Polenladen oder Supermarkt, Säure vorher prüfen, es sollte nicht zu wässrig sein",
       },
       {
         id: "kz-2",
@@ -269,7 +272,8 @@ export const seedRecipesWave8A: Recipe[] = [
         amount: 150,
         unit: { de: "ml", pl: "ml" },
         group: "pantry",
-        storeHintDe: "Optional Rest von Rosół — nicht als Suppenrezept",
+        storeHintDe:
+          "Optional ein Rest vom Rosół, das macht daraus aber kein Suppenrezept",
       },
     ],
     createdAt: "2026-07-20T21:05:00.000Z",

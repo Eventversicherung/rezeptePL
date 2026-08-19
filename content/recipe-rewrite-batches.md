@@ -28,15 +28,16 @@ sind untereinander unabhängig und dürfen parallel laufen.
 | Batch | Rezepte | Seed-Datei(en) | FACTS-Datei(en) | Status |
 |---|---|---|---|---|
 | Pilot | zapiekanka | seed-recipes-wave14-c.ts | recipe-articles-w14-c.ts | ✅ fertig |
-| W8 | mizeria, kapusta-zasmażana, ogorkowa, kapusniak, paczki, knedle-sliwki | seed-recipes-wave8-{a,b,c,d}.ts | recipe-articles-w8-{a,b,c,d}.ts | ⏳ in Arbeit |
-| W9 | zeberka, rolada-slaska, salatka-jarzynowa, botwinka, babka, kaszanka | seed-recipes-wave9-{a,b,c,d}.ts | recipe-articles-w9-{a,b,c,d}.ts | ⏳ in Arbeit |
-| W10 | flaki, schab-pieczony, piernik, zupa-pomidorowa, nalesniki-dzem, pierogi-jagody, makaron-z-serem | seed-recipes-wave10-{a,b,c,d}.ts | recipe-articles-w10-{a,b,c,d}.ts | ⏳ in Arbeit |
-| W11 | golonka, kompot-z-suszu, ryba-po-grecku | seed-recipes-wave11-d.ts | recipe-articles-w11-d.ts | ⏳ in Arbeit |
-| W12 | zupa-grzybowa, grochowka, makaron-z-makiem, szarlotka, mazurek, buraczki, klopsy, kluski-kladzione | seed-recipes-wave12-{a,b,c,d}.ts | recipe-articles-w12-{a,b,c,d}.ts | ⏳ in Arbeit |
+| W8 | mizeria, kapusta-zasmażana, ogorkowa, kapusniak, paczki, knedle-sliwki | seed-recipes-wave8-{a,b,c,d}.ts | recipe-articles-w8-{a,b,c,d}.ts | ⏳ Agent fff372f9 |
+| W9 | zeberka, rolada-slaska, salatka-jarzynowa, botwinka, babka, kaszanka | seed-recipes-wave9-{a,b,c,d}.ts | recipe-articles-w9-{a,b,c,d}.ts | ⏳ Agent 4ecd67df |
+| W10 | flaki, schab-pieczony, piernik, zupa-pomidorowa, nalesniki-dzem, pierogi-jagody, makaron-z-serem | seed-recipes-wave10-{a,b,c,d}.ts | recipe-articles-w10-{a,b,c,d}.ts | ⏳ Agent a6e9ab66 |
+| W11 | golonka, kompot-z-suszu, ryba-po-grecku | seed-recipes-wave11-d.ts | recipe-articles-w11-d.ts | ⏳ Agent 8f39b140 |
+| W12 | zupa-grzybowa, grochowka, makaron-z-makiem, szarlotka, mazurek, buraczki, klopsy, kluski-kladzione | seed-recipes-wave12-{a,b,c,d}.ts | recipe-articles-w12-{a,b,c,d}.ts | ⏳ Agent 436497c9 |
 | W13 | krupnik, szczawiowa, kutia, napoleonka, chalka, pasztet, biala-kielbasa | seed-recipes-wave13-{a,b,c,d}.ts | recipe-articles-w13-{a,b,c,d}.ts | ⬜ offen |
 | W14-Rest | wuzetka, drozdzowka, jajka-faszerowane, cwikla, placek-po-wegiersku, leczo | seed-recipes-wave14-{a,b,c,d}.ts | recipe-articles-w14-{a,b,c,d}.ts | ⬜ offen |
 | W15 | kaczka, pieczen-rzymska, galareta, salatka-sledziowa, marchewka-groszek, fasolka-szparagowa, koperkowa, kisiel | seed-recipes-wave15-{a,b,c,d}.ts | recipe-articles-w15-{a,b,c,d}.ts | ⬜ offen |
 | W16 | surowka, de-volaille, kasza-gryczana, tatar, pierniczki, knedle-truskawki, chrzan, kurczak-pieczony | seed-recipes-wave16-{a,b,c,d}.ts | recipe-articles-w16-{a,b,c,d}.ts | ⬜ offen |
+| W17 | ogorki-kiszone, ogorki-malosolne, kapusta-kiszona, czosnek-kiszony, grzyby-marynowane, papryka-konserwowa, sliwki-w-occie, cebulka-marynowana, kalafior-w-occie, buraki-w-occie | seed-recipes-wave17.ts | recipe-articles-w17.ts (falls vorhanden, sonst passendes FACTS-File suchen) | ⬜ offen (neu entdeckt, war nicht in Erstplan) |
 | Mega-A | pierogi-leniwe, kopytka, lazanki, pyzy, zrazy | seed-recipes-wave5.ts | recipe-articles.ts | ⬜ offen (teilt recipe-articles.ts) |
 | Mega-B | makowiec, uszka, karp, krokiety, sernik, sledz | seed-recipes-wave6.ts, wave7.ts | recipe-articles.ts | ⬜ offen (teilt recipe-articles.ts) |
 | Mega-C | pierogi, golabki, oscypek, placki, nalesniki, rosol, bigos, nalesniki-mieso, nalesniki-szpinak | seed-blog-w3a.ts | recipe-articles.ts | ⬜ offen (teilt recipe-articles.ts) |
@@ -47,4 +48,13 @@ Mega-A bis Mega-E teilen sich alle `recipe-articles.ts` — diese Batches nachei
 nicht parallel zueinander (auch wenn sie parallel zu den W8–W16-Batches laufen dürfen, da die
 Seed-Dateien unabhängig sind).
 
-**Gesamt: 95 Rezepte · 1 fertig (zapiekanka) · Rest in den Batches oben.**
+**Gesamt: 105 Rezepte (inkl. Wave 17, nachträglich entdeckt) · 1 fertig (zapiekanka) · Rest in den Batches oben.**
+
+## Entscheidung (2026-08-20, mit User abgestimmt)
+
+Datei-Struktur (Legacy-Monolith `seed.ts` + `recipe-articles.ts`, 35 Rezepte) wird **nicht** mechanisch
+umgebaut. Grund: Die eigentliche strukturelle Lösung ist die geplante Supabase-Migration
+(`content/supabase-cms-plan.md`), danach ist jedes Rezept ohnehin eine eigene DB-Zeile. Ein
+TS-Datei-Refactor jetzt wäre doppelte Arbeit. Die Mega-A bis Mega-E Batches werden daher inhaltlich
+wie geplant überarbeitet, nur **sequenziell statt parallel** (gemeinsame Datei-Race vermeiden).
+Supabase-Migration wird nach Abschluss aller Content-Batches als eigenes Projekt besprochen.

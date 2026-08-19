@@ -28,59 +28,59 @@ export const seedRecipesWave8D: Recipe[] = [
         title: "Knedle ze śliwkami",
         slug: "knedle-sliwki",
         excerpt:
-          "Kartoffel-Knödel mit Pflaume — süß, sättigend, klar getrennt von Pierogi und Leniwe.",
+          "Kartoffel-Knödel mit ganzer Pflaume im Kern, süß und sättigend, klar getrennt von Pierogi und Leniwe.",
         steps: [
           {
-            text: "Kartoffeln kochen, ausdampfen, stampfen; mit Mehl, Ei und Prise Salz zu weichem, formbarem Teig verkneten.",
-            tip: "Teiggefühl ähnlich wie bei [Kopytka](/de/rezepte/kopytka), aber die Kugel umschließt später die Pflaume — nicht mit [Pierogi leniwe](/de/rezepte/pierogi-leniwe) verwechseln (ohne Füllung).",
+            text: "Kartoffeln kochen, gut ausdampfen lassen, stampfen und mit Mehl, Ei und einer Prise Salz zu weichem, formbarem Teig verkneten.",
+            tip: "Das Teiggefühl ähnelt dem bei [Kopytka](/de/rezepte/kopytka), doch die Kugel umschließt hier später die ganze Pflaume. Verwechsle das nicht mit [Pierogi leniwe](/de/rezepte/pierogi-leniwe), die ganz ohne Füllung auskommen.",
           },
           {
-            text: "Pflaumen halbieren, Stein entfernen; optional ein Stück Zucker oder Zimt in die Mitte legen.",
+            text: "Pflaumen halbieren und den Stein entfernen, dann optional ein Stück Zucker oder etwas Zimt in die Mitte legen.",
           },
           {
-            text: "Teig flach drücken, Pflaume einpacken, fest zu einer Kugel schließen — keine Luftblasen, keine Risse.",
-            tip: "Gefaltete Teigtaschen bleiben im [Pierogi-Guide](/de/blog/pierogi-guide); Knedle sind runde Obst-Knödel.",
+            text: "Teig flach drücken, die Pflaume darin einpacken und fest zu einer Kugel schließen, ohne Luftblasen und ohne Risse.",
+            tip: "Gefaltete Teigtaschen bleiben ganz eigenes Thema im [Pierogi-Guide](/de/blog/pierogi-guide), Knedle dagegen sind runde Obst-Knödel mit anderer Form.",
           },
           {
-            text: "In leicht siedendem Salzwasser garen, bis sie aufschwimmen; 2–3 Minuten nachziehen, herausnehmen.",
+            text: "In leicht siedendem Salzwasser garen, bis die Knedle aufschwimmen, dann noch 2 bis 3 Minuten ziehen lassen und herausnehmen.",
           },
           {
-            text: "Mit Butterbröseln und Zucker oder Zimt servieren — warm als Dessert oder süßes Hauptgericht.",
-            tip: "Süße Nachbarschaft: [Racuchy mit Apfel](/de/rezepte/racuchy-jablka). Einkaufshilfe: [Polenladen](/de/blog/polenladen-einkaufen).",
+            text: "Mit Butterbröseln und Zucker oder Zimt servieren, warm als Dessert oder als süßes Hauptgericht.",
+            tip: "Eine süße Nachbarschaft bieten [Racuchy mit Apfel](/de/rezepte/racuchy-jablka), passende Zutaten dafür findest du im [Polenladen](/de/blog/polenladen-einkaufen).",
           },
         ],
         seoTitle: "Knedle mit Pflaumen Rezept | Knedle ze śliwkami | Alemniam",
         seoDescription:
-          "Knedle ze śliwkami — Kartoffel-Knödel mit Pflaume, bilingual mit DE-Einkauf. Nicht Pierogi, nicht Leniwe.",
+          "Knedle ze śliwkami, Kartoffel-Knödel mit Pflaume, bilingual mit DE-Einkauf. Nicht Pierogi, nicht Leniwe.",
       },
       pl: {
         title: "Knedle ze śliwkami",
         slug: "knedle-sliwki",
         excerpt:
-          "Knedle ziemniaczane ze śliwką — słodkie, sycące, wyraźnie inne niż pierogi i leniwe.",
+          "Knedle ziemniaczane z całą śliwką w środku, słodkie i sycące, wyraźnie inne niż pierogi i leniwe.",
         steps: [
           {
-            text: "Ugotuj ziemniaki, odparuj, utłucz; zagnieć z mąką, jajkiem i szczyptą soli na miękkie, formowalne ciasto.",
-            tip: "Wyczucie jak przy [kopytkach](/pl/rezepte/kopytka), ale kula owija śliwkę — nie mylić z [pierogami leniwymi](/pl/rezepte/pierogi-leniwe) (bez nadzienia).",
+            text: "Ugotuj ziemniaki, dobrze odparuj, utłucz i zagnieć z mąką, jajkiem oraz szczyptą soli na miękkie, formowalne ciasto.",
+            tip: "Wyczucie ciasta jest podobne jak przy [kopytkach](/pl/rezepte/kopytka), ale kula owija tu całą śliwkę. Nie myl tego z [pierogami leniwymi](/pl/rezepte/pierogi-leniwe), które są zupełnie bez nadzienia.",
           },
           {
-            text: "Przekrój śliwki, usuń pestkę; opcjonalnie włóż cukier lub cynamon do środka.",
+            text: "Przekrój śliwki na pół, usuń pestkę, a opcjonalnie włóż do środka kawałek cukru lub odrobinę cynamonu.",
           },
           {
-            text: "Spłaszcz ciasto, owiń śliwkę, szczelnie zamknij w kulę — bez pęcherzy i pęknięć.",
-            tip: "Rozróżnienie: sklejane pierogi zostają w [przewodniku po pierogach](/pl/blog/przewodnik-pierogi); knedle to okrągłe knedle owocowe.",
+            text: "Spłaszcz ciasto, owiń nim śliwkę i szczelnie zamknij w kulę, bez pęcherzy powietrza i bez pęknięć.",
+            tip: "Sklejane pierogi mają zupełnie osobny temat w [przewodniku po pierogach](/pl/blog/przewodnik-pierogi), knedle to za to okrągłe knedle owocowe o innej formie.",
           },
           {
-            text: "Gotuj w lekko wrzącej osolonej wodzie aż wypłyną; 2–3 minuty dociągnij, wyjmij.",
+            text: "Gotuj w lekko wrzącej osolonej wodzie, aż knedle wypłyną, potem dociągnij jeszcze 2 do 3 minut i wyjmij.",
           },
           {
-            text: "Podawaj z bułką tartą na maśle i cukrem lub cynamonem — ciepło jako deser lub słodkie danie główne.",
-            tip: "Słodkie sąsiedztwo: [racuchy z jabłkami](/pl/rezepte/racuchy-jablka). Zakupy: [sklep polski](/pl/blog/sklep-polski-zakupy).",
+            text: "Podawaj z bułką tartą podsmażoną na maśle i cukrem lub cynamonem, ciepłe jako deser albo słodkie danie główne.",
+            tip: "Słodkim sąsiadem są [racuchy z jabłkami](/pl/rezepte/racuchy-jablka), a potrzebne składniki znajdziesz w [sklepie polskim](/pl/blog/sklep-polski-zakupy).",
           },
         ],
         seoTitle: "Knedle ze śliwkami przepis | Alemniam",
         seoDescription:
-          "Knedle ze śliwkami — knedle ziemniaczane ze śliwką, dwujęzycznie. Nie pierogi, nie leniwe.",
+          "Knedle ze śliwkami, knedle ziemniaczane ze śliwką, dwujęzycznie. Nie pierogi, nie leniwe.",
       },
     },
     ingredients: [
@@ -117,10 +117,11 @@ export const seedRecipesWave8D: Recipe[] = [
         amount: 12,
         unit: { de: "Stück", pl: "szt." },
         group: "produce",
-        storeHintDe: "Saison frisch; sonst Glas — gut abtropfen",
+        storeHintDe:
+          "In der Saison frisch, sonst Glasware gut abtropfen lassen",
         substitute: {
-          de: "Aprikosen oder Mirabellen — Form und Garzeit anpassen",
-          pl: "Morele lub mirabelki — dopasuj formę i czas",
+          de: "Aprikosen oder Mirabellen, dabei Form und Garzeit anpassen",
+          pl: "Morele lub mirabelki, dopasuj wtedy formę i czas gotowania",
         },
       },
       {

@@ -29,51 +29,55 @@ export const seedRecipesWave9A: Recipe[] = [
         title: "Żeberka pieczone",
         slug: "zeberka",
         excerpt:
-          "Ofenrippchen polnisch — Majeranek-Senf-Marinade, knusprig außen, saftig innen.",
+          "Żeberka pieczone sind polnische Ofenrippchen aus einer Senf-Majoran-Marinade, die im Backofen langsam gar werden, bis die Ränder knusprig sind und das Fleisch fast von selbst vom Knochen fällt.",
         steps: [
           {
-            text: "Rippen waschen, trocken tupfen, zwischen den Knochen in Portionen teilen. Mit Salz, Pfeffer, Senf und [Majeranek](/de/blog/majeranek) einreiben; optional Knoblauch und etwas Öl. Mindestens 1 Stunde marinieren, besser über Nacht.",
-            tip: "Majoran früh in die Marinade — er braucht Zeit. Dosierung und Kauf: Majeranek-Lexikon.",
+            text: "Die Rippchen waschen, trocken tupfen und zwischen den Knochen in Portionen teilen. Mit Salz, Pfeffer, Senf und [Majoran](/de/blog/majeranek) einreiben, optional mit etwas Knoblauch und Öl. Mindestens eine Stunde marinieren, besser über Nacht im Kühlschrank.",
+            tip: "Majoran gehört früh in die Marinade, denn er braucht Zeit, um sein Aroma an das Fleisch abzugeben. Dosierung und Einkauf stehen im [Majoran-Lexikon](/de/blog/majeranek).",
           },
           {
-            text: "Ofen auf 180 °C Ober-/Unterhitze vorheizen. Rippen in eine Form oder auf ein Gitter mit Auffangblech legen; etwas Wasser oder Brühe in die Form, damit nichts anbrennt.",
+            text: "Den Ofen auf 180 Grad Ober- und Unterhitze vorheizen. Die Rippchen in eine Auflaufform oder auf ein Gitter mit Auffangblech legen und etwas Wasser oder Brühe in die Form gießen, damit nichts anbrennt.",
+            tip: "Die Flüssigkeit im Boden der Form verdampft langsam und hält die Luft im Ofen feucht, sodass die Rippchen innen saftig bleiben, während die Oberfläche trotzdem knusprig wird.",
           },
           {
-            text: "Ca. 75–90 Minuten backen, zwischendurch wenden. Gegen Ende Hitze erhöhen oder Grill kurz nutzen, bis die Kanten knusprig sind — Innenseite soll saftig bleiben, nicht trocken.",
-            tip: "Kein Eintopf: Żeberka gehören in den Ofen, nicht in den [Gulasz](/de/rezepte/gulasz-wieprzowy)-Topf.",
+            text: "Etwa 75 bis 90 Minuten backen und die Rippchen zwischendurch wenden. Gegen Ende die Hitze erhöhen oder kurz den Grill nutzen, bis die Kanten knusprig sind, während das Fleisch innen saftig bleibt.",
+            tip: "Żeberka gehören in den Ofen und nicht in den Schmortopf, denn das ist ein anderes Gericht als [Gulasz wieprzowy](/de/rezepte/gulasz-wieprzowy), bei dem Würfelfleisch lange in Flüssigkeit gart.",
           },
           {
-            text: "Ruhen lassen, mit Kartoffeln oder Kraut servieren. Menü-Rahmen: [polnisches Sonntagsessen](/de/blog/sonntagsessen-polnisch). Wer denselben Tag paniert, bleibt beim [Kotlet schabowy](/de/rezepte/kotlet-schabowy) als Nachbar — nicht als Ersatz. Ofenschab ohne Panade: [Schab pieczony](/de/rezepte/schab-pieczony).",
+            text: "Die Rippchen kurz ruhen lassen und mit Kartoffeln oder Kraut servieren. Wer am selben Tag lieber paniert, bleibt beim [Kotlet schabowy](/de/rezepte/kotlet-schabowy) als eigenem Rezept, und wer Ofenschab ohne Panade mag, findet ihn beim [Schab pieczony](/de/rezepte/schab-pieczony).",
+            tip: "Den Rahmen für den ganzen Tisch liefert das [polnische Sonntagsessen](/de/blog/sonntagsessen-polnisch), hier geht es nur um die Rippchen selbst.",
           },
         ],
         seoTitle: "Żeberka pieczone Rezept | Ofenrippchen polnisch | Alemniam",
         seoDescription:
-          "Żeberka pieczone — polnische Ofenrippchen mit Majeranek und Senf. Bilingual mit DE-Einkauf und Sonntags-Kontext.",
+          "Żeberka pieczone: polnische Ofenrippchen mit Majoran und Senf, bilingual mit Einkaufstipps für Deutschland und Sonntagskontext.",
       },
       pl: {
         title: "Żeberka pieczone",
         slug: "zeberka",
         excerpt:
-          "Żeberka z piekarnika — marynata z majerankiem i musztardą, chrupiące na zewnątrz.",
+          "Żeberka pieczone to żeberka wieprzowe w marynacie z musztardą i majerankiem, które powoli dochodzą w piekarniku, aż brzegi robią się chrupiące, a mięso samo odchodzi od kości.",
         steps: [
           {
-            text: "Żebra umyj, osusz, podziel między kośćmi. Natrzyj solą, pieprzem, musztardą i [majerankiem](/pl/blog/majeranek-leksykon); opcjonalnie czosnek i olej. Marynuj minimum 1 godzinę, lepiej na noc.",
-            tip: "Majeranek wcześnie do marynaty — potrzebuje czasu. Dawka i zakup: leksykon majeranku.",
+            text: "Żebra umyj, osusz i podziel na porcje między kośćmi. Natrzyj solą, pieprzem, musztardą i [majerankiem](/pl/blog/majeranek-leksykon), opcjonalnie dodaj czosnek i odrobinę oleju. Marynuj co najmniej godzinę, najlepiej całą noc w lodówce.",
+            tip: "Majeranek dodaj do marynaty wcześnie, bo potrzebuje czasu, żeby oddać aromat mięsu. Dawkowanie i zakupy znajdziesz w [leksykonie majeranku](/pl/blog/majeranek-leksykon).",
           },
           {
-            text: "Nagrzej piekarnik do 180 °C. Ułóż żebra w naczyniu lub na ruszcie z blachą; odrobinę wody lub bulionu na dno, żeby nie przypalić.",
+            text: "Nagrzej piekarnik do 180 stopni, góra i dół. Ułóż żebra w naczyniu żaroodpornym albo na ruszcie z blachą pod spodem i wlej na dno odrobinę wody lub bulionu, żeby nic się nie przypaliło.",
+            tip: "Płyn na dnie naczynia powoli odparowuje i utrzymuje wilgotne powietrze w piekarniku, dzięki czemu żeberka zostają soczyste w środku, a wierzch i tak zdąży się ładnie zrumienić.",
           },
           {
-            text: "Piecz 75–90 minut, przewracaj. Pod koniec podnieś temperaturę lub użyj grilla, aż brzegi będą chrupiące — środek ma zostać soczysty.",
-            tip: "To nie gulasz: żeberka idą do pieca, nie do garnka na [gulasz](/pl/rezepte/gulasz-wieprzowy).",
+            text: "Piecz od 75 do 90 minut, od czasu do czasu przewracając żebra. Pod koniec podnieś temperaturę albo na chwilę włącz grill, aż brzegi zrobią się chrupiące, a środek zostanie soczysty.",
+            tip: "Żeberka pieczesz w piekarniku, a nie dusisz w garnku, bo to zupełnie inne danie niż [gulasz wieprzowy](/pl/rezepte/gulasz-wieprzowy), gdzie mięso w kostce długo gotuje się w płynie.",
           },
           {
-            text: "Odstaw chwilę, podawaj z ziemniakami lub kapustą. Ramy menu: [obiad niedzielny](/pl/blog/obiad-niedzielny). Tego samego dnia panierujesz — zostań przy [kotlecie schabowym](/pl/rezepte/kotlet-schabowy) jako sąsiedzie, nie zamienniku. Schab z pieca bez panierki: [schab pieczony](/pl/rezepte/schab-pieczony).",
+            text: "Odstaw na chwilę, potem podawaj z ziemniakami lub kapustą. Jeśli tego samego dnia panierujesz, zostań przy [kotlecie schabowym](/pl/rezepte/kotlet-schabowy) jako osobnym przepisie, a schab z pieca bez panierki znajdziesz w [schabie pieczonym](/pl/rezepte/schab-pieczony).",
+            tip: "Ramy całego menu opisuje [obiad niedzielny](/pl/blog/obiad-niedzielny), a tutaj chodzi wyłącznie o same żeberka.",
           },
         ],
         seoTitle: "Żeberka pieczone przepis | Alemniam",
         seoDescription:
-          "Żeberka pieczone z majerankiem i musztardą. Dwujęzycznie z zakupami w DE i kontekstem niedzieli.",
+          "Żeberka pieczone z majerankiem i musztardą. Dwujęzycznie z zakupami w Niemczech i kontekstem niedzieli.",
       },
     },
     ingredients: [
@@ -83,7 +87,7 @@ export const seedRecipesWave9A: Recipe[] = [
         amount: 1200,
         unit: { de: "g", pl: "g" },
         group: "other",
-        storeHintDe: "Fleischtheke — gleichmäßige Stücke, nicht zu mager",
+        storeHintDe: "Von der Fleischtheke, gleichmäßige Stücke, nicht zu mager",
       },
       {
         id: "zb-2",
@@ -98,7 +102,7 @@ export const seedRecipesWave9A: Recipe[] = [
         amount: 2,
         unit: { de: "TL", pl: "łyżeczki" },
         group: "spices",
-        storeHintDe: "Polenladen oft aromatischer — siehe Majeranek-Lexikon",
+        storeHintDe: "Im Polenladen oft aromatischer als im Supermarkt",
       },
       {
         id: "zb-4",
@@ -166,51 +170,55 @@ export const seedRecipesWave9A: Recipe[] = [
         title: "Rolada śląska",
         slug: "rolada-slaska",
         excerpt:
-          "Geschmorte Fleischroulade schlesischer Hausmannskost — mit Kluski und klarer Soße.",
+          "Rolada śląska ist die geschmorte Fleischroulade der schlesischen Sonntagsküche, gefüllt mit Speck und Zwiebel und serviert mit dunkler Soße und Kluski.",
         steps: [
           {
-            text: "Fleischscheiben (Rind oder Schwein) flach klopfen, salzen, pfeffern, dünn mit Senf bestreichen. Füllung: Speckstreifen und fein gehackte Zwiebel (optional etwas Majoran) — fest rollen und mit Garn oder Zahnstocher fixieren.",
-            tip: "Andere Logik als [Zrazy zawijane](/de/rezepte/zrazy): hier keine Gurkenfüllung; es geht um die schlesische Sonntags-Roulade mit Kluski.",
+            text: "Die Fleischscheiben aus Rind oder Schwein flach klopfen, salzen, pfeffern und dünn mit Senf bestreichen. Für die Füllung Speckstreifen und fein gehackte Zwiebel darauf verteilen, optional mit etwas Majoran, dann fest rollen und mit Küchengarn oder Zahnstochern fixieren.",
+            tip: "Das ist eine andere Logik als bei [Zrazy zawijane](/de/rezepte/zrazy), denn dort trägt eine saure Gurke die Füllung. Hier geht es um die schlesische Sonntagsroulade mit Speck, Zwiebel und Kluski.",
           },
           {
-            text: "Rollen rundum in heißem Fett anbraten, bis sie Farbe haben. Zwiebelreste und Lorbeer in denselben Topf — ideal ein [Schmortopf / Dutch Oven](/de/blog/dutch-oven-kaufberatung).",
+            text: "Die Rouladen rundum in heißem Fett scharf anbraten, bis sie überall Farbe angenommen haben. Die restliche Zwiebel und ein Lorbeerblatt in denselben Topf geben.",
+            tip: "Ein schwerer Schmortopf hält die Hitze über die ganze Garzeit gleichmäßig, was gerade bei so langen Schmorzeiten den Unterschied macht. Worauf es beim Kauf ankommt, steht im [Dutch-Oven-Guide](/de/blog/dutch-oven-kaufberatung).",
           },
           {
-            text: "Mit Brühe ablöschen, zugedeckt 80–100 Minuten schmoren, bis das Fleisch gabelweich ist. Soße abschmecken; bei Bedarf leicht binden.",
-            tip: "[Majeranek](/de/blog/majeranek) sparsam in die Soße — zu viel wird bitter.",
+            text: "Mit Brühe ablöschen und zugedeckt 80 bis 100 Minuten schmoren, bis sich das Fleisch mit der Gabel leicht zerteilen lässt. Die Soße abschmecken und bei Bedarf leicht binden.",
+            tip: "[Majoran](/de/blog/majeranek) nur sparsam in die Soße geben, denn zu viel davon macht sie schnell bitter statt würzig.",
           },
           {
-            text: "In Scheiben schneiden, mit Soße und [Kluski śląskie](/de/rezepte/kluski-slaskie) servieren. Menü: [polnisches Sonntagsessen](/de/blog/sonntagsessen-polnisch).",
+            text: "Die Rolada in Scheiben schneiden und mit der Soße sowie [Kluski śląskie](/de/rezepte/kluski-slaskie) servieren.",
+            tip: "Den Rahmen für den ganzen Tisch liefert das [polnische Sonntagsessen](/de/blog/sonntagsessen-polnisch), das den Menüplatz dieses Schmorgerichts einordnet.",
           },
         ],
         seoTitle: "Rolada śląska Rezept | Schlesische Roulade | Alemniam",
         seoDescription:
-          "Rolada śląska — geschmorte Fleischroulade mit Speck-Zwiebel-Füllung. Bilingual, klar getrennt von Zrazy.",
+          "Rolada śląska: geschmorte Fleischroulade mit Speck-Zwiebel-Füllung, bilingual und klar getrennt von Zrazy zawijane.",
       },
       pl: {
         title: "Rolada śląska",
         slug: "rolada-slaska",
         excerpt:
-          "Duszona rolada mięsna kuchni śląskiej — z kluskami i jasnym sosem.",
+          "Rolada śląska to duszona rolada mięsna śląskiej kuchni niedzielnej, nadziewana boczkiem i cebulą, podawana z ciemnym sosem i kluskami.",
         steps: [
           {
-            text: "Plastry mięsa (wołowina lub wieprzowina) rozbij, posól, popieprz, posmaruj musztardą. Farsz: paski boczku i drobno siekana cebula (opcjonalnie majeranek) — zwiń szczelnie i zepnij.",
-            tip: "Inna logika niż [zrazy zawijane](/pl/rezepte/zrazy): tu nie farsz z ogórkiem jako fokus; chodzi o śląska rolada niedzielna z kluskami.",
+            text: "Plastry mięsa z wołowiny lub wieprzowiny rozbij na płasko, posól, popieprz i posmaruj cienko musztardą. Na wierzch nałóż paski boczku i drobno posiekaną cebulę, opcjonalnie z odrobiną majeranku, a potem zwiń szczelnie i spnij nitką kuchenną lub wykałaczkami.",
+            tip: "To inna logika niż w [zrazach zawijanych](/pl/rezepte/zrazy), bo tam farsz niesie kiszony ogórek. Tutaj chodzi o śląską roladę niedzielną z boczkiem, cebulą i kluskami.",
           },
           {
-            text: "Obsmaż rolady ze wszystkich stron. Resztki cebuli i liść laurowy do tego samego garnka — idealnie [dutch oven / garnek do duszenia](/pl/blog/garnek-do-duszenia).",
+            text: "Obsmaż rolady ze wszystkich stron na rozgrzanym tłuszczu, aż nabiorą koloru. Resztki cebuli i liść laurowy wrzuć do tego samego garnka.",
+            tip: "Ciężki garnek do duszenia trzyma stałą temperaturę przez cały czas gotowania, co przy tak długim duszeniu robi różnicę. Na co zwrócić uwagę przy zakupie, pisze [przewodnik dutch oven](/pl/blog/garnek-do-duszenia).",
           },
           {
-            text: "Zalej bulionem, duś pod przykryciem 80–100 minut do miękkości. Dopraw sos; ewentualnie lekko zagęść.",
-            tip: "[Majeranek](/pl/blog/majeranek-leksykon) oszczędnie do sosu — za dużo gorzknieje.",
+            text: "Zalej bulionem i duś pod przykryciem 80 do 100 minut, aż mięso da się łatwo rozdzielić widelcem. Dopraw sos i w razie potrzeby lekko zagęść.",
+            tip: "[Majeranek](/pl/blog/majeranek-leksykon) dodawaj do sosu oszczędnie, bo w nadmiarze szybko robi się gorzki zamiast korzenny.",
           },
           {
-            text: "Krój w plastry, podawaj z sosem i [klusami śląskimi](/pl/rezepte/kluski-slaskie). Menu: [obiad niedzielny](/pl/blog/obiad-niedzielny).",
+            text: "Pokrój roladę w plastry i podawaj z sosem oraz [kluskami śląskimi](/pl/rezepte/kluski-slaskie).",
+            tip: "Ramy całego stołu opisuje [obiad niedzielny](/pl/blog/obiad-niedzielny), który wyjaśnia miejsce tego dania duszonego w menu.",
           },
         ],
         seoTitle: "Rolada śląska przepis | Alemniam",
         seoDescription:
-          "Rolada śląska — duszona rolada z farszem boczek-cebula. Dwujęzycznie, wyraźnie osobno od zrazów.",
+          "Rolada śląska: duszona rolada z farszem z boczku i cebuli, dwujęzycznie i wyraźnie osobno od zrazów zawijanych.",
       },
     },
     ingredients: [
@@ -223,7 +231,7 @@ export const seedRecipesWave9A: Recipe[] = [
         amount: 800,
         unit: { de: "g", pl: "g" },
         group: "other",
-        storeHintDe: "Dünn geschnittene Plätzchen zum Rollen — Metzger fragen",
+        storeHintDe: "Dünn geschnittene Scheiben zum Rollen, am besten beim Metzger nachfragen",
       },
       {
         id: "rl-2",
