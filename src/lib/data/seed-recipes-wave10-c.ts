@@ -190,7 +190,7 @@ Przełącz u góry na ruskie, mięso albo kapustę z grzybami.`,
     familyId: "family-nalesniki",
     variantLabel: { de: "Marmelade", pl: "z dżemem" },
     variantImage:
-      "https://images.unsplash.com/photo-1770802803773-35cd82bc215b?w=400&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-nalesniki-dzem/4bfe90e1-f421-4b50-a190-3f87825dcf9a.webp",
     regionIds: [],
     occasionIds: [],
     techniqueIds: ["technique-teig"],
