@@ -446,7 +446,8 @@ export function RecipeExperience({
                           ) : null}
                           {ing.substitute?.[locale] ? (
                             <span className="mt-0.5 block text-xs text-accent">
-                              {t("substitute")}: {ing.substitute[locale]}
+                              {t("substitute")}:{" "}
+                              {renderInlineMarkdown(ing.substitute[locale])}
                             </span>
                           ) : null}
                         </span>

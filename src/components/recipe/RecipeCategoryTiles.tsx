@@ -14,7 +14,7 @@ export function RecipeCategoryTiles({
   recipesLabel: string;
 }) {
   return (
-    <div className="stagger grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
+    <div className="stagger grid gap-3 sm:grid-cols-2 sm:gap-4 lg:grid-cols-3">
       {categories.map((category) => {
         const slug = category.slug[locale];
         const href = `/rezepte/kategorie/${slug}`;
@@ -36,7 +36,7 @@ export function RecipeCategoryTiles({
                   alt=""
                   fill
                   className="object-cover transition-transform duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.05]"
-                  sizes="(max-width: 768px) 100vw, 20vw"
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
                 <div
                   className="absolute inset-0 bg-linear-to-t from-[rgba(18,27,48,0.72)] via-[rgba(18,27,48,0.2)] to-transparent"
@@ -44,9 +44,15 @@ export function RecipeCategoryTiles({
                 />
               </div>
             ) : null}
-            <div className={category.coverImage ? "absolute inset-x-0 bottom-0 p-4" : "p-5"}>
+            <div
+              className={
+                category.coverImage
+                  ? "absolute inset-x-0 bottom-0 p-4 sm:p-5"
+                  : "p-5"
+              }
+            >
               <h2
-                className={`font-display text-xl font-semibold ${
+                className={`font-display text-xl font-semibold sm:text-2xl ${
                   category.coverImage ? "text-white" : ""
                 }`}
               >
