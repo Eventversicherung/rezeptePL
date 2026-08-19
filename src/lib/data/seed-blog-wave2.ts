@@ -51,7 +51,7 @@ export const seedBlogPostsWave2: BlogPost[] = [
     status: "published",
     postType: "guide",
     coverImage:
-      "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-pierogi-guide/d1e4f6b2-280f-49a2-9a34-bf6a2d42a8a4.webp",
     siloIds: ["dishFamily"],
     relatedRecipeIds: [...pierogiRecipes],
     relatedPostIds: [
@@ -93,7 +93,7 @@ export const seedBlogPostsWave2: BlogPost[] = [
     status: "published",
     postType: "guide",
     coverImage:
-      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-freezer-meal-prep/3c063619-9df9-48be-84c5-9c9ddcd1b7ca.webp",
     siloIds: ["technique"],
     relatedRecipeIds: [...pierogiRecipes],
     relatedPostIds: [
@@ -134,7 +134,7 @@ export const seedBlogPostsWave2: BlogPost[] = [
     status: "published",
     postType: "buying-guide",
     coverImage:
-      "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-pierogi-formen/bf60d0dc-888a-4dab-b1f9-520da0297e1f.webp",
     siloIds: ["gear"],
     relatedRecipeIds: [...pierogiRecipes],
     relatedPostIds: [
@@ -174,7 +174,7 @@ export const seedBlogPostsWave2: BlogPost[] = [
     status: "published",
     postType: "guide",
     coverImage:
-      "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-polnische-suppen/fe32713e-a055-4921-9c7a-20e96d323cce.webp",
     siloIds: ["dishFamily"],
     relatedRecipeIds: [
       "recipe-zurek",
@@ -230,7 +230,7 @@ export const seedBlogPostsWave2: BlogPost[] = [
     status: "published",
     postType: "guide",
     coverImage:
-      "https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-rosol-technik/792b50b4-3499-425f-8918-beed8cc8a9af.webp",
     siloIds: ["technique"],
     relatedRecipeIds: [
       "recipe-rosol",
@@ -276,7 +276,7 @@ export const seedBlogPostsWave2: BlogPost[] = [
     status: "published",
     postType: "lexicon",
     coverImage:
-      "https://images.unsplash.com/photo-1606923829579-0cb981a83e2e?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-zakwas-zurek/6cbdbcd9-773a-47b8-9045-805d028b949c.webp",
     siloIds: ["ingredient", "technique"],
     relatedRecipeIds: ["recipe-zurek", "recipe-fasolka"],
     relatedPostIds: [
@@ -316,7 +316,7 @@ export const seedBlogPostsWave2: BlogPost[] = [
     status: "published",
     postType: "guide",
     coverImage:
-      "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-bigos-guide/35a7d52b-b5aa-4929-b9d6-59493f076d18.webp",
     siloIds: ["dishFamily"],
     relatedRecipeIds: ["recipe-bigos", "recipe-fasolka", "recipe-golabki"],
     relatedPostIds: [
@@ -357,7 +357,7 @@ export const seedBlogPostsWave2: BlogPost[] = [
     status: "published",
     postType: "lexicon",
     coverImage:
-      "https://images.unsplash.com/photo-1563636619-e9143da7973b?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-smietana-schmand/c4aec532-feb9-4800-b1d6-4e441ee7b94b.webp",
     siloIds: ["ingredient", "diaspora"],
     relatedRecipeIds: [
       "recipe-barszcz",
@@ -405,7 +405,7 @@ export const seedBlogPostsWave2: BlogPost[] = [
     status: "published",
     postType: "lexicon",
     coverImage:
-      "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-kielbasa-arten/abee0f15-0f49-4feb-b014-be9daf1595ed.webp",
     siloIds: ["ingredient", "diaspora"],
     relatedRecipeIds: [
       "recipe-zurek",
@@ -453,7 +453,7 @@ export const seedBlogPostsWave2: BlogPost[] = [
     status: "published",
     postType: "diaspora",
     coverImage:
-      "https://images.unsplash.com/photo-1604719312566-8912e9227c6a?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-ersatzprodukte-de/7109608a-9b52-4c63-8abb-84d3dacb8430.webp",
     siloIds: ["diaspora"],
     relatedRecipeIds: [
       "recipe-pierogi",
@@ -514,7 +514,7 @@ export const seedBlogPostsWave2: BlogPost[] = [
     status: "published",
     postType: "culture",
     coverImage:
-      "https://images.unsplash.com/photo-1525310072745-f49212b5ac6d?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-wielkanoc/96f67342-b038-4449-9760-b766cac94492.webp",
     siloIds: ["culture", "occasion"],
     relatedRecipeIds: [
       "recipe-zurek",
@@ -570,7 +570,7 @@ export const seedBlogPostsWave2: BlogPost[] = [
     status: "published",
     postType: "culture",
     coverImage:
-      "https://images.unsplash.com/photo-1551024601-bec78aea704b?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-tlusty-czwartek/e9dda34d-76a5-42e1-8413-f9dfb7b8017a.webp",
     siloIds: ["culture", "occasion"],
     relatedRecipeIds: [
       "recipe-faworki",
@@ -615,7 +615,7 @@ export const seedBlogPostsWave2: BlogPost[] = [
     status: "published",
     postType: "culture",
     coverImage:
-      "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-sonntagsessen/3abe4f34-8d8e-4a5a-bdc4-2861e4c4f724.webp",
     siloIds: ["culture", "occasion"],
     relatedRecipeIds: [
       "recipe-rosol",
@@ -690,7 +690,7 @@ export const seedBlogPostsWave2: BlogPost[] = [
     status: "published",
     postType: "guide",
     coverImage:
-      "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-kiszenie/bbd62ba7-3d38-461a-a524-82923fa60a2c.webp",
     siloIds: ["technique"],
     relatedRecipeIds: [
       "recipe-bigos",
@@ -738,7 +738,7 @@ export const seedBlogPostsWave2: BlogPost[] = [
     status: "published",
     postType: "buying-guide",
     coverImage:
-      "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-fleischwolf/412acff3-d0cf-4c0e-881d-d185debe9207.webp",
     siloIds: ["gear"],
     relatedRecipeIds: [
       "recipe-pierogi-meat",
@@ -783,7 +783,7 @@ export const seedBlogPostsWave2: BlogPost[] = [
     status: "published",
     postType: "buying-guide",
     coverImage:
-      "https://images.unsplash.com/photo-1585515320310-259814833e62?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-dutch-oven/ab86eeb0-055d-46c5-8575-7d53b41b7fc9.webp",
     siloIds: ["gear"],
     relatedRecipeIds: [
       "recipe-bigos",
@@ -830,7 +830,7 @@ export const seedBlogPostsWave2: BlogPost[] = [
     status: "published",
     postType: "buying-guide",
     coverImage:
-      "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-gusseisen/b5a3a862-2d77-49d1-9b47-fea3ac47c78a.webp",
     siloIds: ["gear"],
     relatedRecipeIds: [
       "recipe-placki",

@@ -8,7 +8,7 @@ export const seedBlogPostsW6: BlogPost[] = [
     status: "published",
     postType: "guide",
     coverImage:
-      "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-makowiec-technik/12647018-83bc-4de8-9bd0-9833234e7d52.webp",
     siloIds: ["technique", "occasion"],
     relatedRecipeIds: [
       "recipe-makowiec",

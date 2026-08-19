@@ -30,7 +30,7 @@ const seedBlogPostsLive: BlogPost[] = [
     status: "published",
     postType: "guide",
     coverImage:
-      "https://images.unsplash.com/photo-1495521821757-a1efb6729352?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-pierogi-teig/ba5876fe-10c2-4ed4-8025-632c2caae7b6.webp",
     siloIds: ["dishFamily", "technique"],
     relatedRecipeIds: [
       "recipe-pierogi",
@@ -75,7 +75,7 @@ const seedBlogPostsLive: BlogPost[] = [
     status: "published",
     postType: "buying-guide",
     coverImage:
-      "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-teigmaschine/5e38d094-ee79-4c83-88ed-ef36d24e654b.webp",
     siloIds: ["gear"],
     relatedRecipeIds: [
       "recipe-pierogi",
@@ -125,7 +125,7 @@ const seedBlogPostsLive: BlogPost[] = [
     status: "published",
     postType: "lexicon",
     coverImage:
-      "https://images.unsplash.com/photo-1628088062854-d1870b4553da?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-twarog/8948afdf-bc98-4abc-a5eb-10ce0213e069.webp",
     siloIds: ["ingredient", "diaspora"],
     relatedRecipeIds: [
       "recipe-pierogi",
@@ -171,7 +171,7 @@ const seedBlogPostsLive: BlogPost[] = [
     status: "published",
     postType: "diaspora",
     coverImage:
-      "https://images.unsplash.com/photo-1542838132-92c53300491e?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-polenladen/a241ecc3-c9c5-4acd-ac5f-94ba76f76790.webp",
     siloIds: ["diaspora"],
     relatedRecipeIds: [
       "recipe-pierogi",
@@ -237,7 +237,7 @@ const seedBlogPostsLive: BlogPost[] = [
     status: "published",
     postType: "culture",
     coverImage:
-      "https://images.unsplash.com/photo-1481391319762-47dff72954d9?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-wigilia/5d4a7a91-2d49-4f18-a8b0-a1d265c65de8.webp",
     siloIds: ["culture", "occasion"],
     relatedRecipeIds: [
       "recipe-pierogi-cabbage",

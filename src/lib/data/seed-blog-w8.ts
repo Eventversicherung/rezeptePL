@@ -13,7 +13,7 @@ export const seedBlogPostsW8: BlogPost[] = [
     status: "published",
     postType: "guide",
     coverImage:
-      "https://images.unsplash.com/photo-1558326567-98ae2405596b?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-paczek-technik/fcf6a498-2a73-4775-a991-00ba0309f560.webp",
     siloIds: ["technique", "occasion"],
     relatedRecipeIds: ["recipe-paczki", "recipe-faworki", "recipe-racuchy"],
     relatedPostIds: [

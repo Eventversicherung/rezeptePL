@@ -16,7 +16,7 @@ export const seedBlogPostsW5: BlogPost[] = [
     status: "published",
     postType: "guide",
     coverImage:
-      "https://images.unsplash.com/photo-1551024601-bec78aea704b?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-faworki-technik/bdb9e694-6ba5-43b0-8620-f3edd4923fd6.webp",
     siloIds: ["technique", "occasion"],
     relatedRecipeIds: [
       "recipe-faworki",
@@ -62,7 +62,7 @@ export const seedBlogPostsW5: BlogPost[] = [
     status: "published",
     postType: "guide",
     coverImage:
-      "https://images.unsplash.com/photo-1546549032-9571cd6b27df?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-fasolka-guide/ca246b5e-ab7a-476c-92a0-4ea99545e612.webp",
     siloIds: ["dishFamily", "ingredient"],
     relatedRecipeIds: [
       "recipe-fasolka",
@@ -109,7 +109,7 @@ export const seedBlogPostsW5: BlogPost[] = [
     status: "published",
     postType: "lexicon",
     coverImage:
-      "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-majeranek/fb13487d-ea10-4a53-b138-004aca1c1608.webp",
     siloIds: ["ingredient"],
     relatedRecipeIds: [
       "recipe-golabki",

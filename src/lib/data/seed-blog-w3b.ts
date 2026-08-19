@@ -16,7 +16,7 @@ export const seedBlogPostsW3b: BlogPost[] = [
     status: "published",
     postType: "buying-guide",
     coverImage:
-      "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-freezer-boxen/3849a8bc-9f1f-41ef-86cb-9898d5b433b4.webp",
     siloIds: ["gear"],
     relatedRecipeIds: [
       "recipe-pierogi",
@@ -61,7 +61,7 @@ export const seedBlogPostsW3b: BlogPost[] = [
     status: "published",
     postType: "buying-guide",
     coverImage:
-      "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-ferment-glaeser/bf28b593-c1ea-4c6f-9c0c-839db226b9b0.webp",
     siloIds: ["gear"],
     relatedRecipeIds: [
       "recipe-bigos",
@@ -106,7 +106,7 @@ export const seedBlogPostsW3b: BlogPost[] = [
     status: "published",
     postType: "lexicon",
     coverImage:
-      "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-kasza/9ba4a3be-9877-419c-8162-59bedc69bf54.webp",
     siloIds: ["ingredient", "diaspora"],
     relatedRecipeIds: ["recipe-golabki", "recipe-placki", "recipe-bigos"],
     relatedPostIds: [

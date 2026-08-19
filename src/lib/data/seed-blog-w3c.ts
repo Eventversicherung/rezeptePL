@@ -16,7 +16,7 @@ export const seedBlogPostsW3c: BlogPost[] = [
     status: "published",
     postType: "guide",
     coverImage:
-      "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-panieren/adf1dadb-88e9-4658-9346-7154f273694d.webp",
     siloIds: ["technique"],
     relatedRecipeIds: [
       "recipe-schabowy",
@@ -62,7 +62,7 @@ export const seedBlogPostsW3c: BlogPost[] = [
     status: "published",
     postType: "guide",
     coverImage:
-      "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-barszcz-technik/caca9020-915e-4eed-a825-866f8dad12fa.webp",
     siloIds: ["technique"],
     relatedRecipeIds: [
       "recipe-barszcz",
@@ -109,7 +109,7 @@ export const seedBlogPostsW3c: BlogPost[] = [
     status: "published",
     postType: "guide",
     coverImage:
-      "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-placki-guide/8b8d6b2f-7371-4d2d-a975-2b9e4644afdd.webp",
     siloIds: ["dishFamily", "technique"],
     relatedRecipeIds: [
       "recipe-placki",

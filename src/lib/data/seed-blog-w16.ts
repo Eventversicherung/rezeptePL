@@ -11,7 +11,7 @@ export const seedBlogPostsW16: BlogPost[] = [
     status: "published",
     postType: "guide",
     coverImage:
-      "https://images.unsplash.com/photo-1781019450243-ba76b4a1b789?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-fehler-diaspora/365f8883-ddb3-4f53-8ae7-78276bd440bc.webp",
     siloIds: ["diaspora", "technique"],
     relatedRecipeIds: [
       "recipe-surowka",

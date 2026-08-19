@@ -16,7 +16,7 @@ export const seedBlogPostsW3a: BlogPost[] = [
     status: "published",
     postType: "guide",
     coverImage:
-      "https://images.unsplash.com/photo-1743148843470-8fd92a31c473?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-golabki-guide/31857352-e3ef-43cd-8726-cc529a6dd790.webp",
     siloIds: ["dishFamily"],
     relatedRecipeIds: ["recipe-golabki", "recipe-rosol", "recipe-bigos"],
     relatedPostIds: [
@@ -58,7 +58,7 @@ export const seedBlogPostsW3a: BlogPost[] = [
     status: "published",
     postType: "guide",
     coverImage:
-      "https://images.unsplash.com/photo-1770802858320-50848db704d5?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-nalesniki-guide/17d6e6b6-1d33-4ab8-877f-84fb49f3b386.webp",
     siloIds: ["dishFamily"],
     relatedRecipeIds: [
       "recipe-nalesniki",
@@ -106,7 +106,7 @@ export const seedBlogPostsW3a: BlogPost[] = [
     status: "published",
     postType: "lexicon",
     coverImage:
-      "https://images.unsplash.com/photo-1718939046345-f607c89e92d9?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-oscypek/10451884-d32a-48ac-9b8e-3e1a03440707.webp",
     siloIds: ["ingredient", "diaspora"],
     relatedRecipeIds: ["recipe-oscypek", "recipe-placki"],
     relatedPostIds: [
