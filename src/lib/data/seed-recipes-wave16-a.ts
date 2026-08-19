@@ -10,7 +10,7 @@ export const seedRecipesWave16A: Recipe[] = [
     id: "recipe-surowka",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1654458804670-2f4f26ab3154?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-surowka/59d2b015-2967-4fcf-bc23-53afe6dbb174.webp",
     prepMinutes: 20,
     cookMinutes: 0,
     servings: 4,
@@ -88,7 +88,7 @@ export const seedRecipesWave16A: Recipe[] = [
     id: "recipe-de-volaille",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1680678605629-278edc5fe99d?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-de-volaille/87147728-879d-49aa-9871-0e1a78285f4b.webp",
     prepMinutes: 30,
     cookMinutes: 25,
     servings: 4,

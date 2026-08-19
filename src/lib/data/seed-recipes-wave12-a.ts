@@ -14,7 +14,7 @@ export const seedRecipesWave12A: Recipe[] = [
     id: "recipe-zupa-grzybowa",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1761545832874-02e1d41dc649?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-zupa-grzybowa/4ae13a23-9f9d-4886-a2a9-e487414bd014.webp",
     prepMinutes: 25,
     cookMinutes: 50,
     servings: 4,
@@ -170,7 +170,7 @@ export const seedRecipesWave12A: Recipe[] = [
     id: "recipe-grochowka",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1712334619829-831fa0625a0f?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-grochowka/38e1c0c8-e5ce-42a8-b058-2d614bd19856.webp",
     prepMinutes: 20,
     cookMinutes: 90,
     servings: 6,

@@ -14,7 +14,7 @@ export const seedRecipesWave12D: Recipe[] = [
     id: "recipe-klopsy",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1600688685721-852c38f6e8a6?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-klopsy/216ad15e-a2cc-4ed6-9540-4ed87c4b4570.webp",
     prepMinutes: 25,
     cookMinutes: 35,
     servings: 4,
@@ -186,7 +186,7 @@ export const seedRecipesWave12D: Recipe[] = [
     id: "recipe-kluski-kladzione",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1708782340699-599c20fa5eec?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-kluski-kladzione/742db49e-1df8-4bde-a161-e7dc59bbc479.webp",
     prepMinutes: 15,
     cookMinutes: 20,
     servings: 4,

@@ -9,7 +9,7 @@ export const seedRecipesWave8B: Recipe[] = [
     id: "recipe-ogorkowa",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1659603667872-915f2b953cb7?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-ogorkowa/fe6aee59-9d09-475d-8464-4012dab7203a.webp",
     prepMinutes: 25,
     cookMinutes: 45,
     servings: 4,
@@ -158,7 +158,7 @@ export const seedRecipesWave8B: Recipe[] = [
     id: "recipe-kapusniak",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1740993382497-65dba6c7a689?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-kapusniak/d602b625-35e3-4b65-88c1-1202fd7d9507.webp",
     prepMinutes: 25,
     cookMinutes: 60,
     servings: 4,

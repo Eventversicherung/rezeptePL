@@ -10,7 +10,7 @@ export const seedRecipesWave16C: Recipe[] = [
     id: "recipe-pierniczki",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1610562275255-03b7fa0d4655?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-pierniczki/c541e741-161d-41f4-a89d-93bd90d76fdb.webp",
     prepMinutes: 40,
     cookMinutes: 12,
     servings: 40,
@@ -84,7 +84,7 @@ export const seedRecipesWave16C: Recipe[] = [
     id: "recipe-knedle-truskawki",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1671731476927-c73f7fad28eb?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-knedle-truskawki/63f87f48-6677-49ba-b171-a4df96d6f2c6.webp",
     prepMinutes: 45,
     cookMinutes: 20,
     servings: 4,

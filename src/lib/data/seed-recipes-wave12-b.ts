@@ -14,7 +14,7 @@ export const seedRecipesWave12B: Recipe[] = [
     id: "recipe-makaron-z-makiem",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1630563775062-bbaf8ad3d73c?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-makaron-z-makiem/8433ad1c-f5da-46b5-841e-6ae4a4a27692.webp",
     prepMinutes: 15,
     cookMinutes: 20,
     servings: 4,
@@ -176,7 +176,7 @@ export const seedRecipesWave12B: Recipe[] = [
     id: "recipe-szarlotka",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1694505396696-b093cca3d8ea?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-szarlotka/9fbe4a10-d95c-4763-ad73-a9797fafaf87.webp",
     prepMinutes: 35,
     cookMinutes: 50,
     servings: 12,

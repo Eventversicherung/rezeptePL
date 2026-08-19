@@ -178,7 +178,7 @@ export const seedRecipesWave12C: Recipe[] = [
     id: "recipe-buraczki",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1764314555345-2691cf16517b?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-buraczki/0b3858b6-7aea-471e-8d89-2f66aac1edfd.webp",
     prepMinutes: 20,
     cookMinutes: 50,
     servings: 4,

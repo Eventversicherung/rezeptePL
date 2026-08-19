@@ -9,7 +9,7 @@ export const seedRecipesWave9A: Recipe[] = [
     id: "recipe-zeberka",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1569352304334-6e422cd70ecd?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-zeberka/98688ec5-e446-4597-9628-69251c9d6448.webp",
     prepMinutes: 25,
     cookMinutes: 90,
     servings: 4,
@@ -146,7 +146,7 @@ export const seedRecipesWave9A: Recipe[] = [
     id: "recipe-rolada-slaska",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1769773183948-d24e3c5a2b82?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-rolada-slaska/6e7b623d-c9f9-413e-a64e-54ccaf613396.webp",
     prepMinutes: 45,
     cookMinutes: 100,
     servings: 4,

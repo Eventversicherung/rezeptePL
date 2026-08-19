@@ -54,8 +54,8 @@ async function main() {
   if (!recipeId || !sourcePath) {
     fail("Usage: node scripts/upload-recipe-image.mjs <recipe-id> <path-to-source-image>");
   }
-  if (!/^recipe-[a-z0-9-]+$/.test(recipeId)) {
-    fail(`recipe-id looks wrong: "${recipeId}" (expected e.g. "recipe-bigos")`);
+  if (!/^(recipe|post)-[a-z0-9-]+$/.test(recipeId)) {
+    fail(`id looks wrong: "${recipeId}" (expected e.g. "recipe-bigos" or "post-wigilia")`);
   }
   if (!existsSync(sourcePath)) {
     fail(`Source image not found: ${sourcePath}`);

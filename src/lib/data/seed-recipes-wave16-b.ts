@@ -10,7 +10,7 @@ export const seedRecipesWave16B: Recipe[] = [
     id: "recipe-kasza-gryczana",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1670843629580-475c9d1da4e2?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-kasza-gryczana/1525c13f-8f09-4fbd-93d7-b047d7b8208b.webp",
     prepMinutes: 5,
     cookMinutes: 25,
     servings: 4,
@@ -82,7 +82,7 @@ export const seedRecipesWave16B: Recipe[] = [
     id: "recipe-tatar",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1571513062809-2ac71eab2656?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-tatar/ccb2f7d5-4499-4b6a-b5f0-4a0917de92d7.webp",
     prepMinutes: 25,
     cookMinutes: 0,
     servings: 2,

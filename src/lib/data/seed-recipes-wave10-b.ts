@@ -12,7 +12,7 @@ export const seedRecipesWave10B: Recipe[] = [
     id: "recipe-piernik",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1757522745938-c54b94802591?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-piernik/b47c4a36-f26f-45ef-8c53-cf5ce1db1319.webp",
     prepMinutes: 25,
     cookMinutes: 55,
     servings: 12,
@@ -157,7 +157,7 @@ export const seedRecipesWave10B: Recipe[] = [
     id: "recipe-zupa-pomidorowa",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1752058238517-81cd22ef6087?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-zupa-pomidorowa/1dc1deb5-b454-41f4-a58d-5561a4cf7613.webp",
     prepMinutes: 15,
     cookMinutes: 35,
     servings: 4,

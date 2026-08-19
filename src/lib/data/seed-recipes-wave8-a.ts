@@ -9,7 +9,7 @@ export const seedRecipesWave8A: Recipe[] = [
     id: "recipe-mizeria",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1760368104784-79f5f757f66a?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-mizeria/6f3ac245-1a4c-47cb-a36b-27f86d7d25c1.webp",
     prepMinutes: 20,
     cookMinutes: 0,
     servings: 4,
@@ -142,7 +142,7 @@ export const seedRecipesWave8A: Recipe[] = [
     id: "recipe-kapusta-zasmażana",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1745827223757-c98bc93108d2?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-kapusta-zasmazana/c654bc3b-88e7-4165-aec5-c6ab3c83a573.webp",
     prepMinutes: 15,
     cookMinutes: 40,
     servings: 4,

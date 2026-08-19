@@ -10,7 +10,7 @@ export const seedRecipesWave16D: Recipe[] = [
     id: "recipe-chrzan",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1678651535326-0aa4d7e4c0d4?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-chrzan/ed3bc151-402e-42be-a2df-116273ad1caa.webp",
     prepMinutes: 15,
     cookMinutes: 0,
     servings: 8,
@@ -82,7 +82,7 @@ export const seedRecipesWave16D: Recipe[] = [
     id: "recipe-kurczak-pieczony",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-kurczak-pieczony/67b5c610-7a51-4c18-9467-74428ee6fda5.webp",
     prepMinutes: 20,
     cookMinutes: 90,
     servings: 4,

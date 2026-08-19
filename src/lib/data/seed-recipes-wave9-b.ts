@@ -10,7 +10,7 @@ export const seedRecipesWave9B: Recipe[] = [
     id: "recipe-salatka-jarzynowa",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1718096125279-15f47cab1cc9?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-salatka-jarzynowa/90883e3d-0564-41f8-b756-433ec0078aa3.webp",
     prepMinutes: 40,
     cookMinutes: 45,
     servings: 8,
@@ -164,7 +164,7 @@ export const seedRecipesWave9B: Recipe[] = [
     id: "recipe-botwinka",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1526401363794-c96708fb8089?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-botwinka/89452eee-624b-402a-8b6d-30048a20c238.webp",
     prepMinutes: 25,
     cookMinutes: 40,
     servings: 4,

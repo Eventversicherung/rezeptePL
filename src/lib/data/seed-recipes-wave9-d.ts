@@ -11,7 +11,7 @@ export const seedRecipesWave9D: Recipe[] = [
     id: "recipe-kaszanka",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1779119866183-55f8f9c409c6?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-kaszanka/773ab0d3-89e2-41d8-b0e1-dd616cc97f5d.webp",
     prepMinutes: 15,
     cookMinutes: 25,
     servings: 4,

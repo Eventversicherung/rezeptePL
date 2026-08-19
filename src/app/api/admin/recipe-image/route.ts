@@ -5,7 +5,7 @@ import { storagePublicUrl } from "@/lib/supabase/storage";
 
 export const runtime = "nodejs";
 
-const RECIPE_ID_PATTERN = /^recipe-[a-z0-9-]+$/;
+const MEDIA_ID_PATTERN = /^(recipe|post)-[a-z0-9-]+$/;
 const MAX_BYTES = 8 * 1024 * 1024; // 8 MB safety cap
 
 /**
@@ -45,9 +45,9 @@ export async function POST(request: Request) {
   const recipeId = String(formData.get("recipeId") ?? "");
   const file = formData.get("file");
 
-  if (!RECIPE_ID_PATTERN.test(recipeId)) {
+  if (!MEDIA_ID_PATTERN.test(recipeId)) {
     return NextResponse.json(
-      { error: `Invalid recipeId: "${recipeId}" (expected e.g. "recipe-bigos")` },
+      { error: `Invalid recipeId: "${recipeId}" (expected e.g. "recipe-bigos" or "post-wigilia")` },
       { status: 400 }
     );
   }
@@ -67,7 +67,8 @@ export async function POST(request: Request) {
     );
   }
 
-  const objectPath = `recipes/${recipeId}/${randomUUID()}.webp`;
+  const folder = recipeId.startsWith("post-") ? "blog" : "recipes";
+  const objectPath = `${folder}/${recipeId}/${randomUUID()}.webp`;
   const bytes = new Uint8Array(await file.arrayBuffer());
 
   const supabase = getSupabaseAdminClient();

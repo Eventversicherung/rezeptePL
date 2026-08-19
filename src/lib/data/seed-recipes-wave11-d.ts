@@ -15,7 +15,7 @@ export const seedRecipesWave11D: Recipe[] = [
     id: "recipe-ryba-po-grecku",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-ryba-po-grecku/ca6be591-ccd8-433d-871e-8ff1420926af.webp",
     prepMinutes: 35,
     cookMinutes: 45,
     servings: 4,
@@ -179,7 +179,7 @@ export const seedRecipesWave11D: Recipe[] = [
     id: "recipe-golonka",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1601768474144-5b4f2738266e?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-golonka/619daf3f-4788-4842-986a-3631ef928027.webp",
     prepMinutes: 30,
     cookMinutes: 180,
     servings: 4,
@@ -341,7 +341,7 @@ export const seedRecipesWave11D: Recipe[] = [
     id: "recipe-kompot-z-suszu",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1534336294469-f77e4c59ada6?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-kompot-z-suszu/13a705e3-541c-4681-9b6d-a4e18a1451a0.webp",
     prepMinutes: 15,
     cookMinutes: 45,
     servings: 8,
