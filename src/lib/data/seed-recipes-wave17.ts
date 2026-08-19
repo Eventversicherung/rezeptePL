@@ -104,6 +104,10 @@ export const seedRecipesWave17: Recipe[] = [
     prepMinutes: 20,
     cookMinutes: 0,
     servings: 6,
+    familyId: "family-ogorki-malosolne",
+    variantLabel: { de: "Klassisch", pl: "klasyczne" },
+    variantImage:
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-ogorki-malosolne/3fc53722-42c1-4572-870c-99f960c7ceaa.webp",
     regionIds: [],
     occasionIds: ["occasion-grill"],
     techniqueIds: ["technique-kiszenie"],
@@ -112,50 +116,50 @@ export const seedRecipesWave17: Recipe[] = [
     videoUrl: null,
     translations: {
       de: {
-        title: "Ogórki małosolne",
-        slug: "ogorki-malosolne",
+        title: "Ogórki małosolne klassisch",
+        slug: "klassisch",
         excerpt:
-          "Junge, leicht gesalzene Gurken nach 1–3 Tagen — hellgrün, knackig, mild. Nicht die langen Kiszone und nicht Essiggurken.",
+          "Die milde Hausversion mit Dill und Knoblauch nach 1–3 Tagen. Nicht die langen Kiszone und nicht Essiggurken.",
         steps: [
           {
             text: "Frische, feste Gurken waschen, Enden anschneiden. In ein großes Glas oder eine Schüssel mit Knoblauch, Dill und Senfkörnern schichten.",
-            tip: "Kurzferment — nicht [Ogórki kiszone](/de/rezepte/ogorki-kiszone) (Tage bis Wochen). Guide: [Kiszenie](/de/blog/kiszenie-guide).",
+            tip: "Kurzferment, nicht [Ogórki kiszone](/de/rezepte/ogorki-kiszone). Oben wechselst du zu [scharf](/de/rezepte/ogorki-malosolne/scharf), [Honig](/de/rezepte/ogorki-malosolne/honig) oder [Eichenblatt](/de/rezepte/ogorki-malosolne/eichenblatt). Technik: [Kiszenie](/de/blog/kiszenie-guide).",
           },
           {
-            text: "Lake: 1 l kaltes Wasser + 20 g unjodiertes Salz (2 %). Vollständig bedecken. Bei Zimmertemperatur 24–72 Stunden — im Sommer eher kürzer kosten.",
+            text: "Lake: 1 l kaltes Wasser + 20 g unjodiertes Salz (2 %). Vollständig bedecken. Bei Zimmertemperatur 24–72 Stunden, im Sommer eher kürzer kosten.",
             tip: "Sobald sie nach Gurke und leichter Säure schmecken, in den Kühlschrank. Länger werden sie zu Kiszone.",
           },
           {
             text: "Gekühlt in 2–4 Tagen aufessen. Zu Brot, Wurst oder Grill. Trübe Lake ist normal; Schimmel oder Fäulnisgeruch: verwerfen.",
-            tip: "Essig-Nachbar: [Kalafior w occie](/de/rezepte/kalafior-w-occie). Einkauf: [Polenladen](/de/blog/polenladen-einkaufen).",
+            tip: "Essig-Nachbar als eigenes Gericht: [Ogórki konserwowe](/de/rezepte/ogorki-konserwowe). Einkauf: [Polenladen](/de/blog/polenladen-einkaufen).",
           },
         ],
-        seoTitle: "Ogórki małosolne Rezept | Leicht gesalzene Gurken | Alemniam",
+        seoTitle: "Ogórki małosolne klassisch | Leicht gesalzene Gurken | Alemniam",
         seoDescription:
-          "Ogórki małosolne in 1–3 Tagen. Bilingual — jung und mild, nicht lange Kiszone, nicht Essig.",
+          "Ogórki małosolne klassisch in 1–3 Tagen. Bilingual, jung und mild, klar getrennt von Kiszone und Essig.",
       },
       pl: {
-        title: "Ogórki małosolne",
-        slug: "ogorki-malosolne",
+        title: "Ogórki małosolne klasyczne",
+        slug: "klasyczne",
         excerpt:
-          "Młode, lekko solone ogórki po 1–3 dniach — jasnozielone, chrupkie, łagodne. Nie długie kiszone i nie octowe.",
+          "Łagodna wersja z koperkiem i czosnkiem po 1–3 dniach. Nie długie kiszone i nie octowe.",
         steps: [
           {
             text: "Umyj twarde ogórki, przytnij końce. Ułóż w słoju z czosnkiem, koperkiem i gorczycą.",
-            tip: "Krótki kis — nie [ogórki kiszone](/pl/rezepte/ogorki-kiszone). Poradnik: [kiszenie](/pl/blog/kiszenie-w-domu).",
+            tip: "Krótki kis, nie [ogórki kiszone](/pl/rezepte/ogorki-kiszone). U góry przełączysz na [ostre](/pl/rezepte/ogorki-malosolne/ostre), [miód](/pl/rezepte/ogorki-malosolne/miod) albo [liść dębu](/pl/rezepte/ogorki-malosolne/lisc-debu). Poradnik: [kiszenie](/pl/blog/kiszenie-w-domu).",
           },
           {
-            text: "Zalewa: 1 l wody + 20 g soli niejodowanej (2 %). Przykryj całkowicie. 24–72 h w temperaturze pokojowej — latem próbuj wcześniej.",
+            text: "Zalewa: 1 l wody + 20 g soli niejodowanej (2 %). Przykryj całkowicie. 24–72 h w temperaturze pokojowej, latem próbuj wcześniej.",
             tip: "Gdy smakują ogórkiem i lekkim kwasem, do lodówki. Dłużej stają się kiszone.",
           },
           {
             text: "Zjedz w 2–4 dni z lodówki. Do chleba, kiełbasy, grilla. Mętna zalewa jest OK; pleśń lub smród: wyrzuć.",
-            tip: "Sąsiad octowy: [kalafior w occie](/pl/rezepte/kalafior-w-occie). Zakupy: [sklep polski](/pl/blog/sklep-polski-zakupy).",
+            tip: "Ocet to inne danie: [ogórki konserwowe](/pl/rezepte/ogorki-konserwowe). Zakupy: [sklep polski](/pl/blog/sklep-polski-zakupy).",
           },
         ],
-        seoTitle: "Ogórki małosolne przepis | Lekko solone | Alemniam",
+        seoTitle: "Ogórki małosolne klasyczne | Lekko solone | Alemniam",
         seoDescription:
-          "Ogórki małosolne w 1–3 dni. Dwujęzycznie — młode, nie długie kiszone.",
+          "Ogórki małosolne klasyczne w 1–3 dni. Dwujęzycznie, młode, nie długie kiszone.",
       },
     },
     ingredients: [
@@ -754,5 +758,79 @@ export const seedRecipesWave17: Recipe[] = [
     ],
     createdAt: "2026-08-20T10:00:00.000Z",
     updatedAt: "2026-08-20T10:00:00.000Z",
+  },
+  {
+    id: "recipe-ogorki-konserwowe",
+    status: "published",
+    coverImage:
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-ogorki-konserwowe/1313234f-bf85-44e8-9a34-18bde4110fbe.webp",
+    prepMinutes: 30,
+    cookMinutes: 15,
+    servings: 8,
+    regionIds: [],
+    occasionIds: ["occasion-grill", "occasion-niedziela"],
+    techniqueIds: ["technique-konserven"],
+    categoryIds: [...CAT],
+    relatedPostIds: [...RELATED],
+    videoUrl: null,
+    translations: {
+      de: {
+        title: "Ogórki konserwowe",
+        slug: "ogorki-konserwowe",
+        excerpt:
+          "Gurken in klarem 5-Prozent-Essigsud mit Zwiebel und Senf. Haltbarer Vorrat, nicht der kurze Kis der Małosolne.",
+        steps: [
+          {
+            text: "Feste kleine Gurken waschen, Enden anschneiden. Mit Zwiebelringen, Senfkörnern, Dill und Lorbeer in saubere Gläser schichten.",
+            tip: "Das ist Essig, nicht Ferment. Die kurzen Kiszone-Geschwister bleiben bei [Ogórki małosolne](/de/rezepte/ogorki-malosolne). Lange Lake ohne Essig: [Ogórki kiszone](/de/rezepte/ogorki-kiszone).",
+          },
+          {
+            text: "Sud: 400 ml Tafelessig 5 Prozent plus 200 ml Wasser, 3 EL Zucker, 1 TL Salz. Aufkochen, 2 Minuten ziehen.",
+            tip: "Immer 5-Prozent-Essig, keinen milderen Hausessig. Technik-Unterschied erklärt der [Kiszenie-Guide](/de/blog/kiszenie-guide).",
+          },
+          {
+            text: "Gurken mit kochendem Sud vollständig bedecken, Gläser schließen, abkühlen. Mindestens 3 Tage im Kühlschrank ziehen lassen, dann gekühlt lagern.",
+            tip: "Nachbar-Essiggläser: [Papryka konserwowa](/de/rezepte/papryka-konserwowa), [Kalafior w occie](/de/rezepte/kalafior-w-occie). Einkauf: [Polenladen](/de/blog/polenladen-einkaufen).",
+          },
+        ],
+        seoTitle: "Ogórki konserwowe Rezept | Essiggurken polnisch | Alemniam",
+        seoDescription:
+          "Ogórki konserwowe in 5-Prozent-Essig. Bilingual, klar getrennt von Małosolne und Kiszone. Kühl lagern.",
+      },
+      pl: {
+        title: "Ogórki konserwowe",
+        slug: "ogorki-konserwowe",
+        excerpt:
+          "Ogórki w jasnej zalewie z octu 5 procent, cebulą i gorczycą. Zapas na dłużej, nie krótki kis małosolnych.",
+        steps: [
+          {
+            text: "Umyj małe twarde ogórki, przytnij końce. Ułóż w czystych słoikach z krążkami cebuli, gorczycą, koperkiem i liściem laurowym.",
+            tip: "To ocet, nie kis. Krótki kis zostaje przy [ogórkach małosolnych](/pl/rezepte/ogorki-malosolne). Długa zalewa bez octu: [ogórki kiszone](/pl/rezepte/ogorki-kiszone).",
+          },
+          {
+            text: "Zalewa: 400 ml octu 5 procent plus 200 ml wody, 3 łyżki cukru, 1 łyżeczka soli. Zagotuj, 2 minuty.",
+            tip: "Zawsze ocet 5 procent. Różnicę kis i ocet tłumaczy [kiszenie](/pl/blog/kiszenie-w-domu).",
+          },
+          {
+            text: "Zalej wrzątkiem całkowicie, zamknij, ostudź. Min. 3 dni w lodówce, potem trzymaj chłodno.",
+            tip: "Sąsiedzi octowi: [papryka konserwowa](/pl/rezepte/papryka-konserwowa), [kalafior w occie](/pl/rezepte/kalafior-w-occie). Zakupy: [sklep polski](/pl/blog/sklep-polski-zakupy).",
+          },
+        ],
+        seoTitle: "Ogórki konserwowe przepis | Marynaty | Alemniam",
+        seoDescription:
+          "Ogórki konserwowe w occie 5 procent. Dwujęzycznie, jasno osobno od małosolnych i kiszonych. Do lodówki.",
+      },
+    },
+    ingredients: [
+      { id: "okn-1", name: { de: "Kleine Einlegegurken", pl: "Małe ogórki gruntowe" }, amount: 1200, unit: { de: "g", pl: "g" }, group: "produce" },
+      { id: "okn-2", name: { de: "Tafelessig 5 %", pl: "Ocet 5 %" }, amount: 400, unit: { de: "ml", pl: "ml" }, group: "pantry" },
+      { id: "okn-3", name: { de: "Wasser", pl: "Woda" }, amount: 200, unit: { de: "ml", pl: "ml" }, group: "pantry" },
+      { id: "okn-4", name: { de: "Zucker", pl: "Cukier" }, amount: 3, unit: { de: "EL", pl: "łyżki" }, group: "pantry" },
+      { id: "okn-5", name: { de: "Salz", pl: "Sól" }, amount: 1, unit: { de: "TL", pl: "łyżeczka" }, group: "spices" },
+      { id: "okn-6", name: { de: "Zwiebel", pl: "Cebula" }, amount: 1, unit: { de: "Stück", pl: "szt." }, group: "produce" },
+      { id: "okn-7", name: { de: "Senfkörner, Dill, Lorbeer", pl: "Gorczyca, koper, liść laurowy" }, amount: 1, unit: { de: "nach Bedarf", pl: "do smaku" }, group: "spices" },
+    ],
+    createdAt: "2026-08-20T11:00:00.000Z",
+    updatedAt: "2026-08-20T11:00:00.000Z",
   },
 ];

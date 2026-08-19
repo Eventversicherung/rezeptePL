@@ -2,8 +2,8 @@ import type { Recipe } from "@/types/content";
 
 /**
  * Wave 13 Paket A — Suppen-Rest (+2).
- * - recipe-krupnik — Gersten-/Gemüsesuppe (Gerste + Wurzelgemüse, optional Huhn) ≠ Grochówka/Grzybowa
- * - recipe-szczawiowa — Sauerampfersuppe mit Ei/Sahne ≠ Botwinka/Ogórkowa/Chłodnik
+ * - recipe-krupnik — Gersten-/Gemüsesuppe (Gerste + Wurzelgemüse, optional Huhn), anders als Grochówka/Grzybowa
+ * - recipe-szczawiowa — Sauerampfersuppe mit Ei/Sahne, anders als Botwinka/Ogórkowa/Chłodnik
  *
  * Integrator E: merge into seed aggregator + recipe-articles + related maps.
  * Affiliate: guide-only (no relatedProductIds).
@@ -33,55 +33,55 @@ export const seedRecipesWave13A: Recipe[] = [
         title: "Krupnik",
         slug: "krupnik",
         excerpt:
-          "Polnische Gerstensuppe mit Perlgerste und Wurzelgemüse — optional mit Hühnerfleisch. Klar ≠ Grochówka (Erbsen) und ≠ Zupa grzybowa (Pilzfond).",
+          "Eine wärmende polnische Suppe aus Perlgerste und Wurzelgemüse, wahlweise mit zartem Hühnerfleisch, ganz anders als die Erbsensuppe Grochówka oder die dunkle Pilzsuppe Zupa grzybowa.",
         steps: [
           {
-            text: "Perlgerste (kasza jęczmienna) abspülen. Zwiebel, Karotte, Sellerie und Petersilienwurzel würfeln; optional Hühnerfleisch in Stücke. In Butter oder Öl Zwiebel glasig dünsten, Gerste kurz mitrösten.",
-            tip: "Das ist Gerste, keine Erbse: [Grochówka](/de/rezepte/grochowka) bleibt anderer Cook. Überblick: [Polnische Suppen](/de/blog/polnische-suppen).",
+            text: "Die Perlgerste in einem Sieb gründlich abspülen. Zwiebel, Karotte, Sellerie und Petersilienwurzel würfeln und, falls verwendet, das Hühnerfleisch in Stücke schneiden. Die Zwiebel in Butter oder Öl glasig dünsten und die Gerste kurz mitrösten, bis sie leicht nussig duftet.",
+            tip: "Krupnik lebt von der Gerste, nicht von Erbsen wie bei der [Grochówka](/de/rezepte/grochowka). Einen Überblick über die ganze Suppenfamilie gibt der Beitrag zu [polnischen Suppen](/de/blog/polnische-suppen).",
           },
           {
-            text: "Mit Wasser oder leichter Hühner-/Gemüsebrühe auffüllen; Lorbeer, Pfeffer und restliches Wurzelgemüse zugeben. Ruhig 35–45 Minuten köcheln, bis die Gerste weich und der Topf leicht bindet — nicht zu Erbsenbrei pürieren.",
-            tip: "Brühe-Technik [Rosół-Technik](/de/blog/rosol-technik). Einkauf oft [Polenladen](/de/blog/polenladen-einkaufen) für gute Gerste.",
+            text: "Mit Wasser oder einer leichten Hühner- oder Gemüsebrühe auffüllen und Lorbeerblatt, Pfeffer sowie das restliche Wurzelgemüse hinzufügen. Die Suppe 35 bis 45 Minuten ruhig köcheln lassen, bis die Gerste weich ist und der Topf von selbst leicht bindet. Nicht pürieren, denn Krupnik soll nach Körnern schmecken und nicht nach Brei.",
+            tip: "Wie du eine klare, kräftige Brühe hinbekommst, zeigt die [Rosół-Technik](/de/blog/rosol-technik). Gute Perlgerste findest du oft günstiger im [Polenladen](/de/blog/polenladen-einkaufen).",
           },
           {
-            text: "Optional Hühnerstücke mitgaren oder vorgegartes Fleisch spät zugeben. Mit Salz abschmecken; Säure nur sparsam. Frischen Dill oder Petersilie einrühren. Das ist kein dunkler Trockenpilz-Fond wie [Zupa grzybowa](/de/rezepte/zupa-grzybowa).",
-            tip: "Menüplatz: [polnisches Sonntagsessen](/de/blog/sonntagsessen-polnisch). Fokus bleibt Krupnik.",
+            text: "Die Hühnerstücke, falls verwendet, im Topf mitgaren oder bereits gegartes Fleisch erst gegen Ende zugeben, damit es nicht trocken wird. Mit Salz abschmecken und nur sparsam mit Säure arbeiten, denn Krupnik soll rund und getreidewarm schmecken, nicht sauer. Zum Schluss frischen Dill oder Petersilie einrühren.",
+            tip: "Die Suppe bleibt hell und getreidig, ganz anders als der dunkle Trockenpilzsud der [Zupa grzybowa](/de/rezepte/zupa-grzybowa). Als Alltagsgericht passt sie gut in den Rahmen des [polnischen Sonntagsessens](/de/blog/sonntagsessen-polnisch).",
           },
           {
-            text: "Heiß in tiefen Tellern servieren; Brot dazu. Reste halten sich und werden oft am zweiten Tag runder — Gerste zieht weiter Flüssigkeit, ggf. Brühe nachgießen.",
-            tip: "Fehlt Gerste: ehrlich ersetzen laut [Ersatzprodukte DE](/de/blog/ersatzprodukte-de) — es bleibt Gerstensuppe, nicht Erbsen.",
+            text: "Heiß in tiefen Tellern servieren, dazu passt frisches Brot. Reste halten sich gut im Kühlschrank und schmecken am zweiten Tag oft sogar runder, weil sich die Aromen setzen. Da die Gerste weiter Flüssigkeit zieht, beim Aufwärmen einfach etwas Brühe oder Wasser nachgießen.",
+            tip: "Fehlt dir Perlgerste, findest du ehrliche Alternativen bei den [Ersatzprodukten](/de/blog/ersatzprodukte-de). Am Charakter ändert das nichts, es bleibt eine Gerstensuppe und keine Erbsensuppe.",
           },
         ],
         seoTitle: "Krupnik Rezept | Polnische Gerstensuppe | Alemniam",
         seoDescription:
-          "Krupnik — polnische Gerstensuppe mit Wurzelgemüse. Bilingual, Diaspora-Einkauf DE, klar ≠ Grochówka und ≠ Grzybowa.",
+          "Krupnik: polnische Gerstensuppe mit Wurzelgemüse, anders als Grochówka und Zupa grzybowa. Bilingual mit Diaspora-Einkaufstipps für Deutschland.",
       },
       pl: {
         title: "Krupnik",
         slug: "krupnik",
         excerpt:
-          "Polska zupa z kaszy jęczmiennej i warzyw korzeniowych — opcjonalnie z kurczakiem. Jasno ≠ grochówka i ≠ zupa grzybowa.",
+          "Rozgrzewająca polska zupa z kaszy jęczmiennej i warzyw korzeniowych, opcjonalnie z delikatnym kurczakiem, zupełnie inna niż grochówka czy zupa grzybowa.",
         steps: [
           {
-            text: "Kaszą jęczmienną przepłucz. Cebulę, marchew, seler i pietruszkę pokrój; opcjonalnie kurczaka na kawałki. Na maśle lub oleju zeszklij cebulę, krótko podsmaż kaszę.",
-            tip: "To kasza, nie groch: [grochówka](/pl/rezepte/grochowka) to inny cook. Przegląd: [polskie zupy](/pl/blog/polskie-zupy).",
+            text: "Kaszę jęczmienną dokładnie przepłucz na sitku. Cebulę, marchew, seler i pietruszkę pokrój w kostkę, a jeśli używasz kurczaka, potnij go na kawałki. Cebulę zeszklij na maśle lub oleju, a potem krótko podsmaż kaszę, aż zacznie pachnieć orzechowo.",
+            tip: "Krupnik zawdzięcza charakter kaszy, nie grochowi jak [grochówka](/pl/rezepte/grochowka). Przegląd całej rodziny zup znajdziesz w artykule o [polskich zupach](/pl/blog/polskie-zupy).",
           },
           {
-            text: "Zalej wodą lub lekkim bulionem; dodaj liść laurowy, pieprz i resztę warzyw. Gotuj spokojnie 35–45 minut, aż kasza zmięknie i zupa lekko zgęstnieje — nie blenduj na papkę.",
-            tip: "Technika bulionu [jak ugotować rosół](/pl/blog/jak-ugotowac-rosol). Zakupy: [sklep polski](/pl/blog/sklep-polski-zakupy).",
+            text: "Zalej wodą lub lekkim bulionem drobiowym albo warzywnym, dodaj liść laurowy, pieprz i resztę warzyw korzeniowych. Gotuj spokojnie 35 do 45 minut, aż kasza zmięknie, a zupa sama lekko zgęstnieje. Nie blenduj jej, bo krupnik ma smakować ziarnami, a nie papką.",
+            tip: "Jak ugotować klarowny, mocny bulion, pokazuje [technika rosołu](/pl/blog/jak-ugotowac-rosol). Dobrą kaszę jęczmienną często taniej kupisz w [sklepie polskim](/pl/blog/sklep-polski-zakupy).",
           },
           {
-            text: "Opcjonalnie dogotuj kurczaka lub dodaj ugotowane mięso późno. Dopraw solą; kwasu mało. Wymieszaj koperkiem lub pietruszką. To nie ciemny wywar z suszu jak [zupa grzybowa](/pl/rezepte/zupa-grzybowa).",
-            tip: "Miejsce w menu: [obiad niedzielny](/pl/blog/obiad-niedzielny). tu zostaje krupnik.",
+            text: "Kurczaka, jeśli go używasz, dogotuj razem z zupą, a już ugotowane mięso dodaj dopiero pod koniec, żeby się nie wysuszyło. Dopraw solą i sięgaj po kwas oszczędnie, bo krupnik ma być łagodny i zbożowy, a nie kwaśny. Na koniec wmieszaj świeży koperek lub natkę pietruszki.",
+            tip: "Zupa zostaje jasna i zbożowa, zupełnie inna niż ciemny wywar z suszonych grzybów w [zupie grzybowej](/pl/rezepte/zupa-grzybowa). Jako danie na co dzień pasuje dobrze w duchu [obiadu niedzielnego](/pl/blog/obiad-niedzielny).",
           },
           {
-            text: "Podawaj gorącą w głębokich talerzach; chleb obok. Resztki często lepsze nazajutrz — kasza ciągnie płyn, dolej bulionu.",
-            tip: "Brak kaszy: uczciwa zamiana według [zamienników](/pl/blog/zamienniki-skladnikow) — zostaje zupa jęczmienna, nie grochowa.",
+            text: "Podawaj gorącą w głębokich talerzach, z chlebem obok. Resztki dobrze się przechowują i nazajutrz często smakują jeszcze lepiej, bo smaki się przegryzają. Kasza dalej wchłania płyn, więc przy odgrzewaniu po prostu dolej trochę bulionu lub wody.",
+            tip: "Jeśli brakuje ci kaszy jęczmiennej, uczciwe zamienniki znajdziesz w artykule o [zamiennikach składników](/pl/blog/zamienniki-skladnikow). Charakter zupy się nie zmienia, to nadal zupa jęczmienna, a nie grochowa.",
           },
         ],
         seoTitle: "Krupnik przepis | Zupa jęczmienna | Alemniam",
         seoDescription:
-          "Krupnik — zupa z kaszy jęczmiennej i warzyw. Dwujęzycznie, zakupy w DE, jasno ≠ grochówka i ≠ grzybowa.",
+          "Krupnik: zupa z kaszy jęczmiennej i warzyw, inna niż grochówka i zupa grzybowa. Dwujęzycznie, z poradami zakupowymi w Niemczech.",
       },
     },
     ingredients: [
@@ -94,7 +94,7 @@ export const seedRecipesWave13A: Recipe[] = [
         amount: 150,
         unit: { de: "g", pl: "g" },
         group: "pantry",
-        storeHintDe: "Polenladen oder Supermarkt — Getreide/Hülsenfrüchte",
+        storeHintDe: "Polenladen oder Supermarkt, im Regal für Getreide und Hülsenfrüchte",
       },
       {
         id: "kr-2",
@@ -130,8 +130,8 @@ export const seedRecipesWave13A: Recipe[] = [
         unit: { de: "g", pl: "g" },
         group: "other",
         substitute: {
-          de: "Vegetarisch weglassen — ehrlich benennen",
-          pl: "Wege bez mięsa — nazwać uczciwie",
+          de: "Für die vegetarische Version einfach weglassen und im Titel ehrlich benennen",
+          pl: "W wersji wegetariańskiej po prostu pominąć i uczciwie napisać o tym w tytule",
         },
       },
       {
@@ -191,55 +191,55 @@ export const seedRecipesWave13A: Recipe[] = [
         title: "Zupa szczawiowa",
         slug: "szczawiowa",
         excerpt:
-          "Grüne polnische Sauerampfersuppe mit Ei und Śmietana — Frühlings-/Sommerteller. Klar ≠ Botwinka (Bete), ≠ Ogórkowa und ≠ kalter Chłodnik.",
+          "Eine leuchtend grüne polnische Frühlingssuppe aus frischem Sauerampfer, verfeinert mit Ei und Śmietana, ganz anders als die junge Rote-Bete-Suppe Botwinka oder der kalte Chłodnik.",
         steps: [
           {
-            text: "Leichte Brühe oder Wasser mit Zwiebel und Kartoffelwürfeln aufsetzen; weich kochen. Frischen Sauerampfer (szczaw) waschen, grob schneiden — Stiele zäh: weglassen oder fein.",
-            tip: "Sauerampfer DE: saisonal Markt/Polenladen; fehlt er: ehrlich laut [Ersatzprodukte DE](/de/blog/ersatzprodukte-de). Überblick: [Polnische Suppen](/de/blog/polnische-suppen).",
+            text: "Eine leichte Brühe oder Wasser mit Zwiebel- und Kartoffelwürfeln aufsetzen und weich kochen. Den frischen Sauerampfer (szczaw) waschen und grob schneiden. Zähe Stiele am besten weglassen oder sehr fein schneiden.",
+            tip: "Frischer Sauerampfer ist in Deutschland saisonal auf dem Markt oder im [Polenladen](/de/blog/polenladen-einkaufen) erhältlich. Ist gerade keiner zu bekommen, hilft der Beitrag zu [Ersatzprodukten](/de/blog/ersatzprodukte-de) weiter, und ein Überblick über die ganze Familie steht bei den [polnischen Suppen](/de/blog/polnische-suppen).",
           },
           {
-            text: "Sauerampfer kurz in Butter oder Brühe zusammenfallen lassen, dann in den Topf. Nur wenige Minuten mitköcheln — zu lang wird die Farbe oliv und bitter. Mit Salz und Pfeffer abschmecken.",
-            tip: "Das ist Grün und Sauerampfer-Säure, nicht junge Rote Bete: [Botwinka](/de/rezepte/botwinka) bleibt anderes Gericht. Auch nicht [Ogórkowa](/de/rezepte/ogorkowa).",
+            text: "Den Sauerampfer kurz in Butter oder direkt in der Brühe zusammenfallen lassen und dann in den Topf geben. Nur wenige Minuten mitköcheln, denn zu lange Hitze macht die Farbe olivgrün und den Geschmack bitter. Mit Salz und Pfeffer abschmecken.",
+            tip: "Hier zählen Grün und die Säure des Sauerampfers, ganz anders als bei der jungen Rote Bete in der [Botwinka](/de/rezepte/botwinka) oder der Gurkensäure der [Ogórkowa](/de/rezepte/ogorkowa).",
           },
           {
-            text: "Vom Herd nehmen. Śmietana temperieren und einrühren — nicht kochend. Hartgekochte Eier halbieren oder würfeln und in die Teller legen; Dill darüber.",
-            tip: "Śmietana temperieren wie im [Śmietana/Schmand](/de/blog/smietana-schmand)-Guide. Kalt und rosa wäre [Chłodnik](/de/rezepte/chlodnik-litewski) — anderes Gericht.",
+            text: "Den Topf vom Herd nehmen. Die Śmietana temperieren, indem du etwas heiße Brühe unterrührst, und erst dann in die Suppe geben, damit sie nicht gerinnt. Hartgekochte Eier halbieren oder würfeln und in die Teller legen, dann mit Dill bestreuen.",
+            tip: "Wie du Śmietana richtig temperierst, zeigt der [Śmietana-Guide](/de/blog/smietana-schmand). Kalt und oft rosa serviert wird dagegen der [Chłodnik](/de/rezepte/chlodnik-litewski), das ist ein völlig anderes Gericht.",
           },
           {
-            text: "Heiß servieren, solange die Suppe noch kräftig grün ist. Brot dazu. Reste kühlen; Farbe dunkelt nach — am besten frisch am gleichen Tag.",
-            tip: "Überblick: [Polnische Suppen](/de/blog/polnische-suppen). hier geht es nur um Szczawiowa.",
+            text: "Heiß servieren, solange die Suppe noch kräftig grün ist, dazu passt frisches Brot. Reste kühl stellen. Die Farbe dunkelt mit der Zeit nach, deshalb schmeckt Zupa szczawiowa am besten frisch am gleichen Tag.",
+            tip: "Weitere grüne und saure Suppenverwandte findest du im Überblick zu den [polnischen Suppen](/de/blog/polnische-suppen), hier geht es aber nur um die Sauerampfersuppe selbst.",
           },
         ],
         seoTitle: "Szczawiowa Rezept | Sauerampfersuppe polnisch | Alemniam",
         seoDescription:
-          "Zupa szczawiowa — grüne Sauerampfersuppe mit Ei und Śmietana. Bilingual, klar ≠ Botwinka/Ogórkowa/Chłodnik.",
+          "Zupa szczawiowa: grüne Sauerampfersuppe mit Ei und Śmietana, anders als Botwinka, Ogórkowa und Chłodnik. Bilingual mit Diaspora-Einkaufstipps.",
       },
       pl: {
         title: "Zupa szczawiowa",
         slug: "szczawiowa",
         excerpt:
-          "Zielona polska zupa ze szczawiu z jajkiem i śmietaną — wiosna/lato. Jasno ≠ botwinka, ≠ ogórkowa i ≠ zimny chłodnik.",
+          "Wyraziście zielona polska zupa wiosenna ze świeżego szczawiu, dopełniona jajkiem i śmietaną, zupełnie inna niż ciepła botwinka czy zimny chłodnik.",
         steps: [
           {
-            text: "Zagotuj lekki bulion lub wodę z cebulą i kostką ziemniaka; dogotuj. Szczaw umyj, pokrój grubo — twarde ogonki odrzuć lub drobno.",
-            tip: "Szczaw w DE sezonowo: targ/sklep polski; brak: uczciwie według [zamienników](/pl/blog/zamienniki-skladnikow). Przegląd: [polskie zupy](/pl/blog/polskie-zupy).",
+            text: "Zagotuj lekki bulion lub wodę z cebulą i kostkami ziemniaka, ugotuj do miękkości. Szczaw umyj i pokrój grubo. Twarde ogonki lepiej odrzucić albo pokroić bardzo drobno.",
+            tip: "Świeży szczaw w Niemczech kupisz sezonowo na targu albo w [sklepie polskim](/pl/blog/sklep-polski-zakupy). Gdy go brakuje, pomogą uczciwe [zamienniki składników](/pl/blog/zamienniki-skladnikow), a przegląd całej rodziny zup znajdziesz wśród [polskich zup](/pl/blog/polskie-zupy).",
           },
           {
-            text: "Szczaw krótko zwiędź na maśle lub w bulionie, potem do garnka. Gotuj tylko kilka minut — za długo kolor oliwkowy i gorzki. Dopraw solą i pieprzem.",
-            tip: "To zieleń i kwas szczawiu, nie młode buraki: [botwinka](/pl/rezepte/botwinka) to inny fokus. Też nie [ogórkowa](/pl/rezepte/ogorkowa).",
+            text: "Szczaw krótko zwiędnij na maśle albo bezpośrednio w bulionie, a potem przełóż do garnka. Gotuj tylko kilka minut, bo zbyt długie gotowanie robi z niego oliwkową i gorzką masę. Dopraw solą i pieprzem.",
+            tip: "Liczy się tu zieleń i kwas szczawiu, zupełnie inny charakter niż młoda botwina w [botwince](/pl/rezepte/botwinka) czy kwas ogórkowy w [ogórkowej](/pl/rezepte/ogorkowa).",
           },
           {
-            text: "Zdejmij z ognia. Zahartuj śmietanę i wmieszaj — nie do wrzątku. Jajka na twardo przekrój lub pokrój do talerzy; koperek.",
-            tip: "Śmietanę jak w [śmietana/Schmand](/pl/blog/smietana-czy-schmand). Zimno i różowo to [chłodnik](/pl/rezepte/chlodnik-litewski) — inne danie.",
+            text: "Zdejmij garnek z ognia. Zahartuj śmietanę, dolewając odrobinę gorącego bulionu, i dopiero wtedy wmieszaj ją do zupy, żeby się nie zważyła. Jajka na twardo przekrój na pół albo pokrój w kostkę i połóż na talerzach, a na wierzch posyp koperkiem.",
+            tip: "Jak prawidłowo hartować śmietanę, pokazuje [przewodnik po śmietanie](/pl/blog/smietana-czy-schmand). Na zimno i często na różowo podaje się za to [chłodnik](/pl/rezepte/chlodnik-litewski), czyli zupełnie inne danie.",
           },
           {
-            text: "Podawaj gorącą, póki zupa jest wyraźnie zielona. Chleb obok. Resztki chłodź; kolor ciemnieje — najlepiej tego samego dnia.",
-            tip: "Przegląd: [polskie zupy](/pl/blog/polskie-zupy). tu chodzi tylko o szczawiowa.",
+            text: "Podawaj gorącą, dopóki zupa jest wyraźnie zielona, z chlebem obok. Resztki trzymaj w lodówce. Kolor z czasem ciemnieje, dlatego zupa szczawiowa smakuje najlepiej świeżo tego samego dnia.",
+            tip: "Więcej zielonych i kwaśnych krewnych znajdziesz w przeglądzie [polskich zup](/pl/blog/polskie-zupy), ale tutaj chodzi tylko o zupę szczawiową samą w sobie.",
           },
         ],
         seoTitle: "Zupa szczawiowa przepis | Szczaw z jajkiem | Alemniam",
         seoDescription:
-          "Zupa szczawiowa — zielona ze szczawiu, jajkiem i śmietaną. Dwujęzycznie, jasno ≠ botwinka/ogórkowa/chłodnik.",
+          "Zupa szczawiowa: zielona zupa ze szczawiu, jajkiem i śmietaną, inna niż botwinka, ogórkowa i chłodnik. Dwujęzycznie, z poradami zakupowymi.",
       },
     },
     ingredients: [
@@ -252,10 +252,11 @@ export const seedRecipesWave13A: Recipe[] = [
         amount: 300,
         unit: { de: "g", pl: "g" },
         group: "produce",
-        storeHintDe: "Saison Markt / Polenladen — gefroren ehrlich benennen",
+        storeHintDe:
+          "Saisonal auf dem Markt oder im Polenladen, gefrorene Ware bitte ehrlich kennzeichnen",
         substitute: {
-          de: "Gefrorener Szczaw — klar als Sauerampfer benennen",
-          pl: "Mrożony szczaw — nazwać jako szczaw",
+          de: "Gefrorener Szczaw funktioniert auch, dann aber klar als Sauerampfer kennzeichnen",
+          pl: "Mrożony szczaw też się nada, tylko trzeba go uczciwie nazwać szczawiem",
         },
       },
       {
@@ -301,7 +302,7 @@ export const seedRecipesWave13A: Recipe[] = [
         amount: 100,
         unit: { de: "ml", pl: "ml" },
         group: "dairy",
-        storeHintDe: "Temperieren — siehe Śmietana-Guide",
+        storeHintDe: "Vor dem Einrühren temperieren, mehr dazu im Śmietana-Guide",
       },
       {
         id: "sz-7",

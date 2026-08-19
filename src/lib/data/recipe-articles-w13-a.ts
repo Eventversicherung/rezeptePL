@@ -8,102 +8,97 @@
  * Gates: expand ≥400 words/locale; ≥4 inline markdown links/locale
  * (≥2 recipe + ≥2 blog) in FACTS longform fields.
  * Affiliate: guide-only (no relatedProductIds on recipes).
- *
- * Ownership:
- * - Krupnik ≠ Grochówka (Erbsen) / Zupa grzybowa (Pilz) / Kapuśniak / Rosół-Primary
- * - Szczawiowa ≠ Botwinka / Ogórkowa / Chłodnik / Żurek
- * - Polnische Suppen Overview bleibt Broad-Owner
  */
 
 export type ArticleFacts = {
- dishDe: string;
- dishPl: string;
- vibeDe: string;
- vibePl: string;
- originDe: string;
- originPl: string;
- shopDe: string;
- shopPl: string;
- techniqueDe: string;
- techniquePl: string;
- serveDe: string;
- servePl: string;
- diasporaDe: string;
- diasporaPl: string;
- mistakesDe: string;
- mistakesPl: string;
- variantsDe: string;
- variantsPl: string;
+  dishDe: string;
+  dishPl: string;
+  vibeDe: string;
+  vibePl: string;
+  originDe: string;
+  originPl: string;
+  shopDe: string;
+  shopPl: string;
+  techniqueDe: string;
+  techniquePl: string;
+  serveDe: string;
+  servePl: string;
+  diasporaDe: string;
+  diasporaPl: string;
+  mistakesDe: string;
+  mistakesPl: string;
+  variantsDe: string;
+  variantsPl: string;
 };
 
 export const W13_FACTS_A: Record<string, ArticleFacts> = {
- "recipe-krupnik": {
- dishDe: "Krupnik",
- dishPl: "Krupnik",
- vibeDe: "getreidewarm, nach Gerste und Wurzelgemüse — Alltag und Sonntagstopf",
- vibePl: "zbożowy, od kaszy jęczmiennej i włoszczyzny — codzienność i niedziela",
- originDe:
- "Krupnik ist die polnische Gersten- oder Graupensuppe mit Gemüse und oft Fleisch oder Knochenbrühe — sättigend, klar-würzig, Alltagstauglich. Das ist weder dicke Erbsensuppe [Grochówka](/de/rezepte/grochowka) noch klare Festtagsbrühe [Rosół](/de/rezepte/rosol) noch Sauerkrautsuppe [Kapuśniak](/de/rezepte/kapusniak). Der Überblick [Polnische Suppen](/de/blog/polnische-suppen) ordnet die Landschaft; hier bleibt der enge Krupnik-Fokus.",
- originPl:
- "Krupnik to polska zupa z kaszy jęczmiennej lub pęczaku z warzywami i często mięsem albo wywarem — sycąca, klarownie-korzenna, na co dzień. To ani gęsta [grochówka](/pl/rezepte/grochowka), ani klarowny [rosół](/pl/rezepte/rosol), ani [kapuśniak](/pl/rezepte/kapusniak). Przegląd [polskie zupy](/pl/blog/polskie-zupy) porządkuje krajobraz; tu zostaje wąski fokus na krupnik.",
- shopDe:
- "Perlgerste ist der Charakterträger — oft im [Polenladen](/de/blog/polenladen-einkaufen) oder im Supermarkt-Getreideregal. Wurzelgemüse, Zwiebel, Lorbeer und Dill aus dem Markt. Optional Huhn aus dem Kühlregal. Fehlt eine Sorte Gerste: ehrlich laut [Ersatzprodukte DE](/de/blog/ersatzprodukte-de) benennen, ohne in Erbsen-Fokus zu kippen. Keine Trockenerbsen und kein Trockenpilz-Batch als Basis — sonst wird daraus [Grochówka](/de/rezepte/grochowka) oder [Zupa grzybowa](/de/rezepte/zupa-grzybowa). Brühe-Qualität über [Rosół-Technik](/de/blog/rosol-technik).",
- shopPl:
- "Kasza jęczmienna niesie charakter — często w [sklepie polskim](/pl/blog/sklep-polski-zakupy) lub w markecie. Warzywa korzeniowe, cebula, liść laurowy, koperek z marketu. Opcjonalnie kurczak. Brak sorty kaszy: uczciwie według [zamienników](/pl/blog/zamienniki-skladnikow), bez dryfu w groch. Bez suchego grochu i bez suszonych grzybów jako bazy — inaczej dryfuje w stronę [grochówkę](/pl/rezepte/grochowka) lub [zupę grzybową](/pl/rezepte/zupa-grzybowa). Jakość bulionu [jak ugotować rosół](/pl/blog/jak-ugotowac-rosol).",
- techniqueDe:
- "Gerste abspülen und mitrösten, dann ruhig köcheln — zu hartes Blubbern macht den Topf trüb und die Körner ungleich. Einlagen und Fleisch so zeitigen, dass nichts zerkocht. Teilweise pürieren ist optional und selten nötig; Krupnik will Körner, nicht Babybrei wie dicke [Grochówka](/de/rezepte/grochowka). Salz gestaffelt; Säure sparsam. Das ist kein Wald-Fond aus Trockenpilzen wie [Zupa grzybowa](/de/rezepte/zupa-grzybowa). Klarheit der Brühe üben: [Rosół-Technik](/de/blog/rosol-technik).",
- techniquePl:
- "Kaszą przepłucz i podsmaż, potem spokojnie gotuj — zbyt mocne burzenie mąci i nierówno gotuje ziarna. Dodatki i mięso tak, by nic się nie rozpadło. Blendowanie rzadko potrzebne; krupnik chce ziarna, nie papkę jak gęsta [grochówka](/pl/rezepte/grochowka). Sól etapami; kwasu mało. To nie leśny wywar z suszu jak [zupa grzybowa](/pl/rezepte/zupa-grzybowa). Klarowność: [jak ugotować rosół](/pl/blog/jak-ugotowac-rosol).",
- serveDe:
- "Heiß mit Dill, Brot dazu. Passt als sättigender Starter oder Alltagsmittag im Sinne von [polnischem Sonntagsessen](/de/blog/sonntagsessen-polnisch). Wer Erbsen will: [Grochówka](/de/rezepte/grochowka); wer Pilzfond: [Zupa grzybowa](/de/rezepte/zupa-grzybowa); wer klare Festtagsbrühe: [Rosół](/de/rezepte/rosol). Landschaft: [Polnische Suppen](/de/blog/polnische-suppen). Einkaufskontext: [Polenladen](/de/blog/polenladen-einkaufen).",
- servePl:
- "Gorąca z koperkiem, chleb obok. Starter lub obiad w duchu [obiadu niedzielnego](/pl/blog/obiad-niedzielny). Groch: [grochówka](/pl/rezepte/grochowka); grzyby: [zupa grzybowa](/pl/rezepte/zupa-grzybowa); klarowny wywar: [rosół](/pl/rezepte/rosol). Krajobraz: [polskie zupy](/pl/blog/polskie-zupy). W [sklep polski](/pl/blog/sklep-polski-zakupy) kupisz typowe specjalności.",
- diasporaDe:
- "Krupnik ist Diaspora-freundlich: ein Topf, Gerste aus dem Vorrat, Gemüse aus dem Supermarkt. Batch für zwei Tage möglich — Gerste zieht Flüssigkeit, am zweiten Tag Brühe nachgießen. Kinder dürfen Gerste abmessen; heißer Topf bei Erwachsenen. Vor dem Wochenende Gerste checken im [Polenladen](/de/blog/polenladen-einkaufen). Speiseplan entlasten heißt: klare Rezeptseite, Kultur bleibt beim [Sonntagsessen](/de/blog/sonntagsessen-polnisch).",
- diasporaPl:
- "Krupnik lubi diasporę: jeden garnek, kasza ze spiżarni, warzywa z marketu. Zapas na dwa dni — kasza ciągnie płyn, nazajutrz dolej. Dzieci odmierzą kaszę; gorący garnek u dorosłych. Przed weekendem sprawdź kaszę w [sklepie polskim](/pl/blog/sklep-polski-zakupy). Odciążenie menu: jasna strona przepisu, kultura zostaje w [obiadzie niedzielnym](/pl/blog/obiad-niedzielny).",
- mistakesDe:
- "Häufig wird Krupnik mit [Grochówka](/de/rezepte/grochowka) (Erbsen) oder [Zupa grzybowa](/de/rezepte/zupa-grzybowa) (Pilz) verwechselt. Zu stark pürieren macht Brei daraus, und ungewaschene Gerste trübt den Topf. Die Kultur bleibt beim klaren Gersten-Charakter.",
- mistakesPl:
- "Często krupnik myli się z [grochówką](/pl/rezepte/grochowka) albo [zupą grzybową](/pl/rezepte/zupa-grzybowa). Zbyt mocne blendowanie robi z tego papkę, a kasza bez płukania mąci garnek. Nie mieszaj ilości i kroków z sąsiednim przepisem.",
- variantsDe:
- "Mit mehr Huhn sättigender; vegetarisch ehrlich ohne Fleisch; mit getrockneten Pilzen nur als Beinote — Fokus bleibt Gerste, nicht [Zupa grzybowa](/de/rezepte/zupa-grzybowa). Passende Nachbarn sind [Grochówka](/de/rezepte/grochowka), [Kapuśniak](/de/rezepte/kapusniak), [Rosół](/de/rezepte/rosol). Guides: [Polnische Suppen](/de/blog/polnische-suppen), [Sonntagsessen](/de/blog/sonntagsessen-polnisch), [Polenladen](/de/blog/polenladen-einkaufen), [Ersatzprodukte](/de/blog/ersatzprodukte-de).",
- variantsPl:
- "Z większą ilością kurczaka sycący; wege uczciwie bez mięsa; z suszonymi grzybami tylko jako dopisek — tu zostaje kasza, nie [zupa grzybowa](/pl/rezepte/zupa-grzybowa). Pasujący sąsiedzi to [grochówka](/pl/rezepte/grochowka), [kapuśniak](/pl/rezepte/kapusniak), [rosół](/pl/rezepte/rosol). Przewodniki: [polskie zupy](/pl/blog/polskie-zupy), [obiad niedzielny](/pl/blog/obiad-niedzielny), [sklep polski](/pl/blog/sklep-polski-zakupy), [zamienniki](/pl/blog/zamienniki-skladnikow).",
- },
+  "recipe-krupnik": {
+    dishDe: "Krupnik",
+    dishPl: "Krupnik",
+    vibeDe: "getreidewarm, nach Gerste und Wurzelgemüse, Alltag und Sonntagstopf",
+    vibePl: "zbożowy, od kaszy jęczmiennej i włoszczyzny, codzienność i niedziela",
+    originDe:
+      "Der Name Krupnik kommt vom altpolnischen Wort krupy, das schlicht Grütze oder Graupen bedeutet, und die Suppe reicht bis ins Mittelalter zurück. Ursprünglich war sie eine schlichte, oft fastentaugliche Grützsuppe für Bauern und Landarbeiter, erst ab dem 18. Jahrhundert fand sie den Weg auf bürgerliche und adlige Tische, unter anderem in Lucyna Ćwierczakiewiczowas berühmtes Kochbuch „365 obiadów za 5 złotych“ aus dem 19. Jahrhundert. Je nach Region unterscheidet sich Krupnik bis heute: In den Bergen der Podhale kommt traditionell mehr Wurzelgemüse hinein, in Masowien wird die Suppe deutlich fleischiger gekocht. Krupnik ist dabei weder die dicke Erbsensuppe [Grochówka](/de/rezepte/grochowka) noch die klare Festtagsbrühe [Rosół](/de/rezepte/rosol) noch die Sauerkrautsuppe [Kapuśniak](/de/rezepte/kapusniak). Einen Überblick über die ganze Suppenlandschaft gibt der Beitrag zu [polnischen Suppen](/de/blog/polnische-suppen).",
+    originPl:
+      "Nazwa krupnik pochodzi od staropolskiego słowa krupy, czyli kasza, a sama zupa sięga korzeniami średniowiecza. Początkowo była to prosta, często postna polewka z kaszą, jedzona przez chłopów i robotników rolnych, dopiero od XVIII wieku trafiła też na stoły mieszczańskie i szlacheckie, między innymi do słynnej książki kucharskiej Lucyny Ćwierczakiewiczowej „365 obiadów za 5 złotych” z XIX wieku. Do dziś krupnik różni się w zależności od regionu: na Podhalu dodaje się więcej warzyw korzeniowych, na Mazowszu zupa bywa bardziej mięsna. To ani gęsta [grochówka](/pl/rezepte/grochowka), ani klarowny [rosół](/pl/rezepte/rosol), ani kiszony [kapuśniak](/pl/rezepte/kapusniak). Przegląd całej rodziny zup znajdziesz w artykule o [polskich zupach](/pl/blog/polskie-zupy).",
+    shopDe:
+      "Perlgerste ist der Charakterträger von Krupnik und liegt oft im [Polenladen](/de/blog/polenladen-einkaufen) griffbereit, genauso gut findest du sie aber auch im Getreideregal jedes Supermarkts. Dazu kommen Wurzelgemüse, Zwiebel, Lorbeer und Dill vom Markt, optional etwas Hühnerfleisch aus der Kühltheke. Fehlt eine bestimmte Gerstensorte, hilft der Beitrag zu [Ersatzprodukten](/de/blog/ersatzprodukte-de) weiter, ohne dass daraus eine Erbsensuppe wird. Getrocknete Erbsen oder ein Fond aus Trockenpilzen gehören nicht in den Topf, sonst landest du bei der [Grochówka](/de/rezepte/grochowka) oder der [Zupa grzybowa](/de/rezepte/zupa-grzybowa). Wie du eine klare Brühe als Basis kochst, zeigt die [Rosół-Technik](/de/blog/rosol-technik).",
+    shopPl:
+      "Kasza jęczmienna niesie cały charakter krupniku i często czeka gotowa w [sklepie polskim](/pl/blog/sklep-polski-zakupy), ale równie dobrze znajdziesz ją w dziale zbożowym każdego marketu. Do tego warzywa korzeniowe, cebula, liść laurowy i koperek z targu, opcjonalnie trochę kurczaka z lady chłodniczej. Gdy brakuje konkretnej kaszy, pomogą uczciwe [zamienniki składników](/pl/blog/zamienniki-skladnikow), bez zamiany zupy w grochową. Suszony groch albo wywar z suszonych grzybów nie pasują do tego garnka, bo wtedy wychodzi [grochówka](/pl/rezepte/grochowka) albo [zupa grzybowa](/pl/rezepte/zupa-grzybowa). Jak ugotować klarowny bulion jako bazę, pokazuje [technika rosołu](/pl/blog/jak-ugotowac-rosol).",
+    techniqueDe:
+      "Die Gerste zunächst abspülen und kurz mitrösten, dann ruhig köcheln lassen, denn zu starkes Sprudeln macht den Topf trüb und gart die Körner ungleichmäßig. Fleisch und spätere Zutaten so timen, dass nichts zerkocht, während die Gerste selbst gerne etwas länger ziehen darf. Ein teilweises Pürieren ist möglich, aber selten nötig, denn Krupnik soll Biss haben und nicht zu Babybrei werden wie eine dicke [Grochówka](/de/rezepte/grochowka). Salz gestaffelt zugeben und mit Säure sparsam bleiben, denn diese Suppe lebt von der Wärme des Getreides und nicht von einem Waldpilzaroma wie die [Zupa grzybowa](/de/rezepte/zupa-grzybowa). Für die Klarheit der Brühe lohnt sich ein Blick in die [Rosół-Technik](/de/blog/rosol-technik).",
+    techniquePl:
+      "Kaszę najpierw przepłucz i krótko podsmaż, a potem gotuj spokojnie, bo mocne bulgotanie mąci zupę i nierówno gotuje ziarna. Mięso i późniejsze dodatki dodawaj w takim momencie, żeby nic się nie rozgotowało, a sama kasza spokojnie może pociągnąć dłużej. Częściowe zblendowanie jest możliwe, ale rzadko potrzebne, bo krupnik ma mieć wyczuwalne ziarna, a nie zamieniać się w papkę jak gęsta [grochówka](/pl/rezepte/grochowka). Sól dodawaj etapami, a z kwasem obchodź się oszczędnie, bo ta zupa żyje ciepłem zboża, a nie aromatem leśnych grzybów jak [zupa grzybowa](/pl/rezepte/zupa-grzybowa). Klarowność bulionu opisuje bliżej [technika rosołu](/pl/blog/jak-ugotowac-rosol).",
+    serveDe:
+      "Serviere Krupnik heiß mit reichlich Dill und frischem Brot dazu, als sättigender Starter oder als ganzes Mittagessen im Alltag, so wie es auch beim [polnischen Sonntagsessen](/de/blog/sonntagsessen-polnisch) üblich ist. Wer lieber Erbsen mag, findet sein Gericht bei der [Grochówka](/de/rezepte/grochowka), wer eine klare Festtagsbrühe sucht, bei [Rosół](/de/rezepte/rosol). Einen Überblick über die ganze Suppenfamilie liefert der Beitrag zu [polnischen Suppen](/de/blog/polnische-suppen), gute Zutaten dafür findest du im [Polenladen](/de/blog/polenladen-einkaufen).",
+    servePl:
+      "Podawaj krupnik gorący, z dużą ilością koperku i świeżym chlebem obok, jako sycącą przystawkę albo cały obiad na co dzień, podobnie jak przy [obiedzie niedzielnym](/pl/blog/obiad-niedzielny). Kto woli groch, znajdzie swoje danie w [grochówce](/pl/rezepte/grochowka), a kto szuka klarownego wywaru świątecznego, w [rosole](/pl/rezepte/rosol). Przegląd całej rodziny zup daje artykuł o [polskich zupach](/pl/blog/polskie-zupy), a dobre składniki znajdziesz w [sklepie polskim](/pl/blog/sklep-polski-zakupy).",
+    diasporaDe:
+      "Krupnik passt gut in den Alltag der Diaspora, weil ein Topf reicht: Gerste aus dem Vorrat, Gemüse aus dem Supermarkt, fertig. Du kannst gut für zwei Tage vorkochen, solltest beim Aufwärmen aber etwas Brühe nachgießen, weil die Gerste weiter Flüssigkeit zieht. Kinder dürfen die Gerste abmessen und Gemüse waschen, am heißen Topf übernehmen Erwachsene. Guten Vorrat an Gerste findest du im [Polenladen](/de/blog/polenladen-einkaufen), während die Kultur rund um den Sonntagstisch im [Sonntagsessen-Guide](/de/blog/sonntagsessen-polnisch) beschrieben ist.",
+    diasporaPl:
+      "Krupnik dobrze wpisuje się w codzienność diaspory, bo wystarczy jeden garnek: kasza ze spiżarni, warzywa z marketu i gotowe. Można spokojnie ugotować zapas na dwa dni, tylko przy odgrzewaniu warto dolać trochę bulionu, bo kasza dalej wchłania płyn. Dzieci mogą odmierzyć kaszę i umyć warzywa, przy gorącym garnku pomagają dorośli. Dobry zapas kaszy znajdziesz w [sklepie polskim](/pl/blog/sklep-polski-zakupy), a o kulturze niedzielnego stołu opowiada [obiad niedzielny](/pl/blog/obiad-niedzielny).",
+    mistakesDe:
+      "Krupnik wird gelegentlich mit der Erbsensuppe [Grochówka](/de/rezepte/grochowka) oder der Pilzsuppe [Zupa grzybowa](/de/rezepte/zupa-grzybowa) verwechselt, dabei ist die Gerste der eigentliche Charakterträger. Zu starkes Pürieren macht aus der Suppe Brei, und ungewaschene Gerste trübt den Topf unnötig. Auch zu frühes Zugeben von bereits gegartem Fleisch lässt es beim Nachkochen austrocknen, deshalb kommt es besser erst gegen Ende in den Topf.",
+    mistakesPl:
+      "Krupnik bywa mylony z grochową [grochówką](/pl/rezepte/grochowka) albo z [zupą grzybową](/pl/rezepte/zupa-grzybowa), a przecież to kasza jęczmienna nadaje mu charakter. Zbyt mocne blendowanie zamienia zupę w papkę, a nieprzepłukana kasza niepotrzebnie mąci wywar. Zbyt wczesne dodanie już ugotowanego mięsa sprawia, że podczas dalszego gotowania wysycha, dlatego lepiej wrzucić je dopiero pod koniec.",
+    variantsDe:
+      "Mit mehr Hühnerfleisch wird Krupnik deutlich sättigender, in der vegetarischen Version bleibt das Fleisch ganz weg und wird im Titel ehrlich benannt. Getrocknete Pilze dürfen als leiser Unterton mitkochen, sollten die Suppe aber nicht zur [Zupa grzybowa](/de/rezepte/zupa-grzybowa) machen, denn der Fokus bleibt bei der Gerste. Passende Suppen-Nachbarn sind die [Grochówka](/de/rezepte/grochowka), der [Kapuśniak](/de/rezepte/kapusniak) und der [Rosół](/de/rezepte/rosol), einen Überblick über alle gibt der Beitrag zu [polnischen Suppen](/de/blog/polnische-suppen), und für den Sonntagstisch passt der [Sonntagsessen-Guide](/de/blog/sonntagsessen-polnisch).",
+    variantsPl:
+      "Z większą ilością kurczaka krupnik robi się dużo bardziej sycący, a w wersji wegetariańskiej mięso po prostu znika i jest to uczciwie napisane w tytule. Suszone grzyby mogą dorzucić cichy podton, ale nie powinny zamieniać zupy w [zupę grzybową](/pl/rezepte/zupa-grzybowa), bo fokus zostaje przy kaszy. Pasującymi sąsiadami są [grochówka](/pl/rezepte/grochowka), [kapuśniak](/pl/rezepte/kapusniak) i [rosół](/pl/rezepte/rosol), ich przegląd znajdziesz w artykule o [polskich zupach](/pl/blog/polskie-zupy), a do niedzielnego stołu pasuje [obiad niedzielny](/pl/blog/obiad-niedzielny).",
+  },
 
- "recipe-szczawiowa": {
- dishDe: "Zupa szczawiowa",
- dishPl: "Zupa szczawiowa",
- vibeDe: "grün, säuerlich-frisch, nach Sauerampfer und Dill — Frühling und früher Sommer",
- vibePl: "zielona, kwaskowato-świeża, od szczawiu i koperku — wiosna i wczesne lato",
- originDe:
- "Zupa szczawiowa ist die klassische polnische Sauerampfersuppe: frischer Szczaw, Kartoffeln, temperierte Śmietana und hartgekochtes Ei. Die Farbe bleibt grün und der Geschmack säuerlich-pflanzlich. Das ist weder warme junge Rote-Bete-Suppe [Botwinka](/de/rezepte/botwinka) noch Kiszone-Gurkensuppe [Ogórkowa](/de/rezepte/ogorkowa) noch kalter, oft rosa [Chłodnik](/de/rezepte/chlodnik-litewski) und auch kein Zakwas-[Żurek](/de/rezepte/zurek). Der Überblick [Polnische Suppen](/de/blog/polnische-suppen) ordnet die Landschaft; Śmietana-Technik im [Śmietana/Schmand](/de/blog/smietana-schmand)-Guide.",
- originPl:
- "Zupa szczawiowa to klasyczna polska zupa szczawiowa: świeży szczaw, ziemniaki, temperowana śmietana i jajko na twardo. Kolor zostaje zielony, smak kwaśno-roślinny. To ani ciepła [botwinka](/pl/rezepte/botwinka), ani [ogórkowa](/pl/rezepte/ogorkowa), ani zimny [chłodnik](/pl/rezepte/chlodnik-litewski), ani zakwasowy [żurek](/pl/rezepte/zurek). Przegląd [polskie zupy](/pl/blog/polskie-zupy) porządkuje krajobraz; technikę śmietany opisuje [śmietana/Schmand](/pl/blog/smietana-czy-schmand).",
- shopDe:
- "Frischer Sauerampfer ist saisonal — Markt, Garten oder [Polenladen](/de/blog/polenladen-einkaufen); gefroren ehrlich benennen laut [Ersatzprodukte DE](/de/blog/ersatzprodukte-de). Kartoffeln, Eier, Dill aus dem Supermarkt. Śmietana/Schmand-Wahl im [Śmietana-Guide](/de/blog/smietana-schmand). Keine jungen Rote-Bete-Blätter als „Ersatz“ ohne Hinweis — sonst wird daraus [Botwinka](/de/rezepte/botwinka). Kein Gurkenglas und kein Kefir-Kühlbecher als Basis — sonst [Ogórkowa](/de/rezepte/ogorkowa) bzw. [Chłodnik](/de/rezepte/chlodnik-litewski).",
- shopPl:
- "Świeży szczaw jest sezonowy — targ, ogród lub [sklep polski](/pl/blog/sklep-polski-zakupy); mrożony uczciwie według [zamienników](/pl/blog/zamienniki-skladnikow). Ziemniaki, jajka, koperek z marketu. Wybór śmietany w [przewodniku](/pl/blog/smietana-czy-schmand). Bez młodej botwiny jako „zamiennika” bez dopisku — inaczej dryfuje w stronę [botwinkę](/pl/rezepte/botwinka). Bez słoika ogórków i bez kefiru jako bazy — inaczej [ogórkowa](/pl/rezepte/ogorkowa) lub [chłodnik](/pl/rezepte/chlodnik-litewski).",
- techniqueDe:
- "Kartoffelbasis weich kochen, Sauerampfer spät und kurz — lange Hitze macht Oliv und Bitterkeit. Śmietana immer temperieren, nie in den kochenden Topf. Ei separat hart kochen und erst im Teller. Abschmecken: Salz, etwas Pfeffer, Dill; Zucker selten nötig. Das ist kein Kiszone-Topf wie [Ogórkowa](/de/rezepte/ogorkowa) und kein kalter Kefirbecher wie [Chłodnik](/de/rezepte/chlodnik-litewski). Bete-Nachbar [Botwinka](/de/rezepte/botwinka).",
- techniquePl:
- "Bazę ziemniaczaną dogotuj, szczaw późno i krótko — długi ogień daje oliwkowy kolor i gorycz. Śmietanę zawsze zahartuj. Jajko osobno na twardo, do talerza. Dopraw: sól, pieprz, koperek; cukier rzadko. To nie garnek kiszony jak [ogórkowa](/pl/rezepte/ogorkowa) i nie zimny kefir jak [chłodnik](/pl/rezepte/chlodnik-litewski). Sąsiad buraczany [botwinka](/pl/rezepte/botwinka).",
- serveDe:
- "Heiß, grün, mit Ei und Dill. Frühlings- und Frühsommer-Teller; Brot dazu. Wer junge Bete mit Blättern will: [Botwinka](/de/rezepte/botwinka); wer Gurkensäure: [Ogórkowa](/de/rezepte/ogorkowa); wer kalt und oft rosa: [Chłodnik](/de/rezepte/chlodnik-litewski). Landschaft: [Polnische Suppen](/de/blog/polnische-suppen). Milchprodukt-Kontext: [Śmietana/Schmand](/de/blog/smietana-schmand).",
- servePl:
- "Gorąca, zielona, z jajkiem i koperkiem. Wiosna i wczesne lato; chleb obok. Młode buraki z botwiną: [botwinka](/pl/rezepte/botwinka); kwas ogórkowy: [ogórkowa](/pl/rezepte/ogorkowa); zimno i często różowo: [chłodnik](/pl/rezepte/chlodnik-litewski). Krajobraz: [polskie zupy](/pl/blog/polskie-zupy). Nabiał: [śmietana/Schmand](/pl/blog/smietana-czy-schmand).",
- diasporaDe:
- "In DE ist frischer Sauerampfer das Nadelöhr — wer ihn findet, kocht; wer nicht, wartet auf die Saison oder nennt den gefrorenen Vorrat ehrlich. Ein Topf für den gleichen Tag, Farbe frisch halten. Kinder dürfen Eier schälen; heißer Topf und scharfe Messer bei Erwachsenen. Einkaufshilfe: [Ersatzprodukte DE](/de/blog/ersatzprodukte-de) und [Polenladen](/de/blog/polenladen-einkaufen). Den Überblick gibt [Polnische Suppen](/de/blog/polnische-suppen).",
- diasporaPl:
- "W DE świeży szczaw to wąskie gardło — kto znajdzie, gotuje; kto nie, czeka na sezon albo nazywa mrożonkę uczciwie. Jeden garnek na ten sam dzień, kolor świeży. Dzieci obiorą jajka; gorący garnek u dorosłych. W [zamienniki](/pl/blog/zamienniki-skladnikow) i pod [sklep polski](/pl/blog/sklep-polski-zakupy) znajdziesz wskazówki zakupowe. Przegląd osobny farsz i osobne ilości.: [polskie zupy](/pl/blog/polskie-zupy).",
- mistakesDe:
- "Mit [Botwinka](/de/rezepte/botwinka) verwechseln (Bete). Mit [Ogórkowa](/de/rezepte/ogorkowa) verwechseln (Gurke). Mit [Chłodnik](/de/rezepte/chlodnik-litewski) verwechseln (kalt). Sauerampfer zu lange kochen. Śmietana kochend einrühren. nein.",
- mistakesPl:
- "Mylenie z [botwinką](/pl/rezepte/botwinka). Mylenie z [ogórkową](/pl/rezepte/ogorkowa). Mylenie z [chłodnikiem](/pl/rezepte/chlodnik-litewski). Zbyt długie gotowanie szczawiu. Śmietana do wrzątku. Nie mieszać ilości i kroków z sąsiednim przepisem.",
- variantsDe:
- "Mit mehr Dill frischer; mit weniger Śmietana säuerlicher; vegetarisch auf Gemüsebrühe. Passende Nachbarn sind [Botwinka](/de/rezepte/botwinka), [Ogórkowa](/de/rezepte/ogorkowa), [Chłodnik](/de/rezepte/chlodnik-litewski). Guides: [Polnische Suppen](/de/blog/polnische-suppen), [Śmietana/Schmand](/de/blog/smietana-schmand), [Ersatzprodukte](/de/blog/ersatzprodukte-de), [Polenladen](/de/blog/polenladen-einkaufen).",
- variantsPl:
- "Z większą ilością koperku świeższa; z mniejszą śmietaną bardziej kwaskowa; wege na warzywnym. Pasujący sąsiedzi to [botwinka](/pl/rezepte/botwinka), [ogórkowa](/pl/rezepte/ogorkowa), [chłodnik](/pl/rezepte/chlodnik-litewski). Przewodniki: [polskie zupy](/pl/blog/polskie-zupy), [śmietana/Schmand](/pl/blog/smietana-czy-schmand), [zamienniki](/pl/blog/zamienniki-skladnikow), [sklep polski](/pl/blog/sklep-polski-zakupy).",
- },
+  "recipe-szczawiowa": {
+    dishDe: "Zupa szczawiowa",
+    dishPl: "Zupa szczawiowa",
+    vibeDe: "grün, säuerlich frisch, nach Sauerampfer und Dill, Frühling und früher Sommer",
+    vibePl: "zielona, kwaskowato świeża, od szczawiu i koperku, wiosna i wczesne lato",
+    originDe:
+      "Szczaw wächst praktisch auf der ganzen Nordhalbkugel und war schon im alten Ägypten und Rom als saures Blattgemüse bekannt, ehe die Pflanze im Mittelalter auch nach Polen kam. Der saure Geschmack gab ihr in vielen Sprachen ihren Namen: Im Althochdeutschen hieß Sauerampfer schlicht „suri“, im Altfranzösischen „surele“, beides bedeutet einfach sauer. In Polen wurde daraus schnell die Szczawiówka, eine kwaskowa Suppe, die bis heute vor allem im Frühling und Frühsommer gekocht wird, wenn frische Blätter verfügbar sind. Weil sich Sauerampfer kaum lagern lässt, bleibt Zupa szczawiowa ein echtes Saisongericht, anders als die junge Rote-Bete-Suppe [Botwinka](/de/rezepte/botwinka), die Kiszone-Gurkensuppe [Ogórkowa](/de/rezepte/ogorkowa) oder der kalte, oft rosa [Chłodnik](/de/rezepte/chlodnik-litewski). Einen Überblick über die ganze Suppenfamilie gibt [polnische Suppen](/de/blog/polnische-suppen).",
+    originPl:
+      "Szczaw rośnie właściwie na całej półkuli północnej i był znany jako kwaśne warzywo liściaste już w starożytnym Egipcie i Rzymie, zanim w średniowieczu trafił także do Polski. Kwaśny smak dał mu nazwę w wielu językach: w staroniemieckim kwaśny liść nazywano „suri”, w starofrancuskim „surele”, oba słowa znaczą po prostu kwaśny. W Polsce szybko powstała z tego szczawiówka, czyli kwaskowa zupa, którą do dziś gotuje się głównie wiosną i wczesnym latem, gdy dostępne są świeże liście. Ponieważ szczaw trudno przechowywać, zupa szczawiowa pozostaje prawdziwym daniem sezonowym, inaczej niż ciepła [botwinka](/pl/rezepte/botwinka) z młodej buraczanej łodygi, kiszona [ogórkowa](/pl/rezepte/ogorkowa) czy zimny, często różowy [chłodnik](/pl/rezepte/chlodnik-litewski). Przegląd całej rodziny zup daje artykuł o [polskich zupach](/pl/blog/polskie-zupy).",
+    shopDe:
+      "Frischen Sauerampfer bekommst du in Deutschland saisonal auf dem Markt, im eigenen Garten oder im [Polenladen](/de/blog/polenladen-einkaufen), gefrorene Ware solltest du ehrlich als solche benennen laut den [Ersatzprodukten](/de/blog/ersatzprodukte-de). Dazu kommen Kartoffeln, Eier und Dill aus dem Supermarkt sowie Śmietana, deren Handhabung der [Śmietana-Guide](/de/blog/smietana-schmand) erklärt. Junge Rote-Bete-Blätter sind kein stiller Ersatz, sonst landest du bei der [Botwinka](/de/rezepte/botwinka), und ein Glas Gurken oder ein Becher Kefir gehören ebenfalls nicht in diesen Topf, sonst wird daraus [Ogórkowa](/de/rezepte/ogorkowa) oder [Chłodnik](/de/rezepte/chlodnik-litewski).",
+    shopPl:
+      "Świeży szczaw w Niemczech kupisz sezonowo na targu, we własnym ogrodzie albo w [sklepie polskim](/pl/blog/sklep-polski-zakupy), a mrożony warto uczciwie nazwać mrożonym zgodnie z [zamiennikami składników](/pl/blog/zamienniki-skladnikow). Do tego ziemniaki, jajka i koperek z marketu oraz śmietana, o której obchodzeniu się opowiada [przewodnik po śmietanie](/pl/blog/smietana-czy-schmand). Młoda botwina nie jest cichym zamiennikiem, bo wtedy wychodzi [botwinka](/pl/rezepte/botwinka), a słoik ogórków czy szklanka kefiru też nie pasują do tego garnka, bo z nich powstaje [ogórkowa](/pl/rezepte/ogorkowa) albo [chłodnik](/pl/rezepte/chlodnik-litewski).",
+    techniqueDe:
+      "Die Kartoffelbasis zuerst weich kochen und den Sauerampfer erst spät und nur kurz mitköcheln lassen, denn lange Hitze macht ihn olivgrün und bitter. Die Śmietana immer temperieren, niemals direkt in den kochenden Topf geben, sonst gerinnt sie. Das Ei separat hart kochen und erst im Teller dazugeben, damit es nicht zerfällt. Beim Abschmecken reichen Salz, etwas Pfeffer und Dill, Zucker braucht diese Suppe fast nie. Sie hat weder die Kiszone-Note der [Ogórkowa](/de/rezepte/ogorkowa) noch die Kühle des [Chłodnik](/de/rezepte/chlodnik-litewski), und ihr Bete-Nachbar bleibt die [Botwinka](/de/rezepte/botwinka).",
+    techniquePl:
+      "Bazę ziemniaczaną ugotuj najpierw do miękkości, a szczaw dodaj późno i gotuj tylko krótko, bo długi ogień robi go oliwkowym i gorzkim. Śmietanę zawsze zahartuj, nigdy nie wlewaj jej wprost do wrzącego garnka, bo się zważy. Jajko ugotuj osobno na twardo i dodaj dopiero na talerzu, żeby się nie rozpadło. Do smaku wystarczy sól, odrobina pieprzu i koperek, cukier prawie nigdy nie jest tu potrzebny. Ta zupa nie ma ani kiszonej nuty [ogórkowej](/pl/rezepte/ogorkowa), ani chłodu [chłodnika](/pl/rezepte/chlodnik-litewski), a jej buraczana sąsiadka to [botwinka](/pl/rezepte/botwinka).",
+    serveDe:
+      "Serviere die Suppe heiß und grün, mit Ei und Dill, als typischen Frühlings- und Frühsommerteller, dazu passt frisches Brot. Wer lieber junge Bete mit Blättern mag, findet sein Gericht bei der [Botwinka](/de/rezepte/botwinka), wer Gurkensäure sucht, bei der [Ogórkowa](/de/rezepte/ogorkowa), und wer es kalt und oft rosa mag, beim [Chłodnik](/de/rezepte/chlodnik-litewski). Den Überblick über die ganze Landschaft gibt [polnische Suppen](/de/blog/polnische-suppen), zum Milchprodukt selbst mehr im [Śmietana-Guide](/de/blog/smietana-schmand).",
+    servePl:
+      "Podawaj zupę gorącą i zieloną, z jajkiem i koperkiem, jako typowy talerz na wiosnę i wczesne lato, z chlebem obok. Kto woli młode buraki z botwiną, znajdzie swoje danie w [botwince](/pl/rezepte/botwinka), kto szuka kwasu ogórkowego, w [ogórkowej](/pl/rezepte/ogorkowa), a kto lubi na zimno i często na różowo, w [chłodniku](/pl/rezepte/chlodnik-litewski). Przegląd całej rodziny daje artykuł o [polskich zupach](/pl/blog/polskie-zupy), a o samej śmietanie więcej mówi [przewodnik po śmietanie](/pl/blog/smietana-czy-schmand).",
+    diasporaDe:
+      "In Deutschland ist frischer Sauerampfer oft das Nadelöhr: Wer ihn findet, kocht sofort, wer nicht, wartet auf die nächste Saison oder greift ehrlich zur gefrorenen Variante. Am besten kochst du die Suppe für den gleichen Tag, damit die Farbe frisch bleibt. Kinder dürfen die Eier schälen, am heißen Topf und mit scharfen Messern übernehmen Erwachsene. Einkaufshilfen liefern die [Ersatzprodukte](/de/blog/ersatzprodukte-de) und der [Polenladen](/de/blog/polenladen-einkaufen), einen Überblick über die ganze Suppenfamilie gibt [polnische Suppen](/de/blog/polnische-suppen).",
+    diasporaPl:
+      "W Niemczech świeży szczaw bywa wąskim gardłem: kto go znajdzie, gotuje od razu, kto nie, czeka na sezon albo uczciwie sięga po mrożonkę. Najlepiej ugotować zupę tego samego dnia, żeby kolor został świeży. Dzieci mogą obierać jajka, przy gorącym garnku i ostrych nożach pomagają dorośli. Wskazówki zakupowe dają [zamienniki składników](/pl/blog/zamienniki-skladnikow) i [sklep polski](/pl/blog/sklep-polski-zakupy), a przegląd całej rodziny zup daje artykuł o [polskich zupach](/pl/blog/polskie-zupy).",
+    mistakesDe:
+      "Zupa szczawiowa wird gelegentlich mit der [Botwinka](/de/rezepte/botwinka), der [Ogórkowa](/de/rezepte/ogorkowa) oder dem kalten [Chłodnik](/de/rezepte/chlodnik-litewski) verwechselt, dabei hat jede dieser Suppen einen ganz eigenen Charakter. Wird der Sauerampfer zu lange gekocht, kippt die Farbe ins Olivgrüne und der Geschmack wird bitter. Kommt die Śmietana kochend in den Topf, gerinnt sie und die Suppe wirkt körnig statt cremig.",
+    mistakesPl:
+      "Zupę szczawiową łatwo pomylić z [botwinką](/pl/rezepte/botwinka), [ogórkową](/pl/rezepte/ogorkowa) czy zimnym [chłodnikiem](/pl/rezepte/chlodnik-litewski), a przecież każda z tych zup ma zupełnie inny charakter. Zbyt długo gotowany szczaw robi się oliwkowy i gorzki. Śmietana wlana do wrzątku się zważy i zupa wyjdzie grudkowata zamiast kremowa.",
+    variantsDe:
+      "Mit mehr Dill schmeckt die Suppe frischer, mit weniger Śmietana wird sie deutlich säuerlicher, und auf Gemüsebrühe gekocht wird sie vegetarisch. Passende Suppen-Nachbarn sind die [Botwinka](/de/rezepte/botwinka), die [Ogórkowa](/de/rezepte/ogorkowa) und der [Chłodnik](/de/rezepte/chlodnik-litewski), einen Überblick gibt [polnische Suppen](/de/blog/polnische-suppen). Zur Śmietana selbst mehr im [Śmietana-Guide](/de/blog/smietana-schmand), Einkaufstipps liefern die [Ersatzprodukte](/de/blog/ersatzprodukte-de).",
+    variantsPl:
+      "Z większą ilością koperku zupa smakuje świeżej, z mniejszą ilością śmietany robi się wyraźnie bardziej kwaskowa, a ugotowana na warzywnym bulionie staje się wegetariańska. Pasującymi sąsiadami są [botwinka](/pl/rezepte/botwinka), [ogórkowa](/pl/rezepte/ogorkowa) i [chłodnik](/pl/rezepte/chlodnik-litewski), ich przegląd daje artykuł o [polskich zupach](/pl/blog/polskie-zupy). O samej śmietanie więcej w [przewodniku po śmietanie](/pl/blog/smietana-czy-schmand), a wskazówki zakupowe dają [zamienniki składników](/pl/blog/zamienniki-skladnikow).",
+  },
 };

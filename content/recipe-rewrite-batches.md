@@ -32,7 +32,7 @@ sind untereinander unabhängig und dürfen parallel laufen.
 | W9 | zeberka, rolada-slaska, salatka-jarzynowa, botwinka, babka, kaszanka | seed-recipes-wave9-{a,b,c,d}.ts | recipe-articles-w9-{a,b,c,d}.ts | ⏳ Agent 4ecd67df |
 | W10 | flaki, schab-pieczony, piernik, zupa-pomidorowa, nalesniki-dzem, pierogi-jagody, makaron-z-serem | seed-recipes-wave10-{a,b,c,d}.ts | recipe-articles-w10-{a,b,c,d}.ts | ⏳ Agent a6e9ab66 |
 | W11 | golonka, kompot-z-suszu, ryba-po-grecku | seed-recipes-wave11-d.ts | recipe-articles-w11-d.ts | ⏳ Agent 8f39b140 |
-| W12 | zupa-grzybowa, grochowka, makaron-z-makiem, szarlotka, mazurek, buraczki, klopsy, kluski-kladzione | seed-recipes-wave12-{a,b,c,d}.ts | recipe-articles-w12-{a,b,c,d}.ts | ⏳ Agent 436497c9 |
+| W12 | zupa-grzybowa, grochowka, makaron-z-makiem, szarlotka, mazurek, buraczki, klopsy, kluski-kladzione | seed-recipes-wave12-{a,b,c,d}.ts | recipe-articles-w12-{a,b,c,d}.ts | ✅ fertig (Agent 436497c9) |
 | W13 | krupnik, szczawiowa, kutia, napoleonka, chalka, pasztet, biala-kielbasa | seed-recipes-wave13-{a,b,c,d}.ts | recipe-articles-w13-{a,b,c,d}.ts | ⏳ Agent c5f13a4c |
 | W14-Rest | wuzetka, drozdzowka, jajka-faszerowane, cwikla, placek-po-wegiersku, leczo | seed-recipes-wave14-{a,b,c,d}.ts | recipe-articles-w14-{a,b,c,d}.ts | ⏳ Agent f78b8ad6 |
 | W15 | kaczka, pieczen-rzymska, galareta, salatka-sledziowa, marchewka-groszek, fasolka-szparagowa, koperkowa, kisiel | seed-recipes-wave15-{a,b,c,d}.ts | recipe-articles-w15-{a,b,c,d}.ts | ⏳ Agent 80ffeef7 |
@@ -47,6 +47,28 @@ sind untereinander unabhängig und dürfen parallel laufen.
 Mega-A bis Mega-E teilen sich alle `recipe-articles.ts` — diese Batches nacheinander abarbeiten,
 nicht parallel zueinander (auch wenn sie parallel zu den W8–W16-Batches laufen dürfen, da die
 Seed-Dateien unabhängig sind).
+
+## Wichtig: Retrofit-Override-Falle (entdeckt 2026-08-20, gefixt)
+
+Mehrere spätere Wellen patchen frühere FACTS-Einträge über eigene `*-retrofit.ts`-Dateien, die in
+`recipe-articles.ts` per `Object.assign(FACTS, ..., W{n}_FACTS_..._RETROFIT, ...)` **später**
+angewendet werden und damit ältere Inhalte überschreiben, auch wenn die Basis-Datei längst
+korrigiert wurde. Konkret gefunden:
+
+- `recipe-articles-w8-d-retrofit.ts` (`W8_FACTS_D_RETROFIT`) ist die **aktuell gewinnende** Quelle
+  für: `pierogi-leniwe`, `kopytka`, `lazanki`, `pyzy`, `zrazy`, `makowiec`, `uszka`, `karp`,
+  `krokiety`, `sernik`, `sledz` (nicht die Basis-FACTS in `recipe-articles.ts`!).
+- `recipe-articles-w10-d-retrofit.ts` (`W10_FACTS_W9_RETROFIT`) überschreibt danach nochmal
+  `pierogi-leniwe` und `lazanki` — das ist also die **wirklich** gewinnende Quelle für diese zwei.
+- `recipe-articles-w9-d-retrofit.ts` (`W9_FACTS_W8_RETROFIT`) hatte einen veralteten
+  `kapusta-zasmażana`-Eintrag, der den frischen Wave-8-Fix überschrieben hat → **gefixt** (Inhalt
+  synchronisiert, Gedankenstriche entfernt).
+
+**Konsequenz für Mega-A/Mega-B**: Wenn `pierogi-leniwe`, `kopytka`, `lazanki`, `pyzy`, `zrazy`,
+`makowiec`, `uszka`, `karp`, `krokiety`, `sernik`, `sledz` überarbeitet werden, muss die
+**gewinnende Retrofit-Datei** editiert werden (nicht nur die Basis-FACTS in `recipe-articles.ts`),
+sonst wird die Korrektur zur Laufzeit unsichtbar überschrieben. Immer mit
+`getRecipeArticle(id, locale)` nach dem Edit verifizieren, nicht nur den Quelltext lesen.
 
 **Gesamt: 105 Rezepte (inkl. Wave 17, nachträglich entdeckt) · 1 fertig (zapiekanka) · Rest in den Batches oben.**
 

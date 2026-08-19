@@ -35,55 +35,55 @@ export const seedRecipesWave14B: Recipe[] = [
         title: "Jajka faszerowane",
         slug: "jajka-faszerowane",
         excerpt:
-          "Gefüllte Eier mit Eigelb-Mayo-Schnittlauch — Ostern-Buffet-Klassiker. Klar ≠ Sałatka jarzynowa und ≠ Mizeria.",
+          "Gefüllte Eier mit einer cremigen Eigelb-Mayo-Schnittlauch-Füllung, ein Klassiker auf dem Ostern-Buffet, klar zu unterscheiden von Sałatka jarzynowa und von Mizeria.",
         steps: [
           {
             text: "Eier in reichlich Wasser hart kochen (ca. 9–11 Minuten ab Siedebeginn), abschrecken, schälen. Der Länge nach halbieren; Eigelb vorsichtig herauslösen und in eine Schüssel geben. Eiweiße auf einer Platte bereitlegen.",
-            tip: "Das ist die gefüllte-Eier-Linie — kein Mayo-Gemüsesalat wie [Sałatka jarzynowa](/de/rezepte/salatka-jarzynowa) und kein Gurkensalat wie [Mizeria](/de/rezepte/mizeria).",
+            tip: "Hier geht es um gefüllte Eihälften, nicht um einen Mayo-Gemüsesalat wie [Sałatka jarzynowa](/de/rezepte/salatka-jarzynowa) und auch nicht um einen Gurkensalat wie [Mizeria](/de/rezepte/mizeria).",
           },
           {
-            text: "Eigelb mit Mayo, fein geschnittenem Schnittlauch, Prise Salz und Pfeffer zu einer cremigen, streichfähigen Masse verrühren. Optional ein Tropfen Senf — nicht dominant. Masse darf glänzen, nicht tropfen.",
-            tip: "Gute Mayo und frischer Schnittlauch oft im [Polenladen](/de/blog/polenladen-einkaufen) oder Supermarkt; Ersatzlogik: [Ersatzprodukte DE](/de/blog/ersatzprodukte-de).",
+            text: "Eigelb mit Mayo, fein geschnittenem Schnittlauch, einer Prise Salz und Pfeffer zu einer cremigen, streichfähigen Masse verrühren. Optional ein Tropfen Senf, der aber nicht dominieren sollte. Die Masse darf glänzen, sollte aber nicht tropfen.",
+            tip: "Gute Mayonnaise und frischen Schnittlauch findest du oft im [Polenladen](/de/blog/polenladen-einkaufen) oder im Supermarkt, Alternativen listet [Ersatzprodukte DE](/de/blog/ersatzprodukte-de).",
           },
           {
             text: "Füllung mit Löffel oder Sterntülle in die Eiweiß-Hälften füllen. Mit etwas Schnittlauch oder Paprika bestreuen. Mindestens 30 Minuten kühlen, damit die Masse setzt.",
-            tip: "Menü-Kontext Ostern [Wielkanoc Speiseplan](/de/blog/wielkanoc-speiseplan) — Speiseplan bleibt der Menü-Rahmen; hier nur das Rezept.",
+            tip: "Den Menürahmen für Ostern liefert der [Wielkanoc-Speiseplan](/de/blog/wielkanoc-speiseplan), hier geht es nur um das Rezept selbst.",
           },
           {
-            text: "Kalt als Buffet- oder Vorspeisenplatte servieren. Neben [Biała kiełbasa](/de/rezepte/biala-kielbasa) und [Pasztet](/de/rezepte/pasztet) oft auf der kalten Platte — Fokus bleibt gefüllte Eier. Reste abgedeckt im Kühlschrank; Mayo-Hygiene beachten.",
-            tip: "Sonntagsteller-Feeling: [polnisches Sonntagsessen](/de/blog/sonntagsessen-polnisch) — ohne Hitze, Feuchtigkeit oder Garzeit falsch einschätzen.",
+            text: "Kalt als Buffet- oder Vorspeisenplatte servieren. Auf der kalten Platte stehen sie oft neben [Biała kiełbasa](/de/rezepte/biala-kielbasa) und [Pasztet](/de/rezepte/pasztet), im Mittelpunkt bleiben aber die gefüllten Eier. Reste abgedeckt im Kühlschrank aufbewahren und wegen der Mayonnaise nicht zu lange draußen stehen lassen.",
+            tip: "Das Sonntagsteller-Gefühl passt gut zum [polnischen Sonntagsessen](/de/blog/sonntagsessen-polnisch), am besten schmecken die Eier aber noch am selben Tag, solange die Füllung frisch und cremig ist.",
           },
         ],
         seoTitle: "Jajka faszerowane Rezept | Gefüllte Eier polnisch | Alemniam",
         seoDescription:
-          "Jajka faszerowane — Eigelb-Mayo-Schnittlauch, Ostern-Buffet. Bilingual, klar getrennt von Sałatka und Mizeria.",
+          "Jajka faszerowane mit Eigelb-Mayo-Schnittlauch-Füllung fürs Ostern-Buffet. Bilingual, klar getrennt von Sałatka und Mizeria.",
       },
       pl: {
         title: "Jajka faszerowane",
         slug: "jajka-faszerowane",
         excerpt:
-          "Jajka faszerowane z żółtkiem, majonezem i szczypiorkiem — klasyk wielkanocnego bufetu. Jasno ≠ sałatka jarzynowa i ≠ mizeria.",
+          "Jajka faszerowane z kremową masą z żółtka, majonezu i szczypiorku, klasyk wielkanocnego bufetu, wyraźnie inny niż sałatka jarzynowa i mizeria.",
         steps: [
           {
             text: "Jajka ugotuj na twardo (ok. 9–11 minut od wrzenia), ostudź, obierz. Przekrój wzdłuż; żółtka ostrożnie wyjmij do miski. Białka ułóż na półmisku.",
-            tip: "To linia faszerowanych jaj — nie majonezowa sałatka jak [sałatka jarzynowa](/pl/rezepte/salatka-jarzynowa) i nie ogórkowa jak [mizeria](/pl/rezepte/mizeria).",
+            tip: "To faszerowane połówki jajek, a nie majonezowa sałatka jak [sałatka jarzynowa](/pl/rezepte/salatka-jarzynowa) ani ogórkowa jak [mizeria](/pl/rezepte/mizeria).",
           },
           {
-            text: "Rozetrzyj żółtka z majonezem, drobno pokrojonym szczypiorkiem, szczyptą soli i pieprzu do kremowej, smarownej masy. Opcjonalnie odrobina musztardy — bez dominacji. Masa ma błyszczeć, nie cieknąć.",
-            tip: "Dobry majonez i świeży szczypiorek często w [sklepie polskim](/pl/blog/sklep-polski-zakupy) lub markecie; zamienniki: [zamienniki składników](/pl/blog/zamienniki-skladnikow).",
+            text: "Rozetrzyj żółtka z majonezem, drobno pokrojonym szczypiorkiem, szczyptą soli i pieprzu na kremową, smarowną masę. Opcjonalnie dodaj odrobinę musztardy, która nie powinna dominować. Masa ma błyszczeć, ale nie ciec.",
+            tip: "Dobry majonez i świeży szczypiorek często kupisz w [sklepie polskim](/pl/blog/sklep-polski-zakupy) lub markecie, zamienniki opisuje wpis o [zamiennikach składników](/pl/blog/zamienniki-skladnikow).",
           },
           {
             text: "Wypełnij białka łyżeczką lub rękawem cukierniczym. Posyp szczypiorkiem lub papryką. Chłodź co najmniej 30 minut, aż masa się ułoży.",
-            tip: "Kontekst świąt [menu wielkanocne](/pl/blog/menu-wielkanocne) — plan menu zostaje ramą stołu; tu tylko przepis.",
+            tip: "Ramę świątecznego stołu daje [menu wielkanocne](/pl/blog/menu-wielkanocne), tu chodzi wyłącznie o sam przepis.",
           },
           {
-            text: "Podawaj na zimno jako półmisek bufetowy lub przystawkę. Obok [białej kiełbasy](/pl/rezepte/biala-kielbasa) i [pasztetu](/pl/rezepte/pasztet) często na zimnej półce — tu zostaje przy jajkach. Resztki przykryte w lodówce; higiena majonezu.",
-            tip: "Niedzielne wyczucie: [obiad niedzielny](/pl/blog/obiad-niedzielny) — osobny farsz i osobne ilości.",
+            text: "Podawaj na zimno jako półmisek bufetowy lub przystawkę. Na zimnej półce stoją często obok [białej kiełbasy](/pl/rezepte/biala-kielbasa) i [pasztetu](/pl/rezepte/pasztet), ale w centrum zostają faszerowane jajka. Resztki trzymaj przykryte w lodówce i nie zostawiaj ich zbyt długo na cieplejszym stole ze względu na majonez.",
+            tip: "Nastrój niedzielnego stołu pasuje do [obiadu niedzielnego](/pl/blog/obiad-niedzielny), najlepiej smakują jednak jeszcze tego samego dnia, gdy farsz jest świeży i kremowy.",
           },
         ],
         seoTitle: "Jajka faszerowane przepis | Żółtko majonez szczypiorek | Alemniam",
         seoDescription:
-          "Jajka faszerowane — żółtko, majonez, szczypiorek. Na Wielkanoc, dwujęzycznie, jasno osobno od sałatki i mizerii.",
+          "Jajka faszerowane z żółtkiem, majonezem i szczypiorkiem na Wielkanoc. Dwujęzycznie, jasno osobno od sałatki i mizerii.",
       },
     },
     ingredients: [
@@ -100,10 +100,10 @@ export const seedRecipesWave14B: Recipe[] = [
         amount: 4,
         unit: { de: "EL", pl: "łyżki" },
         group: "pantry",
-        storeHintDe: "Supermarkt oder Polenladen — gute Qualität",
+        storeHintDe: "Im Supermarkt oder Polenladen auf gute Qualität achten",
         substitute: {
-          de: "Teilweise griechischer Joghurt — ehrlich als leichtere Variante benennen",
-          pl: "Częściowo jogurt grecki — uczciwie jako lżejszy wariant",
+          de: "Teilweise griechischer Joghurt ergibt eine leichtere Variante, die im Rezept ehrlich benannt werden sollte",
+          pl: "Częściowo jogurt grecki daje lżejszy wariant, warto to uczciwie napisać",
         },
       },
       {
@@ -174,53 +174,55 @@ export const seedRecipesWave14B: Recipe[] = [
         title: "Ćwikła",
         slug: "cwikla",
         excerpt:
-          "Kalte Ćwikła: geriebene Rote Bete mit Meerrettich — scharfer Ostern-Relish. Klar ≠ warme Buraczki, ≠ Barszcz, ≠ Botwinka.",
+          "Kalte Ćwikła aus geriebener Roter Bete und Meerrettich, ein scharfer Relish zu Ostern, klar zu unterscheiden von den warmen Buraczki, von Barszcz und von Botwinka.",
         steps: [
           {
-            text: "Rote Bete waschen, in Salzwasser weich kochen (oder vakuumierte gekochte nehmen). Abkühlen, schälen, grob bis mittel fein reiben — keine Würfel, kein Püree.",
-            tip: "Das ist kalter Relish — keine warme Beilage wie [Buraczki](/de/rezepte/buraczki), keine Suppe wie [Barszcz](/de/rezepte/barszcz-czerwony) oder [Botwinka](/de/rezepte/botwinka).",
+            text: "Rote Bete waschen und in Salzwasser weich kochen, oder fertig gekochte, vakuumierte Rote Bete verwenden. Abkühlen lassen, schälen und grob bis mittelfein reiben, keine Würfel und kein Püree.",
+            tip: "Das ist ein kalter Relish, keine warme Beilage wie [Buraczki](/de/rezepte/buraczki) und keine Suppe wie [Barszcz](/de/rezepte/barszcz-czerwony) oder [Botwinka](/de/rezepte/botwinka).",
           },
           {
-            text: "Geriebene Bete mit geriebenem Meerrettich (frisch oder Glas), etwas Essig oder Zitronensaft, Prise Zucker und Salz vermengen. Abschmecken: scharf-süß-säuerlich, nicht wässrig. Bei Bedarf mehr Meerrettich nachziehen.",
-            tip: "Meerrettich und gute Bete oft im [Polenladen](/de/blog/polenladen-einkaufen); DE-Ersatz: [Ersatzprodukte DE](/de/blog/ersatzprodukte-de) — Funktion vor Label.",
+            text: "Geriebene Bete mit geriebenem Meerrettich (frisch oder aus dem Glas), etwas Essig oder Zitronensaft, einer Prise Zucker und Salz vermengen. Das Ergebnis sollte scharf, süß und säuerlich schmecken, aber nicht wässrig sein. Bei Bedarf noch etwas Meerrettich nachziehen.",
+            tip: "Meerrettich und gute Rote Bete findest du oft im [Polenladen](/de/blog/polenladen-einkaufen), Alternativen dazu listet [Ersatzprodukte DE](/de/blog/ersatzprodukte-de).",
           },
           {
             text: "Mindestens 1–2 Stunden (besser über Nacht) kalt ziehen lassen, damit sich Schärfe und Farbe verbinden. Vor dem Servieren umrühren und nachwürzen.",
-            tip: "Menüplatz: Ostern [Wielkanoc Speiseplan](/de/blog/wielkanoc-speiseplan) — Speiseplan bleibt Menü-Artikel.",
+            tip: "Den Menürahmen für Ostern liefert der [Wielkanoc-Speiseplan](/de/blog/wielkanoc-speiseplan).",
           },
           {
-            text: "Kalt in Schüssel oder Glas servieren zu Wurst, [Pasztet](/de/rezepte/pasztet), Ei und Brot. Neben [Biała kiełbasa](/de/rezepte/biala-kielbasa) klassisch. Hält einige Tage gekühlt; Farbe färbt — Handschuhe optional.",
+            text: "Kalt in Schüssel oder Glas servieren, zu Wurst, [Pasztet](/de/rezepte/pasztet), Ei und Brot. Klassisch steht sie neben [Biała kiełbasa](/de/rezepte/biala-kielbasa). Hält einige Tage gekühlt, die Rote Bete färbt kräftig, Handschuhe beim Anrichten sind daher praktisch.",
+            tip: "Wer Flecken vermeiden möchte, arbeitet am besten mit Einweghandschuhen, denn Rote-Bete-Saft lässt sich aus hellen Textilien kaum wieder herausbekommen.",
           },
         ],
         seoTitle: "Ćwikła Rezept | Rote Bete Meerrettich | Alemniam",
         seoDescription:
-          "Ćwikła — geriebene Rote Bete mit Meerrettich, kalt. Bilingual, klar getrennt von Buraczki, Barszcz und Botwinka.",
+          "Ćwikła aus geriebener Roter Bete mit Meerrettich, kalt serviert. Bilingual, klar getrennt von Buraczki, Barszcz und Botwinka.",
       },
       pl: {
         title: "Ćwikła",
         slug: "cwikla",
         excerpt:
-          "Zimna ćwikła: tarty burak z chrzanem — ostry wielkanocny dodatek. Jasno ≠ ciepłe buraczki, ≠ barszcz, ≠ botwinka.",
+          "Zimna ćwikła z tartego buraka i chrzanu, ostry dodatek wielkanocny, wyraźnie inny niż ciepłe buraczki, barszcz i botwinka.",
         steps: [
           {
-            text: "Ugotuj buraki w osolonej wodzie do miękkości (lub użyj gotowych gotowanych). Ostudź, obierz, zetrzyj na tarce o grubych/średnich oczkach — bez kostek i puree.",
-            tip: "To zimny dodatek/relish — nie ciepły jak [buraczki](/pl/rezepte/buraczki), nie zupa jak [barszcz](/pl/rezepte/barszcz-czerwony) czy [botwinka](/pl/rezepte/botwinka).",
+            text: "Ugotuj buraki w osolonej wodzie do miękkości, albo użyj gotowych, ugotowanych buraków. Ostudź, obierz i zetrzyj na tarce o grubych lub średnich oczkach, bez kostek i bez puree.",
+            tip: "To zimny dodatek, a nie ciepła surówka jak [buraczki](/pl/rezepte/buraczki) ani zupa jak [barszcz](/pl/rezepte/barszcz-czerwony) czy [botwinka](/pl/rezepte/botwinka).",
           },
           {
-            text: "Wymieszaj tarty burak z startym chrzanem (świeżym lub ze słoika), odrobiną octu lub soku z cytryny, szczyptą cukru i soli. Dopraw: ostro-słodko-kwaśno, bez wodnistości. W razie potrzeby więcej chrzanu.",
-            tip: "Chrzan i dobre buraki często w [sklepie polskim](/pl/blog/sklep-polski-zakupy); zamienniki: [zamienniki składników](/pl/blog/zamienniki-skladnikow).",
+            text: "Wymieszaj tarty burak ze startym chrzanem (świeżym lub ze słoika), odrobiną octu lub soku z cytryny, szczyptą cukru i soli. Smak powinien być ostry, słodki i kwaśny, ale nie wodnisty. W razie potrzeby dodaj więcej chrzanu.",
+            tip: "Chrzan i dobre buraki często kupisz w [sklepie polskim](/pl/blog/sklep-polski-zakupy), zamienniki opisuje wpis o [zamiennikach składników](/pl/blog/zamienniki-skladnikow).",
           },
           {
             text: "Odstaw na zimno na 1–2 godziny (lepiej na noc), żeby ostrość i kolor się połączyły. Przed podaniem wymieszaj i dopraw.",
-            tip: "Miejsce w menu: [menu wielkanocne](/pl/blog/menu-wielkanocne) — plan zostaje artykułem o okazji.",
+            tip: "Ramę świątecznego menu daje [menu wielkanocne](/pl/blog/menu-wielkanocne).",
           },
           {
-            text: "Podawaj na zimno w misce lub słoiku do kiełbasy, [pasztetu](/pl/rezepte/pasztet), jaj i chleba. Klasycznie obok [białej kiełbasy](/pl/rezepte/biala-kielbasa). Trzyma kilka dni w lodówce; barwi — rękawiczki opcjonalnie.",
+            text: "Podawaj na zimno w misce lub słoiku, do kiełbasy, [pasztetu](/pl/rezepte/pasztet), jaj i chleba. Klasycznie stoi obok [białej kiełbasy](/pl/rezepte/biala-kielbasa). Trzyma kilka dni w lodówce, mocno barwi, więc rękawiczki przy przygotowaniu bywają przydatne.",
+            tip: "Jeśli zależy ci na czystych dłoniach i obrusie, pracuj w rękawiczkach jednorazowych, bo sok z buraków trudno usunąć z jasnych tkanin.",
           },
         ],
         seoTitle: "Ćwikła przepis | Burak chrzan | Alemniam",
         seoDescription:
-          "Ćwikła — tarty burak z chrzanem, na zimno. Dwujęzycznie, jasno osobno od buraczków, barszczu i botwinki.",
+          "Ćwikła z tartego buraka z chrzanem, podawana na zimno. Dwujęzycznie, jasno osobno od buraczków, barszczu i botwinki.",
       },
     },
     ingredients: [
@@ -233,7 +235,7 @@ export const seedRecipesWave14B: Recipe[] = [
         amount: 600,
         unit: { de: "g", pl: "g" },
         group: "produce",
-        storeHintDe: "Supermarkt — vakuumiert spart Zeit",
+        storeHintDe: "Im Supermarkt erhältlich, vakuumiert gekocht spart Zeit",
       },
       {
         id: "cwk-2",
@@ -244,10 +246,10 @@ export const seedRecipesWave14B: Recipe[] = [
         amount: 3,
         unit: { de: "EL", pl: "łyżki" },
         group: "polish",
-        storeHintDe: "Polenladen — frisch gerieben bevorzugt",
+        storeHintDe: "Im Polenladen bekommst du ihn oft frisch gerieben",
         substitute: {
-          de: "Fertiger Meerrettich aus dem Glas — Schärfe nach Geschmack",
-          pl: "Gotowy chrzan ze słoika — ostrość według smaku",
+          de: "Fertiger Meerrettich aus dem Glas funktioniert auch, die Schärfe dann nach Geschmack anpassen",
+          pl: "Gotowy chrzan ze słoika też się sprawdzi, ostrość dopasuj według smaku",
         },
       },
       {

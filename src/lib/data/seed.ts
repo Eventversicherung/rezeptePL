@@ -34,6 +34,8 @@ import { seedRecipesWave15 } from "./seed-recipes-wave15";
 import { seedRecipesWave16 } from "./seed-recipes-wave16";
 /** Wave 17 — Kiszonki & Marynaty (10 eingelegte Rezepte) */
 import { seedRecipesWave17 } from "./seed-recipes-wave17";
+/** Wave 17 — Ogórki małosolne family variants */
+import { seedRecipesWave17Malosolne } from "./seed-recipes-wave17-malosolne";
 
 export const seedClusters = expandedClusters;
 export { seedFamilies, seedBlogPosts };
@@ -2044,6 +2046,7 @@ export const seedRecipes: Recipe[] = [
   ...seedRecipesWave15,
   ...seedRecipesWave16,
   ...seedRecipesWave17,
+  ...seedRecipesWave17Malosolne,
 ].map((recipe) => {
   if (recipe.id === "recipe-nalesniki") {
     return {

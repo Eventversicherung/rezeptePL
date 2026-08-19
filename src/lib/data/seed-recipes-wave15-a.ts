@@ -33,55 +33,55 @@ export const seedRecipesWave15A: Recipe[] = [
         title: "Kaczka pieczona",
         slug: "kaczka",
         excerpt:
-          "Polnische Ofenente mit Apfel und Majeranek — Festbraten vom ganzen Vogel, klar ≠ Schab pieczony, ≠ Golonka, ≠ Żeberka.",
+          "Polnische Ofenente mit Apfel und Majoran, ein festlicher Braten vom ganzen Vogel mit knuspriger Haut und saftigem Fleisch.",
         steps: [
           {
-            text: "Ente (ca. 2–2,5 kg) innen und außen trocken tupfen, überschüssiges Fett an der Öffnung entfernen. Mit Salz, Pfeffer und Majeranek einreiben — auch in der Bauchhöhle. Apfelviertel und optional Zwiebelstücke locker einfüllen; Öffnung mit Zahnstocher oder Küchengarn schließen.",
-            tip: "Das ist ganze/halbe Ente aus dem Ofen — kein [Schab pieczony](/de/rezepte/schab-pieczony) und keine [Golonka](/de/rezepte/golonka). Gewürz-Feeling: [Majeranek](/de/blog/majeranek).",
+            text: "Ente (ca. 2 bis 2,5 kg) innen und außen trocken tupfen und überschüssiges Fett an der Öffnung entfernen. Mit Salz, Pfeffer und Majoran einreiben, auch in der Bauchhöhle. Apfelviertel und optional etwas Zwiebel locker einfüllen und die Öffnung mit einem Zahnstocher oder Küchengarn schließen.",
+            tip: "Das ist die ganze oder halbe Ente aus dem Ofen, also ein anderes Gericht als der [Schab pieczony](/de/rezepte/schab-pieczony) oder die [Golonka](/de/rezepte/golonka). Mehr zum Gewürz erklärt der [Majeranek](/de/blog/majeranek)-Beitrag.",
           },
           {
-            text: "Ofen auf 180 °C Ober-/Unterhitze vorheizen. Ente Brustseite nach oben in eine feste Form legen; etwas Wasser oder leichte Brühe auf den Boden. Erste 20 Minuten bei 200 °C anbräunen, dann auf 180 °C senken.",
-            tip: "Rippen bleiben bei [Żeberka pieczone](/de/rezepte/zeberka). Menü-Rahmen: [polnisches Sonntagsessen](/de/blog/sonntagsessen-polnisch).",
+            text: "Den Ofen auf 180 °C Ober- und Unterhitze vorheizen. Die Ente mit der Brustseite nach oben in eine feste Form legen und etwas Wasser oder leichte Brühe auf den Boden geben. Die ersten 20 Minuten bei 200 °C anbräunen, dann die Temperatur auf 180 °C senken.",
+            tip: "Die Flüssigkeit im Boden der Form verhindert, dass austretendes Fett verbrennt und bitter wird. Rippenfleisch gehört dagegen zu den [Żeberka pieczone](/de/rezepte/zeberka), die im [Sonntagsessen](/de/blog/sonntagsessen-polnisch) einen eigenen Platz haben.",
           },
           {
-            text: "Ca. 90–120 Minuten backen (je nach Gewicht: ca. 45–50 Min pro kg), alle 20–25 Minuten mit Bratensaft begießen. Haut soll knusprig, Fleisch saftig bleiben. Optional letzte 10 Minuten Grillstufe — nicht verbrennen.",
-            tip: "Einkauf Ente/Majoran oft im [Polenladen](/de/blog/polenladen-einkaufen). Kein Schweinekamm — Fokus bleibt Kaczka.",
+            text: "Etwa 90 bis 120 Minuten backen, je nach Gewicht etwa 45 bis 50 Minuten pro Kilogramm, und alle 20 bis 25 Minuten mit dem eigenen Bratensaft begießen. Die Haut soll dabei knusprig werden, während das Fleisch saftig bleibt. Für zusätzliche Bräune können die letzten 10 Minuten unter dem Grill helfen, dabei aber die Haut genau beobachten, damit sie nicht verbrennt.",
+            tip: "Regelmäßiges Begießen ersetzt zusätzliches Fett und sorgt für eine gleichmäßig glänzende Haut. Ente und aromatischen Majoran findest du oft frischer im [Polenladen](/de/blog/polenladen-einkaufen).",
           },
           {
-            text: "10–15 Minuten ruhen lassen, dann tranchieren. Mit Kartoffeln, Rotkohl oder Beilage servieren. Bratensaft abschmecken; Fett abschöpfen. Reste kalt oder aufgewärmt — Haut separat knusprig halten.",
-            tip: "Festbraten-Nachbar: [Schab](/de/rezepte/schab-pieczony) / [Golonka](/de/rezepte/golonka) — andere Stücke, andere Rezepte.",
+            text: "Die Ente 10 bis 15 Minuten ruhen lassen, bevor du sie tranchierst, damit sich der Fleischsaft verteilen kann. Mit Kartoffeln, Rotkohl oder einer anderen Beilage servieren, dabei den Bratensaft abschmecken und überschüssiges Fett abschöpfen. Reste schmecken kalt oder aufgewärmt, die Haut hältst du am besten getrennt vom Fleisch, damit sie wieder knusprig wird.",
+            tip: "Auf dem Festtagstisch stehen oft auch der [Schab pieczony](/de/rezepte/schab-pieczony) oder die [Golonka](/de/rezepte/golonka), beide stammen aber von einem anderen Tier und brauchen eine eigene Technik.",
           },
         ],
         seoTitle: "Kaczka pieczona Rezept | Ente polnisch Ofen | Alemniam",
         seoDescription:
-          "Kaczka pieczona: Ofenente mit Apfel und Majeranek. Bilingual, klar ≠ Schab, Golonka und Żeberka.",
+          "Kaczka pieczona: Ofenente mit Apfel und Majeranek, anders als Schab pieczony, Golonka oder Żeberka.",
       },
       pl: {
         title: "Kaczka pieczona",
         slug: "kaczka",
         excerpt:
-          "Polska kaczka z pieca z jabłkiem i majerankiem — pieczeń z całego ptaka, jasno ≠ schab pieczony, ≠ golonka, ≠ żeberka.",
+          "Polska kaczka z pieca z jabłkiem i majerankiem, świąteczna pieczeń z całego ptaka, z chrupiącą skórką i soczystym mięsem w środku.",
         steps: [
           {
-            text: "Kaczkę (ok. 2–2,5 kg) osusz wewnątrz i na zewnątrz, nadmiar tłuszczu przy otworze usuń. Natrzyj solą, pieprzem i majerankiem — także w brzuchu. Włóż ćwiartki jabłka i opcjonalnie cebulę; otwór zamknij wykałaczką lub sznurkiem.",
-            tip: "To cała/pół kaczki z pieca — nie [schab pieczony](/pl/rezepte/schab-pieczony) i nie [golonka](/pl/rezepte/golonka). Przyprawa: [majeranek](/pl/blog/majeranek-leksykon).",
+            text: "Kaczkę (ok. 2 do 2,5 kg) osusz wewnątrz i na zewnątrz, a nadmiar tłuszczu przy otworze usuń. Natrzyj solą, pieprzem i majerankiem, także w brzuchu. Włóż swobodnie ćwiartki jabłka i opcjonalnie kawałki cebuli, a otwór zamknij wykałaczką lub sznurkiem.",
+            tip: "To cała lub pół kaczki z pieca, więc inne danie niż [schab pieczony](/pl/rezepte/schab-pieczony) czy [golonka](/pl/rezepte/golonka). Więcej o przyprawie w [leksykonie majeranku](/pl/blog/majeranek-leksykon).",
           },
           {
-            text: "Nagrzej piekarnik do 180 °C. Ułóż kaczkę piersią do góry w solidnym naczyniu; odrobinę wody lub lekkiego bulionu na dno. Pierwsze 20 min przy 200 °C, potem zejdź do 180 °C.",
-            tip: "Żebra zostają przy [żeberkach pieczonych](/pl/rezepte/zeberka). Ramy menu opisowo: [obiad niedzielny](/pl/blog/obiad-niedzielny).",
+            text: "Nagrzej piekarnik do 180 °C, góra i dół. Ułóż kaczkę piersią do góry w solidnym naczyniu i wlej na dno odrobinę wody lub lekkiego bulionu. Pierwsze 20 minut piecz przy 200 °C, potem zejdź do 180 °C.",
+            tip: "Płyn na dnie naczynia chroni wytapiający się tłuszcz przed spaleniem i goryczą. Żebra zostają natomiast przy [żeberkach pieczonych](/pl/rezepte/zeberka), które mają swoje miejsce w [obiedzie niedzielnym](/pl/blog/obiad-niedzielny).",
           },
           {
-            text: "Piecz ok. 90–120 min (ok. 45–50 min na kg), co 20–25 min polewaj sokiem. Skóra ma być chrupiąca, mięso soczyste. Opcjonalnie ostatnie 10 min grill — bez przypalenia.",
-            tip: "Zakupy kaczka/majeranek często w [sklepie polskim](/pl/blog/sklep-polski-zakupy). Bez schabu — tu zostaje kaczka.",
+            text: "Piecz około 90 do 120 minut, w zależności od wagi około 45 do 50 minut na kilogram, i co 20 do 25 minut polewaj własnym sokiem. Skóra ma zrobić się chrupiąca, a mięso zostać soczyste. Ostatnie 10 minut możesz dopiec pod grillem, ale pilnuj skóry, żeby się nie spaliła.",
+            tip: "Regularne polewanie zastępuje dodatkowy tłuszcz i daje równomiernie błyszczącą skórę. Kaczkę i aromatyczny majeranek świeższe znajdziesz często w [sklepie polskim](/pl/blog/sklep-polski-zakupy).",
           },
           {
-            text: "Odstaw 10–15 min, potem porcjuj. Podawaj z ziemniakami, czerwoną kapustą lub dodatkiem. Sos dopraw; tłuszcz zbierz. Resztki zimne lub odgrzane — skórę trzymaj osobno chrupką.",
-            tip: "Sąsiedzi pieczenia opisowo: [schab](/pl/rezepte/schab-pieczony) / [golonka](/pl/rezepte/golonka) — inne kawałki, inne URL.",
+            text: "Odstaw kaczkę na 10 do 15 minut, zanim ją porcjujesz, żeby sok mięsny się rozłożył. Podawaj z ziemniakami, czerwoną kapustą lub innym dodatkiem, doprawiając przy tym sos i zbierając nadmiar tłuszczu. Resztki smakują na zimno lub odgrzane, a skórę warto trzymać osobno od mięsa, żeby po podgrzaniu znowu była chrupiąca.",
+            tip: "Na świątecznym stole często stoją też [schab pieczony](/pl/rezepte/schab-pieczony) lub [golonka](/pl/rezepte/golonka), ale to inne zwierzę i inna technika.",
           },
         ],
         seoTitle: "Kaczka pieczona przepis | Kaczka z piekarnika | Alemniam",
         seoDescription:
-          "Kaczka pieczona z jabłkiem i majerankiem. Dwujęzycznie, jasno ≠ schab, golonka i żeberka.",
+          "Kaczka pieczona z jabłkiem i majerankiem, inna niż schab pieczony, golonka czy żeberka.",
       },
     },
     ingredients: [
@@ -94,7 +94,7 @@ export const seedRecipesWave15A: Recipe[] = [
         amount: 2300,
         unit: { de: "g", pl: "g" },
         group: "other",
-        storeHintDe: "Geflügeltheke / Polenladen — frisch oder tiefgekühlt auftauen",
+        storeHintDe: "Geflügeltheke oder Polenladen, am besten frisch oder gut aufgetaut",
       },
       {
         id: "ka-2",
@@ -116,7 +116,7 @@ export const seedRecipesWave15A: Recipe[] = [
         amount: 2,
         unit: { de: "TL", pl: "łyżeczki" },
         group: "spices",
-        storeHintDe: "Polenladen oft aromatischer",
+        storeHintDe: "Im Polenladen oft aromatischer",
       },
       {
         id: "ka-5",
@@ -169,57 +169,57 @@ export const seedRecipesWave15A: Recipe[] = [
         title: "Pieczeń rzymska",
         slug: "pieczen-rzymska",
         excerpt:
-          "Polnischer Ofen-Hackbraten mit hartgekochtem Ei in der Mitte — Laib aus dem Ofen, klar ≠ Kotlet mielony (Pfanne) und ≠ Pasztet.",
+          "Polnischer Ofen-Hackbraten mit hartgekochtem Ei in der Mitte, ein Laib aus dem Ofen mit überraschendem Anschnitt.",
         steps: [
           {
-            text: "Brötchen in Milch einweichen, ausdrücken. Zwiebel fein würfeln und glasig anbraten. Hack mit Brötchen, Ei, Zwiebel, Salz, Pfeffer und Majeranek verkneten, bis die Masse bindet. 15–20 Minuten kalt stellen.",
-            tip: "Das ist Ofen-Laib, keine flachen Pfannen-Frikadellen: [Kotlet mielony](/de/rezepte/kotlet-mielony) bleibt andere URL. Hack fein: [Fleischwolf-Kaufberatung](/de/blog/fleischwolf-kaufberatung).",
+            text: "Brötchen in Milch einweichen und ausdrücken. Zwiebel fein würfeln und glasig anbraten. Hack mit Brötchen, rohem Ei, Zwiebel, Salz, Pfeffer und Majoran verkneten, bis die Masse bindet, dann 15 bis 20 Minuten kalt stellen.",
+            tip: "Das ist ein Ofen-Laib und keine flachen Pfannen-Frikadellen, dafür steht der [Kotlet mielony](/de/rezepte/kotlet-mielony) unter einer eigenen Adresse. Feiner gemahlenes Hack gelingt leichter mit der [Fleischwolf-Kaufberatung](/de/blog/fleischwolf-kaufberatung).",
           },
           {
-            text: "Hartgekochte Eier schälen. Masse zu einem Laib formen: Hälfte flach drücken, Eier längs in die Mitte legen, Restmasse darüber und zu einem festen Zylinder schließen. Optional dünn mit Speck umwickeln.",
-            tip: "Keine Pasteten-Terrine — [Pasztet](/de/rezepte/pasztet) ist ein anderes Gericht. Menü: [Sonntagsessen](/de/blog/sonntagsessen-polnisch).",
+            text: "Hartgekochte Eier schälen. Die Masse zu einem Laib formen: eine Hälfte flach drücken, die Eier längs in die Mitte legen, mit der restlichen Masse bedecken und zu einem festen Zylinder schließen. Optional dünn mit Speck umwickeln.",
+            tip: "Das ist keine Pasteten-Terrine, der [Pasztet](/de/rezepte/pasztet) bleibt ein eigenes Gericht mit anderer Textur. Zum Menü passt der [Sonntagsessen-Guide](/de/blog/sonntagsessen-polnisch).",
           },
           {
-            text: "Laib in eine gefettete Form oder auf ein Blech mit Backpapier legen. Bei 180 °C ca. 60–75 Minuten backen, bis die Kruste braun und der Kern durch ist (Innere ca. 75 °C). Zwischendurch ggf. mit Bratensaft begießen.",
-            tip: "Kein Panier-Pfannenbraten — Panade gehört zu [Kotlet mielony](/de/rezepte/kotlet-mielony) / [Panieren-Guide](/de/blog/panieren-schabowy).",
+            text: "Den Laib in eine gefettete Form oder auf ein Blech mit Backpapier legen. Bei 180 °C etwa 60 bis 75 Minuten backen, bis die Kruste braun und der Kern durchgezogen ist, die Kerntemperatur liegt dann bei etwa 75 °C. Zwischendurch bei Bedarf mit dem austretenden Bratensaft begießen.",
+            tip: "Das ist kein panierter Pfannenbraten, Panade gehört zum [Kotlet mielony](/de/rezepte/kotlet-mielony) und zum [Panieren-Guide](/de/blog/panieren-schabowy).",
           },
           {
-            text: "10 Minuten ruhen, dann in Scheiben schneiden — Ei-Kern soll sichtbar sein. Mit Kartoffeln, Surówka oder Soße servieren. Reste kalt oder aufgewärmt; hält 2–3 Tage gekühlt.",
-            tip: "Fehlt Brötchen/Hack-Qualität: ehrlich laut [Ersatzprodukte DE](/de/blog/ersatzprodukte-de). Fokus bleibt Pieczeń rzymska.",
+            text: "10 Minuten ruhen lassen, dann in Scheiben schneiden, sodass der Ei-Kern sichtbar wird. Mit Kartoffeln, Surówka oder einer Soße servieren. Reste schmecken kalt oder aufgewärmt und halten gekühlt 2 bis 3 Tage.",
+            tip: "Fehlt gutes Brötchen oder Hack, hilft ein ehrlich benannter Ersatz laut [Ersatzprodukte DE](/de/blog/ersatzprodukte-de).",
           },
         ],
         seoTitle:
           "Pieczeń rzymska Rezept | Polnischer Hackbraten Ofen | Alemniam",
         seoDescription:
-          "Pieczeń rzymska: Ofen-Hackbraten mit Ei. Bilingual, klar ≠ Kotlet mielony und Pasztet.",
+          "Pieczeń rzymska: Ofen-Hackbraten mit Ei, anders als Kotlet mielony und Pasztet.",
       },
       pl: {
         title: "Pieczeń rzymska",
         slug: "pieczen-rzymska",
         excerpt:
-          "Polska pieczeń mielona z pieca z jajkiem w środku — bochenek z piekarnika, jasno ≠ kotlet mielony (patelnia) i ≠ pasztet.",
+          "Polska pieczeń mielona z pieca z jajkiem w środku, bochenek z piekarnika, który zaskakuje przy krojeniu.",
         steps: [
           {
-            text: "Bułkę namocz w mleku, odciśnij. Cebulę drobno pokrój i zeszklij. Wymieszaj mielone z bułką, jajkiem, cebulą, solą, pieprzem i majerankiem, aż masa się spoi. Odstaw 15–20 min w chłodzie.",
-            tip: "To bochenek z pieca, nie płaskie kotlety z patelni: [kotlet mielony](/pl/rezepte/kotlet-mielony) to inny URL. Mielenie: [wilk do mięsa](/pl/blog/wilk-do-miesa).",
+            text: "Bułkę namocz w mleku i odciśnij. Cebulę drobno pokrój i zeszklij. Wymieszaj mielone z bułką, surowym jajkiem, cebulą, solą, pieprzem i majerankiem, aż masa się spoi, i odstaw na 15 do 20 minut w chłodne miejsce.",
+            tip: "To bochenek z pieca, a nie płaskie kotlety z patelni, dla nich jest osobny przepis na [kotlet mielony](/pl/rezepte/kotlet-mielony). Drobniejsze mielenie ułatwia [wilk do mięsa](/pl/blog/wilk-do-miesa).",
           },
           {
-            text: "Jajka na twardo obierz. Uformuj bochenek: połowę masy spłaszcz, ułóż jajka wzdłuż środka, przykryj resztą i domknij w walec. Opcjonalnie owiń cienkim boczkiem.",
-            tip: "Bez terriny pasztetowej — [pasztet](/pl/rezepte/pasztet) to inne danie. Menu: [obiad niedzielny](/pl/blog/obiad-niedzielny).",
+            text: "Jajka na twardo obierz. Uformuj bochenek: połowę masy spłaszcz, ułóż jajka wzdłuż środka, przykryj resztą masy i domknij w zwarty walec. Opcjonalnie owiń cienkim boczkiem.",
+            tip: "To nie terrina pasztetowa, [pasztet](/pl/rezepte/pasztet) zostaje osobnym daniem o innej strukturze. Do menu pasuje [obiad niedzielny](/pl/blog/obiad-niedzielny).",
           },
           {
-            text: "Ułóż w natłuszczonej formie lub na blasze z papierem. Piecz w 180 °C ok. 60–75 min, aż skórka będzie brązowa, a środek wypieczony (ok. 75 °C). Polewaj sokiem w razie potrzeby.",
-            tip: "Bez panierki na patelni — panierka należy do [kotleta mielonego](/pl/rezepte/kotlet-mielony) / [panierowania](/pl/blog/panierowanie-kotlet).",
+            text: "Ułóż bochenek w natłuszczonej formie lub na blasze z papierem. Piecz w 180 °C około 60 do 75 minut, aż skórka będzie brązowa, a środek wypieczony, temperatura w środku powinna sięgać około 75 °C. W razie potrzeby polewaj wytapiającym się sokiem.",
+            tip: "To nie panierowany kotlet z patelni, panierka należy do [kotleta mielonego](/pl/rezepte/kotlet-mielony) i [przewodnika o panierowaniu](/pl/blog/panierowanie-kotlet).",
           },
           {
-            text: "Odstaw 10 min, kroić w plastry — jajko w środku ma być widoczne. Podawaj z ziemniakami, surówką lub sosem. Resztki 2–3 dni w chłodzie.",
-            tip: "Brak bułki/jakości mięsa: uczciwie według [zamienników](/pl/blog/zamienniki-skladnikow). tu zostaje pieczeń rzymska.",
+            text: "Odstaw na 10 minut, potem kroić w plastry, tak żeby jajko w środku było widoczne. Podawaj z ziemniakami, surówką lub sosem. Resztki smakują na zimno lub odgrzane i trzymają się 2 do 3 dni w chłodzie.",
+            tip: "Brak dobrej bułki albo mięsa uzupełnia uczciwie nazwany zamiennik z [zamienników składników](/pl/blog/zamienniki-skladnikow).",
           },
         ],
         seoTitle:
           "Pieczeń rzymska przepis | Pieczeń mielona z pieca | Alemniam",
         seoDescription:
-          "Pieczeń rzymska z jajkiem w środku. Dwujęzycznie, jasno ≠ kotlet mielony i pasztet.",
+          "Pieczeń rzymska z jajkiem w środku, inna niż kotlet mielony i pasztet.",
       },
     },
     ingredients: [
@@ -232,7 +232,7 @@ export const seedRecipesWave15A: Recipe[] = [
         amount: 1000,
         unit: { de: "g", pl: "g" },
         group: "other",
-        storeHintDe: "Frisch hacken oder gute Thekenware — nicht zu mager",
+        storeHintDe: "Frisch hacken lassen oder gute Thekenware, nicht zu magere Mischung",
       },
       {
         id: "pr-2",
@@ -303,8 +303,8 @@ export const seedRecipesWave15A: Recipe[] = [
         unit: { de: "Scheiben", pl: "plastrów" },
         group: "other",
         substitute: {
-          de: "Weglassen — Laib ohne Speckmantel",
-          pl: "Pominąć — bochenek bez boczku",
+          de: "Einfach weglassen, der Laib bleibt dann ohne Speckmantel",
+          pl: "Można pominąć, bochenek zostaje wtedy bez boczku",
         },
       },
       {

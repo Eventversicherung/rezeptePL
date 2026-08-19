@@ -33,55 +33,55 @@ export const seedRecipesWave14A: Recipe[] = [
         title: "Wuzetka",
         slug: "wuzetka",
         excerpt:
-          "Polnische Schoko-Sahne-Torte: Kakao-Biskuit, dicke Sahnefüllung, Schoko-Glasur — klar ≠ Napoleonka (Blätterteig-Creme) und ≠ Sernik/Szarlotka.",
+          "Polnische Schoko-Sahne-Torte aus dunklem Kakao-Biskuit, dicker Sahnefüllung und glänzender Schoko-Glasur, ein Warschauer Bäckerei-Klassiker, klar zu unterscheiden von der Blätterteig-Napoleonka sowie von Sernik und Szarlotka.",
         steps: [
           {
             text: "Für den Kakao-Biskuit Eier mit Zucker schaumig schlagen, Mehl und Kakao vorsichtig unterheben. In eine gefettete Rechteckform (ca. 20×30 cm) geben und bei 180 °C etwa 25–30 Minuten backen, bis der Spieß trocken kommt. Auskühlen lassen, horizontal einmal durchschneiden.",
-            tip: "Das ist dunkler Kakao-Biskuit, kein Blätterteig: [Napoleonka](/de/rezepte/napoleonka) bleibt ein anderes Rezept. Einkauf Kakao/Vanille oft im [Polenladen](/de/blog/polenladen-einkaufen).",
+            tip: "Das ist dunkler Kakao-Biskuit und kein Blätterteig, [Napoleonka](/de/rezepte/napoleonka) bleibt ein ganz anderes Rezept. Gutes Kakaopulver und Vanille bekommst du oft günstiger im [Polenladen](/de/blog/polenladen-einkaufen).",
           },
           {
             text: "Sahne sehr kalt steif schlagen, leicht süßen (Puderzucker) und optional mit etwas Gelatine oder Speisestärke stabilisieren. Untere Biskuithälfte leicht mit Kaffee oder Kakao-Milch bepinseln, dicke Sahne-Schicht gleichmäßig streichen, zweite Hälfte daraufsetzen. Fest andrücken.",
-            tip: "Keine Vanillecreme zwischen Blätterteig — das wäre [Napoleonka](/de/rezepte/napoleonka). Kein Quarkkern wie [Sernik](/de/rezepte/sernik).",
+            tip: "Zwischen Blätterteig gehört Vanillecreme, das wäre [Napoleonka](/de/rezepte/napoleonka), und mit Quark hätte die Torte eher etwas von [Sernik](/de/rezepte/sernik).",
           },
           {
             text: "Für die Glasur Kuvertüre oder dunkle Schokolade mit etwas Butter oder Sahne schmelzen, über die kalte Torte gießen und glatt streichen. Mindestens 2–3 Stunden kühlen, besser über Nacht, bis der Schnitt sauber ist.",
-            tip: "Apfelkuchen vom Blech bleibt [Szarlotka](/de/rezepte/szarlotka). Menüplatz: [polnisches Sonntagsessen](/de/blog/sonntagsessen-polnisch).",
+            tip: "Apfelkuchen vom Blech bleibt bei [Szarlotka](/de/rezepte/szarlotka). Zum Kaffee nach dem [polnischen Sonntagsessen](/de/blog/sonntagsessen-polnisch) passt die Wuzetka besonders gut.",
           },
           {
-            text: "Mit scharfem Messer in Rechtecke schneiden. Kalt servieren — klassisch mit einem Sahnetupfer optional. Reste gekühlt 2–3 Tage halten; Glasur vor dem Servieren kurz glätten.",
-            tip: "Fehlt gute Sahne oder Kakao: ehrlich laut [Ersatzprodukte DE](/de/blog/ersatzprodukte-de). Fokus bleibt Wuzetka.",
+            text: "Mit einem scharfen Messer in Rechtecke schneiden und kalt servieren, klassisch mit einem optionalen Sahnetupfer obendrauf. Reste halten sich gekühlt zwei bis drei Tage, vor dem Servieren die Glasur bei Bedarf kurz glattstreichen.",
+            tip: "Falls gute Sahne oder Kakao fehlen, findest du ehrliche Alternativen unter [Ersatzprodukte DE](/de/blog/ersatzprodukte-de), ohne dass die Torte ihren Charakter verliert.",
           },
         ],
         seoTitle: "Wuzetka Rezept | Schoko-Sahne-Torte polnisch | Alemniam",
         seoDescription:
-          "Wuzetka backen: Kakao-Biskuit, Sahnefüllung, Schoko-Glasur. Bilingual, klar ≠ Napoleonka, Sernik und Szarlotka.",
+          "Wuzetka backen: Kakao-Biskuit, Sahnefüllung, Schoko-Glasur. Bilingual, klar unterschieden von Napoleonka, Sernik und Szarlotka.",
       },
       pl: {
         title: "Wuzetka",
         slug: "wuzetka",
         excerpt:
-          "Polski tort czekoladowo-śmietankowy: biszkopt kakaowy, gęsta śmietana, polewa — jasno ≠ napoleonka (ciasto francuskie) i ≠ sernik/szarlotka.",
+          "Polski tort czekoladowo-śmietankowy z ciemnego biszkoptu kakaowego, gęstej śmietany i błyszczącej polewy, warszawski klasyk cukierniczy, wyraźnie inny niż napoleonka z ciasta francuskiego oraz niż sernik i szarlotka.",
         steps: [
           {
             text: "Na biszkopt kakaowy ubij jajka z cukrem na puszysto, delikatnie wmieszaj mąkę i kakao. Przełóż do natłuszczonej formy prostokątnej (ok. 20×30 cm) i piecz w 180 °C ok. 25–30 min, aż patyczek będzie suchy. Ostudź, przekrój poziomo na pół.",
-            tip: "To ciemny biszkopt kakaowy, nie ciasto francuskie: [napoleonka](/pl/rezepte/napoleonka) to inny przepis. Zakupy kakao/wanilia często w [sklepie polskim](/pl/blog/sklep-polski-zakupy).",
+            tip: "To ciemny biszkopt kakaowy, a nie ciasto francuskie, [napoleonka](/pl/rezepte/napoleonka) to zupełnie inny przepis. Dobre kakao i wanilię kupisz często taniej w [sklepie polskim](/pl/blog/sklep-polski-zakupy).",
           },
           {
             text: "Bardzo zimną śmietankę ubij na sztywno, lekko osłodź (cukier puder) i opcjonalnie ustabilizuj żelatyną lub skrobią. Dolną połowę biszkoptu lekko skrop kawą lub kakao z mlekiem, nałóż grubą warstwę śmietany, przykryj drugą połową. Dociskaj równo.",
-            tip: "Bez kremu waniliowego między francuskim — to byłaby [napoleonka](/pl/rezepte/napoleonka). Bez twarogu jak [sernik](/pl/rezepte/sernik).",
+            tip: "Między płatami ciasta francuskiego jest krem waniliowy, to byłaby [napoleonka](/pl/rezepte/napoleonka), a z twarogiem wyszedłby raczej [sernik](/pl/rezepte/sernik).",
           },
           {
             text: "Na polewę rozpuść czekoladę z odrobiną masła lub śmietanki, wylej na zimny tort i wygładź. Chłodź co najmniej 2–3 godziny, lepiej przez noc, aż krojenie będzie czyste.",
-            tip: "Jabłecznik z blachy zostaje [szarlotką](/pl/rezepte/szarlotka). Miejsce w menu: [obiad niedzielny](/pl/blog/obiad-niedzielny).",
+            tip: "Jabłecznik z blachy zostaje przy [szarlotce](/pl/rezepte/szarlotka). Do kawy po [obiedzie niedzielnym](/pl/blog/obiad-niedzielny) wuzetka pasuje wyjątkowo dobrze.",
           },
           {
-            text: "Ostrym nożem kroić w prostokąty. Podawać zimne — klasycznie z opcjonalnym czubkiem śmietany. Resztki trzymają 2–3 dni w chłodzie; przed podaniem polewę lekko wygładź.",
-            tip: "Brak dobrej śmietanki lub kakao: uczciwie według [zamienników](/pl/blog/zamienniki-skladnikow). tu zostaje wuzetka.",
+            text: "Ostrym nożem kroić w prostokąty i podawać na zimno, klasycznie z opcjonalnym czubkiem śmietany na wierzchu. Resztki trzymają się w chłodzie dwa do trzech dni, przed podaniem polewę w razie potrzeby krótko wygładź.",
+            tip: "Gdy brakuje dobrej śmietanki lub kakao, uczciwe zamienniki znajdziesz pod [zamiennikami składników](/pl/blog/zamienniki-skladnikow), bez utraty charakteru ciasta.",
           },
         ],
         seoTitle: "Wuzetka przepis | Tort czekoladowo-śmietankowy | Alemniam",
         seoDescription:
-          "Wuzetka w domu: biszkopt kakaowy, śmietana, polewa. Dwujęzycznie, jasno ≠ napoleonka, sernik i szarlotka.",
+          "Wuzetka w domu: biszkopt kakaowy, śmietana, polewa. Dwujęzycznie, jasno różna od napoleonki, sernika i szarlotki.",
       },
     },
     ingredients: [
@@ -115,7 +115,7 @@ export const seedRecipesWave14A: Recipe[] = [
         amount: 40,
         unit: { de: "g", pl: "g" },
         group: "pantry",
-        storeHintDe: "Gute Qualität — oft Polenladen / Backregal",
+        storeHintDe: "Gute Qualität findest du oft im Polenladen oder im Backregal",
       },
       {
         id: "wz-5",
@@ -167,8 +167,8 @@ export const seedRecipesWave14A: Recipe[] = [
         unit: { de: "ml", pl: "ml" },
         group: "other",
         substitute: {
-          de: "Weglassen — Biskuit etwas trockener, ehrlich benennen",
-          pl: "Pominąć — biszkopt nieco suchszy, nazwać uczciwie",
+          de: "Weglassen, dann wird der Biskuit etwas trockener, das im Rezept ehrlich benennen",
+          pl: "Pominąć, wtedy biszkopt będzie nieco suchszy, warto to uczciwie napisać",
         },
       },
     ],
@@ -198,57 +198,57 @@ export const seedRecipesWave14A: Recipe[] = [
         title: "Drożdżówka / Placek drożdżowy",
         slug: "drozdzowka",
         excerpt:
-          "Polnischer Hefekuchen vom Blech mit kruszonka (Streusel), optional Apfel — Alltagskaffee-Klassiker, klar ≠ Chałka-Zopf, ≠ Babka-Gugelhupf, ≠ Pączki.",
+          "Polnischer Hefekuchen vom Blech mit dicker kruszonka-Streuseldecke und optional Apfel, ein Alltagsklassiker zum Kaffee, klar zu unterscheiden vom geflochtenen Chałka-Zopf, vom Babka-Gugelhupf und von Pączki.",
         steps: [
           {
             text: "Hefe in lauwarmer Milch mit 1 TL Zucker auflösen, 10 Minuten gehen lassen. Mit Mehl, restlichem Zucker, Ei, weicher Butter und Prise Salz zu glattem Hefeteig kneten. Abgedeckt gehen lassen, bis verdoppelt (ca. 60–90 Min).",
-            tip: "Kein Zopf und keine Gugelhupf-Form: [Chałka](/de/rezepte/chalka) und [Babka](/de/rezepte/babka) bleiben andere Rezepte. Hefe-Kontext: [Makowiec-Technik](/de/blog/makowiec-technik).",
+            tip: "Der Teig wird flach aufs Blech gedrückt statt geflochten oder in eine Gugelhupf-Form gefüllt, das bleibt [Chałka](/de/rezepte/chalka) und [Babka](/de/rezepte/babka) vorbehalten. Mehr zum Umgang mit Hefe erklärt die [Makowiec-Technik](/de/blog/makowiec-technik).",
           },
           {
-            text: "Teig auf ein gefettetes Blech (ca. 30×40 cm) drücken oder ausrollen — flacher Placek, keine Flechtstränge. Optional dünne Apfelscheiben oder -würfel auflegen. Für Streusel (kruszonka): kalte Butter, Mehl und Zucker zu Krümeln reiben; dick über den Teig streuen.",
-            tip: "Kein Frittieren — [Pączki](/de/rezepte/paczki) bleiben ein eigenes Rezept. Apfel-Pfannkuchen: [Racuchy](/de/rezepte/racuchy-jablka).",
+            text: "Teig auf ein gefettetes Blech (ca. 30×40 cm) drücken oder ausrollen, er bleibt ein flacher Placek ohne Flechtstränge. Optional dünne Apfelscheiben oder Apfelwürfel auflegen. Für die Streusel kalte Butter, Mehl und Zucker zu groben Krümeln reiben und dick über den Teig streuen.",
+            tip: "Frittiert wird hier nicht, das bleibt [Pączki](/de/rezepte/paczki) vorbehalten, und Apfel-Pfannkuchen aus der Pfanne findest du bei [Racuchy](/de/rezepte/racuchy-jablka).",
           },
           {
             text: "Kurz nachgehen lassen (15–20 Min). Bei 180 °C (Umluft etwas niedriger) 30–35 Minuten goldbraun backen, bis der Streusel knusprig und der Teig durchgebacken ist.",
-            tip: "Einkauf Butter/Hefe: [Polenladen](/de/blog/polenladen-einkaufen). Menüplatz: [Sonntagsessen](/de/blog/sonntagsessen-polnisch).",
+            tip: "Butter und Hefe in guter Qualität bekommst du oft im [Polenladen](/de/blog/polenladen-einkaufen), zum Kaffee passt der Kuchen gut ins [Sonntagsessen](/de/blog/sonntagsessen-polnisch).",
           },
           {
-            text: "Auf dem Blech abkühlen lassen, in Rechtecke schneiden. Warm oder lauwarm zum Kaffee. Optional leicht mit Puderzucker bestäuben. Reste luftdicht — am Folgetag kurz aufwärmen.",
-            tip: "Fehlt Hefe oder Mehltyp: ehrlich laut [Ersatzprodukte DE](/de/blog/ersatzprodukte-de). Fokus bleibt Drożdżówka / Placek drożdżowy.",
+            text: "Auf dem Blech abkühlen lassen und in Rechtecke schneiden. Warm oder lauwarm zum Kaffee servieren, optional leicht mit Puderzucker bestäuben. Reste luftdicht aufbewahren und am nächsten Tag kurz aufwärmen.",
+            tip: "Falls Hefe oder ein bestimmter Mehltyp fehlt, findest du ehrliche Alternativen unter [Ersatzprodukte DE](/de/blog/ersatzprodukte-de).",
           },
         ],
         seoTitle:
           "Drożdżówka Rezept | Polnischer Hefekuchen Streusel | Alemniam",
         seoDescription:
-          "Placek drożdżowy mit Streusel backen. Bilingual, klar ≠ Chałka, Babka, Pączki und Racuchy.",
+          "Placek drożdżowy mit Streusel backen. Bilingual, klar unterschieden von Chałka, Babka, Pączki und Racuchy.",
       },
       pl: {
         title: "Drożdżówka / Placek drożdżowy",
         slug: "drozdzowka",
         excerpt:
-          "Polski placek drożdżowy z blachy z kruszonką, opcjonalnie jabłko — klasyk do kawy, jasno ≠ chałka-warkocz, ≠ babka z formy, ≠ pączki.",
+          "Polski placek drożdżowy z blachy z grubą kruszonką i opcjonalnie jabłkiem, klasyk do kawy, wyraźnie inny niż pleciona chałka, babka z formy i pączki.",
         steps: [
           {
             text: "Rozpuść drożdże w letnim mleku z 1 łyżeczką cukru, odstaw 10 min. Zagnieć z mąką, resztą cukru, jajkiem, miękkim masłem i szczyptą soli na gładkie ciasto. Przykryte odstaw aż podwoi objętość (ok. 60–90 min).",
-            tip: "Bez warkocza i bez formy babkowej: [chałka](/pl/rezepte/chalka) i [babka](/pl/rezepte/babka) to inne przepisy. Wyczucie drożdży: [technika makowca](/pl/blog/makowiec-technika).",
+            tip: "Ciasto trafia płasko na blachę, bez warkocza i bez formy babkowej, to zostaje przy [chałce](/pl/rezepte/chalka) i [babce](/pl/rezepte/babka). Więcej o wyczuciu drożdży znajdziesz w [technice makowca](/pl/blog/makowiec-technika).",
           },
           {
-            text: "Ciasto rozciągnij na natłuszczonej blasze (ok. 30×40 cm) — płaski placek, bez splotów. Opcjonalnie ułóż cienkie plasterki lub kostkę jabłka. Na kruszonkę: zimne masło, mąka i cukier zetrzyj w okruchy; gęsto posyp ciasto.",
-            tip: "Bez smażenia — [pączki](/pl/rezepte/paczki) zostają osobnym przepisem. Racuchy jabłkowe: [racuchy](/pl/rezepte/racuchy-jablka).",
+            text: "Ciasto rozciągnij na natłuszczonej blasze (ok. 30×40 cm) na płaski placek, bez splotów. Opcjonalnie ułóż cienkie plasterki lub kostkę jabłka. Na kruszonkę zimne masło, mąkę i cukier zetrzyj w grube okruchy i gęsto posyp nimi ciasto.",
+            tip: "Smażenia tu nie ma, to zostaje przy [pączkach](/pl/rezepte/paczki), a jabłkowe racuchy z patelni znajdziesz przy [racuchach](/pl/rezepte/racuchy-jablka).",
           },
           {
             text: "Krótko odczekaj drugiego wyrastania (15–20 min). Piecz w 180 °C (termoobieg nieco niżej) 30–35 min na złoto, aż kruszonka będzie chrupiąca, a ciasto wypieczone.",
-            tip: "Zakupy masło/drożdże: [sklep polski](/pl/blog/sklep-polski-zakupy). Miejsce w menu: [obiad niedzielny](/pl/blog/obiad-niedzielny).",
+            tip: "Dobre masło i drożdże kupisz często w [sklepie polskim](/pl/blog/sklep-polski-zakupy), do kawy placek pasuje dobrze przy [obiedzie niedzielnym](/pl/blog/obiad-niedzielny).",
           },
           {
-            text: "Ostudź na blasze, kroić w prostokąty. Ciepłe lub letnie do kawy. Opcjonalnie lekko oprósz cukrem pudrem. Resztki szczelnie — nazajutrz krótko podgrzej.",
-            tip: "Brak drożdży lub typu mąki: uczciwie według [zamienników](/pl/blog/zamienniki-skladnikow). tu zostaje drożdżówka / placek drożdżowy.",
+            text: "Ostudź na blasze i pokrój w prostokąty. Podawaj ciepłe lub letnie do kawy, opcjonalnie lekko oprósz cukrem pudrem. Resztki przechowuj szczelnie i nazajutrz krótko podgrzej.",
+            tip: "Gdy brakuje drożdży albo konkretnego typu mąki, uczciwe zamienniki znajdziesz pod [zamiennikami składników](/pl/blog/zamienniki-skladnikow).",
           },
         ],
         seoTitle:
           "Drożdżówka przepis | Placek drożdżowy z kruszonką | Alemniam",
         seoDescription:
-          "Placek drożdżowy z kruszonką w domu. Dwujęzycznie, jasno ≠ chałka, babka, pączki i racuchy.",
+          "Placek drożdżowy z kruszonką w domu. Dwujęzycznie, jasno różny od chałki, babki, pączków i racuchów.",
       },
     },
     ingredients: [
@@ -349,8 +349,8 @@ export const seedRecipesWave14A: Recipe[] = [
         unit: { de: "Stück", pl: "szt." },
         group: "produce",
         substitute: {
-          de: "Pflaume saisonal — Streusel-Hefekuchen behalten",
-          pl: "Śliwka sezonowo — placek z kruszonką zachować",
+          de: "Pflaume passt saisonal genauso gut, der Streusel-Hefekuchen-Charakter bleibt erhalten",
+          pl: "Śliwka pasuje sezonowo równie dobrze, charakter placka z kruszonką zostaje zachowany",
         },
       },
     ],

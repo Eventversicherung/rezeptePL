@@ -5,8 +5,8 @@ import type { Recipe } from "@/types/content";
  * Isolated for Integrator E: do not import into seed.ts until merge.
  * Affiliate: guide-only (no relatedProductIds / no catalog recipeIds).
  * No new blog pillar. NO Wuzetka.
- * Ownership: Kutia ≠ Makaron z makiem (Nudeln) ≠ Makowiec (Rolle) ≠ Kompot z suszu.
- * Napoleonka ≠ Szarlotka ≠ Sernik ≠ Mazurek ≠ Wuzetka (HOLD).
+ * Ownership: Kutia is different from Makaron z makiem (Nudeln), Makowiec (Rolle) and Kompot z suszu.
+ * Napoleonka is different from Szarlotka, Sernik, Mazurek and Wuzetka (HOLD).
  * NO SEED_VERSION bump here. No commit/push.
  */
 export const seedRecipesWave13B: Recipe[] = [
@@ -37,53 +37,55 @@ export const seedRecipesWave13B: Recipe[] = [
         title: "Kutia",
         slug: "kutia",
         excerpt:
-          "Klassische Wigilia-Kutia aus Weizenkörnern, Mohn, Honig und Nüssen — süßes Getreide-Dessert, klar ≠ Makaron z makiem und ≠ Makowiec-Rolle.",
+          "Die klassische Wigilia-Kutia aus ganzen Weizenkörnern, Mohn, Honig und Nüssen ist ein süßes Getreide-Dessert für den Heiligabendtisch, ganz anders als die Mohnnudeln Makaron z makiem oder die Hefe-Mohnrolle Makowiec.",
         steps: [
           {
-            text: "Weizenkörner (geschälte Weizenbeeren / pszenica) waschen und in reichlich Wasser weich kochen, bis sie bissfest-weich sind (oft 60–90 Minuten; ggf. Vortag einweichen). Abgießen, abkühlen lassen.",
-            tip: "Das sind ganze Körner in der Schüssel — keine Nudeln wie [Makaron z makiem](/de/rezepte/makaron-z-makiem). Menürahmen: [Wigilia-Speiseplan](/de/blog/wigilia-speiseplan).",
+            text: "Die geschälten Weizenkörner waschen und in reichlich Wasser weich kochen, bis sie bissfest weich sind, das dauert oft 60 bis 90 Minuten. Wenn du Zeit hast, weiche sie am Vortag ein, das verkürzt die Kochzeit deutlich. Danach abgießen und abkühlen lassen.",
+            tip: "In der Schüssel liegen später ganze Körner, keine Nudeln wie bei [Makaron z makiem](/de/rezepte/makaron-z-makiem). Den Rahmen für den ganzen Heiligabend liefert der [Wigilia-Speiseplan](/de/blog/wigilia-speiseplan).",
           },
           {
-            text: "Blauen Mohn mit heißem Wasser oder Milch aufquellen lassen, abtropfen; möglichst mahlen oder fein zerreiben. Mit Honig (oder Zucker), gehackten Walnüssen oder Mandeln, Rosinen und optional Vanille/Zitronenschale zu einer bindenden, nicht trockenen Masse rühren.",
-            tip: "Mohnqualität und Feiertagseinkauf: [Polenladen](/de/blog/polenladen-einkaufen). Masse-Feeling wie [Makowiec-Technik](/de/blog/makowiec-technik) — Fokus bleibt Getreide+Mohn, nicht die Hefe-Rolle.",
+            text: "Blauen Mohn mit heißem Wasser oder Milch aufquellen lassen, abtropfen und möglichst fein mahlen oder zerreiben. Mit Honig oder Zucker, gehackten Walnüssen oder Mandeln, Rosinen und optional etwas Vanille oder Zitronenschale zu einer bindenden Masse verrühren, die nicht trocken bröckelt.",
+            tip: "Gute Mohnqualität für den Festtagseinkauf findest du oft im [Polenladen](/de/blog/polenladen-einkaufen). Das Mahlgefühl ähnelt der [Makowiec-Technik](/de/blog/makowiec-technik), auch wenn hier Getreide und Mohn im Mittelpunkt stehen und keine Hefe-Rolle.",
           },
           {
-            text: "Weizen mit der Mohn-Nuss-Masse vermengen; bei Bedarf etwas Milch oder Honig für Glanz und Bindung. Abschmecken: süß, mohnig, nussig — nicht bitter, nicht sandig-trocken.",
-            tip: "Kein Kompot hier — Getränk bleibt [Kompot z suszu](/de/rezepte/kompot-z-suszu). Ersatzlogik: [Ersatzprodukte DE](/de/blog/ersatzprodukte-de).",
+            text: "Den Weizen mit der Mohn-Nuss-Masse vermengen und bei Bedarf etwas Milch oder Honig für Glanz und Bindung unterrühren. Am Ende sollte Kutia süß, mohnig und nussig schmecken, aber weder bitter noch sandig-trocken.",
+            tip: "Ein Getränk gehört hier nicht hinein, dafür bleibt der [Kompot z suszu](/de/rezepte/kompot-z-suszu) zuständig. Fehlt eine Zutat, hilft der Beitrag zu [Ersatzprodukten](/de/blog/ersatzprodukte-de) weiter.",
           },
           {
-            text: "Kühl stellen (oft besser nach einigen Stunden). In Schalen oder einer Schüssel servieren; optional mehr Nüsse oder Honig darüber. Reste abgedeckt im Kühlschrank.",
+            text: "Kutia kühl stellen, sie schmeckt oft nach ein paar Stunden Ziehzeit noch runder. In Schalen oder einer großen Schüssel servieren, optional mit ein paar zusätzlichen Nüssen oder etwas Honig obenauf. Reste abgedeckt im Kühlschrank aufbewahren.",
+            tip: "Wer die Süße lieber über mehrere Tage verteilt genießt, kann kleine Portionen einfrieren und vor dem Servieren nur kurz auftauen lassen.",
           },
         ],
         seoTitle: "Kutia Rezept | Weizen Mohn Wigilia | Alemniam",
         seoDescription:
-          "Kutia — Weizenkörner mit Mohn, Honig und Nüssen. Wigilia-tauglich, bilingual. Klar getrennt von Makaron z makiem und Makowiec.",
+          "Kutia: Weizenkörner mit Mohn, Honig und Nüssen für die Wigilia, klar getrennt von Makaron z makiem und Makowiec. Bilingual mit Diaspora-Tipps.",
       },
       pl: {
         title: "Kutia",
         slug: "kutia",
         excerpt:
-          "Klasyczna wigilijna kutia z pszenicy, maku, miodu i orzechów — słodki deser zbożowy, jasno ≠ makaron z makiem i ≠ makowiec-rolada.",
+          "Klasyczna wigilijna kutia z ziaren pszenicy, maku, miodu i orzechów to słodki deser zbożowy na wieczerzę wigilijną, zupełnie inny niż makaron z makiem czy makowiec.",
         steps: [
           {
-            text: "Opłucz ziarna pszenicy (obrane) i gotuj w dużej ilości wody do miękkości z lekkim gryzieniem (często 60–90 minut; ewentualnie namocz dzień wcześniej). Odcedź, ostudź.",
-            tip: "To całe ziarna w misce — nie makaron jak [makaron z makiem](/pl/rezepte/makaron-z-makiem). Rama menu: [menu wigilijne](/pl/blog/menu-wigilijne).",
+            text: "Opłucz obrane ziarna pszenicy i gotuj je w dużej ilości wody do miękkości z lekkim gryzieniem, co zwykle zajmuje 60 do 90 minut. Jeśli masz czas, namocz ziarna dzień wcześniej, to wyraźnie skróci gotowanie. Potem odcedź i ostudź.",
+            tip: "W misce mają się znaleźć całe ziarna, a nie makaron jak w [makaronie z makiem](/pl/rezepte/makaron-z-makiem). Ramę całej wieczerzy daje [menu wigilijne](/pl/blog/menu-wigilijne).",
           },
           {
-            text: "Mak niebieski zalej gorącą wodą lub mlekiem, odsącz; zmiel lub rozetrzyj. Wymieszaj z miodem (lub cukrem), posiekanymi orzechami włoskimi lub migdałami, rodzynkami oraz opcjonalnie wanilią/skórką cytryny do wiążącej, nie suchej masy.",
-            tip: "Jakość maku i zakupy świąteczne: [sklep polski](/pl/blog/sklep-polski-zakupy). Wyczucie masy jak [technika makowca](/pl/blog/makowiec-technika) — tu zostaje zboże+mak, nie rolada drożdżowa.",
+            text: "Mak niebieski zalej gorącą wodą lub mlekiem, odsącz i jak najdrobniej zmiel lub rozetrzyj. Wymieszaj z miodem lub cukrem, posiekanymi orzechami włoskimi lub migdałami, rodzynkami oraz opcjonalnie odrobiną wanilii lub skórki cytryny, aż powstanie wiążąca, niesucha masa.",
+            tip: "Dobry mak na święta często kupisz w [sklepie polskim](/pl/blog/sklep-polski-zakupy). Wyczucie mielenia przypomina [technikę makowca](/pl/blog/makowiec-technika), choć tu w centrum jest zboże i mak, a nie drożdżowa rolada.",
           },
           {
-            text: "Wymieszaj pszenicę z masą makowo-orzechową; w razie potrzeby dodaj odrobinę mleka lub miodu. Dopraw: słodko, makowo, orzechowo — bez goryczy, bez piaszczystej suchości.",
-            tip: "Bez kompotu tutaj — napój zostaje przy [kompocie z suszu](/pl/rezepte/kompot-z-suszu). Zamienniki: [zamienniki składników](/pl/blog/zamienniki-skladnikow).",
+            text: "Wymieszaj pszenicę z masą makowo-orzechową, w razie potrzeby dodaj odrobinę mleka lub miodu dla połysku i lepszego wiązania. Na koniec kutia powinna być słodka, makowa i orzechowa, bez goryczy i bez piaszczystej suchości.",
+            tip: "Napój do tego dania to osobna sprawa, o niego dba [kompot z suszu](/pl/rezepte/kompot-z-suszu). Gdy brakuje składnika, pomogą [zamienniki składników](/pl/blog/zamienniki-skladnikow).",
           },
           {
-            text: "Schłodź (często lepiej po kilku godzinach). Podawaj w miseczkach lub jednej misce; opcjonalnie więcej orzechów lub miodu. Resztki przykryte w lodówce.",
+            text: "Schłodź kutię, po kilku godzinach w lodówce często smakuje jeszcze lepiej. Podawaj w miseczkach albo w jednej wspólnej misie, opcjonalnie z dodatkowymi orzechami lub odrobiną miodu na wierzchu. Resztki trzymaj przykryte w lodówce.",
+            tip: "Jeśli wolisz rozłożyć słodycz na kilka dni, możesz zamrozić małe porcje i przed podaniem tylko krótko je rozmrozić.",
           },
         ],
         seoTitle: "Kutia przepis | Pszenica mak Wigilia | Alemniam",
         seoDescription:
-          "Kutia — pszenica z makiem, miodem i orzechami. Na Wigilię, dwujęzycznie. Jasno osobno od makaronu z makiem i makowca.",
+          "Kutia: pszenica z makiem, miodem i orzechami na Wigilię, jasno osobno od makaronu z makiem i makowca. Dwujęzycznie, z poradami dla diaspory.",
       },
     },
     ingredients: [
@@ -96,10 +98,10 @@ export const seedRecipesWave13B: Recipe[] = [
         amount: 300,
         unit: { de: "g", pl: "g" },
         group: "polish",
-        storeHintDe: "Polenladen — geschälte Weizenbeeren / pszenica",
+        storeHintDe: "Im Polenladen als geschälte Weizenbeeren oder pszenica erhältlich",
         substitute: {
-          de: "Perlgerste ehrlich als Ersatz benennen (≠ klassische Weizen-Kutia)",
-          pl: "Pęczak nazwać uczciwie jako zamiennik (≠ klasyczna kutia z pszenicy)",
+          de: "Perlgerste funktioniert als Ersatz, ist dann aber ehrlich keine klassische Weizen-Kutia mehr",
+          pl: "Pęczak nadaje się jako zamiennik, ale wtedy uczciwie nie jest to już klasyczna kutia z pszenicy",
         },
       },
       {
@@ -111,10 +113,10 @@ export const seedRecipesWave13B: Recipe[] = [
         amount: 150,
         unit: { de: "g", pl: "g" },
         group: "polish",
-        storeHintDe: "Polenladen — frisch gemahlen bevorzugt",
+        storeHintDe: "Im Polenladen ist frisch gemahlener Mohn oft die bessere Wahl",
         substitute: {
-          de: "Ganze Samen selbst mahlen — ehrlich benennen",
-          pl: "Całe ziarna zmiel samodzielnie — nazwać uczciwie",
+          de: "Ganze Mohnsamen selbst mahlen und das im Rezept ehrlich vermerken",
+          pl: "Całe ziarna maku zmielić samodzielnie i uczciwie to zaznaczyć",
         },
       },
       {
@@ -195,53 +197,55 @@ export const seedRecipesWave13B: Recipe[] = [
         title: "Napoleonka / Kremówka",
         slug: "napoleonka",
         excerpt:
-          "Haus-Napoleonka (Kremówka): Blätterteig-Schichten mit Vanillecreme — millefeuille-ähnlich. Klar ≠ Szarlotka, ≠ Sernik, ≠ Wuzetka.",
+          "Die hausgemachte Napoleonka, auch Kremówka genannt, besteht aus knusprigen Blätterteigschichten mit dicker Vanillecreme, ganz im Stil eines Millefeuille, und hat weder mit Szarlotka noch mit Sernik oder Wuzetka etwas zu tun.",
         steps: [
           {
-            text: "Fertigen Blätterteig (oder selbst gemacht) auf zwei bis drei Blechen zu dünnen Platten ausrollen; mehrfach mit Gabel einstechen. Bei heißer Ofentemperatur goldbraun und knusprig backen; abkühlen, in Rechtecke schneiden.",
-            tip: "Das ist Blätterteig+Creme — kein Apfelkuchen wie [Szarlotka](/de/rezepte/szarlotka) und kein Käsekuchen wie [Sernik](/de/rezepte/sernik).",
+            text: "Fertigen oder selbst gemachten Blätterteig auf zwei bis drei Blechen zu dünnen Platten ausrollen und mehrfach mit einer Gabel einstechen, damit er beim Backen nicht zu stark aufgeht. Bei hoher Ofentemperatur goldbraun und knusprig backen, abkühlen lassen und in Rechtecke schneiden.",
+            tip: "Hier geht es um Blätterteig mit Creme, keinen Apfelkuchen wie die [Szarlotka](/de/rezepte/szarlotka) und keinen Käsekuchen wie den [Sernik](/de/rezepte/sernik).",
           },
           {
-            text: "Vanillecreme (budyń-artig oder klassische Puddingcreme): Milch mit Vanille erhitzen; Eigelb, Zucker und Speisestärke verrühren, einrühren, dicklich kochen; Butter unterziehen. Abdecken und lauwarm bis kühl werden lassen — streichfähig, nicht flüssig.",
-            tip: "Vanille und Stärke oft im [Polenladen](/de/blog/polenladen-einkaufen) oder Supermarkt; Ersatz: [Ersatzprodukte DE](/de/blog/ersatzprodukte-de). Keine Schoko-Sahne-Torte — Wuzetka ist ein anderes Rezept.",
+            text: "Für die Vanillecreme die Milch mit Vanille erhitzen. Eigelb, Zucker und Speisestärke glatt verrühren, unter die heiße Milch rühren und unter ständigem Rühren dicklich kochen, dann die Butter unterziehen. Die Creme abdecken und auf lauwarm bis kühl abkühlen lassen, sie soll am Ende streichfähig und nicht flüssig sein.",
+            tip: "Vanille und Speisestärke findest du oft im [Polenladen](/de/blog/polenladen-einkaufen) oder im Supermarkt, ehrliche Alternativen listen die [Ersatzprodukte](/de/blog/ersatzprodukte-de). Eine Schoko-Sahne-Torte ist das hier nicht, dafür bleibt die Wuzetka ein eigenes Rezept.",
           },
           {
-            text: "Abwechselnd Teigplatte und Creme schichten (meist 2–3 Teiglagen). Oben mit Puderzucker bestäuben oder dünn glasieren. Mindestens 2–3 Stunden kühlen, damit sich schneiden lässt.",
-            tip: "Sonntagskaffee: [polnisches Sonntagsessen](/de/blog/sonntagsessen-polnisch) — Fokus bleibt Napoleonka/Kremówka.",
+            text: "Teigplatte und Creme abwechselnd schichten, meist reichen zwei bis drei Teiglagen. Die oberste Schicht mit Puderzucker bestäuben oder dünn glasieren. Mindestens zwei bis drei Stunden kühl stellen, damit sich die Napoleonka später sauber schneiden lässt.",
+            tip: "Als ruhiger Abschluss passt sie gut zum [polnischen Sonntagsessen](/de/blog/sonntagsessen-polnisch), auch wenn hier ausschließlich die Napoleonka selbst im Mittelpunkt steht.",
           },
           {
-            text: "Mit scharfem Messer in Rechtecke schneiden; kalt servieren. Reste abgedeckt im Kühlschrank — Teig weicht mit der Zeit etwas auf, Geschmack bleibt.",
+            text: "Mit einem scharfen Messer in Rechtecke schneiden und kalt servieren. Reste abgedeckt im Kühlschrank aufbewahren, der Teig weicht mit der Zeit etwas auf, während der Geschmack erhalten bleibt.",
+            tip: "Am saubersten schneidest du, wenn du das Messer zwischendurch kurz unter heißes Wasser hältst und abtrocknest, dann drückt es die Creme nicht seitlich heraus.",
           },
         ],
         seoTitle: "Napoleonka Rezept | Kremówka | Alemniam",
         seoDescription:
-          "Napoleonka / Kremówka — Blätterteig mit Vanillecreme. Bilingual, klar getrennt von Szarlotka, Sernik und Wuzetka.",
+          "Napoleonka / Kremówka: Blätterteig mit Vanillecreme, klar getrennt von Szarlotka, Sernik und Wuzetka. Bilingual mit Diaspora-Tipps.",
       },
       pl: {
         title: "Napoleonka / kremówka",
         slug: "napoleonka",
         excerpt:
-          "Domowa napoleonka (kremówka): warstwy ciasta francuskiego z kremem waniliowym — w stylu millefeuille. Jasno ≠ szarlotka, ≠ sernik, ≠ wuzetka.",
+          "Domowa napoleonka, znana też jako kremówka, to warstwy ciasta francuskiego z gęstym kremem waniliowym w stylu millefeuille, zupełnie inna niż szarlotka, sernik czy wuzetka.",
         steps: [
           {
-            text: "Ciasto francuskie (gotowe lub własne) rozwałkuj na 2–3 cienkie blachy; nakłuj widelcem. Piecz na złoto w wysokiej temperaturze; ostudź, pokrój w prostokąty.",
-            tip: "To ciasto francuskie+krem — nie jabłecznik jak [szarlotka](/pl/rezepte/szarlotka) i nie sernik jak [sernik](/pl/rezepte/sernik).",
+            text: "Gotowe lub własne ciasto francuskie rozwałkuj na dwie do trzech cienkich blach i nakłuj widelcem w kilku miejscach, żeby zbytnio nie wyrosło podczas pieczenia. Piecz w wysokiej temperaturze na złoto i chrupko, ostudź i pokrój w prostokąty.",
+            tip: "Tu liczy się ciasto francuskie z kremem, a nie jabłecznik jak [szarlotka](/pl/rezepte/szarlotka) i nie sernik jak [sernik](/pl/rezepte/sernik).",
           },
           {
-            text: "Krem waniliowy (budyniowy lub klasyczny): podgrzej mleko z wanilią; wymieszaj żółtka, cukier i skrobię, wlej, gotuj do gęstości; włącz masło. Przykryj i ostudź do smarowności — nie ma być płynny.",
-            tip: "Wanilia i skrobia często w [sklepie polskim](/pl/blog/sklep-polski-zakupy) lub markecie; zamienniki: [zamienniki składników](/pl/blog/zamienniki-skladnikow). Bez tortu czekoladowo-śmietankowego — wuzetka to inny przepis.",
+            text: "Na krem waniliowy podgrzej mleko z wanilią. Żółtka, cukier i skrobię wymieszaj na gładko, wlej do gorącego mleka i gotuj pod stałym mieszaniem, aż zgęstnieje, na koniec wmieszaj masło. Przykryj krem i ostudź do temperatury smarowności, nie powinien być płynny.",
+            tip: "Wanilię i skrobię często znajdziesz w [sklepie polskim](/pl/blog/sklep-polski-zakupy) lub w markecie, uczciwe zamienniki opisują [zamienniki składników](/pl/blog/zamienniki-skladnikow). To nie tort czekoladowo-śmietankowy, wuzetka to zupełnie inny przepis.",
           },
           {
-            text: "Układaj na przemian płat ciasta i krem (zwykle 2–3 warstwy ciasta). Wierzch oprósz cukrem pudrem lub lekko lukruj. Chłodź co najmniej 2–3 godziny przed krojeniem.",
-            tip: "Kawowe niedzielne wyczucie [obiad niedzielny](/pl/blog/obiad-niedzielny) — tu zostaje napoleonka/kremówka.",
+            text: "Ułóż na przemian płat ciasta i krem, zwykle wystarczą dwie do trzech warstw ciasta. Wierzch oprósz cukrem pudrem albo lekko polukruj. Chłodź co najmniej dwie do trzech godzin, żeby krojenie wyszło czyste.",
+            tip: "Jako spokojne zwieńczenie pasuje do [obiadu niedzielnego](/pl/blog/obiad-niedzielny), choć tutaj w centrum zostaje wyłącznie sama napoleonka.",
           },
           {
-            text: "Ostrym nożem pokrój w prostokąty; podawaj na zimno. Resztki przykryte w lodówce — ciasto z czasem mięknie, smak zostaje.",
+            text: "Pokrój ostrym nożem w prostokąty i podawaj na zimno. Resztki trzymaj przykryte w lodówce, ciasto z czasem trochę mięknie, ale smak zostaje.",
+            tip: "Najczyściej kroisz, gdy nóż od czasu do czasu zanurzysz w gorącej wodzie i osuszysz, wtedy krem się nie wyciska na boki.",
           },
         ],
         seoTitle: "Napoleonka przepis | Kremówka | Alemniam",
         seoDescription:
-          "Napoleonka / kremówka — ciasto francuskie z kremem waniliowym. Dwujęzycznie, jasno osobno od szarlotki, sernika i wuzetki.",
+          "Napoleonka / kremówka: ciasto francuskie z kremem waniliowym, jasno osobno od szarlotki, sernika i wuzetki. Dwujęzycznie, z poradami dla diaspory.",
       },
     },
     ingredients: [
@@ -254,7 +258,7 @@ export const seedRecipesWave13B: Recipe[] = [
         amount: 500,
         unit: { de: "g", pl: "g" },
         group: "pantry",
-        storeHintDe: "Supermarkt — all-butter bevorzugt",
+        storeHintDe: "Aus dem Supermarkt, am besten eine Variante mit reinem Butteranteil",
       },
       {
         id: "nap-2",
@@ -286,7 +290,7 @@ export const seedRecipesWave13B: Recipe[] = [
         amount: 60,
         unit: { de: "g", pl: "g" },
         group: "pantry",
-        storeHintDe: "Supermarkt oder Polenladen",
+        storeHintDe: "Im Supermarkt oder im Polenladen erhältlich",
       },
       {
         id: "nap-6",

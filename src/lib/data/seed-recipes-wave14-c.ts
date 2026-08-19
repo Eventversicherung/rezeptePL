@@ -34,32 +34,33 @@ export const seedRecipesWave14C: Recipe[] = [
         title: "Placek po węgiersku",
         slug: "placek-po-wegiersku",
         excerpt:
-          "Composed Teller: knusprige Kartoffelpuffer mit Schweinegulasch obenauf und optionalem Käse — Fokus ist der komplette Teller, nicht Placki allein und nicht Gulasz allein.",
+          "Knusprige Kartoffelpuffer mit würzigem Schweinegulasch obenauf und optional geschmolzenem Käse, ein zusammengesetzter Teller, bei dem das Zusammenspiel zählt, nicht die Puffer oder das Gulasch allein.",
         steps: [
           {
             text: "Gulasch vorbereiten: Schweinenacken würfeln, anbraten, Zwiebel und Paprika dünsten, Tomatenmark und Paprikapulver kurz rösten, mit Brühe ablöschen und 60–90 Min zugedeckt schmoren, bis das Fleisch zart ist.",
-            tip: "Das Schmorfleisch allein bleibt [Gulasz wieprzowy](/de/rezepte/gulasz-wieprzowy) — hier nur Topping für den Composed-Teller. Schmortopf: [Dutch Oven](/de/blog/dutch-oven-kaufberatung).",
+            tip: "Das Schmorfleisch für sich allein bleibt bei [Gulasz wieprzowy](/de/rezepte/gulasz-wieprzowy), hier dient es nur als Topping für den Puffer-Teller. Einen passenden Schmortopf findest du in der [Dutch-Oven-Kaufberatung](/de/blog/dutch-oven-kaufberatung).",
           },
           {
             text: "Währenddessen Placki-Masse: Kartoffeln und Zwiebel reiben, kräftig ausdrücken, mit Ei, Mehl, Salz und Pfeffer verrühren.",
-            tip: "Technik und Abtropfen detailliert im [Placki-Guide](/de/blog/placki-guide). Nackte Puffer ohne Soße sind [Placki ziemniaczane](/de/rezepte/placki/ziemniaczane) — anderes Gericht.",
+            tip: "Technik und Abtropfen erklärt ausführlich der [Placki-Guide](/de/blog/placki-guide). Nackte Puffer ohne Soße bleiben [Placki ziemniaczane](/de/rezepte/placki/ziemniaczane), ein eigenes Gericht.",
           },
           {
-            text: "In heißem Öl (ca. 3–5 mm) mittelgroße Puffer goldbraun ausbacken. Warm halten (Ofen 90 °C, einzeln auf Blech — nicht stapeln).",
+            text: "In heißem Öl (ca. 3–5 mm) mittelgroße Puffer goldbraun ausbacken. Warm halten im Ofen bei 90 °C, dabei einzeln auf dem Blech verteilen, nicht stapeln, sonst werden sie weich.",
+            tip: "Gestapelte Puffer verlieren durch den eigenen Dampf schnell die Kruste, deshalb lohnt sich ein zweites Blech, wenn du größere Mengen warm halten willst.",
           },
           {
-            text: "Teller anrichten: 2–3 heiße Placki, großzügig Gulasch obenauf. Optional geriebenen Gouda/Edamer darüber und kurz unter Grill schmelzen lassen.",
-            tip: "Käse ist Hauslinie, kein Pflichtbestandteil — ehrlich im Excerpt. Menüplatz: [Sonntagsessen](/de/blog/sonntagsessen-polnisch).",
+            text: "Auf dem Teller anrichten: zwei bis drei heiße Placki, großzügig Gulasch obenauf. Optional geriebenen Gouda oder Edamer darüberstreuen und kurz unter dem Grill schmelzen lassen.",
+            tip: "Der Käse ist eine Hausvariante und kein Pflichtbestandteil, das darf ruhig ehrlich gesagt werden. Als Menüplatz passt der Teller gut ins [Sonntagsessen](/de/blog/sonntagsessen-polnisch).",
           },
           {
-            text: "Sofort servieren — Puffer verlieren sonst die Kruste unter der Soße. Optional Löffel Śmietana am Rand.",
-            tip: "Zwei Gerichte getrennt kochen und erst auf dem Teller verbinden — so bleiben Placki- und Gulasz-URLs Abgrenzung-klar.",
+            text: "Sofort servieren, sonst verlieren die Puffer unter der Soße schnell ihre Kruste. Optional einen Löffel Śmietana an den Tellerrand geben.",
+            tip: "Wer Gäste erwartet, kocht Gulasch und Puffer bewusst getrennt und bringt beides erst auf dem Teller zusammen, so bleiben die Puffer bis zuletzt knusprig.",
           },
         ],
         seoTitle:
           "Placek po węgiersku Rezept | Ungarischer Kartoffelpuffer | Alemniam",
         seoDescription:
-          "Placek po węgiersku: Kartoffelpuffer mit Gulasch-Topping und optional Käse. zusammengesetzter Teller, bilingual, klar ≠ Placki allein ≠ Gulasz allein.",
+          "Placek po węgiersku: Kartoffelpuffer mit Gulasch-Topping und optional Käse. Ein zusammengesetzter Teller, bilingual, klar unterschieden von Placki allein und von Gulasz allein.",
       },
       pl: {
         title: "Placek po węgiersku",

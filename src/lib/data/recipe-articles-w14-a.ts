@@ -9,105 +9,103 @@
  * (≥2 recipe + ≥2 blog) in FACTS longform fields.
  * Affiliate: guide-only (no relatedProductIds on recipes).
  *
- * Ownership:
- * - Wuzetka ≠ Napoleonka (Blätterteig) / Sernik / Szarlotka / Mazurek
- * - Drożdżówka ≠ Chałka (Zopf) / Babka (Gugelhupf) / Pączki / Racuchy
- * - Sonntagsessen bleibt Kultur-Owner; hier nur Cook-Primary
+ * Cross-links to keep distinct: Wuzetka vs Napoleonka (Blätterteig) / Sernik / Szarlotka / Mazurek;
+ * Drożdżówka vs Chałka (Zopf) / Babka (Gugelhupf) / Pączki / Racuchy.
  */
 
 export type ArticleFacts = {
- dishDe: string;
- dishPl: string;
- vibeDe: string;
- vibePl: string;
- originDe: string;
- originPl: string;
- shopDe: string;
- shopPl: string;
- techniqueDe: string;
- techniquePl: string;
- serveDe: string;
- servePl: string;
- diasporaDe: string;
- diasporaPl: string;
- mistakesDe: string;
- mistakesPl: string;
- variantsDe: string;
- variantsPl: string;
+  dishDe: string;
+  dishPl: string;
+  vibeDe: string;
+  vibePl: string;
+  originDe: string;
+  originPl: string;
+  shopDe: string;
+  shopPl: string;
+  techniqueDe: string;
+  techniquePl: string;
+  serveDe: string;
+  servePl: string;
+  diasporaDe: string;
+  diasporaPl: string;
+  mistakesDe: string;
+  mistakesPl: string;
+  variantsDe: string;
+  variantsPl: string;
 };
 
 export const W14_FACTS_A: Record<string, ArticleFacts> = {
- "recipe-wuzetka": {
- dishDe: "Wuzetka",
- dishPl: "Wuzetka",
- vibeDe:
- "dunkel-schokoladig, sahnig-kalt, Bäckerei-Schnitt — Schoko-Sahne, kein Blätterteig",
- vibePl:
- "ciemno-czekoladowy, śmietankowo-zimny, cukierniczy przekrój — czekolada+śmietana, nie francuskie",
- originDe:
- "Wuzetka ist die klassische polnische Schoko-Sahne-Torte: Kakao-Biskuit, dicke geschlagene Sahne dazwischen, dunkle Schoko-Glasur oben. Der Schnitt zeigt dunkle Biskuitschichten und eine helle Sahnefüllung, oft als Rechteck vom Blech. Das ist weder Blätterteig mit Vanillecreme wie [Napoleonka](/de/rezepte/napoleonka) noch Quarkkuchen wie [Sernik](/de/rezepte/sernik) noch Apfelkuchen wie [Szarlotka](/de/rezepte/szarlotka) und auch kein flacher Osterbelag wie [Mazurek](/de/rezepte/mazurek). Am [Sonntagsessen](/de/blog/sonntagsessen-polnisch) darf sie der Kaffee-Schluss sein. In der Diaspora oft der Bäckerei-Klassiker, den man zu Hause nachbaut, wenn Kühlschrank und Ruhezeit da sind.",
- originPl:
- "Wuzetka to klasyczny polski tort czekoladowo-śmietankowy: biszkopt kakaowy, gęsta ubita śmietana w środku, ciemna polewa na wierzchu. Przekrój pokazuje ciemne warstwy biszkoptu i jasną śmietanę, często prostokąt z blachy. To ani ciasto francuskie z kremem waniliowym jak [napoleonka](/pl/rezepte/napoleonka), ani [sernik](/pl/rezepte/sernik), ani [szarlotka](/pl/rezepte/szarlotka), ani płaski [mazurek](/pl/rezepte/mazurek). Przy [obiedzie niedzielnym](/pl/blog/obiad-niedzielny) bywa domknięciem przy kawie. W diasporze często klasyk cukierniczy, który odtwarza się w domu, gdy jest lodówka i czas na chłodzenie.",
- shopDe:
- "Für Biskuit und Füllung brauchst du Kakao, Mehl, Eier, Zucker, Schlagsahne, dunkle Schokolade oder Kuvertüre und Butter — Basis im Supermarkt; gutes Kakao und manchmal bessere Kuvertüre im [Polenladen](/de/blog/polenladen-einkaufen). Fehlt Sahne-Qualität oder Kakao, ersetze ehrlich laut [Ersatzprodukte DE](/de/blog/ersatzprodukte-de), ohne in Blätterteig-Charakter zu kippen. Fertig-Blätterteig als Basis wird zu [Napoleonka](/de/rezepte/napoleonka); Quark oder Apfelkern zu [Sernik](/de/rezepte/sernik) bzw. [Szarlotka](/de/rezepte/szarlotka).",
- shopPl:
- "Na biszkopt i nadzienie potrzebujesz kakao, mąki, jajek, cukru, śmietanki, gorzkiej czekolady lub couverture i masła — baza w markecie; dobre kakao i czasem lepsza couverture w [sklepie polskim](/pl/blog/sklep-polski-zakupy). Brak jakości śmietanki lub kakao — zamień uczciwie według [zamienników](/pl/blog/zamienniki-skladnikow), bez dryfu w francuskie. Gotowe ciasto francuskie jako baza staje się [napoleonką](/pl/rezepte/napoleonka); twaróg lub jabłko — [sernikiem](/pl/rezepte/sernik) albo [szarlotką](/pl/rezepte/szarlotka).",
- techniqueDe:
- "Biskuit luftig backen, vollständig abkühlen, dann einmal teilen — heiß reißt und saugt die Sahne falsch. Sahne sehr kalt und steif; leichte Stabilisierung verhindert Rutschen im Schnitt. Tränken sparsam (Kaffee/Kakao-Milch), nicht nass. Glasur auf kalte Torte; danach lange kühlen, bis der Schnitt sauber ist. Zu flüssige Sahne = matschiger Schnitt; zu trockener Biskuit = bröckelig. Das ist kein Blätterteig-Bau wie [Napoleonka](/de/rezepte/napoleonka) und kein Quarkboden wie [Sernik](/de/rezepte/sernik). Backruhe und Sonntagsrhythmus [Sonntagsessen](/de/blog/sonntagsessen-polnisch).",
- techniquePl:
- "Biszkopt piecz puszysto, całkowicie ostudź, potem przekrój — na gorąco się rwie i źle bierze śmietanę. Śmietanka bardzo zimna i sztywna; lekka stabilizacja chroni przed ślizganiem. Nasączanie oszczędnie (kawa/kakao z mlekiem), nie mokro. Polewa na zimny tort; potem długie chłodzenie aż krojenie czyste. Za rzadka śmietana = rozmokły przekrój; za suchy biszkopt = kruszenie. To nie budowa z francuskiego jak [napoleonka](/pl/rezepte/napoleonka) i nie spód twarogowy jak [sernik](/pl/rezepte/sernik). Rytm niedzielny [obiad niedzielny](/pl/blog/obiad-niedzielny).",
- serveDe:
- "Kalt in Rechtecken, oft mit Sahnetupfer, zu Kaffee oder Tee. Als Sonntagsschluss unter [Sonntagsessen](/de/blog/sonntagsessen-polnisch). Auf dem Tisch klar halten: Blätterteig-Creme = [Napoleonka](/de/rezepte/napoleonka); Quark = [Sernik](/de/rezepte/sernik); Apfelblech = [Szarlotka](/de/rezepte/szarlotka). Einkaufskontext: [Polenladen](/de/blog/polenladen-einkaufen). Hält gekühlt zwei bis drei Tage; Glasur vor dem Servieren ggf. glätten.",
- servePl:
- "Na zimno w prostokątach, często z czubkiem śmietany, do kawy lub herbaty. Jako niedzielne domknięcie pod [obiadem niedzielnym](/pl/blog/obiad-niedzielny). Na stole: francuskie+krem = [napoleonka](/pl/rezepte/napoleonka); twaróg = [sernik](/pl/rezepte/sernik); jabłko z blachy = [szarlotka](/pl/rezepte/szarlotka). W [sklep polski](/pl/blog/sklep-polski-zakupy) kupisz typowe specjalności. Trzyma 2–3 dni w chłodzie; polewę przed podaniem ewentualnie wygładź.",
- diasporaDe:
- "Wuzetka ist der Diaspora-Bäckerei-Klassiker, den deutsche Gäste als „Schoko-Sahne-Schnitt“ verstehen und polnische Familien sofort wiedererkennen, wenn Biskuit dunkel und Sahne hell ist. Ein Blech für den Sonntag, Stücke für Gäste, Rest für den nächsten Tag. Kühlzeit ist kein Luxus — ohne sie zerfließt der Schnitt. Kein Zwang zu Blätterteig-Ästhetik und kein Quark als „Ersatzfüllung“. Im [Polenladen](/de/blog/polenladen-einkaufen) und unter [Ersatzprodukte](/de/blog/ersatzprodukte-de) findest du Einkaufshilfen. Kulturrahmen bleibt [Sonntagsessen](/de/blog/sonntagsessen-polnisch).",
- diasporaPl:
- "Wuzetka to klasyk cukierniczy diasporze, który niemieccy goście rozumieją jako „przekrój czekoladowo-śmietankowy”, a polskie rodziny rozpoznają od razu, gdy biszkopt jest ciemny, a śmietana jasna. Jedna blacha na niedzielę, kawałki dla gości, resztka na następny dzień. Czas chłodzenia nie jest luksusem — bez niego przekrój się rozjeżdża. Bez przymusu estetyki francuskiego i bez twarogu jako „zamiennika”. W [sklep polski](/pl/blog/sklep-polski-zakupy) i pod [zamienniki](/pl/blog/zamienniki-skladnikow) znajdziesz wskazówki zakupowe. Rama kultury: [obiad niedzielny](/pl/blog/obiad-niedzielny).",
- mistakesDe:
- "Mit [Napoleonka](/de/rezepte/napoleonka) verwechseln (Blätterteig). Mit [Sernik](/de/rezepte/sernik) oder [Szarlotka](/de/rezepte/szarlotka) verwechseln. Sahne zu weich; Biskuit heiß schichten; zu kurz kühlen.",
- mistakesPl:
- "Mylenie z [napoleonką](/pl/rezepte/napoleonka) (francuskie). Mylenie z [sernikiem](/pl/rezepte/sernik) lub [szarlotką](/pl/rezepte/szarlotka). Za miękka śmietana; gorący biszkopt; za krótkie chłodzenie. Nie mieszać ilości i kroków z sąsiednim przepisem.",
- variantsDe:
- "Mit stärkerer Kaffee-Tränke, mit etwas Kakao in der Sahne (ehrlich benennen), mit dünnerer Glasur. Passende Nachbarn sind [Napoleonka](/de/rezepte/napoleonka), [Sernik](/de/rezepte/sernik), [Szarlotka](/de/rezepte/szarlotka). Guides: [Sonntagsessen](/de/blog/sonntagsessen-polnisch), [Polenladen](/de/blog/polenladen-einkaufen), [Ersatzprodukte](/de/blog/ersatzprodukte-de).",
- variantsPl:
- "Z mocniejszym nasączeniem kawą, z odrobiną kakao w śmietanie (nazwać uczciwie), z cieńszą polewą. Pasujący sąsiedzi to [napoleonka](/pl/rezepte/napoleonka), [sernik](/pl/rezepte/sernik), [szarlotka](/pl/rezepte/szarlotka). Przewodniki: [obiad niedzielny](/pl/blog/obiad-niedzielny), [sklep polski](/pl/blog/sklep-polski-zakupy), [zamienniki](/pl/blog/zamienniki-skladnikow).",
- },
+  "recipe-wuzetka": {
+    dishDe: "Wuzetka",
+    dishPl: "Wuzetka",
+    vibeDe:
+      "dunkel-schokoladig, sahnig-kalt, ein Bäckerei-Schnitt aus Kakao-Biskuit und Sahne, kein Blätterteig",
+    vibePl:
+      "ciemno-czekoladowy, śmietankowo-zimny, cukierniczy przekrój z biszkoptu kakaowego i śmietany, nie francuskie",
+    originDe:
+      "Wuzetka ist eines der wenigen polnischen Gebäcke mit einem exakt dokumentierten Geburtsdatum: Ende der 1940er Jahre schrieb die Warschauer Zunft der Lebensmittelhandwerker (Cech Rzemiosł Spożywczych) einen Wettbewerb für ein neues Konditoreistück aus, das zum süßen Symbol der Hauptstadt werden sollte. Die Warschauer Zakłady Ciastkarskie gewannen mit genau diesem Schnitt aus Kakao-Biskuit, Sahnefüllung und Schokoglasur und verkauften ihn zunächst exklusiv in den Cafés der Kette Camargo. Woher der Name kommt, ist bis heute umstritten: Die meisten Historiker verbinden ihn mit der Warschauer Ost-West-Trasse, kurz W-Z, die am 22. Juli 1949 eröffnet wurde und in deren Nähe eine der ersten Konditoreien lag, andere leiten ihn vom Kürzel WZC (Warszawskie Zakłady Ciastkarskie) oder von „wypiek z kremem“ ab. Weil das Rezept nie patentiert wurde, verbreitete es sich in den 1970er Jahren über ganz Polen, nachdem ehemalige WZC-Mitarbeiter eigene Betriebe gegründet hatten. Popkulturell unsterblich wurde die Wuzetka durch Stanisław Barejas Kultfilm „Miś“ von 1980, in dem der Satz fällt, Kaffee und Wuzetka seien für jeden Pflicht. Heute steht sie auf der Liste der traditionellen Warschauer Produkte. Wer stattdessen Blätterteig mit Vanillecreme sucht, findet [Napoleonka](/de/rezepte/napoleonka); Quarkkuchen bleibt [Sernik](/de/rezepte/sernik), Apfelkuchen [Szarlotka](/de/rezepte/szarlotka).",
+    originPl:
+      "Wuzetka ma coś rzadkiego jak na polskie ciasto: dobrze udokumentowaną metrykę. Pod koniec lat czterdziestych Cech Rzemiosł Spożywczych w Warszawie ogłosił konkurs na nowe ciastko, które miało stać się słodkim symbolem stolicy. Warszawskie Zakłady Ciastkarskie wygrały właśnie tym przekrojem z biszkoptu kakaowego, śmietany i polewy czekoladowej i sprzedawały go najpierw wyłącznie w kawiarniach sieci Camargo. Skąd wzięła się nazwa, do dziś nie wiadomo na pewno: większość badaczy łączy ją z warszawską Trasą W-Z, otwartą 22 lipca 1949 roku, w pobliżu której działała jedna z pierwszych cukierni, inni wywodzą ją od skrótu WZC (Warszawskie Zakłady Ciastkarskie) albo od „wypieku z kremem”. Ponieważ przepisu nigdy nie opatentowano, w latach siedemdziesiątych rozprzestrzenił się po całej Polsce, gdy byli pracownicy WZC zakładali własne cukiernie. Nieśmiertelność popkulturową zapewnił jej kultowy film Stanisława Barei „Miś” z 1980 roku, w którym pada zdanie, że kawa i wuzetka są obowiązkowe dla każdego. Dziś figuruje na liście warszawskich produktów tradycyjnych. Kto szuka ciasta francuskiego z kremem waniliowym, znajdzie [napoleonkę](/pl/rezepte/napoleonka); sernikiem zostaje [sernik](/pl/rezepte/sernik), a jabłecznikiem [szarlotka](/pl/rezepte/szarlotka).",
+    shopDe:
+      "Für Biskuit und Füllung brauchst du Kakao, Mehl, Eier, Zucker, Schlagsahne, dunkle Schokolade oder Kuvertüre und Butter. Die Basis findest du im Supermarkt, gutes Kakaopulver und manchmal bessere Kuvertüre im [Polenladen](/de/blog/polenladen-einkaufen). Fehlt Sahne in guter Qualität oder passendes Kakaopulver, hilft [Ersatzprodukte DE](/de/blog/ersatzprodukte-de) weiter, ohne dass die Torte in Richtung Blätterteig kippt. Fertiger Blätterteig als Basis führt eigentlich zu [Napoleonka](/de/rezepte/napoleonka), ein Quark- oder Apfelkern zu [Sernik](/de/rezepte/sernik) beziehungsweise [Szarlotka](/de/rezepte/szarlotka).",
+    shopPl:
+      "Na biszkopt i nadzienie potrzebujesz kakao, mąki, jajek, cukru, śmietanki, gorzkiej czekolady lub couverture i masła. Bazę kupisz w markecie, dobre kakao i czasem lepszą couverture w [sklepie polskim](/pl/blog/sklep-polski-zakupy). Gdy brakuje śmietanki dobrej jakości albo odpowiedniego kakao, pomogą [zamienniki składników](/pl/blog/zamienniki-skladnikow), bez zbaczania w stronę ciasta francuskiego. Gotowe ciasto francuskie jako baza prowadzi właściwie do [napoleonki](/pl/rezepte/napoleonka), a twaróg lub jabłko do [sernika](/pl/rezepte/sernik) albo [szarlotki](/pl/rezepte/szarlotka).",
+    techniqueDe:
+      "Der Biskuit muss vollständig auskühlen, bevor er geteilt wird, warm reißt er und saugt die Sahne ungleichmäßig auf. Die Sahne sollte sehr kalt und wirklich steif geschlagen sein, eine leichte Stabilisierung mit Gelatine oder Speisestärke verhindert, dass die Schicht beim Anschneiden wegrutscht. Beim Tränken mit Kaffee oder Kakao-Milch lieber sparsam arbeiten, sonst wird der Boden matschig statt saftig. Die Glasur kommt erst auf die bereits kalte Torte, danach braucht sie mehrere Stunden Kühlzeit, damit der Schnitt sauber bleibt statt zu verschmieren. Zu weiche Sahne oder zu kurze Kühlzeit sind die häufigsten Gründe, warum der charakteristische Schnitt mit dunklen Biskuitstreifen und heller Füllung nicht gelingt. Das unterscheidet die Wuzetka technisch klar vom Blätterteig-Aufbau der [Napoleonka](/de/rezepte/napoleonka) und vom Quarkboden des [Sernik](/de/rezepte/sernik).",
+    techniquePl:
+      "Biszkopt musi całkowicie wystygnąć, zanim go przekroisz, na gorąco się rwie i nierówno wchłania śmietanę. Śmietankę ubij bardzo zimną i naprawdę na sztywno, lekka stabilizacja żelatyną lub skrobią chroni warstwę przed zsuwaniem się podczas krojenia. Przy nasączaniu kawą lub kakao z mlekiem lepiej działać oszczędnie, inaczej spód zrobi się rozmokły zamiast wilgotny. Polewę nakładaj dopiero na zimny tort, potem potrzeba kilku godzin chłodzenia, żeby krojenie zostało czyste, a nie się rozmazywało. Za miękka śmietana albo za krótkie chłodzenie to najczęstsze powody, dla których charakterystyczny przekrój z ciemnymi paskami biszkoptu i jasnym nadzieniem się nie udaje. To odróżnia wuzetkę technicznie od budowy z ciasta francuskiego w [napoleonce](/pl/rezepte/napoleonka) i od spodu twarogowego w [serniku](/pl/rezepte/sernik).",
+    serveDe:
+      "Am besten kalt in Rechtecken, oft mit einem Sahnetupfer obendrauf, zu Kaffee oder Tee. Als süßer Abschluss passt sie gut zum [Sonntagsessen](/de/blog/sonntagsessen-polnisch). Auf dem Kaffeetisch bleibt die Zuordnung einfach: Blätterteig mit Creme ist [Napoleonka](/de/rezepte/napoleonka), Quark ist [Sernik](/de/rezepte/sernik), Apfelkuchen vom Blech ist [Szarlotka](/de/rezepte/szarlotka). Typische Zutaten dafür findest du im [Polenladen](/de/blog/polenladen-einkaufen). Gekühlt hält sie sich zwei bis drei Tage, die Glasur vor dem Servieren bei Bedarf kurz glattstreichen.",
+    servePl:
+      "Najlepiej na zimno w prostokątach, często z czubkiem śmietany na wierzchu, do kawy lub herbaty. Jako słodkie zwieńczenie pasuje dobrze do [obiadu niedzielnego](/pl/blog/obiad-niedzielny). Przy stole zapamiętać łatwo: ciasto francuskie z kremem to [napoleonka](/pl/rezepte/napoleonka), twaróg to [sernik](/pl/rezepte/sernik), jabłecznik z blachy to [szarlotka](/pl/rezepte/szarlotka). Typowe składniki znajdziesz w [sklepie polskim](/pl/blog/sklep-polski-zakupy). W chłodzie trzyma się dwa do trzech dni, polewę przed podaniem w razie potrzeby wygładź.",
+    diasporaDe:
+      "Wuzetka ist der Bäckerei-Klassiker, den deutsche Gäste einfach als Schoko-Sahne-Schnitt verstehen und polnische Familien sofort erkennen, sobald der dunkle Biskuit und die helle Sahnefüllung im Schnitt sichtbar werden. Ein Blech reicht für den Sonntagskaffee mit Gästen, der Rest hält sich gut bis zum nächsten Tag. Die Kühlzeit ist kein Luxus, sondern nötig, damit der Schnitt beim Servieren nicht zerfließt. Zutaten dafür findest du im [Polenladen](/de/blog/polenladen-einkaufen), Alternativen unter [Ersatzprodukte DE](/de/blog/ersatzprodukte-de). Der kulturelle Rahmen bleibt beim [Sonntagsessen](/de/blog/sonntagsessen-polnisch).",
+    diasporaPl:
+      "Wuzetka to cukierniczy klasyk, który niemieccy goście rozumieją po prostu jako przekrój czekoladowo-śmietankowy, a polskie rodziny rozpoznają od razu, gdy w przekroju widać ciemny biszkopt i jasną śmietanę. Jedna blacha starcza na niedzielną kawę z gośćmi, reszta dobrze trzyma się do następnego dnia. Czas chłodzenia to nie luksus, tylko konieczność, żeby przekrój nie rozjechał się przy podawaniu. Składniki znajdziesz w [sklepie polskim](/pl/blog/sklep-polski-zakupy), zamienniki pod [zamiennikami składników](/pl/blog/zamienniki-skladnikow). Rama kulturowa zostaje przy [obiedzie niedzielnym](/pl/blog/obiad-niedzielny).",
+    mistakesDe:
+      "Die Torte mit [Napoleonka](/de/rezepte/napoleonka) zu verwechseln ist der häufigste Fehler, dabei ist Blätterteig ein komplett anderer Teig. Auch die Verwechslung mit [Sernik](/de/rezepte/sernik) oder [Szarlotka](/de/rezepte/szarlotka) kommt vor, beide haben einen anderen Boden. Technisch scheitert die Wuzetka meist an zu weicher Sahne, an einem noch warm geschichteten Biskuit oder an zu kurzer Kühlzeit vor dem Anschneiden.",
+    mistakesPl:
+      "Najczęstszy błąd to mylenie wuzetki z [napoleonką](/pl/rezepte/napoleonka), a przecież ciasto francuskie to zupełnie inny wypiek. Zdarza się też mylenie z [sernikiem](/pl/rezepte/sernik) lub [szarlotką](/pl/rezepte/szarlotka), obie mają inny spód. Technicznie wuzetka najczęściej nie wychodzi przez zbyt miękką śmietanę, przekładanie jeszcze ciepłego biszkoptu albo zbyt krótkie chłodzenie przed krojeniem.",
+    variantsDe:
+      "Mit stärkerer Kaffeetränke wird der Biskuit intensiver, mit einem Hauch Kakao in der Sahne entsteht eine mokka-artige Variante, die man ehrlich benennen sollte, und mit dünnerer Glasur wird der Schnitt insgesamt leichter. Wer lieber Blätterteig mag, findet sein Rezept bei [Napoleonka](/de/rezepte/napoleonka), Quarkfans bei [Sernik](/de/rezepte/sernik) und Apfelkuchen-Liebhaber bei [Szarlotka](/de/rezepte/szarlotka). Zum Menürahmen passt das [Sonntagsessen](/de/blog/sonntagsessen-polnisch), Einkaufshilfen liefern der [Polenladen](/de/blog/polenladen-einkaufen) und die [Ersatzprodukte](/de/blog/ersatzprodukte-de).",
+    variantsPl:
+      "Z mocniejszym nasączeniem kawą biszkopt zyskuje intensywność, z odrobiną kakao w śmietanie powstaje wariant mokka, który warto uczciwie nazwać, a z cieńszą polewą całość robi się lżejsza. Kto woli ciasto francuskie, znajdzie swój przepis przy [napoleonce](/pl/rezepte/napoleonka), fani twarogu przy [serniku](/pl/rezepte/sernik), a miłośnicy jabłecznika przy [szarlotce](/pl/rezepte/szarlotka). Do ramy menu pasuje [obiad niedzielny](/pl/blog/obiad-niedzielny), zakupy ułatwią [sklep polski](/pl/blog/sklep-polski-zakupy) i [zamienniki składników](/pl/blog/zamienniki-skladnikow).",
+  },
 
- "recipe-drozdzowka": {
- dishDe: "Drożdżówka / Placek drożdżowy",
- dishPl: "Drożdżówka / placek drożdżowy",
- vibeDe:
- "hefewarm, streuselig-süß, Alltag und Sonntagskaffee — Blech, kein Zopf",
- vibePl:
- "drożdżowo-ciepły, kruszonkowy, codzienność i niedzielna kawa — blacha, nie warkocz",
- originDe:
- "Drożdżówka bzw. Placek drożdżowy ist der klassische polnische Hefekuchen vom Blech: weicher Hefeteig flach ausgezogen, dicke kruszonka (Streusel) oben, optional Apfel- oder Pflaumenscheiben darunter. Das ist weder der geflochtene Hefezopf [Chałka](/de/rezepte/chalka) noch der hohe Gugelhupf [Babka](/de/rezepte/babka) noch die frittierten [Pączki](/de/rezepte/paczki) und auch keine Apfel-Pfannkuchen [Racuchy](/de/rezepte/racuchy-jablka). Am [Sonntagsessen](/de/blog/sonntagsessen-polnisch) darf sie zum Kaffee gehören. Hefe-Gefühl erklärt die [Makowiec-Technik](/de/blog/makowiec-technik). In der Diaspora oft der Blechkuchen, den man samstags backt und sonntags nur noch schneidet.",
- originPl:
- "Drożdżówka / placek drożdżowy to klasyczny polski placek drożdżowy z blachy: miękkie ciasto płasko rozciągnięte, gęsta kruszonka na wierzchu, opcjonalnie jabłko lub śliwka pod spodem. To ani pleciona [chałka](/pl/rezepte/chalka), ani wysoka [babka](/pl/rezepte/babka) z formy, ani smażone [pączki](/pl/rezepte/paczki), ani jabłkowe [racuchy](/pl/rezepte/racuchy-jablka). Przy [obiedzie niedzielnym](/pl/blog/obiad-niedzielny) bywa do kawy. Wyczucie drożdży daje [technika makowca](/pl/blog/makowiec-technika). W diasporze często placek z soboty, który w niedzielę tylko kroisz.",
- shopDe:
- "Für den Hefeteig brauchst du Mehl, Milch, Hefe, Zucker, Ei, Butter und Salz; für die Streusel zusätzliche kalte Butter, Mehl und Zucker; optional Apfel. Hefe und gute Butter findest du oft im [Polenladen](/de/blog/polenladen-einkaufen). Fehlt Hefe oder Mehltyp, ersetze ehrlich laut [Ersatzprodukte DE](/de/blog/ersatzprodukte-de). Gugelhupf-Form und Frittieröl führen zu [Babka](/de/rezepte/babka) bzw. [Pączki](/de/rezepte/paczki); Flechtwerk gehört zu [Chałka](/de/rezepte/chalka).",
- shopPl:
- "Na ciasto drożdżowe potrzebujesz mąki, mleka, drożdży, cukru, jajka, masła i soli; na kruszonkę dodatkowego zimnego masła, mąki i cukru; opcjonalnie jabłko. Drożdże i dobre masło często kupisz w [sklepie polskim](/pl/blog/sklep-polski-zakupy). Brak drożdży lub typu mąki — zamień uczciwie według [zamienników](/pl/blog/zamienniki-skladnikow). Forma babkowa i olej do smażenia prowadzą do [babki](/pl/rezepte/babka) lub [pączków](/pl/rezepte/paczki); splot należy do [chałki](/pl/rezepte/chalka).",
- techniqueDe:
- "Hefe lauwarm aktivieren, Teig elastisch kneten und verdoppeln lassen. Flach aufs Blech drücken — nicht flechten, nicht in Gugelhupf pressen. Streusel aus kalter Butter zu groben Krümeln; dick streuen, damit der Charakter „kruszonka“ bleibt. Optional Obst vor dem Streusel. Zweites Gehen kurz; backen bis goldbraun und durch. Zu heiße Milch tötet Hefe; zu wenig Gehen macht den Placek kompakt; zu wenig Streusel wirkt wie nackter Hefeteig. Hefe-Kontext: [Makowiec-Technik](/de/blog/makowiec-technik). Form-Nachbar: [Chałka](/de/rezepte/chalka) (Zopf), [Babka](/de/rezepte/babka) (Form).",
- techniquePl:
- "Drożdże aktywować na letnio, ciasto elastycznie wyrabiać i podwoić. Płasko na blachę — bez splotu, bez formy babkowej. Kruszonkę z zimnego masła w grube okruchy; sypać gęsto, żeby został charakter „kruszonka”. Opcjonalnie owoce przed kruszonką. Drugie wyrastanie krótko; piec na złoto i wypieczone. Za gorące mleko zabija drożdże; za krótkie wyrastanie zbija placek; za mało kruszonki wygląda jak gołe ciasto. Wyczucie: [technika makowca](/pl/blog/makowiec-technika). Sąsiedzi formy: [chałka](/pl/rezepte/chalka) (warkocz), [babka](/pl/rezepte/babka) (forma).",
- serveDe:
- "In Rechtecken, warm oder lauwarm, zum Kaffee. Menüplatz: [Sonntagsessen](/de/blog/sonntagsessen-polnisch). Wer Zopf will: [Chałka](/de/rezepte/chalka); wer Formkuchen: [Babka](/de/rezepte/babka); wer frittiert: [Pączki](/de/rezepte/paczki); wer Pfanne: [Racuchy](/de/rezepte/racuchy-jablka). Im [Polenladen](/de/blog/polenladen-einkaufen) findest du typische Spezialzutaten. Reste luftdicht — toasten oder kurz aufwärmen.",
- servePl:
- "W prostokątach, ciepłe lub letnie, do kawy. Miejsce w menu: [obiad niedzielny](/pl/blog/obiad-niedzielny). Warkocz: [chałka](/pl/rezepte/chalka); forma: [babka](/pl/rezepte/babka); smażone: [pączki](/pl/rezepte/paczki); patelnia: [racuchy](/pl/rezepte/racuchy-jablka). W [sklepie polskim](/pl/blog/sklep-polski-zakupy) kupisz typowe specjalności. Resztki trzymaj szczelnie — krótko podgrzej lub zapiecz jak tosty.",
- diasporaDe:
- "Placek drożdżowy ist diaspora-freundlich: ein Blech, Hefe aus dem Vorrat, Streusel aus Butter-Mehl-Zucker, Obst aus dem Supermarkt. Samstag backen, Sonntag nur schneiden — entlastet den Morgen. Kinder dürfen Streusel reiben; heißer Ofen bei Erwachsenen. Qualität vor drei verschiedenen Hefegebäcken am selben Tag. Im [Polenladen](/de/blog/polenladen-einkaufen) und unter [Ersatzprodukte](/de/blog/ersatzprodukte-de) findest du Einkaufshilfen. Kultur [Sonntagsessen](/de/blog/sonntagsessen-polnisch).",
- diasporaPl:
- "Placek drożdżowy lubi diasporę: jedna blacha, drożdże ze spiżarni, kruszonka z masła-mąki-cukru, owoce z marketu. Sobota pieczenie, niedziela tylko krojenie — odciąża poranek. Dzieci zetrą kruszonkę; gorący piec u dorosłych. Jakość przed trzema wypiekami drożdżowymi tego samego dnia. W [sklep polski](/pl/blog/sklep-polski-zakupy) i pod [zamienniki](/pl/blog/zamienniki-skladnikow) znajdziesz wskazówki zakupowe. Kultura osobny farsz i osobne ilości.: [obiad niedzielny](/pl/blog/obiad-niedzielny).",
- mistakesDe:
- "Mit [Chałka](/de/rezepte/chalka) verwechseln (Zopf). Mit [Babka](/de/rezepte/babka) verwechseln (Form). Mit [Pączki](/de/rezepte/paczki) oder [Racuchy](/de/rezepte/racuchy-jablka) verwechseln. Zu heiße Milch; zu wenig Gehen; zu dünner Streusel. nein.",
- mistakesPl:
- "Mylenie z [chałką](/pl/rezepte/chalka) (warkocz). Mylenie z [babką](/pl/rezepte/babka) (forma). Mylenie z [pączkami](/pl/rezepte/paczki) lub [racuchami](/pl/rezepte/racuchy-jablka). Za gorące mleko; za krótkie wyrastanie; za cienka kruszonka. Nie mieszać ilości i kroków z sąsiednim przepisem.",
- variantsDe:
- "Mit mehr Apfel; mit Pflaume saisonal; ohne Obst nur Streusel; kleinere Teilchen statt ganzes Blech (Fokus bleibt Hefe+Streusel). Passende Nachbarn sind [Chałka](/de/rezepte/chalka), [Babka](/de/rezepte/babka), [Pączki](/de/rezepte/paczki), [Racuchy](/de/rezepte/racuchy-jablka). Guides: [Sonntagsessen](/de/blog/sonntagsessen-polnisch), [Makowiec-Technik](/de/blog/makowiec-technik), [Polenladen](/de/blog/polenladen-einkaufen), [Ersatzprodukte](/de/blog/ersatzprodukte-de).",
- variantsPl:
- "Z większą ilością jabłka; ze śliwką sezonowo; bez owoców tylko kruszonka; mniejsze bułeczki zamiast całej blachy (fokus zostaje drożdże+kruszonka). Pasujący sąsiedzi to [chałka](/pl/rezepte/chalka), [babka](/pl/rezepte/babka), [pączki](/pl/rezepte/paczki), [racuchy](/pl/rezepte/racuchy-jablka). Przewodniki: [obiad niedzielny](/pl/blog/obiad-niedzielny), [technika makowca](/pl/blog/makowiec-technika), [sklep polski](/pl/blog/sklep-polski-zakupy), [zamienniki](/pl/blog/zamienniki-skladnikow).",
- },
+  "recipe-drozdzowka": {
+    dishDe: "Drożdżówka / Placek drożdżowy",
+    dishPl: "Drożdżówka / placek drożdżowy",
+    vibeDe:
+      "hefewarm, streuselig-süß, ein Blechkuchen für Alltag und Sonntagskaffee, kein Zopf",
+    vibePl:
+      "drożdżowo-ciepły, kruszonkowy, na co dzień i do niedzielnej kawy, blacha, nie warkocz",
+    originDe:
+      "Placek drożdżowy geht direkt auf das Brotbacken zurück: Hefeteig kannten polnische Haushalte über Jahrhunderte vor allem als Grundlage für Brot, und die süße, mit Zucker, Butter und Eiern angereicherte Blechvariante war lange ein teures Festtagsgebäck. Landwirtschaftsministeriums-Dokumentationen aus der Kujawien-Region beschreiben, dass um 1900 Brot noch fast ausschließlich aus Roggensauerteig gebacken wurde, während der Hefekuchen aus Weizenmehl nur zu Kirchweihfesten (odpust) und hohen Feiertagen auf den Tisch kam, oft zusätzlich mit Trockenfrüchten verfeinert. Erst mit wachsendem Wohlstand der Region wurde er zum Alltagsgebäck. Rezepte für Streuselkuchen finden sich bereits in Kochbüchern des späten 19. und frühen 20. Jahrhunderts, etwa bei Lucyna Ćwierczakiewiczowa aus dem Jahr 1895 oder bei Maria Ochorowicz-Monatowa, und die Zubereitung hat sich seither kaum verändert. In der Zwischenkriegszeit standardisierten polnische Bäckereien die süßen Hefeteilchen, und selbst in den Mangeljahren nach 1945 hielten viele Bäckereien die Produktion aufrecht, sodass ein frischer Hefekuchen zu einem kleinen, verlässlichen Luxus wurde. Der Placek bleibt dabei klar von anderen Hefegebäcken abgegrenzt: kein geflochtener Zopf wie [Chałka](/de/rezepte/chalka), keine hohe Gugelhupfform wie [Babka](/de/rezepte/babka), kein Frittieren wie bei [Pączki](/de/rezepte/paczki) und keine Pfanne wie bei [Racuchy](/de/rezepte/racuchy-jablka).",
+    originPl:
+      "Placek drożdżowy wywodzi się bezpośrednio z pieczenia chleba: ciasto drożdżowe polskie domy znały przez wieki przede wszystkim jako bazę na chleb, a słodka wersja z blachy, wzbogacona cukrem, masłem i jajkami, długo była drogim wypiekiem odświętnym. Dokumentacje Ministerstwa Rolnictwa z Kujaw opisują, że około 1900 roku chleb piekło się niemal wyłącznie na zakwasie żytnim, a placek drożdżowy z mąki pszennej trafiał na stół tylko z okazji odpustu i większych świąt, często dodatkowo z bakaliami. Dopiero rosnący dobrobyt regionu uczynił go wypiekiem codziennym. Przepisy na ciasta z kruszonką znajdziemy już w książkach kucharskich z końca XIX i początku XX wieku, na przykład u Lucyny Ćwierczakiewiczowej z 1895 roku czy u Marii Ochorowicz-Monatowej, a sposób przygotowania od tamtej pory prawie się nie zmienił. W dwudziestoleciu międzywojennym polskie piekarnie ustandaryzowały słodkie wypieki drożdżowe, a nawet w trudnych latach po 1945 roku wiele piekarni utrzymywało ich produkcję, dzięki czemu świeży placek stał się małym, pewnym luksusem. Placek zostaje przy tym wyraźnie oddzielony od innych wypieków drożdżowych: to nie pleciony warkocz jak [chałka](/pl/rezepte/chalka), nie wysoka forma babkowa jak [babka](/pl/rezepte/babka), nie smażenie jak w [pączkach](/pl/rezepte/paczki) i nie patelnia jak w [racuchach](/pl/rezepte/racuchy-jablka).",
+    shopDe:
+      "Für den Hefeteig brauchst du Mehl, Milch, Hefe, Zucker, Ei, Butter und Salz, für die Streusel zusätzlich kalte Butter, Mehl und Zucker, optional Apfel. Hefe und gute Butter findest du oft im [Polenladen](/de/blog/polenladen-einkaufen). Fehlt Hefe oder ein bestimmter Mehltyp, hilft [Ersatzprodukte DE](/de/blog/ersatzprodukte-de) weiter. Eine Gugelhupfform oder Frittieröl führen eigentlich zu [Babka](/de/rezepte/babka) beziehungsweise [Pączki](/de/rezepte/paczki), geflochtener Zopf gehört zu [Chałka](/de/rezepte/chalka).",
+    shopPl:
+      "Na ciasto drożdżowe potrzebujesz mąki, mleka, drożdży, cukru, jajka, masła i soli, na kruszonkę dodatkowo zimnego masła, mąki i cukru, opcjonalnie jabłka. Drożdże i dobre masło często kupisz w [sklepie polskim](/pl/blog/sklep-polski-zakupy). Gdy brakuje drożdży lub konkretnego typu mąki, pomogą [zamienniki składników](/pl/blog/zamienniki-skladnikow). Forma babkowa i olej do smażenia prowadzą właściwie do [babki](/pl/rezepte/babka) lub [pączków](/pl/rezepte/paczki), a splot należy do [chałki](/pl/rezepte/chalka).",
+    techniqueDe:
+      "Die Hefe sollte in lauwarmer, nicht heißer Milch aktiviert werden, zu heiße Flüssigkeit tötet sie ab und der Teig geht nicht auf. Nach dem Kneten braucht der Teig Zeit, bis er sich sichtbar verdoppelt hat, wird er zu kurz gehen gelassen, bleibt der Placek kompakt statt luftig. Auf dem Blech wird der Teig flach gedrückt statt geflochten oder in eine Form gepresst, das ist der entscheidende Formunterschied zu [Chałka](/de/rezepte/chalka) und [Babka](/de/rezepte/babka). Die Streusel entstehen, indem kalte Butter mit Mehl und Zucker zu groben Krümeln verrieben wird, zu wenig davon wirkt schnell wie nackter Hefeteig ohne den typischen kruszonka-Charakter. Nach dem Belegen mit Obst folgt noch eine kurze zweite Gare, bevor der Kuchen goldbraun und vollständig durchgebacken wird.",
+    techniquePl:
+      "Drożdże trzeba aktywować w letnim, nie gorącym mleku, bo zbyt gorący płyn je zabija i ciasto nie wyrośnie. Po wyrobieniu ciasto potrzebuje czasu, aż wyraźnie podwoi objętość, za krótkie wyrastanie sprawia, że placek zostaje zbity zamiast puszysty. Na blasze ciasto rozciąga się płasko, zamiast pleść je lub wciskać w formę, to kluczowa różnica formy względem [chałki](/pl/rezepte/chalka) i [babki](/pl/rezepte/babka). Kruszonka powstaje z zimnego masła zetartego z mąką i cukrem na grube okruchy, za mało kruszonki szybko wygląda jak goły placek bez charakterystycznej struktury. Po ułożeniu owoców następuje jeszcze krótkie drugie wyrastanie, zanim ciasto upiecze się na złoto i będzie w pełni wypieczone.",
+    serveDe:
+      "In Rechtecken geschnitten, warm oder lauwarm zum Kaffee. Der Menürahmen dafür ist das [Sonntagsessen](/de/blog/sonntagsessen-polnisch). Wer lieber einen Zopf möchte, findet ihn bei [Chałka](/de/rezepte/chalka), Formkuchen bei [Babka](/de/rezepte/babka), Frittiertes bei [Pączki](/de/rezepte/paczki) und Pfannengebäck bei [Racuchy](/de/rezepte/racuchy-jablka). Typische Backzutaten gibt es im [Polenladen](/de/blog/polenladen-einkaufen). Reste luftdicht aufbewahren und kurz aufwärmen oder wie Toast überbacken.",
+    servePl:
+      "Pokrojony w prostokąty, ciepły lub letni do kawy. Ramę menu daje [obiad niedzielny](/pl/blog/obiad-niedzielny). Kto woli warkocz, znajdzie go w [chałce](/pl/rezepte/chalka), ciasto z formy w [babce](/pl/rezepte/babka), smażone w [pączkach](/pl/rezepte/paczki), a wypiek z patelni w [racuchach](/pl/rezepte/racuchy-jablka). Typowe składniki do pieczenia kupisz w [sklepie polskim](/pl/blog/sklep-polski-zakupy). Resztki przechowuj szczelnie, krótko podgrzej albo zapiecz jak tosty.",
+    diasporaDe:
+      "Placek drożdżowy passt gut in den Alltag der Diaspora: ein Blech, Hefe aus dem Vorrat, Streusel aus Butter, Mehl und Zucker, Obst aus dem Supermarkt. Wer samstags backt und sonntags nur noch schneidet, entlastet den Morgen deutlich. Kinder dürfen beim Streuselreiben helfen, den heißen Ofen übernehmen die Erwachsenen. Zutaten dafür findest du im [Polenladen](/de/blog/polenladen-einkaufen), Alternativen unter [Ersatzprodukte DE](/de/blog/ersatzprodukte-de). Der kulturelle Rahmen bleibt beim [Sonntagsessen](/de/blog/sonntagsessen-polnisch).",
+    diasporaPl:
+      "Placek drożdżowy dobrze pasuje do codzienności w diasporze: jedna blacha, drożdże ze spiżarni, kruszonka z masła, mąki i cukru, owoce z marketu. Sobotnie pieczenie i niedzielne krojenie wyraźnie odciąża poranek. Dzieci mogą pomóc przy tarciu kruszonki, gorący piekarnik zostaje przy dorosłych. Składniki znajdziesz w [sklepie polskim](/pl/blog/sklep-polski-zakupy), zamienniki pod [zamiennikami składników](/pl/blog/zamienniki-skladnikow). Rama kulturowa zostaje przy [obiedzie niedzielnym](/pl/blog/obiad-niedzielny).",
+    mistakesDe:
+      "Die Verwechslung mit [Chałka](/de/rezepte/chalka) wegen des Zopfs oder mit [Babka](/de/rezepte/babka) wegen der Form ist der häufigste Denkfehler, beide haben eine andere Struktur. Auch [Pączki](/de/rezepte/paczki) oder [Racuchy](/de/rezepte/racuchy-jablka) werden gelegentlich verwechselt, beide sind frittiert oder in der Pfanne gebacken statt im Ofen auf dem Blech. Technisch scheitert der Placek meist an zu heißer Milch, die die Hefe abtötet, an zu kurzer Gehzeit oder an zu dünn verteilten Streuseln.",
+    mistakesPl:
+      "Najczęstsza pomyłka to mylenie z [chałką](/pl/rezepte/chalka) przez warkocz albo z [babką](/pl/rezepte/babka) przez formę, obie mają inną strukturę. Zdarza się też mylenie z [pączkami](/pl/rezepte/paczki) lub [racuchami](/pl/rezepte/racuchy-jablka), oba są smażone zamiast pieczone na blasze. Technicznie placek najczęściej się nie udaje przez zbyt gorące mleko, które zabija drożdże, za krótkie wyrastanie albo zbyt cienką warstwę kruszonki.",
+    variantsDe:
+      "Mit mehr Apfel wird der Kuchen saftiger, mit saisonaler Pflaume entsteht eine ebenso gute Variante, und ganz ohne Obst bleibt nur die Streuseldecke im Vordergrund. Kleinere Teilchen statt eines ganzen Blechs behalten den Hefe-Streusel-Charakter bei. Wer lieber einen Zopf mag, findet ihn bei [Chałka](/de/rezepte/chalka), Formkuchen bei [Babka](/de/rezepte/babka), Frittiertes bei [Pączki](/de/rezepte/paczki) und Pfannengebäck bei [Racuchy](/de/rezepte/racuchy-jablka). Zum Rahmen passt das [Sonntagsessen](/de/blog/sonntagsessen-polnisch), Hefe-Technik erklärt die [Makowiec-Technik](/de/blog/makowiec-technik), Einkauf hilft der [Polenladen](/de/blog/polenladen-einkaufen) und die [Ersatzprodukte](/de/blog/ersatzprodukte-de).",
+    variantsPl:
+      "Z większą ilością jabłka ciasto robi się bardziej soczyste, ze śliwką sezonowo wychodzi równie dobry wariant, a bez owoców na pierwszy plan wysuwa się sama warstwa kruszonki. Mniejsze bułeczki zamiast całej blachy zachowują charakter drożdżowo-kruszonkowy. Kto woli warkocz, znajdzie go w [chałce](/pl/rezepte/chalka), formę w [babce](/pl/rezepte/babka), smażone w [pączkach](/pl/rezepte/paczki), a wypiek z patelni w [racuchach](/pl/rezepte/racuchy-jablka). Do ramy pasuje [obiad niedzielny](/pl/blog/obiad-niedzielny), technikę drożdży wyjaśnia [technika makowca](/pl/blog/makowiec-technika), zakupy ułatwiają [sklep polski](/pl/blog/sklep-polski-zakupy) i [zamienniki składników](/pl/blog/zamienniki-skladnikow).",
+  },
 };

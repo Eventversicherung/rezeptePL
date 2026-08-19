@@ -4,101 +4,99 @@
  * Shape matches ArticleFacts in recipe-articles.ts.
  *
  * Ownership:
- * - Kutia Primary nur /rezepte/kutia
- * ≠ Makaron z makiem (Nudeln+Mohn) ≠ Makowiec (Rolle) ≠ Kompot z suszu
- * - Napoleonka Primary nur /rezepte/napoleonka
- * ≠ Szarlotka ≠ Sernik ≠ Mazurek ≠ Wuzetka (Schoko-Sahne → /rezepte/wuzetka)
+ * - Kutia is different from Makaron z makiem (Nudeln+Mohn), Makowiec (Rolle) and Kompot z suszu
+ * - Napoleonka is different from Szarlotka, Sernik, Mazurek and Wuzetka (Schoko-Sahne, /rezepte/wuzetka)
  * Affiliate: guide-only
  */
 
 type ArticleFacts = {
- dishDe: string;
- dishPl: string;
- vibeDe: string;
- vibePl: string;
- originDe: string;
- originPl: string;
- shopDe: string;
- shopPl: string;
- techniqueDe: string;
- techniquePl: string;
- serveDe: string;
- servePl: string;
- diasporaDe: string;
- diasporaPl: string;
- mistakesDe: string;
- mistakesPl: string;
- variantsDe: string;
- variantsPl: string;
+  dishDe: string;
+  dishPl: string;
+  vibeDe: string;
+  vibePl: string;
+  originDe: string;
+  originPl: string;
+  shopDe: string;
+  shopPl: string;
+  techniqueDe: string;
+  techniquePl: string;
+  serveDe: string;
+  servePl: string;
+  diasporaDe: string;
+  diasporaPl: string;
+  mistakesDe: string;
+  mistakesPl: string;
+  variantsDe: string;
+  variantsPl: string;
 };
 
 export const W13_FACTS_B: Record<string, ArticleFacts> = {
- "recipe-kutia": {
- dishDe: "Kutia",
- dishPl: "Kutia",
- vibeDe: "süß-mohnig, körnig-nussig, wigilijny und ruhig in der Schüssel",
- vibePl: "słodko-makowy, ziarnisto-orzechowy, wigilijny i spokojny w misce",
- originDe:
- "Kutia ist das süße Getreide-Dessert aus Weizenkörnern, Mohn, Honig und Nüssen — typisch ostpolnisch und diaspora-stark zur Wigilia — und bewusst keine Nudelplatte. [Makaron z makiem](/de/rezepte/makaron-z-makiem) bleibt Pasta+Mohn; [Makowiec](/de/rezepte/makowiec) die Hefe-Mohnrolle; Technik erklärt [Makowiec-Technik](/de/blog/makowiec-technik). Parallel klar getrennt von [Kompot z suszu](/de/rezepte/kompot-z-suszu): dort Getränk, hier die Schüssel mit gekochtem Weizen. Am [Wigilia-Speiseplan](/de/blog/wigilia-speiseplan) steht Kutia oft als regionales Getreide-Mohn-Gericht. In der Diaspora: Weizen garen, Masse binden, vermengen, kühlen — ohne Ofen und ohne Nudeltopf.",
- originPl:
- "Kutia to słodki deser zbożowy z ziaren pszenicy, maku, miodu i orzechów — typowo wschodniopolski i silny w diasporze na Wigilię — świadomie nie talerz makaronu. [Makaron z makiem](/pl/rezepte/makaron-z-makiem) zostaje makaronem z makiem; [makowiec](/pl/rezepte/makowiec) rolką; technikę opisuje [technika makowca](/pl/blog/makowiec-technika). Równolegle osobno od [kompotu z suszu](/pl/rezepte/kompot-z-suszu): tam napój, tu miska z gotowaną pszenicą. W [menu wigilijnym](/pl/blog/menu-wigilijne) bywa regionalnym daniem zbożowo-makowym. W diasporze: ugotować pszenicę, spiąć masę, wymieszać, schłodzić — bez pieca i bez garnka na makaron.",
- shopDe:
- "Geschälte Weizenkörner (pszenica) und blauer Mohn — möglichst frisch gemahlen — sind Charakterträger und oft im [Polenladen](/de/blog/polenladen-einkaufen) besser als im Supermarkt. Dazu Honig, Walnüsse oder Mandeln, Rosinen, etwas Milch. Wenn gemahlener Mohn fehlt: [Ersatzprodukte DE](/de/blog/ersatzprodukte-de) — Funktion vor Label, aber kein Kakao als „Mohnfake“ und keine Nudeln als „Weizenersatz“. Perlgerste nur ehrlich als Ersatz benennen; klassische Linie bleibt Weizen. Keine Hefe und kein Rollteig: das bliebe [Makowiec](/de/rezepte/makowiec). Keine kurzen Eiernudeln: das wäre [Makaron z makiem](/de/rezepte/makaron-z-makiem).",
- shopPl:
- "Obrana pszenica i mak niebieski — najlepiej świeżo mielony — to charakter; często lepsze w [sklepie polskim](/pl/blog/sklep-polski-zakupy) niż w markecie. Do tego miód, orzechy włoskie lub migdały, rodzynki, odrobina mleka. Gdy brak mielonego: [zamienniki składników](/pl/blog/zamienniki-skladnikow) — funkcja przed etykietą, ale bez kakao jako „fake maku” i bez makaronu jako „zamiennika pszenicy”. Pęczak tylko uczciwie jako zamiennik; klasyczna linia zostaje przy pszenicy. Bez drożdży i ciasta na rolację: to zostaje [makowiec](/pl/rezepte/makowiec). Bez krótkiego makaronu: to byłby [makaron z makiem](/pl/rezepte/makaron-z-makiem).",
- techniqueDe:
- "Weizen weich, aber mit Biss kochen — zu hart bleibt sandig, zu zerkocht wird Brei. Mohn aufquellen, mahlen, mit Honig und Nüssen binden: streichfähig und glänzend, nicht tropfen, nicht mehlig-trocken. Heiß oder lauwarm vermengen, dann kühlen — Geschmack rundet sich. Bitterkeit kommt oft von altem Mohn; frische Samen prüfen. Masse-Logik darf an [Makowiec-Technik](/de/blog/makowiec-technik) anknüpfen Kein Nudelwasser, kein Ofenschritt: fertig in der Schüssel.",
- techniquePl:
- "Pszenicę ugotować miękko, ale z gryzieniem — za twarda zostaje piaszczysta, za rozgotowana robi kleik. Mak namoczyć, zmielić, związać miodem i orzechami: smarownie i z połyskiem, nie cieknie, nie jest sucha jak mąka. Mieszać ciepło lub letnio, potem chłodzić — smak się zbiera. Gorycz często ze starego maku; sprawdź świeżość. Logika masy może nawiązać do [techniki makowca](/pl/blog/makowiec-technika), osobny farsz i osobne ilości. „pieczenia ciasta makowego”. Bez wody z makaronu i pieca: gotowe w misce.",
- serveDe:
- "In Schalen oder einer gemeinsamen Schüssel, oft kalt oder zimmerwarm, als süßer Gang am [Wigilia](/de/blog/wigilia-speiseplan)-Tisch neben Kompot und Fisch — Menü-Artikel bleibt der Speiseplan. Klar getrennt: Nudeln mit Mohn = [Makaron z makiem](/de/rezepte/makaron-z-makiem); Scheiben mit Spirale = [Makowiec](/de/rezepte/makowiec); Glas mit Trockenobst = [Kompot z suszu](/de/rezepte/kompot-z-suszu). Reste abgedeckt im Kühlschrank; vor dem Servieren umrühren, ggf. etwas Honig nachziehen.",
- servePl:
- "W miseczkach lub jednej misce, często na zimno lub w temperaturze pokojowej, jako słodki element przy [menu wigilijnym](/pl/blog/menu-wigilijne) obok kompotu i ryby — artykuł menu zostaje przy artykule. Na stole: makaron z makiem = [makaron z makiem](/pl/rezepte/makaron-z-makiem); plastry ze spiralą = [makowiec](/pl/rezepte/makowiec); szklanka z suszem = [kompot z suszu](/pl/rezepte/kompot-z-suszu). Resztki przykryte w lodówce; przed podaniem wymieszać, ewentualnie dolać miodu.",
- diasporaDe:
- "In deutschen Küchen rettet Kutia oft den Mohn-Slot, wenn niemand Hefe führen und niemand noch Nudeln mit Masse rühren will: ein Topf Weizen, eine Schüssel Masse, Kühlschrank. Mohn und Weizen aus dem Polenladen halten; Kinder dürfen Nüsse streuen — heißer Topf bei Erwachsenen. Kein Affiliate-Zwang: gute Körner und frischer Mohn reichen. Technik-Nachbar: [Makowiec-Technik](/de/blog/makowiec-technik). Im [Polenladen](/de/blog/polenladen-einkaufen) findest du typische Spezialzutaten.",
- diasporaPl:
- "W niemieckich kuchniach kutia często ratuje slot makowy, gdy nikt nie chce prowadzić drożdży i nikt nie chce już mieszać makaronu z masą: jeden garnek pszenicy, jedna miska masy, lodówka. Mak i pszenica ze sklepu polskiego; dzieci mogą sypać orzechy — gorący garnek u dorosłych. Bez affiliate: dobre ziarna i świeży mak wystarczą. Sąsiad techniki: [technika makowca](/pl/blog/makowiec-technika). W [sklep polski](/pl/blog/sklep-polski-zakupy) kupisz typowe specjalności.",
- mistakesDe:
- "Mit Makaron z makiem verwechseln (Nudeln statt Weizenkörner). Mit Makowiec verwechseln (Rolle statt Schüssel). Zu trockene, sandige Masse; bitterer alter Mohn; zu hart gekochter Weizen; Speiseplan-Mengen hier duplizieren statt zu verlinken. Kasza manna als „dasselbe“ verkaufen, ohne ehrlich zu benennen.",
- mistakesPl:
- "Mylenie z makaronem z makiem (makaron zamiast ziaren). Mylenie z makowcem (rolada zamiast miski). Za sucha, piaszczysta masa; gorzki stary mak; za twarda pszenica; duplikować menu zamiast linkować. Sprzedawać kaszę manną jako „to samo” bez uczciwej nazwy.",
- variantsDe:
- "Mit mehr Honig runder; mit Orangenschale statt Zitrone; mit mehr Nüssen; kalt als Restespeise. Nudeln+Mohn bleibt [Makaron z makiem](/de/rezepte/makaron-z-makiem); Mohnrolle: [Makowiec](/de/rezepte/makowiec). Zum Anlass passt [Wigilia](/de/blog/wigilia-speiseplan). Technik-Feeling: [Makowiec-Technik](/de/blog/makowiec-technik). Im [Polenladen](/de/blog/polenladen-einkaufen) und unter [Ersatzprodukte](/de/blog/ersatzprodukte-de) findest du Einkaufshilfen.",
- variantsPl:
- "Z większą ilością miodu łagodniej; ze skórką pomarańczy zamiast cytryny; z większą ilością orzechów; na zimno jako resztka. Makaron+mak: [makaron z makiem](/pl/rezepte/makaron-z-makiem); rolada: [makowiec](/pl/rezepte/makowiec). Do okazji pasuje [menu wigilijne](/pl/blog/menu-wigilijne). Więcej w artykule [makowiec-technika](/pl/blog/makowiec-technika). W [sklep polski](/pl/blog/sklep-polski-zakupy) i pod [zamienniki](/pl/blog/zamienniki-skladnikow) znajdziesz wskazówki zakupowe.",
- },
- "recipe-napoleonka": {
- dishDe: "Napoleonka / Kremówka",
- dishPl: "Napoleonka / kremówka",
- vibeDe: "blättrig-cremig, puderzuckerweiß, Bäckerei und Sonntagskaffee",
- vibePl: "listkowato-kremowy, biały od cukru pudru, cukiernia i niedzielna kawa",
- originDe:
- "Napoleonka (auch Kremówka) ist der polnische Blätterteig-Schnitt mit Vanillecreme — millefeuille-ähnlich, oft mit Puderzucker — und bewusst kein Apfelkuchen und keine Schoko-Sahne-Torte. [Szarlotka](/de/rezepte/szarlotka) bleibt Apfelkuchen vom Blech; [Sernik](/de/rezepte/sernik) der Käsekuchen; [Mazurek](/de/rezepte/mazurek) der flache Osterbelag. Wer Schoko-Sahne sucht: [Wuzetka](/de/rezepte/wuzetka). Am [Sonntagsessen](/de/blog/sonntagsessen-polnisch) darf sie der ruhige Kaffee-Schluss sein. In der Diaspora oft der Bäckerei-Klassiker mit Fertigteig, wenn der Nachmittag Zeit für Schichten und Kühlschrank hat.",
- originPl:
- "Napoleonka (kremówka) to polski przekrój z ciasta francuskiego i kremu waniliowego — w stylu millefeuille, często z cukrem pudrem — świadomie nie jabłecznik i nie tort czekoladowo-śmietankowy. [Szarlotka](/pl/rezepte/szarlotka) zostaje ciastem jabłkowym; [sernik](/pl/rezepte/sernik) sernikiem; [mazurek](/pl/rezepte/mazurek) płaskim wielkanocnym. Kto szuka czekolady i śmietany: [wuzetka](/pl/rezepte/wuzetka). Przy [obiedzie niedzielnym](/pl/blog/obiad-niedzielny) bywa spokojnym domknięciem przy kawie. W diasporze często klasyk cukierniczy z gotowym ciastem, gdy popołudnie ma czas na warstwy i lodówkę.",
- shopDe:
- "Nimm Blätterteig (fertig all-butter oder selbst), Milch, Eigelb, Zucker, Speisestärke oder Vanillepudding sowie Butter, Vanille und Puderzucker. Basis im Supermarkt; Vanille und manchmal bessere Puddingmischung im [Polenladen](/de/blog/polenladen-einkaufen). Fehlt Butter oder Vanille, ersetze ehrlich laut [Ersatzprodukte DE](/de/blog/ersatzprodukte-de). Apfelkern wäre [Szarlotka](/de/rezepte/szarlotka); Quarkkern [Sernik](/de/rezepte/sernik); Schoko-Sahne [Wuzetka](/de/rezepte/wuzetka).",
- shopPl:
- "Weź ciasto francuskie (gotowe maślane lub własne), mleko, żółtka, cukier, skrobię lub budyń waniliowy oraz masło, wanilię i cukier puder. Baza w markecie; wanilia i czasem lepszy budyń w [sklepie polskim](/pl/blog/sklep-polski-zakupy). Brak masła lub wanilii — zamień uczciwie według [zamienników](/pl/blog/zamienniki-skladnikow). Jabłko to [szarlotka](/pl/rezepte/szarlotka); twaróg [sernik](/pl/rezepte/sernik); czekolada ze śmietaną [wuzetka](/pl/rezepte/wuzetka).",
- techniqueDe:
- "Blätterteig dünn, gut einstechen, heiß und knusprig backen — zu weich trägt die Creme nicht; zu dunkel schmeckt bitter. Creme dicklich und abgekühlt binden; heiße Creme weicht den Teig sofort auf und macht den Schnitt matschig. Schichten ruhig und gleichmäßig; mindestens zwei bis drei Stunden kühlen, bis der Schnitt sauber ist. Zu flüssige Creme = Rutschen; zu trockene Creme = bröckelnde Füllung. Mit scharfem Messer und ruhigem Druck schneiden, nicht sägen. Eine Hausvariante festhalten: fertiger Blätterteig + Vanillecreme + Puderzucker (keine Schoko-Glasur als Hauptgericht hier, kein Apfelkern).",
- techniquePl:
- "Ciasto francuskie cienko, dobrze nakłuć, piec na chrupko — zbyt miękkie nie uniesie kremu; zbyt ciemne smakuje gorzko. Krem gęsty i ostudzony; gorący od razu rozmiękcza ciasto i psuje przekrój. Warstwy spokojnie i równo; chłodzić co najmniej dwie–trzy godziny aż krojenie jest czyste. Za rzadki krem = ślizganie; za suchy = krusząca się masa. Ostrym nożem i spokojnym naciskiem, bez piłowania. Trzymać jeden wariant domu: gotowe ciasto francuskie + krem waniliowy + cukier puder (bez lukru czekoladowego jako fokus, bez jabłka).",
- serveDe:
- "In Rechtecken, kalt, oft mit Puderzucker, zu Tee oder Kaffee. Als Sonntagsschluss unter [Sonntagsessen](/de/blog/sonntagsessen-polnisch). Auf dem Tisch klar halten: Apfelkuchen = [Szarlotka](/de/rezepte/szarlotka); Quarkkuchen = [Sernik](/de/rezepte/sernik); flacher Osterkuchen = [Mazurek](/de/rezepte/mazurek). Keine Schoko-Sahne-Präsentation als „dasselbe“. Hält ein bis zwei Tage gekühlt; Teig weicht allmählich — am besten am Backtag oder am Tag danach servieren.",
- servePl:
- "W prostokątach, na zimno, często z cukrem pudrem, do herbaty lub kawy. Jako niedzielne domknięcie pod [obiadem niedzielnym](/pl/blog/obiad-niedzielny). Na stole: jabłecznik = [szarlotka](/pl/rezepte/szarlotka); sernik = [sernik](/pl/rezepte/sernik); płaski wielkanocny = [mazurek](/pl/rezepte/mazurek). Bez prezentacji czekoladowo-śmietankowej jako „to samo”. Trzyma dzień–dwa w chłodzie; ciasto z czasem mięknie — najlepiej w dniu pieczenia lub dzień później.",
- diasporaDe:
- "Napoleonka ist der Bäckerei-Klassiker, den deutsche Gäste als „Creme-Schnitt“ verstehen und polnische Familien als Kremówka wiedererkennen, wenn der Teig knusprig und die Creme vanillig ist. Ein Blech für den Sonntag, Stücke für Gäste, Rest für den nächsten Morgen. Fertigteig ist diaspora-ehrlich und spart Zeit — die Creme bleibt der Charakterträger. Kein Zwang zu Schoko-Torten-Ästhetik — Puderzucker reicht. Im [Polenladen](/de/blog/polenladen-einkaufen) und unter [Ersatzprodukte](/de/blog/ersatzprodukte-de) findest du Einkaufshilfen.",
- diasporaPl:
- "Napoleonka to klasyk cukierniczy, który niemieccy goście rozumieją jako „przekrój z kremem”, a polskie rodziny rozpoznają jako kremówkę, gdy ciasto jest chrupkie, a krem waniliowy. Jedna blacha na niedzielę, kawałki dla gości, resztka na następny poranek. Gotowe ciasto jest uczciwe w diasporze i oszczędza czas — charakter niesie krem. Bez przymusu estetyki tortu czekoladowego — cukier puder wystarczy. W [sklep polski](/pl/blog/sklep-polski-zakupy) i pod [zamienniki](/pl/blog/zamienniki-skladnikow) znajdziesz wskazówki zakupowe.",
- mistakesDe:
- "Mit Szarlotka verwechseln (Apfel). Mit Sernik Mit [Wuzetka](/de/rezepte/wuzetka) verwechseln (Schoko-Sahne). Zu weicher Teig; zu flüssige Creme; zu früh schneiden; heiße Creme auf heißem Teig. Generisches Millefeuille- ohne Napoleonka/Kremówka.",
- mistakesPl:
- "Mylenie z szarlotką (jabłko) lub [wuzetką](/pl/rezepte/wuzetka) (czekolada i śmietana) gubi charakter. Zbyt miękkie ciasto; za rzadki krem; zbyt wczesne krojenie; gorący krem na gorącym cieście. Generyczny millefeuille bez nazwy napoleonka/kremówka też mija cel.",
- variantsDe:
- "Mit mehr Vanille, mit dünner Glasur statt nur Puderzucker, mit drei Teiglagen. Apfelkuchen: [Szarlotka](/de/rezepte/szarlotka). Käsekuchen: [Sernik](/de/rezepte/sernik). Osterflachkuchen: [Mazurek](/de/rezepte/mazurek). Alltagskultur: [Sonntagsessen](/de/blog/sonntagsessen-polnisch). Im [Polenladen](/de/blog/polenladen-einkaufen) und unter [Ersatzprodukte](/de/blog/ersatzprodukte-de) findest du Einkaufshilfen.",
- variantsPl:
- "Z większą ilością wanilii, z cienkim lukrem zamiast samego pudru, z trzema warstwami ciasta. Jabłecznik: [szarlotka](/pl/rezepte/szarlotka). Sernik: [sernik](/pl/rezepte/sernik). Wielkanocny płaski: [mazurek](/pl/rezepte/mazurek). Kultura dnia: [obiad niedzielny](/pl/blog/obiad-niedzielny). W [sklep polski](/pl/blog/sklep-polski-zakupy) i pod [zamienniki](/pl/blog/zamienniki-skladnikow) znajdziesz wskazówki zakupowe.",
- },
+  "recipe-kutia": {
+    dishDe: "Kutia",
+    dishPl: "Kutia",
+    vibeDe: "süß mohnig, körnig nussig, wigilijny und ruhig in der Schüssel",
+    vibePl: "słodko makowy, ziarnisto orzechowy, wigilijny i spokojny w misce",
+    originDe:
+      "Kutia ist eines der ältesten Gerichte der Wigilia und reicht bis in vorchristliche slawische Bräuche zurück, die mit der Wintersonnenwende zu tun hatten. Der Name geht wohl auf das griechische kókkos für Korn zurück, eine volkstümliche Deutung verbindet ihn mit dem slawischen Wort kut für Ecke, weil die Schüssel früher in der Zimmerecke stand. Symbolisch stehen die Weizenkörner für das Leben, das im Frühling wieder keimt, während der Mohn schon in der Antike mit dem Totenreich verbunden wurde, weshalb Kutia traditionell auch bei Totengedenken und nach Beerdigungen gegessen wurde. Heute ist das Dessert vor allem in Ostpolen verbreitet, in der Podlasie, der Lubelszczyzna und den früheren Ostgebieten, und deshalb bei Nachfahren dieser Regionen in der Diaspora besonders stark verwurzelt. Kutia ist dabei bewusst keine Nudelplatte wie [Makaron z makiem](/de/rezepte/makaron-z-makiem) und keine Hefe-Mohnrolle wie [Makowiec](/de/rezepte/makowiec), Fragen rund um den Mohn beantwortet die [Makowiec-Technik](/de/blog/makowiec-technik). Den Menürahmen für den ganzen Abend liefert der [Wigilia-Speiseplan](/de/blog/wigilia-speiseplan).",
+    originPl:
+      "Kutia to jedno z najstarszych dań wieczerzy wigilijnej, sięgające przedchrześcijańskich zwyczajów słowiańskich związanych z przesileniem zimowym. Nazwa prawdopodobnie pochodzi od greckiego kókkos, czyli ziarno, choć ludowa etymologia łączy ją też ze słowem kut, czyli kąt, bo miska stała dawniej w kącie izby. Symbolicznie ziarna pszenicy oznaczają życie, które wiosną znów wykiełkuje, a mak już w starożytności kojarzono z zaświatami, dlatego kutię jadano też na stypach i w dni zaduszne. Dziś deser jest najsilniej zakorzeniony we wschodniej Polsce, na Podlasiu, Lubelszczyźnie i dawnych Kresach, a przez to szczególnie żywy w diasporze wywodzącej się z tych regionów. Kutia świadomie nie jest talerzem makaronu jak [makaron z makiem](/pl/rezepte/makaron-z-makiem) ani drożdżową roladą jak [makowiec](/pl/rezepte/makowiec), technikę mielenia maku opisuje [technika makowca](/pl/blog/makowiec-technika). Ramę całego wieczoru daje [menu wigilijne](/pl/blog/menu-wigilijne).",
+    shopDe:
+      "Geschälte Weizenkörner und blauer Mohn tragen den ganzen Charakter von Kutia, am besten frisch gemahlen, und beides findest du oft besser sortiert im [Polenladen](/de/blog/polenladen-einkaufen) als im normalen Supermarkt. Dazu kommen Honig, Walnüsse oder Mandeln, Rosinen und etwas Milch. Fehlt gemahlener Mohn, hilft der Beitrag zu [Ersatzprodukten](/de/blog/ersatzprodukte-de) weiter, wichtig ist dabei die Funktion und nicht nur das Etikett, Kakao als Mohn-Ersatz oder Nudeln als Weizen-Ersatz funktionieren jedenfalls nicht. Perlgerste darfst du nur ehrlich als Ersatz kennzeichnen, klassisch bleibt Weizen. Hefe und Rollteig gehören nicht hinein, sonst landest du beim [Makowiec](/de/rezepte/makowiec).",
+    shopPl:
+      "Obrana pszenica i mak niebieski niosą cały charakter kutii, najlepiej świeżo mielony, i oba składniki często lepiej znajdziesz w [sklepie polskim](/pl/blog/sklep-polski-zakupy) niż w zwykłym markecie. Do tego miód, orzechy włoskie lub migdały, rodzynki i odrobina mleka. Gdy brakuje mielonego maku, pomogą [zamienniki składników](/pl/blog/zamienniki-skladnikow), liczy się jednak funkcja, a nie samo słowo na etykiecie, kakao jako zamiennik maku czy makaron jako zamiennik pszenicy nie zadziałają. Pęczak można oznaczyć tylko uczciwie jako zamiennik, klasyczna wersja zostaje przy pszenicy. Drożdże i ciasto na roladę tu nie pasują, bo wtedy wychodzi [makowiec](/pl/rezepte/makowiec).",
+    techniqueDe:
+      "Den Weizen weich, aber mit Biss kochen, denn zu hart bleibt er sandig und zu lange gekocht wird er breiig. Den Mohn aufquellen lassen, fein mahlen und mit Honig und Nüssen binden, bis die Masse glänzt und streichfähig ist, statt zu tropfen oder mehlig-trocken zu wirken. Warm oder lauwarm vermengen und danach kühlen, so rundet sich der Geschmack über einige Stunden ab. Bitterkeit kommt meistens von altem Mohn, deshalb lohnt sich ein Blick auf die Frische. Das Mahlgefühl kann sich an der [Makowiec-Technik](/de/blog/makowiec-technik) orientieren, auch wenn hier weder Nudelwasser noch ein Ofenschritt nötig sind.",
+    techniquePl:
+      "Pszenicę ugotuj miękko, ale z lekkim gryzieniem, bo za twarda zostaje piaszczysta, a za długo gotowana robi się papkowata. Mak namocz, dokładnie zmiel i zwiąż miodem oraz orzechami, tak żeby masa błyszczała i dała się smarować, a nie ciekła albo była sucha jak mąka. Mieszaj na ciepło lub letnio, a potem schłodź, dzięki temu smak zbiera się przez kilka godzin. Gorycz najczęściej bierze się ze starego maku, dlatego warto sprawdzić jego świeżość. Wyczucie mielenia można oprzeć na [technice makowca](/pl/blog/makowiec-technika), choć tutaj nie potrzeba ani wody z makaronu, ani pieczenia.",
+    serveDe:
+      "Kutia gehört in Schalen oder eine gemeinsame Schüssel, oft kalt oder zimmerwarm, als süßer Gang neben Fisch und Kompot am [Wigilia-Tisch](/de/blog/wigilia-speiseplan). Auf dem Tisch bleibt klar getrennt: Nudeln mit Mohn sind [Makaron z makiem](/de/rezepte/makaron-z-makiem), die Rolle mit Spirale ist [Makowiec](/de/rezepte/makowiec), und das Glas mit Trockenobst bleibt [Kompot z suszu](/de/rezepte/kompot-z-suszu). Reste hältst du abgedeckt im Kühlschrank, vor dem Servieren einmal umrühren und bei Bedarf etwas Honig nachziehen.",
+    servePl:
+      "Kutię podajesz w miseczkach lub jednej wspólnej misie, często na zimno lub w temperaturze pokojowej, jako słodki element wieczerzy obok ryby i kompotu w [menu wigilijnym](/pl/blog/menu-wigilijne). Na stole zostaje jasny podział: makaron z makiem to [makaron z makiem](/pl/rezepte/makaron-z-makiem), rolada ze spiralą to [makowiec](/pl/rezepte/makowiec), a szklanka z suszem to [kompot z suszu](/pl/rezepte/kompot-z-suszu). Resztki trzymaj przykryte w lodówce, przed podaniem wymieszaj i ewentualnie dolej trochę miodu.",
+    diasporaDe:
+      "In deutschen Küchen rettet Kutia oft den Mohn-Platz am Heiligabend, wenn niemand Hefeteig führen und niemand noch Nudeln mit Masse verrühren möchte: ein Topf Weizen, eine Schüssel Masse, ab in den Kühlschrank. Mohn und Weizen halten sich gut aus dem [Polenladen](/de/blog/polenladen-einkaufen), Kinder dürfen Nüsse hacken und streuen, am heißen Kochtopf übernehmen Erwachsene. Gute Körner und frischer Mohn reichen völlig aus, mehr braucht dieses Gericht nicht. Technisch verwandt bleibt die [Makowiec-Technik](/de/blog/makowiec-technik).",
+    diasporaPl:
+      "W niemieckich kuchniach kutia często ratuje wigilijny slot makowy, gdy nikt nie chce prowadzić drożdży ani mieszać kolejnego makaronu z masą: jeden garnek pszenicy, jedna miska masy, lodówka. Mak i pszenicę dobrze kupisz w [sklepie polskim](/pl/blog/sklep-polski-zakupy), dzieci mogą siekać i sypać orzechy, przy gorącym garnku pomagają dorośli. Dobre ziarna i świeży mak w zupełności wystarczą, nic więcej nie jest tu potrzebne. Technicznie blisko jest do [techniki makowca](/pl/blog/makowiec-technika).",
+    mistakesDe:
+      "Kutia wird gern mit [Makaron z makiem](/de/rezepte/makaron-z-makiem) verwechselt, weil beide Mohn enthalten, dabei stehen hier ganze Weizenkörner statt Nudeln im Mittelpunkt. Mit [Makowiec](/de/rezepte/makowiec) hat sie außer dem Mohn ebenfalls wenig zu tun, denn Kutia bleibt eine Schüssel und keine gebackene Rolle. Eine zu trockene, sandige Masse entsteht meist durch zu wenig Honig oder Milch, während bitterer Geschmack fast immer von altem Mohn kommt.",
+    mistakesPl:
+      "Kutię łatwo pomylić z [makaronem z makiem](/pl/rezepte/makaron-z-makiem), bo oba dania mają mak, ale tu w centrum są całe ziarna pszenicy, a nie makaron. Z [makowcem](/pl/rezepte/makowiec) łączy ją tylko mak, bo kutia zostaje w misce, a nie zamienia się w pieczoną roladę. Zbyt sucha, piaszczysta masa zwykle wynika z za małej ilości miodu lub mleka, a gorzki smak niemal zawsze pochodzi ze starego maku.",
+    variantsDe:
+      "Mit mehr Honig wird Kutia runder im Geschmack, mit Orangenschale statt Zitrone bekommt sie eine wärmere Note, und mit mehr Nüssen wird sie kräftiger. Kalt als Restespeise schmeckt sie am nächsten Tag oft noch besser, weil sich alle Aromen gesetzt haben. Passende Nachbarn am Wigilia-Tisch sind [Makaron z makiem](/de/rezepte/makaron-z-makiem) und [Makowiec](/de/rezepte/makowiec), zum Anlass passt der [Wigilia-Speiseplan](/de/blog/wigilia-speiseplan), zur Mohntechnik die [Makowiec-Technik](/de/blog/makowiec-technik), und im [Polenladen](/de/blog/polenladen-einkaufen) findest du die passenden Zutaten dafür.",
+    variantsPl:
+      "Z większą ilością miodu kutia smakuje łagodniej, ze skórką pomarańczy zamiast cytryny zyskuje cieplejszą nutę, a z większą ilością orzechów robi się bardziej wyrazista. Na zimno jako resztka następnego dnia często smakuje jeszcze lepiej, bo smaki się przegryzły. Do wigilijnego stołu pasują [makaron z makiem](/pl/rezepte/makaron-z-makiem) i [makowiec](/pl/rezepte/makowiec), do okazji [menu wigilijne](/pl/blog/menu-wigilijne), do techniki maku [technika makowca](/pl/blog/makowiec-technika), a składniki znajdziesz w [sklepie polskim](/pl/blog/sklep-polski-zakupy).",
+  },
+  "recipe-napoleonka": {
+    dishDe: "Napoleonka / Kremówka",
+    dishPl: "Napoleonka / kremówka",
+    vibeDe: "blättrig cremig, puderzuckerweiß, Bäckerei und Sonntagskaffee",
+    vibePl: "listkowato kremowy, biały od cukru pudru, cukiernia i niedzielna kawa",
+    originDe:
+      "Der Name Napoleonka stammt nicht von Napoleon selbst, sondern von einer Warschauer Konditorei namens „Napoleonka“, die einst am Plac Napoleona lag und dem Blätterteig-Gebäck ihren Namen weitergab. Unter dem Namen Kremówka wurde das Gebäck 1999 noch berühmter, als Papst Johannes Paul II. bei einem Besuch in seiner Heimatstadt Wadowice erzählte, wie er nach dem Abitur mit Freunden in der Konditorei von Karol Hagenhuber Kremówki gegessen hatte, angeblich bis zu achtzehn Stück an einem Tag. Seitdem gilt die „kremówka papieska“ als kulinarisches Wahrzeichen von Wadowice, auch wenn die ursprüngliche Konditorei längst geschlossen ist. Das Grundprinzip bleibt in beiden Fällen gleich: Blätterteig, dicke Vanillecreme, Puderzucker, ganz anders als der Apfelkuchen [Szarlotka](/de/rezepte/szarlotka), der Käsekuchen [Sernik](/de/rezepte/sernik), der flache Osterkuchen [Mazurek](/de/rezepte/mazurek) oder die Schoko-Sahne-Torte [Wuzetka](/de/rezepte/wuzetka).",
+    originPl:
+      "Nazwa napoleonka nie pochodzi wcale od Napoleona, lecz od warszawskiej cukierni „Napoleonka”, która mieściła się dawniej przy placu Napoleona i przekazała ciastku swoją nazwę. Pod nazwą kremówka ciastko zyskało jeszcze większą sławę w 1999 roku, gdy Jan Paweł II podczas wizyty w rodzinnych Wadowicach opowiedział, jak po maturze z kolegami jadał kremówki w cukierni Karola Hagenhubera, podobno nawet osiemnaście sztuk jednego dnia. Od tamtej pory kremówka papieska stała się kulinarnym symbolem Wadowic, choć tamta konkretna cukiernia dawno już nie istnieje. W obu wersjach zasada zostaje ta sama: ciasto francuskie, gruby krem waniliowy, cukier puder, zupełnie inaczej niż jabłecznik [szarlotka](/pl/rezepte/szarlotka), sernik [sernik](/pl/rezepte/sernik), płaski wielkanocny [mazurek](/pl/rezepte/mazurek) czy tort czekoladowo-śmietankowy [wuzetka](/pl/rezepte/wuzetka).",
+    shopDe:
+      "Für die Hausversion brauchst du Blätterteig, am besten mit reinem Butteranteil, dazu Milch, Eigelb, Zucker, Speisestärke oder Vanillepudding sowie Butter, Vanille und Puderzucker. Die Grundzutaten bekommst du im Supermarkt, Vanille und manchmal die bessere Puddingmischung im [Polenladen](/de/blog/polenladen-einkaufen). Fehlt Butter oder Vanille, ersetzt du beides ehrlich laut den [Ersatzprodukten](/de/blog/ersatzprodukte-de). Ein Apfelkern wäre [Szarlotka](/de/rezepte/szarlotka), ein Quarkkern [Sernik](/de/rezepte/sernik), Schoko-Sahne führt zur [Wuzetka](/de/rezepte/wuzetka).",
+    shopPl:
+      "Na domową wersję potrzebujesz ciasta francuskiego, najlepiej z dużym udziałem masła, do tego mleka, żółtek, cukru, skrobi lub budyniu waniliowego oraz masła, wanilii i cukru pudru. Podstawowe składniki kupisz w markecie, wanilię i czasem lepszy budyń w [sklepie polskim](/pl/blog/sklep-polski-zakupy). Brak masła lub wanilii zastąpisz uczciwie według [zamienników składników](/pl/blog/zamienniki-skladnikow). Jabłkowy środek to [szarlotka](/pl/rezepte/szarlotka), twarogowy [sernik](/pl/rezepte/sernik), a czekolada ze śmietaną prowadzi do [wuzetki](/pl/rezepte/wuzetka).",
+    techniqueDe:
+      "Blätterteig dünn ausrollen, gut einstechen und heiß knusprig backen, denn zu weich trägt er die Creme nicht und zu dunkel wird er bitter. Die Creme dicklich kochen und abkühlen lassen, bevor sie auf den Teig kommt, heiße Creme weicht den Teig sofort auf und macht den Schnitt matschig. Die Schichten ruhig und gleichmäßig aufbauen und mindestens zwei bis drei Stunden kühlen, bis sich die Napoleonka sauber schneiden lässt. Zu flüssige Creme lässt die Schichten verrutschen, zu trockene Creme bröckelt beim Anschneiden. Am Ende zählt eine Hausvariante: fertiger Blätterteig, Vanillecreme, Puderzucker, ohne Schoko-Glasur und ohne Apfelkern.",
+    techniquePl:
+      "Ciasto francuskie rozwałkuj cienko, dobrze nakłuj i piecz na chrupko w wysokiej temperaturze, bo zbyt miękkie nie uniesie kremu, a zbyt ciemne zrobi się gorzkie. Krem ugotuj do gęstości i ostudź, zanim trafi na ciasto, bo gorący od razu je rozmiękcza i psuje przekrój. Warstwy układaj spokojnie i równo, a chłodź co najmniej dwie do trzech godzin, aż napoleonka da się czysto pokroić. Zbyt rzadki krem powoduje ślizganie się warstw, zbyt suchy kruszy się przy krojeniu. Na końcu liczy się jeden domowy wariant: gotowe ciasto francuskie, krem waniliowy, cukier puder, bez lukru czekoladowego i bez jabłka.",
+    serveDe:
+      "In Rechtecken, kalt, meist mit Puderzucker bestäubt, zu Tee oder Kaffee servieren, gut als ruhiger Abschluss neben dem [polnischen Sonntagsessen](/de/blog/sonntagsessen-polnisch). Auf dem Tisch bleibt klar: Apfelkuchen ist [Szarlotka](/de/rezepte/szarlotka), Quarkkuchen ist [Sernik](/de/rezepte/sernik), der flache Osterkuchen ist [Mazurek](/de/rezepte/mazurek). Eine Schoko-Sahne-Präsentation gehört nicht dazu, das bleibt die [Wuzetka](/de/rezepte/wuzetka). Gekühlt hält sich Napoleonka ein bis zwei Tage, am besten schmeckt sie am Backtag oder am Tag danach.",
+    servePl:
+      "Podawaj w prostokątach, na zimno, zwykle z cukrem pudrem, do herbaty lub kawy, dobrze pasuje jako spokojne zwieńczenie [obiadu niedzielnego](/pl/blog/obiad-niedzielny). Na stole zostaje jasny podział: jabłecznik to [szarlotka](/pl/rezepte/szarlotka), sernik to [sernik](/pl/rezepte/sernik), płaski wielkanocny to [mazurek](/pl/rezepte/mazurek). Prezentacja czekoladowo-śmietankowa to zupełnie inna sprawa, czyli [wuzetka](/pl/rezepte/wuzetka). Schłodzona napoleonka trzyma jeden do dwóch dni, najlepiej smakuje w dniu pieczenia lub dzień później.",
+    diasporaDe:
+      "Napoleonka ist der Bäckerei-Klassiker, den deutsche Gäste oft als Cremeschnitte kennen und polnische Familien sofort als Kremówka wiedererkennen, sobald der Teig knusprig und die Creme vanillig ist. Ein Blech reicht für den ganzen Sonntag, Stücke für Gäste, der Rest hält bis zum nächsten Morgen. Fertiger Blätterteig ist in der Diaspora eine ehrliche und zeitsparende Wahl, den Charakter trägt ohnehin die Creme. Zutaten für die Creme findest du im [Polenladen](/de/blog/polenladen-einkaufen), Alternativen bei den [Ersatzprodukten](/de/blog/ersatzprodukte-de).",
+    diasporaPl:
+      "Napoleonka to klasyk cukierniczy, który niemieccy goście rozpoznają jako przekrój z kremem, a polskie rodziny od razu jako kremówkę, gdy ciasto jest chrupkie, a krem waniliowy. Jedna blacha starcza na całą niedzielę, kawałki dla gości, reszta na następny poranek. Gotowe ciasto francuskie to w diasporze uczciwy i szybki wybór, bo charakter i tak niesie krem. Składniki na krem znajdziesz w [sklepie polskim](/pl/blog/sklep-polski-zakupy), alternatywy w [zamiennikach składników](/pl/blog/zamienniki-skladnikow).",
+    mistakesDe:
+      "Napoleonka wird gern mit [Szarlotka](/de/rezepte/szarlotka) wegen der Blechform oder mit [Wuzetka](/de/rezepte/wuzetka) wegen der Schoko-Sahne-Optik verwechselt, dabei hat sie weder Apfel noch Schokolade. Zu weicher, nicht ausreichend gebackener Teig trägt die Creme schlecht, und zu flüssige Creme lässt die Schichten verrutschen. Wird zu früh geschnitten, bevor die Napoleonka richtig durchgekühlt ist, zerfällt der Schnitt statt sauber zu bleiben.",
+    mistakesPl:
+      "Napoleonkę łatwo pomylić z [szarlotką](/pl/rezepte/szarlotka) przez formę blachy albo z [wuzetką](/pl/rezepte/wuzetka) przez wygląd czekoladowo-śmietankowy, choć nie ma tu ani jabłka, ani czekolady. Zbyt miękkie, niedopieczone ciasto słabo unosi krem, a zbyt rzadki krem sprawia, że warstwy się ślizgają. Krojenie zbyt wcześnie, zanim napoleonka porządnie się schłodzi, rozwala przekrój zamiast go zostawić czystym.",
+    variantsDe:
+      "Mit mehr Vanille wird die Creme intensiver, mit dünner Zuckerglasur statt Puderzucker wirkt die Napoleonka festlicher, und mit drei statt zwei Teiglagen wird sie höher. Wer Apfelkuchen sucht, findet ihn bei [Szarlotka](/de/rezepte/szarlotka), Käsekuchen bei [Sernik](/de/rezepte/sernik), den flachen Osterkuchen bei [Mazurek](/de/rezepte/mazurek). Für den Alltagsrahmen passt das [Sonntagsessen](/de/blog/sonntagsessen-polnisch), Einkaufshilfen liefern der [Polenladen](/de/blog/polenladen-einkaufen) und die [Ersatzprodukte](/de/blog/ersatzprodukte-de).",
+    variantsPl:
+      "Z większą ilością wanilii krem robi się intensywniejszy, z cienkim lukrem zamiast samego cukru pudru napoleonka wygląda bardziej odświętnie, a z trzema warstwami ciasta zamiast dwóch robi się wyższa. Kto szuka jabłecznika, znajdzie go w [szarlotce](/pl/rezepte/szarlotka), sernik w [serniku](/pl/rezepte/sernik), płaski wielkanocny w [mazurku](/pl/rezepte/mazurek). Do codziennej ramy pasuje [obiad niedzielny](/pl/blog/obiad-niedzielny), a wskazówki zakupowe dają [sklep polski](/pl/blog/sklep-polski-zakupy) i [zamienniki składników](/pl/blog/zamienniki-skladnikow).",
+  },
 };

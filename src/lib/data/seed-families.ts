@@ -141,6 +141,52 @@ export const seedFamilies: RecipeFamily[] = [
       },
     },
   },
+  {
+    id: "family-ogorki-malosolne",
+    defaultVariantId: "recipe-ogorki-malosolne",
+    coverImage:
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-ogorki-malosolne/3fc53722-42c1-4572-870c-99f960c7ceaa.webp",
+    regionIds: [],
+    occasionIds: ["occasion-grill"],
+    techniqueIds: ["technique-kiszenie"],
+    categoryIds: [
+      "category-eingelegt",
+      "category-vegetarisch",
+      "category-schnell",
+    ],
+    variantIds: [
+      "recipe-ogorki-malosolne",
+      "recipe-ogorki-malosolne-ostre",
+      "recipe-ogorki-malosolne-miod",
+      "recipe-ogorki-malosolne-deb",
+    ],
+    relatedPostIds: [
+      "post-kiszenie",
+      "post-ferment-glaeser",
+      "post-polenladen",
+      "post-ersatzprodukte-de",
+    ],
+    translations: {
+      de: {
+        title: "Ogórki małosolne",
+        slug: "ogorki-malosolne",
+        excerpt:
+          "Eine Familie, mehrere Hausrezepte. Klassisch, scharf, mit Honig oder mit Eichenblatt — oben wechseln.",
+        seoTitle: "Ogórki małosolne Rezepte | Alle Varianten | Alemniam",
+        seoDescription:
+          "Ogórki małosolne bilingual: klassisch, scharf, mit Honig, mit Eichenblatt. Kurzferment, klar getrennt von Kiszone und Essiggurken.",
+      },
+      pl: {
+        title: "Ogórki małosolne",
+        slug: "ogorki-malosolne",
+        excerpt:
+          "Jedna rodzina, kilka domowych wersji. Klasyczne, ostre, z miodem albo z liściem dębu — przełącz u góry.",
+        seoTitle: "Ogórki małosolne przepisy | Wszystkie warianty | Alemniam",
+        seoDescription:
+          "Ogórki małosolne dwujęzycznie: klasyczne, ostre, z miodem, z liściem dębu. Krótki kis, jasno osobno od kiszonych i konserwowych.",
+      },
+    },
+  },
 ];
 
 /** Family variants (default variant per family stays in seedRecipes, patched with familyId). */
