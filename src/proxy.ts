@@ -11,5 +11,7 @@ export default async function proxy(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/", "/(de|pl)/:path*", "/((?!_next|_vercel|.*\\..*).*)"],
+  // Exclude /api (and _next/_vercel/static files) from locale routing —
+  // API routes must never be redirected to a locale-prefixed path.
+  matcher: ["/", "/(de|pl)/:path*", "/((?!api|_next|_vercel|.*\\..*).*)"],
 };
