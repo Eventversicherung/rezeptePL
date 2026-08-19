@@ -16,7 +16,7 @@ export const seedRecipesWave14B: Recipe[] = [
     id: "recipe-jajka-faszerowane",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1626895597772-74988e263fab?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-jajka-faszerowane/4fb7ceb9-5d01-4710-8965-9cfe99fc9f57.webp",
     prepMinutes: 25,
     cookMinutes: 12,
     servings: 6,
@@ -155,7 +155,7 @@ export const seedRecipesWave14B: Recipe[] = [
     id: "recipe-cwikla",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1541690325738-d4ba017004b6?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-cwikla/6ae28221-2f69-4a14-bf3f-8e83eac61d4c.webp",
     prepMinutes: 20,
     cookMinutes: 45,
     servings: 8,

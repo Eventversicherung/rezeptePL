@@ -189,7 +189,7 @@ export const seedRecipesWave15B: Recipe[] = [
     id: "recipe-salatka-sledziowa",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1719403196215-304b79398cad?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-salatka-sledziowa/217de80a-a53b-4bc0-be52-f8f5b426a592.webp",
     prepMinutes: 30,
     cookMinutes: 15,
     servings: 6,

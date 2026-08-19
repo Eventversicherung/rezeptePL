@@ -14,7 +14,7 @@ export const seedRecipesWave14D: Recipe[] = [
     id: "recipe-leczo",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1596797038530-2c107229654b?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-leczo/dfefb489-d2b6-40fb-ab9e-90c09754aca0.webp",
     prepMinutes: 15,
     cookMinutes: 35,
     servings: 4,

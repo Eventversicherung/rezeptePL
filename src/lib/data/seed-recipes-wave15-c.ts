@@ -16,7 +16,7 @@ export const seedRecipesWave15C: Recipe[] = [
     id: "recipe-marchewka-groszek",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1565711120607-903eb0a17e2f?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-marchewka-groszek/009472cc-9559-425d-9660-aa0ea87b2781.webp",
     prepMinutes: 15,
     cookMinutes: 20,
     servings: 4,
@@ -150,7 +150,7 @@ export const seedRecipesWave15C: Recipe[] = [
     id: "recipe-fasolka-szparagowa",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1677449477669-03421e56a53d?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-fasolka-szparagowa/b77438bf-1db3-4f2b-98d9-95076e60db03.webp",
     prepMinutes: 15,
     cookMinutes: 15,
     servings: 4,
