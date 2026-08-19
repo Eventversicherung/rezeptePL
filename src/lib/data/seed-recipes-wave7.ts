@@ -6,7 +6,7 @@ export const seedRecipesWave7: Recipe[] = [
     id: "recipe-karp",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1548704087-b11dab0fbec0?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-karp/4273a101-045f-4bcf-952b-dfc7d9e226d6.webp",
     prepMinutes: 30,
     cookMinutes: 40,
     servings: 4,
@@ -127,7 +127,7 @@ export const seedRecipesWave7: Recipe[] = [
     id: "recipe-krokiety",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1626011852881-4609127619a8?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-krokiety/28329c37-3ab6-4593-97c3-92b1e86787bf.webp",
     prepMinutes: 50,
     cookMinutes: 25,
     servings: 4,
@@ -257,7 +257,7 @@ export const seedRecipesWave7: Recipe[] = [
     id: "recipe-sernik",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1773632996592-e150b9ed5059?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-sernik/038984fe-b127-439e-bfe0-3799f727e1b3.webp",
     prepMinutes: 35,
     cookMinutes: 60,
     servings: 12,
@@ -377,7 +377,7 @@ export const seedRecipesWave7: Recipe[] = [
     id: "recipe-sledz",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1665841265022-27fd74b83005?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-sledz/0c4050e5-1b47-4bd0-bd45-831394b85b0c.webp",
     prepMinutes: 25,
     cookMinutes: 0,
     servings: 6,
