@@ -16,7 +16,7 @@ export const seedRecipesWave15B: Recipe[] = [
     id: "recipe-galareta",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1750874694799-ab25e24549d3?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-galareta/28e5cd62-5aae-45e9-9997-27d4cba666bf.webp",
     prepMinutes: 40,
     cookMinutes: 210,
     servings: 8,

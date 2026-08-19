@@ -172,7 +172,7 @@ export const seedRecipesWave13A: Recipe[] = [
     id: "recipe-szczawiowa",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1626200949840-179d3e52f7fd?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-szczawiowa/e82fb107-2862-444c-8151-09b5c195ccfe.webp",
     prepMinutes: 15,
     cookMinutes: 35,
     servings: 4,

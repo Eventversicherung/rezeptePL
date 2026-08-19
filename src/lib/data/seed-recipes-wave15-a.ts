@@ -14,7 +14,7 @@ export const seedRecipesWave15A: Recipe[] = [
     id: "recipe-kaczka",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1756139705997-f92690428d66?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-kaczka/b37d0905-1d46-4a90-95e4-7bfa5acfdca7.webp",
     prepMinutes: 35,
     cookMinutes: 120,
     servings: 6,
@@ -150,7 +150,7 @@ export const seedRecipesWave15A: Recipe[] = [
     id: "recipe-pieczen-rzymska",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1774494248272-bf91a0219bfe?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-pieczen-rzymska/fba8c48a-a20a-476a-9964-34918e8f5ab7.webp",
     prepMinutes: 30,
     cookMinutes: 70,
     servings: 8,

@@ -16,7 +16,7 @@ export const seedRecipesWave15D: Recipe[] = [
     id: "recipe-koperkowa",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1610725663727-08695a1ac3ff?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-koperkowa/7963dc55-f93f-4402-a29d-3ab00ec4adea.webp",
     prepMinutes: 15,
     cookMinutes: 35,
     servings: 4,
@@ -175,7 +175,7 @@ export const seedRecipesWave15D: Recipe[] = [
     id: "recipe-kisiel",
     status: "published",
     coverImage:
-      "https://images.unsplash.com/photo-1552503983-37e5802c2cf3?w=1600&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-kisiel/4907c5d0-2f4e-49d0-b95f-1105eed24779.webp",
     prepMinutes: 10,
     cookMinutes: 15,
     servings: 4,
