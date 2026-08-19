@@ -17,6 +17,7 @@ import {
   type BreadcrumbItem,
 } from "@/components/layout/Breadcrumbs";
 import { SetLocaleAlternates } from "@/components/i18n/LocaleAlternates";
+import { renderInlineMarkdown } from "@/lib/format/inline-markdown";
 import { groupLabelKey, scaleAmount } from "@/lib/utils";
 import { familyVariantPath } from "@/lib/data/recipe-paths";
 import { ModeSwitch } from "./ModeSwitch";
@@ -281,7 +282,7 @@ export function RecipeExperience({
             </p>
             {step?.tip ? (
               <p className="mt-5 rounded-2xl border border-accent/20 bg-accent-soft px-4 py-3.5 text-base font-medium text-accent">
-                {t("tips")}: {step.tip}
+                {t("tips")}: {renderInlineMarkdown(step.tip)}
               </p>
             ) : null}
             <div className="mt-6 grid grid-cols-2 gap-3">

@@ -212,63 +212,65 @@ export const seedRecipesWave14C: Recipe[] = [
         title: "Zapiekanka",
         slug: "zapiekanka",
         excerpt:
-          "Polnisches Straßen-Baguette: längs aufgeschnitten, mit Pilzen, Schinken und Käse überbacken — klar ≠ Krokiety, ≠ Naleśniki, ≠ Pierogi.",
+          "Zapiekanka ist Polens bekanntestes Straßen-Baguette, längs aufgeschnitten und überbacken mit ausgedämpften Pilzen, Schinken und reichlich Käse, klassisch serviert mit einem Klecks Ketchup.",
         steps: [
           {
-            text: "Champignons fein würfeln, Zwiebel klein schneiden. In Butter oder Öl anbraten, bis die Flüssigkeit verdampft ist; salzen und pfeffern.",
-            tip: "Einkauf: [Polenladen](/de/blog/polenladen-einkaufen). Käse-Ersatz ehrlich: [Ersatzprodukte DE](/de/blog/ersatzprodukte-de).",
+            text: "Champignons fein würfeln und die Zwiebel klein schneiden. Beides in Butter oder Öl anbraten, bis die austretende Flüssigkeit vollständig verdampft ist, dann mit Salz und Pfeffer abschmecken.",
+            tip: "Im [Polenladen](/de/blog/polenladen-einkaufen) bekommst du Champignons und Schinken oft frischer und günstiger als im Supermarkt. Fehlt eine bestimmte Käsesorte, hilft der Beitrag zu [Ersatzprodukten](/de/blog/ersatzprodukte-de) weiter.",
           },
           {
-            text: "Baguette längs halbieren (oder in Portionen teilen). Schnittflächen leicht andrösten — Ofenvorbereitung 200 °C Ober-/Unterhitze.",
-            tip: "Das ist Baguette-Streetfood, keine gerollte [Krokiety](/de/rezepte/krokiety) und keine [Naleśniki](/de/rezepte/nalesniki/twarog).",
+            text: "Das Baguette längs halbieren oder in Portionen teilen und die Schnittflächen im auf 200 Grad Ober- und Unterhitze vorgeheizten Ofen kurz andrösten.",
+            tip: "Die Form macht den Unterschied: Zapiekanka bleibt ein flaches Baguette, während [Krokiety](/de/rezepte/krokiety) gerollt und paniert sind und [Naleśniki](/de/rezepte/nalesniki/twarog) aus dünnem Pfannkuchenteig bestehen.",
           },
           {
-            text: "Pilzmasse auf die Baguettehälften verteilen, Schinkenwürfel darauf, großzügig geriebenen Käse (Gouda/Edamer/Mozzarella).",
+            text: "Die Pilzmasse gleichmäßig auf beide Baguettehälften verteilen, die Schinkenwürfel darüberstreuen und zum Schluss großzügig geriebenen Käse aufsetzen.",
+            tip: "Gouda und Edamer schmelzen zuverlässig und bräunen schön, Mozzarella zieht dafür lange Fäden. Wer mag, mischt beide Sorten.",
           },
           {
-            text: "Auf dem Blech 10–12 Minuten backen, bis der Käse schmilzt und die Ränder knusprig sind. Nicht austrocknen lassen.",
-            tip: "Schnellgericht-Alltag neben [Sonntagsessen](/de/blog/sonntagsessen-polnisch) — Kulturrahmen bleibt bei dort.",
+            text: "Auf dem Blech 10 bis 12 Minuten backen, bis der Käse vollständig geschmolzen ist und die Ränder des Baguettes knusprig werden. Nicht zu lange backen, sonst trocknet das Brot aus.",
+            tip: "Der schnelle Alltagsgriff passt gut neben ein ausführliches [Sonntagsessen](/de/blog/sonntagsessen-polnisch), wenn nach dem Kochmarathon wenig Zeit bleibt.",
           },
           {
-            text: "Heiß mit Ketchup (klassisch) und optional Schnittlauch servieren. Sofort essen — Käse zieht beim Abkühlen.",
-            tip: "Nicht mit [Pierogi](/de/rezepte/pierogi/ruskie) verwechseln — anderer Teig. Reste kurz im Ofen aufwärmen, nicht Mikrowelle.",
+            text: "Heiß servieren, klassisch mit einem Streifen Ketchup und nach Belieben etwas Schnittlauch. Am besten sofort essen, denn der Käse wird beim Abkühlen wieder fest.",
+            tip: "Zapiekanka hat mit [Pierogi](/de/rezepte/pierogi/ruskie) nichts zu tun, denn der Teig ist völlig anders. Reste am nächsten Tag kurz im Ofen aufbacken, in der Mikrowelle wird das Brot gummiartig.",
           },
         ],
         seoTitle:
           "Zapiekanka Rezept | Polnisches Baguette überbacken | Alemniam",
         seoDescription:
-          "Zapiekanka: Baguette mit Pilzen, Schinken und Käse. Straßenfood-Klassiker bilingual, klar ≠ Krokiety und Naleśniki.",
+          "Zapiekanka Rezept: Baguette mit Pilzen, Schinken und Käse überbacken. Klassischer polnischer Straßenfood-Snack, klar unterschieden von Krokiety und Naleśniki.",
       },
       pl: {
         title: "Zapiekanka",
         slug: "zapiekanka",
         excerpt:
-          "Polska zapiekanka uliczna: bagietka przekrojona wzdłuż, z pieczarkami, szynką i serem — jasno ≠ krokiety, ≠ naleśniki, ≠ pierogi.",
+          "Zapiekanka to najbardziej znana polska bagietka uliczna, przekrojona wzdłuż i zapieczona z odparowanymi pieczarkami, szynką i dużą ilością sera, podawana klasycznie z odrobiną keczupu.",
         steps: [
           {
-            text: "Pieczarki drobno pokrój, cebulę posiekaj. Podsmaż na maśle lub oleju, aż odparuje woda; posól i popieprz.",
-            tip: "Zakupy: [sklep polski](/pl/blog/sklep-polski-zakupy). Zamienniki sera: [zamienniki składników](/pl/blog/zamienniki-skladnikow).",
+            text: "Pieczarki drobno pokrój, a cebulę posiekaj. Podsmaż obie rzeczy na maśle lub oleju, aż odparuje cała woda, i dopraw solą oraz pieprzem.",
+            tip: "W [sklepie polskim](/pl/blog/sklep-polski-zakupy) pieczarki i szynkę często kupisz świeższe i taniej niż w markecie. Jeśli brakuje konkretnej odmiany sera, sprawdź [zamienniki składników](/pl/blog/zamienniki-skladnikow).",
           },
           {
-            text: "Bagietkę przekrój wzdłuż (albo na porcje). Lekko podpiecz powierzchnię — piekarnik 200 °C góra/dół.",
-            tip: "To bagietka uliczna, nie zwijane [krokiety](/pl/rezepte/krokiety) i nie [naleśniki](/pl/rezepte/nalesniki/twarog).",
+            text: "Bagietkę przekrój wzdłuż na pół albo podziel na porcje i lekko podpiecz powierzchnię w piekarniku nagrzanym do 200 stopni, góra i dół.",
+            tip: "Forma robi różnicę: zapiekanka to zawsze płaska bagietka, podczas gdy [krokiety](/pl/rezepte/krokiety) są zwijane i panierowane, a [naleśniki](/pl/rezepte/nalesniki/twarog) robi się z cienkiego ciasta na patelni.",
           },
           {
-            text: "Rozłóż masę pieczarkową, dodaj kostkę szynki, hojnie starty ser (gouda/edam/mozzarella).",
+            text: "Rozłóż równo masę pieczarkową na obu połówkach, dodaj kostki szynki i na końcu hojnie posyp startym serem.",
+            tip: "Gouda i edam topią się pewnie i ładnie brązowieją, mozzarella ciągnie się długimi niciami. Możesz też połączyć obie odmiany.",
           },
           {
-            text: "Piecz na blasze 10–12 min, aż ser się roztopi, a brzegi chrupią. Nie wysusz.",
-            tip: "Szybkie danie obok [obiadu niedzielnego](/pl/blog/obiad-niedzielny) — przewodnik kulturowy zostaje tam.",
+            text: "Piecz na blasze od 10 do 12 minut, aż ser całkowicie się roztopi, a brzegi bagietki zrobią się chrupiące. Nie piecz dłużej, bo chleb wyschnie.",
+            tip: "To szybkie rozwiązanie na dzień powszedni, przydatne również obok pełnego [obiadu niedzielnego](/pl/blog/obiad-niedzielny), kiedy po dłuższym gotowaniu zostaje mało czasu.",
           },
           {
-            text: "Podawaj gorące z keczupem (klasyka) i opcjonalnie szczypiorkiem. Jedz od razu — ser stygnąc twardnieje.",
-            tip: "Nie mylić z [pierogami](/pl/rezepte/pierogi/ruskie). Resztki krótko w piekarniku, nie mikrofalówka.",
+            text: "Podawaj na gorąco, klasycznie z paskiem keczupu i opcjonalnie szczypiorkiem. Jedz najlepiej od razu, bo ser podczas stygnięcia znowu twardnieje.",
+            tip: "Zapiekanki nie łączy się z [pierogami](/pl/rezepte/pierogi/ruskie), bo ciasto jest zupełnie inne. Resztki odgrzej krótko w piekarniku, w mikrofalówce chleb robi się gumowaty.",
           },
         ],
         seoTitle:
           "Zapiekanka przepis | Polska bagietka zapiekana | Alemniam",
         seoDescription:
-          "Zapiekanka: bagietka z pieczarkami, szynką i serem. Klasyk uliczny dwujęzycznie, jasno ≠ krokiety i naleśniki.",
+          "Przepis na zapiekankę: bagietka z pieczarkami, szynką i serem. Klasyczny polski street food, inny niż krokiety i naleśniki.",
       },
     },
     ingredients: [
@@ -279,8 +281,8 @@ export const seedRecipesWave14C: Recipe[] = [
         unit: { de: "Stück (ca. 300 g)", pl: "szt. (ok. 300 g)" },
         group: "pantry",
         substitute: {
-          de: "Ciabatta oder längliches Weißbrot — Form ehrlich benennen",
-          pl: "Ciabatta lub długi biały chleb — nazwać formę uczciwie",
+          de: "Ciabatta oder ein anderes längliches Weißbrot funktioniert auch, dann aber die abweichende Form ehrlich benennen",
+          pl: "Ciabatta lub inny długi biały chleb też się nadaje, ale wtedy uczciwie napisać o innej formie",
         },
       },
       {
@@ -305,8 +307,8 @@ export const seedRecipesWave14C: Recipe[] = [
         group: "other",
         storeHintDe: "Polenladen / Kühltruhe",
         substitute: {
-          de: "Vegetarisch weglassen — dann klar „nur Pilze“ im Title",
-          pl: "Wersja wege bez szynki — jasno „tylko pieczarki” w tytule",
+          de: "Für die vegetarische Version einfach weglassen und im Titel klar „nur Pilze“ schreiben",
+          pl: "W wersji wegetariańskiej po prostu pominąć i w tytule jasno napisać „tylko pieczarki”",
         },
       },
       {

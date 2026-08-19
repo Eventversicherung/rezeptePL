@@ -82,6 +82,13 @@ const colonLinkDump =
 const bannedSeoEnglish =
   /\b(Intent|Primary|Ownership|Pillar|Owner|Switcher)\b/;
 
+/**
+ * Em dash used as a sentence-pause ("Gedankenstrich"). Reader copy must use
+ * full sentences with periods/commas instead. En dash in numeric ranges
+ * (e.g. "10–12 Minuten") is fine and not flagged here.
+ */
+const emDash = /—/;
+
 function scanJargon(text, id, locale, failures) {
   if (!text) return;
 
@@ -114,6 +121,16 @@ function scanJargon(text, id, locale, failures) {
       .slice(Math.max(0, idx - 40), idx + 60)
       .replace(/\s+/g, " ");
     failures.push({ id, locale, term: eng[0], snippet });
+    return;
+  }
+
+  const dash = text.match(emDash);
+  if (dash) {
+    const idx = text.indexOf(dash[0]);
+    const snippet = text
+      .slice(Math.max(0, idx - 40), idx + 60)
+      .replace(/\s+/g, " ");
+    failures.push({ id, locale, term: "em dash (—)", snippet });
   }
 }
 
