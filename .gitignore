@@ -40,6 +40,9 @@ yarn-error.log*
 # vercel
 .vercel
 
+# local Cursor editor state (per-machine, not shared)
+.cursor
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
