@@ -5,7 +5,7 @@ import { storagePublicUrl } from "@/lib/supabase/storage";
 
 export const runtime = "nodejs";
 
-const MEDIA_ID_PATTERN = /^(recipe|post)-[a-z0-9-]+$/;
+const MEDIA_ID_PATTERN = /^(recipe|post|category)-[a-z0-9-]+$/;
 const MAX_BYTES = 8 * 1024 * 1024; // 8 MB safety cap
 
 /**
@@ -67,7 +67,11 @@ export async function POST(request: Request) {
     );
   }
 
-  const folder = recipeId.startsWith("post-") ? "blog" : "recipes";
+  const folder = recipeId.startsWith("post-")
+    ? "blog"
+    : recipeId.startsWith("category-")
+      ? "categories"
+      : "recipes";
   const objectPath = `${folder}/${recipeId}/${randomUUID()}.webp`;
   const bytes = new Uint8Array(await file.arrayBuffer());
 

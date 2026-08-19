@@ -499,7 +499,7 @@ export const seedClusters: Cluster[] = [
       pl: "Polskie klasyki, które wychodzą szybko. Z listą zakupów.",
     },
     coverImage:
-      "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?w=1200&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-category-schnell/14413757-ad21-4807-a605-821f5988660a.webp",
   },
   {
     id: "category-suppen",
@@ -519,7 +519,7 @@ export const seedClusters: Cluster[] = [
       pl: "Klasyczne polskie zupy dwujęzycznie.",
     },
     coverImage:
-      "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=1200&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-category-suppen/025f8e40-2757-44a7-b8b5-a221217bd9ef.webp",
   },
   {
     id: "category-hauptgerichte",
@@ -539,7 +539,7 @@ export const seedClusters: Cluster[] = [
       pl: "Dania główne polskiej kuchni domowej.",
     },
     coverImage:
-      "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=1200&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-category-hauptgerichte/76372672-0e4b-4b4d-b644-5cc2bd7d9c54.webp",
   },
   {
     id: "category-suess",
@@ -559,7 +559,7 @@ export const seedClusters: Cluster[] = [
       pl: "Słodkości z polskiej kuchni — od faworków po naleśniki.",
     },
     coverImage:
-      "https://images.unsplash.com/photo-1551024601-bec78aea704b?w=1200&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-category-suess/2ecd9add-bee3-480e-80ca-ed812c6fccc7.webp",
   },
   {
     id: "category-vegetarisch",
@@ -579,6 +579,6 @@ export const seedClusters: Cluster[] = [
       pl: "Wegetariańskie klasyki polskiej kuchni.",
     },
     coverImage:
-      "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=1200&q=80",
+      "https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-category-vegetarisch/7c59eaa7-55ab-4784-8892-c1d8cd3e7d87.webp",
   },
 ];
