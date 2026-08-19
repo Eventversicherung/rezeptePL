@@ -33,11 +33,11 @@ sind untereinander unabhängig und dürfen parallel laufen.
 | W10 | flaki, schab-pieczony, piernik, zupa-pomidorowa, nalesniki-dzem, pierogi-jagody, makaron-z-serem | seed-recipes-wave10-{a,b,c,d}.ts | recipe-articles-w10-{a,b,c,d}.ts | ⏳ Agent a6e9ab66 |
 | W11 | golonka, kompot-z-suszu, ryba-po-grecku | seed-recipes-wave11-d.ts | recipe-articles-w11-d.ts | ⏳ Agent 8f39b140 |
 | W12 | zupa-grzybowa, grochowka, makaron-z-makiem, szarlotka, mazurek, buraczki, klopsy, kluski-kladzione | seed-recipes-wave12-{a,b,c,d}.ts | recipe-articles-w12-{a,b,c,d}.ts | ⏳ Agent 436497c9 |
-| W13 | krupnik, szczawiowa, kutia, napoleonka, chalka, pasztet, biala-kielbasa | seed-recipes-wave13-{a,b,c,d}.ts | recipe-articles-w13-{a,b,c,d}.ts | ⬜ offen |
-| W14-Rest | wuzetka, drozdzowka, jajka-faszerowane, cwikla, placek-po-wegiersku, leczo | seed-recipes-wave14-{a,b,c,d}.ts | recipe-articles-w14-{a,b,c,d}.ts | ⬜ offen |
-| W15 | kaczka, pieczen-rzymska, galareta, salatka-sledziowa, marchewka-groszek, fasolka-szparagowa, koperkowa, kisiel | seed-recipes-wave15-{a,b,c,d}.ts | recipe-articles-w15-{a,b,c,d}.ts | ⬜ offen |
-| W16 | surowka, de-volaille, kasza-gryczana, tatar, pierniczki, knedle-truskawki, chrzan, kurczak-pieczony | seed-recipes-wave16-{a,b,c,d}.ts | recipe-articles-w16-{a,b,c,d}.ts | ⬜ offen |
-| W17 | ogorki-kiszone, ogorki-malosolne, kapusta-kiszona, czosnek-kiszony, grzyby-marynowane, papryka-konserwowa, sliwki-w-occie, cebulka-marynowana, kalafior-w-occie, buraki-w-occie | seed-recipes-wave17.ts | recipe-articles-w17.ts (falls vorhanden, sonst passendes FACTS-File suchen) | ⬜ offen (neu entdeckt, war nicht in Erstplan) |
+| W13 | krupnik, szczawiowa, kutia, napoleonka, chalka, pasztet, biala-kielbasa | seed-recipes-wave13-{a,b,c,d}.ts | recipe-articles-w13-{a,b,c,d}.ts | ⏳ Agent c5f13a4c |
+| W14-Rest | wuzetka, drozdzowka, jajka-faszerowane, cwikla, placek-po-wegiersku, leczo | seed-recipes-wave14-{a,b,c,d}.ts | recipe-articles-w14-{a,b,c,d}.ts | ⏳ Agent f78b8ad6 |
+| W15 | kaczka, pieczen-rzymska, galareta, salatka-sledziowa, marchewka-groszek, fasolka-szparagowa, koperkowa, kisiel | seed-recipes-wave15-{a,b,c,d}.ts | recipe-articles-w15-{a,b,c,d}.ts | ⏳ Agent 80ffeef7 |
+| W16 | surowka, de-volaille, kasza-gryczana, tatar, pierniczki, knedle-truskawki, chrzan, kurczak-pieczony | seed-recipes-wave16-{a,b,c,d}.ts | recipe-articles-w16-{a,b,c,d}.ts | ⏳ Agent 0aaf959f |
+| W17 | ogorki-kiszone, ogorki-malosolne, kapusta-kiszona, czosnek-kiszony, grzyby-marynowane, papryka-konserwowa, sliwki-w-occie, cebulka-marynowana, kalafior-w-occie, buraki-w-occie | seed-recipes-wave17.ts | recipe-articles-w17.ts (NEU — hatte bisher gar keine FACTS, zeigte Stub-Platzhalter) | ⏳ Agent b9165adf (erstellt neue FACTS-Datei) |
 | Mega-A | pierogi-leniwe, kopytka, lazanki, pyzy, zrazy | seed-recipes-wave5.ts | recipe-articles.ts | ⬜ offen (teilt recipe-articles.ts) |
 | Mega-B | makowiec, uszka, karp, krokiety, sernik, sledz | seed-recipes-wave6.ts, wave7.ts | recipe-articles.ts | ⬜ offen (teilt recipe-articles.ts) |
 | Mega-C | pierogi, golabki, oscypek, placki, nalesniki, rosol, bigos, nalesniki-mieso, nalesniki-szpinak | seed-blog-w3a.ts | recipe-articles.ts | ⬜ offen (teilt recipe-articles.ts) |

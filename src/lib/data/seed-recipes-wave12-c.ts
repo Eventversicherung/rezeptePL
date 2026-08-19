@@ -33,61 +33,63 @@ export const seedRecipesWave12C: Recipe[] = [
         title: "Mazurek orzechowy",
         slug: "mazurek",
         excerpt:
-          "Flacher Osterkuchen auf Mürbeteig mit Nuss-Honig-Belag — eine klare Hausvariante, festlich und ≠ Babka, Sernik oder Makowiec.",
+          "Flacher Osterkuchen auf Mürbeteig mit Nuss-Honig-Belag, eine festliche Hausvariante, die sich klar von Babka, Sernik oder Makowiec unterscheidet.",
         steps: [
           {
-            text: "Für den Boden: Mehl, kalte Butter, Zucker, Ei und Prise Salz zu einem glatten Mürbeteig verkneten. Zu einer Scheibe formen, in Folie 30 Minuten kühlen.",
-            tip: "Kurzer, flacher Teig — kein Hefegugelhupf wie [Babka](/de/rezepte/babka). Ostern-Rahmen: [Wielkanoc Speiseplan](/de/blog/wielkanoc-speiseplan).",
+            text: "Für den Boden Mehl, kalte Butter, Zucker, Ei und eine Prise Salz zu einem glatten Mürbeteig verkneten. Zu einer Scheibe formen, in Folie wickeln und 30 Minuten kühlen.",
+            tip: "Das ist ein kurzer, flacher Teig, kein Hefegugelhupf wie [Babka](/de/rezepte/babka). Den Rahmen für den ganzen Ostertisch liefert der [Wielkanoc-Speiseplan](/de/blog/wielkanoc-speiseplan).",
           },
           {
-            text: "Backblech oder flache Form (ca. 30×40 cm) fetten, Teig dünn ausrollen (ca. 5 mm), einlegen, Ränder hochdrücken. Mit Gabel einstechen.",
-            tip: "Kein Mohnwickel — das bleibt [Makowiec](/de/rezepte/makowiec). Käsekuchen-Linie: [Sernik](/de/rezepte/sernik).",
+            text: "Ein Backblech oder eine flache Form von etwa 30 mal 40 Zentimetern fetten, den Teig dünn auf etwa 5 Millimeter ausrollen, einlegen und die Ränder hochdrücken. Mit einer Gabel mehrfach einstechen.",
+            tip: "Eine gerollte Mohnrolle bleibt [Makowiec](/de/rezepte/makowiec) vorbehalten, die Käsekuchen-Linie führt zu [Sernik](/de/rezepte/sernik).",
           },
           {
-            text: "Boden bei 180 °C (Umluft etwas niedriger) 12–15 Minuten vorbacken, bis er matt und leicht golden ist. Herausnehmen.",
+            text: "Den Boden bei 180 Grad, bei Umluft etwas niedriger, 12 bis 15 Minuten vorbacken, bis er matt und leicht golden aussieht, dann herausnehmen.",
+            tip: "Ein zu lange vorgebackener Boden wird beim zweiten Backgang leicht zu dunkel, deshalb reicht hier ein leichtes Anbräunen völlig aus.",
           },
           {
-            text: "Belag: gehackte Nüsse (Walnuss, Haselnuss, Mandel nach Hausbrauch) mit Butter, Honig oder Zucker und Prise Salz in der Pfanne kurz rösten/bindig machen. Gleichmäßig auf dem heißen Boden verteilen.",
-            tip: "Nüsse und Honig oft im [Polenladen](/de/blog/polenladen-einkaufen). Hefe-Kontext: nur [Makowiec-Technik](/de/blog/makowiec-technik) — die Mohnrolle bleibt beim Makowiec.",
+            text: "Für den Belag gehackte Nüsse, je nach Hausbrauch Walnuss, Haselnuss oder Mandel, mit Butter, Honig oder Zucker und einer Prise Salz kurz in der Pfanne rösten, bis die Masse bindet. Gleichmäßig auf dem heißen Boden verteilen.",
+            tip: "Nüsse und guten Honig findest du oft im [Polenladen](/de/blog/polenladen-einkaufen). Wie Hefeteig sich anfühlt, zeigt zwar die [Makowiec-Technik](/de/blog/makowiec-technik), die gerollte Mohnvariante bleibt aber allein dem Makowiec vorbehalten.",
           },
           {
-            text: "Weitere 15–20 Minuten backen, bis der Belag goldbraun und gesetzt ist. Abkühlen, in Rauten schneiden. Optional mit etwas Puderzucker oder getrockneten Früchten garnieren.",
-            tip: "Am Ostertisch planen; Fokus bleibt dieses Rezept — Speiseplan: [Wielkanoc](/de/blog/wielkanoc-speiseplan).",
+            text: "Weitere 15 bis 20 Minuten backen, bis der Belag goldbraun und fest geworden ist. Abkühlen lassen, dann in Rauten schneiden. Optional mit etwas Puderzucker oder getrockneten Früchten garnieren.",
+            tip: "Den festlichen Rahmen für den ganzen Ostertisch liefert der [Wielkanoc-Speiseplan](/de/blog/wielkanoc-speiseplan), der Fokus hier bleibt trotzdem klar bei diesem einen Mazurek.",
           },
         ],
         seoTitle: "Mazurek Rezept | Osterkuchen polnisch orzechowy | Alemniam",
         seoDescription:
-          "Mazurek orzechowy: flacher Mürbeteig mit Nussbelag. Bilingual, Wielkanoc-tauglich, klar ≠ Babka, Sernik, Makowiec.",
+          "Mazurek orzechowy: flacher Mürbeteig mit Nussbelag. Bilingual, Wielkanoc-tauglich, klar getrennt von Babka, Sernik und Makowiec.",
       },
       pl: {
         title: "Mazurek orzechowy",
         slug: "mazurek",
         excerpt:
-          "Płaski mazurek na kruchym spodzie z orzechowo-miodowym wierzchem — jedna jasna wersja domowa, świątecznie i ≠ babka, sernik ani makowiec.",
+          "Płaski mazurek na kruchym spodzie z orzechowo-miodowym wierzchem, świąteczna wersja domowa, wyraźnie inna niż babka, sernik czy makowiec.",
         steps: [
           {
-            text: "Spód: mąkę, zimne masło, cukier, jajko i szczyptę soli zagnieć na gładkie kruche ciasto. Uformuj placek, owiń folią, chłodź 30 minut.",
-            tip: "Krótki, płaski spód — nie drożdżowa [babka](/pl/rezepte/babka). Rama świąt: [menu wielkanocne](/pl/blog/menu-wielkanocne).",
+            text: "Na spód zagnieć mąkę, zimne masło, cukier, jajko i szczyptę soli na gładkie kruche ciasto. Uformuj placek, owiń folią i chłodź 30 minut.",
+            tip: "To krótki, płaski spód, a nie drożdżowa [babka](/pl/rezepte/babka). Ramę na cały stół wielkanocny daje [menu wielkanocne](/pl/blog/menu-wielkanocne).",
           },
           {
-            text: "Blachę lub płaską formę (ok. 30×40 cm) natłuść, rozwałkuj ciasto cienko (ok. 5 mm), ułóż, brzegi unieś. Nakłuj widelcem.",
-            tip: "Bez makowej rolady — to zostaje [makowiec](/pl/rezepte/makowiec). Linia sernika: [sernik](/pl/rezepte/sernik).",
+            text: "Natłuść blachę lub płaską formę o wymiarach około 30 na 40 centymetrów, rozwałkuj ciasto cienko na około 5 milimetrów, ułóż je i podnieś brzegi. Nakłuj widelcem w kilku miejscach.",
+            tip: "Zwijana rolada makowa zostaje przy [makowcu](/pl/rezepte/makowiec), linia sernikowa prowadzi do [sernika](/pl/rezepte/sernik).",
           },
           {
-            text: "Podpiecz spód w 180 °C (termoobieg nieco niżej) 12–15 minut, aż będzie matowy i lekko złoty. Wyjmij.",
+            text: "Podpiecz spód w 180 stopniach, przy termoobiegu nieco niżej, przez 12 do 15 minut, aż będzie matowy i lekko złoty, potem wyjmij.",
+            tip: "Zbyt długo podpieczony spód łatwo się przypali podczas drugiego pieczenia, dlatego wystarczy tu lekkie zarumienienie.",
           },
           {
-            text: "Wierzch: posiekane orzechy (włoskie, laskowe, migdały wg domu) z masłem, miodem lub cukrem i szczyptą soli krótko na patelni zwiąż. Rozprowadź równomiernie na gorącym spodzie.",
-            tip: "Orzechy i miód często w [sklepie polskim](/pl/blog/sklep-polski-zakupy). Drożdże [technika makowca](/pl/blog/makowiec-technika) — rolada zostaje przy makowcu.",
+            text: "Na wierzch posiekane orzechy, według domu włoskie, laskowe lub migdały, z masłem, miodem lub cukrem i szczyptą soli krótko podgrzej na patelni, aż masa zwiąże się. Rozprowadź równomiernie na gorącym spodzie.",
+            tip: "Orzechy i dobry miód znajdziesz często w [sklepie polskim](/pl/blog/sklep-polski-zakupy). Wyczucie ciasta drożdżowego pokazuje [technika makowca](/pl/blog/makowiec-technika), ale zwijana wersja makowa zostaje wyłącznie przy makowcu.",
           },
           {
-            text: "Piecz kolejne 15–20 minut, aż wierzch będzie złoty i związany. Ostudź, pokrój w romby. Opcjonalnie cukier puder lub suszone owoce.",
-            tip: "Przy stole w menu; tu zostaje ten przepis — plan stołu: [menu wielkanocne](/pl/blog/menu-wielkanocne).",
+            text: "Piecz kolejne 15 do 20 minut, aż wierzch będzie złoty i związany. Ostudź, pokrój w romby. Opcjonalnie udekoruj cukrem pudrem lub suszonymi owocami.",
+            tip: "Ramę na cały stół wielkanocny daje [menu wielkanocne](/pl/blog/menu-wielkanocne), fokus tego przepisu zostaje jednak wyraźnie przy tym jednym mazurku.",
           },
         ],
         seoTitle: "Mazurek przepis | Mazurek orzechowy wielkanocny | Alemniam",
         seoDescription:
-          "Mazurek orzechowy: kruche ciasto z orzechowym wierzchem. Dwujęzycznie, na Wielkanoc, jasno ≠ babka, sernik, makowiec.",
+          "Mazurek orzechowy: kruche ciasto z orzechowym wierzchem. Dwujęzycznie, na Wielkanoc, jasno osobno od babki, sernika i makowca.",
       },
     },
     ingredients: [
@@ -135,10 +137,10 @@ export const seedRecipesWave12C: Recipe[] = [
         amount: 250,
         unit: { de: "g", pl: "g" },
         group: "pantry",
-        storeHintDe: "Polenladen / Nussregal — frisch riechen",
+        storeHintDe: "Polenladen im Nussregal, am Geruch die Frische prüfen",
         substitute: {
-          de: "Nur eine Nusssorte — ehrlich benennen",
-          pl: "Jeden rodzaj orzechów — nazwać uczciwie",
+          de: "Auch nur eine Nusssorte funktioniert, das dann ehrlich benennen",
+          pl: "Wystarczy też jeden rodzaj orzechów, tylko trzeba to uczciwie napisać",
         },
       },
       {
@@ -154,7 +156,7 @@ export const seedRecipesWave12C: Recipe[] = [
         amount: 80,
         unit: { de: "g", pl: "g" },
         group: "pantry",
-        storeHintDe: "Honig oft im Polenladen aromatischer",
+        storeHintDe: "Honig aus dem Polenladen ist oft aromatischer",
       },
       {
         id: "mz-9",
@@ -166,8 +168,8 @@ export const seedRecipesWave12C: Recipe[] = [
         unit: { de: "g", pl: "g" },
         group: "pantry",
         substitute: {
-          de: "Weglassen — Belag reicht",
-          pl: "Pominąć — wierzch wystarczy",
+          de: "Lässt sich weglassen, der Belag allein reicht schon aus",
+          pl: "Można pominąć, sam wierzch całkowicie wystarczy",
         },
       },
     ],
@@ -197,59 +199,61 @@ export const seedRecipesWave12C: Recipe[] = [
         title: "Buraczki",
         slug: "buraczki",
         excerpt:
-          "Warme geraspelte Rote-Bete-Beilage mit Apfel und Meerrettich — Sonntagsteller mit Schabowy, klar ≠ Botwinka-Suppe und ≠ Barszcz.",
+          "Warme geraspelte Rote-Bete-Beilage mit Apfel und Meerrettich, klassisch zum Sonntagsschnitzel, klar zu unterscheiden von Botwinka-Suppe und Barszcz.",
         steps: [
           {
-            text: "Rote Bete waschen, ungeschält in Salzwasser weich kochen (oder vorgekocht nutzen). Abkühlen, schälen, grob raspeln oder in feine Streifen schneiden.",
-            tip: "Das ist eine Beilage, keine Suppe — [Botwinka](/de/rezepte/botwinka) und [Barszcz](/de/rezepte/barszcz-czerwony) bleiben eigene Cook-Primaries.",
+            text: "Rote Bete waschen und ungeschält in Salzwasser weich kochen, oder bereits vorgekochte Bete verwenden. Abkühlen lassen, schälen und grob raspeln oder in feine Streifen schneiden.",
+            tip: "Das ist eine Beilage und keine Suppe, die Suppen [Botwinka](/de/rezepte/botwinka) und [Barszcz](/de/rezepte/barszcz-czerwony) bleiben eigene Rezepte mit ganz anderer Konsistenz.",
           },
           {
-            text: "Zwiebel fein würfeln, in Butter oder Öl glasig dünsten. Bete dazugeben, mit wenig Wasser oder Brühe und Prise Zucker 8–10 Minuten warm ziehen.",
+            text: "Zwiebel fein würfeln und in Butter oder Öl glasig dünsten. Die Bete dazugeben, mit wenig Wasser oder Brühe und einer Prise Zucker 8 bis 10 Minuten warm ziehen lassen.",
+            tip: "Wer die Bete lieber zu einem kalten, süßsauren Relish verarbeitet, findet das bei [Ćwikła](/de/rezepte/cwikla), ein ganz anderer Charakter als diese warme Beilage.",
           },
           {
-            text: "Sauren Apfel raspeln, unterheben. Mit Salz, Pfeffer und geriebenem Meerrettich abschmecken — säuerlich-scharf, nicht wässrig.",
-            tip: "Meerrettich und Bete oft im [Polenladen](/de/blog/polenladen-einkaufen). Śmietana separat: [Śmietana/Schmand](/de/blog/smietana-schmand).",
+            text: "Einen sauren Apfel raspeln und unterheben. Mit Salz, Pfeffer und geriebenem Meerrettich abschmecken, bis es säuerlich-scharf und nicht wässrig schmeckt.",
+            tip: "Meerrettich und gute Bete findest du oft im [Polenladen](/de/blog/polenladen-einkaufen). Wie Śmietana getrennt dazu passt, zeigt der Guide zu [Śmietana und Schmand](/de/blog/smietana-schmand).",
           },
           {
-            text: "Optional 1 EL Essig oder Zitronensaft für Säure. Kurz erhitzen, nicht zu Brei kochen. Heiß oder lauwarm servieren.",
-            tip: "Klassisch zu [Kotlet schabowy](/de/rezepte/kotlet-schabowy); Panier-Feeling: [Panieren-Guide](/de/blog/panieren-schabowy). Menü: [Sonntagsessen](/de/blog/sonntagsessen-polnisch).",
+            text: "Optional einen Esslöffel Essig oder Zitronensaft für mehr Säure zugeben. Kurz erhitzen, ohne es zu Brei zu kochen, und heiß oder lauwarm servieren.",
+            tip: "Klassisch dazu passt [Kotlet schabowy](/de/rezepte/kotlet-schabowy), Panier-Wissen liefert der [Panieren-Guide](/de/blog/panieren-schabowy), und der Menürahmen steht im [Sonntagsessen](/de/blog/sonntagsessen-polnisch).",
           },
           {
-            text: "Nicht mit Mayo-Festsalat verwechseln: [Sałatka jarzynowa](/de/rezepte/salatka-jarzynowa) ist kalt und gemischt — hier trägt nur Bete den Teller.",
+            text: "Nicht mit dem kalten Mayo-Festsalat [Sałatka jarzynowa](/de/rezepte/salatka-jarzynowa) verwechseln, denn dort ist alles gemischt und kalt, während hier allein die warme Bete den Teller trägt.",
           },
         ],
         seoTitle: "Buraczki Rezept | Rote-Bete-Beilage polnisch | Alemniam",
         seoDescription:
-          "Buraczki — warme Rote Bete mit Apfel und Meerrettich. Bilingual, Sonntagsbeilage, klar ≠ Botwinka und Barszcz.",
+          "Buraczki: warme Rote Bete mit Apfel und Meerrettich. Bilingual, Sonntagsbeilage, klar getrennt von Botwinka und Barszcz.",
       },
       pl: {
         title: "Buraczki",
         slug: "buraczki",
         excerpt:
-          "Ciepły dodatek z tartych buraków z jabłkiem i chrzanem — do schabowego w niedzielę, jasno ≠ botwinka-zupa i ≠ barszcz.",
+          "Ciepły dodatek z tartych buraków z jabłkiem i chrzanem, klasycznie do schabowego w niedzielę, wyraźnie inny niż zupa botwinka i barszcz.",
         steps: [
           {
-            text: "Buraki umyj, ugotuj w skórce w osolonej wodzie (lub użyj gotowanych). Ostudź, obierz, zetrzyj grubo lub pokrój w cienkie paski.",
-            tip: "To dodatek, nie zupa — [botwinka](/pl/rezepte/botwinka) i [barszcz](/pl/rezepte/barszcz-czerwony) zostają osobnymi Rezept.",
+            text: "Buraki umyj i ugotuj w skórce w osolonej wodzie, albo użyj gotowanych. Ostudź, obierz i zetrzyj grubo lub pokrój w cienkie paski.",
+            tip: "To dodatek, a nie zupa, zupy [botwinka](/pl/rezepte/botwinka) i [barszcz](/pl/rezepte/barszcz-czerwony) zostają osobnymi przepisami o zupełnie innej konsystencji.",
           },
           {
-            text: "Cebulę drobno pokrój, zeszklij na maśle lub oleju. Dodaj buraki, odrobinę wody lub bulionu i szczyptę cukru; duś 8–10 minut na ciepło.",
+            text: "Cebulę drobno pokrój i zeszklij na maśle lub oleju. Dodaj buraki, odrobinę wody lub bulionu i szczyptę cukru, duś 8 do 10 minut na ciepło.",
+            tip: "Kto woli zimny, słodko-kwaśny relish z buraków, znajdzie go w [ćwikle](/pl/rezepte/cwikla), to zupełnie inny charakter niż ten ciepły dodatek.",
           },
           {
-            text: "Zetrzyj kwaśne jabłko, wmieszaj. Dopraw solą, pieprzem i startym chrzanem — kwaśno-ostro, nie wodniście.",
-            tip: "Chrzan i buraki często w [sklepie polskim](/pl/blog/sklep-polski-zakupy). Śmietana osobno: [śmietana/schmand](/pl/blog/smietana-czy-schmand).",
+            text: "Zetrzyj kwaśne jabłko i wmieszaj. Dopraw solą, pieprzem i startym chrzanem, aż smak będzie kwaśno-ostry, a nie wodnisty.",
+            tip: "Chrzan i dobre buraki znajdziesz często w [sklepie polskim](/pl/blog/sklep-polski-zakupy). Jak dobrać śmietanę osobno, pokazuje przewodnik [śmietana czy schmand](/pl/blog/smietana-czy-schmand).",
           },
           {
-            text: "Opcjonalnie 1 łyżka octu lub soku z cytryny. Podgrzej krótko, nie gotuj na papkę. Podawaj gorące lub letnie.",
-            tip: "Klasycznie do [kotleta schabowego](/pl/rezepte/kotlet-schabowy); panierka: [poradnik panierowania](/pl/blog/panierowanie-kotlet). Menu: [obiad niedzielny](/pl/blog/obiad-niedzielny).",
+            text: "Opcjonalnie dodaj łyżkę octu lub soku z cytryny dla większej kwasowości. Podgrzej krótko, nie gotuj na papkę, i podawaj gorące lub letnie.",
+            tip: "Klasycznie pasuje do [kotleta schabowego](/pl/rezepte/kotlet-schabowy), o panierce opowiada [poradnik panierowania](/pl/blog/panierowanie-kotlet), a miejsce w menu daje [obiad niedzielny](/pl/blog/obiad-niedzielny).",
           },
           {
-            text: "Nie mylić z majonezową sałatką: [sałatka jarzynowa](/pl/rezepte/salatka-jarzynowa) jest zimna i mieszana — tu burak niesie talerz.",
+            text: "Nie myl z zimną majonezową [sałatką jarzynową](/pl/rezepte/salatka-jarzynowa), tam wszystko jest wymieszane i zimne, tu za talerz odpowiada wyłącznie ciepły burak.",
           },
         ],
         seoTitle: "Buraczki przepis | Ciepły dodatek z buraków | Alemniam",
         seoDescription:
-          "Buraczki — ciepłe buraki z jabłkiem i chrzanem. Dwujęzycznie, dodatek niedzielny, jasno ≠ botwinka i barszcz.",
+          "Buraczki: ciepłe buraki z jabłkiem i chrzanem. Dwujęzycznie, dodatek niedzielny, jasno osobno od botwinki i barszczu.",
       },
     },
     ingredients: [
@@ -259,7 +263,7 @@ export const seedRecipesWave12C: Recipe[] = [
         amount: 800,
         unit: { de: "g", pl: "g" },
         group: "produce",
-        storeHintDe: "Roh oder vorgekocht vakuumiert — Farbe prüfen",
+        storeHintDe: "Roh oder vorgekocht im Vakuum, auf gute Farbe achten",
       },
       {
         id: "bu-2",
@@ -275,8 +279,8 @@ export const seedRecipesWave12C: Recipe[] = [
         unit: { de: "Stück", pl: "szt." },
         group: "produce",
         substitute: {
-          de: "Mehr Essig/Zitrone — ehrlich benennen",
-          pl: "Więcej octu/cytryny — nazwać uczciwie",
+          de: "Mehr Essig oder Zitrone gleicht es aus, das dann ehrlich benennen",
+          pl: "Więcej octu lub cytryny to wyrówna, tylko trzeba to uczciwie napisać",
         },
       },
       {
@@ -285,7 +289,7 @@ export const seedRecipesWave12C: Recipe[] = [
         amount: 2,
         unit: { de: "EL", pl: "łyżki" },
         group: "pantry",
-        storeHintDe: "Polenladen / Glasware — Schärfe kosten",
+        storeHintDe: "Polenladen, Glasware vor dem Kauf auf die Schärfe prüfen",
       },
       {
         id: "bu-5",
@@ -320,10 +324,10 @@ export const seedRecipesWave12C: Recipe[] = [
         amount: 100,
         unit: { de: "ml", pl: "ml" },
         group: "dairy",
-        storeHintDe: "Schmand/Crème fraîche — siehe Śmietana-Guide",
+        storeHintDe: "Schmand oder Crème fraîche, mehr dazu im Śmietana-Guide",
         substitute: {
-          de: "Weglassen — Meerrettich reicht",
-          pl: "Pominąć — chrzan wystarczy",
+          de: "Lässt sich weglassen, der Meerrettich trägt die Beilage auch allein",
+          pl: "Można pominąć, sam chrzan również dobrze niesie ten dodatek",
         },
       },
     ],
