@@ -730,6 +730,36 @@ a.btn-hero-secondary:hover {
   padding: 0.35rem 0.7rem;
 }
 
+.recipe-card__variants {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0;
+  padding: 0.6rem 0.75rem 0.75rem;
+  list-style: none;
+}
+
+.recipe-card__variant-chip {
+  position: relative;
+  display: block;
+  aspect-ratio: 1;
+  width: 2.4rem;
+  overflow: hidden;
+  border-radius: calc(var(--radius) - 6px);
+  border: 1.5px solid var(--border);
+  background: var(--bg-elevated);
+  transition:
+    border-color 160ms var(--ease-out),
+    transform 160ms var(--ease-out);
+}
+
+.recipe-card__variant-chip:hover,
+.recipe-card__variant-chip:focus-visible {
+  border-color: #dc143c;
+  transform: translateY(-2px);
+  outline: none;
+}
+
 .section-kicker {
   display: inline-block;
   font-size: 0.75rem;

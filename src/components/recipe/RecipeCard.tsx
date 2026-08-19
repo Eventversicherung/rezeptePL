@@ -35,15 +35,12 @@ export async function RecipeCard({
         />
         <span className="recipe-card__badge">{mins} min</span>
       </div>
-      <div className="pt-4">
+      <div className="px-3 pb-3 pt-4">
         <h2 className="font-display text-[clamp(1.35rem,3vw,1.85rem)] font-semibold tracking-tight">
           {t.title}
         </h2>
         <p className="mt-2 line-clamp-2 max-w-[42ch] text-[0.95rem] text-muted">
           {t.excerpt}
-        </p>
-        <p className="mt-3 text-xs font-semibold uppercase tracking-[0.12em] text-accent">
-          {recipe.servings} · {locale === "de" ? "Portionen" : "porcje"}
         </p>
       </div>
     </Link>

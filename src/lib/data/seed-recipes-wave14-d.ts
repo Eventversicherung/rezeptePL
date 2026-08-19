@@ -34,59 +34,61 @@ export const seedRecipesWave14D: Recipe[] = [
         title: "Leczo",
         slug: "leczo",
         excerpt:
-          "Paprika-Tomaten-Eintopf mit Kiełbasa — Gemüse-dominant, Alltagspfanne. Klar ≠ Gulasz wieprzowy (Schweine-Schmor mit Würfelfleisch).",
+          "Paprika-Tomaten-Eintopf mit Kiełbasa, gemüsebetont und schnell auf dem Tisch, klar zu unterscheiden vom Gulasz wieprzowy mit langsam geschmortem Würfelfleisch.",
         steps: [
           {
             text: "Paprika in Streifen, Zwiebeln in Halbringe, Tomaten würfeln (oder passierte Tomaten bereitstellen). Kiełbasa in Scheiben schneiden.",
-            tip: "Wurst-Qualität und welche Sorte wohin: [Kiełbasa-Arten](/de/blog/kielbasa-arten). Einkauf: [Polenladen](/de/blog/polenladen-einkaufen).",
+            tip: "Welche Wurstsorte wohin passt, erklärt das [Kiełbasa-Arten-Lexikon](/de/blog/kielbasa-arten), gute Ware dafür findest du im [Polenladen](/de/blog/polenladen-einkaufen).",
           },
           {
             text: "In einem breiten Topf oder einer tiefen Pfanne Zwiebeln in Öl oder Schmalz glasig dünsten. Paprika zugeben und 5–8 Minuten mitdünsten, bis sie weicher werden.",
+            tip: "Wer die Paprika hier schon zu weich kocht, verliert später Biss, ein leichter Widerstand beim Anbeißen ist am Ende genau richtig.",
           },
           {
             text: "Kiełbasa-Scheiben kurz mitbraten, bis sie Farbe nehmen. Tomaten (frisch oder passiert), Paprikapulver edelsüß, Salz und Pfeffer zugeben. Optional eine Prise Majeranek.",
-            tip: "Das ist kein [Gulasz wieprzowy](/de/rezepte/gulasz-wieprzowy): hier führen Paprika und Tomate, nicht langes Schmoren von Würfelfleisch. Majeranek dosieren: [Majeranek-Lexikon](/de/blog/majeranek).",
+            tip: "Das ist kein [Gulasz wieprzowy](/de/rezepte/gulasz-wieprzowy), dort führt langes Schmoren von Würfelfleisch, hier bestimmen Paprika und Tomate den Geschmack. Wie viel Majeranek sinnvoll ist, erklärt das [Majeranek-Lexikon](/de/blog/majeranek).",
           },
           {
-            text: "Zugedeckt 15–25 Minuten bei mittlerer Hitze köcheln, bis die Paprika weich und die Sauce gebunden ist. Abschmecken — Säure aus Tomate, Süße aus Paprika.",
+            text: "Zugedeckt 15–25 Minuten bei mittlerer Hitze köcheln, bis die Paprika weich und die Sauce gebunden ist. Am Ende abschmecken, die Säure kommt von der Tomate, die Süße von der Paprika.",
           },
           {
-            text: "Heiß mit Brot oder Reis servieren. Optional ein Ei in Mulden einschlagen und zugedeckt stocken lassen. Alltagskontext: [Sonntagsessen](/de/blog/sonntagsessen-polnisch) — Kulturrahmen bleibt dort; hier nur das Rezept.",
-            tip: "Nicht mit [Bigos](/de/rezepte/bigos) (Kraut-Fleisch) oder [Fasolka po bretońsku](/de/rezepte/fasolka-po-bretonsku) (Bohnen) verwechseln — anderes Gericht.",
+            text: "Heiß mit Brot oder Reis servieren. Optional ein Ei in Mulden einschlagen und zugedeckt stocken lassen. Als Alltagsteller passt Leczo gut neben das [Sonntagsessen](/de/blog/sonntagsessen-polnisch), das den größeren Menürahmen liefert.",
+            tip: "Leczo hat mit [Bigos](/de/rezepte/bigos) und seinem Kraut-Fleisch-Charakter nichts zu tun und ist auch kein Bohneneintopf wie [Fasolka po bretońsku](/de/rezepte/fasolka-po-bretonsku), beide sind eigenständige Gerichte.",
           },
         ],
         seoTitle: "Leczo Rezept | Paprikagemüse polnisch | Alemniam",
         seoDescription:
-          "Leczo — Paprika, Tomate und Kiełbasa. Bilingualer Alltagseintopf, klar getrennt von Gulasz wieprzowy.",
+          "Leczo mit Paprika, Tomate und Kiełbasa. Bilingualer Alltagseintopf, klar getrennt von Gulasz wieprzowy.",
       },
       pl: {
         title: "Leczo",
         slug: "leczo",
         excerpt:
-          "Gulasz warzywny z papryką, pomidorem i kiełbasą — warzywa prowadzą, patelnia na co dzień. Wyraźnie ≠ gulasz wieprzowy (długo duszone mięso w kostce).",
+          "Gulasz warzywny z papryką, pomidorem i kiełbasą, warzywa prowadzą, a danie ląduje na patelni w codzienne popołudnie, wyraźnie inny niż gulasz wieprzowy z długo duszoną kostką mięsa.",
         steps: [
           {
             text: "Pokrój paprykę w paski, cebulę w półpierścienie, pomidory w kostkę (albo przygotuj passatę). Kiełbasę pokrój w plasterki.",
-            tip: "Jakość kiełbasy i która gdzie pasuje: [rodzaje kiełbasy](/pl/blog/rodzaje-kielbasy). Zakupy: [sklep polski](/pl/blog/sklep-polski-zakupy).",
+            tip: "Która kiełbasa gdzie pasuje, wyjaśnia [leksykon rodzajów kiełbasy](/pl/blog/rodzaje-kielbasy), dobry wybór znajdziesz w [sklepie polskim](/pl/blog/sklep-polski-zakupy).",
           },
           {
             text: "Na szerokim garnku lub głębokiej patelni zeszklij cebulę na oleju lub smalcu. Dodaj paprykę i duś 5–8 minut, aż zmięknie.",
+            tip: "Jeśli papryka zmięknie tu zbyt mocno, straci przyjemny lekki opór przy gryzieniu, który na końcu dania jest pożądany.",
           },
           {
             text: "Dodaj plasterki kiełbasy i krótko podsmaż. Wrzuć pomidory (świeże lub passata), paprykę słodką w proszku, sól i pieprz. Opcjonalnie szczypta majeranku.",
-            tip: "To nie [gulasz wieprzowy](/pl/rezepte/gulasz-wieprzowy): tu papryka i pomidor prowadzą, nie długie duszenie kostki mięsa. Majeranek: [leksykon majeranku](/pl/blog/majeranek-leksykon).",
+            tip: "To nie [gulasz wieprzowy](/pl/rezepte/gulasz-wieprzowy), tam prowadzi długie duszenie kostki mięsa, tu smak nadają papryka i pomidor. O dawkowaniu majeranku pisze [leksykon majeranku](/pl/blog/majeranek-leksykon).",
           },
           {
-            text: "Duś pod przykryciem 15–25 minut na średnim ogniu, aż papryka będzie miękka, a sos związany. Dopraw — kwas z pomidora, słodycz z papryki.",
+            text: "Duś pod przykryciem 15–25 minut na średnim ogniu, aż papryka będzie miękka, a sos związany. Na koniec dopraw, kwas pochodzi z pomidora, słodycz z papryki.",
           },
           {
-            text: "Podawaj gorące z chlebem lub ryżem. Opcjonalnie wbij jajko w zagłębienia i zestal pod przykryciem. Kontekst dnia: [obiad niedzielny](/pl/blog/obiad-niedzielny) — przewodnik kulturowy zostaje tam; tu tylko przepis.",
-            tip: "Nie mylić z [bigosem](/pl/rezepte/bigos) (kapusta-mięso) ani [fasolką po bretońsku](/pl/rezepte/fasolka-po-bretonsku) (fasola) — inne przepisy.",
+            text: "Podawaj gorące z chlebem lub ryżem. Opcjonalnie wbij jajko w zagłębienia i zestal pod przykryciem. Jako danie na co dzień pasuje dobrze obok [obiadu niedzielnego](/pl/blog/obiad-niedzielny), który daje szerszą ramę menu.",
+            tip: "Leczo nie ma nic wspólnego z [bigosem](/pl/rezepte/bigos) i jego charakterem kapusta-mięso ani z fasolowym [fasolką po bretońsku](/pl/rezepte/fasolka-po-bretonsku), oba to zupełnie inne dania.",
           },
         ],
         seoTitle: "Leczo przepis | Papryka pomidor kiełbasa | Alemniam",
         seoDescription:
-          "Leczo — papryka, pomidor i kiełbasa. Dwujęzyczny gulasz warzywny, wyraźnie osobny od gulaszu wieprzowego.",
+          "Leczo z papryką, pomidorem i kiełbasą. Dwujęzyczny gulasz warzywny, wyraźnie osobny od gulaszu wieprzowego.",
       },
     },
     ingredients: [
@@ -99,7 +101,7 @@ export const seedRecipesWave14D: Recipe[] = [
         amount: 4,
         unit: { de: "Stück", pl: "szt." },
         group: "produce",
-        storeHintDe: "Supermarkt — große, fleischige Schoten",
+        storeHintDe: "Im Supermarkt große, fleischige Schoten auswählen",
       },
       {
         id: "leczo-2",
@@ -117,7 +119,8 @@ export const seedRecipesWave14D: Recipe[] = [
         amount: 400,
         unit: { de: "g", pl: "g" },
         group: "produce",
-        storeHintDe: "Supermarkt — passiert aus der Dose ist Alltagstauglich",
+        storeHintDe:
+          "Im Supermarkt erhältlich, passierte Tomaten aus der Dose sind alltagstauglich",
       },
       {
         id: "leczo-4",
@@ -128,10 +131,11 @@ export const seedRecipesWave14D: Recipe[] = [
         amount: 300,
         unit: { de: "g", pl: "g" },
         group: "polish",
-        storeHintDe: "Polenladen — siehe Kiełbasa-Arten; nicht dunkle Grillwurst allein",
+        storeHintDe:
+          "Im Polenladen erhältlich, siehe Kiełbasa-Arten, dunkle Grillwurst allein passt weniger gut",
         substitute: {
-          de: "Gute geräucherte DE-Bratwurst in Scheiben — ehrlich benennen",
-          pl: "Dobra wędzona kiełbasa DE w plasterkach — nazwać uczciwie",
+          de: "Gute geräucherte deutsche Bratwurst in Scheiben funktioniert auch, das im Rezept ehrlich benennen",
+          pl: "Dobra wędzona kiełbasa niemiecka w plasterkach też się sprawdzi, warto to uczciwie napisać",
         },
       },
       {
@@ -163,7 +167,8 @@ export const seedRecipesWave14D: Recipe[] = [
         amount: 0.5,
         unit: { de: "TL", pl: "łyżeczki" },
         group: "spices",
-        storeHintDe: "Polenladen oder Gewürzregal — siehe Majeranek-Lexikon",
+        storeHintDe:
+          "Im Polenladen oder Gewürzregal erhältlich, siehe Majeranek-Lexikon",
       },
       {
         id: "leczo-8",

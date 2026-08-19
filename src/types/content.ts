@@ -203,5 +203,11 @@ export type BlogPost = {
 
 /** Catalog row for recipe index: family once, or standalone recipe */
 export type RecipeCatalogItem =
-  | { kind: "family"; family: RecipeFamily; defaultRecipe: Recipe }
+  | {
+      kind: "family";
+      family: RecipeFamily;
+      defaultRecipe: Recipe;
+      /** All published variants, in family order, for quick-switch chips */
+      variants: Recipe[];
+    }
   | { kind: "recipe"; recipe: Recipe };

@@ -5,7 +5,7 @@ import type { Recipe } from "@/types/content";
  * - recipe-biala-kielbasa — Biała kiełbasa kochen/backen (Cook-Primary)
  *
  * Lexikon post-kielbasa-arten bleibt Arten/Qualität-Owner.
- * ≠ Kaszanka (Blutwurst-Cook) ≠ dunkle Grillkiełbasa-Stock.
+ * Unterscheidet sich von Kaszanka (Blutwurst-Cook) und dunkler Grillkiełbasa.
  *
  * Integrator (E): merge into seed aggregator + recipe-articles + related maps.
  * Affiliate: guide-only (no relatedProductIds).
@@ -36,57 +36,59 @@ export const seedRecipesWave13D: Recipe[] = [
         title: "Biała kiełbasa",
         slug: "biala-kielbasa",
         excerpt:
-          "Helle frische Weißwurst schonend garen — Ostern-Teller mit Meerrettich/Senf oder Einlage für Żurek. Rezept; Arten bleiben im Kiełbasa-Lexikon.",
+          "Helle, frische Weißwurst schonend gegart, klassisch zu Ostern mit Meerrettich und Senf oder in Scheiben als Einlage für Żurek serviert.",
         steps: [
           {
-            text: "Biała kiełbasa aus dem Kühlschrank nehmen. Hülle prüfen: frisch, blassrosa bis grauweiß, nicht stark geräuchert oder dunkelbraun. Bei Bedarf in Portionen teilen, ohne die Hülle unnötig aufzuschlitzen.",
-            tip: "Einkauf und Qualitätslesen: [Polenladen](/de/blog/polenladen-einkaufen). Welche Wurst wohin gehört, bleibt im [Kiełbasa-Arten-Lexikon](/de/blog/kielbasa-arten) — hier nur das Kochen.",
+            text: "Die Biała kiełbasa aus dem Kühlschrank nehmen. Die Hülle prüfen, sie sollte frisch, blassrosa bis grauweiß sein und nicht stark geräuchert oder dunkelbraun wirken. Bei Bedarf in Portionen teilen, ohne die Hülle unnötig aufzuschlitzen.",
+            tip: "Einkauf und Qualitätslesen erklärt der Beitrag zum [Polenladen](/de/blog/polenladen-einkaufen). Welche Wurst wofür geeignet ist, steht ausführlich im [Kiełbasa-Arten-Lexikon](/de/blog/kielbasa-arten), hier geht es nur ums Kochen.",
           },
           {
-            text: "Einen Topf mit Wasser (oder leichter Brühe) aufsetzen, bis knapp unter dem Siedepunkt erhitzen — nicht sprudelnd kochen. Optional Lorbeer und ein paar Pfefferkörner mitgeben.",
+            text: "Einen Topf mit Wasser oder leichter Brühe aufsetzen und knapp unter den Siedepunkt erhitzen, ohne dass es sprudelnd kocht. Optional ein Lorbeerblatt und ein paar Pfefferkörner mitgeben.",
           },
           {
-            text: "Wurst einlegen und 20–30 Minuten bei kleiner Hitze garziehen, bis sie durch ist. Zu starkes Kochen lässt die Hülle platzen und das Fleisch trocken werden.",
-            tip: "Als Żurek-Einlage: Wurst separat garziehen oder spät in die Suppe — siehe [Żurek](/de/rezepte/zurek). Zakwas-Basis bleibt beim [Zakwas-Guide](/de/blog/zakwas-zurek).",
+            text: "Die Wurst einlegen und 20 bis 30 Minuten bei kleiner Hitze gar ziehen lassen, bis sie durch ist. Zu starkes Kochen lässt die Hülle platzen und das Fleisch trocken werden.",
+            tip: "Als Żurek-Einlage die Wurst separat gar ziehen oder erst spät in die Suppe geben, mehr dazu im Rezept für [Żurek](/de/rezepte/zurek). Die Zakwas-Basis dafür erklärt der [Zakwas-Guide](/de/blog/zakwas-zurek).",
           },
           {
-            text: "Optional Ofen-Variante: bei 180 °C 15–20 Minuten backen, bis die Oberfläche leicht Farbe hat, aber hell bleibt — kein Grill-Char wie dunkle Rauchwurst.",
+            text: "Für die Ofen-Variante die Wurst bei 180 Grad 15 bis 20 Minuten backen, bis die Oberfläche leicht Farbe annimmt, aber hell bleibt, ganz ohne den Grill-Char einer dunklen Rauchwurst.",
           },
           {
-            text: "Heiß mit Meerrettich, Senf und Brot servieren, oder in Scheiben zu [Żurek](/de/rezepte/zurek). Menü-Kontext Ostern: [Wielkanoc Speiseplan](/de/blog/wielkanoc-speiseplan) — Speiseplan bleibt Menü-Artikel.",
+            text: "Heiß mit Meerrettich, Senf und Brot servieren, oder in Scheiben zu [Żurek](/de/rezepte/zurek) geben.",
+            tip: "Für den Osterrahmen bleibt der [Wielkanoc-Speiseplan](/de/blog/wielkanoc-speiseplan) der eigentliche Menü-Artikel, hier geht es nur um das Kochen der Wurst selbst.",
           },
         ],
         seoTitle: "Biała kiełbasa Rezept | Weiße Wurst polnisch | Alemniam",
         seoDescription:
-          "Biała kiełbasa kochen oder backen — hell, schonend, bilingual. Rezept neben dem Kiełbasa-Arten-Lexikon.",
+          "Biała kiełbasa kochen oder backen: hell und schonend gegart, bilingual erklärt, als Ergänzung zum Kiełbasa-Arten-Lexikon.",
       },
       pl: {
         title: "Biała kiełbasa",
         slug: "biala-kielbasa",
         excerpt:
-          "Świeża biała kiełbasa delikatnie ugotowana — talerz wielkanocny z chrzanem/musztardą albo dodatek do żurku. Rezept; rodzaje zostają w leksykonie kiełbasy.",
+          "Świeża biała kiełbasa delikatnie ugotowana, klasycznie na wielkanocnym talerzu z chrzanem i musztardą albo w plastrach jako dodatek do żurku.",
         steps: [
           {
-            text: "Wyjmij białą kiełbasę z lodówki. Sprawdź osłonkę: świeża, bladoróżowa do szarobiałej, nie mocno wędzona ani ciemnobrązowa. W razie potrzeby podziel na porcje, bez zbędnego nacinania osłonki.",
-            tip: "Zakupy i jakość: [sklep polski](/pl/blog/sklep-polski-zakupy). Która kiełbasa gdzie pasuje, zostaje w [leksykonie rodzajów kiełbasy](/pl/blog/rodzaje-kielbasy) — tu tylko gotowanie.",
+            text: "Wyjmij białą kiełbasę z lodówki. Sprawdź osłonkę, powinna być świeża, bladoróżowa do szarobiałej, a nie mocno wędzona ani ciemnobrązowa. W razie potrzeby podziel na porcje, bez zbędnego nacinania osłonki.",
+            tip: "O zakupach i jakości opowiada wpis o [sklepie polskim](/pl/blog/sklep-polski-zakupy). Która kiełbasa do czego pasuje, znajdziesz w [leksykonie rodzajów kiełbasy](/pl/blog/rodzaje-kielbasy), tu chodzi tylko o gotowanie.",
           },
           {
-            text: "Zagotuj wodę (lub lekki bulion) prawie do wrzenia — bez gwałtownego bulgotania. Opcjonalnie liść laurowy i kilka ziaren pieprzu.",
+            text: "Zagotuj wodę lub lekki bulion prawie do wrzenia, bez gwałtownego bulgotania. Opcjonalnie dodaj liść laurowy i kilka ziaren pieprzu.",
           },
           {
-            text: "Włóż kiełbasę i gotuj 20–30 minut na małym ogniu, aż będzie gotowa. Zbyt mocne gotowanie pęka osłonkę i suszy mięso.",
-            tip: "Jako dodatek do żurku: gotuj osobno albo włóż późno — zobacz [żurek](/pl/rezepte/zurek). Zakwas zostaje w [przewodniku po zakwasie](/pl/blog/zakwas-na-zurek).",
+            text: "Włóż kiełbasę i gotuj 20 do 30 minut na małym ogniu, aż będzie gotowa. Zbyt mocne gotowanie pęka osłonkę i suszy mięso.",
+            tip: "Jako dodatek do żurku gotuj kiełbasę osobno albo włóż ją późno do zupy, więcej w przepisie na [żurek](/pl/rezepte/zurek). Zakwas do niego opisuje [przewodnik po zakwasie](/pl/blog/zakwas-na-zurek).",
           },
           {
-            text: "Opcja piekarnik: 180 °C przez 15–20 minut, aż powierzchnia lekko się zarumieni, ale zostanie jasna — bez grillowego char jak ciemna wędzonka.",
+            text: "W wersji piekarnikowej piecz kiełbasę w 180 stopniach przez 15 do 20 minut, aż powierzchnia lekko się zarumieni, ale zostanie jasna, bez grillowego przypalenia jak przy ciemnej wędzonce.",
           },
           {
-            text: "Podawaj gorącą z chrzanem, musztardą i chlebem albo w plastrach do [żurku](/pl/rezepte/zurek). Kontekst świąt: [menu wielkanocne](/pl/blog/menu-wielkanocne) — plan menu zostaje artykułem o okazji.",
+            text: "Podawaj gorącą z chrzanem, musztardą i chlebem, albo w plastrach do [żurku](/pl/rezepte/zurek).",
+            tip: "Kontekst świąteczny opisuje osobno [menu wielkanocne](/pl/blog/menu-wielkanocne), tu w centrum zostaje tylko gotowanie samej kiełbasy.",
           },
         ],
         seoTitle: "Biała kiełbasa przepis | Gotowanie i pieczenie | Alemniam",
         seoDescription:
-          "Biała kiełbasa — gotowanie lub pieczenie, jasna i delikatna. Rezept obok leksykonu rodzajów kiełbasy.",
+          "Biała kiełbasa: gotowanie lub pieczenie, jasna i delikatna. Dwujęzycznie, jako uzupełnienie leksykonu rodzajów kiełbasy.",
       },
     },
     ingredients: [
@@ -100,10 +102,10 @@ export const seedRecipesWave13D: Recipe[] = [
         unit: { de: "g", pl: "g" },
         group: "polish",
         storeHintDe:
-          "Polenladen — blass, frisch, Kühlkette; nicht dunkle Grill-/Rauchwurst",
+          "Im Polenladen auf blasse Farbe, Frische und Kühlkette achten, keine dunkle Grill- oder Rauchwurst",
         substitute: {
-          de: "Gute frische DE-Bratwurst hell — ehrlich benennen; Charakter kann milder sein",
-          pl: "Dobra świeża jasna kiełbasa DE — nazwać uczciwie; smak może być łagodniejszy",
+          de: "Eine gute frische, helle deutsche Bratwurst funktioniert auch, dann aber ehrlich als solche benennen, der Charakter kann milder sein",
+          pl: "Dobra świeża jasna kiełbasa niemiecka też się nada, ale trzeba to uczciwie nazwać, smak może być łagodniejszy",
         },
       },
       {
@@ -142,7 +144,7 @@ export const seedRecipesWave13D: Recipe[] = [
         amount: 4,
         unit: { de: "EL", pl: "łyżki" },
         group: "pantry",
-        storeHintDe: "Polenladen Chrzan oder Supermarkt-Meerrettich",
+        storeHintDe: "Chrzan im Polenladen oder Meerrettich im Supermarkt erhältlich",
       },
       {
         id: "bk-6",

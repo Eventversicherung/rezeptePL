@@ -147,6 +147,9 @@ export async function listRecipeCatalog(
       seenFamilies.add(recipe.familyId);
       const defaultRecipe =
         recipes.find((r) => r.id === family.defaultVariantId) ?? recipe;
+      const variants = family.variantIds
+        .map((id) => recipes.find((r) => r.id === id))
+        .filter((r): r is Recipe => Boolean(r));
       const ft = family.translations[locale];
       const matches =
         !q ||
@@ -163,7 +166,7 @@ export async function listRecipeCatalog(
           );
         });
       if (matches) {
-        items.push({ kind: "family", family, defaultRecipe });
+        items.push({ kind: "family", family, defaultRecipe, variants });
       }
       continue;
     }
@@ -393,7 +396,10 @@ export async function catalogForCluster(
       if (!family) continue;
       const defaultRecipe =
         recipes.find((r) => r.id === family.defaultVariantId) ?? recipe;
-      items.push({ kind: "family", family, defaultRecipe });
+      const variants = family.variantIds
+        .map((id) => recipes.find((r) => r.id === id))
+        .filter((r): r is Recipe => Boolean(r));
+      items.push({ kind: "family", family, defaultRecipe, variants });
     } else {
       items.push({ kind: "recipe", recipe });
     }

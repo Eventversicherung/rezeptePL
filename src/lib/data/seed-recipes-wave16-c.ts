@@ -25,47 +25,47 @@ export const seedRecipesWave16C: Recipe[] = [
         title: "Pierniczki",
         slug: "pierniczki",
         excerpt:
-          "Polnische Gewürzplätzchen mit Honig — ausgestochen und gebacken, klar als Kekse und nicht als Piernik-Laib.",
+          "Pierniczki sind kleine, würzige polnische Lebkuchenplätzchen mit Honig, ausgestochen und gebacken, oft mit einer feinen Zuckerglasur.",
         steps: [
           {
-            text: "Honig mit Butter erwärmen (nicht kochen), abkühlen. Mit Ei, Mehl, Gewürzen und Backpulver zu einem Teig kneten. 1 Stunde kalt ruhen.",
-            tip: "Das sind Plätzchen — der Laib bleibt bei [Piernik](/de/rezepte/piernik). Gewürze oft im [Polenladen](/de/blog/polenladen-einkaufen).",
+            text: "Honig mit Butter in einem Topf erwärmen, bis die Butter geschmolzen ist, dabei nicht kochen lassen. Etwas abkühlen lassen, dann mit Ei, Mehl, Gewürzmischung und Backpulver zu einem glatten Teig verkneten. Eine Stunde kalt ruhen lassen.",
+            tip: "Das ist der Plätzchenteig, nicht der Teig für den geschnittenen [Piernik](/de/rezepte/piernik)-Laib. Gute Gewürzmischungen mit Zimt, Nelke und Ingwer findest du oft im [Polenladen](/de/blog/polenladen-einkaufen).",
           },
           {
-            text: "Teig dünn ausrollen, Formen ausstechen, auf Backpapier legen. Bei 175 °C ca. 10–12 Minuten backen, bis die Ränder fest sind.",
-            tip: "Zu lange = steinhart. Anlass-Rahmen: [Wigilia](/de/blog/wigilia-speiseplan). Back-Geduld: [Makowiec-Technik](/de/blog/makowiec-technik).",
+            text: "Den Teig dünn ausrollen, Formen ausstechen und auf ein mit Backpapier ausgelegtes Blech legen. Bei 175 Grad etwa 10 bis 12 Minuten backen, bis die Ränder fest sind.",
+            tip: "Zu lange im Ofen werden die Plätzchen steinhart, deshalb lieber pünktlich herausnehmen. Der Anlassrahmen für die Weihnachtsbäckerei steht im Beitrag zu [Wigilia](/de/blog/wigilia-speiseplan), Geduld beim Backen erklärt zusätzlich die [Makowiec-Technik](/de/blog/makowiec-technik).",
           },
           {
-            text: "Auf dem Rost abkühlen. Optional mit Zuckerglasur verzieren. In Dosen lagern.",
-            tip: "Ersatz Honig: [Ersatzprodukte DE](/de/blog/ersatzprodukte-de). Hefegebäck-Nachbar: [Drożdżówka](/de/rezepte/drozdzowka).",
+            text: "Auf einem Rost vollständig abkühlen lassen, dann nach Belieben mit Zuckerglasur verzieren. In gut verschlossenen Dosen aufbewahren.",
+            tip: "Fehlt guter Honig, hilft der Überblick zu [Ersatzprodukten](/de/blog/ersatzprodukte-de) weiter. Wer stattdessen Hefegebäck sucht, findet das bei der [Drożdżówka](/de/rezepte/drozdzowka).",
           },
         ],
         seoTitle: "Pierniczki Rezept | Lebkuchenplätzchen polnisch | Alemniam",
         seoDescription:
-          "Pierniczki: Gewürzplätzchen mit Honig. Bilingual — Plätzchen, nicht Piernik-Laib.",
+          "Pierniczki: würzige Honigplätzchen zum Ausstechen, ideal für die Weihnachtsbäckerei.",
       },
       pl: {
         title: "Pierniczki",
         slug: "pierniczki",
         excerpt:
-          "Polskie korzenne ciasteczka z miodem — wykrawane i pieczone, jasno jako ciasteczka, nie jako bochenek piernika.",
+          "Pierniczki to małe, korzenne polskie ciasteczka z miodem, wykrawane i pieczone, często z delikatnym lukrem.",
         steps: [
           {
-            text: "Podgrzej miód z masłem (nie gotuj), ostudź. Z jajkiem, mąką, przyprawami i proszkiem zagnieć ciasto. Schłodź 1 godzinę.",
-            tip: "To ciasteczka — bochenek zostaje przy [pierniku](/pl/rezepte/piernik). Przyprawy w [sklepie polskim](/pl/blog/sklep-polski-zakupy).",
+            text: "Podgrzej miód z masłem w garnku, aż masło się rozpuści, ale nie doprowadzaj do wrzenia. Odstaw do przestygnięcia, potem zagnieć z jajkiem, mąką, przyprawą do piernika i proszkiem do pieczenia na gładkie ciasto. Schłodź je godzinę.",
+            tip: "To ciasto na ciasteczka, nie na krojony bochenek [piernika](/pl/rezepte/piernik). Dobre mieszanki przypraw z cynamonem, goździkami i imbirem znajdziesz często w [sklepie polskim](/pl/blog/sklep-polski-zakupy).",
           },
           {
-            text: "Wałkuj cienko, wykrawaj, układaj na papierze. Piecz w 175 °C ok. 10–12 min, aż brzegi stwardnieją.",
-            tip: "Za długo = kamień. Okazja: [menu wigilijne](/pl/blog/menu-wigilijne). Cierpliwość: [makowiec](/pl/blog/makowiec-technika).",
+            text: "Wałkuj ciasto cienko, wykrawaj foremkami i układaj na blasze wyłożonej papierem. Piecz w 175 stopniach około 10 do 12 minut, aż brzegi stwardnieją.",
+            tip: "Za długie pieczenie zamienia ciasteczka w kamień, więc lepiej wyjąć je na czas. Okazja do świątecznego pieczenia opisana jest w [menu wigilijnym](/pl/blog/menu-wigilijne), a o cierpliwości przy pieczeniu więcej mówi [technika makowca](/pl/blog/makowiec-technika).",
           },
           {
-            text: "Studź na kratce. Opcjonalnie lukier. Przechowuj w puszce.",
-            tip: "Zamienniki miodu: [zamienniki](/pl/blog/zamienniki-skladnikow). Sąsiad drożdżowy: [drożdżówka](/pl/rezepte/drozdzowka).",
+            text: "Ostudź całkowicie na kratce, potem opcjonalnie udekoruj lukrem. Przechowuj w dobrze zamkniętej puszce.",
+            tip: "Brak dobrego miodu? Sprawdź [zamienniki](/pl/blog/zamienniki-skladnikow). Kto szuka ciasta drożdżowego, znajdzie je w [drożdżówce](/pl/rezepte/drozdzowka).",
           },
         ],
         seoTitle: "Pierniczki przepis | Lebkuchenplätzchen | Alemniam",
         seoDescription:
-          "Pierniczki z miodem. Dwujęzycznie — ciasteczka, nie bochenek piernika.",
+          "Pierniczki z miodem i przyprawami, klasyczne ciasteczka na święta.",
       },
     },
     ingredients: [
@@ -73,7 +73,7 @@ export const seedRecipesWave16C: Recipe[] = [
       { id: "pi-2", name: { de: "Honig", pl: "Miód" }, amount: 120, unit: { de: "g", pl: "g" }, group: "pantry" },
       { id: "pi-3", name: { de: "Butter", pl: "Masło" }, amount: 80, unit: { de: "g", pl: "g" }, group: "dairy" },
       { id: "pi-4", name: { de: "Ei", pl: "Jajko" }, amount: 1, unit: { de: "Stück", pl: "szt." }, group: "dairy" },
-      { id: "pi-5", name: { de: "Piernik-Gewürz / Zimt-Nelke-Mix", pl: "Przyprawa do piernika" }, amount: 2, unit: { de: "TL", pl: "łyżeczki" }, group: "spices", storeHintDe: "Polenladen" },
+      { id: "pi-5", name: { de: "Piernik-Gewürz (Zimt-Nelke-Mix)", pl: "Przyprawa do piernika" }, amount: 2, unit: { de: "TL", pl: "łyżeczki" }, group: "spices", storeHintDe: "Im Polenladen" },
       { id: "pi-6", name: { de: "Backpulver", pl: "Proszek do pieczenia" }, amount: 1, unit: { de: "TL", pl: "łyżeczka" }, group: "pantry" },
       { id: "pi-7", name: { de: "Puderzucker für Glasur (optional)", pl: "Cukier puder na lukier (opcjonalnie)" }, amount: 100, unit: { de: "g", pl: "g" }, group: "pantry" },
     ],
@@ -99,47 +99,47 @@ export const seedRecipesWave16C: Recipe[] = [
         title: "Knedle z truskawkami",
         slug: "knedle-truskawki",
         excerpt:
-          "Kartoffelknödel mit ganzer Erdbeere — Sommerdessert mit Butterbröseln, klar getrennt von Pflaumenknödeln.",
+          "Knedle z truskawkami sind Kartoffelknödel mit einer ganzen Erdbeere in der Mitte, serviert mit gebutterten Bröseln, ein sommerliches Dessert.",
         steps: [
           {
-            text: "800 g mehlige Kartoffeln kochen, pressen, abkühlen. Mit Ei, 150–200 g Mehl und Prise Salz zu einem Teig kneten — nicht zu weich.",
-            tip: "Erdbeer-Linie — Pflaume bleibt bei [Knedle ze śliwkami](/de/rezepte/knedle-sliwki). Twaróg-Variante: [Twaróg-Guide](/de/blog/twarog-deutschland).",
+            text: "800 g mehlige Kartoffeln kochen, durch die Presse drücken und abkühlen lassen. Mit Ei, 150 bis 200 g Mehl und einer Prise Salz zu einem nicht zu weichen Teig verkneten.",
+            tip: "Das ist die Erdbeer-Linie der Knödel, Pflaumen gehören dagegen zu den [Knedle ze śliwkami](/de/rezepte/knedle-sliwki). Wer die Twaróg-Variante mag, findet Hintergrund im [Twaróg-Guide](/de/blog/twarog-deutschland).",
           },
           {
-            text: "Teig portionieren, flach drücken, je eine trockene Erdbeere einwickeln, Naht fest. In leicht siedendem Wasser garen, bis sie aufsteigen; 2 Minuten nachziehen.",
-            tip: "Zu nasse Frucht reißt den Teig. Gefaltete Beeren-Pierogi: [Pierogi jagody](/de/rezepte/pierogi/jagody).",
+            text: "Den Teig portionieren, flach drücken und je eine trockene Erdbeere darin einwickeln, die Nahtstelle gut verschließen. In leicht siedendem Wasser garen, bis die Knödel aufsteigen, dann noch zwei Minuten nachziehen lassen.",
+            tip: "Zu nasse Früchte reißen leicht den Teig auf, deshalb die Erdbeeren vorher gut trocken tupfen. Gefaltete Beeren-Pierogi sind ein anderes Rezept, das findest du bei den [Pierogi mit Heidelbeeren](/de/rezepte/pierogi/jagody).",
           },
           {
-            text: "Semmelbrösel in Butter gold anbraten. Knödel abtropfen, mit Bröseln und Zucker servieren. Optional Śmietana.",
-            tip: "Menü: [Sonntagsessen](/de/blog/sonntagsessen-polnisch). Brösel oft im [Polenladen](/de/blog/polenladen-einkaufen).",
+            text: "Semmelbrösel in Butter goldbraun anbraten. Die Knödel abtropfen lassen, mit den Bröseln und Zucker bestreuen und servieren. Ein Löffel Śmietana passt gut dazu.",
+            tip: "Der Menürahmen für den Sommertisch steht im Beitrag zum [Sonntagsessen](/de/blog/sonntagsessen-polnisch), gute Semmelbrösel gibt es oft im [Polenladen](/de/blog/polenladen-einkaufen).",
           },
         ],
         seoTitle: "Knedle z truskawkami Rezept | Erdbeerknödel | Alemniam",
         seoDescription:
-          "Knedle z truskawkami mit Butterbröseln. Bilingual — Erdbeere, nicht Pflaume.",
+          "Knedle z truskawkami: Kartoffelknödel mit ganzer Erdbeere und Butterbröseln, ein Sommerdessert.",
       },
       pl: {
         title: "Knedle z truskawkami",
         slug: "knedle-truskawki",
         excerpt:
-          "Knedle ziemniaczane z całą truskawką — deser latem z bułką na maśle, jasno oddzielony od knedli ze śliwkami.",
+          "Knedle z truskawkami to knedle ziemniaczane z całą truskawką w środku, podawane z bułką tartą na maśle, letni deser.",
         steps: [
           {
-            text: "Ugotuj 800 g mączystych ziemniaków, przeciśnij, ostudź. Z jajkiem, 150–200 g mąki i szczyptą soli zagnieć ciasto — nie za miękkie.",
-            tip: "Linia truskawkowa — śliwka zostaje przy [knedlach ze śliwkami](/pl/rezepte/knedle-sliwki). Twaróg: [przewodnik](/pl/blog/twarog-w-niemczech).",
+            text: "Ugotuj 800 g mączystych ziemniaków, przeciśnij przez praskę i ostudź. Z jajkiem, 150 do 200 g mąki i szczyptą soli zagnieć niezbyt miękkie ciasto.",
+            tip: "To truskawkowa linia knedli, śliwki zostają przy [knedlach ze śliwkami](/pl/rezepte/knedle-sliwki). Kto woli wersję twarogową, znajdzie ją w [przewodniku o twarogu](/pl/blog/twarog-w-niemczech).",
           },
           {
-            text: "Porcjuj ciasto, spłaszcz, zawijaj po jednej suchej truskawce. Gotuj w lekkim wrzątku aż wypłyną; 2 minuty dogotuj.",
-            tip: "Mokry owoc rwie ciasto. Pierogi z jagodami: [pierogi z jagodami](/pl/rezepte/pierogi/jagody).",
+            text: "Podziel ciasto na porcje, spłaszcz każdą i zawiń w niej jedną suchą truskawkę, dokładnie zaklejając brzegi. Gotuj w lekko wrzącej wodzie, aż knedle wypłyną, potem dogotuj jeszcze dwie minuty.",
+            tip: "Zbyt mokry owoc łatwo rozrywa ciasto, więc truskawki dobrze osusz przed zawijaniem. Zwijane pierogi z owocami to inny przepis, znajdziesz go w [pierogach z jagodami](/pl/rezepte/pierogi/jagody).",
           },
           {
-            text: "Zrumień bułkę na maśle. Knedle odsącz, podsyp bułką i cukrem. Opcjonalnie śmietana.",
-            tip: "Menu: [obiad niedzielny](/pl/blog/obiad-niedzielny). Bułka w [sklepie polskim](/pl/blog/sklep-polski-zakupy).",
+            text: "Zrumień bułkę tartą na maśle. Odciśnięte knedle posyp bułką i cukrem, podawaj od razu. Dobrze pasuje do nich łyżka śmietany.",
+            tip: "Ramy letniego stołu opisuje wpis o [obiedzie niedzielnym](/pl/blog/obiad-niedzielny), a dobrą bułkę tartą znajdziesz często w [sklepie polskim](/pl/blog/sklep-polski-zakupy).",
           },
         ],
         seoTitle: "Knedle z truskawkami przepis | Erdbeerknödel | Alemniam",
         seoDescription:
-          "Knedle z truskawkami z bułką. Dwujęzycznie — truskawka, nie śliwka.",
+          "Knedle z truskawkami z bułką tartą na maśle, letni deser z całą truskawką w środku.",
       },
     },
     ingredients: [
