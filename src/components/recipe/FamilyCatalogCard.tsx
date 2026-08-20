@@ -1,10 +1,18 @@
 "use client";
 
 import Image from "next/image";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Link } from "@/i18n/navigation";
 import type { Locale, Recipe, RecipeFamily } from "@/types/content";
 import { familyVariantPath } from "@/lib/data/recipe-paths";
+
+// Grace period before a preview reverts. Variant names differ in length and
+// can wrap onto a second line, nudging the chip row a few pixels — without
+// this delay, that tiny shift moves the chip out from under the cursor,
+// which fires mouseleave, reverts the preview, shifts the layout back, and
+// re-enters the chip, causing a rapid flicker loop. Debouncing the "leave"
+// (but not the "enter") breaks that loop while still feeling instant.
+const PREVIEW_LEAVE_DELAY = 120;
 
 /**
  * Category-grid card for a recipe family. Hovering (or focusing) a variant
@@ -25,6 +33,28 @@ export function FamilyCatalogCard({
   variantsLabel: string;
 }) {
   const [previewVariant, setPreviewVariant] = useState<Recipe | null>(null);
+  const leaveTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  useEffect(() => {
+    return () => {
+      if (leaveTimer.current) clearTimeout(leaveTimer.current);
+    };
+  }, []);
+
+  function previewOn(variant: Recipe) {
+    if (leaveTimer.current) {
+      clearTimeout(leaveTimer.current);
+      leaveTimer.current = null;
+    }
+    setPreviewVariant(variant);
+  }
+
+  function previewOff() {
+    if (leaveTimer.current) clearTimeout(leaveTimer.current);
+    leaveTimer.current = setTimeout(() => {
+      setPreviewVariant(null);
+    }, PREVIEW_LEAVE_DELAY);
+  }
 
   const t = family.translations[locale];
   const activeRecipe = previewVariant ?? defaultRecipe;
@@ -46,6 +76,7 @@ export function FamilyCatalogCard({
       >
         <div className="recipe-card__media">
           <Image
+            key={activeRecipe.id}
             src={activeImage}
             alt={activeTitle}
             fill
@@ -55,7 +86,10 @@ export function FamilyCatalogCard({
           <span className="recipe-card__badge">{mins} min</span>
         </div>
         <div className="px-3 pt-3">
-          <h2 className="mode-fade font-display text-[clamp(1.15rem,2.4vw,1.45rem)] font-semibold tracking-tight">
+          <h2
+            key={activeRecipe.id}
+            className="mode-fade line-clamp-2 min-h-[2.5em] font-display text-[clamp(1.15rem,2.4vw,1.45rem)] font-semibold leading-tight tracking-tight"
+          >
             {activeTitle}
           </h2>
           <p className="mt-1.5 line-clamp-2 max-w-[42ch] text-sm text-muted">
@@ -80,10 +114,10 @@ export function FamilyCatalogCard({
                   className={`recipe-card__variant-chip${
                     isPreviewed ? " is-active" : ""
                   }`}
-                  onMouseEnter={() => setPreviewVariant(variant)}
-                  onMouseLeave={() => setPreviewVariant(null)}
-                  onFocus={() => setPreviewVariant(variant)}
-                  onBlur={() => setPreviewVariant(null)}
+                  onMouseEnter={() => previewOn(variant)}
+                  onMouseLeave={previewOff}
+                  onFocus={() => previewOn(variant)}
+                  onBlur={previewOff}
                 >
                   <Image
                     src={thumb}
