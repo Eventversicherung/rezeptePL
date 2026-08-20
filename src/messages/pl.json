@@ -14,7 +14,11 @@
     "admin": "Admin",
     "community": "Społeczność",
     "login": "Zaloguj",
-    "logout": "Wyloguj"
+    "logout": "Wyloguj",
+    "settings": "Ustawienia",
+    "myRecipes": "Moje przepisy",
+    "favorites": "Ulubione",
+    "accountMenu": "Menu konta"
   },
   "home": {
     "headline": "Gotuj jak w domu",
@@ -188,6 +192,28 @@
     "excerpt": "Krótki opis",
     "steps": "Kroki (jeden w linii)",
     "ingredients": "Składniki (jeden w linii)"
+  },
+  "settings": {
+    "title": "Ustawienia",
+    "kicker": "Konto",
+    "help": "Nazwa wyświetlana i język — tak wygląda Twoje konto w aplikacji.",
+    "displayName": "Nazwa wyświetlana",
+    "email": "E-mail",
+    "save": "Zapisz",
+    "saved": "Zapisano.",
+    "error_name": "Podaj nazwę od 2 do 80 znaków.",
+    "error_save": "Nie udało się zapisać. Spróbuj później.",
+    "error_unauthorized": "Najpierw się zaloguj."
+  },
+  "myRecipes": {
+    "title": "Moje przepisy",
+    "kicker": "Społeczność",
+    "help": "Przepisy, które wysłałeś — z aktualnym statusem weryfikacji.",
+    "empty": "Nie wysłałeś jeszcze własnego przepisu.",
+    "upload": "Dodaj przepis",
+    "status_pending": "W weryfikacji",
+    "status_approved": "Opublikowany",
+    "status_rejected": "Odrzucony"
   },
   "admin": {
     "title": "Admin",

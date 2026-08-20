@@ -14,7 +14,11 @@
     "admin": "Admin",
     "community": "Community",
     "login": "Anmelden",
-    "logout": "Abmelden"
+    "logout": "Abmelden",
+    "settings": "Einstellungen",
+    "myRecipes": "Meine Rezepte",
+    "favorites": "Meine Favoriten",
+    "accountMenu": "Konto-Menü"
   },
   "home": {
     "headline": "Kochen wie zu Hause",
@@ -188,6 +192,28 @@
     "excerpt": "Kurzbeschreibung",
     "steps": "Schritte (einer pro Zeile)",
     "ingredients": "Zutaten (eine pro Zeile)"
+  },
+  "settings": {
+    "title": "Einstellungen",
+    "kicker": "Konto",
+    "help": "Anzeigename und Sprache — so erscheint dein Konto in der App.",
+    "displayName": "Anzeigename",
+    "email": "E-Mail",
+    "save": "Speichern",
+    "saved": "Gespeichert.",
+    "error_name": "Bitte einen Namen mit 2 bis 80 Zeichen wählen.",
+    "error_save": "Konnte nicht gespeichert werden. Bitte später erneut versuchen.",
+    "error_unauthorized": "Bitte zuerst anmelden."
+  },
+  "myRecipes": {
+    "title": "Meine Rezepte",
+    "kicker": "Community",
+    "help": "Rezepte, die du eingereicht hast — mit dem aktuellen Prüfungsstand.",
+    "empty": "Noch kein eigenes Rezept eingereicht.",
+    "upload": "Rezept einreichen",
+    "status_pending": "In Prüfung",
+    "status_approved": "Freigegeben",
+    "status_rejected": "Abgelehnt"
   },
   "admin": {
     "title": "Admin",

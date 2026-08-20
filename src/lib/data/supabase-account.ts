@@ -43,6 +43,47 @@ export async function getProfileById(id: string): Promise<Profile | null> {
   return mapProfile(data as ProfileRow);
 }
 
+export async function updateOwnDisplayName(
+  userId: string,
+  displayName: string,
+): Promise<void> {
+  const supabase = await createClient();
+  const { error } = await supabase
+    .from("profiles")
+    .update({ display_name: displayName })
+    .eq("id", userId);
+  if (error) {
+    throw new Error(error.message);
+  }
+}
+
+const SUBMISSION_COLUMNS =
+  "id, user_id, status, locale, title, excerpt, steps, ingredients, created_at";
+
+function mapSubmission(row: {
+  id: string;
+  user_id: string;
+  status: CommunitySubmission["status"];
+  locale: Locale;
+  title: string;
+  excerpt: string;
+  steps: string[] | null;
+  ingredients: string[] | null;
+  created_at: string;
+}): CommunitySubmission {
+  return {
+    id: row.id,
+    userId: row.user_id,
+    status: row.status,
+    locale: row.locale,
+    title: row.title,
+    excerpt: row.excerpt,
+    steps: row.steps ?? [],
+    ingredients: row.ingredients ?? [],
+    createdAt: row.created_at,
+  };
+}
+
 export async function listSavedRecipeIds(userId: string): Promise<string[]> {
   const supabase = await createClient();
   const { data, error } = await supabase
@@ -247,24 +288,25 @@ export async function listSubmissions(
   const supabase = await createClient();
   let query = supabase
     .from("community_submissions")
-    .select(
-      "id, user_id, status, locale, title, excerpt, steps, ingredients, created_at",
-    )
+    .select(SUBMISSION_COLUMNS)
     .order("created_at", { ascending: false });
   if (status) query = query.eq("status", status);
   const { data, error } = await query;
   if (error || !data) return [];
-  return data.map((row) => ({
-    id: row.id as string,
-    userId: row.user_id as string,
-    status: row.status as CommunitySubmission["status"],
-    locale: row.locale as Locale,
-    title: row.title as string,
-    excerpt: row.excerpt as string,
-    steps: (row.steps as string[]) ?? [],
-    ingredients: (row.ingredients as string[]) ?? [],
-    createdAt: row.created_at as string,
-  }));
+  return data.map((row) => mapSubmission(row as Parameters<typeof mapSubmission>[0]));
+}
+
+export async function listSubmissionsByUser(
+  userId: string,
+): Promise<CommunitySubmission[]> {
+  const supabase = await createClient();
+  const { data, error } = await supabase
+    .from("community_submissions")
+    .select(SUBMISSION_COLUMNS)
+    .eq("user_id", userId)
+    .order("created_at", { ascending: false });
+  if (error || !data) return [];
+  return data.map((row) => mapSubmission(row as Parameters<typeof mapSubmission>[0]));
 }
 
 export async function createSubmission(

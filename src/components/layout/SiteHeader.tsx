@@ -1,11 +1,12 @@
 import Image from "next/image";
 import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
-import { getSessionUser } from "@/lib/auth/session";
+import { getSessionUser, isStaff } from "@/lib/auth/session";
 import { RecipeSearch } from "@/components/search/RecipeSearch";
 import type { Locale } from "@/types/content";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 import { SiteHeaderGlass } from "./SiteHeaderGlass";
+import { UserMenu } from "./UserMenu";
 
 export async function SiteHeader({ locale }: { locale: string }) {
   const t = await getTranslations("nav");
@@ -37,18 +38,12 @@ export async function SiteHeader({ locale }: { locale: string }) {
               ["/markt-finden", t("findMarket")],
               ["/listen", t("lists")],
               ["/community/hochladen", t("community")],
-              ["/profil", t("profile")],
             ] as const
           ).map(([href, label]) => (
             <Link key={href} href={href} className="site-header__chip">
               {label}
             </Link>
           ))}
-          {user?.role === "admin" || user?.role === "moderator" ? (
-            <Link href="/admin" className="site-header__chip">
-              {t("admin")}
-            </Link>
-          ) : null}
         </nav>
 
         <div className="flex items-center gap-1.5">
@@ -59,12 +54,12 @@ export async function SiteHeader({ locale }: { locale: string }) {
               {t("login")}
             </Link>
           ) : (
-            <Link
-              href="/profil"
-              className="hidden max-w-[8rem] truncate text-sm font-semibold text-[var(--navy)] sm:inline"
-            >
-              {user.displayName}
-            </Link>
+            <UserMenu
+              displayName={user.displayName}
+              email={user.email}
+              locale={locale}
+              isStaff={isStaff(user)}
+            />
           )}
         </div>
       </div>

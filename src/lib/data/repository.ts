@@ -555,6 +555,20 @@ export async function upsertProfile(profile: Profile): Promise<Profile> {
   return profile;
 }
 
+export async function updateOwnDisplayName(
+  userId: string,
+  displayName: string,
+): Promise<void> {
+  if (isSupabaseConfigured()) {
+    await accountDb.updateOwnDisplayName(userId, displayName);
+    return;
+  }
+  await updateStore((store) => {
+    const profile = store.profiles.find((p) => p.id === userId);
+    if (profile) profile.displayName = displayName;
+  });
+}
+
 export async function listSavedRecipeIds(userId: string): Promise<string[]> {
   if (isSupabaseConfigured()) {
     return accountDb.listSavedRecipeIds(userId);
@@ -666,6 +680,18 @@ export async function listSubmissions(
   const store = await readStore();
   return store.submissions
     .filter((s) => (status ? s.status === status : true))
+    .sort((a, b) => b.createdAt.localeCompare(a.createdAt));
+}
+
+export async function listSubmissionsByUser(
+  userId: string,
+): Promise<CommunitySubmission[]> {
+  if (isSupabaseConfigured()) {
+    return accountDb.listSubmissionsByUser(userId);
+  }
+  const store = await readStore();
+  return store.submissions
+    .filter((s) => s.userId === userId)
     .sort((a, b) => b.createdAt.localeCompare(a.createdAt));
 }
 

@@ -10,6 +10,7 @@ import {
   toggleSavedRecipe,
   updateListItems,
   getOrCreateShoppingList,
+  updateOwnDisplayName,
 } from "@/lib/data/repository";
 import { scaleAmount } from "@/lib/utils";
 import type { Locale, ShoppingListItem } from "@/types/content";
@@ -70,6 +71,35 @@ export async function clearCheckedListAction(listId: string) {
     list.items.filter((i) => !i.checked),
   );
   revalidatePath("/[locale]/listen", "page");
+}
+
+export type ProfileFormState = {
+  error?: string;
+  message?: string;
+};
+
+export async function updateDisplayNameAction(
+  _prev: ProfileFormState,
+  formData: FormData,
+): Promise<ProfileFormState> {
+  const user = await getSessionUser();
+  if (!user) return { error: "unauthorized" };
+
+  const displayName = String(formData.get("displayName") ?? "").trim();
+  if (displayName.length < 2 || displayName.length > 80) {
+    return { error: "name" };
+  }
+
+  try {
+    await updateOwnDisplayName(user.id, displayName);
+  } catch {
+    return { error: "save" };
+  }
+
+  revalidatePath("/[locale]", "layout");
+  revalidatePath("/[locale]/einstellungen", "page");
+  revalidatePath("/[locale]/profil", "page");
+  return { message: "saved" };
 }
 
 export async function getSavedIdsForUser() {
