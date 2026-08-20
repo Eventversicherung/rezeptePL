@@ -339,23 +339,6 @@ a.btn-primary:active:not(:disabled) {
   min-width: 0;
 }
 
-.recipe-hero__preview-badge {
-  position: absolute;
-  right: 12px;
-  top: 12px;
-  z-index: 1;
-  border-radius: 9999px;
-  background: color-mix(in srgb, #1c1412 55%, transparent);
-  color: #fff;
-  font-size: 0.7rem;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  padding: 0.35rem 0.7rem;
-  backdrop-filter: blur(4px);
-  animation: modeIn 160ms var(--ease-out);
-}
-
 .variant-rail {
   display: flex;
   min-width: 0;
@@ -398,6 +381,7 @@ a.btn-primary:active:not(:disabled) {
 }
 
 .variant-rail__item {
+  position: relative;
   display: flex;
   flex: 1;
   min-height: 0;
@@ -405,6 +389,7 @@ a.btn-primary:active:not(:disabled) {
   align-items: stretch;
   gap: 0.3rem;
   padding: 0.3rem;
+  overflow: hidden;
   border-radius: calc(var(--radius) - 2px);
   border: 1.5px solid transparent;
   background: color-mix(in srgb, #ffffff 55%, var(--surface));
@@ -412,6 +397,28 @@ a.btn-primary:active:not(:disabled) {
     border-color 160ms var(--ease-out),
     background-color 160ms var(--ease-out),
     box-shadow 160ms var(--ease-out);
+}
+
+.variant-rail__item::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -60%;
+  width: 45%;
+  background: linear-gradient(
+    100deg,
+    transparent,
+    color-mix(in srgb, #fff 65%, transparent),
+    transparent
+  );
+  transform: skewX(-18deg);
+  pointer-events: none;
+  transition: left 550ms var(--ease-out);
+}
+
+.variant-rail__item:hover::after {
+  left: 130%;
 }
 
 @media (min-width: 640px) {
@@ -771,7 +778,8 @@ a.btn-hero-secondary:hover {
 }
 
 .recipe-card__variant-chip:hover,
-.recipe-card__variant-chip:focus-visible {
+.recipe-card__variant-chip:focus-visible,
+.recipe-card__variant-chip.is-active {
   border-color: #dc143c;
   transform: translateY(-2px);
   outline: none;

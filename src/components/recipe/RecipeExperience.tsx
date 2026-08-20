@@ -82,22 +82,15 @@ export function RecipeExperience({
   const [pending, startTransition] = useTransition();
   const [message, setMessage] = useState<string | null>(null);
   const [focusCook, setFocusCook] = useState(false);
-  const [previewVariant, setPreviewVariant] = useState<Recipe | null>(null);
 
   const translation = recipe.translations[locale];
   const step = translation.steps[activeStep];
-  // Hovering/focusing a variant chip live-previews its title, excerpt and
-  // hero image without navigating — the actual recipe data (ingredients,
-  // steps, servings) stays untouched until the user actually clicks it.
-  const heroRecipe = previewVariant ?? recipe;
-  const heroTranslation = heroRecipe.translations[locale];
 
   useEffect(() => {
     setServings(recipe.servings);
     setActiveStep(0);
     setChecked({});
     setMessage(null);
-    setPreviewVariant(null);
   }, [recipe.id, recipe.servings]);
 
   function changeMode(next: RecipeMode) {
@@ -190,20 +183,14 @@ export function RecipeExperience({
               }`}
             >
               <Image
-                key={heroRecipe.id}
-                src={heroRecipe.coverImage}
-                alt={heroTranslation.title}
+                src={recipe.coverImage}
+                alt={translation.title}
                 fill
                 priority
-                className="mode-fade object-cover"
+                className="object-cover"
                 sizes="(max-width: 768px) 75vw, 640px"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[var(--navy)]/70 via-transparent to-transparent" />
-              {previewVariant ? (
-                <span className="recipe-hero__preview-badge">
-                  {t("previewHint")}
-                </span>
-              ) : null}
             </div>
           </div>
 
@@ -214,7 +201,6 @@ export function RecipeExperience({
               activeId={recipe.id}
               locale={locale}
               label={variantsLabel}
-              onPreview={setPreviewVariant}
             />
           ) : null}
         </div>
@@ -223,18 +209,12 @@ export function RecipeExperience({
       {/* In flow: no sticky mid-page bar that blocks scrolling */}
       <div className="mt-6 space-y-4" key={`meta-${recipe.id}`}>
         <div className="min-w-0">
-          <h1
-            key={heroTranslation.title}
-            className="mode-fade font-display text-[clamp(1.85rem,6vw,2.85rem)] font-semibold leading-[1.05]"
-          >
-            {heroTranslation.title}
+          <h1 className="font-display text-[clamp(1.85rem,6vw,2.85rem)] font-semibold leading-[1.05]">
+            {translation.title}
           </h1>
           {!focusCook ? (
-            <p
-              key={heroTranslation.excerpt}
-              className="mode-fade mt-2 max-w-[65ch] text-base text-muted"
-            >
-              {heroTranslation.excerpt}
+            <p className="mt-2 max-w-[65ch] text-base text-muted">
+              {translation.excerpt}
             </p>
           ) : (
             <p className="mt-2 text-sm font-semibold text-accent">

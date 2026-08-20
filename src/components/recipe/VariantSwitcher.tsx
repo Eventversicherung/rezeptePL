@@ -12,15 +12,12 @@ export function VariantSwitcher({
   activeId,
   locale,
   label,
-  onPreview,
 }: {
   family: RecipeFamily;
   variants: Recipe[];
   activeId: string;
   locale: Locale;
   label: string;
-  /** Called on hover/focus with the variant to live-preview, or null to reset. */
-  onPreview?: (variant: Recipe | null) => void;
 }) {
   const router = useRouter();
   const pathname = usePathname();
@@ -56,10 +53,6 @@ export function VariantSwitcher({
                 aria-current={active ? "page" : undefined}
                 title={name}
                 className={`variant-rail__item${active ? " is-active" : ""}`}
-                onMouseEnter={() => onPreview?.(variant)}
-                onMouseLeave={() => onPreview?.(null)}
-                onFocus={() => onPreview?.(variant)}
-                onBlur={() => onPreview?.(null)}
               >
                 <span className="variant-rail__thumb">
                   <Image
