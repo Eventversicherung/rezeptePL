@@ -5,12 +5,16 @@
  * fields (`recipes`, `families`, `clusters`, `blogPosts`) so `repository.ts`
  * can swap the source without touching any business logic.
  *
- * Only published content is visible here: the `recipes`/`blog_posts` RLS
- * policies restrict anonymous reads to `status = 'published'`. Draft
- * content (admin editing) intentionally keeps using the local store — see
- * the comment in `repository.ts` for why.
+ * Catalog fetches omit article/steps/ingredients/body. Detail fetches
+ * load a single row by id or slug. Both use Next.js `use cache`.
  */
 import { cache } from "react";
+import {
+  BLOG_TAG,
+  CONTENT_TAG,
+  RECIPES_TAG,
+  withContentCache,
+} from "@/lib/data/content-cache";
 import { createPublicClient } from "@/lib/supabase/public";
 import type {
   BlogPost,
@@ -75,19 +79,21 @@ function mapCluster(row: ClusterRow): Cluster {
   };
 }
 
-export const fetchClusters = cache(async (): Promise<Cluster[]> => {
-  const supabase = createPublicClient();
-  const { data, error } = await supabase
-    .from("clusters")
-    .select(
-      "id, kind, cover_image, cluster_translations ( locale, slug, title, description, seo_title, seo_description )",
-    );
-  if (error || !data) {
-    console.error("[supabase-repository] fetchClusters", error?.message);
-    return [];
-  }
-  return (data as ClusterRow[]).map(mapCluster);
-});
+export async function fetchClusters(): Promise<Cluster[]> {
+  return withContentCache("clusters", [CONTENT_TAG], async () => {
+    const supabase = createPublicClient();
+    const { data, error } = await supabase
+      .from("clusters")
+      .select(
+        "id, kind, cover_image, cluster_translations ( locale, slug, title, description, seo_title, seo_description )",
+      );
+    if (error || !data) {
+      console.error("[supabase-repository] fetchClusters", error?.message);
+      return [];
+    }
+    return (data as ClusterRow[]).map(mapCluster);
+  });
+}
 
 // ---------------------------------------------------------------------
 // Recipe families
@@ -141,19 +147,21 @@ function mapFamily(row: FamilyRow): RecipeFamily {
   };
 }
 
-export const fetchFamilies = cache(async (): Promise<RecipeFamily[]> => {
-  const supabase = createPublicClient();
-  const { data, error } = await supabase
-    .from("recipe_families")
-    .select(
-      "id, default_variant_id, cover_image, variant_ids, related_post_ids, region_ids, occasion_ids, technique_ids, category_ids, recipe_family_translations ( locale, title, slug, excerpt, seo_title, seo_description )",
-    );
-  if (error || !data) {
-    console.error("[supabase-repository] fetchFamilies", error?.message);
-    return [];
-  }
-  return (data as FamilyRow[]).map(mapFamily);
-});
+export async function fetchFamilies(): Promise<RecipeFamily[]> {
+  return withContentCache("families", [CONTENT_TAG, RECIPES_TAG], async () => {
+    const supabase = createPublicClient();
+    const { data, error } = await supabase
+      .from("recipe_families")
+      .select(
+        "id, default_variant_id, cover_image, variant_ids, related_post_ids, region_ids, occasion_ids, technique_ids, category_ids, recipe_family_translations ( locale, title, slug, excerpt, seo_title, seo_description )",
+      );
+    if (error || !data) {
+      console.error("[supabase-repository] fetchFamilies", error?.message);
+      return [];
+    }
+    return (data as FamilyRow[]).map(mapFamily);
+  });
+}
 
 // ---------------------------------------------------------------------
 // Recipes (RLS: published-only for the anon/publishable key)
@@ -278,23 +286,88 @@ function mapRecipe(
   };
 }
 
-export const fetchPublishedRecipes = cache(async (): Promise<Recipe[]> => {
-  const [clusters, supabase] = [await fetchClusters(), createPublicClient()];
-  const clusterKindById = new Map(clusters.map((c) => [c.id, c.kind]));
-  const { data, error } = await supabase
-    .from("recipes")
-    .select(
-      `id, status, cover_image, prep_minutes, cook_minutes, servings, video_url, family_id, variant_label, variant_image, related_post_ids, author_id, created_at, updated_at,
+export const RECIPE_CATALOG_SELECT = `id, status, cover_image, prep_minutes, cook_minutes, servings, video_url, family_id, variant_label, variant_image, related_post_ids, author_id, created_at, updated_at,
+       recipe_translations ( locale, title, slug, excerpt, seo_title, seo_description ),
+       recipe_clusters ( cluster_id )`;
+
+export const RECIPE_DETAIL_SELECT = `id, status, cover_image, prep_minutes, cook_minutes, servings, video_url, family_id, variant_label, variant_image, related_post_ids, author_id, created_at, updated_at,
        recipe_translations ( locale, title, slug, excerpt, steps, article, seo_title, seo_description ),
        recipe_ingredients ( id, sort_order, amount, unit_de, unit_pl, name_de, name_pl, group_name, store_hint_de, substitute_de, substitute_pl ),
-       recipe_clusters ( cluster_id )`,
-    );
-  if (error || !data) {
-    console.error("[supabase-repository] fetchPublishedRecipes", error?.message);
-    return [];
-  }
-  return (data as RecipeRow[]).map((row) => mapRecipe(row, clusterKindById));
-});
+       recipe_clusters ( cluster_id )`;
+
+export async function fetchPublishedRecipes(): Promise<Recipe[]> {
+  return withContentCache("recipes-catalog", [CONTENT_TAG, RECIPES_TAG], async () => {
+    const [clusters, supabase] = [await fetchClusters(), createPublicClient()];
+    const clusterKindById = new Map(clusters.map((c) => [c.id, c.kind]));
+    const { data, error } = await supabase
+      .from("recipes")
+      .select(RECIPE_CATALOG_SELECT);
+    if (error || !data) {
+      console.error("[supabase-repository] fetchPublishedRecipes", error?.message);
+      return [];
+    }
+    return (data as RecipeRow[]).map((row) => mapRecipe(row, clusterKindById));
+  });
+}
+
+export async function hydrateRecipeRows(rows: unknown[]): Promise<Recipe[]> {
+  return mapRecipeRows(rows as RecipeRow[]);
+}
+
+export function hydrateBlogPostRows(rows: unknown[]): BlogPost[] {
+  return (rows as BlogPostRow[]).map(mapBlogPost);
+}
+
+async function mapRecipeRows(rows: RecipeRow[]): Promise<Recipe[]> {
+  const clusters = await fetchClusters();
+  const clusterKindById = new Map(clusters.map((c) => [c.id, c.kind]));
+  return rows.map((row) => mapRecipe(row, clusterKindById));
+}
+
+export async function fetchRecipeById(id: string): Promise<Recipe | null> {
+  return withContentCache(`recipe-${id}`, [CONTENT_TAG, RECIPES_TAG], async () => {
+    const supabase = createPublicClient();
+    const { data, error } = await supabase
+      .from("recipes")
+      .select(RECIPE_DETAIL_SELECT)
+      .eq("id", id)
+      .maybeSingle();
+    if (error || !data) {
+      if (error) {
+        console.error("[supabase-repository] fetchRecipeById", error.message);
+      }
+      return null;
+    }
+    const [recipe] = await mapRecipeRows([data as RecipeRow]);
+    return recipe ?? null;
+  });
+}
+
+export async function fetchRecipeBySlug(
+  locale: Locale,
+  slug: string,
+): Promise<Recipe | null> {
+  return withContentCache(
+    `recipe-slug-${locale}-${slug}`,
+    [CONTENT_TAG, RECIPES_TAG],
+    async () => {
+      const supabase = createPublicClient();
+      const { data, error } = await supabase
+        .from("recipe_translations")
+        .select("recipe_id")
+        .eq("locale", locale)
+        .eq("slug", slug)
+        .maybeSingle();
+      if (error || !data?.recipe_id) {
+        if (error) {
+          console.error("[supabase-repository] fetchRecipeBySlug", error.message);
+        }
+        return null;
+      }
+      return fetchRecipeById(data.recipe_id as string);
+    },
+  );
+}
 
 // ---------------------------------------------------------------------
 // Blog posts (RLS: published-only for the anon/publishable key)
@@ -354,20 +427,69 @@ function mapBlogPost(row: BlogPostRow): BlogPost {
   };
 }
 
-export const fetchPublishedBlogPosts = cache(async (): Promise<BlogPost[]> => {
-  const supabase = createPublicClient();
-  const { data, error } = await supabase
-    .from("blog_posts")
-    .select(
-      `id, status, post_type, cover_image, silo_ids, related_recipe_ids, related_post_ids, related_product_ids, cluster_ids, published_at, updated_at,
-       blog_post_translations ( locale, title, slug, excerpt, body, seo_title, seo_description )`,
-    );
-  if (error || !data) {
-    console.error("[supabase-repository] fetchPublishedBlogPosts", error?.message);
-    return [];
-  }
-  return (data as BlogPostRow[]).map(mapBlogPost);
-});
+export const BLOG_CATALOG_SELECT = `id, status, post_type, cover_image, silo_ids, related_recipe_ids, related_post_ids, related_product_ids, cluster_ids, published_at, updated_at,
+       blog_post_translations ( locale, title, slug, excerpt, seo_title, seo_description )`;
+
+export const BLOG_DETAIL_SELECT = `id, status, post_type, cover_image, silo_ids, related_recipe_ids, related_post_ids, related_product_ids, cluster_ids, published_at, updated_at,
+       blog_post_translations ( locale, title, slug, excerpt, body, seo_title, seo_description )`;
+
+export async function fetchPublishedBlogPosts(): Promise<BlogPost[]> {
+  return withContentCache("blog-catalog", [CONTENT_TAG, BLOG_TAG], async () => {
+    const supabase = createPublicClient();
+    const { data, error } = await supabase
+      .from("blog_posts")
+      .select(BLOG_CATALOG_SELECT);
+    if (error || !data) {
+      console.error("[supabase-repository] fetchPublishedBlogPosts", error?.message);
+      return [];
+    }
+    return (data as BlogPostRow[]).map(mapBlogPost);
+  });
+}
+
+export async function fetchBlogPostById(id: string): Promise<BlogPost | null> {
+  return withContentCache(`blog-${id}`, [CONTENT_TAG, BLOG_TAG], async () => {
+    const supabase = createPublicClient();
+    const { data, error } = await supabase
+      .from("blog_posts")
+      .select(BLOG_DETAIL_SELECT)
+      .eq("id", id)
+      .maybeSingle();
+    if (error || !data) {
+      if (error) {
+        console.error("[supabase-repository] fetchBlogPostById", error.message);
+      }
+      return null;
+    }
+    return mapBlogPost(data as BlogPostRow);
+  });
+}
+
+export async function fetchBlogPostBySlug(
+  locale: Locale,
+  slug: string,
+): Promise<BlogPost | null> {
+  return withContentCache(
+    `blog-slug-${locale}-${slug}`,
+    [CONTENT_TAG, BLOG_TAG],
+    async () => {
+      const supabase = createPublicClient();
+      const { data, error } = await supabase
+        .from("blog_post_translations")
+        .select("post_id")
+        .eq("locale", locale)
+        .eq("slug", slug)
+        .maybeSingle();
+      if (error || !data?.post_id) {
+        if (error) {
+          console.error("[supabase-repository] fetchBlogPostBySlug", error.message);
+        }
+        return null;
+      }
+      return fetchBlogPostById(data.post_id as string);
+    },
+  );
+}
 
 /**
  * Everything `repository.ts`'s public content reads need, shaped exactly
@@ -375,12 +497,12 @@ export const fetchPublishedBlogPosts = cache(async (): Promise<BlogPost[]> => {
  * `cache`) so multiple repository calls during one render only hit
  * Supabase once per entity type.
  */
-export async function fetchSupabaseContentStore(): Promise<{
+export const fetchSupabaseContentStore = cache(async (): Promise<{
   recipes: Recipe[];
   families: RecipeFamily[];
   clusters: Cluster[];
   blogPosts: BlogPost[];
-}> {
+}> => {
   const [recipes, families, clusters, blogPosts] = await Promise.all([
     fetchPublishedRecipes(),
     fetchFamilies(),
@@ -388,4 +510,4 @@ export async function fetchSupabaseContentStore(): Promise<{
     fetchPublishedBlogPosts(),
   ]);
   return { recipes, families, clusters, blogPosts };
-}
+});

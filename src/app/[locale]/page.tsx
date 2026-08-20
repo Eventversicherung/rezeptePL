@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
+import { RecipeSearch } from "@/components/search/RecipeSearch";
 import { RecipeCatalogCard } from "@/components/recipe/RecipeCatalogCard";
 import { RecipeCategoryTiles } from "@/components/recipe/RecipeCategoryTiles";
 import { RecipeGridControls } from "@/components/recipe/RecipeGridControls";
@@ -81,24 +82,7 @@ export default async function HomePage({
           <p className="hub-search__label" id="home-search-heading">
             {t("searchKicker")}
           </p>
-          <form
-            className="hub-search__form"
-            action={`/${locale}/rezepte`}
-            method="get"
-          >
-            <label className="sr-only" htmlFor="home-q">
-              {t("search")}
-            </label>
-            <input
-              id="home-q"
-              name="q"
-              placeholder={t("search")}
-              className="hub-search__input"
-            />
-            <button type="submit" className="hub-search__submit">
-              {t("searchSubmit")}
-            </button>
-          </form>
+          <RecipeSearch locale={locale} variant="hub" />
         </div>
       </section>
 

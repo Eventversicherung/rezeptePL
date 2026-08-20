@@ -1,4 +1,5 @@
 import { randomUUID } from "crypto";
+import { cache } from "react";
 import type {
   BlogPost,
   Cluster,
@@ -13,28 +14,32 @@ import type {
   ShoppingList,
   ShoppingListItem,
 } from "@/types/content";
+import { filterCatalogByQuery, searchRecipeHits } from "@/lib/search/recipe-search";
+import {
+  SEARCH_RESULT_LIMIT,
+  type SearchHit,
+} from "@/lib/search/types";
+import { isSupabaseConfigured } from "@/lib/supabase/env";
+import { isSupabaseContent } from "./source";
 import { readStore, updateStore, type AppStore } from "./store";
-import { fetchSupabaseContentStore } from "./supabase-repository";
+import {
+  fetchBlogPostById,
+  fetchBlogPostBySlug,
+  fetchRecipeById,
+  fetchRecipeBySlug,
+  fetchSupabaseContentStore,
+} from "./supabase-repository";
+import * as accountDb from "./supabase-account";
+import * as cms from "./supabase-cms";
 
-/**
- * Content read source, switched by env flag — see `feature-flag-switch`
- * in the migration plan. Defaults to the local seed store so nothing
- * changes until this is explicitly opted into per environment.
- *
- * Only the *public* content reads below use this switch. Admin/editing
- * reads (`listAllRecipes`, `getRecipeById`) and writes always stay on the
- * local store: the Supabase RLS policies only expose published rows to
- * the anon/publishable key used here (by design — no service role key),
- * so draft content would otherwise silently disappear from the admin UI.
- */
 type ContentStore = Pick<AppStore, "recipes" | "families" | "clusters" | "blogPosts">;
 
-async function readContentStore(): Promise<ContentStore> {
-  if (process.env.CONTENT_SOURCE === "supabase") {
+const readContentStore = cache(async (): Promise<ContentStore> => {
+  if (isSupabaseContent()) {
     return fetchSupabaseContentStore();
   }
   return readStore();
-}
+});
 
 export async function listPublishedRecipes(): Promise<Recipe[]> {
   const store = await readContentStore();
@@ -87,7 +92,10 @@ export async function getRecipeInFamily(
   const recipe =
     variants.find((r) => r.translations[locale]?.slug === variantSlug) ?? null;
   if (!recipe) return null;
-  return { family, recipe };
+  const full = isSupabaseContent()
+    ? ((await fetchRecipeById(recipe.id)) ?? recipe)
+    : recipe;
+  return { family, recipe: full };
 }
 
 /**
@@ -123,9 +131,12 @@ export async function resolveRecipeInFamily(
 
   const canonicalFamily = family.translations[locale]?.slug === familySlug;
   const canonicalVariant = recipe.translations[locale]?.slug === variantSlug;
+  const full = isSupabaseContent()
+    ? ((await fetchRecipeById(recipe.id)) ?? recipe)
+    : recipe;
   return {
     family,
-    recipe,
+    recipe: full,
     needsRedirect: !(canonicalFamily && canonicalVariant),
   };
 }
@@ -148,14 +159,10 @@ export async function resolveFamilyBySlug(
   return { family, needsRedirect: true };
 }
 
-/** Index/cluster cards: one entry per family + standalone recipes. */
-export async function listRecipeCatalog(
-  locale: Locale,
-  query = "",
-): Promise<RecipeCatalogItem[]> {
-  const recipes = await listPublishedRecipes();
-  const families = await listFamilies();
-  const q = query.trim().toLowerCase();
+function buildRecipeCatalog(
+  recipes: Recipe[],
+  families: RecipeFamily[],
+): RecipeCatalogItem[] {
   const familyById = new Map(families.map((f) => [f.id, f]));
   const seenFamilies = new Set<string>();
   const items: RecipeCatalogItem[] = [];
@@ -171,37 +178,48 @@ export async function listRecipeCatalog(
       const variants = family.variantIds
         .map((id) => recipes.find((r) => r.id === id))
         .filter((r): r is Recipe => Boolean(r));
-      const ft = family.translations[locale];
-      const matches =
-        !q ||
-        ft.title.toLowerCase().includes(q) ||
-        ft.excerpt.toLowerCase().includes(q) ||
-        ft.slug.includes(q) ||
-        family.variantIds.some((id) => {
-          const v = recipes.find((r) => r.id === id);
-          if (!v) return false;
-          const t = v.translations[locale];
-          return (
-            t.title.toLowerCase().includes(q) ||
-            t.excerpt.toLowerCase().includes(q)
-          );
-        });
-      if (matches) {
-        items.push({ kind: "family", family, defaultRecipe, variants });
-      }
+      items.push({ kind: "family", family, defaultRecipe, variants });
       continue;
     }
 
-    const t = recipe.translations[locale];
-    const matches =
-      !q ||
-      t.title.toLowerCase().includes(q) ||
-      t.excerpt.toLowerCase().includes(q) ||
-      t.slug.includes(q);
-    if (matches) items.push({ kind: "recipe", recipe });
+    items.push({ kind: "recipe", recipe });
   }
 
   return items;
+}
+
+/** Index/cluster cards: one entry per family + standalone recipes. */
+export async function listRecipeCatalog(
+  locale: Locale,
+  query = "",
+): Promise<RecipeCatalogItem[]> {
+  const [recipes, families, clusters] = await Promise.all([
+    listPublishedRecipes(),
+    listFamilies(),
+    listClusters(),
+  ]);
+  const items = buildRecipeCatalog(recipes, families);
+  if (!query.trim()) return items;
+  return filterCatalogByQuery(items, clusters, locale, query);
+}
+
+export async function searchRecipeSuggestions(
+  locale: Locale,
+  query: string,
+  limit = SEARCH_RESULT_LIMIT,
+): Promise<SearchHit[]> {
+  const [recipes, families, clusters] = await Promise.all([
+    listPublishedRecipes(),
+    listFamilies(),
+    listClusters(),
+  ]);
+  return searchRecipeHits(
+    buildRecipeCatalog(recipes, families),
+    clusters,
+    locale,
+    query,
+    limit,
+  );
 }
 
 export async function listPublishedBlogPosts(): Promise<BlogPost[]> {
@@ -215,6 +233,9 @@ export async function getBlogPostBySlug(
   locale: Locale,
   slug: string,
 ): Promise<BlogPost | null> {
+  if (isSupabaseContent()) {
+    return fetchBlogPostBySlug(locale, slug);
+  }
   const store = await readContentStore();
   return (
     (store.blogPosts ?? []).find(
@@ -225,20 +246,39 @@ export async function getBlogPostBySlug(
 }
 
 export async function getBlogPostById(id: string): Promise<BlogPost | null> {
+  if (isSupabaseContent()) {
+    return fetchBlogPostById(id);
+  }
   const store = await readContentStore();
   return (store.blogPosts ?? []).find((p) => p.id === id) ?? null;
 }
 
-/** Admin-only listing (includes drafts): always the local store. */
+/** Admin listing including drafts. */
 export async function listAllRecipes(): Promise<Recipe[]> {
+  if (isSupabaseContent()) {
+    return cms.listAllRecipes();
+  }
   const store = await readStore();
   return store.recipes.sort((a, b) => b.updatedAt.localeCompare(a.updatedAt));
+}
+
+export async function listAllBlogPosts(): Promise<BlogPost[]> {
+  if (isSupabaseContent()) {
+    return cms.listAllBlogPosts();
+  }
+  const store = await readStore();
+  return (store.blogPosts ?? []).sort((a, b) =>
+    b.updatedAt.localeCompare(a.updatedAt),
+  );
 }
 
 export async function getRecipeBySlug(
   locale: Locale,
   slug: string,
 ): Promise<Recipe | null> {
+  if (isSupabaseContent()) {
+    return fetchRecipeBySlug(locale, slug);
+  }
   const store = await readContentStore();
   return (
     store.recipes.find(
@@ -247,30 +287,112 @@ export async function getRecipeBySlug(
   );
 }
 
-/** Admin edit form + cross-content lookups (may need drafts): always the local store. */
+/** Public detail + admin edit. Published rows come from the catalog/detail API. */
 export async function getRecipeById(id: string): Promise<Recipe | null> {
+  if (isSupabaseContent()) {
+    const published = await fetchRecipeById(id);
+    if (published) return published;
+    return cms.getRecipeById(id);
+  }
+  const store = await readContentStore();
+  const published = store.recipes.find((r) => r.id === id) ?? null;
+  if (published) return published;
+  const local = await readStore();
+  return local.recipes.find((r) => r.id === id) ?? null;
+}
+
+export async function getAdminBlogPostById(
+  id: string,
+): Promise<BlogPost | null> {
+  if (isSupabaseContent()) {
+    return cms.getBlogPostById(id);
+  }
   const store = await readStore();
-  return store.recipes.find((r) => r.id === id) ?? null;
+  return (store.blogPosts ?? []).find((p) => p.id === id) ?? null;
+}
+
+export async function saveBlogPost(post: BlogPost): Promise<BlogPost> {
+  if (isSupabaseContent()) {
+    return cms.saveBlogPost(post);
+  }
+  const now = new Date().toISOString();
+  const next = { ...post, updatedAt: now };
+  await updateStore((store) => {
+    store.blogPosts = store.blogPosts ?? [];
+    const idx = store.blogPosts.findIndex((p) => p.id === next.id);
+    if (idx >= 0) store.blogPosts[idx] = next;
+    else store.blogPosts.push(next);
+  });
+  return next;
+}
+
+export async function createBlogDraft(): Promise<BlogPost> {
+  if (isSupabaseContent()) {
+    return cms.createBlogDraft();
+  }
+  const id = `post-${randomUUID().slice(0, 8)}`;
+  const now = new Date().toISOString();
+  const post: BlogPost = {
+    id,
+    status: "draft",
+    postType: "guide",
+    coverImage: "",
+    siloIds: [],
+    relatedRecipeIds: [],
+    relatedPostIds: [],
+    relatedProductIds: [],
+    clusterIds: [],
+    translations: {
+      de: {
+        title: "Neuer Beitrag",
+        slug: `neuer-beitrag-${id.slice(-4)}`,
+        excerpt: "",
+        body: "",
+        seoTitle: "",
+        seoDescription: "",
+      },
+      pl: {
+        title: "Nowy wpis",
+        slug: `nowy-wpis-${id.slice(-4)}`,
+        excerpt: "",
+        body: "",
+        seoTitle: "",
+        seoDescription: "",
+      },
+    },
+    publishedAt: now,
+    updatedAt: now,
+  };
+  return saveBlogPost(post);
 }
 
 export async function searchRecipes(
   locale: Locale,
   query: string,
 ): Promise<Recipe[]> {
-  const q = query.trim().toLowerCase();
-  const recipes = await listPublishedRecipes();
-  if (!q) return recipes;
-  return recipes.filter((r) => {
-    const t = r.translations[locale];
-    return (
-      t.title.toLowerCase().includes(q) ||
-      t.excerpt.toLowerCase().includes(q) ||
-      t.slug.includes(q)
-    );
-  });
+  const [recipes, families, clusters] = await Promise.all([
+    listPublishedRecipes(),
+    listFamilies(),
+    listClusters(),
+  ]);
+  if (!query.trim()) return recipes;
+  const hits = searchRecipeHits(
+    buildRecipeCatalog(recipes, families),
+    clusters,
+    locale,
+    query,
+    recipes.length,
+  );
+  const byId = new Map(recipes.map((recipe) => [recipe.id, recipe]));
+  return hits
+    .map((hit) => byId.get(hit.id))
+    .filter((recipe): recipe is Recipe => Boolean(recipe));
 }
 
 export async function saveRecipe(recipe: Recipe): Promise<Recipe> {
+  if (isSupabaseContent()) {
+    return cms.saveRecipe(recipe);
+  }
   const now = new Date().toISOString();
   const next = { ...recipe, updatedAt: now };
   await updateStore((store) => {
@@ -282,6 +404,9 @@ export async function saveRecipe(recipe: Recipe): Promise<Recipe> {
 }
 
 export async function createRecipeDraft(): Promise<Recipe> {
+  if (isSupabaseContent()) {
+    return cms.createRecipeDraft();
+  }
   const id = `recipe-${randomUUID().slice(0, 8)}`;
   const now = new Date().toISOString();
   const recipe: Recipe = {
@@ -329,6 +454,10 @@ export async function setRecipeStatus(
   id: string,
   status: RecipeStatus,
 ): Promise<void> {
+  if (isSupabaseContent()) {
+    await cms.setRecipeStatus(id, status);
+    return;
+  }
   await updateStore((store) => {
     const recipe = store.recipes.find((r) => r.id === id);
     if (recipe) {
@@ -432,6 +561,9 @@ export async function catalogForCluster(
 }
 
 export async function getProfile(id: string): Promise<Profile | null> {
+  if (isSupabaseConfigured()) {
+    return accountDb.getProfileById(id);
+  }
   const store = await readStore();
   return store.profiles.find((p) => p.id === id) ?? null;
 }
@@ -457,6 +589,9 @@ export async function upsertProfile(profile: Profile): Promise<Profile> {
 }
 
 export async function listSavedRecipeIds(userId: string): Promise<string[]> {
+  if (isSupabaseConfigured()) {
+    return accountDb.listSavedRecipeIds(userId);
+  }
   const store = await readStore();
   return store.saved
     .filter((s) => s.userId === userId)
@@ -467,6 +602,9 @@ export async function toggleSavedRecipe(
   userId: string,
   recipeId: string,
 ): Promise<boolean> {
+  if (isSupabaseConfigured()) {
+    return accountDb.toggleSavedRecipe(userId, recipeId);
+  }
   let saved = false;
   await updateStore((store) => {
     const idx = store.saved.findIndex(
@@ -490,6 +628,9 @@ export async function toggleSavedRecipe(
 export async function getOrCreateShoppingList(
   userId: string,
 ): Promise<ShoppingList> {
+  if (isSupabaseConfigured()) {
+    return accountDb.getOrCreateShoppingList(userId);
+  }
   const store = await readStore();
   const existing = store.lists.find((l) => l.userId === userId);
   if (existing) return existing;
@@ -510,6 +651,9 @@ export async function mergeIngredientsIntoList(
   userId: string,
   items: ShoppingListItem[],
 ): Promise<ShoppingList> {
+  if (isSupabaseConfigured()) {
+    return accountDb.mergeIngredientsIntoList(userId, items);
+  }
   const list = await getOrCreateShoppingList(userId);
   await updateStore((store) => {
     const target = store.lists.find((l) => l.id === list.id);
@@ -534,6 +678,10 @@ export async function updateListItems(
   listId: string,
   items: ShoppingListItem[],
 ): Promise<void> {
+  if (isSupabaseConfigured()) {
+    await accountDb.updateListItems(listId, items);
+    return;
+  }
   await updateStore((store) => {
     const list = store.lists.find((l) => l.id === listId);
     if (!list) return;
@@ -545,6 +693,9 @@ export async function updateListItems(
 export async function listSubmissions(
   status?: CommunitySubmission["status"],
 ): Promise<CommunitySubmission[]> {
+  if (isSupabaseConfigured()) {
+    return accountDb.listSubmissions(status);
+  }
   const store = await readStore();
   return store.submissions
     .filter((s) => (status ? s.status === status : true))
@@ -554,6 +705,9 @@ export async function listSubmissions(
 export async function createSubmission(
   input: Omit<CommunitySubmission, "id" | "createdAt" | "status">,
 ): Promise<CommunitySubmission> {
+  if (isSupabaseConfigured()) {
+    return accountDb.createSubmission(input);
+  }
   const submission: CommunitySubmission = {
     ...input,
     id: `sub-${randomUUID().slice(0, 8)}`,
@@ -570,6 +724,10 @@ export async function moderateSubmission(
   id: string,
   status: "approved" | "rejected",
 ): Promise<void> {
+  if (isSupabaseConfigured()) {
+    await cms.moderateSubmission(id, status);
+    return;
+  }
   await updateStore((store) => {
     const sub = store.submissions.find((s) => s.id === id);
     if (!sub) return;

@@ -1,9 +1,8 @@
 import { NextResponse } from "next/server";
 import { randomUUID } from "node:crypto";
+import { getSessionUser, isStaff } from "@/lib/auth/session";
 import { getSupabaseAdminClient } from "@/lib/supabase/admin";
 import { storagePublicUrl } from "@/lib/supabase/storage";
-
-export const runtime = "nodejs";
 
 const MEDIA_ID_PATTERN = /^(recipe|post|category)-[a-z0-9-]+$/;
 const MAX_BYTES = 8 * 1024 * 1024; // 8 MB safety cap
@@ -17,18 +16,19 @@ const MAX_BYTES = 8 * 1024 * 1024; // 8 MB safety cap
  * A leaked upload token can only ever be used to upload images to this one
  * bucket via this one route; it has no database or delete access.
  */
-export async function POST(request: Request) {
+async function authorizeUpload(request: Request): Promise<boolean> {
   const expectedToken = process.env.ADMIN_UPLOAD_TOKEN;
-  if (!expectedToken) {
-    return NextResponse.json(
-      { error: "ADMIN_UPLOAD_TOKEN is not configured on this environment." },
-      { status: 500 }
-    );
-  }
-
   const authHeader = request.headers.get("authorization") ?? "";
   const providedToken = authHeader.replace(/^Bearer\s+/i, "").trim();
-  if (!providedToken || providedToken !== expectedToken) {
+  if (expectedToken && providedToken && providedToken === expectedToken) {
+    return true;
+  }
+  const user = await getSessionUser();
+  return isStaff(user);
+}
+
+export async function POST(request: Request) {
+  if (!(await authorizeUpload(request))) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 

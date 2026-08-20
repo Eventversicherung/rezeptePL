@@ -3,8 +3,7 @@ import { notFound, permanentRedirect, redirect } from "next/navigation";
 import { Suspense } from "react";
 import { setRequestLocale } from "next-intl/server";
 import { getTranslations } from "next-intl/server";
-import { RecipeExperience } from "@/components/recipe/RecipeExperience";
-import { getSessionUser } from "@/lib/auth/session";
+import { RecipeExperienceWithSession } from "@/components/recipe/RecipeExperienceWithSession";
 import { resolveRecipeArticle } from "@/lib/data/recipe-articles";
 import { getRelatedGuidesForRecipe } from "@/lib/data/recipe-guides";
 import {
@@ -12,7 +11,6 @@ import {
   getRecipeBySlug,
   listFamilies,
   listPublishedRecipes,
-  listSavedRecipeIds,
   resolveFamilyBySlug,
 } from "@/lib/data/repository";
 import { familyVariantPath, recipePath } from "@/lib/data/recipe-paths";
@@ -105,13 +103,10 @@ export async function generateMetadata({
 
 export default async function RecipePage({
   params,
-  searchParams,
 }: {
   params: Promise<{ locale: string; slug: string }>;
-  searchParams: Promise<{ mode?: string }>;
 }) {
   const { locale: localeParam, slug } = await params;
-  const { mode: modeParam } = await searchParams;
   const locale = localeParam as Locale;
   setRequestLocale(locale);
 
@@ -144,9 +139,7 @@ export default async function RecipePage({
   const t = await getTranslations("recipes");
   const tNav = await getTranslations("nav");
   const tCommon = await getTranslations("common");
-  const user = await getSessionUser();
-  const savedIds = user ? await listSavedRecipeIds(user.id) : [];
-  const initialMode: RecipeMode = modeParam === "shop" ? "shop" : "cook";
+  const initialMode: RecipeMode = "cook";
   const path = recipePath(recipe, locale);
   const url = `${siteUrl()}/${locale}${path}`;
   const article = resolveRecipeArticle(
@@ -180,12 +173,10 @@ export default async function RecipePage({
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <Suspense fallback={null}>
-        <RecipeExperience
+        <RecipeExperienceWithSession
           recipe={recipe}
           locale={locale}
           initialMode={initialMode}
-          isSaved={savedIds.includes(recipe.id)}
-          isLoggedIn={Boolean(user)}
           article={article}
           articleHeading={t("articleHeading")}
           affiliateProducts={affiliateProducts}

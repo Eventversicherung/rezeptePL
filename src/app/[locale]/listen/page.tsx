@@ -19,6 +19,7 @@ export default async function ListsPage({
   const t = await getTranslations("lists");
   const tr = await getTranslations("recipes");
   const tp = await getTranslations("profile");
+  const tn = await getTranslations("nav");
   const user = await getSessionUser();
 
   if (!user) {
@@ -26,11 +27,8 @@ export default async function ListsPage({
       <div className="mx-auto max-w-lg space-y-4">
         <h1 className="font-display text-3xl font-semibold">{t("title")}</h1>
         <p className="text-muted">{tp("guest")}</p>
-        <Link
-          href="/anmelden"
-          className="btn-primary"
-        >
-          Login
+        <Link href="/anmelden" className="btn-primary">
+          {tn("login")}
         </Link>
       </div>
     );

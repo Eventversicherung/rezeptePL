@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { LocaleAlternatesProvider } from "@/components/i18n/LocaleAlternates";
@@ -18,7 +19,11 @@ export async function AppShell({
     <LocaleAlternatesProvider>
       <div className="flex min-h-dvh w-full flex-col">
         {/* Full-bleed glass header (outside max-width shell) */}
-        <SiteHeader locale={locale} />
+        <Suspense
+          fallback={<div className="h-[5.5rem] sm:h-[6rem]" aria-hidden />}
+        >
+          <SiteHeader locale={locale} />
+        </Suspense>
 
         <div className="mx-auto flex w-full max-w-7xl flex-1 flex-col px-4 sm:px-8">
           <main className="safe-pb flex-1 pt-6 md:pt-8">{children}</main>

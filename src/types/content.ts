@@ -211,3 +211,19 @@ export type RecipeCatalogItem =
       variants: Recipe[];
     }
   | { kind: "recipe"; recipe: Recipe };
+
+export type MealSlot = "breakfast" | "lunch" | "dinner";
+
+export type MealPlanItem = {
+  id: string;
+  weekday: number;
+  slot: MealSlot;
+  recipeId: string;
+};
+
+export type MealPlan = {
+  id: string;
+  userId: string;
+  weekStart: string;
+  items: MealPlanItem[];
+};

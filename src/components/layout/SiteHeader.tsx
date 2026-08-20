@@ -2,6 +2,8 @@ import Image from "next/image";
 import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { getSessionUser } from "@/lib/auth/session";
+import { RecipeSearch } from "@/components/search/RecipeSearch";
+import type { Locale } from "@/types/content";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 import { SiteHeaderGlass } from "./SiteHeaderGlass";
 
@@ -34,6 +36,7 @@ export async function SiteHeader({ locale }: { locale: string }) {
               ["/blog", t("blog")],
               ["/markt-finden", t("findMarket")],
               ["/listen", t("lists")],
+              ["/plan", t("plan")],
               ["/community/hochladen", t("community")],
               ["/profil", t("profile")],
             ] as const
@@ -50,6 +53,7 @@ export async function SiteHeader({ locale }: { locale: string }) {
         </nav>
 
         <div className="flex items-center gap-1.5">
+          <RecipeSearch locale={locale as Locale} variant="header" />
           <LanguageSwitcher locale={locale} />
           {!user ? (
             <Link href="/anmelden" className="btn-primary site-header__login">

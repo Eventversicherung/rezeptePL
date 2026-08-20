@@ -1,7 +1,5 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { redirect } from "next/navigation";
 import { moderateAction } from "@/app/actions/admin";
-import { getSessionUser } from "@/lib/auth/session";
 import { listSubmissions } from "@/lib/data/repository";
 
 export default async function ModerationPage({
@@ -11,17 +9,15 @@ export default async function ModerationPage({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  const user = await getSessionUser();
-  if (!user || (user.role !== "admin" && user.role !== "moderator")) {
-    redirect(`/${locale}/anmelden`);
-  }
-
   const t = await getTranslations("admin");
   const pending = await listSubmissions("pending");
 
   return (
-    <div className="space-y-8">
-      <h1 className="font-display text-3xl font-semibold">{t("moderation")}</h1>
+    <div className="space-y-6">
+      <div>
+        <p className="section-kicker">{t("cms")}</p>
+        <h1 className="font-display text-3xl font-semibold">{t("moderation")}</h1>
+      </div>
       {pending.length === 0 ? (
         <p className="text-muted">{t("pending")}: 0</p>
       ) : (
@@ -36,14 +32,14 @@ export default async function ModerationPage({
               <p className="mt-3 text-xs uppercase text-muted">
                 {sub.locale} · {new Date(sub.createdAt).toLocaleString()}
               </p>
-              <div className="mt-4 flex gap-2">
+              <div className="mt-4 flex flex-wrap gap-2">
                 <form action={moderateAction}>
                   <input type="hidden" name="id" value={sub.id} />
                   <input type="hidden" name="locale" value={locale} />
                   <input type="hidden" name="decision" value="approved" />
                   <button
                     type="submit"
-                    className="btn-primary !min-h-10 px-4 text-sm"
+                    className="btn-primary !min-h-11 px-4 text-sm"
                   >
                     {t("approve")}
                   </button>
@@ -54,7 +50,7 @@ export default async function ModerationPage({
                   <input type="hidden" name="decision" value="rejected" />
                   <button
                     type="submit"
-                    className="min-h-10 rounded-full border border-border px-4 text-sm"
+                    className="min-h-11 rounded-full border border-border px-4 text-sm"
                   >
                     {t("reject")}
                   </button>

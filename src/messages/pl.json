@@ -9,6 +9,7 @@
     "blog": "Blog",
     "findMarket": "Znajdź targ",
     "lists": "Listy",
+    "plan": "Plan tygodnia",
     "profile": "Profil",
     "admin": "Admin",
     "community": "Społeczność",
@@ -140,11 +141,25 @@
     "clearChecked": "Usuń zaznaczone"
   },
   "profile": {
-    "title": "Profil",
+    "title": "Konto",
+    "account": "Twój obszar",
     "savedRecipes": "Zapisane przepisy",
     "emptySaved": "Brak zapisanych przepisów.",
     "language": "Język",
-    "guest": "Zaloguj się, aby zapisywać przepisy i listy."
+    "guest": "Zaloguj się, aby zapisywać przepisy, listy i plan tygodnia."
+  },
+  "plan": {
+    "title": "Plan tygodnia",
+    "kicker": "Zaplanuj posiłki",
+    "help": "Przypisz przepisy do dni. Potem wrzuć składniki całego tygodnia na listę zakupów.",
+    "thisWeek": "Dania w tym tygodniu",
+    "addWeekToList": "Składniki tygodnia na listę",
+    "emptySlot": "Wolne",
+    "breakfast": "Śniadanie",
+    "lunch": "Obiad",
+    "dinner": "Kolacja",
+    "unavailable": "Plan tygodnia wymaga połączonej bazy.",
+    "weekdays": ["Pn", "Wt", "Śr", "Cz", "Pt", "So", "Nd"]
   },
   "auth": {
     "loginTitle": "Zaloguj się",
@@ -155,7 +170,14 @@
     "register": "Zarejestruj",
     "noAccount": "Nie masz konta?",
     "hasAccount": "Masz już konto?",
-    "magicHint": "E-mail i hasło. Magic Link po podłączeniu Supabase."
+    "hint": "Zaloguj się e-mailem i hasłem. Listy i zapisane przepisy zostają przy koncie.",
+    "confirmEmail": "Potwierdź e-mail, potem możesz się zalogować.",
+    "error_missing": "Potrzebne są e-mail i hasło.",
+    "error_invalid": "E-mail lub hasło jest nieprawidłowe.",
+    "error_exists": "Ten e-mail jest już zarejestrowany. Zaloguj się.",
+    "error_signup": "Nie udało się utworzyć konta. Spróbuj później.",
+    "error_not_configured": "Logowanie jest chwilowo niedostępne.",
+    "error_weak_password": "Hasło musi mieć co najmniej 8 znaków."
   },
   "community": {
     "uploadTitle": "Dodaj własny przepis",
@@ -169,6 +191,18 @@
   },
   "admin": {
     "title": "Admin",
+    "cms": "Redakcja",
+    "blog": "Blog",
+    "newPost": "Nowy wpis",
+    "recipesHelp": "Publikacja zapisuje w Supabase i czyści cache treści.",
+    "menu": "Menu",
+    "closeMenu": "Zamknij menu",
+    "status": "Status",
+    "postType": "Typ",
+    "titleField": "Tytuł",
+    "excerptField": "Krótki opis",
+    "bodyField": "Tekst",
+    "cover": "URL okładki",
     "recipes": "Przepisy",
     "moderation": "Moderacja",
     "newRecipe": "Nowy przepis",
@@ -209,6 +243,27 @@
   "legal": {
     "imprint": "Impressum",
     "privacy": "Prywatność"
+  },
+  "search": {
+    "placeholder": "Danie, składnik lub nazwa…",
+    "open": "Szukaj przepisów",
+    "close": "Wyczyść wyszukiwanie",
+    "submit": "Szukaj",
+    "loading": "Szukam…",
+    "empty": "Brak wyników dla „{query}”",
+    "emptyHint": "Spróbuj nazwy dania, składnika albo kategorii.",
+    "viewAll": "Pokaż wszystkie wyniki",
+    "shortcut": "⌘K",
+    "recipes": "Przepisy",
+    "minutes": "{count} min",
+    "matchTitle": "Nazwa przepisu",
+    "matchIngredient": "Składnik: {value}",
+    "matchCategory": "{value}",
+    "matchVariant": "Wariant: {value}",
+    "matchExcerpt": "Opis",
+    "matchRegion": "{value}",
+    "matchOccasion": "{value}",
+    "matchTechnique": "{value}"
   },
   "common": {
     "loading": "Ładowanie…",

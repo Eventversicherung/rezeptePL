@@ -3,13 +3,18 @@
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 import { requireAdmin } from "@/lib/auth/session";
+import { invalidateContentCache } from "@/lib/data/content-cache";
 import {
+  createBlogDraft,
   createRecipeDraft,
+  getAdminBlogPostById,
+  getRecipeById,
   moderateSubmission,
+  saveBlogPost,
   saveRecipe,
   setRecipeStatus,
-  getRecipeById,
 } from "@/lib/data/repository";
+import type { BlogPost, BlogPostStatus, BlogPostType } from "@/types/content";
 import {
   notifyIndexNowAfterResponse,
   submitAllPublicUrlsToIndexNow,
@@ -88,6 +93,7 @@ export async function saveRecipeAction(formData: FormData) {
   };
 
   await saveRecipe(next);
+  invalidateContentCache();
   if (next.status === "published") {
     notifyIndexNowAfterResponse(await publicUrlsForRecipe(next));
   }
@@ -102,6 +108,7 @@ export async function setStatusAction(formData: FormData) {
   const status = String(formData.get("status")) as RecipeStatus;
   const locale = String(formData.get("locale") ?? "de");
   await setRecipeStatus(id, status);
+  invalidateContentCache();
   if (status === "published") {
     const recipe = await getRecipeById(id);
     if (recipe) {
@@ -133,6 +140,54 @@ export async function moderateAction(formData: FormData) {
   revalidatePath("/[locale]/admin/moderation", "page");
   revalidatePath("/[locale]/rezepte", "layout");
   redirect(`/${locale}/admin/moderation`);
+}
+
+export async function createBlogDraftAction(locale: string) {
+  await requireAdmin();
+  const post = await createBlogDraft();
+  redirect(`/${locale}/admin/blog/${post.id}`);
+}
+
+export async function saveBlogPostAction(formData: FormData) {
+  await requireAdmin();
+  const id = String(formData.get("id"));
+  const editLocale = String(formData.get("editLocale")) as Locale;
+  const existing = await getAdminBlogPostById(id);
+  if (!existing) throw new Error("Not found");
+
+  const status = String(formData.get("status")) as BlogPostStatus;
+  const postType = String(formData.get("postType") ?? existing.postType) as BlogPostType;
+  const coverImage = String(formData.get("coverImage") ?? existing.coverImage);
+  const title = String(formData.get("title") ?? "");
+  const slug = String(formData.get("slug") ?? "");
+  const excerpt = String(formData.get("excerpt") ?? "");
+  const body = String(formData.get("body") ?? "");
+  const seoTitle = String(formData.get("seoTitle") ?? "");
+  const seoDescription = String(formData.get("seoDescription") ?? "");
+
+  const next: BlogPost = {
+    ...existing,
+    status,
+    postType,
+    coverImage,
+    translations: {
+      ...existing.translations,
+      [editLocale]: {
+        title,
+        slug,
+        excerpt,
+        body,
+        seoTitle: seoTitle || title,
+        seoDescription: seoDescription || excerpt.slice(0, 160),
+      },
+    },
+  };
+
+  await saveBlogPost(next);
+  invalidateContentCache();
+  revalidatePath("/[locale]/admin", "layout");
+  revalidatePath("/[locale]/blog", "layout");
+  redirect(`/${String(formData.get("uiLocale") ?? "de")}/admin/blog/${id}`);
 }
 
 function stripHtml(html: string) {

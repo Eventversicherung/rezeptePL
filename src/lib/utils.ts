@@ -1,4 +1,10 @@
+import { clsx, type ClassValue } from "clsx";
+import { twMerge } from "tailwind-merge";
 import type { IngredientGroup, Locale, Recipe } from "@/types/content";
+
+export function cn(...inputs: ClassValue[]) {
+  return twMerge(clsx(inputs));
+}
 
 export function scaleAmount(amount: number, base: number, target: number) {
   if (base <= 0) return amount;

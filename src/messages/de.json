@@ -9,6 +9,7 @@
     "blog": "Blog",
     "findMarket": "Markt finden",
     "lists": "Listen",
+    "plan": "Wochenplan",
     "profile": "Profil",
     "admin": "Admin",
     "community": "Community",
@@ -140,11 +141,25 @@
     "clearChecked": "Erledigte entfernen"
   },
   "profile": {
-    "title": "Profil",
+    "title": "Konto",
+    "account": "Dein Bereich",
     "savedRecipes": "Gespeicherte Rezepte",
     "emptySaved": "Noch keine gespeicherten Rezepte.",
     "language": "Sprache",
-    "guest": "Melde dich an, um Rezepte zu speichern und Listen zu behalten."
+    "guest": "Melde dich an, um Rezepte zu speichern, Listen und deinen Wochenplan zu behalten."
+  },
+  "plan": {
+    "title": "Wochenplan",
+    "kicker": "Essen planen",
+    "help": "Rezepte den Tagen zuordnen. Danach alle Zutaten der Woche auf die Einkaufsliste legen.",
+    "thisWeek": "Gerichte diese Woche",
+    "addWeekToList": "Wochenzutaten auf die Liste",
+    "emptySlot": "Frei",
+    "breakfast": "Frühstück",
+    "lunch": "Mittag",
+    "dinner": "Abend",
+    "unavailable": "Der Wochenplan braucht die verbundene Datenbank.",
+    "weekdays": ["Mo", "Di", "Mi", "Do", "Fr", "Sa", "So"]
   },
   "auth": {
     "loginTitle": "Anmelden",
@@ -155,7 +170,14 @@
     "register": "Registrieren",
     "noAccount": "Noch kein Konto?",
     "hasAccount": "Bereits ein Konto?",
-    "magicHint": "Mit E-Mail und Passwort. Magic Link folgt, sobald Supabase verbunden ist."
+    "hint": "Melde dich mit E-Mail und Passwort an. Deine Listen und gespeicherten Rezepte bleiben mit dem Konto verbunden.",
+    "confirmEmail": "Bitte bestätige die E-Mail, dann kannst du dich anmelden.",
+    "error_missing": "E-Mail und Passwort sind nötig.",
+    "error_invalid": "E-Mail oder Passwort stimmt nicht.",
+    "error_exists": "Diese E-Mail ist schon registriert. Bitte anmelden.",
+    "error_signup": "Konto konnte nicht erstellt werden. Bitte später erneut versuchen.",
+    "error_not_configured": "Anmeldung ist gerade nicht verfügbar.",
+    "error_weak_password": "Bitte mindestens 8 Zeichen wählen."
   },
   "community": {
     "uploadTitle": "Eigenes Rezept einreichen",
@@ -169,6 +191,18 @@
   },
   "admin": {
     "title": "Admin",
+    "cms": "Redaktion",
+    "blog": "Blog",
+    "newPost": "Neuer Beitrag",
+    "recipesHelp": "Veröffentlichen schreibt nach Supabase und leert den Inhalts-Cache.",
+    "menu": "Menü",
+    "closeMenu": "Menü schließen",
+    "status": "Status",
+    "postType": "Typ",
+    "titleField": "Titel",
+    "excerptField": "Kurztext",
+    "bodyField": "Text",
+    "cover": "Titelbild-URL",
     "recipes": "Rezepte",
     "moderation": "Moderation",
     "newRecipe": "Neues Rezept",
@@ -209,6 +243,27 @@
   "legal": {
     "imprint": "Impressum",
     "privacy": "Datenschutz"
+  },
+  "search": {
+    "placeholder": "Gericht, Zutat oder Name…",
+    "open": "Rezepte suchen",
+    "close": "Suche leeren",
+    "submit": "Suchen",
+    "loading": "Suche…",
+    "empty": "Kein Treffer für „{query}“",
+    "emptyHint": "Versuch einen Gerichtnamen, eine Zutat oder eine Kategorie.",
+    "viewAll": "Alle Treffer anzeigen",
+    "shortcut": "⌘K",
+    "recipes": "Rezepte",
+    "minutes": "{count} min",
+    "matchTitle": "Rezeptname",
+    "matchIngredient": "Zutat: {value}",
+    "matchCategory": "{value}",
+    "matchVariant": "Variante: {value}",
+    "matchExcerpt": "Beschreibung",
+    "matchRegion": "{value}",
+    "matchOccasion": "{value}",
+    "matchTechnique": "{value}"
   },
   "common": {
     "loading": "Laden…",

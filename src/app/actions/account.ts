@@ -77,3 +77,34 @@ export async function getSavedIdsForUser() {
   if (!user) return [] as string[];
   return listSavedRecipeIds(user.id);
 }
+
+export async function setMealSlotAction(formData: FormData) {
+  const user = await getSessionUser();
+  if (!user) return;
+  const { setMealPlanItem } = await import("@/lib/data/supabase-account");
+  const recipeId = String(formData.get("recipeId") ?? "");
+  await setMealPlanItem({
+    planId: String(formData.get("planId")),
+    weekday: Number(formData.get("weekday")),
+    slot: String(formData.get("slot")) as "breakfast" | "lunch" | "dinner",
+    recipeId: recipeId || null,
+  });
+  revalidatePath("/[locale]/plan", "page");
+  revalidatePath("/[locale]/profil", "page");
+}
+
+export async function addWeekToListAction(formData: FormData) {
+  const user = await getSessionUser();
+  if (!user) return;
+  const { getOrCreateMealPlan } = await import("@/lib/data/supabase-account");
+  const weekStart = String(formData.get("weekStart") ?? "");
+  const locale = String(formData.get("locale") ?? "de") as Locale;
+  const plan = await getOrCreateMealPlan(user.id, weekStart || undefined);
+  const ids = [...new Set(plan.items.map((item) => item.recipeId))];
+  for (const recipeId of ids) {
+    const recipe = await getRecipeById(recipeId);
+    if (!recipe) continue;
+    await addRecipeToShoppingListAction(recipeId, recipe.servings, locale);
+  }
+  revalidatePath("/[locale]/listen", "page");
+}
