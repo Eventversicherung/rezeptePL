@@ -4,6 +4,7 @@ import { randomUUID } from "crypto";
 import { revalidatePath } from "next/cache";
 import { getSessionUser } from "@/lib/auth/session";
 import {
+  getFamilyById,
   getRecipeById,
   listSavedRecipeIds,
   mergeIngredientsIntoList,
@@ -12,8 +13,16 @@ import {
   getOrCreateShoppingList,
   updateOwnDisplayName,
 } from "@/lib/data/repository";
+import { parseWeekParam } from "@/lib/plan/week";
+import { toPlanRecipe, type PlanRecipe } from "@/lib/plan/recipe";
 import { scaleAmount } from "@/lib/utils";
-import type { Locale, ShoppingListItem } from "@/types/content";
+import type { Locale, MealSlot, ShoppingListItem } from "@/types/content";
+
+const SLOTS: MealSlot[] = ["breakfast", "lunch", "dinner"];
+
+function isSlot(value: string): value is MealSlot {
+  return SLOTS.includes(value as MealSlot);
+}
 
 export async function toggleSaveRecipeAction(recipeId: string) {
   const user = await getSessionUser();
@@ -108,28 +117,94 @@ export async function getSavedIdsForUser() {
   return listSavedRecipeIds(user.id);
 }
 
-export async function setMealSlotAction(formData: FormData) {
+export async function loadPlanRecipeAction(
+  id: string,
+  locale: Locale,
+): Promise<PlanRecipe | null> {
+  let recipe = await getRecipeById(id);
+  if (!recipe) {
+    const family = await getFamilyById(id);
+    if (family) recipe = await getRecipeById(family.defaultVariantId);
+  }
+  if (!recipe || recipe.status !== "published") return null;
+  return toPlanRecipe(recipe, locale);
+}
+
+export async function assignMealSlot(input: {
+  planId: string;
+  weekStart: string;
+  weekday: number;
+  slot: string;
+  recipeId: string | null;
+}): Promise<{ ok: true; planId: string } | { ok: false }> {
   const user = await getSessionUser();
-  if (!user) return;
-  const { setMealPlanItem } = await import("@/lib/data/supabase-account");
-  const recipeId = String(formData.get("recipeId") ?? "");
+  if (!user) return { ok: false };
+  if (!isSlot(input.slot)) return { ok: false };
+  if (input.weekday < 0 || input.weekday > 6) return { ok: false };
+  const weekStart = parseWeekParam(input.weekStart);
+
+  const { ensureMealPlanId, setMealPlanItem } = await import(
+    "@/lib/data/supabase-account"
+  );
+  const planId = input.planId || (await ensureMealPlanId(user.id, weekStart));
   await setMealPlanItem({
-    planId: String(formData.get("planId")),
-    weekday: Number(formData.get("weekday")),
-    slot: String(formData.get("slot")) as "breakfast" | "lunch" | "dinner",
-    recipeId: recipeId || null,
+    planId,
+    weekday: input.weekday,
+    slot: input.slot,
+    recipeId: input.recipeId,
   });
-  revalidatePath("/[locale]/plan", "page");
-  revalidatePath("/[locale]/profil", "page");
+  return { ok: true, planId };
+}
+
+export async function copyLastWeekAction(
+  weekStartRaw: string,
+  locale: Locale,
+): Promise<
+  | {
+      ok: true;
+      planId: string;
+      recipes: PlanRecipe[];
+      items: { weekday: number; slot: MealSlot; recipeId: string }[];
+      copied: number;
+    }
+  | { ok: false; reason: "empty" | "auth" }
+> {
+  const user = await getSessionUser();
+  if (!user) return { ok: false, reason: "auth" };
+  const weekStart = parseWeekParam(weekStartRaw);
+  const { copyEmptySlotsFromPreviousWeek } = await import(
+    "@/lib/data/supabase-account"
+  );
+  const { copied, plan } = await copyEmptySlotsFromPreviousWeek(
+    user.id,
+    weekStart,
+  );
+  if (!copied) return { ok: false, reason: "empty" };
+  const recipes = (
+    await Promise.all(plan.items.map((item) => getRecipeById(item.recipeId)))
+  )
+    .filter((recipe): recipe is NonNullable<typeof recipe> => Boolean(recipe))
+    .map((recipe) => toPlanRecipe(recipe, locale));
+  return {
+    ok: true,
+    planId: plan.id,
+    recipes,
+    items: plan.items.map((item) => ({
+      weekday: item.weekday,
+      slot: item.slot,
+      recipeId: item.recipeId,
+    })),
+    copied,
+  };
 }
 
 export async function addWeekToListAction(formData: FormData) {
   const user = await getSessionUser();
   if (!user) return;
-  const { getOrCreateMealPlan } = await import("@/lib/data/supabase-account");
-  const weekStart = String(formData.get("weekStart") ?? "");
+  const { getMealPlan } = await import("@/lib/data/supabase-account");
+  const weekStart = parseWeekParam(String(formData.get("weekStart") ?? ""));
   const locale = String(formData.get("locale") ?? "de") as Locale;
-  const plan = await getOrCreateMealPlan(user.id, weekStart || undefined);
+  const plan = await getMealPlan(user.id, weekStart);
   const ids = [...new Set(plan.items.map((item) => item.recipeId))];
   for (const recipeId of ids) {
     const recipe = await getRecipeById(recipeId);

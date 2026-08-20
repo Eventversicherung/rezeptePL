@@ -21,3 +21,4 @@ export type SearchHit = {
 
 export const SEARCH_QUERY_MAX = 80;
 export const SEARCH_RESULT_LIMIT = 8;
+export const SEARCH_PICKER_LIMIT = 12;

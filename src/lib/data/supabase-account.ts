@@ -1,6 +1,7 @@
 import "server-only";
 import { randomUUID } from "crypto";
 import { createClient } from "@/lib/supabase/server";
+import { addWeeks, mondayOf } from "@/lib/plan/week";
 import type {
   CommunitySubmission,
   IngredientGroup,
@@ -343,71 +344,115 @@ export async function createSubmission(
   };
 }
 
-function mondayOf(date = new Date()): string {
-  const copy = new Date(date);
-  const day = copy.getDay();
-  const diff = day === 0 ? -6 : 1 - day;
-  copy.setDate(copy.getDate() + diff);
-  copy.setHours(0, 0, 0, 0);
-  const yyyy = copy.getFullYear();
-  const mm = String(copy.getMonth() + 1).padStart(2, "0");
-  const dd = String(copy.getDate()).padStart(2, "0");
-  return `${yyyy}-${mm}-${dd}`;
+export { weekStartFor } from "@/lib/plan/week";
+
+type MealPlanItemRow = {
+  id: string;
+  weekday: number;
+  slot: MealSlot;
+  recipe_id: string;
+};
+
+function mapItems(rows: MealPlanItemRow[] | null): MealPlan["items"] {
+  return (rows ?? []).map((row) => ({
+    id: row.id,
+    weekday: row.weekday,
+    slot: row.slot,
+    recipeId: row.recipe_id,
+  }));
 }
 
-export function weekStartFor(offset = 0): string {
-  const base = new Date();
-  base.setDate(base.getDate() + offset * 7);
-  return mondayOf(base);
-}
-
-export async function getOrCreateMealPlan(
+export async function getMealPlan(
   userId: string,
   weekStart = mondayOf(),
 ): Promise<MealPlan> {
   const supabase = await createClient();
   const { data: existing } = await supabase
     .from("meal_plans")
-    .select("id, user_id, week_start")
+    .select("id")
     .eq("user_id", userId)
     .eq("week_start", weekStart)
     .maybeSingle();
 
-  const planId = existing
-    ? (existing.id as string)
-    : (
-        await supabase
-          .from("meal_plans")
-          .insert({ user_id: userId, week_start: weekStart })
-          .select("id")
-          .single()
-      ).data?.id;
-
-  if (!planId) {
-    throw new Error("Could not load meal plan");
+  if (!existing) {
+    return { id: "", userId, weekStart, items: [] };
   }
 
   const { data: items } = await supabase
     .from("meal_plan_items")
     .select("id, weekday, slot, recipe_id")
-    .eq("plan_id", planId);
+    .eq("plan_id", existing.id);
 
   return {
-    id: planId,
+    id: existing.id as string,
     userId,
     weekStart,
-    items: ((items ?? []) as {
-      id: string;
-      weekday: number;
-      slot: MealSlot;
-      recipe_id: string;
-    }[]).map((row) => ({
-      id: row.id,
-      weekday: row.weekday,
-      slot: row.slot,
-      recipeId: row.recipe_id,
-    })),
+    items: mapItems(items as MealPlanItemRow[] | null),
   };
+}
+
+export async function ensureMealPlanId(
+  userId: string,
+  weekStart: string,
+): Promise<string> {
+  const existing = await getMealPlan(userId, weekStart);
+  if (existing.id) return existing.id;
+
+  const supabase = await createClient();
+  const { data, error } = await supabase
+    .from("meal_plans")
+    .insert({ user_id: userId, week_start: weekStart })
+    .select("id")
+    .single();
+
+  if (data?.id) return data.id as string;
+
+  const again = await getMealPlan(userId, weekStart);
+  if (again.id) return again.id;
+  throw new Error(error?.message ?? "Could not create meal plan");
+}
+
+export async function getOrCreateMealPlan(
+  userId: string,
+  weekStart = mondayOf(),
+): Promise<MealPlan> {
+  const planId = await ensureMealPlanId(userId, weekStart);
+  const plan = await getMealPlan(userId, weekStart);
+  return { ...plan, id: planId };
+}
+
+export async function copyEmptySlotsFromPreviousWeek(
+  userId: string,
+  weekStart: string,
+): Promise<{ copied: number; plan: MealPlan }> {
+  const previous = await getMealPlan(userId, addWeeks(weekStart, -1));
+  if (!previous.items.length) {
+    return { copied: 0, plan: await getMealPlan(userId, weekStart) };
+  }
+
+  const current = await getMealPlan(userId, weekStart);
+  const taken = new Set(
+    current.items.map((item) => `${item.weekday}-${item.slot}`),
+  );
+  const incoming = previous.items.filter(
+    (item) => !taken.has(`${item.weekday}-${item.slot}`),
+  );
+  if (!incoming.length) {
+    return { copied: 0, plan: current };
+  }
+
+  const planId = current.id || (await ensureMealPlanId(userId, weekStart));
+  const supabase = await createClient();
+  const { error } = await supabase.from("meal_plan_items").insert(
+    incoming.map((item) => ({
+      plan_id: planId,
+      weekday: item.weekday,
+      slot: item.slot,
+      recipe_id: item.recipeId,
+    })),
+  );
+  if (error) throw new Error(error.message);
+  return { copied: incoming.length, plan: await getMealPlan(userId, weekStart) };
 }
 
 export async function setMealPlanItem(input: {

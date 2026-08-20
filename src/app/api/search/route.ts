@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { searchRecipeSuggestions } from "@/lib/search/suggestions";
 import {
+  SEARCH_PICKER_LIMIT,
   SEARCH_QUERY_MAX,
   SEARCH_RESULT_LIMIT,
   type SearchHit,
@@ -24,7 +25,11 @@ export async function GET(request: Request) {
     return NextResponse.json({ hits: [] as SearchHit[] });
   }
 
-  const hits = await searchRecipeSuggestions(locale, raw, SEARCH_RESULT_LIMIT);
+  const requested = Number(searchParams.get("limit") ?? SEARCH_RESULT_LIMIT);
+  const limit = Number.isFinite(requested)
+    ? Math.min(Math.max(1, Math.floor(requested)), SEARCH_PICKER_LIMIT)
+    : SEARCH_RESULT_LIMIT;
+  const hits = await searchRecipeSuggestions(locale, raw, limit);
   return NextResponse.json(
     { hits },
     {

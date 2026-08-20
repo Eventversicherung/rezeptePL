@@ -2,17 +2,22 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { MealPlanBoard } from "@/components/plan/MealPlanBoard";
 import { getSessionUser } from "@/lib/auth/session";
-import { listPublishedRecipes } from "@/lib/data/repository";
-import { getOrCreateMealPlan } from "@/lib/data/supabase-account";
+import { getRecipeById, listSavedRecipeIds } from "@/lib/data/repository";
+import { getMealPlan } from "@/lib/data/supabase-account";
+import { toPlanRecipe } from "@/lib/plan/recipe";
+import { parseWeekParam } from "@/lib/plan/week";
 import { isSupabaseConfigured } from "@/lib/supabase/env";
 import type { Locale } from "@/types/content";
 
 export default async function PlanPage({
   params,
+  searchParams,
 }: {
   params: Promise<{ locale: string }>;
+  searchParams: Promise<{ w?: string }>;
 }) {
   const { locale: localeParam } = await params;
+  const { w } = await searchParams;
   const locale = localeParam as Locale;
   setRequestLocale(locale);
   const t = await getTranslations("plan");
@@ -41,22 +46,37 @@ export default async function PlanPage({
     );
   }
 
-  const [plan, recipes] = await Promise.all([
-    getOrCreateMealPlan(user.id),
-    listPublishedRecipes(),
+  const weekStart = parseWeekParam(w);
+  const [plan, savedIds] = await Promise.all([
+    getMealPlan(user.id, weekStart),
+    listSavedRecipeIds(user.id),
   ]);
+  const recipeIds = [
+    ...new Set([...plan.items.map((item) => item.recipeId), ...savedIds]),
+  ];
+  const loaded = (
+    await Promise.all(recipeIds.map((id) => getRecipeById(id)))
+  ).filter((recipe): recipe is NonNullable<typeof recipe> => Boolean(recipe));
+  const recipes = loaded
+    .filter((recipe) => plan.items.some((item) => item.recipeId === recipe.id))
+    .map((recipe) => toPlanRecipe(recipe, locale));
+  const saved = loaded
+    .filter((recipe) => savedIds.includes(recipe.id))
+    .map((recipe) => toPlanRecipe(recipe, locale));
   const weekdayLabels = t.raw("weekdays") as string[];
 
   return (
-    <div className="space-y-6">
+    <div className="meal-plan-page">
       <div>
         <p className="section-kicker">{t("kicker")}</p>
         <h1 className="font-display text-3xl font-semibold">{t("title")}</h1>
         <p className="mt-2 max-w-2xl text-muted">{t("help")}</p>
       </div>
       <MealPlanBoard
-        plan={plan}
+        key={weekStart}
+        plan={{ ...plan, weekStart }}
         recipes={recipes}
+        saved={saved}
         locale={locale}
         weekdayLabels={weekdayLabels}
       />
