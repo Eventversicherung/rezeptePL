@@ -25,47 +25,55 @@ export const seedRecipesWave5: Recipe[] = [
         title: "Pierogi leniwe",
         slug: "pierogi-leniwe",
         excerpt:
-          "Twaróg-Klößchen ohne Falten — schnell, mild, kinderfreundlich.",
+          "Pierogi leniwe sind weiche Klößchen aus Twaróg, Ei und Mehl, die geschnitten statt gefaltet werden, dadurch milder und schneller fertig als klassische gefüllte Pierogi oder die kartoffelbasierten Kopytka und Kluski śląskie.",
         steps: [
           {
-            text: "Twaróg mit Ei, Mehl und einer Prise Salz zu weichem Teig verkneten.",
-            tip: "Teig soll nicht kleben — bei Bedarf Mehl nachlegen, nicht übertreiben.",
-          },
-          { text: "Zu einer Rolle formen, schräg in Stücke schneiden." },
-          {
-            text: "In leicht siedendem Salzwasser garen, bis sie aufschwimmen.",
+            text: "Twaróg gut abtropfen lassen und mit Ei, Mehl und einer Prise Salz zu einem weichen, aber formbaren Teig verkneten.",
+            tip: "Je feuchter der Twaróg, desto mehr Mehl braucht der Teig danach, drücke ihn deshalb vorher in einem Tuch gut aus, sonst wird die Masse am Ende klebrig.",
           },
           {
-            text: "Mit Butterbröseln, Zucker oder saurer Sahne servieren.",
-            tip: "Gefüllte Obst-Knödel sind etwas anderes: [Knedle ze śliwkami](/de/rezepte/knedle-sliwki). Teigfamilie: [Pierogi-Guide](/de/blog/pierogi-guide).",
+            text: "Den Teig zu einer Rolle mit etwa drei Zentimetern Durchmesser formen und schräg in mundgerechte Stücke schneiden.",
+            tip: "Vor dem Schneiden lässt sich mit der stumpfen Messerseite ein feines Gittermuster in die Rolle drücken, darin hält später mehr Butter und Brösel.",
+          },
+          {
+            text: "Die Klößchen in leicht siedendem Salzwasser garen, bis sie an die Oberfläche steigen, das dauert nur wenige Minuten.",
+            tip: "Das Wasser darf nur sanft köcheln, in sprudelndem Wasser brechen die weichen Klößchen an den Kanten leicht auf.",
+          },
+          {
+            text: "Mit in Butter gerösteten Semmelbröseln, Zucker oder saurer Sahne servieren.",
+            tip: "Gefüllte Obst-Knödel wie die [Knedle ze śliwkami](/de/rezepte/knedle-sliwki) gehören zu einer ganz anderen Teigfamilie, einen Überblick über alle Formen gibt der [Pierogi-Guide](/de/blog/pierogi-guide).",
           },
         ],
-        seoTitle: "Pierogi leniwe Rezept | Alemniam",
+        seoTitle: "Pierogi leniwe Rezept | Twaróg-Klößchen ohne Falten | Alemniam",
         seoDescription:
-          "Pierogi leniwe mit Twaróg — ohne Falten, bilingual mit DE-Einkauf.",
+          "Pierogi leniwe: weiche Twaróg-Klößchen, geschnitten statt gefaltet. Schnelles Rezept mit Tipps zu Teig, Garzeit und Servieren, zweisprachig.",
       },
       pl: {
         title: "Pierogi leniwe",
         slug: "pierogi-leniwe",
         excerpt:
-          "Kluseczki z twarogu bez lepienia — szybko, łagodnie, dla dzieci.",
+          "Pierogi leniwe to miękkie kluseczki z twarogu, jajka i mąki, które się kroi, a nie lepi, dlatego są łagodniejsze i szybsze niż sklejane pierogi czy ziemniaczane kopytka i kluski śląskie.",
         steps: [
           {
-            text: "Zagnieć twaróg z jajkiem, mąką i szczyptą soli na miękkie ciasto.",
-            tip: "Ciasto nie może kleić — dosyp mąki ostrożnie.",
-          },
-          { text: "Uformuj wałek, pokrój skośnie w kawałki." },
-          {
-            text: "Gotuj w lekko wrzącej osolonej wodzie aż wypłyną.",
+            text: "Dobrze odciśnięty twaróg zagnieć z jajkiem, mąką i szczyptą soli na miękkie, ale formowalne ciasto.",
+            tip: "Im bardziej wilgotny twaróg, tym więcej mąki potrzeba później, więc najpierw odciśnij go w ściereczce, inaczej masa wyjdzie kleista.",
           },
           {
-            text: "Podawaj z bułką tartą na maśle, cukrem albo śmietaną.",
-            tip: "Knedle z owocem to osobna strona: [knedle ze śliwkami](/pl/rezepte/knedle-sliwki). Rodzina ciast: [przewodnik pierogi](/pl/blog/przewodnik-pierogi).",
+            text: "Uformuj wałek o średnicy około trzech centymetrów i pokrój go skośnie na kawałki wielkości kęsa.",
+            tip: "Przed krojeniem można tępą stroną noża odbić na wałku siateczkę, dzięki niej kluseczki lepiej trzymają potem masło i bułkę tartą.",
+          },
+          {
+            text: "Gotuj kluseczki w lekko wrzącej osolonej wodzie, aż wypłyną na powierzchnię, to zajmuje tylko kilka minut.",
+            tip: "Woda ma tylko lekko bulgotać, w gwałtownie wrzącej wodzie miękkie kluseczki łatwo rozpadają się na brzegach.",
+          },
+          {
+            text: "Podawaj z bułką tartą podsmażoną na maśle, cukrem albo śmietaną.",
+            tip: "Nadziewane knedle owocowe, jak [knedle ze śliwkami](/pl/rezepte/knedle-sliwki), to zupełnie inna rodzina ciast, przegląd wszystkich form daje [przewodnik po pierogach](/pl/blog/przewodnik-pierogi).",
           },
         ],
-        seoTitle: "Pierogi leniwe przepis | Alemniam",
+        seoTitle: "Pierogi leniwe przepis | Kluseczki z twarogu bez lepienia | Alemniam",
         seoDescription:
-          "Pierogi leniwe z twarogu — bez lepienia, dwujęzycznie.",
+          "Pierogi leniwe: miękkie kluseczki z twarogu, krojone, nie lepione. Przepis z poradami o cieście, gotowaniu i podawaniu.",
       },
     },
     ingredients: [
@@ -127,45 +135,55 @@ export const seedRecipesWave5: Recipe[] = [
         title: "Kopytka",
         slug: "kopytka",
         excerpt:
-          "Kartoffel-Teigstückchen — klassische Beilage zu Gulasz und Butterzwiebeln.",
+          "Kopytka sind feste Kartoffel-Teigstückchen in Rautenform, die klassische Beilage zu Gulasz oder Butterzwiebeln, kompakter als italienische Gnocchi und ohne Füllung im Gegensatz zu den großen Pyzy.",
         steps: [
           {
-            text: "Kartoffeln kochen, ausdampfen, durch Presse drücken.",
+            text: "Kartoffeln in der Schale kochen, gut ausdampfen lassen und durch eine Kartoffelpresse drücken.",
+            tip: "Nur gut ausgedampfte Kartoffeln geben wenig Restfeuchte ab, das spart später Mehl und hält den Teig locker statt zäh.",
           },
           {
-            text: "Mit Mehl, Ei und Salz zu Teig kneten — nicht zu weich.",
-            tip: "Zu viel Mehl macht sie gummiartig.",
+            text: "Die Kartoffelmasse mit Mehl, Ei und Salz zügig zu einem festen, aber nicht zu weichen Teig verkneten.",
+            tip: "Zu viel Mehl macht Kopytka gummiartig, gib es deshalb löffelweise dazu und höre auf, sobald der Teig gerade nicht mehr klebt.",
           },
-          { text: "Rollen formen, schräg schneiden, in Salzwasser garen." },
+          {
+            text: "Aus dem Teig Rollen formen, leicht flach drücken, schräg in Rauten schneiden und in reichlich siedendem Salzwasser garen, bis sie aufschwimmen.",
+            tip: "Die typische Rautenform hat Kopytka ihren Namen gegeben, polnisch für kleine Hufe, denn die geschnittenen Stücke erinnern an Tierhufe. Nimm sie zügig heraus, sobald sie oben schwimmen, sonst werden sie weich.",
+          },
           {
             text: "Mit Butterzwiebeln oder [Gulasz](/de/rezepte/gulasz-wieprzowy) servieren.",
+            tip: "Als regionale Schwester mit eigener Machart aus Kartoffeln und Kartoffelstärke bleibt [Kluski śląskie](/de/rezepte/kluski-slaskie) eine gute Alternative, gefüllt statt nur geschnitten sind dagegen die großen [Pyzy](/de/rezepte/pyzy).",
           },
         ],
-        seoTitle: "Kopytka Rezept | Alemniam",
+        seoTitle: "Kopytka Rezept | Kartoffel-Teigstückchen wie Gnocchi | Alemniam",
         seoDescription:
-          "Kopytka aus Kartoffeln — Beilage zu Gulasz, bilingual.",
+          "Kopytka: feste Kartoffel-Teigstückchen in Rautenform, Beilage zu Gulasz. Rezept mit Tipps zu Teig, Form und Garzeit, zweisprachig.",
       },
       pl: {
         title: "Kopytka",
         slug: "kopytka",
         excerpt:
-          "Kluseczki ziemniaczane — klasyk do gulaszu i cebuli na maśle.",
+          "Kopytka to zwarte kluseczki ziemniaczane w kształcie rombów, klasyczny dodatek do gulaszu albo cebuli na maśle, bardziej zbite niż włoskie gnocchi i bez nadzienia w przeciwieństwie do dużych pyz.",
         steps: [
           {
-            text: "Ugotuj ziemniaki, odparuj, przepuść przez praskę.",
+            text: "Ugotuj ziemniaki w łupinach, dobrze odparuj i przepuść przez praskę.",
+            tip: "Tylko dobrze odparowane ziemniaki oddają mało wilgoci, to oszczędza potem mąkę i utrzymuje ciasto lekkie, a nie ciężkie.",
           },
           {
-            text: "Zagnieć z mąką, jajkiem i solą — nie za miękko.",
-            tip: "Za dużo mąki robi je gumowate.",
+            text: "Zagnieć masę ziemniaczaną z mąką, jajkiem i solą na zwarte, ale nie za miękkie ciasto.",
+            tip: "Za dużo mąki robi kopytka gumowate, dosypuj ją więc po łyżce i przestań, gdy ciasto akurat przestaje się kleić.",
           },
-          { text: "Uformuj wałki, pokrój skośnie, gotuj w osolonej wodzie." },
+          {
+            text: "Uformuj z ciasta wałki, lekko spłaszcz, pokrój skośnie na romby i gotuj w dużej ilości osolonej wody, aż wypłyną.",
+            tip: "Charakterystyczny kształt rombu dał kopytkom nazwę, bo pokrojone kawałki przypominają małe kopyta. Wyjmuj je od razu, gdy wypłyną, inaczej zmiękną.",
+          },
           {
             text: "Podawaj z cebulą na maśle albo [gulaszem](/pl/rezepte/gulasz-wieprzowy).",
+            tip: "Regionalną siostrą o innej technice, z ziemniaków i skrobi ziemniaczanej, są [kluski śląskie](/pl/rezepte/kluski-slaskie), a nadziewaną i dużo większą wersją są [pyzy](/pl/rezepte/pyzy).",
           },
         ],
-        seoTitle: "Kopytka przepis | Alemniam",
+        seoTitle: "Kopytka przepis | Kluseczki ziemniaczane jak gnocchi | Alemniam",
         seoDescription:
-          "Kopytka ziemniaczane — dodatek do gulaszu, dwujęzycznie.",
+          "Kopytka: zwarte kluseczki ziemniaczane w kształcie rombów, dodatek do gulaszu. Przepis z poradami o cieście i gotowaniu.",
       },
     },
     ingredients: [
@@ -226,41 +244,55 @@ export const seedRecipesWave5: Recipe[] = [
         title: "Łazanki mit Kapusta",
         slug: "lazanki",
         excerpt:
-          "Quadratische Nudeln mit Kraut und optional Speck — Diaspora-Alltagsteller.",
+          "Łazanki mit Kapusta sind quadratische Nudeln, die mit geschmortem Sauerkraut und optional Speck vermischt werden, herzhafter als der süße Makaron z serem und schneller fertig als ein ganzer Bigos.",
         steps: [
           {
-            text: "Sauerkraut abtropfen, mit Zwiebel und optional Speck schmoren.",
+            text: "Sauerkraut gut abtropfen lassen und mit Zwiebel und optional Speck in Öl oder Schmalz weich schmoren.",
+            tip: "Zu nasses Kraut macht den ganzen Teller später wässrig, drücke es deshalb vor dem Schmoren nochmal kräftig aus.",
           },
           {
-            text: "Łazanki oder quadratische Bandnudeln in Salzwasser al dente kochen.",
-            tip: "Polenladen hat oft fertige łazanki; sonst Bandnudeln breit schneiden.",
+            text: "Łazanki oder quadratische Bandnudeln in reichlich Salzwasser al dente kochen.",
+            tip: "Im Polenladen gibt es oft fertige Łazanki-Nudeln, sonst schneidest du breite Bandnudeln einfach selbst in Quadrate.",
           },
-          { text: "Nudeln unter das Kraut heben, mit Pfeffer abschmecken." },
-          { text: "Heiß mit Dill oder pur servieren." },
+          {
+            text: "Die abgetropften Nudeln unter das geschmorte Kraut heben und mit reichlich Pfeffer abschmecken.",
+            tip: "Schmecke erst nach dem Mischen ab, vorher verteilt sich das Kraut noch ungleich und du würzt am Ende doppelt.",
+          },
+          {
+            text: "Heiß mit frischem Dill oder ganz pur servieren.",
+            tip: "Reste schmecken am nächsten Tag in der Pfanne aufgebraten fast noch besser, für ein süßes Nudelgericht mit Twaróg eignet sich dagegen [Makaron z serem](/de/rezepte/makaron-z-serem) besser.",
+          },
         ],
-        seoTitle: "Łazanki Rezept | Alemniam",
+        seoTitle: "Łazanki mit Kapusta Rezept | Quadratische Nudeln mit Kraut | Alemniam",
         seoDescription:
-          "Łazanki z kapustą — Nudeln mit Kraut, bilingual mit DE-Einkauf.",
+          "Łazanki mit Kapusta: quadratische Nudeln mit geschmortem Sauerkraut. Herzhaftes Alltagsrezept, klar unterschieden von Makaron z serem und Bigos.",
       },
       pl: {
         title: "Łazanki z kapustą",
         slug: "lazanki",
         excerpt:
-          "Kwadratowe makarony z kapustą i opcjonalnie boczkiem — talerz diasporowy.",
+          "Łazanki z kapustą to kwadratowy makaron wymieszany z duszoną kapustą kiszoną i opcjonalnie boczkiem, wytrawniejszy niż słodki makaron z serem i szybszy niż cały bigos.",
         steps: [
           {
-            text: "Odsącz kapustę, duś z cebulą i opcjonalnie boczkiem.",
+            text: "Odciśnij dobrze kapustę kiszoną i duś ją z cebulą oraz opcjonalnie boczkiem na oleju lub smalcu, aż zmięknie.",
+            tip: "Za mokra kapusta robi później cały talerz wodnisty, więc przed duszeniem jeszcze raz ją mocno odciśnij.",
           },
           {
-            text: "Ugotuj łazanki al dente w osolonej wodzie.",
-            tip: "W sklepie polskim bywają gotowe łazanki; inaczej szeroki makaron.",
+            text: "Ugotuj łazanki albo kwadratowy makaron al dente w dużej ilości osolonej wody.",
+            tip: "W sklepie polskim często dostaniesz gotowe łazanki, a jeśli nie, po prostu pokrój szeroki makaron w kwadraty.",
           },
-          { text: "Wymieszaj z kapustą, dopraw pieprzem." },
-          { text: "Podawaj gorące z koperkiem albo same." },
+          {
+            text: "Odsączony makaron wymieszaj z duszoną kapustą i dopraw solidną ilością pieprzu.",
+            tip: "Dopraw dopiero po wymieszaniu, wcześniej kapusta rozkłada się nierówno i ryzykujesz podwójne solenie.",
+          },
+          {
+            text: "Podawaj gorące z koperkiem albo zupełnie same.",
+            tip: "Resztki podsmażone nazajutrz na patelni smakują często jeszcze lepiej, a na słodki makaron z twarogiem lepiej sprawdzi się [makaron z serem](/pl/rezepte/makaron-z-serem).",
+          },
         ],
-        seoTitle: "Łazanki przepis | Alemniam",
+        seoTitle: "Łazanki z kapustą przepis | Kwadratowy makaron z kapustą | Alemniam",
         seoDescription:
-          "Łazanki z kapustą — makaron z kapustą, dwujęzycznie.",
+          "Łazanki z kapustą: kwadratowy makaron z duszoną kapustą kiszoną. Szybki przepis na co dzień, inny niż makaron z serem i bigos.",
       },
     },
     ingredients: [
@@ -322,49 +354,55 @@ export const seedRecipesWave5: Recipe[] = [
         title: "Pyzy mit Fleisch",
         slug: "pyzy",
         excerpt:
-          "Große Kartoffelklöße mit Fleischfüllung — Projekt für den ruhigen Sonntag.",
+          "Pyzy mit Fleisch sind große, gefüllte Kartoffelklöße, aufwendiger als die einfachen, ungefüllten Kopytka und ein anderes Gericht als die gleichnamigen Hefeklöße aus Wielkopolska.",
         steps: [
           {
-            text: "Kartoffeln kochen und reiben mischen (oder fertige Pyzy-Masse nach Gefühl).",
-            tip: "Teig muss halten — zu weich zerfällt im Wasser.",
+            text: "Kartoffeln kochen, gut ausdampfen lassen, fein reiben oder pressen und mit Kartoffelstärke zu einer festen Masse verarbeiten.",
+            tip: "Die Masse muss wirklich fest zusammenhalten, zu weicher Teig reißt im Kochwasser auf und die Füllung schwimmt aus.",
           },
           {
-            text: "Hack mit Zwiebel anbraten, abkühlen, zu Kugeln formen.",
+            text: "Hackfleisch mit fein gewürfelter Zwiebel anbraten, vollständig abkühlen lassen und zu kleinen Kugeln formen.",
+            tip: "Die Füllung sollte komplett ausgekühlt sein, bevor sie in die Kartoffelmasse kommt, warme Füllung erweicht den Teig von innen.",
           },
           {
-            text: "Kartoffelmasse um die Füllung legen, glatt schließen.",
+            text: "Kartoffelmasse portionsweise flach drücken, die Fleischkugel einlegen und den Rand glatt und dicht verschließen.",
+            tip: "Eine undichte Nahtstelle öffnet sich im Wasser fast immer zuerst, drücke sie deshalb mit angefeuchteten Fingern besonders sorgfältig zu.",
           },
           {
-            text: "In leicht siedendem Wasser garen, bis sie schwimmen. Mit Butterzwiebeln servieren.",
+            text: "In leicht siedendem Wasser garen, bis die Pyzy aufschwimmen, dann mit Butterzwiebeln servieren.",
+            tip: "Anders als die einfachen, ungefüllten [Kopytka](/de/rezepte/kopytka) sind Pyzy ein eigenes Sonntagsprojekt, in Wielkopolska bezeichnet der gleiche Name übrigens ganz andere, ungefüllte Hefeklöße.",
           },
         ],
-        seoTitle: "Pyzy mit Fleisch Rezept | Alemniam",
+        seoTitle: "Pyzy mit Fleisch Rezept | Große gefüllte Kartoffelklöße | Alemniam",
         seoDescription:
-          "Pyzy z mięsem — große Kartoffelklöße, bilingual.",
+          "Pyzy mit Fleisch: große Kartoffelklöße mit Hackfleischfüllung. Sonntagsprojekt mit Tipps zu Teig, Füllung und Nahtstelle, zweisprachig.",
       },
       pl: {
         title: "Pyzy z mięsem",
         slug: "pyzy",
         excerpt:
-          "Duże kluski ziemniaczane z farszem — projekt na spokojną niedzielę.",
+          "Pyzy z mięsem to duże, nadziewane kluski ziemniaczane, bardziej pracochłonne niż proste, nienadziewane kopytka i zupełnie inne danie niż tak samo nazywane drożdżowe kluski z Wielkopolski.",
         steps: [
           {
-            text: "Ugotuj i zetrzyj ziemniaki, zagnieć masę.",
-            tip: "Masa musi trzymać — za miękka pęka w wodzie.",
+            text: "Ugotuj ziemniaki, dobrze odparuj, przeciśnij przez praskę i zagnieć ze skrobią ziemniaczaną na zwartą masę.",
+            tip: "Masa musi naprawdę dobrze się trzymać, za miękkie ciasto pęka w wodzie i farsz wypływa na wierzch.",
           },
           {
-            text: "Przesmaż mięso z cebulą, ostudź, uformuj kulki.",
+            text: "Podsmaż mięso mielone z drobno posiekaną cebulą, ostudź całkowicie i uformuj małe kulki.",
+            tip: "Farsz musi być całkiem wystudzony, zanim trafi do masy ziemniaczanej, ciepły farsz mięknie ciasto od wewnątrz.",
           },
           {
-            text: "Owiń farsz masą ziemniaczaną, gładko zamknij.",
+            text: "Rozpłaszcz porcję masy ziemniaczanej, włóż kulkę farszu i dokładnie zamknij brzegi.",
+            tip: "Nieszczelny szew otwiera się w wodzie najczęściej pierwszy, dociśnij go więc wilgotnymi palcami wyjątkowo starannie.",
           },
           {
-            text: "Gotuj w lekko wrzącej wodzie aż wypłyną. Podawaj z cebulą na maśle.",
+            text: "Gotuj w lekko wrzącej wodzie, aż pyzy wypłyną, i podawaj z cebulą podsmażoną na maśle.",
+            tip: "W przeciwieństwie do prostych, nienadziewanych [kopytek](/pl/rezepte/kopytka) pyzy są osobnym niedzielnym projektem, a w Wielkopolsce ta sama nazwa oznacza zupełnie inne, drożdżowe kluski gotowane na parze.",
           },
         ],
-        seoTitle: "Pyzy z mięsem przepis | Alemniam",
+        seoTitle: "Pyzy z mięsem przepis | Duże nadziewane kluski ziemniaczane | Alemniam",
         seoDescription:
-          "Pyzy z mięsem — duże kluski ziemniaczane, dwujęzycznie.",
+          "Pyzy z mięsem: duże kluski ziemniaczane z farszem mięsnym. Niedzielny projekt z poradami o cieście, farszu i szwie.",
       },
     },
     ingredients: [
@@ -432,49 +470,55 @@ export const seedRecipesWave5: Recipe[] = [
         title: "Zrazy zawijane",
         slug: "zrazy",
         excerpt:
-          "Rinderrouladen polnisch — Senf, Speck, Gurke, lange geschmort.",
+          "Zrazy zawijane sind Rinderrouladen mit Senf, Speck und Gewürzgurke, lange geschmort und dadurch würziger und säuerlicher als die schlesische Rolada mit ihrem Zwiebel-Speck-Fokus ohne Gurke.",
         steps: [
           {
-            text: "Rinderplätzchen klopfen, mit Senf bestreichen, Speck und Gewürzgurke belegen.",
+            text: "Rinderplätzchen flach klopfen, mit Senf bestreichen und mit Speck und Gewürzgurke belegen.",
+            tip: "Klopfe das Fleisch gleichmäßig dünn, dickere Stellen bleiben beim Schmoren sonst zäh, während die dünnen Ränder schon zerfallen.",
           },
           {
-            text: "Fest rollen, mit Zahnstocher oder Garn fixieren, rundum anbraten.",
+            text: "Fest zu Rouladen rollen, mit Zahnstocher oder Küchengarn fixieren und rundum scharf anbraten.",
+            tip: "Eine locker gerollte Roulade öffnet sich beim Anbraten fast immer, wickle das Garn deshalb lieber einmal zu oft als zu wenig um.",
           },
           {
-            text: "Mit Brühe ablöschen, zugedeckt 75–90 Minuten schmoren.",
-            tip: "Fleisch soll mit der Gabel weich sein — nicht nach der Uhr allein.",
+            text: "Mit Brühe ablöschen und zugedeckt 75 bis 90 Minuten bei niedriger Hitze schmoren.",
+            tip: "Das Fleisch soll sich mit der Gabel mühelos zerteilen lassen, verlasse dich dabei lieber auf die Gabelprobe als allein auf die Uhr.",
           },
           {
-            text: "Soße abschmecken, mit [Kluski](/de/rezepte/kluski-slaskie) oder Kartoffeln servieren. Verwandt, aber anderes Gericht: [Rolada śląska](/de/rezepte/rolada-slaska) (Zwiebel-Speck ohne Gurken-Fokus).",
+            text: "Die Soße abschmecken und mit [Kluski śląskie](/de/rezepte/kluski-slaskie) oder Kartoffeln servieren.",
+            tip: "Verwandt, aber ein anderes Gericht ist die [Rolada śląska](/de/rezepte/rolada-slaska), die auf Zwiebel und Speck statt auf die saure Gurkennote setzt.",
           },
         ],
-        seoTitle: "Zrazy zawijane Rezept | Alemniam",
+        seoTitle: "Zrazy zawijane Rezept | Polnische Rinderrouladen geschmort | Alemniam",
         seoDescription:
-          "Zrazy — polnische Rinderrouladen, bilingual mit Schmor-Technik.",
+          "Zrazy zawijane: Rinderrouladen mit Senf, Speck und Gewürzgurke, lange geschmort. Rezept mit Schmor-Technik, klar unterschieden von Rolada śląska.",
       },
       pl: {
         title: "Zrazy zawijane",
         slug: "zrazy",
         excerpt:
-          "Wołowe zrazy — musztarda, boczek, ogórek, długo duszone.",
+          "Zrazy zawijane to wołowe rolady z musztardą, boczkiem i ogórkiem kiszonym, długo duszone i przez to bardziej pikantne i kwaskowe niż śląska rolada z jej cebulowo-boczkowym charakterem bez ogórka.",
         steps: [
           {
-            text: "Rozbij plastry wołowiny, posmaruj musztardą, połóż boczek i ogórek.",
+            text: "Rozbij plastry wołowiny na płasko, posmaruj musztardą i ułóż na nich boczek oraz ogórek kiszony.",
+            tip: "Rozbijaj mięso równomiernie, bo grubsze miejsca zostają twarde po duszeniu, a cieńsze brzegi rozpadają się za wcześnie.",
           },
           {
-            text: "Zwiń szczelnie, zepnij, obsmaż ze wszystkich stron.",
+            text: "Zwiń szczelnie w roladki, zepnij wykałaczką lub nicią i obsmaż ze wszystkich stron na rozgrzanym tłuszczu.",
+            tip: "Luźno zwinięta roladka rozkleja się prawie zawsze podczas smażenia, lepiej owiń nić raz więcej niż raz mniej.",
           },
           {
-            text: "Zalej bulionem, duś pod przykryciem 75–90 minut.",
-            tip: "Mięso ma być miękkie widelcem — nie tylko według zegara.",
+            text: "Zalej bulionem i duś pod przykryciem od 75 do 90 minut na małym ogniu.",
+            tip: "Mięso ma się swobodnie rozchodzić pod widelcem, licz się więc bardziej z tym testem niż z samym zegarem.",
           },
           {
-            text: "Dopraw sos, podawaj z [klusami](/pl/rezepte/kluski-slaskie) albo ziemniakami. Pokrewne, inne danie: [rolada śląska](/pl/rezepte/rolada-slaska) (cebula-boczek bez ogórka jako fokus).",
+            text: "Dopraw sos i podawaj z [kluskami śląskimi](/pl/rezepte/kluski-slaskie) albo ziemniakami.",
+            tip: "Pokrewnym, ale innym daniem jest [rolada śląska](/pl/rezepte/rolada-slaska), która stawia na cebulę i boczek, a nie na kwaskowość ogórka.",
           },
         ],
-        seoTitle: "Zrazy zawijane przepis | Alemniam",
+        seoTitle: "Zrazy zawijane przepis | Wołowe rolady długo duszone | Alemniam",
         seoDescription:
-          "Zrazy wołowe — duszenie, dwujęzycznie.",
+          "Zrazy zawijane: wołowe rolady z musztardą, boczkiem i ogórkiem, długo duszone. Przepis z techniką duszenia, inny niż rolada śląska.",
       },
     },
     ingredients: [

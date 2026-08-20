@@ -33,7 +33,7 @@ export const seedFamilies: RecipeFamily[] = [
         title: "Naleśniki",
         slug: "nalesniki",
         excerpt:
-          "Eine Familie, mehrere Füllungen. Twaróg, Fleisch, Spinat oder Marmelade — oben wechseln.",
+          "Eine Familie, mehrere Füllungen: Oben kannst du zwischen Twaróg, Fleisch, Spinat und Marmelade wechseln.",
         seoTitle: "Naleśniki Rezepte | Alle Varianten | Alemniam",
         seoDescription:
           "Naleśniki bilingual: mit Twaróg, mit Fleisch, mit Spinat, mit Marmelade. Backen und Einkaufen in einer App.",
@@ -42,7 +42,7 @@ export const seedFamilies: RecipeFamily[] = [
         title: "Naleśniki",
         slug: "nalesniki",
         excerpt:
-          "Jedna rodzina, kilka farszów. Twaróg, mięso, szpinak albo dżem — przełącz u góry.",
+          "Jedna rodzina, kilka farszów: u góry przełączysz między twarogiem, mięsem, szpinakiem i dżemem.",
         seoTitle: "Naleśniki przepisy | Wszystkie warianty | Alemniam",
         seoDescription:
           "Naleśniki dwujęzycznie: z twarogiem, z mięsem, ze szpinakiem, z dżemem. Gotowanie i zakupy.",
@@ -78,7 +78,7 @@ export const seedFamilies: RecipeFamily[] = [
         title: "Pierogi",
         slug: "pierogi",
         excerpt:
-          "Eine Familie, mehrere Füllungen. Ruskie, Fleisch, Kraut mit Pilzen oder Heidelbeeren — oben wechseln, Inhalt folgt.",
+          "Eine Familie mit mehreren Füllungen, von Ruskie über Fleisch und Kraut mit Pilzen bis zu süßen Heidelbeeren, wähle deine Variante oben in der Übersicht.",
         seoTitle: "Pierogi Rezepte | Alle Varianten | Alemniam",
         seoDescription:
           "Pierogi bilingual: Ruskie, mit Fleisch, mit Kraut und Pilzen, mit Heidelbeeren. Kochen und Einkaufen in einer App.",
@@ -87,7 +87,7 @@ export const seedFamilies: RecipeFamily[] = [
         title: "Pierogi",
         slug: "pierogi",
         excerpt:
-          "Jedna rodzina, kilka farszów. Ruskie, mięso, kapusta z grzybami albo jagody — przełącz u góry.",
+          "Jedna rodzina z kilkoma farszami, od ruskich przez mięso i kapustę z grzybami po słodkie jagody, wybierz swój wariant w przełączniku powyżej.",
         seoTitle: "Pierogi przepisy | Wszystkie warianty | Alemniam",
         seoDescription:
           "Pierogi dwujęzycznie: ruskie, z mięsem, z kapustą i grzybami, z jagodami. Gotowanie i zakupy.",
@@ -125,7 +125,7 @@ export const seedFamilies: RecipeFamily[] = [
         title: "Placki",
         slug: "placki",
         excerpt:
-          "Eine Familie, mehrere Mischungen. Kartoffelklassiker, Zucchini, Käse oder Apfel — oben wechseln.",
+          "Eine Familie mit mehreren Mischungen, vom Kartoffelklassiker über Zucchini und Käse bis zum süßen Apfel, wähle deine Variante oben in der Übersicht.",
         seoTitle: "Placki Rezepte | Alle Varianten | Alemniam",
         seoDescription:
           "Placki bilingual: ziemniaczane, mit Zucchini, mit Käse, mit Apfel. Braten und Einkaufen in einer App.",
@@ -134,7 +134,7 @@ export const seedFamilies: RecipeFamily[] = [
         title: "Placki",
         slug: "placki",
         excerpt:
-          "Jedna rodzina, kilka mas. Klasyk z ziemniaków, cukinia, ser albo jabłko — przełącz u góry.",
+          "Jedna rodzina z kilkoma masami, od klasyka ziemniaczanego przez cukinię i ser po słodkie jabłko, wybierz swój wariant w przełączniku powyżej.",
         seoTitle: "Placki przepisy | Wszystkie warianty | Alemniam",
         seoDescription:
           "Placki dwujęzycznie: ziemniaczane, z cukinią, z serem, z jabłkami. Gotowanie i zakupy.",
@@ -171,7 +171,7 @@ export const seedFamilies: RecipeFamily[] = [
         title: "Ogórki małosolne",
         slug: "ogorki-malosolne",
         excerpt:
-          "Eine Familie, mehrere Hausrezepte. Klassisch, scharf, mit Honig oder mit Eichenblatt — oben wechseln.",
+          "Eine Familie, mehrere Hausrezepte, klassisch, scharf, mit Honig oder mit Eichenblatt, oben lässt sich zwischen allen Varianten wechseln.",
         seoTitle: "Ogórki małosolne Rezepte | Alle Varianten | Alemniam",
         seoDescription:
           "Ogórki małosolne bilingual: klassisch, scharf, mit Honig, mit Eichenblatt. Kurzferment, klar getrennt von Kiszone und Essiggurken.",
@@ -180,7 +180,7 @@ export const seedFamilies: RecipeFamily[] = [
         title: "Ogórki małosolne",
         slug: "ogorki-malosolne",
         excerpt:
-          "Jedna rodzina, kilka domowych wersji. Klasyczne, ostre, z miodem albo z liściem dębu — przełącz u góry.",
+          "Jedna rodzina, kilka domowych wersji, klasyczne, ostre, z miodem albo z liściem dębu, przełącznik między wariantami znajdziesz u góry.",
         seoTitle: "Ogórki małosolne przepisy | Wszystkie warianty | Alemniam",
         seoDescription:
           "Ogórki małosolne dwujęzycznie: klasyczne, ostre, z miodem, z liściem dębu. Krótki kis, jasno osobno od kiszonych i konserwowych.",
@@ -221,93 +221,101 @@ export const seedFamilyVariantRecipes: Recipe[] = [
         title: "Pierogi mit Fleisch",
         slug: "fleisch",
         excerpt:
-          "Herzhafter Klassiker mit gedünstetem Hack. Für Sonntag und große Teller.",
+          "Kräftig gefüllte Pierogi mit gedünstetem, mit Zwiebel und Majoran gewürztem Hackfleisch, üppiger und für Gäste gedacht anders als die alltäglichen Ruskie und weniger fest an die Wigilia gebunden als die Kraut-Pilz-Füllung.",
         steps: [
           {
-            text: "Zwiebel fein würfeln, in Butter glasig dünsten.",
+            text: "Würfle die Zwiebel fein und dünste sie in Butter glasig, ohne sie braun werden zu lassen.",
+            tip: "Nimm dir für diesen Schritt Zeit, eine wirklich glasige, weiche Zwiebel macht die Füllung später deutlich runder im Geschmack.",
           },
           {
-            text: "Hackfleisch anbraten, mit Zwiebel, Salz, Pfeffer und Majoran würzen. Abkühlen lassen.",
-            tip: "Füllung muss kalt sein, sonst reißt der Teig.",
+            text: "Brate das Hackfleisch krümelig an, würze es mit der Zwiebel, Salz, Pfeffer und Majoran und lasse es vollständig abkühlen.",
+            tip: "Die Füllung muss wirklich kalt sein, bevor sie in den Teig kommt, sonst reißt der Teig beim Verschließen der Ränder auf.",
           },
           {
-            text: "Pierogi-Teig kneten, ruhen lassen, ausrollen und Kreise ausstechen.",
+            text: "Knete den Pierogi-Teig, lasse ihn kurz ruhen, rolle ihn dünn aus und steche Kreise aus.",
+            tip: "Lege die ausgestochenen Kreise unter ein leicht feuchtes Tuch, damit die Ränder nicht austrocknen, während du weiterarbeitest.",
           },
           {
-            text: "Füllen, Ränder fest schließen, in Salzwasser garen bis sie aufschwimmen.",
+            text: "Fülle die Kreise, verschließe die Ränder fest zwischen den Fingern und gare die Pierogi in leicht siedendem Salzwasser, bis sie an die Oberfläche steigen.",
+            tip: "Koche nur kleine Chargen gleichzeitig, sonst kleben die Pierogi aneinander und die Nähte öffnen sich beim Rühren.",
           },
           {
-            text: "Mit Butterzwiebeln oder klarer Soße servieren.",
+            text: "Serviere die Pierogi heiß mit goldener Butterzwiebel oder einer leichten, klaren Soße.",
+            tip: "Reste schmecken am nächsten Tag oft noch besser, kurz in der Pfanne gebraten wird die Naht schön knusprig.",
           },
         ],
         seoTitle: "Pierogi mit Fleisch Rezept | Alemniam",
         seoDescription:
-          "Pierogi z mięsem: Füllung, Teig, Kochen und Einkaufen — bilingual mit DE-Hinweisen.",
-        article: `## Pierogi mit Fleisch — der Sonntagsklassiker
+          "Pierogi z mięsem: Fleischfüllung, Teig und Einkauf, bilingual mit Tipps aus der Diaspora.",
+        article: `## Pierogi mit Fleisch, der Sonntagsklassiker
 
-Pierogi mit Fleisch sind kein „schneller Snack“. Sie sind ein ruhiges Projekt für den Tag, an dem die Familie zusammenkommt. Die Füllung ist einfach: gut gedünstetes Fleisch, Zwiebel, Majoran. Kein Überwürzen — der Teig trägt den Geschmack.
+Pierogi mit Fleisch sind kein schneller Snack, sondern ein ruhiges Projekt für den Tag, an dem die Familie zusammenkommt. Die Füllung bleibt bewusst einfach: gut gedünstetes Fleisch, Zwiebel und Majoran, ohne Überwürzen, denn der Teig soll den Geschmack tragen.
 
 ### Warum diese Variante
 
-In vielen Haushalten ist die Fleischfüllung die Variante für Gäste und Sonntag. Ruskie sind alltagstauglicher; Kraut und Pilze gehören zur Wigilia. Fleisch steht dazwischen: satt, klar, teilbar.
+In vielen Haushalten ist die Fleischfüllung die Variante für Gäste und den Sonntag, während [Ruskie](/de/rezepte/pierogi/ruskie) alltagstauglicher sind und Kraut mit Pilzen zur Wigilia gehört. Fleisch steht genau dazwischen, sättigend, klar im Geschmack und gut zu teilen.
 
 ### Füllung richtig machen
 
-Fleisch nicht roh in den Teig. Immer anbraten und abkühlen. Zu nasse Füllung weicht den Teig auf. Zu trockene Füllung schmeckt fade — ein Löffel Brühe oder Butter hilft.
+Das Fleisch kommt nie roh in den Teig, sondern wird immer angebraten und abgekühlt. Eine zu nasse Füllung weicht den Teig auf, eine zu trockene schmeckt fade, dann hilft ein Löffel Brühe oder Butter.
 
 ### Einkaufen in Deutschland
 
-Hack gemischt oder Rind/Schwein nach Geschmack. Majoran oft im Polenladen aromatischer. Butter und Zwiebel überall.
+Gemischtes Hack oder eine Mischung aus Rind und Schwein funktionieren beide gut. Majoran ist im [Polenladen](/de/blog/polenladen-einkaufen) oft aromatischer als im deutschen Gewürzregal, Butter und Zwiebel gibt es überall.
 
 ### Weitere Varianten
 
-Wechsle oben zu [Ruskie](/de/rezepte/pierogi/ruskie), [Kraut-Pilze](/de/rezepte/pierogi/kraut-pilze) oder [Heidelbeeren](/de/rezepte/pierogi/jagody). Technik: [Teig](/de/techniken/teig). Guide: [Pierogi-Teig](/de/blog/pierogi-teig) · [Teigmaschine](/de/blog/teigmaschine-pierogi).`,
+Wechsle oben zu [Ruskie](/de/rezepte/pierogi/ruskie), [Kraut-Pilze](/de/rezepte/pierogi/kraut-pilze) oder [Heidelbeeren](/de/rezepte/pierogi/jagody). Mehr zur Technik im Guide zu [Pierogi-Teig](/de/blog/pierogi-teig) und zur [Teigmaschine](/de/blog/teigmaschine-pierogi).`,
       },
       pl: {
         title: "Pierogi z mięsem",
         slug: "mieso",
         excerpt:
-          "Klasyczny farsz z duszonego mięsa. Na niedzielę i duże talerze.",
+          "Sycące pierogi z duszonym mięsem mielonym, doprawionym cebulą i majerankiem, bogatsze i bardziej gościnne niż codzienne ruskie i mniej związane z Wigilią niż farsz z kapusty i grzybów.",
         steps: [
           {
-            text: "Cebulę drobno pokrój, zeszklij na maśle.",
+            text: "Pokrój cebulę drobno i zeszklij ją na maśle, uważając, żeby się nie zbrązowiła.",
+            tip: "Poświęć na to chwilę, naprawdę szklista, miękka cebula robi farsz później dużo pełniejszym w smaku.",
           },
           {
-            text: "Przesmaż mięso mielone, dodaj cebulę, sól, pieprz i majeranek. Ostudź.",
-            tip: "Farsz musi być zimny, inaczej ciasto pęka.",
+            text: "Przesmaż mięso mielone na rozdrobnione kawałki, dodaj cebulę, sól, pieprz i majeranek, a potem całkowicie ostudź.",
+            tip: "Farsz musi być naprawdę zimny, zanim trafi do ciasta, inaczej ciasto pęka przy zaklejaniu brzegów.",
           },
           {
-            text: "Zagnieć ciasto na pierogi, odstaw, rozwałkuj i wykrawaj kółka.",
+            text: "Zagnieć ciasto na pierogi, odstaw je na chwilę, rozwałkuj tonko i wykrawaj kółka.",
+            tip: "Przykryj wykrojone kółka lekko wilgotną ściereczką, żeby brzegi nie wyschły, gdy pracujesz dalej.",
           },
           {
-            text: "Nadziewaj, szczelnie sklejaj, gotuj w osolonej wodzie aż wypłyną.",
+            text: "Nadziewaj kółka, szczelnie sklejaj brzegi między palcami i gotuj pierogi w lekko wrzącej, osolonej wodzie, aż wypłyną na powierzchnię.",
+            tip: "Gotuj tylko małe partie naraz, inaczej pierogi się kleją i szwy się otwierają podczas mieszania.",
           },
           {
-            text: "Podawaj z cebulką na maśle albo jasnym sosem.",
+            text: "Podawaj pierogi gorące ze złotą cebulką na maśle albo z lekkim, jasnym sosem.",
+            tip: "Resztki następnego dnia często smakują jeszcze lepiej, usmażone krótko na patelni szew robi się przyjemnie chrupiący.",
           },
         ],
         seoTitle: "Pierogi z mięsem przepis | Alemniam",
         seoDescription:
-          "Pierogi z mięsem: farsz, ciasto, gotowanie i zakupy — dwujęzycznie.",
-        article: `## Pierogi z mięsem — niedzielny klasyk
+          "Pierogi z mięsem: farsz mięsny, ciasto i zakupy, dwujęzycznie ze wskazówkami z diaspory.",
+        article: `## Pierogi z mięsem, niedzielny klasyk
 
-To nie jest „szybka przekąska”. To spokojny projekt na dzień, kiedy dom się zbiera. Farsz jest prosty: dobrze podsmażone mięso, cebula, majeranek. Bez przekombinowania.
+To nie szybka przekąska, ale spokojny projekt na dzień, kiedy dom się zbiera. Farsz jest prosty: dobrze podsmażone mięso, cebula, majeranek, bez przekombinowania, bo ciasto ma nosić ten smak dalej.
 
 ### Dlaczego ten wariant
 
-W wielu domach mięso to wariant gościnny i niedzielny. Ruskie są bardziej codzienne; kapusta z grzybami należy do Wigilii. Mięso jest po środku: sycące, czytelne, do dzielenia.
+W wielu domach mięso to wariant gościnny i niedzielny, podczas gdy [ruskie](/pl/rezepte/pierogi/ruskie) są bardziej codzienne, a kapusta z grzybami należy do Wigilii. Mięso jest gdzieś pośrodku, sycące, czytelne w smaku i łatwe do dzielenia.
 
 ### Farsz
 
-Mięsa nie wkładamy surowego. Zawsze podsmażyć i ostudzić. Mokry farsz rozmiękcza ciasto. Suchy smakuje blado — łyżka bulionu albo masła pomaga.
+Mięsa nigdy nie wkłada się surowego, tylko zawsze podsmażone i ostudzone. Zbyt mokry farsz rozmiękcza ciasto, zbyt suchy smakuje blado, wtedy pomaga łyżka bulionu albo masła.
 
 ### Zakupy w Niemczech
 
-Mielone mieszane albo wołowo-wieprzowe. Majeranek często lepszy w sklepie polskim.
+Mięso mielone mieszane albo wołowo-wieprzowe działa równie dobrze. Majeranek jest w [sklepie polskim](/pl/blog/sklep-polski-zakupy) często lepszy niż z niemieckiego regału z przyprawami.
 
 ### Dalej
 
-Przełącz u góry na [ruskie](/pl/rezepte/pierogi/ruskie), [kapustę z grzybami](/pl/rezepte/pierogi/kapusta-grzyby) albo [jagody](/pl/rezepte/pierogi/jagody). Technika: [ciasto](/pl/techniken/ciasto). Guide: [ciasto na pierogi](/pl/blog/ciasto-na-pierogi) · [robot do ciasta](/pl/blog/robot-do-ciasta-pierogi).`,
+Przełącz u góry na [ruskie](/pl/rezepte/pierogi/ruskie), [kapustę z grzybami](/pl/rezepte/pierogi/kapusta-grzyby) albo [jagody](/pl/rezepte/pierogi/jagody). Więcej o technice w przewodniku o [cieście na pierogi](/pl/blog/ciasto-na-pierogi) i o [robocie do ciasta](/pl/blog/robot-do-ciasta-pierogi).`,
       },
     },
     ingredients: [
@@ -391,85 +399,93 @@ Przełącz u góry na [ruskie](/pl/rezepte/pierogi/ruskie), [kapustę z grzybami
         title: "Pierogi mit Kraut und Pilzen",
         slug: "kraut-pilze",
         excerpt:
-          "Wigilia-Klassiker: Sauerkraut und getrocknete Pilze. Würzig, festlich, ohne Fleisch.",
+          "Fleischlose Wigilia-Füllung aus Sauerkraut und getrockneten Waldpilzen, würzig und tief im Geschmack, gerade weil sie fleischlos ist die festlichste und zugleich schlichteste aller Pierogi-Füllungen.",
         steps: [
           {
-            text: "Getrocknete Pilze einweichen, kochen, fein hacken. Sud aufheben.",
+            text: "Weiche die getrockneten Pilze ein, koche sie weich und hacke sie fein, dabei hebst du den Sud für später auf.",
+            tip: "Der Sud trägt die Tiefe, die sonst eine Fleischbrühe liefern würde, wirf ihn also auf keinen Fall weg.",
           },
           {
-            text: "Sauerkraut abtropfen, mit Zwiebel und Pilzen dünsten, mit Sud abschmecken.",
-            tip: "Nicht zu sauer — bei Bedarf kurz mit Wasser spülen.",
+            text: "Lasse das Sauerkraut gut abtropfen, dünste es mit Zwiebel und den Pilzen und schmecke es mit etwas Pilzsud ab.",
+            tip: "Ist das Kraut sehr sauer, spüle es vorher kurz mit Wasser ab, damit die Füllung nicht zu scharf wird.",
           },
           {
-            text: "Teig bereiten, ruhen lassen, ausrollen.",
+            text: "Bereite den Pierogi-Teig zu, lasse ihn kurz ruhen und rolle ihn dünn aus.",
+            tip: "Bemehle deine Hände beim Ausrollen leicht, so bleibt der Teig geschmeidig und reißt beim Kochen später nicht.",
           },
           {
-            text: "Füllen, schließen, in Salzwasser garen.",
+            text: "Fülle die Kreise, verschließe sie fest und gare die Pierogi in leicht siedendem Salzwasser.",
+            tip: "Die Füllung muss gut ausgedrückt sein, denn nur eine trockene Füllung hält den Teig beim Kochen dicht.",
           },
           {
-            text: "Mit Öl oder Butterzwiebeln servieren — zur Wigilia oft ohne Speck.",
+            text: "Serviere die Pierogi mit Öl oder Butterzwiebeln, zur Wigilia oft ganz ohne Speck.",
+            tip: "Für viele Familien ist genau dieser Geschmack die Essenz des Heiligabends, ganz ohne Fleisch und trotzdem herzhaft.",
           },
         ],
         seoTitle: "Pierogi mit Kraut und Pilzen | Alemniam",
         seoDescription:
-          "Pierogi z kapustą i grzybami: Wigilia-Rezept bilingual mit Einkaufshinweisen.",
-        article: `## Pierogi mit Kraut und Pilzen
+          "Pierogi z kapustą i grzybami: fleischloses Wigilia-Rezept, bilingual mit Einkaufstipps.",
+        article: `## Pierogi mit Kraut und Pilzen zur Wigilia
 
-Diese Variante trägt den Tisch an Heiligabend. Sauerkraut, getrocknete Waldpilze, Geduld. Kein Fleisch — und trotzdem der tiefste Umami der Familie.
+Diese Variante trägt an Heiligabend oft den ganzen Tisch. Sauerkraut, getrocknete Waldpilze und etwas Geduld reichen aus, denn ganz ohne Fleisch entsteht hier trotzdem der tiefste, erdigste Geschmack der ganzen Pierogi-Familie.
 
-### Einkaufen in DE
+### Einkaufen in Deutschland
 
-Kapusta kiszona im Polenladen. Getrocknete Steinpilze oder Mischpilze dort oder online. Teigzutaten überall.
+Kapusta kiszona findest du im [Polenladen](/de/blog/polenladen-einkaufen), getrocknete Steinpilze oder Mischpilze dort oder online. Die Teigzutaten bekommst du überall.
 
 ### Technik
 
-Füllung gut auspressen. Nasse Füllung = platzen. Pilzsud sparsam zum Abschmecken, nicht zum Schwemmen.
+Die Füllung muss gut ausgepresst sein, eine zu nasse Füllung lässt den Teig beim Kochen platzen. Den Pilzsud setzt du sparsam zum Abschmecken ein, nicht um die Füllung zu schwemmen.
 
 ### Weitere Varianten
 
-[Ruskie](/de/rezepte/pierogi/ruskie) · [Fleisch](/de/rezepte/pierogi/fleisch) · [Heidelbeeren](/de/rezepte/pierogi/jagody) · [Wigilia Speiseplan](/de/blog/wigilia-speiseplan) · [Teig](/de/techniken/teig)`,
+Wechsle oben zu [Ruskie](/de/rezepte/pierogi/ruskie), [Fleisch](/de/rezepte/pierogi/fleisch) oder [Heidelbeeren](/de/rezepte/pierogi/jagody). Den ganzen Rahmen liefert der [Wigilia-Speiseplan](/de/blog/wigilia-speiseplan), zur Technik hilft der Guide zu [Teig](/de/techniken/teig).`,
       },
       pl: {
         title: "Pierogi z kapustą i grzybami",
         slug: "kapusta-grzyby",
         excerpt:
-          "Klasyk wigilijny: kapusta kiszona i suszone grzyby. Wyraziste, bez mięsa.",
+          "Bezmięsny farsz wigilijny z kapusty kiszonej i suszonych grzybów leśnych, wyrazisty i głęboki w smaku, właśnie dzięki temu, że jest bezmięsny, najbardziej świąteczny i najprostszy ze wszystkich farszów pierogowych.",
         steps: [
           {
-            text: "Namocz suszone grzyby, ugotuj, drobno posiekaj. Odłóż wywar.",
+            text: "Namocz suszone grzyby, ugotuj je do miękkości i drobno posiekaj, a wywar odłóż na później.",
+            tip: "Wywar niesie tę głębię, jaką inaczej dałby bulion mięsny, więc pod żadnym pretekstem go nie wylewaj.",
           },
           {
-            text: "Odsącz kapustę, duś z cebulą i grzybami, dopraw wywarem.",
-            tip: "Za kwaśną kapustę krótko przepłucz.",
+            text: "Odsącz kapustę, duś ją razem z cebulą i grzybami, a na koniec dopraw odłożonym wywarem.",
+            tip: "Jeśli kapusta jest bardzo kwaśna, przepłucz ją krótko wodą, żeby farsz nie wyszedł za ostry.",
           },
           {
-            text: "Przygotuj ciasto, odstaw, rozwałkuj.",
+            text: "Przygotuj ciasto na pierogi, odstaw je na chwilę i rozwałkuj tonko.",
+            tip: "Podczas wałkowania lekko mącz ręce, dzięki temu ciasto zostaje elastyczne i nie pęka później podczas gotowania.",
           },
           {
-            text: "Nadziewaj, sklejaj, gotuj w osolonej wodzie.",
+            text: "Nadziewaj kółka, szczelnie je sklejaj i gotuj pierogi w lekko wrzącej, osolonej wodzie.",
+            tip: "Farsz musi być dobrze odciśnięty, bo tylko suchy farsz utrzyma ciasto szczelne podczas gotowania.",
           },
           {
-            text: "Podawaj z olejem lub cebulką — na Wigilię często bez skwarków.",
+            text: "Podawaj pierogi z olejem albo cebulką na maśle, na Wigilię często całkiem bez skwarków.",
+            tip: "Dla wielu rodzin właśnie ten smak jest esencją Wigilii, sycący, choć całkowicie bez mięsa.",
           },
         ],
         seoTitle: "Pierogi z kapustą i grzybami przepis | Alemniam",
         seoDescription:
-          "Pierogi wigilijne z kapustą i grzybami — dwujęzycznie, z zakupami w DE.",
-        article: `## Pierogi z kapustą i grzybami
+          "Pierogi wigilijne z kapustą i grzybami, bezmięsny przepis dwujęzyczny z zakupami w Niemczech.",
+        article: `## Pierogi z kapustą i grzybami na Wigilię
 
-Ten wariant niesie stół wigilijny. Kapusta, suszone grzyby, cierpliwość. Bez mięsa — a jednak najgłębszy umami w rodzinie.
+Ten wariant niesie na Heiligabend często cały stół. Kapusta, suszone grzyby i odrobina cierpliwości wystarczą, bo bez mięsa powstaje tu jednak najgłębszy, najbardziej ziemisty smak w całej rodzinie pierogów.
 
-### Zakupy w DE
+### Zakupy w Niemczech
 
-Kapusta kiszona w sklepie polskim. Suszone grzyby tam albo online.
+Kapustę kiszoną znajdziesz w [sklepie polskim](/pl/blog/sklep-polski-zakupy), suszone grzyby tam albo online. Składniki na ciasto kupisz wszędzie.
 
 ### Technika
 
-Farsz dobrze odciśnij. Mokry farsz = pękanie.
+Farsz musi być dobrze odciśnięty, mokry farsz sprawia, że ciasto pęka podczas gotowania. Wywar z grzybów dodajesz oszczędnie do smaku, a nie żeby zalać nim całą masę.
 
 ### Dalej
 
-[Ruskie](/pl/rezepte/pierogi/ruskie) · [mięso](/pl/rezepte/pierogi/mieso) · [jagody](/pl/rezepte/pierogi/jagody) · [menu wigilijne](/pl/blog/menu-wigilijne) · [ciasto](/pl/techniken/ciasto)`,
+Przełącz u góry na [ruskie](/pl/rezepte/pierogi/ruskie), [mięso](/pl/rezepte/pierogi/mieso) albo [jagody](/pl/rezepte/pierogi/jagody). Cały kontekst daje [menu wigilijne](/pl/blog/menu-wigilijne), do techniki pomaga przewodnik o [cieście](/pl/techniken/ciasto).`,
       },
     },
     ingredients: [
@@ -553,81 +569,85 @@ Farsz dobrze odciśnij. Mokry farsz = pękanie.
         title: "Placki mit Zucchini",
         slug: "cukinia",
         excerpt:
-          "Leichtere Sommer-Placki: Kartoffel und Zucchini gerieben, knusprig gebraten.",
+          "Leichte Sommer-Placki aus geriebener Kartoffel und Zucchini, knusprig gebraten und deutlich luftiger als der klassische Kartoffelpuffer.",
         steps: [
           {
-            text: "Kartoffeln und Zucchini grob reiben, Zwiebel fein reiben. Masse kräftig ausdrücken.",
-            tip: "Zucchini gibt viel Wasser — extra gut pressen.",
+            text: "Reibe Kartoffeln und Zucchini grob und die Zwiebel fein, dann drücke die Masse kräftig aus.",
+            tip: "Zucchini gibt deutlich mehr Wasser ab als Kartoffeln, presse die Masse deshalb besonders gründlich aus.",
           },
           {
-            text: "Mit Ei, Mehl, Salz und Pfeffer verrühren. 5 Minuten ruhen.",
+            text: "Verrühre die ausgedrückte Masse mit Ei, Mehl, Salz und Pfeffer und lasse sie 5 Minuten ruhen.",
+            tip: "Diese kurze Ruhezeit bindet die Zutaten besser, dadurch halten die Placki beim Wenden in der Pfanne zuverlässiger zusammen.",
           },
           {
-            text: "In heißem Öl (3–5 mm) goldbraun ausbacken, einmal wenden.",
-            tip: "Nicht zu viele auf einmal — Pfanne muss heiß bleiben.",
+            text: "Backe die Placki in heißem Öl, etwa 3 bis 5 Millimeter hoch, goldbraun aus und wende sie einmal.",
+            tip: "Gib nicht zu viele Placki gleichzeitig in die Pfanne, sonst kühlt das Öl ab und sie werden weich statt knusprig.",
           },
           {
-            text: "Auf Küchenpapier kurz abtropfen. Mit Śmietana oder Salat servieren.",
+            text: "Lasse die Placki kurz auf Küchenpapier abtropfen und serviere sie mit Śmietana oder einem leichten Salat.",
+            tip: "So werden sie sommerlich leicht und deutlich weniger schwer als die reine Kartoffelvariante zum Sonntagsessen.",
           },
         ],
         seoTitle: "Placki mit Zucchini Rezept | Alemniam",
         seoDescription:
-          "Placki z cukinią: Sommer-Variante bilingual mit DE-Einkaufshinweisen.",
-        article: `## Placki mit Zucchini — leichter, sommerlicher
+          "Placki z cukinią: leichte Sommer-Variante, bilingual mit Einkaufstipps für Deutschland.",
+        article: `## Placki mit Zucchini, leichter und sommerlicher
 
-Wenn im Garten oder im Rewe-Regal die Zucchini sich stapeln, ist diese Mischung der pragmatische Ausweg: etwa zwei Drittel Kartoffel, ein Drittel Zucchini. Technik bleibt dieselbe — reiben, ausdrücken, heiß braten.
+Wenn im Garten oder im Supermarktregal die Zucchini sich stapeln, ist diese Mischung der pragmatische Ausweg: etwa zwei Drittel Kartoffel und ein Drittel Zucchini. Die Technik bleibt dabei dieselbe wie beim Klassiker, reiben, ausdrücken, heiß braten.
 
 ### Warum extra ausdrücken
 
-Zucchini gibt mehr Flüssigkeit als Kartoffeln. Wer die Masse nur „leicht“ abtropft, bekommt weiche Puffer statt Knusper. Küchentuch oder Nussbeutel, kräftig pressen.
+Zucchini gibt deutlich mehr Flüssigkeit ab als Kartoffeln. Wer die Masse nur leicht abtropfen lässt, bekommt weiche Puffer statt Knusper, ein Küchentuch oder ein Nussbeutel hilft beim kräftigen Auspressen.
 
-### Einkaufen in DE
+### Einkaufen in Deutschland
 
-Festkochende Kartoffeln, mittelgroße Zucchini. Śmietana im Polenladen oder Schmand ersetzen — siehe [Śmietana-Lexikon](/de/blog/smietana-schmand). [Gusseisen](/de/blog/gusseisenpfanne) hilft bei gleichmäßiger Kruste.
+Festkochende Kartoffeln und eine mittelgroße Zucchini reichen aus. Śmietana findest du im Polenladen, oder du ersetzt sie durch Schmand, mehr dazu im [Śmietana-Lexikon](/de/blog/smietana-schmand). Eine [Gusseisenpfanne](/de/blog/gusseisenpfanne) hilft bei gleichmäßiger Kruste.
 
 ### Geschwister
 
-Oben wechseln zu [Kartoffelklassiker](/de/rezepte/placki/ziemniaczane), [Käse](/de/rezepte/placki/mit-kaese) oder [Apfel](/de/rezepte/placki/mit-apfel). Technik: [Placki-Guide](/de/blog/placki-guide).`,
+Wechsle oben zum [Kartoffelklassiker](/de/rezepte/placki/ziemniaczane), zu [Käse](/de/rezepte/placki/mit-kaese) oder zu [Apfel](/de/rezepte/placki/mit-apfel). Zur Technik hilft der [Placki-Guide](/de/blog/placki-guide).`,
       },
       pl: {
         title: "Placki z cukinią",
         slug: "cukinia",
         excerpt:
-          "Lżejsze letnie placki: ziemniak i cukinia starte, smażone na chrupko.",
+          "Lekkie letnie placki z tartego ziemniaka i cukinii, smażone na chrupko i wyraźnie lżejsze niż klasyczny placek ziemniaczany.",
         steps: [
           {
-            text: "Starte ziemniaki i cukinię, cebulę drobno. Dobrze odciśnij masę.",
-            tip: "Cukinia puszcza dużo wody — dociskaj mocniej.",
+            text: "Zetrzyj ziemniaki i cukinię na grubej tarce, a cebulę drobno, potem dobrze odciśnij całą masę.",
+            tip: "Cukinia puszcza znacznie więcej wody niż ziemniak, dlatego dociskaj masę wyjątkowo dokładnie.",
           },
           {
-            text: "Wymieszaj z jajkiem, mąką, solą i pieprzem. Odstaw 5 min.",
+            text: "Wymieszaj odciśniętą masę z jajkiem, mąką, solą i pieprzem i odstaw na 5 minut.",
+            tip: "Ta krótka przerwa lepiej wiąże składniki, dzięki czemu placki trzymają się razem podczas przewracania na patelni.",
           },
           {
-            text: "Smaż na złoto na gorącym oleju (3–5 mm), przewróć raz.",
-            tip: "Nie za dużo naraz — patelnia musi być gorąca.",
+            text: "Smaż placki na gorącym oleju, na wysokość około 3 do 5 milimetrów, na złoto i przewróć je raz.",
+            tip: "Nie kładź za dużo placków naraz, inaczej olej się wychładza i placki wychodzą miękkie, a nie chrupiące.",
           },
           {
-            text: "Odsącz na papierze. Podawaj ze śmietaną albo sałatą.",
+            text: "Odsącz placki chwilę na papierowym ręczniku i podawaj ze śmietaną albo lekką sałatą.",
+            tip: "Wychodzą letnie i wyraźnie lżejsze niż same ziemniaczane, bez ciężkiego niedzielnego talerza.",
           },
         ],
         seoTitle: "Placki z cukinią przepis | Alemniam",
         seoDescription:
-          "Placki z cukinią — letni wariant, dwujęzycznie ze wskazówkami DE.",
-        article: `## Placki z cukinią — lżejsze, letnie
+          "Placki z cukinią, lekki letni wariant, dwujęzycznie ze wskazówkami zakupowymi w Niemczech.",
+        article: `## Placki z cukinią, lżejsze i letnie
 
-Gdy cukinia zalewa ogród albo promocję w sklepie, mieszanka ok. ⅔ ziemniaka i ⅓ cukinii to rozsądny kierunek. Technika ta sama: tarcie, odciśnięcie, gorące smażenie.
+Gdy cukinia zalewa ogród albo promocję w sklepie, mieszanka około dwóch trzecich ziemniaka i jednej trzeciej cukinii to rozsądny kierunek. Technika zostaje ta sama, tarcie, odciśnięcie, gorące smażenie.
 
 ### Dlaczego mocniej odciśnij
 
-Cukinia puszcza więcej wody niż ziemniak. Lekkie odsączenie = gumowate placki zamiast chrupka.
+Cukinia puszcza więcej wody niż ziemniak, a lekkie odsączenie daje gumowate placki zamiast chrupkich.
 
-### Zakupy w DE
+### Zakupy w Niemczech
 
-Ziemniaki raczej mączyste, cukinia średnia. [Śmietana czy Schmand](/pl/blog/smietana-czy-schmand). [Patelnia żeliwna](/pl/blog/patelnia-zelivna) pomaga.
+Ziemniaki raczej mączyste i cukinia średniej wielkości wystarczą. Różnicę między [śmietaną a schmandem](/pl/blog/smietana-czy-schmand) wyjaśnia osobny wpis, a [patelnia żeliwna](/pl/blog/patelnia-zelivna) pomaga przy równym przypieczeniu.
 
 ### Dalej
 
-Przełącz u góry: [ziemniaczane](/pl/rezepte/placki/ziemniaczane), [ser](/pl/rezepte/placki/ser), [jabłka](/pl/rezepte/placki/jablka). [Przewodnik placki](/pl/blog/placki-przewodnik).`,
+Przełącz u góry na wersję [ziemniaczaną](/pl/rezepte/placki/ziemniaczane), [z serem](/pl/rezepte/placki/ser) albo [z jabłkami](/pl/rezepte/placki/jablka). Więcej w [przewodniku po plackach](/pl/blog/placki-przewodnik).`,
       },
     },
     ingredients: [
@@ -706,79 +726,85 @@ Przełącz u góry: [ziemniaczane](/pl/rezepte/placki/ziemniaczane), [ser](/pl/r
         title: "Placki mit Käse",
         slug: "mit-kaese",
         excerpt:
-          "Kartoffelpuffer mit Twaróg in der Masse — herzhaft, cremig, knusprig.",
+          "Kartoffelpuffer mit Twaróg in der Masse, cremiger und sättigender als der reine Kartoffelklassiker, mit einer Kruste, die trotz des Käses knusprig bleibt.",
         steps: [
           {
-            text: "Kartoffeln und Zwiebel reiben, gründlich ausdrücken.",
+            text: "Reibe Kartoffeln und Zwiebel und drücke die Masse gründlich aus.",
+            tip: "Je trockener die Kartoffelmasse zu Beginn ist, desto leichter lässt sich später der Twaróg unterheben, ohne dass alles zu weich wird.",
           },
           {
-            text: "Twaróg zerbröseln, mit Kartoffelmasse, Ei, Mehl, Salz und Pfeffer mischen.",
-            tip: "Twaróg vorher abtropfen — zu nass macht die Masse weich.",
+            text: "Zerbrösle den Twaróg und mische ihn mit der Kartoffelmasse, dem Ei, Mehl, Salz und Pfeffer.",
+            tip: "Lasse den Twaróg vorher gut abtropfen, denn zu nasser Käse macht die ganze Masse weich und verhindert eine knusprige Kruste.",
           },
           {
-            text: "In heißem Öl goldbraun braten, einmal wenden.",
+            text: "Brate die Placki in heißem Öl goldbraun und wende sie einmal.",
+            tip: "Forme sie nicht zu dick, sonst bleibt der Käse innen lauwarm, während außen die Kruste schon zu dunkel wird.",
           },
           {
-            text: "Heiß mit Śmietana oder Kräuterdip servieren.",
+            text: "Serviere die Placki heiß mit Śmietana oder einem Kräuterdip.",
+            tip: "Das ist eine beliebte Alltagsvariante, wenn Twaróg im Kühlschrank steht und ein herzhafter Teller ohne großen Aufwand entstehen soll.",
           },
         ],
         seoTitle: "Placki mit Käse Rezept | Alemniam",
         seoDescription:
-          "Placki z serem mit Twaróg — Rezept bilingual mit DE-Ladenhinweisen.",
-        article: `## Placki mit Käse — herzhaft und cremig
+          "Placki z serem mit Twaróg, herzhaftes Rezept bilingual mit Einkaufstipps für Deutschland.",
+        article: `## Placki mit Käse, herzhaft und cremig
 
-Twaróg in der Masse macht die Placki sattiger als der reine Kartoffelklassiker. Der Käse schmilzt leicht mit, die Kruste bleibt knusprig — wenn die Masse trocken genug ist.
+Twaróg in der Masse macht die Placki sättigender und cremiger als der reine Kartoffelklassiker. Der Käse schmilzt leicht mit, während die Kruste knusprig bleibt, solange die Masse insgesamt trocken genug ist.
 
-### Twaróg in DE
+### Twaróg in Deutschland
 
-Quark (Magerquark) gut abtropfen. Ausführlich: [Twaróg-Guide](/de/blog/twarog-deutschland). Zu feuchter Quark = weiche Puffer.
+Magerquark gut abtropfen zu lassen ist hier der wichtigste Schritt, ausführlich erklärt das der [Twaróg-Guide](/de/blog/twarog-deutschland). Zu feuchter Quark führt fast immer zu weichen, statt knusprigen Puffern.
 
 ### Technik
 
-Gleiche Regeln wie beim Klassiker: heiße Pfanne, nicht zu dick formen, Wasser auspressen. [Gusseisen-Guide](/de/blog/gusseisenpfanne) · [Placki-Guide](/de/blog/placki-guide).
+Es gelten dieselben Regeln wie beim Klassiker: eine heiße Pfanne, nicht zu dick geformte Placki und gründlich ausgepresstes Wasser. Mehr dazu im [Gusseisen-Guide](/de/blog/gusseisenpfanne) und im [Placki-Guide](/de/blog/placki-guide).
 
 ### Weitere Varianten
 
-[Kartoffelklassiker](/de/rezepte/placki/ziemniaczane) · [Zucchini](/de/rezepte/placki/cukinia) · [Apfel](/de/rezepte/placki/mit-apfel).`,
+Wechsle oben zum [Kartoffelklassiker](/de/rezepte/placki/ziemniaczane), zu [Zucchini](/de/rezepte/placki/cukinia) oder zu [Apfel](/de/rezepte/placki/mit-apfel).`,
       },
       pl: {
         title: "Placki z serem",
         slug: "ser",
         excerpt:
-          "Placki z twarogiem w masie — wytrawnie, kremowo, na chrupko.",
+          "Placki z twarogiem w masie, bardziej kremowe i sycące niż sam ziemniaczany klasyk, ze skórką, która zostaje chrupka mimo dodatku serowego.",
         steps: [
           {
-            text: "Starte ziemniaki i cebulę, dobrze odciśnij.",
+            text: "Zetrzyj ziemniaki i cebulę i dobrze odciśnij całą masę.",
+            tip: "Im suchsza jest masa ziemniaczana na starcie, tym łatwiej później wmieszać twaróg bez ryzyka, że wszystko zrobi się zbyt miękkie.",
           },
           {
-            text: "Rozkrusz twaróg, wymieszaj z masą, jajkiem, mąką, solą i pieprzem.",
-            tip: "Twaróg odsącz wcześniej — mokry psuje chrupkość.",
+            text: "Rozkrusz twaróg i wymieszaj go z masą ziemniaczaną, jajkiem, mąką, solą i pieprzem.",
+            tip: "Twaróg wcześniej dobrze odsącz, bo za mokry ser rozmiękcza całą masę i nie pozwala uzyskać chrupiącej skórki.",
           },
           {
-            text: "Smaż na złoto na gorącym oleju, przewróć raz.",
+            text: "Smaż placki na gorącym oleju na złoty kolor i przewróć je raz.",
+            tip: "Nie formuj ich za grubo, inaczej ser w środku zostanie letni, gdy na zewnątrz skórka już zbyt ciemna.",
           },
           {
-            text: "Podawaj gorące ze śmietaną albo ziołowym dipem.",
+            text: "Podawaj placki gorące ze śmietaną albo ziołowym dipem.",
+            tip: "To popularna wersja na co dzień, gdy w lodówce jest twaróg, a chcesz szybko zrobić sycący, wytrawny obiad.",
           },
         ],
         seoTitle: "Placki z serem przepis | Alemniam",
         seoDescription:
-          "Placki z serem i twarogiem — przepis dwujęzyczny ze wskazówkami DE.",
-        article: `## Placki z serem — wytrawnie i kremowo
+          "Placki z serem i twarogiem, wytrawny przepis dwujęzyczny ze wskazówkami zakupowymi w Niemczech.",
+        article: `## Placki z serem, wytrawnie i kremowo
 
-Twaróg w masie robi placki bardziej sycące niż sam ziemniak. Ser lekko się topi, skórka zostaje chrupka — jeśli masa jest sucha.
+Twaróg w masie robi placki bardziej sycące niż sam ziemniak. Ser lekko się topi w środku, a skórka zostaje chrupka, o ile masa jest wystarczająco sucha.
 
 ### Twaróg w Niemczech
 
-Quark odsącz. [Poradnik twaróg](/pl/blog/twarog-w-niemczech). Za mokry = miękkie placki.
+Dobre odsączenie quarku to tutaj najważniejszy krok, opisuje go szerzej [poradnik o twarogu](/pl/blog/twarog-w-niemczech). Za mokry quark prawie zawsze daje miękkie, a nie chrupiące placki.
 
 ### Technika
 
-Te same zasady: gorąca patelnia, nie za grube, odciśnięcie wody. [Patelnia żeliwna](/pl/blog/patelnia-zelivna) · [Przewodnik placki](/pl/blog/placki-przewodnik).
+Obowiązują te same zasady co w klasyku: gorąca patelnia, niezbyt grube placki i dobrze odciśnięta woda. Więcej w [poradniku o patelni żeliwnej](/pl/blog/patelnia-zelivna) i w [przewodniku po plackach](/pl/blog/placki-przewodnik).
 
 ### Warianty
 
-[Ziemniaczane](/pl/rezepte/placki/ziemniaczane) · [cukinia](/pl/rezepte/placki/cukinia) · [jabłka](/pl/rezepte/placki/jablka).`,
+Przełącz u góry na wersję [ziemniaczaną](/pl/rezepte/placki/ziemniaczane), [z cukinią](/pl/rezepte/placki/cukinia) albo [z jabłkami](/pl/rezepte/placki/jablka).`,
       },
     },
     ingredients: [
@@ -857,79 +883,85 @@ Te same zasady: gorąca patelnia, nie za grube, odciśnięcie wody. [Patelnia ż
         title: "Placki mit Apfel",
         slug: "mit-apfel",
         excerpt:
-          "Süße Kartoffelpuffer mit geriebenem Apfel — mit Zimt und Puderzucker.",
+          "Süße Kartoffelpuffer mit geriebenem Apfel, Zimt und Puderzucker, ein Nachmittagsgebäck ohne Hefeteig und damit deutlich schneller als die luftigen Racuchy.",
         steps: [
           {
-            text: "Kartoffeln reiben und ausdrücken. Apfel schälen, entkernen, grob reiben.",
+            text: "Reibe die Kartoffeln und drücke sie aus, schäle die Äpfel, entferne das Kerngehäuse und reibe sie grob.",
+            tip: "Wähle säuerliche Sorten wie Boskoop oder Elstar, sie halten beim Braten die Form besser als weiche, süße Äpfel.",
           },
           {
-            text: "Kartoffel, Apfel, Ei, Mehl, Prise Salz und Zimt vermischen.",
-            tip: "Apfel gibt Saft — Masse kurz vor dem Braten nochmals leicht ausdrücken.",
+            text: "Vermische Kartoffel und Apfel mit Ei, Mehl, einer Prise Salz und Zimt.",
+            tip: "Der Apfel gibt beim Warten weiter Saft ab, drücke die Masse deshalb kurz vor dem Braten noch einmal leicht aus.",
           },
           {
-            text: "In Butter und Öl goldbraun braten.",
+            text: "Brate die Placki in Butter mit etwas Öl bei mittlerer Hitze goldbraun.",
+            tip: "Die Mischung aus Butter und Öl schützt vor dem Anbrennen, während das Innere gleichzeitig durchgart.",
           },
           {
-            text: "Warm mit Puderzucker und optional Apfelmus servieren.",
+            text: "Serviere die Placki warm mit Puderzucker und optional etwas Apfelmus oder Sauerrahm.",
+            tip: "Viele Familien essen sie sowohl mit Zucker als auch mit Sauerrahm, das bleibt reine Hausgewohnheit und keine feste Regel.",
           },
         ],
         seoTitle: "Placki mit Apfel Rezept | Alemniam",
         seoDescription:
-          "Süße Placki z jabłkami — Rezept bilingual für die Diaspora-Küche.",
-        article: `## Placki mit Apfel — süße Abzweigung
+          "Süße Placki z jabłkami: Rezept bilingual, klar abgegrenzt von den luftigen Racuchy.",
+        article: `## Placki mit Apfel, die süße Abzweigung
 
-Geriebener Apfel in der Kartoffelmasse macht aus dem herzhaften Klassiker ein Dessert oder Sonntagsfrühstück. Zimt und Puderzucker — in manchen Familien auch Apfelmus dazu.
+Geriebener Apfel in der Kartoffelmasse macht aus dem herzhaften Klassiker ein Nachmittagsgebäck oder ein leichtes Sonntagsfrühstück, eher als ein klassisches Dessert. Zimt und Puderzucker gehören dazu, in manchen Familien auch etwas Apfelmus.
 
 ### Nicht verwechseln mit Racuchy
 
-[Racuchy](/de/rezepte/racuchy-jablka) sind Hefeteig-Pfannkuchen mit Apfelstücken. Diese Variante bleibt **Placki-Technik**: rohe Kartoffel, reiben, braten.
+[Racuchy](/de/rezepte/racuchy-jablka) sind Hefeteig-Pfannkuchen mit Apfelstücken, bei denen der Teig erst gehen muss. Diese Variante bleibt bei der reinen Placki-Technik, roher, geriebener Kartoffelteig direkt in die Pfanne.
 
 ### Tipps
 
-Säuerliche Äpfel (Boskoop, Elstar) halten Form. Butter + Öl verhindert, dass die Kruste zu schnell verbrennt.
+Säuerliche Äpfel wie Boskoop oder Elstar halten beim Braten ihre Form besser als weiche Sorten. Die Mischung aus Butter und Öl verhindert, dass die Kruste zu schnell verbrennt, bevor das Innere durchgegart ist.
 
 ### Weitere Varianten
 
-[Ziemniaczane](/de/rezepte/placki/ziemniaczane) · [Zucchini](/de/rezepte/placki/cukinia) · [Käse](/de/rezepte/placki/mit-kaese).`,
+Wechsle oben zu [Kartoffelklassiker](/de/rezepte/placki/ziemniaczane), [Zucchini](/de/rezepte/placki/cukinia) oder [Käse](/de/rezepte/placki/mit-kaese).`,
       },
       pl: {
         title: "Placki z jabłkami",
         slug: "jablka",
         excerpt:
-          "Słodkie placki z tartym jabłkiem — z cynamonem i cukrem pudrem.",
+          "Słodkie placki z tartym jabłkiem, cynamonem i cukrem pudrem, popołudniowe danie bez ciasta drożdżowego, a więc wyraźnie szybsze niż puszyste racuchy.",
         steps: [
           {
-            text: "Starte ziemniaki i odciśnij. Obierz jabłka, starte na grubo.",
+            text: "Zetrzyj ziemniaki i odciśnij je, obierz jabłka, usuń gniazda nasienne i zetrzyj je grubo.",
+            tip: "Wybierz odmiany kwaśniejsze, jak antonówka albo szara reneta, lepiej trzymają formę podczas smażenia niż miękkie, słodkie jabłka.",
           },
           {
-            text: "Wymieszaj z jajkiem, mąką, szczyptą soli i cynamonem.",
-            tip: "Jabłko puszcza sok — tuż przed smażeniem lekko odciśnij.",
+            text: "Wymieszaj tartą ziemniak i jabłko z jajkiem, mąką, szczyptą soli i cynamonem.",
+            tip: "Jabłko puszcza sok podczas czekania, więc tuż przed smażeniem jeszcze raz lekko odciśnij masę.",
           },
           {
-            text: "Smaż na złoto na maśle z odrobiną oleju.",
+            text: "Smaż placki na maśle z odrobiną oleju na średnim ogniu, aż będą złote.",
+            tip: "Ta kombinacja chroni przed przypaleniem, podczas gdy wnętrze placka spokojnie się dopieka.",
           },
           {
-            text: "Podawaj ciepłe z cukrem pudrem i opcjonalnie musem.",
+            text: "Podawaj placki ciepłe, posypane cukrem pudrem, opcjonalnie z musem jabłkowym albo śmietaną.",
+            tip: "Wiele rodzin je je zarówno z cukrem, jak i ze śmietaną, to kwestia tradycji domowej, a nie sztywna reguła.",
           },
         ],
         seoTitle: "Placki z jabłkami przepis | Alemniam",
         seoDescription:
-          "Słodkie placki z jabłkami — przepis dwujęzyczny dla kuchni diasporowej.",
-        article: `## Placki z jabłkami — słodka odnoga
+          "Słodkie placki z jabłkami, przepis dwujęzyczny, jasno odróżniony od puszystych racuchów.",
+        article: `## Placki z jabłkami, słodka odnoga
 
-Tarte jabłko w masie ziemniaczanej robi z wytrawnego klasyku deser albo niedzielne śniadanie. Cynamon, cukier puder — czasem mus jabłkowy obok.
+Tarte jabłko w masie ziemniaczanej robi z wytrawnego klasyku raczej popołudniowe danie albo lekkie niedzielne śniadanie niż deser w ścisłym sensie. Cynamon i cukier puder należą do zestawu, czasem do tego mus jabłkowy.
 
 ### Nie mylić z racuchami
 
-[Racuchy](/pl/rezepte/racuchy-jablka) to drożdżowe racuchy z kawałkami jabłka. Tu zostaje **technika placków**: surowy ziemniak, tarcie, smażenie.
+[Racuchy](/pl/rezepte/racuchy-jablka) to drożdżowe placuszki z kawałkami jabłka, w których ciasto musi najpierw wyrosnąć. Ten wariant zostaje przy czystej technice placków, surowy, tarty ziemniak trafia prosto na patelnię.
 
 ### Wskazówki
 
-Kwaśne jabłka (Antonówka, szara reneta) trzymają formę. Masło z olejem chroni skórkę przed przypaleniem.
+Kwaśne jabłka, na przykład antonówka czy szara reneta, lepiej trzymają formę podczas smażenia niż miękkie odmiany. Masło z olejem chroni skórkę przed przypaleniem, zanim środek się dopiecze.
 
 ### Inne warianty
 
-[Ziemniaczane](/pl/rezepte/placki/ziemniaczane) · [cukinia](/pl/rezepte/placki/cukinia) · [ser](/pl/rezepte/placki/ser).`,
+Przełącz u góry na wersję [ziemniaczaną](/pl/rezepte/placki/ziemniaczane), [z cukinią](/pl/rezepte/placki/cukinia) albo [z serem](/pl/rezepte/placki/ser).`,
       },
     },
     ingredients: [
@@ -1008,67 +1040,81 @@ Kwaśne jabłka (Antonówka, szara reneta) trzymają formę. Masło z olejem chr
         title: "Naleśniki mit Fleisch",
         slug: "fleisch",
         excerpt:
-          "Herzhaft gefüllte Naleśniki mit gedünstetem Hack — satt und sonntagstauglich.",
+          "Herzhaft gefüllte Naleśniki mit gedünstetem Hack, satt und sonntagstauglich, die deftige Schwester der süßen Twaróg-Naleśniki.",
         steps: [
           {
-            text: "Naleśniki-Teig anrühren, 30 Minuten ruhen, dünne Pfannkuchen backen.",
+            text: "Rühre den Naleśniki-Teig an, lass ihn 30 Minuten ruhen und backe daraus dünne Pfannkuchen.",
+            tip: "Gieße den Teig dünn in die Pfanne und schwenke sie kurz, so verteilt er sich gleichmäßig bis zum Rand.",
           },
           {
-            text: "Hack mit Zwiebel anbraten, mit Salz, Pfeffer und Majoran würzen. Abkühlen.",
-            tip: "Füllung muss kalt und nicht zu saftig sein.",
+            text: "Brate das Hack mit der Zwiebel an, würze es mit Salz, Pfeffer und Majoran und lass es abkühlen.",
+            tip: "Die Füllung muss kalt und nicht zu saftig sein, sonst weicht der Pfannkuchen beim Füllen auf.",
           },
-          { text: "Füllen, fest rollen, in Butter goldbraun anbraten." },
-          { text: "Mit Dill oder klarer Soße servieren." },
+          {
+            text: "Fülle die Pfannkuchen, rolle sie fest ein und brate sie in Butter goldbraun an.",
+            tip: "Halte die Hitze beim zweiten Braten mittel, damit die Butter nicht verbrennt, bevor die Rolle durchgewärmt ist.",
+          },
+          {
+            text: "Serviere die Rollen mit Dill oder einer klaren Soße.",
+            tip: "Reste lassen sich am nächsten Tag gut in der Pfanne aufwärmen und bleiben dabei innen saftig.",
+          },
         ],
         seoTitle: "Naleśniki mit Fleisch Rezept | Alemniam",
         seoDescription:
-          "Naleśniki z mięsem: herzhafte Füllung, Teig und Braten — bilingual.",
-        article: `## Naleśniki mit Fleisch — herzhaft statt süß
+          "Naleśniki z mięsem: herzhafte Füllung, Teig und Braten, bilingual erklärt.",
+        article: `## Naleśniki mit Fleisch, herzhaft statt süß
 
-Dieselbe dünne Plattform wie bei Twaróg, aber mit gedünstetem Hack. Ideal, wenn der Tisch salzig will und trotzdem Naleśniki-Technik bleibt.
+Diese Naleśniki nutzen dieselbe dünne Teigplattform wie die Twaróg-Variante, aber mit gedünstetem Hack gefüllt. Ideal, wenn der Tisch etwas Salziges will und trotzdem die vertraute Naleśniki-Technik bleiben soll.
 
 ### Füllung
 
-Hack nicht roh einfüllen. Anbraten, abkühlen, abtropfen. Zu nass = Teig weich. Majoran verbindet mit [Pierogi Fleisch](/de/rezepte/pierogi/fleisch).
+Das Hack darf nie roh in den Pfannkuchen kommen, es muss vorher angebraten, abgekühlt und gut abgetropft sein, sonst weicht der Teig auf. Majoran verbindet die Füllung geschmacklich mit [Pierogi mit Fleisch](/de/rezepte/pierogi/fleisch).
 
 ### Technik
 
-Teig und Wenden: [Naleśniki-Guide](/de/blog/nalesniki-guide). Freezer: leere Pfannkuchen einfrieren, Füllung frisch.
+Teig und Wendetechnik erklärt der [Naleśniki-Guide](/de/blog/nalesniki-guide). Für den Vorrat kannst du leere Pfannkuchen einfrieren und die Füllung immer frisch zubereiten.
 
 ### Geschwister
 
-Oben zu [Twaróg](/de/rezepte/nalesniki/twarog), [Spinat](/de/rezepte/nalesniki/szpinak) oder [Marmelade](/de/rezepte/nalesniki/dzem).`,
+Oben wechseln zu [Twaróg](/de/rezepte/nalesniki/twarog), [Spinat](/de/rezepte/nalesniki/szpinak) oder [Marmelade](/de/rezepte/nalesniki/dzem).`,
       },
       pl: {
         title: "Naleśniki z mięsem",
         slug: "mieso",
         excerpt:
-          "Wytrawne naleśniki z duszonym mięsem — sycące na niedzielę.",
+          "Wytrawne naleśniki z duszonym mięsem, sycące na niedzielę, słona siostra słodkich naleśników z twarogiem.",
         steps: [
           {
-            text: "Zrób ciasto na naleśniki, odstaw 30 min, usmaż cienkie placki.",
+            text: "Zrób ciasto na naleśniki, odstaw je na 30 minut i usmaż z niego cienkie placki.",
+            tip: "Wylej ciasto na patelnię cienką warstwą i szybko przechyl patelnię, tak rozprowadzi się równo do samego brzegu.",
           },
           {
-            text: "Przesmaż mięso z cebulą, dopraw solą, pieprzem i majerankiem. Ostudź.",
-            tip: "Farsz musi być zimny i nie za mokry.",
+            text: "Przesmaż mięso z cebulą, dopraw solą, pieprzem i majerankiem, a potem ostudź.",
+            tip: "Farsz musi być zimny i nie za mokry, inaczej placek pod nim rozmięknie podczas nadziewania.",
           },
-          { text: "Nadziewaj, szczelnie zawiń, podsmaż na maśle na złoto." },
-          { text: "Podawaj z koperkiem albo jasnym sosem." },
+          {
+            text: "Nadziewaj naleśniki, szczelnie zawiń i podsmaż je na maśle na złoto.",
+            tip: "Przy drugim smażeniu trzymaj średni ogień, żeby masło nie spaliło się, zanim rolka się dobrze podgrzeje.",
+          },
+          {
+            text: "Podawaj naleśniki z koperkiem albo jasnym sosem.",
+            tip: "Resztki dobrze odgrzewają się na patelni następnego dnia i zostają soczyste w środku.",
+          },
         ],
         seoTitle: "Naleśniki z mięsem przepis | Alemniam",
         seoDescription:
-          "Naleśniki z mięsem: farsz, ciasto i smażenie — dwujęzycznie.",
-        article: `## Naleśniki z mięsem — wytrawnie zamiast słodko
+          "Naleśniki z mięsem: farsz, ciasto i smażenie, wyjaśnione dwujęzycznie.",
+        article: `## Naleśniki z mięsem, wytrawnie zamiast słodko
 
-Ta sama cienka platforma co przy twarogu, ale z duszonym mięsem. Gdy stół chce słono, a technika naleśników zostaje.
+Te naleśniki korzystają z tej samej cienkiej platformy ciasta co wariant z twarogiem, ale są nadziewane duszonym mięsem. Sprawdzają się, gdy stół chce czegoś słonego, a technika naleśników ma zostać ta sama.
 
 ### Farsz
 
-Nie wkładaj surowego mięsa. Przesmaż, ostudź, odcedź. Za mokro = ciasto mięknie. Majeranek łączy z [pierogami z mięsem](/pl/rezepte/pierogi/mieso).
+Mięsa nigdy nie wkładaj surowego, musi być wcześniej przesmażone, ostudzone i dobrze odcedzone, inaczej ciasto pod nim zmięknie. Majeranek łączy farsz smakowo z [pierogami z mięsem](/pl/rezepte/pierogi/mieso).
 
 ### Technika
 
-Ciasto i przewracanie: [przewodnik naleśników](/pl/blog/nalesniki-przewodnik). Freezer: mroź puste placki, farsz świeży.
+Ciasto i technikę przewracania opisuje [przewodnik naleśników](/pl/blog/nalesniki-przewodnik). Na zapas możesz mrozić puste placki i zawsze przygotowywać świeży farsz.
 
 ### Rodzeństwo
 
@@ -1161,67 +1207,85 @@ Przełącz na [twaróg](/pl/rezepte/nalesniki/twarog), [szpinak](/pl/rezepte/nal
         title: "Naleśniki mit Spinat",
         slug: "szpinak",
         excerpt:
-          "Herzhafte Naleśniki mit Spinat und Käse — leichter als Fleisch, klarer als süß.",
+          "Herzhafte Naleśniki mit Spinat und Käse, leichter als die Fleischvariante und klarer im Geschmack als die süßen Füllungen.",
         steps: [
-          { text: "Teig anrühren, ruhen, dünne Naleśniki backen." },
           {
-            text: "Spinat mit Knoblauch andünsten, abtropfen, mit Käse und Salz mischen.",
-            tip: "Gut ausdrücken — nasser Spinat weicht den Teig auf.",
+            text: "Rühre den Teig an, lass ihn kurz ruhen und backe daraus dünne Naleśniki.",
+            tip: "Gieße den Teig dünn aus und schwenke die Pfanne sofort, so verteilt er sich gleichmäßig bis zum Rand.",
           },
-          { text: "Füllen, rollen, optional in Butter anbraten." },
-          { text: "Mit Śmietana oder Jogurt servieren." },
+          {
+            text: "Dünste den Spinat mit Knoblauch an, drücke ihn gut aus und mische ihn mit Käse und Salz.",
+            tip: "Drücke den Spinat wirklich gründlich aus, denn nasser Spinat weicht den Teig auf und lässt den Käse auslaufen.",
+          },
+          {
+            text: "Fülle die Pfannkuchen, rolle sie ein und brate sie optional noch einmal in Butter goldbraun an.",
+            tip: "Lass die Füllung vor dem Rollen etwas abkühlen, damit der Teig an dieser Stelle nicht zu weich wird.",
+          },
+          {
+            text: "Serviere die Rollen mit Śmietana oder Joghurt.",
+            tip: "Ein Spritzer Zitrone in der Śmietana passt gut zum erdigen Spinat und macht die Sauce etwas frischer.",
+          },
         ],
         seoTitle: "Naleśniki mit Spinat Rezept | Alemniam",
         seoDescription:
-          "Naleśniki ze szpinakiem: herzhafte vegetarische Variante — bilingual.",
-        article: `## Naleśniki mit Spinat — herzhaft vegetarisch
+          "Naleśniki ze szpinakiem: herzhafte vegetarische Variante, bilingual erklärt.",
+        article: `## Naleśniki mit Spinat, herzhaft vegetarisch
 
-Zwischen süßem Twaróg und Fleischfüllung: Spinat mit Knoblauch und etwas Käse. Alltagstauglich, kinderfreundlich wenn nicht „grün“ genannt wird.
+Diese Variante liegt zwischen dem süßen Twaróg und der Fleischfüllung: Spinat mit Knoblauch und etwas Käse. Sie ist alltagstauglich und meist auch kinderfreundlich, solange man sie nicht als grünes Gemüsegericht ankündigt.
 
 ### Spinat abtropfen
 
-Tiefkühlspinat gut ausdrücken; Frischspinat kurz andünsten und pressen. Feuchtigkeit ist der Feind.
+Drücke Tiefkühlspinat gründlich aus, Frischspinat dünstest du kurz an und presst ihn danach ebenso aus. Feuchtigkeit ist hier der größte Feind der Füllung.
 
 ### Einkaufen
 
-Spinat, Knoblauch, geriebener Käse oder Twaróg-salzig. [Śmietana](/de/blog/smietana-schmand) zum Servieren. Technik: [Naleśniki-Guide](/de/blog/nalesniki-guide).
+Du brauchst Spinat, Knoblauch, geriebenen Käse oder salzigen Twaróg. [Śmietana](/de/blog/smietana-schmand) passt gut zum Servieren, die Technik der Pfannkuchen erklärt der [Naleśniki-Guide](/de/blog/nalesniki-guide).
 
 ### Geschwister
 
-[Twaróg](/de/rezepte/nalesniki/twarog) · [Fleisch](/de/rezepte/nalesniki/fleisch) · [Marmelade](/de/rezepte/nalesniki/dzem)`,
+Oben wechseln zu [Twaróg](/de/rezepte/nalesniki/twarog), [Fleisch](/de/rezepte/nalesniki/fleisch) oder [Marmelade](/de/rezepte/nalesniki/dzem).`,
       },
       pl: {
         title: "Naleśniki ze szpinakiem",
         slug: "szpinak",
         excerpt:
-          "Wytrawne naleśniki ze szpinakiem i serem — lżejsze niż mięso, wyraźniejsze niż słodkie.",
+          "Wytrawne naleśniki ze szpinakiem i serem, lżejsze niż wersja z mięsem i wyraźniejsze w smaku niż wersje słodkie.",
         steps: [
-          { text: "Zrób ciasto, odstaw, usmaż cienkie naleśniki." },
           {
-            text: "Szpinak zeszklij z czosnkiem, odciśnij, wymieszaj z serem i solą.",
-            tip: "Dobrze odciśnij — mokry szpinak psuje ciasto.",
+            text: "Zrób ciasto, odstaw je na chwilę i usmaż z niego cienkie naleśniki.",
+            tip: "Wylej ciasto cienką warstwą i od razu przechyl patelnię, dzięki temu rozprowadzi się równo do brzegu.",
           },
-          { text: "Nadziewaj, zawiń, opcjonalnie podsmaż na maśle." },
-          { text: "Podawaj ze śmietaną albo jogurtem." },
+          {
+            text: "Zeszklij szpinak z czosnkiem, dobrze go odciśnij i wymieszaj z serem i solą.",
+            tip: "Odciśnij szpinak naprawdę dokładnie, bo mokry szpinak rozmiękcza ciasto i wypycha ser podczas smażenia.",
+          },
+          {
+            text: "Nadziewaj naleśniki, zawiń je i opcjonalnie podsmaż jeszcze raz na maśle na złoto.",
+            tip: "Daj farszowi trochę ostygnąć przed zwijaniem, żeby ciasto w tym miejscu nie zrobiło się za miękkie.",
+          },
+          {
+            text: "Podawaj naleśniki ze śmietaną albo jogurtem.",
+            tip: "Odrobina soku z cytryny w śmietanie dobrze łączy się z ziemistym smakiem szpinaku i odświeża sos.",
+          },
         ],
         seoTitle: "Naleśniki ze szpinakiem przepis | Alemniam",
         seoDescription:
-          "Naleśniki ze szpinakiem: wytrawny wariant wegetariański — dwujęzycznie.",
-        article: `## Naleśniki ze szpinakiem — wytrawnie wegetariańsko
+          "Naleśniki ze szpinakiem: wytrawny wariant wegetariański, opisany dwujęzycznie.",
+        article: `## Naleśniki ze szpinakiem, wytrawnie wegetariańsko
 
-Między słodkim twarogiem a mięsem: szpinak z czosnkiem i odrobiną sera. Na co dzień, przyjazne dzieciom, gdy nie nazywamy tego „zielonym dziwem”.
+Ten wariant leży między słodkim twarogiem a mięsem: szpinak z czosnkiem i odrobiną sera. Nadaje się na co dzień i zwykle jest przyjazny dzieciom, o ile nie ogłosimy z góry, że to danie z zielonym warzywem.
 
 ### Odciśnij szpinak
 
-Mrożony mocno odciśnij; świeży krótko podsmaż i wyciśnij. Wilgoć to wróg.
+Mrożony szpinak odciśnij dokładnie, świeży krótko podsmaż, a potem również dobrze wyciśnij. Wilgoć jest tutaj największym wrogiem farszu.
 
 ### Zakupy
 
-Szpinak, czosnek, tarty ser albo słony twaróg. [Śmietana](/pl/blog/smietana-schmand) do podania. Technika: [przewodnik naleśników](/pl/blog/nalesniki-przewodnik).
+Potrzebujesz szpinaku, czosnku, tartego sera albo słonego twarogu. [Śmietana](/pl/blog/smietana-schmand) dobrze pasuje do podania, a technikę placków opisuje [przewodnik naleśników](/pl/blog/nalesniki-przewodnik).
 
 ### Rodzeństwo
 
-[Twaróg](/pl/rezepte/nalesniki/twarog) · [Mięso](/pl/rezepte/nalesniki/mieso) · [Dżem](/pl/rezepte/nalesniki/dzem)`,
+Przełącz na [twaróg](/pl/rezepte/nalesniki/twarog), [mięso](/pl/rezepte/nalesniki/mieso) albo [dżem](/pl/rezepte/nalesniki/dzem).`,
       },
     },
     ingredients: [

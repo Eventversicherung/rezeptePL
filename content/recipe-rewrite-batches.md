@@ -37,16 +37,39 @@ sind untereinander unabhängig und dürfen parallel laufen.
 | W14-Rest | wuzetka, drozdzowka, jajka-faszerowane, cwikla, placek-po-wegiersku, leczo | seed-recipes-wave14-{a,b,c,d}.ts | recipe-articles-w14-{a,b,c,d}.ts | ✅ fertig (Agent f78b8ad6) |
 | W15 | kaczka, pieczen-rzymska, galareta, salatka-sledziowa, marchewka-groszek, fasolka-szparagowa, koperkowa, kisiel | seed-recipes-wave15-{a,b,c,d}.ts | recipe-articles-w15-{a,b,c,d}.ts | ✅ fertig (Agent 80ffeef7) |
 | W16 | surowka, de-volaille, kasza-gryczana, tatar, pierniczki, knedle-truskawki, chrzan, kurczak-pieczony | seed-recipes-wave16-{a,b,c,d}.ts | recipe-articles-w16-{a,b,c,d}.ts | ✅ fertig (Agent 0aaf959f) |
-| W17 | ogorki-kiszone, ogorki-malosolne, kapusta-kiszona, czosnek-kiszony, grzyby-marynowane, papryka-konserwowa, sliwki-w-occie, cebulka-marynowana, kalafior-w-occie, buraki-w-occie | seed-recipes-wave17.ts | recipe-articles-w17.ts (NEU — hatte bisher gar keine FACTS, zeigte Stub-Platzhalter) | ⏳ Agent b9165adf (erstellt neue FACTS-Datei) |
-| Mega-A | pierogi-leniwe, kopytka, lazanki, pyzy, zrazy | seed-recipes-wave5.ts | recipe-articles.ts | ⬜ offen (teilt recipe-articles.ts) |
-| Mega-B | makowiec, uszka, karp, krokiety, sernik, sledz | seed-recipes-wave6.ts, wave7.ts | recipe-articles.ts | ⬜ offen (teilt recipe-articles.ts) |
-| Mega-C | pierogi, golabki, oscypek, placki, nalesniki, rosol, bigos, nalesniki-mieso, nalesniki-szpinak | seed-blog-w3a.ts | recipe-articles.ts | ⬜ offen (teilt recipe-articles.ts) |
-| Mega-D | zurek, pierogi-meat, pierogi-cabbage, barszcz, schabowy, gulasz, kotlet-mielony, placki-cukinia, placki-ser, placki-jablka | seed-blog-w3b.ts, w3c.ts | recipe-articles.ts | ⬜ offen (teilt recipe-articles.ts) |
-| Mega-E | fasolka, faworki, racuchy, kluski-slaskie, chlodnik | seed-blog-w5.ts, seed.ts (inline) | recipe-articles.ts | ⬜ offen (teilt recipe-articles.ts) |
+| W17 | ogorki-kiszone, ogorki-malosolne, kapusta-kiszona, czosnek-kiszony, grzyby-marynowane, papryka-konserwowa, sliwki-w-occie, cebulka-marynowana, kalafior-w-occie, buraki-w-occie, **ogorki-konserwowe** (11. Rezept, ursprünglich übersehen) | seed-recipes-wave17.ts | recipe-articles-w17.ts (NEU — hatte bisher gar keine FACTS, zeigte Stub-Platzhalter) | ✅ fertig (Agent 1cbf34fc) |
+| Mega-A | pierogi-leniwe, kopytka, lazanki, pyzy, zrazy | seed-recipes-wave5.ts | recipe-articles-w8-d-retrofit.ts (kopytka/pyzy/zrazy) + recipe-articles-w10-d-retrofit.ts (pierogi-leniwe/lazanki, gewinnt dort) | ✅ fertig (Agent c5f9a383) |
+| Mega-B | makowiec, uszka, karp, krokiety, sernik, sledz | seed-recipes-wave6.ts, wave7.ts | recipe-articles-w8-d-retrofit.ts | ✅ fertig (Agent bdbc34bd) |
+| Mega-C | pierogi, golabki, oscypek, placki, nalesniki, rosol, bigos, nalesniki-mieso, nalesniki-szpinak | seed.ts (Basis) + seed-families.ts (nalesniki-mieso/szpinak + family-nalesniki-Excerpt) | recipe-articles.ts (Basis-FACTS-Objekt) | ✅ fertig (Agent 1dd41b85) |
+| Mega-D | zurek, pierogi-meat, pierogi-cabbage, barszcz, schabowy, gulasz, kotlet-mielony, placki-cukinia, placki-ser, placki-jablka | seed.ts (Basis) + seed-families.ts (pierogi-meat/cabbage, placki-cukinia/ser/jablka + family-pierogi/family-placki-Excerpt) | recipe-articles.ts (Basis-FACTS-Objekt) | ✅ fertig (Agent 86ae4124) |
+| Mega-E | fasolka, faworki, racuchy, kluski-slaskie, chlodnik | seed.ts (Basis) | recipe-articles.ts (Basis-FACTS-Objekt) | ✅ fertig (Agent ade70089) |
+| Mega-F | **ogorki-malosolne-ostre, ogorki-malosolne-miod, ogorki-malosolne-deb** (3 Rezepte, beim Wave-17-Batch übersehen) | seed-recipes-wave17-malosolne.ts (eigene Datei) + seed-families.ts (family-ogorki-malosolne-Excerpt) | recipe-articles-w17-malosolne.ts (NEU) | ✅ fertig (Agent 766985a8) |
 
-Mega-A bis Mega-E teilen sich alle `recipe-articles.ts` — diese Batches nacheinander abarbeiten,
-nicht parallel zueinander (auch wenn sie parallel zu den W8–W16-Batches laufen dürfen, da die
-Seed-Dateien unabhängig sind).
+## Projekt abgeschlossen (2026-08-20)
+
+Alle 109 Rezepte sind überarbeitet und verifiziert (`tsc --noEmit` sauber, `gate:reader-copy` zeigt
+0 Treffer für `recipe-*`/`family-*`, nur noch ~148 Treffer in Blog-Beiträgen, die nicht Teil dieses
+Auftrags waren). `SEED_VERSION` in `src/lib/data/store.ts` wurde einmalig von 46 auf 47 erhöht, damit
+lokale/Vercel-Stores die neuen Inhalte laden.
+
+**Nebenbei gefixt:** Ein einzelner übersehener Gedankenstrich in `recipe-szarlotka` (`seed-recipes-wave12-b.ts`,
+Feld `storeHintDe`) wurde beim Mega-E-Check entdeckt und direkt korrigiert.
+
+**Zwischenstand nach Mega-E:** Alle 106 der ursprünglich für Rezepte geplanten Batches sind fertig,
+`gate:reader-copy` zeigt 0 Treffer mehr für irgendeine `recipe-*`-ID. Die verbleibenden ~151 Treffer
+betreffen ausschließlich Blog-Beiträge (`post-*`), die nicht Teil dieses Rezept-Auftrags waren.
+
+**Korrektur (2026-08-20):** Die ursprüngliche Datei-Zuordnung für Mega-C/D/E war falsch (stand
+`seed-blog-w3a/b/c.ts`, `seed-blog-w5.ts` — das sind aber Blogbeitrags-Dateien, keine Rezeptdaten).
+Die tatsächlichen Rezeptdaten für alle Mega-Batches liegen in `seed.ts` (Basis-Rezepte) bzw.
+`seed-families.ts` (Familien-Varianten wie `nalesniki-mieso`, `pierogi-cabbage`, `placki-jablka`,
+`ogorki-malosolne-ostre`). `seed-families.ts` enthält außerdem eigene Familien-Excerpts (z. B.
+„Eine Familie, mehrere Füllungen ... — oben wechseln.") mit eigenen Gedankenstrichen, die beim
+jeweiligen Batch mitgefixt werden müssen, wenn eine der zugehörigen Varianten bearbeitet wird.
+
+Mega-A bis Mega-F teilen sich alle `recipe-articles.ts` (Basis-FACTS-Objekt) und teilweise
+`seed.ts`/`seed-families.ts` — diese Batches nacheinander abarbeiten, nicht parallel zueinander
+(auch wenn sie parallel zu den W8–W17-Batches laufen dürfen, da deren Seed-Dateien unabhängig sind).
 
 ## Wichtig: Retrofit-Override-Falle (entdeckt 2026-08-20, gefixt)
 
@@ -70,7 +93,9 @@ korrigiert wurde. Konkret gefunden:
 sonst wird die Korrektur zur Laufzeit unsichtbar überschrieben. Immer mit
 `getRecipeArticle(id, locale)` nach dem Edit verifizieren, nicht nur den Quelltext lesen.
 
-**Gesamt: 105 Rezepte (inkl. Wave 17, nachträglich entdeckt) · 1 fertig (zapiekanka) · Rest in den Batches oben.**
+**Gesamt: 109 Rezepte** (programmatisch über `seedRecipes.length` in `seed.ts` gezählt, inkl. aller
+Familien-Varianten). Verteilung: Pilot 1 · W8–W17 60+11=71 · Mega-A 5 · Mega-B 6 · Mega-C 9 ·
+Mega-D 10 · Mega-E 5 · Mega-F 3 = 109.
 
 ## Entscheidung (2026-08-20, mit User abgestimmt)
 

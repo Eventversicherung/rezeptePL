@@ -13,24 +13,45 @@ import type {
   ShoppingList,
   ShoppingListItem,
 } from "@/types/content";
-import { readStore, updateStore } from "./store";
+import { readStore, updateStore, type AppStore } from "./store";
+import { fetchSupabaseContentStore } from "./supabase-repository";
+
+/**
+ * Content read source, switched by env flag — see `feature-flag-switch`
+ * in the migration plan. Defaults to the local seed store so nothing
+ * changes until this is explicitly opted into per environment.
+ *
+ * Only the *public* content reads below use this switch. Admin/editing
+ * reads (`listAllRecipes`, `getRecipeById`) and writes always stay on the
+ * local store: the Supabase RLS policies only expose published rows to
+ * the anon/publishable key used here (by design — no service role key),
+ * so draft content would otherwise silently disappear from the admin UI.
+ */
+type ContentStore = Pick<AppStore, "recipes" | "families" | "clusters" | "blogPosts">;
+
+async function readContentStore(): Promise<ContentStore> {
+  if (process.env.CONTENT_SOURCE === "supabase") {
+    return fetchSupabaseContentStore();
+  }
+  return readStore();
+}
 
 export async function listPublishedRecipes(): Promise<Recipe[]> {
-  const store = await readStore();
+  const store = await readContentStore();
   return store.recipes
     .filter((r) => r.status === "published")
     .sort((a, b) => b.updatedAt.localeCompare(a.updatedAt));
 }
 
 export async function listFamilies(): Promise<RecipeFamily[]> {
-  const store = await readStore();
+  const store = await readContentStore();
   return store.families ?? [];
 }
 
 export async function getFamilyById(
   id: string,
 ): Promise<RecipeFamily | null> {
-  const store = await readStore();
+  const store = await readContentStore();
   return store.families.find((f) => f.id === id) ?? null;
 }
 
@@ -38,7 +59,7 @@ export async function getFamilyBySlug(
   locale: Locale,
   slug: string,
 ): Promise<RecipeFamily | null> {
-  const store = await readStore();
+  const store = await readContentStore();
   return (
     store.families.find((f) => f.translations[locale]?.slug === slug) ?? null
   );
@@ -47,7 +68,7 @@ export async function getFamilyBySlug(
 export async function getFamilyVariants(
   familyId: string,
 ): Promise<Recipe[]> {
-  const store = await readStore();
+  const store = await readContentStore();
   const family = store.families.find((f) => f.id === familyId);
   if (!family) return [];
   return family.variantIds
@@ -82,7 +103,7 @@ export async function resolveRecipeInFamily(
   const exact = await getRecipeInFamily(locale, familySlug, variantSlug);
   if (exact) return { ...exact, needsRedirect: false };
 
-  const store = await readStore();
+  const store = await readContentStore();
   const family =
     store.families.find(
       (f) =>
@@ -117,7 +138,7 @@ export async function resolveFamilyBySlug(
   const exact = await getFamilyBySlug(locale, slug);
   if (exact) return { family: exact, needsRedirect: false };
 
-  const store = await readStore();
+  const store = await readContentStore();
   const family =
     store.families.find(
       (f) =>
@@ -184,7 +205,7 @@ export async function listRecipeCatalog(
 }
 
 export async function listPublishedBlogPosts(): Promise<BlogPost[]> {
-  const store = await readStore();
+  const store = await readContentStore();
   return (store.blogPosts ?? [])
     .filter((p) => p.status === "published")
     .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
@@ -194,7 +215,7 @@ export async function getBlogPostBySlug(
   locale: Locale,
   slug: string,
 ): Promise<BlogPost | null> {
-  const store = await readStore();
+  const store = await readContentStore();
   return (
     (store.blogPosts ?? []).find(
       (p) =>
@@ -204,10 +225,11 @@ export async function getBlogPostBySlug(
 }
 
 export async function getBlogPostById(id: string): Promise<BlogPost | null> {
-  const store = await readStore();
+  const store = await readContentStore();
   return (store.blogPosts ?? []).find((p) => p.id === id) ?? null;
 }
 
+/** Admin-only listing (includes drafts): always the local store. */
 export async function listAllRecipes(): Promise<Recipe[]> {
   const store = await readStore();
   return store.recipes.sort((a, b) => b.updatedAt.localeCompare(a.updatedAt));
@@ -217,7 +239,7 @@ export async function getRecipeBySlug(
   locale: Locale,
   slug: string,
 ): Promise<Recipe | null> {
-  const store = await readStore();
+  const store = await readContentStore();
   return (
     store.recipes.find(
       (r) => r.status === "published" && r.translations[locale]?.slug === slug,
@@ -225,6 +247,7 @@ export async function getRecipeBySlug(
   );
 }
 
+/** Admin edit form + cross-content lookups (may need drafts): always the local store. */
 export async function getRecipeById(id: string): Promise<Recipe | null> {
   const store = await readStore();
   return store.recipes.find((r) => r.id === id) ?? null;
@@ -316,7 +339,7 @@ export async function setRecipeStatus(
 }
 
 export async function listClusters(kind?: ClusterKind): Promise<Cluster[]> {
-  const store = await readStore();
+  const store = await readContentStore();
   return kind
     ? store.clusters.filter((c) => c.kind === kind)
     : store.clusters;
@@ -327,7 +350,7 @@ export async function getClusterBySlug(
   locale: Locale,
   slug: string,
 ): Promise<Cluster | null> {
-  const store = await readStore();
+  const store = await readContentStore();
   return (
     store.clusters.find(
       (c) => c.kind === kind && c.slug[locale] === slug,
@@ -344,7 +367,7 @@ export async function resolveClusterBySlug(
   const exact = await getClusterBySlug(kind, locale, slug);
   if (exact) return { cluster: exact, needsRedirect: false };
 
-  const store = await readStore();
+  const store = await readContentStore();
   const cluster =
     store.clusters.find(
       (c) =>

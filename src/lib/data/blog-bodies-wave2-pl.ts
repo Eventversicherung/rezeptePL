@@ -61,7 +61,7 @@ Nie przeciążamy silnika, nie zostawiamy rozgrzanego żeliwa bez nadzoru i nie 
 
 ## Przed finalną decyzją
 
-Sprawdźmy wymiary szafki, gniazdko, wagę oraz realną wielkość porcji. Przeczytajmy także opinie opisujące używanie po kilku miesiącach, nie tylko rozpakowanie. Jeśli model ma nietypową część eksploatacyjną, upewniamy się, że kupimy ją lokalnie. W ten sposób ${nazwa.toLowerCase} zostaje wsparciem codziennego gotowania, a nie kolejnym obowiązkiem.
+Sprawdźmy wymiary szafki, gniazdko, wagę oraz realną wielkość porcji. Przeczytajmy także opinie opisujące używanie po kilku miesiącach, nie tylko rozpakowanie. Jeśli model ma nietypową część eksploatacyjną, upewniamy się, że kupimy ją lokalnie. W ten sposób ${nazwa.toLowerCase()} zostaje wsparciem codziennego gotowania, a nie kolejnym obowiązkiem.
 
 ## Jakość, higiena i orientacja
 
@@ -904,13 +904,7 @@ My nie oceniamy sprzętu w dniu rozpakowania. Pierwsze użycie bywa niezręczne 
 
 W małym mieszkaniu w Niemczech liczy się też akustyka i zapach. Maszynka o silnym silniku może być świetna technicznie, ale irytująca dla domowników w cienkich ścianach. Garnek żeliwny może być idealny do [bigosu](/pl/rezepte/bigos), ale ciężki do przenoszenia do zlewu. My wybieramy sprzęt, który pasuje do naszego codziennego rytmu — nie do kuchni z katalogu.
 
-## Realistyczna ocena po zakupie
-
-My nie oceniamy sprzętu w dniu rozpakowania. Pierwsze użycie bywa niezręczne — nowe zatrzaski, inna waga, inny hałas. Dopiero trzecia i czwarta sesja pokazują, czy narzędzie naprawdę wspiera naszą kuchnię. My zapisujemy: ile minut zaoszczędziliśmy, czy mycie nie zniechęca, czy efekt jest powtarzalny. Jeśli sprzęt stoi tygodniami, to sygnał — nie wina, tylko informacja. Można go sprzedać, przekazać albo zmienić sposób pracy.
-
-W małym mieszkaniu w Niemczech liczy się też akustyka i zapach. Maszynka o silnym silniku może być świetna technicznie, ale irytująca dla domowników w cienkich ścianach. Garnek żeliwny może być idealny do [bigosu](/pl/rezepte/bigos), ale ciężki do przenoszenia do zlewu. My wybieramy sprzęt, który pasuje do naszego codziennego rytmu — nie do kuchni z katalogu.
-
-${dopracujZakup("Naczynia żeliwne")}`;
+${dopracujZakup("Żeliwo")}`;
 
 export const bodyTeigmaschineUpgradePl = `Wymiana robota do ciasta nie powinna wynikać z jednej reklamy ani z frustracji po jednym ciężkim wieczorze. Ma sens wtedy, gdy obecne urządzenie ogranicza nas regularnie: przegrzewa się, skacze po blacie, nie wyrabia partii potrzebnej do pierogów albo nie da się go sensownie serwisować.
 

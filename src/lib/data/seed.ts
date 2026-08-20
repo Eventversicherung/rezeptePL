@@ -72,40 +72,43 @@ const baseRecipes: Recipe[] = [
         title: "Pierogi Ruskie",
         slug: "ruskie",
         excerpt:
-          "Klassische Pierogi mit Kartoffel und Twaróg. Weich, würzig, zum Teilen.",
+          "Klassische Pierogi mit Kartoffel und Twaróg, weich in der Füllung und würzig in der Zwiebelbutter, die Ruskie-Variante der Familie, ganz anders als die stichfesten Pierogi leniwe oder die winzigen Wigilia-Täschchen Uszka.",
         steps: [
           {
-            text: "Kartoffeln schälen, kochen und heiß stampfen.",
-            tip: "Nicht zu wässrig. Abtropfen lassen.",
+            text: "Schäle die Kartoffeln, koche sie weich und stampfe sie noch heiß, damit später keine Klümpchen in der Füllung bleiben.",
+            tip: "Lass die gestampften Kartoffeln kurz offen stehen, damit überschüssige Feuchtigkeit verdampft, sonst wird die Füllung zu weich.",
           },
           {
-            text: "Twaróg zerdrücken, mit Kartoffel, Zwiebel und Salz mischen.",
+            text: "Zerdrücke den Twaróg mit einer Gabel und vermische ihn gründlich mit den Kartoffeln, der fein gewürfelten Zwiebel und Salz.",
+            tip: "Brate die Zwiebel vor dem Mischen kurz goldbraun an, das nimmt ihr die Schärfe und gibt der Füllung mehr Tiefe.",
           },
           {
-            text: "Teig aus Mehl, Ei, Wasser und Öl kneten, 20 Min ruhen lassen.",
-            tip: "Teig sollte weich, nicht klebrig sein.",
+            text: "Knete aus Mehl, Ei, Wasser und Öl einen glatten Teig und lass ihn 20 Minuten unter einem Tuch ruhen.",
+            tip: "Der Teig soll weich und elastisch sein, aber nicht an den Fingern kleben, notfalls löffelweise Mehl nachgeben.",
           },
           {
-            text: "Kreise ausstechen, füllen, Ränder fest zusammendrücken.",
+            text: "Stich runde Kreise aus dem ausgerollten Teig, fülle sie mit einem Löffel Masse und drücke die Ränder fest zu einer Halbmondform zusammen.",
+            tip: "Drücke die Naht zuerst mit den Fingern und dann noch einmal mit einer Gabel zu, so öffnet sich beim Kochen kein Pierog.",
           },
           {
-            text: "In Salzwasser garen, bis sie aufsteigen. Mit Butter und Zwiebel servieren.",
+            text: "Gare die Pierogi in leicht kochendem Salzwasser, bis sie an die Oberfläche steigen, und serviere sie sofort mit brauner Butter und angeschwitzter Zwiebel.",
+            tip: "Lass das Wasser nur sanft köcheln, bei zu starkem Kochen reißen die Nähte auf.",
           },
         ],
         seoTitle: "Pierogi Ruskie Rezept | Alemniam",
         seoDescription:
           "Pierogi Ruskie kochen und einkaufen. Bilingual mit DE-Ladenhinweisen.",
-        article: `## Pierogi Ruskie — die Hausvariante
+        article: `## Pierogi Ruskie, die Hausvariante
 
-Kartoffeln, Twaróg, Zwiebel. Kein Spektakel, dafür der Geschmack, den viele mit „Zuhause“ verbinden. Oben kannst du zu Fleisch oder Kraut-Pilze wechseln — dieselbe Familie, anderer Tag.
+Kartoffeln, Twaróg und Zwiebel ergeben zusammen den Geschmack, den viele einfach „Zuhause“ nennen, ganz ohne Spektakel. Oben auf der Seite kannst du zur Fleischfüllung oder zu Kraut und Pilzen wechseln, dieselbe Familie, nur ein anderer Tag.
 
 ### Twaróg in DE
 
-Lies den [Twaróg-Guide](/de/blog/twarog-deutschland). Quark gut abtropfen.
+Lies den [Twaróg-Guide](/de/blog/twarog-deutschland) und lass den Quark gut abtropfen, bevor du ihn verarbeitest.
 
 ### Teig
 
-Schritt [Pierogi-Teig](/de/blog/pierogi-teig) · [Teigmaschine](/de/blog/teigmaschine-pierogi) · [Technik Teig](/de/techniken/teig).
+Schritt für Schritt hilft [Pierogi-Teig](/de/blog/pierogi-teig), außerdem die [Teigmaschine](/de/blog/teigmaschine-pierogi) und die [Technik Teig](/de/techniken/teig).
 
 ### Geschwister
 
@@ -115,36 +118,39 @@ Oben wechseln zu Fleisch, Kraut & Pilze oder Heidelbeeren.`,
         title: "Pierogi ruskie",
         slug: "ruskie",
         excerpt:
-          "Klasyczne pierogi z ziemniakami i twarogiem. Miękkie, sycące, do dzielenia.",
+          "Klasyczne pierogi z ziemniakami i twarogiem, miękkie w farszu i aromatyczne z cebulką na maśle, wariant ruskie, zupełnie inny niż zwarte pierogi leniwe czy maleńkie wigilijne uszka.",
         steps: [
           {
-            text: "Obierz ziemniaki, ugotuj i ugnieć na gorąco.",
-            tip: "Odsącz dobrze. Masa nie może być wodnista.",
+            text: "Obierz ziemniaki, ugotuj je do miękkości i ugnieć jeszcze na gorąco, żeby w farszu nie zostały grudki.",
+            tip: "Odstaw ugniecione ziemniaki na chwilę bez przykrycia, żeby odparowała nadmiarowa wilgoć, inaczej farsz będzie za wodnisty.",
           },
           {
-            text: "Rozduś twaróg, wymieszaj z ziemniakami, cebulą i solą.",
+            text: "Rozgnieć twaróg widelcem i dokładnie wymieszaj go z ziemniakami, drobno posiekaną cebulą i solą.",
+            tip: "Podsmaż cebulę na złoto przed dodaniem do farszu, straci ostrość i doda mu głębi smaku.",
           },
           {
-            text: "Zagnieć ciasto z mąki, jajka, wody i oleju, odstaw na 20 min.",
-            tip: "Ciasto ma być miękkie, nie klejące.",
+            text: "Zagnieć gładkie ciasto z mąki, jajka, wody i oleju i odstaw je na 20 minut pod ściereczką.",
+            tip: "Ciasto ma być miękkie i elastyczne, ale nie lepić się do rąk, w razie potrzeby dosyp łyżkę mąki.",
           },
           {
-            text: "Wykrawaj kółka, nadziewaj, szczelnie sklej brzegi.",
+            text: "Wykrawaj kółka z rozwałkowanego ciasta, nakładaj łyżkę farszu i szczelnie zlepiaj brzegi w kształt półksiężyca.",
+            tip: "Zlep szew najpierw palcami, a potem dodatkowo widelcem, dzięki temu pieróg się nie otworzy podczas gotowania.",
           },
           {
-            text: "Gotuj w osolonej wodzie, aż wypłyną. Podawaj z masłem i cebulą.",
+            text: "Gotuj pierogi w lekko wrzącej, osolonej wodzie, aż wypłyną na powierzchnię, i podawaj od razu z przypieczonym masłem i cebulą.",
+            tip: "Gotuj wodę tylko na lekkim wrzeniu, przy zbyt intensywnym gotowaniu pierogi mogą się porozklejać.",
           },
         ],
         seoTitle: "Pierogi ruskie przepis | Alemniam",
         seoDescription:
           "Pierogi ruskie. Gotowanie i zakupy, dwujęzycznie ze wskazówkami DE.",
-        article: `## Pierogi ruskie — wariant domowy
+        article: `## Pierogi ruskie, wariant domowy
 
-Ziemniaki, twaróg, cebula. Bez widowiska — smak, który wielu łączy z domem. U góry przełączysz na mięso, kapustę z grzybami albo jagody.
+Ziemniaki, twaróg i cebula, bez żadnego widowiska, tylko smak, który wielu łączy z domem. U góry przełączysz na mięso, kapustę z grzybami albo jagody.
 
 ### Twaróg w DE
 
-[Poradnik twaróg](/pl/blog/twarog-w-niemczech). Quark dobrze odsącz.
+[Poradnik twaróg](/pl/blog/twarog-w-niemczech) pomoże dobrze odsączyć twaróg, zanim go użyjesz.
 
 ### Ciasto
 
@@ -221,17 +227,24 @@ Ziemniaki, twaróg, cebula. Bez widowiska — smak, który wielu łączy z domem
         title: "Bigos",
         slug: "bigos",
         excerpt:
-          "Polnischer Krauteintopf. Am besten einen Tag vorher gekocht.",
+          "Polnischer Krautschmortopf aus Sauerkraut, Weißkohl und gemischtem Fleisch, idealerweise einen Tag vorher gekocht und aufgewärmt, herzhafter und vielschichtiger als die einfache Kapusta zasmażana und ohne die Tomatenbasis eines Gulasz.",
         steps: [
-          { text: "Speck und Fleisch anbraten, herausnehmen." },
           {
-            text: "Zwiebel und Pilze anschwitzen, Sauerkraut und Weißkohl zugeben.",
+            text: "Brate den Speck knusprig aus und brate das Fleisch darin scharf an, bevor du beides beiseitestellst.",
+            tip: "Die Röstaromen bleiben in der Pfanne und geben später der ganzen Sauce mehr Tiefe.",
           },
           {
-            text: "Fleisch zurück, mit Brühe, Lorbeer und Gewürzen schmoren.",
-            tip: "Mindestens 1,5 Stunden. Besser über Nacht ruhen lassen.",
+            text: "Schwitze Zwiebel und Pilze im Bratfett an und gib danach Sauerkraut und frischen Weißkohl dazu.",
+            tip: "Weiche getrocknete Pilze vorher gut ein und verwende das Einweichwasser gleich mit, es steckt voller Aroma.",
           },
-          { text: "Abschmecken und mit Brot servieren." },
+          {
+            text: "Gib das Fleisch zurück in den Topf und schmore alles mit Brühe, Lorbeer und Gewürzen zugedeckt bei niedriger Hitze.",
+            tip: "Mindestens 1,5 Stunden köcheln lassen, am besten über Nacht im Kühlschrank durchziehen lassen und am nächsten Tag aufwärmen.",
+          },
+          {
+            text: "Schmecke den Bigos am Ende noch einmal ab und serviere ihn heiß mit kräftigem Brot.",
+            tip: "Ist er zu sauer geraten, hilft frischer Weißkohl statt Zucker, um die Säure sanft auszugleichen.",
+          },
         ],
         seoTitle: "Bigos Rezept | Alemniam",
         seoDescription:
@@ -240,17 +253,25 @@ Ziemniaki, twaróg, cebula. Bez widowiska — smak, który wielu łączy z domem
       pl: {
         title: "Bigos",
         slug: "bigos",
-        excerpt: "Polski gulasz z kapusty. Najlepiej dzień wcześniej.",
+        excerpt:
+          "Polski gulasz z kapusty kiszonej, kapusty świeżej i mieszanego mięsa, najlepiej ugotowany dzień wcześniej i odgrzany, głębszy w smaku niż prosta kapusta zasmażana i bez pomidorowej bazy gulaszu.",
         steps: [
-          { text: "Podsmaż boczek i mięso, odłóż na bok." },
           {
-            text: "Zeszklij cebulę i grzyby, dodaj kapustę kiszoną i świeżą.",
+            text: "Podsmaż boczek na chrupko, a potem mocno obsmaż mięso i odłóż całość na bok.",
+            tip: "Aromaty z podsmażania zostają na dnie garnka i później wzmacniają cały sos.",
           },
           {
-            text: "Włóż mięso z powrotem, duś z bulionem i przyprawami.",
-            tip: "Minimum 1,5 h. Najlepiej odstaw na noc.",
+            text: "Zeszklij cebulę i grzyby na tym samym tłuszczu, a następnie dodaj kapustę kiszoną i świeżą.",
+            tip: "Namocz wcześniej suszone grzyby i użyj też wody z namaczania, ma mocny, przydatny aromat.",
           },
-          { text: "Dopraw i podawaj z chlebem." },
+          {
+            text: "Włóż mięso z powrotem do garnka i duś wszystko pod przykryciem z bulionem, liściem laurowym i przyprawami na małym ogniu.",
+            tip: "Gotuj minimum 1,5 godziny, a najlepiej odstaw na noc do lodówki i odgrzej następnego dnia.",
+          },
+          {
+            text: "Dopraw bigos na końcu do smaku i podawaj gorący z kawałkiem chleba.",
+            tip: "Jeśli wyszedł zbyt kwaśny, dodaj świeżej kapusty zamiast cukru, to łagodzi kwasowość bez słodzenia.",
+          },
         ],
         seoTitle: "Bigos przepis | Alemniam",
         seoDescription: "Klasyczny bigos. Przepis i lista zakupów.",
@@ -322,38 +343,56 @@ Ziemniaki, twaróg, cebula. Bez widowiska — smak, który wielu łączy z domem
       de: {
         title: "Żurek",
         slug: "zurek",
-        excerpt: "Sauerteigsuppe mit Weißwurst und Ei. Warm und klar.",
+        excerpt:
+          "Kräftige Sauerteigsuppe aus fermentiertem Roggen mit weißer Wurst, Kartoffeln und Ei, säuerlicher und dichter als der klare Barszcz und herzhafter als die goldene Hühnerbrühe Rosół.",
         steps: [
           {
-            text: "Żur-Ansatz mit Wasser und Gewürzen aufkochen.",
-            tip: "Fertigen Żur gibt’s im Polenladen.",
+            text: "Erhitze den Żur-Ansatz zusammen mit etwas Wasser und bring ihn langsam zum Köcheln, ohne ihn stark aufkochen zu lassen.",
+            tip: "Fertigen Żur-Ansatz bekommst du in Flaschen im [Polenladen](/de/blog/polenladen-einkaufen), das rettet den Zeitplan, wenn vor Feiertagen wenig Zeit bleibt.",
           },
           {
-            text: "Wurst und Kartoffeln mitgaren.",
-            tip: "Einlage schonend: [Biała kiełbasa](/de/rezepte/biala-kielbasa); Sorten im [Kiełbasa-Lexikon](/de/blog/kielbasa-arten).",
+            text: "Schneide die Kartoffeln in Würfel und gare sie zusammen mit der weißen Wurst sanft in der Suppe mit, bis beides weich, aber nicht zerfallen ist.",
+            tip: "Behandle die Wurst schonend, denn zu starkes Kochen macht sie zäh, mehr zur Einlage findest du im Rezept zu [Biała kiełbasa](/de/rezepte/biala-kielbasa).",
           },
-          { text: "Mit Knoblauch und Majoran abschmecken, Ei dazugeben." },
+          {
+            text: "Schmecke die Suppe mit zerdrücktem Knoblauch und Majoran ab und gib das Ei erst zum Schluss hinein, damit es nicht zu fest wird.",
+            tip: "Der Majoran macht die Suppe erst wirklich zum Żurek, probiere am Ende noch einmal ab, denn die Säure verändert sich während des Kochens.",
+          },
+          {
+            text: "Serviere den Żurek heiß mit den Wurstscheiben, dem halbierten Ei und einer dicken Scheibe kräftigem Brot.",
+            tip: "Wer mag, gibt einen Löffel Sauerrahm dazu, das bleibt aber Geschmackssache im Haus und kein Muss.",
+          },
         ],
         seoTitle: "Żurek Rezept | Alemniam",
-        seoDescription: "Żurek kochen. Mit Tipps wo man Żur in DE findet.",
+        seoDescription:
+          "Żurek kochen: Sauerteigsuppe mit Weißwurst und Ei, bilingual mit Tipps zum Żur-Einkauf in Deutschland.",
       },
       pl: {
         title: "Żurek",
         slug: "zurek",
-        excerpt: "Zupa na zakwasie z białą kiełbasą i jajkiem.",
+        excerpt:
+          "Gęsta zupa na żytnim zakwasie z białą kiełbasą, ziemniakami i jajkiem, kwaśniejsza i gęstsza niż klarowny barszcz i bardziej sycąca niż złoty rosół z kurczaka.",
         steps: [
           {
-            text: "Zagotuj zakwas żuru z wodą i przyprawami.",
-            tip: "Gotowy żur kupisz w polskim sklepie.",
+            text: "Zagotuj zakwas żuru z odrobiną wody i doprowadź go powoli do lekkiego wrzenia, bez gwałtownego bulgotania.",
+            tip: "Gotowy zakwas na żur kupisz w butelkach w [sklepie polskim](/pl/blog/sklep-polski-zakupy), co ratuje harmonogram przed świętami, gdy zostaje mało czasu.",
           },
           {
-            text: "Ugotuj kiełbasę i ziemniaki w zupie.",
-            tip: "Dodatek delikatnie: [biała kiełbasa](/pl/rezepte/biala-kielbasa); rodzaje w [leksykonie kiełbasy](/pl/blog/rodzaje-kielbasy).",
+            text: "Pokrój ziemniaki w kostkę i ugotuj je razem z białą kiełbasą delikatnie w zupie, aż oba składniki będą miękkie, ale nie rozpadną się.",
+            tip: "Kiełbasę traktuj delikatnie, bo za mocne gotowanie robi ją twardą, więcej o samym dodatku znajdziesz w przepisie na [białą kiełbasę](/pl/rezepte/biala-kielbasa).",
           },
-          { text: "Dopraw czosnkiem i majerankiem, dodaj jajko." },
+          {
+            text: "Dopraw zupę roztartym czosnkiem i majerankiem, a jajko dodaj na samym końcu, żeby nie zrobiło się zbyt twarde.",
+            tip: "Majeranek naprawdę czyni tę zupę żurkiem, spróbuj jeszcze raz na końcu, bo kwasowość zmienia się podczas gotowania.",
+          },
+          {
+            text: "Podawaj żurek gorący z plastrami kiełbasy, przekrojonym na pół jajkiem i kawałkiem mocnego chleba.",
+            tip: "Kto lubi, dodaje łyżkę śmietany, ale to kwestia domu, a nie obowiązkowy element przepisu.",
+          },
         ],
         seoTitle: "Żurek przepis | Alemniam",
-        seoDescription: "Żurek. Przepis i lista zakupów dwujęzycznie.",
+        seoDescription:
+          "Żurek: przepis na zupę na zakwasie z białą kiełbasą i jajkiem, dwujęzycznie z listą zakupów w Niemczech.",
       },
     },
     ingredients: [
@@ -419,14 +458,21 @@ Ziemniaki, twaróg, cebula. Bez widowiska — smak, który wielu łączy z domem
       de: {
         title: "Gegrillter Oscypek mit Preiselbeeren",
         slug: "oscypek-preiselbeeren",
-        excerpt: "Schneller Podhale-Teller. Rauchig, süß-sauer.",
+        excerpt:
+          "Schneller Podhale-Teller mit gebratenem, geschütztem Oscypek und süßsauren Preiselbeeren, hier ist der geräucherte Schafskäse selbst das warme Hauptgericht und nicht nur Zutat für andere Speisen.",
         steps: [
-          { text: "Oscypek in Scheiben schneiden." },
           {
-            text: "In der Pfanne oder auf dem Grill goldbraun braten.",
-            tip: "Nicht zu heiß. Der Käse soll nur anschmelzen.",
+            text: "Schneide den Oscypek in etwa fingerdicke Scheiben, damit er beim Braten nicht vollständig zerläuft.",
+            tip: "Schneide nicht zu dünn, sonst schmilzt der Käse in der Pfanne komplett weg, statt nur an der Oberfläche anzuschmelzen.",
           },
-          { text: "Mit Preiselbeeren und Roggenbrot servieren." },
+          {
+            text: "Brate die Scheiben in der Pfanne oder auf dem Grill bei mittlerer Hitze goldbraun, bis sie außen eine leichte Kruste bekommen.",
+            tip: "Der Käse soll nur außen anschmelzen und innen fest bleiben, zu starke Hitze verbrennt sonst den Rauchgeschmack.",
+          },
+          {
+            text: "Serviere den Oscypek sofort mit Preiselbeeren und Roggenbrot, solange er noch warm ist.",
+            tip: "Iss ihn möglichst direkt nach dem Braten, denn abgekühlt wird die Kruste schnell zäh.",
+          },
         ],
         seoTitle: "Oscypek mit Preiselbeeren | Alemniam",
         seoDescription: "Gegrillter Oscypek. Schnelles Podhale-Rezept.",
@@ -434,14 +480,21 @@ Ziemniaki, twaróg, cebula. Bez widowiska — smak, który wielu łączy z domem
       pl: {
         title: "Oscypek z żurawiną",
         slug: "oscypek-zurawina",
-        excerpt: "Szybki talerz z Podhala. Wędzony, słodko-kwaśny.",
+        excerpt:
+          "Szybki talerz z Podhala z podsmażonym, chronionym oscypkiem i słodko-kwaśną żurawiną, tu sam wędzony ser owczy jest ciepłym daniem głównym, a nie tylko dodatkiem do innych potraw.",
         steps: [
-          { text: "Pokrój oscypek w plastry." },
           {
-            text: "Opiecz na patelni lub grillu na złoto.",
-            tip: "Nie za mocno. Ser ma tylko się podtopić.",
+            text: "Pokrój oscypek w plastry o grubości mniej więcej palca, żeby nie rozpłynął się całkowicie podczas smażenia.",
+            tip: "Nie kroj za cienko, bo ser stopi się na patelni całkowicie, zamiast tylko lekko podtopić się na powierzchni.",
           },
-          { text: "Podawaj z żurawiną i chlebem żytnim." },
+          {
+            text: "Opiecz plastry na patelni lub grillu na średnim ogniu na złoto, aż zrobią się lekko przypieczone na zewnątrz.",
+            tip: "Ser ma się tylko podtopić na zewnątrz i zostać zwarty w środku, za mocny ogień spala dymny aromat.",
+          },
+          {
+            text: "Podawaj oscypek od razu z żurawiną i chlebem żytnim, jeszcze ciepły.",
+            tip: "Jedz go najlepiej prosto z patelni, bo po ostudzeniu skórka szybko robi się gumowata.",
+          },
         ],
         seoTitle: "Oscypek z żurawiną | Alemniam",
         seoDescription: "Oscypek z żurawiną. Szybki przepis z Podhala.",
@@ -505,35 +558,39 @@ Ziemniaki, twaróg, cebula. Bez widowiska — smak, który wielu łączy z domem
         title: "Placki ziemniaczane",
         slug: "ziemniaczane",
         excerpt:
-          "Knusprige Kartoffelpuffer. Mit Śmietana, Gulasch oder pur mit Zucker.",
+          "Knusprige klassische Kartoffelpuffer aus reinem Kartoffelteig, serviert mit Śmietana, Gulasch oder pur mit Zucker, die Basisvariante der Placki-Familie, anders als die Cukinia-, Käse- oder Apfel-Varianten und anders als der belegte Teller Placek po węgiersku oder der panierte Kotlet mielony.",
         steps: [
           {
-            text: "Kartoffeln und Zwiebel reiben, Masse kräftig ausdrücken.",
-            tip: "Wasser ist der Feind der Knusprigkeit — Küchentuch nutzen.",
-          },
-          { text: "Mit Ei, Mehl, Salz und Pfeffer verrühren. 5 Minuten ruhen." },
-          {
-            text: "In heißem Öl (3–5 mm) goldbraun ausbacken.",
-            tip: "Nicht zu dick. Sonst bleiben sie innen roh.",
+            text: "Reibe Kartoffeln und Zwiebel und drücke die Masse danach kräftig aus, damit möglichst wenig Wasser übrig bleibt.",
+            tip: "Wasser ist der Feind der Knusprigkeit, benutze am besten ein Küchentuch, um die geriebene Masse richtig auszudrücken.",
           },
           {
-            text: "Heiß mit Sauerrahm, [Gulasch](/de/rezepte/gulasz-wieprzowy) oder Zucker servieren.",
+            text: "Verrühre die ausgedrückte Masse mit Ei, Mehl, Salz und Pfeffer und lass sie 5 Minuten ruhen.",
+            tip: "Die kurze Ruhezeit bindet die Masse besser, dadurch fallen die Puffer beim Braten nicht so leicht auseinander.",
+          },
+          {
+            text: "Backe die Puffer in heißem Öl, etwa 3 bis 5 Millimeter tief, von beiden Seiten goldbraun aus.",
+            tip: "Forme die Puffer nicht zu dick, sonst bleiben sie innen roh, während außen schon alles verbrannt ist.",
+          },
+          {
+            text: "Serviere die Placki heiß mit Sauerrahm, [Gulasch](/de/rezepte/gulasz-wieprzowy) oder Zucker.",
+            tip: "Placki verlieren im Stapel schnell ihre Kruste, verteile sie beim Warmhalten lieber einzeln auf einem Blech im Ofen.",
           },
         ],
         seoTitle: "Placki ziemniaczane Rezept | Alemniam",
         seoDescription:
-          "Polnische Kartoffelpuffer — Variante klassisch, bilingual mit DE-Einkauf.",
-        article: `## Placki ziemniaczane — der Klassiker
+          "Polnische Kartoffelpuffer, klassische Variante, bilingual mit DE-Einkauf.",
+        article: `## Placki ziemniaczane, der Klassiker
 
-Rohe Kartoffeln, gerieben, gebunden mit Ei und wenig Mehl — in heißem Öl gebraten. Außen knusprig, innen weich. In der Diaspora oft das erste polnische Gericht, das Nachbarn mögen.
+Rohe Kartoffeln werden gerieben, mit Ei und wenig Mehl gebunden und in heißem Öl gebraten, außen knusprig, innen weich. In der Diaspora ist das oft das erste polnische Gericht, das auch Nachbarn mögen.
 
 ### Technik in Kurzform
 
-Festkochende Kartoffeln, Masse **gründlich ausdrücken**, Pfanne wirklich heiß. Ausführlich: [Placki-Guide](/de/blog/placki-guide) · [Gusseisen](/de/blog/gusseisenpfanne).
+Nimm festkochende Kartoffeln, drücke die Masse **gründlich aus** und sorge dafür, dass die Pfanne wirklich heiß ist. Ausführlich erklärt das der [Placki-Guide](/de/blog/placki-guide) und der Beitrag zur [Gusseisenpfanne](/de/blog/gusseisenpfanne).
 
 ### Servieren
 
-Śmietana (Schmand) klassisch. Deftig mit [Gulasz](/de/rezepte/gulasz-wieprzowy). Süß mit Zucker — in manchen Familien normal.
+Śmietana, also Schmand, ist die klassische Beilage. Deftig wird es mit [Gulasz](/de/rezepte/gulasz-wieprzowy), süß mit Zucker, was in manchen Familien ganz normal ist.
 
 ### Weitere Varianten
 
@@ -543,35 +600,39 @@ Oben wechseln: [Zucchini](/de/rezepte/placki/cukinia), [Käse](/de/rezepte/plack
         title: "Placki ziemniaczane",
         slug: "ziemniaczane",
         excerpt:
-          "Chrupiące placki z surowych ziemniaków. Ze śmietaną, gulaszem albo cukrem.",
+          "Chrupiące klasyczne placki z surowych ziemniaków, podawane ze śmietaną, gulaszem albo na słodko z cukrem, podstawowy wariant rodziny placków, inny niż placki z cukinią, serem czy jabłkami i inny niż złożony talerz placek po węgiersku czy panierowany kotlet mielony.",
         steps: [
           {
-            text: "Starte ziemniaki i cebulę, mocno odciśnij masę.",
-            tip: "Woda to wróg chrupkości — użyj ściereczki.",
-          },
-          { text: "Wymieszaj z jajkiem, mąką, solą i pieprzem. Odstaw 5 min." },
-          {
-            text: "Smaż na złoto na gorącym oleju (3–5 mm).",
-            tip: "Nie za grube. Inaczej zostaną surowe w środku.",
+            text: "Zetrzyj ziemniaki i cebulę, a potem mocno odciśnij masę, żeby zostało w niej jak najmniej wody.",
+            tip: "Woda to wróg chrupkości, najlepiej użyj ściereczki, żeby dobrze odciśnąć startą masę.",
           },
           {
-            text: "Podawaj gorące ze śmietaną, [gulaszem](/pl/rezepte/gulasz-wieprzowy) albo cukrem.",
+            text: "Wymieszaj odciśniętą masę z jajkiem, mąką, solą i pieprzem i odstaw na 5 minut.",
+            tip: "Krótki odpoczynek lepiej zwiąże masę, dzięki czemu placki nie rozpadają się podczas smażenia.",
+          },
+          {
+            text: "Smaż placki na złoto z obu stron na gorącym oleju, w warstwie o głębokości 3 do 5 milimetrów.",
+            tip: "Nie formuj za grubych placków, inaczej zostaną surowe w środku, gdy na zewnątrz już się przypalą.",
+          },
+          {
+            text: "Podawaj placki gorące ze śmietaną, [gulaszem](/pl/rezepte/gulasz-wieprzowy) albo cukrem.",
+            tip: "Placki w stosie szybko tracą chrupkość, przy trzymaniu ciepła lepiej rozłożyć je osobno na blasze w piekarniku.",
           },
         ],
         seoTitle: "Placki ziemniaczane przepis | Alemniam",
         seoDescription:
-          "Placki ziemniaczane — wariant klasyczny, dwujęzycznie ze wskazówkami DE.",
-        article: `## Placki ziemniaczane — klasyk
+          "Placki ziemniaczane, wariant klasyczny, dwujęzycznie ze wskazówkami DE.",
+        article: `## Placki ziemniaczane, klasyk
 
-Surowe ziemniaki starte, związane jajkiem i odrobiną mąki — smażone na gorącym oleju. Na zewnątrz chrupko, w środku miękko.
+Surowe ziemniaki są starte, związane jajkiem i odrobiną mąki, a potem smażone na gorącym oleju, na zewnątrz chrupko, w środku miękko.
 
 ### Technika
 
-Ziemniaki raczej mączyste, masa **dobrze odciśnięta**, patelnia naprawdę gorąca. Więcej: [Przewodnik placki](/pl/blog/placki-przewodnik) · [Patelnia żeliwna](/pl/blog/patelnia-zelivna).
+Wybierz ziemniaki raczej mączyste, **dobrze odciśnij** masę i miej naprawdę gorącą patelnię. Więcej opisuje [przewodnik placki](/pl/blog/placki-przewodnik) i wpis o [patelni żeliwnej](/pl/blog/patelnia-zelivna).
 
 ### Podanie
 
-Śmietana klasycznie. Obok [gulasz](/pl/rezepte/gulasz-wieprzowy). Na słodko z cukrem — w wielu domach norma.
+Śmietana pasuje klasycznie, na ostro dobrze robi [gulasz](/pl/rezepte/gulasz-wieprzowy), a na słodko cukier, co w wielu domach jest normą.
 
 ### Inne warianty
 
@@ -636,12 +697,25 @@ Przełącz u góry: [cukinia](/pl/rezepte/placki/cukinia), [ser](/pl/rezepte/pla
       de: {
         title: "Gołąbki",
         slug: "golabki",
-        excerpt: "Kohlrouladen mit Reis und Fleisch in Tomatensoße.",
+        excerpt:
+          "Gedämpfte Kohlrouladen mit Reis und Hackfleisch in Tomatensoße, langsam geschmort, bis der Kohl butterzart ist, ganz anders als das schnell angebratene Gemüsegericht Leczo.",
         steps: [
-          { text: "Weißkohl blanchieren, Blätter lösen." },
-          { text: "Füllung aus Hack, Reis und Zwiebel würzen." },
-          { text: "Rollen wickeln, in Tomatensoße schmoren.", tip: "Ca. 50–60 Min. Bei mittlerer Hitze." },
-          { text: "Mit Dill und Brot servieren." },
+          {
+            text: "Blanchiere den Weißkohl kurz in kochendem Wasser und löse die Blätter vorsichtig vom Strunk.",
+            tip: "Schneide dicke Blattrippen vorher flach, sonst reißen die Blätter beim Rollen leicht ein.",
+          },
+          {
+            text: "Würze die Füllung aus Hackfleisch, Reis und Zwiebel kräftig mit Salz, Pfeffer und etwas Majoran.",
+            tip: "Koch den Reis nur al dente vor, er quillt später beim Schmoren noch weiter nach.",
+          },
+          {
+            text: "Wickle die Füllung fest in die Kohlblätter und schmore die Rollen zugedeckt in Tomatensoße.",
+            tip: "Etwa 50 bis 60 Minuten bei mittlerer Hitze köcheln lassen, die Naht sollte dabei nach unten liegen, damit sie sich nicht öffnet.",
+          },
+          {
+            text: "Serviere die Gołąbki heiß mit Dill und einer Scheibe Brot.",
+            tip: "Am nächsten Tag schmecken sie oft noch runder, weil sich Kohl und Soße über Nacht verbunden haben.",
+          },
         ],
         seoTitle: "Gołąbki Rezept | Alemniam",
         seoDescription: "Polnische Kohlrouladen. Kochen und einkaufen.",
@@ -649,12 +723,25 @@ Przełącz u góry: [cukinia](/pl/rezepte/placki/cukinia), [ser](/pl/rezepte/pla
       pl: {
         title: "Gołąbki",
         slug: "golabki",
-        excerpt: "Gołąbki z ryżem i mięsem w sosie pomidorowym.",
+        excerpt:
+          "Duszone gołąbki z ryżem i mięsem mielonym w sosie pomidorowym, długo duszone, aż kapusta zrobi się miękka jak masło, zupełnie inne niż szybko podsmażane leczo.",
         steps: [
-          { text: "Blanszuj kapustę, oddziel liście." },
-          { text: "Przygotuj farsz z mięsa, ryżu i cebuli." },
-          { text: "Zawiń rolki, duś w sosie pomidorowym.", tip: "Ok. 50–60 min na średnim ogniu." },
-          { text: "Podawaj z koperkiem i chlebem." },
+          {
+            text: "Blanszuj kapustę krótko w gorącej wodzie i ostrożnie oddziel liście od głąba.",
+            tip: "Spłaszcz wcześniej grube żyłki liści, inaczej łatwo się przerywają podczas zwijania.",
+          },
+          {
+            text: "Przygotuj farsz z mięsa mielonego, ryżu i cebuli i dopraw go solą, pieprzem i odrobiną majeranku.",
+            tip: "Ugotuj ryż tylko al dente, bo podczas duszenia jeszcze napęcznieje.",
+          },
+          {
+            text: "Zawiń farsz szczelnie w liście kapusty i duś rolki pod przykryciem w sosie pomidorowym.",
+            tip: "Duś około 50 do 60 minut na średnim ogniu, a szew układaj do dołu, żeby się nie rozwinął.",
+          },
+          {
+            text: "Podawaj gołąbki gorące z koperkiem i chlebem.",
+            tip: "Nazajutrz smakują często jeszcze pełniej, bo kapusta i sos połączyły się przez noc.",
+          },
         ],
         seoTitle: "Gołąbki przepis | Alemniam",
         seoDescription: "Gołąbki. Przepis i lista zakupów.",
@@ -717,34 +804,56 @@ Przełącz u góry: [cukinia](/pl/rezepte/placki/cukinia), [ser](/pl/rezepte/pla
       de: {
         title: "Barszcz czerwony",
         slug: "barszcz-czerwony",
-        excerpt: "Klarer Rote-Bete-Eintopf. Klassisch zur Wigilia mit Uszka.",
+        excerpt:
+          "Klarer, rubinroter Rote-Bete-Sud zur Wigilia, streng vegetarisch und durchsichtig serviert, ganz anders als der dickere, fleischreiche Barszcz ukraiński und als die säuerliche Sauerteigsuppe Żurek.",
         steps: [
-          { text: "Rote Bete schälen, würfeln, mit Brühe kochen." },
-          { text: "Mit Knoblauch, Essig und Zucker abschmecken.", tip: "Soll säuerlich-süß sein, nicht matt." },
-          { text: "Absieben für klare Brühe oder stückig lassen." },
           {
-            text: "Heiß servieren — mit [Uszka](/de/rezepte/uszka) in der Schale oder mit Kartoffeln.",
-            tip: "Uszka separat kochen; Mengen und Falten auf der Uszka-Seite.",
+            text: "Schäle die Rote Bete, schneide sie in Würfel und koche sie zusammen mit Piment und Lorbeer in der Gemüsebrühe, bis sie weich ist.",
+            tip: "Reibe dir die Hände vor dem Schälen mit etwas Öl ein, dann verfärben sich Finger und Schneidebrett weniger stark von der Rote Bete.",
+          },
+          {
+            text: "Schmecke den Sud mit Knoblauch, Essig und einer Prise Zucker ab, bis er angenehm säuerlich-süß schmeckt und nicht fade wirkt.",
+            tip: "Die Säure entscheidet über den ganzen Geschmack, probiere lieber zweimal ab, denn ein zu milder Barszcz wirkt schnell langweilig.",
+          },
+          {
+            text: "Siebe den Sud für eine klare Festtagsbrühe ab oder lass ihn für den Alltag stückig, ganz nach Anlass.",
+            tip: "Zur Wigilia gehört traditionell die klare Variante auf den Tisch, an gewöhnlichen Tagen darfst du die Rote-Bete-Stücke ruhig drinlassen.",
+          },
+          {
+            text: "Serviere den Barszcz heiß, zur Wigilia klassisch mit Uszka in der Schale oder im Alltag mit gekochten Kartoffeln.",
+            tip: "Koche die Uszka separat, Mengen und Falttechnik stehen im eigenen Rezept zu [Uszka](/de/rezepte/uszka), die Teigtaschen kommen erst am Tisch in die Suppe.",
           },
         ],
         seoTitle: "Barszcz czerwony Rezept | Alemniam",
-        seoDescription: "Polnischer Barszcz. Rezept mit DE-Einkaufstipps.",
+        seoDescription:
+          "Polnischer Barszcz czerwony: klarer Rote-Bete-Eintopf zur Wigilia, bilingual mit DE-Einkaufstipps.",
       },
       pl: {
         title: "Barszcz czerwony",
         slug: "barszcz-czerwony",
-        excerpt: "Klarowny barszcz. Klasycznie na Wigilię z uszkami.",
+        excerpt:
+          "Klarowny, rubinowoczerwony wywar z buraków na Wigilię, ściśle wegetariański i przejrzysty, zupełnie inny niż gęsty, mięsny barszcz ukraiński i inny niż kwaśny żurek na zakwasie.",
         steps: [
-          { text: "Obierz buraki, pokrój, gotuj w bulionie." },
-          { text: "Dopraw czosnkiem, octem i cukrem.", tip: "Ma być kwaśno-słodki, nie mdły." },
-          { text: "Przecedź dla klarownego barszczu lub zostaw z warzywami." },
           {
-            text: "Podawaj gorący — z [uszkami](/pl/rezepte/uszka) w misce albo z ziemniakami.",
-            tip: "Uszka gotuj osobno; ilości i lepienie na stronie uszek.",
+            text: "Obierz buraki, pokrój je w kostkę i gotuj razem z zielem angielskim i liściem laurowym w bulionie warzywnym, aż będą miękkie.",
+            tip: "Przed obieraniem natrzyj ręce odrobiną oleju, wtedy palce i deska mniej się barwią od buraka.",
+          },
+          {
+            text: "Dopraw wywar czosnkiem, octem i szczyptą cukru, aż będzie przyjemnie kwaśno-słodki, a nie mdły.",
+            tip: "Kwasowość decyduje o całym smaku, spróbuj dwa razy, bo zbyt łagodny barszcz szybko robi się nudny.",
+          },
+          {
+            text: "Przecedź wywar dla klarownego barszczu świątecznego albo zostaw go z warzywami na co dzień, zależnie od okazji.",
+            tip: "Na Wigilię tradycyjnie podaje się wersję klarowną, w zwykłe dni możesz spokojnie zostawić kawałki buraka.",
+          },
+          {
+            text: "Podawaj barszcz gorący, na Wigilię klasycznie z uszkami w misce albo na co dzień z ugotowanymi ziemniakami.",
+            tip: "Uszka gotuj osobno, ilości i sposób lepienia znajdziesz w osobnym przepisie na [uszka](/pl/rezepte/uszka), pierożki trafiają do zupy dopiero przy stole.",
           },
         ],
         seoTitle: "Barszcz czerwony przepis | Alemniam",
-        seoDescription: "Barszcz czerwony. Przepis i zakupy.",
+        seoDescription:
+          "Barszcz czerwony: klarowny wywar z buraków na Wigilię, przepis dwujęzyczny z listą zakupów.",
       },
     },
     ingredients: [
@@ -806,33 +915,56 @@ Przełącz u góry: [cukinia](/pl/rezepte/placki/cukinia), [ser](/pl/rezepte/pla
       de: {
         title: "Kotlet schabowy",
         slug: "kotlet-schabowy",
-        excerpt: "Polnisches Schnitzel. Mit Kartoffeln und Krautsalat.",
+        excerpt:
+          "Dünn geklopftes, paniertes Schweineschnitzel, knusprig in der Pfanne gebraten, deutlich anders als das aus Hackfleisch geformte Kotlet mielony und als das mit Käse gefüllte Kotlet de volaille.",
         steps: [
-          { text: "Schnitzel klopfen, salzen, pfeffern." },
-          { text: "Durch Mehl, Ei und Panade ziehen." },
-          { text: "In Butterschmalz goldbraun braten.", tip: "Nicht zu heiß. Panade soll nicht verbrennen." },
           {
-            text: "Mit Zitrone und Beilagen servieren — klassisch [Mizeria](/de/rezepte/mizeria), warme [Kapusta zasmażana](/de/rezepte/kapusta-zasmażana) oder [Buraczki](/de/rezepte/buraczki) (Rote-Bete-Beilage, nicht die Suppe). Anderer Sonntags-Fleisch-Nachbar: [Żeberka pieczone](/de/rezepte/zeberka). Ofenschweinebraten ohne Panade: [Schab pieczony](/de/rezepte/schab-pieczony) — andere Zubereitung (Ofen statt Pfanne und Panade).",
+            text: "Klopfe die Schnitzel zwischen Frischhaltefolie flach, bis sie gleichmäßig dünn sind, und würze sie beidseitig mit Salz und Pfeffer.",
+            tip: "Zu dünn geklopftes Fleisch trocknet beim Braten schnell aus, klopfe deshalb gleichmäßig, aber nicht bis zur Durchsichtigkeit.",
+          },
+          {
+            text: "Ziehe die Schnitzel zuerst durch Mehl, dann durch verquirltes Ei und zum Schluss durch Semmelbrösel, damit die Panade gut hält.",
+            tip: "Drücke die Brösel am Ende leicht an, so schließt die Panade lückenlos und öffnet sich beim Braten nicht.",
+          },
+          {
+            text: "Brate die Schnitzel in reichlich heißem Butterschmalz von beiden Seiten goldbraun, bis die Panade knusprig ist.",
+            tip: "Ist das Fett noch zu kalt, saugt sich die Panade voll und wird ölig, warte deshalb, bis es beim Testbrösel deutlich brutzelt.",
+          },
+          {
+            text: "Serviere die Schnitzel heiß mit einer Zitronenspalte und klassischen Beilagen wie Mizeria oder warmem Kraut.",
+            tip: "Zur Gurkensalat-Beilage [Mizeria](/de/rezepte/mizeria) passt auch warme [Kapusta zasmażana](/de/rezepte/kapusta-zasmażana) oder die Rote-Bete-Beilage [Buraczki](/de/rezepte/buraczki), die trotz des Namens nichts mit der gleichnamigen Suppe zu tun hat.",
           },
         ],
         seoTitle: "Kotlet schabowy Rezept | Alemniam",
-        seoDescription: "Polnisches Schnitzel. Rezept und Einkaufsliste.",
+        seoDescription:
+          "Polnisches Schnitzel Kotlet schabowy: Rezept und Einkaufsliste, bilingual mit Panier-Technik.",
       },
       pl: {
         title: "Kotlet schabowy",
         slug: "kotlet-schabowy",
-        excerpt: "Klasyczny schabowy. Z ziemniakami i surówką.",
+        excerpt:
+          "Cienko rozbity, panierowany kotlet wieprzowy, chrupiący z patelni, zupełnie inny niż formowany z mięsa mielonego kotlet mielony i inny niż nadziewany serem kotlet de volaille.",
         steps: [
-          { text: "Rozbij kotlety, posól, popieprz." },
-          { text: "Obtocz w mące, jajku i bułce tartej." },
-          { text: "Smaż na złoto na smalcu lub maśle klarowanym.", tip: "Nie za mocno. Panierka nie może się przypalić." },
           {
-            text: "Podawaj z cytryną i dodatkami — klasycznie [mizeria](/pl/rezepte/mizeria), ciepła [kapusta zasmażana](/pl/rezepte/kapusta-zasmażana) albo [buraczki](/pl/rezepte/buraczki) (dodatek z buraków, nie zupa). Inny niedzielny sąsiad mięsny: [żeberka pieczone](/pl/rezepte/zeberka). Pieczeń z pieca bez panierki: [schab pieczony](/pl/rezepte/schab-pieczony) — inne przygotowanie (piec zamiast patelni i panierki).",
+            text: "Rozbij kotlety między folią na równą grubość i dopraw je z obu stron solą i pieprzem.",
+            tip: "Za mocno rozbite mięso szybko wysycha podczas smażenia, rozbijaj więc równomiernie, ale nie na przezroczystość.",
+          },
+          {
+            text: "Obtocz kotlety najpierw w mące, potem w roztrzepanym jajku, a na końcu w bułce tartej, żeby panierka dobrze się trzymała.",
+            tip: "Dociśnij bułkę na końcu lekko dłonią, dzięki temu panierka zamyka się szczelnie i nie odpada podczas smażenia.",
+          },
+          {
+            text: "Smaż kotlety w dużej ilości gorącego smalcu lub masła klarowanego z obu stron na złoto, aż panierka będzie chrupiąca.",
+            tip: "Jeśli tłuszcz jest jeszcze zimny, panierka wciąga go i robi się oleista, poczekaj więc, aż na próbnej odrobinie bułki wyraźnie skwierczy.",
+          },
+          {
+            text: "Podawaj kotlety gorące z cząstką cytryny i klasycznymi dodatkami, na przykład mizerią albo ciepłą surówką.",
+            tip: "Do mizerii ze świeżych ogórków dobrze pasuje też ciepła [kapusta zasmażana](/pl/rezepte/kapusta-zasmażana) albo [buraczki](/pl/rezepte/buraczki), dodatek z buraków, a nie zupa o tej samej nazwie.",
           },
         ],
-
         seoTitle: "Kotlet schabowy przepis | Alemniam",
-        seoDescription: "Kotlet schabowy. Przepis i zakupy.",
+        seoDescription:
+          "Kotlet schabowy: przepis i zakupy, dwujęzycznie z techniką panierowania.",
       },
     },
     ingredients: [
@@ -906,36 +1038,56 @@ Przełącz u góry: [cukinia](/pl/rezepte/placki/cukinia), [ser](/pl/rezepte/pla
       de: {
         title: "Naleśniki mit Twaróg",
         slug: "twarog",
-        excerpt: "Dünne Pfannkuchen mit süßer Quarkfüllung.",
+        excerpt:
+          "Dünne Naleśniki-Pfannkuchen mit süßer Quarkfüllung, die klassische Twaróg-Variante der Familie, anders als die herzhaften Fleisch- und Spinat-Naleśniki und anders als die panierten, frittierten Krokiety.",
         steps: [
-          { text: "Teig aus Milch, Eiern und Mehl ruhen lassen." },
-          { text: "Dünne Pfannkuchen backen." },
           {
-            text: "Twaróg mit Zucker und Vanille mischen.",
-            tip: "Etwas Sauerrahm macht die Füllung cremiger.",
+            text: "Verrühre Milch, Eier und Mehl zu einem glatten Teig und lass ihn kurz ruhen, bevor du ihn verarbeitest.",
+            tip: "Der Teig sollte wie dünne Sahne fließen, ist er zu dick, gib löffelweise Milch dazu.",
           },
-          { text: "Füllen, rollen, optional in Butter anbraten." },
+          {
+            text: "Backe aus dem Teig in einer leicht gefetteten Pfanne dünne, gleichmäßige Pfannkuchen.",
+            tip: "Die erste Platte dient oft nur zum Testen der Hitze, wundere dich nicht, wenn sie nicht perfekt wird.",
+          },
+          {
+            text: "Vermische den Twaróg mit Zucker und Vanille zu einer streichfähigen Füllung.",
+            tip: "Etwas Sauerrahm macht die Füllung cremiger und leichter zu verstreichen.",
+          },
+          {
+            text: "Fülle die Pfannkuchen, rolle sie fest ein und brate sie optional noch einmal in Butter goldbraun.",
+            tip: "Lass die Füllung vor dem Rollen etwas abkühlen, sonst wird der Pfannkuchen an dieser Stelle zu weich.",
+          },
         ],
         seoTitle: "Naleśniki mit Twaróg Rezept | Alemniam",
         seoDescription:
-          "Polnische Pfannkuchen mit Quark — Variante Twaróg, bilingual mit DE-Einkauf.",
+          "Polnische Pfannkuchen mit Quark, Variante Twaróg, bilingual mit DE-Einkauf.",
       },
       pl: {
         title: "Naleśniki z twarogiem",
         slug: "twarog",
-        excerpt: "Cienkie naleśniki ze słodkim twarogiem.",
+        excerpt:
+          "Cienkie naleśniki ze słodkim twarogiem, klasyczny wariant twaróg w rodzinie naleśników, inny niż wytrawne naleśniki z mięsem i szpinakiem oraz inny niż panierowane, smażone krokiety.",
         steps: [
-          { text: "Zrób ciasto z mleka, jajek i mąki, odstaw." },
-          { text: "Usmaż cienkie naleśniki." },
           {
-            text: "Wymieszaj twaróg z cukrem i wanilią.",
-            tip: "Odrobina śmietany daje kremowość.",
+            text: "Zrób gładkie ciasto z mleka, jajek i mąki i odstaw je na chwilę przed smażeniem.",
+            tip: "Ciasto powinno mieć konsystencję rzadkiej śmietany, jeśli jest za gęste, dolej łyżkę mleka.",
           },
-          { text: "Nadziewaj, zawiń, opcjonalnie podsmaż na maśle." },
+          {
+            text: "Usmaż z ciasta cienkie, równe naleśniki na lekko natłuszczonej patelni.",
+            tip: "Pierwszy placek często służy tylko do sprawdzenia żaru, nie przejmuj się, jeśli nie wyjdzie idealnie.",
+          },
+          {
+            text: "Wymieszaj twaróg z cukrem i wanilią na gładki, smarowalny farsz.",
+            tip: "Odrobina śmietany daje farszowi kremowość i ułatwia rozsmarowanie na placku.",
+          },
+          {
+            text: "Nadziewaj naleśniki, zawiń je szczelnie i opcjonalnie podsmaż jeszcze raz na maśle na złoto.",
+            tip: "Przed zwijaniem daj farszowi trochę ostygnąć, inaczej placek w tym miejscu zrobi się za miękki.",
+          },
         ],
         seoTitle: "Naleśniki z twarogiem przepis | Alemniam",
         seoDescription:
-          "Naleśniki z twarogiem — wariant klasyczny, dwujęzycznie.",
+          "Naleśniki z twarogiem, wariant klasyczny, dwujęzycznie.",
       },
     },
     ingredients: [
@@ -996,12 +1148,25 @@ Przełącz u góry: [cukinia](/pl/rezepte/placki/cukinia), [ser](/pl/rezepte/pla
       de: {
         title: "Rosół",
         slug: "rosol",
-        excerpt: "Klare Hühnerbrühe mit Nudeln. Sonntagsklassiker.",
+        excerpt:
+          "Klare, langsam gezogene Hühnerbrühe mit Fadennudeln, der klassische Sonntagsauftakt vor dem Hauptgang, ganz anders als die kräftig-rote Zupa pomidorowa oder der säuerliche Kapuśniak.",
         steps: [
-          { text: "Huhn mit Gemüse kalt aufsetzen, langsam köcheln." },
-          { text: "Schaum abschöpfen, 1,5–2 Std. Ziehen lassen.", tip: "Nicht sprudelnd kochen. Bleibt klar." },
-          { text: "Absieben, würzen, mit Fadenudeln servieren." },
-          { text: "Mit Petersilie und etwas Karotte anrichten." },
+          {
+            text: "Setze das Huhn mit Suppengemüse in kaltem Wasser auf und bringe alles langsam zum Köcheln.",
+            tip: "Ein kalter Start löst mehr Geschmack aus dem Fleisch, ein heißer Start macht die Brühe später trüb.",
+          },
+          {
+            text: "Schöpfe den aufsteigenden Schaum ab und lass die Brühe 1,5 bis 2 Stunden sanft ziehen.",
+            tip: "Koch die Brühe nie sprudelnd, sondern nur leicht blubbernd, so bleibt sie schön klar.",
+          },
+          {
+            text: "Sieb die Brühe ab, würze sie kräftig und serviere sie mit Fadennudeln.",
+            tip: "Koch die Nudeln separat und gib sie erst im Teller dazu, sonst werden sie in der Brühe schnell weich und trüben sie.",
+          },
+          {
+            text: "Richte den Teller mit Petersilie und ein paar Karottenscheiben an.",
+            tip: "Röste die Schnittfläche einer halbierten Zwiebel trocken an und koch sie mit, das gibt der Brühe eine goldene Farbe.",
+          },
         ],
         seoTitle: "Rosół Rezept | Alemniam",
         seoDescription: "Polnische Hühnerbrühe. Rezept und Einkaufshilfe.",
@@ -1009,12 +1174,25 @@ Przełącz u góry: [cukinia](/pl/rezepte/placki/cukinia), [ser](/pl/rezepte/pla
       pl: {
         title: "Rosół",
         slug: "rosol",
-        excerpt: "Klarowny rosół z makaronem. Niedzielny klasyk.",
+        excerpt:
+          "Klarowny, długo gotowany rosół z kurczaka z makaronem nitki, klasyczne niedzielne pierwsze danie przed obiadem, zupełnie inne niż esencjonalna zupa pomidorowa czy kwaśny kapuśniak.",
         steps: [
-          { text: "Zalej kurczaka z warzywami zimną wodą, gotuj powoli." },
-          { text: "Zbieraj szumowiny, gotuj 1,5–2 godz.", tip: "Bez burzenia. Będzie klarowny." },
-          { text: "Przecedź, dopraw, podawaj z nitkami." },
-          { text: "Udekoruj pietruszką i marchewką." },
+          {
+            text: "Zalej kurczaka z warzywami zimną wodą i doprowadź powoli do wrzenia.",
+            tip: "Zimny start wydobywa więcej smaku z mięsa, a gorący start szybciej mętni bulion.",
+          },
+          {
+            text: "Zbieraj szumowiny i gotuj rosół delikatnie przez 1,5 do 2 godzin.",
+            tip: "Nie dopuszczaj do gwałtownego wrzenia, tylko lekkiego bulgotania, dzięki temu zostanie klarowny.",
+          },
+          {
+            text: "Przecedź bulion, dopraw go wyraźnie i podawaj z makaronem nitki.",
+            tip: "Ugotuj makaron osobno i dodaj go dopiero na talerzu, inaczej w bulionie zmiękczy się i zmętni zupę.",
+          },
+          {
+            text: "Udekoruj talerz pietruszką i kilkoma plasterkami marchewki.",
+            tip: "Przypiecz na suchej patelni przekrojoną cebulę i dorzuć ją do garnka, to daje bulionowi złoty kolor.",
+          },
         ],
         seoTitle: "Rosół przepis | Alemniam",
         seoDescription: "Rosół. Przepis i lista zakupów.",
@@ -1079,28 +1257,64 @@ Przełącz u góry: [cukinia](/pl/rezepte/placki/cukinia), [ser](/pl/rezepte/pla
       de: {
         title: "Fasolka po bretońsku",
         slug: "fasolka-po-bretonsku",
-        excerpt: "Bohnen mit Wurst in würziger Tomatensoße. Sättigend und schnell.",
+        excerpt:
+          "Fasolka po bretońsku ist ein deftiger Bohnentopf mit Wurst in würziger Tomatensoße, mit der Bretagne hat nur der Name zu tun, und mit der grünen Beilage Fasolka szparagowa hat sie außer dem ersten Wort nichts gemeinsam.",
         steps: [
-          { text: "Zwiebel und Speck anbraten." },
-          { text: "Wurst und Tomatenmark zugeben." },
-          { text: "Bohnen und Gewürze einkochen.", tip: "Majoran nicht vergessen." },
-          { text: "Mit Brot servieren." },
+          {
+            text: "Speck und Zwiebel in einem großen Topf anbraten, bis der Speck Farbe bekommt und die Zwiebel glasig wird.",
+            tip: "Gute Wurst und Speck findest du oft günstiger im [Polenladen](/de/blog/polenladen-einkaufen), welche Sorte wohin passt, erklärt der Guide zu [Kiełbasa-Arten](/de/blog/kielbasa-arten).",
+          },
+          {
+            text: "Die Wurst in Scheiben dazugeben, kurz mitbraten und dann das Tomatenmark einrühren und ganz kurz mitrösten.",
+            tip: "Das kurze Anrösten des Tomatenmarks nimmt ihm die Säure und bringt mehr Tiefe in die Soße, länger als eine Minute sollte es aber nicht auf dem Herd bleiben.",
+          },
+          {
+            text: "Die Bohnen mit etwas Flüssigkeit aus dem Glas dazugeben, aufkochen und offen bei milder Hitze einkochen, bis die Soße sämig ist und der Löffel darin stehen bleibt.",
+            tip: "Den Majoran erst gegen Ende einrühren, dann bleibt sein Aroma frisch statt beim langen Kochen zu verfliegen.",
+          },
+          {
+            text: "Mit Salz und Pfeffer abschmecken und den Topf noch kurz durchziehen lassen, bevor du ihn servierst.",
+            tip: "Fasolka po bretońsku ist ein sämiger Eintopf mit Wurst, verwechsle sie nicht mit [Fasolka szparagowa](/de/rezepte/fasolka-szparagowa), der warmen Beilage aus grünen Bohnen mit Butter und Semmelbröseln.",
+          },
+          {
+            text: "Heiß mit kräftigem Brot servieren, eine Gewürzgurke daneben schneidet die Tomatenwärme gut ab.",
+            tip: "Mehr zu Einkauf und Würzen liefert der [Fasolka-Guide](/de/blog/fasolka-po-bretonsku), falls der Topf beim ersten Versuch zu wässrig oder zu blass geworden ist.",
+          },
         ],
-        seoTitle: "Fasolka po bretońsku | Alemniam",
-        seoDescription: "Polnische Bohnen mit Wurst. Rezept und Liste.",
+        seoTitle: "Fasolka po bretońsku Rezept | Alemniam",
+        seoDescription:
+          "Fasolka po bretońsku: Bohnen mit Wurst in Tomatensoße. Rezept, Einkaufsliste und klare Abgrenzung zur grünen Fasolka szparagowa.",
       },
       pl: {
         title: "Fasolka po bretońsku",
         slug: "fasolka-po-bretonsku",
-        excerpt: "Fasola z kiełbasą w sosie pomidorowym. Sycąco i szybko.",
+        excerpt:
+          "Fasolka po bretońsku to sycący gulasz z białej fasoli i kiełbasy w sosie pomidorowym, z Bretanią łączy ją tylko nazwa, a z zieloną fasolką szparagową nic poza pierwszym słowem.",
         steps: [
-          { text: "Podsmaż cebulę i boczek." },
-          { text: "Dodaj kiełbasę i koncentrat pomidorowy." },
-          { text: "Duś z fasolą i przyprawami.", tip: "Nie zapomnij majeranku." },
-          { text: "Podawaj z chlebem." },
+          {
+            text: "Podsmaż boczek i cebulę na dużej patelni, aż boczek się zeszkli, a cebula zrobi się szklista.",
+            tip: "Dobrą kiełbasę i boczek często kupisz taniej w [polskim sklepie](/pl/blog/sklep-polski-zakupy), a który rodzaj kiełbasy do czego pasuje, wyjaśnia [przewodnik po rodzajach kiełbasy](/pl/blog/rodzaje-kielbasy).",
+          },
+          {
+            text: "Dodaj pokrojoną w plastry kiełbasę, chwilę podsmaż, a potem wmieszaj koncentrat pomidorowy i krótko podsmaż razem.",
+            tip: "Krótkie podsmażenie koncentratu zdejmuje mu kwaskowość i dodaje głębi smaku, ale dłużej niż minutę nie powinien już zostać na patelni.",
+          },
+          {
+            text: "Dodaj fasolę razem z odrobiną zalewy ze słoika, zagotuj i redukuj na małym ogniu bez przykrycia, aż sos zgęstnieje na łyżce.",
+            tip: "Majeranek dodaj dopiero pod koniec, wtedy jego aromat zostaje świeży, a nie wyparowuje przy długim gotowaniu.",
+          },
+          {
+            text: "Dopraw solą i pieprzem i zostaw garnek na chwilę, żeby smaki się przegryzły, zanim podasz.",
+            tip: "Fasolka po bretońsku to gęsty gulasz z kiełbasą, nie myl jej z [fasolką szparagową](/pl/rezepte/fasolka-szparagowa), ciepłym dodatkiem z zielonej fasoli z masłem i bułką tartą.",
+          },
+          {
+            text: "Podawaj gorącą z mocnym chlebem, kiszony ogórek obok dobrze przecina pomidorowe ciepło.",
+            tip: "Więcej o zakupach i przyprawach znajdziesz w [przewodniku po fasolce](/pl/blog/fasolka-po-bretonsku), przydatnym, gdy garnek wyjdzie za rzadki albo za mdły.",
+          },
         ],
         seoTitle: "Fasolka po bretońsku przepis | Alemniam",
-        seoDescription: "Fasolka po bretońsku. Przepis i zakupy.",
+        seoDescription:
+          "Fasolka po bretońsku: fasola z kiełbasą w sosie pomidorowym. Przepis, lista zakupów i jasna różnica wobec fasolki szparagowej.",
       },
     },
     ingredients: [
@@ -1162,97 +1376,101 @@ Przełącz u góry: [cukinia](/pl/rezepte/placki/cukinia), [ser](/pl/rezepte/pla
         title: "Faworki",
         slug: "faworki",
         excerpt:
-          "Knusprige Schleifen mit Puderzucker. Klassiker für Tłusty Czwartek.",
+          "Faworki sind hauchdünne, frittierte Teigschlingen mit Puderzucker für Tłusty Czwartek, knuspriger und trockener als die weichen, mit Hefeteig gebackenen Pączki vom selben Tag.",
         steps: [
           {
-            text: "Mehl, Eigelb, saure Sahne, Backpulver, Zucker und Wodka etwa 10 Minuten zu einem glatten Teig kneten.",
-            tip: "Wodka hilft beim Frittieren: der Teig nimmt weniger Öl auf.",
+            text: "Mehl, Eigelb, saure Sahne, Backpulver, Zucker und Wodka etwa 10 Minuten zu einem glatten, festen Teig verkneten.",
+            tip: "Der Wodka ist keine Geschmackszutat, sondern Technik, denn er verdunstet im heißen Öl schnell und der Teig nimmt dadurch weniger Fett auf.",
           },
           {
-            text: "Teig halbieren und jedes Stück hauchdünn ausrollen (Nudelholz oder Pastamaschine).",
+            text: "Den Teig halbieren und jedes Stück mit Nudelholz oder Pastamaschine hauchdünn ausrollen.",
+            tip: "Rolle wirklich papierdünn aus, dickere Stellen bleiben innen teigig, während der Rand schon braun ist.",
           },
           {
-            text: "In Rechtecke ca. 10×3 cm schneiden. Längs mittig einschneiden (Rand lassen) und ein Ende durchziehen — so entsteht die Schlinge.",
+            text: "In Rechtecke von etwa 10 mal 3 Zentimetern schneiden, längs mittig einschneiden, dabei einen Rand stehen lassen, und dann ein Ende durch den Schnitt ziehen, so entsteht die charakteristische Schlinge.",
+            tip: "Genau diese Schlinge gab dem Gebäck seinen Namen, denn Faworki stammt vom französischen Wort faveur für die seidenen Bändchen, die Damen einst ihren Rittern als Gunstbeweis schenkten.",
           },
           {
-            text: "Öl auf 170–180 °C erhitzen. Faworki 1–2 Minuten pro Seite goldgelb frittieren.",
-            tip: "Holzstäbchen testen: viele Blasen = heiß genug. Nicht überfüllen.",
+            text: "Öl auf 170 bis 180 Grad erhitzen und die Faworki portionsweise je eine bis zwei Minuten pro Seite goldgelb frittieren.",
+            tip: "Teste die Temperatur mit einem Holzstäbchen, steigen viele kleine Blasen auf, ist das Öl heiß genug, und fülle den Topf nicht zu voll, sonst kühlt das Öl zu stark ab.",
           },
           {
-            text: "Auf Küchenpapier abtropfen und noch warm großzügig mit Puderzucker bestäuben.",
-            tip: "Weiches, gefülltes Gegenstück am selben Tag: [Pączki](/de/rezepte/paczki) — anderer Teig, andere Technik.",
+            text: "Auf Küchenpapier abtropfen lassen und noch warm großzügig mit Puderzucker bestäuben.",
+            tip: "Der weiche, gefüllte Nachbar vom selben Tag sind die [Pączki](/de/rezepte/paczki), sie brauchen Hefeteig und ein Fettbad, während Faworki dünn ausgerollt und ganz ohne Hefe auskommen.",
           },
         ],
         seoTitle: "Faworki Rezept | Polnisches Fasnachtsgebäck | Alemniam",
         seoDescription:
-          "Faworki (Chruściki) selbst machen. Knusprig, mit Puderzucker — inkl. Einkaufshilfe für DE.",
-        article: `## Faworki — Schleifen für den Fettsdonnerstag
+          "Faworki (Chruściki) selbst machen: knusprig, mit Puderzucker, inklusive Einkaufshilfe für Deutschland.",
+        article: `## Faworki: Schleifen für den Tłusty Czwartek
 
-Faworki (auch Chrust oder Chruściki) sind dünne, frittierte Teigschlingen mit Puderzucker. Traditionell an Tłusty Czwartek, aber jederzeit ein knuspriger Grund zum Feiern.
+Faworki, auch Chrust oder Chruściki genannt, sind dünne, frittierte Teigschlingen mit Puderzucker. Der Name geht auf das französische Wort faveur zurück, das seidene Bändchen bezeichnete, die Damen einst ihren Rittern als Gunstbeweis schenkten. Traditionell werden sie an Tłusty Czwartek gebacken, schmecken aber zu jeder Jahreszeit.
 
 ### Teig
 
-Eigelb und saure Sahne machen den Teig zart. Ein Schuss Wodka (oder Rum) ist kein Geschmackstrick, sondern Technik: weniger Öl im fertigen Gebäck.
+Eigelb und saure Sahne machen den Teig zart. Ein Schuss Wodka oder Rum ist keine Geschmacksspielerei, sondern Technik, denn der Alkohol verdunstet beim Frittieren schnell, und der Teig nimmt dadurch weniger Fett auf.
 
 ### Formen
 
-Hauchdünn ausrollen. Dicke Stellen bleiben innen teigig. Die Schlinge entsteht, wenn du ein Ende durch den Mittelschnitt ziehst.
+Rolle den Teig wirklich hauchdünn aus, dicke Stellen bleiben sonst innen teigig. Die charakteristische Schlinge entsteht, wenn du ein Ende durch den Mittelschnitt ziehst.
 
 ### Frittieren
 
-170–180 °C. Zu heiß = außen dunkel, innen roh. Zu kalt = ölig. Portionweise arbeiten, abtropfen, warm bestäuben.
+Bei 170 bis 180 Grad wird der Teig gleichmäßig goldgelb. Zu heißes Öl bräunt die Oberfläche, bevor das Innere durch ist, zu kaltes Öl macht die Faworki ölig und schwer. Arbeite portionsweise, lass sie abtropfen und bestäube sie noch warm mit Puderzucker.
 
 ### Haltbarkeit
 
-In einer Dose 2–4 Tage. Gut verpackt einfrieren: ca. 2 Monate.`,
+In einer gut verschlossenen Dose halten sie zwei bis vier Tage, gut verpackt lassen sie sich auch etwa zwei Monate einfrieren.`,
       },
       pl: {
         title: "Faworki",
         slug: "faworki",
         excerpt:
-          "Chrupiące chruściki z cukrem pudrem. Klasyk na Tłusty Czwartek.",
+          "Faworki to cienkie, smażone pętelki z ciasta posypane cukrem pudrem, przygotowywane na Tłusty Czwartek, chrupiące i suche, inaczej niż miękkie, drożdżowe pączki tego samego dnia.",
         steps: [
           {
-            text: "Zagnieć mąkę, żółtka, śmietanę, proszek do pieczenia, cukier i wódkę ok. 10 min na gładkie ciasto.",
-            tip: "Wódka pomaga przy smażeniu: ciasto wchłania mniej tłuszczu.",
+            text: "Zagnieć mąkę, żółtka, śmietanę, proszek do pieczenia, cukier i wódkę przez około 10 minut na gładkie, zwarte ciasto.",
+            tip: "Wódka to nie fanaberia smakowa, tylko technika, bo szybko odparowuje w gorącym oleju, dzięki czemu ciasto wchłania mniej tłuszczu.",
           },
           {
-            text: "Podziel ciasto na pół i rozwałkuj papierowo cienko (wałek lub maszynka do makaronu).",
+            text: "Podziel ciasto na pół i rozwałkuj każdą część wałkiem albo maszynką do makaronu na papierową cienkość.",
+            tip: "Rozwałkuj naprawdę bardzo cienko, grubsze miejsca zostają surowe w środku, choć brzegi już się przypiekają.",
           },
           {
-            text: "Pokrój na prostokąty ok. 10×3 cm. Naciąć wzdłuż na środku i przeciągnąć jeden koniec — powstaje pętla.",
+            text: "Pokrój na prostokąty o wymiarach około 10 na 3 centymetry, natnij wzdłuż na środku, zostawiając brzeg, a potem przeciągnij jeden koniec przez nacięcie, tak powstaje charakterystyczna pętelka.",
+            tip: "Właśnie ta pętelka dała ciastku nazwę, bo faworki pochodzi od francuskiego faveur, czyli wstążeczki, którą damy wręczały rycerzom jako dowód przychylności.",
           },
           {
-            text: "Rozgrzej olej do 170–180 °C. Smaż 1–2 minuty z każdej strony na złoto.",
-            tip: "Test patyczkiem: dużo bąbelków = wystarczająco gorąco.",
+            text: "Rozgrzej olej do temperatury 170 do 180 stopni i smaż faworki partiami po jednej do dwóch minut z każdej strony, aż będą złote.",
+            tip: "Sprawdź temperaturę patyczkiem, dużo drobnych bąbelków oznacza, że olej jest wystarczająco gorący, i nie wkładaj na raz za dużo kawałków, bo olej się wychłodzi.",
           },
           {
-            text: "Odsącz na papierze i jeszcze ciepłe obficie posyp cukrem pudrem.",
-            tip: "Miękki, nadziewany odpowiednik tego samego dnia: [pączki](/pl/rezepte/paczki) — inne ciasto, inna technika.",
+            text: "Odsącz na papierowym ręczniku i jeszcze ciepłe obficie posyp cukrem pudrem.",
+            tip: "Miękki, nadziewany sąsiad tego samego dnia to [pączki](/pl/rezepte/paczki), robione z ciasta drożdżowego i smażone w kąpieli tłuszczowej, podczas gdy faworki są rozwałkowane na cienko i całkiem bez drożdży.",
           },
         ],
         seoTitle: "Faworki przepis | Chruściki | Alemniam",
         seoDescription:
-          "Faworki (chruściki) w domu. Chrupiące, z cukrem pudrem — z listą zakupów w DE.",
-        article: `## Faworki — chruściki na Tłusty Czwartek
+          "Faworki (chruściki) w domu: chrupiące, z cukrem pudrem, z listą zakupów w Niemczech.",
+        article: `## Faworki: chruściki na Tłusty Czwartek
 
-Faworki (też chrust / chruściki) to cienkie, smażone pętle z ciasta posypane cukrem pudrem. Tradycyjnie na Tłusty Czwartek — i zawsze, gdy chce się czegoś chrupiącego.
+Faworki, zwane też chrustem albo chruścikami, to cienkie, smażone pętelki z ciasta posypane cukrem pudrem. Nazwa pochodzi od francuskiego słowa faveur, które oznaczało wstążeczkę wręczaną rycerzom przez damy jako dowód przychylności. Tradycyjnie piecze się je na Tłusty Czwartek, ale smakują w każdej porze roku.
 
 ### Ciasto
 
-Żółtka i śmietana dają delikatność. Odrobina wódki (lub rumu) to technika: mniej tłuszczu w gotowym wypieku.
+Żółtka i śmietana dają delikatność. Odrobina wódki albo rumu to nie fanaberia smakowa, tylko technika, bo alkohol szybko odparowuje w gorącym oleju i ciasto wchłania mniej tłuszczu.
 
 ### Formowanie
 
-Rozwałkuj bardzo cienko. Grubsze miejsca zostają surowe w środku. Pętla powstaje po przeciągnięciu końca przez nacięcie.
+Rozwałkuj ciasto naprawdę bardzo cienko, grubsze miejsca zostają surowe w środku. Charakterystyczna pętelka powstaje, gdy przeciągniesz jeden koniec przez nacięcie na środku.
 
 ### Smażenie
 
-170–180 °C. Za gorąco = ciemno na zewnątrz, surowe w środku. Za chłodno = tłuste. Smaż partiami, odsącz, posyp na ciepło.
+W temperaturze 170 do 180 stopni ciasto smaży się równo na złoty kolor. Za gorący olej przypala powierzchnię, zanim środek dojdzie, za chłodny robi faworki tłustymi i ciężkimi. Smaż partiami, odsącz i posyp cukrem pudrem, jeszcze ciepłe.
 
 ### Przechowywanie
 
-W puszce 2–4 dni. Zamrożone w folii: ok. 2 miesiące.`,
+W zamkniętej blaszanej pudełce wytrzymają dwa do czterech dni, dobrze zapakowane można je też zamrozić na około dwa miesiące.`,
       },
     },
     ingredients: [
@@ -1340,85 +1558,93 @@ W puszce 2–4 dni. Zamrożone w folii: ok. 2 miesiące.`,
         title: "Gulasz wieprzowy",
         slug: "gulasz-wieprzowy",
         excerpt:
-          "Polnischer Schweinegulasch — langsam geschmort, perfekt zu Placki.",
+          "Langsam geschmortes Schweinefleisch in einer dicken Paprika-Tomaten-Soße, deutlich sämiger und milder als der ungarische Gulyás und eine andere Sache als der krautige Bigos oder das schnell angebratene Gemüsegericht Leczo.",
         steps: [
           {
-            text: "Schweinefleisch würfeln, salzen, pfeffern. In heißem Öl anbraten.",
+            text: "Würfle das Schweinefleisch, salze und pfeffere es kräftig und brate es in heißem Öl von allen Seiten scharf an.",
+            tip: "Brate das Fleisch in kleinen Portionen an, denn zu viel auf einmal in der Pfanne senkt die Temperatur und verhindert die Röstaromen, die später die Soße tragen.",
           },
           {
-            text: "Zwiebel und Paprika hinzufügen, kurz mitdünsten.",
+            text: "Gib Zwiebel und Paprika dazu und dünste beides einige Minuten mit, bis die Zwiebel glasig wird.",
+            tip: "Schneide die Paprika in ähnlich große Stücke wie das Fleisch, dann garen beide gleichmäßig durch, ohne dass eines zu weich oder zu roh bleibt.",
           },
           {
-            text: "Tomatenmark, Paprikapulver, Knoblauch und Lorbeer zugeben. Mit Brühe ablöschen.",
-            tip: "Paprika kurz rösten — sonst bitter.",
+            text: "Rühre Tomatenmark, Paprikapulver, Knoblauch und Lorbeer ein und lösche danach mit der Brühe ab.",
+            tip: "Röste das Paprikapulver nur ganz kurz mit, es wird sonst schnell bitter, denn edelsüßes Pulver verträgt kaum Hitze, bevor Flüssigkeit dazukommt.",
           },
           {
-            text: "Zugedeckt 60–90 Min schmoren, bis das Fleisch zart ist.",
+            text: "Schmore den Gulasz zugedeckt 60 bis 90 Minuten bei milder Hitze, bis das Fleisch mit der Gabel zerfällt.",
+            tip: "Am Vortag gekocht schmeckt der Gulasz oft noch runder, weil sich die Aromen über Nacht im Kühlschrank weiter verbinden.",
           },
           {
-            text: "Mit [Placki](/de/rezepte/placki/ziemniaczane) und Śmietana servieren.",
+            text: "Serviere den Gulasz heiß mit frisch gebratenen Placki und einem Löffel Śmietana.",
+            tip: "Brate die Placki erst kurz vor dem Servieren, während der Gulasz geduldig warm gehalten werden kann, mehr zur Technik im Rezept zu [Placki](/de/rezepte/placki/ziemniaczane).",
           },
         ],
         seoTitle: "Gulasz wieprzowy Rezept | Alemniam",
         seoDescription:
-          "Polnischer Schweinegulasch — Schmor-Rezept bilingual mit DE-Einkauf.",
-        article: `## Gulasz wieprzowy — Sonntag mit Placki
+          "Polnischer Schweinegulasch: Schmor-Rezept bilingual mit DE-Einkauf.",
+        article: `## Gulasz wieprzowy, Sonntag mit Placki
 
-Langsam geschmortes Schweinefleisch in Paprikasoße — in vielen polnischen Haushalten der Partner zu Kartoffelpuffern. Nicht identisch mit ungarischem Gulasch: mehr Soße, weniger Schärfe, oft Tomatenmark.
+Langsam geschmortes Schweinefleisch in Paprikasoße ist in vielen polnischen Haushalten der feste Partner zu Kartoffelpuffern. Es ist nicht identisch mit ungarischem Gulasch, denn der polnische Topf hat mehr Soße, weniger Schärfe und oft Tomatenmark.
 
-### Schmoren in DE
+### Schmoren in Deutschland
 
-Schmortopf oder [Dutch Oven](/de/blog/dutch-oven-kaufberatung). Schweinenacken oder Schulter — fett hält saftig. Kiełbasa optional als Extra, siehe [Kiełbasa-Arten](/de/blog/kielbasa-arten).
+Ein Schmortopf oder [Dutch Oven](/de/blog/dutch-oven-kaufberatung) hilft dabei, die Hitze gleichmäßig zu halten. Schweinenacken oder Schulter eignen sich am besten, denn das Fett hält das Fleisch saftig. Kiełbasa kannst du optional mitschmoren, mehr dazu im Guide zu [Kiełbasa-Arten](/de/blog/kielbasa-arten).
 
 ### Timing
 
-Am Vortag schmeckt oft besser. Placki frisch braten, Gulasch warm halten.
+Am Vortag gekocht schmeckt der Gulasz oft besser. Brate die Placki frisch, während du den Gulasch nur warm hältst.
 
 ### Verwandtes
 
-[Placki-Familie](/de/rezepte/placki/ziemniaczane) · [Sonntagsessen](/de/blog/sonntagsessen-polnisch).`,
+Die [Placki-Familie](/de/rezepte/placki/ziemniaczane) passt klassisch dazu, den ganzen Menürahmen liefert das [Sonntagsessen](/de/blog/sonntagsessen-polnisch).`,
       },
       pl: {
         title: "Gulasz wieprzowy",
         slug: "gulasz-wieprzowy",
         excerpt:
-          "Polski gulasz wieprzowy — duszony powoli, idealny do placków.",
+          "Wolno duszona wieprzowina w gęstym sosie paprykowo-pomidorowym, znacznie gęstszym i łagodniejszym niż węgierski gulyás oraz zupełnie inna od kapuścianego bigosu i szybko podsmażanego leczo.",
         steps: [
           {
-            text: "Pokrój mięso w kostkę, posól, popieprz. Obsmaż na gorącym oleju.",
+            text: "Pokrój mięso w kostkę, mocno posól i popieprz, a potem obsmaż je ze wszystkich stron na gorącym oleju.",
+            tip: "Obsmażaj mięso w mniejszych partiach, bo za duża ilość naraz obniża temperaturę patelni i nie pozwala powstać aromatom przypieczenia, które później niosą sos.",
           },
           {
-            text: "Dodaj cebulę i paprykę, lekko zeszklij.",
+            text: "Dodaj cebulę i paprykę i podsmaż je razem kilka minut, aż cebula zrobi się szklista.",
+            tip: "Pokrój paprykę na kawałki podobnej wielkości jak mięso, wtedy oba składniki dojdą równo, bez jednego zbyt miękkiego, a drugiego surowego.",
           },
           {
-            text: "Dodaj koncentrat, paprykę w proszku, czosnek i liść laurowy. Zalej bulionem.",
-            tip: "Paprykę podsmaż chwilę — inaczej gorzka.",
+            text: "Wmieszaj koncentrat pomidorowy, paprykę w proszku, czosnek i liść laurowy, a potem zalej całość bulionem.",
+            tip: "Podsmaż paprykę w proszku tylko bardzo krótko, inaczej szybko zgorzknieje, bo słodka papryka nie znosi długiej obróbki bez płynu.",
           },
           {
-            text: "Duś pod przykryciem 60–90 min, aż mięso miękkie.",
+            text: "Duś gulasz pod przykryciem 60 do 90 minut na małym ogniu, aż mięso będzie się rozpadać pod widelcem.",
+            tip: "Ugotowany dzień wcześniej gulasz smakuje często jeszcze pełniej, bo smaki łączą się przez noc w lodówce.",
           },
           {
-            text: "Podawaj z [plackami](/pl/rezepte/placki/ziemniaczane) i śmietaną.",
+            text: "Podawaj gulasz gorący ze świeżo usmażonymi plackami i łyżką śmietany.",
+            tip: "Smaż placki tuż przed podaniem, podczas gdy gulasz spokojnie czeka ciepły, więcej o technice w przepisie na [placki](/pl/rezepte/placki/ziemniaczane).",
           },
         ],
         seoTitle: "Gulasz wieprzowy przepis | Alemniam",
         seoDescription:
-          "Gulasz wieprzowy — przepis na duszone mięso, dwujęzycznie ze wskazówkami DE.",
-        article: `## Gulasz wieprzowy — niedziela z plackami
+          "Gulasz wieprzowy: przepis na duszone mięso, dwujęzycznie ze wskazówkami DE.",
+        article: `## Gulasz wieprzowy, niedziela z plackami
 
-Wolno duszone wieprzowina w sosie paprykowym — w wielu domach towarzysz placków ziemniaczanych. To nie węgierski gulasz: więcej sosu, mniej ostrości, często koncentrat pomidorowy.
+Wolno duszona wieprzowina w sosie paprykowym jest w wielu domach stałym towarzyszem placków ziemniaczanych. To nie węgierski gulasz, bo polski garnek ma więcej sosu, mniej ostrości i często koncentrat pomidorowy.
 
-### Duszenie w DE
+### Duszenie w Niemczech
 
-Garnek żeliwny albo [Dutch oven](/pl/blog/garnek-do-duszenia). Łopatka lub kark — tłuszcz trzyma soczystość. Opcjonalnie kiełbasa, zob. [Rodzaje kiełbasy](/pl/blog/rodzaje-kielbasy).
+Garnek żeliwny albo [dutch oven](/pl/blog/garnek-do-duszenia) pomaga utrzymać równy żar. Łopatka lub kark działają najlepiej, bo tłuszcz trzyma mięso soczyste. Kiełbasę możesz duszić opcjonalnie razem z mięsem, więcej w przewodniku o [rodzajach kiełbasy](/pl/blog/rodzaje-kielbasy).
 
 ### Czas
 
-Nazajutrz często lepszy. Placki smaż świeżo, gulasz trzymaj ciepły.
+Ugotowany dzień wcześniej gulasz smakuje często lepiej. Smaż placki świeżo, a gulasz po prostu trzymaj ciepły.
 
 ### Powiązane
 
-[Rodzina placków](/pl/rezepte/placki/ziemniaczane) · [Obiad niedzielny](/pl/blog/obiad-niedzielny).`,
+[Rodzina placków](/pl/rezepte/placki/ziemniaczane) pasuje klasycznie, cały kontekst menu daje [obiad niedzielny](/pl/blog/obiad-niedzielny).`,
       },
     },
     ingredients: [
@@ -1493,73 +1719,93 @@ Nazajutrz często lepszy. Placki smaż świeżo, gulasz trzymaj ciepły.
         title: "Kotlet mielony",
         slug: "kotlet-mielony",
         excerpt:
-          "Polnische Hacksteaks paniert — Alltagsklassiker neben Schabowy.",
+          "Panierte Hacksteaks aus gewürztem, mit eingeweichtem Brötchen gebundenem Hackfleisch, alltäglicher und schneller als der geklopfte Kotlet schabowy und mit fester Panade ganz anders als die in Soße gegarten Klopsy.",
         steps: [
           {
-            text: "Hack mit eingeweichtem Brötchen, Ei, Zwiebel, Salz und Pfeffer verkneten.",
-            tip: "Masse 30 Min kalt stellen — hält Form beim Braten.",
+            text: "Weiche das alte Brötchen in Milch ein, drücke es aus und verknete es mit dem Hackfleisch, der fein gewürfelten Zwiebel, dem Ei, Salz und Pfeffer.",
+            tip: "Das eingeweichte Brötchen hält die Masse saftig, ohne Brötchen wird der Kotlet schnell trocken und fest.",
           },
-          { text: "Flache Kotlets formen, durch Mehl, Ei und Panade ziehen." },
           {
-            text: "In Butterschmalz oder Öl goldbraun braten.",
-            tip: "Nicht zu heiß — Panade soll nicht verbrennen.",
+            text: "Stelle die Masse etwa 30 Minuten kalt, damit sie sich besser formen lässt und beim Braten nicht auseinanderfällt.",
+            tip: "Forme die Kotlets erst nach der Ruhezeit, kalte Masse hält ihre Form in der Pfanne deutlich besser als frisch verknetete.",
           },
-          { text: "Mit Kartoffeln, Mizeria oder Ketchup servieren." },
+          {
+            text: "Forme flache Kotlets und ziehe sie durch Mehl, verquirltes Ei und Semmelbrösel.",
+            tip: "Drücke die Panade am Ende leicht an, so schließt sie sich vollständig und öffnet sich beim Braten nicht.",
+          },
+          {
+            text: "Brate die Kotlets in Butterschmalz oder Öl bei mittlerer Hitze goldbraun, bis die Panade knusprig ist.",
+            tip: "Brate nicht zu heiß, denn Panade auf Hackfleisch verbrennt schneller als beim klassischen Schabowy aus einem festen Fleischstück.",
+          },
+          {
+            text: "Serviere die Kotlets heiß mit Kartoffeln, Mizeria oder Ketchup, ganz nach Familientradition.",
+            tip: "Reste schmecken am nächsten Tag kurz in der Pfanne aufgebraten oft fast so gut wie frisch.",
+          },
         ],
         seoTitle: "Kotlet mielony Rezept | Alemniam",
         seoDescription:
-          "Kotlet mielony paniert — Rezept bilingual mit Panier-Technik.",
-        article: `## Kotlet mielony — Alltagsteller
+          "Kotlet mielony paniert: Rezept bilingual mit Panier-Technik.",
+        article: `## Kotlet mielony, der Alltagsteller
 
-Hacksteaks paniert — nicht zu verwechseln mit [Schabowy](/de/rezepte/kotlet-schabowy): hier gemischtes Hack, dort geklopftes Schnitzel. In der Diaspora schnell, günstig, kinderfreundlich.
+Panierte Hacksteaks sind nicht mit [Schabowy](/de/rezepte/kotlet-schabowy) zu verwechseln, denn hier kommt gemischtes Hack zum Einsatz, dort ein geklopftes Schnitzel. In der Diaspora ist das Gericht schnell, günstig und vertraut.
 
 ### Panade
 
-Technik wie beim Schabowy: Mehl, Ei, Semmelbrösel. Ausführlich: [Panieren-Guide](/de/blog/panieren-schabowy). [Gusseisenpfanne](/de/blog/gusseisenpfanne) für gleichmäßige Kruste.
+Die Technik gleicht dem Schabowy: Mehl, Ei, Semmelbrösel. Ausführlich erklärt das der [Panieren-Guide](/de/blog/panieren-schabowy), eine [Gusseisenpfanne](/de/blog/gusseisenpfanne) sorgt dabei für eine gleichmäßige Kruste.
 
 ### Brötchen einweichen
 
-Altes Brötchen oder Semmel in Milch — macht den Kotlet saftig. Ohne Brötchen wird er trocken und fest.
+Ein altes Brötchen oder eine Semmel in Milch eingeweicht macht den Kotlet saftig. Ohne Brötchen wird er schnell trocken und fest.
 
 ### Sonntag
 
-Passt zu [Rosół](/de/rezepte/rosol) als zweites Gericht oder solo mit Salat.`,
+Passt neben [Rosół](/de/rezepte/rosol) als zweites Gericht oder solo mit einem einfachen Salat.`,
       },
       pl: {
         title: "Kotlet mielony",
         slug: "kotlet-mielony",
         excerpt:
-          "Mielone kotlety panierowane — codzienny klasyk obok schabowego.",
+          "Panierowane kotlety z doprawionego mięsa mielonego związanego namoczoną bułką, codzienne i szybsze niż rozbity kotlet schabowy oraz zupełnie inne niż gotowane w sosie klopsy z panierką.",
         steps: [
           {
-            text: "Wymieszaj mięso z namoczoną bułką, jajkiem, cebulą, solą i pieprzem.",
-            tip: "Odstaw 30 min w lodówce — łatwiej smażyć.",
+            text: "Namocz czerstwą bułkę w mleku, odciśnij ją i wymieszaj z mięsem mielonym, drobno posiekaną cebulą, jajkiem, solą i pieprzem.",
+            tip: "Namoczona bułka utrzymuje masę soczystą, bez niej kotlet szybko robi się suchy i zbity.",
           },
-          { text: "Formuj płaskie kotlety, obtocz w mące, jajku i bułce." },
           {
-            text: "Smaż na złoto na smalcu lub oleju.",
-            tip: "Nie za mocno — panierka nie może się przypalić.",
+            text: "Odstaw masę na około 30 minut do lodówki, żeby lepiej się formowała i nie rozpadała się podczas smażenia.",
+            tip: "Formuj kotlety dopiero po odpoczynku, zimna masa trzyma formę na patelni wyraźnie lepiej niż świeżo wymieszana.",
           },
-          { text: "Podawaj z ziemniakami, mizerią albo keczupem." },
+          {
+            text: "Formuj płaskie kotlety i obtocz je w mące, roztrzepanym jajku i bułce tartej.",
+            tip: "Dociśnij panierkę na końcu lekko dłonią, dzięki temu zamyka się w całości i nie odpada podczas smażenia.",
+          },
+          {
+            text: "Smaż kotlety na smalcu lub oleju na średnim ogniu na złoto, aż panierka będzie chrupiąca.",
+            tip: "Nie smaż za mocno, bo panierka na mielonym przypala się szybciej niż przy klasycznym schabowym z jednego kawałka mięsa.",
+          },
+          {
+            text: "Podawaj kotlety gorące z ziemniakami, mizerią albo keczupem, zależnie od tradycji rodzinnej.",
+            tip: "Resztki podsmażone krótko na patelni następnego dnia smakują często niemal tak dobrze jak świeże.",
+          },
         ],
         seoTitle: "Kotlet mielony przepis | Alemniam",
         seoDescription:
-          "Kotlet mielony panierowany — przepis dwujęzyczny z techniką panierowania.",
-        article: `## Kotlet mielony — talerz na co dzień
+          "Kotlet mielony panierowany: przepis dwujęzyczny z techniką panierowania.",
+        article: `## Kotlet mielony, talerz na co dzień
 
-Kotlety z mielonego mięsa w panierce — nie to samo co [schabowy](/pl/rezepte/kotlet-schabowy): tu mielone, tam rozbite kotlety. W diasporze szybko, tanio, dla dzieci.
+Kotlety z mielonego mięsa w panierce to nie to samo co [schabowy](/pl/rezepte/kotlet-schabowy), bo tu jest mięso mielone, a tam rozbity kawałek. W diasporze to danie szybkie, tanie i lubiane przez dzieci.
 
 ### Panierka
 
-Jak u schabowego: mąka, jajko, bułka tarta. Więcej: [Panierowanie](/pl/blog/panierowanie-kotlet). [Patelnia żeliwna](/pl/blog/patelnia-zelivna).
+Technika jak u schabowego: mąka, jajko, bułka tarta. Więcej opisuje [przewodnik panierowania](/pl/blog/panierowanie-kotlet), a równy żar daje [patelnia żeliwna](/pl/blog/patelnia-zelivna).
 
 ### Bułka
 
-Namoczona kajzerka trzyma soczystość. Bez bułki kotlet będzie twardy.
+Namoczona kajzerka trzyma soczystość mięsa. Bez bułki kotlet szybko robi się twardy i suchy.
 
 ### Niedziela
 
-Obok [rosół](/pl/rezepte/rosol) albo solo z surówką.`,
+Pasuje obok [rosołu](/pl/rezepte/rosol) jako drugie danie albo solo z surówką.`,
       },
     },
     ingredients: [
@@ -1628,85 +1874,93 @@ Obok [rosół](/pl/rezepte/rosol) albo solo z surówką.`,
         title: "Kluski śląskie",
         slug: "kluski-slaskie",
         excerpt:
-          "Schlesische Kartoffelklöße mit Mulde — klassische Beilage zu Rosół.",
+          "Kluski śląskie sind schlesische Kartoffelklöße aus Kartoffeln und Kartoffelstärke mit einer charakteristischen Mulde in der Mitte, spürbar fester als die länglichen Kopytka und ohne Füllung im Gegensatz zu den großen Pyzy.",
         steps: [
           {
-            text: "Kartoffeln kochen, abkühlen lassen, durch Presse drücken.",
+            text: "Kartoffeln in der Schale kochen, gut ausdampfen lassen und durch eine Kartoffelpresse drücken.",
+            tip: "Kartoffeln, die noch heiß und trocken durch die Presse gehen, geben später weniger Feuchtigkeit ab, das hält den Teig fest statt klebrig.",
           },
           {
-            text: "Mit Kartoffelstärke, Ei und Salz zu glattem Teig kneten.",
-            tip: "Teig nicht zu weich — sonst zerfallen die Klöße.",
+            text: "Die Kartoffelmasse mit Kartoffelstärke, Ei und Salz zu einem glatten, festen Teig verkneten.",
+            tip: "Nimm im Verhältnis etwa vier Teile Kartoffeln auf einen Teil Stärke, zu viel Stärke macht die Klöße später gummiartig statt zart.",
           },
           {
-            text: "Kugeln formen, in der Mitte mit Finger Mulde drücken.",
+            text: "Aus dem Teig gleich große Kugeln formen und mit dem Finger in der Mitte eine Mulde eindrücken.",
+            tip: "Die Mulde ist keine reine Dekoration, sie hilft den Klößen, gleichmäßig zu garen, und sammelt später die Soße auf dem Teller.",
           },
           {
-            text: "In leicht siedendem Salzwasser gar ziehen, bis sie oben schwimmen.",
+            text: "In leicht siedendem Salzwasser gar ziehen lassen, bis die Klöße an die Oberfläche steigen.",
+            tip: "Nimm sie zügig heraus, sobald sie oben schwimmen, länger im Wasser werden sie schnell zäh und gummiartig.",
           },
           {
-            text: "Mit [Rosół](/de/rezepte/rosol) und gebratener Zwiebel servieren — oder klassisch zu [Rolada śląska](/de/rezepte/rolada-slaska).",
+            text: "Mit [Rosół](/de/rezepte/rosol) und gebratener Zwiebel servieren, klassisch auch neben [Rolada śląska](/de/rezepte/rolada-slaska) und Rotkohl.",
+            tip: "Die Klöße sind kein Ersatz für die länglichen [Kopytka](/de/rezepte/kopytka) oder die großen, gefüllten [Pyzy](/de/rezepte/pyzy), alle drei gehören zur selben Kartoffelklöße-Familie, aber jede hat eine eigene Form und Technik.",
           },
         ],
         seoTitle: "Kluski śląskie Rezept | Alemniam",
         seoDescription:
-          "Schlesische Kartoffelklöße — Beilage-Rezept bilingual mit DE-Einkauf.",
-        article: `## Kluski śląskie — Mulde in der Mitte
+          "Schlesische Kartoffelklöße mit Mulde: Beilage-Rezept bilingual, mit Einkaufshinweisen für Deutschland.",
+        article: `## Kluski śląskie: die Mulde in der Mitte
 
-Gekochte Kartoffeln, Stärke, Ei — geknetet, zur Kugel geformt, mit charakteristischer Mulde. Aus Schlesien, in der Diaspora oft neben [Rosół](/de/rezepte/rosol) auf dem Sonntagsteller.
+Gekochte Kartoffeln, Kartoffelstärke und Ei werden zu einem festen Teig verknetet, zur Kugel geformt und in der Mitte mit einer charakteristischen Mulde versehen. Kluski śląskie stammen aus Schlesien und liegen in der Diaspora oft neben [Rosół](/de/rezepte/rosol) auf dem Sonntagsteller.
 
-### Stärke vs. Mehl
+### Stärke statt Mehl
 
-Kartoffelstärke (Speisestärke) aus dem Supermarkt — nicht zu viel, sonst gummiartig. Teig soll fest, aber formbar sein.
+Kartoffelstärke, im Supermarkt auch als Speisestärke bekannt, macht den Teig glatt und leicht durchscheinend. Zu viel Stärke macht die Klöße gummiartig, der Teig soll fest, aber noch gut formbar bleiben.
 
 ### Kochen
 
-Nicht stark kochen — sanft sieden. Klöße kurz nach dem Schwimmen herausnehmen.
+Das Wasser darf nur sanft sieden, starkes Kochen lässt die Klöße aufreißen. Nimm sie kurz nach dem Aufschwimmen aus dem Topf, sonst werden sie zäh.
 
 ### Beilage
 
-Gebratene Zwiebel, Schmalz, oder Pilzsoße. Siehe [Rosół-Technik](/de/blog/rosol-technik).`,
+Gebratene Zwiebel, brauner Schmalz oder eine Pilzsoße passen klassisch dazu. Mehr zur Brühe liefert die [Rosół-Technik](/de/blog/rosol-technik).`,
       },
       pl: {
         title: "Kluski śląskie",
         slug: "kluski-slaskie",
         excerpt:
-          "Śląskie knedle ziemniaczane z dziurką — klasyk obok rosołu.",
+          "Kluski śląskie to śląskie kluski ziemniaczane ze skrobią, z charakterystycznym wgłębieniem po środku, wyraźnie bardziej sprężyste niż podłużne kopytka i bez nadzienia, w przeciwieństwie do dużych pyz.",
         steps: [
           {
-            text: "Ugotuj ziemniaki, ostudź, przeciśnij przez praskę.",
+            text: "Ugotuj ziemniaki w mundurkach, dobrze odparuj i przeciśnij przez praskę.",
+            tip: "Gorące i suche ziemniaki po przeciśnięciu oddają mniej wilgoci, dzięki temu ciasto wychodzi zwarte, a nie klejące.",
           },
           {
-            text: "Zagnieć ze skrobią, jajkiem i solą na gładkie ciasto.",
-            tip: "Ciasto nie za miękkie — inaczej knedle pękną.",
+            text: "Zagnieć masę ziemniaczaną ze skrobią ziemniaczaną, jajkiem i solą na gładkie, zwarte ciasto.",
+            tip: "Zachowaj proporcję około cztery części ziemniaków na jedną część skrobi, za dużo skrobi zrobi kluski gumowate, a nie delikatne.",
           },
           {
-            text: "Formuj kulki, palcem zrób wgłębienie.",
+            text: "Uformuj z ciasta równe kulki i palcem zrób w środku charakterystyczne wgłębienie.",
+            tip: "Wgłębienie to nie tylko dekoracja, pomaga kluskom równo się ugotować i później zatrzymuje sos na talerzu.",
           },
           {
-            text: "Gotuj w osolonej wodzie na wolnym ogniu, aż wypłyną.",
+            text: "Gotuj w lekko wrzącej, osolonej wodzie, aż kluski wypłyną na powierzchnię.",
+            tip: "Wyjmij je szybko po wypłynięciu, dłużej w wodzie robią się gumowate i twarde.",
           },
           {
-            text: "Podawaj z [rosółem](/pl/rezepte/rosol) i podsmażoną cebulą — albo klasycznie do [rolady śląskiej](/pl/rezepte/rolada-slaska).",
+            text: "Podawaj z [rosołem](/pl/rezepte/rosol) i podsmażoną cebulą, klasycznie także obok [rolady śląskiej](/pl/rezepte/rolada-slaska) i modrej kapusty.",
+            tip: "Kluski śląskie to inna rodzina niż podłużne [kopytka](/pl/rezepte/kopytka) czy duże, nadziewane [pyzy](/pl/rezepte/pyzy), wszystkie trzy powstają z ziemniaków, ale każde ma inny kształt i technikę.",
           },
         ],
         seoTitle: "Kluski śląskie przepis | Alemniam",
         seoDescription:
-          "Kluski śląskie — przepis na knedle z dziurką, dwujęzycznie.",
-        article: `## Kluski śląskie — dziurka po środku
+          "Kluski śląskie: przepis na kluski z dziurką, dwujęzycznie, z poradami dotyczącymi ciasta i skrobi.",
+        article: `## Kluski śląskie: wgłębienie po środku
 
-Ugotowane ziemniaki, skrobia, jajko — ugniecione, uformowane w kulkę z charakterystycznym wgłębieniem. Ze Śląska, w diasporze często obok [rosołu](/pl/rezepte/rosol).
+Ugotowane ziemniaki, skrobia ziemniaczana i jajko tworzą zwarte ciasto, formowane w kulki z charakterystycznym wgłębieniem po środku. Kluski śląskie pochodzą ze Śląska i w diasporze często trafiają na talerz razem z [rosołem](/pl/rezepte/rosol) w niedzielę.
 
-### Skrobia
+### Skrobia, nie mąka
 
-Skrobia ziemniaczana ze sklepu — nie za dużo, bo będą gumowate. Ciasto ma być twarde, ale plastyczne.
+Skrobia ziemniaczana, dostępna w każdym markecie, daje ciastu gładkość i lekką przejrzystość. Za dużo skrobi robi kluski gumowate, ciasto ma być zwarte, ale wciąż dobrze formowalne.
 
 ### Gotowanie
 
-Delikatnie, na wolnym ogniu. Wyjmij zaraz po wypłynięciu.
+Woda powinna tylko delikatnie wrzeć, mocne wrzenie rozrywa kluski. Wyjmij je zaraz po wypłynięciu, dłużej w wodzie robią się twarde.
 
 ### Dodatki
 
-Cebula na smalcu, sos grzybowy. [Jak ugotować rosół](/pl/blog/jak-ugotowac-rosol).`,
+Cebula podsmażona na smalcu albo sos grzybowy pasują klasycznie. Więcej o bulionie znajdziesz w przewodniku, [jak ugotować rosół](/pl/blog/jak-ugotowac-rosol).`,
       },
     },
     ingredients: [
@@ -1754,81 +2008,93 @@ Cebula na smalcu, sos grzybowy. [Jak ugotować rosół](/pl/blog/jak-ugotowac-ro
         title: "Racuchy z jabłkami",
         slug: "racuchy-jablka",
         excerpt:
-          "Hefige Apfelpfannkuchen — fluffig, goldbraun, mit Puderzucker.",
+          "Racuchy z jabłkami sind dicke Pfannkuchen aus Hefeteig mit Apfelstücken, deutlich fluffiger als dünne Naleśniki aus Ei-Milch-Teig und anders als die aus rohem, geriebenem Kartoffelteig gebackenen Placki mit Apfel.",
         steps: [
           {
-            text: "Hefe in lauwarmer Milch mit Zucker auflösen, 10 Min gehen lassen.",
+            text: "Hefe in lauwarmer Milch mit etwas Zucker auflösen und etwa 10 Minuten gehen lassen, bis sich kleine Blasen bilden.",
+            tip: "Die Milch darf nur lauwarm sein, zu heiße Milch tötet die Hefe ab und der Teig geht dann kaum noch auf.",
           },
           {
-            text: "Mehl, Ei, Prise Salz und Vanille zugeben, glatten Teig kneten. 45 Min gehen lassen.",
+            text: "Mehl, Ei, eine Prise Salz und Vanille dazugeben, zu einem glatten Teig verarbeiten und danach etwa 45 Minuten gehen lassen.",
+            tip: "Der Teig braucht diese Ruhezeit wirklich, ohne sie werden die Racuchy flach und dicht statt luftig.",
           },
           {
-            text: "Äpfel schälen, entkernen, in dünne Spalten schneiden.",
+            text: "Äpfel schälen, entkernen und in dünne Spalten schneiden.",
+            tip: "Feste, säuerliche Sorten wie Boskoop oder Granny Smith halten beim Braten die Form besser als mehlige Äpfel.",
           },
           {
-            text: "Teig portionsweise in heißer Pfanne backen, Apfelspalten hineinlegen, wenden.",
-            tip: "Mittlere Hitze — innen durch, außen gold. Hefe im Fettbad statt Pfanne: [Pączki](/de/rezepte/paczki).",
+            text: "Den Teig portionsweise in eine heiße, gefettete Pfanne geben, Apfelspalten hineinlegen und wenden, sobald die Unterseite goldbraun ist.",
+            tip: "Brate bei mittlerer Hitze, damit die Mitte durchgart, bevor die Kruste zu dunkel wird, Hefeteig braucht dafür etwas mehr Zeit als dünner Pfannkuchenteig.",
           },
-          { text: "Warm mit Puderzucker servieren." },
+          {
+            text: "Warm mit reichlich Puderzucker servieren.",
+            tip: "Anders als [Pączki](/de/rezepte/paczki), die im tiefen Fettbad schwimmen, brauchen Racuchy nur eine flache Pfanne mit wenig Fett.",
+          },
         ],
         seoTitle: "Racuchy z jabłkami Rezept | Alemniam",
         seoDescription:
-          "Polnische Apfel-Racuchy — Hefeteig-Rezept bilingual für DE-Küchen.",
-        article: `## Racuchy — Hefe, Apfel, Pfanne
+          "Polnische Apfel-Racuchy: Hefeteig-Rezept bilingual für deutsche Küchen, mit klarer Abgrenzung zu Naleśniki und Placki.",
+        article: `## Racuchy: Hefe, Apfel, Pfanne
 
-Racuchy sind **Hefeteig-Pfannkuchen** mit Apfel — fluffiger als [Placki mit Apfel](/de/rezepte/placki/mit-apfel). In der Diaspora beliebt zum Nachmittagskaffee oder als süßes Abendessen.
+Racuchy sind dicke Pfannkuchen aus Hefeteig mit Apfelstücken, fluffiger als die aus rohem Kartoffelteig gebackenen [Placki mit Apfel](/de/rezepte/placki/mit-apfel) und deutlich dicker als dünne Naleśniki. In der Diaspora beliebt zum Nachmittagskaffee oder als süßes, leichtes Abendessen.
 
-### Hefe in DE
+### Hefe in Deutschland
 
-Trockenhefe funktioniert — lauwarme Milch, nicht heiß. Teig braucht Ruhe; ohne Geduld werden sie flach.
+Trockenhefe aus dem Supermarkt funktioniert zuverlässig, die Milch darf nur lauwarm sein, nicht heiß. Der Teig braucht echte Ruhe, ohne Geduld werden die Racuchy flach und dicht.
 
 ### Äpfel
 
-Fest und säuerlich. Nicht zu dicke Spalten — sonst bleibt der Teig roh.
+Feste, säuerliche Äpfel halten beim Braten die Form am besten. Schneide die Spalten nicht zu dick, sonst bleibt der Teig darunter roh.
 
 ### Anlässe
 
-Nahe an [Tłusty Czwartek](/de/blog/tlusty-czwartek)-Tradition, aber ganzjährig machbar.`,
+Racuchy stehen der [Tłusty-Czwartek](/de/blog/tlusty-czwartek)-Tradition nahe, lassen sich aber das ganze Jahr über backen.`,
       },
       pl: {
         title: "Racuchy z jabłkami",
         slug: "racuchy-jablka",
         excerpt:
-          "Drożdżowe racuchy z jabłkiem — puszyste, złote, z cukrem pudrem.",
+          "Racuchy z jabłkami to grube placki na cieście drożdżowym z kawałkami jabłka, znacznie puszystsze niż cienkie naleśniki na cieście jajeczno-mlecznym i inne niż placki z jabłkami ze startego, surowego ziemniaka.",
         steps: [
           {
-            text: "Rozpuść drożdże w ciepłym mleku z cukrem, odstaw 10 min.",
+            text: "Rozpuść drożdże w ciepłym mleku z odrobiną cukru i odstaw na około 10 minut, aż zaczną się tworzyć bąbelki.",
+            tip: "Mleko musi być tylko ciepłe, za gorące zabija drożdże i ciasto wtedy w ogóle nie wyrośnie.",
           },
           {
-            text: "Dodaj mąkę, jajko, sól i wanilię, zagnieć. Odstaw 45 min.",
+            text: "Dodaj mąkę, jajko, szczyptę soli i wanilię, wymieszaj na gładkie ciasto i odstaw na około 45 minut.",
+            tip: "Ciasto naprawdę potrzebuje tego czasu, bez niego racuchy wychodzą płaskie i zbite, a nie puszyste.",
           },
           {
-            text: "Obierz jabłka, usuń gniazda, pokrój w cienkie ćwiartki.",
+            text: "Obierz jabłka, usuń gniazda i pokrój w cienkie ćwiartki.",
+            tip: "Twarde, kwaskowate odmiany, na przykład koksy czy szara reneta, lepiej trzymają formę podczas smażenia niż mączyste jabłka.",
           },
           {
-            text: "Smaż porcje ciasta, włóż jabłko, przewróć.",
-            tip: "Średni ogień — środek upieczony, skórka złota. Drożdże w kąpieli tłuszczowej zamiast patelni: [pączki](/pl/rezepte/paczki).",
+            text: "Kładź porcje ciasta na rozgrzaną, natłuszczoną patelnię, wkładaj kawałki jabłka i przewracaj, gdy spód się zezłoci.",
+            tip: "Smaż na średnim ogniu, żeby środek zdążył się upiec, zanim skórka zrobi się za ciemna, ciasto drożdżowe potrzebuje na to nieco więcej czasu niż cienki naleśnik.",
           },
-          { text: "Podawaj ciepłe z cukrem pudrem." },
+          {
+            text: "Podawaj ciepłe, obficie posypane cukrem pudrem.",
+            tip: "W przeciwieństwie do [pączków](/pl/rezepte/paczki), które smaży się w głębokim tłuszczu, racuchy potrzebują tylko płytkiej patelni z odrobiną oleju.",
+          },
         ],
         seoTitle: "Racuchy z jabłkami przepis | Alemniam",
         seoDescription:
-          "Racuchy z jabłkami na drożdżach — przepis dwujęzyczny.",
-        article: `## Racuchy — drożdże, jabłko, patelnia
+          "Racuchy z jabłkami na drożdżach: przepis dwujęzyczny, z jasną różnicą wobec naleśników i placków z jabłkami.",
+        article: `## Racuchy: drożdże, jabłko, patelnia
 
-Racuchy to **racuchy drożdżowe** z jabłkiem — bardziej puszyste niż [placki z jabłkami](/pl/rezepte/placki/jablka). W diasporze na popołudniową kawę albo słodki obiad.
+Racuchy to grube placki na cieście drożdżowym z kawałkami jabłka, puszystsze niż [placki z jabłkami](/pl/rezepte/placki/jablka) ze startego, surowego ziemniaka i grubsze niż cienkie naleśniki. W diasporze popularne na popołudniową kawę albo jako słodki, lekki obiad.
 
-### Drożdże w DE
+### Drożdże w Niemczech
 
-Suszone drożdże działają — mleko ciepłe, nie gorące. Ciasto potrzebuje czasu.
+Suszone drożdże z marketu działają pewnie, mleko musi być tylko ciepłe, nie gorące. Ciasto potrzebuje czasu na wyrośnięcie, bez cierpliwości wychodzi płaskie i ciężkie.
 
 ### Jabłka
 
-Twarde, kwaśne. Nie za grube kawałki — inaczej surowe w środku.
+Twarde, kwaskowate jabłka najlepiej trzymają formę podczas smażenia. Nie kroj ćwiartek za grubo, inaczej środek zostaje surowy.
 
 ### Okazje
 
-Blisko tradycji [Tłusty Czwartek](/pl/blog/tlusty-czwartek), ale przez cały rok.`,
+Racuchy są bliskie tradycji [Tłustego Czwartku](/pl/blog/tlusty-czwartek-przepisy), ale smaży się je przez cały rok.`,
       },
     },
     ingredients: [
@@ -1901,75 +2167,93 @@ Blisko tradycji [Tłusty Czwartek](/pl/blog/tlusty-czwartek), ale przez cały ro
         title: "Chłodnik litewski",
         slug: "chlodnik-litewski",
         excerpt:
-          "Kalte Rote-Bete-Suppe mit Gurke, Dill und Śmietana — Sommerklassiker.",
+          "Chłodnik litewski ist eine kalte Suppe aus Rote Bete, Kefir oder Buttermilch, Gurke und Dill, cremig-säuerlich und eiskalt serviert, das genaue Gegenteil des heißen, klaren Barszcz czerwony.",
         steps: [
           {
-            text: "Gekochte Rote Bete fein reiben oder pürieren. Mit Kefir oder Joghurt und Brühe verrühren.",
+            text: "Gekochte Rote Bete fein reiben oder pürieren und mit Kefir oder Buttermilch sowie kalter Brühe glattrühren.",
+            tip: "Für die klassische litauisch-polnische Note nimmst du Kefir, in Deutschland funktioniert auch Buttermilch oder Naturjoghurt genauso gut.",
           },
           {
             text: "Gurke, Radieschen, Dill und hartgekochtes Ei in feine Würfel schneiden.",
+            tip: "Schneide das Gemüse wirklich fein, große Stücke passen nicht zur cremigen, löffelbaren Textur der Suppe.",
           },
           {
-            text: "Gemüse unter die kalte Basis mischen. Mit Salz, Zitrone und Zucker abschmecken.",
-            tip: "Mindestens 2 Stunden kalt stellen — schmeckt besser am nächsten Tag.",
+            text: "Das Gemüse unter die kalte Basis mischen und mit Salz, etwas Zitrone und einer Prise Zucker abschmecken.",
+            tip: "Probiere nach ein paar Minuten noch einmal ab, der Kefir bindet die Säure erst nach einer Weile, direkt nach dem Mischen schmeckt die Suppe oft noch zu mild.",
           },
-          { text: "Mit gekochter Kartoffel und extra Śmietana servieren." },
+          {
+            text: "Mindestens zwei Stunden kalt stellen, damit sich die Aromen setzen, am nächsten Tag schmeckt der Chłodnik oft noch runder.",
+            tip: "Anders als der klare, heiße [Barszcz czerwony](/de/rezepte/barszcz-czerwony) lebt Chłodnik von Kälte und Säure, serviere ihn nie lauwarm.",
+          },
+          {
+            text: "Mit einer halben gekochten Kartoffel, hartgekochtem Ei und extra Śmietana servieren.",
+            tip: "Eine dickere Śmietana zum Finish findest du oft im [Polenladen](/de/blog/polenladen-einkaufen), was Śmietana von Schmand unterscheidet, erklärt der Guide [Śmietana vs. Schmand](/de/blog/smietana-schmand).",
+          },
         ],
         seoTitle: "Chłodnik litewski Rezept | Alemniam",
         seoDescription:
-          "Kalte polnische Rote-Bete-Suppe — Rezept bilingual mit Śmietana-Hinweisen.",
-        article: `## Chłodnik — kalte Suppe für heiße Diaspora-Sommer
+          "Kalte polnisch-litauische Rote-Bete-Suppe: Rezept bilingual mit Hinweisen zu Kefir, Śmietana und der Abgrenzung zum heißen Barszcz.",
+        article: `## Chłodnik: kalte Suppe für heiße Sommer
 
-Rote Bete, Kefir oder Joghurt, Gurke, Dill — rosa, kühl, säuerlich-frisch. Nicht [Barszcz czerwony](/de/rezepte/barszcz-czerwony) (heiß und klar), sondern Sommersuppe im Becher.
+Rote Bete, Kefir oder Buttermilch, Gurke und Dill ergeben eine rosa, kühle, säuerlich-frische Suppe. Anders als der heiße, klare [Barszcz czerwony](/de/rezepte/barszcz-czerwony) wird Chłodnik eiskalt aus dem Kühlschrank gegessen, nie warm.
 
 ### Śmietana und Kefir
 
-[Śmietana vs. Schmand](/de/blog/smietana-schmand) — hier zählt Säure und Cremigkeit. Kefir aus dem Supermarkt funktioniert; im Polenladen oft bessere Śmietana zum Finish.
+Der Unterschied zwischen [Śmietana und Schmand](/de/blog/smietana-schmand) betrifft vor allem Säure und Cremigkeit. Kefir aus dem Supermarkt funktioniert gut, im [Polenladen](/de/blog/polenladen-einkaufen) findest du oft eine dickere Śmietana für das Finish.
 
 ### Rote Bete
 
-Vorgekocht aus dem Glas spart Zeit — frisch gekocht schmeckt erdig-süßer. Suppe muss **gut gekühlt** sein.
+Vorgekochte Rote Bete aus dem Glas spart Zeit, frisch gekochte schmeckt erdiger und etwas süßer. Die Suppe muss richtig gut gekühlt sein, sonst geht ihr Charakter verloren.
 
 ### Servieren
 
-Mit halber Kartoffel und Ei — leichtes Hauptgericht, kein Vorspeisen-Schnipsel.`,
+Mit einer halben Kartoffel und einem Ei wird daraus ein leichtes Hauptgericht, kein Vorspeisen-Häppchen neben dem Grill.`,
       },
       pl: {
         title: "Chłodnik litewski",
         slug: "chlodnik-litewski",
         excerpt:
-          "Zimny chłodnik na burakach z ogórkiem, koperkiem i śmietaną — klasyk lata.",
+          "Chłodnik litewski to zimna zupa na burakach z kefirem lub maślanką, ogórkiem i koperkiem, kremowo-kwaśna i podawana na lodzie, czyli dokładne przeciwieństwo gorącego, klarownego barszczu czerwonego.",
         steps: [
           {
-            text: "Ugotowane buraki zetrzyj lub zblenduj. Wymieszaj z kefired lub jogurtem i bulionem.",
+            text: "Ugotowane buraki zetrzyj lub zblenduj i wymieszaj z kefirem lub maślanką oraz zimnym bulionem na gładką bazę.",
+            tip: "Do klasycznej litewsko-polskiej wersji użyj kefiru, w Niemczech równie dobrze sprawdzi się maślanka albo jogurt naturalny.",
           },
           {
-            text: "Ogórek, rzodkiewkę, koperek i jajko na twardo drobno pokrój.",
+            text: "Ogórek, rzodkiewkę, koperek i jajko na twardo pokrój w drobną kostkę.",
+            tip: "Krój warzywa naprawdę drobno, duże kawałki nie pasują do kremowej, łyżkowej konsystencji tej zupy.",
           },
           {
-            text: "Warzywa dodaj do zimnej bazy. Dopraw solą, cytryną i cukrem.",
-            tip: "Minimum 2 h w lodówce — lepszy następnego dnia.",
+            text: "Warzywa dodaj do zimnej bazy i dopraw solą, odrobiną cytryny i szczyptą cukru.",
+            tip: "Spróbuj jeszcze raz po chwili, kefir wiąże kwasowość dopiero po pewnym czasie, więc zaraz po wymieszaniu zupa bywa jeszcze zbyt łagodna.",
           },
-          { text: "Podawaj z ugotowanym ziemniakiem i extra śmietaną." },
+          {
+            text: "Wstaw na minimum dwie godziny do lodówki, żeby smaki się przegryzły, następnego dnia chłodnik smakuje często jeszcze lepiej.",
+            tip: "W przeciwieństwie do gorącego, klarownego [barszczu czerwonego](/pl/rezepte/barszcz-czerwony) chłodnik żyje chłodem i kwasem, nigdy nie podawaj go letniego.",
+          },
+          {
+            text: "Podawaj z ugotowaną połówką ziemniaka, jajkiem na twardo i dodatkową śmietaną.",
+            tip: "Lepszą śmietanę na wierzch znajdziesz często w [polskim sklepie](/pl/blog/sklep-polski-zakupy), a różnicę między śmietaną i schmandem wyjaśnia poradnik [śmietana czy schmand](/pl/blog/smietana-czy-schmand).",
+          },
         ],
         seoTitle: "Chłodnik litewski przepis | Alemniam",
         seoDescription:
-          "Chłodnik na burakach — zimna zupa, przepis dwujęzyczny.",
-        article: `## Chłodnik — zimna zupa na gorące lato w diasporze
+          "Chłodnik litewski na burakach: przepis dwujęzyczny, z poradami o kefirze, śmietanie i różnicy wobec gorącego barszczu.",
+        article: `## Chłodnik: zimna zupa na gorące lato
 
-Buraki, kefir lub jogurt, ogórek, koperek — różowy, chłodny, kwaśno-świeży. To nie [barszcz czerwony](/pl/rezepte/barszcz-czerwony) (gorący i klarowny), tylko letnia zupa w misce.
+Buraki, kefir lub maślanka, ogórek i koperek dają różową, chłodną, kwaśno-świeżą zupę. W przeciwieństwie do gorącego, klarownego [barszczu czerwonego](/pl/rezepte/barszcz-czerwony) chłodnik jada się na lodzie, nigdy ciepły.
 
 ### Śmietana i kefir
 
-[Śmietana czy Schmand](/pl/blog/smietana-czy-schmand). Kefir ze supermarketu działa; w polskim sklepie często lepsza śmietana na wierzch.
+Różnica między [śmietaną i schmandem](/pl/blog/smietana-czy-schmand) dotyczy głównie kwasowości i kremowości. Kefir z marketu działa dobrze, w [polskim sklepie](/pl/blog/sklep-polski-zakupy) często znajdziesz gęstszą śmietanę na wierzch.
 
 ### Buraki
 
-Gotowane z słoika oszczędza czas — świeże smakują bardziej ziemiście. Zupa musi być **mocno schłodzona**.
+Ugotowane buraki ze słoika oszczędzają czas, świeżo ugotowane smakują bardziej ziemiście i słodko. Zupa musi być naprawdę dobrze schłodzona, inaczej traci swój charakter.
 
 ### Podanie
 
-Z połówką ziemniaka i jajkiem — lekki obiad, nie tylko przystawka.`,
+Z połówką ziemniaka i jajkiem wychodzi lekki obiad, a nie tylko przystawka obok grilla.`,
       },
     },
     ingredients: [

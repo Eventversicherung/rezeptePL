@@ -353,9 +353,9 @@ Piszemy dla domów w diasporze: REWE obok sklepu polskiego, bio obok regału wsc
 
 ## Czym jest kasza — gryczana i pokrewne
 
-**Kasza gryczana** to oczyszczone, zwykle prażone ziarna gryki — stąd ciemny kolor i orzechowy zapach. Samo „kasza” w polskich tekstach bywa różne; w codziennej mowie diasporowej chodzi prawie zawsze o **gryczaną**, chyba że stoi „jęczmienna” albo „mannа”.
+**Kasza gryczana** to oczyszczone, zwykle prażone ziarna gryki — stąd ciemny kolor i orzechowy zapach. Samo „kasza” w polskich tekstach bywa różne; w codziennej mowie diasporowej chodzi prawie zawsze o **gryczaną**, chyba że stoi „jęczmienna” albo „manna”.
 
-Gryka **nie jest zbożem** w sensie pszenicy — to łąka. Stąd etykiety bez glutenu; przy celiakii sprawdzamy kontaminację w młynie.
+Gryka **nie jest zbożem** w sensie pszenicy — botanicznie to roślina z rodziny rdestowatych. Stąd etykiety bez glutenu; przy celiakii sprawdzamy kontaminację w młynie.
 
 Formy w sklepie:
 

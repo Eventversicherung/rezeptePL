@@ -20,51 +20,55 @@ export const seedRecipesWave6: Recipe[] = [
         title: "Makowiec",
         slug: "makowiec",
         excerpt:
-          "Gerollter Mohnkuchen — Hefeteig, dichte Mohnmasse, festlich für Wigilia.",
+          "Gerollter Hefekuchen mit dichter Mohnfüllung, klassisch zur Wigilia gebacken, außen goldbraun und innen in jeder Scheibe saftig mohnig.",
         steps: [
           {
-            text: "Mohn mit heißer Milch aufquellen lassen, abkühlen, mit Zucker, Butter und Ei zu streichfähiger Masse rühren.",
-            tip: "Masse soll nicht tropfen und nicht krümeln — siehe [Makowiec-Technik](/de/blog/makowiec-technik).",
+            text: "Mohn mit heißer Milch aufquellen lassen, vollständig abkühlen lassen und dann mit Zucker, Butter und Ei zu einer streichfähigen Masse verrühren.",
+            tip: "Die Masse ist richtig, wenn sie schwer vom Löffel fällt und nicht bröckelt, mehr zur Konsistenz zeigt der [Makowiec-Technik-Guide](/de/blog/makowiec-technik).",
           },
           {
-            text: "Hefeteig aus Mehl, Milch, Butter, Zucker, Ei und Hefe kneten, gehen lassen bis verdoppelt.",
+            text: "Hefeteig aus Mehl, Milch, Butter, Zucker, Ei und Hefe kneten und an einem warmen Ort gehen lassen, bis er sich sichtbar verdoppelt hat.",
+            tip: "Ein Teig, der zu kühl steht, braucht deutlich länger, stelle die Schüssel daher am besten in die Nähe der Heizung oder in den leicht vorgewärmten, ausgeschalteten Ofen.",
           },
           {
-            text: "Teig rechteckig ausrollen, Mohnmasse mit Randabstand verstreichen, fest rollen, Naht nach unten.",
+            text: "Den Teig zu einem Rechteck ausrollen, die Mohnmasse gleichmäßig verteilen und dabei an den Rändern etwas Platz lassen, dann fest von der langen Seite aufrollen und mit der Nahtstelle nach unten auf das Blech legen.",
+            tip: "Ein zu dünn ausgerollter Teig reißt beim Rollen leicht ein, deshalb lieber etwas dicker lassen und die Rolle vorsichtig, aber bestimmt schließen.",
           },
           {
-            text: "Mit Ei bestreichen, bei mittlere Hitze goldbraun backen, abkühlen, erst dann in Scheiben schneiden.",
-            tip: "Zu heiß = außen dunkel, innen roh. Stäbchenprobe im Teigteil.",
+            text: "Mit verquirltem Ei bestreichen und bei mittlerer Hitze goldbraun backen, dann vollständig auskühlen lassen, bevor der Kuchen in Scheiben geschnitten wird.",
+            tip: "Bei zu hoher Hitze bräunt die Oberfläche, während der Kern innen noch roh bleibt, eine Stäbchenprobe mitten im Teigteil zeigt zuverlässig, ob die Rolle durch ist.",
           },
         ],
         seoTitle: "Makowiec Rezept | Mohnkuchen gerollt | Alemniam",
         seoDescription:
-          "Makowiec backen — polnischer Mohnkuchen, bilingual mit DE-Einkauf und Wigilia-Kontext.",
+          "Makowiec Schritt für Schritt backen, der polnische Mohnkuchen mit Einkaufstipps für Deutschland und Einordnung in den Wigilia-Speiseplan.",
       },
       pl: {
         title: "Makowiec",
         slug: "makowiec",
         excerpt:
-          "Rolada makowa — ciasto drożdżowe, gęsta masa, świątecznie na Wigilię.",
+          "Zwinięta rolada drożdżowa z gęstym, aromatycznym nadzieniem makowym, tradycyjnie pieczona na Wigilię, złota z zewnątrz i wilgotna w każdym kawałku w środku.",
         steps: [
           {
-            text: "Zalej mak gorącym mlekiem, ostudź, wymieszaj z cukrem, masłem i jajkiem na smarowną masę.",
-            tip: "Masa nie może kapać ani kruszyć — zobacz [technikę makowca](/pl/blog/makowiec-technika).",
+            text: "Zalej mak gorącym mlekiem, zostaw do całkowitego wystudzenia, a potem wymieszaj z cukrem, masłem i jajkiem na gładką, smarowną masę.",
+            tip: "Masa jest gotowa, gdy ciężko opada z łyżki i się nie kruszy, więcej o konsystencji znajdziesz w [technice makowca](/pl/blog/makowiec-technika).",
           },
           {
-            text: "Wyrób ciasto drożdżowe z mąki, mleka, masła, cukru, jajka i drożdży, odczekaj aż podwoi objętość.",
+            text: "Wyrób ciasto drożdżowe z mąki, mleka, masła, cukru, jajka i drożdży, a potem odstaw je w ciepłe miejsce, aż widocznie podwoi swoją objętość.",
+            tip: "Ciasto stojące w chłodnym miejscu rośnie znacznie dłużej, dlatego najlepiej postaw miskę blisko kaloryfera albo w lekko podgrzanym, wyłączonym piekarniku.",
           },
           {
-            text: "Rozwałkuj prostokąt, rozsmaruj masę z zapasem od brzegu, zwiń mocno, spód na łączeniu.",
+            text: "Rozwałkuj ciasto na prostokąt, rozsmaruj masę makową równomiernie, zostawiając zapas od brzegów, a następnie zwiń mocno od dłuższej strony i ułóż roladę łączeniem do dołu na blasze.",
+            tip: "Za cienko rozwałkowane ciasto łatwo pęka przy zwijaniu, więc lepiej zostawić je odrobinę grubsze i zwijać rolkę delikatnie, ale zdecydowanie.",
           },
           {
-            text: "Posmaruj jajkiem, piecz na złoto w średniej temperaturze, ostudź, kroić dopiero potem.",
-            tip: "Za gorąco = wierzch ciemny, środek surowy. Patyczek w części ciasta.",
+            text: "Posmaruj roztrzepanym jajkiem i piecz w średniej temperaturze na złoty kolor, a potem ostudź całkowicie, zanim pokroisz ciasto na kawałki.",
+            tip: "Za wysoka temperatura przypala wierzch, a środek zostaje surowy, patyczek wbity w środkową część ciasta wiarygodnie pokaże, czy rolada jest upieczona.",
           },
         ],
         seoTitle: "Makowiec przepis | Rolada makowa | Alemniam",
         seoDescription:
-          "Makowiec — polska rolada makowa, dwujęzycznie z zakupami w DE i kontekstem Wigilii.",
+          "Makowiec krok po kroku, polska rolada makowa z podpowiedziami zakupowymi w Niemczech i miejscem w menu wigilijnym.",
       },
     },
     ingredients: [
@@ -74,7 +78,8 @@ export const seedRecipesWave6: Recipe[] = [
         amount: 300,
         unit: { de: "g", pl: "g" },
         group: "polish",
-        storeHintDe: "Polenladen / Backregal — frisch mahlen oder fertig gemahlen",
+        storeHintDe:
+          "Polenladen oder Backregal, dort gibt es ihn frisch zum Mahlen oder bereits fertig gemahlen",
       },
       {
         id: "mk-2",
@@ -148,53 +153,55 @@ export const seedRecipesWave6: Recipe[] = [
         title: "Uszka mit Pilzen",
         slug: "uszka",
         excerpt:
-          "Kleine Teigtaschen mit Pilzfüllung — klassisch zu klarem Barszcz an Wigilia.",
+          "Kleine, fest verschlossene Teigtaschen mit würziger Trockenpilzfüllung, die klassisch schwimmend in klarem Barszcz zur Wigilia serviert werden.",
         steps: [
           {
-            text: "Getrocknete Pilze einweichen, fein hacken, mit Zwiebel schmoren, abkühlen, abschmecken.",
-            tip: "Füllung muss trocken sein — nass reißt der Teig.",
+            text: "Getrocknete Pilze in warmem Wasser einweichen, danach fein hacken und zusammen mit der Zwiebel in etwas Butter oder Öl weich schmoren, abkühlen lassen und mit Salz und Pfeffer abschmecken.",
+            tip: "Die Füllung muss vollständig ausgekühlt und trocken sein, denn feuchte Füllung reißt später den dünnen Teig beim Verschließen der Öhrchen auf.",
           },
           {
-            text: "Pierogi-Teig kneten und ruhen lassen — kleinere Kreise als bei Ruskie ausstechen.",
-            tip: "Technik-Feeling: [Pierogi-Teig](/de/blog/pierogi-teig); Uszka sind eigene Rezeptseite.",
+            text: "Den Pierogi-Teig kneten, kurz ruhen lassen und deutlich kleinere Kreise ausstechen als für gefüllte Ruskie-Pierogi, denn Uszka bleiben bewusst klein.",
+            tip: "Wie sich der Teig richtig anfühlt, zeigt der [Pierogi-Teig-Guide](/de/blog/pierogi-teig), Uszka bleiben davon unabhängig ihr eigenes Rezept mit eigener Füllung.",
           },
           {
-            text: "Wenig Füllung setzen, zu Öhrchen falten, Ränder fest verschließen.",
+            text: "Einen kleinen Löffel Füllung mittig auf jeden Kreis setzen, den Teig zum Halbmond falten und die Enden fest zu einem kleinen Öhrchen zusammendrücken.",
+            tip: "Feuchte die Teigränder vor dem Falten leicht mit den Fingern an, das verschließt die Naht deutlich zuverlässiger und verhindert, dass die Uszka im Wasser wieder aufplatzen.",
           },
           {
-            text: "In leicht siedendem Salzwasser garen bis sie aufschwimmen; separat zu heißem [Barszcz](/de/rezepte/barszcz-czerwony) servieren.",
-            tip: "Nicht stundenlang in der Suppe stehen lassen — Teig weicht.",
+            text: "In leicht siedendem Salzwasser garen, bis die Uszka an die Oberfläche steigen, dann herausnehmen und getrennt zu heißem [Barszcz](/de/rezepte/barszcz-czerwony) servieren.",
+            tip: "Lass die Uszka nicht stundenlang in der heißen Suppe liegen, sonst weicht der Teig auf und trübt gleichzeitig den klaren Barszcz.",
           },
         ],
         seoTitle: "Uszka Rezept | Pilz-Teigtaschen Wigilia | Alemniam",
         seoDescription:
-          "Uszka mit Pilzen — kleine Pierogi zu Barszcz, bilingual mit DE-Einkauf.",
+          "Uszka mit Pilzen kochen, die kleinen Pierogi für heißen Barszcz mit Einkaufstipps für Deutschland.",
       },
       pl: {
         title: "Uszka z grzybami",
         slug: "uszka",
         excerpt:
-          "Małe pierogi z farszem grzybowym — klasycznie do klarownego barszczu na Wigilię.",
+          "Małe, szczelnie zlepione pierożki z wyrazistym farszem z suszonych grzybów, podawane klasycznie w klarownym barszczu na Wigilię.",
         steps: [
           {
-            text: "Namocz suszone grzyby, drobno posiekaj, duś z cebulą, ostudź, dopraw.",
-            tip: "Farsz musi być suchy — mokry rozrywa ciasto.",
+            text: "Namocz suszone grzyby w ciepłej wodzie, drobno je posiekaj i uduś razem z cebulą na maśle lub oleju do miękkości, ostudź i dopraw solą oraz pieprzem.",
+            tip: "Farsz musi być całkiem wystudzony i suchy, bo mokre nadzienie rozrywa później cienkie ciasto podczas zamykania uszek.",
           },
           {
-            text: "Wyrób ciasto na pierogi i odczekaj — wykrawaj mniejsze koła niż na ruskie.",
-            tip: "Wyczucie: [ciasto na pierogi](/pl/blog/ciasto-na-pierogi); uszka to osobna Rezeptseite.",
+            text: "Wyrób ciasto na pierogi, odstaw je na chwilę do odpoczynku i wykrawaj znacznie mniejsze kółka niż na pierogi ruskie, bo uszka mają być naprawdę małe.",
+            tip: "Jak powinno wyglądać dobre ciasto, opisuje [przewodnik po cieście na pierogi](/pl/blog/ciasto-na-pierogi), choć uszka zostają swoim własnym przepisem z innym farszem.",
           },
           {
-            text: "Nakładaj mało farszu, zawiń w uszka, szczelnie zlep brzegi.",
+            text: "Na środek każdego kółka nałóż odrobinę farszu, złóż ciasto na pół w półksiężyc i mocno złącz końce, tak by powstało małe uszko.",
+            tip: "Zwilż brzegi ciasta wodą przed zlepieniem, dzięki temu szew trzyma się dużo pewniej i uszka nie rozklejają się w wodzie.",
           },
           {
-            text: "Gotuj w lekko wrzącej osolonej wodzie aż wypłyną; podawaj osobno z gorącym [barszczem](/pl/rezepte/barszcz-czerwony).",
-            tip: "Nie trzymaj godzinami w zupie — ciasto mięknie.",
+            text: "Gotuj w lekko wrzącej osolonej wodzie, aż uszka wypłyną na powierzchnię, a potem podawaj je osobno, zalewając gorącym [barszczem](/pl/rezepte/barszcz-czerwony).",
+            tip: "Nie trzymaj uszek godzinami w gorącej zupie, bo ciasto rozmięknie i jednocześnie zmętnieje klarowny barszcz.",
           },
         ],
         seoTitle: "Uszka przepis | Pierogi grzybowe Wigilia | Alemniam",
         seoDescription:
-          "Uszka z grzybami — małe pierogi do barszczu, dwujęzycznie z zakupami w DE.",
+          "Uszka z grzybami krok po kroku, małe pierogi do gorącego barszczu z podpowiedziami zakupowymi w Niemczech.",
       },
     },
     ingredients: [
@@ -204,7 +211,8 @@ export const seedRecipesWave6: Recipe[] = [
         amount: 40,
         unit: { de: "g", pl: "g" },
         group: "polish",
-        storeHintDe: "Polenladen — Steinpilze / Mischpilze",
+        storeHintDe:
+          "Im Polenladen bekommst du meist getrocknete Steinpilze oder eine Mischung aus Waldpilzen",
       },
       {
         id: "us-2",

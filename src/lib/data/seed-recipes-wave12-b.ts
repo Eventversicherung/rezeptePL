@@ -286,7 +286,7 @@ export const seedRecipesWave12B: Recipe[] = [
         amount: 1.2,
         unit: { de: "kg", pl: "kg" },
         group: "produce",
-        storeHintDe: "Supermarkt — säuerliche Sorten bevorzugen",
+        storeHintDe: "Supermarkt, säuerliche Sorten bevorzugen",
       },
       {
         id: "sz-6",

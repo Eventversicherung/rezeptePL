@@ -327,15 +327,15 @@ Wir schreiben für Haushalte in der Diaspora: REWE neben Polenladen, Bio-Abteilu
 
 ## Was Kasza ist — gryczana und Verwandte
 
-**Kasza gryczana** sind Buchweizenkörner, geschält und meist geröstet — deshalb die dunklere Farbe und nussiger Duft. „Kasza“ allein kann in polnischen Texten verschiedene Grützen meinen; in der Diaspora-Alltagssprache meinen wir mit „Kasza“ fast immer **gryczana**, es sei denn, es steht explizit „jęczmienna“ (Gerste) oder „mannа“ (Grieß).
+**Kasza gryczana** sind Buchweizenkörner, geschält und meist geröstet — deshalb die dunklere Farbe und nussiger Duft. „Kasza“ allein kann in polnischen Texten verschiedene Grützen meinen; in der Diaspora-Alltagssprache meinen wir mit „Kasza“ fast immer **gryczana**, es sei denn, es steht explizit „jęczmienna“ (Gerste) oder „manna“ (Grieß).
 
-Buchweizen ist **kein Getreide** im botanischen Sinn — er gehört zu den Knöterichgewächsen. Das erkläert glutenfreie Etikettierung vieler Produkte; trotzdem: Kreuzkontamination in Mühlen prüfen, wenn Celiacie relevant ist.
+Buchweizen ist **kein Getreide** im botanischen Sinn — er gehört zu den Knöterichgewächsen. Das erklärt glutenfreie Etikettierung vieler Produkte; trotzdem: Kreuzkontamination in Mühlen prüfen, wenn Zöliakie relevant ist.
 
 Formen im Handel:
 
 - **Whole groats** — ganze Körner, längere Garzeit
 - **Roasted / prażona** — Standard für Beilage, nussiger
-- **Broken / łamanana** — schneller gar, weicher Biss
+- **Broken / łamana** — schneller gar, weicher Biss
 - **Unroasted / niepalona** — heller, milder, seltener im Polenladen
 
 Kasza schmeckt **erdig-nussig**; bitter wird sie durch Überkochen, alte Ware oder selten durch zu grobe Spültechnik. Sie quillt anders als Reis — wer Reis-Logik 1:2 eins zu eins überträgt, scheitert oft.
@@ -360,7 +360,7 @@ Wir kaufen lieber **eine bewährte Marke in 500 g–1 kg** nach, als Riesensack,
 
 **Abspülen:** Heißes Wasser über die Kasza, kurz schwenken, abgießen — entfernt Staub und etwas Bitterstoffe. Nicht stundenlang einweichen, außer Rezept verlangt es.
 
-**Verhältnis Wasser:** Orientierung 1:2 (Kasza : Wasser) für weichen Gar; etwas weniger Wasser für lockerere Beilage. Immer Packung/Herfsteller lesen — broken gare schneller.
+**Verhältnis Wasser:** Orientierung 1:2 (Kasza : Wasser) für weichen Gar; etwas weniger Wasser für lockerere Beilage. Immer Packung/Hersteller lesen — broken gart schneller.
 
 **Kochen:** Aufkochen, dann **sehr niedrige Hitze**, Deckel, nicht rühren wie Risotto. Garzeit oft 12–18 Minuten für broken, länger für whole. Wie Reis: **Restwärme** 5–10 Minuten mitgeschlossen.
 

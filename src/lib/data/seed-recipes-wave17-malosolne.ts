@@ -44,19 +44,19 @@ export const seedRecipesWave17Malosolne: Recipe[] = [
         title: "Ogórki małosolne scharf",
         slug: "scharf",
         excerpt:
-          "Dieselbe 2-Prozent-Lake, plus Chili und Meerrettich. Hausversion aus dem Süden, nicht Essiggurken.",
+          "Die scharfe Linie nutzt dieselbe milde 2-Prozent-Lake wie die klassischen Ogórki małosolne, bringt aber mit frischen Chilischoten und einem Stück Meerrettich spürbare Schärfe in die kurze Gärzeit, ganz ohne einen Tropfen Essig.",
         steps: [
           {
-            text: "Gurken waschen, Enden anschneiden. Mit Knoblauch, Dill, 1 bis 2 frischen Chilischoten (längs eingeschnitten) und einem Stück Meerrettichwurzel schichten.",
-            tip: "Gleicher Kurzferment wie [klassisch](/de/rezepte/ogorki-malosolne/klassisch), nur die Würze ändert sich. Nicht [Ogórki kiszone](/de/rezepte/ogorki-kiszone) und nicht [Ogórki konserwowe](/de/rezepte/ogorki-konserwowe).",
+            text: "Frische, feste Gurken waschen und die Enden anschneiden, dann mit Knoblauch, Dill, ein bis zwei längs eingeschnittenen frischen Chilischoten und einem Stück Meerrettichwurzel in ein großes Glas schichten.",
+            tip: "Das ist derselbe kurze Ferment wie bei der [klassischen Version](/de/rezepte/ogorki-malosolne/klassisch), nur die Würze ändert sich, mit den echten [Ogórki kiszone](/de/rezepte/ogorki-kiszone) oder den essiggesäuerten [Ogórki konserwowe](/de/rezepte/ogorki-konserwowe) hat das nichts zu tun.",
           },
           {
-            text: "Lake: 1 l kaltes Wasser plus 20 g unjodiertes Salz (2 Prozent). Vollständig bedecken. 24 bis 48 Stunden bei 18 bis 22 Grad, dann kosten.",
-            tip: "Chili macht die Lake schneller aromatisch, die Salzmenge bleibt. Technik: [Kiszenie](/de/blog/kiszenie-guide).",
+            text: "Für die Lake 1 Liter kaltes Wasser mit 20 g unjodiertem Salz verrühren, das entspricht etwa 2 Prozent, die Gurken damit vollständig bedecken und bei 18 bis 22 Grad 24 bis 48 Stunden stehen lassen, bevor du zum ersten Mal kostest.",
+            tip: "Chili und Meerrettich machen die Lake schneller aromatisch, an der Salzmenge selbst ändert sich dabei nichts, mehr zur Technik erklärt der [Kiszenie-Guide](/de/blog/kiszenie-guide).",
           },
           {
-            text: "In den Kühlschrank, in 2 bis 4 Tagen aufessen. Zu Grillwurst und Brot. Schimmel oder Fäulnisgeruch: Glas verwerfen.",
-            tip: "Milder mit [Honig](/de/rezepte/ogorki-malosolne/honig), knackiger mit [Eichenblatt](/de/rezepte/ogorki-malosolne/eichenblatt). Einkauf Chili: Supermarkt, Meerrettich oft im [Polenladen](/de/blog/polenladen-einkaufen).",
+            text: "Danach in den Kühlschrank stellen und innerhalb von zwei bis vier Tagen aufessen, am besten zu Grillwurst und frischem Brot, bei Schimmel oder fauligem Geruch gehört das ganze Glas in den Müll.",
+            tip: "Wer es milder mag, findet die Linie mit [Honig](/de/rezepte/ogorki-malosolne/honig), für mehr Biss sorgt die Linie mit [Eichenblatt](/de/rezepte/ogorki-malosolne/eichenblatt), frische Chilischoten gibt es im Supermarkt, Meerrettichwurzel oft günstiger im [Polenladen](/de/blog/polenladen-einkaufen).",
           },
         ],
         seoTitle: "Ogórki małosolne scharf | Chili Gurken | Alemniam",
@@ -67,19 +67,19 @@ export const seedRecipesWave17Malosolne: Recipe[] = [
         title: "Ogórki małosolne ostre",
         slug: "ostre",
         excerpt:
-          "Ta sama zalewa 2 procent, plus chili i chrzan. Wersja z południa, nie konserwa octowa.",
+          "Ostry wariant korzysta z tej samej łagodnej zalewy 2 procent co klasyczne ogórki małosolne, ale świeże chili i kawałek chrzanu wprowadzają wyraźną ostrość w krótkim czasie kiszenia, bez odrobiny octu.",
         steps: [
           {
-            text: "Umyj ogórki, przytnij końce. Ułóż z czosnkiem, koperkiem, 1–2 papryczkami chili (naciętymi) i kawałkiem chrzanu.",
-            tip: "Ten sam krótki kis co [klasyczne](/pl/rezepte/ogorki-malosolne/klasyczne), zmienia się tylko ostrość. Nie [kiszone](/pl/rezepte/ogorki-kiszone) i nie [konserwowe](/pl/rezepte/ogorki-konserwowe).",
+            text: "Umyj twarde ogórki i przytnij końce, potem ułóż je w słoju z czosnkiem, koperkiem, jedną lub dwiema naciętymi wzdłuż papryczkami chili i kawałkiem korzenia chrzanu.",
+            tip: "To ten sam krótki kis co w [wersji klasycznej](/pl/rezepte/ogorki-malosolne/klasyczne), zmienia się tylko przyprawa, z prawdziwymi [ogórkami kiszonymi](/pl/rezepte/ogorki-kiszone) czy octowymi [ogórkami konserwowymi](/pl/rezepte/ogorki-konserwowe) to nie ma nic wspólnego.",
           },
           {
-            text: "Zalewa: 1 l wody plus 20 g soli niejodowanej (2 procent). Przykryj całkowicie. 24–48 h w 18–22 °C, potem spróbuj.",
-            tip: "Chili szybciej aromatyzuje zalewę, sól zostaje. Technika: [kiszenie](/pl/blog/kiszenie-w-domu).",
+            text: "Na zalewę wymieszaj 1 litr chłodnej wody z 20 g soli niejodowanej, co daje około 2 procent, przykryj ogórki całkowicie i zostaw w temperaturze 18 do 22 stopni na 24 do 48 godzin, zanim po raz pierwszy spróbujesz.",
+            tip: "Chili i chrzan szybciej aromatyzują zalewę, sama ilość soli się nie zmienia, więcej o technice pisze [poradnik o kiszeniu](/pl/blog/kiszenie-w-domu).",
           },
           {
-            text: "Do lodówki, zjedz w 2–4 dni. Do kiełbasy z grilla i chleba. Pleśń albo zgnilizna: wyrzuć słoik.",
-            tip: "Łagodniej z [miodem](/pl/rezepte/ogorki-malosolne/miod), bardziej chrupko z [liściem dębu](/pl/rezepte/ogorki-malosolne/lisc-debu). Chrzan często w [sklepie polskim](/pl/blog/sklep-polski-zakupy).",
+            text: "Potem przenieś słoik do lodówki i zjedz ogórki w ciągu dwóch do czterech dni, najlepiej do kiełbasy z grilla i świeżego chleba, a przy pleśni lub nieprzyjemnym zapachu wyrzuć cały słoik.",
+            tip: "Kto woli łagodniej, znajdzie wersję z [miodem](/pl/rezepte/ogorki-malosolne/miod), kto chce więcej chrupkości, wersję z [liściem dębu](/pl/rezepte/ogorki-malosolne/lisc-debu), świeże chili kupisz w markecie, a chrzan często taniej w [sklepie polskim](/pl/blog/sklep-polski-zakupy).",
           },
         ],
         seoTitle: "Ogórki małosolne ostre | Chili | Alemniam",
@@ -120,19 +120,19 @@ export const seedRecipesWave17Malosolne: Recipe[] = [
         title: "Ogórki małosolne mit Honig",
         slug: "honig",
         excerpt:
-          "Leicht süß-scharf mit Honig und Senf, immer noch Kurzferment. Kein Glas aus dem Essigregal.",
+          "Die Linie mit Honig rundet dieselbe kurze Gärzeit mit einem Löffel Honig und Senfkörnern ab, dadurch wird die Säure milder und runder, ohne dass daraus ein Essigglas wird.",
         steps: [
           {
-            text: "Gurken waschen, Enden anschneiden. Mit Knoblauch, Dill und 1 TL Senfkörnern schichten.",
-            tip: "Die Basis bleibt [klassisch](/de/rezepte/ogorki-malosolne/klassisch). Honig kommt in die Lake, nicht als Glasur. Technik: [Kiszenie](/de/blog/kiszenie-guide).",
+            text: "Frische, feste Gurken waschen und die Enden anschneiden, dann mit Knoblauch, Dill und einem Teelöffel Senfkörnern in ein großes Glas schichten.",
+            tip: "Die Basis bleibt genau die der [klassischen Version](/de/rezepte/ogorki-malosolne/klassisch), der Honig kommt in die Lake und nicht als Glasur über die Gurken, mehr zur Technik erklärt der [Kiszenie-Guide](/de/blog/kiszenie-guide).",
           },
           {
-            text: "Lake: 1 l kaltes Wasser, 20 g unjodiertes Salz, 1 EL flüssiger Honig. Gut lösen, vollständig bedecken. 24 bis 48 Stunden bei Zimmertemperatur.",
-            tip: "Nur ein Esslöffel Honig, mehr macht die Lake klebrig und unruhig. Danach immer in den Kühlschrank.",
+            text: "Für die Lake 1 Liter kaltes Wasser mit 20 g unjodiertem Salz und 1 Esslöffel flüssigem Honig gut verrühren, bis sich alles löst, die Gurken vollständig damit bedecken und 24 bis 48 Stunden bei Zimmertemperatur stehen lassen.",
+            tip: "Ein Esslöffel Honig reicht völlig, mehr macht die Lake klebrig und lässt sie unruhiger gären, danach gehört das Glas in jedem Fall in den Kühlschrank.",
           },
           {
-            text: "Kosten, kühlen, in wenigen Tagen essen. Passt zu Aufschnitt und kaltem Braten. Schimmel: verwerfen.",
-            tip: "Scharf bleibt bei [Chili](/de/rezepte/ogorki-malosolne/scharf). Essig-Gurken sind [Konserwowe](/de/rezepte/ogorki-konserwowe).",
+            text: "Kosten, kühlen und innerhalb von wenigen Tagen aufessen, am besten zu kaltem Aufschnitt oder Braten, bei Schimmel gehört das ganze Glas in den Müll.",
+            tip: "Wer es lieber scharf mag, findet die Linie mit [Chili](/de/rezepte/ogorki-malosolne/scharf), die essiggesäuerten Verwandten heißen [Ogórki konserwowe](/de/rezepte/ogorki-konserwowe).",
           },
         ],
         seoTitle: "Ogórki małosolne mit Honig | Süß-sauer kurz | Alemniam",
@@ -143,19 +143,19 @@ export const seedRecipesWave17Malosolne: Recipe[] = [
         title: "Ogórki małosolne z miodem",
         slug: "miod",
         excerpt:
-          "Lekko słodko-ostre z miodem i gorczycą, nadal krótki kis. Nie słoik z półki octowej.",
+          "Wariant z miodem łagodzi tę samą krótką fermentację łyżką miodu i gorczycą, dzięki czemu kwas robi się bardziej okrągły, a ogórki wciąż nie mają nic wspólnego z octową konserwą.",
         steps: [
           {
-            text: "Umyj ogórki, przytnij końce. Ułóż z czosnkiem, koperkiem i 1 łyżeczką gorczycy.",
-            tip: "Baza zostaje [klasyczna](/pl/rezepte/ogorki-malosolne/klasyczne). Miód idzie do zalewy. Technika: [kiszenie](/pl/blog/kiszenie-w-domu).",
+            text: "Umyj twarde ogórki i przytnij końce, potem ułóż je w słoju z czosnkiem, koperkiem i łyżeczką ziaren gorczycy.",
+            tip: "Baza zostaje taka jak w [wersji klasycznej](/pl/rezepte/ogorki-malosolne/klasyczne), miód trafia do zalewy, a nie na wierzch ogórków, więcej o technice pisze [poradnik o kiszeniu](/pl/blog/kiszenie-w-domu).",
           },
           {
-            text: "Zalewa: 1 l wody, 20 g soli niejodowanej, 1 łyżka płynnego miodu. Rozpuść, zalej całkowicie. 24–48 h w temperaturze pokojowej.",
-            tip: "Tylko łyżka miodu, więcej klei zalewę. Potem zawsze lodówka.",
+            text: "Na zalewę rozpuść w 1 litrze chłodnej wody 20 g soli niejodowanej i 1 łyżkę płynnego miodu, przykryj ogórki całkowicie i zostaw je na 24 do 48 godzin w temperaturze pokojowej.",
+            tip: "Jedna łyżka miodu w zupełności wystarczy, więcej skleiłoby zalewę i sprawiło, że fermentacja stanie się mniej przewidywalna, potem słoik zawsze trafia do lodówki.",
           },
           {
-            text: "Skosztuj, schłodź, zjedz w kilka dni. Do wędlin i zimnego pieczystego. Pleśń: wyrzuć.",
-            tip: "Ostrost zostaje przy [chili](/pl/rezepte/ogorki-malosolne/ostre). Ocet to [konserwowe](/pl/rezepte/ogorki-konserwowe).",
+            text: "Skosztuj, schłodź i zjedz w ciągu kilku dni, najlepiej do wędlin albo zimnego pieczystego, a przy pleśni wyrzuć cały słoik.",
+            tip: "Kto lubi ostro, znajdzie wariant z [chili](/pl/rezepte/ogorki-malosolne/ostre), octowym krewnym jest [konserwa](/pl/rezepte/ogorki-konserwowe).",
           },
         ],
         seoTitle: "Ogórki małosolne z miodem | Krótki kis | Alemniam",
@@ -196,19 +196,19 @@ export const seedRecipesWave17Malosolne: Recipe[] = [
         title: "Ogórki małosolne mit Eichenblatt",
         slug: "eichenblatt",
         excerpt:
-          "Das leise Hausgeheimnis für Biss: ein sauberes Eichen- oder Kirschblatt in der Lake. Immer noch Małosolne, nicht Kiszone.",
+          "Ein sauberes Eichenblatt in der Lake liefert dieselben Gerbstoffe wie bei den lange gegorenen Kiszone und macht die Gurken bei gleicher kurzer Gärzeit spürbar knackiger, ganz ohne zusätzliches Salz oder Essig.",
         steps: [
           {
-            text: "Gurken waschen, Enden anschneiden. Ein gewaschenes, ungespritztes Eichenblatt (oder Kirschblatt, Meerrettichblatt) auf den Glasboden legen, dann Gurken, Knoblauch und Dill fest schichten.",
-            tip: "Nur Blätter vom eigenen, sauberen Baum, nie vom Straßenrand. Das ist der Tannin-Trick für den Biss, kein anderes Gericht als [klassisch](/de/rezepte/ogorki-malosolne/klassisch).",
+            text: "Frische, feste Gurken waschen und die Enden anschneiden, ein gewaschenes, ungespritztes Eichenblatt, ersatzweise ein Kirsch- oder Meerrettichblatt, auf den Glasboden legen und Gurken, Knoblauch und Dill darauf fest schichten.",
+            tip: "Verwende nur Blätter von einem eigenen, sauberen Baum und nie vom Straßenrand, denn die enthaltenen Gerbstoffe sind derselbe Trick, der auch bei den [Ogórki kiszone](/de/rezepte/ogorki-kiszone) für Biss sorgt, an der [klassischen Version](/de/rezepte/ogorki-malosolne/klassisch) ändert das sonst nichts.",
           },
           {
-            text: "Lake: 1 l Wasser plus 20 g unjodiertes Salz (2 Prozent). Alles muss unter der Lake bleiben. 24 bis 72 Stunden bei 18 bis 22 Grad.",
-            tip: "Blätter ersetzen kein Salz. Technik und Hygiene: [Kiszenie](/de/blog/kiszenie-guide). Gläser: [Fermentiergläser](/de/blog/fermentier-glaeser-kaufberatung).",
+            text: "Für die Lake 1 Liter kaltes Wasser mit 20 g unjodiertem Salz verrühren, das entspricht etwa 2 Prozent, alles muss vollständig unter der Lake bleiben, und bei 18 bis 22 Grad 24 bis 72 Stunden gären lassen.",
+            tip: "Das Blatt ersetzt kein Salz, es hält die Gurken nur fester, mehr zur Hygiene und Technik erklärt der [Kiszenie-Guide](/de/blog/kiszenie-guide), passende Gläser zeigt die [Kaufberatung für Fermentiergläser](/de/blog/fermentier-glaeser-kaufberatung).",
           },
           {
-            text: "Kosten, kühlen, in wenigen Tagen essen. Blatt vor dem Servieren entfernen. Schimmel oder unbekannte Blätter: Glas weg.",
-            tip: "Scharf: [Chili](/de/rezepte/ogorki-malosolne/scharf). Lange Kiszone bleiben bei [Ogórki kiszone](/de/rezepte/ogorki-kiszone).",
+            text: "Kosten, kühlen, das Blatt vor dem Servieren entfernen und innerhalb von wenigen Tagen aufessen, bei Schimmel oder einem unbekannten Blatt gehört das ganze Glas in den Müll.",
+            tip: "Für Schärfe sorgt die Linie mit [Chili](/de/rezepte/ogorki-malosolne/scharf), wer stattdessen wochenlang haltbare Gurken für den Winter sucht, findet sie bei den [Ogórki kiszone](/de/rezepte/ogorki-kiszone).",
           },
         ],
         seoTitle: "Ogórki małosolne mit Eichenblatt | Knackig | Alemniam",
@@ -219,19 +219,19 @@ export const seedRecipesWave17Malosolne: Recipe[] = [
         title: "Ogórki małosolne z liściem dębu",
         slug: "lisc-debu",
         excerpt:
-          "Cichy domowy sekret chrupkości: czysty liść dębu albo wiśni w zalewie. Nadal małosolne, nie kiszone.",
+          "Czysty liść dębu w zalewie wnosi te same garbniki co przy długo kiszonych ogórkach i przy tej samej krótkiej fermentacji daje wyraźnie więcej chrupkości, bez dodatkowej soli czy octu.",
         steps: [
           {
-            text: "Umyj ogórki, przytnij końce. Na dno słoika połóż umyty, niepryskany liść dębu (albo wiśni, chrzanu), potem ogórki, czosnek i koper.",
-            tip: "Tylko liście z czystego drzewa, nigdy z pobocza. To trick na chrupkość, nie inne danie niż [klasyczne](/pl/rezepte/ogorki-malosolne/klasyczne).",
+            text: "Umyj twarde ogórki i przytnij końce, na dno słoika połóż umyty, niepryskany liść dębu, zamiennie liść wiśni albo chrzanu, a na niego ułóż ciasno ogórki, czosnek i koperek.",
+            tip: "Używaj tylko liści z własnego, czystego drzewa, nigdy z pobocza drogi, bo te same garbniki dają chrupkość również przy [ogórkach kiszonych](/pl/rezepte/ogorki-kiszone), do [wersji klasycznej](/pl/rezepte/ogorki-malosolne/klasyczne) nic więcej się nie zmienia.",
           },
           {
-            text: "Zalewa: 1 l wody plus 20 g soli niejodowanej (2 procent). Wszystko pod zalewą. 24–72 h w 18–22 °C.",
-            tip: "Liść nie zastępuje soli. Technika: [kiszenie](/pl/blog/kiszenie-w-domu). Słoiki: [poradnik](/pl/blog/sloiki-do-kiszenia).",
+            text: "Na zalewę wymieszaj 1 litr chłodnej wody z 20 g soli niejodowanej, co daje około 2 procent, wszystko musi zostać całkowicie pod zalewą, i kiś w temperaturze 18 do 22 stopni od 24 do 72 godzin.",
+            tip: "Liść nie zastępuje soli, tylko dodatkowo utrzymuje ogórki w formie, więcej o technice i higienie pisze [poradnik o kiszeniu](/pl/blog/kiszenie-w-domu), dobre słoiki opisuje [poradnik o słoikach do kiszenia](/pl/blog/sloiki-do-kiszenia).",
           },
           {
-            text: "Skosztuj, schłodź, zjedz w kilka dni. Liść wyjmij przed podaniem. Pleśń albo nieznany liść: wyrzuć słoik.",
-            tip: "Ostrost: [chili](/pl/rezepte/ogorki-malosolne/ostre). Długi kis zostaje przy [ogórkach kiszonych](/pl/rezepte/ogorki-kiszone).",
+            text: "Skosztuj, schłodź, wyjmij liść przed podaniem i zjedz ogórki w ciągu kilku dni, a przy pleśni albo nieznanym liściu wyrzuć cały słoik.",
+            tip: "Ostrość znajdziesz w wariancie z [chili](/pl/rezepte/ogorki-malosolne/ostre), kto szuka trwałych na całą zimę, sięgnie po [ogórki kiszone](/pl/rezepte/ogorki-kiszone).",
           },
         ],
         seoTitle: "Ogórki małosolne z liściem dębu | Chrupkie | Alemniam",

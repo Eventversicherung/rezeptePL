@@ -33,23 +33,23 @@ export const seedRecipesWave17: Recipe[] = [
         title: "Ogórki kiszone",
         slug: "ogorki-kiszone",
         excerpt:
-          "Klassische milchsauer eingelegte Gurken mit Dill und Knoblauch — trübe Lake, knackig. Nicht die schnellen Małosolne und nicht Essiggurken.",
+          "Ogórki kiszone entstehen durch reine Milchsäuregärung in Salzlake, ganz ohne Essig, und bleiben dadurch deutlich herzhafter und länger haltbar als die milden, nur kurz ziehenden Małosolne und als die essiggesäuerten Ogórki konserwowe.",
         steps: [
           {
             text: "Feste, kleine Einlegegurken waschen, Blütenansatz abschneiden. Gläser (Weck oder Twist-off) heiß ausspülen. Je Glas Knoblauch, Dilldolden, Senfkörner, Lorbeer und optional ein Stück Meerrettichwurzel einlegen.",
-            tip: "Das ist echte Kiszone — nicht [Ogórki małosolne](/de/rezepte/ogorki-malosolne) (kurz) und nicht Essiggläser wie [Papryka konserwowa](/de/rezepte/papryka-konserwowa). Technik: [Kiszenie](/de/blog/kiszenie-guide).",
+            tip: "Das ist die klassische Kiszone-Linie, ganz anders als die kurz gezogenen [Ogórki małosolne](/de/rezepte/ogorki-malosolne) und ganz anders als Essiggläser wie [Papryka konserwowa](/de/rezepte/papryka-konserwowa), mehr zur Technik erklärt der [Kiszenie-Guide](/de/blog/kiszenie-guide).",
           },
           {
-            text: "Lake: 1,5 l kaltes Trinkwasser mit 45 g unjodiertem Salz (3 %) lösen — kein Jodsalz, kein Essig. Gurken senkrecht fest packen, vollständig mit Lake bedecken, 1–2 cm Abstand zum Rand.",
-            tip: "Unjodiertes Salz oft im [Polenladen](/de/blog/polenladen-einkaufen). Gläser: [Fermentiergläser](/de/blog/fermentier-glaeser-kaufberatung).",
+            text: "Für die Lake 1,5 l kaltes Trinkwasser mit 45 g unjodiertem Salz auflösen, das ergibt etwa 3 Prozent und liegt bewusst am oberen Rand der für Gurken üblichen Spanne von 2 bis 3 Prozent, kein Jodsalz und kein Essig verwenden. Die Gurken senkrecht fest ins Glas packen, vollständig mit der Lake bedecken und 1 bis 2 cm Platz bis zum Rand lassen.",
+            tip: "Unjodiertes Salz gibt es oft günstiger im [Polenladen](/de/blog/polenladen-einkaufen), passende Gläser mit Gärventil stellt die [Kaufberatung für Fermentiergläser](/de/blog/fermentier-glaeser-kaufberatung) vor.",
           },
           {
-            text: "Bei 18–22 °C 4–7 Tage gären lassen. Täglich Lake prüfen: alles muss unter der Flüssigkeit bleiben (Gewicht oder eingelegtes Blatt). Kahmhefe (weiß, flach) abschöpfen; farbigen Schimmel verwerfen.",
-            tip: "Nach dem Gären immer in den Kühlschrank. Daraus wird später [Ogórkowa](/de/rezepte/ogorkowa) — hier bleibt das Glas.",
+            text: "Bei 18 bis 22 Grad 4 bis 7 Tage gären lassen und täglich prüfen, ob wirklich alles unter der Lake bleibt, notfalls mit einem Gewicht oder einem sauberen Kohlblatt beschweren. Eine dünne, weiße und flache Kahmhefe an der Oberfläche einfach abschöpfen, das ist harmlos, während farbiger oder flauschiger Schimmel bedeutet, dass das ganze Glas entsorgt werden muss.",
+            tip: "Nach dem Gären wandert das Glas immer in den Kühlschrank, denn Kälte stoppt die Fermentation zuverlässig, aus der fertigen Lake entsteht später die [Ogórkowa](/de/rezepte/ogorkowa), hier stehen aber die Gurken selbst im Mittelpunkt.",
           },
           {
-            text: "Gekühlt mindestens 2 Wochen nachreifen. Zu Brot, Schabowy oder Grill servieren. Hält gekühlt mehrere Monate, solange die Lake klar-trüb sauer riecht, nicht faul.",
-            tip: "Nachbar im Vorrat: [Kapusta kiszona](/de/rezepte/kapusta-kiszona). Ersatzfragen: [Ersatzprodukte DE](/de/blog/ersatzprodukte-de).",
+            text: "Im Kühlschrank mindestens zwei Wochen nachreifen lassen, dann schmecken sie am besten. Zu Brot, Schabowy oder vom Grill servieren. Gekühlt halten sie mehrere Monate, solange die Lake klar bis leicht trüb bleibt und angenehm sauer riecht, nicht faulig.",
+            tip: "Im Vorratsregal passt gut die [Kapusta kiszona](/de/rezepte/kapusta-kiszona) daneben, und bei fehlenden Zutaten hilft der Überblick zu [Ersatzprodukten](/de/blog/ersatzprodukte-de) weiter.",
           },
         ],
         seoTitle: "Ogórki kiszone Rezept | Eingelegte Gurken polnisch | Alemniam",
@@ -60,34 +60,34 @@ export const seedRecipesWave17: Recipe[] = [
         title: "Ogórki kiszone",
         slug: "ogorki-kiszone",
         excerpt:
-          "Klasyczne ogórki kiszone z koperkiem i czosnkiem — mętna zalewa, chrupkie. Nie małosolne i nie konserwowe z octem.",
+          "Ogórki kiszone powstają dzięki naturalnej fermentacji mlekowej w słonej zalewie, bez ani kropli octu, co daje im wyrazisty smak i długą trwałość, wyraźnie inną niż u łagodnych, kiszonych zaledwie kilka dni małosolnych i inną niż u zakwaszanych octem ogórków konserwowych.",
         steps: [
           {
             text: "Umyj twarde, małe ogórki, odetnij kwiat. Słoiki wypłucz gorącą wodą. Do każdego włóż czosnek, kwiatostany kopru, ziarna gorczycy, liść laurowy i opcjonalnie kawałek chrzanu.",
-            tip: "To kiszonka — nie [ogórki małosolne](/pl/rezepte/ogorki-malosolne) i nie linia octowa jak [papryka konserwowa](/pl/rezepte/papryka-konserwowa). Technika: [kiszenie](/pl/blog/kiszenie-w-domu).",
+            tip: "To klasyczna linia kiszonkowa, zupełnie inna niż krótko kiszone [ogórki małosolne](/pl/rezepte/ogorki-malosolne) i inna niż octowa linia jak [papryka konserwowa](/pl/rezepte/papryka-konserwowa), więcej o technice pisze [poradnik o kiszeniu](/pl/blog/kiszenie-w-domu).",
           },
           {
-            text: "Zalewa: 1,5 l zimnej wody z 45 g soli niejodowanej (3 %) — bez jodu, bez octu. Ułóż ogórki pionowo, zalej całkowicie, 1–2 cm do krawędzi.",
-            tip: "Sól często w [sklepie polskim](/pl/blog/sklep-polski-zakupy). Słoiki: [poradnik](/pl/blog/sloiki-do-kiszenia).",
+            text: "Na zalewę rozpuść w 1,5 l zimnej wody 45 g soli niejodowanej, co daje około 3 procent i mieści się na górnej granicy zalecanego dla ogórków zakresu 2 do 3 procent, bez jodu i bez octu. Ułóż ogórki pionowo w słoiku, zalej całkowicie i zostaw 1 do 2 cm miejsca do krawędzi.",
+            tip: "Sól niejodowaną często kupisz taniej w [sklepie polskim](/pl/blog/sklep-polski-zakupy), a odpowiednie słoiki do kiszenia opisuje [poradnik o słoikach](/pl/blog/sloiki-do-kiszenia).",
           },
           {
-            text: "Kis 4–7 dni w 18–22 °C. Codziennie sprawdzaj: wszystko pod zalewą. Biały kożuch zbierz; kolorową pleśń wyrzuć cały słoik.",
-            tip: "Po kiszeniu do lodówki. Z tych ogórków powstaje [ogórkowa](/pl/rezepte/ogorkowa) — tu zostaje słoik.",
+            text: "Kiś 4 do 7 dni w temperaturze 18 do 22 stopni i codziennie sprawdzaj, czy wszystko zostaje pod zalewą, w razie potrzeby dociśnij talerzykiem albo czystym liściem kapusty. Cienki, biały i płaski kożuch po prostu zbierz łyżką, to nieszkodliwa kahmowa drożdżówka, natomiast kolorowa lub puszysta pleśń oznacza, że trzeba wyrzucić cały słoik.",
+            tip: "Po ukiszeniu słoik zawsze trafia do lodówki, bo chłód zatrzymuje fermentację, a z gotowej zalewy powstaje później [ogórkowa](/pl/rezepte/ogorkowa), choć tutaj w centrum uwagi zostają same ogórki.",
           },
           {
-            text: "W lodówce dojrzewaj min. 2 tygodnie. Podawaj do chleba, schabowego, grilla. Trzyma miesiące, jeśli pachnie kwaśno, nie zepsucie.",
-            tip: "Sąsiad: [kapusta kiszona](/pl/rezepte/kapusta-kiszona). Zamienniki: [zamienniki](/pl/blog/zamienniki-skladnikow).",
+            text: "W lodówce daj im dojrzeć co najmniej dwa tygodnie, wtedy smakują najlepiej. Podawaj do chleba, schabowego albo prosto z grilla. Trzymają się chłodno wiele miesięcy, dopóki zalewa pozostaje klarowna do lekko mętnej i pachnie przyjemnie kwaśno, a nie zgnilizną.",
+            tip: "W spiżarni dobrze komponuje się obok nich [kapusta kiszona](/pl/rezepte/kapusta-kiszona), a przy brakujących składnikach pomogą [zamienniki składników](/pl/blog/zamienniki-skladnikow).",
           },
         ],
         seoTitle: "Ogórki kiszone przepis | Kiszonki | Alemniam",
         seoDescription:
-          "Ogórki kiszone z zalewą 3 %. Dwujęzycznie — nie małosolne, nie konserwa octowa.",
+          "Ogórki kiszone z zalewą 3 procent. Dwujęzycznie, wyraźnie inne niż małosolne i inne niż konserwa octowa.",
       },
     },
     ingredients: [
       { id: "ok-1", name: { de: "Kleine Einlegegurken", pl: "Małe ogórki gruntowe" }, amount: 1500, unit: { de: "g", pl: "g" }, group: "produce" },
       { id: "ok-2", name: { de: "Kaltes Trinkwasser", pl: "Zimna woda pitna" }, amount: 1500, unit: { de: "ml", pl: "ml" }, group: "pantry" },
-      { id: "ok-3", name: { de: "Unjodiertes Salz", pl: "Sól niejodowana" }, amount: 45, unit: { de: "g", pl: "g" }, group: "spices", storeHintDe: "Kein Jodsalz — Polenladen oder Reformhaus" },
+      { id: "ok-3", name: { de: "Unjodiertes Salz", pl: "Sól niejodowana" }, amount: 45, unit: { de: "g", pl: "g" }, group: "spices", storeHintDe: "Kein Jodsalz, erhältlich im Polenladen oder Reformhaus" },
       { id: "ok-4", name: { de: "Knoblauchzehen", pl: "Ząbki czosnku" }, amount: 6, unit: { de: "Stück", pl: "szt." }, group: "produce" },
       { id: "ok-5", name: { de: "Dilldolden", pl: "Kwiatostany kopru" }, amount: 4, unit: { de: "Stück", pl: "szt." }, group: "produce" },
       { id: "ok-6", name: { de: "Senfkörner", pl: "Ziarna gorczycy" }, amount: 1, unit: { de: "TL", pl: "łyżeczka" }, group: "spices" },
@@ -119,19 +119,19 @@ export const seedRecipesWave17: Recipe[] = [
         title: "Ogórki małosolne klassisch",
         slug: "klassisch",
         excerpt:
-          "Die milde Hausversion mit Dill und Knoblauch nach 1–3 Tagen. Nicht die langen Kiszone und nicht Essiggurken.",
+          "Die milde Hausversion reift nur ein bis drei Tage bei Zimmertemperatur und bleibt dadurch spürbar milder als die lange gegorenen Kiszone und komplett anders als Essiggurken.",
         steps: [
           {
             text: "Frische, feste Gurken waschen, Enden anschneiden. In ein großes Glas oder eine Schüssel mit Knoblauch, Dill und Senfkörnern schichten.",
-            tip: "Kurzferment, nicht [Ogórki kiszone](/de/rezepte/ogorki-kiszone). Oben wechselst du zu [scharf](/de/rezepte/ogorki-malosolne/scharf), [Honig](/de/rezepte/ogorki-malosolne/honig) oder [Eichenblatt](/de/rezepte/ogorki-malosolne/eichenblatt). Technik: [Kiszenie](/de/blog/kiszenie-guide).",
+            tip: "Das ist ein Kurzferment und kein Ersatz für die lang gegorenen [Ogórki kiszone](/de/rezepte/ogorki-kiszone), oben in der Variantenauswahl findest du außerdem die Linien [scharf](/de/rezepte/ogorki-malosolne/scharf), mit [Honig](/de/rezepte/ogorki-malosolne/honig) oder mit [Eichenblatt](/de/rezepte/ogorki-malosolne/eichenblatt), mehr zur Technik erklärt der [Kiszenie-Guide](/de/blog/kiszenie-guide).",
           },
           {
-            text: "Lake: 1 l kaltes Wasser + 20 g unjodiertes Salz (2 %). Vollständig bedecken. Bei Zimmertemperatur 24–72 Stunden, im Sommer eher kürzer kosten.",
-            tip: "Sobald sie nach Gurke und leichter Säure schmecken, in den Kühlschrank. Länger werden sie zu Kiszone.",
+            text: "Für die Lake 1 Liter kaltes Wasser mit 20 g unjodiertem Salz verrühren, das entspricht etwa 2 Prozent und passt genau zum kurzen Ziehen. Die Gurken vollständig damit bedecken und bei Zimmertemperatur 24 bis 72 Stunden stehen lassen, im Sommer wegen der Wärme lieber schon früher probieren.",
+            tip: "Sobald sie nach Gurke und einer leichten Säure schmecken, gehören sie in den Kühlschrank, denn länger auf der Arbeitsfläche werden sie langsam zu waschechten Kiszone.",
           },
           {
-            text: "Gekühlt in 2–4 Tagen aufessen. Zu Brot, Wurst oder Grill. Trübe Lake ist normal; Schimmel oder Fäulnisgeruch: verwerfen.",
-            tip: "Essig-Nachbar als eigenes Gericht: [Ogórki konserwowe](/de/rezepte/ogorki-konserwowe). Einkauf: [Polenladen](/de/blog/polenladen-einkaufen).",
+            text: "Gekühlt am besten innerhalb von zwei bis vier Tagen aufessen, zu Brot, Wurst oder direkt vom Grill. Eine leicht trübe Lake ist bei diesem kurzen Ferment normal, nur bei Schimmel oder fauligem Geruch gehört das ganze Glas in den Müll.",
+            tip: "Der essiggesäuerte Nachbar mit ganz eigenem Charakter sind die [Ogórki konserwowe](/de/rezepte/ogorki-konserwowe), frische Gurken und unjodiertes Salz gibt es oft besonders günstig im [Polenladen](/de/blog/polenladen-einkaufen).",
           },
         ],
         seoTitle: "Ogórki małosolne klassisch | Leicht gesalzene Gurken | Alemniam",
@@ -142,19 +142,19 @@ export const seedRecipesWave17: Recipe[] = [
         title: "Ogórki małosolne klasyczne",
         slug: "klasyczne",
         excerpt:
-          "Łagodna wersja z koperkiem i czosnkiem po 1–3 dniach. Nie długie kiszone i nie octowe.",
+          "Ta łagodna domowa wersja dojrzewa zaledwie jeden do trzech dni w temperaturze pokojowej, dzięki czemu jest wyraźnie delikatniejsza niż długo kiszone ogórki i zupełnie inna niż octowe.",
         steps: [
           {
             text: "Umyj twarde ogórki, przytnij końce. Ułóż w słoju z czosnkiem, koperkiem i gorczycą.",
-            tip: "Krótki kis, nie [ogórki kiszone](/pl/rezepte/ogorki-kiszone). U góry przełączysz na [ostre](/pl/rezepte/ogorki-malosolne/ostre), [miód](/pl/rezepte/ogorki-malosolne/miod) albo [liść dębu](/pl/rezepte/ogorki-malosolne/lisc-debu). Poradnik: [kiszenie](/pl/blog/kiszenie-w-domu).",
+            tip: "To krótki kis, a nie zamiennik długo kiszonych [ogórków kiszonych](/pl/rezepte/ogorki-kiszone), u góry w wyborze wariantów znajdziesz też wersję [ostrą](/pl/rezepte/ogorki-malosolne/ostre), z [miodem](/pl/rezepte/ogorki-malosolne/miod) albo z [liściem dębu](/pl/rezepte/ogorki-malosolne/lisc-debu), więcej o technice pisze [poradnik o kiszeniu](/pl/blog/kiszenie-w-domu).",
           },
           {
-            text: "Zalewa: 1 l wody + 20 g soli niejodowanej (2 %). Przykryj całkowicie. 24–72 h w temperaturze pokojowej, latem próbuj wcześniej.",
-            tip: "Gdy smakują ogórkiem i lekkim kwasem, do lodówki. Dłużej stają się kiszone.",
+            text: "Na zalewę wymieszaj 1 litr wody z 20 g soli niejodowanej, co daje około 2 procent i w sam raz na krótkie kiszenie. Przykryj ogórki całkowicie i zostaw w temperaturze pokojowej na 24 do 72 godzin, latem ze względu na ciepło próbuj już wcześniej.",
+            tip: "Gdy smakują ogórkiem z lekką kwaskowatością, przenieś je do lodówki, bo zostawione dłużej powoli zmieniają się w prawdziwe kiszone.",
           },
           {
-            text: "Zjedz w 2–4 dni z lodówki. Do chleba, kiełbasy, grilla. Mętna zalewa jest OK; pleśń lub smród: wyrzuć.",
-            tip: "Ocet to inne danie: [ogórki konserwowe](/pl/rezepte/ogorki-konserwowe). Zakupy: [sklep polski](/pl/blog/sklep-polski-zakupy).",
+            text: "Z lodówki zjedz je najlepiej w ciągu dwóch do czterech dni, do chleba, kiełbasy albo prosto z grilla. Lekko mętna zalewa jest przy tak krótkim kiszeniu normalna, tylko pleśń albo nieprzyjemny zapach oznaczają, że trzeba wyrzucić cały słoik.",
+            tip: "Wersja octowa to zupełnie inne danie, [ogórki konserwowe](/pl/rezepte/ogorki-konserwowe), a świeże ogórki i sól niejodowaną najtaniej znajdziesz w [sklepie polskim](/pl/blog/sklep-polski-zakupy).",
           },
         ],
         seoTitle: "Ogórki małosolne klasyczne | Lekko solone | Alemniam",
@@ -192,60 +192,60 @@ export const seedRecipesWave17: Recipe[] = [
         title: "Kapusta kiszona",
         slug: "kapusta-kiszona",
         excerpt:
-          "Selbst gemachtes Sauerkraut — fein gehobelt, 2 % Salz, beschwert. Grundlage für Bigos, nicht die warme Beilage.",
+          "Selbst gemachtes Sauerkraut entsteht durch reine Milchsäuregärung von fein gehobeltem Weißkohl mit 2 Prozent Salz, roh und beschwert, als Vorratsgrundlage für Bigos statt als warme, bereits fertig geschmorte Beilage.",
         steps: [
           {
-            text: "Weißkohl vierteln, Strunk entfernen, sehr fein hobeln. Mit 40 g unjodiertem Salz (2 % auf 2 kg) in einer großen Schüssel fest kneten, bis reichlich Saft austritt — 8–12 Minuten.",
-            tip: "Roh fermentiert — nicht [Kapusta zasmażana](/de/rezepte/kapusta-zasmażana) (warme Beilage). Technik: [Kiszenie](/de/blog/kiszenie-guide).",
+            text: "Weißkohl vierteln, Strunk entfernen, sehr fein hobeln. Mit 40 g unjodiertem Salz, das entspricht 2 Prozent bei 2 kg Kohl, in einer großen Schüssel fest kneten, bis reichlich eigener Saft austritt, das dauert etwa 8 bis 12 Minuten.",
+            tip: "Das hier ist roher Rohferment und keine fertige warme Beilage wie [Kapusta zasmażana](/de/rezepte/kapusta-zasmażana), mehr zur Technik erklärt der [Kiszenie-Guide](/de/blog/kiszenie-guide).",
           },
           {
-            text: "Fest in einen sauberen Steintopf oder ein großes Glas stampfen, Schicht für Schicht, bis der eigene Saft alles bedeckt. Optional Kümmel. Mit Gewicht (kleiner Teller + Glas Wasser) beschweren. 1–2 cm Lake über dem Kraut.",
-            tip: "Fehlt Saft: 200 ml Wasser + 4 g Salz nachgießen — nie ungesalzenes Wasser. Gläser: [Fermentiergläser](/de/blog/fermentier-glaeser-kaufberatung).",
+            text: "Fest in einen sauberen Steintopf oder ein großes Glas stampfen, Schicht für Schicht, bis der eigene Saft alles bedeckt. Optional etwas Kümmel dazugeben und mit einem Gewicht beschweren, zum Beispiel einem kleinen Teller mit einem gefüllten Wasserglas darauf, damit 1 bis 2 cm Lake über dem Kraut stehen.",
+            tip: "Reicht der eigene Saft nicht aus, 200 ml Wasser mit 4 g Salz aufkochen lassen und nachgießen, niemals ungesalzenes Wasser nachfüllen, geeignete Gläser stellt die [Kaufberatung für Fermentiergläser](/de/blog/fermentier-glaeser-kaufberatung) vor.",
           },
           {
-            text: "Bei 18–22 °C 7–14 Tage. Täglich Gewicht prüfen, Schaum abschöpfen. Farbigen Schimmel: Charge verwerfen. Dann in saubere Gläser füllen und kühlen.",
-            tip: "Einsatz: [Bigos](/de/rezepte/bigos), [Kapuśniak](/de/rezepte/kapusniak), Pierogi mit Kraut. Einkaufshilfe: [Polenladen](/de/blog/polenladen-einkaufen).",
+            text: "Bei 18 bis 22 Grad 7 bis 14 Tage gären lassen, täglich das Gewicht prüfen und aufsteigenden Schaum abschöpfen. Zeigt sich farbiger Schimmel, muss die ganze Charge weg. Danach in saubere Gläser füllen und kühl lagern.",
+            tip: "Frisch fertig gekist ist das Kraut die Grundlage für [Bigos](/de/rezepte/bigos) und für [Kapuśniak](/de/rezepte/kapusniak), unjodiertes Salz für die nächste Charge gibt es günstig im [Polenladen](/de/blog/polenladen-einkaufen).",
           },
           {
-            text: "Gekühlt reift das Kraut weiter und wird milder-säuerlich. Vor der Verwendung kosten; zu scharf kurz kalt abspülen, nicht auswaschen.",
-            tip: "Nachbar-Gurke: [Ogórki kiszone](/de/rezepte/ogorki-kiszone).",
+            text: "Gekühlt reift das Kraut weiter und wird milder und runder im Geschmack. Vor der Verwendung kosten, ist es zu scharf, kurz kalt abspülen, aber nicht auswaschen, sonst verliert es zu viel von seiner Säure und den nützlichen Milchsäurebakterien.",
+            tip: "Als Nachbar im Vorratsregal passen gut die [Ogórki kiszone](/de/rezepte/ogorki-kiszone), beide entstehen durch dieselbe Milchsäuregärung ohne einen Tropfen Essig.",
           },
         ],
         seoTitle: "Kapusta kiszona Rezept | Sauerkraut selbst machen | Alemniam",
         seoDescription:
-          "Kapusta kiszona mit 2 % Salz. Bilingual — Rohferment, nicht zasmażana, Grundlage für Bigos.",
+          "Kapusta kiszona mit 2 % Salz. Bilingual, roher Milchsäureferment, keine zasmażana, Grundlage für Bigos.",
       },
       pl: {
         title: "Kapusta kiszona",
         slug: "kapusta-kiszona",
         excerpt:
-          "Domowa kapusta kiszona — drobno szatkowana, 2 % soli, obciążona. Baza do bigosu, nie ciepły dodatek.",
+          "Domowa kapusta kiszona powstaje dzięki czystej fermentacji mlekowej z drobno szatkowanej kapusty, 2 procent soli i solidnego obciążenia, jako baza na zapas do bigosu, a nie jako gotowy ciepły dodatek prosto z patelni.",
         steps: [
           {
-            text: "Kapustę pokrój, usuń głąb, szatkuj bardzo drobno. Z 40 g soli niejodowanej (2 % na 2 kg) ugniataj 8–12 min, aż puści dużo soku.",
-            tip: "Surowy kis — nie [kapusta zasmażana](/pl/rezepte/kapusta-zasmażana). Technika: [kiszenie](/pl/blog/kiszenie-w-domu).",
+            text: "Kapustę pokrój, usuń głąb, szatkuj bardzo drobno. Z 40 g soli niejodowanej, czyli 2 procent na 2 kg kapusty, ugniataj ją mocno 8 do 12 minut, aż puści dużo własnego soku.",
+            tip: "To surowy kis, a nie gotowa ciepła [kapusta zasmażana](/pl/rezepte/kapusta-zasmażana), więcej o technice pisze [poradnik o kiszeniu](/pl/blog/kiszenie-w-domu).",
           },
           {
-            text: "Ubija j warstwami w czystym naczyniu, aż własny sok przykryje. Opcjonalnie kminek. Obciąż (talerzyk + słoik wody). 1–2 cm zalewy nad kapustą.",
-            tip: "Za mało soku: 200 ml wody + 4 g soli — nigdy sama woda. Słoiki: [poradnik](/pl/blog/sloiki-do-kiszenia).",
+            text: "Ubijaj kapustę warstwami w czystym naczyniu, aż własny sok całkowicie ją przykryje. Opcjonalnie dodaj kminek i obciąż całość, na przykład talerzykiem ze słoikiem wody na wierzchu, tak żeby 1 do 2 cm zalewy stało nad kapustą.",
+            tip: "Gdy soku jest za mało, dolej zagotowane 200 ml wody z 4 g soli, nigdy samej niesolonej wody, a dobre słoiki opisuje [poradnik o słoikach do kiszenia](/pl/blog/sloiki-do-kiszenia).",
           },
           {
-            text: "Kis 7–14 dni w 18–22 °C. Codziennie sprawdzaj ciężarek, zbieraj pianę. Kolorowa pleśń: wyrzuć. Potem do czystych słoików i do lodówki.",
-            tip: "Użycie: [bigos](/pl/rezepte/bigos), [kapuśniak](/pl/rezepte/kapusniak). Zakupy: [sklep polski](/pl/blog/sklep-polski-zakupy).",
+            text: "Kiś 7 do 14 dni w temperaturze 18 do 22 stopni, codziennie sprawdzaj ciężarek i zbieraj pianę z powierzchni. Kolorowa pleśń oznacza, że trzeba wyrzucić całą partię. Potem przełóż do czystych słoików i wstaw do lodówki.",
+            tip: "Świeżo ukiszona kapusta to baza na [bigos](/pl/rezepte/bigos) i na [kapuśniak](/pl/rezepte/kapusniak), sól niejodowaną na kolejną partię tanio kupisz w [sklepie polskim](/pl/blog/sklep-polski-zakupy).",
           },
           {
-            text: "W lodówce łagodnieje. Przed użyciem skosztuj; za ostro — krótko przepłucz zimną wodą, nie wypłukuj.",
-            tip: "Sąsiad: [ogórki kiszone](/pl/rezepte/ogorki-kiszone).",
+            text: "W lodówce kapusta dalej łagodnieje i robi się bardziej okrągła w smaku. Przed użyciem zawsze skosztuj, a jeśli jest za ostra, krótko przepłucz ją zimną wodą, ale nie wypłukuj, bo straci zbyt dużo kwasu i pożytecznych bakterii.",
+            tip: "Sąsiadem w spiżarni dobrze bywają [ogórki kiszone](/pl/rezepte/ogorki-kiszone), obie powstają dzięki tej samej fermentacji mlekowej bez kropli octu.",
           },
         ],
         seoTitle: "Kapusta kiszona przepis | Domowy kis | Alemniam",
         seoDescription:
-          "Kapusta kiszona 2 % soli. Dwujęzycznie — nie zasmażana, baza do bigosu.",
+          "Kapusta kiszona, 2 procent soli. Dwujęzycznie, surowy kis, nie zasmażana, baza do bigosu.",
       },
     },
     ingredients: [
       { id: "kk-1", name: { de: "Weißkohl", pl: "Kapusta biała" }, amount: 2000, unit: { de: "g", pl: "g" }, group: "produce" },
-      { id: "kk-2", name: { de: "Unjodiertes Salz", pl: "Sól niejodowana" }, amount: 40, unit: { de: "g", pl: "g" }, group: "spices", storeHintDe: "Kein Jodsalz" },
+      { id: "kk-2", name: { de: "Unjodiertes Salz", pl: "Sól niejodowana" }, amount: 40, unit: { de: "g", pl: "g" }, group: "spices", storeHintDe: "Kein Jodsalz verwenden" },
       { id: "kk-3", name: { de: "Kümmel (optional)", pl: "Kminek (opcjonalnie)" }, amount: 1, unit: { de: "TL", pl: "łyżeczka" }, group: "spices", storeHintDe: "Polenladen oft aromatischer" },
     ],
     createdAt: "2026-08-20T10:00:00.000Z",
@@ -270,47 +270,47 @@ export const seedRecipesWave17: Recipe[] = [
         title: "Czosnek kiszony",
         slug: "czosnek-kiszony",
         excerpt:
-          "Milchsauer eingelegte Knoblauchzehen — milder, rund, zum Brot. Nicht geriebener Chrzan und nicht Essigzwiebeln.",
+          "Milchsauer eingelegte Knoblauchzehen verlieren beim Kiszen ihre Schärfe und werden mild und rund im Geschmack, ganz anders als der weiß-scharfe geriebene Chrzan und ganz anders als essiggesäuerte Zwiebeln.",
         steps: [
           {
-            text: "Zehen schälen, beschädigte verwerfen. Fest in ein kleines Glas schichten, optional eine Dilldolde.",
-            tip: "Ferment, nicht Dip: [Chrzan tarty](/de/rezepte/chrzan) bleibt weiß-scharf. Guide: [Kiszenie](/de/blog/kiszenie-guide).",
+            text: "Zehen schälen, beschädigte Stücke aussortieren, da sie leichter schimmeln. Fest in ein kleines Glas schichten, optional eine Dilldolde dazugeben.",
+            tip: "Das ist ein echter Ferment und kein Dip wie [Chrzan tarty](/de/rezepte/chrzan), der weiß und scharf bleibt, mehr zur Technik liefert der [Kiszenie-Guide](/de/blog/kiszenie-guide).",
           },
           {
-            text: "Lake: 400 ml Wasser + 12 g unjodiertes Salz (3 %). Vollständig bedecken, beschweren. 18–22 °C für 7–14 Tage, dann kühlen.",
-            tip: "Zehen können blau-grün anlaufen — harmlos (Schwefel + Säure). Schimmel oder Fäulnis: Glas weg.",
+            text: "Für die Lake 400 ml Wasser mit 12 g unjodiertem Salz auflösen, das ergibt etwa 3 Prozent. Den Knoblauch vollständig damit bedecken und beschweren, dann bei 18 bis 22 Grad 7 bis 14 Tage gären lassen, bevor das Glas in den Kühlschrank wandert.",
+            tip: "Die Zehen können dabei harmlos blau oder grün anlaufen, eine Reaktion von Schwefelverbindungen im Knoblauch mit der Säure, nur bei Schimmel oder fauligem Geruch gehört das Glas in den Müll.",
           },
           {
-            text: "Gekühlt zu Brot, Grill, Wurst. Lake nicht trinken, wenn sie unangenehm riecht. Hält gekühlt Wochen.",
-            tip: "Nachbar: [Ogórki kiszone](/de/rezepte/ogorki-kiszone). Gläser: [Fermentiergläser](/de/blog/fermentier-glaeser-kaufberatung).",
+            text: "Gekühlt zu Brot, vom Grill oder zu Wurst servieren. Die Lake nicht trinken, wenn sie unangenehm riecht. Gekühlt hält der Knoblauch mehrere Wochen.",
+            tip: "Im Vorratsregal passen gut die [Ogórki kiszone](/de/rezepte/ogorki-kiszone) daneben, eine Übersicht zu passenden Gläsern bietet die [Kaufberatung für Fermentiergläser](/de/blog/fermentier-glaeser-kaufberatung).",
           },
         ],
         seoTitle: "Czosnek kiszony Rezept | Eingelegter Knoblauch | Alemniam",
         seoDescription:
-          "Czosnek kiszony in 3 %-Lake. Bilingual — fermentiert, nicht Chrzan, nicht Essigzwiebel.",
+          "Czosnek kiszony in 3-Prozent-Lake. Bilingual, fermentiert, kein Chrzan, keine Essigzwiebel.",
       },
       pl: {
         title: "Czosnek kiszony",
         slug: "czosnek-kiszony",
         excerpt:
-          "Kiszone ząbki czosnku — łagodniejsze, do chleba. Nie tarty chrzan i nie cebulka w occie.",
+          "Kiszone ząbki czosnku tracą podczas fermentacji swoją ostrość i robią się łagodne oraz okrągłe w smaku, zupełnie inaczej niż biały i ostry tarty chrzan oraz octowa cebulka.",
         steps: [
           {
-            text: "Obierz ząbki, uszkodzone wyrzuć. Ułóż szczelnie w małym słoiku, opcjonalnie koper.",
-            tip: "Kiszonka, nie dip: [chrzan tarty](/pl/rezepte/chrzan) zostaje ostry. Poradnik: [kiszenie](/pl/blog/kiszenie-w-domu).",
+            text: "Obierz ząbki, uszkodzone odrzuć, bo łatwiej pleśnieją. Ułóż szczelnie w małym słoiku, opcjonalnie dodaj gałązkę kopru.",
+            tip: "To prawdziwa kiszonka, a nie dip taki jak [chrzan tarty](/pl/rezepte/chrzan), który zostaje biały i ostry, więcej o technice pisze [poradnik o kiszeniu](/pl/blog/kiszenie-w-domu).",
           },
           {
-            text: "Zalewa: 400 ml wody + 12 g soli niejodowanej (3 %). Przykryj, obciąż. 7–14 dni w 18–22 °C, potem lodówka.",
-            tip: "Niebiesko-zielony kolor bywa — nieszkodliwy. Pleśń lub zgnilizna: wyrzuć.",
+            text: "Na zalewę rozpuść 400 ml wody z 12 g soli niejodowanej, co daje około 3 procent. Przykryj czosnek całkowicie, obciąż i kiś 7 do 14 dni w temperaturze 18 do 22 stopni, zanim słoik trafi do lodówki.",
+            tip: "Ząbki mogą przy tym nieszkodliwie zmienić kolor na niebieski albo zielonkawy, to reakcja związków siarki w czosnku z kwasem, dopiero pleśń albo zgnilizna oznaczają, że trzeba wyrzucić słoik.",
           },
           {
-            text: "Z lodówki do chleba, grilla, kiełbasy. Nie pij zalewy, jeśli pachnie źle. Trzyma tygodnie.",
-            tip: "Sąsiad: [ogórki kiszone](/pl/rezepte/ogorki-kiszone). Słoiki: [poradnik](/pl/blog/sloiki-do-kiszenia).",
+            text: "Z lodówki podawaj do chleba, grilla albo kiełbasy. Nie pij zalewy, jeśli pachnie nieprzyjemnie. Trzyma się chłodno kilka tygodni.",
+            tip: "W spiżarni dobrze komponują się obok [ogórki kiszone](/pl/rezepte/ogorki-kiszone), a dobre słoiki opisuje [poradnik o słoikach do kiszenia](/pl/blog/sloiki-do-kiszenia).",
           },
         ],
         seoTitle: "Czosnek kiszony przepis | Kiszonki | Alemniam",
         seoDescription:
-          "Czosnek kiszony, zalewa 3 %. Dwujęzycznie — nie chrzan, nie cebula w occie.",
+          "Czosnek kiszony, zalewa 3 procent. Dwujęzycznie, fermentowany, nie chrzan, nie cebula w occie.",
       },
     },
     ingredients: [
@@ -341,47 +341,47 @@ export const seedRecipesWave17: Recipe[] = [
         title: "Grzyby marynowane",
         slug: "grzyby-marynowane",
         excerpt:
-          "Champignons in würzigem Essigsud — kalter Vorspeisen-Klassiker. Nicht die Wigilia-Pilzsuppe.",
+          "Champignons ziehen hier in einem würzigen Essigsud durch und werden zum kalten Vorspeisenklassiker, ganz anders als die warme Wigilia-Pilzsuppe, die aus denselben Pilzen ein völlig anderes Gericht macht.",
         steps: [
           {
-            text: "Nur Speisepilze aus dem Handel (Champignons oder fertig geputzte Mischpilze). Putzen, große halbieren. 8 Minuten in Salzwasser köcheln, abtropfen.",
-            tip: "Kein Wildsammeln ohne Sicherheit. Suppe bleibt bei [Zupa grzybowa](/de/rezepte/zupa-grzybowa). Wigilia: [Speiseplan](/de/blog/wigilia-speiseplan).",
+            text: "Nur Speisepilze aus dem Handel verwenden, Champignons oder fertig geputzte Mischpilze. Putzen, größere Exemplare halbieren und 8 Minuten in Salzwasser köcheln, dann abtropfen lassen.",
+            tip: "Auf keinen Fall selbst gesammelte Wildpilze ohne sichere Bestimmung verwenden, die warme Suppenvariante bleibt ohnehin der [Zupa grzybowa](/de/rezepte/zupa-grzybowa) vorbehalten, mehr zum Weihnachtsmenü liefert der [Wigilia-Speiseplan](/de/blog/wigilia-speiseplan).",
           },
           {
-            text: "Sud: 250 ml Tafelessig (5 %) + 250 ml Wasser + 2 EL Zucker + 1 TL Salz, Piment, Pfeffer, Lorbeer, Zwiebelringe. 5 Minuten köcheln.",
-            tip: "Immer 5 %-Essig — kein milderer Hausessig. Vorratstechnik: [Kiszenie-Guide](/de/blog/kiszenie-guide) erklärt den Unterschied Ferment/Essig.",
+            text: "Für den Sud 250 ml Tafelessig mit 5 Prozent Säure, 250 ml Wasser, 2 EL Zucker und 1 TL Salz mit Piment, Pfeffer, Lorbeer und Zwiebelringen verrühren und 5 Minuten köcheln lassen.",
+            tip: "Immer 5-prozentigen Essig verwenden und keinen milderen Hausessig, denn nur die höhere Säure sorgt zuverlässig für Haltbarkeit, den Unterschied zwischen Ferment und Essigkonserve erklärt der [Kiszenie-Guide](/de/blog/kiszenie-guide).",
           },
           {
-            text: "Pilze in heiße, saubere Gläser, mit kochendem Sud bedecken. Verschließen, abkühlen, mindestens 3 Tage im Kühlschrank ziehen lassen. Gekühlt lagern.",
-            tip: "Zu Brot oder als Vorspeise. Nachbar: [Papryka konserwowa](/de/rezepte/papryka-konserwowa).",
+            text: "Die Pilze in heiße, saubere Gläser füllen und vollständig mit dem kochenden Sud bedecken. Verschließen, abkühlen lassen und mindestens 3 Tage im Kühlschrank durchziehen lassen, danach gekühlt lagern.",
+            tip: "Serviere sie zu Brot oder als eigenständige Vorspeise, im Regal daneben passt gut die [Papryka konserwowa](/de/rezepte/papryka-konserwowa).",
           },
         ],
         seoTitle: "Grzyby marynowane Rezept | Eingelegte Pilze | Alemniam",
         seoDescription:
-          "Grzyby marynowane in 5 %-Essig. Bilingual — Vorspeise, nicht Pilzsuppe. Kühl lagern.",
+          "Grzyby marynowane in 5-prozentigem Essig. Bilingual, kalte Vorspeise, keine Pilzsuppe. Kühl lagern.",
       },
       pl: {
         title: "Grzyby marynowane",
         slug: "grzyby-marynowane",
         excerpt:
-          "Pieczarki w zalewie octowej — zimna przystawka. Nie wigilijna zupa grzybowa.",
+          "Pieczarki marynują się tutaj w wyrazistej zalewie octowej i stają się zimną przystawką, zupełnie inną niż wigilijna zupa grzybowa, która z tych samych grzybów robi ciepłe danie.",
         steps: [
           {
-            text: "Tylko grzyby ze sklepu (pieczarki). Oczyść, większe przetnij. Gotuj 8 min w osolonej wodzie, odsącz.",
-            tip: "Bez zbierania bez pewności. Zupa zostaje przy [zupie grzybowej](/pl/rezepte/zupa-grzybowa). Wigilia: [menu](/pl/blog/menu-wigilijne).",
+            text: "Użyj tylko grzybów ze sklepu, najlepiej pieczarek. Oczyść je, większe przekrój na pół i gotuj 8 minut w osolonej wodzie, potem odsącz.",
+            tip: "Nigdy nie używaj samodzielnie zebranych grzybów bez pewnej identyfikacji, ciepła wersja zupowa zostaje przy [zupie grzybowej](/pl/rezepte/zupa-grzybowa), więcej o wigilijnym menu pisze [poradnik o Wigilii](/pl/blog/menu-wigilijne).",
           },
           {
-            text: "Zalewa: 250 ml octu 5 % + 250 ml wody + 2 łyżki cukru + 1 łyżeczka soli, ziele, pieprz, liść, cebula. Gotuj 5 min.",
-            tip: "Zawsze ocet 5 %. Różnica kis / ocet: [kiszenie](/pl/blog/kiszenie-w-domu).",
+            text: "Na zalewę połącz 250 ml octu 5 procent, 250 ml wody, 2 łyżki cukru i 1 łyżeczkę soli z zielem angielskim, pieprzem, liściem laurowym i cebulą, i gotuj 5 minut.",
+            tip: "Zawsze używaj octu 5 procent, nigdy łagodniejszego domowego octu, bo tylko ta kwasowość gwarantuje trwałość, różnicę między kiszeniem a marynowaniem w occie wyjaśnia [poradnik o kiszeniu](/pl/blog/kiszenie-w-domu).",
           },
           {
-            text: "Grzyby do gorących słoików, zalej wrzątkiem. Zamknij, ostudź, min. 3 dni w lodówce. Przechowuj chłodno.",
-            tip: "Do chleba. Sąsiad: [papryka konserwowa](/pl/rezepte/papryka-konserwowa).",
+            text: "Przełóż grzyby do gorących, czystych słoików i zalej wrzątkiem z octem. Zamknij, ostudź i trzymaj co najmniej 3 dni w lodówce, zanim spróbujesz, potem przechowuj chłodno.",
+            tip: "Podawaj do chleba albo jako samodzielną przystawkę, obok dobrze komponuje się [papryka konserwowa](/pl/rezepte/papryka-konserwowa).",
           },
         ],
         seoTitle: "Grzyby marynowane przepis | Marynaty | Alemniam",
         seoDescription:
-          "Grzyby marynowane w occie 5 %. Dwujęzycznie — przystawka, nie zupa. Do lodówki.",
+          "Grzyby marynowane w occie 5 procent. Dwujęzycznie, zimna przystawka, nie zupa. Do lodówki.",
       },
     },
     ingredients: [
@@ -414,47 +414,47 @@ export const seedRecipesWave17: Recipe[] = [
         title: "Papryka konserwowa",
         slug: "papryka-konserwowa",
         excerpt:
-          "Süße Paprikastreifen in Essigsud — Glas vom Sonntagstisch. Nicht Leczo und nicht fermentierte Gurken.",
+          "Süße Paprikastreifen ziehen hier in einem klaren Essigsud durch und werden zum haltbaren Glas für den Sonntagstisch, weder das geschmorte Leczo noch fermentierte Gurken.",
         steps: [
           {
-            text: "Feste Paprika entkernen, in Streifen. Optional 3 Minuten blanchieren, abtropfen — bleibt knackiger ohne Blanchieren.",
-            tip: "Das ist Essigglas — nicht das Schmorgericht [Leczo](/de/rezepte/leczo). Vorrat: [Kiszenie-Guide](/de/blog/kiszenie-guide) (Essig vs. Kis).",
+            text: "Feste Paprika entkernen und in Streifen schneiden. Optional 3 Minuten blanchieren und abtropfen lassen, ohne Blanchieren bleiben die Streifen dafür knackiger.",
+            tip: "Das hier ist ein Essigglas und kein Schmorgericht wie [Leczo](/de/rezepte/leczo), den Unterschied zwischen Essig und Ferment erklärt der [Kiszenie-Guide](/de/blog/kiszenie-guide).",
           },
           {
-            text: "Sud: 300 ml Essig 5 % + 200 ml Wasser + 3 EL Zucker + 1 TL Salz, Piment, Lorbeer. Aufkochen.",
-            tip: "Nur 5 %-Essig. Gläser heiß ausspülen.",
+            text: "Für den Sud 300 ml Essig mit 5 Prozent Säure, 200 ml Wasser, 3 EL Zucker und 1 TL Salz mit Piment und Lorbeer aufkochen.",
+            tip: "Nur 5-prozentigen Essig verwenden, das sichert die Haltbarkeit, und die Gläser vorher heiß ausspülen.",
           },
           {
-            text: "Streifen fest in Gläser, mit kochendem Sud bedecken. Verschließen, abkühlen, 3 Tage kühlen, dann servieren. Gekühlt lagern.",
-            tip: "Zu Fleisch, Brot, Grill. Nachbar: [Cebulka marynowana](/de/rezepte/cebulka-marynowana).",
+            text: "Die Streifen fest in die Gläser packen und mit dem kochenden Sud vollständig bedecken. Verschließen, abkühlen lassen und 3 Tage kühl durchziehen, bevor sie serviert werden, danach gekühlt lagern.",
+            tip: "Serviere sie zu Fleisch, Brot oder vom Grill, im Regal daneben passt gut die [Cebulka marynowana](/de/rezepte/cebulka-marynowana).",
           },
         ],
         seoTitle: "Papryka konserwowa Rezept | Eingelegte Paprika | Alemniam",
         seoDescription:
-          "Papryka konserwowa in 5 %-Essig. Bilingual — Glas, nicht Leczo. Kühl lagern.",
+          "Papryka konserwowa in 5-prozentigem Essig. Bilingual, haltbares Glas, kein Leczo. Kühl lagern.",
       },
       pl: {
         title: "Papryka konserwowa",
         slug: "papryka-konserwowa",
         excerpt:
-          "Słodka papryka w zalewie octowej — słoik na niedzielę. Nie leczo i nie kiszone ogórki.",
+          "Słodka papryka marynuje się tutaj w klarownej zalewie octowej i staje się trwałym słoikiem na niedzielny stół, zupełnie innym niż duszone leczo i niż kiszone ogórki.",
         steps: [
           {
-            text: "Paprykę oceń, pokrój w paski. Opcjonalnie 3 min blansz, odsącz.",
-            tip: "To słoik z octem — nie [leczo](/pl/rezepte/leczo). Kis vs ocet: [kiszenie](/pl/blog/kiszenie-w-domu).",
+            text: "Paprykę oczyść z gniazd nasiennych i pokrój w paski. Opcjonalnie zblanszuj 3 minuty i odsącz, bez blanszowania paski zostają za to bardziej chrupiące.",
+            tip: "To słoik z octem, a nie duszone [leczo](/pl/rezepte/leczo), różnicę między octem a kiszeniem wyjaśnia [poradnik o kiszeniu](/pl/blog/kiszenie-w-domu).",
           },
           {
-            text: "Zalewa: 300 ml octu 5 % + 200 ml wody + 3 łyżki cukru + 1 łyżeczka soli, ziele, liść. Zagotuj.",
-            tip: "Tylko ocet 5 %. Słoiki wypłucz gorącą wodą.",
+            text: "Na zalewę zagotuj 300 ml octu 5 procent, 200 ml wody, 3 łyżki cukru i 1 łyżeczkę soli z zielem angielskim i liściem laurowym.",
+            tip: "Używaj tylko octu 5 procent, to gwarantuje trwałość, a słoiki wcześniej wypłucz gorącą wodą.",
           },
           {
-            text: "Paski do słoików, zalej wrzątkiem. Zamknij, ostudź, 3 dni w lodówce. Przechowuj chłodno.",
-            tip: "Do mięsa, chleba, grilla. Sąsiad: [cebulka marynowana](/pl/rezepte/cebulka-marynowana).",
+            text: "Paski szczelnie ułóż w słoikach i zalej wrzątkiem z octem. Zamknij, ostudź i trzymaj 3 dni w lodówce, zanim podasz, potem przechowuj chłodno.",
+            tip: "Podawaj do mięsa, chleba albo grilla, obok dobrze komponuje się [cebulka marynowana](/pl/rezepte/cebulka-marynowana).",
           },
         ],
         seoTitle: "Papryka konserwowa przepis | Marynaty | Alemniam",
         seoDescription:
-          "Papryka konserwowa w occie 5 %. Dwujęzycznie — nie leczo. Do lodówki.",
+          "Papryka konserwowa w occie 5 procent. Dwujęzycznie, trwały słoik, nie leczo. Do lodówki.",
       },
     },
     ingredients: [
@@ -487,47 +487,47 @@ export const seedRecipesWave17: Recipe[] = [
         title: "Śliwki w occie",
         slug: "sliwki-w-occie",
         excerpt:
-          "Feste Pflaumen in süß-saurem Sud — zu Braten und Aufschnitt. Nicht Powidła und nicht Knedle.",
+          "Feste Pflaumen ziehen hier in einem würzigen süß-sauren Sud durch und werden zur klassischen Beilage für Braten und Aufschnitt, weder Powidła zum Bestreichen noch die Füllung für Knedle.",
         steps: [
           {
-            text: "Feste, nicht überreife Pflaumen waschen, Stiele entfernen, ganz lassen (Stein bleibt). In saubere Gläser schichten.",
-            tip: "Essigpflaume — nicht [Knedle ze śliwkami](/de/rezepte/knedle-sliwki) und nicht Mus. Vorrat: [Kiszenie](/de/blog/kiszenie-guide).",
+            text: "Feste, nicht überreife Pflaumen waschen, die Stiele entfernen und die Früchte ganz lassen, der Stein bleibt drin. In saubere Gläser schichten.",
+            tip: "Das ist eine Essigpflaume für den Vorratsschrank und keine Füllung wie bei [Knedle ze śliwkami](/de/rezepte/knedle-sliwki) und kein Mus, mehr zu Fermenten liefert der [Kiszenie-Guide](/de/blog/kiszenie-guide).",
           },
           {
-            text: "Sud: 300 ml Essig 5 % + 200 ml Wasser + 150 g Zucker, Zimt, 3 Nelken. Aufkochen, 3 Minuten ziehen.",
-            tip: "Nur 5 %-Essig. Zu süß? Zucker später kürzen, nicht den Essiganteil.",
+            text: "Für den Sud 300 ml Essig mit 5 Prozent Säure, 200 ml Wasser und 150 g Zucker mit Zimt und 3 Nelken aufkochen und 3 Minuten ziehen lassen.",
+            tip: "Nur 5-prozentigen Essig verwenden, das sichert die Haltbarkeit, wer es weniger süß mag, kürzt später lieber den Zucker als den Essiganteil.",
           },
           {
-            text: "Mit kochendem Sud bedecken, schließen, abkühlen. Mindestens 1 Woche im Kühlschrank ziehen. Zu Braten, Käse, Aufschnitt. Gekühlt lagern.",
-            tip: "Nachbar süß-sauer: [Buraki w occie](/de/rezepte/buraki-w-occie).",
+            text: "Die Pflaumen mit dem kochenden Sud vollständig bedecken, verschließen und abkühlen lassen. Mindestens eine Woche im Kühlschrank durchziehen lassen, dann zu Braten, Käse oder Aufschnitt servieren, danach gekühlt lagern.",
+            tip: "Ein süß-saurer Nachbar im Regal ist die [Buraki w occie](/de/rezepte/buraki-w-occie).",
           },
         ],
         seoTitle: "Śliwki w occie Rezept | Pflaumen süß-sauer | Alemniam",
         seoDescription:
-          "Śliwki w occie mit 5 %-Essig. Bilingual — Glas zu Braten, nicht Knedle, nicht Mus.",
+          "Śliwki w occie mit 5-prozentigem Essig. Bilingual, Glas zu Braten, keine Knedle, kein Mus.",
       },
       pl: {
         title: "Śliwki w occie",
         slug: "sliwki-w-occie",
         excerpt:
-          "Twarde śliwki w słodko-kwaśnej zalewie — do pieczystego. Nie powidła i nie knedle.",
+          "Twarde śliwki marynują się tutaj w korzennej słodko-kwaśnej zalewie i stają się klasycznym dodatkiem do pieczystego, a nie powidłami do smarowania ani nadzieniem do knedli.",
         steps: [
           {
-            text: "Umyj twarde śliwki, zostaw pestkę. Ułóż w czystych słoikach.",
-            tip: "Marynata — nie [knedle ze śliwkami](/pl/rezepte/knedle-sliwki). Kis vs ocet: [kiszenie](/pl/blog/kiszenie-w-domu).",
+            text: "Umyj twarde śliwki, zostaw pestkę w środku. Ułóż je w czystych słoikach.",
+            tip: "To marynata na zapas, a nie nadzienie jak w [knedlach ze śliwkami](/pl/rezepte/knedle-sliwki) i nie mus, różnicę między kiszeniem a octem wyjaśnia [poradnik o kiszeniu](/pl/blog/kiszenie-w-domu).",
           },
           {
-            text: "Zalewa: 300 ml octu 5 % + 200 ml wody + 150 g cukru, cynamon, 3 goździki. Zagotuj, 3 min.",
-            tip: "Tylko ocet 5 %. Za słodko — mniej cukru, nie mniej octu.",
+            text: "Na zalewę zagotuj 300 ml octu 5 procent, 200 ml wody i 150 g cukru z cynamonem i 3 goździkami, i gotuj 3 minuty.",
+            tip: "Używaj tylko octu 5 procent, to gwarantuje trwałość, jeśli wolisz mniej słodko, ogranicz później cukier, a nie ilość octu.",
           },
           {
-            text: "Zalej wrzątkiem, zamknij, ostudź. Min. tydzień w lodówce. Do pieczystego, serów. Przechowuj chłodno.",
-            tip: "Sąsiad: [buraki w occie](/pl/rezepte/buraki-w-occie).",
+            text: "Zalej śliwki wrzątkiem z octem, zamknij i ostudź. Trzymaj co najmniej tydzień w lodówce, zanim podasz do pieczystego albo serów, potem przechowuj chłodno.",
+            tip: "Sąsiadem o podobnym słodko-kwaśnym charakterze są [buraki w occie](/pl/rezepte/buraki-w-occie).",
           },
         ],
         seoTitle: "Śliwki w occie przepis | Marynaty | Alemniam",
         seoDescription:
-          "Śliwki w occie 5 %. Dwujęzycznie — do pieczystego, nie knedle.",
+          "Śliwki w occie, ocet 5 procent. Dwujęzycznie, do pieczystego, nie knedle.",
       },
     },
     ingredients: [
@@ -560,47 +560,47 @@ export const seedRecipesWave17: Recipe[] = [
         title: "Cebulka marynowana",
         slug: "cebulka-marynowana",
         excerpt:
-          "Silberzwiebeln oder rote Ringe in Essig — zu Hering, Aufschnitt, Grill. Nicht fermentierter Knoblauch.",
+          "Silberzwiebeln oder dicke rote Ringe ziehen hier in Essig durch und werden zur klassischen Beilage für Hering, Aufschnitt und Grill, nicht die milchsauer fermentierte Linie wie beim Knoblauch.",
         steps: [
           {
-            text: "Silberzwiebeln 2 Minuten blanchieren, pellen. Oder rote Zwiebel in dicke Ringe. In saubere Gläser.",
-            tip: "Essig, nicht Kis: [Czosnek kiszony](/de/rezepte/czosnek-kiszony) ist die Ferment-Linie. Zu Hering: [Śledź](/de/rezepte/sledz).",
+            text: "Silberzwiebeln 2 Minuten blanchieren und pellen, alternativ rote Zwiebel in dicke Ringe schneiden. In saubere Gläser schichten.",
+            tip: "Das ist Essig, kein Kis, die fermentierte Linie bleibt dem [Czosnek kiszony](/de/rezepte/czosnek-kiszony) vorbehalten, klassisch dazu passt [Śledź](/de/rezepte/sledz).",
           },
           {
-            text: "Sud: 250 ml Essig 5 % + 150 ml Wasser + 2 EL Zucker + 1 TL Salz, Pfeffer, Lorbeer, Piment. Aufkochen.",
-            tip: "Nur 5 %-Essig. Heiß aufgießen.",
+            text: "Für den Sud 250 ml Essig mit 5 Prozent Säure, 150 ml Wasser, 2 EL Zucker und 1 TL Salz mit Pfeffer, Lorbeer und Piment aufkochen.",
+            tip: "Nur 5-prozentigen Essig verwenden und ihn heiß über die Zwiebeln gießen, das sichert die Haltbarkeit.",
           },
           {
-            text: "Bedecken, schließen, 2 Tage kühlen. Zu Wurst, Hering, Grill. Gekühlt lagern, in 3–4 Wochen aufbrauchen.",
-            tip: "Nachbar: [Papryka konserwowa](/de/rezepte/papryka-konserwowa).",
+            text: "Die Zwiebeln vollständig bedecken, verschließen und 2 Tage kühl durchziehen lassen. Zu Wurst, Hering oder vom Grill servieren, gekühlt lagern und innerhalb von 3 bis 4 Wochen aufbrauchen.",
+            tip: "Im Regal daneben passt gut die [Papryka konserwowa](/de/rezepte/papryka-konserwowa).",
           },
         ],
         seoTitle: "Cebulka marynowana Rezept | Eingelegte Zwiebeln | Alemniam",
         seoDescription:
-          "Cebulka marynowana in 5 %-Essig. Bilingual — zu Hering und Grill, nicht fermentierter Knoblauch.",
+          "Cebulka marynowana in 5-prozentigem Essig. Bilingual, zu Hering und Grill, kein fermentierter Knoblauch.",
       },
       pl: {
         title: "Cebulka marynowana",
         slug: "cebulka-marynowana",
         excerpt:
-          "Cebulka perłowa lub czerwone krążki w occie — do śledzia, wędlin, grilla. Nie kiszony czosnek.",
+          "Cebulka perłowa albo grube krążki czerwonej cebuli marynują się tutaj w occie i stają się klasycznym dodatkiem do śledzia, wędlin i grilla, a nie kiszoną linią jak przy czosnku.",
         steps: [
           {
-            text: "Cebulkę 2 min blanszuj i obierz. Albo czerwoną pokrój w krążki. Do czystych słoików.",
-            tip: "Ocet, nie kis: [czosnek kiszony](/pl/rezepte/czosnek-kiszony). Do śledzia: [śledź](/pl/rezepte/sledz).",
+            text: "Cebulkę perłową blanszuj 2 minuty i obierz, albo pokrój czerwoną cebulę w grube krążki. Ułóż w czystych słoikach.",
+            tip: "To ocet, nie kis, kiszona linia zostaje przy [czosnku kiszonym](/pl/rezepte/czosnek-kiszony), klasycznie pasuje do niej [śledź](/pl/rezepte/sledz).",
           },
           {
-            text: "Zalewa: 250 ml octu 5 % + 150 ml wody + 2 łyżki cukru + 1 łyżeczka soli, pieprz, liść, ziele. Zagotuj.",
-            tip: "Tylko ocet 5 %. Zlewaj gorącą.",
+            text: "Na zalewę zagotuj 250 ml octu 5 procent, 150 ml wody, 2 łyżki cukru i 1 łyżeczkę soli z pieprzem, liściem laurowym i zielem angielskim.",
+            tip: "Używaj tylko octu 5 procent i zlewaj cebulę gorącą zalewą, to gwarantuje trwałość.",
           },
           {
-            text: "Zamknij, 2 dni w lodówce. Do kiełbasy, śledzia, grilla. Zużyj w 3–4 tygodnie z chłodu.",
-            tip: "Sąsiad: [papryka konserwowa](/pl/rezepte/papryka-konserwowa).",
+            text: "Przykryj cebulę całkowicie, zamknij i trzymaj 2 dni w lodówce, zanim podasz do kiełbasy, śledzia albo grilla. Przechowuj chłodno i zużyj w ciągu 3 do 4 tygodni.",
+            tip: "Obok dobrze komponuje się [papryka konserwowa](/pl/rezepte/papryka-konserwowa).",
           },
         ],
         seoTitle: "Cebulka marynowana przepis | Marynaty | Alemniam",
         seoDescription:
-          "Cebulka marynowana w occie 5 %. Dwujęzycznie — do śledzia, nie kiszony czosnek.",
+          "Cebulka marynowana w occie 5 procent. Dwujęzycznie, do śledzia, nie kiszony czosnek.",
       },
     },
     ingredients: [
@@ -633,47 +633,47 @@ export const seedRecipesWave17: Recipe[] = [
         title: "Kalafior w occie",
         slug: "kalafior-w-occie",
         excerpt:
-          "Blanchierter Blumenkohl mit Karotte in Essigsud — knackige Pikle. Nicht Rohkost-Surówka.",
+          "Blanchierter Blumenkohl mit Karotte zieht hier in einem Essigsud durch und wird zu knackigen Pikles, ganz anders als eine frisch geraspelte Rohkost-Surówka.",
         steps: [
           {
-            text: "Blumenkohl in Röschen, Karotte in Scheiben. 2–3 Minuten in Salzwasser blanchieren, kalt abschrecken, gut abtropfen.",
-            tip: "Essigglas — nicht [Surówka](/de/rezepte/surowka) (Rohkost). Technikunterschied: [Kiszenie](/de/blog/kiszenie-guide).",
+            text: "Blumenkohl in Röschen teilen, Karotte in Scheiben schneiden. 2 bis 3 Minuten in Salzwasser blanchieren, kalt abschrecken und gut abtropfen lassen.",
+            tip: "Das ist ein Essigglas und keine frische [Surówka](/de/rezepte/surowka), den Unterschied zwischen Essig und Ferment erklärt der [Kiszenie-Guide](/de/blog/kiszenie-guide).",
           },
           {
-            text: "Sud: 300 ml Essig 5 % + 200 ml Wasser + 2 EL Zucker + 1 TL Salz, Senfkörner, Lorbeer. Aufkochen.",
-            tip: "Nur 5 %-Essig. Gemüse muss vollständig unter dem Sud liegen.",
+            text: "Für den Sud 300 ml Essig mit 5 Prozent Säure, 200 ml Wasser, 2 EL Zucker und 1 TL Salz mit Senfkörnern und Lorbeer aufkochen.",
+            tip: "Nur 5-prozentigen Essig verwenden, das Gemüse muss dabei vollständig unter dem Sud liegen, damit es überall gleichmäßig sauer wird.",
           },
           {
-            text: "Fest in Gläser, heiß aufgießen, schließen. 3 Tage kühlen. Zu Aufschnitt und Sonntagsbraten. Gekühlt lagern.",
-            tip: "Nachbar: [Grzyby marynowane](/de/rezepte/grzyby-marynowane).",
+            text: "Fest in Gläser packen, heiß aufgießen und verschließen. 3 Tage kühl durchziehen lassen, dann zu Aufschnitt und Sonntagsbraten servieren, danach gekühlt lagern.",
+            tip: "Im Regal daneben passt gut die [Grzyby marynowane](/de/rezepte/grzyby-marynowane).",
           },
         ],
         seoTitle: "Kalafior w occie Rezept | Eingelegter Blumenkohl | Alemniam",
         seoDescription:
-          "Kalafior w occie mit Karotte, 5 %-Essig. Bilingual — Pikle, nicht Surówka. Kühl lagern.",
+          "Kalafior w occie mit Karotte, 5-prozentiger Essig. Bilingual, Pikles, keine Surówka. Kühl lagern.",
       },
       pl: {
         title: "Kalafior w occie",
         slug: "kalafior-w-occie",
         excerpt:
-          "Blanszowany kalafior z marchewką w occie — chrupiące pikle. Nie surowa surówka.",
+          "Blanszowany kalafior z marchewką marynuje się tutaj w occie i staje się chrupiącymi piklami, zupełnie inaczej niż świeżo starta surowa surówka.",
         steps: [
           {
-            text: "Kalafior na różyczki, marchew w plasterki. 2–3 min blansz, schłodź, odsącz.",
-            tip: "Słoik z octem — nie [surówka](/pl/rezepte/surowka). Kis vs ocet: [kiszenie](/pl/blog/kiszenie-w-domu).",
+            text: "Kalafior podziel na różyczki, marchew pokrój w plasterki. Blanszuj 2 do 3 minut w osolonej wodzie, schłodź w zimnej wodzie i dobrze odsącz.",
+            tip: "To słoik z octem, a nie świeża [surówka](/pl/rezepte/surowka), różnicę między octem a kiszeniem wyjaśnia [poradnik o kiszeniu](/pl/blog/kiszenie-w-domu).",
           },
           {
-            text: "Zalewa: 300 ml octu 5 % + 200 ml wody + 2 łyżki cukru + 1 łyżeczka soli, gorczyca, liść. Zagotuj.",
-            tip: "Tylko ocet 5 %. Warzywa całkowicie pod zalewą.",
+            text: "Na zalewę zagotuj 300 ml octu 5 procent, 200 ml wody, 2 łyżki cukru i 1 łyżeczkę soli z gorczycą i liściem laurowym.",
+            tip: "Używaj tylko octu 5 procent, warzywa muszą leżeć całkowicie pod zalewą, żeby zakisły równomiernie.",
           },
           {
-            text: "Do słoików, zalej gorącą, zamknij. 3 dni w lodówce. Do wędlin i pieczystego.",
-            tip: "Sąsiad: [grzyby marynowane](/pl/rezepte/grzyby-marynowane).",
+            text: "Przełóż do słoików, zalej gorącą zalewą i zamknij. Trzymaj 3 dni w lodówce, zanim podasz do wędlin i pieczystego.",
+            tip: "Obok dobrze komponuje się [grzyby marynowane](/pl/rezepte/grzyby-marynowane).",
           },
         ],
         seoTitle: "Kalafior w occie przepis | Pikle | Alemniam",
         seoDescription:
-          "Kalafior w occie z marchewką. Dwujęzycznie — nie surówka. Do lodówki.",
+          "Kalafior w occie z marchewką. Dwujęzycznie, chrupiące pikle, nie surówka. Do lodówki.",
       },
     },
     ingredients: [
@@ -706,47 +706,47 @@ export const seedRecipesWave17: Recipe[] = [
         title: "Buraki w occie",
         slug: "buraki-w-occie",
         excerpt:
-          "Gekochte Rote-Bete-Spalten im Essigglas — süß-sauer, ganz. Nicht Ćwikła, nicht warme Buraczki, nicht Barszcz.",
+          "Gekochte Rote-Bete-Spalten ziehen hier im Essigglas durch und werden süß-sauer und ganz haltbar gemacht, anders als die geriebene Ćwikła, die warmen Buraczki und der Barszcz.",
         steps: [
           {
-            text: "Rote Bete ungeputzt weich kochen (35–45 Min), abkühlen, schälen, in Spalten oder Scheiben. In saubere Gläser schichten.",
-            tip: "Glas mit Stücken — nicht geriebene [Ćwikła](/de/rezepte/cwikla), nicht warme [Buraczki](/de/rezepte/buraczki), nicht [Barszcz](/de/rezepte/barszcz-czerwony).",
+            text: "Rote Bete ungeputzt weich kochen, das dauert 35 bis 45 Minuten, dann abkühlen lassen, schälen und in Spalten oder Scheiben schneiden. In saubere Gläser schichten.",
+            tip: "Das ist ein Glas mit ganzen Stücken, keine geriebene [Ćwikła](/de/rezepte/cwikla), keine warmen [Buraczki](/de/rezepte/buraczki) und kein [Barszcz](/de/rezepte/barszcz-czerwony).",
           },
           {
-            text: "Sud: 250 ml Essig 5 % + 200 ml Kochwasser + 3 EL Zucker + 1 TL Salz, 2 Nelken, Lorbeer. Aufkochen.",
-            tip: "Nur 5 %-Essig. Ostern-Kontext: [Wielkanoc](/de/blog/wielkanoc-speiseplan).",
+            text: "Für den Sud 250 ml Essig mit 5 Prozent Säure, 200 ml vom Kochwasser der Roten Bete, 3 EL Zucker und 1 TL Salz mit 2 Nelken und Lorbeer aufkochen.",
+            tip: "Nur 5-prozentigen Essig verwenden, das sichert die Haltbarkeit, den österlichen Rahmen dazu setzt der Beitrag zu [Wielkanoc](/de/blog/wielkanoc-speiseplan).",
           },
           {
-            text: "Heiß aufgießen, schließen, 3 Tage kühlen. Zu Aufschnitt und Braten. Gekühlt lagern.",
-            tip: "Meerrettich-Relish bleibt bei Ćwikła. Nachbar: [Śliwki w occie](/de/rezepte/sliwki-w-occie).",
+            text: "Heiß aufgießen, verschließen und 3 Tage kühl durchziehen lassen. Zu Aufschnitt und Braten servieren, danach gekühlt lagern.",
+            tip: "Das scharfe Meerrettich-Relish bleibt der Ćwikła vorbehalten, ein süß-saurer Nachbar im Regal ist die [Śliwki w occie](/de/rezepte/sliwki-w-occie).",
           },
         ],
         seoTitle: "Buraki w occie Rezept | Rote Bete eingelegt | Alemniam",
         seoDescription:
-          "Buraki w occie — Spalten in 5 %-Essig. Bilingual, klar ≠ Ćwikła, ≠ Buraczki, ≠ Barszcz.",
+          "Buraki w occie, Spalten in 5-prozentigem Essig. Bilingual, klar anders als Ćwikła, Buraczki und Barszcz.",
       },
       pl: {
         title: "Buraki w occie",
         slug: "buraki-w-occie",
         excerpt:
-          "Gotowane ćwiartki buraka w słoiku z octem — słodko-kwaśne. Nie ćwikła, nie ciepłe buraczki, nie barszcz.",
+          "Gotowane ćwiartki buraka marynują się tutaj w słoiku z octem i stają się słodko-kwaśnym, trwałym dodatkiem, a nie ćwikłą, nie ciepłymi buraczkami i nie barszczem.",
         steps: [
           {
-            text: "Ugotuj buraki w skórce (35–45 min), ostudź, obierz, pokrój w ćwiartki. Do czystych słoików.",
-            tip: "Kawałki w słoiku — nie tarta [ćwikła](/pl/rezepte/cwikla), nie ciepłe [buraczki](/pl/rezepte/buraczki), nie [barszcz](/pl/rezepte/barszcz-czerwony).",
+            text: "Ugotuj buraki w skórce, to zajmuje 35 do 45 minut, ostudź, obierz i pokrój w ćwiartki. Ułóż w czystych słoikach.",
+            tip: "To słoik z całymi kawałkami, a nie tarta [ćwikła](/pl/rezepte/cwikla), nie ciepłe [buraczki](/pl/rezepte/buraczki) i nie [barszcz](/pl/rezepte/barszcz-czerwony).",
           },
           {
-            text: "Zalewa: 250 ml octu 5 % + 200 ml wywaru + 3 łyżki cukru + 1 łyżeczka soli, 2 goździki, liść. Zagotuj.",
-            tip: "Tylko ocet 5 %. Wielkanoc: [menu](/pl/blog/menu-wielkanocne).",
+            text: "Na zalewę zagotuj 250 ml octu 5 procent, 200 ml wywaru z gotowania buraków, 3 łyżki cukru i 1 łyżeczkę soli z 2 goździkami i liściem laurowym.",
+            tip: "Używaj tylko octu 5 procent, to gwarantuje trwałość, wielkanocny kontekst opisuje [menu wielkanocne](/pl/blog/menu-wielkanocne).",
           },
           {
-            text: "Zalej gorącą, zamknij, 3 dni w lodówce. Do wędlin i pieczystego.",
-            tip: "Chrzan zostaje przy ćwikle. Sąsiad: [śliwki w occie](/pl/rezepte/sliwki-w-occie).",
+            text: "Zalej gorącą zalewą, zamknij i trzymaj 3 dni w lodówce. Podawaj do wędlin i pieczystego.",
+            tip: "Ostry chrzanowy relish zostaje przy ćwikle, słodko-kwaśnym sąsiadem w regale są [śliwki w occie](/pl/rezepte/sliwki-w-occie).",
           },
         ],
         seoTitle: "Buraki w occie przepis | Marynaty | Alemniam",
         seoDescription:
-          "Buraki w occie — ćwiartki, ocet 5 %. Dwujęzycznie ≠ ćwikła, ≠ buraczki, ≠ barszcz.",
+          "Buraki w occie, ćwiartki w occie 5 procent. Dwujęzycznie, wyraźnie inne niż ćwikła, buraczki i barszcz.",
       },
     },
     ingredients: [
@@ -778,19 +778,19 @@ export const seedRecipesWave17: Recipe[] = [
         title: "Ogórki konserwowe",
         slug: "ogorki-konserwowe",
         excerpt:
-          "Gurken in klarem 5-Prozent-Essigsud mit Zwiebel und Senf. Haltbarer Vorrat, nicht der kurze Kis der Małosolne.",
+          "Gurken ziehen hier in einem klaren Essigsud mit 5 Prozent Säure, Zwiebel und Senfkörnern durch und werden zum haltbaren Vorrat, ganz anders als der nur kurz gezogene Kis der Małosolne.",
         steps: [
           {
             text: "Feste kleine Gurken waschen, Enden anschneiden. Mit Zwiebelringen, Senfkörnern, Dill und Lorbeer in saubere Gläser schichten.",
-            tip: "Das ist Essig, nicht Ferment. Die kurzen Kiszone-Geschwister bleiben bei [Ogórki małosolne](/de/rezepte/ogorki-malosolne). Lange Lake ohne Essig: [Ogórki kiszone](/de/rezepte/ogorki-kiszone).",
+            tip: "Das ist die essiggesäuerte Linie und kein Ferment, die kurz ziehenden Verwandten bleiben bei den [Ogórki małosolne](/de/rezepte/ogorki-malosolne), die lange milchsauer gegorene Lake ohne einen Tropfen Essig gehört den [Ogórki kiszone](/de/rezepte/ogorki-kiszone).",
           },
           {
             text: "Sud: 400 ml Tafelessig 5 Prozent plus 200 ml Wasser, 3 EL Zucker, 1 TL Salz. Aufkochen, 2 Minuten ziehen.",
-            tip: "Immer 5-Prozent-Essig, keinen milderen Hausessig. Technik-Unterschied erklärt der [Kiszenie-Guide](/de/blog/kiszenie-guide).",
+            tip: "Immer 5-prozentigen Essig verwenden und keinen milderen Hausessig, den grundsätzlichen Unterschied zwischen Essig und Ferment erklärt der [Kiszenie-Guide](/de/blog/kiszenie-guide).",
           },
           {
             text: "Gurken mit kochendem Sud vollständig bedecken, Gläser schließen, abkühlen. Mindestens 3 Tage im Kühlschrank ziehen lassen, dann gekühlt lagern.",
-            tip: "Nachbar-Essiggläser: [Papryka konserwowa](/de/rezepte/papryka-konserwowa), [Kalafior w occie](/de/rezepte/kalafior-w-occie). Einkauf: [Polenladen](/de/blog/polenladen-einkaufen).",
+            tip: "Im Essigregal daneben passen gut die [Papryka konserwowa](/de/rezepte/papryka-konserwowa) und der [Kalafior w occie](/de/rezepte/kalafior-w-occie), frische Gurken und guten Essig gibt es oft günstig im [Polenladen](/de/blog/polenladen-einkaufen).",
           },
         ],
         seoTitle: "Ogórki konserwowe Rezept | Essiggurken polnisch | Alemniam",
@@ -801,19 +801,19 @@ export const seedRecipesWave17: Recipe[] = [
         title: "Ogórki konserwowe",
         slug: "ogorki-konserwowe",
         excerpt:
-          "Ogórki w jasnej zalewie z octu 5 procent, cebulą i gorczycą. Zapas na dłużej, nie krótki kis małosolnych.",
+          "Ogórki marynują się tutaj w jasnej zalewie z octu 5 procent, cebulą i gorczycą, i stają się zapasem na dłużej, a nie krótkim kisem jak przy małosolnych.",
         steps: [
           {
             text: "Umyj małe twarde ogórki, przytnij końce. Ułóż w czystych słoikach z krążkami cebuli, gorczycą, koperkiem i liściem laurowym.",
-            tip: "To ocet, nie kis. Krótki kis zostaje przy [ogórkach małosolnych](/pl/rezepte/ogorki-malosolne). Długa zalewa bez octu: [ogórki kiszone](/pl/rezepte/ogorki-kiszone).",
+            tip: "To linia octowa, a nie kis, krótko kiszone ogórki zostają przy [ogórkach małosolnych](/pl/rezepte/ogorki-malosolne), a długa zalewa bez kropli octu należy do [ogórków kiszonych](/pl/rezepte/ogorki-kiszone).",
           },
           {
             text: "Zalewa: 400 ml octu 5 procent plus 200 ml wody, 3 łyżki cukru, 1 łyżeczka soli. Zagotuj, 2 minuty.",
-            tip: "Zawsze ocet 5 procent. Różnicę kis i ocet tłumaczy [kiszenie](/pl/blog/kiszenie-w-domu).",
+            tip: "Zawsze używaj octu 5 procent, a podstawową różnicę między kiszeniem i octem tłumaczy [poradnik o kiszeniu](/pl/blog/kiszenie-w-domu).",
           },
           {
             text: "Zalej wrzątkiem całkowicie, zamknij, ostudź. Min. 3 dni w lodówce, potem trzymaj chłodno.",
-            tip: "Sąsiedzi octowi: [papryka konserwowa](/pl/rezepte/papryka-konserwowa), [kalafior w occie](/pl/rezepte/kalafior-w-occie). Zakupy: [sklep polski](/pl/blog/sklep-polski-zakupy).",
+            tip: "W regale octowym dobrze pasują obok [papryka konserwowa](/pl/rezepte/papryka-konserwowa) i [kalafior w occie](/pl/rezepte/kalafior-w-occie), świeże ogórki i dobry ocet często taniej kupisz w [sklepie polskim](/pl/blog/sklep-polski-zakupy).",
           },
         ],
         seoTitle: "Ogórki konserwowe przepis | Marynaty | Alemniam",

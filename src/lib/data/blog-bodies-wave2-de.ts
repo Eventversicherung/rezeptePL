@@ -1694,27 +1694,27 @@ Keine Sieger ohne Protokoll. Später: Placki-Release, Schnitzelbräune, Reinigun
 
 ### Reicht eine beschichtete Pfanne?
 
-Für viele Haushalte ja – besonders ohne Pflegeinteresse. Gusseisen lohnt bei regelmäßigen Placki/Schabowy und Freude an Hitze/Patina. Werkzeug dem Verhalten anpassen, nicht umgekehrt. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen.
+Für viele Haushalte ja – besonders ohne Pflegeinteresse. Gusseisen lohnt bei regelmäßigen Placki/Schabowy und Freude an Hitze/Patina. Werkzeug dem Verhalten anpassen, nicht umgekehrt. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken.
 
 ### Welcher Durchmesser?
 
-26–28 cm ist vielseitig; 24 cm für Singles/kleine Herdplatten; 30 cm nur wenn tragbar und Herd groß genug. Zu voll stapeln verschlechtert Kruste. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen.
+26–28 cm ist vielseitig; 24 cm für Singles/kleine Herdplatten; 30 cm nur wenn tragbar und Herd groß genug. Zu voll stapeln verschlechtert Kruste. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken.
 
 ### Emailliert für Placki?
 
-Ja, oft unkompliziert. Etwas anderes Release-Verhalten als blankes Eisen mit Patina. Fett trotzdem nutzen. Chips in Emaille ernst nehmen. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen.
+Ja, oft unkompliziert. Etwas anderes Release-Verhalten als blankes Eisen mit Patina. Fett trotzdem nutzen. Chips in Emaille ernst nehmen. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken.
 
 ### Wie verhindern wir Ankleben?
 
-Langsam vorheizen, ausreichend Fett, Teig/Panade nicht eiskalt-nass einlegen, Geduld vor dem Wenden. Sofort auf Hochstufe knallen erzeugt Hotspots und Kleber. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen.
+Langsam vorheizen, ausreichend Fett, Teig/Panade nicht eiskalt-nass einlegen, Geduld vor dem Wenden. Sofort auf Hochstufe knallen erzeugt Hotspots und Kleber. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken.
 
 ### Darf Säure hinein?
 
-In blankem Eisen Saucen mit viel Säure nicht lange lagern; kurz kochen oft ok je nach Patina. Emaille toleranter. Herstellerhinweise lesen. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen.
+In blankem Eisen Saucen mit viel Säure nicht lange lagern; kurz kochen oft ok je nach Patina. Emaille toleranter. Herstellerhinweise lesen. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken.
 
 ### Zwei Pfannen statt einer großen?
 
-Oft ja: handlicher, bessere Hitze, paralleles Braten. Eine übergroße Pfanne überfordert viele Herdplatten und Handgelenke. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken.
+Oft ja: handlicher, bessere Hitze, paralleles Braten. Eine übergroße Pfanne überfordert viele Herdplatten und Handgelenke. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken.
 
 ## Aufheizen als Ritual
 
@@ -1801,27 +1801,27 @@ Maschine + Freezer entlasten erst zusammen. Nur kneten ohne Einfrierplan bringt 
 
 ### Brauchen wir eine Maschine für gute Pierogi?
 
-Nein. Gute Pierogi kommen aus Verhältnis, Ruhe und Naht. Die Maschine nimmt Knetarbeit ab. Sinnvoll bei regelmäßigen Batches und Wigilia-Volumen. Zuerst Technik, dann Gerät. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos.
+Nein. Gute Pierogi kommen aus Verhältnis, Ruhe und Naht. Die Maschine nimmt Knetarbeit ab. Sinnvoll bei regelmäßigen Batches und Wigilia-Volumen. Zuerst Technik, dann Gerät. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken.
 
 ### Reicht das Angebot-Gerät?
 
-Manchmal. Knethaken und Drehmoment zählen, nicht Aktionspreis. Wer schon bei Hefeteig schwächelt, scheitert an Pierogi-Teig. Garantie/Ersatzteile prüfen. Im Zweifel Hand + gute Form. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen.
+Manchmal. Knethaken und Drehmoment zählen, nicht Aktionspreis. Wer schon bei Hefeteig schwächelt, scheitert an Pierogi-Teig. Garantie/Ersatzteile prüfen. Im Zweifel Hand + gute Form. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken.
 
 ### Schüsselgröße Wigilia?
 
-Für 1–1,5 kg eher 5–6 l nutzbar oder zwei Chargen. Überfüllen schadet Motor und Gleichmäßigkeit. Speiseplan nutzen und portionsweise kneten. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen.
+Für 1–1,5 kg eher 5–6 l nutzbar oder zwei Chargen. Überfüllen schadet Motor und Gleichmäßigkeit. Speiseplan nutzen und portionsweise kneten. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken.
 
 ### Budget, Allround oder Family?
 
-Selten/klein → Budget. Regelmäßig 0,75–1 kg → Allround. Häufig große Volumina über Jahre → Family-Batch. Nutzungsfrequenz ehrlich schätzen, nicht Wunschfrequenz. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen.
+Selten/klein → Budget. Regelmäßig 0,75–1 kg → Allround. Häufig große Volumina über Jahre → Family-Batch. Nutzungsfrequenz ehrlich schätzen, nicht Wunschfrequenz. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken.
 
 ### Wie laut darf sie sein?
 
-In Mehrfamilienhäusern Rücksicht: Tageszeit, Unterlage, Dauer. Lautstärke ist Kaufkriterium, kein Luxusdetail. Wer nachts vor Wigilia knetet, plant das sozial. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen.
+In Mehrfamilienhäusern Rücksicht: Tageszeit, Unterlage, Dauer. Lautstärke ist Kaufkriterium, kein Luxusdetail. Wer nachts vor Wigilia knetet, plant das sozial. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken.
 
 ### Was nach dem Kauf zuerst?
 
-Erste Charge nach Pierogi-Teig-Guide, füllen als Ruskie oder Kraut-Pilz, Freezer testen. So validieren wir Gerät und Ablauf vor dem Festtagsstress. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken. Kriterien schlagen Fotos. Notizen helfen.
+Erste Charge nach Pierogi-Teig-Guide, füllen als Ruskie oder Kraut-Pilz, Freezer testen. So validieren wir Gerät und Ablauf vor dem Festtagsstress. Kriterien schlagen Fotos. Notizen helfen. Pflege und Gewicht mitdenken.
 
 ## Drehmoment ohne Watt-Glaube
 
