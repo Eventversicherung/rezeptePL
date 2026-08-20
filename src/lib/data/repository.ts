@@ -14,11 +14,7 @@ import type {
   ShoppingList,
   ShoppingListItem,
 } from "@/types/content";
-import { filterCatalogByQuery, searchRecipeHits } from "@/lib/search/recipe-search";
-import {
-  SEARCH_RESULT_LIMIT,
-  type SearchHit,
-} from "@/lib/search/types";
+import { filterCatalogByQuery } from "@/lib/search/recipe-search";
 import { isSupabaseConfigured } from "@/lib/supabase/env";
 import { isSupabaseContent } from "./source";
 import { readStore, updateStore, type AppStore } from "./store";
@@ -203,25 +199,6 @@ export async function listRecipeCatalog(
   return filterCatalogByQuery(items, clusters, locale, query);
 }
 
-export async function searchRecipeSuggestions(
-  locale: Locale,
-  query: string,
-  limit = SEARCH_RESULT_LIMIT,
-): Promise<SearchHit[]> {
-  const [recipes, families, clusters] = await Promise.all([
-    listPublishedRecipes(),
-    listFamilies(),
-    listClusters(),
-  ]);
-  return searchRecipeHits(
-    buildRecipeCatalog(recipes, families),
-    clusters,
-    locale,
-    query,
-    limit,
-  );
-}
-
 export async function listPublishedBlogPosts(): Promise<BlogPost[]> {
   const store = await readContentStore();
   return (store.blogPosts ?? [])
@@ -370,23 +347,13 @@ export async function searchRecipes(
   locale: Locale,
   query: string,
 ): Promise<Recipe[]> {
-  const [recipes, families, clusters] = await Promise.all([
-    listPublishedRecipes(),
-    listFamilies(),
-    listClusters(),
-  ]);
-  if (!query.trim()) return recipes;
-  const hits = searchRecipeHits(
-    buildRecipeCatalog(recipes, families),
-    clusters,
-    locale,
-    query,
-    recipes.length,
-  );
-  const byId = new Map(recipes.map((recipe) => [recipe.id, recipe]));
-  return hits
-    .map((hit) => byId.get(hit.id))
-    .filter((recipe): recipe is Recipe => Boolean(recipe));
+  const catalog = await listRecipeCatalog(locale, query);
+  const recipes: Recipe[] = [];
+  for (const item of catalog) {
+    if (item.kind === "recipe") recipes.push(item.recipe);
+    else recipes.push(item.defaultRecipe);
+  }
+  return recipes;
 }
 
 export async function saveRecipe(recipe: Recipe): Promise<Recipe> {
