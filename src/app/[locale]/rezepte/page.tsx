@@ -34,12 +34,14 @@ export default async function RecipesPage({
     ? categories.find((c) => c.slug[locale] === kat) ?? null
     : null;
 
-  const allItems = await listRecipeCatalog(locale, q);
+  const catalog = await listRecipeCatalog(locale);
   const items = activeCategory
     ? await catalogForCluster(activeCategory.id, locale).then((rows) =>
         q.trim() ? filterCatalogByQuery(rows, allClusters, locale, q) : rows,
       )
-    : allItems;
+    : q.trim()
+      ? filterCatalogByQuery(catalog, allClusters, locale, q)
+      : catalog;
 
   const schnellCategory =
     categories.find((c) => c.id === "category-schnell") ?? null;

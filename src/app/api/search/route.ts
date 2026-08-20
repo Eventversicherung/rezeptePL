@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { searchRecipeSuggestions } from "@/lib/data/repository";
+import { searchRecipeSuggestions } from "@/lib/search/suggestions";
 import {
   SEARCH_QUERY_MAX,
   SEARCH_RESULT_LIMIT,
