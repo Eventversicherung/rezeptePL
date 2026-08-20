@@ -150,10 +150,7 @@ begin
     new.id,
     coalesce(new.email, ''),
     coalesce(split_part(new.email, '@', 1), 'User'),
-    case
-      when coalesce(new.raw_app_meta_data->>'role', '') = 'admin' then 'admin'::public.user_role
-      else 'user'::public.user_role
-    end
+    'user'::public.user_role
   );
   return new;
 end;
