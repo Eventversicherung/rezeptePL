@@ -33,6 +33,12 @@ import { SearchHitRow } from "./SearchHitRow";
 
 type Variant = "header" | "hub";
 
+const CLOSE_INLINE_SEARCH = "alemniam:close-inline-search";
+
+function closeOtherSearchPanels() {
+  window.dispatchEvent(new Event(CLOSE_INLINE_SEARCH));
+}
+
 export function RecipeSearch({
   locale,
   variant,
@@ -59,6 +65,11 @@ export function RecipeSearch({
   const [dialogOpen, setDialogOpen] = useState(false);
   const [loading, setLoading] = useState(false);
   const [activeIndex, setActiveIndex] = useState(0);
+  const dialogOpenRef = useRef(false);
+
+  useEffect(() => {
+    dialogOpenRef.current = dialogOpen;
+  }, [dialogOpen]);
 
   const goToIndex = useCallback(
     (value: string) => {
@@ -120,6 +131,7 @@ export function RecipeSearch({
 
   useEffect(() => {
     function onPointerDown(event: PointerEvent) {
+      if (dialogOpenRef.current) return;
       if (!rootRef.current?.contains(event.target as Node)) {
         setOpen(false);
       }
@@ -129,30 +141,46 @@ export function RecipeSearch({
   }, []);
 
   useEffect(() => {
+    function onCloseInline() {
+      setOpen(false);
+      desktopInputRef.current?.blur();
+    }
+    window.addEventListener(CLOSE_INLINE_SEARCH, onCloseInline);
+    return () => window.removeEventListener(CLOSE_INLINE_SEARCH, onCloseInline);
+  }, []);
+
+  const openDialog = useCallback(() => {
+    setOpen(false);
+    desktopInputRef.current?.blur();
+    closeOtherSearchPanels();
+    setDialogOpen(true);
+  }, []);
+
+  useEffect(() => {
     if (variant !== "header") return;
     function onKey(event: KeyboardEvent) {
       if ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === "k") {
         event.preventDefault();
-        setDialogOpen(true);
+        event.stopPropagation();
+        openDialog();
       }
     }
     document.addEventListener("keydown", onKey);
     return () => document.removeEventListener("keydown", onKey);
-  }, [variant]);
+  }, [openDialog, variant]);
 
   useEffect(() => {
-    if (dialogOpen) {
-      const frame = window.requestAnimationFrame(() => {
-        dialogInputRef.current?.focus();
-      });
-      return () => window.cancelAnimationFrame(frame);
-    }
+    if (!dialogOpen) return;
+    const frame = window.requestAnimationFrame(() => {
+      dialogInputRef.current?.focus();
+    });
+    return () => window.cancelAnimationFrame(frame);
   }, [dialogOpen]);
 
   function onChange(value: string) {
     const next = value.slice(0, SEARCH_QUERY_MAX);
     setQuery(next);
-    setOpen(true);
+    if (!dialogOpenRef.current) setOpen(true);
     if (next.trim().length < 2) {
       setHits([]);
       setLoading(false);
@@ -167,7 +195,7 @@ export function RecipeSearch({
     }
     if (event.key === "ArrowDown") {
       event.preventDefault();
-      setOpen(true);
+      if (!dialogOpenRef.current) setOpen(true);
       setActiveIndex((i) => Math.min(i + 1, Math.max(hits.length - 1, 0)));
       return;
     }
@@ -177,15 +205,15 @@ export function RecipeSearch({
       return;
     }
     if (event.key === "Enter") {
-      if (open && hits[activeIndex]) {
+      if ((dialogOpenRef.current || open) && hits[activeIndex]) {
         event.preventDefault();
         goToHit(hits[activeIndex]);
       }
     }
   }
 
-  const showPanel = open && query.trim().length >= 2;
-  const showEmpty = showPanel && !loading && hits.length === 0;
+  const showPanel = open && !dialogOpen && query.trim().length >= 2;
+  const showEmpty = query.trim().length >= 2 && !loading && hits.length === 0;
 
   const results = (
     <Command shouldFilter={false} className="recipe-search__command">
@@ -199,7 +227,7 @@ export function RecipeSearch({
           </CommandEmpty>
         ) : null}
         {hits.length > 0 ? (
-          <CommandGroup heading={t("recipes")} className="recipe-search__group">
+          <CommandGroup className="recipe-search__group">
             {hits.map((hit, index) => (
               <CommandItem
                 key={hit.id}
@@ -239,7 +267,7 @@ export function RecipeSearch({
           size="icon"
           className="recipe-search__icon-btn lg:hidden"
           aria-label={t("open")}
-          onClick={() => setDialogOpen(true)}
+          onClick={openDialog}
         >
           <SearchIcon />
         </Button>
@@ -278,7 +306,11 @@ export function RecipeSearch({
             aria-autocomplete="list"
             className="recipe-search__input recipe-search__input--header"
             onChange={(event) => onChange(event.target.value)}
-            onFocus={() => query.trim().length >= 2 && setOpen(true)}
+            onFocus={() => {
+              if (!dialogOpenRef.current && query.trim().length >= 2) {
+                setOpen(true);
+              }
+            }}
             onKeyDown={onKeyDown}
           />
           {query ? (
@@ -303,10 +335,20 @@ export function RecipeSearch({
           <div className="recipe-search__dropdown hidden lg:block">{results}</div>
         ) : null}
 
-        <Dialog open={dialogOpen} onOpenChange={setDialogOpen}>
+        <Dialog
+          open={dialogOpen}
+          onOpenChange={(next) => {
+            setDialogOpen(next);
+            if (next) {
+              setOpen(false);
+              closeOtherSearchPanels();
+            }
+          }}
+        >
           <DialogContent
             showCloseButton
-            className="recipe-search__dialog top-5 translate-y-0 sm:max-w-lg"
+            overlayClassName="recipe-search__overlay"
+            className="recipe-search__dialog top-[12vh] translate-y-0 sm:max-w-lg"
           >
             <DialogHeader className="sr-only">
               <DialogTitle>{t("open")}</DialogTitle>

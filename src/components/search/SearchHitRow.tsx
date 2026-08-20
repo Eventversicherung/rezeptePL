@@ -44,9 +44,10 @@ export function SearchHitRow({
       <span className="recipe-search__copy">
         <span className="recipe-search__title">{hit.title}</span>
         <span className="recipe-search__meta">
-          {matchLabel}
-          <span aria-hidden> · </span>
-          {t("minutes", { count: hit.minutes })}
+          <span>{matchLabel}</span>
+          <span className="recipe-search__time">
+            {t("minutes", { count: hit.minutes })}
+          </span>
         </span>
       </span>
     </span>
