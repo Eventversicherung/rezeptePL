@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Epilogue, Figtree } from "next/font/google";
+import { siteUrl } from "@/lib/utils";
 import "./globals.css";
 
 const epilogue = Epilogue({
@@ -21,9 +22,7 @@ export const metadata: Metadata = {
   },
   description:
     "Polnische Rezepte zum Kochen und Einkaufen. Bilingual DE/PL.",
-  metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000",
-  ),
+  metadataBase: new URL(siteUrl()),
 };
 
 export default function RootLayout({

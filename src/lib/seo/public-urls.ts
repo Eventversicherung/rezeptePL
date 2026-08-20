@@ -1,0 +1,165 @@
+import type { MetadataRoute } from "next";
+import {
+  catalogForCluster,
+  getFamilyById,
+  getFamilyVariants,
+  listClusters,
+  listFamilies,
+  listPublishedBlogPosts,
+  listPublishedRecipes,
+} from "@/lib/data/repository";
+import { clusterBasePath } from "@/lib/data/cluster-paths";
+import { familyVariantPath } from "@/lib/data/recipe-paths";
+import { isClusterIndexable } from "@/lib/seo/cluster-indexable";
+import { siteUrl } from "@/lib/utils";
+import type { Locale, Recipe } from "@/types/content";
+
+const LOCALES: Locale[] = ["de", "pl"];
+
+/** Same entries as /sitemap.xml — single source for IndexNow. */
+export async function listSitemapEntries(): Promise<MetadataRoute.Sitemap> {
+  const base = siteUrl();
+  const recipes = await listPublishedRecipes();
+  const families = await listFamilies();
+  const clusters = await listClusters();
+  const posts = await listPublishedBlogPosts();
+
+  const staticEntries = LOCALES.flatMap((locale) => [
+    {
+      url: `${base}/${locale}`,
+      changeFrequency: "weekly" as const,
+      priority: 1,
+    },
+    {
+      url: `${base}/${locale}/rezepte`,
+      changeFrequency: "daily" as const,
+      priority: 0.9,
+    },
+    {
+      url: `${base}/${locale}/blog`,
+      changeFrequency: "weekly" as const,
+      priority: 0.85,
+    },
+    {
+      url: `${base}/${locale}/markt-finden`,
+      changeFrequency: "weekly" as const,
+      priority: 0.8,
+    },
+  ]);
+
+  const standalone = recipes.filter((r) => !r.familyId);
+  const recipeEntries = LOCALES.flatMap((locale) =>
+    standalone
+      .filter((recipe) => recipe.translations[locale]?.slug)
+      .map((recipe) => ({
+        url: `${base}/${locale}/rezepte/${recipe.translations[locale].slug}`,
+        lastModified: recipe.updatedAt,
+        changeFrequency: "weekly" as const,
+        priority: 0.8,
+        alternates: {
+          languages: {
+            de: `${base}/de/rezepte/${recipe.translations.de.slug}`,
+            pl: `${base}/pl/rezepte/${recipe.translations.pl.slug}`,
+          },
+        },
+      })),
+  );
+
+  const variantEntries: MetadataRoute.Sitemap = [];
+  for (const family of families) {
+    const variants = await getFamilyVariants(family.id);
+    for (const recipe of variants) {
+      for (const locale of LOCALES) {
+        if (!family.translations[locale]?.slug) continue;
+        if (!recipe.translations[locale]?.slug) continue;
+        const path = familyVariantPath(family, recipe, locale);
+        variantEntries.push({
+          url: `${base}/${locale}${path}`,
+          lastModified: recipe.updatedAt,
+          changeFrequency: "weekly",
+          priority: 0.85,
+          alternates: {
+            languages: {
+              de: `${base}/de${familyVariantPath(family, recipe, "de")}`,
+              pl: `${base}/pl${familyVariantPath(family, recipe, "pl")}`,
+            },
+          },
+        });
+      }
+    }
+  }
+
+  const blogEntries = LOCALES.flatMap((locale) =>
+    posts
+      .filter((post) => post.translations[locale]?.slug)
+      .map((post) => ({
+        url: `${base}/${locale}/blog/${post.translations[locale].slug}`,
+        lastModified: post.updatedAt,
+        changeFrequency: "weekly" as const,
+        priority: 0.75,
+        alternates: {
+          languages: {
+            de: `${base}/de/blog/${post.translations.de.slug}`,
+            pl: `${base}/pl/blog/${post.translations.pl.slug}`,
+          },
+        },
+      })),
+  );
+
+  const clusterEntries: MetadataRoute.Sitemap = [];
+  for (const locale of LOCALES) {
+    for (const cluster of clusters) {
+      const items = await catalogForCluster(cluster.id, locale);
+      if (!isClusterIndexable(cluster, locale, items.length)) continue;
+      const path = clusterBasePath(cluster.kind);
+      clusterEntries.push({
+        url: `${base}/${locale}/${path}/${cluster.slug[locale]}`,
+        changeFrequency: "monthly",
+        priority: cluster.kind === "category" ? 0.75 : 0.7,
+        alternates: {
+          languages: {
+            de: `${base}/de/${path}/${cluster.slug.de}`,
+            pl: `${base}/pl/${path}/${cluster.slug.pl}`,
+          },
+        },
+      });
+    }
+  }
+
+  return [
+    ...staticEntries,
+    ...recipeEntries,
+    ...variantEntries,
+    ...blogEntries,
+    ...clusterEntries,
+  ];
+}
+
+export async function listPublicPageUrls(): Promise<string[]> {
+  const entries = await listSitemapEntries();
+  return [...new Set(entries.map((entry) => entry.url))];
+}
+
+export async function publicUrlsForRecipe(recipe: Recipe): Promise<string[]> {
+  if (recipe.status !== "published") return [];
+  const base = siteUrl();
+  const urls: string[] = [];
+
+  if (recipe.familyId) {
+    const family = await getFamilyById(recipe.familyId);
+    if (!family) return [];
+    for (const locale of LOCALES) {
+      if (!family.translations[locale]?.slug) continue;
+      if (!recipe.translations[locale]?.slug) continue;
+      urls.push(`${base}/${locale}${familyVariantPath(family, recipe, locale)}`);
+    }
+    return urls;
+  }
+
+  for (const locale of LOCALES) {
+    const slug = recipe.translations[locale]?.slug;
+    if (!slug) continue;
+    urls.push(`${base}/${locale}/rezepte/${slug}`);
+  }
+  return urls;
+}

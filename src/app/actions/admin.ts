@@ -10,6 +10,12 @@ import {
   setRecipeStatus,
   getRecipeById,
 } from "@/lib/data/repository";
+import {
+  notifyIndexNowAfterResponse,
+  submitAllPublicUrlsToIndexNow,
+} from "@/lib/seo/indexnow";
+import type { IndexNowResult } from "@/lib/seo/indexnow-types";
+import { publicUrlsForRecipe } from "@/lib/seo/public-urls";
 import type { Locale, Recipe, RecipeStatus } from "@/types/content";
 
 export async function createDraftAction(locale: string) {
@@ -82,6 +88,9 @@ export async function saveRecipeAction(formData: FormData) {
   };
 
   await saveRecipe(next);
+  if (next.status === "published") {
+    notifyIndexNowAfterResponse(await publicUrlsForRecipe(next));
+  }
   revalidatePath("/[locale]/admin", "layout");
   revalidatePath("/[locale]/rezepte", "layout");
   redirect(`/${String(formData.get("uiLocale") ?? "de")}/admin/rezepte/${id}`);
@@ -93,8 +102,26 @@ export async function setStatusAction(formData: FormData) {
   const status = String(formData.get("status")) as RecipeStatus;
   const locale = String(formData.get("locale") ?? "de");
   await setRecipeStatus(id, status);
+  if (status === "published") {
+    const recipe = await getRecipeById(id);
+    if (recipe) {
+      notifyIndexNowAfterResponse(await publicUrlsForRecipe(recipe));
+    }
+  }
   revalidatePath("/[locale]/rezepte", "layout");
   redirect(`/${locale}/admin`);
+}
+
+export async function submitIndexNowAction(
+  previousResult: IndexNowResult | null,
+): Promise<IndexNowResult> {
+  void previousResult;
+  try {
+    await requireAdmin();
+  } catch {
+    return { ok: false, host: "", submitted: 0, error: "Unauthorized" };
+  }
+  return submitAllPublicUrlsToIndexNow();
 }
 
 export async function moderateAction(formData: FormData) {

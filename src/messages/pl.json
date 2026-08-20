@@ -182,7 +182,16 @@
     "missingTranslation": "Brak tłumaczenia",
     "pending": "Oczekujące",
     "approve": "Zatwierdź",
-    "reject": "Odrzuć"
+    "reject": "Odrzuć",
+    "indexNowTitle": "IndexNow",
+    "indexNowHelp": "Wysyła wszystkie opublikowane strony (przepisy, blog, klastry) do Bing, Yandex i innych partnerów IndexNow. Kliknij raz po wdrożeniu — nowe publikacje zgłaszają się potem same.",
+    "indexNowSubmit": "Wyślij strony teraz",
+    "indexNowPending": "Wysyłanie…",
+    "indexNowSuccess": "Wysłano {count} URL-i na {host} (HTTP {status}).",
+    "indexNowLocal": "IndexNow jest wyłączony lokalnie i na preview Vercel. W produkcji wysyłamy na www.alemniam.de.",
+    "indexNowEmpty": "Brak publicznych URL-i do wysłania.",
+    "indexNowKeyMissing": "Brak lub nieprawidłowy klucz IndexNow.",
+    "indexNowError": "Wysyłanie nie powiodło się: {error}"
   },
   "clusters": {
     "regions": "Regiony",

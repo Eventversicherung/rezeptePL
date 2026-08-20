@@ -182,7 +182,16 @@
     "missingTranslation": "Übersetzung fehlt",
     "pending": "Wartend",
     "approve": "Freigeben",
-    "reject": "Ablehnen"
+    "reject": "Ablehnen",
+    "indexNowTitle": "IndexNow",
+    "indexNowHelp": "Meldet alle veröffentlichten Seiten (Rezepte, Blog, Cluster) an Bing, Yandex und weitere IndexNow-Partner. Einmal nach dem Deploy klicken — neue Veröffentlichungen werden danach automatisch gemeldet.",
+    "indexNowSubmit": "Beiträge jetzt anstoßen",
+    "indexNowPending": "Wird gesendet…",
+    "indexNowSuccess": "{count} URLs an {host} gemeldet (HTTP {status}).",
+    "indexNowLocal": "IndexNow ist lokal und auf Vercel-Preview deaktiviert. In Produktion mit Host www.alemniam.de senden.",
+    "indexNowEmpty": "Keine öffentlichen URLs zum Senden gefunden.",
+    "indexNowKeyMissing": "IndexNow-Key fehlt oder ist ungültig.",
+    "indexNowError": "Senden fehlgeschlagen: {error}"
   },
   "clusters": {
     "regions": "Regionen",

@@ -2,6 +2,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { redirect } from "next/navigation";
 import { Link } from "@/i18n/navigation";
 import { createDraftAction, setStatusAction } from "@/app/actions/admin";
+import { IndexNowPanel } from "@/components/admin/IndexNowPanel";
 import { getSessionUser } from "@/lib/auth/session";
 import { listAllRecipes } from "@/lib/data/repository";
 import type { Locale } from "@/types/content";
@@ -46,6 +47,8 @@ export default async function AdminPage({
           </form>
         </div>
       </div>
+
+      <IndexNowPanel />
 
       <ul className="divide-y divide-border border-y border-border">
         {recipes.map((recipe) => {
