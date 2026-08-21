@@ -96,6 +96,18 @@ export async function listSitemapGroups(): Promise<SitemapGroups> {
         de: marktDe,
         pl: marktPl,
       }),
+      entry(`${base}/${locale}/impressum`, {
+        changeFrequency: "yearly",
+        priority: 0.2,
+        de: `${base}/de/impressum`,
+        pl: `${base}/pl/impressum`,
+      }),
+      entry(`${base}/${locale}/datenschutz`, {
+        changeFrequency: "yearly",
+        priority: 0.2,
+        de: `${base}/de/datenschutz`,
+        pl: `${base}/pl/datenschutz`,
+      }),
     ];
   });
 
