@@ -1,4 +1,11 @@
+import type { Metadata } from "next";
 import { setRequestLocale } from "next-intl/server";
+import { noIndexFollow } from "@/lib/seo/alternates";
+
+export const metadata: Metadata = {
+  title: "Datenschutz",
+  robots: noIndexFollow,
+};
 
 export default async function PrivacyPage({
   params,

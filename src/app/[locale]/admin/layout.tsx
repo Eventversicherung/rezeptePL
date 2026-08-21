@@ -3,6 +3,9 @@ import { redirect } from "next/navigation";
 import { setRequestLocale } from "next-intl/server";
 import { AdminShell } from "@/components/admin/AdminShell";
 import { getSessionUser, isStaff } from "@/lib/auth/session";
+import { privatePageMetadata } from "@/lib/seo/alternates";
+
+export const metadata = privatePageMetadata;
 
 async function AdminGate({
   locale,

@@ -21,6 +21,8 @@
     "accountMenu": "Konto-Menü"
   },
   "home": {
+    "seoTitle": "Polnische Rezepte zum Kochen und Einkaufen",
+    "seoDescription": "Authentische polnische Rezepte — klar geschrieben, alltagstauglich, auf Deutsch und Polnisch. Vom Polenladen bis zum Teller.",
     "headline": "Kochen wie zu Hause",
     "sub": "Authentische polnische Rezepte. Zum Einkaufen und Kochen, in einer App.",
     "cta": "Rezepte entdecken",
@@ -46,6 +48,8 @@
   },
   "recipes": {
     "title": "Rezepte",
+    "seoTitle": "Polnische Rezepte",
+    "seoDescription": "Alle Gerichte im Alemniam-Kochbuch: Kategorien, Klassiker und Alltagsküche zum Nachkochen — auf Deutsch und Polnisch.",
     "sub": "Zuerst Kategorie wählen — oder weiter unten gezielt suchen.",
     "search": "Gericht, Zutat oder Name…",
     "searchKicker": "Suche",
@@ -102,6 +106,8 @@
   },
   "blog": {
     "title": "Blog",
+    "seoTitle": "Blog",
+    "seoDescription": "Guides, Zutaten, Tradition und Kaufberater zur polnischen Küche — vernetzt mit den Rezepten.",
     "sub": "Guides, Zutaten, Tradition und Kaufberater — vernetzt mit den Rezepten.",
     "topicsLabel": "Themen",
     "browseByTopic": "Wonach suchst du?",

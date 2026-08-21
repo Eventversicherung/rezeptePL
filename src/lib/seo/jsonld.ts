@@ -1,9 +1,8 @@
 import type { BlogPost, Locale, Recipe } from "@/types/content";
-import { siteUrl } from "@/lib/utils";
+import { absoluteUrl, siteUrl } from "@/lib/utils";
 
 function absoluteMediaUrl(src: string) {
-  if (src.startsWith("http://") || src.startsWith("https://")) return src;
-  return `${siteUrl()}${src.startsWith("/") ? src : `/${src}`}`;
+  return absoluteUrl(src);
 }
 
 function organizationJsonLd() {
@@ -125,6 +124,28 @@ export function blogPostingJsonLd(
     mainEntityOfPage: {
       "@type": "WebPage",
       "@id": url,
+    },
+  };
+}
+
+export function websiteJsonLd(locale: Locale) {
+  const base = siteUrl();
+  const home = `${base}/${locale}`;
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "Alemniam",
+    alternateName: ["Alemniam Kochbuch", "Alemniam przepisy"],
+    url: home,
+    inLanguage: locale,
+    publisher: organizationJsonLd(),
+    potentialAction: {
+      "@type": "SearchAction",
+      target: {
+        "@type": "EntryPoint",
+        urlTemplate: `${base}/${locale}/rezepte?q={search_term_string}`,
+      },
+      "query-input": "required name=search_term_string",
     },
   };
 }

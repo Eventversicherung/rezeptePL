@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { PlacesFinder } from "@/components/places/PlacesFinder";
 import { listPublishedPlaces } from "@/lib/data/places";
+import { localeLanguages } from "@/lib/seo/alternates";
 import { siteUrl } from "@/lib/utils";
 import type { Locale } from "@/types/content";
 
@@ -15,15 +16,14 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: "places" });
   const base = siteUrl();
   return {
-    title: `${t("title")} | Alemniam`,
+    title: t("title"),
     description: t("seoDescription"),
     alternates: {
       canonical: `${base}/${locale}/markt-finden`,
-      languages: {
-        de: `${base}/de/markt-finden`,
-        pl: `${base}/pl/markt-finden`,
-        "x-default": `${base}/de/markt-finden`,
-      },
+      languages: localeLanguages(
+        `${base}/de/markt-finden`,
+        `${base}/pl/markt-finden`,
+      ),
     },
   };
 }

@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
@@ -6,7 +7,38 @@ import { RecipeCatalogCard } from "@/components/recipe/RecipeCatalogCard";
 import { RecipeCategoryTiles } from "@/components/recipe/RecipeCategoryTiles";
 import { RecipeGridControls } from "@/components/recipe/RecipeGridControls";
 import { listClusters, listRecipeCatalog } from "@/lib/data/repository";
+import { localeLanguages } from "@/lib/seo/alternates";
+import { websiteJsonLd } from "@/lib/seo/jsonld";
+import { siteUrl } from "@/lib/utils";
 import type { Locale } from "@/types/content";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale: localeParam } = await params;
+  const locale = localeParam as Locale;
+  const t = await getTranslations({ locale, namespace: "home" });
+  const base = siteUrl();
+  const title = t("seoTitle");
+  const description = t("seoDescription");
+  return {
+    title,
+    description,
+    alternates: {
+      canonical: `${base}/${locale}`,
+      languages: localeLanguages(`${base}/de`, `${base}/pl`),
+    },
+    openGraph: {
+      title,
+      description,
+      url: `${base}/${locale}`,
+      locale: locale === "pl" ? "pl_PL" : "de_DE",
+      alternateLocale: [locale === "pl" ? "de_DE" : "pl_PL"],
+    },
+  };
+}
 
 export default async function HomePage({
   params,
@@ -31,6 +63,12 @@ export default async function HomePage({
 
   return (
     <div className="space-y-12 sm:space-y-16">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(websiteJsonLd(locale)),
+        }}
+      />
       {/* 1 — Cookbook hero (landing) */}
       <section className="hero-full relative -mt-6 md:-mt-8">
         <div className="hero-full__media" aria-hidden>

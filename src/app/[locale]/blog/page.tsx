@@ -6,31 +6,31 @@ import { BlogTopicTiles } from "@/components/blog/BlogTopicTiles";
 import { RecipeGridControls } from "@/components/recipe/RecipeGridControls";
 import { Link } from "@/i18n/navigation";
 import { listPublishedBlogPosts } from "@/lib/data/repository";
+import { localeLanguages, noIndexFollow } from "@/lib/seo/alternates";
 import { siteUrl } from "@/lib/utils";
 import type { BlogPostType, Locale } from "@/types/content";
 
 export async function generateMetadata({
   params,
+  searchParams,
 }: {
   params: Promise<{ locale: string }>;
+  searchParams: Promise<{ typ?: string; q?: string }>;
 }): Promise<Metadata> {
   const { locale: localeParam } = await params;
+  const { typ, q = "" } = await searchParams;
   const locale = localeParam as Locale;
+  const t = await getTranslations({ locale, namespace: "blog" });
   const base = siteUrl();
+  const filtered = Boolean(q.trim() || typ);
   return {
-    title: locale === "de" ? "Blog | Alemniam" : "Blog | Alemniam",
-    description:
-      locale === "de"
-        ? "Guides, Zutaten, Tradition und Kaufberater zur polnischen Küche."
-        : "Poradniki, składniki, tradycja i sprzęt do polskiej kuchni.",
+    title: t("seoTitle"),
+    description: t("seoDescription"),
     alternates: {
       canonical: `${base}/${locale}/blog`,
-      languages: {
-        de: `${base}/de/blog`,
-        pl: `${base}/pl/blog`,
-        "x-default": `${base}/de/blog`,
-      },
+      languages: localeLanguages(`${base}/de/blog`, `${base}/pl/blog`),
     },
+    robots: filtered ? noIndexFollow : { index: true, follow: true },
   };
 }
 

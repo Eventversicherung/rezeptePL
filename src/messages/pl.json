@@ -21,6 +21,8 @@
     "accountMenu": "Menu konta"
   },
   "home": {
+    "seoTitle": "Polskie przepisy do gotowania i zakupów",
+    "seoDescription": "Autentyczne polskie przepisy — jasno napisane, na co dzień, po niemiecku i polsku. Od sklepu polskiego do talerza.",
     "headline": "Gotuj jak w domu",
     "sub": "Autentyczne polskie przepisy. Na zakupy i gotowanie, w jednej aplikacji.",
     "cta": "Odkryj przepisy",
@@ -46,6 +48,8 @@
   },
   "recipes": {
     "title": "Przepisy",
+    "seoTitle": "Polskie przepisy",
+    "seoDescription": "Wszystkie dania w książce kucharskiej Alemniam: kategorie, klasyki i kuchnia codzienna — po niemiecku i polsku.",
     "sub": "Najpierw kategoria — albo niżej wyszukaj konkretnie.",
     "search": "Danie, składnik lub nazwa…",
     "searchKicker": "Szukaj",
@@ -102,6 +106,8 @@
   },
   "blog": {
     "title": "Blog",
+    "seoTitle": "Blog",
+    "seoDescription": "Poradniki, składniki, tradycja i sprzęt do polskiej kuchni — połączone z przepisami.",
     "sub": "Poradniki, składniki, tradycja i sprzęt — połączone z przepisami.",
     "topicsLabel": "Tematy",
     "browseByTopic": "Czego szukasz?",

@@ -9,6 +9,7 @@ import {
   catalogForCluster,
   resolveClusterBySlug,
 } from "@/lib/data/repository";
+import { localeLanguages } from "@/lib/seo/alternates";
 import { isClusterIndexable } from "@/lib/seo/cluster-indexable";
 import { siteUrl } from "@/lib/utils";
 import type { ClusterKind, Locale } from "@/types/content";
@@ -32,10 +33,10 @@ export async function clusterMetadata(
     description: cluster.seoDescription[locale],
     alternates: {
       canonical: `${base}/${locale}/${path}/${cluster.slug[locale]}`,
-      languages: {
-        de: `${base}/de/${path}/${cluster.slug.de}`,
-        pl: `${base}/pl/${path}/${cluster.slug.pl}`,
-      },
+      languages: localeLanguages(
+        `${base}/de/${path}/${cluster.slug.de}`,
+        `${base}/pl/${path}/${cluster.slug.pl}`,
+      ),
     },
     robots: indexable
       ? { index: true, follow: true }

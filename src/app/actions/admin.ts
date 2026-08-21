@@ -97,6 +97,7 @@ export async function saveRecipeAction(formData: FormData) {
   if (next.status === "published") {
     notifyIndexNowAfterResponse(await publicUrlsForRecipe(next));
   }
+  revalidatePath("/sitemap.xml");
   revalidatePath("/[locale]/admin", "layout");
   revalidatePath("/[locale]/rezepte", "layout");
   redirect(`/${String(formData.get("uiLocale") ?? "de")}/admin/rezepte/${id}`);
@@ -115,6 +116,7 @@ export async function setStatusAction(formData: FormData) {
       notifyIndexNowAfterResponse(await publicUrlsForRecipe(recipe));
     }
   }
+  revalidatePath("/sitemap.xml");
   revalidatePath("/[locale]/rezepte", "layout");
   redirect(`/${locale}/admin`);
 }
@@ -137,6 +139,7 @@ export async function moderateAction(formData: FormData) {
   const decision = String(formData.get("decision")) as "approved" | "rejected";
   const locale = String(formData.get("locale") ?? "de");
   await moderateSubmission(id, decision);
+  revalidatePath("/sitemap.xml");
   revalidatePath("/[locale]/admin/moderation", "page");
   revalidatePath("/[locale]/rezepte", "layout");
   redirect(`/${locale}/admin/moderation`);
@@ -185,6 +188,7 @@ export async function saveBlogPostAction(formData: FormData) {
 
   await saveBlogPost(next);
   invalidateContentCache();
+  revalidatePath("/sitemap.xml");
   revalidatePath("/[locale]/admin", "layout");
   revalidatePath("/[locale]/blog", "layout");
   redirect(`/${String(formData.get("uiLocale") ?? "de")}/admin/blog/${id}`);

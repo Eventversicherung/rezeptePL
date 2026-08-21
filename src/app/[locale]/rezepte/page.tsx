@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { RecipeSearch } from "@/components/search/RecipeSearch";
@@ -11,7 +12,33 @@ import {
   listClusters,
   listRecipeCatalog,
 } from "@/lib/data/repository";
+import { localeLanguages, noIndexFollow } from "@/lib/seo/alternates";
+import { siteUrl } from "@/lib/utils";
 import type { Locale } from "@/types/content";
+
+export async function generateMetadata({
+  params,
+  searchParams,
+}: {
+  params: Promise<{ locale: string }>;
+  searchParams: Promise<{ q?: string; kat?: string }>;
+}): Promise<Metadata> {
+  const { locale: localeParam } = await params;
+  const { q = "", kat = "" } = await searchParams;
+  const locale = localeParam as Locale;
+  const t = await getTranslations({ locale, namespace: "recipes" });
+  const base = siteUrl();
+  const filtered = Boolean(q.trim() || kat);
+  return {
+    title: t("seoTitle"),
+    description: t("seoDescription"),
+    alternates: {
+      canonical: `${base}/${locale}/rezepte`,
+      languages: localeLanguages(`${base}/de/rezepte`, `${base}/pl/rezepte`),
+    },
+    robots: filtered ? noIndexFollow : { index: true, follow: true },
+  };
+}
 
 export default async function RecipesPage({
   params,

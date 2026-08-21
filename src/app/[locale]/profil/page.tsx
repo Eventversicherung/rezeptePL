@@ -1,5 +1,8 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
+import { privatePageMetadata } from "@/lib/seo/alternates";
+
+export const metadata = privatePageMetadata;
 import { logoutAction } from "@/app/actions/auth";
 import { isStaff, getSessionUser } from "@/lib/auth/session";
 import {

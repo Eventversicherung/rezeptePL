@@ -10,11 +10,39 @@ import {
 } from "@/lib/data/repository";
 import { clusterBasePath } from "@/lib/data/cluster-paths";
 import { familyVariantPath } from "@/lib/data/recipe-paths";
+import { localeLanguages } from "@/lib/seo/alternates";
 import { isClusterIndexable } from "@/lib/seo/cluster-indexable";
-import { siteUrl } from "@/lib/utils";
+import { absoluteUrl, siteUrl } from "@/lib/utils";
 import type { Locale, Recipe } from "@/types/content";
 
 const LOCALES: Locale[] = ["de", "pl"];
+
+function newestIso(dates: Array<string | undefined>) {
+  return dates.filter((value): value is string => Boolean(value)).sort().at(-1);
+}
+
+function entry(
+  url: string,
+  options: {
+    lastModified?: string;
+    changeFrequency: MetadataRoute.Sitemap[number]["changeFrequency"];
+    priority: number;
+    de: string;
+    pl: string;
+    images?: string[];
+  },
+): MetadataRoute.Sitemap[number] {
+  return {
+    url,
+    lastModified: options.lastModified,
+    changeFrequency: options.changeFrequency,
+    priority: options.priority,
+    alternates: {
+      languages: localeLanguages(options.de, options.pl),
+    },
+    ...(options.images?.length ? { images: options.images } : {}),
+  };
+}
 
 /** Same entries as /sitemap.xml — single source for IndexNow. */
 export async function listSitemapEntries(): Promise<MetadataRoute.Sitemap> {
@@ -23,46 +51,67 @@ export async function listSitemapEntries(): Promise<MetadataRoute.Sitemap> {
   const families = await listFamilies();
   const clusters = await listClusters();
   const posts = await listPublishedBlogPosts();
-
-  const staticEntries = LOCALES.flatMap((locale) => [
-    {
-      url: `${base}/${locale}`,
-      changeFrequency: "weekly" as const,
-      priority: 1,
-    },
-    {
-      url: `${base}/${locale}/rezepte`,
-      changeFrequency: "daily" as const,
-      priority: 0.9,
-    },
-    {
-      url: `${base}/${locale}/blog`,
-      changeFrequency: "weekly" as const,
-      priority: 0.85,
-    },
-    {
-      url: `${base}/${locale}/markt-finden`,
-      changeFrequency: "weekly" as const,
-      priority: 0.8,
-    },
+  const catalogFreshness = newestIso([
+    ...recipes.map((recipe) => recipe.updatedAt),
+    ...posts.map((post) => post.updatedAt),
   ]);
+
+  const staticEntries = LOCALES.flatMap((locale) => {
+    const homeDe = `${base}/de`;
+    const homePl = `${base}/pl`;
+    const recipesDe = `${base}/de/rezepte`;
+    const recipesPl = `${base}/pl/rezepte`;
+    const blogDe = `${base}/de/blog`;
+    const blogPl = `${base}/pl/blog`;
+    const marktDe = `${base}/de/markt-finden`;
+    const marktPl = `${base}/pl/markt-finden`;
+    return [
+      entry(`${base}/${locale}`, {
+        lastModified: catalogFreshness,
+        changeFrequency: "weekly",
+        priority: 1,
+        de: homeDe,
+        pl: homePl,
+      }),
+      entry(`${base}/${locale}/rezepte`, {
+        lastModified: catalogFreshness,
+        changeFrequency: "daily",
+        priority: 0.9,
+        de: recipesDe,
+        pl: recipesPl,
+      }),
+      entry(`${base}/${locale}/blog`, {
+        lastModified: newestIso(posts.map((post) => post.updatedAt)),
+        changeFrequency: "weekly",
+        priority: 0.85,
+        de: blogDe,
+        pl: blogPl,
+      }),
+      entry(`${base}/${locale}/markt-finden`, {
+        changeFrequency: "weekly",
+        priority: 0.8,
+        de: marktDe,
+        pl: marktPl,
+      }),
+    ];
+  });
 
   const standalone = recipes.filter((r) => !r.familyId);
   const recipeEntries = LOCALES.flatMap((locale) =>
     standalone
       .filter((recipe) => recipe.translations[locale]?.slug)
-      .map((recipe) => ({
-        url: `${base}/${locale}/rezepte/${recipe.translations[locale].slug}`,
-        lastModified: recipe.updatedAt,
-        changeFrequency: "weekly" as const,
-        priority: 0.8,
-        alternates: {
-          languages: {
-            de: `${base}/de/rezepte/${recipe.translations.de.slug}`,
-            pl: `${base}/pl/rezepte/${recipe.translations.pl.slug}`,
-          },
-        },
-      })),
+      .map((recipe) => {
+        const de = `${base}/de/rezepte/${recipe.translations.de.slug}`;
+        const pl = `${base}/pl/rezepte/${recipe.translations.pl.slug}`;
+        return entry(`${base}/${locale}/rezepte/${recipe.translations[locale].slug}`, {
+          lastModified: recipe.updatedAt,
+          changeFrequency: "weekly",
+          priority: 0.8,
+          de,
+          pl,
+          images: recipe.coverImage ? [absoluteUrl(recipe.coverImage)] : undefined,
+        });
+      }),
   );
 
   const variantEntries: MetadataRoute.Sitemap = [];
@@ -73,18 +122,18 @@ export async function listSitemapEntries(): Promise<MetadataRoute.Sitemap> {
         if (!family.translations[locale]?.slug) continue;
         if (!recipe.translations[locale]?.slug) continue;
         const path = familyVariantPath(family, recipe, locale);
-        variantEntries.push({
-          url: `${base}/${locale}${path}`,
-          lastModified: recipe.updatedAt,
-          changeFrequency: "weekly",
-          priority: 0.85,
-          alternates: {
-            languages: {
-              de: `${base}/de${familyVariantPath(family, recipe, "de")}`,
-              pl: `${base}/pl${familyVariantPath(family, recipe, "pl")}`,
-            },
-          },
-        });
+        variantEntries.push(
+          entry(`${base}/${locale}${path}`, {
+            lastModified: recipe.updatedAt,
+            changeFrequency: "weekly",
+            priority: 0.85,
+            de: `${base}/de${familyVariantPath(family, recipe, "de")}`,
+            pl: `${base}/pl${familyVariantPath(family, recipe, "pl")}`,
+            images: recipe.coverImage
+              ? [absoluteUrl(recipe.coverImage)]
+              : undefined,
+          }),
+        );
       }
     }
   }
@@ -92,18 +141,18 @@ export async function listSitemapEntries(): Promise<MetadataRoute.Sitemap> {
   const blogEntries = LOCALES.flatMap((locale) =>
     posts
       .filter((post) => post.translations[locale]?.slug)
-      .map((post) => ({
-        url: `${base}/${locale}/blog/${post.translations[locale].slug}`,
-        lastModified: post.updatedAt,
-        changeFrequency: "weekly" as const,
-        priority: 0.75,
-        alternates: {
-          languages: {
-            de: `${base}/de/blog/${post.translations.de.slug}`,
-            pl: `${base}/pl/blog/${post.translations.pl.slug}`,
-          },
-        },
-      })),
+      .map((post) => {
+        const de = `${base}/de/blog/${post.translations.de.slug}`;
+        const pl = `${base}/pl/blog/${post.translations.pl.slug}`;
+        return entry(`${base}/${locale}/blog/${post.translations[locale].slug}`, {
+          lastModified: post.updatedAt,
+          changeFrequency: "weekly",
+          priority: 0.75,
+          de,
+          pl,
+          images: post.coverImage ? [absoluteUrl(post.coverImage)] : undefined,
+        });
+      }),
   );
 
   const clusterEntries: MetadataRoute.Sitemap = [];
@@ -112,17 +161,17 @@ export async function listSitemapEntries(): Promise<MetadataRoute.Sitemap> {
       const items = await catalogForCluster(cluster.id, locale);
       if (!isClusterIndexable(cluster, locale, items.length)) continue;
       const path = clusterBasePath(cluster.kind);
-      clusterEntries.push({
-        url: `${base}/${locale}/${path}/${cluster.slug[locale]}`,
-        changeFrequency: "monthly",
-        priority: cluster.kind === "category" ? 0.75 : 0.7,
-        alternates: {
-          languages: {
-            de: `${base}/de/${path}/${cluster.slug.de}`,
-            pl: `${base}/pl/${path}/${cluster.slug.pl}`,
-          },
-        },
-      });
+      clusterEntries.push(
+        entry(`${base}/${locale}/${path}/${cluster.slug[locale]}`, {
+          changeFrequency: "monthly",
+          priority: cluster.kind === "category" ? 0.75 : 0.7,
+          de: `${base}/de/${path}/${cluster.slug.de}`,
+          pl: `${base}/pl/${path}/${cluster.slug.pl}`,
+          images: cluster.coverImage
+            ? [absoluteUrl(cluster.coverImage)]
+            : undefined,
+        }),
+      );
     }
   }
 

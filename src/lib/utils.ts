@@ -55,6 +55,12 @@ function isEphemeralHost(hostname: string) {
  * Preview stays on the Vercel URL so we never claim production. Production
  * never uses *.vercel.app — that host was leaking into the live sitemap.
  */
+export function absoluteUrl(path: string) {
+  if (/^https?:\/\//i.test(path)) return path;
+  const base = siteUrl();
+  return `${base}${path.startsWith("/") ? path : `/${path}`}`;
+}
+
 export function siteUrl() {
   const configured = process.env.NEXT_PUBLIC_SITE_URL
     ? stripTrailingSlash(process.env.NEXT_PUBLIC_SITE_URL)
