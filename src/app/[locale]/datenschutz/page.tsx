@@ -5,6 +5,7 @@ import {
   LegalPage,
   LegalSection,
 } from "@/components/legal/LegalPage";
+import { CookieSettingsButton } from "@/components/consent/CookieConsent";
 import { LEGAL, legalAddressLines, legalMailto } from "@/lib/legal/company";
 import { localeLanguages } from "@/lib/seo/alternates";
 import { siteUrl } from "@/lib/utils";
@@ -161,8 +162,19 @@ export default async function PrivacyPage({
 
       <LegalSection title={t("cookiesHeading")}>
         <p className="text-muted">{t("cookiesLead")}</p>
-        <BulletList items={[t("cookieSession"), t("cookieLocal")]} />
+        <BulletList
+          items={[
+            t("cookieSession"),
+            t("cookieConsent"),
+            t("cookieLocal"),
+            t("cookieAnalytics"),
+            t("cookieMarketing"),
+          ]}
+        />
         <p className="text-muted">{t("cookiesOptional")}</p>
+        <CookieSettingsButton className="btn-secondary mt-4">
+          {t("cookiesOpenSettings")}
+        </CookieSettingsButton>
       </LegalSection>
 
       <LegalSection title={t("shareHeading")}>

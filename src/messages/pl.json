@@ -294,7 +294,8 @@
   },
   "legal": {
     "imprint": "Impressum",
-    "privacy": "Prywatność"
+    "privacy": "Prywatność",
+    "cookies": "Ustawienia cookies"
   },
   "imprint": {
     "title": "Impressum",
@@ -360,12 +361,16 @@
     "supabaseHeading": "3.2 Supabase (baza i auth)",
     "supabaseBody": "Korzystamy z Supabase (Supabase Inc., 970 Toa Payoh North #07-04, Singapore 318992) do danych użytkowników, logowania i bazy. Przetwarzanie odbywa się na serwerach w UE (Frankfurt, AWS eu-central-1). Więcej:",
     "affiliateHeading": "3.3 Programy partnerskie",
-    "affiliateBody": "Strona zawiera linki afiliacyjne do sprzętu kuchennego i sklepów, w tym Amazon PartnerNet (Amazon Europe Core S.à r.l., 5 Rue Plaetis, 2338 Luksemburg). Po kliknięciu sklep może zapisać cookie pochodzenia wizyty. To przetwarzanie leży po stronie sklepu. Nasza podstawa: art. 6 ust. 1 lit. f RODO (finansowanie darmowego serwisu).",
+    "affiliateBody": "Strona zawiera linki afiliacyjne do sprzętu kuchennego i sklepów, w tym Amazon PartnerNet (Amazon Europe Core S.à r.l., 5 Rue Plaetis, 2338 Luksemburg). Oznaczenia partnerskie wstawiamy tylko po zgodzie na kategorię marketing. Bez zgody link prowadzi na zwykłą stronę sklepu. Po kliknięciu sklep może zapisać własne cookies — to jego odpowiedzialność. Podstawa oznaczonych linków: art. 6 ust. 1 lit. a RODO.",
     "cookiesHeading": "4. Cookies i pamięć lokalna",
-    "cookiesLead": "Używamy tylko technicznie niezbędnych cookies i pamięci lokalnej:",
+    "cookiesLead": "Rozróżniamy pamięć niezbędną i opcjonalną. Opcjonalną zapisujemy dopiero po zgodzie w banerze cookies (art. 6 ust. 1 lit. a RODO, § 25 ust. 1 TDDDG).",
     "cookieSession": "Cookie sesji logowania (Supabase) — status logowania; konieczne do konta. Podstawa: art. 6 ust. 1 lit. b RODO.",
-    "cookieLocal": "Ustawienia lokalne (np. gęstość siatki) w localStorage przeglądarki — zostają na urządzeniu, bez trackingu.",
-    "cookiesOptional": "Nie stosujemy obecnie cookies analitycznych ani marketingowych. Baner cookies nie jest więc wymagany.",
+    "cookieConsent": "Cookie „alemniam-consent“ — przechowuje Twój wybór przez 12 miesięcy. Niezbędne. Podstawa: art. 6 ust. 1 lit. c RODO, § 25 ust. 2 TDDDG.",
+    "cookieLocal": "Wygoda (opcjonalnie): układ siatki i podobne ustawienia w localStorage — tylko po zgodzie, bez trackingu.",
+    "cookieAnalytics": "Statystyka (opcjonalnie): obecnie bez skryptu analitycznego. Taki skrypt wczytamy tylko po zgodzie na tę kategorię.",
+    "cookieMarketing": "Marketing (opcjonalnie): oznaczenie affiliate w linkach wychodzących (np. Amazon). Bez zgody usuwamy parametry śledzenia.",
+    "cookiesOptional": "Wybór możesz zmienić i wycofać w każdej chwili przez „Ustawienia cookies“ w stopce lub tutaj (art. 7 ust. 3 RODO).",
+    "cookiesOpenSettings": "Otwórz ustawienia cookies",
     "shareHeading": "5. Udostępnianie danych osobom trzecim",
     "shareLead": "Nie przekazujemy danych w celach innych niż opisane tutaj. Udostępniamy je tylko, gdy:",
     "shareConsent": "wyraziłeś zgodę (art. 6 ust. 1 lit. a RODO)",
@@ -439,5 +444,25 @@
     "geoActive": "Twój obszar",
     "geoPrivacy": "Twoja lokalizacja zostaje w przeglądarce — nie jest zapisywana.",
     "osmAttribution": "Dane © OpenStreetMap"
+  },
+  "cookies": {
+    "kicker": "Prywatność",
+    "title": "Cookies i dane lokalne",
+    "body": "Niezbędne zostają zawsze. Wygoda, statystyka i marketing tylko po Twojej zgodzie.",
+    "privacy": "Polityka prywatności",
+    "reject": "Tylko niezbędne",
+    "choose": "Dostosuj wybór",
+    "hideChoices": "Zamknij wybór",
+    "save": "Zapisz wybór",
+    "accept": "Akceptuj wszystkie",
+    "alwaysOn": "Zawsze włączone",
+    "necessaryTitle": "Niezbędne",
+    "necessaryBody": "Logowanie, bezpieczeństwo i Twoja decyzja o cookies. Bez nich strona nie działa.",
+    "preferencesTitle": "Wygoda",
+    "preferencesBody": "Zapamiętuje układ, np. gęstość siatki, na tym urządzeniu.",
+    "analyticsTitle": "Statystyka",
+    "analyticsBody": "Pomaga zrozumieć, które przepisy są używane. Tracker jest nieaktywny — dopiero po zgodzie.",
+    "marketingTitle": "Marketing",
+    "marketingBody": "Oznaczenie affiliate (np. Amazon), żeby finansować darmowy serwis."
   }
 }

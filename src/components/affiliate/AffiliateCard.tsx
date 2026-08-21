@@ -1,4 +1,7 @@
+"use client";
+
 import Image from "next/image";
+import { useAffiliateHref } from "@/components/consent/CookieConsent";
 import type { AffiliateProduct, Locale } from "@/types/content";
 
 export function AffiliateCard({
@@ -10,13 +13,14 @@ export function AffiliateCard({
   locale: Locale;
   disclosure: string;
 }) {
+  const href = useAffiliateHref(product.url);
   return (
     <aside
       className="affiliate-card my-10 overflow-hidden rounded-[calc(var(--radius)+6px)] border border-[color-mix(in_srgb,#dc143c_18%,var(--border))] bg-[color-mix(in_srgb,#fffdfb_92%,#dc143c)]"
       data-affiliate={product.partner}
     >
       <a
-        href={product.url}
+        href={href}
         target="_blank"
         rel="sponsored noopener noreferrer"
         className="group grid gap-0 sm:grid-cols-[9.5rem_1fr]"

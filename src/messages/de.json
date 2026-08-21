@@ -294,7 +294,8 @@
   },
   "legal": {
     "imprint": "Impressum",
-    "privacy": "Datenschutz"
+    "privacy": "Datenschutz",
+    "cookies": "Cookie-Einstellungen"
   },
   "imprint": {
     "title": "Impressum",
@@ -360,12 +361,16 @@
     "supabaseHeading": "3.2 Supabase (Datenbank & Auth)",
     "supabaseBody": "Wir nutzen Supabase (Supabase Inc., 970 Toa Payoh North #07-04, Singapore 318992) für die Speicherung von Nutzerdaten, Authentifizierung und Datenbankbetrieb. Die Datenverarbeitung erfolgt auf Servern innerhalb der EU (Frankfurt, AWS eu-central-1). Weitere Informationen:",
     "affiliateHeading": "3.3 Affiliate-Partnerprogramme",
-    "affiliateBody": "Unsere Website enthält Affiliate-Links zu Küchenhelfern und Händlern, darunter Amazon PartnerNet (Amazon Europe Core S.à r.l., 5 Rue Plaetis, 2338 Luxembourg). Wenn Sie auf einen Affiliate-Link klicken, kann der Händler ein Cookie setzen, das die Herkunft Ihres Besuchs speichert. Diese Verarbeitung liegt in der Verantwortung des jeweiligen Händlers. Rechtsgrundlage auf unserer Seite: Art. 6 Abs. 1 S. 1 lit. f DSGVO (berechtigtes Interesse an der Finanzierung des kostenlosen Dienstes).",
+    "affiliateBody": "Unsere Website enthält Affiliate-Links zu Küchenhelfern und Händlern, darunter Amazon PartnerNet (Amazon Europe Core S.à r.l., 5 Rue Plaetis, 2338 Luxembourg). Partner-Kennzeichnungen in diesen Links setzen wir nur, wenn Sie der Kategorie Marketing zugestimmt haben. Ohne Zustimmung bleibt der Link eine normale Händlerseite. Nach dem Klick kann der Händler eigene Cookies setzen — das liegt in seiner Verantwortung. Rechtsgrundlage für gekennzeichnete Links: Art. 6 Abs. 1 S. 1 lit. a DSGVO.",
     "cookiesHeading": "4. Cookies und lokaler Speicher",
-    "cookiesLead": "Wir setzen nur technisch notwendige Cookies und lokalen Speicher ein:",
-    "cookieSession": "Authentifizierungs-Session-Cookie (Supabase) — speichert den Login-Status; notwendig für die Nutzung des Kontos. Rechtsgrundlage: Art. 6 Abs. 1 S. 1 lit. b DSGVO.",
-    "cookieLocal": "Lokale Einstellungen (z. B. Rasteransicht) im localStorage Ihres Browsers — bleiben auf Ihrem Gerät, kein Tracking.",
-    "cookiesOptional": "Wir setzen derzeit keine Analyse- oder Marketing-Cookies. Ein Cookie-Banner ist daher nicht erforderlich.",
+    "cookiesLead": "Wir unterscheiden notwendige und optionale Speicherung. Optionales speichern wir erst nach Ihrer Einwilligung im Cookie-Banner (Art. 6 Abs. 1 S. 1 lit. a DSGVO, § 25 Abs. 1 TDDDG).",
+    "cookieSession": "Authentifizierungs-Session-Cookie (Supabase) — Login-Status; notwendig für das Konto. Rechtsgrundlage: Art. 6 Abs. 1 S. 1 lit. b DSGVO.",
+    "cookieConsent": "Cookie „alemniam-consent“ — speichert Ihre Auswahl 12 Monate, damit wir nicht erneut fragen. Notwendig. Rechtsgrundlage: Art. 6 Abs. 1 S. 1 lit. c DSGVO, § 25 Abs. 2 TDDDG.",
+    "cookieLocal": "Komfort (optional): Rasteransicht und ähnliche Darstellungen im localStorage — nur nach Einwilligung, kein Tracking.",
+    "cookieAnalytics": "Statistik (optional): derzeit kein Analyse-Skript eingebunden. Ein solches Skript laden wir nur, wenn Sie dieser Kategorie zustimmen.",
+    "cookieMarketing": "Marketing (optional): Affiliate-Kennzeichnung in Ausgangslinks (z. B. Amazon). Ohne Zustimmung entfernen wir Tracking-Parameter.",
+    "cookiesOptional": "Sie können Ihre Auswahl jederzeit über „Cookie-Einstellungen“ im Footer oder hier ändern und widerrufen (Art. 7 Abs. 3 DSGVO).",
+    "cookiesOpenSettings": "Cookie-Einstellungen öffnen",
     "shareHeading": "5. Weitergabe von Daten an Dritte",
     "shareLead": "Eine Übermittlung Ihrer persönlichen Daten an Dritte zu anderen als den in dieser Datenschutzerklärung genannten Zwecken findet nicht statt. Wir geben Daten nur weiter, wenn:",
     "shareConsent": "Sie ausdrückliche Einwilligung erteilt haben (Art. 6 Abs. 1 S. 1 lit. a DSGVO)",
@@ -439,5 +444,25 @@
     "geoActive": "Dein Bereich",
     "geoPrivacy": "Dein Standort bleibt im Browser — er wird nicht gespeichert.",
     "osmAttribution": "Daten © OpenStreetMap"
+  },
+  "cookies": {
+    "kicker": "Privatsphäre",
+    "title": "Cookies & lokale Daten",
+    "body": "Notwendiges bleibt immer an. Komfort, Statistik und Marketing nur, wenn Sie zustimmen.",
+    "privacy": "Datenschutzerklärung",
+    "reject": "Nur notwendige",
+    "choose": "Auswahl anpassen",
+    "hideChoices": "Auswahl schließen",
+    "save": "Auswahl speichern",
+    "accept": "Alle akzeptieren",
+    "alwaysOn": "Immer an",
+    "necessaryTitle": "Notwendig",
+    "necessaryBody": "Login, Sicherheit und Ihre Cookie-Entscheidung. Ohne diese funktioniert die Seite nicht.",
+    "preferencesTitle": "Komfort",
+    "preferencesBody": "Merkt sich Darstellungen wie die Rasteransicht auf diesem Gerät.",
+    "analyticsTitle": "Statistik",
+    "analyticsBody": "Hilft uns zu verstehen, welche Rezepte genutzt werden. Derzeit kein Tracker aktiv — erst nach Ihrer Zustimmung.",
+    "marketingTitle": "Marketing",
+    "marketingBody": "Affiliate-Kennzeichnung (z. B. Amazon), damit wir den kostenlosen Dienst finanzieren können."
   }
 }

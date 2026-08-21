@@ -2,6 +2,7 @@ import { Suspense } from "react";
 import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { LocaleAlternatesProvider } from "@/components/i18n/LocaleAlternates";
+import { CookieConsent, CookieSettingsButton } from "@/components/consent/CookieConsent";
 import { BottomNav } from "./BottomNav";
 import { SiteHeader } from "./SiteHeader";
 
@@ -34,11 +35,15 @@ export async function AppShell({
               <div className="flex flex-wrap gap-x-4 gap-y-2">
                 <Link href="/impressum">{legal("imprint")}</Link>
                 <Link href="/datenschutz">{legal("privacy")}</Link>
+                <CookieSettingsButton className="cursor-pointer text-left">
+                  {legal("cookies")}
+                </CookieSettingsButton>
               </div>
             </div>
           </footer>
         </div>
 
+        <CookieConsent />
         <BottomNav />
       </div>
     </LocaleAlternatesProvider>
