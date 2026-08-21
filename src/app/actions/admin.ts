@@ -21,7 +21,14 @@ import {
 } from "@/lib/seo/indexnow";
 import type { IndexNowResult } from "@/lib/seo/indexnow-types";
 import { publicUrlsForRecipe } from "@/lib/seo/public-urls";
+import { SITEMAP_PATHS } from "@/lib/seo/sitemap-xml";
 import type { Locale, Recipe, RecipeStatus } from "@/types/content";
+
+function revalidateSitemaps() {
+  for (const path of SITEMAP_PATHS) {
+    revalidatePath(path);
+  }
+}
 
 export async function createDraftAction(locale: string) {
   await requireAdmin();
@@ -97,7 +104,7 @@ export async function saveRecipeAction(formData: FormData) {
   if (next.status === "published") {
     notifyIndexNowAfterResponse(await publicUrlsForRecipe(next));
   }
-  revalidatePath("/sitemap.xml");
+  revalidateSitemaps();
   revalidatePath("/[locale]/admin", "layout");
   revalidatePath("/[locale]/rezepte", "layout");
   redirect(`/${String(formData.get("uiLocale") ?? "de")}/admin/rezepte/${id}`);
@@ -116,7 +123,7 @@ export async function setStatusAction(formData: FormData) {
       notifyIndexNowAfterResponse(await publicUrlsForRecipe(recipe));
     }
   }
-  revalidatePath("/sitemap.xml");
+  revalidateSitemaps();
   revalidatePath("/[locale]/rezepte", "layout");
   redirect(`/${locale}/admin`);
 }
@@ -139,7 +146,7 @@ export async function moderateAction(formData: FormData) {
   const decision = String(formData.get("decision")) as "approved" | "rejected";
   const locale = String(formData.get("locale") ?? "de");
   await moderateSubmission(id, decision);
-  revalidatePath("/sitemap.xml");
+  revalidateSitemaps();
   revalidatePath("/[locale]/admin/moderation", "page");
   revalidatePath("/[locale]/rezepte", "layout");
   redirect(`/${locale}/admin/moderation`);
@@ -188,7 +195,7 @@ export async function saveBlogPostAction(formData: FormData) {
 
   await saveBlogPost(next);
   invalidateContentCache();
-  revalidatePath("/sitemap.xml");
+  revalidateSitemaps();
   revalidatePath("/[locale]/admin", "layout");
   revalidatePath("/[locale]/blog", "layout");
   redirect(`/${String(formData.get("uiLocale") ?? "de")}/admin/blog/${id}`);

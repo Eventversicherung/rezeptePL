@@ -39,7 +39,13 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: PRIVATE_PATHS,
     },
-    sitemap: `${base}/sitemap.xml`,
+    sitemap: [
+      `${base}/sitemap.xml`,
+      `${base}/sitemaps/pages.xml`,
+      `${base}/sitemaps/recipes.xml`,
+      `${base}/sitemaps/blog.xml`,
+      `${base}/sitemaps/clusters.xml`,
+    ],
     host: new URL(base).host,
   };
 }

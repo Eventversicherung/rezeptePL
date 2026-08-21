@@ -17,7 +17,7 @@ export async function AppShell({
 
   return (
     <LocaleAlternatesProvider>
-      <div className="flex min-h-dvh w-full flex-col">
+      <div className="flex min-h-dvh w-full flex-col" lang={locale}>
         {/* Full-bleed glass header (outside max-width shell) */}
         <Suspense
           fallback={<div className="h-[5.5rem] sm:h-[6rem]" aria-hidden />}

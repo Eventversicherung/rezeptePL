@@ -12,6 +12,7 @@ import { clusterBasePath } from "@/lib/data/cluster-paths";
 import { familyVariantPath } from "@/lib/data/recipe-paths";
 import { localeLanguages } from "@/lib/seo/alternates";
 import { isClusterIndexable } from "@/lib/seo/cluster-indexable";
+import type { SitemapKind } from "@/lib/seo/sitemap-xml";
 import { absoluteUrl, siteUrl } from "@/lib/utils";
 import type { Locale, Recipe } from "@/types/content";
 
@@ -44,8 +45,10 @@ function entry(
   };
 }
 
-/** Same entries as /sitemap.xml — single source for IndexNow. */
-export async function listSitemapEntries(): Promise<MetadataRoute.Sitemap> {
+export type SitemapGroups = Record<SitemapKind, MetadataRoute.Sitemap>;
+
+/** Same entries as the public sitemaps — single source for IndexNow. */
+export async function listSitemapGroups(): Promise<SitemapGroups> {
   const base = siteUrl();
   const recipes = await listPublishedRecipes();
   const families = await listFamilies();
@@ -175,13 +178,17 @@ export async function listSitemapEntries(): Promise<MetadataRoute.Sitemap> {
     }
   }
 
-  return [
-    ...staticEntries,
-    ...recipeEntries,
-    ...variantEntries,
-    ...blogEntries,
-    ...clusterEntries,
-  ];
+  return {
+    pages: staticEntries,
+    recipes: [...recipeEntries, ...variantEntries],
+    blog: blogEntries,
+    clusters: clusterEntries,
+  };
+}
+
+export async function listSitemapEntries(): Promise<MetadataRoute.Sitemap> {
+  const groups = await listSitemapGroups();
+  return [...groups.pages, ...groups.recipes, ...groups.blog, ...groups.clusters];
 }
 
 export async function listPublicPageUrls(): Promise<string[]> {

@@ -16,6 +16,27 @@ function supabaseHostname(): string | null {
 const supabaseHost = supabaseHostname();
 
 const nextConfig: NextConfig = {
+  async headers() {
+    return [
+      {
+        source: "/de/:path*",
+        headers: [{ key: "Content-Language", value: "de" }],
+      },
+      {
+        source: "/pl/:path*",
+        headers: [{ key: "Content-Language", value: "pl" }],
+      },
+      {
+        source: "/sitemap.xsl",
+        headers: [
+          {
+            key: "Content-Type",
+            value: "application/xslt+xml; charset=utf-8",
+          },
+        ],
+      },
+    ];
+  },
   images: {
     remotePatterns: [
       // Own media in Supabase Storage (blog-media / recipe-media / place-media)
