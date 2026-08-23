@@ -9,6 +9,7 @@ import { getRelatedGuidesForRecipe } from "@/lib/data/recipe-guides";
 import {
   getFamilyVariants,
   getRecipeBySlug,
+  listClusters,
   listFamilies,
   listPublishedRecipes,
   resolveFamilyBySlug,
@@ -157,8 +158,9 @@ export default async function RecipePage({
     { label: recipeTitle },
   ];
 
+  const clusters = await listClusters();
   const jsonLd = [
-    recipeJsonLd(recipe, locale, url),
+    recipeJsonLd(recipe, locale, url, clusters),
     breadcrumbJsonLd([
       { name: tCommon("home"), url: `${siteUrl()}/${locale}` },
       { name: tNav("recipes"), url: `${siteUrl()}/${locale}/rezepte` },

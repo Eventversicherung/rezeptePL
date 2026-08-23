@@ -7,6 +7,7 @@ import { resolveRecipeArticle } from "@/lib/data/recipe-articles";
 import { getRelatedGuidesForRecipe } from "@/lib/data/recipe-guides";
 import {
   getFamilyVariants,
+  listClusters,
   listFamilies,
   resolveRecipeInFamily,
 } from "@/lib/data/repository";
@@ -117,8 +118,9 @@ export default async function RecipeVariantPage({
     { label: recipeTitle },
   ];
 
+  const clusters = await listClusters();
   const jsonLd = [
-    recipeJsonLd(recipe, locale, url),
+    recipeJsonLd(recipe, locale, url, clusters),
     breadcrumbJsonLd([
       { name: tCommon("home"), url: `${siteUrl()}/${locale}` },
       { name: tNav("recipes"), url: `${siteUrl()}/${locale}/rezepte` },

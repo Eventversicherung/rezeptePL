@@ -1,4 +1,4 @@
-import type { BlogPost, Locale, Recipe } from "@/types/content";
+import type { BlogPost, Cluster, Locale, Recipe } from "@/types/content";
 import { absoluteUrl, siteUrl } from "@/lib/utils";
 
 function absoluteMediaUrl(src: string) {
@@ -15,12 +15,138 @@ function organizationJsonLd() {
   };
 }
 
+/** Stable HowToStep fragment — must match the recipe page anchors. */
+export function recipeStepId(index: number) {
+  return `step-${index + 1}`;
+}
+
+const COURSE_CATEGORY_PRIORITY = [
+  "category-suppen",
+  "category-suess",
+  "category-eingelegt",
+  "category-hauptgerichte",
+] as const;
+
+const KEYWORD_ONLY_CATEGORY_IDS = new Set([
+  "category-schnell",
+  "category-vegetarisch",
+]);
+
+const DEFAULT_CUISINE: Record<Locale, string> = {
+  de: "Polnisch",
+  pl: "Polska",
+};
+
+const DEFAULT_CATEGORY: Record<Locale, string> = {
+  de: "Hauptgericht",
+  pl: "Danie główne",
+};
+
+function clusterTitle(
+  clusters: Cluster[],
+  id: string,
+  locale: Locale,
+): string | undefined {
+  const title = clusters.find((cluster) => cluster.id === id)?.title[locale];
+  return title?.trim() || undefined;
+}
+
+function uniqueLabels(values: Array<string | undefined>) {
+  const seen = new Set<string>();
+  const labels: string[] = [];
+  for (const value of values) {
+    const label = value?.trim();
+    if (!label) continue;
+    const key = label.toLocaleLowerCase(undefined);
+    if (seen.has(key)) continue;
+    seen.add(key);
+    labels.push(label);
+  }
+  return labels;
+}
+
+function recipeCategoryLabel(
+  recipe: Recipe,
+  locale: Locale,
+  clusters: Cluster[],
+): string {
+  const courseIds = COURSE_CATEGORY_PRIORITY.filter((id) =>
+    recipe.categoryIds.includes(id),
+  );
+  const fromPriority = uniqueLabels(
+    courseIds.map((id) => clusterTitle(clusters, id, locale)),
+  );
+  if (fromPriority.length > 0) return fromPriority.join(", ");
+
+  const fromOther = uniqueLabels(
+    recipe.categoryIds
+      .filter((id) => !KEYWORD_ONLY_CATEGORY_IDS.has(id))
+      .map((id) => clusterTitle(clusters, id, locale)),
+  );
+  return fromOther[0] ?? DEFAULT_CATEGORY[locale];
+}
+
+function recipeCuisineLabel(locale: Locale): string {
+  return DEFAULT_CUISINE[locale];
+}
+
+function recipeKeywordLabel(
+  recipe: Recipe,
+  locale: Locale,
+  clusters: Cluster[],
+  category: string,
+  cuisine: string,
+): string | undefined {
+  const blocked = new Set(
+    [category, cuisine]
+      .flatMap((value) => value.split(","))
+      .map((value) => value.trim().toLocaleLowerCase())
+      .filter(Boolean),
+  );
+
+  const labels = uniqueLabels([
+    recipe.variantLabel?.[locale],
+    ...recipe.regionIds.map((id) => clusterTitle(clusters, id, locale)),
+    ...recipe.occasionIds.map((id) => clusterTitle(clusters, id, locale)),
+    ...recipe.techniqueIds.map((id) => clusterTitle(clusters, id, locale)),
+    ...recipe.categoryIds
+      .filter((id) => KEYWORD_ONLY_CATEGORY_IDS.has(id))
+      .map((id) => clusterTitle(clusters, id, locale)),
+    recipe.prepMinutes + recipe.cookMinutes <= 45 &&
+    !recipe.categoryIds.includes("category-schnell")
+      ? locale === "pl"
+        ? "szybkie"
+        : "schnell"
+      : undefined,
+  ]).filter((label) => !blocked.has(label.toLocaleLowerCase()));
+
+  return labels.length > 0 ? labels.join(", ") : undefined;
+}
+
+function howToStepName(text: string) {
+  const cleaned = text.replace(/\s+/g, " ").trim();
+  const clause = cleaned.split(/[,.;:!?]/)[0]?.trim() ?? cleaned;
+  if (clause.length <= 72) return clause;
+  return clause.split(" ").slice(0, 8).join(" ");
+}
+
 export function recipeJsonLd(
   recipe: Recipe,
   locale: Locale,
   url: string,
+  clusters: Cluster[] = [],
 ) {
   const t = recipe.translations[locale];
+  const recipeCategory = recipeCategoryLabel(recipe, locale, clusters);
+  const recipeCuisine = recipeCuisineLabel(locale);
+  const keywords = recipeKeywordLabel(
+    recipe,
+    locale,
+    clusters,
+    recipeCategory,
+    recipeCuisine,
+  );
+
   return {
     "@context": "https://schema.org",
     "@type": "Recipe",
@@ -35,13 +161,18 @@ export function recipeJsonLd(
     cookTime: `PT${recipe.cookMinutes}M`,
     totalTime: `PT${recipe.prepMinutes + recipe.cookMinutes}M`,
     recipeYield: `${recipe.servings}`,
+    recipeCategory,
+    recipeCuisine,
+    ...(keywords ? { keywords } : {}),
     recipeIngredient: recipe.ingredients.map(
       (i) => `${i.amount} ${i.unit[locale]} ${i.name[locale]}`.trim(),
     ),
     recipeInstructions: t.steps.map((step, index) => ({
       "@type": "HowToStep",
       position: index + 1,
+      name: howToStepName(step.text),
       text: step.text,
+      url: `${url}#${recipeStepId(index)}`,
     })),
     inLanguage: locale,
   };

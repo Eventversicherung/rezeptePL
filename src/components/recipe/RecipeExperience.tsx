@@ -38,6 +38,21 @@ const GROUP_ORDER = [
   "other",
 ] as const;
 
+/** Must stay aligned with `recipeStepId` in src/lib/seo/jsonld.ts */
+function recipeStepAnchor(index: number) {
+  return `step-${index + 1}`;
+}
+
+function stepIndexFromHash(hash: string, stepCount: number) {
+  const match = hash.match(/^#step-(\d+)$/);
+  if (!match) return null;
+  const index = Number(match[1]) - 1;
+  if (!Number.isInteger(index) || index < 0 || index >= stepCount) {
+    return null;
+  }
+  return index;
+}
+
 export function RecipeExperience({
   recipe,
   locale,
@@ -86,12 +101,44 @@ export function RecipeExperience({
   const translation = recipe.translations[locale];
   const step = translation.steps[activeStep];
 
+  const stepCount = translation.steps.length;
+
+  function goToStep(index: number) {
+    const next = Math.max(0, Math.min(stepCount - 1, index));
+    setActiveStep(next);
+    const fragment = `#${recipeStepAnchor(next)}`;
+    if (typeof window === "undefined") return;
+    if (window.location.hash !== fragment) {
+      window.history.replaceState(
+        null,
+        "",
+        `${window.location.pathname}${window.location.search}${fragment}`,
+      );
+    }
+  }
+
   useEffect(() => {
     setServings(recipe.servings);
-    setActiveStep(0);
     setChecked({});
     setMessage(null);
-  }, [recipe.id, recipe.servings]);
+    const hashed = stepIndexFromHash(
+      window.location.hash,
+      recipe.translations[locale].steps.length,
+    );
+    setActiveStep(hashed ?? 0);
+    if (hashed !== null) setMode("cook");
+  }, [recipe.id, recipe.servings, recipe.translations, locale]);
+
+  useEffect(() => {
+    function onHashChange() {
+      const hashed = stepIndexFromHash(window.location.hash, stepCount);
+      if (hashed === null) return;
+      setMode("cook");
+      setActiveStep(hashed);
+    }
+    window.addEventListener("hashchange", onHashChange);
+    return () => window.removeEventListener("hashchange", onHashChange);
+  }, [stepCount]);
 
   function changeMode(next: RecipeMode) {
     setMode(next);
@@ -267,6 +314,11 @@ export function RecipeExperience({
 
       {mode === "cook" ? (
         <div key="cook" className="mode-fade mt-6 space-y-8">
+          <div className="sr-only" aria-hidden="true">
+            {translation.steps.map((_, index) => (
+              <span key={index} id={recipeStepAnchor(index)} />
+            ))}
+          </div>
           {/* One big active step. Kitchen readable */}
           <section className="cook-stage px-5 py-7 sm:px-9 sm:py-10">
             <div className="flex items-center justify-between gap-3 text-sm">
@@ -289,7 +341,7 @@ export function RecipeExperience({
               <button
                 type="button"
                 disabled={activeStep === 0}
-                onClick={() => setActiveStep((s) => Math.max(0, s - 1))}
+                onClick={() => goToStep(activeStep - 1)}
                 className="btn-secondary min-h-14 text-base disabled:opacity-40"
               >
                 {t("prevStep")}
@@ -297,11 +349,7 @@ export function RecipeExperience({
               <button
                 type="button"
                 disabled={activeStep >= translation.steps.length - 1}
-                onClick={() =>
-                  setActiveStep((s) =>
-                    Math.min(translation.steps.length - 1, s + 1),
-                  )
-                }
+                onClick={() => goToStep(activeStep + 1)}
                 className="btn-primary min-h-14 text-base disabled:opacity-40"
               >
                 {t("nextStep")}
@@ -316,7 +364,7 @@ export function RecipeExperience({
                   <li key={index}>
                     <button
                       type="button"
-                      onClick={() => setActiveStep(index)}
+                      onClick={() => goToStep(index)}
                       className={`flex w-full min-h-12 items-center gap-3 rounded-xl border px-3 py-3 text-left text-sm ${
                         index === activeStep
                           ? "border-accent bg-accent-soft"
