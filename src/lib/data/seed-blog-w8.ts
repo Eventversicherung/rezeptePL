@@ -28,7 +28,7 @@ export const seedBlogPostsW8: BlogPost[] = [
         title: "Pączki-Technik: Hefe, Füllung, heißes Fett",
         slug: "paczek-technik",
         excerpt:
-          "Hefeteig, Füllung und Frittieren — Technik-Guide zu Pączki für Tłusty Czwartek in DE, ohne Rezept zu duplizieren.",
+          "Hefeteig, Füllung und Frittieren, Technik-Guide zu Pączki für Tłusty Czwartek in DE, ohne Rezept zu duplizieren.",
         seoTitle: "Pączki Technik Guide | Hefe frittieren | Alemniam",
         seoDescription:
           "Pączki richtig machen: Hefe, Füllung, Fett-Temperatur, Fehler. Ergänzt Rezept und Tłusty-Czwartek-Artikel.",
@@ -38,7 +38,7 @@ export const seedBlogPostsW8: BlogPost[] = [
         title: "Technika pączków: drożdże, nadzienie, gorący tłuszcz",
         slug: "paczki-technika",
         excerpt:
-          "Ciasto drożdżowe, nadzienie i smażenie — przewodnik techniki pączków na Tłusty Czwartek w DE, bez powielania przepisu.",
+          "Ciasto drożdżowe, nadzienie i smażenie, przewodnik techniki pączków na Tłusty Czwartek w DE, bez powielania przepisu.",
         seoTitle: "Pączki technika | Drożdże i smażenie | Alemniam",
         seoDescription:
           "Jak robić pączki: drożdże, nadzienie, temperatura tłuszczu, błędy. Uzupełnia przepis i artykuł o Tłustym Czwartku.",

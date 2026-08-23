@@ -68,20 +68,20 @@ export const seedBlogPostsWave2: BlogPost[] = [
         title: "Pierogi-Guide: Varianten, Teig und Alltag in DE",
         slug: "pierogi-guide",
         excerpt:
-          "Familien-Überblick zu Pierogi: welche Füllung wann, Kultur und Alltag in DE — Kochen mit Mengen auf den Rezeptseiten.",
+          "Familien-Überblick zu Pierogi: welche Füllung wann, Kultur und Alltag in DE. Kochen mit Mengen auf den Rezeptseiten.",
         seoTitle: "Pierogi Überblick | Varianten & Alltag | Alemniam",
         seoDescription:
-          "Pierogi-Varianten, Teig und Freezer im Überblick. Kochen startet bei Ruskie, Fleisch, Kraut oder Jagody — nicht hier.",
+          "Pierogi-Varianten, Teig und Freezer im Überblick. Kochen startet bei Ruskie, Fleisch, Kraut oder Jagody, nicht hier.",
         body: bodyPierogiGuideDe.trim(),
       },
       pl: {
         title: "Przewodnik po pierogach: warianty, ciasto, codzienność w DE",
         slug: "przewodnik-pierogi",
         excerpt:
-          "Przegląd rodziny pierogów: który farsz kiedy, kultura i codzienność w DE — gotowanie z ilościami na stronach przepisów.",
+          "Przegląd rodziny pierogów: który farsz kiedy, kultura i codzienność w DE. Gotowanie z ilościami na stronach przepisów.",
         seoTitle: "Pierogi przegląd | Warianty i codzienność | Alemniam",
         seoDescription:
-          "Warianty pierogów, ciasto i mrożenie w skrócie. Gotowanie zaczyna się od ruskich, mięsa, kapusty lub jagód — nie tutaj.",
+          "Warianty pierogów, ciasto i mrożenie w skrócie. Gotowanie zaczyna się od ruskich, mięsa, kapusty lub jagód, nie tutaj.",
         body: bodyPierogiGuidePl.trim(),
       },
     },
@@ -152,7 +152,7 @@ export const seedBlogPostsWave2: BlogPost[] = [
           "Welche Pierogi-Form lohnt sich? Kriterien, Budget-/Allround-/Batch-Stufen und ehrliche Praxiskriterien für Haushalte in DE.",
         seoTitle: "Beste Pierogi-Formen 2026 | Test & Kaufberatung | Alemniam",
         seoDescription:
-          "Beste Pierogi-Formen 2026: Größe, Material, Reinigung, Mengen. Empfehlungen Budget bis Family-Batch — mit Test-Slot.",
+          "Beste Pierogi-Formen 2026: Größe, Material, Reinigung, Mengen. Empfehlungen Budget bis Family-Batch, mit Test-Slot.",
         body: bodyPierogiFormenDe.trim(),
       },
       pl: {
@@ -208,7 +208,7 @@ export const seedBlogPostsWave2: BlogPost[] = [
           "Żurek, Barszcz, Rosół und Co.: wann welche Suppe, wie Brühe trägt und welche Guides tiefer gehen.",
         seoTitle: "Polnische Suppen | Überblick & Rezepte | Alemniam",
         seoDescription:
-          "Polnische Suppen erklärt: Żurek, Barszcz, Rosół. Überblick mit Links zu Technik, Zakwas und Rezepten — bilingual.",
+          "Polnische Suppen erklärt: Żurek, Barszcz, Rosół. Überblick mit Links zu Technik, Zakwas und Rezepten, bilingual.",
         body: bodyPolnischeSuppenDe.trim(),
       },
       pl: {
@@ -218,7 +218,7 @@ export const seedBlogPostsWave2: BlogPost[] = [
           "Żurek, barszcz, rosół i więcej: kiedy która zupa, jak działa wywar i które poradniki idą głębiej.",
         seoTitle: "Polskie zupy | Przegląd i przepisy | Alemniam",
         seoDescription:
-          "Polskie zupy: żurek, barszcz, rosół. Przegląd z linkami do techniki, zakwasu i przepisów — dwujęzycznie.",
+          "Polskie zupy: żurek, barszcz, rosół. Przegląd z linkami do techniki, zakwasu i przepisów, dwujęzycznie.",
         body: bodyPolnischeSuppenPl.trim(),
       },
     },
@@ -251,7 +251,7 @@ export const seedBlogPostsWave2: BlogPost[] = [
         title: "Rosół klar halten: Technik neben dem Rezept",
         slug: "rosol-technik",
         excerpt:
-          "Technik für klaren Rosół: Temperatur, Abschäumen, Reste — Mengen und Schritte im Rosół-Rezept.",
+          "Technik für klaren Rosół: Temperatur, Abschäumen, Reste. Mengen und Schritte stehen im Rosół-Rezept.",
         seoTitle: "Rosół Technik | Klare Brühe | Alemniam",
         seoDescription:
           "Rosół-Technik: Klarheit, Sonntagsrhythmus und Reste. Kochen mit Mengen im Rosół-Rezept.",
@@ -261,7 +261,7 @@ export const seedBlogPostsWave2: BlogPost[] = [
         title: "Jak utrzymać klarowny rosół: technika obok przepisu",
         slug: "jak-ugotowac-rosol",
         excerpt:
-          "Technika jasnego rosołu: temperatura, piana, resztki — ilości i kroki w przepisie na rosół.",
+          "Technika jasnego rosołu: temperatura, piana, resztki. Ilości i kroki są w przepisie na rosół.",
         seoTitle: "Rosół technika | Klarowny wywar | Alemniam",
         seoDescription:
           "Technika rosołu: klarowność, rytm niedzieli i resztki. Gotowanie z ilościami w przepisie na rosół.",
@@ -291,7 +291,7 @@ export const seedBlogPostsWave2: BlogPost[] = [
         title: "Zakwas für Żurek: selbst ansetzen oder kaufen?",
         slug: "zakwas-zurek",
         excerpt:
-          "Was Zakwas ist, wie wir ihn sauber führen, wann der Polenladen hilft — und typische Fehler vermeiden.",
+          "Was Zakwas ist, wie wir ihn sauber führen, wann der Polenladen hilft, und wie typische Fehler vermieden werden.",
         seoTitle: "Zakwas Żurek | Ansetzen & Kaufen | Alemniam",
         seoDescription:
           "Zakwas für Żurek erklärt: selbst ansetzen, erkennen, kaufen. Hygiene, Timing und Einsatz im Rezept.",
@@ -301,7 +301,7 @@ export const seedBlogPostsWave2: BlogPost[] = [
         title: "Zakwas na żurek: robić samemu czy kupić?",
         slug: "zakwas-na-zurek",
         excerpt:
-          "Czym jest zakwas, jak prowadzić go czysto, kiedy pomaga sklep polski — i jak unikać typowych błędów.",
+          "Czym jest zakwas, jak prowadzić go czysto, kiedy pomaga sklep polski i jak unikać typowych błędów.",
         seoTitle: "Zakwas na żurek | Domowy i kupny | Alemniam",
         seoDescription:
           "Zakwas na żurek: zakładanie, rozpoznawanie, zakup. Higiena, czas i użycie w przepisie.",
@@ -345,7 +345,7 @@ export const seedBlogPostsWave2: BlogPost[] = [
           "Zrozumieć bigos: kapusta, mięso, dojrzewanie, odgrzewanie i dlaczego pomaga dobry garnek do duszenia.",
         seoTitle: "Bigos przewodnik | Technika i warianty | Alemniam",
         seoDescription:
-          "Bigos przewodnik: warianty, harmonogram, jakość kapusty i garnek. Uzupełnia przepis — bez kanibalizacji słów kluczowych.",
+          "Bigos przewodnik: warianty, harmonogram, jakość kapusty i garnek. Uzupełnia przepis, bez kanibalizacji słów kluczowych.",
         body: bodyBigosGuidePl.trim(),
       },
     },
@@ -380,7 +380,7 @@ export const seedBlogPostsWave2: BlogPost[] = [
         title: "Śmietana, Schmand & Crème fraîche: was wofür?",
         slug: "smietana-schmand",
         excerpt:
-          "Welche deutsche Milchprodukt-Alternative zu Śmietana passt zu Suppe, Soße und Pierogi — ohne das Gericht zu ertränken.",
+          "Welche deutsche Milchprodukt-Alternative zu Śmietana passt zu Suppe, Soße und Pierogi, ohne das Gericht zu ertränken.",
         seoTitle: "Śmietana Alternative Deutschland | Schmand Guide | Alemniam",
         seoDescription:
           "Śmietana vs Schmand vs Crème fraîche in DE. Wann welches Produkt für Barszcz, Gołąbki und Pierogi.",
@@ -390,7 +390,7 @@ export const seedBlogPostsWave2: BlogPost[] = [
         title: "Śmietana, Schmand i crème fraîche: co do czego?",
         slug: "smietana-czy-schmand",
         excerpt:
-          "Który niemiecki nabiał zastąpi śmietanę w zupie, sosie i do pierogów — bez zalania dania.",
+          "Który niemiecki nabiał zastąpi śmietanę w zupie, sosie i do pierogów, bez zalania dania.",
         seoTitle: "Śmietana czy Schmand | Poradnik DE | Alemniam",
         seoDescription:
           "Śmietana vs Schmand vs crème fraîche w Niemczech. Kiedy który produkt do barszczu, gołąbków i pierogów.",
@@ -428,7 +428,7 @@ export const seedBlogPostsWave2: BlogPost[] = [
         title: "Kiełbasa-Arten: was für Żurek, Bigos und Alltag?",
         slug: "kielbasa-arten",
         excerpt:
-          "Weiße, geräucherte, dünne, Krakauer — welche Wurst wohin gehört und woran wir Qualität im Polenladen erkennen.",
+          "Weiße, geräucherte, dünne, Krakauer: welche Wurst wohin gehört und woran wir Qualität im Polenladen erkennen.",
         seoTitle: "Kiełbasa Arten Polenladen | Guide | Alemniam",
         seoDescription:
           "Kiełbasa Arten erklärt: biała, wędzona, krakowska. Einsatz in Żurek und Bigos, Qualität erkennen in DE.",
@@ -438,7 +438,7 @@ export const seedBlogPostsWave2: BlogPost[] = [
         title: "Rodzaje kiełbasy: do żurku, bigosu i na co dzień",
         slug: "rodzaje-kielbasy",
         excerpt:
-          "Biała, wędzona, cienka, krakowska — która gdzie pasuje i jak rozpoznać jakość w sklepie polskim.",
+          "Biała, wędzona, cienka, krakowska: która gdzie pasuje i jak rozpoznać jakość w sklepie polskim.",
         seoTitle: "Rodzaje kiełbasy | Sklep polski | Alemniam",
         seoDescription:
           "Rodzaje kiełbasy: biała, wędzona, krakowska. Do żurku i bigosu, jakość w Niemczech.",
@@ -489,7 +489,7 @@ export const seedBlogPostsWave2: BlogPost[] = [
         title: "Polnische Zutaten ersetzen in Deutschland",
         slug: "ersatzprodukte-de",
         excerpt:
-          "Wenn der Polenladen zu weit ist: sinnvolle Ersatzprodukte für Twaróg, Kapusta, Śmietana und mehr — ohne Geschmack zu zerstören.",
+          "Wenn der Polenladen zu weit ist: sinnvolle Ersatzprodukte für Twaróg, Kapusta, Śmietana und mehr, ohne Geschmack zu zerstören.",
         seoTitle: "Polnische Zutaten ersetzen DE | Alternativen | Alemniam",
         seoDescription:
           "Ersatzprodukte für polnische Küche in DE: Twaróg, Kapusta, Śmietana, Kiełbasa. Funktion zuerst, dann Produkt.",
@@ -499,7 +499,7 @@ export const seedBlogPostsWave2: BlogPost[] = [
         title: "Zamienniki polskich składników w Niemczech",
         slug: "zamienniki-skladnikow",
         excerpt:
-          "Gdy sklep polski jest daleko: sensowne zamienniki twarogu, kapusty, śmietany i więcej — bez psucia smaku.",
+          "Gdy sklep polski jest daleko: sensowne zamienniki twarogu, kapusty, śmietany i więcej, bez psucia smaku.",
         seoTitle: "Zamienniki składników DE | Alternatywy | Alemniam",
         seoDescription:
           "Zamienniki polskiej kuchni w DE: twaróg, kapusta, śmietana, kiełbasa. Najpierw funkcja, potem produkt.",
@@ -545,7 +545,7 @@ export const seedBlogPostsWave2: BlogPost[] = [
         title: "Wielkanoc Speiseplan: ruhig feiern in DE",
         slug: "wielkanoc-speiseplan",
         excerpt:
-          "Osterfrühstück und Festessen planen: Żurek, Weißwurst, Schabowy — ohne den ganzen Familientisch nachzubauen.",
+          "Osterfrühstück und Festessen planen: Żurek, biała kiełbasa, Schabowy, ohne den ganzen Familientisch nachzubauen.",
         seoTitle: "Polnische Ostern Rezepte | Wielkanoc Speiseplan | Alemniam",
         seoDescription:
           "Wielkanoc Speiseplan für Deutschland: Żurek, biała kiełbasa, Schabowy. Machbar, bilingual, ohne Chaos.",
@@ -555,7 +555,7 @@ export const seedBlogPostsWave2: BlogPost[] = [
         title: "Menu wielkanocne: spokojne święta w DE",
         slug: "menu-wielkanocne",
         excerpt:
-          "Plan śniadania i obiadu: żurek, biała kiełbasa, schabowy — bez odtwarzania całego rodzinnego stołu.",
+          "Plan śniadania i obiadu: żurek, biała kiełbasa, schabowy, bez odtwarzania całego rodzinnego stołu.",
         seoTitle: "Przepisy wielkanocne | Menu | Alemniam",
         seoDescription:
           "Menu wielkanocne w Niemczech: żurek, biała kiełbasa, schabowy. Wykonalne, dwujęzycznie, bez chaosu.",
@@ -665,20 +665,20 @@ export const seedBlogPostsWave2: BlogPost[] = [
         title: "Polnisches Sonntagsessen: Speiseplan & ruhiger Ritus",
         slug: "sonntagsessen-polnisch",
         excerpt:
-          "Eine URL für Speise und Ritual: Rosół, Schabowy, Gołąbki oder Pierogi — planbar für den Sonntag in DE.",
+          "Eine URL für Speise und Ritual: Rosół, Schabowy, Gołąbki oder Pierogi, planbar für den Sonntag in DE.",
         seoTitle: "Polnisches Sonntagsessen | Speiseplan | Alemniam",
         seoDescription:
-          "Polnisches Sonntagsessen planen: Rosół, Schabowy, Gołąbki. Speiseplan und kurzer Ritus — ohne Doppel-Artikel.",
+          "Polnisches Sonntagsessen planen: Rosół, Schabowy, Gołąbki. Speiseplan und kurzer Ritus, ohne Doppel-Artikel.",
         body: bodySonntagsessenDe.trim(),
       },
       pl: {
         title: "Polski obiad niedzielny: menu i spokojny rytuał",
         slug: "obiad-niedzielny",
         excerpt:
-          "Jeden adres dla menu i rytuału: rosół, schabowy, gołąbki albo pierogi — planowalnie na niedzielę w DE.",
+          "Jeden adres dla menu i rytuału: rosół, schabowy, gołąbki albo pierogi, planowalnie na niedzielę w DE.",
         seoTitle: "Polski obiad niedzielny | Menu | Alemniam",
         seoDescription:
-          "Polski obiad niedzielny: rosół, schabowy, gołąbki. Menu i krótki rytuał — bez podwójnych artykułów.",
+          "Polski obiad niedzielny: rosół, schabowy, gołąbki. Menu i krótki rytuał, bez podwójnych artykułów.",
         body: bodySonntagsessenPl.trim(),
       },
     },
@@ -716,7 +716,7 @@ export const seedBlogPostsWave2: BlogPost[] = [
         title: "Kiszenie zu Hause: Kapusta, Ogórki, saubere Technik",
         slug: "kiszenie-guide",
         excerpt:
-          "Fermentieren im deutschen Haushalt: Salz, Temperatur, Gläser, Sicherheit — und was wir für Bigos selbst machen.",
+          "Fermentieren im deutschen Haushalt: Salz, Temperatur, Gläser, Sicherheit, und was wir für Bigos selbst machen.",
         seoTitle: "Kiszenie zu Hause | Fermentieren Guide | Alemniam",
         seoDescription:
           "Kiszenie Guide: Kapusta und Ogórki zu Hause fermentieren. Hygiene, Timing, Einsatz in Bigos und Pierogi.",
@@ -726,7 +726,7 @@ export const seedBlogPostsWave2: BlogPost[] = [
         title: "Kiszenie w domu: kapusta, ogórki, czysta technika",
         slug: "kiszenie-w-domu",
         excerpt:
-          "Fermentacja w niemieckim mieszkaniu: sól, temperatura, słoiki, bezpieczeństwo — i co robimy sami pod bigos.",
+          "Fermentacja w niemieckim mieszkaniu: sól, temperatura, słoiki, bezpieczeństwo, i co robimy sami pod bigos.",
         seoTitle: "Kiszenie w domu | Poradnik | Alemniam",
         seoDescription:
           "Kiszenie: kapusta i ogórki w domu. Higiena, czas, użycie w bigosie i pierogach.",
@@ -768,7 +768,7 @@ export const seedBlogPostsWave2: BlogPost[] = [
         body: bodyFleischwolfDe.trim(),
       },
       pl: {
-        title: "Wilk do mięsa — poradnik do farszu na pierogi 2026",
+        title: "Wilk do mięsa: poradnik do farszu na pierogi 2026",
         slug: "wilk-do-miesa",
         excerpt:
           "Kiedy maszynka ma sens, jakie kryteria liczą się naprawdę i poziomy budżet/allround/batch pod farsze.",

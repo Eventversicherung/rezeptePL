@@ -37,7 +37,7 @@ export const seedBlogPostsW5: BlogPost[] = [
         title: "Faworki-Technik: dünner Teig, heißes Fett, sofort Zucker",
         slug: "faworki-technik",
         excerpt:
-          "Teig, Temperatur und typische Fehler — Technik-Guide zu Faworki für Tłusty Czwartek in DE.",
+          "Teig, Temperatur und typische Fehler, Technik-Guide zu Faworki für Tłusty Czwartek in DE.",
         seoTitle: "Faworki Technik Guide | Chrust | Alemniam",
         seoDescription:
           "Faworki richtig ausbacken: Teig dünn, Fett heiß, Puderzucker sofort. Ergänzt Rezept und Tłusty-Czwartek-Artikel.",
@@ -47,7 +47,7 @@ export const seedBlogPostsW5: BlogPost[] = [
         title: "Technika faworków: cienkie ciasto, gorący tłuszcz, cukier od razu",
         slug: "faworki-technika",
         excerpt:
-          "Ciasto, temperatura i typowe błędy — przewodnik techniki faworków na Tłusty Czwartek w DE.",
+          "Ciasto, temperatura i typowe błędy, przewodnik techniki faworków na Tłusty Czwartek w DE.",
         seoTitle: "Faworki technika | Chrust | Alemniam",
         seoDescription:
           "Jak smażyć faworki: cienkie ciasto, gorący tłuszcz, cukier puder. Uzupełnia przepis i artykuł o Tłustym Czwartku.",
@@ -84,7 +84,7 @@ export const seedBlogPostsW5: BlogPost[] = [
         title: "Fasolka po bretońsku: Bohnen, Wurst, Majoran, Geduld",
         slug: "fasolka-po-bretonsku",
         excerpt:
-          "Einkauf, Bohnen, Kiełbasa und Würzen — Guide zur Fasolka in DE, ohne das Rezept zu duplizieren.",
+          "Einkauf, Bohnen, Kiełbasa und Würzen, Guide zur Fasolka in DE, ohne das Rezept zu duplizieren.",
         seoTitle: "Fasolka po bretońsku Guide | Alemniam",
         seoDescription:
           "Fasolka Guide: Bohnen, Tomate, Kiełbasa, Majeranek. Ergänzt Rezept und Einkauf in Deutschland.",
@@ -94,7 +94,7 @@ export const seedBlogPostsW5: BlogPost[] = [
         title: "Fasolka po bretońsku: fasola, kiełbasa, majeranek, cierpliwość",
         slug: "fasolka-po-bretonsku",
         excerpt:
-          "Zakupy, fasola, kiełbasa i doprawianie — przewodnik po fasolce w DE, bez powielania przepisu.",
+          "Zakupy, fasola, kiełbasa i doprawianie, przewodnik po fasolce w DE, bez powielania przepisu.",
         seoTitle: "Fasolka po bretońsku przewodnik | Alemniam",
         seoDescription:
           "Przewodnik fasolka: fasola, pomidor, kiełbasa, majeranek. Uzupełnia przepis i zakupy w Niemczech.",
@@ -138,7 +138,7 @@ export const seedBlogPostsW5: BlogPost[] = [
         title: "Majeranek: das stille Gewürz für Fleisch, Gołąbki und Fasolka",
         slug: "majeranek",
         excerpt:
-          "Majoran vs. Oregano, Dosierung und Einkauf in DE — Lexikon für polnische Hausküche.",
+          "Majoran vs. Oregano, Dosierung und Einkauf in DE, Lexikon für polnische Hausküche.",
         seoTitle: "Majeranek Lexikon | Majoran polnisch | Alemniam",
         seoDescription:
           "Majeranek verstehen: Wann würzen, wie dosieren, wo kaufen. Verbindet Gołąbki, Fasolka, Zrazy und Einkauf.",
@@ -148,7 +148,7 @@ export const seedBlogPostsW5: BlogPost[] = [
         title: "Majeranek: cicha przyprawa do mięsa, gołąbków i fasolki",
         slug: "majeranek-leksykon",
         excerpt:
-          "Majeranek vs oregano, dawkowanie i zakupy w DE — leksykon polskiej kuchni domowej.",
+          "Majeranek vs oregano, dawkowanie i zakupy w DE, leksykon polskiej kuchni domowej.",
         seoTitle: "Majeranek leksykon | Przyprawa | Alemniam",
         seoDescription:
           "Majeranek: kiedy doprawiać, jak dawkować, gdzie kupić. Łączy gołąbki, fasolkę, zrazy i zakupy.",

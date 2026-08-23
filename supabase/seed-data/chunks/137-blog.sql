@@ -4,189 +4,227 @@ begin;
 
 -- blog:post-sonntagsessen
 insert into public.blog_posts (id, status, post_type, cover_image, silo_ids, related_recipe_ids, related_post_ids, related_product_ids, cluster_ids, published_at, updated_at) values ('post-sonntagsessen', 'published', 'culture', 'https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-sonntagsessen/3abe4f34-8d8e-4a5a-bdc4-2861e4c4f724.webp', array['culture', 'occasion']::text[], array['recipe-rosol', 'recipe-schabowy', 'recipe-golabki', 'recipe-pierogi', 'recipe-mizeria', 'recipe-kapusta-zasmażana', 'recipe-buraczki', 'recipe-zeberka', 'recipe-rolada-slaska', 'recipe-schab-pieczony', 'recipe-kaszanka', 'recipe-salatka-jarzynowa', 'recipe-golonka', 'recipe-grochowka', 'recipe-krupnik', 'recipe-szarlotka', 'recipe-napoleonka', 'recipe-klopsy', 'recipe-kluski-kladzione', 'recipe-chalka', 'recipe-pasztet', 'recipe-leczo', 'recipe-jajka-faszerowane', 'recipe-wuzetka', 'recipe-drozdzowka', 'recipe-placek-po-wegiersku', 'recipe-zapiekanka', 'recipe-kaczka', 'recipe-pieczen-rzymska', 'recipe-koperkowa', 'recipe-galareta', 'recipe-marchewka-groszek', 'recipe-fasolka-szparagowa']::text[], array['post-rosol-technik', 'post-polnische-suppen', 'post-pierogi-guide', 'post-gusseisen']::text[], array['aff-cast-iron', 'aff-dutch-oven']::text[], array['occasion-niedziela']::text[], '2026-07-23T11:00:00.000Z', '2026-07-23T11:00:00.000Z') on conflict (id) do update set status = excluded.status, post_type = excluded.post_type, cover_image = excluded.cover_image, silo_ids = excluded.silo_ids, related_recipe_ids = excluded.related_recipe_ids, related_post_ids = excluded.related_post_ids, related_product_ids = excluded.related_product_ids, cluster_ids = excluded.cluster_ids, published_at = excluded.published_at, updated_at = excluded.updated_at;
-insert into public.blog_post_translations (post_id, locale, title, slug, excerpt, body, seo_title, seo_description) values ('post-sonntagsessen', 'de', 'Polnisches Sonntagsessen: Speiseplan & ruhiger Ritus', 'sonntagsessen-polnisch', 'Eine URL für Speise und Ritual: Rosół, Schabowy, Gołąbki oder Pierogi — planbar für den Sonntag in DE.', 'Polnisches Sonntagsessen braucht keinen Drei-Topf-Zwang. Wir wählen einen Mittelpunkt: [Rosół](/de/blog/rosol-richtig-kochen), [Bigos](/de/rezepte/bigos), Schabowy oder [Pierogi](/de/blog/pierogi-rezept) – plus Beilage, Säure, ruhiger Tisch. Hintergrund: [bzfe.de](https://www.bzfe.de), [was-wir-essen.de](https://www.was-wir-essen.de), [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl), [agriculture.ec.europa.eu](https://agriculture.ec.europa.eu).
+insert into public.blog_post_translations (post_id, locale, title, slug, excerpt, body, seo_title, seo_description) values ('post-sonntagsessen', 'de', 'Polnisches Sonntagsessen: Speiseplan & ruhiger Ritus', 'sonntagsessen-polnisch', 'Eine URL für Speise und Ritual: Rosół, Schabowy, Gołąbki oder Pierogi, planbar für den Sonntag in DE.', 'Polnisches Sonntagsessen in Deutschland ist selten eine Kopie des Tisches, an dem wir aufgewachsen sind. Es ist ein Mittag zwischen Kirche oder keinem Gottesdienst, Familienchat, Schichtplan und dem Wunsch, dass der Nachmittag noch zum Spazieren reicht. Der Name meint den Sonntagstisch. Der Brauch meint mehr als ein schweres Fleisch: Wer kommt, wer isst Fleisch, wer bleibt bei Pierogi, wer hat am Samstag noch Arbeit, und wie viel Platz im Kühlschrank bleibt nach dem Einkauf.
 
-## Ein Mittelpunkt
+Dieser Artikel ist der Speiseplan, nicht das Rezeptbuch. Mengen, Garzeiten und die konkrete Schrittfolge stehen in den einzelnen Rezepten. Hier ordnen wir, was zusammengehört, was sich am Vortag vorbereiten lässt und wo Haushalte in der Diaspora bewusst kürzen, ohne den Sonntag zu entwerten. Orientierung zu Hygiene und Kühlkette: [bzfe.de](https://www.bzfe.de) und [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
 
-Ein Gericht trägt; der Rest unterstützt. Entscheidung Freitagabend spart Samstagsstress.
+Historisch trägt der polnische Sonntag oft eine klare Mitte: Brühe, ein Fleisch oder ein Topf, dazu Kartoffel oder Kasza, dazu Säure. In der Diaspora ersetzen wir den Beweisdruck durch einen ruhigen Plan. Ein Gericht, das wirklich fertig wird, schlägt drei Töpfe, die alle um fünfzehn Uhr noch rühren wollen. Der Sonntag gewinnt, wenn der Tisch länger ist als die Gereiztheit in der Küche.
 
+![Sonntagsessen mit klarem Rosół und goldenem Schabowy](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-sonntagsessen/af34ac42-e478-471b-a519-e02f15a74bb4.webp "Ein Mittelpunkt plus Beilage und Säure reicht für einen echten Sonntag.")
 
+## Ein Mittelpunkt, nicht drei Projekte
 
-![Gericht aus der polnischen Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-schabowy/c2614c7e-bc01-4c37-a0b8-45b4c581ec92.webp)
+Wir wählen am Freitagabend, nicht erst am Sonntagmorgen im REWE. Die Mitte kann Brühe sein, ein Topf, ein Ofengericht oder eine Pierogi-Charge aus dem Freezer. Der Rest unterstützt. Wer am selben Vormittag Rosół klärt, Schabowy paniert und Bigos aufsetzt, kocht keinen Festtag, sondern einen Stau.
 
-## Drei Menüs
+Drei Menüs, aus denen eines reicht: Brühe und später ein einfaches Fleisch. Bigos mit Brot und Gurken. [Pierogi Ruskie](/de/rezepte/pierogi/ruskie) mit Zwiebel und Śmietana. Qualität der Pause zwischen Kochen und Sitzen zählt mehr als die Zahl der Töpfe.
 
-1) Rosół + später einfaches Fleisch. 2) Bigos + Brot/Gurken. 3) [Pierogi Ruskie](/de/rezepte/pierogi/ruskie) + Zwiebel/Schmand. Eines wählen.
+Technik zur klaren Brühe: [Rosół richtig kochen](/de/blog/rosol-technik). Überblick zu Füllungen und Alltag: [Pierogi-Guide](/de/blog/pierogi-guide). Der Topf [Bigos](/de/rezepte/bigos) trägt den Tag, wenn er vom Vortag kommt.
 
-## Vorbereitung
+## Zeitplan rückwärts
 
-Brühe/Bigos Vortag; Pierogi Freezer – [Pierogi einfrieren](/de/blog/pierogi-einfrieren). Sonntag = Finish, nicht Marathon.
+Samstag: Spezialitäten im [Polenladen](/de/blog/polenladen-einkaufen), Fleisch vom Metzger, Gurken, Meerrettich, Majoran. REWE und Kaufland tragen Gemüse, Milch, Kartoffeln, Mehl. Sonntag: Frisches minimal, Finish, nicht Marathon.
 
-## Einkauf
+Einen Tag vorher lohnt, was wartet: Brühe, Bigos, Farce, ein Kuchen. Pierogi roh in den Freezer, nicht erst am Sonntagmorgen falten. Die Logik steht im Beitrag [Freezer Meal Prep](/de/blog/freezer-meal-prep). Am Tag selbst erwärmen, anrichten, Surówka oder Mizeria frisch schließen.
 
-Samstag Spezialitäten, Sonntag Frisches minimal. [Polenladen](/de/blog/polenladen-einkaufen).
+Wer am Sonntag um sieben knetet, weil Gäste um zwölf erwartet werden, zahlt mit Gereiztheit. Der Speiseplan gewinnt, wenn der Vormittag noch Luft für einen Spaziergang hat.
 
-## Sonntagsfleisch (Ofen & Schmoren)
+## Brühe als ruhige Mitte
 
-Neben Schabowy lohnen ruhige Fleisch-Mittelpunkte: [Golonka](/de/rezepte/golonka) als geschmorte Haxe am Knochen (klar ≠ Panade, ≠ Rippen, ≠ Ofenschab), [Żeberka pieczone](/de/rezepte/zeberka) aus dem Ofen mit Majeranek-Senf-Marinade, [Schab pieczony](/de/rezepte/schab-pieczony) als Ofenschweinebraten (ohne Panade — klar ≠ Kotlet schabowy), oder [Rolada śląska](/de/rezepte/rolada-slaska) als geschmorte Roulade — klar getrennt von [Zrazy](/de/rezepte/zrazy) (andere Füll-Logik). Kein Eintopf wie Gulasz; hier bleibt der Kulturrahmen für den Sonntag, Mengen und Schritte stehen in den Rezepten. Für den schnelleren Paprika-Tomaten-Topf mit Wurst (Gemüse-dominant, klar ≠ Schweine-Schmor-Gulasz): [Leczo](/de/rezepte/leczo). Placki **mit** Gulasch obenauf: [Placek po węgiersku](/de/rezepte/placek-po-wegiersku) — eigene Rezeptseite; Placki und Gulasz allein bleiben eigene Gerichte.
+Rosół ist keine beliebige Hühnersuppe. Klarheit, Geduld und eine Einlage, die den Teller trägt, machen den Sonntag. Fallnudeln sind [Kluski kładzione](/de/rezepte/kluski-kladzione), Löffelteig, nicht die Muldenform der [Kluski śląskie](/de/rezepte/kluski-slaskie). Wer die Namen mischt, verwirrt Gäste und Kinder.
 
-## Straßenfood-Alltag
+Für vier Personen reicht oft ein Topf vom Samstag, der über Nacht kalt steht. Am Sonntag Fett abheben, erwärmen, Einlage frisch. Wer Gäste nachmeldet, verdünnt nicht mit Wasser aus der Leitung, sondern reicht mehr Brot und eine zweite kleine Beilage.
 
-Schnell überbackenes Baguette mit Pilzen und Käse: [Zapiekanka](/de/rezepte/zapiekanka) — Mengen und Schritte dort; hier bleibt der Kulturrahmen.
+![Klarer Rosół mit Einlage, der Sonntagstopp](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-rosol/58a70d2d-5448-4aae-ad60-d3d35e6140d0.webp "Brühe vom Vortag, Einlage erst am Sonntag. Der Topf darf warten.")
 
-## Beilagen
+## Fleisch, das warten kann
 
-Kartoffeln/Kasza/Brot + Gurke/Salat. Klassisch kalt: [Mizeria](/de/rezepte/mizeria); warm und säuerlich: [Kapusta zasmażana](/de/rezepte/kapusta-zasmażana); warme Rote-Bete-Beilage: [Buraczki](/de/rezepte/buraczki) (≠ Botwinka-Suppe, ≠ Barszcz). Fest- und Buffetsalat mit Mayo-Gemüse: [Sałatka jarzynowa](/de/rezepte/salatka-jarzynowa) — ein anderer Teller als Mizeria. Nicht sechs Salate.
+Neben Schabowy lohnen ruhige Linien aus dem Ofen oder dem Schmortopf. [Golonka](/de/rezepte/golonka) ist geschmorte Haxe am Knochen, keine Panade. [Żeberka pieczone](/de/rezepte/zeberka) kommen aus dem Ofen. [Schab pieczony](/de/rezepte/schab-pieczony) ist Ofenschweinebraten ohne Panade, klar getrennt vom [Kotlet schabowy](/de/rezepte/kotlet-schabowy). [Rolada śląska](/de/rezepte/rolada-slaska) ist die geschmorte Roulade, nicht [Zrazy](/de/rezepte/zrazy) mit anderer Füll-Logik.
 
-## Süßes zum Kaffee
+Das ist kein Eintopf wie Gulasz. Mengen und Schritte stehen in den Rezepten. Für den schnelleren Paprika-Tomaten-Topf mit Wurst, in dem Gemüse führt, bleibt [Leczo](/de/rezepte/leczo). Placki mit Gulasch obenauf sind ein eigener Teller: [Placek po węgiersku](/de/rezepte/placek-po-wegiersku). Placki allein und Gulasz allein bleiben eigene Gerichte.
 
-Ein Blech reicht oft: [Szarlotka](/de/rezepte/szarlotka) als polnischer Apfelkuchen (≠ [Racuchy](/de/rezepte/racuchy-jablka) in der Pfanne). Geflochtener Hefezopf statt Formkuchen: [Chałka](/de/rezepte/chalka) (≠ [Babka](/de/rezepte/babka)). Hier bleibt der Kulturrahmen; Mengen und Schritte stehen im Rezept.
+Wenn der Sonntag kurz ist, trägt [Kaszanka mit Zwiebel](/de/rezepte/kaszanka) aus dem Polenladen. Arten und Qualität der Wurst erklärt das [Kiełbasa-Lexikon](/de/blog/kielbasa-arten), nicht dieser Speiseplan. Hack in Dillsoße sind [Klopsy](/de/rezepte/klopsy), Kugeln in Soße, nicht der panierte [Kotlet mielony](/de/rezepte/kotlet-mielony).
 
-## Aufschnitt: Pasztet
+## Beilagen, klar benannt
 
-Kalte Platte mit Haus-Pastete: [Pasztet drobiowy](/de/rezepte/pasztet) — angeschnitten auf Brot, klar ≠ [Kaszanka](/de/rezepte/kaszanka). Kulturrahmen bleibt dieser Guide.
+Kartoffeln, Kasza oder Brot plus eine Säure. [Mizeria](/de/rezepte/mizeria) ist Gurke mit Śmietana. [Sałatka jarzynowa](/de/rezepte/salatka-jarzynowa) ist der Mayonnaise-Gemüsesalat, ein anderer Teller. Warme, säuerliche Beilage ist [Kapusta zasmażana](/de/rezepte/kapusta-zasmażana). Warme Rote Bete sind [Buraczki](/de/rezepte/buraczki), nicht Botwinka und nicht Barszcz.
 
-## Gäste
+Nicht sechs Schüsseln. Eine kalte Linie plus eine stärkehaltige Beilage tragen den Teller. Śmietana separat reichen, Details im Beitrag [Śmietana und Schmand](/de/blog/smietana-schmand). Gurken aus dem Glas vom Polenladen sind legitim, wenn niemand Zeit zum Ansetzen hat.
 
-Allergien fragen; vegetarische Option; Wasser neben Kompot/Kaffee. Kinderportionen.
+## Topf statt Braten
 
-## Deftige Erbsensuppe
+Wenn die Mitte ein Topf sein soll: [Grochówka](/de/rezepte/grochowka) mit oft Rauchwurst, nicht Fasolka und nicht Kapuśniak. Der Gersten-Nachbar ist [Krupnik](/de/rezepte/krupnik). Bigos vom Vortag plus Brot und Gurke ist ein vollständiger Sonntag, auch wenn niemand eine Pfanne erhitzt.
 
-Wenn der Mittelpunkt ein Topf sein soll: [Grochówka](/de/rezepte/grochowka) — Erbsen mit oft Rauchwurst, klar ≠ Fasolka und ≠ Kapuśniak. Gersten-Nachbar: [Krupnik](/de/rezepte/krupnik). Mengen und Schritte im Rezept; hier bleibt der Sonntags-Rahmen.
+[Zapiekanka](/de/rezepte/zapiekanka) ist Straßenfood, kein Festtagsbeweis. Sie darf den kurzen Sonntag nach der Schicht retten, ohne so zu tun, als sei sie Schabowy.
 
-## Reste
+## Süßes und kalte Platte
 
-Suppe/Bigos oft besser Folgetag. Plan mit Restelogik entlastet Einkauf.
+Ein Blech reicht oft. [Szarlotka](/de/rezepte/szarlotka) ist der Apfelkuchen, nicht [Racuchy](/de/rezepte/racuchy-jablka) aus der Pfanne. Der geflochtene Hefezopf ist [Chałka](/de/rezepte/chalka), nicht [Babka](/de/rezepte/babka). Kalte Platte mit Hauspastete: [Pasztet drobiowy](/de/rezepte/pasztet), angeschnitten auf Brot, nicht [Kaszanka](/de/rezepte/kaszanka).
 
-## Tempo & Atmosphäre
+Backt am Samstag. Hefeteig und Gäste am selben Vormittag überfordern die meisten Wohnungsküchen.
 
-Pünktlich essen > perfekte Garnitur. Arbeit teilen.
+## Einkauf in zwei Touren
 
+Erste Tour: Supermarkt für Gemüse, Kartoffeln, Milch, Mehl, Eier. Zweite Tour: Polenladen für Wurst, Śmietana, Majoran, Gurken, oft bessere Kasza. Listen nach Gericht schreiben. Was für Rosół fehlt, steht auf einer Zeile. Was für die Beilage fehlt, auf der nächsten. So verhindert ihr das zweite Glas Majonnaise, das niemand öffnet.
 
+Geräte nur wenn Nutzung da ist: [Teigmaschine](/de/blog/teigmaschine-pierogi), [Gusseisen](/de/blog/gusseisenpfanne), [Dutch Oven](/de/blog/dutch-oven-kaufberatung). Ein ungenutzter Schmortopf im Schrank füttert kein Sonntagsessen.
 
-![Zubereitung in der Diaspora-Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-rosol/58a70d2d-5448-4aae-ad60-d3d35e6140d0.webp)
+## Arbeit teilen und Gäste
 
-## Geräte
+Eine Person führt den Topf, eine den Tisch, eine die Kinder. In der Diaspora mit Job und Schule ist das keine Schwäche. Kinder können Brotscheiben legen, Kräuter zupfen, den Tisch decken. Am heißen Fett und am rohen Fleisch bleiben Erwachsene.
 
-Optional [Teigmaschine](/de/blog/teigmaschine-pierogi), [Gusseisen](/de/blog/gusseisenpfanne), [Schmortopf](/de/blog/schmortopf-bigos) – nur wenn Nutzung da.
+Allergien und vegetarische Teller früh benennen. Pierogi, Krautgerichte und eine klare Brühe ohne Fleisch können tragen, wenn das vorher gesagt wird. Eine Extra-Show nur für eine Person erschöpft meist alle. Wasser neben Kompot und Kaffee. Alkohol nach Hausbrauch, nicht als Pflicht.
 
-## Saison
+## Reste und der Montag
 
-Winter schmorend; Sommer leichter + Grillwurst-Linie ehrlich. [Kiełbasa](/de/blog/kielbasa-arten).
+Suppe und Bigos schmecken am Folgetag oft runder. Schnell kühlen, klar beschriften, zeitnah essen. Mayonnaise-Salate nicht stundenlang warm. Orientierung: [bzfe.de](https://www.bzfe.de). Wer am Sonntag eine Extra-Charge Brühe einfriert, füttert die Woche. Das ist Diaspora-Logistik, nicht Geiz.
 
-## Schnelle Pfanne: Kaszanka
+Wenn Gäste zu spät kommen, Gerichte wählen, die warten können: Bigos, Brühe separat, Pierogi erst kochen wenn alle da sind. Flexibilität schlägt trockenes Warmhalten auf der Herdplatte.
 
-Wenn der Sonntag kurz ist: [Kaszanka mit Zwiebel](/de/rezepte/kaszanka) aus dem Polenladen — Mengen und Schritte dort; Arten und Qualitätslesen bleiben im Kiełbasa-Lexikon. Passt zu Brot, Kartoffeln oder Kapusta zasmażana, ohne den Mittelpunkt-Plan zu sprengen.
+## Kopplung zu Festen
 
-## Hack in Soße: Klopsy
+Kleine Sonntage bauen Kompetenz für [Wigilia](/de/anlaesse/wigilia) und [Wielkanoc](/de/blog/wielkanoc-speiseplan). Wer im Februar ruhig einen Topf führt, steht im Dezember weniger unter Schock. Die Feste müssen den Sonntag nicht kopieren. Der Sonntag darf üben, ohne so zu tun, als sei er Heiligabend.
 
-Alltag und ruhiger Sonntag: [Klopsy in Dillsoße](/de/rezepte/klopsy) — Kugeln/Pulpety in Soße, klar ≠ panierter [Kotlet mielony](/de/rezepte/kotlet-mielony). Hier bleibt der Kulturrahmen; Mengen und Schritte stehen im Rezept.
-
-## Rosół-Einlage: Kluski kładzione
-
-Zu klarer Brühe passen frische Fallnudeln: [Kluski kładzione](/de/rezepte/kluski-kladzione) — Löffel-Teig, nicht Mulden-[Kluski śląskie](/de/rezepte/kluski-slaskie).
-
-## Budget
-
-Mittelpunkt hochwertig, Beilagen einfach. Food Waste vermeiden.
-
-## Musik/Tisch
-
-Optional ruhig. Smartphones pausieren, wenn gewünscht – ohne Dogma.
-
-## Kopplung Feste
-
-Training für [Wigilia](/de/anlaesse/wigilia)/[Wielkanoc](/de/blog/wielkanoc-speiseplan): kleinere Sonntage bauen Kompetenz.
-
-## Śmietana
-
-Separat reichen – [Śmietana/Schmand](/de/blog/smietana-schmand).
+Deutsche Gäste brauchen oft eine kurze Übersetzung: Rosół ist die klare Brühe, Schabowy das panierte Schnitzel, Bigos der Krauttopf, der besser wird wenn er wartet. Das ist Respekt, nicht Folklore.
 
 ## FAQ
 
-### Was wenn wenig Zeit?
+### Was tun, wenn wenig Zeit bleibt?
 
-Freezer-Pierogi oder aufgewärmter Bigos plus Gurke und Brot. Rosół aus dem Freezer mit frischen Nudeln. Sonntag darf effizient sein und trotzdem polnisch schmecken.
+Freezer-Pierogi oder aufgewärmter Bigos plus Gurke und Brot. Rosół aus dem Freezer mit frischer Einlage. Der Sonntag darf effizient sein und trotzdem polnisch schmecken. Ein ehrlicher kleiner Tisch schlägt fünf halbfertige Gänge.
 
-### Müssen wir Fleisch servieren?
+### Müsst ihr Fleisch servieren?
 
-Nein. Pierogi, Krautgerichte, Pilzlinien können tragen. Ehrlich benennen. Gäste vorher informieren, wenn Erwartung fleischhaltig war.
+Nein. Pierogi, Krautgerichte und Pilzlinien können den Tag tragen. Ehrlich benennen. Gäste vorher informieren, wenn die Erwartung fleischhaltig war. Ein vegetarischer Teller ist Gastfreundschaft, kein Kompromiss an Brauch.
 
-### Wie viele Gänge?
+### Wie viele Gänge braucht ihr?
 
-Oft Suppe + Haupt oder nur Haupt. Drei Gänge nur wenn Energie da. Qualität der Pause zwischen Gängen zählt.
+Oft Suppe und Hauptgericht, oder nur das Hauptgericht. Drei Gänge nur wenn Energie da ist. Die Qualität der Pause zwischen den Tellern zählt mehr als die Zahl der Schüsseln.
 
-### Kinder einbinden?
+### Wie bindet ihr Kinder ein?
 
-Teig ausstechen, Tisch decken, Kräuter zupfen. Keine Zwangsverkostung. Kleine Erfolge bauen Beziehung zur Küche.
+Teig ausstechen, Tisch decken, Kräuter zupfen. Keine Zwangsverkostung. Kleine Erfolge bauen Beziehung zur Küche. Am heißen Öl und am Messer bleiben Erwachsene.
 
-### Alkohol Pflicht?
+### Ist Alkohol Pflicht?
 
-Nein. Wasser und Kompot reichen. Wer trinkt, moderat. Fokus bleibt Essen und Gespräch.
+Nein. Wasser und Kompot reichen. Wer trinkt, moderat. Der Fokus bleibt Essen und Gespräch, nicht die Flasche auf dem Tisch.
 
-### Wie planen mit Schichtarbeit?
+### Wie plant ihr mit Schichtarbeit?
 
-Hauptkochtag verschieben, Freezer nutzen, warmhalten begrenzt. Sonntagsessen ist Rhythmus, nicht Uhrzeitdogma.
+Den Hauptkochtag verschieben, den Freezer nutzen, Warmhalten begrenzen. Sonntagsessen ist ein Rhythmus, kein Uhrzeitdogma. Ein Samstagabend mit Bigos und ein ruhiger Sonntagmittag mit Aufwärmen ist ein vollständiger Brauch.
 
 ## Sonntag als Reset
 
-Einkaufsliste für die Woche während des Kochens schreiben. Brühe extra portionieren. Der Sonntag füttert die Woche – das ist effiziente Diaspora-Logistik.
+Während des Kochens die Einkaufsliste für die Woche schreiben. Brühe extra portionieren. Den Kühlschrank vorher leeren, damit die Reste einen Platz haben. Der Sonntag füttert die Woche, wenn er das darf. Heldentum, das alle erschöpft, ist kein Gewinn an Tradition.', 'Polnisches Sonntagsessen | Speiseplan | Alemniam', 'Polnisches Sonntagsessen planen: Rosół, Schabowy, Gołąbki. Speiseplan und kurzer Ritus, ohne Doppel-Artikel.') on conflict (post_id, locale) do update set title = excluded.title, slug = excluded.slug, excerpt = excluded.excerpt, body = excluded.body, seo_title = excluded.seo_title, seo_description = excluded.seo_description;
+insert into public.blog_post_translations (post_id, locale, title, slug, excerpt, body, seo_title, seo_description) values ('post-sonntagsessen', 'pl', 'Polski obiad niedzielny: menu i spokojny rytuał', 'obiad-niedzielny', 'Jeden adres dla menu i rytuału: rosół, schabowy, gołąbki albo pierogi, planowalnie na niedzielę w DE.', 'Polski obiad niedzielny w Niemczech rzadko jest kopią stołu, przy którym wyrośliśmy. To południe między kościołem albo jego brakiem, rodzinnym czatem, planem zmian i życzeniem, żeby popołudnie jeszcze starczyło na spacer. Nazwa oznacza niedzielny stół. Zwyczaj oznacza więcej niż ciężkie mięso: kto przychodzi, kto je mięso, kto zostaje przy pierogach, kto w sobotę jeszcze pracuje i ile miejsca w lodówce zostaje po zakupach.
 
-## Wenn Gäste zu spät kommen
+Ten artykuł jest planem menu, nie książką przepisów. Ilości, czasy pieczenia i konkretna kolejność kroków są w pojedynczych przepisach. Tutaj porządkujemy, co do siebie pasuje, co da się przygotować dzień wcześniej i gdzie gospodarstwa w diasporze świadomie skracają, bez odbierania niedzieli sensu. Orientacja w higienie i łańcuchu chłodniczym: [bzfe.de](https://www.bzfe.de) oraz [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
 
-Gerichte wählen, die warten können: Bigos, Brühe separat, Pierogi erst kochen wenn alle da. Flexibilität schlägt trockenes Warmhalten.', 'Polnisches Sonntagsessen | Speiseplan | Alemniam', 'Polnisches Sonntagsessen planen: Rosół, Schabowy, Gołąbki. Speiseplan und kurzer Ritus — ohne Doppel-Artikel.') on conflict (post_id, locale) do update set title = excluded.title, slug = excluded.slug, excerpt = excluded.excerpt, body = excluded.body, seo_title = excluded.seo_title, seo_description = excluded.seo_description;
-insert into public.blog_post_translations (post_id, locale, title, slug, excerpt, body, seo_title, seo_description) values ('post-sonntagsessen', 'pl', 'Polski obiad niedzielny: menu i spokojny rytuał', 'obiad-niedzielny', 'Jeden adres dla menu i rytuału: rosół, schabowy, gołąbki albo pierogi — planowalnie na niedzielę w DE.', 'Niedzielny obiad nie musi zaczynać się o siódmej rano, żeby był „prawdziwy”. Dla polskich rodzin w Niemczech najlepszy jest taki rytm, który zostawia czas na odpoczynek, spacer i wspólne siedzenie przy stole.
+Historycznie polska niedziela często niesie jasny środek: wywar, mięso albo garnek, do tego ziemniak albo kasza, do tego kwas. W diasporze zamieniamy presję dowodu na spokojny plan. Jedno danie, które naprawdę zostanie skończone, bije trzy garnki, które o piętnastej wciąż chcą mieszać. Niedziela wygrywa, gdy stół trwa dłużej niż zdenerwowanie w kuchni.
 
-## Formuła trzech elementów
+![Niedzielny obiad z jasnym rosołem i złocistym schabowym](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-sonntagsessen/af34ac42-e478-471b-a519-e02f15a74bb4.webp "Jeden środek plus dodatek i kwas wystarczą na prawdziwą niedzielę.")
 
-My wybieramy jedno danie główne, prosty dodatek i coś świeżego. Może to być [rosół](/pl/rezepte/rosol) oraz pieczone mięso z ziemniakami, pierogi z [mizerią](/pl/rezepte/mizeria), chłodna [sałatka jarzynowa](/pl/rezepte/salatka-jarzynowa) jako majonezowy dodatek bufetowy (inny temat niż mizeria), ciepła [kapusta zasmażana](/pl/rezepte/kapusta-zasmażana), ciepłe [buraczki](/pl/rezepte/buraczki) (dodatek ≠ botwinka-zupa, ≠ barszcz), treściwa [grochówka](/pl/rezepte/grochowka) (groch ≠ fasolka, ≠ kapuśniak), zupa jęczmienna [krupnik](/pl/rezepte/krupnik) albo [bigos](/pl/rezepte/bigos) z chlebem. Na słodko do kawy często wystarczy jedna blacha [szarlotki](/pl/rezepte/szarlotka) (≠ [racuchy](/pl/rezepte/racuchy-jablka) na patelni) albo pleciona [chałka](/pl/rezepte/chalka) (≠ [babka](/pl/rezepte/babka)). Na zimną półmiskę: [pasztet drobiowy](/pl/rezepte/pasztet) — jasno ≠ [kaszanka](/pl/rezepte/kaszanka). Nie potrzebujemy przystawki, dwóch deserów i pięciu misek, aby dom pachniał niedzielą.
+## Jeden środek, nie trzy projekty
 
+Wybieramy w piątkowy wieczór, nie dopiero w niedzielę rano w REWE. Środkiem może być wywar, garnek, danie z pieca albo partia pierogów z zamrażarki. Reszta wspiera. Kto tego samego przedpołudnia klaruje rosół, panieruje schabowego i stawia bigos, nie gotuje święta, tylko korek.
 
+Trzy menu, z których jedno wystarczy: wywar i później proste mięso. Bigos z chlebem i ogórkami. [Pierogi ruskie](/pl/rezepte/pierogi/ruskie) z cebulą i śmietaną. Jakość przerwy między gotowaniem a siedzeniem liczy się mocniej niż liczba garnków.
 
-![Danie z polskiej kuchni](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-schabowy/c2614c7e-bc01-4c37-a0b8-45b4c581ec92.webp)
+Technika jasnego wywaru: [jak ugotować rosół](/pl/blog/jak-ugotowac-rosol). Przegląd farszów i codzienności: [przewodnik po pierogach](/pl/blog/przewodnik-pierogi). Garnek [bigosu](/pl/rezepte/bigos) niesie dzień, gdy przychodzi z wczoraj.
 
-## Mięso niedzielne (piec i duszenie)
+## Harmonogram od tyłu
 
-Obok schabowego warto spokojne mięso: [golonka](/pl/rezepte/golonka) duszona na kości (jasno ≠ panierka, ≠ żeberka, ≠ schab z pieca), [żeberka pieczone](/pl/rezepte/zeberka) z piekarnika (majeranek, musztarda), [schab pieczony](/pl/rezepte/schab-pieczony) jako pieczeń z pieca (bez panierki — jasno ≠ kotlet schabowy) albo [rolada śląska](/pl/rezepte/rolada-slaska) duszona — wyraźnie osobno od [zrazów](/pl/rezepte/zrazy) (inna logika farszu). To nie gulasz w garnku; tutaj zostaje rama niedzieli, ilości i kroki są w przepisach. Na szybszy garnek paprykowo-pomidorowy z kiełbasą (warzywa prowadzą, jasno ≠ gulasz wieprzowy): [leczo](/pl/rezepte/leczo). Talerz złożony: placki **z** gulaszem na wierzchu — [placek po węgiersku](/pl/rezepte/placek-po-wegiersku); osobne przepisy na placki i gulasz zostają osobnymi daniami.
+Sobota: specjalności w [sklepie polskim](/pl/blog/sklep-polski-zakupy), mięso od rzeźnika, ogórki, chrzan, majeranek. REWE i Kaufland niosą warzywa, mleko, ziemniaki, mąkę. Niedziela: świeże minimalnie, wykończenie, nie maraton.
 
-Szybka bagietka z pieczarkami i serem: [zapiekanka](/pl/rezepte/zapiekanka) — ilości i kroki tam; tutaj zostaje rama kulturowa.
+Dzień wcześniej opłaca się to, co czeka: wywar, bigos, farsz, jedno ciasto. Pierogi surowe do zamrażarki, nie składane dopiero w niedzielę rano. Logika stoi w tekście [mrożenie pierogów](/pl/blog/mrozenie-pierogow). W sam dzień podgrzewamy, układamy, surówkę albo mizerię zamykamy na świeżo.
 
-## Szybka patelnia: kaszanka
+Kto w niedzielę o siódmej wyrabia ciasto, bo goście mają być o dwunastej, płaci zdenerwowaniem. Plan menu wygrywa, gdy przedpołudnie ma jeszcze powietrze na spacer.
 
-Gdy niedziela jest krótka: [kaszanka z cebulą](/pl/rezepte/kaszanka) ze sklepu polskiego — ilości i kroki tam; rodzaje i jakość zostają w leksykonie kiełbasy. Pasuje do chleba, ziemniaków lub kapusty zasmażanej, bez rozbijania planu jednego środka ciężkości.
+## Wywar jako spokojny środek
 
-## Mielone w sosie: klopsy
+Rosół nie jest dowolną zupą z kurczaka. Jasność, cierpliwość i dodatek, który niesie talerz, robią niedzielę. Kluski kładzione to [kluski kładzione](/pl/rezepte/kluski-kladzione), ciasto łyżką, nie forma z dziurką jak [kluski śląskie](/pl/rezepte/kluski-slaskie). Kto miesza nazwy, myli gości i dzieci.
 
-Codzienność i spokojna niedziela: [klopsy w sosie koperkowym](/pl/rezepte/klopsy) — kulki/pulpety w sosie, jasno ≠ panierowany [kotlet mielony](/pl/rezepte/kotlet-mielony). Tutaj zostaje rama kulturowa; ilości i kroki są w przepisie.
+Dla czterech osób często wystarczy garnek z soboty, który przez noc stoi zimny. W niedzielę zbieramy tłuszcz, podgrzewamy, dodatek dokładamy świeżo. Gdy goście się dopiszą, nie rozcieńczamy wodą z kranu, tylko dokładamy chleb i drugi, mniejszy dodatek.
 
-## Dodatek do rosołu: kluski kładzione
+![Jasny rosół z dodatkiem, niedzielny garnek](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-rosol/58a70d2d-5448-4aae-ad60-d3d35e6140d0.webp "Wywar z wczoraj, dodatek dopiero w niedzielę. Garnek może poczekać.")
 
-Do jasnego bulionu pasują świeże kluski: [kluski kładzione](/pl/rezepte/kluski-kladzione) — ciasto łyżką, nie knedle z dziurką jak [kluski śląskie](/pl/rezepte/kluski-slaskie).
+## Mięso, które potrafi czekać
 
+Obok schabowego opłacają się spokojne linie z pieca albo z garnka do duszenia. [Golonka](/pl/rezepte/golonka) to duszona golonka na kości, nie panierka. [Żeberka pieczone](/pl/rezepte/zeberka) wychodzą z piekarnika. [Schab pieczony](/pl/rezepte/schab-pieczony) to pieczeń bez panierki, wyraźnie osobno od [kotleta schabowego](/pl/rezepte/kotlet-schabowy). [Rolada śląska](/pl/rezepte/rolada-slaska) to duszona rolada, nie [zrazy](/pl/rezepte/zrazy) z inną logiką farszu.
 
+To nie gulasz w garnku. Ilości i kroki są w przepisach. Na szybszy garnek paprykowo-pomidorowy z kiełbasą, w którym prowadzą warzywa, zostaje [leczo](/pl/rezepte/leczo). Placki z gulaszem na wierzchu to osobny talerz: [placek po węgiersku](/pl/rezepte/placek-po-wegiersku). Placki same i gulasz sam zostają osobnymi daniami.
 
-![Przygotowanie w kuchni diaspory](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-rosol/58a70d2d-5448-4aae-ad60-d3d35e6140d0.webp)
+Gdy niedziela jest krótka, niesie [kaszanka z cebulą](/pl/rezepte/kaszanka) ze sklepu polskiego. Rodzaje i jakość wędlin tłumaczy [leksykon kiełbasy](/pl/blog/rodzaje-kielbasy), nie ten plan menu. Mielone w sosie koperkowym to [klopsy](/pl/rezepte/klopsy), kulki w sosie, nie panierowany [kotlet mielony](/pl/rezepte/kotlet-mielony).
 
-## Podziel pracę w czasie
+## Dodatki, jasno nazwane
 
-W sobotę robimy zakupy, marynatę lub farsz. W niedzielę pieczemy, gotujemy i kroimy świeży dodatek. My wybieramy przepisy odporne na opóźnienie: gulasz może chwilę poczekać, pierogi da się ugotować partiami, a surówkę robimy na końcu. To ważne, gdy goście spóźniają się z innego miasta albo dzieci mają własne tempo.
+Ziemniaki, kasza albo chleb plus jeden kwas. [Mizeria](/pl/rezepte/mizeria) to ogórek ze śmietaną. [Sałatka jarzynowa](/pl/rezepte/salatka-jarzynowa) to majonezowa sałatka warzywna, inny talerz. Ciepły, kwaskowy dodatek to [kapusta zasmażana](/pl/rezepte/kapusta-zasmażana). Ciepłe buraki to [buraczki](/pl/rezepte/buraczki), nie botwinka i nie barszcz.
 
-## Stół dla wszystkich
+Nie sześć misek. Jedna zimna linia plus jeden skrobiowy dodatek niosą talerz. Śmietanę podajemy osobno, szczegóły w tekście [śmietana i Schmand](/pl/blog/smietana-czy-schmand). Ogórki ze słoika ze sklepu polskiego są legalne, gdy nikt nie ma czasu na kiszenie.
 
-Pytamy o alergie, wersję bez mięsa i porcję dla dziecka, zanim garnek stanie na ogniu. Nie robimy z tego wielkiego komunikatu. Zwykła opcja bez ostrych przypraw lub bez grzybów wystarczy, aby każdy czuł się zauważony.
+## Garnek zamiast pieczeni
 
-## FAQ — niedzielny obiad
+Gdy środkiem ma być garnek: [grochówka](/pl/rezepte/grochowka) często z wędzonką, nie fasolka i nie kapuśniak. Sąsiad jęczmienny to [krupnik](/pl/rezepte/krupnik). Bigos z wczoraj plus chleb i ogórek to pełna niedziela, nawet gdy nikt nie rozgrzewa patelni.
 
-### Czy my musimy gotować dwudaniowo?
+[Zapiekanka](/pl/rezepte/zapiekanka) jest jedzeniem ulicznym, nie dowodem święta. Może uratować krótką niedzielę po zmianie, bez udawania, że jest schabowym.
 
-Nie. My czasem robimy tylko sycące pierogi i dobrą surówkę.
+## Słodkie i zimna półmiska
 
-### Jak my unikamy stania w kuchni?
+Jedna blacha często wystarczy. [Szarlotka](/pl/rezepte/szarlotka) to placek jabłkowy, nie [racuchy](/pl/rezepte/racuchy-jablka) z patelni. Pleciony chleb drożdżowy to [chałka](/pl/rezepte/chalka), nie [babka](/pl/rezepte/babka). Zimna półmiska z domowym pasztetem: [pasztet drobiowy](/pl/rezepte/pasztet), pokrojony na chleb, nie [kaszanka](/pl/rezepte/kaszanka).
 
-My przygotowujemy jeden element dzień wcześniej i wybieramy dania, które nie tracą jakości po krótkim czekaniu.
+Pieczemy w sobotę. Ciasto drożdżowe i goście tego samego przedpołudnia przeciążają większość kuchni w mieszkaniu.
 
-### Czy my zapraszamy bez perfekcyjnego mieszkania?
+## Zakupy w dwóch turach
 
-Tak. My zapraszamy ludzi do stołu, nie do katalogu wnętrz.', 'Polski obiad niedzielny | Menu | Alemniam', 'Polski obiad niedzielny: rosół, schabowy, gołąbki. Menu i krótki rytuał — bez podwójnych artykułów.') on conflict (post_id, locale) do update set title = excluded.title, slug = excluded.slug, excerpt = excluded.excerpt, body = excluded.body, seo_title = excluded.seo_title, seo_description = excluded.seo_description;
+Pierwsza tura: supermarket po warzywa, ziemniaki, mleko, mąkę, jajka. Druga tura: sklep polski po kiełbasę, śmietanę, majeranek, ogórki, często lepszą kaszę. Listy piszemy według dania. Czego brakuje do rosołu, stoi w jednym wierszu. Czego brakuje do dodatku, w następnym. Tak unikamy drugiego słoika majonezu, którego nikt nie otwiera.
+
+Sprzęt tylko wtedy, gdy naprawdę jest używany: [robot do ciasta](/pl/blog/robot-do-ciasta-pierogi), [żeliwo](/pl/blog/patelnia-zelivna), [garnek do duszenia](/pl/blog/garnek-do-duszenia). Nieużywany garnek w szafce nie karmi niedzieli.
+
+## Podział pracy i goście
+
+Jedna osoba prowadzi garnek, jedna stół, jedna dzieci. W diasporze z pracą i szkołą to nie słabość. Dzieci mogą kłaść kromki, zrywać zioła, nakrywać stół. Przy gorącym tłuszczu i surowym mięsie zostają dorośli.
+
+Alergie i talerz bez mięsa nazywamy wcześnie. Pierogi, dania z kapusty i jasny wywar bez mięsa mogą nieść dzień, jeśli powiemy to wcześniej. Osobny spektakl tylko dla jednej osoby zwykle męczy wszystkich. Woda obok kompotu i kawy. Alkohol według domu, nie jako obowiązek.
+
+## Resztki i poniedziałek
+
+Zupa i bigos następnego dnia często smakują pełniej. Szybko chłodzimy, jasno opisujemy, jemy wkrótce. Sałatek majonezowych nie trzymamy godzinami w cieple. Orientacja: [bzfe.de](https://www.bzfe.de). Kto w niedzielę mrozi dodatkową porcję wywaru, karmi tydzień. To logistyka diaspory, nie skąpstwo.
+
+Gdy goście się spóźniają, wybieramy dania, które potrafią czekać: bigos, wywar osobno, pierogi gotujemy dopiero gdy wszyscy są. Elastyczność bije suche trzymanie na płycie.
+
+## Sprzężenie ze świętami
+
+Małe niedziele budują kompetencję na [Wigilię](/pl/anlaesse/wigilia) i [Wielkanoc](/pl/blog/menu-wielkanocne). Kto w lutym spokojnie prowadzi garnek, w grudniu stoi pod mniejszym szokiem. Święta nie muszą kopiować niedzieli. Niedziela może ćwiczyć, bez udawania, że jest wigilią.
+
+Niemieccy goście często potrzebują krótkiego tłumaczenia: rosół to jasny wywar, schabowy to panierowany kotlet, bigos to garnek z kapusty, który smakuje lepiej, gdy poczeka. To szacunek, nie folklor.
+
+## FAQ
+
+### Co zrobić, gdy czasu jest mało?
+
+Pierogi z zamrażarki albo podgrzany bigos plus ogórek i chleb. Rosół z zamrażarki ze świeżym dodatkiem. Niedziela może być sprawna i nadal smakować po polsku. Uczciwy mały stół bije pięć niedokończonych dań.
+
+### Czy musimy podawać mięso?
+
+Nie. Pierogi, dania z kapusty i linie grzybowe mogą nieść dzień. Nazywamy to uczciwie. Gości informujemy wcześniej, gdy oczekiwanie było mięsne. Talerz wegetariański jest gościnnością, nie kompromisem zwyczaju.
+
+### Ile dań potrzeba?
+
+Często zupa i danie główne, albo tylko danie główne. Trzy dania tylko gdy jest energia. Jakość przerwy między talerzami liczy się mocniej niż liczba misek.
+
+### Jak wciągnąć dzieci?
+
+Wykrawać ciasto, nakrywać stół, zrywać zioła. Bez przymusowego smakowania. Małe sukcesy budują relację z kuchnią. Przy gorącym oleju i nożu zostają dorośli.
+
+### Czy alkohol jest obowiązkowy?
+
+Nie. Woda i kompot wystarczą. Kto pije, umiarkowanie. Środek zostaje jedzenie i rozmowa, nie butelka na stole.
+
+### Jak planować przy pracy zmianowej?
+
+Główny dzień gotowania przesuwamy, używamy zamrażarki, trzymanie w cieple ograniczamy. Obiad niedzielny jest rytmem, nie dogmatem godziny. Sobotni wieczór z bigosem i spokojne niedzielne południe z podgrzaniem to pełny zwyczaj.
+
+## Niedziela jako reset
+
+W trakcie gotowania piszemy listę zakupów na tydzień. Wywar porcjujemy dodatkowo. Lodówkę wcześniej opróżniamy, żeby resztki miały miejsce. Niedziela karmi tydzień, gdy jej na to pozwolimy. Bohaterstwo, które wszystkich męczy, nie jest zyskiem tradycji.', 'Polski obiad niedzielny | Menu | Alemniam', 'Polski obiad niedzielny: rosół, schabowy, gołąbki. Menu i krótki rytuał, bez podwójnych artykułów.') on conflict (post_id, locale) do update set title = excluded.title, slug = excluded.slug, excerpt = excluded.excerpt, body = excluded.body, seo_title = excluded.seo_title, seo_description = excluded.seo_description;
 
 commit;

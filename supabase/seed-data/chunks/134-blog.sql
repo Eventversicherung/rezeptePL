@@ -4,139 +4,195 @@ begin;
 
 -- blog:post-ersatzprodukte-de
 insert into public.blog_posts (id, status, post_type, cover_image, silo_ids, related_recipe_ids, related_post_ids, related_product_ids, cluster_ids, published_at, updated_at) values ('post-ersatzprodukte-de', 'published', 'diaspora', 'https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-ersatzprodukte-de/7109608a-9b52-4c63-8abb-84d3dacb8430.webp', array['diaspora']::text[], array['recipe-pierogi', 'recipe-nalesniki', 'recipe-bigos', 'recipe-zurek', 'recipe-makaron-z-serem', 'recipe-makaron-z-makiem', 'recipe-szarlotka', 'recipe-szczawiowa', 'recipe-kutia', 'recipe-napoleonka', 'recipe-cwikla', 'recipe-wuzetka', 'recipe-drozdzowka', 'recipe-zapiekanka', 'recipe-pieczen-rzymska', 'recipe-kisiel', 'recipe-salatka-sledziowa', 'recipe-marchewka-groszek', 'recipe-fasolka-szparagowa']::text[], array['post-polenladen', 'post-twarog', 'post-smietana-schmand', 'post-kielbasa-arten']::text[], '{}'::text[], '{}'::text[], '2026-07-22T11:00:00.000Z', '2026-07-22T11:00:00.000Z') on conflict (id) do update set status = excluded.status, post_type = excluded.post_type, cover_image = excluded.cover_image, silo_ids = excluded.silo_ids, related_recipe_ids = excluded.related_recipe_ids, related_post_ids = excluded.related_post_ids, related_product_ids = excluded.related_product_ids, cluster_ids = excluded.cluster_ids, published_at = excluded.published_at, updated_at = excluded.updated_at;
-insert into public.blog_post_translations (post_id, locale, title, slug, excerpt, body, seo_title, seo_description) values ('post-ersatzprodukte-de', 'de', 'Polnische Zutaten ersetzen in Deutschland', 'ersatzprodukte-de', 'Wenn der Polenladen zu weit ist: sinnvolle Ersatzprodukte für Twaróg, Kapusta, Śmietana und mehr — ohne Geschmack zu zerstören.', 'Ersatzprodukte sind sinnvoll, wenn sie Funktion und Geschmack respektieren. Wir suchen nicht die identische Verpackung, sondern Säure, Trockenheit, Struktur oder Röstaroma. So bleibt polnische Küche in DE machbar, ohne beliebig zu werden. Orientierung: [bzfe.de](https://www.bzfe.de), [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl), [agriculture.ec.europa.eu](https://agriculture.ec.europa.eu), [was-wir-essen.de](https://www.was-wir-essen.de). Spezielles holen wir im [Polenladen](/de/blog/polenladen-einkaufen).
+insert into public.blog_post_translations (post_id, locale, title, slug, excerpt, body, seo_title, seo_description) values ('post-ersatzprodukte-de', 'de', 'Polnische Zutaten ersetzen in Deutschland', 'ersatzprodukte-de', 'Wenn der Polenladen zu weit ist: sinnvolle Ersatzprodukte für Twaróg, Kapusta, Śmietana und mehr, ohne Geschmack zu zerstören.', 'Ersatzprodukte in Deutschland sind keine Niederlage der Tradition. Sie sind Teil einer Küche, die zwischen Job, Entfernung zum [Polenladen](/de/blog/polenladen-einkaufen) und einem Kühlschrank funktioniert, der nicht jede Spezialität gleichzeitig halten kann. Wir suchen nicht die identische Verpackung. Wir suchen Säure, Trockenheit, Struktur oder Röstaroma. So bleibt polnische Küche machbar, ohne beliebig zu werden.
 
-## Prinzip
+Dieser Text ist Diaspora-Guide, nicht Rezept. Mengen bleiben in den Gerichten. Hier ordnen wir, welche Funktion ihr ersetzen dürft, wo ein anderer Name ehrlich ist und wann die bessere Entscheidung ein anderes Gericht ist. Orientierung zu Lebensmitteln: [bzfe.de](https://www.bzfe.de) und [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl). Zur Milchseite: [Śmietana und Schmand](/de/blog/smietana-schmand). Zur Wurst: [Kiełbasa-Arten](/de/blog/kielbasa-arten). Zu Quark: [Twaróg](/de/blog/twarog-deutschland).
 
-Funktion klären → Kandidaten testen → notieren. Etikett „polnisch“ ist kein Qualitätsbeweis.
+Historisch war polnische Hausküche immer Ersatzküche: was da war, wurde genutzt, was fehlte, wurde umgedeutet. Die Diaspora in Deutschland macht dasselbe, nur mit anderen Regalen. REWE und Kaufland tragen Menge. Der Polenladen trägt Charakter. Online trägt Trockenes. Frisches Fleisch und frischen Käse prüfen wir lieber lokal. Wer Funktion ersetzt, kocht weiter. Wer nur Etiketten jagt, kocht selten.
 
+![Surówka und Alltagskraut: zuerst kosten, dann entscheiden, ob die Säure trägt](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-surowka/59d2b015-2967-4fcf-bc23-53afe6dbb174.webp "Funktion ersetzen: Säure, Struktur, Fett. Nicht das Wort auf der Packung.")
 
+## Prinzip: Funktion klären, dann testen
 
-![Gericht aus der polnischen Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-surowka/59d2b015-2967-4fcf-bc23-53afe6dbb174.webp)
+Zuerst die Arbeit benennen. Twaróg soll trocken, körnig, leicht säuerlich sein. Zakwas soll getreidig säuern. Kapusta soll Spannung bringen, nicht nur nasses Kraut. Śmietana soll abrunden oder kalt frisch bleiben. Kiełbasa soll braten, mitkochen oder Rauch geben. Mehl soll Teig tragen.
 
-## Twaróg
+Dann Kandidaten in kleiner Menge. Ein Pieróg, eine Kelle Suppe, ein kleines Stück Füllung. Das schützt den ganzen Abend. Eine Variable pro Durchgang. Wer gleichzeitig neuen Quark, neues Mehl und neue Wurst testet, weiß hinterher nichts. Notiz: Marke, Menge, Ergebnis. Der nächste Einkauf wird datenbasiert.
 
-Für [Pierogi Ruskie](/de/rezepte/pierogi/ruskie): abgeseihter Quark, nicht Frischkäse. Details: [Twaróg Guide](/de/blog/twarog-deutschland). Dieselbe Logik für [Makaron z serem](/de/rezepte/makaron-z-serem) — Pasta+Quark, nicht Frischkäse.
+Das Etikett „polnisch“ ist kein Qualitätsbeweis. Eine deutsche Marke mit der richtigen Funktion schlägt eine müde Importware. Eine Importware mit kurzer Liste und frischem Datum schlägt eine deutsche Mischung, die nach Zucker und Aroma schreit. Sinne zuerst.
 
-## Zakwas
+## Twaróg und die trockene Struktur
 
-Kein Essig-1:1 für [Żurek](/de/rezepte/zurek). Kaufglas oder Selbstansatz – [Zakwas](/de/blog/zakwas-zurek).
+Für [Pierogi Ruskie](/de/rezepte/pierogi/ruskie) und [Makaron z serem](/de/rezepte/makaron-z-serem) brauchen wir abgeseihten Quark, nicht Frischkäse. Frischkäse ist streichfähig und fettig. Er macht eine Füllung, die läuft, und eine Pasta, die klebt. Speisequark abseihen, Zeit geben, kosten. Details: [Twaróg in Deutschland](/de/blog/twarog-deutschland).
 
-## Kapusta
+Nasser Quark ist teures Wasser. Trockenmasse und Ausschuss mitrechnen. Ein günstiger Becher, der zur Hälfte in den Ausguss geht, ist nicht günstig. Körniger Magerquark plus etwas Fett aus der Füllungslogik ist oft ehrlicher als ein „cremiger“ Frischkäse, der polnisch aussehen soll.
 
-Mildes DE-Sauerkraut selbst nachwürzen oft besser als süßliche Fertigmischung. Zu Bigos: [Bigos](/de/blog/bigos).
+Wenn Quark nicht trocken wird, ist die ehrliche Antwort manchmal ein anderes Gericht: Kartoffelpfanne, [Naleśniki](/de/blog/nalesniki-guide) mit einer anderen Füllung, nicht Ruskie unter falschem Namen.
 
-## Pilze
+## Zakwas, Kapusta, Pilze
 
-Gute getrocknete Steinpilze/Mischpilze statt Instant-Aroma. Einweichwasser absieben und nutzen.
+Zakwas ist kein Essig 1:1 für [Żurek](/de/rezepte/zurek). Essig säuert ohne Fermentgetreide. Kaufglas oder Selbstansatz: [Zakwas-Lexikon](/de/blog/zakwas-zurek). Wenn beides fehlt, kochen wir [Rosół](/de/blog/rosol-technik) oder eine andere Suppe und nennen sie ehrlich. Żurek ohne Zakwas ist eine andere Schüssel.
 
-## Kiełbasa
+Kapusta aus dem deutschen Regal darf tragen, wenn die Säure stimmt. Mildes Sauerkraut selbst nachwürzen ist oft besser als eine süßliche Fertigmischung. Zu scharf: kurz spülen, nicht auswaschen. Zu zahm: andere Marke oder Anteil aus dem [Kiszenie-Guide](/de/blog/kiszenie-guide). Für [Bigos](/de/blog/bigos-guide) gilt: Säure kosten, nicht mit Zucker zudecken. Eine Charge, die nach Essig schreit, wird kein runder Topf.
 
-Gute DE-Wurst ehrlicher als schwache Importbilligware – [Kiełbasa-Arten](/de/blog/kielbasa-arten).
+Getrocknete Pilze sind Tiefe, nicht Instant-Aroma. Steinpilze oder eine gute Mischung einweichen, Flüssigkeit prüfen, absieben, nutzen. Trübe, staubige, muffige Ware nicht retten. Pilzpulver aus dem Gewürzregal ersetzt das Einweicharoma nicht. Wer keine Pilze hat, kocht einen ehrlichen Topf ohne diese Schicht, statt eine Würze zu simulieren, die nach keiner Waldnote riecht.
 
-## Śmietana
+## Kiełbasa, Śmietana, Mehl
 
-Schmand/saure Sahne/Crème nach Funktion – [Śmietana/Schmand](/de/blog/smietana-schmand).
+Eine gute deutsche Wurst mit kurzer Liste ist ehrlicher als schwache Importbilligware. Welche Arbeit die Wurst tun soll, erklärt das [Kiełbasa-Lexikon](/de/blog/kielbasa-arten). Für Bigos fest und aromatisch, für Żurek eher biała oder eine milde kochfeste Linie. Kunstrauch ist kein Traditionssiegel.
 
-## Mehl/Teig
+Śmietana ersetzen wir nach Funktion: Schmand, saure Sahne oder Crème fraîche. Nicht nach dem schönsten Wort auf dem Becher. Temperieren, dosieren, oft auf den Teller statt in den tobenden Topf. Der Beitrag [Śmietana und Schmand](/de/blog/smietana-schmand) trägt die Matrix. Joghurt kann kalt helfen. In heiße Suppe ohne Temperieren gehört er nicht.
 
-Type 405/550 statt „Spezialmehl“-Mythos – [Pierogi-Teig](/de/blog/pierogi-teig).
+Mehl für Pierogi ist in Deutschland selten das Problem, das Foren daraus machen. Type 405 oder 550, Wasser beobachten, Teig ruhen lassen. Der Mythos vom unersetzbaren Spezialmehl kostet Fahrten und erklärt selten den Riss im Teig. Technik: [Pierogi-Teig](/de/blog/pierogi-teig). Hydration und Ruhe schlagen das Etikett.
 
-## Wann nicht tricksen
+![Vorräte und ehrliche Alternativen auf der Arbeitsplatte einer Diaspora-Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-ersatzprodukte-de/7109608a-9b52-4c63-8abb-84d3dacb8430.webp "Haltbares stapeln, Frisches prüfen, eine Variable pro Test.")
 
-Zakwas≠Essig; Qualität≠Rauchsalz; Twaróg≠Frischkäse; Ferment≠Zuckerdecke.
+## Wann wir nicht tricksen
 
+Zakwas ist nicht Essig. Twaróg ist nicht Frischkäse. Qualität ist nicht Rauchsalz. Ferment ist nicht eine Zuckerdecke auf zahmem Kraut. An diesen Stellen verändert der falsche Ersatz Struktur und Kultur des Gerichts. Lieber ein anderes Gericht als ein gefälschter Charakter.
 
+Kritische Zutaten für Festtage früh sichern. Experimente nicht am 24. Dezember und nicht am Ostersonntagmorgen. [Wigilia](/de/blog/wigilia-speiseplan) und [Wielkanoc](/de/blog/wielkanoc-speiseplan) tragen, wenn die Kernzutaten schon entschieden sind. Unter der Woche darf getestet werden. Am Festtag wird wiederholt, was ihr kennt.
 
-![Zubereitung in der Diaspora-Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-ersatzprodukte-de/7109608a-9b52-4c63-8abb-84d3dacb8430.webp)
+Allergien und vegetarische Linien ehrlich benennen. Ein Bigos ohne Fleisch ist ein anderes Gericht, möglich, aber angesagt. Ein Żurek ohne Wurst bleibt Żurek, wenn Zakwas trägt. Gäste vorher informieren.
 
-## Testprotokoll
+## Testprotokoll, Kosten, Vorrat
 
-Kleine Menge, ein Gericht, Notiz zu Marke/Menge/Ergebnis. Nächster Einkauf datenbasiert.
+Kleine Menge, ein Gericht, Notiz. Zwei Marken an einem Tag überfordern. Wiederholung bestätigt Zufallstreffer. Küchenheft oder Notizapp: Gericht, Marke, Fettstufe oder Trockenheit, Urteil. Das wird zur privaten Ersatzdatenbank und spart Geld.
 
-## Kosten
+Ersatz kann günstiger oder teurer sein. Trockenmasse, Ausschuss und die Fahrt zum Laden mitrechnen. Ein Polenladen-Tag, der fünf haltbare richtige Dinge holt, ist effizient. Eine Fahrt für ein Glas, das ihr nicht braucht, ist es nicht. Trockene Ware darf online kommen. Milch und Fleisch prüfen wir lieber vor Ort.
 
-Ersatz kann günstiger oder teurer sein – Trockenmasse und Ausschuss mitrechnen (nasser Quark = teures Wasser).
+Vorrat: haltbare gute Ersatz stapeln, Frisches zeitnah. Freezer für Pierogi, Brühe, Bigos. Der [Freezer-Guide](/de/blog/freezer-meal-prep) trägt die Logistik, dieser Text die Zutatenlogik. Beschriften, flach kühlen, gründlich erhitzen. Orientierung: [bzfe.de](https://www.bzfe.de).
 
-## Festtage
+Sprache am Tisch: wir sagen, was im Topf ist. Partner und Gäste schätzen Klarheit mehr als Theater um „authentisch“. Authentizität liegt in Sorgfalt.
 
-Kritische Zutaten früh sichern, Experimente nicht am 24.12. oder Ostersonntag morgen.
+## Wenn nichts passt
 
-## Allergien/Ernährung
+Manchmal ist die Antwort ein anderes Gericht. Rosół statt Żurek, wenn Zakwas fehlt. Kartoffelpfanne statt Ruskie, wenn Quark nicht trocken wird. Ein ruhiger [Sonntag](/de/blog/sonntagsessen-polnisch) mit dem, was da ist, schlägt ein erzwungenes Festtagsgericht unter der Woche. Flexible Küche ist Stärke, nicht Verrat.
 
-Ersatz kommunizieren. Vegetarische Linien ehrlich benennen.
-
-## Vorrat
-
-Haltbare gute Ersatz stapeln; Frisches zeitnah. Freezer für Pierogi/Brühe/Bigos.
+Deutsche Gäste brauchen oft einen Satz: wir ersetzen Funktion, nicht Folklore. Das Gericht bleibt gut, wenn Säure, Struktur und Hitze stimmen. Der Name darf ehrlich kürzer sein.
 
 ## FAQ
 
 ### Was dürfen wir bedenkenlos ersetzen?
 
-Viele Basics: Mehltypen, Gemüse, Butter, milde Kapusta nachgewürzt, Schmand statt Śmietana je nach Funktion. Kritisch bleiben Zakwas und trockener Twaróg. Funktionstest schlägt Hoffnung auf dem Etikett.
+Viele Basics: Mehltypen, Gemüse, Butter, milde Kapusta nachgewürzt, Schmand statt Śmietana je nach Funktion. Eine solide deutsche Wurst statt schwacher Importware. Kritisch bleiben Zakwas und trockener Twaróg. Der Funktionstest schlägt Hoffnung auf dem Etikett.
 
-### Schlechtester Ersatz-Fehler?
+### Was ist der schlechteste Ersatz-Fehler?
 
-Essig in Żurek als Zakwas ausgeben und Frischkäse in Ruskie. Beides verändert Struktur und Kultur des Gerichts. Lieber anderes Gericht kochen als Charakter fälschen.
+Essig in Żurek als Zakwas ausgeben und Frischkäse in Ruskie. Beides verändert Struktur und Kultur. Lieber ein anderes Gericht kochen, als den Charakter zu fälschen. Rauchsalz statt Wurst und Zucker statt Kapusta-Säure gehören in dieselbe Liste.
 
 ### Wie testen wir fair?
 
-Gleiche Rezeptbasis, nur eine Zutat tauschen, blind oder mit Notiz kosten. Mengen notieren. Zwei Marken an einem Tag überfordern. Wiederholung bestätigt Zufallstreffer.
+Gleiche Rezeptbasis, nur eine Zutat tauschen, mit Notiz kosten. Mengen notieren. Zwei Marken an einem Tag überfordern. Eine Wiederholung in der nächsten Woche bestätigt, ob der Treffer Zufall war. Blind vergleichen hilft, Nostalgie zu entlasten.
 
-### Polenladen noch nötig?
+### Brauchen wir den Polenladen noch?
 
-Oft ja für Fermente, Twaróg, Pilze, bestimmte Wurst – nicht für jedes Gemüse. Hybrid-Einkauf ist effizient. Guide Polenladen nutzen.
+Oft ja für Fermente, Twaróg, getrocknete Pilze, bestimmte Wurst. Nicht für jedes Gemüse und nicht für jedes Mehl. Hybrid-Einkauf ist effizient. Listen nach Gericht schreiben, nicht nach Regal. Guide: [Polenladen](/de/blog/polenladen-einkaufen).
 
-### Sind Fertigmischungen ok?
+### Sind Fertigmischungen in Ordnung?
 
-Manchmal als Notlösung, oft zu süß/salzig/aromatisiert. Zutatenliste lesen. Für Gäste eher selbst würzen. Qualität der Basis bleibt sichtbar.
+Manchmal als Notlösung, oft zu süß, zu salzig, zu aromatisiert. Zutatenliste lesen. Für Gäste eher selbst würzen. Die Qualität der Basis bleibt sichtbar. Eine Mischung, die nach keiner der Ausgangszutaten schmeckt, ist kein Gewinn an Zeit, wenn der Topf enttäuscht.
 
-### Wie dokumentieren?
+### Wie dokumentieren wir, ohne Bürokratie?
 
-Küchenheft oder Notizapp: Gericht, Marke, Fettstufe/Menge, Urteil. Das wird zur privaten Ersatzdatenbank der Diaspora-Küche und spart Geld.
+Ein Heft oder eine Notizapp: Gericht, Marke, Fettstufe oder Trockenheit, kurzes Urteil. Drei Zeilen reichen. Das ist die private Datenbank der Diaspora-Küche. Sie spart die nächste Fahrt und den nächsten Becher, der wieder nicht passt.
 
-## Ersatz und Sprache am Tisch
+## Ohne Scham, mit einer ehrlichen Lücke
 
-Wir sagen ehrlich, was im Topf ist. Partner:innen und Gäste schätzen Klarheit mehr als Theater um „authentisch“. Authentizität liegt in Sorgfalt, nicht im Schriftzug.
+Abgeseihter Quark, deutscher Schmand, milde Kapusta und eine ruhige Wurst sind in Ordnung, wenn die Funktion trägt. Heldentum mit fünf Importgläsern, die niemand braucht, ist kein Gewinn an Brauch. Vorher die Arbeit benennen, klein testen, am Festtag wiederholen. Logistik gehört zum Ersatz, nicht erst zur Entschuldigung am Tisch.', 'Polnische Zutaten ersetzen DE | Alternativen | Alemniam', 'Ersatzprodukte für polnische Küche in DE: Twaróg, Kapusta, Śmietana, Kiełbasa. Funktion zuerst, dann Produkt.') on conflict (post_id, locale) do update set title = excluded.title, slug = excluded.slug, excerpt = excluded.excerpt, body = excluded.body, seo_title = excluded.seo_title, seo_description = excluded.seo_description;
+insert into public.blog_post_translations (post_id, locale, title, slug, excerpt, body, seo_title, seo_description) values ('post-ersatzprodukte-de', 'pl', 'Zamienniki polskich składników w Niemczech', 'zamienniki-skladnikow', 'Gdy sklep polski jest daleko: sensowne zamienniki twarogu, kapusty, śmietany i więcej, bez psucia smaku.', 'Zamienniki w Niemczech nie są porażką tradycji. Są częścią kuchni, która działa między pracą, odległością do [sklepu polskiego](/pl/blog/sklep-polski-zakupy) i lodówką, która nie uniesie każdej specjalności naraz. Nie szukamy identycznego opakowania. Szukamy kwasu, suchości, struktury albo rumienia. Tak polska kuchnia zostaje wykonalna, bez stawania się dowolną.
 
-## Wenn nichts passt
+Ten tekst jest przewodnikiem diaspory, nie przepisem. Ilości zostają w daniach. Tutaj porządkujemy, którą funkcję wolno zastąpić, gdzie inna nazwa jest uczciwa i kiedy lepszą decyzją jest inne danie. Orientacja w żywności: [bzfe.de](https://www.bzfe.de) oraz [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl). Strona mleczna: [śmietana i Schmand](/pl/blog/smietana-czy-schmand). Kiełbasa: [rodzaje kiełbasy](/pl/blog/rodzaje-kielbasy). Ser: [twaróg](/pl/blog/twarog-w-niemczech).
 
-Manchmal ist die Antwort: anderes Gericht. Rosół statt Żurek, wenn Zakwas fehlt. Kartoffelpfanne statt Ruskie, wenn Quark nicht trocken wird. Flexible Küche ist Stärke.', 'Polnische Zutaten ersetzen DE | Alternativen | Alemniam', 'Ersatzprodukte für polnische Küche in DE: Twaróg, Kapusta, Śmietana, Kiełbasa. Funktion zuerst, dann Produkt.') on conflict (post_id, locale) do update set title = excluded.title, slug = excluded.slug, excerpt = excluded.excerpt, body = excluded.body, seo_title = excluded.seo_title, seo_description = excluded.seo_description;
-insert into public.blog_post_translations (post_id, locale, title, slug, excerpt, body, seo_title, seo_description) values ('post-ersatzprodukte-de', 'pl', 'Zamienniki polskich składników w Niemczech', 'zamienniki-skladnikow', 'Gdy sklep polski jest daleko: sensowne zamienniki twarogu, kapusty, śmietany i więcej — bez psucia smaku.', 'Zamienniki w Niemczech nie są porażką tradycji. Są częścią rozsądnego gotowania, gdy sklep polski jest daleko, produkt zniknął z półki albo chcemy ugotować obiad dziś, a nie po dwugodzinnej wyprawie.
+Historycznie polska kuchnia domowa zawsze była kuchnią zamienników: co było, szło do użytku, czego brakowało, dostawało nowe znaczenie. Diaspora w Niemczech robi to samo, tylko z innymi półkami. REWE i Kaufland niosą ilość. Sklep polski niesie charakter. Internet niesie suche. Świeże mięso i świeży ser wolimy sprawdzać lokalnie. Kto zastępuje funkcję, gotuje dalej. Kto goni tylko etykiety, gotuje rzadko.
 
-## Zamieniaj funkcję, nie tylko nazwę
+![Surówka i codzienna kapusta: najpierw próbujemy, potem decydujemy, czy kwas niesie](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-surowka/59d2b015-2967-4fcf-bc23-53afe6dbb174.webp "Zastępujemy funkcję: kwas, strukturę, tłuszcz. Nie słowo na opakowaniu.")
 
-Twaróg zastępujemy odsączonym Quarkiem, bo szukamy zwartej, lekko kwaśnej struktury do [pierogów ruskich](/pl/rezepte/pierogi/ruskie) i do [makaronu z serem](/pl/rezepte/makaron-z-serem). Polską śmietanę dopasowujemy Schmandem albo saure Sahne, zależnie od temperatury dania. Mąkę do pierogów wybieramy 405 lub 550, obserwując wodę. Kapustę kiszoną kupujemy lokalnie tylko po próbie smaku; jeśli jest zbyt słodka, nie uratuje jej sama ilość majeranku.
+## Zasada: nazwać funkcję, potem testować
 
+Najpierw nazywamy pracę. Twaróg ma być suchy, ziarnisty, lekko kwaśny. Zakwas ma kwasić zbożowo. Kapusta ma dawać napięcie, nie tylko mokrą masę. Śmietana ma zaokrąglić albo zostać zimno świeża. Kiełbasa ma smażyć się, gotować się albo dać dym. Mąka ma nieść ciasto.
 
+Potem kandydaci w małej ilości. Jeden pieróg, jedna chochla zupy, mały kawałek farszu. To chroni cały wieczór. Jedna zmienna na rundę. Kto naraz testuje nowy twaróg, nową mąkę i nową kiełbasę, nie wie potem nic. Notatka: marka, ilość, wynik. Następne zakupy idą na danych.
 
-![Danie z polskiej kuchni](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-surowka/59d2b015-2967-4fcf-bc23-53afe6dbb174.webp)
+Etykieta „polskie” nie jest dowodem jakości. Niemiecka marka z właściwą funkcją bije zmęczony import. Import z krótką listą i świeżą datą bije niemiecką mieszankę, która krzyczy cukrem i aromatem. Najpierw zmysły.
 
-## Testuj małą porcję
+## Twaróg i sucha struktura
 
-My przy nowym produkcie gotujemy jeden pieróg, jedną chochlę zupy albo mały kawałek farszu. To zabezpiecza cały obiad. Zmiennik może mieć więcej wody, soli czy tłuszczu, dlatego przepis traktujemy jako punkt wyjścia. Właśnie w ten sposób powstaje własna, niemiecko-polska wiedza kuchni.
+Do [pierogów ruskich](/pl/rezepte/pierogi/ruskie) i [makaronu z serem](/pl/rezepte/makaron-z-serem) potrzebujemy odsączonego Quarku, nie serek śmietankowy. Serek jest mazisty i tłusty. Robi farsz, który cieknie, i makaron, który klei. Quark odsączamy, dajemy czas, próbujemy. Szczegóły: [twaróg w Niemczech](/pl/blog/twarog-w-niemczech).
 
-## Kiedy nie iść na skróty
+Mokry Quark to droga woda. Liczymy suchą masę i odpad. Tani kubek, z którego połowa idzie do zlewu, nie jest tani. Ziarnisty chudszy Quark plus odrobina tłuszczu z logiki farszu bywa uczciwszy niż „kremowy” serek, który ma wyglądać po polsku.
 
-Zakwas do żurku, dobre grzyby suszone i charakterystyczna kiełbasa bywają rdzeniem dania. My nie zastępujemy ich przypadkowym produktem bez sprawdzenia, tylko zmieniamy menu albo robimy bazę samodzielnie. Więcej o zakupach: [sklep polski](/pl/blog/sklep-polski-zakupy).
+Gdy Quark nie chce wyschnąć, uczciwą odpowiedzią bywa inne danie: patelnia ziemniaczana, [naleśniki](/pl/blog/nalesniki-przewodnik) z innym farszem, nie ruskie pod fałszywą nazwą.
 
+## Zakwas, kapusta, grzyby
 
+Zakwas nie jest octem jeden do jednego do [żurku](/pl/rezepte/zurek). Ocet kwasi bez zbożowego fermentu. Kupny słoik albo własny zaczyn: [leksykon zakwasu](/pl/blog/zakwas-na-zurek). Gdy brakuje obu, gotujemy [rosół](/pl/blog/jak-ugotowac-rosol) albo inną zupę i nazywamy ją uczciwie. Żurek bez zakwasu jest inną miską.
 
-![Przygotowanie w kuchni diaspory](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-ersatzprodukte-de/7109608a-9b52-4c63-8abb-84d3dacb8430.webp)
+Kapusta z niemieckiego regału może nieść, gdy kwas się zgadza. Łagodną kiszoną sami doprawiamy częściej z lepszym skutkiem niż słodkawa mieszanka gotowa. Za ostra: krótko spłukać, nie wypłukać. Za potulna: inna marka albo udział z [przewodnika po kiszeniu](/pl/blog/kiszenie-w-domu). Do [bigosu](/pl/blog/bigos-przewodnik) obowiązuje: kwas próbujemy, nie przykrywamy cukrem. Partia, która krzyczy octem, nie zrobi okrągłego garnka.
 
-## FAQ — zamienniki
+Suszone grzyby są głębią, nie aromatem instant. Borowiki albo dobrą mieszankę namaczamy, sprawdzamy płyn, przecedzamy, używamy. Mętnej, zakurzonej, stęchłej partii nie ratujemy. Proszek grzybowy z półki przypraw nie zastąpi aromatu z namaczania. Kto nie ma grzybów, gotuje uczciwy garnek bez tej warstwy, zamiast udawać nutę lasu, która niczym las nie pachnie.
 
-### Czy my uzyskamy identyczny smak?
+## Kiełbasa, śmietana, mąka
 
-Nie zawsze. My celujemy w dobre, uczciwe danie, a nie w kopiowanie produktu, którego nie mamy.
+Dobra niemiecka kiełbasa z krótką listą jest uczciwsza niż słaby tani import. Jaką pracę ma wykonać, tłumaczy [leksykon kiełbasy](/pl/blog/rodzaje-kielbasy). Do bigosu zwarta i aromatyczna, do żurku raczej biała albo łagodna linia do gotowania. Sztuczny dym nie jest pieczęcią tradycji.
 
-### Czy my używamy jogurtu zamiast śmietany?
+Śmietanę zastępujemy według funkcji: Schmand, saure Sahne albo crème fraîche. Nie według najładniejszego słowa na kubku. Hartujemy, dozujemy, często na talerz zamiast do wrzącego garnka. Tekst [śmietana i Schmand](/pl/blog/smietana-czy-schmand) niesie macierz. Jogurt może pomóc na zimno. Do gorącej zupy bez hartowania nie należy.
 
-Czasem do zimnego dodatku. My nie wlewamy go bez hartowania do gorącej zupy.
+Mąka na pierogi w Niemczech rzadko jest problemem, jaki robią z niej fora. Typ 405 albo 550, obserwujemy wodę, ciasto odpoczywa. Mit niezastąpionej mąki specjalnej kosztuje dojazdy i rzadko tłumaczy pęknięcie w cieście. Technika: [ciasto na pierogi](/pl/blog/ciasto-na-pierogi). Hydracja i odpoczynek biją etykietę.
 
-### Czy my możemy kupić wszystko online?
+![Zapasy i uczciwe zamienniki na blacie kuchni diaspory](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-ersatzprodukte-de/7109608a-9b52-4c63-8abb-84d3dacb8430.webp "Trwałe układamy, świeże sprawdzamy, jedna zmienna na test.")
 
-Produkty suche tak, ale my przy nabiale i mięsie wolimy kontrolować świeżość lokalnie.', 'Zamienniki składników DE | Alternatywy | Alemniam', 'Zamienniki polskiej kuchni w DE: twaróg, kapusta, śmietana, kiełbasa. Najpierw funkcja, potem produkt.') on conflict (post_id, locale) do update set title = excluded.title, slug = excluded.slug, excerpt = excluded.excerpt, body = excluded.body, seo_title = excluded.seo_title, seo_description = excluded.seo_description;
+## Kiedy nie idziemy na skróty
+
+Zakwas nie jest octem. Twaróg nie jest serkiem śmietankowym. Jakość nie jest solą wędzarniczą. Ferment nie jest warstwą cukru na potulnej kapuście. W tych miejscach zły zamiennik zmienia strukturę i kulturę dania. Lepiej inne danie niż sfałszowany charakter.
+
+Krytyczne składniki na święta zabezpieczamy wcześnie. Eksperymentów nie robimy 24 grudnia i nie w wielkanocny poranek. [Wigilia](/pl/blog/menu-wigilijne) i [Wielkanoc](/pl/blog/menu-wielkanocne) niosą, gdy rdzeń składników jest już zdecydowany. W tygodniu wolno testować. W święto powtarzamy to, co znamy.
+
+Alergie i linie bez mięsa nazywamy uczciwie. Bigos bez mięsa jest innym daniem, możliwym, ale zapowiedzianym. Żurek bez kiełbasy zostaje żurkiem, gdy niesie zakwas. Gości informujemy wcześniej.
+
+## Protokół testu, koszty, zapas
+
+Mała ilość, jedno danie, notatka. Dwie marki jednego dnia przeciążają. Powtórzenie potwierdza traf trafiony przypadkiem. Zeszyt albo aplikacja: danie, marka, tłuszcz albo suchość, ocena. To staje się prywatną bazą zamienników i oszczędza pieniądze.
+
+Zamiennik bywa tańszy albo droższy. Liczymy suchą masę, odpad i dojazd do sklepu. Dzień w sklepie polskim, który zbiera pięć trwałych, właściwych rzeczy, jest efektywny. Wyprawa po jeden słoik, którego nie potrzebujecie, nie jest. Suche może przyjść z sieci. Mleko i mięso wolimy sprawdzać na miejscu.
+
+Zapas: trwałe dobre zamienniki układamy, świeże jemy wkrótce. Zamrażarka na pierogi, wywar, bigos. [Przewodnik po mrożeniu](/pl/blog/mrozenie-pierogow) niesie logistykę, ten tekst logikę składników. Opisujemy, chłodzimy płasko, dokładnie podgrzewamy. Orientacja: [bzfe.de](https://www.bzfe.de).
+
+Język przy stole: mówimy, co jest w garnku. Partnerzy i goście cenią jasność bardziej niż teatr o „autentyczności”. Autentyczność leży w staranności.
+
+## Gdy nic nie pasuje
+
+Czasem odpowiedzią jest inne danie. Rosół zamiast żurku, gdy brakuje zakwasu. Patelnia ziemniaczana zamiast ruskich, gdy Quark nie chce wyschnąć. Spokojna [niedziela](/pl/blog/obiad-niedzielny) z tym, co jest, bije wymuszone danie świąteczne w środku tygodnia. Elastyczna kuchnia jest siłą, nie zdradą.
+
+Niemieccy goście często potrzebują jednego zdania: zastępujemy funkcję, nie folklor. Danie zostaje dobre, gdy kwas, struktura i ciepło się zgadzają. Nazwa może być uczciwie krótsza.
+
+## FAQ
+
+### Co wolno zastępować bez obaw?
+
+Wiele podstaw: typy mąki, warzywa, masło, łagodna kapusta doprawiona w domu, Schmand zamiast śmietany według funkcji. Solidna niemiecka kiełbasa zamiast słabego importu. Krytyczne zostają zakwas i suchy twaróg. Test funkcji bije nadzieję na etykiecie.
+
+### Jaki jest najgorszy błąd zamiennika?
+
+Ocet w żurku podawany jako zakwas i serek śmietankowy w ruskich. Oba zmieniają strukturę i kulturę. Lepiej ugotować inne danie, niż fałszować charakter. Sól wędzarnicza zamiast kiełbasy i cukier zamiast kwasu kapusty należą do tej samej listy.
+
+### Jak testować uczciwie?
+
+Ta sama baza przepisu, jedna zmiana składnika, próba z notatką. Zapisujemy ilości. Dwie marki jednego dnia przeciążają. Powtórzenie w następnym tygodniu potwierdza, czy traf był przypadkiem. Porównanie w ciemno pomaga odciążyć nostalgię.
+
+### Czy sklep polski jest jeszcze potrzebny?
+
+Często tak, po fermenty, twaróg, suszone grzyby, określoną kiełbasę. Nie po każde warzywo i nie po każdą mąkę. Zakupy hybrydowe są efektywne. Listy piszemy według dania, nie według półki. Przewodnik: [sklep polski](/pl/blog/sklep-polski-zakupy).
+
+### Czy mieszanki gotowe są w porządku?
+
+Czasem jako ratunek, często zbyt słodkie, zbyt słone, zbyt aromatyzowane. Czytamy skład. Dla gości raczej przyprawiamy sami. Jakość bazy zostaje widoczna. Mieszanka, która nie smakuje żadnym ze składników wyjściowych, nie jest zyskiem czasu, gdy garnek zawodzi.
+
+### Jak dokumentować bez biurokracji?
+
+Zeszyt albo aplikacja: danie, marka, tłuszcz albo suchość, krótka ocena. Trzy wiersze wystarczą. To prywatna baza kuchni diaspory. Oszczędza następną drogę i następny kubek, który znowu nie pasuje.
+
+## Bez wstydu, z uczciwą luką
+
+Odsączony Quark, niemiecki Schmand, łagodna kapusta i spokojna kiełbasa są w porządku, gdy funkcja niesie. Bohaterstwo z pięcioma importowymi słoikami, których nikt nie potrzebuje, nie jest zyskiem zwyczaju. Najpierw nazywamy pracę, testujemy mało, w święto powtarzamy. Logistyka należy do zamiennika, nie dopiero do przeprosin przy stole.', 'Zamienniki składników DE | Alternatywy | Alemniam', 'Zamienniki polskiej kuchni w DE: twaróg, kapusta, śmietana, kiełbasa. Najpierw funkcja, potem produkt.') on conflict (post_id, locale) do update set title = excluded.title, slug = excluded.slug, excerpt = excluded.excerpt, body = excluded.body, seo_title = excluded.seo_title, seo_description = excluded.seo_description;
 
 commit;

@@ -4,143 +4,219 @@ begin;
 
 -- blog:post-wielkanoc
 insert into public.blog_posts (id, status, post_type, cover_image, silo_ids, related_recipe_ids, related_post_ids, related_product_ids, cluster_ids, published_at, updated_at) values ('post-wielkanoc', 'published', 'culture', 'https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-wielkanoc/96f67342-b038-4449-9760-b766cac94492.webp', array['culture', 'occasion']::text[], array['recipe-zurek', 'recipe-schabowy', 'recipe-barszcz', 'recipe-mizeria', 'recipe-babka', 'recipe-mazurek', 'recipe-salatka-jarzynowa', 'recipe-botwinka', 'recipe-chalka', 'recipe-pasztet', 'recipe-biala-kielbasa', 'recipe-jajka-faszerowane', 'recipe-cwikla', 'recipe-galareta']::text[], array['post-zakwas-zurek', 'post-sonntagsessen', 'post-polenladen', 'post-kielbasa-arten']::text[], '{}'::text[], array['occasion-wielkanoc']::text[], '2026-07-23T09:00:00.000Z', '2026-07-23T09:00:00.000Z') on conflict (id) do update set status = excluded.status, post_type = excluded.post_type, cover_image = excluded.cover_image, silo_ids = excluded.silo_ids, related_recipe_ids = excluded.related_recipe_ids, related_post_ids = excluded.related_post_ids, related_product_ids = excluded.related_product_ids, cluster_ids = excluded.cluster_ids, published_at = excluded.published_at, updated_at = excluded.updated_at;
-insert into public.blog_post_translations (post_id, locale, title, slug, excerpt, body, seo_title, seo_description) values ('post-wielkanoc', 'de', 'Wielkanoc Speiseplan: ruhig feiern in DE', 'wielkanoc-speiseplan', 'Osterfrühstück und Festessen planen: Żurek, Weißwurst, Schabowy — ohne den ganzen Familientisch nachzubauen.', 'Wielkanoc soll Menschen zusammenbringen, nicht den Kühlschrank überfordern. Wir planen Klassiker nach Hausbrauch, verteilen Arbeit und halten Hygiene klar. [Żurek](/de/rezepte/zurek), Eier, Brot, Wurst und eine frische Beilage können reichen. Orientierung: [bzfe.de](https://www.bzfe.de), [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl), [agriculture.ec.europa.eu](https://agriculture.ec.europa.eu), [was-wir-essen.de](https://www.was-wir-essen.de). Speiseplan-Ruhigkeit statt Beweisdruck.
+insert into public.blog_post_translations (post_id, locale, title, slug, excerpt, body, seo_title, seo_description) values ('post-wielkanoc', 'de', 'Wielkanoc Speiseplan: ruhig feiern in DE', 'wielkanoc-speiseplan', 'Osterfrühstück und Festessen planen: Żurek, biała kiełbasa, Schabowy, ohne den ganzen Familientisch nachzubauen.', 'Wielkanoc in Deutschland ist selten eine Kopie des Tisches, an dem wir aufgewachsen sind. Es ist ein Frühlingstisch zwischen Kirche, Familie, Schichtplan und dem deutschen Kalender. Der Name meint Ostern, der Brauch meint aber mehr als Eier und ein warmes Gericht: Wer kommt, wer isst Fleisch, wer bleibt vegetarisch, wer hat am Samstag noch Arbeit, und wie viel Kühlschrank bleibt nach dem Einkauf übrig.
 
-## Menüprinzip
+Dieser Artikel ist der Speiseplan, nicht das Rezeptbuch. Mengen, Schritte und Garzeiten stehen in den einzelnen Rezepten. Hier ordnen wir, was zusammengehört, was sich vorbereiten lässt und wo Familien in der Diaspora bewusst kürzen, ohne den Morgen zu entwerten. Orientierung zu Hygiene und Kühlkette: [bzfe.de](https://www.bzfe.de) und [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
 
-Weniger Gerichte, bessere Ausführung. Żurek oft Zentrum; dazu Eier, gekochte [Biała kiełbasa](/de/rezepte/biala-kielbasa) (Sorten im [Kiełbasa-Lexikon](/de/blog/kielbasa-arten)), Brot, Rettich/Kräuter, kühle [Mizeria](/de/rezepte/mizeria) und/oder [Sałatka jarzynowa](/de/rezepte/salatka-jarzynowa) als Festsalat (Mayo-Gemüse, nicht Gurke mit Śmietana), Kuchen nach Brauch. Gefüllte Eier als eigene Buffet-Linie: [Jajka faszerowane](/de/rezepte/jajka-faszerowane) — nicht derselbe Teller wie Sałatka oder Mizeria. Scharfer kalter Bete-Meerrettich: [Ćwikła](/de/rezepte/cwikla) — nicht die warmen [Buraczki](/de/rezepte/buraczki) und nicht Barszcz oder Botwinka. Der Speiseplan bleibt der Menü-Rahmen. Saisonal im Frühjahr optional warme [Botwinka](/de/rezepte/botwinka) statt schwerer Bete-Klarsuppe. Nicht alles gleichzeitig warm halten.
+Historisch ist der polnische Ostertisch jünger als Wigilia und gleichzeitig sichtbarer. Nach der Fastenzeit kehren Fleisch, Wurst und Eier auf den Teller zurück. Żurek, weiße Wurst und ein Korb mit Brot, Salz und Ei sind in vielen Häusern der Kern, nicht weil eine Behörde das vorschreibt, sondern weil sich dieser Kern wiederholen lässt. In der Diaspora in Deutschland ersetzen wir den Beweisdruck durch einen ruhigen Plan: wenige Gerichte, die wirklich fertig werden.
 
+![Osterfrühstück mit Żurek, Eiern, Wurst und Babka](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-wielkanoc/27a024e1-d0f8-4849-abe8-745fd027cd5a.webp "Ein ruhiger Kern reicht: Suppe, Ei, Wurst, Brot, ein Kuchen.")
 
+## Was auf den Tisch gehört
 
-![Gericht aus der polnischen Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-babka/84d44e7f-75f4-4463-88c9-f32c015c879b.webp)
+Weniger Gerichte, bessere Ausführung. In den meisten Diaspora-Küchen trägt [Żurek](/de/rezepte/zurek) den Morgen. Dazu gehören hartgekochte Eier, gekochte [Biała kiełbasa](/de/rezepte/biala-kielbasa), Brot, Meerrettich und mindestens eine kühle Beilage. Sorten und Qualität der Wurst erklärt das [Kiełbasa-Lexikon](/de/blog/kielbasa-arten), nicht dieser Speiseplan.
 
-## Zeitplan
+Die Beilage muss eindeutig sein. [Mizeria](/de/rezepte/mizeria) ist Gurke mit Śmietana. [Sałatka jarzynowa](/de/rezepte/salatka-jarzynowa) ist der Mayonnaise-Gemüsesalat des Festtages. Das sind zwei Teller, nicht ein Rezept mit zwei Namen. Gefüllte Eier stehen als eigene Linie daneben: [Jajka faszerowane](/de/rezepte/jajka-faszerowane). Der scharfe, kalte Bete-Meerrettich ist [Ćwikła](/de/rezepte/cwikla), nicht die warmen [Buraczki](/de/rezepte/buraczki) und nicht Barszcz.
 
-**−2 Tage:** Zakwas/Brühe, haltbarer Einkauf – [Zakwas](/de/blog/zakwas-zurek), [Polenladen](/de/blog/polenladen-einkaufen). **−1 Tag:** Eier, kalte Salate, Kuchen. **Tag:** erwärmen, anrichten, Frisches.
+Im Frühjahr kann eine leichte [Botwinka](/de/rezepte/botwinka) den schweren Bete-Teil ersetzen. [Schabowy](/de/rezepte/kotlet-schabowy) gehört in manchen Häusern zum späteren Essen, nicht zwingend ins Frühstück. Wer ihn plant, backt oder brät ihn frisch und hält ihn nicht stundenlang warm.
 
-## Zakwas & Żurek
+## Zeitplan rückwärts
 
-Früh klären: Kauf oder Ansatz. Temperieren von Milchprodukten – [Śmietana/Schmand](/de/blog/smietana-schmand). Mengen nach Gästen.
+Zwei Tage vorher: Zakwas oder Kaufansatz klären, Brühe wenn nötig, trockene Vorräte und den [Polenladen](/de/blog/polenladen-einkaufen) für Wurst, Meerrettich und Hefe. Den Ansatz erklärt der [Zakwas-Guide](/de/blog/zakwas-zurek). Wer selbst ansetzt, braucht Tage, nicht den Ostersonntagmorgen.
+
+Einen Tag vorher: Eier kochen und färben, kalte Salate ansetzen, Kuchen backen oder kaufen, Pastete schneiden, Wurst portionieren. Śmietana und Schmand vor dem Einrühren temperieren, Details im Beitrag [Śmietana und Schmand](/de/blog/smietana-schmand).
+
+Am Tag selbst: erwärmen, anrichten, Frisches nachlegen. Wer am Morgen noch knetet, zahlt mit Gereiztheit. Der Speiseplan gewinnt, wenn der Sonntag nur noch Tisch ist.
+
+## Żurek als Mitte
+
+Żurek ist keine beliebige saure Suppe. Der Geschmack kommt aus fermentiertem Roggen, nicht aus Essig als Notlösung. Kaufware aus der Flasche ist legitim, wenn der Zeitplan knapp ist. Selbstansatz schmeckt runder, verlangt aber Vorlauf. Die Wurst in der Suppe schonend garen, das Ei erst zum Schluss oder separat auf den Teller legen, Majoran erst am Ende prüfen. Mengen und Fehlerbilder stehen im [Żurek-Rezept](/de/rezepte/zurek).
+
+Für vier Gäste reicht oft ein Topf, der am Vortag gekocht und über Nacht im Kühlschrank steht. Am Morgen nur erhitzen und abschmecken. Wer Gäste nachmeldet, verdünnt nicht mit Wasser, sondern kocht eine zweite, kleinere Charge oder reicht mehr Brot und Eier.
+
+## Kalte Platte, klar benannt
+
+Die kalte Platte trägt den Tisch, wenn die Suppe fertig ist. Sie darf nicht zu einem zweiten Kochprojekt werden. Wählt eine Salatlinie, nicht drei. Sałatka braucht Zeit zum Durchziehen und darf nicht stundenlang warm stehen. Mizeria bleibt knackig, wenn die Gurke erst kurz vor dem Servieren gesalzen und abgegossen wird.
+
+Ćwikła schärft den Teller neben Wurst und Ei. Pasztet in Scheiben ersetzt einen Teil der Kaufwurst, ohne dass daraus [Kaszanka](/de/rezepte/kaszanka) wird. Die Hauspastete ist [Pasztet drobiowy](/de/rezepte/pasztet). Galareta aus Haxe ist ein eigenes Gericht: [Galareta](/de/rezepte/galareta). Wer beides macht, braucht Platz und Geduld. Meist reicht eines von beiden.
+
+![Kalte Osterplatte mit Salat, gefüllten Eiern und Ćwikła](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-wielkanoc/2b2bb15e-1844-47e7-be9b-2cc2f8fa72ed.webp "Kalte Linien getrennt halten: Salat, Ei, Ćwikła, Pastete.")
+
+## Süßes: ein Kuchen, nicht eine Vitrine
+
+Ein Kuchen in guter Qualität schlägt drei halb fertige Bleche. Die klassische Form ist [Babka](/de/rezepte/babka), der flache Belagkuchen [Mazurek](/de/rezepte/mazurek), der Käsekuchen [Sernik](/de/rezepte/sernik). Der geflochtene Hefezopf ist [Chałka](/de/rezepte/chalka), kein Gugelhupf. Mengen und Ofen stehen in den Rezepten. Fertigware aus dem Polenladen ist kein Scheitern, wenn der Rest des Tisches ruhig bleibt.
+
+Backt am Vortag. Hefeteig und Gäste am selben Morgen überfordern die meisten Küchen in einer Wohnung.
+
+## Einkauf in zwei Touren
+
+Erste Tour: Supermarkt für Eier, Gemüse, Mehl, Milch, Butter. Zweite Tour: Polenladen für biała kiełbasa, Żur-Ansatz, Meerrettich, Majoran, oft bessere Babka oder Hefe. Vor Feiertagen leeren sich die Regale. Ein Puffer von einem Tag ist realistischer als der Samstagabend.
+
+Listen nach Gericht schreiben, nicht nach Ladenregal. Was für Żurek fehlt, steht auf einer Zeile. Was für den Salat fehlt, auf der nächsten. So verhindert ihr Doppelkäufe und das berühmte zweite Glas Majonnaise, das niemand öffnet.
 
 ## Arbeit teilen
 
-Eine Person Suppe, eine kalte Platte, eine Tisch – Diaspora mit Jobs braucht Teilung. Kinder können Eier färben/ordnen.
+Eine Person führt die Suppe, eine die kalte Platte, eine den Tisch. In der Diaspora mit Job und Schule ist das keine Schwäche, sondern die einzige Form, in der der Morgen freundlich bleibt. Kinder können Eier färben, Brotscheiben legen und Namen auf Platzkarten schreiben. Am heißen Topf und am Fett bleiben Erwachsene.
 
-## Hygiene
+Vegetarische Gäste früh benennen. Ein Topf Żurek ohne Wurst plus Eier, Salat und Babka ist ein vollständiger Teller. Eine Extra-Show nur für eine Person erschöpft meist alle.
 
-Kühlkette, Eier handhaben, Wurst kalt, Warmhalten begrenzt. bzfe.de. Buffet nachfüllen statt alles stundenlang offen.
+## Hygiene, die den Festtag trägt
 
-## Reste
+Eier nach Packungshinweis lagern. Gerichte mit Mayonnaise nicht stundenlang auf dem warmen Tisch lassen. Wurst kalt halten, Warmhalten der Suppe begrenzen, Buffet nachfüllen statt alles auf einmal öffnen. Orientierung: [bzfe.de](https://www.bzfe.de). Bei Kindern, Schwangeren und älteren Gästen ist das keine Pedanterie, sondern Teil der Gastfreundschaft.
 
-Eier→Salat; Wurst→Pfanne; Brot→geröstet zu Suppe; Żurek→nächster Tag besser abschmecken.
+## Reste ohne Chaos
 
-## Gemischte Familien
+Żurek schmeckt am nächsten Tag oft runder. Eier wandern in Salat, Wurst in die Pfanne, Brot geröstet zur Suppe. Schnell kühlen, klar beschriften, zeitnah verbrauchen. Eiersalate nicht endlos warm halten. Bei Zweifel entsorgen.
 
-Linien kombinieren, nicht alle Dogmen stapeln. Erklären statt prüfen. Vegetarische Option früh planen.
+## Gemischte Familien und der Vergleich zu Wigilia
 
-## Einkauf
+Wielkanoc ist fleischhaltiger und oft lauter als [Wigilia](/de/anlaesse/wigilia). Der Weihnachtsplan steht im [Wigilia-Speiseplan](/de/blog/wigilia-speiseplan): Barszcz, Kraut-Pilz-Pierogi, Fisch. Ostern trägt Żurek, Wurst und Ei. Wer beide Feste in einem Haushalt feiert, muss sie nicht angleichen. Erklären schlägt Prüfen. Ein Gericht aus der anderen Linie reicht, wenn jemand danach fragt.
 
-Zwei Touren: Spezial + Volumen. Leere Regale vor Feiertagen real – Puffer.
-
-## Süßes
-
-Ein Kuchen reicht oft — Qualität vor Vielfalt. Klassische Form: [Babka](/de/rezepte/babka) (Hefegugelhupf); flacher Belag-Osterkuchen: [Mazurek orzechowy](/de/rezepte/mazurek) (Mengen und Schritte im Rezept; Speiseplan bleibt Menü-Rahmen). Alternativ Käsekuchen-Linie [Sernik](/de/rezepte/sernik) oder Kaufware ohne Scham. Geflochtener Hefezopf/Laib (nicht Gugelhupf): [Chałka](/de/rezepte/chalka) — Mengen und Schritte dort; Speiseplan bleibt Menü-Rahmen.
-
-## Aufschnitt: Pasztet
-
-Haus-Pastete angeschnitten statt nur Kaufwurst: [Pasztet drobiowy](/de/rezepte/pasztet) — klar ≠ [Kaszanka](/de/rezepte/kaszanka). Arten/Qualität von Wurst bleiben im [Kiełbasa-Arten-Lexikon](/de/blog/kielbasa-arten); hier nur als Menüplatz.
-
-
-
-![Zubereitung in der Diaspora-Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-mazurek/bfb03b99-ac14-47da-b69d-c24dc641771f.webp)
-
-## Tisch
-
-Platz zum Durchreichen, Wasser+Kompot, Kerzen optional ruhig. Fotos sekundär.
-
-## Kinder
-
-Mildere Suppe, kleinere Würstchen, Zucker nicht als Hauptevent.
-
-## Vergleich Wigilia
-
-Andere Logik als [Wigilia](/de/anlaesse/wigilia)/[Wigilia Speiseplan](/de/blog/wigilia-speiseplan): oft fleischhaltiger, Żurek statt Barszcz je nach Brauch.
+Deutsche Gäste brauchen oft eine kurze Übersetzung: Żurek ist die saure Roggensuppe, biała kiełbasa die weiße Brühwurst, Babka der Hefegugelhupf. Das ist Respekt, nicht Folklore.
 
 ## Notfallplan
 
-Wenn Zeit kippt: Żurek + Eier + Brot + eine Wurst + Gurken. Ehrlichkeit > halb fertige fünf Gänge.
+Wenn die Zeit kippt: Żurek, Eier, Brot, eine Wurst, Gurken. Ein ehrlicher kleiner Tisch schlägt fünf halbfertige Gänge. Der Sonntagsrhythmus hilft beim Üben: [Polnisches Sonntagsessen](/de/blog/sonntagsessen-polnisch).
 
 ## Getränke
 
-Kompot, Wasser, Tee/Kaffee. Alkohol nach Haus, nicht Pflicht.
+Kompot, Wasser, Tee oder Kaffee. Alkohol nach Hausbrauch, nicht als Pflicht. Platz zum Durchreichen lassen. Kerzen optional, Fotos nach dem ersten Teller.
 
 ## FAQ
 
 ### Muss Żurek auf den Tisch?
 
-Nur wenn es euer Brauch ist. Manche Familien kochen andere Suppen. Respekt heißt Zuhören. Wer Żurek will, plant Zakwas früh. Alternative klar kommunizieren statt peinlicher Lücke.
+Nur wenn es euer Brauch ist. Manche Familien kochen eine andere Suppe oder beginnen mit Brot, Ei und Wurst. Wer Żurek will, plant den Ansatz früh. Eine Alternative vorher sagen verhindert die peinliche Lücke am Tisch.
 
-### Wie viele Gerichte?
+### Wie viele Gerichte braucht ihr?
 
-Tragfähig für den Haushalt, nicht maximal. Gäste erinnern Atmosphäre und ein gutes Żurek stärker als Zählpflicht. Qualität vor Listenlänge.
+So viele, wie der Haushalt fertig bekommt. Gäste erinnern ein gutes Żurek und eine ruhige Stimmung stärker als eine Zählliste. Qualität vor Listenlänge.
 
-### Zakwas am Vortag reicht?
+### Reicht Zakwas vom Vortag?
 
-Für Kaufware oft ja; Selbstansatz braucht Tage. Nicht am Morgen riskieren. Parallel Brühe vorbereiten. Lexikon lesen, Timeline rückwärts planen.
+Kaufware oft ja. Selbstansatz braucht mehrere Tage. Am Ostermorgen neu ansetzen ist das häufigste Scheitern. Timeline rückwärts planen und den [Zakwas-Guide](/de/blog/zakwas-zurek) vorher lesen.
 
 ### Buffet oder Gänge?
 
-Oft Mischform: Suppe zuerst, dann kalte Platte. Alles-offen-Buffet stressiger für Kühlung. Nachfüllen schlägt Marathon-Warmhalten.
+Oft eine Mischform: zuerst die Suppe, dann die kalte Platte. Alles gleichzeitig offen zu lassen, stresst die Kühlung. Nachfüllen ist sicherer als ein Marathon auf dem Tisch.
 
-### Reste sicher nutzen?
+### Wie nutzen wir Reste sicher?
 
-Schnell kühlen, zeitnah verbrauchen, gründlich erhitzen wo nötig. Eiersalate nicht endlos warm. Bei Zweifel entsorgen. bzfe.de-Logik.
+Schnell kühlen, zeitnah essen, gründlich erhitzen wo nötig. Mayonnaise-Salate nicht endlos warm. Bei Zweifel wegwerfen. Die Logik steht bei [bzfe.de](https://www.bzfe.de).
 
-### Gemischte Traditionen?
+### Was tun bei gemischten Traditionen?
 
-Sprechen, priorisieren, je ein Gericht aus Linien. Nicht alles parallel erzwingen. Moderne Diaspora-Tische dürfen gemischt sichtbar sein.
+Sprechen, priorisieren, aus jeder Linie höchstens ein Extra. Moderne Tische in Deutschland dürfen gemischt sichtbar sein. Niemand muss zwei vollständige Menüs kochen, um loyal zu sein.
 
-## Wielkanoc ohne Schamreduktion
+## Ohne Scham, mit Platz
 
-Fertigkuchen oder Kauf-Zakwas sind ok, wenn der Tisch ruhig bleibt. Heldentum, das alle erschöpft, ist kein Brauchgewinn.
+Fertigkuchen, Kauf-Zakwas und eine gekaufte Wurst sind in Ordnung, wenn der Tisch ruhig bleibt. Heldentum, das alle erschöpft, ist kein Gewinn an Brauch. Vorher den Kühlschrank leeren, kalte Schüsseln stapelbar planen, den Freezer für Vorbereitetes nutzen. Logistik gehört zur Küche, nicht erst zur Nachsorge.', 'Polnische Ostern Rezepte | Wielkanoc Speiseplan | Alemniam', 'Wielkanoc Speiseplan für Deutschland: Żurek, biała kiełbasa, Schabowy. Machbar, bilingual, ohne Chaos.') on conflict (post_id, locale) do update set title = excluded.title, slug = excluded.slug, excerpt = excluded.excerpt, body = excluded.body, seo_title = excluded.seo_title, seo_description = excluded.seo_description;
+insert into public.blog_post_translations (post_id, locale, title, slug, excerpt, body, seo_title, seo_description) values ('post-wielkanoc', 'pl', 'Menu wielkanocne: spokojne święta w DE', 'menu-wielkanocne', 'Plan śniadania i obiadu: żurek, biała kiełbasa, schabowy, bez odtwarzania całego rodzinnego stołu.', 'Wielkanoc w Niemczech rzadko jest kopią stołu, przy którym wyrośliśmy. To wiosenny stół między kościołem, rodziną, zmianą w pracy i niemieckim kalendarzem. Nazwa oznacza święta wielkanocne, ale zwyczaj oznacza więcej niż jajka i jedno ciepłe danie: kto przychodzi, kto je mięso, kto zostaje przy wersji bezmięnej, kto w sobotę jeszcze pracuje i ile miejsca w lodówce zostaje po zakupach.
 
-## Platz im Kühlschrank
+Ten artykuł jest planem menu, nie książką przepisów. Ilości, kroki i czasy pieczenia są w pojedynczych przepisach. Tutaj porządkujemy, co do siebie pasuje, co da się przygotować wcześniej i gdzie rodziny w diasporze świadomie skracają, bez odbierania rana sensu. Orientacja w higienie i łańcuchu chłodniczym: [bzfe.de](https://www.bzfe.de) oraz [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
 
-Vorher aussortieren. Kalte Platten stapelbar planen. Freezer für Vorbereitetes nutzen. Logistik ist Teil der Küche.', 'Polnische Ostern Rezepte | Wielkanoc Speiseplan | Alemniam', 'Wielkanoc Speiseplan für Deutschland: Żurek, biała kiełbasa, Schabowy. Machbar, bilingual, ohne Chaos.') on conflict (post_id, locale) do update set title = excluded.title, slug = excluded.slug, excerpt = excluded.excerpt, body = excluded.body, seo_title = excluded.seo_title, seo_description = excluded.seo_description;
-insert into public.blog_post_translations (post_id, locale, title, slug, excerpt, body, seo_title, seo_description) values ('post-wielkanoc', 'pl', 'Menu wielkanocne: spokojne święta w DE', 'menu-wielkanocne', 'Plan śniadania i obiadu: żurek, biała kiełbasa, schabowy — bez odtwarzania całego rodzinnego stołu.', 'Wielkanoc w Niemczech nie musi być próbą odtworzenia całego domu rodzinnego w jeden weekend. Najlepiej działa stół z kilkoma pewnymi smakami, przygotowanymi z wyprzedzeniem i dopasowanymi do ludzi, którzy naprawdę przy nim usiądą.
+Historycznie polski stół wielkanocny jest młodszy niż Wigilia i jednocześnie bardziej widoczny. Po poście mięso, kiełbasa i jajka wracają na talerz. Żurek, biała kiełbasa i koszyk z chlebem, solą i jajkiem są w wielu domach rdzeniem nie dlatego, że ktoś to nakazał, lecz dlatego, że ten rdzeń da się powtórzyć. W diasporze w Niemczech zamieniamy presję dowodu na spokojny plan: kilka dań, które naprawdę zostaną skończone.
 
-## Ustalcie własny rdzeń
+![Śniadanie wielkanocne z żurkiem, jajkami, kiełbasą i babką](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-wielkanoc/27a024e1-d0f8-4849-abe8-745fd027cd5a.webp "Spokojny rdzeń wystarczy: zupa, jajko, kiełbasa, chleb, jedno ciasto.")
 
-My wybieramy żurek lub barszcz biały, jajka, jedną dobrą sałatkę — często [mizerię](/pl/rezepte/mizeria) albo świąteczną [sałatkę jarzynową](/pl/rezepte/salatka-jarzynowa) (majonez i warzywa ≠ ogórek ze śmietaną) — i wypiek albo deser. Osobna linia bufetowa: [jajka faszerowane](/pl/rezepte/jajka-faszerowane) (≠ sałatka, ≠ mizeria). Ostry zimny relish burak–chrzan: [ćwikła](/pl/rezepte/cwikla) (≠ ciepłe [buraczki](/pl/rezepte/buraczki), ≠ barszcz/botwinka). Menu zostaje planem okazji. Wiosną opcjonalnie ciepła [botwinka](/pl/rezepte/botwinka). Klasyczna forma: [babka](/pl/rezepte/babka) (ciasto drożdżowe z formy); płaski placek z wierzchem: [mazurek orzechowy](/pl/rezepte/mazurek) (ilości w przepisie; menu zostaje planem stołu). Alternatywnie [sernik](/pl/rezepte/sernik) albo kupiony wypiek bez wstydu. Pleciony chleb drożdżowy (nie babka z formy): [chałka](/pl/rezepte/chalka) — przepis tam; menu zostaje planem stołu. Domowy [pasztet drobiowy](/pl/rezepte/pasztet) na zimną półmiskę — jasno ≠ [kaszanka](/pl/rezepte/kaszanka); typy wędlin zostają w [rodzajach kiełbasy](/pl/blog/rodzaje-kielbasy). Do tego ugotowana [biała kiełbasa](/pl/rezepte/biala-kielbasa) (rodzaje zostają w [leksykonie kiełbasy](/pl/blog/rodzaje-kielbasy)), chrzan oraz pieczywo. Jeśli przyjeżdża rodzina, można dodać [bigos](/pl/rezepte/bigos) lub pierogi, ale nie robimy wszystkiego tylko dlatego, że „tak wypada”. Świąteczny stół ma być gościnny także dla gospodarzy.
+## Co powinno stanąć na stole
 
+Mniej dań, lepsze wykonanie. W większości kuchni diaspory [żurek](/pl/rezepte/zurek) niesie poranek. Do niego należą jajka na twardo, ugotowana [biała kiełbasa](/pl/rezepte/biala-kielbasa), chleb, chrzan i przynajmniej jeden zimny dodatek. Rodzaje i jakość wędlin wyjaśnia [leksykon kiełbasy](/pl/blog/rodzaje-kielbasy), nie ten plan menu.
 
+Dodatek musi być jednoznaczny. [Mizeria](/pl/rezepte/mizeria) to ogórek ze śmietaną. [Sałatka jarzynowa](/pl/rezepte/salatka-jarzynowa) to majonezowa sałatka warzywna święta. To dwa talerze, nie jeden przepis pod dwoma nazwami. Jajka faszerowane stoją obok jako osobna linia: [jajka faszerowane](/pl/rezepte/jajka-faszerowane). Ostry, zimny burak z chrzanem to [ćwikła](/pl/rezepte/cwikla), nie ciepłe [buraczki](/pl/rezepte/buraczki) i nie barszcz.
 
-![Danie z polskiej kuchni](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-babka/84d44e7f-75f4-4463-88c9-f32c015c879b.webp)
+Wiosną lekka [botwinka](/pl/rezepte/botwinka) może zastąpić ciężką część buraczaną. [Schabowy](/pl/rezepte/kotlet-schabowy) w niektórych domach należy do późniejszego obiadu, niekoniecznie do śniadania. Kto go planuje, smaży go na świeżo i nie trzyma godzinami w cieple.
 
-## Harmonogram
+## Harmonogram od tyłu
 
-W czwartek kupujemy suche produkty i sprawdzamy lodówkę. W piątek gotujemy zakwas lub wywar, robimy ciasto, a w sobotę przygotowujemy dodatki zimne. W niedzielę zostawiamy tylko podgrzanie i składanie. My dzielimy zakupy na niemiecki supermarket oraz sklep polski, aby nie szukać na ostatnią chwilę majeranku czy białej kiełbasy.
+Dwa dni wcześniej: zakwas albo zakupiony zaczyn, wywar jeśli potrzebny, suche zapasy i [sklep polski](/pl/blog/sklep-polski-zakupy) po kiełbasę, chrzan i drożdże. Zaczyn tłumaczy [przewodnik po zakwasie](/pl/blog/zakwas-na-zurek). Kto stawia własny, potrzebuje dni, nie niedzielnego poranka.
 
-## Jajka i bezpieczeństwo
+Dzień wcześniej: jajka gotujemy i farbujemy, sałatki zimne, ciasto pieczemy albo kupujemy, pasztet kroimy, kiełbasę porcjujemy. Śmietanę i Schmand przed wmieszaniem doprowadzamy do temperatury pokojowej, szczegóły w tekście [śmietana i Schmand](/pl/blog/smietana-czy-schmand).
 
-Jajka przechowujemy zgodnie z informacją na opakowaniu, a dania z majonezem nie stoją godzinami na ciepłym stole. Przy dzieciach, seniorach i kobietach w ciąży szczególnie pilnujemy higieny. Domowy chrzan, ćwikła i sałatka są świetne, jeśli robimy je w ilości, którą realnie zjemy.
+W sam dzień: podgrzewamy, układamy, dokładamy świeże. Kto rano jeszcze wyrabia ciasto, płaci zdenerwowaniem. Plan menu wygrywa, gdy niedziela zostaje stołem, nie kuchnią.
 
+## Żurek jako środek
 
+Żurek nie jest dowolną kwaśną zupą. Smak pochodzi z fermentowanego żyta, nie z octu jako ratunku. Zakupiony zakwas z butelki jest legalny, gdy czasu brakuje. Własny zaczyn smakuje pełniej, ale wymaga wyprzedzenia. Kiełbasę w zupie gotujemy ostrożnie, jajko dokładamy na końcu albo kładziemy osobno na talerz, majeranek sprawdzamy dopiero na końcu. Ilości i błędy są w [przepisie na żurek](/pl/rezepte/zurek).
 
-![Przygotowanie w kuchni diaspory](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-mazurek/bfb03b99-ac14-47da-b69d-c24dc641771f.webp)
+Dla czterech gości często wystarczy garnek ugotowany dzień wcześniej i zostawiony na noc w lodówce. Rano tylko podgrzewamy i doprawiamy. Gdy goście się dopiszą, nie rozcieńczamy wodą, tylko gotujemy drugą, mniejszą porcję albo dokładamy chleb i jajka.
 
-## FAQ — Wielkanoc w DE
+## Zimna półmiska, jasno nazwana
 
-### Czy my musimy robić koszyczek?
+Zimna półmiska niesie stół, gdy zupa jest gotowa. Nie powinna stać się drugim projektem kucharskim. Wybieramy jedną linię sałatki, nie trzy. Sałatka jarzynowa potrzebuje czasu na przeciągnięcie i nie może stać godzinami w cieple. Mizeria zostaje chrupiąca, gdy ogórek solimy i odlewamy dopiero przed podaniem.
 
-Nie musimy. My wybieramy praktykę, która ma sens dla naszej rodziny i miejsca, w którym mieszkamy.
+Ćwikła ostrzy talerz obok kiełbasy i jajka. Pasztet w plasterkach zastępuje część kupionej wędliny, bez zamiany w [kaszankę](/pl/rezepte/kaszanka). Domowy pasztet to [pasztet drobiowy](/pl/rezepte/pasztet). Galareta z golonki jest osobnym daniem: [galareta](/pl/rezepte/galareta). Kto robi oba, potrzebuje miejsca i cierpliwości. Zwykle wystarczy jedno z nich.
 
-### Czy my przygotowujemy żurek dzień wcześniej?
+![Zimna półmiska wielkanocna z sałatką, jajkami faszerowanymi i ćwikłą](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-wielkanoc/2b2bb15e-1844-47e7-be9b-2cc2f8fa72ed.webp "Zimne linie trzymamy osobno: sałatka, jajko, ćwikła, pasztet.")
 
-Tak. My uważamy, że po nocy smak często jest nawet lepiej ułożony.
+## Słodkie: jedno ciasto, nie witryna
 
-### Czy my możemy uprościć menu?
+Jedno ciasto w dobrej jakości bije trzy niedokończone blachy. Klasyczna forma to [babka](/pl/rezepte/babka), płaski placek z wierzchem to [mazurek](/pl/rezepte/mazurek), sernik to [sernik](/pl/rezepte/sernik). Pleciony chleb drożdżowy to [chałka](/pl/rezepte/chalka), nie babka z formy. Ilości i piekarnik są w przepisach. Gotowy wypiek ze sklepu polskiego nie jest porażką, jeśli reszta stołu zostaje spokojna.
 
-Tak. My wolimy jeden dobry żurek i spokojną rozmowę niż zmęczony stół pełen półproduktów.', 'Przepisy wielkanocne | Menu | Alemniam', 'Menu wielkanocne w Niemczech: żurek, biała kiełbasa, schabowy. Wykonalne, dwujęzycznie, bez chaosu.') on conflict (post_id, locale) do update set title = excluded.title, slug = excluded.slug, excerpt = excluded.excerpt, body = excluded.body, seo_title = excluded.seo_title, seo_description = excluded.seo_description;
+Pieczemy dzień wcześniej. Ciasto drożdżowe i goście o tym samym poranku przeciążają większość kuchni w mieszkaniu.
+
+## Zakupy w dwóch turach
+
+Pierwsza tura: supermarket po jajka, warzywa, mąkę, mleko, masło. Druga tura: sklep polski po białą kiełbasę, zakwas na żur, chrzan, majeranek, często lepszą babkę albo drożdże. Przed świętami półki pustoszeją. Bufor jednego dnia jest realistyczniejszy niż sobotni wieczór.
+
+Listy piszemy według dania, nie według półki. Czego brakuje do żurku, stoi w jednym wierszu. Czego brakuje do sałatki, w następnym. Tak unikamy podwójnych zakupów i słynnego drugiego słoika majonezu, którego nikt nie otwiera.
+
+## Podział pracy
+
+Jedna osoba prowadzi zupę, jedna zimną półmiskę, jedna stół. W diasporze z pracą i szkołą to nie słabość, lecz jedyna forma, w której poranek zostaje przyjazny. Dzieci mogą farbować jajka, kłaść kromki i pisać imiona na karteczkach. Przy gorącym garnku i tłuszczu zostają dorośli.
+
+Gości wegetariańskich nazywamy wcześnie. Garnek żurku bez kiełbasy plus jajka, sałatka i babka to pełny talerz. Osobny spektakl tylko dla jednej osoby zwykle męczy wszystkich.
+
+## Higiena, która niesie święto
+
+Jajka przechowujemy zgodnie z informacją na opakowaniu. Dania z majonezem nie stoją godzinami na ciepłym stole. Kiełbasę trzymamy zimno, podgrzewanie zupy ograniczamy, bufet uzupełniamy zamiast otwierać wszystko naraz. Orientacja: [bzfe.de](https://www.bzfe.de). Przy dzieciach, kobietach w ciąży i starszych gościach to nie pedanteria, lecz część gościnności.
+
+## Resztki bez chaosu
+
+Żurek następnego dnia często smakuje pełniej. Jajka idą do sałatki, kiełbasa na patelnię, chleb opieczony do zupy. Szybko chłodzimy, jasno opisujemy, jemy wkrótce. Sałatek jajecznych nie trzymamy w cieple w nieskończoność. Przy wątpliwości wyrzucamy.
+
+## Mieszane rodziny i porównanie z Wigilią
+
+Wielkanoc jest bardziej mięsna i często głośniejsza niż [Wigilia](/pl/anlaesse/wigilia). Plan wigilijny stoi w [menu wigilijnym](/pl/blog/menu-wigilijne): barszcz, pierogi z kapustą i grzybami, ryba. Wielkanoc niesie żurek, kiełbasę i jajko. Kto świętuje oba w jednym domu, nie musi ich zrównywać. Tłumaczenie bije sprawdzanie. Jedno danie z drugiej linii wystarczy, gdy ktoś o nie zapyta.
+
+Niemieccy goście często potrzebują krótkiego tłumaczenia: żurek to kwaśna zupa żytnia, biała kiełbasa to biała parzona, babka to drożdżowa forma. To szacunek, nie folklor.
+
+## Plan awaryjny
+
+Gdy czasu brakuje: żurek, jajka, chleb, jedna kiełbasa, ogórki. Uczciwy mały stół bije pięć niedokończonych dań. Niedzielny rytm pomaga w ćwiczeniu: [polski obiad niedzielny](/pl/blog/obiad-niedzielny).
+
+## Napoje
+
+Kompot, woda, herbata albo kawa. Alkohol według domu, nie jako obowiązek. Zostawiamy miejsce do podawania. Świece opcjonalnie, zdjęcia po pierwszym talerzu.
+
+## FAQ
+
+### Czy żurek musi stać na stole?
+
+Tylko jeśli to wasz zwyczaj. Niektóre rodziny gotują inną zupę albo zaczynają od chleba, jajka i kiełbasy. Kto chce żurek, planuje zaczyn wcześnie. Alternatywę mówimy wcześniej, żeby nie powstała wstydliwa luka przy stole.
+
+### Ile dań potrzeba?
+
+Tyle, ile gospodarstwo realnie skończy. Goście pamiętają dobry żurek i spokojny nastrój mocniej niż listę do odhaczania. Jakość przed długością listy.
+
+### Czy zakwas z wczoraj wystarczy?
+
+Zakupiony często tak. Własny zaczyn potrzebuje kilku dni. Stawianie nowego w wielkanocny poranek to najczęstsza porażka. Planujemy od tyłu i wcześniej czytamy [przewodnik po zakwasie](/pl/blog/zakwas-na-zurek).
+
+### Bufet czy dania po kolei?
+
+Często forma mieszana: najpierw zupa, potem zimna półmiska. Otwierać wszystko naraz stresuje chłodzenie. Dokładanie jest bezpieczniejsze niż maraton na stole.
+
+### Jak bezpiecznie używać resztek?
+
+Szybko chłodzimy, jemy wkrótce, dokładnie podgrzewamy tam, gdzie trzeba. Sałatek majonezowych nie trzymamy w cieple w nieskończoność. Przy wątpliwości wyrzucamy. Logika stoi na [bzfe.de](https://www.bzfe.de).
+
+### Co z mieszanymi tradycjami?
+
+Rozmawiamy, układamy priorytety, z każdej linii najwyżej jedno extra. Nowoczesne stoły w Niemczech mogą być mieszane i widoczne. Nikt nie musi gotować dwóch pełnych menu, żeby być lojalnym.
+
+## Bez wstydu, z miejscem
+
+Gotowe ciasto, kupiony zakwas i kupiona kiełbasa są w porządku, gdy stół zostaje spokojny. Bohaterstwo, które wszystkich męczy, nie jest zyskiem zwyczaju. Wcześniej opróżniamy lodówkę, miski zimne planujemy tak, by dało się je stawiać jedna na drugiej, zamrażarkę używamy do przygotowanego. Logistyka należy do kuchni, nie dopiero do sprzątania.', 'Przepisy wielkanocne | Menu | Alemniam', 'Menu wielkanocne w Niemczech: żurek, biała kiełbasa, schabowy. Wykonalne, dwujęzycznie, bez chaosu.') on conflict (post_id, locale) do update set title = excluded.title, slug = excluded.slug, excerpt = excluded.excerpt, body = excluded.body, seo_title = excluded.seo_title, seo_description = excluded.seo_description;
 
 commit;

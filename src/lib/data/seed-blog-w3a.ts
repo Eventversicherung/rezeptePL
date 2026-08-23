@@ -33,7 +33,7 @@ export const seedBlogPostsW3a: BlogPost[] = [
         title: "Gołąbki-Guide: Sonntag, Sauce und Batch",
         slug: "golabki-guide",
         excerpt:
-          "Gołąbki am Tisch: Sauce-Wege, Varianten, Batch und typische Fehler — Mengen und Schritte im Rezept.",
+          "Gołąbki am Tisch: Sauce-Wege, Varianten, Batch und typische Fehler. Mengen und Schritte im Rezept.",
         seoTitle: "Gołąbki Guide | Sauce, Varianten, Batch | Alemniam",
         seoDescription:
           "Gołąbki im Überblick: Tomate oder Rosół, vegetarisch, Freezer. Kochen mit Mengen im Gołąbki-Rezept.",
@@ -43,7 +43,7 @@ export const seedBlogPostsW3a: BlogPost[] = [
         title: "Przewodnik po gołąbkach: niedziela, sos, batch",
         slug: "golabki-przewodnik",
         excerpt:
-          "Gołąbki przy stole: sosy, warianty, batch i typowe błędy — ilości i kroki w przepisie.",
+          "Gołąbki przy stole: sosy, warianty, batch i typowe błędy. Ilości i kroki w przepisie.",
         seoTitle: "Gołąbki przewodnik | Sos, warianty, batch | Alemniam",
         seoDescription:
           "Przegląd gołąbków: pomidor lub rosół, wege, zamrażarka. Gotowanie z ilościami w przepisie na gołąbki.",
@@ -81,20 +81,20 @@ export const seedBlogPostsW3a: BlogPost[] = [
         title: "Naleśniki-Guide: Varianten, Alltag, Diaspora",
         slug: "nalesniki-guide",
         excerpt:
-          "Naleśniki vs. deutsche Eierkuchen: welche Füllung wann, typische Fehler über Varianten — kochen auf den Rezepten.",
+          "Naleśniki vs. deutsche Eierkuchen: welche Füllung wann, typische Fehler über Varianten, kochen auf den Rezepten.",
         seoTitle: "Naleśniki Guide | Varianten & Alltag | Alemniam",
         seoDescription:
-          "Naleśniki im Überblick: Twaróg, Fleisch, Spinat, Dżem. Mengen und Schritte in den Rezepten — hier die Orientierung.",
+          "Naleśniki im Überblick: Twaróg, Fleisch, Spinat, Dżem. Mengen und Schritte in den Rezepten, hier die Orientierung.",
         body: bodyNalesnikiGuideDe.trim(),
       },
       pl: {
         title: "Przewodnik po naleśnikach: warianty i codzienność",
         slug: "nalesniki-przewodnik",
         excerpt:
-          "Naleśniki vs Eierkuchen: który farsz kiedy, typowe błędy — gotowanie w przepisach, tu orientacja.",
+          "Naleśniki vs Eierkuchen: który farsz kiedy, typowe błędy, gotowanie w przepisach, tu orientacja.",
         seoTitle: "Naleśniki przewodnik | Warianty i codzienność | Alemniam",
         seoDescription:
-          "Przegląd naleśników: twaróg, mięso, szpinak, dżem. Ilości i kroki w przepisach — tutaj mapa wariantów.",
+          "Przegląd naleśników: twaróg, mięso, szpinak, dżem. Ilości i kroki w przepisach, tutaj mapa wariantów.",
         body: bodyNalesnikiGuidePl.trim(),
       },
     },
@@ -124,7 +124,7 @@ export const seedBlogPostsW3a: BlogPost[] = [
           "Was Oscypek ist, wie wir Qualität im Laden erkennen, Grill/Pfanne und sinnvolle Alternativen in DE.",
         seoTitle: "Oscypek kaufen Deutschland | Guide | Alemniam",
         seoDescription:
-          "Oscypek in DE: g.U./PDO kurz erklärt, Einkauf, Grillen, Beilagen und Ersatz — ruhig und praxisnah.",
+          "Oscypek in DE: g.U./PDO kurz erklärt, Einkauf, Grillen, Beilagen und Ersatz, ruhig und praxisnah.",
         body: bodyOscypekDe.trim(),
       },
       pl: {
@@ -134,7 +134,7 @@ export const seedBlogPostsW3a: BlogPost[] = [
           "Czym jest oscypek, jak rozpoznać jakość, grill/patelnia i sensowne zamienniki w DE.",
         seoTitle: "Oscypek w Niemczech | Poradnik | Alemniam",
         seoDescription:
-          "Oscypek w DE: chroniona nazwa w skrócie, zakupy, opiekanie, dodatki i zamienniki — spokojnie i praktycznie.",
+          "Oscypek w DE: chroniona nazwa w skrócie, zakupy, opiekanie, dodatki i zamienniki, spokojnie i praktycznie.",
         body: bodyOscypekPl.trim(),
       },
     },

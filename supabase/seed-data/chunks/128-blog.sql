@@ -4,193 +4,231 @@ begin;
 
 -- blog:post-polnische-suppen
 insert into public.blog_posts (id, status, post_type, cover_image, silo_ids, related_recipe_ids, related_post_ids, related_product_ids, cluster_ids, published_at, updated_at) values ('post-polnische-suppen', 'published', 'guide', 'https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-polnische-suppen/fe32713e-a055-4921-9c7a-20e96d323cce.webp', array['dishFamily']::text[], array['recipe-zurek', 'recipe-barszcz', 'recipe-rosol', 'recipe-ogorkowa', 'recipe-kapusniak', 'recipe-botwinka', 'recipe-flaki', 'recipe-zupa-pomidorowa', 'recipe-zupa-grzybowa', 'recipe-grochowka', 'recipe-kluski-kladzione', 'recipe-krupnik', 'recipe-szczawiowa', 'recipe-koperkowa']::text[], array['post-rosol-technik', 'post-barszcz-technik', 'post-zakwas-zurek', 'post-sonntagsessen']::text[], array['aff-dutch-oven']::text[], array['technique-bulion']::text[], '2026-07-21T09:00:00.000Z', '2026-07-21T09:00:00.000Z') on conflict (id) do update set status = excluded.status, post_type = excluded.post_type, cover_image = excluded.cover_image, silo_ids = excluded.silo_ids, related_recipe_ids = excluded.related_recipe_ids, related_post_ids = excluded.related_post_ids, related_product_ids = excluded.related_product_ids, cluster_ids = excluded.cluster_ids, published_at = excluded.published_at, updated_at = excluded.updated_at;
-insert into public.blog_post_translations (post_id, locale, title, slug, excerpt, body, seo_title, seo_description) values ('post-polnische-suppen', 'de', 'Polnische Suppen: Überblick für den Alltag', 'polnische-suppen', 'Żurek, Barszcz, Rosół und Co.: wann welche Suppe, wie Brühe trägt und welche Guides tiefer gehen.', 'Polnische Suppen leben von Brühe, Säure, Gemüse und Geduld – nicht von Schwere. In Deutschland kaufen wir Basics im Supermarkt und ergänzen Zakwas, Pilze oder Wurst gezielt im Polenladen. Dieser Überblick ordnet [Rosół](/de/blog/rosol-technik), [Żurek](/de/rezepte/zurek), [Barszcz](/de/rezepte/barszcz-czerwony) sowie die Kiszone-Linien [Ogórkowa](/de/rezepte/ogorkowa) und [Kapuśniak](/de/rezepte/kapusniak) ohne regionale Hierarchie. Praktische Orientierung: [bzfe.de](https://www.bzfe.de), [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl), [agriculture.ec.europa.eu](https://agriculture.ec.europa.eu), [was-wir-essen.de](https://www.was-wir-essen.de).
+insert into public.blog_post_translations (post_id, locale, title, slug, excerpt, body, seo_title, seo_description) values ('post-polnische-suppen', 'de', 'Polnische Suppen: Überblick für den Alltag', 'polnische-suppen', 'Żurek, Barszcz, Rosół und Co.: wann welche Suppe, wie Brühe trägt und welche Guides tiefer gehen.', 'Polnische Suppen in Deutschland sind selten eine Kopie des Topfes, an dem wir aufgewachsen sind. Sie sind ein Wochentopf zwischen Schicht, kleinem Herd und dem Wunsch nach Säure, Klarheit oder Wärme, ohne jeden Abend ein neues Projekt. Der Name meint viele Gerichte. Der Alltag meint mehr: welche Linie wann, welche Zutat aus REWE reicht, was der Polenladen tragen muss, und wie ein Fond mehrere Teller füttert.
 
-## Vier Säulen
+Dieser Artikel ist der Überblick, nicht das Rezeptbuch. Mengen, Garzeiten und die konkrete Schrittfolge stehen in den einzelnen Rezepten. Hier ordnen wir die Landschaft ohne regionale Hierarchie: was zusammengehört, was nur den Namen teilt, und wo Haushalte in der Diaspora bewusst eine Suppe pro Woche wählen. Orientierung zu Hygiene und Kühlkette: [bzfe.de](https://www.bzfe.de) und [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
 
-**Rosół:** klare Brühe, niedrige Hitze – [Rosół-Technik](/de/blog/rosol-technik). **Żurek:** Zakwas, Majoran, Einlagen – [Zakwas](/de/blog/zakwas-zurek). **Barszcz:** Rote Bete, Balance statt Zucker. **[Krupnik](/de/rezepte/krupnik)** (Gerste) und die Kiszone-Suppen [Kapuśniak](/de/rezepte/kapusniak) sowie [Ogórkowa](/de/rezepte/ogorkowa): Einlagen nach Basis. **Frühling:** [Botwinka](/de/rezepte/botwinka) — junge Bete mit Blättern; grüne Sauerampfer-Linie: [Szczawiowa](/de/rezepte/szczawiowa). Immer: Basis zuerst, Säure und Salz steuern.
+Historisch leben polnische Suppen von Brühe, Säure, Gemüse und Geduld, nicht von Schwere. Rosół markierte oft den Sonntag, Żurek die Rückkehr nach der Fastenzeit, Barszcz den stillen Heiligabend. Kiszone-Linien machten den Winterteller sauer, ohne jede Woche neu einzukaufen. In Deutschland ersetzen wir den großen Hofhahn und den Keller durch Theke, Kühlschrank und einen Plan, der zum Job passt. Eine Suppe, die wirklich fertig wird, schlägt drei Töpfe, die alle noch rühren wollen.
 
+![Tomatensuppe als Alltagslinie, nicht als Festtags-Barszcz](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-zupa-pomidorowa/1dc1deb5-b454-41f4-a58d-5561a4cf7613.webp "Alltag und Festtag klar trennen. Dieselbe Küche, andere Aufgabe.")
 
+## Vier Säulen, klar benannt
 
-![Gericht aus der polnischen Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-zupa-pomidorowa/1dc1deb5-b454-41f4-a58d-5561a4cf7613.webp)
+[Rosół](/de/rezepte/rosol) ist klare Brühe, leise Hitze, Knochen und Geduld. Die Technik steht im Beitrag [Rosół richtig kochen](/de/blog/rosol-technik). Wer Rosół kann, hat Fond für viele andere Töpfe.
 
-## Flaki (Kuttelsuppe)
+[Żurek](/de/rezepte/zurek) ist keine beliebige saure Suppe. Die Säure kommt aus fermentiertem Roggen. Essig als Notlösung ergibt ein anderes Gericht. Den Ansatz erklärt der [Zakwas-Guide](/de/blog/zakwas-zurek). Majoran trägt, ersetzt aber keine Fermentnote.
 
-Wenn der Topf deftige Einlage und Majeranek will — nicht Rote Bete, nicht Zakwas, nicht Kiszone-Gurke: [Flaki](/de/rezepte/flaki). Mengen und Schritte stehen im Rezept; hier bleibt der Überblick über die Suppen-Landschaft.
+[Barszcz](/de/rezepte/barszcz-czerwony) ist Rote Bete und Balance, nicht Zucker. Die klare Festtagslinie ist nicht Botwinka und nicht der kalte Chłodnik. Technik: [Barszcz-Technik](/de/blog/barszcz-technik).
 
-## Alltag: Zupa pomidorowa
+Die Kiszone-Linien sind [Ogórkowa](/de/rezepte/ogorkowa) aus Gurke und Lake und [Kapuśniak](/de/rezepte/kapusniak) aus saurem Kraut. Das ist Suppe, nicht [Bigos](/de/rezepte/bigos). Kiszenie als Praxisrahmen: [Kiszenie](/de/blog/kiszenie-guide).
 
-**Zupa pomidorowa** — polnische Tomatensuppe mit Reis oder Nudeln und Śmietana — ist Alltagsküche aus oft Rosół-Resten, kein Festtags-Barszcz und keine Kiszone-Ogórkowa. Rezept: [Zupa pomidorowa](/de/rezepte/zupa-pomidorowa). Hier bleibt der Überblick; Mengen und Schritte stehen dort.
+Immer: Basis zuerst, Säure und Salz steuern. Hartes Kochen trübt. Milchprodukte temperieren, nicht in eine tobende Fläche geben.
 
-## Herbst / Wigilia: Zupa grzybowa
+## Alltag, Herbst, Deftiges, Grün
 
-**Zupa grzybowa** — klare Pilzsuppe aus Trockenpilzen — ist die klare Pilzlinie (Wald/Fond), nicht Rote Bete und nicht Kutteln. Rezept: [Zupa grzybowa](/de/rezepte/zupa-grzybowa).
+[Zupa pomidorowa](/de/rezepte/zupa-pomidorowa) ist Alltagsküche, oft aus Rosół-Resten, mit Reis oder Nudeln und Śmietana. Sie ist kein Festtags-Barszcz und keine Ogórkowa.
 
-## Deftig: Grochówka
+[Zupa grzybowa](/de/rezepte/zupa-grzybowa) ist die klare Pilzlinie aus Trockenpilzen, Wald und Fond. Sie ist nicht Rote Bete und nicht Kutteln. An [Wigilia](/de/anlaesse/wigilia) steht sie oft neben Pierogi und Fisch. Speiseplan: [Wigilia](/de/blog/wigilia-speiseplan).
 
-**Grochówka** — Erbsensuppe mit oft Rauchwurst — ist die Erbsenlinie, nicht Bohnen-[Fasolka](/de/rezepte/fasolka-po-bretonsku) und nicht [Kapuśniak](/de/rezepte/kapusniak). Rezept: [Grochówka](/de/rezepte/grochowka).
+[Grochówka](/de/rezepte/grochowka) ist die Erbsenlinie, oft mit Rauchwurst. Sie ist nicht Bohnen-[Fasolka](/de/rezepte/fasolka-po-bretonsku) und nicht Kapuśniak.
 
-## Gerste: Krupnik
+[Krupnik](/de/rezepte/krupnik) ist die Gerstenlinie mit Wurzelgemüse, optional Huhn. Sie ist nicht Grochówka und nicht Zupa grzybowa.
 
-**Krupnik** — Gerstensuppe mit Wurzelgemüse, optional Huhn — ist die Gerstenlinie, nicht Erbsen-[Grochówka](/de/rezepte/grochowka) und nicht Pilz-[Zupa grzybowa](/de/rezepte/zupa-grzybowa). Rezept: [Krupnik](/de/rezepte/krupnik).
+[Flaki](/de/rezepte/flaki) will deftige Einlage und Majoran. Nicht Rote Bete, nicht Zakwas, nicht Kiszone-Gurke. Mengen bleiben im Rezept.
 
-## Grün / Saison: Szczawiowa
+[Botwinka](/de/rezepte/botwinka) ist junge Bete mit Blättern, warm, frühlingshaft. Sie ist nicht klarer Barszcz und nicht kalter [Chłodnik](/de/rezepte/chlodnik-litewski).
 
-**Zupa szczawiowa** — grüne Sauerampfersuppe mit oft Ei und Śmietana — ist die Sauerampferlinie, nicht [Botwinka](/de/rezepte/botwinka), nicht [Ogórkowa](/de/rezepte/ogorkowa) und nicht kalter [Chłodnik](/de/rezepte/chlodnik-litewski). Rezept: [Szczawiowa](/de/rezepte/szczawiowa).
+[Szczawiowa](/de/rezepte/szczawiowa) ist die Sauerampferlinie, oft mit Ei und Śmietana. Sie ist nicht Botwinka, nicht Ogórkowa, nicht Chłodnik.
 
-## Dill: Zupa koperkowa
+[Koperkowa](/de/rezepte/koperkowa) ist die helle Dilllinie, oft mit Kartoffeln, Śmietana und Ei. Sie ist nicht Rosół, nicht Szczawiowa, nicht Ogórkowa.
 
-**Zupa koperkowa** — helle Dillsuppe mit oft Kartoffeln, Śmietana und Ei — ist die Dilllinie, nicht [Rosół](/de/rezepte/rosol), nicht [Szczawiowa](/de/rezepte/szczawiowa) und nicht [Ogórkowa](/de/rezepte/ogorkowa). Rezept: [Koperkowa](/de/rezepte/koperkowa).
+Namen ehrlich halten. Wer Gäste und Kinder die Linien mischen lässt, verliert den Überblick und den nächsten Einkauf.
 
-## Einkauf DE
+## Einkauf in zwei Touren
 
-Supermarkt: Suppengrün, Kartoffeln, Majoran, Lorbeer, Sahne/Schmand. Polenladen: Zakwas, Pilze, Kapusta, Kiełbasa – [Polenladen](/de/blog/polenladen-einkaufen), [Kiełbasa-Arten](/de/blog/kielbasa-arten), [Ersatzprodukte](/de/blog/ersatzprodukte), [Śmietana/Schmand](/de/blog/smietana-schmand).
+Erste Tour: REWE, Kaufland oder Markt. Suppengrün, Kartoffeln, Zwiebel, Majoran, Lorbeer, Sahne oder Schmand. Petersilienwurzel fehlt im deutschen Regal öfter als Karotte. Dann mehr Petersiliengrün, statt eine andere Suppe vorzutäuschen.
 
-## Brühe batchen
+Zweite Tour: [Polenladen](/de/blog/polenladen-einkaufen) für Zakwas, getrocknete Pilze, Kapusta kiszona, Ogórki, bessere Kiełbasa, oft Majoran. Sorten der Wurst: [Kiełbasa-Lexikon](/de/blog/kielbasa-arten). Ehrliche Lücken: [Ersatzprodukte](/de/blog/ersatzprodukte-de). Milchseite: [Śmietana und Schmand](/de/blog/smietana-schmand).
 
-Doppelte Menge, flach abkühlen, portionieren, Fett optional abheben, Salz gestaffelt. Kühl wenige Tage, Freezer Monate. Beschriften.
+Listen nach Gericht schreiben. Was für Żurek fehlt, steht auf einer Zeile. Was für Barszcz fehlt, auf der nächsten. So verhindert ihr das zweite Glas Zakwas, das niemand öffnet.
 
-## Säure einsetzen
+## Brühe batchen, Säure spät
 
-Zakwas, Rübenferment, Zitrone, Krautflüssigkeit oft spät. Milchprodukte temperieren, nicht wild kochen – sonst Flocken.
+Doppelte Menge Fond, flach und schnell abkühlen, portionieren, Fett optional abheben, Salz gestaffelt. Kühl wenige Tage, Freezer Monate, ohne Nudeln und ohne Milchprodukte. Beschriften. Die Logik gleicht dem [Freezer-Plan](/de/blog/freezer-meal-prep).
 
-## Wochenraster
+Säure oft spät: Zakwas, Rübenferment, Krautflüssigkeit, Lake. Zitrone ist ein anderes Werkzeug. Milchprodukte temperieren. Wildes Kochen nach Śmietana gibt Flocken. Reduzierte Brühe salzt sich selbst nach oben. Nach dem Einengen erneut kosten, besonders bei Freezer-Brühe.
 
-Sonntag Brühe; Dienstag Żurek; Donnerstag Reste-Brühe; Festtag Barszcz über [Wigilia](/de/blog/wigilia-speiseplan) oder [Wielkanoc](/de/blog/wielkanoc-speiseplan).
+## Wochenraster und Saison
 
-## Fehler
+Sonntag: Rosół, wenn Zeit da ist, oder Aufwärmen vom Samstag. Unter der Woche: eine zweite Linie aus demselben Fond, Pomidorowa, oder ein Topf Żurek vom Vortag. Festtag: Barszcz über den [Wigilia-Speiseplan](/de/blog/wigilia-speiseplan) oder Żurek über [Wielkanoc](/de/blog/wielkanoc-speiseplan). Der [Sonntagsplan](/de/blog/sonntagsessen-polnisch) darf üben, ohne so zu tun, als sei er Heiligabend.
 
-Hart kochen; Essig statt Zakwas; Barszcz überzuckern; Milchprodukte kochen; früh salzen; Einlagen zerkochen.
+Winter trägt Rosół und Żurek. Frühling trägt leichtere Brühen und Botwinka. Herbst trägt Pilze und Kraut. Getrocknete Pilze sind ganzjährig planbar, wenn der Laden sie hat.
 
+![Krupnik als Gerstenlinie, nicht als Erbsentopf](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-krupnik/d71fb2f2-23ab-4055-a851-2042de77b343.webp "Eine Linie pro Woche reicht. Der Topf darf warten und am nächsten Tag runder schmecken.")
 
+## Klar oder sämig, Beilage sparsam
 
-![Zubereitung in der Diaspora-Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-krupnik/d71fb2f2-23ab-4055-a851-2042de77b343.webp)
+Vorher entscheiden. Eine Not-Mehlschwitze am Ende ist Symptom, nicht Stil. Żurek darf cremig sein ohne schwer. Festtags-Barszcz bleibt oft klar. Einlagen nicht zerkochen.
 
-## Regionalität
+Brot, Kasza, Nudeln oder [Uszka](/de/rezepte/uszka), nicht alles auf einmal. Nach Rosół oft ein kleiner Hauptgang. Zu Barszcz gehören Uszka, nicht ein zweiter schwerer Topf. Teig: [Pierogi-Teig](/de/blog/pierogi-teig). Kinderportionen getrennt, milder, bevor der Familientopf schärfer wird.
 
-Hausbrauch respektieren, nicht belehren. Vegetarische Fonds ehrlich benennen. Modern: klarer Geschmack, flexible Form.
+Gewürze: Lorbeer, Piment, Majoran, Pfeffer, Dill. Wenige, frisch genug. Fertigmischungen mit Zucker und Rauch verdecken Zeit.
 
-## Beilagen
+## Regionalität und gemischte Tische
 
-Brot, Kasza, Nudeln oder Pierogi – nicht alles. Nach Rosół kleiner Hauptgang; zu Barszcz Uszka/[Pierogi-Teig](/de/blog/pierogi-teig).
+Hausbrauch respektieren, nicht belehren. Vegetarische Fonds ehrlich benennen. Eine Extra-Show nur für eine Person erschöpft meist alle. Deutsche Gäste brauchen oft einen Satz: Rosół ist die klare Hühnersuppe, Żurek die saure Roggensuppe, Barszcz die Rote-Bete-Suppe, Ogórkowa die Gurkensuppe aus Kiszone. Das ist Respekt, nicht Folklore.
 
-## Klar vs sämig
+## Fehler, die Hausrezepte überleben
 
-Vorher entscheiden. Not-Mehlschwitze am Ende ist Symptom. Żurek darf cremig sein ohne schwer; Festtags-Barszcz oft klar.
+Hart kochen. Essig statt Zakwas, wenn Żurek gemeint ist. Barszcz überzuckern. Milchprodukte kochen. Früh stark salzen. Einlagen im Vorratstopf. Nudeln in der Restbrühe. [Bigos](/de/rezepte/bigos) ist ein eigener Teller, keine Restetonne für jede Suppe.
 
-## Gewürze
+Werkzeug: dicker Topf, Schaumlöffel, Sieb, flache Kühlbehälter. Ein [Dutch Oven](/de/blog/dutch-oven-kaufberatung) kann tragen, er ersetzt keine leise Hitze.
 
-Lorbeer, Piment, Majoran, Pfeffer, Dill – wenige, frisch genug. Fertigmischungen mit Zucker/Rauch meiden.
+## Hygiene, die die Woche trägt
 
-## Restekultur
-
-Gemüse, Huhn, Pilzwasser werden Basis – keine Abfalltonne. [Bigos](/de/rezepte/bigos) bleibt eigener Teller.
-
-## Werkzeuge
-
-Dicker Topf, Schaumlöffel, Sieb, Kühlbehälter. Gadgets ersetzen keine Zeit.
-
-## Saison
-
-Winter: Rosół/Żurek; Frühling: leichtere Brühen und [Botwinka](/de/rezepte/botwinka) mit frischer Botwina; Herbst: Pilze/Kraut. Getrocknete Pilze ganzjährig planbar.
-
-## Menülogik
-
-Starke Suppe, ruhige Fortsetzung. Getränke einfach. Hunger planen, nicht Speisekartenlänge.
+Nach dem Kochen zügig abkühlen, lieber in zwei flachen Schüsseln. Nicht den vollen Topf über Nacht auf der Platte. Gründlich erhitzen. Mayonnaise und Śmietana nicht stundenlang warm. Bei Kindern, Schwangeren und älteren Gästen ist das Gastfreundschaft. Bei Zweifel entsorgen. Rahmen: [bzfe.de](https://www.bzfe.de).
 
 ## FAQ
 
-### Beste Einsteiger-Suppe?
+### Welche Suppe eignet sich als Einstieg?
 
-Rosół: transparente Technik, frühe Fehlerbilder, wenig Spezialzutaten. Danach Zakwas/Żurek. Barszcz braucht Balance. Wer Rosół kann, hat Fond für viele Töpfe.
+Rosół. Die Technik ist sichtbar, Fehlerbilder kommen früh, Spezialzutaten sind wenige. Danach Zakwas und Żurek. Barszcz braucht Balance. Wer Rosół kann, hat Fond für viele Töpfe.
 
-### Zakwas ersetzen?
+### Darf Zakwas durch Essig ersetzt werden?
 
-Nicht mit Essig, wenn Żurek gemeint ist. Polenladen oder Selbstansatz. Andere Säuren = anderes Gericht. Lexikon und Rezept nutzen; Geruch muss frisch-getreideartig sauer sein.
+Nicht wenn Żurek gemeint ist. Polenladen oder Selbstansatz. Andere Säuren ergeben ein anderes Gericht. Der Geruch muss frisch und getreideartig sauer sein. Details im [Zakwas-Guide](/de/blog/zakwas-zurek).
 
-### Trübe Brühe vermeiden?
+### Wie bleibt die Brühe klar?
 
-Langsam erhitzen, schäumen, nicht sprudeln, vorsichtig seihen, Gemüse nicht zerkochen, Salz später. Trüb ≠ automatisch schlecht, aber Klarheit ist das Ziel klassischer Rosół-Technik.
+Langsam erhitzen, schäumen, nicht sprudeln, vorsichtig seihen, Gemüse nicht zerkochen, Salz später. Trüb ist nicht automatisch schlecht, aber Klarheit ist das Ziel klassischer Rosół-Technik.
 
-### Meal Prep mit Suppen?
+### Lassen sich Suppen vorbereiten?
 
-Brühe batchen/einfrieren, Einlagen separat, Milchprodukte beim Servieren. Żurek/Barszcz oft Vortag. Portionen beschriften. Freezer-Logik analog zu Pierogi.
+Brühe batchen und einfrieren, Einlagen separat, Milchprodukte beim Servieren. Żurek und Barszcz oft am Vortag. Portionen beschriften. Die Freezer-Logik gleicht den Pierogi.
 
 ### Barszcz oder Żurek zu Festen?
 
-Hausbrauch. Viele: Barszcz zu Wigilia; Żurek stark zu Ostern. Ehrlich planen statt fremde Listen erfüllen. Speisepläne Wigilia/Wielkanoc helfen.
+Hausbrauch. Viele Häuser: Barszcz zu Wigilia, Żurek stark zu Ostern. Ehrlich planen statt fremde Listen erfüllen. Die Speisepläne helfen, sie ersetzen kein Gespräch am Tisch.
 
-### Beilage ohne Überfüllung?
+### Welche Beilage füllt, ohne den Topf zu überladen?
 
-Wenig Nudeln oder Brot oft besser. Bei Żurek als Hauptsuppe dürfen Kartoffeln sättigen. Kinderportionen getrennt. Raum für weiteren Gang lassen.
+Wenig Nudeln oder Brot oft besser. Bei Żurek als Hauptsuppe dürfen Kartoffeln sättigen. Kinderportionen getrennt. Raum für einen weiteren Gang lassen, wenn einer geplant ist.
 
-## Suppe als Wochenanker
+## Ohne Scham, mit einem Topf
 
-## Salz und Reduktion
+Kauf-Zakwas, Fertignudeln und eine Suppe aus dem deutschen Regal sind in der Diaspora in Ordnung, wenn der Topf ruhig bleibt. Heldentum, das drei Linien am selben Abend erzwingt, ist kein Gewinn an Brauch. Vorher den Kühlschrank leeren, die Linie benennen, die Einlage getrennt denken. Die Suppe trägt die Woche, wenn sie das darf.', 'Polnische Suppen | Überblick & Rezepte | Alemniam', 'Polnische Suppen erklärt: Żurek, Barszcz, Rosół. Überblick mit Links zu Technik, Zakwas und Rezepten, bilingual.') on conflict (post_id, locale) do update set title = excluded.title, slug = excluded.slug, excerpt = excluded.excerpt, body = excluded.body, seo_title = excluded.seo_title, seo_description = excluded.seo_description;
+insert into public.blog_post_translations (post_id, locale, title, slug, excerpt, body, seo_title, seo_description) values ('post-polnische-suppen', 'pl', 'Polskie zupy: przegląd na codzienność', 'polskie-zupy', 'Żurek, barszcz, rosół i więcej: kiedy która zupa, jak działa wywar i które poradniki idą głębiej.', 'Polskie zupy w Niemczech rzadko są kopią garnka, przy którym wyrośliśmy. To garnek tygodnia między zmianą, małą kuchenką i chęcią kwasu, klarowności albo ciepła, bez nowego projektu każdego wieczoru. Nazwa oznacza wiele dań. Codzienność oznacza więcej: która linia kiedy, który składnik z REWE wystarczy, co musi unieść sklep polski i jak jeden wywar karmi kilka talerzy.
 
-Reduzierte Brühe salzt sich selbst nach oben. Deshalb gestaffelt würzen und nach dem Reduzieren erneut kosten. Besonders wichtig bei Freezer-Brühe, die später eingeengt wird.', 'Polnische Suppen | Überblick & Rezepte | Alemniam', 'Polnische Suppen erklärt: Żurek, Barszcz, Rosół. Überblick mit Links zu Technik, Zakwas und Rezepten — bilingual.') on conflict (post_id, locale) do update set title = excluded.title, slug = excluded.slug, excerpt = excluded.excerpt, body = excluded.body, seo_title = excluded.seo_title, seo_description = excluded.seo_description;
-insert into public.blog_post_translations (post_id, locale, title, slug, excerpt, body, seo_title, seo_description) values ('post-polnische-suppen', 'pl', 'Polskie zupy: przegląd na codzienność', 'polskie-zupy', 'Żurek, barszcz, rosół i więcej: kiedy która zupa, jak działa wywar i które poradniki idą głębiej.', 'Polska zupa w Niemczech ma wielką przewagę: da się ugotować rozsądnie z produktów z REWE, Kauflandu czy sklepu polskiego, a potem dobrze podgrzać następnego dnia. Nie potrzebuje dekoracji; potrzebuje czystego smaku i czasu.
+Ten artykuł jest przeglądem, nie książką przepisów. Ilości, czasy i konkretna kolejność są w pojedynczych przepisach. Tutaj porządkujemy krajobraz bez hierarchii regionalnej: co do siebie pasuje, co dzieli tylko nazwę i gdzie gospodarstwa w diasporze świadomie wybierają jedną zupę na tydzień. Orientacja w higienie i łańcuchu chłodniczym: [bzfe.de](https://www.bzfe.de) oraz [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
 
-## Cztery kierunki na początek
+Historycznie polskie zupy żyją wywarem, kwasem, warzywami i cierpliwością, nie ciężarem. Rosół często znaczył niedzielę, żurek powrót po poście, barszcz cichy wieczór wigilijny. Linie kiszone robiły zimowy talerz kwaśnym bez kupowania od nowa co tydzień. W Niemczech zamieniamy wielkiego koguta i piwnicę na ladę, lodówkę i plan, który da się pogodzić z pracą. Jedna zupa, która naprawdę zostaje skończona, bije trzy garnki, które wszystkie jeszcze chcą mieszać.
 
-[Rosół](/pl/rezepte/rosol) budujemy na mięsie, warzywach i spokojnym gotowaniu. [Żurek](/pl/rezepte/zurek) potrzebuje dobrego zakwasu, majeranku i białej kiełbasy. Barszcz czerwony opiera się na burakach i kontroli kwasowości. [Kapuśniak](/pl/rezepte/kapusniak) korzysta z dobrej kapusty kiszonej, nie z nadmiaru przypraw — to zupa, nie bigos. [Ogórkowa](/pl/rezepte/ogorkowa) bierze kwas z ogórków kiszonych i zalewy. Wiosną [botwinka](/pl/rezepte/botwinka) — młode buraki z botwiną, ciepła i z dodatkami, jasno ≠ barszcz klarowny i ≠ zimny chłodnik. My wybieramy jedną zupę na tydzień i robimy ją tak, aby starczyła na dwa obiady.
+![Zupa pomidorowa jako linia codzienna, nie jako świąteczny barszcz](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-zupa-pomidorowa/1dc1deb5-b454-41f4-a58d-5561a4cf7613.webp "Codzienność i święto jasno rozdzielamy. Ta sama kuchnia, inne zadanie.")
 
+## Cztery filary, jasno nazwane
 
+[Rosół](/pl/rezepte/rosol) to klarowny wywar, łagodny ogień, kości i cierpliwość. Technika stoi w tekście [jak ugotować rosół](/pl/blog/jak-ugotowac-rosol). Kto umie rosół, ma wywar do wielu innych garnków.
 
-![Danie z polskiej kuchni](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-zupa-pomidorowa/1dc1deb5-b454-41f4-a58d-5561a4cf7613.webp)
+[Żurek](/pl/rezepte/zurek) nie jest dowolną kwaśną zupą. Kwas pochodzi z fermentowanego żyta. Ocet jako ratunek daje inne danie. Zaczyn tłumaczy [przewodnik po zakwasie](/pl/blog/zakwas-na-zurek). Majeranek niesie, nie zastępuje nuty fermentu.
 
-## Flaki
+[Barszcz](/pl/rezepte/barszcz-czerwony) to burak i równowaga, nie cukier. Klarowna linia świąteczna to nie botwinka i nie zimny chłodnik. Technika: [jak ugotować barszcz](/pl/blog/jak-ugotowac-barszcz).
 
-Gdy garnek chce treściwy dodatek i majeranek — nie buraki, nie zakwas, nie ogórek kiszony: [flaki](/pl/rezepte/flaki). Ilości i kroki są w przepisie; tutaj zostaje przegląd zup.
+Linie kiszone to [ogórkowa](/pl/rezepte/ogorkowa) z ogórka i zalewy oraz [kapuśniak](/pl/rezepte/kapusniak) z kiszonej kapusty. To zupa, nie [bigos](/pl/rezepte/bigos). Kiszenie jako rama praktyki: [kiszenie w domu](/pl/blog/kiszenie-w-domu).
 
-## Codzienność: zupa pomidorowa
+Zawsze: najpierw baza, kwas i sól sterujemy. Gwałtowne gotowanie mąci. Nabiał zahartowujemy, nie wrzucamy do burzącej tafli.
 
-**Zupa pomidorowa** — z ryżem lub makaronem i śmietaną — to kuchnia codzienna, często z resztek rosołu, nie świąteczny barszcz i nie ogórkowa z kiszonego. Przepis: [zupa pomidorowa](/pl/rezepte/zupa-pomidorowa). Tutaj zostaje przegląd; ilości i kroki są tam.
+## Codzienność, jesień, treściwe, zieleń
 
-## Jesień / Wigilia: zupa grzybowa
+[Zupa pomidorowa](/pl/rezepte/zupa-pomidorowa) to kuchnia codzienna, często z resztek rosołu, z ryżem albo makaronem i śmietaną. Nie jest świątecznym barszczem i nie jest ogórkową.
 
-**Zupa grzybowa** — klarowna zupa z suszonych grzybów — to linia leśna (wywar), nie buraki i nie flaki. Przepis: [zupa grzybowa](/pl/rezepte/zupa-grzybowa).
+[Zupa grzybowa](/pl/rezepte/zupa-grzybowa) to klarowna linia grzybowa z suszonych grzybów, lasu i wywaru. Nie jest burakiem i nie jest flakami. Na [Wigilii](/pl/anlaesse/wigilia) stoi często obok pierogów i ryby. Menu: [menu wigilijne](/pl/blog/menu-wigilijne).
 
-## Treściwie: grochówka
+[Grochówka](/pl/rezepte/grochowka) to linia grochowa, często z wędzoną kiełbasą. Nie jest fasolową [fasolką](/pl/rezepte/fasolka-po-bretonsku) i nie jest kapuśniakiem.
 
-**Grochówka** — zupa z grochu często z wędzoną kiełbasą — to linia grochowa, nie fasolowa [fasolka](/pl/rezepte/fasolka-po-bretonsku) i nie [kapuśniak](/pl/rezepte/kapusniak). Przepis: [grochówka](/pl/rezepte/grochowka).
+[Krupnik](/pl/rezepte/krupnik) to linia jęczmienna z warzywami korzeniowymi, opcjonalnie z kurczakiem. Nie jest grochówką i nie jest zupą grzybową.
 
-## Kasza: krupnik
+[Flaki](/pl/rezepte/flaki) chcą treściwego dodatku i majeranku. Nie buraki, nie zakwas, nie kiszony ogórek. Ilości zostają w przepisie.
 
-**Krupnik** — zupa z kaszy jęczmiennej i warzyw, opcjonalnie z kurczakiem — to linia jęczmienna, nie grochowa [grochówka](/pl/rezepte/grochowka) i nie grzybowa [zupa grzybowa](/pl/rezepte/zupa-grzybowa). Przepis: [krupnik](/pl/rezepte/krupnik).
+[Botwinka](/pl/rezepte/botwinka) to młode buraki z liśćmi, ciepła, wiosenna. Nie jest klarownym barszczem i nie jest zimnym [chłodnikiem](/pl/rezepte/chlodnik-litewski).
 
+[Szczawiowa](/pl/rezepte/szczawiowa) to linia szczawiowa, często z jajkiem i śmietaną. Nie jest botwinką, nie jest ogórkową, nie jest chłodnikiem.
 
+[Koperkowa](/pl/rezepte/koperkowa) to jasna linia koperkowa, często z ziemniakami, śmietaną i jajkiem. Nie jest rosołem, nie jest szczawiową, nie jest ogórkową.
 
-![Przygotowanie w kuchni diaspory](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-krupnik/d71fb2f2-23ab-4055-a851-2042de77b343.webp)
+Nazwy trzymamy uczciwie. Kto pozwala gościom i dzieciom mieszać linie, traci przegląd i następne zakupy.
 
-## Zieleń / sezon: szczawiowa
+## Zakupy w dwóch turach
 
-**Zupa szczawiowa** — zielona ze szczawiu, często z jajkiem i śmietaną — to linia szczawiowa, nie [botwinka](/pl/rezepte/botwinka), nie [ogórkowa](/pl/rezepte/ogorkowa) i nie zimny [chłodnik](/pl/rezepte/chlodnik-litewski). Przepis: [szczawiowa](/pl/rezepte/szczawiowa).
+Pierwsza tura: REWE, Kaufland albo targ. Włoszczyzna, ziemniaki, cebula, majeranek, liść laurowy, śmietana albo Schmand. Korzeń pietruszki w niemieckim regale znika częściej niż marchew. Wtedy więcej natki, zamiast udawać inną zupę.
 
-## Koperek: zupa koperkowa
+Druga tura: [sklep polski](/pl/blog/sklep-polski-zakupy) po zakwas, suszone grzyby, kapustę kiszoną, ogórki, lepszą kiełbasę, często majeranek. Rodzaje wędlin: [leksykon kiełbasy](/pl/blog/rodzaje-kielbasy). Uczciwe luki: [zamienniki](/pl/blog/zamienniki-skladnikow). Strona mleczna: [śmietana i Schmand](/pl/blog/smietana-czy-schmand).
 
-**Zupa koperkowa** — jasna zupa z koperku, często z ziemniakami, śmietaną i jajkiem — to linia koperkowa, nie [rosół](/pl/rezepte/rosol), nie [szczawiowa](/pl/rezepte/szczawiowa) i nie [ogórkowa](/pl/rezepte/ogorkowa). Przepis: [koperkowa](/pl/rezepte/koperkowa).
+Listy piszemy według dania. Czego brakuje do żurku, stoi w jednym wierszu. Czego brakuje do barszczu, w następnym. Tak unikamy drugiego słoika zakwasu, którego nikt nie otwiera.
 
-## Wywar to fundament
+## Wywar partiami, kwas późno
 
-Warzywa myjemy, mięso wkładamy do zimnej wody lub według wybranej techniki, a garnek prowadzimy pod małym ogniem. Gwałtowne gotowanie mąci wywar i rozbija delikatne aromaty. Sól dodajemy etapami. Zupa może być intensywna, lecz nie musi być ciężka od tłuszczu albo kostki bulionowej.
+Podwójna ilość wywaru, płasko i szybko chłodzimy, porcjujemy, tłuszcz opcjonalnie zbieramy, sól etapami. W lodówce kilka dni, w zamrażarce miesiące, bez makaronu i bez nabiału. Opisujemy. Logika jest bliska [planowi mrożenia](/pl/blog/mrozenie-pierogow).
 
-## Doprawianie na końcu
+Kwas często późno: zakwas, ferment buraka, zalewa z kapusty, zalewa z ogórków. Cytryna jest innym narzędziem. Nabiał zahartowujemy. Gwałtowne gotowanie po śmietanie daje grudki. Zredukowany wywar sam się solił w górę. Po redukcji próbujemy ponownie, szczególnie przy wywarze z zamrażarki.
 
-My zostawiamy finalną korektę po odstawieniu zupy na kilka minut. Żurek oceniamy po dodaniu zakwasu, barszcz po ogrzaniu, rosół po przecedzeniu. Łatwiej dodać kwasu, soli lub pieprzu niż uratować garnek przesadzony na początku. Dla dzieci nalewamy łagodną porcję przed doprawieniem ostrzejszego garnka.
+## Siatka tygodnia i sezon
 
-## FAQ — domowe zupy
+Niedziela: rosół, gdy jest czas, albo podgrzanie z soboty. W tygodniu: druga linia z tego samego wywaru, pomidorowa, albo garnek żurku z wczoraj. Święto: barszcz przez [menu wigilijne](/pl/blog/menu-wigilijne) albo żurek przez [menu wielkanocne](/pl/blog/menu-wielkanocne). [Plan niedzielny](/pl/blog/obiad-niedzielny) może ćwiczyć, bez udawania, że jest Wigilią.
 
-### Czy my musimy mieć polskie warzywa?
+Zima niesie rosół i żurek. Wiosna niesie lżejsze wywary i botwinkę. Jesień niesie grzyby i kapustę. Suszone grzyby da się planować przez cały rok, gdy sklep je ma.
 
-Nie. My kupujemy świeżą włoszczyznę lokalnie, a polskie składniki zostawiamy dla zakwasu, dobrej kapusty czy przypraw.
+![Krupnik jako linia jęczmienna, nie jako garnek grochu](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-krupnik/d71fb2f2-23ab-4055-a851-2042de77b343.webp "Jedna linia na tydzień wystarczy. Garnek może poczekać i następnego dnia smakować pełniej.")
 
-### Czy my możemy gotować rosół wieczorem?
+## Klarowne albo gęste, dodatek oszczędnie
 
-Tak. My studzimy go bezpiecznie, chłodzimy i następnego dnia zbieramy tłuszcz, jeśli chcemy lżejszą wersję.
+Decydujemy wcześniej. Mąka na końcu jako ratunek jest objawem, nie stylem. Żurek może być kremowy bez ciężaru. Świąteczny barszcz często zostaje klarowny. Dodatków nie rozgotowujemy.
 
-### Dlaczego my nie gotujemy zupy mocno?
+Chleb, kasza, makaron albo [uszka](/pl/rezepte/uszka), nie wszystko naraz. Po rosole często małe danie główne. Do barszczu należą uszka, nie drugi ciężki garnek. Ciasto: [ciasto na pierogi](/pl/blog/ciasto-na-pierogi). Porcje dzieci osobno, łagodniejsze, zanim rodzinny garnek stanie się ostrzejszy.
 
-Bo spokojny garnek daje czystszy smak i mniej mętny wywar.', 'Polskie zupy | Przegląd i przepisy | Alemniam', 'Polskie zupy: żurek, barszcz, rosół. Przegląd z linkami do techniki, zakwasu i przepisów — dwujęzycznie.') on conflict (post_id, locale) do update set title = excluded.title, slug = excluded.slug, excerpt = excluded.excerpt, body = excluded.body, seo_title = excluded.seo_title, seo_description = excluded.seo_description;
+Przyprawy: liść laurowy, ziele angielskie, majeranek, pieprz, koperek. Niewiele, wystarczająco świeże. Gotowe mieszanki z cukrem i dymem zasłaniają czas.
+
+## Regionalność i mieszane stoły
+
+Zwyczaj domu szanujemy, nie pouczamy. Wegetariańskie wywary nazywamy uczciwie. Extra pokaz tylko dla jednej osoby zwykle męczy wszystkich. Niemieccy goście często potrzebują jednego zdania: rosół to klarowna zupa z kury, żurek kwaśna zupa żytnia, barszcz zupa z buraków, ogórkowa zupa z kiszonych ogórków. To szacunek, nie folklor.
+
+## Błędy, które przeżywają w domowych przepisach
+
+Gwałtowne gotowanie. Ocet zamiast zakwasu, gdy chodzi o żurek. Przesładzanie barszczu. Gotowanie nabiału. Wczesne mocne solenie. Dodatki w garnku zapasowym. Makaron w resztkach wywaru. [Bigos](/pl/rezepte/bigos) jest osobnym talerzem, nie koszem na resztki każdej zupy.
+
+Narzędzie: gruby garnek, łyżka do piany, sitko, płaskie pojemniki do chłodzenia. [Dutch oven](/pl/blog/garnek-do-duszenia) może nieść, nie zastępuje łagodnego ognia.
+
+## Higiena, która niesie tydzień
+
+Po ugotowaniu chłodzimy szybko, lepiej w dwóch płaskich miskach. Pełnego garnka nie zostawiamy na noc na płycie. Podgrzewamy dokładnie. Majonezu i śmietany nie trzymamy godzinami w cieple. Przy dzieciach, ciąży i starszych gościach to gościnność. Przy wątpliwości wyrzucamy. Rama: [bzfe.de](https://www.bzfe.de).
+
+## FAQ
+
+### Która zupa nadaje się na początek?
+
+Rosół. Technika jest widoczna, błędy wychodzą wcześnie, specjalnych składników jest mało. Potem zakwas i żurek. Barszcz potrzebuje równowagi. Kto umie rosół, ma wywar do wielu garnków.
+
+### Czy zakwas wolno zastąpić octem?
+
+Nie, gdy chodzi o żurek. Sklep polski albo własny zaczyn. Inne kwasy dają inne danie. Zapach musi być świeży i zbożowo kwaśny. Szczegóły w [przewodniku po zakwasie](/pl/blog/zakwas-na-zurek).
+
+### Jak utrzymać klarowny wywar?
+
+Powoli podgrzewamy, zbieramy pianę, nie pozwalamy burzyć, ostrożnie przecedzamy, warzyw nie rozgotowujemy, sól później. Mętne nie jest automatycznie złe, ale klarowność jest celem klasycznej techniki rosołu.
+
+### Czy zupy da się przygotować wcześniej?
+
+Wywar robimy partiami i mrozimy, dodatki osobno, nabiał przy podaniu. Żurek i barszcz często dzień wcześniej. Porcje opisujemy. Logika zamrażarki jest bliska pierogom.
+
+### Barszcz czy żurek na święta?
+
+Zwyczaj domu. Wiele domów: barszcz na Wigilię, żurek mocno na Wielkanoc. Planujemy uczciwie zamiast wypełniać cudze listy. Plany menu pomagają, nie zastępują rozmowy przy stole.
+
+### Jaki dodatek syci bez przeładowania garnka?
+
+Mało makaronu albo chleb często lepiej. Przy żurku jako zupie głównej ziemniaki mogą nasycić. Porcje dzieci osobno. Zostawiamy miejsce na kolejne danie, jeśli jest zaplanowane.
+
+## Bez wstydu, z jednym garnkiem
+
+Kupiony zakwas, gotowy makaron i zupa z niemieckiego regału są w diasporze w porządku, gdy garnek zostaje spokojny. Bohaterstwo, które wymusza trzy linie tego samego wieczoru, nie jest zyskiem zwyczaju. Wcześniej opróżniamy lodówkę, nazywamy linię, myślimy dodatek osobno. Zupa niesie tydzień, gdy jej na to pozwolimy.', 'Polskie zupy | Przegląd i przepisy | Alemniam', 'Polskie zupy: żurek, barszcz, rosół. Przegląd z linkami do techniki, zakwasu i przepisów, dwujęzycznie.') on conflict (post_id, locale) do update set title = excluded.title, slug = excluded.slug, excerpt = excluded.excerpt, body = excluded.body, seo_title = excluded.seo_title, seo_description = excluded.seo_description;
 
 commit;

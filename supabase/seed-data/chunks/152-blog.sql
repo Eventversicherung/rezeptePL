@@ -4,150 +4,203 @@ begin;
 
 -- blog:post-fasolka-guide
 insert into public.blog_posts (id, status, post_type, cover_image, silo_ids, related_recipe_ids, related_post_ids, related_product_ids, cluster_ids, published_at, updated_at) values ('post-fasolka-guide', 'published', 'guide', 'https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-fasolka-guide/ca246b5e-ab7a-476c-92a0-4ea99545e612.webp', array['dishFamily', 'ingredient']::text[], array['recipe-fasolka', 'recipe-bigos', 'recipe-golabki', 'recipe-zrazy', 'recipe-fasolka-szparagowa']::text[], array['post-kielbasa-arten', 'post-majeranek', 'post-polenladen', 'post-dutch-oven']::text[], array['aff-dutch-oven']::text[], array['technique-schmoren']::text[], '2026-07-28T10:00:00.000Z', '2026-07-28T10:00:00.000Z') on conflict (id) do update set status = excluded.status, post_type = excluded.post_type, cover_image = excluded.cover_image, silo_ids = excluded.silo_ids, related_recipe_ids = excluded.related_recipe_ids, related_post_ids = excluded.related_post_ids, related_product_ids = excluded.related_product_ids, cluster_ids = excluded.cluster_ids, published_at = excluded.published_at, updated_at = excluded.updated_at;
-insert into public.blog_post_translations (post_id, locale, title, slug, excerpt, body, seo_title, seo_description) values ('post-fasolka-guide', 'de', 'Fasolka po bretońsku: Bohnen, Wurst, Majoran, Geduld', 'fasolka-po-bretonsku', 'Einkauf, Bohnen, Kiełbasa und Würzen — Guide zur Fasolka in DE, ohne das Rezept zu duplizieren.', 'Fasolka po bretońsku ist in der Diaspora oft auf dem Tisch: Bohnen, Tomate, Wurst, Majoran, langer Topf. Mengen und Kochschritte stehen im Rezept [Fasolka po bretońsku](/de/rezepte/fasolka-po-bretonsku). Dieser Text ergänzt Einkauf in DE, Würzen, Reste und Verbindungen zu Kiełbasa und Majeranek — ohne das Rezept zu wiederholen.
+insert into public.blog_post_translations (post_id, locale, title, slug, excerpt, body, seo_title, seo_description) values ('post-fasolka-guide', 'de', 'Fasolka po bretońsku: Bohnen, Wurst, Majoran, Geduld', 'fasolka-po-bretonsku', 'Einkauf, Bohnen, Kiełbasa und Würzen, Guide zur Fasolka in DE, ohne das Rezept zu duplizieren.', 'Fasolka po bretońsku in Deutschland ist selten ein Festtagsbeweis. Es ist ein Topf zwischen Schicht, Sonntag und dem Wunsch, dass etwas Warmes wartet, wenn alle nach Hause kommen. Der Name klingt französisch. Der Brauch meint polnische Hausmannskost: weiße Bohnen, Tomate, oft Kiełbasa, Lorbeer, Majoran. Wer kommt, wer isst Wurst, wer bleibt vegetarisch, und wie viel Zeit der Topf wirklich braucht, entscheidet den Abend mehr als das Etikett auf der Dose.
+
+Dieser Artikel ist der Guide, nicht das Rezeptbuch. Mengen, Einweichzeiten und die konkrete Schrittfolge stehen im Rezept [Fasolka po bretońsku](/de/rezepte/fasolka-po-bretonsku). Hier ordnen wir Einkauf in DE, den Unterschied zu Bigos und Gulasz, Würzen und Reste. Orientierung zu Hülsenfrüchten, Wurst und Aufwärmen: [bzfe.de](https://www.bzfe.de) und [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
+
+Historisch ist die Tomaten-Bohnen-Linie Haushalt, kein Restaurantteller. Langer Topf, klare Würze, wenig Drama. In der Diaspora ersetzen wir den Beweisdruck durch einen ruhigen Plan. Ein Topf, der wirklich fertig wird und am nächsten Tag runder schmeckt, schlägt drei Experimente am hungrigen Abend.
+
+![Bohnen aus der polnischen Küche, vorbereitet für einen ruhigen Schmortopf](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-fasolka-szparagowa/b77438bf-1db3-4f2b-98d9-95076e60db03.webp "Bohnen brauchen Zeit und klare Würze, unabhängig von der Sorte.")
 
 ## Was Fasolka po bretońsku ist
 
-Trotz des Namens ist es polnische Hausmannskost mit weißen Bohnen, Tomatensoße, oft Kiełbasa oder Speck, Lorbeer und Majoran. Bretonisch im Sinne einer Tomaten-Bohnen-Linie, nicht eines französischen Kochkurses. In deutschen Küchen landet es zwischen Eintopf und Sonntag: satt, günstig, gut vorzubereiten.
+Trotz des Namens ist es keine bretonische Kochschule. Es ist die polnische Tomaten-Bohnen-Linie mit oft geräucherter Wurst. Satt, günstig, gut vorzubereiten. In deutschen Küchen landet sie zwischen Eintopf und Sonntag.
 
-Es ist kein Bigos und kein Gulasz — weniger Kraut, mehr Bohne, klarere Tomate. Wer Bigos kennt, erkennt die Logik langer Hitze; wer [Gulasz](/de/rezepte/gulasz-wieprzowy) kocht, kennt Schmor-Geduld. Fasolka bleibt eigenständig — kochen auf der Rezeptseite.
+Sie ist kein [Bigos](/de/rezepte/bigos). Weniger Kraut, mehr Bohne, klarere Tomate. Sie ist kein [Gulasz](/de/rezepte/gulasz-wieprzowy). Weniger Fleischwürfel, mehr Hülsenfrucht. Sie ist kein [Leczo](/de/rezepte/leczo). Leczo führt Paprika und oft Wurst in einer kürzeren Pfanne. Wer Bigos kennt, erkennt die Logik langer Hitze. Wer Gulasz kocht, kennt Schmor-Geduld. Fasolka bleibt eigenständig. Kochen auf der Rezeptseite.
 
-
-
-![Gericht aus der polnischen Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-fasolka-szparagowa/b77438bf-1db3-4f2b-98d9-95076e60db03.webp)
+Grüne Bohnen als Beilage sind ein anderes Gericht. Dieselbe Familie im Namen, anderer Teller, andere Zeit. Wer beide plant, mischt sie nicht in einem Topf.
 
 ## Bohnen: trocken, Glas, Dose
 
-Getrocknete Bohnen: einweichen, kochen, Zeit einplanen. Glas oder Dose: schneller Alltag, Qualität prüfen (nicht zu matschig). In DE liegen weiße Bohnen zuverlässig im Supermarkt; Polenladen hilft bei Wurst und Gewürzen. Wer trockene Bohnen wählt, plant den Vortag ein — nicht den hungrigen Abend.
+Getrocknete Bohnen: einweichen, kochen, den Vortag einplanen, nicht den hungrigen Abend. Glas oder Dose: schneller Alltag. Qualität prüfen. Nicht zu matschig, nicht nach Dose allein riechen. In DE liegen weiße Bohnen zuverlässig im Supermarkt. Der Polenladen hilft bei Wurst und Gewürzen, nicht unbedingt bei der Bohne selbst.
 
-Salz spät setzen, damit Schalen nicht zu hart bleiben. Lorbeer und Majoran früh genug, damit sie ziehen. Tomatenmark oder passierte Tomaten — je nach gewünschter Dichte. Zu wässrig schmeckt fade; zu dick klebt am Topf.
+Salz spät setzen, damit die Schalen nicht zu hart bleiben. Lorbeer und Majoran früh genug, damit sie ziehen. Tomatenmark oder passierte Tomaten je nach gewünschter Dichte. Zu wässrig schmeckt fade. Zu dick klebt am Topf. Nachlegen von Wasser oder Brühe in kleinen Schritten, nicht auf einmal.
+
+Wer trockene Bohnen wählt, prüft das Einweichwasser und kocht sie durch, bevor die Wurst dazukommt. Harte Kerne am Tisch sind kein rustikaler Charme. Orientierung zum sicheren Garen von Hülsenfrüchten: [bzfe.de](https://www.bzfe.de).
 
 ## Wurst und Fleisch
 
-Kiełbasa gibt Rauch und Salz — Arten unterscheiden: [Kiełbasa-Guide](/de/blog/kielbasa-arten). Speck oder Bauchfleisch als Alternative. Vegetarisch möglich mit mehr Gemüse und gutem Majoran, aber der klassische Charakter trägt Wurst. Nicht zu früh einlegen, sonst zerfällt sie; gegen Ende mitgaren reicht oft.
+Kiełbasa gibt Rauch und Salz. Arten unterscheiden: [Kiełbasa-Guide](/de/blog/kielbasa-arten). Speck oder Bauchfleisch als Alternative. Nicht zu früh einlegen, sonst zerfällt sie. Gegen Ende mitgaren reicht oft. Eine Wurst mit Biss schlägt eine, die sich in der Tomate auflöst.
+
+Vegetarisch ist möglich mit mehr Gemüse, gutem Majoran und einer klaren Tomate. Der Charakter verändert sich. Das ist erlaubt, wenn wir es so nennen. Eine Extra-Show mit Ersatzwurst, die niemand mag, erschöpft meist alle. Besser: ehrlicher Bohnen-Eintopf plus Brot.
 
 ## Würzen: Majeranek ernst nehmen
 
-Majoran ist kein Deko-Kraut. In Fasolka, Gołąbki und vielen Fleischgerichten trägt er den „polnischen“ Duft. Frisch oder getrocknet — getrocknet oft intensiver im Topf. Details und Kauf: [Majeranek-Lexikon](/de/blog/majeranek). Zu wenig = flach; zu viel = bitter-medizinisch. Abschmecken am Ende.
+Majoran ist kein Deko-Kraut. In Fasolka, [Gołąbki](/de/rezepte/golabki) und vielen Fleischgerichten trägt er den Duft, den viele als „zu Hause“ erkennen. Getrocknet ist im Topf oft intensiver als frisch. Details und Kauf: [Majeranek-Lexikon](/de/blog/majeranek). Zu wenig bleibt flach. Zu viel wird bitter und medizinisch. Abschmecken am Ende, nach dem Einkochen, nicht nur am Anfang.
+
+Lorbeer früh, Knoblauch nicht verbrennen, Säure der Tomate prüfen. Zucker ist kein Pflichtausgleich. Wer die Dose sehr sauer findet, kocht länger ein, statt den Topf süß zu machen.
 
 ## Topf und Timing
 
-Dutch Oven oder stabiler Schmortopf helfen — siehe Kaufberatung — sind aber nicht Pflicht. Wichtig: Deckel, niedrige Hitze, Rühren gegen Ansetzen. Am Vortag gekocht oft besser. Freezer: portionieren, flach einfrieren, gründlich erhitzen.
+Dutch Oven oder ein stabiler Schmortopf helfen, weil sie Hitze halten und weniger ansetzen. Pflicht sind sie nicht. Kaufberatung: [Dutch Oven](/de/blog/dutch-oven-kaufberatung). Wichtig: Deckel, niedrige Hitze, Rühren gegen Ansetzen. Am Vortag gekocht oft besser. Der Sonntag darf den Topf nur noch erwärmen.
 
+Freezer: portionieren, flach einfrieren, gründlich erhitzen. Beschriften mit Datum. Bohnen halten die Textur besser als viele Nudeln. Sahne, falls jemand sie einrührt, erst beim Servieren, nicht vor dem Einfrieren.
 
+![Tomatiger Schmortopf aus der Diaspora-Küche, verwandt in Hitze und Geduld](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-leczo/dfefb489-d2b6-40fb-ab9e-90c09754aca0.webp "Langer Topf, klare Tomate, Wurst erst gegen Ende. Die Hitze darf warten.")
 
-![Zubereitung in der Diaspora-Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-leczo/dfefb489-d2b6-40fb-ab9e-90c09754aca0.webp)
+## Einkauf in zwei Touren
 
-## Einkaufen und Polenladen
+Erste Tour: Supermarkt für Bohnen, Tomate, Zwiebel, Knoblauch, Lorbeer. Zweite Tour: [Polenladen](/de/blog/polenladen-einkaufen) für Kiełbasa und Majoran. Wenn etwas fehlt, helfen [Ersatzprodukte](/de/blog/ersatzprodukte-de). Listen nach Gericht schreiben. Was für den Topf fehlt, steht auf einer Zeile. So verhindert ihr das zweite Glas Tomatenmark, das niemand öffnet.
 
-Liste nach Gericht: Bohnen, Tomate, Zwiebel, Knoblauch, Wurst, Majoran, Lorbeer. [Polenladen](/de/blog/polenladen-einkaufen) für Wurst und Gewürze. Wenn etwas fehlt, helfen [Ersatzprodukte](/de/blog/ersatzprodukte-de). Mengen im Rezept; hier die Logik.
+Vor dem Wochenende den Polenladen früher ansteuern. Geräucherte Wurst und guter Majoran leeren sich schneller als weiße Bohnen im REWE.
 
-## FAQ: Fasolka
+## Arbeit teilen und Alltag
+
+Eine Person führt den Topf, eine schneidet, eine deckt. In der Diaspora mit Job und Schule ist der Vortag die freundlichste Form. Kinder können Brot legen und den Tisch decken. Am heißen Topf bleiben Erwachsene.
+
+Der Sonntagsrhythmus hilft beim Üben, ohne so zu tun, als sei Fasolka ein Festtag: [Polnisches Sonntagsessen](/de/blog/sonntagsessen-polnisch). [Wigilia](/de/blog/wigilia-speiseplan) und [Wielkanoc](/de/blog/wielkanoc-speiseplan) bleiben andere Tische. Fasolka darf die Woche tragen.
+
+## Hygiene und Reste
+
+Schnell kühlen, nicht stundenlang auf der warmen Herdplatte lassen. Zwei bis drei Tage gut gekühlt. Gründlich erhitzen. Freezer mehrere Wochen, wenn die Portion klar beschriftet ist. Orientierung: [bzfe.de](https://www.bzfe.de). Bei Zweifel entsorgen.
+
+Reste am nächsten Tag mit Brot, Gurke oder einer kleinen Surówka. Nicht mit einem zweiten schweren Fleisch belasten. Der Topf ist schon die Mitte.
+
+## Nachbartöpfe und gemischte Haushalte
+
+Wer in derselben Woche Bigos, Gulasz und Fasolka plant, kocht drei lange Hitzeprojekte. Eine Linie reicht. Fasolka gewinnt, wenn Tomate und Bohne führen, nicht wenn wir Kraut und Paprika dazu mischen, um alle Erwartungen auf einmal zu bedienen.
+
+Deutsche Gäste brauchen oft einen Satz: Fasolka po bretońsku ist der polnische Bohnen-Eintopf mit Tomate und oft geräucherter Wurst, nicht Cassoulet und nicht Chili. Das ist Respekt, nicht Folklore. Kinder dürfen die Wurst zur Seite legen. Eine Extra-Wurstlinie nur für eine Person erschöpft meist alle.
+
+Gołąbki und Fasolka teilen Majoran, nicht denselben Abendzwang. Wer beides am selben Sonntag erzwingt, zahlt mit zwei Töpfen und Gereiztheit. Besser: eine Mitte, eine Säure, Brot.
+
+## FAQ
 
 ### Müssen wir immer getrocknete Bohnen nehmen?
 
-Nein. Glas und Dose sind legitim für Alltag. Trockene Bohnen lohnen, wenn Zeit und Kontrolle gewünscht sind.
+Nein. Glas und Dose sind legitim für den Alltag. Trockene Bohnen lohnen, wenn Zeit und Kontrolle gewünscht sind. Den Vortag einplanen.
 
 ### Welche Wurst passt am besten?
 
-Geräucherte Kiełbasa mit Biss. Der Kiełbasa-Guide hilft bei der Wahl im Laden.
+Geräucherte Kiełbasa mit Biss. Der [Kiełbasa-Guide](/de/blog/kielbasa-arten) hilft bei der Wahl im Laden. Zu feine Brühwurst zerfällt.
 
 ### Kann Fasolka vegetarisch sein?
 
-Ja, mit mehr Gemüse und klarer Würze — der Charakter verändert sich, bleibt aber ein Bohnen-Eintopf.
-
-### Wie lange hält sie im Kühlschrank?
-
-Zwei bis drei Tage gut gekühlt. Aufwärmen gründlich. Freezer mehrere Wochen.
+Ja, mit mehr Gemüse und klarer Würze. Der Charakter verändert sich, bleibt aber ein Bohnen-Eintopf. So nennen, nicht als klassische Wurstlinie verkaufen.
 
 ### Warum schmeckt sie flach?
 
-Oft zu wenig Majoran, zu wenig Salz am Ende, oder zu wässrige Tomate. Abschmecken und einkochen.
+Oft zu wenig Majoran, zu wenig Salz am Ende oder zu wässrige Tomate. Abschmecken und einkochen. Nicht mit Zucker zudecken.
+
+### Brauchen wir einen Dutch Oven?
+
+Nein. Ein schwerer Topf mit Deckel reicht. Der Dutch Oven hilft bei Hitze und Ansetzen. Pflicht ist er nicht.
 
 ### Wie verbindet sich das mit dem Rezept?
 
-Kochschritte und Mengen: [Fasolka-Rezept](/de/rezepte/fasolka-po-bretonsku). Hier: Einkauf, Würze, Reste.
+Kochschritte und Mengen: [Fasolka-Rezept](/de/rezepte/fasolka-po-bretonsku). Hier Einkauf, Würze, Reste und der Unterschied zu benachbarten Töpfen.
 
-## Weiterlesen
+## Ohne Scham, mit Platz
 
-- [Fasolka Rezept](/de/rezepte/fasolka-po-bretonsku)
-- [Kiełbasa Arten](/de/blog/kielbasa-arten)
-- [Majeranek](/de/blog/majeranek)
-- [Polenladen](/de/blog/polenladen-einkaufen)
-- [Dutch Oven](/de/blog/dutch-oven-kaufberatung)
+Bohnen aus der Dose, Kaufwurst und ein ganz normaler Topf sind in der Diaspora in Ordnung. Heldentum mit Einweichen nach der Schicht ist kein Gewinn an Brauch. Vorher die Bohnenlinie wählen, Majoran ernst nehmen, den Topf am Vortag führen. Fasolka in Deutschland wird wiederholbar, wenn sie das darf.', 'Fasolka po bretońsku Guide | Alemniam', 'Fasolka Guide: Bohnen, Tomate, Kiełbasa, Majeranek. Ergänzt Rezept und Einkauf in Deutschland.') on conflict (post_id, locale) do update set title = excluded.title, slug = excluded.slug, excerpt = excluded.excerpt, body = excluded.body, seo_title = excluded.seo_title, seo_description = excluded.seo_description;
+insert into public.blog_post_translations (post_id, locale, title, slug, excerpt, body, seo_title, seo_description) values ('post-fasolka-guide', 'pl', 'Fasolka po bretońsku: fasola, kiełbasa, majeranek, cierpliwość', 'fasolka-po-bretonsku', 'Zakupy, fasola, kiełbasa i doprawianie, przewodnik po fasolce w DE, bez powielania przepisu.', 'Fasolka po bretońsku w Niemczech rzadko jest dowodem święta. To garnek między zmianą, niedzielą i życzeniem, żeby coś ciepłego czekało, gdy wszyscy wrócą do domu. Nazwa brzmi po francusku. Zwyczaj oznacza polską kuchnię domową: biała fasola, pomidor, często kiełbasa, liść laurowy, majeranek. Kto przychodzi, kto je wędlinę, kto zostaje przy wersji bezmięsnej i ile czasu garnek naprawdę potrzebuje, decyduje o wieczorze mocniej niż etykieta na puszce.
 
-Ruhig schmoren, klar würzen, Reste nutzen — so wird Fasolka in DE wiederholbar. Polenladen gezielt für Wurst und Majoran; Basis aus dem Supermarkt reicht oft.', 'Fasolka po bretońsku Guide | Alemniam', 'Fasolka Guide: Bohnen, Tomate, Kiełbasa, Majeranek. Ergänzt Rezept und Einkauf in Deutschland.') on conflict (post_id, locale) do update set title = excluded.title, slug = excluded.slug, excerpt = excluded.excerpt, body = excluded.body, seo_title = excluded.seo_title, seo_description = excluded.seo_description;
-insert into public.blog_post_translations (post_id, locale, title, slug, excerpt, body, seo_title, seo_description) values ('post-fasolka-guide', 'pl', 'Fasolka po bretońsku: fasola, kiełbasa, majeranek, cierpliwość', 'fasolka-po-bretonsku', 'Zakupy, fasola, kiełbasa i doprawianie — przewodnik po fasolce w DE, bez powielania przepisu.', 'Fasolka po bretońsku wraca w diasporze często: fasola, pomidor, kiełbasa, majeranek, długi garnek. Ilości i kroki są w przepisie [fasolka po bretońsku](/pl/rezepte/fasolka-po-bretonsku). Tutaj: zakupy w DE, doprawianie, resztki i powiązania z kiełbasą oraz majerankiem — bez powtarzania przepisu.
+Ten artykuł jest przewodnikiem, nie książką przepisów. Ilości, czasy moczenia i konkretna kolejność kroków są w przepisie [fasolka po bretońsku](/pl/rezepte/fasolka-po-bretonsku). Tutaj porządkujemy zakupy w DE, różnicę wobec bigosu i gulaszu, doprawianie i resztki. Orientacja w roślinach strączkowych, wędlinie i podgrzewaniu: [bzfe.de](https://www.bzfe.de) oraz [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
+
+Historycznie linia fasola-pomidor jest gospodarstwem, nie talerzem restauracyjnym. Długi garnek, jasna przyprawa, mało dramatu. W diasporze zamieniamy presję dowodu na spokojny plan. Jeden garnek, który naprawdę zostanie skończony i nazajutrz smakuje pełniej, bije trzy eksperymenty w głodny wieczór.
+
+![Fasola z polskiej kuchni, przygotowana do spokojnego duszenia](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-fasolka-szparagowa/b77438bf-1db3-4f2b-98d9-95076e60db03.webp "Fasola potrzebuje czasu i jasnej przyprawy, niezależnie od odmiany.")
 
 ## Czym jest fasolka po bretońsku
 
-Mimo nazwy to polska kuchnia domowa z białą fasolą, sosem pomidorowym, często kiełbasą lub boczkiem, liściem laurowym i majerankiem. „Bretońska” w sensie linii fasola–pomidor, nie francuskiego kursu. W niemieckich kuchniach ląduje między gulaszem a niedzielą: sycąca, tania, dobra do przygotowania wcześniej.
+Mimo nazwy to nie bretońska szkoła gotowania. To polska linia fasola-pomidor, często z wędzoną kiełbasą. Sycąca, tania, dobra do przygotowania wcześniej. W niemieckich kuchniach ląduje między gulaszem a niedzielą.
 
-To nie bigos i nie gulasz — mniej kapusty, więcej fasoli, wyraźniejszy pomidor. Kto zna bigos, rozpoznaje logikę długiego ognia; kto gotuje [gulasz](/pl/rezepte/gulasz-wieprzowy), zna cierpliwość duszenia. Fasolka zostaje osobna — gotowanie na stronie przepisu.
+To nie [bigos](/pl/rezepte/bigos). Mniej kapusty, więcej fasoli, wyraźniejszy pomidor. To nie [gulasz](/pl/rezepte/gulasz-wieprzowy). Mniej kostek mięsa, więcej strączków. To nie [leczo](/pl/rezepte/leczo). Leczo prowadzi paprykę i często kiełbasę na krótszej patelni. Kto zna bigos, rozpoznaje logikę długiego ognia. Kto gotuje gulasz, zna cierpliwość duszenia. Fasolka zostaje osobna. Gotowanie na stronie przepisu.
 
-
-
-![Danie z polskiej kuchni](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-fasolka-szparagowa/b77438bf-1db3-4f2b-98d9-95076e60db03.webp)
+Zielona fasolka szparagowa jako dodatek to inne danie. Ta sama rodzina w nazwie, inny talerz, inny czas. Kto planuje obie, nie miesza ich w jednym garnku.
 
 ## Fasola: sucha, słoik, puszka
 
-Sucha: moczyć, gotować, zaplanować czas. Słoik lub puszka: szybszy dzień, sprawdzić jakość (nie papka). W DE biała fasola leży w markecie; sklep polski pomaga przy kiełbasie i przyprawach. Sucha fasola = plan dzień wcześniej, nie głodny wieczór.
+Sucha fasola: moczyć, gotować, zaplanować dzień wcześniej, nie głodny wieczór. Słoik albo puszka: szybszy dzień. Sprawdzamy jakość. Nie papka, nie sam zapach puszki. W DE biała fasola leży w markecie. Sklep polski pomaga przy kiełbasie i przyprawach, niekoniecznie przy samej fasoli.
 
-Sól późno, by skórki nie twarde. Liść i majeranek dość wcześnie. Koncentrat lub passata — według gęstości. Za rzadko = mdło; za gęsto = klei się do garnka.
+Sól dajemy późno, żeby skórki nie zostały twarde. Liść laurowy i majeranek dość wcześnie, żeby pociągnęły. Koncentrat albo passata według gęstości. Za rzadko smakuje mdło. Za gęsto klei się do garnka. Wodę albo wywar dokładamy małymi krokami, nie naraz.
+
+Kto wybiera suchą fasolę, sprawdza wodę z moczenia i dogotowuje ziarna, zanim wejdzie kiełbasa. Twarde środki przy stole nie są rustykalnym urokiem. Orientacja w bezpiecznym gotowaniu strączków: [bzfe.de](https://www.bzfe.de).
 
 ## Kiełbasa i mięso
 
-Kiełbasa daje dym i sól — rodzaje: [przewodnik kiełbasy](/pl/blog/rodzaje-kielbasy). Boczek jako alternatywa. Wegetariańsko możliwe z większą ilością warzyw i dobrym majerankiem, ale klasyka niesie wędlinę. Nie wrzucać za wcześnie, by się nie rozpadła; pod koniec często wystarczy.
+Kiełbasa daje dym i sól. Rodzaje rozróżnia [przewodnik kiełbasy](/pl/blog/rodzaje-kielbasy). Boczek jako alternatywa. Nie wrzucamy za wcześnie, bo się rozpadnie. Pod koniec często wystarczy. Kiełbasa z gryzieniem bije taką, która rozpuszcza się w pomidorze.
+
+Wersja wegetariańska jest możliwa z większą ilością warzyw, dobrym majerankiem i jasnym pomidorem. Charakter się zmienia. To wolno, jeśli tak nazywamy. Osobny spektakl z kiełbasą zastępczą, której nikt nie lubi, zwykle męczy wszystkich. Lepiej: uczciwy gulasz fasolowy plus chleb.
 
 ## Doprawianie: majeranek na serio
 
-Majeranek to nie dekoracja. W fasolce, gołąbkach i wielu daniach mięsnych niesie „polski” zapach. Suszony często intensywniejszy w garnku. Szczegóły: [leksykon majeranku](/pl/blog/majeranek-leksykon). Za mało = płasko; za dużo = gorzko-lekarsko. Doprawiać na końcu.
+Majeranek to nie dekoracja. W fasolce, [gołąbkach](/pl/rezepte/golabki) i wielu daniach mięsnych niesie zapach, który wielu rozpoznaje jako „jak w domu”. Suszony w garnku jest często intensywniejszy niż świeży. Szczegóły i zakupy: [leksykon majeranku](/pl/blog/majeranek-leksykon). Za mało zostaje płasko. Za dużo robi się gorzko i lekarsko. Doprawiamy na końcu, po odparowaniu, nie tylko na starcie.
+
+Liść wcześnie, czosnku nie przypalamy, kwas pomidora sprawdzamy. Cukier nie jest obowiązkowym wyrównaniem. Kto puszkę czuje jako zbyt kwaśną, dłużej odparowuje, zamiast słodzić garnek.
 
 ## Garnek i timing
 
-Dutch oven albo stabilny garnek pomaga — nie obowiązek. Ważne: pokrywka, mały ogień, mieszanie. Dzień wcześniej często lepiej. Freezer: porcje, płasko, dokładnie podgrzać.
+Dutch oven albo stabilny garnek do duszenia pomaga, bo trzyma ciepło i mniej przypala. Nie jest obowiązkiem. Poradnik: [garnek do duszenia](/pl/blog/garnek-do-duszenia). Ważne: pokrywka, mały ogień, mieszanie. Dzień wcześniej często lepiej. Niedziela może tylko podgrzać garnek.
 
+Zamrażarka: porcje, płasko, dokładnie podgrzewamy. Opisujemy datą. Fasola trzyma teksturę lepiej niż wiele makaronów. Śmietanę, jeśli ktoś ją dodaje, dopiero przy podaniu, nie przed mrożeniem.
 
+![Pomidorowy garnek z kuchni diaspory, pokrewny ogniem i cierpliwością](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-leczo/dfefb489-d2b6-40fb-ab9e-90c09754aca0.webp "Długi garnek, jasny pomidor, kiełbasa dopiero pod koniec. Ogień może poczekać.")
 
-![Przygotowanie w kuchni diaspory](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-leczo/dfefb489-d2b6-40fb-ab9e-90c09754aca0.webp)
+## Zakupy w dwóch turach
 
-## Zakupy i sklep polski
+Pierwsza tura: supermarket po fasolę, pomidor, cebulę, czosnek, liść. Druga tura: [sklep polski](/pl/blog/sklep-polski-zakupy) po kiełbasę i majeranek. Gdy czegoś brakuje, pomagają [zamienniki](/pl/blog/zamienniki-skladnikow). Listy piszemy według dania. Czego brakuje do garnka, stoi w jednym wierszu. Tak unikamy drugiego słoika koncentratu, którego nikt nie otwiera.
 
-Lista według dania: fasola, pomidor, cebula, czosnek, kiełbasa, majeranek, liść. [Sklep polski](/pl/blog/sklep-polski-zakupy). Gdy czegoś brakuje, pomagają [zamienniki](/pl/blog/zamienniki-skladnikow). Ilości w przepisie; tu logika.
+Przed weekendem sklep polski odwiedzamy wcześniej. Wędzona kiełbasa i dobry majeranek kończą się szybciej niż biała fasola w REWE.
 
-## FAQ — fasolka
+## Podział pracy i codzienność
+
+Jedna osoba prowadzi garnek, jedna kroi, jedna nakrywa. W diasporze z pracą i szkołą dzień wcześniej jest najprzyjaźniejszą formą. Dzieci mogą kłaść chleb i nakrywać stół. Przy gorącym garnku zostają dorośli.
+
+Niedzielny rytm pomaga ćwiczyć, bez udawania, że fasolka jest świętem: [polski obiad niedzielny](/pl/blog/obiad-niedzielny). [Wigilia](/pl/blog/menu-wigilijne) i [Wielkanoc](/pl/blog/menu-wielkanocne) zostają innymi stołami. Fasolka może nieść tydzień.
+
+## Higiena i resztki
+
+Szybko chłodzimy, nie zostawiamy godzinami na ciepłej płycie. Dwa do trzech dni dobrze schłodzone. Podgrzewamy dokładnie. Zamrażarka kilka tygodni, gdy porcja jest jasno opisana. Orientacja: [bzfe.de](https://www.bzfe.de). Przy wątpliwości wyrzucamy.
+
+Resztki nazajutrz z chlebem, ogórkiem albo małą surówką. Nie obciążamy drugim ciężkim mięsem. Garnek już jest środkiem.
+
+## Sąsiednie garnki i mieszane domy
+
+Kto w tym samym tygodniu planuje bigos, gulasz i fasolkę, gotuje trzy długie projekty z ogniem. Wystarczy jedna linia. Fasolka wygrywa, gdy pomidor i fasola prowadzą, nie gdy dokładamy kapustę i paprykę, żeby obsłużyć wszystkie oczekiwania naraz.
+
+Niemieccy goście często potrzebują jednego zdania: fasolka po bretońsku to polski gulasz fasolowy z pomidorem i często wędzoną kiełbasą, nie cassoulet i nie chili. To szacunek, nie folklor. Dzieci mogą odłożyć kiełbasę na bok. Osobna linia wędliny tylko dla jednej osoby zwykle męczy wszystkich.
+
+Gołąbki i fasolka dzielą majeranek, nie ten sam obowiązek wieczoru. Kto wymusza oba tej samej niedzieli, płaci dwoma garnkami i zdenerwowaniem. Lepiej: jeden środek, jeden kwas, chleb.
+
+## FAQ
 
 ### Czy zawsze sucha fasola?
 
-Nie. Słoik i puszka są w porządku na co dzień. Sucha, gdy chcesz czasu i kontroli.
+Nie. Słoik i puszka są w porządku na co dzień. Sucha, gdy chcemy czasu i kontroli. Planujemy dzień wcześniej.
 
-### Jaka kiełbasa?
+### Jaka kiełbasa pasuje najlepiej?
 
-Wędzona z gryzieniem. Przewodnik pomaga wybrać w sklepie.
+Wędzona z gryzieniem. [Przewodnik kiełbasy](/pl/blog/rodzaje-kielbasy) pomaga wybrać w sklepie. Zbyt drobna parzona rozpada się.
 
-### Wegetariańsko?
+### Czy fasolka może być wegetariańska?
 
-Tak, z warzywami i wyraźną przyprawą — charakter się zmienia, zostaje gulasz fasolowy.
+Tak, z warzywami i wyraźną przyprawą. Charakter się zmienia, zostaje gulasz fasolowy. Tak nazywamy, nie sprzedajemy jako klasycznej linii z kiełbasą.
 
-### Jak długo w lodówce?
+### Dlaczego smakuje mdło?
 
-Dwa–trzy dni. Podgrzewać dokładnie. Freezer kilka tygodni.
+Często za mało majeranku, soli na końcu albo za rzadki pomidor. Doprawić i odparować. Nie przykrywać cukrem.
 
-### Dlaczego mdła?
+### Czy trzeba dutch oven?
 
-Często za mało majeranku, soli na końcu albo za rzadki pomidor. Doprawić i odparować.
+Nie. Ciężki garnek z pokrywką wystarczy. Dutch oven pomaga przy cieple i przypalaniu. Nie jest obowiązkiem.
 
 ### Jak łączyć z przepisem?
 
-Kroki i ilości: [przepis fasolka](/pl/rezepte/fasolka-po-bretonsku). Tu kontekst i zakupy.
+Kroki i ilości: [przepis fasolka](/pl/rezepte/fasolka-po-bretonsku). Tutaj zakupy, przyprawa, resztki i różnica wobec sąsiednich garnków.
 
-## Czytaj dalej
+## Bez wstydu, z miejscem
 
-- [Fasolka przepis](/pl/rezepte/fasolka-po-bretonsku)
-- [Rodzaje kiełbasy](/pl/blog/rodzaje-kielbasy)
-- [Majeranek](/pl/blog/majeranek-leksykon)
-- [Sklep polski](/pl/blog/sklep-polski-zakupy)
-
-Spokojnie dusić, jasno doprawiać, resztki wykorzystać — tak fasolka w DE staje się powtarzalna i sycąca.', 'Fasolka po bretońsku przewodnik | Alemniam', 'Przewodnik fasolka: fasola, pomidor, kiełbasa, majeranek. Uzupełnia przepis i zakupy w Niemczech.') on conflict (post_id, locale) do update set title = excluded.title, slug = excluded.slug, excerpt = excluded.excerpt, body = excluded.body, seo_title = excluded.seo_title, seo_description = excluded.seo_description;
+Fasola z puszki, kupiona kiełbasa i zwykły garnek są w diasporze w porządku. Bohaterstwo z moczeniem po zmianie nie jest zyskiem zwyczaju. Wcześniej wybieramy linię fasoli, bierzemy majeranek na serio, prowadzimy garnek dzień wcześniej. Fasolka w Niemczech staje się powtarzalna, gdy jej na to pozwolimy.', 'Fasolka po bretońsku przewodnik | Alemniam', 'Przewodnik fasolka: fasola, pomidor, kiełbasa, majeranek. Uzupełnia przepis i zakupy w Niemczech.') on conflict (post_id, locale) do update set title = excluded.title, slug = excluded.slug, excerpt = excluded.excerpt, body = excluded.body, seo_title = excluded.seo_title, seo_description = excluded.seo_description;
 
 commit;

@@ -34,7 +34,7 @@ export const seedBlogPostsW16: BlogPost[] = [
         title: "Häufigste Fehler beim polnischen Kochen in Deutschland",
         slug: "fehler-polnisch-kochen-deutschland",
         excerpt:
-          "Hitze, Feuchtigkeit, Ersatz und Zeitdruck — typische Fehler über Gerichte hinweg, mit Links zu den Rezepten statt Mengenlisten.",
+          "Hitze, Feuchtigkeit, Ersatz und Zeitdruck: typische Fehler über Gerichte hinweg, mit Links zu den Rezepten statt Mengenlisten.",
         seoTitle:
           "Fehler polnisch kochen DE | Diaspora Tipps | Alemniam",
         seoDescription:
@@ -45,7 +45,7 @@ export const seedBlogPostsW16: BlogPost[] = [
         title: "Najczęstsze błędy przy polskim gotowaniu w Niemczech",
         slug: "bledy-polskie-gotowanie-niemcy",
         excerpt:
-          "Ogień, wilgoć, zamienniki i pośpiech — typowe błędy ponad daniami, z linkami do przepisów zamiast list ilości.",
+          "Ogień, wilgoć, zamienniki i pośpiech: typowe błędy ponad daniami, z linkami do przepisów zamiast list ilości.",
         seoTitle:
           "Błędy polskiego gotowania w DE | Diaspora | Alemniam",
         seoDescription:

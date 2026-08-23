@@ -4,11 +4,11 @@ begin;
 
 -- blog:post-polenladen
 insert into public.blog_posts (id, status, post_type, cover_image, silo_ids, related_recipe_ids, related_post_ids, related_product_ids, cluster_ids, published_at, updated_at) values ('post-polenladen', 'published', 'diaspora', 'https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-polenladen/a241ecc3-c9c5-4acd-ac5f-94ba76f76790.webp', array['diaspora']::text[], array['recipe-pierogi', 'recipe-bigos', 'recipe-zurek', 'recipe-barszcz', 'recipe-kaszanka', 'recipe-makaron-z-makiem', 'recipe-szarlotka', 'recipe-kutia', 'recipe-napoleonka', 'recipe-leczo', 'recipe-jajka-faszerowane', 'recipe-cwikla', 'recipe-wuzetka', 'recipe-drozdzowka', 'recipe-zapiekanka', 'recipe-placek-po-wegiersku', 'recipe-koperkowa', 'recipe-kisiel', 'recipe-kaczka', 'recipe-pieczen-rzymska', 'recipe-galareta', 'recipe-salatka-sledziowa', 'recipe-marchewka-groszek', 'recipe-fasolka-szparagowa']::text[], array['post-twarog', 'post-ersatzprodukte-de', 'post-kielbasa-arten', 'post-wigilia']::text[], array['aff-freezer-boxes', 'aff-dutch-oven']::text[], '{}'::text[], '2026-07-10T10:00:00.000Z', '2026-07-19T18:00:00.000Z') on conflict (id) do update set status = excluded.status, post_type = excluded.post_type, cover_image = excluded.cover_image, silo_ids = excluded.silo_ids, related_recipe_ids = excluded.related_recipe_ids, related_post_ids = excluded.related_post_ids, related_product_ids = excluded.related_product_ids, cluster_ids = excluded.cluster_ids, published_at = excluded.published_at, updated_at = excluded.updated_at;
-insert into public.blog_post_translations (post_id, locale, title, slug, excerpt, body, seo_title, seo_description) values ('post-polenladen', 'de', 'Polenladen vs. REWE: was wo kaufen?', 'polenladen-einkaufen', 'Praktischer Einkaufsguide für polnische Haushalte in Deutschland: Kielbasa, Twaróg, Kapusta, Zakwas — und was im Supermarkt völlig reicht.', 'Im Polenladen einkaufen ist für viele von uns in Deutschland kein Nostalgie-Ausflug, sondern Teil der Wochenplanung. Wir wollen Zutaten, die nach Hause schmecken – ohne Folklore-Show, ohne unnötige Spezialzutaten, mit klaren Listen für Sonntag und für [Wigilia](/de/anlaesse/wigilia). Dieser Guide erklärt, was sich im polnischen Laden lohnt, was im REWE oder Kaufland völlig ausreicht, und wie wir Qualität bei Kielbasa, Twaróg, Kapusta und Zakwas erkennen.
+insert into public.blog_post_translations (post_id, locale, title, slug, excerpt, body, seo_title, seo_description) values ('post-polenladen', 'de', 'Polenladen vs. REWE: was wo kaufen?', 'polenladen-einkaufen', 'Praktischer Einkaufsguide für polnische Haushalte in Deutschland: Kielbasa, Twaróg, Kapusta, Zakwas, und was im Supermarkt völlig reicht.', 'Im Polenladen einkaufen ist für viele von uns in Deutschland kein Nostalgie-Ausflug, sondern Teil der Wochenplanung. Wir wollen Zutaten, die nach Hause schmecken, ohne Folklore-Show, ohne unnötige Spezialzutaten, mit klaren Listen für Sonntag und für [Wigilia](/de/anlaesse/wigilia). Dieser Guide erklärt, was sich im polnischen Laden lohnt, was im REWE oder Kaufland völlig ausreicht, und wie wir Qualität bei Kielbasa, Twaróg, Kapusta und Zakwas erkennen.
 
 ## Was der Polenladen wirklich besser kann
 
-Nicht alles muss „echt polnisch etikettiert“ sein. Viele Basics – Zwiebeln, Karotten, Kartoffeln, Mehl Type 405 oder 550, Butter, Eier – holen wir im Supermarkt. Der Polenladen lohnt sich dort, wo Geschmack, Konsistenz oder Tradition spürbar anders sind: Wurstsorten mit klarer Gewürzlinie, Sauerkraut mit dem richtigen Säureprofil, Quark für [Pierogi Ruskie](/de/rezepte/pierogi/ruskie), und Fermente wie Zakwas, die wir nicht improvisieren wollen.
+Nicht alles muss „echt polnisch etikettiert“ sein. Viele Basics, Zwiebeln, Karotten, Kartoffeln, Mehl Type 405 oder 550, Butter, Eier, holen wir im Supermarkt. Der Polenladen lohnt sich dort, wo Geschmack, Konsistenz oder Tradition spürbar anders sind: Wurstsorten mit klarer Gewürzlinie, Sauerkraut mit dem richtigen Säureprofil, Quark für [Pierogi Ruskie](/de/rezepte/pierogi/ruskie), und Fermente wie Zakwas, die wir nicht improvisieren wollen.
 
 Praktisch denken wir in drei Körben:
 
@@ -16,19 +16,19 @@ Praktisch denken wir in drei Körben:
 - **Batch-Kochen:** große Mengen [Bigos](/de/rezepte/bigos), gefrorene Pierogi, vorbereiteter Teig laut [Pierogi-Teig](/de/blog/pierogi-teig).
 - **Festtage:** [Wigilia Speiseplan](/de/blog/wigilia-speiseplan) mit Barszcz, Kraut-Pilz-Pierogi, getrockneten Pilzen, Mohn und Kompott-Zutaten.
 
-Wer regelmäßig kocht, spart Zeit, wenn der Polenladen zur festen Route wird – nicht als Museum, sondern als effizienter Nachschub. Orientierung zu ausgewogener Ernährung liefert auch das [Bundeszentrum für Ernährung](https://www.bzfe.de); wir ergänzen das mit dem, was unsere Küche konkret braucht.
+Wer regelmäßig kocht, spart Zeit, wenn der Polenladen zur festen Route wird, nicht als Museum, sondern als effizienter Nachschub. Orientierung zu ausgewogener Ernährung liefert auch das [Bundeszentrum für Ernährung](https://www.bzfe.de); wir ergänzen das mit dem, was unsere Küche konkret braucht.
 
 
 
-![Gericht aus der polnischen Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-kaszanka/773ab0d3-89e2-41d8-b0e1-dd616cc97f5d.webp)
+![Kaszanka aus dem Polenladen, in Scheiben bereit zur Pfanne](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-kaszanka/773ab0d3-89e2-41d8-b0e1-dd616cc97f5d.webp "Qualität im Laden prüfen. Geruch und Schnitt sagen mehr als das Etikett.")
 
 ## Kielbasa: Qualität erkennen, ohne Marketing
 
-Kielbasa ist nicht gleich Kielbasa. Wir achten auf kurze Zutatenlisten, sichtbare Fleischstruktur, sinnvollen Fettanteil und Gewürze, die nach Kümmel, Pfeffer, Knoblauch oder Majoran riechen – nicht nach flacher Raucharomatisierung. Für den Alltag reicht oft eine gute gekochte Wurst zum Anbraten mit Zwiebeln; für Gäste oder Sonntag wählen wir eine festere, würzigere Variante.
+Kielbasa ist nicht gleich Kielbasa. Wir achten auf kurze Zutatenlisten, sichtbare Fleischstruktur, sinnvollen Fettanteil und Gewürze, die nach Kümmel, Pfeffer, Knoblauch oder Majoran riechen, nicht nach flacher Raucharomatisierung. Für den Alltag reicht oft eine gute gekochte Wurst zum Anbraten mit Zwiebeln; für Gäste oder Sonntag wählen wir eine festere, würzigere Variante.
 
 Vermeiden wir Produkte, die extrem weich wirken, wässrig abtropfen oder nach künstlichem Rauch riechen. Preis allein sagt wenig: eine mittlere Preisklasse mit klarer Herkunft und nachvollziehbarer Herstellung ist meist die bessere Investition als das billigste Stück für „einmal und nie wieder“.
 
-Für Meal Prep schneiden wir Kielbasa in Scheiben, braten sie mit Zwiebel und Paprika und portionieren sie für die Woche. Dazu passen Kartoffeln, Kasza oder ein einfacher Salat. So bleibt polnische Hausmannskost alltagstauglich – ruhig, modern, ohne Show. Wer daraus einen richtigen Paprika-Tomaten-Eintopf machen will (Gemüse-dominant, klar ≠ Gulasz wieprzowy), geht zum Cook [Leczo](/de/rezepte/leczo).
+Für Meal Prep schneiden wir Kielbasa in Scheiben, braten sie mit Zwiebel und Paprika und portionieren sie für die Woche. Dazu passen Kartoffeln, Kasza oder ein einfacher Salat. So bleibt polnische Hausmannskost alltagstauglich, ruhig, modern, ohne Show. Wer daraus einen richtigen Paprika-Tomaten-Eintopf machen will (Gemüse-dominant, klar ≠ Gulasz wieprzowy), geht zum Cook [Leczo](/de/rezepte/leczo).
 
 Kaszanka aus dem Polenladen ist ein eigener Kochrezept: gebraten mit Zwiebel nach dem [Kaszanka-Rezept](/de/rezepte/kaszanka). Arten, Qualitätslesen und Einsatz in Żurek/Bigos bleiben im [Kiełbasa-Arten-Guide](/de/blog/kielbasa-arten).
 
@@ -36,23 +36,23 @@ Kaszanka aus dem Polenladen ist ein eigener Kochrezept: gebraten mit Zwiebel nac
 
 ### Twaróg
 
-Für Pierogi und [Naleśniki](/de/rezepte/nalesniki/twarog) brauchen wir trockenen, krümeligen Twaróg – nicht den flüssigen Speisequark aus dem Kühlregal. Details stehen im [Twaróg Guide](/de/blog/twarog-deutschland). Kurz: im Polenladen oft die richtige Konsistenz; im Supermarkt Quark abseihen, bis er für die Füllung trägt.
+Für Pierogi und [Naleśniki](/de/rezepte/nalesniki/twarog) brauchen wir trockenen, krümeligen Twaróg, nicht den flüssigen Speisequark aus dem Kühlregal. Details stehen im [Twaróg Guide](/de/blog/twarog-deutschland). Kurz: im Polenladen oft die richtige Konsistenz; im Supermarkt Quark abseihen, bis er für die Füllung trägt.
 
 ### Kapusta
 
-Frischsauerkraut oder eingelegtes Kraut mit klarem Säurebild ist Basis für Bigos und viele Beilagen. Zu süß, zu weich oder stark industriell gewürzt – das schmeckt später in jedem Topf nach. Wir spülen bei Bedarf kurz ab und würzen selbst mit Lorbeer, Piment und etwas Apfel oder Pflaume, je nach Hausrezept.
+Frischsauerkraut oder eingelegtes Kraut mit klarem Säurebild ist Basis für Bigos und viele Beilagen. Zu süß, zu weich oder stark industriell gewürzt, das schmeckt später in jedem Topf nach. Wir spülen bei Bedarf kurz ab und würzen selbst mit Lorbeer, Piment und etwas Apfel oder Pflaume, je nach Hausrezept.
 
 ### Zakwas
 
-Zakwas na żurek ist mehr als „Sauerteig-Wasser“. Guter Zakwas riecht sauer, frisch und getreideartig, nicht faulig. Für [Żurek](/de/rezepte/zurek) lohnt der Polenladen, wenn wir keine eigene Kultur führen. Wer selbst ansetzt, braucht Zeit und Sauberkeit – für den Einstieg ist ein zuverlässiges Glas aus dem Laden oft entspannter.
+Zakwas na żurek ist mehr als „Sauerteig-Wasser“. Guter Zakwas riecht sauer, frisch und getreideartig, nicht faulig. Für [Żurek](/de/rezepte/zurek) lohnt der Polenladen, wenn wir keine eigene Kultur führen. Wer selbst ansetzt, braucht Zeit und Sauberkeit, für den Einstieg ist ein zuverlässiges Glas aus dem Laden oft entspannter.
 
 ## Was REWE und Kaufland gut abdecken
 
 Wir müssen nicht jedes Gewürz im Spezialladen suchen. Folgendes funktioniert im deutschen Supermarkt zuverlässig:
 
-1. Mehl Type 405/550, Hefe, Öl, Salz – Grundlage für jeden [Teig](/de/techniken/teig).
-2. Kartoffeln, Zwiebeln, Karotten, Sellerie, Lauch – Suppen und Füllungen.
-3. Sahne, Butter, Eier – Bindung und Geschmack.
+1. Mehl Type 405/550, Hefe, Öl, Salz, Grundlage für jeden [Teig](/de/techniken/teig).
+2. Kartoffeln, Zwiebeln, Karotten, Sellerie, Lauch, Suppen und Füllungen.
+3. Sahne, Butter, Eier, Bindung und Geschmack.
 4. getrocknete Kräuter wie Majoran, Lorbeer, Dill (getrocknet oder frisch).
 5. Rote Bete, wenn wir [Barszcz](/de/rezepte/barszcz-czerwony) ohne fertige Würzmischung kochen wollen.
 
@@ -62,14 +62,14 @@ Fehlen können: bestimmte Wurstsorten, echter Twaróg, getrocknete Waldpilze in 
 
 Ein ruhiger Sonntag mit polnischer Hausküche braucht keine zwölf Gerichte. Eine realistische Liste:
 
-- 500–700 g Kielbasa oder Fleisch für eine Pfanne
+- 500 bis 700 g Kielbasa oder Fleisch für eine Pfanne
 - 1 kg Kartoffeln oder 400 g Kasza
 - 1 Glas Kapusta oder Frischkraut
 - 500 g Twaróg (falls Pierogi oder Naleśniki geplant)
 - Zwiebeln, Knoblauch, Butter, Dill
 - optional: Sauerrahm, Gurken, Brot
 
-Daraus lassen sich [Bigos](/de/rezepte/bigos) vom Vortag aufwärmen, frische [Pierogi Ruskie](/de/rezepte/pierogi/ruskie) füllen oder eine einfache Wurst-Zwiebel-Pfanne machen. Wer teigt, plant Ruhezeit ein – siehe [Pierogi-Teig](/de/blog/pierogi-teig) und bei größeren Mengen die [Teigmaschine](/de/blog/teigmaschine-pierogi).
+Daraus lassen sich [Bigos](/de/rezepte/bigos) vom Vortag aufwärmen, frische [Pierogi Ruskie](/de/rezepte/pierogi/ruskie) füllen oder eine einfache Wurst-Zwiebel-Pfanne machen. Wer teigt, plant Ruhezeit ein, siehe [Pierogi-Teig](/de/blog/pierogi-teig) und bei größeren Mengen die [Teigmaschine](/de/blog/teigmaschine-pierogi).
 
 ## Einkaufsliste Wigilia (Orientierung)
 
@@ -81,20 +81,20 @@ Wigilia ist Planung, kein Stresswettbewerb. Eine tragfähige Liste:
 - Fisch nach Hausbrauch (Karpfen, Hering oder eine moderne Alternative)
 - Mohn, Nüsse, getrocknete Früchte für Süßes
 - Kompott-Zutaten (Pflaume, Apfel, Birne)
-- Zakwas oder Fertigbasis nur, wenn Żurek Teil eurer Tradition ist – viele Familien bleiben bei Barszcz
+- Zakwas oder Fertigbasis nur, wenn Żurek Teil eurer Tradition ist, viele Familien bleiben bei Barszcz
 
-Mehr Struktur: [Wigilia Speiseplan](/de/blog/wigilia-speiseplan) und der Anlass-Hub [Wigilia](/de/anlaesse/wigilia). EU-Hinweise zu Lebensmittelqualität und Herkunft finden sich bei der [Europäischen Kommission Landwirtschaft](https://agriculture.ec.europa.eu) – hilfreich, wenn wir Labels und geschützte Bezeichnungen lesen.
+Mehr Struktur: [Wigilia Speiseplan](/de/blog/wigilia-speiseplan) und der Anlass-Hub [Wigilia](/de/anlaesse/wigilia). EU-Hinweise zu Lebensmittelqualität und Herkunft finden sich bei der [Europäischen Kommission Landwirtschaft](https://agriculture.ec.europa.eu), hilfreich, wenn wir Labels und geschützte Bezeichnungen lesen.
 
 
 
-![Zubereitung in der Diaspora-Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-biala-kielbasa/6f6f246e-9e55-42ae-99a6-94384e3bdd66.webp)
+![Biała kiełbasa, portioniert für den Polenladen-Einkauf](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-biala-kielbasa/6f6f246e-9e55-42ae-99a6-94384e3bdd66.webp "Vor Festtagen früh kaufen. Die Regale leeren sich.")
 
 ## Ersatzprodukte, die funktionieren (und die, die es nicht tun)
 
 - **Twaróg:** abgeseihten Magerquark nutzen; Frischkäse ist zu fett und zu glatt.
 - **Zakwas:** für den Notfall eine sorgfältig geführte eigene Kultur; Essig ist kein Ersatz für Żurek.
 - **getrocknete Pilze:** Steinpilze oder Mischpilze guter Qualität; Instant-Pilzaroma vermeiden.
-- **Kielbasa:** eine gute deutsche Bratwurst ist manchmal ehrlicher als schlechte „polnische“ Billigwurst – Geschmack vor Etikett.
+- **Kielbasa:** eine gute deutsche Bratwurst ist manchmal ehrlicher als schlechte „polnische“ Billigwurst, Geschmack vor Etikett.
 - **Kapusta:** mildes Sauerkraut aus dem Supermarkt, selbst nachgewürzt, oft besser als süßliche Fertigmischungen.
 
 ## Meal Planning für die Diaspora-Woche
@@ -110,7 +110,7 @@ Ein Wochenraster, das hält:
 
 Wer Zutaten und Rezepte verknüpft, spart Entscheidungsmüdigkeit. Startpunkte: [Pierogi Ruskie](/de/rezepte/pierogi/ruskie), [Bigos](/de/rezepte/bigos), [Żurek](/de/rezepte/zurek), [Barszcz](/de/rezepte/barszcz-czerwony). Praktische Alltagstipps zur Ernährung gibt es auch auf [was-wir-essen.de](https://www.was-wir-essen.de).
 
-> Einkaufen ist vorbereitete Kochentscheidung. Wer die Liste vorher klärt, kocht entspannter – besonders vor Wigilia.
+> Einkaufen ist vorbereitete Kochentscheidung. Wer die Liste vorher klärt, kocht entspannter, besonders vor Wigilia.
 
 ## FAQ: Polenladen Einkaufen
 
@@ -120,7 +120,7 @@ Nein, nicht für jeden Einkauf. Wir brauchen ihn, wenn wir Twaróg in der richti
 
 ### Wie erkennen wir gute Kielbasa ohne Expertenwissen?
 
-Wir schauen auf Schnittbild, Geruch und Zutatenliste. Sichtbare Struktur, würziger Duft ohne stechenden Kunstrauch, und eine Liste ohne lange Zusatzkaskade sind gute Zeichen. Zum Test braten wir eine Scheibe: Fett soll auslassen, aber die Wurst nicht zerfallen. Wenn sie wässrig schmeckt oder nach Rauchöl riecht, lassen wir die Marke beim nächsten Mal weg. Preis pro Kilo vergleichen und lieber etwas weniger, dafür besser kaufen – das ist für Sonntag und Gäste die ruhigere Wahl.
+Wir schauen auf Schnittbild, Geruch und Zutatenliste. Sichtbare Struktur, würziger Duft ohne stechenden Kunstrauch, und eine Liste ohne lange Zusatzkaskade sind gute Zeichen. Zum Test braten wir eine Scheibe: Fett soll auslassen, aber die Wurst nicht zerfallen. Wenn sie wässrig schmeckt oder nach Rauchöl riecht, lassen wir die Marke beim nächsten Mal weg. Preis pro Kilo vergleichen und lieber etwas weniger, dafür besser kaufen, das ist für Sonntag und Gäste die ruhigere Wahl.
 
 ### Was ist der häufigste Fehler beim Twaróg-Kauf?
 
@@ -128,12 +128,12 @@ Zu feuchten Quark für Füllungen zu nehmen. Pierogi und Naleśniki brauchen tro
 
 ### Wie planen wir den Wigilia-Einkauf ohne Chaos?
 
-Wir schreiben Gerichte zuerst, dann Zutaten, dann Einkaufstage. Haltbares und Tiefkühlbares früh, Frisches kurz vorher. Teig und Füllungen können Tage vorher liegen, siehe [Wigilia Speiseplan](/de/blog/wigilia-speiseplan). Zwei Einkäufe schlagen einen Marathon: Polenladen für Spezialitäten, Supermarkt für Volumen. So vermeiden wir leere Regale und Panikkäufe. Klarheit vor Perfektion – zwölf Gerichte sind Orientierung, kein Gesetz.
+Wir schreiben Gerichte zuerst, dann Zutaten, dann Einkaufstage. Haltbares und Tiefkühlbares früh, Frisches kurz vorher. Teig und Füllungen können Tage vorher liegen, siehe [Wigilia Speiseplan](/de/blog/wigilia-speiseplan). Zwei Einkäufe schlagen einen Marathon: Polenladen für Spezialitäten, Supermarkt für Volumen. So vermeiden wir leere Regale und Panikkäufe. Klarheit vor Perfektion, zwölf Gerichte sind Orientierung, kein Gesetz.
 
 ## Als Nächstes kochen
 
-Listen allein sättigen nicht. Wenn der Einkauf steht, geht’s direkt in die Küche: [Pierogi Ruskie](/de/rezepte/pierogi/ruskie) mit richtigem Twaróg, [Bigos](/de/rezepte/bigos) für die Woche, [Barszcz](/de/rezepte/barszcz-czerwony) und Kraut-Pilz-Pierogi für den Abend vor Weihnachten. Technik nachschlagen unter [Teig](/de/techniken/teig), Einkaufsbasis behalten unter [Polenladen](/de/blog/polenladen-einkaufen). Ruhig einkaufen, klar kochen – so bleibt polnische Küche in Deutschland alltagstauglich.', 'Polenladen Einkaufen Guide | REWE & Kaufland | Alemniam', 'Polenladen vs REWE/Kaufland: Was lohnt sich wirklich? Listen für Sonntag & Wigilia, Qualität erkennen, Ersatzprodukte, Rezepte zum Kochen.') on conflict (post_id, locale) do update set title = excluded.title, slug = excluded.slug, excerpt = excluded.excerpt, body = excluded.body, seo_title = excluded.seo_title, seo_description = excluded.seo_description;
-insert into public.blog_post_translations (post_id, locale, title, slug, excerpt, body, seo_title, seo_description) values ('post-polenladen', 'pl', 'Sklep polski vs REWE: co gdzie kupić?', 'sklep-polski-zakupy', 'Praktyczny przewodnik zakupów dla polskich domów w Niemczech: kiełbasa, twaróg, kapusta, zakwas — i to, co spokojnie bierzesz w markecie.', 'Życie w Niemczech nie oznacza, że musimy rezygnować z polskiego stołu. Oznacza tylko, że zakupy wyglądają inaczej niż w kraju: część rzeczy bierzemy w REWE, Kauflandzie albo Lidlu, a część — tę, która naprawdę buduje smak — w sklepie polskim. Ten tekst jest praktycznym przewodnikiem po zakupach „dla nas”: bez mitów, bez folkloru, z jasnym podziałem, co gdzie ma sens. Jeśli gotujesz [bigos](/pl/rezepte/bigos), [żurek](/pl/rezepte/zurek), [barszcz](/pl/rezepte/barszcz-czerwony) albo [pierogi ruskie](/pl/rezepte/pierogi/ruskie), warto mieć plan, zanim wejdziesz między półki.
+Listen allein sättigen nicht. Wenn der Einkauf steht, geht’s direkt in die Küche: [Pierogi Ruskie](/de/rezepte/pierogi/ruskie) mit richtigem Twaróg, [Bigos](/de/rezepte/bigos) für die Woche, [Barszcz](/de/rezepte/barszcz-czerwony) und Kraut-Pilz-Pierogi für den Abend vor Weihnachten. Technik nachschlagen unter [Teig](/de/techniken/teig), Einkaufsbasis behalten unter [Polenladen](/de/blog/polenladen-einkaufen). Ruhig einkaufen, klar kochen, so bleibt polnische Küche in Deutschland alltagstauglich.', 'Polenladen Einkaufen Guide | REWE & Kaufland | Alemniam', 'Polenladen vs REWE/Kaufland: Was lohnt sich wirklich? Listen für Sonntag & Wigilia, Qualität erkennen, Ersatzprodukte, Rezepte zum Kochen.') on conflict (post_id, locale) do update set title = excluded.title, slug = excluded.slug, excerpt = excluded.excerpt, body = excluded.body, seo_title = excluded.seo_title, seo_description = excluded.seo_description;
+insert into public.blog_post_translations (post_id, locale, title, slug, excerpt, body, seo_title, seo_description) values ('post-polenladen', 'pl', 'Sklep polski vs REWE: co gdzie kupić?', 'sklep-polski-zakupy', 'Praktyczny przewodnik zakupów dla polskich domów w Niemczech: kiełbasa, twaróg, kapusta, zakwas, i to, co spokojnie bierzesz w markecie.', 'Życie w Niemczech nie oznacza, że musimy rezygnować z polskiego stołu. Oznacza tylko, że zakupy wyglądają inaczej niż w kraju: część rzeczy bierzemy w REWE, Kauflandzie albo Lidlu, a część, tę, która naprawdę buduje smak, w sklepie polskim. Ten tekst jest praktycznym przewodnikiem po zakupach „dla nas”: bez mitów, bez folkloru, z jasnym podziałem, co gdzie ma sens. Jeśli gotujesz [bigos](/pl/rezepte/bigos), [żurek](/pl/rezepte/zurek), [barszcz](/pl/rezepte/barszcz-czerwony) albo [pierogi ruskie](/pl/rezepte/pierogi/ruskie), warto mieć plan, zanim wejdziesz między półki.
 
 ## Po co w ogóle dwa sklepy
 
@@ -141,38 +141,38 @@ Niemiecki supermarket jest świetny w logistyce: świeże warzywa, mięso, nabia
 
 > Dwa zakupy, jeden stół: niemiecki supermarket na bazę, sklep polski na sygnał smaku.
 
-To podejście działa szczególnie dobrze w weekend: lista na REWE w piątek wieczorem, krótka wizyta w sklepie polskim w sobotę rano, gotowanie wieczorem albo w niedzielę. Jeśli planujesz [Wigilię](/pl/anlaesse/wigilia), ten rytm warto rozłożyć na kilka dni — o tym piszemy w [menu wigilijnym](/pl/blog/menu-wigilijne).
+To podejście działa szczególnie dobrze w weekend: lista na REWE w piątek wieczorem, krótka wizyta w sklepie polskim w sobotę rano, gotowanie wieczorem albo w niedzielę. Jeśli planujesz [Wigilię](/pl/anlaesse/wigilia), ten rytm warto rozłożyć na kilka dni, o tym piszemy w [menu wigilijnym](/pl/blog/menu-wigilijne).
 
 
 
-![Danie z polskiej kuchni](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-kaszanka/773ab0d3-89e2-41d8-b0e1-dd616cc97f5d.webp)
+![Kaszanka ze sklepu polskiego, w plasterkach gotowa na patelnię](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-kaszanka/773ab0d3-89e2-41d8-b0e1-dd616cc97f5d.webp "Jakość sprawdzamy w sklepie. Zapach i przekrój mówią więcej niż etykieta.")
 
 ## Co zawsze warto brać w sklepie polskim
 
 Poniższa lista nie jest dogmatem, ale w praktyce gospodarstw w Niemczech wraca niemal przy każdym większym gotowaniu.
 
-- **Kapusta kiszona** — do [bigosu](/pl/rezepte/bigos) i pierogów z kapustą. Szukaj kapusty o czystym, kwasowym zapachu, bez metalicznego posmaku i bez nadmiaru cukru w składzie.
-- **Zakwas na żurek** — butelka albo własny zakwas, jeśli go prowadzisz. Gotowy produkt z polskiego sklepu zwykle bije na głowę przypadkowe „zakwasopodobne” mieszanki.
-- **Kiełbasa** — biała, krakowska, myśliwska, wędzona: zależnie od dania. Do fasolki i żurku jakość kiełbasy widać od razu. Dobra **kaszanka** pod smażenie z cebulą: [przepis na kaszankę](/pl/rezepte/kaszanka); rodzaje i jakość w [leksykonie kiełbasy](/pl/blog/rodzaje-kielbasy). Na gulasz warzywny z papryką i pomidorem (to nie gulasz wieprzowy): [leczo](/pl/rezepte/leczo).
-- **Majeranek i lubczyk** — często bardziej aromatyczne niż standardowe saszetki z supermarketu. Majeranek to nie dekoracja; to rdzeń żurku.
-- **Suszone grzyby** — borowiki albo mieszanki. Namoczone dają bulion i ciało farszu do pierogów wigilijnych.
-- **Twaróg** — jeśli jest świeży i dobrze odsączony, to pierwsza liga do ruskich i [naleśników](/pl/rezepte/nalesniki/twarog). Szczegóły: [twaróg w Niemczech](/pl/blog/twarog-w-niemczech).
-- **Produkty „trudne do podrobienia”** — prawdziwy oscypek sezonowo, dobre kaszanki, czasem makaron ręczny albo uszka mrożone, gdy naprawdę brakuje czasu.
+- **Kapusta kiszona**: do [bigosu](/pl/rezepte/bigos) i pierogów z kapustą. Szukaj kapusty o czystym, kwasowym zapachu, bez metalicznego posmaku i bez nadmiaru cukru w składzie.
+- **Zakwas na żurek**: butelka albo własny zakwas, jeśli go prowadzisz. Gotowy produkt z polskiego sklepu zwykle bije na głowę przypadkowe „zakwasopodobne” mieszanki.
+- **Kiełbasa**: biała, krakowska, myśliwska, wędzona: zależnie od dania. Do fasolki i żurku jakość kiełbasy widać od razu. Dobra **kaszanka** pod smażenie z cebulą: [przepis na kaszankę](/pl/rezepte/kaszanka); rodzaje i jakość w [leksykonie kiełbasy](/pl/blog/rodzaje-kielbasy). Na gulasz warzywny z papryką i pomidorem (to nie gulasz wieprzowy): [leczo](/pl/rezepte/leczo).
+- **Majeranek i lubczyk**: często bardziej aromatyczne niż standardowe saszetki z supermarketu. Majeranek to nie dekoracja; to rdzeń żurku.
+- **Suszone grzyby**: borowiki albo mieszanki. Namoczone dają bulion i ciało farszu do pierogów wigilijnych.
+- **Twaróg**: jeśli jest świeży i dobrze odsączony, to pierwsza liga do ruskich i [naleśników](/pl/rezepte/nalesniki/twarog). Szczegóły: [twaróg w Niemczech](/pl/blog/twarog-w-niemczech).
+- **Produkty „trudne do podrobienia”**: prawdziwy oscypek sezonowo, dobre kaszanki, czasem makaron ręczny albo uszka mrożone, gdy naprawdę brakuje czasu.
 
 ### Jak czytać etykiety bez paniki
 
-Patrz na skład, nie tylko na flagę na opakowaniu. Kapusta z dodatkiem cukru i konserwantów w ilości „przemysłowej” smakuje inaczej niż ta bliższa domowej. Kiełbasa z wysokim udziałem mięsa i czytelnym składem zwykle lepiej znosi gotowanie. Jeśli coś wygląda zbyt tanio przy deklarowanej jakości, często jest zbyt tanio z powodu wody i wypełniaczy. To nie moralizowanie — to oszczędność nerwów przy stole.
+Patrz na skład, nie tylko na flagę na opakowaniu. Kapusta z dodatkiem cukru i konserwantów w ilości „przemysłowej” smakuje inaczej niż ta bliższa domowej. Kiełbasa z wysokim udziałem mięsa i czytelnym składem zwykle lepiej znosi gotowanie. Jeśli coś wygląda zbyt tanio przy deklarowanej jakości, często jest zbyt tanio z powodu wody i wypełniaczy. To nie moralizowanie, to oszczędność nerwów przy stole.
 
 ## Co spokojnie kupisz w REWE, Kauflandzie, Lidlu
 
 Nie ma sensu płacić premium za rzeczy, które w niemieckim markecie są równie dobre albo lepsze jakościowo.
 
-1. **Mąka pszenna** — typ 405 albo 550 do [ciasta na pierogi](/pl/blog/ciasto-na-pierogi). Różnice w chłonięciu wody są normalne; uczysz się „na czucie”.
-2. **Jajka, ziemniaki, cebula, czosnek** — baza prawie wszystkiego.
-3. **Mięso mielone i kawałki na rosół** — jakość różni się między sklepami, ale dostępność jest stała.
-4. **Buraki, marchew, pietruszka, seler** — do barszczu i rosołu.
-5. **Śmietana / Schmand / crème fraîche** — jako przybliżenia do serwowania; smak finalny i tak budujesz przyprawami i techniką.
-6. **Olej, masło, sól, pieprz** — oczywiste, ale warto mieć zapas przed większym batchowaniem.
+1. **Mąka pszenna**: typ 405 albo 550 do [ciasta na pierogi](/pl/blog/ciasto-na-pierogi). Różnice w chłonięciu wody są normalne; uczysz się „na czucie”.
+2. **Jajka, ziemniaki, cebula, czosnek**: baza prawie wszystkiego.
+3. **Mięso mielone i kawałki na rosół**: jakość różni się między sklepami, ale dostępność jest stała.
+4. **Buraki, marchew, pietruszka, seler**: do barszczu i rosołu.
+5. **Śmietana / Schmand / crème fraîche**: jako przybliżenia do serwowania; smak finalny i tak budujesz przyprawami i techniką.
+6. **Olej, masło, sól, pieprz**: oczywiste, ale warto mieć zapas przed większym batchowaniem.
 
 Hub techniczny do ciasta: [ciasto](/pl/techniken/ciasto). Jeśli robisz większe partie, rozważ też [robot do ciasta](/pl/blog/robot-do-ciasta-pierogi).
 
@@ -196,25 +196,25 @@ W markecie: buraki, warzywa na wywar, ocet lub kwas cytrynowy do korekty. W skle
 
 ## Niedziela, dzieci, druga generacja
 
-Wielu z nas gotuje dla osób, które wychowały się już w Niemczech i nie mają „pamięci smaku” z polskiego podwórka. Wtedy sklep polski nie jest nostalgicznym teatrem — jest narzędziem. Dzieci często akceptują pierogi ruskie szybciej niż intensywnie kwaszony bigos; żurek bywa polarizujący, dopóki nie dopasujesz ostrości i ilości majeranku. Nie musimy udowadniać autentyczności. Musimy nakarmić dom tak, żeby chcieli wracać po dokładkę.
+Wielu z nas gotuje dla osób, które wychowały się już w Niemczech i nie mają „pamięci smaku” z polskiego podwórka. Wtedy sklep polski nie jest nostalgicznym teatrem, jest narzędziem. Dzieci często akceptują pierogi ruskie szybciej niż intensywnie kwaszony bigos; żurek bywa polarizujący, dopóki nie dopasujesz ostrości i ilości majeranku. Nie musimy udowadniać autentyczności. Musimy nakarmić dom tak, żeby chcieli wracać po dokładkę.
 
 Jeśli kupujesz z dziećmi, trzymaj listę krótką: trzy rzeczy „polskie” na wizytę, reszta w markecie. Unikasz chaosu i impulsywnych zakupów słodyczy, które i tak znikną przed niedzielnym obiadem.
 
 
 
-![Przygotowanie w kuchni diaspory](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-biala-kielbasa/6f6f246e-9e55-42ae-99a6-94384e3bdd66.webp)
+![Biała kiełbasa, porcjowana pod zakupy w sklepie polskim](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-biala-kielbasa/6f6f246e-9e55-42ae-99a6-94384e3bdd66.webp "Przed świętami kupujemy wcześnie. Półki pustoszeją.")
 
 ## Przechowywanie i marnowanie jedzenia
 
-Kapustę kiszoną trzymaj w chłodzie, zawsze przykrytą sokiem. Zakwas — zgodnie z etykietą, zwykle chłodno po otwarciu. Kiełbasę planuj w menu tygodnia, nie „na wszelki wypadek na dnie szuflady”. Suszone grzyby trzymaj szczelnie, z dala od wilgoci. Twaróg jedz szybko albo wykorzystaj w farszu i mroź pierogi — to lepsza strategia niż mrożenie samego twarogu w przypadkowym pojemniku.
+Kapustę kiszoną trzymaj w chłodzie, zawsze przykrytą sokiem. Zakwas, zgodnie z etykietą, zwykle chłodno po otwarciu. Kiełbasę planuj w menu tygodnia, nie „na wszelki wypadek na dnie szuflady”. Suszone grzyby trzymaj szczelnie, z dala od wilgoci. Twaróg jedz szybko albo wykorzystaj w farszu i mroź pierogi, to lepsza strategia niż mrożenie samego twarogu w przypadkowym pojemniku.
 
 Przy większych partiach pierogów pomaga plan mrożenia: uformowane, surowe, na blaszce, potem do worka. Wtedy wizyta w sklepie polskim raz na dwa tygodnie wystarczy, a w tygodniu gotujesz „z zapasu”.
 
 ## Bezpieczeństwo żywności i zdrowy rozsądek
 
-Przechowywanie, temperatura lodówki i higiena przy mięsie to nie pedanteria. Warto trzymać się sprawdzonych zaleceń żywieniowych — po stronie polskiej np. [Narodowe Centrum Edukacji Żywieniowej](https://ncez.pzh.gov.pl), a w kontekście niemieckim praktyczne materiały znajdziesz też na [BZFE](https://www.bzfe.de). Nie zastępują one lekarza ani dietetyka, ale pomagają unikać głupich błędów: zbyt długo trzymanej kiełbasy, ciepłego transportu nabiału latem, brudnych desek po surowym mięsie.
+Przechowywanie, temperatura lodówki i higiena przy mięsie to nie pedanteria. Warto trzymać się sprawdzonych zaleceń żywieniowych, po stronie polskiej np. [Narodowe Centrum Edukacji Żywieniowej](https://ncez.pzh.gov.pl), a w kontekście niemieckim praktyczne materiały znajdziesz też na [BZFE](https://www.bzfe.de). Nie zastępują one lekarza ani dietetyka, ale pomagają unikać głupich błędów: zbyt długo trzymanej kiełbasy, ciepłego transportu nabiału latem, brudnych desek po surowym mięsie.
 
-## FAQ — zakupy w sklepie polskim w Niemczech
+## FAQ: zakupy w sklepie polskim w Niemczech
 
 ### Czy naprawdę musimy jeździć do sklepu polskiego co tydzień?
 
@@ -234,8 +234,8 @@ Najpierw ustalacie rdzeń stołu w [menu wigilijnym](/pl/blog/menu-wigilijne), p
 
 ### Czy warto brać mrożone pierogi ze sklepu?
 
-Czasem tak — jako awaryjne wsparcie. Na co dzień wolimy własne, bo kontrolujemy [ciasto](/pl/blog/ciasto-na-pierogi) i farsz. Mrożone z półki ratują wieczór, ale rzadko wygrywają z domową partią.
+Czasem tak, jako awaryjne wsparcie. Na co dzień wolimy własne, bo kontrolujemy [ciasto](/pl/blog/ciasto-na-pierogi) i farsz. Mrożone z półki ratują wieczór, ale rzadko wygrywają z domową partią.
 
-Zakupy „dla nas” w Niemczech to umiejętność, nie kompromis. Gdy wiesz, co naprawdę musi być polskie, a co może być lokalne, gotowanie staje się spokojniejsze — a stół smakuje jak dom, nie jak improwizacja.', 'Sklep polski zakupy Niemcy | REWE i Kaufland | Alemniam', 'Sklep polski vs REWE/Kaufland: co naprawdę warto? Listy na niedzielę i Wigilię, jakość, zamienniki, przepisy do gotowania.') on conflict (post_id, locale) do update set title = excluded.title, slug = excluded.slug, excerpt = excluded.excerpt, body = excluded.body, seo_title = excluded.seo_title, seo_description = excluded.seo_description;
+Zakupy „dla nas” w Niemczech to umiejętność, nie kompromis. Gdy wiesz, co naprawdę musi być polskie, a co może być lokalne, gotowanie staje się spokojniejsze, a stół smakuje jak dom, nie jak improwizacja.', 'Sklep polski zakupy Niemcy | REWE i Kaufland | Alemniam', 'Sklep polski vs REWE/Kaufland: co naprawdę warto? Listy na niedzielę i Wigilię, jakość, zamienniki, przepisy do gotowania.') on conflict (post_id, locale) do update set title = excluded.title, slug = excluded.slug, excerpt = excluded.excerpt, body = excluded.body, seo_title = excluded.seo_title, seo_description = excluded.seo_description;
 
 commit;

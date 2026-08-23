@@ -36,17 +36,17 @@ export const seedBlogPostsW3b: BlogPost[] = [
         title: "Beste Freezer-Boxen für Pierogi 2026",
         slug: "freezer-boxen-kaufberatung",
         excerpt:
-          "Gefrierdosen für Pierogi-Batches: Material, Stapelbarkeit, Etikettierung — Budget bis Wigilia-Stufe.",
+          "Gefrierdosen für Pierogi-Batches: Material, Stapelbarkeit, Etikettierung, Budget bis Wigilia-Stufe.",
         seoTitle: "Beste Freezer-Boxen Pierogi 2026 | Kaufberatung | Alemniam",
         seoDescription:
-          "Beste Freezer-Boxen für Pierogi 2026: Kriterien, Stufen, Tests-Slot. Ergänzt den Freezer-Guide — klar für DE-Haushalte.",
+          "Beste Freezer-Boxen für Pierogi 2026: Kriterien, Stufen, Tests-Slot. Ergänzt den Freezer-Guide, klar für DE-Haushalte.",
         body: bodyFreezerBoxenDe.trim(),
       },
       pl: {
         title: "Najlepsze pojemniki do mrożenia pierogów 2026",
         slug: "pojemniki-do-mrozenia",
         excerpt:
-          "Pojemniki na batch pierogów: materiał, stos, etykiety — od budżetu po Wigilię.",
+          "Pojemniki na batch pierogów: materiał, stos, etykiety, od budżetu po Wigilię.",
         seoTitle: "Pojemniki do mrożenia pierogów 2026 | Poradnik | Alemniam",
         seoDescription:
           "Najlepsze pojemniki do mrożenia pierogów 2026: kryteria, poziomy, slot testów. Uzupełnia poradnik mrożenia.",
@@ -81,7 +81,7 @@ export const seedBlogPostsW3b: BlogPost[] = [
         title: "Beste Fermentiergläser für Kiszenie 2026",
         slug: "fermentier-glaeser-kaufberatung",
         excerpt:
-          "Gläser, Deckel und Gärventile für Kapusta, Ogórki und Zakwas — Kriterien und Stufen für DE.",
+          "Gläser, Deckel und Gärventile für Kapusta, Ogórki und Zakwas, Kriterien und Stufen für DE.",
         seoTitle: "Beste Fermentiergläser Kiszenie 2026 | Kaufberatung | Alemniam",
         seoDescription:
           "Fermentiergläser Kaufberatung 2026: Schraub vs. Bügel, Gärdeckel, Multi-Batch. Ergänzt Kiszenie-Guide.",
@@ -91,7 +91,7 @@ export const seedBlogPostsW3b: BlogPost[] = [
         title: "Najlepsze słoiki do kiszenia 2026",
         slug: "sloiki-do-kiszenia",
         excerpt:
-          "Słoiki, pokrywy i zawory do kapusty, ogórków i zakwasu — kryteria i poziomy w DE.",
+          "Słoiki, pokrywy i zawory do kapusty, ogórków i zakwasu, kryteria i poziomy w DE.",
         seoTitle: "Słoiki do kiszenia 2026 | Poradnik kupiecki | Alemniam",
         seoDescription:
           "Słoiki do kiszenia 2026: wkrętka vs klamra, nakładki, multi-batch. Uzupełnia kiszenie w domu.",
@@ -122,20 +122,20 @@ export const seedBlogPostsW3b: BlogPost[] = [
         title: "Kasza gryczana: kaufen, kochen, einsetzen",
         slug: "kasza-buchweizen",
         excerpt:
-          "Buchweizen in DE: Einkauf, Vorbereitung, Gołąbki-Füllung und Beilage — Lexikon ohne Rezept-Doppelung.",
+          "Buchweizen in DE: Einkauf, Vorbereitung, Gołąbki-Füllung und Beilage, Lexikon ohne Rezept-Doppelung.",
         seoTitle: "Kasza gryczana Guide | Buchweizen | Alemniam",
         seoDescription:
-          "Kasza gryczana: Polenladen vs Supermarkt, kochen ohne Matsch, Gołąbki und Kasza z grochem — ruhig und praxisnah.",
+          "Kasza gryczana: Polenladen vs Supermarkt, kochen ohne Matsch, Gołąbki und Kasza z grochem, ruhig und praxisnah.",
         body: bodyKaszaDe.trim(),
       },
       pl: {
         title: "Kasza gryczana: kupić, ugotować, użyć",
         slug: "kasza-gryczana",
         excerpt:
-          "Gryka w DE: sklep, przygotowanie, farsz gołąbkowy i dodatek — leksykon bez powielania przepisu.",
+          "Gryka w DE: sklep, przygotowanie, farsz gołąbkowy i dodatek, leksykon bez powielania przepisu.",
         seoTitle: "Kasza gryczana przepis przewodnik | Alemniam",
         seoDescription:
-          "Kasza gryczana: sklep polski vs supermarket, gotowanie bez papki, gołąbki i kasza z grochem — spokojnie i praktycznie.",
+          "Kasza gryczana: sklep polski vs supermarket, gotowanie bez papki, gołąbki i kasza z grochem, spokojnie i praktycznie.",
         body: bodyKaszaPl.trim(),
       },
     },

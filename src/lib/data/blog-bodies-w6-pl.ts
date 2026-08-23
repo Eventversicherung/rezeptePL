@@ -1,67 +1,67 @@
 export const bodyMakowiecTechnikPl = `
-Makowiec — rolada z makiem — dla wielu z nas jest słodkim domknięciem Wigilii i jednocześnie projektem technicznym: ciasto drożdżowe, masa makowa, zwijanie, pieczenie, cierpliwość. W Niemczech dzień często psuje nie brak chęci, lecz sucha masa, pękające ciasto albo zbyt gorący piekarnik. Ten przewodnik wspiera przepis [Makowiec](/pl/rezepte/makowiec) i [menu wigilijne](/pl/blog/menu-wigilijne) — bez powielania gramatur i bez udawania laboratorium. Ciasto z formy bez spirali makowej to [babka](/pl/rezepte/babka) — inne danie; tu zostają rolada, masa i technika wigilijna.
+Makowiec, rolada z makiem, dla wielu z nas jest słodkim domknięciem Wigilii i jednocześnie projektem technicznym: ciasto drożdżowe, masa makowa, zwijanie, pieczenie, cierpliwość. W Niemczech dzień często psuje nie brak chęci, lecz sucha masa, pękające ciasto albo zbyt gorący piekarnik. Ten przewodnik wspiera przepis [Makowiec](/pl/rezepte/makowiec) i [menu wigilijne](/pl/blog/menu-wigilijne), bez powielania gramatur i bez udawania laboratorium. Ciasto z formy bez spirali makowej to [babka](/pl/rezepte/babka), inne danie; tu zostają rolada, masa i technika wigilijna.
 
 ## O czym jest ten przewodnik
 
-Tu chodzi o **technikę pieczenia polskiego makowca**: prowadzenie ciasta, przygotowanie maku, zwijanie, temperatura pieca, typowe błędy, zakupy w DE i timeline na 24 grudnia. Ilości i kroki są w przepisie. [Technika faworków](/pl/blog/faworki-technika) opisuje smażone ciasto na Tłusty Czwartek — spokrewnione świętowanie, inna metoda.
+Tu chodzi o **technikę pieczenia polskiego makowca**: prowadzenie ciasta, przygotowanie maku, zwijanie, temperatura pieca, typowe błędy, zakupy w DE i timeline na 24 grudnia. Ilości i kroki są w przepisie. [Technika faworków](/pl/blog/faworki-technika) opisuje smażone ciasto na Tłusty Czwartek, spokrewnione świętowanie, inna metoda.
 
-Makowiec to nie strudel i nie niemieckie ciasto makowe z blachy: to **rolada drożdżowa** z gęstą masą makową, często z dodatkami (rodzynki, miód, skórka cytryny), z zewnątrz złocista, w środku wilgotna, ale nie mokra. Kto szuka tylko „czegoś z makiem”, łatwo ląduje przy cieście blaszanym — smaczne, ale inne danie.
+Makowiec to nie strudel i nie niemieckie ciasto makowe z blachy: to **rolada drożdżowa** z gęstą masą makową, często z dodatkami (rodzynki, miód, skórka cytryny), z zewnątrz złocista, w środku wilgotna, ale nie mokra. Kto szuka tylko „czegoś z makiem”, łatwo ląduje przy cieście blaszanym, smaczne, ale inne danie.
 
 
 
-![Danie z polskiej kuchni](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-makowiec/53f5d3bc-8156-4441-a67e-83ddff7184b9.webp)
+![Zwinięty makowiec z ciemną masą makową](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-makowiec/53f5d3bc-8156-4441-a67e-83ddff7184b9.webp "Zwijamy spokojnie, nie ugniatamy. Pęknięcia biorą się z mokrej masy albo pośpiechu.")
 
 ## Mak: nośnik charakteru
 
-Mak niebieski buduje aromat i kolor. W DE: sklep polski dla dobrej jakości i często już zmielonego maku; supermarket czasem w dziale wypieków lub international. Całe ziarna mielić lub sparzyć — inaczej masa zostaje piaszczysta i gorzka. Za sucha = kruszy się i pęka przy zwijaniu. Za mokra = rozmaka ciasto, wycieka.
+Mak niebieski buduje aromat i kolor. W DE: sklep polski dla dobrej jakości i często już zmielonego maku; supermarket czasem w dziale wypieków lub international. Całe ziarna mielić lub sparzyć, inaczej masa zostaje piaszczysta i gorzka. Za sucha = kruszy się i pęka przy zwijaniu. Za mokra = rozmaka ciasto, wycieka.
 
-Klasyczne przygotowanie: mak zalać gorącym mlekiem lub wodą, ostudzić, związać cukrem, masłem/smalcem, białkiem lub jajkiem, opcjonalnie miodem i skórką cytryny. Masa ma się smarować jak gęsta pasta — nie kapać, nie kruszyć. Smakować: słodko, lekko orzechowo, nie gorzko. Gorycz bywa ze starych ziaren albo zbyt mocnego prażenia.
+Klasyczne przygotowanie: mak zalać gorącym mlekiem lub wodą, ostudzić, związać cukrem, masłem/smalcem, białkiem lub jajkiem, opcjonalnie miodem i skórką cytryny. Masa ma się smarować jak gęsta pasta, nie kapać, nie kruszyć. Smakować: słodko, lekko orzechowo, nie gorzko. Gorycz bywa ze starych ziaren albo zbyt mocnego prażenia.
 
-Rodzynki (namoczone) to domowy zwyczaj, nie obowiązek. Kto lubi — dodaje; kto nie — pomija. Ważna zostaje wilgotność masy.
+Rodzynki (namoczone) to domowy zwyczaj, nie obowiązek. Kto lubi, dodaje; kto nie, pomija. Ważna zostaje wilgotność masy.
 
 ## Ciasto drożdżowe: ciepło, odpoczynek, wyczucie
 
-Dobre ciasto na makowiec potrzebuje czasu: drożdże, wyrabianie do gładkości i elastyczności, wyrastanie do podwojenia, krótkie przerobienie, wałkowanie. Za dużo mąki = suche i pękające. Za mało = kleiste i trudne do zwinięcia. Mleko i tłuszcz ciepłe, nie wrzące — gorąc zabija drożdże.
+Dobre ciasto na makowiec potrzebuje czasu: drożdże, wyrabianie do gładkości i elastyczności, wyrastanie do podwojenia, krótkie przerobienie, wałkowanie. Za dużo mąki = suche i pękające. Za mało = kleiste i trudne do zwinięcia. Mleko i tłuszcz ciepłe, nie wrzące, gorąc zabija drożdże.
 
-Blat lekko oprószyć. Wałkować prostokąt równej grubości — za cienko pęka, za grubo zostaje surowe w środku. Masę rozsmarować z zapasem od brzegu. Zwijać od dłuższego boku mocno, ale bez przemocy; spód na łączeniu. Końce podwinąć lub lekko docisnąć.
+Blat lekko oprószyć. Wałkować prostokąt równej grubości, za cienko pęka, za grubo zostaje surowe w środku. Masę rozsmarować z zapasem od brzegu. Zwijać od dłuższego boku mocno, ale bez przemocy; spód na łączeniu. Końce podwinąć lub lekko docisnąć.
 
-Krótki odpoczynek zrolowanej formy pomaga niektórym ciastom — nie przesadzać, bo w piecu pęknie. Wierzch posmarować jajkiem dla połysku.
+Krótki odpoczynek zrolowanej formy pomaga niektórym ciastom, nie przesadzać, bo w piecu pęknie. Wierzch posmarować jajkiem dla połysku.
 
 ## Piec i wypieczenie
 
-Poważnie potraktować nagrzewanie. Typowo średnia temperatura — za gorąco = wierzch ciemny, środek surowy; za chłodno = suche i płaskie. Rolada ma urosnąć i nabrać koloru; patyczek w części ciasta (nie tylko w masie) pomaga. Po pieczeniu chwilę na blaszce, potem stygnąć — krojenie na gorąco zgniata spiralę.
+Poważnie potraktować nagrzewanie. Typowo średnia temperatura, za gorąco = wierzch ciemny, środek surowy; za chłodno = suche i płaskie. Rolada ma urosnąć i nabrać koloru; patyczek w części ciasta (nie tylko w masie) pomaga. Po pieczeniu chwilę na blaszce, potem stygnąć, krojenie na gorąco zgniata spiralę.
 
 Para w piecu (naczynie z gorącą wodą) jest opcją; ważniejsza jest równa temperatura i nieotwieranie drzwi co chwilę.
 
 ## Logika wigilijna i timeline
 
-Makowiec to **deser i rytuał**, nie przystawka. Należy do końca [menu wigilijnego](/pl/blog/menu-wigilijne), po barszczu, uszkach i pierogach — albo jako poczęstunek na drugi dzień świąt. Pieczenie 24 rano obciąża wieczór; lepiej: 23 upiec, schłodzić, wieczorem podawać w plastrach.
+Makowiec to **deser i rytuał**, nie przystawka. Należy do końca [menu wigilijnego](/pl/blog/menu-wigilijne), po barszczu, uszkach i pierogach, albo jako poczęstunek na drugi dzień świąt. Pieczenie 24 rano obciąża wieczór; lepiej: 23 upiec, schłodzić, wieczorem podawać w plastrach.
 
-Równolegle: gdy ciasto rośnie, lepić [uszka](/pl/rezepte/uszka) albo przecedzać [barszcz](/pl/rezepte/barszcz-czerwony). Mrożenie: upieczony makowiec porcjonuje się dobrze; surowe rolady są kapryśniejsze — lepiej upiec i zamrozić.
+Równolegle: gdy ciasto rośnie, lepić [uszka](/pl/rezepte/uszka) albo przecedzać [barszcz](/pl/rezepte/barszcz-czerwony). Mrożenie: upieczony makowiec porcjonuje się dobrze; surowe rolady są kapryśniejsze, lepiej upiec i zamrozić.
 
 ## Zakupy w Niemczech
 
 Lista według charakteru: mąka (typ 405/550), drożdże, mleko, masło, jajka, cukier, mak, opcjonalnie rodzynki, miód, cytryna, wanilia. [Sklep polski](/pl/blog/sklep-polski-zakupy) po mak i święta. Sensowne zamiany znajdziesz w [zamiennikach składników](/pl/blog/zamienniki-skladnikow). Gotowy makowiec ze sklepu ratuje czas, ale nie zastępuje techniki, gdy chcecie piec sami.
 
-Narzędzia: duża blacha, papier, wałek, czyste ściereczki. Robot nie jest obowiązkowy — pomaga przy dużych partiach; kryteria jak przy [robocie do ciasta](/pl/blog/robot-do-ciasta-pierogi).
+Narzędzia: duża blacha, papier, wałek, czyste ściereczki. Robot nie jest obowiązkowy, pomaga przy dużych partiach; kryteria jak przy [robocie do ciasta](/pl/blog/robot-do-ciasta-pierogi).
 
 ## Typowe błędy
 
-Sucha masa makowa, za dużo mąki, zbyt gorący piec, zbyt wczesne krojenie, masa do samego brzegu bez strefy brzegowej, zabite drożdże wrzątkiem, rolada za luźna (powietrze) albo za ciasna (masa wypływa bokiem). Też złudzenie, że makowiec i faworki „przy okazji” tego samego popołudnia — dwa projekty wypiekowe potrzebują osobnych okien czasu.
+Sucha masa makowa, za dużo mąki, zbyt gorący piec, zbyt wczesne krojenie, masa do samego brzegu bez strefy brzegowej, zabite drożdże wrzątkiem, rolada za luźna (powietrze) albo za ciasna (masa wypływa bokiem). Też złudzenie, że makowiec i faworki „przy okazji” tego samego popołudnia, dwa projekty wypiekowe potrzebują osobnych okien czasu.
 
 
 
-![Przygotowanie w kuchni diaspory](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-kutia/0088aa6b-0eb5-4e7f-af68-56c011688e28.webp)
+![Kutia z pszenicą, makiem i miodem w misce](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-kutia/0088aa6b-0eb5-4e7f-af68-56c011688e28.webp "Inna linia niż rolada makowa. Pszenica, nie makaron.")
 
 ## Spokrewnione dania
 
-- [Przepis na makowiec](/pl/rezepte/makowiec) — ilości i kroki
-- [Faworki](/pl/rezepte/faworki) + [technika faworków](/pl/blog/faworki-technika) — inne pieczenie świąteczne
-- [Racuchy](/pl/rezepte/racuchy-jablka) — drożdże, słodko, codzienność/Tłusty
-- [Ciasto na pierogi](/pl/blog/ciasto-na-pierogi) — wyczucie ciasta, inny typ
-- [Menu wigilijne](/pl/blog/menu-wigilijne) — rama stołu
-- [Piernik](/pl/rezepte/piernik) — piernik miodowo-korzenny, nie rolada makowa
-- [Makaron z makiem](/pl/rezepte/makaron-z-makiem) — makaron z masą makową, nie rolada
+- [Przepis na makowiec](/pl/rezepte/makowiec), ilości i kroki
+- [Faworki](/pl/rezepte/faworki) + [technika faworków](/pl/blog/faworki-technika), inne pieczenie świąteczne
+- [Racuchy](/pl/rezepte/racuchy-jablka), drożdże, słodko, codzienność/Tłusty
+- [Ciasto na pierogi](/pl/blog/ciasto-na-pierogi), wyczucie ciasta, inny typ
+- [Menu wigilijne](/pl/blog/menu-wigilijne), rama stołu
+- [Piernik](/pl/rezepte/piernik), piernik miodowo-korzenny, nie rolada makowa
+- [Makaron z makiem](/pl/rezepte/makaron-z-makiem), makaron z masą makową, nie rolada
 
 Technika zostaje tu, ilości w przepisie, menu przy okazji. Piernik i makaron z makiem nie zastępują drożdżowej rolady ani masy makowej z tego przewodnika.
 
@@ -73,11 +73,11 @@ Najczęściej za sucha masa, za mało elastyczne ciasto albo zbyt cienkie wałko
 
 ### Czy mak zawsze musi być mielony?
 
-Do klasycznej masy tak — całe ziarna zostają piaszczyste. Gotowy mielony ze sklepu polskiego oszczędza czas; sprawdzić świeżość.
+Do klasycznej masy tak, całe ziarna zostają piaszczyste. Gotowy mielony ze sklepu polskiego oszczędza czas; sprawdzić świeżość.
 
 ### Czy można upiec dzień wcześniej?
 
-Tak — często lepiej. Przechowywać chłodno, przed podaniem doprowadzić do temperatury pokojowej, ewentualnie lekko podgrzać.
+Tak, często lepiej. Przechowywać chłodno, przed podaniem doprowadzić do temperatury pokojowej, ewentualnie lekko podgrzać.
 
 ### Jak mrozić?
 
@@ -99,32 +99,32 @@ W [przepisie na makowiec](/pl/rezepte/makowiec). Tu gesty i kontekst świąteczn
 4. Piec, studzić, kroić dopiero potem.  
 5. Przechować lub przygotować na Wigilię.
 
-Między fazami wyrastania można lepić uszka, klarować barszcz albo domknąć zakupy — ciasto czeka lepiej niż wy pod stresem.
+Między fazami wyrastania można lepić uszka, klarować barszcz albo domknąć zakupy, ciasto czeka lepiej niż wy pod stresem.
 
 ## Smak i doprawianie
 
-Makowiec ma smakować makiem, nie samym cukrem. Skórka cytryny podnosi; wanilia zaokrągla; za dużo cukru maskuje gorycz zamiast ją rozwiązać. Szczypta soli w cieście nie jest błędem. Polewa cukrowa jest opcją — klasycznie często wystarczy połysk z jajka i cukier puder przy podaniu.
+Makowiec ma smakować makiem, nie samym cukrem. Skórka cytryny podnosi; wanilia zaokrągla; za dużo cukru maskuje gorycz zamiast ją rozwiązać. Szczypta soli w cieście nie jest błędem. Polewa cukrowa jest opcją, klasycznie często wystarczy połysk z jajka i cukier puder przy podaniu.
 
 ## Codzienność diaspory
 
-W niemieckich kuchniach bywa brak dużego pieca albo spokoju w chaosie rodzinnym. Wtedy pomaga: mniejsze rolady zamiast jednej ogromnej albo dwie cieńsze zamiast jednej grubej. Dzieci mogą smarować — gorący piec zostaje dla dorosłych. Notatki przy kuchence biją kolejne wideo.
+W niemieckich kuchniach bywa brak dużego pieca albo spokoju w chaosie rodzinnym. Wtedy pomaga: mniejsze rolady zamiast jednej ogromnej albo dwie cieńsze zamiast jednej grubej. Dzieci mogą smarować, gorący piec zostaje dla dorosłych. Notatki przy kuchence biją kolejne wideo.
 
 ## Czytaj dalej
 
 - [Makowiec przepis](/pl/rezepte/makowiec)
-- [Sernik](/pl/rezepte/sernik) — inna linia pieczenia świątecznego
-- [Babka](/pl/rezepte/babka) — ciasto drożdżowe z formy, nie rolada makowa
+- [Sernik](/pl/rezepte/sernik), inna linia pieczenia świątecznego
+- [Babka](/pl/rezepte/babka), ciasto drożdżowe z formy, nie rolada makowa
 - [Menu wigilijne](/pl/blog/menu-wigilijne)
 - [Faworki technika](/pl/blog/faworki-technika)
-- [Technika pączków](/pl/blog/paczki-technika) — drożdże świąteczne, inny projekt tłuszczowy
+- [Technika pączków](/pl/blog/paczki-technika), drożdże świąteczne, inny projekt tłuszczowy
 - [Sklep polski](/pl/blog/sklep-polski-zakupy)
 - [Zamienniki składników](/pl/blog/zamienniki-skladnikow)
 - [Uszka](/pl/rezepte/uszka)
 - [Barszcz](/pl/rezepte/barszcz-czerwony)
 
-Spokojnie wyrastać, związać masę, nie piec za gorąco — tak makowiec w niemieckich kuchniach zostaje świąteczny i wykonalny.
+Spokojnie wyrastać, związać masę, nie piec za gorąco, tak makowiec w niemieckich kuchniach zostaje świąteczny i wykonalny.
 
-W praktyce powtórzenie bije perfekcję za pierwszym razem: ta sama masa prowadzona dwa razy spokojnie wygrywa z paniką 24 grudnia. Notujcie temperaturę i czas waszego pieca — urządzenia kłamią różnie.
+W praktyce powtórzenie bije perfekcję za pierwszym razem: ta sama masa prowadzona dwa razy spokojnie wygrywa z paniką 24 grudnia. Notujcie temperaturę i czas waszego pieca, urządzenia kłamią różnie.
 
 Dla gospodarstw w Niemczech sklep polski zostaje celowym przystankiem po mak i święta, nie po każde gram mąki. Supermarket na bazę, specjalność tam, gdzie buduje charakter.
 
@@ -132,5 +132,5 @@ Na Alemniam przewodniki zostają przy technice i okazjach; ilości i kroki są w
 
 Kto chce odciążyć słodką część Wigilii, piecze wcześniej i podaje później. Zapach w dniu pieczenia wystarczy jako zapowiedź; wieczorem 24. liczy się spokój przy stole bardziej niż świeży żar z pieca.
 
-Ciasto drożdżowe wybacza plan i karze pośpiech. Gdy masa rośnie — oddychajcie: kawa, krótka pauza, potem dalej. Tak z „projektu makowiec” znów staje się domowe pieczenie z rozpoznawalnym smakiem.
+Ciasto drożdżowe wybacza plan i karze pośpiech. Gdy masa rośnie, oddychajcie: kawa, krótka pauza, potem dalej. Tak z „projektu makowiec” znów staje się domowe pieczenie z rozpoznawalnym smakiem.
 `;

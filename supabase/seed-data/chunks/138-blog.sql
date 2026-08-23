@@ -4,145 +4,199 @@ begin;
 
 -- blog:post-kiszenie
 insert into public.blog_posts (id, status, post_type, cover_image, silo_ids, related_recipe_ids, related_post_ids, related_product_ids, cluster_ids, published_at, updated_at) values ('post-kiszenie', 'published', 'guide', 'https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-kiszenie/bbd62ba7-3d38-461a-a524-82923fa60a2c.webp', array['technique']::text[], array['recipe-bigos', 'recipe-pierogi-cabbage', 'recipe-barszcz', 'recipe-ogorkowa', 'recipe-kapusniak', 'recipe-kapusta-zasmażana', 'recipe-ogorki-kiszone', 'recipe-kapusta-kiszona', 'recipe-czosnek-kiszony']::text[], array['post-bigos-guide', 'post-zakwas-zurek', 'post-polenladen', 'post-ferment-glaeser']::text[], '{}'::text[], array['technique-kiszenie']::text[], '2026-07-24T09:00:00.000Z', '2026-07-24T09:00:00.000Z') on conflict (id) do update set status = excluded.status, post_type = excluded.post_type, cover_image = excluded.cover_image, silo_ids = excluded.silo_ids, related_recipe_ids = excluded.related_recipe_ids, related_post_ids = excluded.related_post_ids, related_product_ids = excluded.related_product_ids, cluster_ids = excluded.cluster_ids, published_at = excluded.published_at, updated_at = excluded.updated_at;
-insert into public.blog_post_translations (post_id, locale, title, slug, excerpt, body, seo_title, seo_description) values ('post-kiszenie', 'de', 'Kiszenie zu Hause: Kapusta, Ogórki, saubere Technik', 'kiszenie-guide', 'Fermentieren im deutschen Haushalt: Salz, Temperatur, Gläser, Sicherheit — und was wir für Bigos selbst machen.', 'Kiszenie ist kontrollierte Milchsäuregärung – keine Essig-Abkürzung. Sauberes Arbeiten, frisches Gemüse, Salz, passendes Gefäß. Gurken, Kohl, Rote Bete für Alltag und [Barszcz](/de/rezepte/barszcz-czerwony). Orientierung: [bzfe.de](https://www.bzfe.de), [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl), [agriculture.ec.europa.eu](https://agriculture.ec.europa.eu), [was-wir-essen.de](https://www.was-wir-essen.de). Sicherheit zuerst.
+insert into public.blog_post_translations (post_id, locale, title, slug, excerpt, body, seo_title, seo_description) values ('post-kiszenie', 'de', 'Kiszenie zu Hause: Kapusta, Ogórki, saubere Technik', 'kiszenie-guide', 'Fermentieren im deutschen Haushalt: Salz, Temperatur, Gläser, Sicherheit, und was wir für Bigos selbst machen.', 'Kiszenie in einer deutschen Wohnung ist selten das Fass im Keller der Großeltern. Es ist ein Glas auf dem Teller unter dem Schrank, zwischen Job, kleinem Kühlschrank und dem Wunsch nach Säure, die nicht aus der Essigflasche kommt. Der Name meint kontrollierte Milchsäuregärung. Der Alltag meint mehr als ein Rezept: welches Gemüse, welches Salz, welches Gefäß, und was wir tun, wenn Flaum auf der Lake liegt.
 
-## Grundidee
+Dieser Artikel ist der Praxisrahmen, nicht das Rezeptbuch. Genaue Salzmengen, Schrittfolgen und Chargengrößen stehen in erprobten Anleitungen und, wo wir sie haben, in den Rezepten zur Nutzung. Hier ordnen wir, was Kiszenie ist, was es nicht ist, und wo Haushalte in der Diaspora klein und sauber starten. Orientierung zu Hygiene und Lebensmittelsicherheit: [bzfe.de](https://www.bzfe.de) und [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
 
-Milchsäurebakterien säuern unter der Lake. Luftkontakt und Schmutz sind Feinde. Essig ergibt anderes Produkt.
+Historisch ist Kiszenie Vorratstechnik, nicht Trend. Kohl, Gurken und Rote Bete wurden sauer, weil der Winter lang war und der Keller kühl. In Deutschland ersetzen wir den Keller durch den Kühlschrank und das Fass durch ein Schraubglas. Der Gewinn bleibt derselbe: Säure, die den Sonntagsteller trägt, ohne jede Woche neu einzukaufen. Der Preis ist Sorgfalt. Wer rät, statt zu wiegen, lernt teuer.
 
+![Gurken in Lake, bereit für Ogórkowa oder den Teller](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-ogorkowa/fe6aee59-9d09-475d-8464-4012dab7203a.webp "Kleine Gläser lehren Tempo und Sicherheit besser als das erste Fass.")
 
+## Grundidee, klar getrennt
 
-![Gericht aus der polnischen Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-ogorkowa/fe6aee59-9d09-475d-8464-4012dab7203a.webp)
+Milchsäurebakterien säuern unter der Lake. Luftkontakt, Schmutz und beschädigtes Gemüse sind Feinde. Essig ergibt ein anderes Produkt: Essiggurken oder Essigkraut, oft in Ordnung, aber nicht Kiszenie. Wer Essig ins Glas kippt und das Ergebnis fermentiert nennt, verwirrt sich selbst und Gäste.
 
-## Starter-Setup
+Zakwas für Żurek ist verwandte Sorgfalt und eine andere Zutat. Den Ansatz erklärt der [Zakwas-Guide](/de/blog/zakwas-zurek). Diesen Text nicht mit dem Ansatz für die saure Suppe vermischen.
 
-Sauberes Glas/Gefäß, Gewicht zum Unter-Lake-Halten, geeignetes Salz, frisches unbeschädigtes Gemüse, Rezept mit Salzmenge – nicht raten.
+## Starter-Setup in der Wohnung
+
+Sauberes, lebensmittelgeeignetes Glas. Gewicht, das das Gemüse unter der Lake hält. Salz, das das gewählte Rezept verlangt, gewogen, nicht nach Gefühl. Frisches, unbeschädigtes Gemüse. Ein Teller unter dem Glas, weil Gärung Flüssigkeit drücken kann. In einer Einbauküche ohne Keller ist das die ganze Infrastruktur.
+
+Große Fässer warten, bis kleine Chargen mehrfach gelungen sind. Ein Liter, den ihr versteht, schlägt fünf Liter, die ihr entsorgen müsst. Deckel, die kein Gas ablassen können, gehören nicht zur Lernphase. Herstellerangaben und erprobte Rezepte lesen, nicht den lautesten Forumsbeitrag.
+
+REWE und Kaufland tragen oft festes Gemüse, das taugt, wenn ihr Qualität prüft. Ungewachste Gurken sind leichter zu führen. Speisesalz ohne unerwünschte Zusätze wählen, wenn das Rezept das verlangt. Den Polenladen nutzen wir für Dill, Meerrettich, bessere Gurken und oft für fertige Kiszonki, wenn die erste eigene Charge noch unsicher ist.
 
 ## Gurken
 
-Fest, ungewachst bevorzugt, Gewürze nach Hausbrauch (Dill, Knoblauch, Meerrettich, Pfeffer). Lake bedeckt alles.
+Fest, möglichst ungewachst, Gewürze nach Hausbrauch: Dill, Knoblauch, Meerrettich, Pfeffer. Die Lake bedeckt alles. Was aus der Lake schaut, fault leichter. Kinder dürfen Gewürze legen, nicht das Glas allein im warmen Fenster vergessen.
+
+Kiszone Gurken wandern auf den Sonntagsteller oder in [Ogórkowa](/de/rezepte/ogorkowa). Die Lake dosiert ihr vorsichtig. Sie ist Würze, nicht Freifahrtschein für jeden Topf.
 
 ## Kohl
 
-Fein schneiden, mit Salz massieren, fest einstampfen, Lake/Saft bedeckt. Zeit und Temperatur beobachten.
+Fein schneiden, mit Salz massieren, fest einstampfen, bis eigener Saft und Lake bedecken. Zeit und Temperatur beobachten. Zu warm wird unkontrolliert, zu kalt wird träge. In deutschen Wohnungen ist der Februar ein anderer Raum als der August. Der Kalender allein reicht nicht.
+
+Kapusta kiszona trägt [Kapuśniak](/de/rezepte/kapusniak), die warme Beilage [Kapusta zasmażana](/de/rezepte/kapusta-zasmażana) und [Bigos](/de/rezepte/bigos). Säure dosieren. Ein Glas, das zu weit gegangen ist, wird Würze, nicht die ganze Beilage.
 
 ## Rote Bete
 
-Für klare säuerliche Noten; Hände/Flächen schützen vor Farbe. Zu [Barszcz](/de/rezepte/barszcz-czerwony) und kalten Speisen.
+Für klare, säuerliche Noten. Hände und Flächen vor Farbe schützen. Sie gehört zu [Barszcz](/de/rezepte/barszcz-czerwony) und zu kalten Tellern, nicht als Ersatz für jede andere Fermentlinie. Wer Bete und Kohl im selben Glas mischt, ohne Erfahrung, macht die Diagnose später schwerer.
 
-## Temperatur
+## Temperatur, Beobachten, Lagern
 
-Raumwarm zum Start der Gärung, später kühlen. Zu warm = unkontrolliert; zu kalt = träge.
+Raumwarm zum Start der Gärung, später kühlen. Bläschen und säuerlicher, frischer Duft sind normal. Flaumschimmel, Fäulnis, extreme Farben, ein Geruch, der Abscheu auslöst: vollständig entsorgen, Gefäß reinigen, neu starten. Nicht abschöpfen und hoffen. Besonders bei weichem Gemüse und warmer Wohnung streng sein.
 
-## Beobachten
+Nach gewünschter Säure in den Kühlschrank. Sauberer Entnahmelöffel, nicht die Gabel vom Teller. Datum, ungefähre Salzführung, Raumtemperatur und Tag der Kühlung notieren. Diese drei Zeilen im Handy sind wertvoller als ein zweites Rezept aus dem Internet.
 
-Bläschen/säuerlicher Duft normal. Flaumschimmel, Fäulnis, Extreme Farben: vollständig entsorgen, nicht „abschöpfen und hoffen“.
+![Kapusta in der Küche, bereit für Kapuśniak oder Bigos](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-kapusniak/d602b625-35e3-4b65-88c1-1202fd7d9507.webp "Ein Glas Kraut macht den Wochenteller spannender, ohne zweiten Topf.")
 
-## Lagerung
+## Typische Fehler
 
-Nach gewünschter Säure kühl. Sauberer Entnahmelöffel. Kleine Chargen zum Lernen.
+Zu wenig Salz. Gemüse schaut aus der Lake. Schmutziges Glas. Essig mit Ferment verwechseln. Die erste Charge zu groß ansetzen. Den Deckel so fest zudrehen, dass Gas keinen Weg hat. Kosten, obwohl der Geruch schon warnt.
 
-## Hygiene
+Kaufware aus dem Polenladen ist kein Scheitern. Sie ist der sichere Teller, während ihr lernt. Fertige Ogórki kiszone und Kapusta kiszona tragen den [Sonntag](/de/blog/sonntagsessen-polnisch), ohne dass das Glas auf dem Schrank stehen muss.
 
-Hände, Gläser, keine beschädigten Deckel die nicht entlüften können wenn nötig. bzfe.de-Mindset.
+## Nutzung im Wochenmenü
 
+Ein Glas Gurken oder Kraut macht Kartoffel- und Pierogi-Teller spannender, ohne einen zweiten Topf. Vorrat ist Geschmacksinfrastruktur. In Salaten dosieren, in Bigos früh prüfen, in Ogórkowa die Lake nicht als ganzen Sud kippen.
 
+Wenn es zu sauer wird: mit milden Beilagen ausgleichen, in Saucen dosieren, oder als Würze statt als Hauptbeilage. Die nächste Charge früher kühlen. Das ist Lernen am eigenen Haushalt, nicht ein Urteil über den Brauch.
 
-![Zubereitung in der Diaspora-Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-kapusniak/d602b625-35e3-4b65-88c1-1202fd7d9507.webp)
+## Hygiene, die den Haushalt trägt
 
-## Küche DE
+Hände, Gläser, keine beschädigten Deckel. Roh und fermentiert nicht mit demselben ungespülten Löffel. Bei Kindern, Schwangeren, älteren Menschen und Immunschwäche Hausfermente vorsichtig wählen, im Zweifel zuverlässige Kaufprodukte. Das ist Gastfreundschaft, nicht Angst. Rahmen: [bzfe.de](https://www.bzfe.de).
 
-Gemüse aus Supermarkt oft ok; Qualität prüfen. Speisesalz ohne unerwünschte Zusätze laut Rezept wählen.
+## Arbeitstag und kleine Küche
 
-## Fehler
+Kiszenie verlangt Beobachtung, nicht ständiges Rühren. Deshalb passt es zum Job besser als ein Hefeteig am Donnerstagabend. Das Glas steht, ihr arbeitet, ihr riecht am Abend. Was nicht passt, ist ein Glas hinter dem warmen Ofen oder auf der Heizung.
 
-Zu wenig Salz; Gemüse schaut raus; schmutziges Glas; Zuwachs mit Essig verwechseln; große Erstcharge.
-
-## Nutzung
-
-Zu [Sonntagsessen](/de/blog/sonntagsessen-polnisch), zu Pierogi-Tellern, in Salaten. Kiszone Gurken wandern in [Ogórkowa](/de/rezepte/ogorkowa); Kapusta kiszona in [Kapuśniak](/de/rezepte/kapusniak), warme Beilage [Kapusta zasmażana](/de/rezepte/kapusta-zasmażana) oder Bigos — Säure dosieren.
-
-## Verwandt Zakwas
-
-Andere Zutat, ähnliche Sorgfalt – [Zakwas](/de/blog/zakwas-zurek).
-
-## Dokumentation
-
-Datum, Salz%, Raumtemp, Tag der Kühlung notieren.
+Platz: ein Brett, zwei Gläser, ein Teller darunter. Wer fünf Töpfe und eine Kiste Gurken auf den Balkon stellt, weil der erste Versuch gut roch, hat die Lernphase übersprungen. Nachbarn und Rauchmelder sind hier selten das Problem. Schimmel im Glas ist es.
 
 ## FAQ
 
-### Essig statt Ferment?
+### Könnt ihr Essig statt Ferment verwenden?
 
-Ergibt Essiggurken/-kraut, nicht klassisches Kiszenie. Mag ok schmecken, ist aber anderes. Für Lernerfolg Fermentregeln einhalten oder bewusst Essigprodukt wählen und so nennen.
+Ihr bekommt Essiggurken oder Essigkraut, nicht klassisches Kiszenie. Das kann gut schmecken. Es bleibt ein anderes Produkt. Für den Lernerfolg die Fermentregeln einhalten oder das Essigprodukt bewusst so nennen.
 
-### Welches Salz?
+### Welches Salz eignet sich?
 
-Rezept folgen; oft unjodiert/ohne Antiklumpmittel bevorzugt in Fermentkreisen – Herstellerangaben und erprobte Rezepte nutzen statt Internetmythen. Menge genau wiegen.
+Dem Rezept folgen. In Fermentkreisen wird oft unjodiertes Salz ohne Antiklumpmittel bevorzugt. Herstellerangaben und erprobte Anleitungen nutzen, nicht Internetmythen. Menge genau wiegen. Raten ist der häufigste Grund für weiche, unsichere Chargen.
 
-### Schimmel – retten?
+### Dürft ihr Schimmel abschöpfen und den Rest retten?
 
-Nein bei Unsicherheit. Vollständig entsorgen, Gefäß reinigen, neu starten. Gesundheit geht vor. Besonders bei weichem Gemüse und Raumwärme streng sein.
+Nein, wenn Unsicherheit da ist. Vollständig entsorgen, Gefäß reinigen, neu starten. Gesundheit geht vor. Besonders bei weichem Gemüse und warmer Wohnung streng sein. Ein verlorenes Glas ist billiger als ein Risiko am Tisch.
 
-### Wie lange fermentieren?
+### Wie lange fermentiert ihr?
 
-Bis gewünschte Säure; Temperaturabhängig. Kosten und riechen. Dann kühlen. Kalender allein reicht nicht. Kleine Charge lehrt Tempo eures Zuhauses.
+Bis zur gewünschten Säure, abhängig von der Temperatur. Kosten und riechen. Dann kühlen. Der Kalender allein reicht nicht. Eine kleine Charge lehrt das Tempo eurer Wohnung im Februar und im August.
 
-### Kinder & Immunschwache?
+### Was gilt für Kinder und Menschen mit schwachem Immunsystem?
 
-Vorsicht mit Hausfermenten; ggf. zuverlässige Kaufprodukte. Im Zweifel fachlich informieren und risikoarm wählen. bzfe.de/ncez als Rahmen.
+Vorsicht mit Hausfermenten. Im Zweifel zuverlässige Kaufware. Fachlich informieren und risikoarm wählen. Der Rahmen bleibt [bzfe.de](https://www.bzfe.de) und [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl). Gastfreundschaft heißt hier: niemanden zum Probieren eines unsicheren Glases überreden.
 
-### Welches Gefäß?
+### Welches Gefäß ist sinnvoll?
 
-Lebensmittelgeeignetes Glas bewährt. Beschädigte Deckel meiden. Gasentwicklung bedenken. Zu große Fässer erst nach Erfahrung.
+Lebensmittelgeeignetes Glas hat sich bewährt. Beschädigte Deckel meiden. Gasentwicklung bedenken. Zu große Fässer erst nach mehreren gelungenen kleinen Chargen. Ein Teller unter dem Glas gehört zur Wohnung, nicht erst zur Nachsorge.
 
-## Kiszenie und Wochenmenü
+## Ohne Scham, mit Notiz
 
-Ein Glas Gurken oder Kraut macht einfache Kartoffel- und Pierogiteller spannender ohne zweiten Topf. Vorrat ist Geschmacksinfrastruktur.
+Kauf-Kiszonki, ein einziges kleines Glas und ein Sonntag mit Gurken aus dem Polenladen sind in der Diaspora in Ordnung. Heldentum, das fünf Liter entsorgt, ist kein Gewinn an Brauch. Vorher den Kühlschrank leeren, das Glas beschriften, die Lake beobachten. Kiszenie trägt die Woche, wenn es sauber bleibt und klein genug ist, um verstanden zu werden.', 'Kiszenie zu Hause | Fermentieren Guide | Alemniam', 'Kiszenie Guide: Kapusta und Ogórki zu Hause fermentieren. Hygiene, Timing, Einsatz in Bigos und Pierogi.') on conflict (post_id, locale) do update set title = excluded.title, slug = excluded.slug, excerpt = excluded.excerpt, body = excluded.body, seo_title = excluded.seo_title, seo_description = excluded.seo_description;
+insert into public.blog_post_translations (post_id, locale, title, slug, excerpt, body, seo_title, seo_description) values ('post-kiszenie', 'pl', 'Kiszenie w domu: kapusta, ogórki, czysta technika', 'kiszenie-w-domu', 'Fermentacja w niemieckim mieszkaniu: sól, temperatura, słoiki, bezpieczeństwo, i co robimy sami pod bigos.', 'Kiszenie w niemieckim mieszkaniu rzadko jest beczką w piwnicy dziadków. To słoik na talerzyku pod szafką, między pracą, małą lodówką i ochotą na kwas, który nie pochodzi z butelki octu. Nazwa oznacza kontrolowaną fermentację mlekową. Codzienność oznacza więcej niż przepis: jakie warzywo, jaka sól, jakie naczynie i co robimy, gdy na zalewie kładzie się nalot.
 
-## Wenn es zu sauer wird
+Ten artykuł jest ramą praktyki, nie książką przepisów. Dokładne ilości soli, kolejność kroków i wielkość partii są w sprawdzonych instrukcjach i, tam gdzie je mamy, w przepisach na użycie. Tutaj porządkujemy, czym kiszenie jest, czym nie jest i gdzie gospodarstwa w diasporze zaczynają mało i czysto. Orientacja w higienie i bezpieczeństwie żywności: [bzfe.de](https://www.bzfe.de) oraz [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
 
-Mit milden Beilagen ausgleichen, in Saucen dosieren, oder als Würzkomponente statt Hauptbeilage. Nächste Charge früher kühlen.', 'Kiszenie zu Hause | Fermentieren Guide | Alemniam', 'Kiszenie Guide: Kapusta und Ogórki zu Hause fermentieren. Hygiene, Timing, Einsatz in Bigos und Pierogi.') on conflict (post_id, locale) do update set title = excluded.title, slug = excluded.slug, excerpt = excluded.excerpt, body = excluded.body, seo_title = excluded.seo_title, seo_description = excluded.seo_description;
-insert into public.blog_post_translations (post_id, locale, title, slug, excerpt, body, seo_title, seo_description) values ('post-kiszenie', 'pl', 'Kiszenie w domu: kapusta, ogórki, czysta technika', 'kiszenie-w-domu', 'Fermentacja w niemieckim mieszkaniu: sól, temperatura, słoiki, bezpieczeństwo — i co robimy sami pod bigos.', 'Kiszenie to nie trend, lecz praktyczna technika, która świetnie działa w niemieckim mieszkaniu, jeśli zachowamy czystość i proporcje. Daje nam kapustę, ogórki i dodatki o wyraźnym smaku bez ciągłych zakupów.
+Historycznie kiszenie jest techniką zapasów, nie trendem. Kapusta, ogórki i buraki kwaśniały, bo zima była długa, a piwnica chłodna. W Niemczech piwnicę zastępujemy lodówką, a beczkę słoikiem z zakrętką. Zysk zostaje ten sam: kwas, który niesie niedzielny talerz, bez kupowania od nowa co tydzień. Ceną jest staranność. Kto zgaduje zamiast ważyć, uczy się drogo.
 
-## Sól, woda, czystość
+![Ogórki w zalewie, gotowe do ogórkowej albo na talerz](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-ogorkowa/fe6aee59-9d09-475d-8464-4012dab7203a.webp "Małe słoiki uczą tempa i bezpieczeństwa lepiej niż pierwsza beczka.")
 
-My używamy czystych słoików, świeżych warzyw i soli bez dodatków przeciwzbrylających, jeśli przepis tego wymaga. Warzywa muszą pozostać pod zalewą; kontakt z powietrzem zwiększa ryzyko pleśni. Słoik stawiamy na talerzyku, bo fermentacja potrafi wypchnąć płyn.
+## Idea, jasno oddzielona
 
+Bakterie mlekowe kwaśnią pod zalewą. Kontakt z powietrzem, brud i uszkodzone warzywo są wrogami. Ocet daje inny produkt: ogórki octowe albo kapustę octową, często w porządku, ale nie kiszenie. Kto wlewa ocet do słoika i nazywa wynik fermentacją, myli siebie i gości.
 
+Zakwas na żurek to pokrewna staranność i inny składnik. Zaczyn tłumaczy [przewodnik po zakwasie](/pl/blog/zakwas-na-zurek). Tego tekstu nie mieszamy z zaczynem na kwaśną zupę.
 
-![Danie z polskiej kuchni](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-ogorkowa/fe6aee59-9d09-475d-8464-4012dab7203a.webp)
+## Zestaw startowy w mieszkaniu
 
-## Obserwuj, nie zgaduj
+Czysty słoik przeznaczony do żywności. Obciążenie, które trzyma warzywo pod zalewą. Sól, jakiej wymaga wybrany przepis, zważona, nie na oko. Świeże, nieuszkodzone warzywa. Talerzyk pod słoikiem, bo fermentacja potrafi wypchnąć płyn. W zabudowanej kuchni bez piwnicy to cała infrastruktura.
 
-Fermentacja pachnie kwaśno i świeżo, może musować, ale nie powinna budzić odrazy. My nie próbujemy produktu z widoczną pleśnią albo nietypowym zapachem. Po osiągnięciu smaku, który nam odpowiada, przenosimy słoik do lodówki. Temperatura kuchni w Niemczech zimą i latem będzie inna, więc czas z przepisu traktujemy jako orientacyjny.
+Duże beczki czekają, aż małe partie kilka razy się udadzą. Litr, który rozumiecie, bije pięć litrów, które trzeba wyrzucić. Pokrywki, które nie puszczają gazu, nie należą do fazy nauki. Czytamy zalecenia producenta i sprawdzone przepisy, nie najgłośniejszy wpis na forum.
 
-## Jak używać
+REWE i Kaufland często niosą twarde warzywa, które się nadają, jeśli sprawdzamy jakość. Ogórki niewoskowane łatwiej prowadzić. Sól spożywczą bez niepożądanych dodatków wybieramy, gdy przepis tego wymaga. Sklep polski bierzemy po koper, chrzan, lepsze ogórki i często po gotowe kiszonki, gdy pierwsza własna partia jest jeszcze niepewna.
 
-Kiszoną kapustę dodajemy do [bigosu](/pl/rezepte/bigos), do [kapuśniaka](/pl/rezepte/kapusniak), ciepłej [kapusty zasmażanej](/pl/rezepte/kapusta-zasmażana), farszu i surówek. Ogórki podajemy do obiadu albo gotujemy z nich [ogórkową](/pl/rezepte/ogorkowa); zalewę wykorzystujemy ostrożnie. My zaczynamy od małych słoików — łatwiej zrozumieć własną kuchnię niż zmarnować pięć litrów.
+## Ogórki
 
+Twarde, najlepiej niewoskowane, przyprawy według domu: koper, czosnek, chrzan, pieprz. Zalewa przykrywa wszystko. To, co wystaje z zalewy, łatwiej psuje się. Dzieci mogą kłaść przyprawy, nie zostawiać słoika samego w ciepłym oknie.
 
+Kiszone ogórki idą na niedzielny talerz albo do [ogórkowej](/pl/rezepte/ogorkowa). Zalewę dozujemy ostrożnie. Jest przyprawą, nie przepustką do każdego garnka.
 
-![Przygotowanie w kuchni diaspory](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-kapusniak/d602b625-35e3-4b65-88c1-1202fd7d9507.webp)
+## Kapusta
 
-## FAQ — kiszenie
+Kroimy drobno, masujemy solą, ubijamy mocno, aż własny sok i zalewa przykryją. Obserwujemy czas i temperaturę. Zbyt ciepło robi się niekontrolowanie, zbyt zimno ociężale. W niemieckich mieszkaniach luty jest innym pomieszczeniem niż sierpień. Sam kalendarz nie wystarczy.
 
-### Czy my zamykamy słoik bardzo szczelnie?
+Kapusta kiszona niesie [kapuśniak](/pl/rezepte/kapusniak), ciepły dodatek [kapustę zasmażaną](/pl/rezepte/kapusta-zasmażana) i [bigos](/pl/rezepte/bigos). Kwas dozujemy. Słoik, który zaszedł za dalej, staje się przyprawą, nie całą dodatkową miską.
 
-Na początku my zapewniamy bezpieczne ujście gazów zgodnie z wybraną metodą, a nie ryzykujemy nadciśnienia.
+## Buraki
 
-### Czy my możemy odciąć pleśń?
+Dla jasnych, kwaskowych nut. Dłonie i blaty chronimy przed kolorem. Należą do [barszczu](/pl/rezepte/barszcz-czerwony) i do zimnych talerzy, nie jako zamiennik każdej innej linii fermentu. Kto miesza buraki i kapustę w jednym słoiku bez doświadczenia, utrudnia sobie później diagnozę.
 
-Nie. My przy widocznej pleśni wyrzucamy całość, bo bezpieczeństwo jest ważniejsze niż słoik warzyw.
+## Temperatura, obserwacja, przechowywanie
 
-### Czy my używamy zwykłej soli?
+Na start fermentacji ciepło pokojowe, potem chłodzimy. Bąbelki i kwaśny, świeży zapach są normalne. Pleśń puszysta, zgnilizna, ekstremalne kolory, zapach, który budzi odrazę: wyrzucamy całość, myjemy naczynie, zaczynamy od nowa. Nie zbieramy z wierzchu i nie liczymy na cud. Przy miękkim warzywie i ciepłym mieszkaniu jesteśmy surowi.
 
-My sprawdzamy skład. Najprostsza sól jest najbardziej przewidywalna.
+Po pożądanym kwasie do lodówki. Czysta łyżka do nabierania, nie widelec z talerza. Zapisujemy datę, orientacyjne prowadzenie soli, temperaturę pokoju i dzień schłodzenia. Te trzy linijki w telefonie są cenniejsze niż drugi przepis z internetu.
 
-## Praktyka w niemieckiej kuchni
+![Kapusta w kuchni, gotowa do kapuśniaka albo bigosu](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-kapusniak/d602b625-35e3-4b65-88c1-1202fd7d9507.webp "Jeden słoik kapusty robi tygodniowy talerz ciekawszym, bez drugiego garnka.")
 
-My nie potrzebujemy dużej przestrzeni, żeby gotować po polsku — potrzebujemy kolejności. Przed większym gotowaniem sprawdzamy, czy mamy wystarczająco misek, pojemników i miejsca w lodówce. W tygodniu roboczym w Niemczech lepiej działa jedno danie domowe niż trzy rozpoczęte i niedokończone projekty. My zapisujemy po obiedzie jedną rzecz do poprawy: mniej soli, wcześniejsze odsączenie, krótsze gotowanie, inna marka mąki. Ta notatka w telefonie bywa cenniejsza niż kolejny przepis z internetu.
+## Typowe błędy
 
-Dzieci i goście wychowani w Niemczech często potrzebują łagodniejszej wersji tego samego dania — nie osobnego menu. My wydzielamy porcję przed doprawieniem ostrego garnka albo podajemy dodatki osobno. To nie kompromis tradycji; to sposób, by stół był gościnny. Gdy coś wychodzi inaczej niż „u babci”, nadal może być dobre, jeśli jest bezpieczne, czytelne w smaku i podane bez pośpiechu.', 'Kiszenie w domu | Poradnik | Alemniam', 'Kiszenie: kapusta i ogórki w domu. Higiena, czas, użycie w bigosie i pierogach.') on conflict (post_id, locale) do update set title = excluded.title, slug = excluded.slug, excerpt = excluded.excerpt, body = excluded.body, seo_title = excluded.seo_title, seo_description = excluded.seo_description;
+Za mało soli. Warzywo wystaje z zalewy. Brudny słoik. Mylenie octu z fermentem. Pierwsza partia za duża. Zakręcanie pokrywki tak mocno, że gaz nie ma drogi. Próbowanie, choć zapach już ostrzega.
+
+Towar ze sklepu polskiego nie jest porażką. Jest bezpiecznym talerzem, póki się uczycie. Gotowe ogórki kiszone i kapusta kiszona niosą [niedzielę](/pl/blog/obiad-niedzielny), bez konieczności trzymania słoika na szafce.
+
+## Użycie w menu tygodnia
+
+Jeden słoik ogórków albo kapusty robi talerz z ziemniakami i pierogami ciekawszym, bez drugiego garnka. Zapas jest infrastrukturą smaku. W sałatkach dozujemy, w bigosie sprawdzamy wcześnie, w ogórkowej nie wlewamy zalewy jako całego wywaru.
+
+Gdy zrobi się za kwaśno: równoważymy łagodnymi dodatkami, dozujemy w sosach albo używamy jako przyprawy zamiast głównego dodatku. Następną partię chłodzimy wcześniej. To nauka na własnym gospodarstwie, nie wyrok na zwyczaj.
+
+## Higiena, która niesie dom
+
+Dłonie, słoiki, bez uszkodzonych pokrywek. Surowego i kiszonego nie mieszamy tą samą nienazmytą łyżką. Przy dzieciach, ciąży, starszych osobach i osłabionej odporności domowe fermenty wybieramy ostrożnie, w razie wątpliwości pewny towar ze sklepu. To gościnność, nie strach. Rama: [bzfe.de](https://www.bzfe.de).
+
+## Dzień pracy i mała kuchnia
+
+Kiszenie wymaga obserwacji, nie ciągłego mieszania. Dlatego pasuje do pracy lepiej niż ciasto drożdżowe w czwartkowy wieczór. Słoik stoi, wy pracujecie, wieczorem wąchacie. Co nie pasuje, to słoik za ciepłym piekarnikiem albo na kaloryferze.
+
+Miejsce: deska, dwa słoiki, talerzyk pod spodem. Kto stawia pięć garnków i skrzynkę ogórków na balkonie, bo pierwsza próba ładnie pachniała, przeskoczył fazę nauki. Sąsiedzi i czujnik dymu rzadko są tu problemem. Pleśń w słoiku jest.
+
+## FAQ
+
+### Czy ocet może zastąpić ferment?
+
+Dostaniecie ogórki octowe albo kapustę octową, nie klasyczne kiszenie. To może smakować dobrze. Zostaje innym produktem. Dla nauki trzymamy zasady fermentu albo świadomie nazywamy produkt octowy po imieniu.
+
+### Jaka sól się nadaje?
+
+Idziemy za przepisem. W kręgach fermentu często preferuje się sól niejodowaną bez antyzbrylaczy. Korzystamy z zaleceń producenta i sprawdzonych instrukcji, nie z mitów z internetu. Ilość dokładnie ważymy. Zgadywanie jest najczęstszym powodem miękkich, niepewnych partii.
+
+### Czy można zebrać pleśń i uratować resztę?
+
+Nie, gdy jest niepewność. Wyrzucamy całość, myjemy naczynie, zaczynamy od nowa. Zdrowie jest pierwsze. Przy miękkim warzywie i ciepłym mieszkaniu jesteśmy surowi. Stracony słoik jest tańszy niż ryzyko przy stole.
+
+### Jak długo kisimy?
+
+Do pożądanego kwasu, zależnie od temperatury. Próbujemy i wąchamy. Potem chłodzimy. Sam kalendarz nie wystarczy. Mała partia uczy tempa waszego mieszkania w lutym i w sierpniu.
+
+### Co z dziećmi i osobami z osłabioną odpornością?
+
+Ostrożność przy domowych fermentach. W razie wątpliwości pewny towar kupiony. Informujemy się rzeczowo i wybieramy nisko ryzykowne. Rama zostaje na [bzfe.de](https://www.bzfe.de) i [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl). Gościnność znaczy tutaj: nikogo nie namawiamy do próbowania niepewnego słoika.
+
+### Jakie naczynie ma sens?
+
+Słoik do żywności sprawdza się. Unikamy uszkodzonych pokrywek. Pamiętamy o gazach. Zbyt duże beczki dopiero po kilku udanych małych partiach. Talerzyk pod słoikiem należy do mieszkania, nie dopiero do sprzątania.
+
+## Bez wstydu, z notatką
+
+Kupione kiszonki, jeden mały słoik i niedziela z ogórkami ze sklepu polskiego są w diasporze w porządku. Bohaterstwo, które wyrzuca pięć litrów, nie jest zyskiem zwyczaju. Wcześniej opróżniamy lodówkę, opisujemy słoik, obserwujemy zalewę. Kiszenie niesie tydzień, gdy zostaje czyste i na tyle małe, że da się je zrozumieć.', 'Kiszenie w domu | Poradnik | Alemniam', 'Kiszenie: kapusta i ogórki w domu. Higiena, czas, użycie w bigosie i pierogach.') on conflict (post_id, locale) do update set title = excluded.title, slug = excluded.slug, excerpt = excluded.excerpt, body = excluded.body, seo_title = excluded.seo_title, seo_description = excluded.seo_description;
 
 commit;

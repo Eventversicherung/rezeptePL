@@ -4,145 +4,211 @@ begin;
 
 -- blog:post-nalesniki-guide
 insert into public.blog_posts (id, status, post_type, cover_image, silo_ids, related_recipe_ids, related_post_ids, related_product_ids, cluster_ids, published_at, updated_at) values ('post-nalesniki-guide', 'published', 'guide', 'https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-nalesniki-guide/17d6e6b6-1d33-4ab8-877f-84fb49f3b386.webp', array['dishFamily']::text[], array['recipe-nalesniki', 'recipe-nalesniki-mieso', 'recipe-nalesniki-szpinak', 'recipe-nalesniki-dzem', 'recipe-krokiety', 'recipe-pierogi', 'recipe-pierogi-leniwe']::text[], array['post-twarog', 'post-smietana-schmand', 'post-ersatzprodukte-de']::text[], array['aff-cast-iron']::text[], array['technique-teig']::text[], '2026-07-25T10:00:00.000Z', '2026-07-21T12:00:00.000Z') on conflict (id) do update set status = excluded.status, post_type = excluded.post_type, cover_image = excluded.cover_image, silo_ids = excluded.silo_ids, related_recipe_ids = excluded.related_recipe_ids, related_post_ids = excluded.related_post_ids, related_product_ids = excluded.related_product_ids, cluster_ids = excluded.cluster_ids, published_at = excluded.published_at, updated_at = excluded.updated_at;
-insert into public.blog_post_translations (post_id, locale, title, slug, excerpt, body, seo_title, seo_description) values ('post-nalesniki-guide', 'de', 'Naleśniki-Guide: Varianten, Alltag, Diaspora', 'nalesniki-guide', 'Naleśniki vs. deutsche Eierkuchen: welche Füllung wann, typische Fehler über Varianten — kochen auf den Rezepten.', 'Naleśniki sind in vielen Diaspora-Küchen der ruhige Alltagsklassiker: dünne Pfannkuchen, gefüllt, gerollt — süß oder herzhaft. Wer kochen will, findet Mengen und Schritte auf den Rezepten: Start mit [Naleśniki mit Twaróg](/de/rezepte/nalesniki/twarog), herzhaft [Fleisch](/de/rezepte/nalesniki/fleisch) oder [Spinat](/de/rezepte/nalesniki/szpinak), süß ohne Quark [Marmelade](/de/rezepte/nalesniki/dzem). Dieser Text ordnet den Unterschied zu deutschen Eierkuchen, die Füllungs-Landschaft und typische Fehler über alle Varianten — ohne das Rezept zu wiederholen.
+insert into public.blog_post_translations (post_id, locale, title, slug, excerpt, body, seo_title, seo_description) values ('post-nalesniki-guide', 'de', 'Naleśniki-Guide: Varianten, Alltag, Diaspora', 'nalesniki-guide', 'Naleśniki vs. deutsche Eierkuchen: welche Füllung wann, typische Fehler über Varianten, kochen auf den Rezepten.', 'Naleśniki in Deutschland sind selten ein Festtagsprojekt. Sie sind der ruhige Alltag zwischen Schicht, Kita und dem Wunsch, dass etwas Vertrautes auf den Teller kommt, ohne dass die Küche zwei Stunden blockiert. Der Name meint dünne, flexible Pfannkuchen. Der Brauch meint mehr als eine süße Rolle: Wer isst Twaróg, wer will Fleischreste vom Sonntag, wer bleibt vegetarisch, und wie viel Platz in der Pfanne bleibt nach der Arbeit.
 
-## Was Naleśniki sind vs. deutsche Pfannkuchen
+Dieser Artikel ist der Guide, nicht das Rezeptbuch. Mengen, Ruhezeiten und die konkrete Schrittfolge stehen in den einzelnen Rezepten. Hier ordnen wir, was Naleśniki von deutschen Eierkuchen trennt, welche Füllung wann trägt und wo Haushalte in der Diaspora bewusst kürzen, ohne den Teller zu entwerten. Orientierung zu Milchprodukten und Hygiene: [bzfe.de](https://www.bzfe.de) und [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
+
+Historisch sind Naleśniki Hausmannskost, kein Dessertzwang. Der Teig bleibt flüssig und elastisch, biegsam genug zum Rollen. Die Füllung führt, der Teig trägt. Dieselbe Logik kennt, wer [Pierogi Ruskie](/de/rezepte/pierogi/ruskie) macht: hier flach statt gefaltet. In der Diaspora ersetzen wir den Beweisdruck durch einen ruhigen Plan. Eine Füllungslinie, die wirklich fertig wird, schlägt drei Bleche, die alle unterschiedlich feucht sind.
+
+![Herzhaft gefüllte Naleśniki mit Fleisch, gerollt und in der Pfanne gebräunt](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-nalesniki-mieso/31658e07-9ebc-4f2d-8a29-aa07e5cb188f.webp "Eine Füllungslinie pro Pfanne: Fleisch bleibt herzhaft, Twaróg bleibt süß.")
+
+## Was Naleśniki sind
 
 Naleśniki sind dünne, flexible Crêpes. Sie werden selten pur aus der Pfanne gegessen, sondern gefüllt, gerollt und oft noch einmal kurz in Butter gebräunt. Das liegt näher an französischen Crêpes als an dicken deutschen Eierkuchen mit Backpulver oder dickem Teig.
 
-Der Teig bleibt bewusst flüssig und elastisch — biegsam genug zum Rollen. Geschmacklich sind Naleśniki kein reines Dessert: Twaróg ist Klassiker, aber Fleisch, Spinat oder Pilze gehören genauso zum Haushalt. Die Logik kennt, wer [Pierogi Ruskie](/de/rezepte/pierogi/ruskie) macht: Teig trägt, Füllung führt — hier flach statt gefaltet.
+Deutsche Pfannkuchen dürfen dick sein, mit Zucker oder Apfelmus obenauf. Das ist ein anderer Teller, nicht eine schlechtere Version. Wer rollen und füllen will, braucht den dünnen Teig. Wer dicke Platten pur will, bleibt beim deutschen Weg. Ehrliches Benennen schlägt das Verkleiden.
 
+Die erste Platte ist Kalibrierung, nicht Maßstab. Zu steifer Teig oder zu viel in der Pfanne gibt Eierkuchen, die beim Rollen reißen. Teig frisch gerührt klebt. Eine Pause von zwanzig bis dreißig Minuten lohnt sich. Mengen und Schritte stehen im jeweiligen Rezept, nicht hier.
 
+## Welche Füllung wann
 
-![Gericht aus der polnischen Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-nalesniki-mieso/31658e07-9ebc-4f2d-8a29-aa07e5cb188f.webp)
+Die süße Klassikerlinie ist [Naleśniki mit Twaróg](/de/rezepte/nalesniki/twarog). Sie trägt Nachmittag, Kinder und Gäste, die etwas Vertrautes wollen. Twaróg ist nicht jeder Speisequark. Konsistenz und Einkauf erklärt der [Twaróg Guide](/de/blog/twarog-deutschland). Nasser Quark ohne Abseihen läuft aus und weicht den Teig auf.
 
-## Welche Füllung wann?
+Schnell ohne Quark ist [Naleśniki mit Marmelade](/de/rezepte/nalesniki/dzem). Die Linie rettet den kurzen Abend, wenn niemand Twaróg im Kühlschrank hat. Gute Marmelade schlägt eine süße Creme, die der Teig nicht hält.
 
-| Variante | Wann | Rezept |
-|----------|------|--------|
-| Twaróg süß | Kinder, Nachmittag, Gäste | [mit Twaróg](/de/rezepte/nalesniki/twarog) |
-| Dżem / Marmelade | schnell, ohne Quark | [mit Marmelade](/de/rezepte/nalesniki/dzem) |
-| Fleisch | Sonntag, Reste vom Hack | [mit Fleisch](/de/rezepte/nalesniki/fleisch) |
-| Spinat | vegetarisch, leichter Abend | [mit Spinat](/de/rezepte/nalesniki/szpinak) |
-| Panierte Rolle | neben klarer Suppe / Barszcz | [Krokiety](/de/rezepte/krokiety) |
+Herzhaft trägt [Naleśniki mit Fleisch](/de/rezepte/nalesniki/fleisch). Sonntag, Reste vom Hack, ein Teller der sättigt. Das Fleisch muss kalt und nicht schwimmend sein, bevor es in die Platte kommt. Heißes Hack macht Dampf und Risse.
 
-Twaróg und Quark: Konsistenz und Einkauf im [Twaróg Guide](/de/blog/twarog-deutschland). Beilage Śmietana vs. Schmand: [Śmietana-Guide](/de/blog/smietana-schmand). Ersatz im deutschen Regal: [Ersatzprodukte](/de/blog/ersatzprodukte-de).
+Vegetarisch und leichter ist [Naleśniki mit Spinat](/de/rezepte/nalesniki/szpinak). Spinat ohne Ausdrücken ist derselbe Fehler wie nasser Quark. Wer Śmietana dazu reicht, trennt die Beilage vom Teig. Details: [Śmietana und Schmand](/de/blog/smietana-schmand).
 
-Süß und herzhaft nicht auf demselben Blech mischen — unterschiedliche Feuchte, unterschiedliche Hitze beim zweiten Braten.
+Die panierte Rolle neben klarer Suppe oder Barszcz ist ein anderes Gericht: [Krokiety](/de/rezepte/krokiety). Verwandt, nicht dasselbe. Wer Krokiety plant, plant Panade und Fett extra, nicht als Nachgedanke zu süßen Naleśniki.
 
-## Was bei allen Varianten schiefgeht
+Süß und herzhaft nicht auf demselben Blech mischen. Unterschiedliche Feuchte, unterschiedliche Hitze beim zweiten Braten. Eine Linie pro Pfanne hält Qualität.
 
-- **Zu dicke Platten** — Teig zu steif oder zu viel in die Pfanne; Ergebnis wie Eierkuchen, reißt beim Rollen.
-- **Keine Ruhe** — Teig frisch gerührt klebt und reißt; 20–30 Minuten Pause lohnen sich.
-- **Nasse Füllung** — Quark ohne Abseihen, Spinat ohne Ausdrücken, heißes Hack: läuft aus oder weicht den Teig auf.
-- **Erste Platte als Maßstab** — die erste ist oft Kalibrierung; erst ab der zweiten bewerten.
-- **Mikrowelle zum Aufwärmen** — macht Gummi; Pfanne oder milder Ofen sind ruhiger.
+## Alltag und Zeitplan rückwärts
 
-Mengen, Zeiten und die konkrete Schrittfolge stehen im jeweiligen Rezept — hier nur die gemeinsamen Hebel.
+Am Vortag oder am freien Vormittag: Teig rühren und ruhen lassen, ungefüllte Platten backen, zwischen Backpapier stapeln. Füllung klären. Twaróg abseihen. Spinat ausdrücken. Fleisch kaltstellen.
 
-## Alltag und Freezer (kurz)
+Am Abend selbst: füllen, rollen, kurz bräunen. Wer nach der Schicht noch Teig kalibriert, zahlt mit der ersten zerrissenen Platte und Gereiztheit. Der Guide gewinnt, wenn der Abend nur noch Finish ist.
 
-Ungefüllte Platten stapeln (Backpapier dazwischen) und einfrieren: unter der Woche nur füllen und braten. Gefüllt und angebraten portionieren und einfrieren geht auch — aufwärmen in der Pfanne. Beschriften: süß vs. herzhaft. Wer am Wochenende [Pierogi Ruskie](/de/rezepte/pierogi/ruskie) macht, kann denselben abgeseihten Twaróg für Naleśniki mitplanen.
+Ungefüllte Platten einfrieren ist die ruhigste Form von Meal-Prep. Unter der Woche nur füllen und braten. Gefüllt und angebraten portionieren geht auch. Aufwärmen in der Pfanne oder im milden Ofen, nicht in der Mikrowelle. Mikrowelle macht Gummi. Beschriften: süß oder herzhaft. Wer am Wochenende Ruskie macht, kann denselben abgeseihten Twaróg für Naleśniki mitplanen.
 
+## Pfanne, Hitze, Fett
 
+Eine Crêpe-Pfanne ist keine Pflicht. Flache Pfanne, gleichmäßige Hitze, wenig Fett. Gusseisen hilft manchen, weil es Wärme hält. Pflicht ist es nicht. Kaufberatung: [Gusseisenpfanne](/de/blog/gusseisenpfanne).
 
-![Zubereitung in der Diaspora-Küche](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-nalesniki-szpinak/580056ff-e3d0-413a-b5e2-27c73286a884.webp)
+Zu heiß verbrennt die Fläche, bevor die Platte wendbar ist. Zu kühl trocknet sie aus, bevor sie elastisch bleibt. Wenig Fett, nicht ein See. Die erste Platte opfern wir der Kalibrierung, ohne sie als Beweis zu werten.
+
+In einer Wohnung mit empfindlichem Rauchmelder bleibt das zweite Bräunen kurz. Butter reicht oft. Öl in der großen Menge gehört zu Krokiety oder zu Pączki, nicht zu Naleśniki im Alltag.
+
+## Einkauf in zwei Touren
+
+Erste Tour: Supermarkt für Mehl, Eier, Milch, Butter, Spinat, Marmelade. Zweite Tour: Polenladen für Twaróg, Śmietana, manchmal bessere Marmelade. Wenn Twaróg fehlt, hilft der Guide zu [Ersatzprodukten](/de/blog/ersatzprodukte-de). Listen nach Füllung schreiben. Was für die süße Linie fehlt, steht auf einer Zeile. Was für Fleisch fehlt, auf der nächsten.
+
+Quark aus dem Kühlregal ist legitim, wenn er abgetropft die richtige Körnung hat. Ein Becher, der nach dem Rühren eine Pfütze bildet, gehört nicht in den Teig.
+
+## Arbeit teilen und Kinder
+
+Eine Person führt die Pfanne, eine füllt und rollt. Kinder dürfen füllen, zuckern und tragen, nicht an der heißen Fläche stehen. Eine kleine Charge schlägt einen Turm, der kalt wird, bevor alle sitzen. Nachfüllen ist freundlicher als ein Berg auf dem Tisch.
+
+Allergien und Laktose vorher fragen, besonders wenn Twaróg die einzige Linie ist. Eine Marmeladenlinie daneben ist oft die ruhigste Lösung, kein zweites Kochprojekt.
+
+![Naleśniki mit Spinat, gerollt und klar von der süßen Linie getrennt](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-nalesniki-szpinak/580056ff-e3d0-413a-b5e2-27c73286a884.webp "Spinat ausdrücken, dann rollen. Nasse Füllung weicht den Teig auf.")
+
+## Hygiene und Reste
+
+Milchprodukte und gefüllte Rollen nicht stundenlang warm stehen lassen. Schnell kühlen, klar beschriften, zeitnah essen. Fleischfüllung gründlich erhitzen. Orientierung: [bzfe.de](https://www.bzfe.de). Bei Zweifel entsorgen.
+
+Reste vom nächsten Tag in der Pfanne mit etwas Butter. Der Ofen rettet eine größere Menge, die Mikrowelle selten die Textur. Ungefüllte Platten halten im Freezer länger als gefüllte mit nasser Creme.
+
+## Vergleich zu anderen Tellern
+
+Naleśniki sind Alltag, nicht [Wigilia](/de/blog/wigilia-speiseplan) und nicht [Wielkanoc](/de/blog/wielkanoc-speiseplan). Sie dürfen die Feiertage später entlasten, wenn jemand Twaróg und eine Pfanne will, keinen zweiten Festtagsplan. Der Sonntag darf üben: [Polnisches Sonntagsessen](/de/blog/sonntagsessen-polnisch).
+
+Blintzes sind verwandt, gefüllt und gerollt, aber eine andere Tradition. Naleśniki bleiben polnische Hausmannskost. Twaróg, Fleisch, Spinat, Marmelade. Kein Wettbewerb mit der Cukiernia.
 
 ## FAQ
 
-### Naleśniki oder Eierkuchen — was kochen wir?
+### Naleśniki oder Eierkuchen?
 
-Wenn wir rollen und füllen wollen: Naleśniki. Wenn dicke Platten pur mit Zucker oder Apfelmus: eher der deutsche Weg. Beides legitim — andere Technik.
+Wenn wir rollen und füllen wollen: Naleśniki. Wenn dicke Platten pur mit Zucker oder Apfelmus: eher der deutsche Weg. Beides ist legitim. Andere Technik, anderer Teller.
 
 ### Brauchen wir eine Crêpe-Pfanne?
 
-Nein. Flache Pfanne, gleichmäßige Hitze, wenig Fett. Gusseisen hilft manchen — siehe [Gusseisenpfanne](/de/blog/gusseisenpfanne) — Pflicht ist es nicht.
+Nein. Flache Pfanne, gleichmäßige Hitze, wenig Fett. Gusseisen hilft manchen. Pflicht ist es nicht.
 
-### Wie unterscheiden sich Naleśniki von Blintzes?
+### Wie unterscheiden sich Naleśniki von Krokiety?
 
-Verwandt (gefüllt, gerollt), aber andere Tradition. Naleśniki sind polnische Hausmannskost — Twaróg, Fleisch, Spinat, Alltag.
+Krokiety sind die panierte, oft herzhafte Rolle neben der Suppe. Naleśniki bleiben weicher und brauchen keine Panade. Wer beides am selben Abend erzwingt, zahlt mit Fett und Stress.
 
-### Wohin mit dem Kochhunger?
+### Warum reißt die Platte?
 
-Direkt ins Rezept: [Twaróg](/de/rezepte/nalesniki/twarog), [Fleisch](/de/rezepte/nalesniki/fleisch), [Spinat](/de/rezepte/nalesniki/szpinak) oder [Marmelade](/de/rezepte/nalesniki/dzem).
+Teig zu steif, Pfanne zu voll, keine Ruhe, oder nasse Füllung. Die erste Platte ist Kalibrierung. Ab der zweiten bewerten.
 
-## Weiterlesen
+### Darf die Mikrowelle aufwärmen?
 
-- [Naleśniki mit Twaróg](/de/rezepte/nalesniki/twarog)
-- [Naleśniki mit Marmelade](/de/rezepte/nalesniki/dzem)
-- [Krokiety](/de/rezepte/krokiety)
-- [Pierogi Ruskie](/de/rezepte/pierogi/ruskie)
-- [Twaróg Guide](/de/blog/twarog-deutschland)
-- [Śmietana und Schmand](/de/blog/smietana-schmand)', 'Naleśniki Guide | Varianten & Alltag | Alemniam', 'Naleśniki im Überblick: Twaróg, Fleisch, Spinat, Dżem. Mengen und Schritte in den Rezepten — hier die Orientierung.') on conflict (post_id, locale) do update set title = excluded.title, slug = excluded.slug, excerpt = excluded.excerpt, body = excluded.body, seo_title = excluded.seo_title, seo_description = excluded.seo_description;
-insert into public.blog_post_translations (post_id, locale, title, slug, excerpt, body, seo_title, seo_description) values ('post-nalesniki-guide', 'pl', 'Przewodnik po naleśnikach: warianty i codzienność', 'nalesniki-przewodnik', 'Naleśniki vs Eierkuchen: który farsz kiedy, typowe błędy — gotowanie w przepisach, tu orientacja.', 'Naleśniki w diasporze wracają szybciej niż bigos — są szybkie, elastyczne i znane dzieciom. Kto chce gotować, idzie do przepisów: start [naleśniki z twarogiem](/pl/rezepte/nalesniki/twarog), wytrawne [mięso](/pl/rezepte/nalesniki/mieso) albo [szpinak](/pl/rezepte/nalesniki/szpinak), słodkie bez twarogu [dżem](/pl/rezepte/nalesniki/dzem). Ten tekst porządkuje różnicę wobec niemieckich Eierkuchen, mapę farszy i typowe błędy wspólne dla wariantów — bez powtarzania przepisu.
+Sie macht oft Gummi. Pfanne oder milder Ofen sind ruhiger. Ungefüllte Platten vom Freezer kurz antauen, dann füllen.
 
-## Co to są naleśniki — a co Eierkuchen
+### Was tun, wenn Twaróg zu nass ist?
 
-Polskie naleśniki to cienkie placki, zwykle z farszem, zwinięte, czasem jeszcze podsmażone na maśle. Niemiecki Pfannkuchen / Eierkuchen bywa grubszy, często jedzony sam z cukrem albo dżemem na wierzchu. To inna technika i inny rytm posiłku — nie „lepsze vs gorsze”.
+Abseihen, nicht mit mehr Zucker kaschieren. Der [Twaróg Guide](/de/blog/twarog-deutschland) erklärt Einkauf und Konsistenz. Im Zweifel die Marmeladenlinie wählen.
 
-Logika jak przy [pierogach ruskich](/pl/rezepte/pierogi/ruskie): ciasto niesie, farsz prowadzi — tu płasko zamiast sklejania.
+## Ohne Scham, mit Platz
 
+Gekaufter Twaróg, Glas-Marmelade und eine normale Bratpfanne sind in der Diaspora in Ordnung. Heldentum mit drei Füllungen nach der Schicht ist kein Gewinn an Brauch. Vorher eine Linie wählen, den Teig ruhen lassen, die erste Platte der Kalibrierung gönnen. Der Teller bleibt freundlich, wenn er das darf.
 
+Kochen startet auf den Rezepten: [Twaróg](/de/rezepte/nalesniki/twarog), [Fleisch](/de/rezepte/nalesniki/fleisch), [Spinat](/de/rezepte/nalesniki/szpinak) oder [Marmelade](/de/rezepte/nalesniki/dzem).', 'Naleśniki Guide | Varianten & Alltag | Alemniam', 'Naleśniki im Überblick: Twaróg, Fleisch, Spinat, Dżem. Mengen und Schritte in den Rezepten, hier die Orientierung.') on conflict (post_id, locale) do update set title = excluded.title, slug = excluded.slug, excerpt = excluded.excerpt, body = excluded.body, seo_title = excluded.seo_title, seo_description = excluded.seo_description;
+insert into public.blog_post_translations (post_id, locale, title, slug, excerpt, body, seo_title, seo_description) values ('post-nalesniki-guide', 'pl', 'Przewodnik po naleśnikach: warianty i codzienność', 'nalesniki-przewodnik', 'Naleśniki vs Eierkuchen: który farsz kiedy, typowe błędy, gotowanie w przepisach, tu orientacja.', 'Naleśniki w Niemczech rzadko są projektem świątecznym. To spokojna codzienność między zmianą, żłobkiem i życzeniem, żeby na talerzu pojawiło się coś znajomego, bez blokowania kuchni na dwie godziny. Nazwa oznacza cienkie, elastyczne placki. Zwyczaj oznacza więcej niż słodką rolkę: kto je twaróg, kto chce resztki mięsa z niedzieli, kto zostaje przy wersji bezmięsnej i ile miejsca na patelni zostaje po pracy.
 
-![Danie z polskiej kuchni](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-nalesniki-mieso/31658e07-9ebc-4f2d-8a29-aa07e5cb188f.webp)
+Ten artykuł jest przewodnikiem, nie książką przepisów. Ilości, czasy odpoczynku i konkretna kolejność kroków są w pojedynczych przepisach. Tutaj porządkujemy, co odróżnia naleśniki od niemieckich Eierkuchen, który farsz kiedy niesie i gdzie gospodarstwa w diasporze świadomie skracają, bez odbierania talerzowi sensu. Orientacja w nabiale i higienie: [bzfe.de](https://www.bzfe.de) oraz [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
 
-## Który farsz kiedy?
+Historycznie naleśniki są kuchnią domową, nie obowiązkiem deseru. Ciasto zostaje płynne i elastyczne, na tyle giętkie, by je zwijać. Farsz prowadzi, ciasto niesie. Tę samą logikę zna, kto robi [pierogi ruskie](/pl/rezepte/pierogi/ruskie): tu płasko zamiast sklejania. W diasporze zamieniamy presję dowodu na spokojny plan. Jedna linia farszu, która naprawdę zostanie skończona, bije trzy blachy o różnej wilgotności.
 
-| Wariant | Kiedy | Przepis |
-|---------|-------|---------|
-| Twaróg słodki | dzieci, popołudnie, goście | [z twarogiem](/pl/rezepte/nalesniki/twarog) |
-| Dżem | szybko, bez twarogu | [z dżemem](/pl/rezepte/nalesniki/dzem) |
-| Mięso | niedziela, resztki mielonego | [z mięsem](/pl/rezepte/nalesniki/mieso) |
-| Szpinak | wege, lżejszy wieczór | [ze szpinakiem](/pl/rezepte/nalesniki/szpinak) |
-| Panierowana rolka | obok barszczu | [krokiety](/pl/rezepte/krokiety) |
+![Wytrawne naleśniki z mięsem, zwinięte i podsmażone na patelni](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-nalesniki-mieso/31658e07-9ebc-4f2d-8a29-aa07e5cb188f.webp "Jedna linia farszu na patelnię: mięso zostaje wytrawne, twaróg zostaje słodki.")
 
-Zakupy i wilgotność twarogu opisuje [twaróg w Niemczech](/pl/blog/twarog-w-niemczech). Śmietana vs Schmand: [śmietana](/pl/blog/smietana-czy-schmand). Sensowne zamiany znajdziesz w [zamiennikach składników](/pl/blog/zamienniki-skladnikow).
+## Czym są naleśniki
 
-Słodkiego i wytrawnego nie mieszamy na jednej blasze — inna wilgotność, inna temperatura przy drugim smażeniu.
+Polskie naleśniki to cienkie, elastyczne placki. Rzadko jemy je same z patelni. Zwykle nadziewamy, zwijamy i często jeszcze krótko podsmażamy na maśle. To bliżej francuskich crêpes niż grubych niemieckich Eierkuchen z proszkiem do pieczenia albo gęstym ciastem.
 
-## Błędy wspólne dla wszystkich wariantów
+Niemiecki Pfannkuchen może być gruby, z cukrem albo musem jabłkowym na wierzchu. To inny talerz, nie gorsza wersja. Kto chce zwijać i nadziewać, potrzebuje cienkiego ciasta. Kto chce grube placki same, zostaje przy niemieckiej linii. Uczciwe nazwanie bije przebieranie.
 
-- **Za grube placki** — ciasto za gęste albo za dużo na patelni; pękają przy zwijaniu.
-- **Bez odpoczynku masy** — świeże ciasto klei i rwie; 20–30 minut pomaga.
-- **Mokry farsz** — twaróg bez odsączenia, szpinak bez odciśnięcia, gorące mięso.
-- **Pierwszy placek jako wzór** — zwykle kalibracja; oceniaj od drugiego.
-- **Mikrofala do odgrzewania** — robi gumę; lepiej patelnia albo łagodny piekarnik.
+Pierwszy placek jest kalibracją, nie wzorem. Zbyt gęste ciasto albo za dużo na patelni daje Eierkuchen, które pękają przy zwijaniu. Świeżo wymieszane ciasto klei. Odpoczynek od dwudziestu do trzydziestu minut się opłaca. Ilości i kroki są w wybranym przepisie, nie tutaj.
 
-Ilości i kolejność kroków: w przepisie wybranej wersji.
+## Który farsz kiedy
 
-## Meal prep (krótko)
+Słodka linia klasyczna to [naleśniki z twarogiem](/pl/rezepte/nalesniki/twarog). Niesie popołudnie, dzieci i gości, którzy chcą czegoś znajomego. Twaróg to nie każdy Speisequark. Konsystencję i zakupy tłumaczy [twaróg w Niemczech](/pl/blog/twarog-w-niemczech). Mokry twaróg bez odsączenia wycieka i rozmiękcza ciasto.
 
-Puste placki z papierem między warstwami do zamrażarki — w tygodniu tylko farsz i podsmażenie. Gotowe zwinięte też się mrozi; odgrzewać na patelni. Opisz: słodkie / wytrawne. Przy pierogach ruskich w weekend ten sam odsączony twaróg może iść na naleśniki.
+Szybko bez twarogu są [naleśniki z dżemem](/pl/rezepte/nalesniki/dzem). Ta linia ratuje krótki wieczór, gdy w lodówce nie ma twarogu. Dobry dżem bije słodki krem, którego ciasto nie utrzyma.
 
+Wytrawnie niosą [naleśniki z mięsem](/pl/rezepte/nalesniki/mieso). Niedziela, resztki mielonego, talerz, który syci. Mięso musi być zimne i nie pływać, zanim wejdzie w placek. Gorące mielone robi parę i pęknięcia.
 
+Wegetariańsko i lżej są [naleśniki ze szpinakiem](/pl/rezepte/nalesniki/szpinak). Szpinak bez odciśnięcia to ten sam błąd co mokry twaróg. Kto podaje śmietanę, oddziela dodatek od ciasta. Szczegóły: [śmietana i Schmand](/pl/blog/smietana-czy-schmand).
 
-![Przygotowanie w kuchni diaspory](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-nalesniki-szpinak/580056ff-e3d0-413a-b5e2-27c73286a884.webp)
+Panierowana rolka obok klarownej zupy albo barszczu to inne danie: [krokiety](/pl/rezepte/krokiety). Pokrewne, nie to samo. Kto planuje krokiety, planuje panierkę i tłuszcz osobno, nie jako dopisek do słodkich naleśników.
+
+Słodkiego i wytrawnego nie mieszamy na jednej blasze. Inna wilgotność, inna temperatura przy drugim smażeniu. Jedna linia na patelnię trzyma jakość.
+
+## Codzienność i harmonogram od tyłu
+
+Dzień wcześniej albo w wolny poranek: mieszamy ciasto i dajemy mu odpocząć, pieczemy puste placki, układamy ze papierem do pieczenia. Wyjaśniamy farsz. Odsączamy twaróg. Odcinamy szpinak. Studzimy mięso.
+
+Wieczorem: nadziewamy, zwijamy, krótko rumienimy. Kto po zmianie jeszcze kalibruje ciasto, płaci pierwszym podartym plackiem i zdenerwowaniem. Przewodnik wygrywa, gdy wieczór zostaje tylko wykończeniem.
+
+Puste placki w zamrażarce to najspokojniejszy meal-prep. W tygodniu tylko farsz i podsmażenie. Zwinięte i podsmażone też się mrozi. Odgrzewamy na patelni albo w łagodnym piekarniku, nie w mikrofalówce. Mikrofala robi gumę. Opisujemy: słodkie albo wytrawne. Kto w weekend robi ruskie, może ten sam odsączony twaróg zaplanować na naleśniki.
+
+## Patelnia, ciepło, tłuszcz
+
+Patelnia do crêpes nie jest obowiązkiem. Płaska patelnia, równe ciepło, mało tłuszczu. Żeliwo pomaga niektórym, bo trzyma temperaturę. Nie jest obowiązkiem. Poradnik: [patelnia żeliwna](/pl/blog/patelnia-zelivna).
+
+Za gorąco pali powierzchnię, zanim placek da się odwrócić. Za chłodno suszy go, zanim zostanie elastyczny. Mało tłuszczu, nie jezioro. Pierwszy placek oddajemy kalibracji, bez traktowania go jako dowodu.
+
+W mieszkaniu z czułym czujnikiem dymu drugie rumienienie zostaje krótkie. Masło często wystarczy. Olej w dużej ilości należy do krokietów albo pączków, nie do codziennych naleśników.
+
+## Zakupy w dwóch turach
+
+Pierwsza tura: supermarket po mąkę, jajka, mleko, masło, szpinak, dżem. Druga tura: sklep polski po twaróg, śmietanę, czasem lepszy dżem. Gdy twarogu brakuje, pomaga przewodnik [zamienników](/pl/blog/zamienniki-skladnikow). Listy piszemy według farszu. Czego brakuje do słodkiej linii, stoi w jednym wierszu. Czego brakuje do mięsa, w następnym.
+
+Quark z półki jest legalny, gdy po odsączeniu ma właściwe ziarno. Kubek, który po wymieszaniu robi kałużę, nie należy do ciasta.
+
+## Podział pracy i dzieci
+
+Jedna osoba prowadzi patelnię, jedna nadziewa i zwija. Dzieci mogą nadziewać, cukrzyć i nosić, nie stać przy gorącej powierzchni. Mała partia bije wieżę, która stygnie, zanim wszyscy usiądą. Dokładanie jest przyjaźniejsze niż góra na stole.
+
+Alergie i laktozę pytamy wcześniej, zwłaszcza gdy twaróg jest jedyną linią. Linia dżemowa obok jest często najspokojniejszym rozwiązaniem, nie drugim projektem kuchennym.
+
+![Naleśniki ze szpinakiem, zwinięte i jasno oddzielone od linii słodkiej](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-nalesniki-szpinak/580056ff-e3d0-413a-b5e2-27c73286a884.webp "Szpinak odcinamy, potem zwijamy. Mokry farsz rozmiękcza ciasto.")
+
+## Higiena i resztki
+
+Nabiał i nadziewane rolki nie stoją godzinami w cieple. Szybko chłodzimy, jasno opisujemy, jemy wkrótce. Farsz mięsny dokładnie podgrzewamy. Orientacja: [bzfe.de](https://www.bzfe.de). Przy wątpliwości wyrzucamy.
+
+Resztki nazajutrz na patelni z odrobiną masła. Piekarnik ratuje większą ilość, mikrofala rzadko teksturę. Puste placki w zamrażarce trzymają się dłużej niż nadziewane mokrym kremem.
+
+## Porównanie z innymi talerzami
+
+Naleśniki są codziennością, nie [Wigilią](/pl/blog/menu-wigilijne) i nie [Wielkanocą](/pl/blog/menu-wielkanocne). Mogą później odciążyć święta, gdy ktoś chce twarogu i patelni, nie drugiego planu świątecznego. Niedziela może ćwiczyć: [polski obiad niedzielny](/pl/blog/obiad-niedzielny).
+
+Blintzes są pokrewne, nadziewane i zwijane, ale to inna tradycja. Naleśniki zostają polską kuchnią domową. Twaróg, mięso, szpinak, dżem. Bez zawodów z cukiernią.
 
 ## FAQ
 
 ### Naleśniki czy Eierkuchen?
 
-Gdy zwijamy i nadziewamy — naleśniki. Gdy grube placki z cukrem — niemiecka linia. Obie legalne.
+Gdy zwijamy i nadziewamy: naleśniki. Gdy grube placki same z cukrem albo musem: raczej niemiecka linia. Obie są legalne. Inna technika, inny talerz.
 
 ### Czy trzeba patelni do crêpes?
 
-Nie. Równe ciepło, cienka warstwa tłuszczu. Żeliwo pomaga niektórym — [patelnia żeliwna](/pl/blog/patelnia-zelivna) — nie jest obowiązkiem.
+Nie. Płaska patelnia, równe ciepło, mało tłuszczu. Żeliwo pomaga niektórym. Nie jest obowiązkiem.
 
-### Naleśniki a blintzes?
+### Czym naleśniki różnią się od krokietów?
 
-Pokrewne, inna tradycja. Naleśniki to polska kuchnia domowa.
+Krokiety to panierowana, często wytrawna rolka obok zupy. Naleśniki zostają miększe i nie potrzebują panierki. Kto wymusza oba tego samego wieczoru, płaci tłuszczem i stresem.
 
-### Gdzie gotować konkretnie?
+### Dlaczego placek pęka?
 
-[Twaróg](/pl/rezepte/nalesniki/twarog), [mięso](/pl/rezepte/nalesniki/mieso), [szpinak](/pl/rezepte/nalesniki/szpinak) albo [dżem](/pl/rezepte/nalesniki/dzem).
+Ciasto za gęste, za dużo na patelni, brak odpoczynku albo mokry farsz. Pierwszy placek jest kalibracją. Oceniamy od drugiego.
 
-## Co dalej
+### Czy mikrofala może odgrzewać?
 
-- [Naleśniki z twarogiem](/pl/rezepte/nalesniki/twarog)
-- [Naleśniki z dżemem](/pl/rezepte/nalesniki/dzem)
-- [Krokiety](/pl/rezepte/krokiety)
-- [Pierogi ruskie](/pl/rezepte/pierogi/ruskie)
-- [Twaróg w Niemczech](/pl/blog/twarog-w-niemczech)
-- [Śmietana czy Schmand](/pl/blog/smietana-czy-schmand)', 'Naleśniki przewodnik | Warianty i codzienność | Alemniam', 'Przegląd naleśników: twaróg, mięso, szpinak, dżem. Ilości i kroki w przepisach — tutaj mapa wariantów.') on conflict (post_id, locale) do update set title = excluded.title, slug = excluded.slug, excerpt = excluded.excerpt, body = excluded.body, seo_title = excluded.seo_title, seo_description = excluded.seo_description;
+Często robi gumę. Patelnia albo łagodny piekarnik są spokojniejsze. Puste placki z zamrażarki krótko odmrażamy, potem nadziewamy.
+
+### Co zrobić, gdy twaróg jest za mokry?
+
+Odsączamy, nie maskujemy cukrem. [Twaróg w Niemczech](/pl/blog/twarog-w-niemczech) tłumaczy zakupy i konsystencję. W razie wątpliwości wybieramy linię dżemową.
+
+## Bez wstydu, z miejscem
+
+Kupiony twaróg, dżem ze słoika i zwykła patelnia są w diasporze w porządku. Bohaterstwo z trzema farszami po zmianie nie jest zyskiem zwyczaju. Wcześniej wybieramy jedną linię, dajemy ciastu odpocząć, pierwszy placek oddajemy kalibracji. Talerz zostaje przyjazny, gdy mu na to pozwolimy.
+
+Gotowanie zaczyna się w przepisach: [twaróg](/pl/rezepte/nalesniki/twarog), [mięso](/pl/rezepte/nalesniki/mieso), [szpinak](/pl/rezepte/nalesniki/szpinak) albo [dżem](/pl/rezepte/nalesniki/dzem).', 'Naleśniki przewodnik | Warianty i codzienność | Alemniam', 'Przegląd naleśników: twaróg, mięso, szpinak, dżem. Ilości i kroki w przepisach, tutaj mapa wariantów.') on conflict (post_id, locale) do update set title = excluded.title, slug = excluded.slug, excerpt = excluded.excerpt, body = excluded.body, seo_title = excluded.seo_title, seo_description = excluded.seo_description;
 
 commit;
