@@ -109,101 +109,101 @@ Typ 550 z supermarketu, skrobia ze sklepu polskiego i ciasto bez pięciu mąk s�
 `;
 
 export const bodyPilzePl = `
-Suszone grzyby w Niemczech rzadko są koszykiem z lasu za wsią. To woreczek między sklepem polskim, regałem ze Steinpilze w REWE i pytaniem, dlaczego [barszcz](/pl/rezepte/barszcz-czerwony) niczym nie pachnie. Nazwa znaczy suszone grzyby, zwykle borowiki. Zwyczaj znaczy więcej: które opakowanie, jak moczyć, dokąd idzie wywar, i dlaczego grzyby marynowane to inne danie.
+Suszone grzyby w Niemczech rzadko pochodzą z własnego lasu. Zwykle leży woreczek suszu w sklepie polskim albo torebka Steinpilze w REWE, a [barszcz](/pl/rezepte/barszcz-czerwony) i tak prawie niczym nie pachnie. Chodzi prawie zawsze o suszone borowiki. Ważne jest nie tylko słowo na opakowaniu, ale jaką jakość kupujesz, jak moczysz grzyby i dokąd potem trafia ciemna woda.
 
-Ten artykuł jest leksykonem, nie książką przepisów. Ilości, czasy moczenia i konkretna kolejność kroków są w [zupie grzybowej](/pl/rezepte/zupa-grzybowa), [uszkach](/pl/rezepte/uszka) i [jak ugotować barszcz](/pl/blog/jak-ugotowac-barszcz). Tutaj porządkujemy woreczki, nazwy i zimę w diasporze. Orientacja o higienie grzybów leśnych i wywaru: [bzfe.de](https://www.bzfe.de) oraz [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
+Ten tekst wyjaśnia woreczek, nie pojedyncze danie. Ilości, dokładne czasy moczenia i kolejność kroków znajdziesz w [zupie grzybowej](/pl/rezepte/zupa-grzybowa), [uszkach](/pl/rezepte/uszka) i w poradniku [jak ugotować barszcz](/pl/blog/jak-ugotowac-barszcz). Tutaj chodzi o opakowania, nazwy i zimowy zapas w niemieckiej kuchni. Przy higienie grzybów leśnych i wywaru pomagają [bzfe.de](https://www.bzfe.de) oraz [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
 
-Historycznie suszone borowiki niosą zimę, gdy las jest zamknięty. Plastry, ciemna woda, zapach piwnicy i igliwia. W PRL i potem woreczek zostawał spiżarnią. W Niemczech obok stoi mieszanka z Chin, torebka proszku z pieczarek i marynowane grzyby w słoiku. Dowód zastępujemy czytelną różnicą. Prawdziwe suszone borowiki plus ich wywar biją trzy słoiki, które pachną octem.
+Suszone borowiki przez pokolenia były zapasem na zimę, gdy las był zamknięty. Plastry pachną piwnicą i igliwiem, a woda z moczenia robi się ciemna i mocna. W Polsce woreczek przez dziesięciolecia stał w spiżarni. W niemieckich regałach obok leżą często mieszanki niejasnego pochodzenia, proszek z pieczarek i grzyby w occie. Prawdziwe suszone borowiki z własnym wywarem smakują lasem. Słoiki smakują octem i to już inne danie.
 
 ![Suszone borowiki, woda z moczenia, kilka miękkich plastrów](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-pilze/a9611279-f01a-4f5e-9566-f6e5e2b58668.webp "Ciemna woda idzie do garnka, nie do zlewu.")
 
-## Czym może być woreczek
+## Które opakowanie się opłaca
 
-Borowiki, po niemiecku Steinpilze, są czytelną linią. Extra, klasa I, całe plastry: drożej, mniej okruchów, więcej zapachu. Mieszanka leśna może, gdy opakowanie podaje udział borowika. Anonimowa torebka suszonych grzybów bez gatunku to ryzyko smaku i niepewnego towaru.
+Borowiki, po niemiecku Steinpilze, to gatunek, który naprawdę buduje smak uszek i świątecznych zup. Extra, klasa I i całe plastry kosztują więcej, ale mają mniej okruchów i mocniejszy zapach. Mieszanka leśna jest w porządku, gdy opakowanie podaje udział borowika. Anonimowa torebka „suszone grzyby” bez gatunku to ryzyko dla smaku i często także niepewny towar.
 
-[Sklep polski](/pl/blog/sklep-polski-zakupy) często niesie oczekiwane suszone borowiki. REWE i Kaufland niosą Steinpilze getrocknet, czasem tylko w sezonie albo w delikatesach. Porównujemy cenę za 100 gramów, nie małą torebkę z dużym workiem bez wagi.
+W [sklepie polskim](/pl/blog/sklep-polski-zakupy) znajdziesz zwykle znane suszone borowiki. REWE i Kaufland mają Steinpilze getrocknet często tylko w sezonie albo w delikatesach. Porównuj cenę za 100 gramów, zamiast zestawiać małą torebkę z dużym workiem bez wagi.
 
-Świeże pieczarki nie zastępują woreczka. Niosą codzienny sos, nie uszka i nie wigilijny barszcz. Kto je miesza, mówi to przy stole. [Przewodnik o zamiennikach](/pl/blog/zamienniki-skladnikow) pomaga przy uczciwej wymianie, nie przy ukrywaniu.
+Świeże pieczarki nie zastępują suszu. Nadają się do codziennego sosu, ale nie do klasycznych uszek i nie do wigilijnego barszczu. Kto i tak je doda, powinien powiedzieć to przy stole. [Przewodnik o zamiennikach](/pl/blog/zamienniki-skladnikow) pomaga przy uczciwej wymianie, nie przy ukrywaniu.
 
-Suszone kurki to inna słodycz. Mogą iść do jesiennej zupy, nie są wigilijnym borowikiem.
+Suszone kurki mają własną, trochę słodszą nutę. Mogą trafić do jesiennej zupy. Na Wigilię to zły grzyb.
 
 ## Moczenie, nie wylewanie
 
-Zimna albo letnia woda, czas, ciężar. Gorąca woda ciągnie szybciej i często bardziej gorzko. Godzina to minimum dla cienkich plastrów. Grube kawałki chcą dłużej, często przez noc w lodówce.
+Weź zimną albo letnią wodę, dość czasu i dość płynu, żeby plastry były przykryte. Gorąca woda ciągnie szybciej, ale często robi się gorzka. Cienkie plastry potrzebują przynajmniej godziny. Grube kawałki moczą się dłużej, często przez noc w lodówce.
 
-Woda jest wywarem. Niesie [zupę grzybową](/pl/rezepte/zupa-grzybowa), [barszcz](/pl/rezepte/barszcz-czerwony), czasem [rosół](/pl/rezepte/rosol), gdy dom tak zna. Najpierw przez gęste sitko albo płótno, bo piasek i ziemia jadą razem. Kto wylewa wodę, wylewa smak i potem gotuje na przyprawie.
+Woda z moczenia jest już wywarem. Trafia do [zupy grzybowej](/pl/rezepte/zupa-grzybowa), często do [barszczu](/pl/rezepte/barszcz-czerwony), a w niektórych domach jako drobny akcent do [rosołu](/pl/rezepte/rosol). Najpierw przecedź ją przez gęste sitko albo płótno, bo piasek i ziemia idą razem. Kto wylewa wodę, wylewa smak i potem doprawia tylko proszkiem.
 
-Miękkie grzyby kroimy drobno, twarde końce trzonów sprawdzamy. Co zostaje skórzaste, moczymy dłużej albo siekamy drobno do uszek. Co pleśnieje albo pachnie obco, wyrzucamy, nie do świątecznego garnka.
+Miękkie grzyby pokrój drobno i sprawdź twarde końce trzonów. Co zostaje skórzaste, moczy się dłużej albo idzie drobno posiekane do uszek. Co pleśnieje albo pachnie obco, nie trafia do świątecznego garnka.
 
-![Jasna zupa grzybowa z namoczonego woreczka](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-zupa-grzybowa/4ae13a23-9f9d-4886-a2a9-e487414bd014.webp "Zupa niesie woreczek, gdy woda z moczenia gotuje się razem.")
+![Jasna zupa grzybowa z namoczonego woreczka](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-zupa-grzybowa/4ae13a23-9f9d-4886-a2a9-e487414bd014.webp "Zupa nabiera smaku, gdy woda z moczenia gotuje się razem z nią.")
 
 ## Dokąd idą grzyby
 
-[Uszka](/pl/rezepte/uszka) to mała kieszonka [Wigilii](/pl/blog/menu-wigilijne). Nadzienie chce posiekane suszone grzyby, cebulę, często trochę kapusty. Świeże pieczarki robią inną kieszonkę. Nazywamy uczciwie.
+[Uszka](/pl/rezepte/uszka) to małe pierożki [Wigilii](/pl/blog/menu-wigilijne). Nadzienie potrzebuje posiekanych suszonych grzybów, cebuli i często odrobiny kapusty. Świeże pieczarki dają inną kieszonkę i wtedy powinny tak się nazywać.
 
-[Pierogi z kapustą i grzybami](/pl/rezepte/pierogi/kapusta-grzyby) dzielą tę logikę. Woreczek niesie, kapusta niesie, śmietana nie jest obowiązkowym płaszczem.
+[Pierogi z kapustą i grzybami](/pl/rezepte/pierogi/kapusta-grzyby) działają tak samo. Smak robi susz i kapusta. Śmietana nie jest obowiązkową warstwą na wierzchu.
 
-Zupa grzybowa to jasna albo gęstsza miska, nie barszcz. [Przewodnik o zupach](/pl/blog/polskie-zupy) porządkuje rodzinę. [Jak ugotować barszcz](/pl/blog/jak-ugotowac-barszcz) mówi, kiedy wywar grzybowy może wejść do czerwonej miski: jako głębia, nie jako druga zupa na tym samym talerzu.
+Zupa grzybowa to osobna zupa, jasna albo gęstsza, i nie jest barszczem. [Przewodnik o zupach](/pl/blog/polskie-zupy) porządkuje rodzinę. Tekst [jak ugotować barszcz](/pl/blog/jak-ugotowac-barszcz) wyjaśnia, kiedy wywar grzybowy może wejść do czerwonej miski: jako głębia, nie jako druga zupa na tym samym talerzu.
 
-Rosół zostaje bulionem drobiowym. Tekst [jak ugotować rosół](/pl/blog/jak-ugotowac-rosol) prowadzi garnek. Kilka namoczonych borowików w niektórych domach jest zgodą, nie obowiązkiem. Nie robią z tego zupy grzybowej.
+Rosół zostaje bulionem drobiowym. Tekst [jak ugotować rosół](/pl/blog/jak-ugotowac-rosol) prowadzi garnek. Kilka namoczonych borowików bywa w niektórych domach zwyczajem, ale nie obowiązkiem. Nie robią z tego zupy grzybowej.
 
 ## Czym nie są grzyby marynowane
 
-[Grzyby marynowane](/pl/rezepte/grzyby-marynowane) są w zalewie, kwaśne, często jako przystawka albo do wódki. Nie zastępują suszonego woreczka. Kto sieka je do uszek, gotuje kwaśne nadzienie i dziwi się.
+[Grzyby marynowane](/pl/rezepte/grzyby-marynowane) są w zalewie, kwaśne i często służą jako przystawka do wódki. Nie zastępują suszonego woreczka. Kto sieka je do uszek, dostaje kwaśne nadzienie i dziwi się smakiem.
 
-Świeżo marynowane mieszanki ze słoika smakują zalewą, nie lasem. Mogą na zimny talerz. Nie idą do barszczu tylko dlatego, że obie rzeczy nazywają się grzybami.
+Marynowane mieszanki ze słoika smakują zalewą, nie lasem. Mogą stanąć na zimnym talerzu. Do barszczu nie idą tylko dlatego, że obie rzeczy nazywają się grzybami.
 
-Suszone shiitake z regału azjatyckiego mogą do codziennego garnka, gdy nazwa tak zostaje. Nie są cichą zamianą borowików w Wigilię.
+Suszone shiitake z azjatyckiego regału mogą trafić do codziennego garnka, jeśli tak je nazywasz. W Wigilię nie są cichą zamianą borowików.
 
 ## Zakupy i przechowywanie
 
-Małe torebki, szczelnie, ciemno, sucho. Duże worki tylko, gdy naprawdę gotujecie w tym roku. Mole i wilgoć niszczą zapas. Data i zapach przed moczeniem.
+Małe torebki trzymaj szczelnie, w ciemnym i suchym miejscu. Duże worki opłacają się tylko wtedy, gdy naprawdę ugotujesz je w tym roku. Mole i wilgoć niszczą zapas. Datę i zapach sprawdzasz przed moczeniem.
 
-Cena: prawdziwe borowiki są drogie. Mieszanka z dużą ilością kruszu jest tańsza i często pylista. Do uszek opłaca się lepszy plaster. Do dużej zupy może krusz, gdy zapach się zgadza.
+Prawdziwe borowiki są drogie. Mieszanka z dużą ilością kruszu jest tańsza i często pylista. Do uszek opłaca się lepszy plaster. Do dużej zupy krusz może wystarczyć, gdy zapach jest dobry.
 
-Listy piszemy według dania. Co potrzebują uszka, jedna linia. Co zupa, następna. Jeden woreczek na dwa dania 24 grudnia to plan, nie skąpstwo, gdy ilości starczy.
+Listę zakupów pisz według dania. Co potrzebują uszka, jedna linia. Co zupa, następna. Jeden woreczek na dwa dania 24 grudnia to plan, nie skąpstwo, jeśli ilości starczy.
 
 ## Higiena i grzyb leśny
 
-Tylko kupiony, oznaczony towar, gdy lasu w DE nie znacie pewnie. Zbierane samodzielnie grzyby to osobna odpowiedzialność i nie jest rekomendacją w tym tekście. Orientacja: [bzfe.de](https://www.bzfe.de).
+Kupuj oznaczony towar, jeśli lasu w Niemczech nie znasz pewnie. Grzyby zbierane samodzielnie to osobna odpowiedzialność i nie jest to rekomendacja w tym tekście. Orientację daje [bzfe.de](https://www.bzfe.de).
 
-Wywar szybko studzimy, nie trzymamy godzinami ciepły. Namoczonych grzybów nie zostawiamy dwa dni otwartych na sicie. Gotujemy i jemy wkrótce albo mrozimy. Przy wątpliwości wyrzucamy. Ramy: [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
+Wywar szybko studź i nie trzymaj godzinami ciepły. Namoczonych grzybów nie zostawiaj dwa dni otwartych na sicie. Ugotuj, zjedz wkrótce albo zamróź. Przy wątpliwości wyrzuć. Ramy wyznacza [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
 
-Alergie i nietolerancje traktujemy poważnie. Grzyb leśny nie jest przekąską dla dzieci w dużych ilościach.
+Alergie i nietolerancje traktuj poważnie. Grzyb leśny nie jest przekąską dla dzieci w dużych ilościach.
 
 ## Harmonogram przed Wigilią
 
-Dwa dni wcześniej: sprawdzamy woreczek, moczymy w lodówce, przecedzamy wywar, siekamy grzyby. Dzień wcześniej: nadziewamy uszka albo stawiamy zupę. 24. tylko podgrzewamy i nakładamy.
+Dwa dni wcześniej sprawdzasz woreczek, moczysz w lodówce, przecedzasz wywar i siekasz grzyby. Dzień wcześniej nadziewasz uszka albo stawiasz zupę. 24. zostaje tylko podgrzewanie i nakładanie.
 
-Kto po południu 24. dopiero rozrywa woreczek, płaci twardym trzonem i irytacją. [Menu wigilijne](/pl/blog/menu-wigilijne) niesie wieczór. Ten tekst niesie tylko woreczek.
+Kto po południu 24. dopiero rozrywa woreczek, dostaje twarde trzony i niepotrzebny pośpiech. Wieczór układa [menu wigilijne](/pl/blog/menu-wigilijne). Ten tekst pomaga tylko przy zapasie.
 
-Między świętami resztka wywaru może iść do małej zupy, nie na [stół sylwestrowy](/pl/blog/menu-sylwester). Sylwester to inna linia.
+Między świętami resztka wywaru może pójść do małej zupy. Na [stół sylwestrowy](/pl/blog/menu-sylwester) nie należy. Sylwester to inny wieczór.
 
 ## FAQ
 
 ### Czy mogę wylać wodę z moczenia, bo jest mętna?
 
-Nie z przyzwyczajenia. Męt często znaczy ziemię. Przecedzamy, potem gotujemy. Wylanie znaczy utratę smaku. Tylko przy obcym zapachu albo pleśni wyrzucamy całą partię.
+Nie z przyzwyczajenia. Męt często znaczy ziemię. Przecedź, potem gotuj. Wylanie znaczy utratę smaku. Tylko przy obcym zapachu albo pleśni wyrzuć całą partię.
 
 ### Czy pieczarki wystarczą do uszek?
 
-Dają kieszonkę, nie klasykę. Kto je bierze, mówi uszka z pieczarkami. Suszony borowik zostaje linią Wigilii.
+Dają kieszonkę, ale nie klasykę. Kto je bierze, mówi uszka z pieczarkami. Suszony borowik zostaje gatunkiem Wigilii.
 
 ### Czy grzyby marynowane to to samo co suszone?
 
-Nie. Zalewa i ocet kontra woda i suszenie. [Grzyby marynowane](/pl/rezepte/grzyby-marynowane) idą na zimny talerz. Woreczek idzie do wywaru i nadzienia.
+Nie. Zalewa i ocet stoją przeciw wodzie i suszeniu. [Grzyby marynowane](/pl/rezepte/grzyby-marynowane) idą na zimny talerz. Woreczek idzie do wywaru i nadzienia.
 
 ### Które opakowanie w supermarkecie jest najuczciwsze?
 
-Steinpilze getrocknet z widocznymi plastrami i pochodzeniem na opakowaniu. Anonimowe mieszanki bez gatunku to najczęstsze rozczarowanie.
+Suszone Steinpilze z widocznymi plastrami i pochodzeniem na opakowaniu. Anonimowe mieszanki bez gatunku to najczęstsze rozczarowanie.
 
 ### Czy wywar grzybowy może iść do rosołu?
 
-W niektórych domach tak, jako niuans. Rosół zostaje bulionem drobiowym. Kto robi z garnka zupę grzybową, gotuje [zupę grzybową](/pl/rezepte/zupa-grzybowa) i tak ją nazywa.
+W niektórych domach tak, jako drobny akcent. Rosół zostaje bulionem drobiowym. Kto robi z garnka zupę grzybową, gotuje [zupę grzybową](/pl/rezepte/zupa-grzybowa) i tak ją nazywa.
 
-## Bez wstydu, z woreczkiem
+## Z właściwym woreczkiem
 
-Mały woreczek borowików ze sklepu polskiego, przecedzony wywar i uszka bez świeżych pieczarek są w diasporze w porządku. Bohaterstwo, które 24. jeszcze szuka lasu, nie jest zyskiem zwyczaju. Najpierw moczymy, przecedzamy, nazwę zostawiamy uczciwą. Grzyb zostaje jasny, gdy suszone znaczy suszone, a słoik słoik.
+Mały woreczek borowików ze sklepu polskiego, przecedzony wywar i uszka bez świeżych pieczarek wystarczą na Wigilię w Niemczech. Szukanie lasu 24. rzadko daje lepszy smak. Namocz wcześniej, przecedź wodę i nazywaj danie uczciwie. Suszone grzyby zostają suszonymi grzybami, a słoik zostaje słoikiem.
 `;
 
 export const bodyMajonezPl = `

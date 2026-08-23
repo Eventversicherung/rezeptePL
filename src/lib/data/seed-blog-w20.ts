@@ -90,25 +90,25 @@ export const seedBlogPostsW20: BlogPost[] = [
         title: "Getrocknete Pilze: Borowiki, Einweichen, Brühe",
         slug: "getrocknete-pilze",
         excerpt:
-          "Steinpilze kaufen, einweichen, Brühe sieben: was Uszka, Barszcz und Zupa grzybowa brauchen, und warum das Glas ein anderes Gericht ist.",
+          "Welche Steinpilze sich lohnen, wie du sie einweichst und warum das dunkle Wasser in den Topf gehört, nicht in den Abfluss.",
         seoTitle: "Getrocknete Pilze | Borowiki Guide | Alemniam",
         seoDescription:
-          "Suszone borowiki in Deutschland: Packung, Einweichen, Brühe. Lexikon neben Uszka und Pilzsuppe, bilingual.",
+          "Getrocknete Steinpilze in Deutschland kaufen, einweichen und als Brühe nutzen. Lexikon neben Uszka und Pilzsuppe, auf Deutsch und Polnisch.",
         body: bodyPilzeDe.trim(),
       },
       pl: {
         title: "Suszone grzyby: borowiki, moczenie, wywar",
         slug: "suszone-grzyby",
         excerpt:
-          "Borowiki kupić, namoczyć, wywar przecedzić: czego potrzebują uszka, barszcz i zupa grzybowa, i dlaczego słoik to inne danie.",
+          "Które borowiki warto kupić, jak je namoczyć i dlaczego ciemna woda idzie do garnka, nie do zlewu.",
         seoTitle: "Suszone grzyby | Borowiki | Alemniam",
         seoDescription:
-          "Suszone borowiki w Niemczech: opakowanie, moczenie, wywar. Leksykon obok uszek i zupy grzybowej, dwujęzycznie.",
+          "Suszone borowiki w Niemczech kupić, namoczyć i użyć jako wywar. Leksykon obok uszek i zupy grzybowej, po niemiecku i polsku.",
         body: bodyPilzePl.trim(),
       },
     },
     publishedAt: "2026-08-23T16:10:00.000Z",
-    updatedAt: "2026-08-23T16:10:00.000Z",
+    updatedAt: "2026-08-23T21:30:00.000Z",
   },
   {
     id: "post-majonez",

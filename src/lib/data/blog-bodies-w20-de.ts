@@ -109,101 +109,101 @@ Type 550 aus dem Supermarkt, Kartoffelstärke aus dem Polenladen und ein Teig oh
 `;
 
 export const bodyPilzeDe = `
-Getrocknete Pilze in Deutschland sind selten der Korb aus dem Wald hinter dem Dorf. Es ist ein Beutel zwischen Polenladen, Steinpilzregal bei REWE und der Frage, warum der [Barszcz](/de/rezepte/barszcz-czerwony) nach nichts riecht. Der Name meint suszone grzyby, meist Borowiki. Der Brauch meint mehr: welches Pack, wie einweichen, wohin die Brühe, und warum eingelegte Pilze ein anderes Gericht sind.
+Getrocknete Pilze sind in Deutschland selten der Korb aus dem eigenen Wald. Meist liegt ein Beutel suszone grzyby im Polenladen oder eine Tüte Steinpilze im REWE, und trotzdem duftet der [Barszcz](/de/rezepte/barszcz-czerwony) nach fast nichts. Gemeint sind fast immer getrocknete Borowiki, also Steinpilze. Entscheidend ist nicht nur der Name auf der Packung, sondern welche Ware du kaufst, wie du sie einweichst und wohin das dunkle Wasser danach kommt.
 
-Dieser Artikel ist das Lexikon, nicht das Rezeptbuch. Mengen, Einweichzeiten und die konkrete Schrittfolge stehen in [Zupa grzybowa](/de/rezepte/zupa-grzybowa), [Uszka](/de/rezepte/uszka) und [Barszcz-Technik](/de/blog/barszcz-technik). Hier ordnen wir Beutel, Namen und den Winter in der Diaspora. Orientierung zu Hygiene bei Wildpilzen und Brühe: [bzfe.de](https://www.bzfe.de) und [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
+Dieser Text erklärt den Beutel, nicht das einzelne Gericht. Mengen, genaue Einweichzeiten und die Schrittfolge stehen bei [Zupa grzybowa](/de/rezepte/zupa-grzybowa), [Uszka](/de/rezepte/uszka) und in der [Barszcz-Technik](/de/blog/barszcz-technik). Hier geht es um Packungen, Namen und den Wintervorrat in einer deutschen Küche. Zu Hygiene bei Wildpilzen und Brühe orientieren [bzfe.de](https://www.bzfe.de) und [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
 
-Historisch tragen getrocknete Steinpilze den Winter, wenn der Wald zu ist. Die Scheiben, das dunkle Wasser, der Geruch nach Keller und Nadel. In der Volksrepublik und danach blieb der Beutel die Vorratskammer. In Deutschland steht daneben eine Mischung aus China, eine Tüte Champignonpulver und eingelegte Mischpilze im Glas. Wir ersetzen den Beweisdruck durch einen klaren Unterschied. Echte getrocknete Borowiki plus ihre Brühe schlagen drei Gläser, die nach Essig riechen.
+Getrocknete Steinpilze waren lange der Wintervorrat, wenn der Wald geschlossen war. Die Scheiben duften nach Keller und Nadelwald, und das Einweichwasser wird dunkel und kräftig. In Polen blieb der Beutel über Jahrzehnte in der Vorratskammer. In deutschen Regalen stehen daneben oft Mischungen unklarer Herkunft, Champignonpulver und eingelegte Pilze im Glas. Echte getrocknete Borowiki mit ihrer eigenen Brühe schmecken nach Wald. Die Gläser schmecken nach Essig, und das ist ein anderes Gericht.
 
 ![Getrocknete Steinpilze, Einweichwasser, ein paar weiche Scheiben](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-pilze/a9611279-f01a-4f5e-9566-f6e5e2b58668.webp "Das dunkle Wasser gehört in den Topf, nicht in den Abfluss.")
 
-## Was der Beutel sein darf
+## Welche Packung sich lohnt
 
-Borowiki, auf Deutsch Steinpilze, sind die klare Linie. Extra, Klasse I, ganze Scheiben: teurer, weniger Krümel, mehr Duft. Eine Waldmischung darf, wenn die Packung Steinpilzanteil nennt. Eine anonyme Tüte getrocknete Pilze ohne Art ist ein Risiko für Geschmack und für unsichere Ware.
+Borowiki, auf Deutsch Steinpilze, sind die Sorte, die Uszka und Weihnachtssuppen wirklich tragen. Extra, Klasse I und ganze Scheiben kosten mehr, enthalten aber weniger Krümel und duften kräftiger. Eine Waldmischung ist in Ordnung, wenn die Packung den Steinpilzanteil nennt. Eine anonyme Tüte „getrocknete Pilze“ ohne Art ist ein Risiko für Geschmack und oft auch für unsichere Ware.
 
-Der [Polenladen](/de/blog/polenladen-einkaufen) trägt oft die erwarteten suszone borowiki. REWE und Kaufland tragen Steinpilze getrocknet, manchmal nur in der Saison oder in der Feinkost. Preis pro 100 Gramm vergleichen, nicht die kleine Tüte gegen den großen Beutel ohne Waage.
+Im [Polenladen](/de/blog/polenladen-einkaufen) findest du meist die vertrauten suszone borowiki. REWE und Kaufland haben getrocknete Steinpilze oft nur in der Saison oder in der Feinkost. Vergleiche den Preis pro 100 Gramm, statt eine kleine Tüte gegen einen großen Beutel ohne Waage zu rechnen.
 
-Frische Champignons ersetzen den Beutel nicht. Sie tragen Alltagssauce, nicht Uszka und nicht den Weihnachtsbarszcz. Wer sie mischt, sagt es am Tisch. Der [Ersatzprodukte-Guide](/de/blog/ersatzprodukte-de) hilft beim ehrlichen Tausch, nicht beim Verstecken.
+Frische Champignons ersetzen den Beutel nicht. Sie passen in eine Alltagssauce, aber nicht in klassische Uszka und nicht in den Weihnachtsbarszcz. Wer sie trotzdem dazugibt, sollte das am Tisch sagen. Der [Ersatzprodukte-Guide](/de/blog/ersatzprodukte-de) hilft beim ehrlichen Tausch, nicht beim Verstecken.
 
-Pfifferlinge getrocknet sind eine andere Süße. Sie dürfen in eine Herbstsuppe, sie sind nicht der Wigilia-Steinpilz.
+Getrocknete Pfifferlinge haben eine eigene, etwas süßere Note. Sie dürfen in eine Herbstsuppe. Für die Wigilia bleiben sie der falsche Pilz.
 
 ## Einweichen, nicht wegschütten
 
-Kaltes oder lauwarmes Wasser, Zeit, Gewicht. Heißes Wasser zieht schneller und oft bitterer. Eine Stunde ist das Minimum für dünne Scheiben. Dicke Stücke wollen länger, oft über Nacht im Kühlschrank.
+Nimm kaltes oder lauwarmes Wasser, genug Zeit und genug Flüssigkeit, damit die Scheiben bedeckt bleiben. Heißes Wasser zieht schneller, wird aber oft bitter. Dünne Scheiben brauchen mindestens eine Stunde. Dicke Stücke weichen länger, oft über Nacht im Kühlschrank.
 
-Das Wasser ist Brühe. Es trägt [Zupa grzybowa](/de/rezepte/zupa-grzybowa), [Barszcz](/de/rezepte/barszcz-czerwony), manchmal [Rosół](/de/rezepte/rosol), wenn das Haus das so kennt. Vorher durch ein feines Sieb oder Tuch, weil Sand und Erde mitkommen. Wer das Wasser wegschüttet, schüttet den Geschmack weg und kocht danach mit Würze.
+Das Einweichwasser ist bereits Brühe. Es gehört in [Zupa grzybowa](/de/rezepte/zupa-grzybowa), oft in [Barszcz](/de/rezepte/barszcz-czerwony) und in manchen Häusern als kleine Nuance in den [Rosół](/de/rezepte/rosol). Gieße es vorher durch ein feines Sieb oder ein Tuch, weil Sand und Erde mitkommen. Wer das Wasser wegschüttet, schüttet den Geschmack weg und würzt danach nur noch mit Pulver.
 
-Die weichen Pilze klein schneiden, hartes Stielende prüfen. Was lederig bleibt, länger ziehen oder fein hacken für Uszka. Was schimmelig oder fremd riecht, entsorgen, nicht in den Festtopf.
+Schneide die weichen Pilze klein und prüfe harte Stielenden. Was lederig bleibt, weicht länger oder wird für Uszka fein gehackt. Was schimmelig riecht oder fremd duftet, gehört nicht in den Festtopf.
 
-![Klare Pilzsuppe aus dem eingeweichten Beutel](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-zupa-grzybowa/4ae13a23-9f9d-4886-a2a9-e487414bd014.webp "Die Suppe trägt den Beutel, wenn das Einweichwasser mitkocht.")
+![Klare Pilzsuppe aus dem eingeweichten Beutel](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-zupa-grzybowa/4ae13a23-9f9d-4886-a2a9-e487414bd014.webp "Die Suppe bekommt ihren Geschmack, wenn das Einweichwasser mitkocht.")
 
 ## Wohin die Pilze gehören
 
-[Uszka](/de/rezepte/uszka) sind die kleine Tasche der [Wigilia](/de/blog/wigilia-speiseplan). Die Füllung will gehackte getrocknete Pilze, Zwiebel, oft etwas Kraut. Frische Champignons machen eine andere Tasche. Ehrlich benennen.
+[Uszka](/de/rezepte/uszka) sind die kleinen Teigtaschen der [Wigilia](/de/blog/wigilia-speiseplan). Die Füllung braucht gehackte getrocknete Pilze, Zwiebel und oft etwas Kraut. Frische Champignons ergeben eine andere Tasche, und die sollte dann auch so heißen.
 
-[Pierogi mit Kraut und Pilzen](/de/rezepte/pierogi/kraut-pilze) teilen die Logik. Der Beutel trägt, das Kraut trägt, Sahne ist kein Pflichtmantel.
+[Pierogi mit Kraut und Pilzen](/de/rezepte/pierogi/kraut-pilze) folgen derselben Logik. Der getrocknete Beutel und das Kraut machen den Geschmack. Sahne ist kein Pflichtmantel darüber.
 
-Zupa grzybowa ist die klare oder sämige Schüssel, nicht Barszcz. Der [Suppen-Guide](/de/blog/polnische-suppen) ordnet die Familie. [Barszcz-Technik](/de/blog/barszcz-technik) sagt, wann Pilzbrühe in die rote Schüssel darf: als Tiefe, nicht als zweite Suppe im selben Teller.
+Zupa grzybowa ist die eigene Pilzsuppe, klar oder sämig, und sie ist kein Barszcz. Der [Suppen-Guide](/de/blog/polnische-suppen) ordnet die Familie. Die [Barszcz-Technik](/de/blog/barszcz-technik) erklärt, wann Pilzbrühe in die rote Schüssel darf: als Tiefe, nicht als zweite Suppe im selben Teller.
 
-Rosół bleibt Hühnerbrühe. Der [Rosół-Technik](/de/blog/rosol-technik) Beitrag führt den Topf. Ein paar eingeweichte Steinpilze sind in manchen Häusern Erlaubnis, nicht Pflicht. Sie machen daraus keine Pilzsuppe.
+Rosół bleibt Hühnerbrühe. Der Beitrag zur [Rosół-Technik](/de/blog/rosol-technik) führt den Topf. Ein paar eingeweichte Steinpilze sind in manchen Familien üblich, aber keine Pflicht. Sie machen aus dem Topf keine Pilzsuppe.
 
 ## Was Grzyby marynowane nicht sind
 
-[Grzyby marynowane](/de/rezepte/grzyby-marynowane) sind eingelegt, sauer, oft als Vorspeise oder zum Wodka. Sie ersetzen den getrockneten Beutel nicht. Wer sie in Uszka hackt, kocht eine saure Füllung und wundert sich.
+[Grzyby marynowane](/de/rezepte/grzyby-marynowane) sind eingelegt, sauer und oft eine Vorspeise zum Wodka. Sie ersetzen den getrockneten Beutel nicht. Wer sie in Uszka hackt, bekommt eine saure Füllung und wundert sich über den Geschmack.
 
-Frisch eingelegte Mischpilze aus dem Glas schmecken nach Lake, nicht nach Wald. Sie dürfen auf den kalten Teller. Sie gehören nicht in den Barszcz, nur weil beide Pilz heißen.
+Eingelegte Mischpilze aus dem Glas schmecken nach Lake, nicht nach Wald. Sie dürfen auf den kalten Teller. In den Barszcz gehören sie nicht, nur weil beide das Wort Pilz im Namen haben.
 
-Getrocknete Shiitake aus dem Asia-Regal dürfen in den Alltagstopf, wenn der Name so bleibt. Sie sind kein stiller Ersatz für borowiki an Heiligabend.
+Getrocknete Shiitake aus dem Asia-Regal dürfen in den Alltagstopf, wenn du sie auch so nennst. An Heiligabend sind sie kein stiller Ersatz für Borowiki.
 
 ## Einkauf und Lager
 
-Kleine Tüten, fest verschlossen, dunkel, trocken. Große Beutel nur, wenn ihr dieses Jahr wirklich kocht. Motten und Feuchtigkeit zerstören den Vorrat. Datum und Geruch vor dem Einweichen.
+Kleine Tüten fest verschlossen, dunkel und trocken lagern. Große Beutel lohnen sich nur, wenn du sie in diesem Jahr wirklich kochst. Motten und Feuchtigkeit zerstören den Vorrat. Datum und Geruch prüfst du vor dem Einweichen.
 
-Preis: echte Steinpilze sind teuer. Eine Mischung mit viel Bruch ist billiger und oft staubig. Für Uszka lohnt die bessere Scheibe. Für eine große Suppe darf Bruch, wenn der Duft stimmt.
+Echte Steinpilze sind teuer. Eine Mischung mit viel Bruch ist billiger und oft staubig. Für Uszka lohnt die bessere Scheibe. Für eine große Suppe darf Bruch, wenn der Duft stimmt.
 
-Listen nach Gericht schreiben. Was Uszka brauchen, eine Zeile. Was die Suppe braucht, die nächste. Ein Beutel für zwei Gerichte am 24. ist Planung, nicht Geiz, wenn die Menge reicht.
+Schreib die Einkaufsliste nach Gericht. Was die Uszka brauchen, steht in einer Zeile. Was die Suppe braucht, in der nächsten. Ein Beutel für zwei Gerichte am 24. Dezember ist Planung, nicht Geiz, wenn die Menge reicht.
 
 ## Hygiene und Wildpilz
 
-Nur gekaufte, gekennzeichnete Ware, wenn ihr den Wald in DE nicht sicher kennt. Selbst gesammelte Pilze sind eine eigene Verantwortung und keine Empfehlung in diesem Text. Orientierung: [bzfe.de](https://www.bzfe.de).
+Kaufe gekennzeichnete Ware, wenn du den Wald in Deutschland nicht sicher kennst. Selbst gesammelte Pilze sind eine eigene Verantwortung und keine Empfehlung in diesem Text. Orientierung gibt [bzfe.de](https://www.bzfe.de).
 
-Brühe schnell kühlen, nicht stundenlang warm. Eingewässerte Pilze nicht zwei Tage offen im Sieb. Kochen und zeitnah essen oder einfrieren. Bei Zweifel wegwerfen. Rahmen: [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
+Brühe schnell kühlen und nicht stundenlang warm stehen lassen. Eingewässerte Pilze bleiben nicht zwei Tage offen im Sieb. Kochen, zeitnah essen oder einfrieren. Bei Zweifel wegwerfen. Den Rahmen setzt [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
 
 Allergien und Unverträglichkeiten ernst nehmen. Wildpilz ist kein Kindersnack in großen Mengen.
 
 ## Zeitplan vor Wigilia
 
-Zwei Tage vorher: Beutel prüfen, einweichen im Kühlschrank, Brühe sieben, Pilze hacken. Einen Tag vorher: Uszka füllen oder die Suppe ansetzen. Am 24. nur erhitzen und anrichten.
+Zwei Tage vorher prüfst du den Beutel, weichst im Kühlschrank ein, siebst die Brühe und hackst die Pilze. Einen Tag vorher füllst du die Uszka oder setzt die Suppe an. Am 24. bleibt nur noch erhitzen und anrichten.
 
-Wer am Nachmittag des 24. erst den Beutel aufreißt, zahlt mit hartem Stiel und Gereiztheit. Der [Wigilia-Speiseplan](/de/blog/wigilia-speiseplan) trägt den Abend. Dieser Text trägt nur den Beutel.
+Wer am Nachmittag des 24. erst den Beutel aufreißt, bekommt harte Stiele und unnötige Hektik. Den Abend plant der [Wigilia-Speiseplan](/de/blog/wigilia-speiseplan). Dieser Text hilft nur beim Vorrat.
 
-Zwischen den Feiertagen darf übrige Pilzbrühe in eine kleine Suppe, nicht in den [Sylwester-Tisch](/de/blog/silvester-speiseplan). Silvester ist eine andere Linie.
+Zwischen den Feiertagen darf übrige Pilzbrühe in eine kleine Suppe. Auf den [Sylwester-Tisch](/de/blog/silvester-speiseplan) gehört sie nicht. Silvester ist ein anderer Abend.
 
 ## FAQ
 
 ### Kann ich das Einweichwasser wegschütten, weil es trüb ist?
 
-Nein, nicht aus Gewohnheit. Trüb heißt oft Erde. Sieben, dann kochen. Wegschütten heißt Geschmack verlieren. Nur bei fremdem Geruch oder Schimmel die Charge entsorgen.
+Nicht aus Gewohnheit. Trüb heißt oft Erde. Sieben, dann kochen. Wegschütten heißt Geschmack verlieren. Nur bei fremdem Geruch oder Schimmel die Charge entsorgen.
 
 ### Reichen Champignons für Uszka?
 
-Sie ergeben eine Tasche, nicht die klassische. Wer sie nimmt, sagt Champignon-Uszka. Der getrocknete Steinpilz bleibt die Wigilia-Linie.
+Sie ergeben eine Tasche, aber nicht die klassische. Wer sie nimmt, sagt Champignon-Uszka. Der getrocknete Steinpilz bleibt die Wigilia-Sorte.
 
 ### Sind eingelegte Pilze dasselbe wie getrocknete?
 
-Nein. Lake und Essig gegen Wasser und Trocknung. [Grzyby marynowane](/de/rezepte/grzyby-marynowane) gehören auf den kalten Teller. Der Beutel gehört in Brühe und Füllung.
+Nein. Lake und Essig stehen gegen Wasser und Trocknung. [Grzyby marynowane](/de/rezepte/grzyby-marynowane) gehören auf den kalten Teller. Der Beutel gehört in Brühe und Füllung.
 
 ### Welche Packung im Supermarkt ist die ehrlichste?
 
-Steinpilze getrocknet mit sichtbaren Scheiben und Herkunft auf der Packung. Anonyme Mischungen ohne Art sind die häufigste Enttäuschung.
+Getrocknete Steinpilze mit sichtbaren Scheiben und Herkunft auf der Packung. Anonyme Mischungen ohne Art sind die häufigste Enttäuschung.
 
 ### Darf die Pilzbrühe in den Rosół?
 
-In manchen Häusern ja, als Nuance. Rosół bleibt Hühnerbrühe. Wer den Topf zur Pilzsuppe macht, kocht [Zupa grzybowa](/de/rezepte/zupa-grzybowa) und nennt sie so.
+In manchen Häusern ja, als kleine Nuance. Rosół bleibt Hühnerbrühe. Wer den Topf zur Pilzsuppe macht, kocht [Zupa grzybowa](/de/rezepte/zupa-grzybowa) und nennt sie so.
 
-## Ohne Scham, mit dem Beutel
+## Mit dem richtigen Beutel
 
-Ein kleiner Beutel Steinpilze aus dem Polenladen, gesiebte Brühe und Uszka ohne frische Champignons sind in der Diaspora in Ordnung. Heldentum, das am 24. noch den Wald sucht, ist kein Gewinn an Brauch. Vorher einweichen, sieben, den Namen ehrlich lassen. Der Pilz bleibt klar, wenn getrocknet getrocknet heißt und das Glas ein Glas bleibt.
+Ein kleiner Beutel Steinpilze aus dem Polenladen, gesiebte Brühe und Uszka ohne frische Champignons reichen für den Heiligabend in Deutschland. Am 24. noch den Wald zu suchen bringt selten besseren Geschmack. Weiche vorher ein, siebe das Wasser und nenne das Gericht ehrlich. Getrocknete Pilze bleiben getrocknete Pilze, und das Glas bleibt ein Glas.
 `;
 
 export const bodyMajonezDe = `
