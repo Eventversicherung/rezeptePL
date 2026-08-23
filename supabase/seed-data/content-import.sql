@@ -15629,6 +15629,984 @@ Jemy wkrótce, zamknięta, zimna. Dzień jest zwykły i często lepszy. Dalej sp
 ## Bez wstydu, z chłodem
 
 Maślanka zamiast kefiru, burak z próżni i miska bez ziemniaka są w diasporze w porządku. Bohaterstwo, które w upale jeszcze klaruje bulion, nie jest zyskiem zwyczaju. Wcześniej mieszamy, chłodzimy, zostawiamy uczciwą nazwę. Chłodnik zostaje latem, gdy wychodzi na stół lodowaty.', 'Chłodnik | Zimny burak | Alemniam', 'Chłodnik litewski w Niemczech: kefir, maślanka, nie gorący barszcz. Leksykon obok przepisu, dwujęzycznie.') on conflict (post_id, locale) do update set title = excluded.title, slug = excluded.slug, excerpt = excluded.excerpt, body = excluded.body, seo_title = excluded.seo_title, seo_description = excluded.seo_description;
+-- blog:post-mehltypen
+insert into public.blog_posts (id, status, post_type, cover_image, silo_ids, related_recipe_ids, related_post_ids, related_product_ids, cluster_ids, published_at, updated_at) values ('post-mehltypen', 'published', 'lexicon', 'https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-mehltypen/98471951-2d5b-47f1-a018-574899971bec.webp', array['ingredient', 'technique']::text[], array['recipe-pierogi', 'recipe-kluski-slaskie', 'recipe-kopytka', 'recipe-kluski-kladzione', 'recipe-paczki', 'recipe-makowiec']::text[], array['post-pierogi-teig', 'post-kluski', 'post-paczek-technik', 'post-makowiec-technik']::text[], '{}'::text[], array['technique-teig']::text[], '2026-08-23T16:00:00.000Z', '2026-08-23T16:00:00.000Z') on conflict (id) do update set status = excluded.status, post_type = excluded.post_type, cover_image = excluded.cover_image, silo_ids = excluded.silo_ids, related_recipe_ids = excluded.related_recipe_ids, related_post_ids = excluded.related_post_ids, related_product_ids = excluded.related_product_ids, cluster_ids = excluded.cluster_ids, published_at = excluded.published_at, updated_at = excluded.updated_at;
+insert into public.blog_post_translations (post_id, locale, title, slug, excerpt, body, seo_title, seo_description) values ('post-mehltypen', 'de', 'Mehltypen in DE: 405, 550, Stärke', 'mehltypen-deutschland', 'Welche Tüte für Pierogi, Kluski und Pączki: Type 405, 550, Kartoffelstärke, typische Fehler in deutschen Küchen.', 'Mehl in einer deutschen Küche ist selten dasselbe Wort wie mąka im Elternhaus. Es ist eine Typenzahl auf der Tüte, ein anderes Wasserverhalten und die Frage, warum [Pierogi](/de/rezepte/pierogi/ruskie) reißen, obwohl das Rezept stimmt. Der Name meint Weizenmehl. Der Brauch meint mehr: welche Type für Teig, welche Stärke für schlesische Klöße, und warum Type 405 nicht automatisch die bessere Wahl ist.
+
+Dieser Artikel ist das Lexikon, nicht das Rezeptbuch. Mengen, Knetzeiten und die konkrete Schrittfolge stehen in den Teigbeiträgen und in den einzelnen Rezepten. Hier ordnen wir Tüten, Namen und typische Diaspora-Fehler. Orientierung zu Hygiene beim Teig mit Ei: [bzfe.de](https://www.bzfe.de) und [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
+
+Historisch trägt die polnische Typenzahl den Ausmahlungsgrad, genau wie die deutsche. Typ 450 ist hell und fein, näher an Kuchen. Typ 550 ist der Alltag. Typ 750 und dunkler tragen Brot. In Deutschland steht Type 405 im Kuchenregal und Type 550 daneben, oft ohne Erklärung. Wir ersetzen den Beweisdruck durch eine ehrliche Zuordnung. Eine passende Type schlägt drei Tüten, die niemand unterscheiden kann.
+
+![Mehl, Kartoffelstärke und ein ruhender Pierogi-Teig](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-mehltypen/98471951-2d5b-47f1-a018-574899971bec.webp "Die Type auf der Tüte entscheidet mit, nicht nur die Menge im Rezept.")
+
+## Was die Zahlen wirklich sagen
+
+Type 405 ist hell, fein, wenig Kleber. Sie trägt Rührteig, Mürbeteig, oft die zarte Krume. Für Hefeteig und für einen dehnbaren Pierogi-Teig ist sie allein oft zu schwach. Der Teig wird weich, klebt, reißt beim Formen.
+
+Type 550 ist der Alltagsweizen. Sie trägt [Pierogi-Teig](/de/blog/pierogi-teig), [Kluski kładzione](/de/rezepte/kluski-kladzione), [Pączki](/de/rezepte/paczki), [Makowiec](/de/rezepte/makowiec). Wer in Polen typ 550 oder luksusowa kannte, landet hier zuerst bei 550, nicht bei 405.
+
+Type 812 und 1050 sind dunkler. Mehr Schale, mehr Geschmack, weniger Dehnung. Sie tragen Brot, nicht die feine Naht. Wer sie in Pierogi mischt, braucht einen Grund, nicht Nostalgie.
+
+Vollkorn und Dinkel ersetzen Weizen 550 nicht automatisch. Der [Ersatzprodukte-Guide](/de/blog/ersatzprodukte-de) hilft beim ehrlichen Tausch. Eine glutenfreie Mischung ist ein anderes Gericht. Sie darf auf den Tisch, wenn sie so heißt.
+
+## Pierogi, Kluski, die Teigfamilie
+
+[Pierogi ruskie](/de/rezepte/pierogi/ruskie) und [Pierogi mit Kraut und Pilzen](/de/rezepte/pierogi/kraut-pilze) wollen einen weichen, dehnbaren Teig. In der Praxis trägt Type 550 oder eine Mischung aus 550 und wenig 405. Reine 405 macht den Teig oft zu zart für die Naht. Mengen und Pause stehen im [Pierogi-Teig](/de/blog/pierogi-teig) Beitrag, nicht hier.
+
+[Kopytka](/de/rezepte/kopytka) binden Kartoffel mit Weizen. Wenig 550 reicht. Zu viel Mehl macht sie gummiartig. [Kluski śląskie](/de/rezepte/kluski-slaskie) leben von Kartoffelstärke, nicht von der Weizentype. Wer Weizenmehl in die schlesische Mulde kippt, weil Stärke fehlt, kocht Kopytka unter falschem Namen.
+
+[Kluski kładzione](/de/rezepte/kluski-kladzione) sind Eierteig. Type 550 trägt. 405 macht sie weicher und leichter zerreißbar im Wasser. Die [Kluski-Familie](/de/blog/kluski-familie) ordnet die Namen. Dieses Lexikon sagt nur, welches Pulver in welche Schüssel gehört.
+
+Leniwe, Pyzy, Knedle: Kartoffel oder Twaróg führen, Weizen nur bindet. Erst die Masse, dann das Mehl. Der [Twaróg-Guide](/de/blog/twarog-deutschland) hilft bei Leniwe.
+
+## Pączki und süßer Hefeteig
+
+Pączki brauchen Kleber und Zeit. Type 550 trägt die [Pączek-Technik](/de/blog/paczek-technik) klarer als 405. Reine 405 gibt eine zarte Krume und oft eine flache Form. [Faworki](/de/rezepte/faworki) dürfen heller bleiben, weil sie dünn und knusprig sollen. Der [Faworki-Technik](/de/blog/faworki-technik) Beitrag führt die Platte.
+
+Makowiec ist Hefeteig plus Mohn. Type 550 für die Rolle, 405 nur wenn der Teig sonst zu fest wird. Mohn selbst ist kein Mehl. Der [Mohn-Guide](/de/blog/mohn-deutschland) und die [Makowiec-Technik](/de/blog/makowiec-technik) tragen Füllung und Rolle.
+
+Naleśniki brauchen wenig Mehl und flüssigen Teig. Type 405 oder 550, beide gehen, wenn die Pfanne heiß ist. Der [Naleśniki-Guide](/de/blog/nalesniki-guide) führt die Pfanne, nicht die Type.
+
+![Pączki brauchen Kleber, nicht nur eine helle Tüte](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-paczki/be50cfd6-63a9-423d-b088-3dedb5e6e93b.webp "Type 550 trägt den Hefeteig klarer als reine 405.")
+
+## Stärke ist kein Mehl
+
+Kartoffelstärke heißt im Polenladen oft mąka ziemniaczana. Im deutschen Regal steht sie als Speisestärke aus Kartoffel oder als Kartoffelmehl. Das ist nicht Type 405. Śląskie, mancher Pudding, manche Panade brauchen genau dieses Pulver.
+
+Weizenstärke ist heller und bindet anders. Sie ersetzt Kartoffelstärke nicht eins zu eins. Maisstärke trägt Soßen, nicht die schlesische Mulde.
+
+Gries und Hartweizengrieß sind ein anderes Korngefühl. Sie gehören nicht in nie Pierogi, nur weil die Tüte weiß ist. Wer Kasza oder Grießbrei kocht, nimmt die Tüte, die so heißt.
+
+## Einkauf in zwei Touren
+
+REWE, Kaufland, Lidl: Type 405 und 550 stehen fast immer. 1050 seltener. Kartoffelstärke oft in der Backabteilung, manchmal neben Pudding. Der [Polenladen](/de/blog/polenladen-einkaufen) trägt typ 550, typ 450, manchmal krupczatka, oft die erwartete Kartoffelstärke in der vertrauten Tüte.
+
+Eine Sorte Weizen plus eine Tüte Stärke reichen für die meisten Wochen. Wer fünf Types hortet, weil die Großmutter drei Namen nannte, zahlt mit veraltetem Mehl. Datum lesen. Offene Tüten schließen, trocken lagern, nicht über dem Herd.
+
+Bio und Demeter ändern die Type nicht. Sie ändern den Preis. Die Zahl auf der Tüte bleibt die Zahl.
+
+## Typische Diaspora-Fehler
+
+Erster Fehler: Alles mit 405, weil hell besser wirkt. Pierogi reißen, Pączki bleiben flach, Kluski zerfallen.
+
+Zweiter Fehler: Brotmehl in den Feinteig, weil es gesünder klingt. Die Naht hält, der Biss wird grob, Gäste fragen nach Vollkornpierogi, die niemand wollte.
+
+Dritter Fehler: Stärke und Mehl tauschen. Śląskie ohne Stärke sind andere Klöße. Soße mit Weizenmehl ist eine Mehlschwitze, kein Klöße-Teig.
+
+Vierter Fehler: das Rezept aus Polen 1:1 mit deutscher 405 nachbacken, ohne Wasser anzupassen. Deutsche 405 zieht oft anders. Löffelweise Flüssigkeit, nicht die ganze Schüssel auf einmal.
+
+## Hygiene und Reste
+
+Teig mit Ei bleibt kühl, wenn die Pause lang wird. Nicht in der Sonne auf der Arbeitsplatte über Mittag. Orientierung: [bzfe.de](https://www.bzfe.de).
+
+Roher Teig und Füllung nicht auf demselben Brett wie rohes Fleisch. Mehlstaub ist kein Reiniger. Nach dem Formen die Fläche wischen.
+
+Gefrorene Pierogi und Kluski: der [Freezer-Guide](/de/blog/freezer-meal-prep) trägt die Boxen. Mehl selbst nicht einfrieren. Offene Tüten nach Monaten riechen. Bei Mottengeruch entsorgen. Rahmen: [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
+
+## Arbeit teilen
+
+Eine Person wiegt, eine knetet, eine führt die Pause. In der Diaspora vor [Wigilia](/de/anlaesse/wigilia) oder vor [Tłusty Czwartek](/de/blog/tlusty-czwartek) ist das die einzige Form, in der der Teig freundlich bleibt.
+
+Kinder dürfen sieben und wiegen. Heißes Fett und kochendes Wasser bleiben bei Erwachsenen. Allergien: Weizen vorher klären, nicht nach dem ersten Bissen.
+
+## FAQ
+
+### Kann ich für Pierogi nur Type 405 nehmen?
+
+Manchmal, wenn ihr Wasser und Knetzeit anpasst und die Naht vorsichtig bleibt. Klarer trägt Type 550 oder eine Mischung. Reine 405 ist die häufigste Ursache für reißende Ränder in deutschen Küchen.
+
+### Was entspricht polnischer mąka typ 550?
+
+Am nächsten Type 550. Typ 450 und deutsche 405 sind heller und schwächer. Wer luksusowa kannte, greift hier zur 550.
+
+### Brauchen Kluski śląskie Weizenmehl?
+
+Nein, nicht als Basis. Sie leben von Kartoffel und Kartoffelstärke. Wenig Weizen nur, wenn das Haus das so kennt. Der Name bleibt ehrlich, wenn die Mulde aus Stärke kommt.
+
+### Warum werden Pączki mit 405 flach?
+
+Zu wenig Kleber, oft zu weicher Teig. Type 550 und die Ruhezeit in der [Pączek-Technik](/de/blog/paczek-technik) tragen die Form.
+
+### Darf ich Dinkel statt Weizen nehmen?
+
+Ja, wenn der Teller so heißt. Der Biss und die Dehnung ändern sich. Es ist kein stiller Tausch in einem Pierogi-Rezept, das Weizen meint.
+
+## Ohne Scham, mit der richtigen Tüte
+
+Type 550 aus dem Supermarkt, Kartoffelstärke aus dem Polenladen und ein Teig ohne fünf Mehlsorten sind in der Diaspora in Ordnung. Heldentum, das drei Types mischt, weil das Internet es so will, ist kein Gewinn an Brauch. Vorher die Tüte lesen, Wasser löffelweise geben, den Namen ehrlich lassen. Der Teig bleibt klar, wenn 550 550 heißt und Stärke Stärke.', 'Mehltypen DE | 405 und 550 | Alemniam', 'Mehl in Deutschland: Type 405, 550, Kartoffelstärke. Lexikon für Pierogi, Kluski, Pączki, bilingual, ohne Rezeptduplikat.') on conflict (post_id, locale) do update set title = excluded.title, slug = excluded.slug, excerpt = excluded.excerpt, body = excluded.body, seo_title = excluded.seo_title, seo_description = excluded.seo_description;
+insert into public.blog_post_translations (post_id, locale, title, slug, excerpt, body, seo_title, seo_description) values ('post-mehltypen', 'pl', 'Typy mąki w DE: 405, 550, skrobia', 'typy-maki-w-niemczech', 'Który worek na pierogi, kluski i pączki: typ 405, 550, skrobia ziemniaczana, typowe błędy w niemieckich kuchniach.', 'Mąka w niemieckiej kuchni rzadko jest tym samym słowem co w domu rodziców. To numer typu na worku, inne zachowanie wody i pytanie, dlaczego [pierogi](/pl/rezepte/pierogi/ruskie) pękają, choć przepis się zgadza. Nazwa znaczy mąkę pszenną. Zwyczaj znaczy więcej: który typ na ciasto, jaka skrobia na śląskie, i dlaczego typ 405 nie jest automatycznie lepszym wyborem.
+
+Ten artykuł jest leksykonem, nie książką przepisów. Ilości, czasy wyrabiania i konkretna kolejność kroków są w tekstach o cieście i w pojedynczych przepisach. Tutaj porządkujemy worki, nazwy i typowe błędy diaspory. Orientacja o higienie ciasta z jajkiem: [bzfe.de](https://www.bzfe.de) oraz [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
+
+Historycznie polski numer typu niesie stopień przemiału, tak samo jak niemiecki. Typ 450 jest jasny i drobny, bliżej ciasta. Typ 550 jest codziennością. Typ 750 i ciemniejsze niosą chleb. W Niemczech typ 405 stoi w regale ciast, typ 550 obok, często bez wyjaśnienia. Dowód zastępujemy uczciwym przypisaniem. Trafiony typ bije trzy worki, których nikt nie umie odróżnić.
+
+![Mąka, skrobia ziemniaczana i odpoczywające ciasto na pierogi](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-mehltypen/98471951-2d5b-47f1-a018-574899971bec.webp "Typ na worku decyduje razem z ilością w przepisie.")
+
+## Co naprawdę mówią liczby
+
+Typ 405 jest jasny, drobny, z mniejszą ilością glutenu. Niesie ciasta ucierane, kruche, często delikatny miękisz. Do ciasta drożdżowego i rozciągliwego ciasta na pierogi sam bywa za słaby. Ciasto robi się miękkie, klei, pęka przy lepieniu.
+
+Typ 550 to pszenica codzienności. Niesie [ciasto na pierogi](/pl/blog/ciasto-na-pierogi), [kluski kładzione](/pl/rezepte/kluski-kladzione), [pączki](/pl/rezepte/paczki), [makowiec](/pl/rezepte/makowiec). Kto w Polsce znał typ 550 albo luksusową, tutaj najpierw bierze 550, nie 405.
+
+Typ 812 i 1050 są ciemniejsze. Więcej okrywy, więcej smaku, mniej rozciągliwości. Niosą chleb, nie cienki szew. Kto miesza je do pierogów, potrzebuje powodu, nie nostalgii.
+
+Pełne ziarno i orkisz nie zastępują pszenicy 550 automatycznie. [Przewodnik o zamiennikach](/pl/blog/zamienniki-skladnikow) pomaga przy uczciwej wymianie. Mieszanka bezglutenowa to inne danie. Może na stół, gdy tak się nazywa.
+
+## Pierogi, kluski, rodzina ciasta
+
+[Pierogi ruskie](/pl/rezepte/pierogi/ruskie) i [pierogi z kapustą i grzybami](/pl/rezepte/pierogi/kapusta-grzyby) chcą miękkiego, rozciągliwego ciasta. W praktyce niesie typ 550 albo mieszanka 550 i odrobiny 405. Czysta 405 często robi ciasto zbyt delikatne na szew. Ilości i przerwę daje tekst [ciasto na pierogi](/pl/blog/ciasto-na-pierogi), nie ten leksykon.
+
+[Kopytka](/pl/rezepte/kopytka) wiążą ziemniak z pszenicą. Mało 550 wystarczy. Za dużo mąki robi je gumowate. [Kluski śląskie](/pl/rezepte/kluski-slaskie) żyją ze skrobi ziemniaczanej, nie z typu pszenicy. Kto sypie mąkę pszenną do śląskiej dziurki, bo brakuje skrobi, gotuje kopytka pod złą nazwą.
+
+[Kluski kładzione](/pl/rezepte/kluski-kladzione) to ciasto jajeczne. Typ 550 niesie. 405 robi je miększe i łatwiej rozpadające się w wodzie. [Rodzina klusek](/pl/blog/rodzina-klusek) porządkuje nazwy. Ten leksykon mówi tylko, który proszek do której miski.
+
+Leniwe, pyzy, knedle: ziemniak albo twaróg prowadzą, pszenica tylko wiąże. Najpierw masa, potem mąka. [Przewodnik o twarogu](/pl/blog/twarog-w-niemczech) pomaga przy leniwych.
+
+## Pączki i słodkie ciasto drożdżowe
+
+Pączki potrzebują glutenu i czasu. Typ 550 niesie [technikę pączka](/pl/blog/paczki-technika) czytelniej niż 405. Czysta 405 daje delikatny miękisz i często płaski kształt. [Faworki](/pl/rezepte/faworki) mogą zostać jaśniejsze, bo mają być cienkie i chrupkie. Tekst [technika faworków](/pl/blog/faworki-technika) prowadzi blachę.
+
+Makowiec to ciasto drożdżowe plus mak. Typ 550 na rolkę, 405 tylko gdy ciasto jest za twarde. Sam mak nie jest mąką. [Przewodnik o maku](/pl/blog/mak-w-niemczech) i [technika makowca](/pl/blog/makowiec-technika) niosą nadzienie i rolkę.
+
+Naleśniki potrzebują mało mąki i rzadkiego ciasta. Typ 405 albo 550, oba przechodzą, gdy patelnia jest gorąca. [Przewodnik o naleśnikach](/pl/blog/nalesniki-przewodnik) prowadzi patelnię, nie typ.
+
+![Pączki potrzebują glutenu, nie tylko jasnego worka](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-paczki/be50cfd6-63a9-423d-b088-3dedb5e6e93b.webp "Typ 550 niesie ciasto drożdżowe czytelniej niż czysta 405.")
+
+## Skrobia to nie mąka
+
+Skrobia ziemniaczana w sklepie polskim często nazywa się mąka ziemniaczana. W niemieckim regale stoi jako Speisestärke z ziemniaka albo Kartoffelmehl. To nie typ 405. Śląskie, niektóre budynie, niektóre panierki potrzebują właśnie tego proszku.
+
+Skrobia pszenna jest jaśniejsza i wiąże inaczej. Nie zastępuje skrobi ziemniaczanej jeden do jednego. Skrobia kukurydziana niesie sosy, nie śląską dziurkę.
+
+Kasza manna i semolina z durum to inne ziarno. Nie wchodzą do pierogów tylko dlatego, że worek jest biały. Kto gotuje kaszę albo kleik, bierze worek, który tak się nazywa.
+
+## Zakupy w dwóch turach
+
+REWE, Kaufland, Lidl: typ 405 i 550 stoją prawie zawsze. 1050 rzadziej. Skrobia ziemniaczana często w dziale wypieków, czasem obok budyniu. [Sklep polski](/pl/blog/sklep-polski-zakupy) niesie typ 550, typ 450, czasem krupczatkę, często oczekiwaną skrobię w znanym worku.
+
+Jedna odmiana pszenicy plus jeden worek skrobi wystarczą na większość tygodni. Kto magazynuje pięć typów, bo babcia wymieniła trzy nazwy, płaci przeterminowaną mąką. Czytamy datę. Otwarte worki zamykamy, trzymamy sucho, nie nad kuchenką.
+
+Bio i Demeter nie zmieniają typu. Zmieniają cenę. Numer na worku zostaje numerem.
+
+## Typowe błędy diaspory
+
+Pierwszy błąd: wszystko na 405, bo jasne wygląda lepiej. Pierogi pękają, pączki zostają płaskie, kluski się rozpadają.
+
+Drugi błąd: mąka chlebowa do ciasta delikatnego, bo brzmi zdrowiej. Szew trzyma, kęs robi się gruby, goście pytają o pełnoziarniste pierogi, których nikt nie chciał.
+
+Trzeci błąd: zamiana skrobi i mąki. Śląskie bez skrobi to inne kluski. Sos z mąką pszenną to zasmażka, nie ciasto na kluski.
+
+Czwarty błąd: przepis z Polski odtworzony jeden do jednego na niemieckiej 405, bez korekty wody. Niemiecka 405 często ciągnie inaczej. Płyn łyżkami, nie całą miską naraz.
+
+## Higiena i resztki
+
+Ciasto z jajkiem zostaje chłodne, gdy przerwa się wydłuża. Nie na słońcu na blacie przez południe. Orientacja: [bzfe.de](https://www.bzfe.de).
+
+Surowe ciasto i nadzienie nie na tej samej desce co surowe mięso. Pył mączny nie jest środkiem czystości. Po lepieniu wycieramy blat.
+
+Mrożone pierogi i kluski: [przewodnik o mrożeniu](/pl/blog/mrozenie-pierogow) niesie pudełka. Samej mąki nie mrozimy. Otwarte worki po miesiącach pachną. Przy zapachu moli wyrzucamy. Ramy: [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
+
+## Podział pracy
+
+Jedna osoba waży, jedna wyrabia, jedna pilnuje przerwy. W diasporze przed [Wigilią](/pl/anlaesse/wigilia) albo przed [tłustym czwartkiem](/pl/blog/tlusty-czwartek-przepisy) to jedyna forma, w której ciasto zostaje przyjazne.
+
+Dzieci mogą przesiewać i ważyć. Gorący tłuszcz i wrzątek zostają przy dorosłych. Alergie: pszenicę wyjaśniamy wcześniej, nie po pierwszym kęsie.
+
+## FAQ
+
+### Czy na pierogi mogę wziąć tylko typ 405?
+
+Czasem, gdy poprawicie wodę i wyrabianie, a szew zostanie ostrożny. Czytelniej niesie typ 550 albo mieszanka. Czysta 405 to najczęstsza przyczyna pękających brzegów w niemieckich kuchniach.
+
+### Co odpowiada polskiej mące typ 550?
+
+Najbliżej typ 550. Typ 450 i niemiecka 405 są jaśniejsze i słabsze. Kto znał luksusową, tutaj sięga po 550.
+
+### Czy kluski śląskie potrzebują mąki pszennej?
+
+Nie jako bazy. Żyją z ziemniaka i skrobi. Trochę pszenicy tylko, gdy dom tak zna. Nazwa zostaje uczciwa, gdy dziurka wychodzi ze skrobi.
+
+### Dlaczego pączki z 405 wychodzą płaskie?
+
+Za mało glutenu, często za miękkie ciasto. Typ 550 i odpoczynek w [technice pączka](/pl/blog/paczki-technika) niosą kształt.
+
+### Czy mogę wziąć orkisz zamiast pszenicy?
+
+Tak, gdy talerz tak się nazywa. Kęs i rozciągliwość się zmieniają. To nie cicha zamiana w przepisie na pierogi, który znaczy pszenicę.
+
+## Bez wstydu, z właściwym workiem
+
+Typ 550 z supermarketu, skrobia ze sklepu polskiego i ciasto bez pięciu mąk są w diasporze w porządku. Bohaterstwo, które miesza trzy typy, bo tak chce internet, nie jest zyskiem zwyczaju. Najpierw czytamy worek, wodę dajemy łyżkami, nazwę zostawiamy uczciwą. Ciasto zostaje jasne, gdy 550 znaczy 550, a skrobia skrobię.', 'Typy mąki DE | 405 i 550 | Alemniam', 'Mąka w Niemczech: typ 405, 550, skrobia. Leksykon na pierogi, kluski, pączki, dwujęzycznie, bez duplikatu przepisu.') on conflict (post_id, locale) do update set title = excluded.title, slug = excluded.slug, excerpt = excluded.excerpt, body = excluded.body, seo_title = excluded.seo_title, seo_description = excluded.seo_description;
+-- blog:post-pilze
+insert into public.blog_posts (id, status, post_type, cover_image, silo_ids, related_recipe_ids, related_post_ids, related_product_ids, cluster_ids, published_at, updated_at) values ('post-pilze', 'published', 'lexicon', 'https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-pilze/a9611279-f01a-4f5e-9566-f6e5e2b58668.webp', array['ingredient', 'technique']::text[], array['recipe-zupa-grzybowa', 'recipe-uszka', 'recipe-barszcz', 'recipe-rosol', 'recipe-grzyby-marynowane']::text[], array['post-wigilia', 'post-polnische-suppen', 'post-barszcz-technik', 'post-rosol-technik']::text[], '{}'::text[], array['occasion-wigilia', 'technique-bulion']::text[], '2026-08-23T16:10:00.000Z', '2026-08-23T16:10:00.000Z') on conflict (id) do update set status = excluded.status, post_type = excluded.post_type, cover_image = excluded.cover_image, silo_ids = excluded.silo_ids, related_recipe_ids = excluded.related_recipe_ids, related_post_ids = excluded.related_post_ids, related_product_ids = excluded.related_product_ids, cluster_ids = excluded.cluster_ids, published_at = excluded.published_at, updated_at = excluded.updated_at;
+insert into public.blog_post_translations (post_id, locale, title, slug, excerpt, body, seo_title, seo_description) values ('post-pilze', 'de', 'Getrocknete Pilze: Borowiki, Einweichen, Brühe', 'getrocknete-pilze', 'Steinpilze kaufen, einweichen, Brühe sieben: was Uszka, Barszcz und Zupa grzybowa brauchen, und warum das Glas ein anderes Gericht ist.', 'Getrocknete Pilze in Deutschland sind selten der Korb aus dem Wald hinter dem Dorf. Es ist ein Beutel zwischen Polenladen, Steinpilzregal bei REWE und der Frage, warum der [Barszcz](/de/rezepte/barszcz-czerwony) nach nichts riecht. Der Name meint suszone grzyby, meist Borowiki. Der Brauch meint mehr: welches Pack, wie einweichen, wohin die Brühe, und warum eingelegte Pilze ein anderes Gericht sind.
+
+Dieser Artikel ist das Lexikon, nicht das Rezeptbuch. Mengen, Einweichzeiten und die konkrete Schrittfolge stehen in [Zupa grzybowa](/de/rezepte/zupa-grzybowa), [Uszka](/de/rezepte/uszka) und [Barszcz-Technik](/de/blog/barszcz-technik). Hier ordnen wir Beutel, Namen und den Winter in der Diaspora. Orientierung zu Hygiene bei Wildpilzen und Brühe: [bzfe.de](https://www.bzfe.de) und [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
+
+Historisch tragen getrocknete Steinpilze den Winter, wenn der Wald zu ist. Die Scheiben, das dunkle Wasser, der Geruch nach Keller und Nadel. In der Volksrepublik und danach blieb der Beutel die Vorratskammer. In Deutschland steht daneben eine Mischung aus China, eine Tüte Champignonpulver und eingelegte Mischpilze im Glas. Wir ersetzen den Beweisdruck durch einen klaren Unterschied. Echte getrocknete Borowiki plus ihre Brühe schlagen drei Gläser, die nach Essig riechen.
+
+![Getrocknete Steinpilze, Einweichwasser, ein paar weiche Scheiben](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-pilze/a9611279-f01a-4f5e-9566-f6e5e2b58668.webp "Das dunkle Wasser gehört in den Topf, nicht in den Abfluss.")
+
+## Was der Beutel sein darf
+
+Borowiki, auf Deutsch Steinpilze, sind die klare Linie. Extra, Klasse I, ganze Scheiben: teurer, weniger Krümel, mehr Duft. Eine Waldmischung darf, wenn die Packung Steinpilzanteil nennt. Eine anonyme Tüte getrocknete Pilze ohne Art ist ein Risiko für Geschmack und für unsichere Ware.
+
+Der [Polenladen](/de/blog/polenladen-einkaufen) trägt oft die erwarteten suszone borowiki. REWE und Kaufland tragen Steinpilze getrocknet, manchmal nur in der Saison oder in der Feinkost. Preis pro 100 Gramm vergleichen, nicht die kleine Tüte gegen den großen Beutel ohne Waage.
+
+Frische Champignons ersetzen den Beutel nicht. Sie tragen Alltagssauce, nicht Uszka und nicht den Weihnachtsbarszcz. Wer sie mischt, sagt es am Tisch. Der [Ersatzprodukte-Guide](/de/blog/ersatzprodukte-de) hilft beim ehrlichen Tausch, nicht beim Verstecken.
+
+Pfifferlinge getrocknet sind eine andere Süße. Sie dürfen in eine Herbstsuppe, sie sind nicht der Wigilia-Steinpilz.
+
+## Einweichen, nicht wegschütten
+
+Kaltes oder lauwarmes Wasser, Zeit, Gewicht. Heißes Wasser zieht schneller und oft bitterer. Eine Stunde ist das Minimum für dünne Scheiben. Dicke Stücke wollen länger, oft über Nacht im Kühlschrank.
+
+Das Wasser ist Brühe. Es trägt [Zupa grzybowa](/de/rezepte/zupa-grzybowa), [Barszcz](/de/rezepte/barszcz-czerwony), manchmal [Rosół](/de/rezepte/rosol), wenn das Haus das so kennt. Vorher durch ein feines Sieb oder Tuch, weil Sand und Erde mitkommen. Wer das Wasser wegschüttet, schüttet den Geschmack weg und kocht danach mit Würze.
+
+Die weichen Pilze klein schneiden, hartes Stielende prüfen. Was lederig bleibt, länger ziehen oder fein hacken für Uszka. Was schimmelig oder fremd riecht, entsorgen, nicht in den Festtopf.
+
+![Klare Pilzsuppe aus dem eingeweichten Beutel](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-zupa-grzybowa/4ae13a23-9f9d-4886-a2a9-e487414bd014.webp "Die Suppe trägt den Beutel, wenn das Einweichwasser mitkocht.")
+
+## Wohin die Pilze gehören
+
+[Uszka](/de/rezepte/uszka) sind die kleine Tasche der [Wigilia](/de/blog/wigilia-speiseplan). Die Füllung will gehackte getrocknete Pilze, Zwiebel, oft etwas Kraut. Frische Champignons machen eine andere Tasche. Ehrlich benennen.
+
+[Pierogi mit Kraut und Pilzen](/de/rezepte/pierogi/kraut-pilze) teilen die Logik. Der Beutel trägt, das Kraut trägt, Sahne ist kein Pflichtmantel.
+
+Zupa grzybowa ist die klare oder sämige Schüssel, nicht Barszcz. Der [Suppen-Guide](/de/blog/polnische-suppen) ordnet die Familie. [Barszcz-Technik](/de/blog/barszcz-technik) sagt, wann Pilzbrühe in die rote Schüssel darf: als Tiefe, nicht als zweite Suppe im selben Teller.
+
+Rosół bleibt Hühnerbrühe. Der [Rosół-Technik](/de/blog/rosol-technik) Beitrag führt den Topf. Ein paar eingeweichte Steinpilze sind in manchen Häusern Erlaubnis, nicht Pflicht. Sie machen daraus keine Pilzsuppe.
+
+## Was Grzyby marynowane nicht sind
+
+[Grzyby marynowane](/de/rezepte/grzyby-marynowane) sind eingelegt, sauer, oft als Vorspeise oder zum Wodka. Sie ersetzen den getrockneten Beutel nicht. Wer sie in Uszka hackt, kocht eine saure Füllung und wundert sich.
+
+Frisch eingelegte Mischpilze aus dem Glas schmecken nach Lake, nicht nach Wald. Sie dürfen auf den kalten Teller. Sie gehören nicht in den Barszcz, nur weil beide Pilz heißen.
+
+Getrocknete Shiitake aus dem Asia-Regal dürfen in den Alltagstopf, wenn der Name so bleibt. Sie sind kein stiller Ersatz für borowiki an Heiligabend.
+
+## Einkauf und Lager
+
+Kleine Tüten, fest verschlossen, dunkel, trocken. Große Beutel nur, wenn ihr dieses Jahr wirklich kocht. Motten und Feuchtigkeit zerstören den Vorrat. Datum und Geruch vor dem Einweichen.
+
+Preis: echte Steinpilze sind teuer. Eine Mischung mit viel Bruch ist billiger und oft staubig. Für Uszka lohnt die bessere Scheibe. Für eine große Suppe darf Bruch, wenn der Duft stimmt.
+
+Listen nach Gericht schreiben. Was Uszka brauchen, eine Zeile. Was die Suppe braucht, die nächste. Ein Beutel für zwei Gerichte am 24. ist Planung, nicht Geiz, wenn die Menge reicht.
+
+## Hygiene und Wildpilz
+
+Nur gekaufte, gekennzeichnete Ware, wenn ihr den Wald in DE nicht sicher kennt. Selbst gesammelte Pilze sind eine eigene Verantwortung und keine Empfehlung in diesem Text. Orientierung: [bzfe.de](https://www.bzfe.de).
+
+Brühe schnell kühlen, nicht stundenlang warm. Eingewässerte Pilze nicht zwei Tage offen im Sieb. Kochen und zeitnah essen oder einfrieren. Bei Zweifel wegwerfen. Rahmen: [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
+
+Allergien und Unverträglichkeiten ernst nehmen. Wildpilz ist kein Kindersnack in großen Mengen.
+
+## Zeitplan vor Wigilia
+
+Zwei Tage vorher: Beutel prüfen, einweichen im Kühlschrank, Brühe sieben, Pilze hacken. Einen Tag vorher: Uszka füllen oder die Suppe ansetzen. Am 24. nur erhitzen und anrichten.
+
+Wer am Nachmittag des 24. erst den Beutel aufreißt, zahlt mit hartem Stiel und Gereiztheit. Der [Wigilia-Speiseplan](/de/blog/wigilia-speiseplan) trägt den Abend. Dieser Text trägt nur den Beutel.
+
+Zwischen den Feiertagen darf übrige Pilzbrühe in eine kleine Suppe, nicht in den [Sylwester-Tisch](/de/blog/silvester-speiseplan). Silvester ist eine andere Linie.
+
+## FAQ
+
+### Kann ich das Einweichwasser wegschütten, weil es trüb ist?
+
+Nein, nicht aus Gewohnheit. Trüb heißt oft Erde. Sieben, dann kochen. Wegschütten heißt Geschmack verlieren. Nur bei fremdem Geruch oder Schimmel die Charge entsorgen.
+
+### Reichen Champignons für Uszka?
+
+Sie ergeben eine Tasche, nicht die klassische. Wer sie nimmt, sagt Champignon-Uszka. Der getrocknete Steinpilz bleibt die Wigilia-Linie.
+
+### Sind eingelegte Pilze dasselbe wie getrocknete?
+
+Nein. Lake und Essig gegen Wasser und Trocknung. [Grzyby marynowane](/de/rezepte/grzyby-marynowane) gehören auf den kalten Teller. Der Beutel gehört in Brühe und Füllung.
+
+### Welche Packung im Supermarkt ist die ehrlichste?
+
+Steinpilze getrocknet mit sichtbaren Scheiben und Herkunft auf der Packung. Anonyme Mischungen ohne Art sind die häufigste Enttäuschung.
+
+### Darf die Pilzbrühe in den Rosół?
+
+In manchen Häusern ja, als Nuance. Rosół bleibt Hühnerbrühe. Wer den Topf zur Pilzsuppe macht, kocht [Zupa grzybowa](/de/rezepte/zupa-grzybowa) und nennt sie so.
+
+## Ohne Scham, mit dem Beutel
+
+Ein kleiner Beutel Steinpilze aus dem Polenladen, gesiebte Brühe und Uszka ohne frische Champignons sind in der Diaspora in Ordnung. Heldentum, das am 24. noch den Wald sucht, ist kein Gewinn an Brauch. Vorher einweichen, sieben, den Namen ehrlich lassen. Der Pilz bleibt klar, wenn getrocknet getrocknet heißt und das Glas ein Glas bleibt.', 'Getrocknete Pilze | Borowiki Guide | Alemniam', 'Suszone borowiki in Deutschland: Packung, Einweichen, Brühe. Lexikon neben Uszka und Pilzsuppe, bilingual.') on conflict (post_id, locale) do update set title = excluded.title, slug = excluded.slug, excerpt = excluded.excerpt, body = excluded.body, seo_title = excluded.seo_title, seo_description = excluded.seo_description;
+insert into public.blog_post_translations (post_id, locale, title, slug, excerpt, body, seo_title, seo_description) values ('post-pilze', 'pl', 'Suszone grzyby: borowiki, moczenie, wywar', 'suszone-grzyby', 'Borowiki kupić, namoczyć, wywar przecedzić: czego potrzebują uszka, barszcz i zupa grzybowa, i dlaczego słoik to inne danie.', 'Suszone grzyby w Niemczech rzadko są koszykiem z lasu za wsią. To woreczek między sklepem polskim, regałem ze Steinpilze w REWE i pytaniem, dlaczego [barszcz](/pl/rezepte/barszcz-czerwony) niczym nie pachnie. Nazwa znaczy suszone grzyby, zwykle borowiki. Zwyczaj znaczy więcej: które opakowanie, jak moczyć, dokąd idzie wywar, i dlaczego grzyby marynowane to inne danie.
+
+Ten artykuł jest leksykonem, nie książką przepisów. Ilości, czasy moczenia i konkretna kolejność kroków są w [zupie grzybowej](/pl/rezepte/zupa-grzybowa), [uszkach](/pl/rezepte/uszka) i [jak ugotować barszcz](/pl/blog/jak-ugotowac-barszcz). Tutaj porządkujemy woreczki, nazwy i zimę w diasporze. Orientacja o higienie grzybów leśnych i wywaru: [bzfe.de](https://www.bzfe.de) oraz [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
+
+Historycznie suszone borowiki niosą zimę, gdy las jest zamknięty. Plastry, ciemna woda, zapach piwnicy i igliwia. W PRL i potem woreczek zostawał spiżarnią. W Niemczech obok stoi mieszanka z Chin, torebka proszku z pieczarek i marynowane grzyby w słoiku. Dowód zastępujemy czytelną różnicą. Prawdziwe suszone borowiki plus ich wywar biją trzy słoiki, które pachną octem.
+
+![Suszone borowiki, woda z moczenia, kilka miękkich plastrów](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-pilze/a9611279-f01a-4f5e-9566-f6e5e2b58668.webp "Ciemna woda idzie do garnka, nie do zlewu.")
+
+## Czym może być woreczek
+
+Borowiki, po niemiecku Steinpilze, są czytelną linią. Extra, klasa I, całe plastry: drożej, mniej okruchów, więcej zapachu. Mieszanka leśna może, gdy opakowanie podaje udział borowika. Anonimowa torebka suszonych grzybów bez gatunku to ryzyko smaku i niepewnego towaru.
+
+[Sklep polski](/pl/blog/sklep-polski-zakupy) często niesie oczekiwane suszone borowiki. REWE i Kaufland niosą Steinpilze getrocknet, czasem tylko w sezonie albo w delikatesach. Porównujemy cenę za 100 gramów, nie małą torebkę z dużym workiem bez wagi.
+
+Świeże pieczarki nie zastępują woreczka. Niosą codzienny sos, nie uszka i nie wigilijny barszcz. Kto je miesza, mówi to przy stole. [Przewodnik o zamiennikach](/pl/blog/zamienniki-skladnikow) pomaga przy uczciwej wymianie, nie przy ukrywaniu.
+
+Suszone kurki to inna słodycz. Mogą iść do jesiennej zupy, nie są wigilijnym borowikiem.
+
+## Moczenie, nie wylewanie
+
+Zimna albo letnia woda, czas, ciężar. Gorąca woda ciągnie szybciej i często bardziej gorzko. Godzina to minimum dla cienkich plastrów. Grube kawałki chcą dłużej, często przez noc w lodówce.
+
+Woda jest wywarem. Niesie [zupę grzybową](/pl/rezepte/zupa-grzybowa), [barszcz](/pl/rezepte/barszcz-czerwony), czasem [rosół](/pl/rezepte/rosol), gdy dom tak zna. Najpierw przez gęste sitko albo płótno, bo piasek i ziemia jadą razem. Kto wylewa wodę, wylewa smak i potem gotuje na przyprawie.
+
+Miękkie grzyby kroimy drobno, twarde końce trzonów sprawdzamy. Co zostaje skórzaste, moczymy dłużej albo siekamy drobno do uszek. Co pleśnieje albo pachnie obco, wyrzucamy, nie do świątecznego garnka.
+
+![Jasna zupa grzybowa z namoczonego woreczka](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-zupa-grzybowa/4ae13a23-9f9d-4886-a2a9-e487414bd014.webp "Zupa niesie woreczek, gdy woda z moczenia gotuje się razem.")
+
+## Dokąd idą grzyby
+
+[Uszka](/pl/rezepte/uszka) to mała kieszonka [Wigilii](/pl/blog/menu-wigilijne). Nadzienie chce posiekane suszone grzyby, cebulę, często trochę kapusty. Świeże pieczarki robią inną kieszonkę. Nazywamy uczciwie.
+
+[Pierogi z kapustą i grzybami](/pl/rezepte/pierogi/kapusta-grzyby) dzielą tę logikę. Woreczek niesie, kapusta niesie, śmietana nie jest obowiązkowym płaszczem.
+
+Zupa grzybowa to jasna albo gęstsza miska, nie barszcz. [Przewodnik o zupach](/pl/blog/polskie-zupy) porządkuje rodzinę. [Jak ugotować barszcz](/pl/blog/jak-ugotowac-barszcz) mówi, kiedy wywar grzybowy może wejść do czerwonej miski: jako głębia, nie jako druga zupa na tym samym talerzu.
+
+Rosół zostaje bulionem drobiowym. Tekst [jak ugotować rosół](/pl/blog/jak-ugotowac-rosol) prowadzi garnek. Kilka namoczonych borowików w niektórych domach jest zgodą, nie obowiązkiem. Nie robią z tego zupy grzybowej.
+
+## Czym nie są grzyby marynowane
+
+[Grzyby marynowane](/pl/rezepte/grzyby-marynowane) są w zalewie, kwaśne, często jako przystawka albo do wódki. Nie zastępują suszonego woreczka. Kto sieka je do uszek, gotuje kwaśne nadzienie i dziwi się.
+
+Świeżo marynowane mieszanki ze słoika smakują zalewą, nie lasem. Mogą na zimny talerz. Nie idą do barszczu tylko dlatego, że obie rzeczy nazywają się grzybami.
+
+Suszone shiitake z regału azjatyckiego mogą do codziennego garnka, gdy nazwa tak zostaje. Nie są cichą zamianą borowików w Wigilię.
+
+## Zakupy i przechowywanie
+
+Małe torebki, szczelnie, ciemno, sucho. Duże worki tylko, gdy naprawdę gotujecie w tym roku. Mole i wilgoć niszczą zapas. Data i zapach przed moczeniem.
+
+Cena: prawdziwe borowiki są drogie. Mieszanka z dużą ilością kruszu jest tańsza i często pylista. Do uszek opłaca się lepszy plaster. Do dużej zupy może krusz, gdy zapach się zgadza.
+
+Listy piszemy według dania. Co potrzebują uszka, jedna linia. Co zupa, następna. Jeden woreczek na dwa dania 24 grudnia to plan, nie skąpstwo, gdy ilości starczy.
+
+## Higiena i grzyb leśny
+
+Tylko kupiony, oznaczony towar, gdy lasu w DE nie znacie pewnie. Zbierane samodzielnie grzyby to osobna odpowiedzialność i nie jest rekomendacją w tym tekście. Orientacja: [bzfe.de](https://www.bzfe.de).
+
+Wywar szybko studzimy, nie trzymamy godzinami ciepły. Namoczonych grzybów nie zostawiamy dwa dni otwartych na sicie. Gotujemy i jemy wkrótce albo mrozimy. Przy wątpliwości wyrzucamy. Ramy: [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
+
+Alergie i nietolerancje traktujemy poważnie. Grzyb leśny nie jest przekąską dla dzieci w dużych ilościach.
+
+## Harmonogram przed Wigilią
+
+Dwa dni wcześniej: sprawdzamy woreczek, moczymy w lodówce, przecedzamy wywar, siekamy grzyby. Dzień wcześniej: nadziewamy uszka albo stawiamy zupę. 24. tylko podgrzewamy i nakładamy.
+
+Kto po południu 24. dopiero rozrywa woreczek, płaci twardym trzonem i irytacją. [Menu wigilijne](/pl/blog/menu-wigilijne) niesie wieczór. Ten tekst niesie tylko woreczek.
+
+Między świętami resztka wywaru może iść do małej zupy, nie na [stół sylwestrowy](/pl/blog/menu-sylwester). Sylwester to inna linia.
+
+## FAQ
+
+### Czy mogę wylać wodę z moczenia, bo jest mętna?
+
+Nie z przyzwyczajenia. Męt często znaczy ziemię. Przecedzamy, potem gotujemy. Wylanie znaczy utratę smaku. Tylko przy obcym zapachu albo pleśni wyrzucamy całą partię.
+
+### Czy pieczarki wystarczą do uszek?
+
+Dają kieszonkę, nie klasykę. Kto je bierze, mówi uszka z pieczarkami. Suszony borowik zostaje linią Wigilii.
+
+### Czy grzyby marynowane to to samo co suszone?
+
+Nie. Zalewa i ocet kontra woda i suszenie. [Grzyby marynowane](/pl/rezepte/grzyby-marynowane) idą na zimny talerz. Woreczek idzie do wywaru i nadzienia.
+
+### Które opakowanie w supermarkecie jest najuczciwsze?
+
+Steinpilze getrocknet z widocznymi plastrami i pochodzeniem na opakowaniu. Anonimowe mieszanki bez gatunku to najczęstsze rozczarowanie.
+
+### Czy wywar grzybowy może iść do rosołu?
+
+W niektórych domach tak, jako niuans. Rosół zostaje bulionem drobiowym. Kto robi z garnka zupę grzybową, gotuje [zupę grzybową](/pl/rezepte/zupa-grzybowa) i tak ją nazywa.
+
+## Bez wstydu, z woreczkiem
+
+Mały woreczek borowików ze sklepu polskiego, przecedzony wywar i uszka bez świeżych pieczarek są w diasporze w porządku. Bohaterstwo, które 24. jeszcze szuka lasu, nie jest zyskiem zwyczaju. Najpierw moczymy, przecedzamy, nazwę zostawiamy uczciwą. Grzyb zostaje jasny, gdy suszone znaczy suszone, a słoik słoik.', 'Suszone grzyby | Borowiki | Alemniam', 'Suszone borowiki w Niemczech: opakowanie, moczenie, wywar. Leksykon obok uszek i zupy grzybowej, dwujęzycznie.') on conflict (post_id, locale) do update set title = excluded.title, slug = excluded.slug, excerpt = excluded.excerpt, body = excluded.body, seo_title = excluded.seo_title, seo_description = excluded.seo_description;
+-- blog:post-majonez
+insert into public.blog_posts (id, status, post_type, cover_image, silo_ids, related_recipe_ids, related_post_ids, related_product_ids, cluster_ids, published_at, updated_at) values ('post-majonez', 'published', 'lexicon', 'https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-majonez/067ea59c-b63e-4d42-9280-daa5e3b7510b.webp', array['ingredient']::text[], array['recipe-salatka-jarzynowa', 'recipe-jajka-faszerowane', 'recipe-tatar']::text[], array['post-smietana-schmand', 'post-wielkanoc', 'post-imieniny', 'post-polenladen']::text[], '{}'::text[], array['occasion-imieniny', 'occasion-wielkanoc']::text[], '2026-08-23T16:20:00.000Z', '2026-08-23T16:20:00.000Z') on conflict (id) do update set status = excluded.status, post_type = excluded.post_type, cover_image = excluded.cover_image, silo_ids = excluded.silo_ids, related_recipe_ids = excluded.related_recipe_ids, related_post_ids = excluded.related_post_ids, related_product_ids = excluded.related_product_ids, cluster_ids = excluded.cluster_ids, published_at = excluded.published_at, updated_at = excluded.updated_at;
+insert into public.blog_post_translations (post_id, locale, title, slug, excerpt, body, seo_title, seo_description) values ('post-majonez', 'de', 'Majonez in DE: Remoulade, Joghurt, Salat', 'majonez-deutschland', 'Welches Glas die Sałatka bindet: polnischer Majonez, deutsche Mayonnaise, Remoulade, Joghurt. Parallel zu Śmietana.', 'Majonez in einer deutschen Küche ist selten dasselbe Glas wie zu Hause. Es ist eine süßere, dichtere Fläche zwischen Polenladen, Remoulade im Kühlregal und der Frage, warum die [Sałatka jarzynowa](/de/rezepte/salatka-jarzynowa) nach Pommesbude schmeckt. Der Name meint Emulsion aus Ei und Öl. Der Brauch meint mehr: welches Glas bindet den Salat, was Remoulade darf, und warum Joghurt die Schüssel verändert, nicht nur erleichtert.
+
+Dieser Artikel ist das Lexikon, nicht das Rezeptbuch. Mengen und die konkrete Schrittfolge stehen in den einzelnen Rezepten. Hier ordnen wir Gläser, Nachbarn und den kalten Teller in der Diaspora. Der Paralleltext für die weiße Säure bleibt [Śmietana oder Schmand](/de/blog/smietana-schmand). Orientierung zu Hygiene bei Ei und Mayonnaise: [bzfe.de](https://www.bzfe.de) und [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
+
+Historisch ist Majonez in Polen der Binder der Festschüssel, nicht die Soße zur Fritte. Dicht, etwas süß, eierig, oft aus dem Glas mit dem vertrauten Etikett. In Deutschland steht daneben eine scharfe, senfige Mayonnaise, eine Kräuter-Remoulade und ein Magerjoghurt, der die Kalorienzeile rettet. Wir ersetzen den Beweisdruck durch ehrliche Namen. Die Schüssel, die nach Sałatka schmecken soll, braucht Majonez, nicht drei Deckel auf einmal.
+
+![Sałatka jarzynowa und gefüllte Eier, Majonez in einer kleinen Schale](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-majonez/067ea59c-b63e-4d42-9280-daa5e3b7510b.webp "Die Schüssel trägt das Glas, das ihr kennt, nicht die Remoulade daneben.")
+
+## Was Majonez hier meint
+
+Polnischer Majonez ist oft süßer, dicker, ruhiger im Senf. Deutsche Delikatessmayonnaise ist oft schärfer, säuerlicher, lockerer. Beide sind Emulsion. Sie sind nicht austauschbar, ohne dass die Schüssel den Charakter wechselt.
+
+Der [Polenladen](/de/blog/polenladen-einkaufen) trägt die Gläser, die die Familie erwartet. REWE trägt brauchbare Mayonnaise, wenn ihr sie vorher löffelt: zu scharf für Sałatka, oft noch gut für ein belegtes Brot. Der [Ersatzprodukte-Guide](/de/blog/ersatzprodukte-de) sagt, wann ein Tausch ehrlich bleibt.
+
+Selbst gerührt ist erlaubt, wenn Ei, Öl und Hygiene stimmen. Es ist kein Pflichtbeweis. Ein gutes Glas schlägt einen ersten Versuch, der bricht und in den Abfluss geht.
+
+## Was Remoulade nicht ist
+
+Remoulade ist Mayonnaise plus Kräuter, Gurke, oft Kapern, oft mehr Senf. Sie trägt deutschen Kartoffelsalat, Fischbrötchen, den Imbiss. Sie trägt nicht die polnische Gemüseschüssel.
+
+Wer Remoulade in die [Sałatka jarzynowa](/de/rezepte/salatka-jarzynowa) rührt, kocht eine andere Schüssel. Sie darf so heißen: Gemüsesalat mit Remoulade. Sie darf nicht denselben Namen tragen wie die Festschüssel.
+
+Kräutermayonnaise aus der Tube ist näher an Remoulade als an Majonez. Ehrlich benennen.
+
+## Joghurt und die leichtere Schüssel
+
+Joghurt natur verdünnt, säuert, macht die Fläche leichter. Ein Löffel in einer großen Schüssel kann helfen, wenn die Mayonnaise zu dicht ist. Joghurt als ganze Basis macht aus Sałatka einen Joghurtsalat. Gäste merken das.
+
+Magerquark und Skyr binden trocken. Sie brauchen Fett und Zeit, sonst wird die Schüssel kreidig. [Śmietana](/de/blog/smietana-schmand) ist die weiße Säure daneben, nicht der Ersatz für Majonez in der Festschüssel. Manche Häuser mischen beides. Dann beide Namen sagen.
+
+Vegane Mayonnaise darf, wenn Allergie oder Entscheidung das verlangen. Der Geschmack ändert sich. Der Teller bleibt ehrlich, wenn er das sagt.
+
+## Wohin welches Glas gehört
+
+Sałatka jarzynowa ist der Härtetest. Kartoffel, Karotte, Erbse, Apfel oder nicht, Ei, Majonez. Mengen im Rezept. Hier nur: zuerst das erwartete Glas, dann optional ein Löffel Joghurt, nie Remoulade als Default.
+
+[Jajka faszerowane](/de/rezepte/jajka-faszerowane) tragen Majonez in der Füllung, oft mit Ei, Senf, Dill. Remoulade macht sie zum deutschen gefüllten Ei. Das darf sein, wenn der Brunch so heißt. An [Wielkanoc](/de/blog/wielkanoc-speiseplan) und [Imieniny](/de/blog/imieniny-speiseplan) trägt das vertraute Glas klarer.
+
+[Tatar](/de/rezepte/tatar) ist roh. Manche Häuser wollen Eigelb und Öl, manche einen Löffel Majonez. Hygiene zuerst. Der [Sylwester-Speiseplan](/de/blog/silvester-speiseplan) sagt, wann Tartar überhaupt auf den Tisch darf. Mayonnaise ersetzt keine Kühlkette.
+
+Sandwich, Pommes, Grill: deutsche Mayonnaise oder Remoulade sind dort oft ehrlicher als das Festglas. Das Festglas für den Alltag zu verbrauchen ist erlaubt, kein Sakrileg.
+
+![Die Festschüssel bindet mit Majonez, nicht mit Kräuterremoulade](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-salatka-jarzynowa/90883e3d-0564-41f8-b756-433ec0078aa3.webp "Wer Remoulade rührt, kocht eine andere Schüssel und sollte sie so nennen.")
+
+## Einkauf in zwei Touren
+
+Erste Tour: Polenladen für das Glas, das die Schüssel tragen soll, oft auch bessere Erbsen und Gewürzgurken. Zweite Tour: Supermarkt für Gemüse, Eier, Apfel. Wer nur den Supermarkt hat, löffelt drei Mayonnaisen und wählt die ruhigste, nicht die schärfste.
+
+Licht und Wärme machen das Glas ranzig. Kühlschrank nach dem Öffnen. Datum lesen. Ein billiges Riesenkanister für eine kleine Familie ist oft zu lange offen.
+
+Listen nach Schüssel schreiben. Was Sałatka braucht, eine Zeile. Was die Eier brauchen, die nächste. Ein Glas für beide reicht, wenn es das richtige ist.
+
+## Hygiene und Reste
+
+Mayonnaise, Ei, gekochtes Gemüse: kalt halten, nicht in der Sonne, nicht neben der Heizung am Buffet. Nachfüllen aus dem Kühlschrank. Orientierung: [bzfe.de](https://www.bzfe.de).
+
+Selbst gerührte Mayonnaise mit rohem Ei ist die strengere Linie. Schwangere, Kinder, ältere Gäste: sichtbare Alternative. Fertigglas ist in der Diaspora oft die sicherere Wahl.
+
+Reste der Schüssel zeitnah essen. Ein Tag kalt ist üblich. Darüber hinaus prüfen. Bei Stich, Wasserabgabe oder unsicherer Kühlkette entsorgen. Rahmen: [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
+
+## Kinder und gemischte Familien
+
+Kinder brauchen eine milde Schüssel. Weniger Senf, sichtbares Ei, Apfel wenn das Haus das so kennt. Remoulade mit Kapern ist oft zu laut.
+
+Deutsche Gäste brauchen einen Satz: Das ist polnischer Gemüsesalat mit Majonez, etwas süßer und dichter als Kartoffelsalat. Das ist Respekt, nicht Folklore. Wer Joghurt nimmt, sagt Joghurt.
+
+An Imieniny trägt die Schüssel den Nachmittag neben Kuchen. Am Ostertisch steht sie neben Żurek, nicht statt des Speiseplans. Unter der Woche ist ein kleiner Rest ehrlicher als eine neue Schüssel für zwei Personen.
+
+## FAQ
+
+### Kann ich deutsche Mayonnaise für Sałatka nehmen?
+
+Ja, wenn sie ruhig und nicht zu scharf ist. Die Schüssel wird anders. Das erwartete Glas aus dem Polenladen trifft den Namen klarer.
+
+### Ist Remoulade dasselbe wie Majonez?
+
+Nein. Remoulade führt Kräuter und oft Gurke. Sie gehört zum deutschen Imbiss, nicht als stiller Binder in die Festschüssel.
+
+### Macht Joghurt die Sałatka besser?
+
+Leichter, ja. Gleich, nein. Ein Löffel kann die Dichte retten. Joghurt als ganze Basis ändert den Teller. Beide Varianten dürfen existieren, nicht unter einem unehrlichen Namen.
+
+### Braucht Tartar Majonez?
+
+Nicht zwingend. Manche Häuser wollen ihn, andere Eigelb und Öl. Roh bleibt roh. Hygiene steht über dem Glas. Details im [Tatar-Rezept](/de/rezepte/tatar).
+
+### Wie lange hält geöffnete Mayonnaise?
+
+Kalt, geschlossen, zeitnah. Das Datum auf dem Glas ist Orientierung, nicht Freibrief. Bei ranzigem Geruch entsorgen.
+
+## Ohne Scham, mit dem richtigen Deckel
+
+Ein Glas Majonez aus dem Polenladen, ein Löffel Joghurt zur Rettung der Dichte und eine Schüssel ohne Remoulade sind in der Diaspora in Ordnung. Heldentum, das am Ostermorgen noch Emulsion schlägt, ist kein Gewinn an Brauch. Vorher löffeln, kalt halten, den Namen ehrlich lassen. Die Schüssel bleibt klar, wenn Majonez Majonez heißt und Remoulade Remoulade.', 'Majonez kaufen DE | Sałatka Guide | Alemniam', 'Majonez in Deutschland: Glas, Remoulade, Joghurt. Lexikon für Sałatka und Eier, bilingual, ohne Rezeptduplikat.') on conflict (post_id, locale) do update set title = excluded.title, slug = excluded.slug, excerpt = excluded.excerpt, body = excluded.body, seo_title = excluded.seo_title, seo_description = excluded.seo_description;
+insert into public.blog_post_translations (post_id, locale, title, slug, excerpt, body, seo_title, seo_description) values ('post-majonez', 'pl', 'Majonez w DE: remulada, jogurt, sałatka', 'majonez-w-niemczech', 'Który słoik wiąże sałatkę: polski majonez, niemiecki majonez, remulada, jogurt. Równolegle do śmietany.', 'Majonez w niemieckiej kuchni rzadko jest tym samym słoikiem co w domu. To słodsza, gęstsza powierzchnia między sklepem polskim, remuladą w chłodni i pytaniem, dlaczego [sałatka jarzynowa](/pl/rezepte/salatka-jarzynowa) smakuje budką z frytkami. Nazwa znaczy emulsję z jajka i oleju. Zwyczaj znaczy więcej: który słoik wiąże sałatkę, co może remulada, i dlaczego jogurt zmienia miskę, nie tylko ją odchudza.
+
+Ten artykuł jest leksykonem, nie książką przepisów. Ilości i konkretna kolejność kroków są w pojedynczych przepisach. Tutaj porządkujemy słoiki, sąsiadów i zimny talerz w diasporze. Tekst równoległy o białym kwasie zostaje [śmietana czy schmand](/pl/blog/smietana-czy-schmand). Orientacja o higienie jajka i majonezu: [bzfe.de](https://www.bzfe.de) oraz [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
+
+Historycznie majonez w Polsce jest spoiwem świątecznej miski, nie sosem do frytek. Gęsty, trochę słodki, jajeczny, często ze słoika ze znaną etykietą. W Niemczech obok stoi ostry, musztardowy majonez, ziołowa remulada i chudy jogurt, który ratuje linię kalorii. Dowód zastępujemy uczciwymi nazwami. Miska, która ma smakować sałatką, potrzebuje majonezu, nie trzech pokrywek naraz.
+
+![Sałatka jarzynowa i jajka faszerowane, majonez w małej miseczce](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-majonez/067ea59c-b63e-4d42-9280-daa5e3b7510b.webp "Miskę niesie słoik, który znacie, nie remulada obok.")
+
+## Co tu znaczy majonez
+
+Polski majonez jest często słodszy, gęstszy, spokojniejszy w musztardzie. Niemiecki Delikatessmayonnaise jest często ostrzejszy, kwaśniejszy, luźniejszy. Oba są emulsją. Nie są wymienne bez zmiany charakteru miski.
+
+[Sklep polski](/pl/blog/sklep-polski-zakupy) niesie słoiki, których rodzina oczekuje. REWE niesie znośny majonez, gdy najpierw go spróbujecie: za ostry do sałatki, często jeszcze dobry na kanapkę. [Przewodnik o zamiennikach](/pl/blog/zamienniki-skladnikow) mówi, kiedy wymiana zostaje uczciwa.
+
+Własne ubijanie jest dozwolone, gdy jajko, olej i higiena się zgadzają. Nie jest obowiązkowym dowodem. Dobry słoik bije pierwszą próbę, która się zwarzy i idzie do zlewu.
+
+## Czym nie jest remulada
+
+Remulada to majonez plus zioła, ogórek, często kapary, często więcej musztardy. Niesie niemiecką sałatkę ziemniaczaną, bułkę z rybą, bar. Nie niesie polskiej miski jarzynowej.
+
+Kto miesza remuladę do [sałatki jarzynowej](/pl/rezepte/salatka-jarzynowa), gotuje inną miskę. Może tak się nazywać: sałatka jarzynowa z remuladą. Nie może nosić tej samej nazwy co świąteczna miska.
+
+Majonez ziołowy z tubki jest bliżej remulady niż majonezu. Nazywamy uczciwie.
+
+## Jogurt i lżejsza miska
+
+Jogurt naturalny rozrzedza, kwasi, robi powierzchnię lżejszą. Łyżka w dużej misce może pomóc, gdy majonez jest za gęsty. Jogurt jako cała baza robi z sałatki sałatkę jogurtową. Goście to czują.
+
+Chudy twaróg i skyr wiążą sucho. Potrzebują tłuszczu i czasu, inaczej miska robi się kredowa. [Śmietana](/pl/blog/smietana-czy-schmand) jest białym kwasem obok, nie zamiennikiem majonezu w świątecznej misce. Niektóre domy mieszają oba. Wtedy mówimy obie nazwy.
+
+Wegański majonez może, gdy alergia albo decyzja tego wymagają. Smak się zmienia. Talerz zostaje uczciwy, gdy to mówi.
+
+## Dokąd który słoik
+
+Sałatka jarzynowa jest testem. Ziemniak, marchew, groszek, jabłko albo nie, jajko, majonez. Ilości w przepisie. Tutaj tylko: najpierw oczekiwany słoik, potem opcjonalnie łyżka jogurtu, nigdy remulada jako domyślna.
+
+[Jajka faszerowane](/pl/rezepte/jajka-faszerowane) niosą majonez w nadzieniu, często z żółtkiem, musztardą, koperkiem. Remulada robi z nich niemieckie jajko faszerowane. Może tak być, gdy brunch tak się nazywa. Na [Wielkanoc](/pl/blog/menu-wielkanocne) i [imieniny](/pl/blog/menu-imieniny) znany słoik niesie czytelniej.
+
+[Tatar](/pl/rezepte/tatar) jest surowy. Niektóre domy chcą żółtka i oleju, inne łyżki majonezu. Najpierw higiena. [Menu na sylwestra](/pl/blog/menu-sylwester) mówi, kiedy tatar w ogóle może na stół. Majonez nie zastępuje łańcucha chłodu.
+
+Kanapka, frytki, grill: niemiecki majonez albo remulada są tam często uczciwsze niż świąteczny słoik. Zużycie świątecznego słoika na co dzień jest dozwolone, nie jest świętokradztwem.
+
+![Świąteczną miskę wiąże majonez, nie ziołowa remulada](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-salatka-jarzynowa/90883e3d-0564-41f8-b756-433ec0078aa3.webp "Kto miesza remuladę, gotuje inną miskę i powinien ją tak nazwać.")
+
+## Zakupy w dwóch turach
+
+Pierwsza tura: sklep polski po słoik, który ma nieść miskę, często też lepszy groszek i ogórki konserwowe. Druga tura: supermarket po warzywa, jajka, jabłko. Kto ma tylko supermarket, próbuje trzech majonezów i wybiera najspokojniejszy, nie najostrzejszy.
+
+Światło i ciepło jełczeją słoik. Po otwarciu lodówka. Czytamy datę. Tani wielki pojemnik dla małej rodziny często stoi za długo otwarty.
+
+Listy piszemy według miski. Co potrzebuje sałatka, jedna linia. Co jajka, następna. Jeden słoik na oba wystarczy, gdy jest właściwy.
+
+## Higiena i resztki
+
+Majonez, jajko, gotowane warzywa: trzymamy zimno, nie na słońcu, nie przy kaloryferze na bufecie. Dokładamy z lodówki. Orientacja: [bzfe.de](https://www.bzfe.de).
+
+Własny majonez z surowym jajkiem to surowsza linia. Ciąża, dzieci, starsi goście: widoczna alternatywa. Gotowy słoik w diasporze jest często bezpieczniejszym wyborem.
+
+Resztki miski jemy wkrótce. Jeden dzień w chłodzie jest zwyczajny. Dalej sprawdzamy. Przy skwaśnieniu, ocece wody albo niepewnym łańcuchu chłodu wyrzucamy. Ramy: [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
+
+## Dzieci i mieszane rodziny
+
+Dzieci potrzebują łagodnej miski. Mniej musztardy, widoczne jajko, jabłko gdy dom tak zna. Remulada z kaparami jest często za głośna.
+
+Niemieccy goście potrzebują zdania: To polska sałatka jarzynowa z majonezem, trochę słodsza i gęstsza niż sałatka ziemniaczana. To szacunek, nie folklor. Kto bierze jogurt, mówi jogurt.
+
+Na imieniny miska niesie popołudnie obok ciasta. Przy stole wielkanocnym stoi obok żurku, nie zamiast planu menu. W tygodniu mała resztka jest uczciwsza niż nowa miska dla dwóch osób.
+
+Praca przy misce: jedna osoba kroi warzywa, jedna wiąże, jedna pilnuje chłodu. W diasporze przed Wielkanocą to jedyna forma, w której sałatka zostaje przyjazna. Dzieci mogą mieszać gotowe kostki. Surowe jajko i otwarty słoik zostają przy dorosłych.
+
+## FAQ
+
+### Czy mogę wziąć niemiecki majonez do sałatki?
+
+Tak, gdy jest spokojny i nie za ostry. Miska będzie inna. Oczekiwany słoik ze sklepu polskiego trafia w nazwę czytelniej.
+
+### Czy remulada to to samo co majonez?
+
+Nie. Remulada prowadzi zioła i często ogórek. Należy do niemieckiego baru, nie jako ciche spoiwo do świątecznej miski.
+
+### Czy jogurt robi sałatkę lepszą?
+
+Lżejszą tak. Taką samą nie. Łyżka może uratować gęstość. Jogurt jako cała baza zmienia talerz. Obie wersje mogą istnieć, nie pod nieuczciwą nazwą.
+
+### Czy tatar potrzebuje majonezu?
+
+Niekoniecznie. Niektóre domy go chcą, inne żółtka i oleju. Surowe zostaje surowe. Higiena stoi nad słoikiem. Szczegóły w [przepisie na tatar](/pl/rezepte/tatar).
+
+### Jak długo trzyma otwarty majonez?
+
+Zimno, zamknięty, jemy wkrótce. Data na słoiku jest orientacją, nie listem żelaznym. Przy jełkim zapachu wyrzucamy.
+
+## Bez wstydu, z właściwą pokrywką
+
+Słoik majonezu ze sklepu polskiego, łyżka jogurtu na ratunek gęstości i miska bez remulady są w diasporze w porządku. Bohaterstwo, które w wielkanocny poranek jeszcze ubija emulsję, nie jest zyskiem zwyczaju. Najpierw próbujemy, trzymamy zimno, nazwę zostawiamy uczciwą. Miska zostaje jasna, gdy majonez znaczy majonez, a remulada remuladę.', 'Majonez w Niemczech | Sałatka | Alemniam', 'Majonez w Niemczech: słoik, remulada, jogurt. Leksykon do sałatki i jajek, dwujęzycznie, bez duplikatu przepisu.') on conflict (post_id, locale) do update set title = excluded.title, slug = excluded.slug, excerpt = excluded.excerpt, body = excluded.body, seo_title = excluded.seo_title, seo_description = excluded.seo_description;
+-- blog:post-schicht
+insert into public.blog_posts (id, status, post_type, cover_image, silo_ids, related_recipe_ids, related_post_ids, related_product_ids, cluster_ids, published_at, updated_at) values ('post-schicht', 'published', 'culture', 'https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-schicht/602c2a17-0451-485d-b241-7e6ce88a1c73.webp', array['culture']::text[], array['recipe-leczo', 'recipe-zapiekanka', 'recipe-nalesniki', 'recipe-placki', 'recipe-kaszanka']::text[], array['post-polenladen', 'post-sonntagsessen', 'post-kielbasa-arten', 'post-twarog']::text[], '{}'::text[], '{}'::text[], '2026-08-23T16:30:00.000Z', '2026-08-23T16:30:00.000Z') on conflict (id) do update set status = excluded.status, post_type = excluded.post_type, cover_image = excluded.cover_image, silo_ids = excluded.silo_ids, related_recipe_ids = excluded.related_recipe_ids, related_post_ids = excluded.related_post_ids, related_product_ids = excluded.related_product_ids, cluster_ids = excluded.cluster_ids, published_at = excluded.published_at, updated_at = excluded.updated_at;
+insert into public.blog_post_translations (post_id, locale, title, slug, excerpt, body, seo_title, seo_description) values ('post-schicht', 'de', 'Nach der Schicht: 25 Minuten aus zwei Tüten', 'nach-der-schicht', 'Feierabend ohne Sonntag: Leczo, Zapiekanka, Kaszanka, Eier. Was Polenladen und REWE in 25 Minuten tragen.', 'Nach der Schicht in Deutschland ist selten das [Sonntagsessen](/de/blog/sonntagsessen-polnisch). Es ist ein Tisch zwischen 20 und 21 Uhr, einem Polenladen auf dem Heimweg und der Frage, was in 25 Minuten wirklich satt macht, ohne dass die Pfanne zum Beweis wird. Der Name meint den Feierabend nach Arbeit, die nicht um 17 Uhr endet. Der Brauch meint mehr: welche Linie aus dem Kühlschrank trägt, was REWE noch hergibt, und wo wir bewusst kürzen, ohne Fast Food als einziges Wort zu lassen.
+
+Dieser Artikel ist der Alltagsspeiseplan, nicht das Rezeptbuch. Mengen, Garzeiten und die konkrete Schrittfolge stehen in den einzelnen Rezepten. Hier ordnen wir 25 Minuten, zwei Einkaufstüten und den Respekt vor der Müdigkeit. Orientierung zu Hygiene bei Wurst, Ei und Pfanne: [bzfe.de](https://www.bzfe.de) und [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
+
+Historisch kennt die polnische Küche den schnellen Pfannenteller genauso wie den Sonntagsrosół. Eier, Wurst, Kartoffel, Paprika, ein dünner Pfannkuchen. In der Diaspora nach der Schicht ersetzt die Kantine oft den Mittag, und der Abend muss tragen, ohne ein zweites Fest. Wir ersetzen den Beweisdruck durch eine kurze Liste. Eine klare Pfanne schlägt drei Projekte, die um 22 Uhr noch köcheln.
+
+![Leczo in der Pfanne, Placki daneben, Feierabendlicht](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-schicht/602c2a17-0451-485d-b241-7e6ce88a1c73.webp "Eine Linie aus dem Polenladen plus eine aus dem Supermarkt tragen 25 Minuten.")
+
+## Was 25 Minuten wirklich heißt
+
+25 Minuten meinen: Tasche aus, Hände waschen, eine Pfanne, ein Brett, fertig essen. Nicht: Teig ruhen, Brühe klären, den Sonntag nachholen. Wer in dieser Zeit noch [Rosół](/de/rezepte/rosol) ansetzt, kocht morgen, nicht heute.
+
+Drei tragfähige Muster: eine heiße Pfanne, eine heiße Scheibe, eine Schüssel aus dem Kühlschrank. Heiße Pfanne: [Leczo](/de/rezepte/leczo), [Kaszanka](/de/rezepte/kaszanka), Eier mit Wurst. Heiße Scheibe: [Zapiekanka](/de/rezepte/zapiekanka). Schüssel: Reste, [Sałatka](/de/rezepte/salatka-jarzynowa) vom Vortag, [Śledź](/de/rezepte/sledz) mit Brot.
+
+Der [Sonntagsessen-Guide](/de/blog/sonntagsessen-polnisch) bleibt der Sonntag. Dieser Text bleibt der Abend nach der Schicht. Wer beide mischt, zahlt mit Gereiztheit.
+
+## Polenladen auf dem Heimweg
+
+Eine Tüte, nicht der Wocheneinkauf. [Kaszanka](/de/rezepte/kaszanka) zum Braten mit Zwiebel. Kiełbasa, die ihr kennt, erklärt im [Kiełbasa-Guide](/de/blog/kielbasa-arten). Brot, das den Abend trägt. Optional Twaróg für [Naleśniki](/de/rezepte/nalesniki/twarog), wenn der Teig schon im Kühlschrank steht.
+
+Fertige Pierogi aus der Kühlung dürfen. Sie sind Alltag, kein Scheitern. Selbst geformte Batches gehören in den [Freezer-Guide](/de/blog/freezer-meal-prep), nicht in die 25-Minuten-Lüge.
+
+Was der Laden um 20 Uhr nicht mehr hat, ersetzt ihr nicht durch eine zweite Stadt. REWE oder der Spätkauf trägt Paprika, Ei, Zwiebel, Käse, ein Baguette für Zapiekanka.
+
+## REWE, was noch reicht
+
+Paprika, Zwiebel, Tomate oder passierte Tomaten: Leczo. Kartoffel, Ei, wenig Mehl: [Placki](/de/rezepte/placki/ziemniaczane), wenn die Reibe und die Kraft noch da sind. Placki sind 25 Minuten nur für geübte Hände. Sonst sind sie 40 und eine extra fette Pfanne.
+
+Eier, Brot, Gurke: das kleinste vollständige Abendessen. [Twaróg](/de/blog/twarog-deutschland) aufs Brot, wenn der Polenladen geschlossen ist und der Speisequark im Kühlschrank wartet.
+
+Käse, Champignon, Baguette: Zapiekanka aus dem Ofen, während ihr die Schuhe auszieht und den Tisch wischt. Der [Naleśniki-Guide](/de/blog/nalesniki-guide) und der [Placki-Guide](/de/blog/placki-guide) bleiben Technik, nicht dieser Feierabend.
+
+![Leczo aus Paprika, Tomate und Wurst in einer Pfanne](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-leczo/dfefb489-d2b6-40fb-ab9e-90c09754aca0.webp "Leczo trägt den Abend, wenn die Wurst schon in der Tüte liegt.")
+
+## Fünf Linien, eine wählen
+
+Leczo: Wurst in Scheiben, Paprika, Zwiebel, Tomate. Eine Pfanne. Brot. Das ist die klarste Schichtlinie, wenn der [Polenladen](/de/blog/polenladen-einkaufen) Wurst hatte.
+
+Zapiekanka: halbes Baguette, Pilz, Käse, Ketchup oder nicht. Ofen heiß, zehn bis fünfzehn Minuten. Gut für eine Person, gut für zwei. Kein Sonntagsbraten.
+
+Kaszanka: in der Pfanne mit Zwiebel, Apfel optional. Wer sie nicht mag, lässt sie. Sie ist kein Pflichtbeweis polnischer Identität um 21 Uhr.
+
+Naleśniki: nur wenn der Teig schon ruht oder ihr die Pfanne wirklich schnell führt. Sonst ist es ein Projekt. Twaróg aus der Kühlung, nicht erst abseihen.
+
+Placki: nur wenn Kartoffeln schon da sind und jemand gerne reibt. Der [Placki-Guide](/de/blog/placki-guide) erklärt die Masse. Nach der Nachtschicht ist Brot plus Ei oft freundlicher.
+
+Eine Linie. Zwei nur, wenn zwei Personen führen. Wer Leczo und Placki und noch eine Suppe will, kocht Sonntag an einem Dienstag.
+
+## Was wir bewusst weglassen
+
+Wir lassen Bigos, Gołąbki und den ganzen [Rosół](/de/rezepte/rosol) weg. Wir lassen den Beweis weg, dass der Haushalt jeden Abend polnisch kocht. Eine ehrliche deutsche Pfanne mit Eiern darf auf den Tisch, wenn sie so heißt. Der [Ersatzprodukte-Guide](/de/blog/ersatzprodukte-de) hilft, wenn die Tüte fehlt.
+
+Wir lassen den zweiten Gang weg. Müdigkeit ist kein Gästemenü. Kinder brauchen zuerst etwas Mildes, dann optional die scharfe Wurst.
+
+## Hygiene und Reste
+
+Wurst, Blutwurst, Ei, Pfanne: durchgaren, heiß essen, Reste schnell kühlen. Kaszanka nicht halb roh in die Brotdose. Orientierung: [bzfe.de](https://www.bzfe.de).
+
+Aufgewärmtes Leczo am nächsten Tag ist oft besser. Zweimal aufwärmen vermeiden. Offene Wurst nicht tagelang in der warmen Küche. Bei Zweifel wegwerfen. Rahmen: [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
+
+Öl in der Placki-Pfanne nicht unbeaufsichtigt lassen, wenn ihr kurz zur Tür müsst. Müde Hände und heißes Fett sind die häufigste Verletzung dieses Textes.
+
+## Vorrat, der die 25 Minuten trägt
+
+Im Kühlschrank: eine Wurst, Eier, Zwiebel, Paprika oder ein Glas Tomate, Brot, optional Twaróg. Im Gefrierfach: eine Charge Pierogi oder eine Tüte Paprika. Ohne diesen Sockel wird jeder Abend zum Einkaufsstress.
+
+Einkauf vor der Frühschicht oder am freien Tag, nicht um 21 Uhr, wenn der Polenladen zu ist. Eine Liste an der Tür: Wurst, Brot, Ei, Paprika. Das ist Planung, nicht Kontrolle.
+
+## FAQ
+
+### Ist Fertig-Pierogi nach der Schicht in Ordnung?
+
+Ja. Wasser aufsetzen, Salz, Butter oder Zwiebel. Selbst formen gehört in den freien Tag. Der Freezer trägt, wenn ihr vorher geformt habt.
+
+### Reicht Brot mit Twaróg als polnisches Abendessen?
+
+Ja. Mit Gurke, Radieschen, Salz. Es ist kein Sonntag, und es muss keiner sein. Der [Twaróg-Guide](/de/blog/twarog-deutschland) hilft beim Einkauf.
+
+### Warum nicht einfach Schabowy nach der Schicht?
+
+Weil Panade, Fett und Zeit den Abend fressen. Schabowy bleibt der [Sonntag](/de/blog/sonntagsessen-polnisch) oder ein geplanter Feierabend mit Reserve. Nach der Nachtschicht gewinnt Leczo.
+
+### Darf Kaszanka auf den Kinderteller?
+
+Nur wenn das Kind sie kennt und sie durch ist. Eine milde Alternative sichtbar lassen. Allergien und die Blutwurst vorher klären.
+
+### Was tun, wenn beide Läden zu sind?
+
+Eier, Toast, was im Kühlschrank liegt, ehrlich benennen. Der Speiseplan muss die geschlossene Tür aushalten. Heldentum um Mitternacht im Auto ist kein Gewinn.
+
+## Ohne Scham, mit 25 Minuten
+
+Fertige Pierogi, Leczo aus einer Wurst und ein Abend ohne Schnitzel sind in der Diaspora in Ordnung. Heldentum, das nach der Schicht noch den Sonntag nachkocht, ist kein Gewinn an Brauch. Vorher den Sockel kaufen, eine Linie wählen, die Pfanne klein halten. Der Feierabend bleibt freundlich, wenn er das darf.', 'Nach der Schicht | 25 Minuten | Alemniam', 'Polnisch nach der Schicht: Leczo, Zapiekanka, Kaszanka. Alltagsspeiseplan aus Polenladen und REWE, bilingual.') on conflict (post_id, locale) do update set title = excluded.title, slug = excluded.slug, excerpt = excluded.excerpt, body = excluded.body, seo_title = excluded.seo_title, seo_description = excluded.seo_description;
+insert into public.blog_post_translations (post_id, locale, title, slug, excerpt, body, seo_title, seo_description) values ('post-schicht', 'pl', 'Po zmianie: 25 minut z dwóch siatek', 'po-zmianie', 'Wieczór bez niedzieli: leczo, zapiekanka, kaszanka, jajka. Co sklep polski i REWE niosą w 25 minut.', 'Po zmianie w Niemczech rzadko jest [obiadem niedzielnym](/pl/blog/obiad-niedzielny). To stół między 20 a 21, sklepem polskim w drodze do domu i pytaniem, co w 25 minut naprawdę syci, bez zamiany patelni w dowód. Nazwa znaczy wieczór po pracy, która nie kończy się o 17. Zwyczaj znaczy więcej: która linia z lodówki niesie, co jeszcze da REWE, i gdzie świadomie skracamy, nie zostawiając fast foodu jako jedynego słowa.
+
+Ten artykuł jest codziennym planem menu, nie książką przepisów. Ilości, czasy i konkretna kolejność kroków są w pojedynczych przepisach. Tutaj porządkujemy 25 minut, dwie siatki i szacunek dla zmęczenia. Orientacja o higienie kiełbasy, jajka i patelni: [bzfe.de](https://www.bzfe.de) oraz [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
+
+Historycznie polska kuchnia zna szybki talerz z patelni tak samo jak niedzielny rosół. Jajka, kiełbasa, ziemniak, papryka, cienki naleśnik. W diasporze po zmianie stołówka często zastępuje południe, a wieczór musi nieść bez drugiego święta. Dowód zastępujemy krótką listą. Jedna czytelna patelnia bije trzy projekty, które o 22 jeszcze się gotują.
+
+![Leczo na patelni, placki obok, światło po zmianie](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-schicht/602c2a17-0451-485d-b241-7e6ce88a1c73.webp "Jedna linia ze sklepu polskiego plus jedna z supermarketu niosą 25 minut.")
+
+## Co naprawdę znaczy 25 minut
+
+25 minut znaczy: torba z ręki, ręce umyte, jedna patelnia, jedna deska, jemy. Nie: odpoczynek ciasta, klarowanie bulionu, odrabianie niedzieli. Kto w tym czasie stawia jeszcze [rosół](/pl/rezepte/rosol), gotuje na jutro, nie na dziś.
+
+Trzy nośne wzory: gorąca patelnia, gorąca kromka, miska z lodówki. Gorąca patelnia: [leczo](/pl/rezepte/leczo), [kaszanka](/pl/rezepte/kaszanka), jajka z kiełbasą. Gorąca kromka: [zapiekanka](/pl/rezepte/zapiekanka). Miska: resztki, [sałatka](/pl/rezepte/salatka-jarzynowa) z wczoraj, [śledź](/pl/rezepte/sledz) z chlebem.
+
+[Przewodnik o obiedzie niedzielnym](/pl/blog/obiad-niedzielny) zostaje niedzielą. Ten tekst zostaje wieczorem po zmianie. Kto miesza oba, płaci irytacją.
+
+## Sklep polski w drodze do domu
+
+Jedna siatka, nie zakupy tygodnia. [Kaszanka](/pl/rezepte/kaszanka) do smażenia z cebulą. Kiełbasa, którą znacie, opisana w [przewodniku o kiełbasie](/pl/blog/rodzaje-kielbasy). Chleb, który niesie wieczór. Opcjonalnie twaróg na [naleśniki](/pl/rezepte/nalesniki/twarog), gdy ciasto już stoi w lodówce.
+
+Gotowe pierogi z chłodni mogą. To codzienność, nie porażka. Własne partie należą do [przewodnika o mrożeniu](/pl/blog/mrozenie-pierogow), nie do kłamstwa o 25 minutach.
+
+Czego sklep o 20 już nie ma, nie zastępujemy drugim miastem. REWE albo sklep nocny niesie paprykę, jajko, cebulę, ser, bagietkę na zapiekankę.
+
+## REWE, co jeszcze starczy
+
+Papryka, cebula, pomidor albo przecier: leczo. Ziemniak, jajko, trochę mąki: [placki](/pl/rezepte/placki/ziemniaczane), gdy tarka i siła jeszcze są. Placki to 25 minut tylko dla wprawnej ręki. Inaczej to 40 i dodatkowo tłusta patelnia.
+
+Jajka, chleb, ogórek: najmniejsza pełna kolacja. [Twaróg](/pl/blog/twarog-w-niemczech) na chleb, gdy sklep polski jest zamknięty, a twaróg z supermarketu czeka w lodówce.
+
+Ser, pieczarka, bagietka: zapiekanka z piekarnika, gdy zdejmujecie buty i wycieracie stół. [Przewodnik o naleśnikach](/pl/blog/nalesniki-przewodnik) i [przewodnik o plackach](/pl/blog/placki-przewodnik) zostają techniką, nie tym wieczorem.
+
+![Leczo z papryki, pomidora i kiełbasy na patelni](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-leczo/dfefb489-d2b6-40fb-ab9e-90c09754aca0.webp "Leczo niesie wieczór, gdy kiełbasa już leży w siatce.")
+
+## Pięć linii, wybieramy jedną
+
+Leczo: kiełbasa w plastrach, papryka, cebula, pomidor. Jedna patelnia. Chleb. To najczytelniejsza linia po zmianie, gdy [sklep polski](/pl/blog/sklep-polski-zakupy) miał kiełbasę.
+
+Zapiekanka: pół bagietki, grzyb, ser, keczup albo nie. Piekarnik gorący, dziesięć do piętnastu minut. Dobra dla jednej osoby, dobra dla dwóch. Nie niedzielny pieczeń.
+
+Kaszanka: na patelni z cebulą, jabłko opcjonalnie. Kto jej nie lubi, zostawia. Nie jest obowiązkowym dowodem polskiej tożsamości o 21.
+
+Naleśniki: tylko gdy ciasto już odpoczywa albo naprawdę szybko prowadzicie patelnię. Inaczej to projekt. Twaróg z chłodni, nie dopiero odcedzany.
+
+Placki: tylko gdy ziemniaki już są i ktoś chętnie tarł. [Przewodnik o plackach](/pl/blog/placki-przewodnik) wyjaśnia masę. Po nocnej zmianie chleb plus jajko jest często przyjaźniejsze.
+
+Jedna linia. Dwie tylko, gdy prowadzą je dwie osoby. Kto chce leczo i placki i jeszcze zupę, gotuje niedzielę we wtorek.
+
+## Co świadomie zostawiamy
+
+Zostawiamy bigos, gołąbki i cały [rosół](/pl/rezepte/rosol). Zostawiamy dowód, że dom codziennie gotuje po polsku. Uczciwa niemiecka patelnia z jajkami może na stół, gdy tak się nazywa. [Przewodnik o zamiennikach](/pl/blog/zamienniki-skladnikow) pomaga, gdy brakuje siatki.
+
+Zostawiamy drugi kurs. Zmęczenie nie jest menu dla gości. Dzieci najpierw potrzebują czegoś łagodnego, potem opcjonalnie ostrej kiełbasy.
+
+## Higiena i resztki
+
+Kiełbasa, kaszanka, jajko, patelnia: dopiekamy, jemy gorące, resztki szybko studzimy. Kaszanki nie wkładamy półsurowej do śniadaniówki. Orientacja: [bzfe.de](https://www.bzfe.de).
+
+Podgrzane leczo następnego dnia często jest lepsze. Unikamy dwukrotnego podgrzewania. Otwartej kiełbasy nie trzymamy dniami w ciepłej kuchni. Przy wątpliwości wyrzucamy. Ramy: [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
+
+Oleju na patelni do placków nie zostawiamy bez nadzoru, gdy na chwilę idziecie do drzwi. Zmęczone ręce i gorący tłuszcz to najczęstsze skaleczenie tego tekstu.
+
+## Zapas, który niesie 25 minut
+
+W lodówce: jedna kiełbasa, jajka, cebula, papryka albo słoik pomidora, chleb, opcjonalnie twaróg. W zamrażarce: partia pierogów albo torebka papryki. Bez tego cokołu każdy wieczór staje się stresem zakupów.
+
+Zakupy przed ranną zmianą albo w wolny dzień, nie o 21, gdy sklep polski jest zamknięty. Lista na drzwiach: kiełbasa, chleb, jajko, papryka. To plan, nie kontrola.
+
+Kto mieszka z osobą na innej zmianie, zostawia jedną linię w lodówce z kartką. Leczo w pudełku, chleb obok, nie trzy patelnie o różnych godzinach. To uprzejmość, nie stołówka.
+
+## FAQ
+
+### Czy gotowe pierogi po zmianie są w porządku?
+
+Tak. Woda, sól, masło albo cebula. Lepienie należy do wolnego dnia. Zamrażarka niesie, gdy wcześniej lepieliście.
+
+### Czy chleb z twarogiem wystarczy jako polska kolacja?
+
+Tak. Z ogórkiem, rzodkiewką, solą. To nie niedziela i nie musi nią być. [Przewodnik o twarogu](/pl/blog/twarog-w-niemczech) pomaga przy zakupach.
+
+### Dlaczego nie schabowy po zmianie?
+
+Bo panierka, tłuszcz i czas zjadają wieczór. Schabowy zostaje [niedzielą](/pl/blog/obiad-niedzielny) albo zaplanowanym wieczorem z zapasem sił. Po nocnej zmianie wygrywa leczo.
+
+### Czy kaszanka może na talerz dziecka?
+
+Tylko gdy dziecko ją zna i jest dopieczona. Widoczna łagodna alternatywa. Alergie i kaszankę wyjaśniamy wcześniej.
+
+### Co robić, gdy oba sklepy są zamknięte?
+
+Jajka, tost, to co w lodówce, nazywamy uczciwie. Plan menu musi wytrzymać zamknięte drzwi. Bohaterstwo o północy w aucie nie jest zyskiem.
+
+## Bez wstydu, z 25 minutami
+
+Gotowe pierogi, leczo z jednej kiełbasy i wieczór bez kotleta są w diasporze w porządku. Bohaterstwo, które po zmianie jeszcze odtwarza niedzielę, nie jest zyskiem zwyczaju. Najpierw kupujemy cokół, wybieramy jedną linię, trzymamy patelnię małą. Wieczór zostaje przyjazny, gdy mu na to pozwolimy.', 'Po zmianie | 25 minut | Alemniam', 'Po polsku po zmianie: leczo, zapiekanka, kaszanka. Plan codzienny ze sklepu polskiego i REWE, dwujęzycznie.') on conflict (post_id, locale) do update set title = excluded.title, slug = excluded.slug, excerpt = excluded.excerpt, body = excluded.body, seo_title = excluded.seo_title, seo_description = excluded.seo_description;
+-- blog:post-zwischen-feiertagen
+insert into public.blog_posts (id, status, post_type, cover_image, silo_ids, related_recipe_ids, related_post_ids, related_product_ids, cluster_ids, published_at, updated_at) values ('post-zwischen-feiertagen', 'published', 'culture', 'https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-zwischen-feiertagen/4b7246ee-c4e0-4903-88dd-1aa58512fc4b.webp', array['occasion', 'culture']::text[], array['recipe-barszcz', 'recipe-uszka', 'recipe-karp', 'recipe-sledz', 'recipe-kutia', 'recipe-kompot-z-suszu']::text[], array['post-wigilia', 'post-sylwester', 'post-hering', 'post-freezer-meal-prep']::text[], '{}'::text[], array['occasion-wigilia']::text[], '2026-08-23T16:40:00.000Z', '2026-08-23T16:40:00.000Z') on conflict (id) do update set status = excluded.status, post_type = excluded.post_type, cover_image = excluded.cover_image, silo_ids = excluded.silo_ids, related_recipe_ids = excluded.related_recipe_ids, related_post_ids = excluded.related_post_ids, related_product_ids = excluded.related_product_ids, cluster_ids = excluded.cluster_ids, published_at = excluded.published_at, updated_at = excluded.updated_at;
+insert into public.blog_post_translations (post_id, locale, title, slug, excerpt, body, seo_title, seo_description) values ('post-zwischen-feiertagen', 'de', 'Zwischen den Feiertagen: Reste ohne zweites Fest', 'zwischen-den-feiertagen', '26. bis 30. Dezember: Barszcz, Uszka, Karpfenreste, Kompot. Aufessen, einfrieren, Sylwester nicht vorwegnehmen.', 'Die Tage zwischen den Feiertagen in Deutschland sind selten ein zweites Weihnachten und noch kein [Sylwester](/de/blog/silvester-speiseplan). Es ist der 26. bis 30. Dezember zwischen übrigem [Barszcz](/de/rezepte/barszcz-czerwony), Besuch, Schicht und der Frage, was vom Heiligabend noch darf, ohne dass der Kühlschrank zur Pflicht wird. Der Name meint die Lücke nach [Wigilia](/de/blog/wigilia-speiseplan). Der Brauch meint mehr: welche Reste tragen, was in die Box muss, und wo wir bewusst aufhören zu kochen.
+
+Dieser Artikel ist der Speiseplan für die Lücke, nicht das Rezeptbuch und nicht der Mitternachtstisch. Mengen und die konkrete Schrittfolge stehen in den Rezepten der Wigilia. Hier ordnen wir Wiederaufwärmen, Hygiene und den Respekt vor der Müdigkeit nach dem 24. Orientierung zu Resten, Fisch und Brühe: [bzfe.de](https://www.bzfe.de) und [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
+
+Historisch kennt Polen den 25. und 26. als eigene Festtage, oft mit Fleisch nach der Fastenlinie des 24. In Deutschland fällt der 26. in den zweiten Weihnachtsfeiertag, der 27. oft in den Alltag, der 31. in eine andere Erwartung. Wir ersetzen den Beweisdruck durch eine klare Trennung. Reste vom 24. schlagen ein neues Menü, das niemand führen will. Sylwester bleibt später und kalt.
+
+![Übriger Barszcz, Uszka, ein Glas Kompot am stillen Morgen](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-zwischen-feiertagen/4b7246ee-c4e0-4903-88dd-1aa58512fc4b.webp "Die Lücke trägt Reste, nicht ein zweites Festmenü.")
+
+## Was diese Tage nicht sind
+
+Sie sind nicht Wigilia zum zweiten Mal. Wer am 27. noch einmal zwölf Gänge plant, kocht Gereiztheit. Sie sind nicht Sylwester. Hering um Mitternacht, Tartar, Zapiekanka in Chargen gehören in den [Sylwester-Speiseplan](/de/blog/silvester-speiseplan), nicht in diese Lücke.
+
+Sie dürfen Fleisch wieder auf den Tisch lassen, wenn der Haushalt am 24. gefastet hat. Sie müssen es nicht. Eine klare Suppe und übrige [Uszka](/de/rezepte/uszka) sind ein vollständiger 26.
+
+Deutsche Gäste brauchen einen Satz: Wir essen auf, was vom Heiligabend noch gut ist, kein neues Fest. Das ist Respekt, nicht Geiz.
+
+## Was den Kühlschrank wirklich trägt
+
+Barszcz klar, gut gekühlt, in einem geschlossenen Topf: oft besser am nächsten Tag. [Uszka](/de/rezepte/uszka) separat, nicht tagelang in der Suppe, sonst weichen sie auf. Zusammen erst beim Erhitzen.
+
+[Pierogi mit Kraut und Pilzen](/de/rezepte/pierogi/kraut-pilze) in der Pfanne mit Butter oder Zwiebel. Das ist der klarste Resteteller. Rohe Reste aus dem Freezer: der [Freezer-Guide](/de/blog/freezer-meal-prep) trägt die Box, nicht der 27. improvisiert.
+
+[Karp](/de/rezepte/karp) ist der kritische Rest. Riechen, ansehen, zeitnah essen oder entsorgen. Aus gutem Rest darf [Ryba po grecku](/de/rezepte/ryba-po-grecku) werden, wenn jemand die Linie führen will. Bei Zweifel wegwerfen, nicht in eine neue Soße verstecken.
+
+[Śledź](/de/rezepte/sledz) in Öl hält besser als Mayonnaisesalat. Der [Hering-Guide](/de/blog/hering-deutschland) erklärt die Gläser. Nachfüllen, nicht den ganzen Nachmittag offen lassen.
+
+[Kompot z suszu](/de/rezepte/kompot-z-suszu) bleibt im Krug, kalt, oft runder nach einem Tag. [Kutia](/de/rezepte/kutia) kalt halten, zeitnah essen, nicht als Dekoration eine Woche stehen lassen.
+
+![Uszka, die erst beim Erhitzen in den Barszcz kommen](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-uszka/e1c529d7-d5b5-4dc1-8500-da989dc7efe9.webp "Getrennt lagern, zusammen essen. Das hält die Tasche fest.")
+
+## Ein ruhiger Teller pro Tag
+
+26.: Suppe und eine Pfanne Pierogi oder Uszka. Brot. Kompot. Kein neues Backprojekt.
+
+27.: Fischreste prüfen. Was gut ist, kalt oder in der Pfanne. Was unsicher ist, weg. Eine leere Linie ist Freundlichkeit.
+
+28. und 29.: Freezer oder Einkauf für den Alltag. Leczo, Eier, Brot. Der [Schicht-Gedanke](/de/blog/nach-der-schicht) gilt, wenn die Arbeit wieder beginnt. Nicht den Kühlschrank der Wigilia in die Kantine tragen, wenn die Kühlkette bricht.
+
+30.: Kühlschrank leeren vor Sylwester. Was den 31. tragen soll, neu kaufen oder bewusst aufheben. Was nur noch Pflicht ist, entsorgen. Platz ist Hygiene.
+
+Der zweite Weihnachtsfeiertag in Deutschland trägt oft Besuch, Spaziergang, einen deutschen Braten. Die polnische Schüssel darf klein daneben stehen. Sie muss den Tag nicht gewinnen. Wer am 26. noch [Makowiec](/de/rezepte/makowiec) schneidet, schneidet Kuchen, kein neues Fest. Wer am selben Tag noch eine zweite Rolle backt, weil die erste zu klein wirkte, kocht Beweis, nicht Hunger.
+
+Kompot neben Tee ist genug Getränk. Eine neue Bowle ist Sylwester oder Imieniny, nicht diese Lücke. Kutia löffeln, nicht als Schauobjekt in die Mitte stellen, wenn niemand sie will.
+
+## Was in die Box muss
+
+Pierogi und Uszka roh oder halbgar einfrieren, wenn ihr am 24. zu viel geformt habt. Fertig gekochte Taschen verlieren schneller. Beschriften mit Datum.
+
+Brühe in flachen Dosen, schnell kalt, dann in den Frost. Nicht der ganze Topf stundenlang auf dem Balkon, wenn die Temperatur nicht sicher frostig ist.
+
+Kutia und Kompot einfrieren nur, wenn ihr die Textur kennt. Oft ehrlicher: zeitnah essen. Makowiec scheibenweise, fest gewickelt.
+
+Der Freezer ist kein Archiv für schlechten Fisch. Karpfenreste gehören selten in die lange Box.
+
+## Hygiene, die die Lücke trägt
+
+Zwei Stunden Raumtemperatur sind für Fisch und Mayonnaise zu lang. Schnell kühlen, Deckel, eigene Schalen, keine gemeinsame Gabel im Topf den ganzen Tag. Orientierung: [bzfe.de](https://www.bzfe.de).
+
+Roher Rest und fertiger Teller nicht auf demselben Brett. Lake nicht über Kinderteller gießen, die schon auf dem Tisch lagen.
+
+Bei Fremdgeruch, Schleim, Schimmel auf Kutia oder unsicherer Kühlkette entsorgen. Scham ist teurer als ein neuer Beutel Hering. Rahmen: [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
+
+## Gemischte Familien und Besuch
+
+In Häusern mit deutschen und polnischen Linien ist der 26. oft Gänsebraten oder Spaziergang. Übrige Uszka dürfen als kleine Schüssel daneben stehen, ohne den deutschen Tisch zu korrigieren.
+
+Besuch braucht keinen zweiten Heiligabend. Eine Pfanne und ehrliche Namen reichen. Wer am 28. noch Karpfenbrühe erklärt, während Kinder Kekse wollen, verfehlt die Lücke.
+
+Arbeit teilen: eine Person prüft den Fisch, eine führt die Suppe, eine den Freezer. Nach dem 24. ist das die einzige Form, in der der Kühlschrank freundlich bleibt.
+
+Wer allein hostet, kauft nach dem 24. kleiner ein. Reste für vier Personen braucht am 28. niemand als Pflicht. Eine ehrliche Dose im Frost schlägt drei Töpfe, die nur noch Gewissen sind.
+
+## FAQ
+
+### Müssen wir die Reste bis Sylwester aufheben?
+
+Nein. Sylwester ist ein anderer Tisch. Was den 31. tragen soll, plant ihr extra. Pflichtreste aus Mitleid sind keine Glückssymbole.
+
+### Darf am 26. wieder Fleisch auf den Tisch?
+
+Ja, wenn der Haushalt das so hält. Der 24. bleibt der Fastenabend. Die Lücke darf Schabowy oder Wurst, sie muss nicht.
+
+### Wie lange bleibt Barszcz gut?
+
+Kalt, geschlossen, zeitnah. Ein bis zwei Tage sind üblich. Darüber hinaus prüfen oder einfrieren. Uszka getrennt halten.
+
+### Was tun mit übrigem Karpfen?
+
+Riechen, ansehen, zeitnah essen oder entsorgen. Eine neue Soße rettet keinen unsicheren Fisch. Ryba po grecku nur aus gutem Rest.
+
+### Ist Kompot am 29. noch in Ordnung?
+
+Wenn er kalt blieb und sauber schmeckt, oft ja. Bei Gärung, Schimmel oder unklarer Kühlung weg. Frischen Kompot ansetzen ist kleiner als ein Risiko.
+
+## Ohne Scham, mit der Lücke
+
+Aufgewärmter Barszcz, eine Pfanne Pierogi und ein 27. ohne neues Festmenü sind in der Diaspora in Ordnung. Heldentum, das die Reste in den Sylwester zwingt, ist kein Gewinn an Brauch. Vorher prüfen, trennen, Platz schaffen. Die Tage bleiben freundlich, wenn der 24. der 24. bleiben darf und der 31. später kommt.', 'Zwischen den Feiertagen | Reste | Alemniam', 'Nach der Wigilia: Reste, Hygiene, Freezer. Speiseplan 26. bis 30. Dezember, bilingual, ohne Sylwester-Menü.') on conflict (post_id, locale) do update set title = excluded.title, slug = excluded.slug, excerpt = excluded.excerpt, body = excluded.body, seo_title = excluded.seo_title, seo_description = excluded.seo_description;
+insert into public.blog_post_translations (post_id, locale, title, slug, excerpt, body, seo_title, seo_description) values ('post-zwischen-feiertagen', 'pl', 'Między świętami: resztki bez drugiego święta', 'miedzy-swietami', '26 do 30 grudnia: barszcz, uszka, resztki karpia, kompot. Zjadać, mrozić, nie wyprzedzać sylwestra.', 'Dni między świętami w Niemczech rzadko są drugimi Świętami i jeszcze nie są [sylwestrem](/pl/blog/menu-sylwester). To 26 do 30 grudnia między resztką [barszczu](/pl/rezepte/barszcz-czerwony), odwiedzinami, zmianą i pytaniem, co z Wigilii jeszcze może, bez zamiany lodówki w obowiązek. Nazwa znaczy lukę po [Wigilii](/pl/blog/menu-wigilijne). Zwyczaj znaczy więcej: które resztki niosą, co musi do pudełka, i gdzie świadomie przestajemy gotować.
+
+Ten artykuł jest planem menu na lukę, nie książką przepisów i nie stołem o północy. Ilości i konkretna kolejność kroków są w przepisach Wigilii. Tutaj porządkujemy podgrzewanie, higienę i szacunek dla zmęczenia po 24. Orientacja o resztkach, rybie i wywarze: [bzfe.de](https://www.bzfe.de) oraz [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
+
+Historycznie Polska zna 25 i 26 jako własne święta, często z mięsem po postnej linii 24. W Niemczech 26 wpada w drugi dzień świąt, 27 często w codzienność, 31 w inne oczekiwanie. Dowód zastępujemy czytelnym podziałem. Resztki z 24 biją nowe menu, którego nikt nie chce prowadzić. Sylwester zostaje później i zimny.
+
+![Resztka barszczu, uszka, szklanka kompotu w cichy poranek](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-zwischen-feiertagen/4b7246ee-c4e0-4903-88dd-1aa58512fc4b.webp "Luka niesie resztki, nie drugie menu święta.")
+
+## Czym te dni nie są
+
+Nie są Wigilią drugi raz. Kto 27. planuje znowu dwanaście dań, gotuje irytację. Nie są sylwestrem. Śledź o północy, tatar, zapiekanka porcjami należą do [menu na sylwestra](/pl/blog/menu-sylwester), nie do tej luki.
+
+Mogą znowu wpuścić mięso na stół, gdy dom 24. pościł. Nie muszą. Jasna zupa i resztka [uszek](/pl/rezepte/uszka) są pełnym 26.
+
+Niemieccy goście potrzebują zdania: Jemy to, co z Wigilii jeszcze jest dobre, nie nowe święto. To szacunek, nie skąpstwo.
+
+## Co naprawdę niesie lodówka
+
+Barszcz jasny, dobrze schłodzony, w zamkniętym garnku: często lepszy następnego dnia. [Uszka](/pl/rezepte/uszka) osobno, nie dniami w zupie, bo miękną. Razem dopiero przy podgrzewaniu.
+
+[Pierogi z kapustą i grzybami](/pl/rezepte/pierogi/kapusta-grzyby) na patelni z masłem albo cebulą. To najczytelniejszy talerz z resztek. Surowe resztki z zamrażarki: [przewodnik o mrożeniu](/pl/blog/mrozenie-pierogow) niesie pudełko, nie 27. z improwizacji.
+
+[Karp](/pl/rezepte/karp) jest krytyczną resztką. Wąchamy, oglądamy, jemy wkrótce albo wyrzucamy. Z dobrej resztki może powstać [ryba po grecku](/pl/rezepte/ryba-po-grecku), gdy ktoś chce prowadzić tę linię. Przy wątpliwości wyrzucamy, nie chowamy w nowym sosie.
+
+[Śledź](/pl/rezepte/sledz) w oleju trzyma lepiej niż sałatka majonezowa. [Przewodnik o śledziu](/pl/blog/sledz-w-niemczech) wyjaśnia słoiki. Dokładamy, nie zostawiamy otwartego przez całe popołudnie.
+
+[Kompot z suszu](/pl/rezepte/kompot-z-suszu) zostaje w dzbanku, zimny, często pełniejszy po dniu. [Kutię](/pl/rezepte/kutia) trzymamy zimno, jemy wkrótce, nie zostawiamy jako dekoracji przez tydzień.
+
+![Uszka, które dopiero przy podgrzewaniu idą do barszczu](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-uszka/e1c529d7-d5b5-4dc1-8500-da989dc7efe9.webp "Przechowujemy osobno, jemy razem. Kieszonka zostaje jędrna.")
+
+## Spokojny talerz na dzień
+
+26.: zupa i patelnia pierogów albo uszek. Chleb. Kompot. Bez nowego projektu pieczenia.
+
+27.: sprawdzamy resztki ryby. Co dobre, zimne albo na patelni. Co niepewne, precz. Pusta linia jest uprzejmością.
+
+28. i 29.: zamrażarka albo zakupy na codzienność. Leczo, jajka, chleb. [Myśl o zmianie](/pl/blog/po-zmianie) obowiązuje, gdy praca wraca. Nie woźimy lodówki Wigilii do stołówki, gdy łańcuch chłodu pęka.
+
+30.: opróżniamy lodówkę przed sylwestrem. Co ma nieść 31., kupujemy nowo albo świadomie odkładamy. Co jest już tylko obowiązkiem, wyrzucamy. Miejsce jest higieną.
+
+Drugi dzień świąt w Niemczech często niesie odwiedziny, spacer, niemiecki pieczeń. Polska miska może stać mała obok. Nie musi wygrywać dnia. Kto 26. kroi jeszcze [makowiec](/pl/rezepte/makowiec), kroi ciasto, nie nowe święto. Kto tego samego dnia piecze drugą rolkę, bo pierwsza wydała się za mała, gotuje dowód, nie głód.
+
+Kompot obok herbaty wystarczy jako napój. Nowa poncz to sylwester albo imieniny, nie ta luka. Kutię jemy łyżką, nie stawiamy jako ozdoby na środku, gdy nikt jej nie chce.
+
+## Co musi do pudełka
+
+Pierogi i uszka surowe albo półgotowe mrozimy, gdy 24. ulepieliście za dużo. Ugotowane kieszonki szybciej tracą. Piszemy datę.
+
+Wywar w płaskich pudełkach, szybko zimny, potem do mrozu. Nie cały garnek godzinami na balkonie, gdy temperatura nie jest pewnie mroźna.
+
+Kutię i kompot mrozimy tylko, gdy znacie teksturę. Często uczciwiej: jeść wkrótce. Makowiec w plastrach, szczelnie zawinięty.
+
+Zamrażarka nie jest archiwum złej ryby. Resztki karpia rzadko idą do długiego pudełka.
+
+## Higiena, która niesie lukę
+
+Dwie godziny w temperaturze pokojowej to za długo dla ryby i majonezu. Szybko studzimy, pokrywka, osobne miski, bez wspólnej łyżki w garnku przez cały dzień. Orientacja: [bzfe.de](https://www.bzfe.de).
+
+Surowa resztka i gotowy talerz nie na tej samej desce. Zalewy nie lejemy na talerze dzieci, które już stały na stole.
+
+Przy obcym zapachu, śluzie, pleśni na kuti albo niepewnym łańcuchu chłodu wyrzucamy. Wstyd jest droższy niż nowy słoik śledzia. Ramy: [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
+
+## Mieszane rodziny i odwiedziny
+
+W domach z niemiecką i polską linią 26. często jest gęsią albo spacerem. Resztka uszek może stać jako mała miska obok, bez poprawiania niemieckiego stołu.
+
+Odwiedziny nie potrzebują drugiej Wigilii. Patelnia i uczciwe nazwy wystarczą. Kto 28. jeszcze tłumaczy wywar z karpia, gdy dzieci chcą ciastek, mija się z luką.
+
+Podział pracy: jedna osoba sprawdza rybę, jedna prowadzi zupę, jedna zamrażarkę. Po 24. to jedyna forma, w której lodówka zostaje przyjazna.
+
+Kto gości sam, po 24. kupuje mniej. Resztek na cztery osoby 28. nikt nie potrzebuje jako obowiązku. Uczciwe pudełko w mrozie bije trzy garnki, które są już tylko sumieniem.
+
+Dzieci w luce rozumieją resztki, gdy mają nazwę. To barszcz z wczoraj, to uszka z patelni, to kompot. Nie muszą jeść karpia, którego nie chciały 24. Osobna miska łagodna zapobiega pustemu talerzowi i kłótni przy lodówce.
+
+## FAQ
+
+### Czy musimy trzymać resztki do sylwestra?
+
+Nie. Sylwester to inny stół. Co ma nieść 31., planujemy osobno. Obowiązkowe resztki z litości nie są symbolami szczęścia.
+
+### Czy 26. znowu może być mięso?
+
+Tak, gdy dom tak trzyma. 24. zostaje wieczorem postnym. Luka może wpuścić schabowego albo kiełbasę, nie musi.
+
+### Jak długo barszcz zostaje dobry?
+
+Zimny, zamknięty, jemy wkrótce. Jeden do dwóch dni jest zwyczajny. Dalej sprawdzamy albo mrozimy. Uszka trzymamy osobno.
+
+### Co z resztką karpia?
+
+Wąchamy, oglądamy, jemy wkrótce albo wyrzucamy. Nowy sos nie ratuje niepewnej ryby. Ryba po grecku tylko z dobrej resztki.
+
+### Czy kompot 29. jest jeszcze w porządku?
+
+Gdy został zimny i czysto smakuje, często tak. Przy fermentacji, pleśni albo niejasnym chłodzeniu precz. Nowy kompot jest mniejszy niż ryzyko.
+
+## Bez wstydu, z luką
+
+Podgrzany barszcz, patelnia pierogów i 27. bez nowego menu święta są w diasporze w porządku. Bohaterstwo, które wpycha resztki w sylwestra, nie jest zyskiem zwyczaju. Najpierw sprawdzamy, rozdzielamy, robimy miejsce. Dni zostają przyjazne, gdy 24. może zostać 24., a 31. przychodzi później.', 'Między świętami | Resztki | Alemniam', 'Po Wigilii: resztki, higiena, mrożenie. Plan 26 do 30 grudnia, dwujęzycznie, bez menu sylwestrowego.') on conflict (post_id, locale) do update set title = excluded.title, slug = excluded.slug, excerpt = excluded.excerpt, body = excluded.body, seo_title = excluded.seo_title, seo_description = excluded.seo_description;
 -- affiliate_products
 insert into public.affiliate_products (id, partner, url, image_url, title_de, title_pl, description_de, description_pl, cta_de, cta_pl, tags, recipe_ids, post_ids, active, sort_order) values ('aff-pierogi-form', 'amazon', 'https://www.amazon.de/s?k=Pierogi+Form+Set', 'https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-pierogi-formen/bf60d0dc-888a-4dab-b1f9-520da0297e1f.webp', 'Pierogi-Formen Set', 'Zestaw foremek do pierogów', 'Gleichmäßige Kreise, saubere Ränder. Spart Zeit beim Formen.', 'Równe kółka, czyste brzegi. Szybsze lepienie.', 'Bei Amazon ansehen', 'Zobacz na Amazon', array['pierogi', 'teig', 'kitchen', 'gear']::text[], array['recipe-pierogi', 'recipe-pierogi-meat', 'recipe-pierogi-cabbage']::text[], array['post-teigmaschine', 'post-pierogi-teig']::text[], true, 10) on conflict (id) do update set partner = excluded.partner, url = excluded.url, image_url = excluded.image_url, title_de = excluded.title_de, title_pl = excluded.title_pl, description_de = excluded.description_de, description_pl = excluded.description_pl, cta_de = excluded.cta_de, cta_pl = excluded.cta_pl, tags = excluded.tags, recipe_ids = excluded.recipe_ids, post_ids = excluded.post_ids, active = excluded.active, sort_order = excluded.sort_order, updated_at = now();
 insert into public.affiliate_products (id, partner, url, image_url, title_de, title_pl, description_de, description_pl, cta_de, cta_pl, tags, recipe_ids, post_ids, active, sort_order) values ('aff-rolling-pin', 'amazon', 'https://www.amazon.de/s?k=Teigroller+Holz', 'https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-pierogi-teig/ba5876fe-10c2-4ed4-8025-632c2caae7b6.webp', 'Holz-Teigroller', 'Wałek drewniany', 'Für dünnen, gleichmäßigen Teig. Das Fundament guter Pierogi.', 'Do cienkiego, równego ciasta. Podstawa dobrych pierogów.', 'Teigroller finden', 'Znajdź wałek', array['teig', 'kitchen', 'gear']::text[], array['recipe-pierogi', 'recipe-pierogi-meat', 'recipe-pierogi-cabbage']::text[], array['post-teigmaschine', 'post-pierogi-teig']::text[], true, 20) on conflict (id) do update set partner = excluded.partner, url = excluded.url, image_url = excluded.image_url, title_de = excluded.title_de, title_pl = excluded.title_pl, description_de = excluded.description_de, description_pl = excluded.description_pl, cta_de = excluded.cta_de, cta_pl = excluded.cta_pl, tags = excluded.tags, recipe_ids = excluded.recipe_ids, post_ids = excluded.post_ids, active = excluded.active, sort_order = excluded.sort_order, updated_at = now();
@@ -15641,4 +16619,4 @@ insert into public.affiliate_products (id, partner, url, image_url, title_de, ti
 
 commit;
 
--- Row counts expected after this file runs: clusters=32, recipe_families=4, recipes=109, blog_posts=47, affiliate_products=8
+-- Row counts expected after this file runs: clusters=32, recipe_families=4, recipes=109, blog_posts=52, affiliate_products=8
