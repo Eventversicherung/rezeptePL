@@ -14621,6 +14621,1014 @@ Szybko chłodzimy, jemy wkrótce, majonez i jajka sprawdzamy krytycznie, mięso 
 ## Bez wstydu, z miejscem
 
 Kupiony pasztet, gotowe ciasto i bufet bez kotleta są w diasporze w porządku. Bohaterstwo, które męczy rodziców i dziecko, nie jest zyskiem zwyczaju. Wcześniej zamykamy listę gości, uczciwie liczymy chłód, rozdajemy linie. Dzień zostaje przyjazny, gdy stół może być mniejszy niż wspomnienie domu w Polsce. Rama: [komunia](/pl/anlaesse/komunia).', 'Menu na komunię | Bufet w DE | Alemniam', 'Bufet komunijny w Niemczech: pasztet, jajka, sałatka, jedno ciasto. Plan menu dla mieszanych rodzin, dwujęzycznie, bez maratonu dań.') on conflict (post_id, locale) do update set title = excluded.title, slug = excluded.slug, excerpt = excluded.excerpt, body = excluded.body, seo_title = excluded.seo_title, seo_description = excluded.seo_description;
+-- blog:post-fastenzeit
+insert into public.blog_posts (id, status, post_type, cover_image, silo_ids, related_recipe_ids, related_post_ids, related_product_ids, cluster_ids, published_at, updated_at) values ('post-fastenzeit', 'published', 'culture', 'https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-fastenzeit/c2a1a5b6-df48-4640-aa45-af2ac23de4af.webp', array['occasion', 'culture']::text[], array['recipe-sledz', 'recipe-karp', 'recipe-ryba-po-grecku', 'recipe-kapusniak', 'recipe-ogorkowa', 'recipe-kluski-kladzione']::text[], array['post-hering', 'post-wielkanoc', 'post-tlusty-czwartek', 'post-zakwas-zurek']::text[], '{}'::text[], array['occasion-post']::text[], '2026-08-23T13:00:00.000Z', '2026-08-23T13:00:00.000Z') on conflict (id) do update set status = excluded.status, post_type = excluded.post_type, cover_image = excluded.cover_image, silo_ids = excluded.silo_ids, related_recipe_ids = excluded.related_recipe_ids, related_post_ids = excluded.related_post_ids, related_product_ids = excluded.related_product_ids, cluster_ids = excluded.cluster_ids, published_at = excluded.published_at, updated_at = excluded.updated_at;
+insert into public.blog_post_translations (post_id, locale, title, slug, excerpt, body, seo_title, seo_description) values ('post-fastenzeit', 'de', 'Fastenzeit Speiseplan: Freitag ohne Fleisch in DE', 'fastenzeit-speiseplan', 'Post in Deutschland ruhig halten: Hering, eine klare Suppe, Gemüse, ohne sechs Wochen Hunger und ohne Dogma.', 'Die Fastenzeit in Deutschland ist selten eine Kopie der Wochen, in denen in Polen der Freitag den Tisch automatisch auf Fisch und Gemüse stellte. Es ist ein Zeitraum zwischen Job, Kantine, Kita und einem deutschen Kalender, der Fasten eher als Diät oder als Aschermittwoch kennt. Der Name meint den kirchlichen Post. Der Brauch meint mehr: Welche Freitage wir wirklich halten, was ohne Fleisch satt macht, und wie viel Respekt ohne Dogma in einer gemischten Familie Platz hat.
+
+Dieser Artikel ist der Speiseplan, nicht das Rezeptbuch. Mengen, Garzeiten und die konkrete Schrittfolge stehen in den einzelnen Rezepten. Hier ordnen wir, was den Freitag trägt, was sich kaufen lässt und wo Haushalte in der Diaspora bewusst kürzen, ohne den Tag zu entwerten. Orientierung zu Hygiene, Fisch und Kühlkette: [bzfe.de](https://www.bzfe.de) und [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
+
+Historisch ist der polnische Post älter als das Wort Fastenzeit im Amtskalender. Freitag ohne Fleisch, manchmal ohne Milch, in manchen Häusern die ganze Woche vor Ostern. In der Volksrepublik blieb der Freitag oft sichtbar, weil die Kantine und die Familie denselben Rhythmus kannten. In Deutschland fragt die Kantine nach Schnitzel. Wir ersetzen den Beweisdruck durch einen ruhigen Plan. Ein klarer Fisch oder ein klares Gemüsegericht schlägt drei halbherzige Tofuversuche, die niemand wiederholen will.
+
+![Hering, Brot und eine klare Gemüsesuppe zum Freitag](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-fastenzeit/c2a1a5b6-df48-4640-aa45-af2ac23de4af.webp "Ein klarer Fisch oder ein klares Gemüsegericht tragen den Freitag.")
+
+## Was Fasten hier meint
+
+Weniger Linien, bessere Ausführung. In den meisten Diaspora-Küchen meint Fasten Freitag ohne Fleisch, nicht sechs Wochen Hunger. Manche halten nur die Karwoche. Manche halten nichts und wollen trotzdem einen ruhigen Fischtisch, weil die Großmutter anruft. Beides ist legitim, wenn der Tisch ehrlich benannt ist.
+
+Der kirchliche Kern bleibt unter [Fastenzeit](/de/anlaesse/fastenzeit). Wer denselben Freitag zum [Sonntagsessen](/de/blog/sonntagsessen-polnisch) aufbläst, kocht zwei Anlässe in einem. [Tłusty Czwartek](/de/blog/tlusty-czwartek) liegt davor und ist das Gegenteil: Fett, Pączki, Faworki. [Wielkanoc](/de/blog/wielkanoc-speiseplan) liegt danach und trägt wieder Fleisch, Żurek, biała kiełbasa.
+
+Deutsche Gäste brauchen einen Satz: Heute ist Freitag, wir essen Fisch oder Gemüse, kein Vorwurf. Das ist Respekt, nicht eine Predigt. Kinder verstehen den Rhythmus, wenn er jedes Jahr gleich klingt.
+
+## Was den Freitag trägt
+
+Drei Dinge reichen: eine Mitte, Brot, eine Säure. Die Mitte kann [Śledź](/de/rezepte/sledz) sein, [Ryba po grecku](/de/rezepte/ryba-po-grecku), [Karp](/de/rezepte/karp) vom Vortag, [Kapuśniak](/de/rezepte/kapusniak) ohne Wurst, [Ogórkowa](/de/rezepte/ogorkowa) ohne Fleischansatz, [Pierogi ruskie](/de/rezepte/pierogi/ruskie), [Pierogi mit Kraut und Pilzen](/de/rezepte/pierogi/kraut-pilze), [Kluski kładzione](/de/rezepte/kluski-kladzione) in klarer Brühe ohne Fleisch, [Chłodnik](/de/rezepte/chlodnik-litewski) im Sommer.
+
+[Fasolka po bretońsku](/de/rezepte/fasolka-po-bretonsku) trägt den Alltag, nicht den Post. Sie führt Wurst. Wer sie als Fastengericht serviert, verfehlt den Namen. Der [Fasolka-Guide](/de/blog/fasolka-po-bretonsku) erklärt den Topf, nicht diesen Speiseplan.
+
+Eine Sorte Fisch plus eine milde Linie reichen. Wer am selben Abend noch [Schabowy](/de/rezepte/kotlet-schabowy) brät, weil Gäste kommen, kocht keinen Post, sondern einen Stau und eine Erklärung, die niemand hören wollte.
+
+## Fisch, der den Tisch wirklich trägt
+
+Śledź ist der Alltag des Posts, nicht der Karpfen. Karpfen gehört zur [Wigilia](/de/blog/wigilia-speiseplan) und bleibt ein Festfisch. Unter der Woche gewinnt der eingelegte Hering, weil er kalt steht, Brot braucht und keine Pfanne blockiert. Sorten, Öl, Sahne und Kauf erklärt der Beitrag [Hering in Deutschland](/de/blog/hering-deutschland), nicht dieser Speiseplan.
+
+Ryba po grecku ist der warme Maggi-Gegensatz: Fisch unter Gemüse, kalt oder lauwarm, oft besser am nächsten Tag. Karpfenreste vom Heiligabend dürfen in diesen Topf, wenn sie noch gut riechen. Bei Zweifel entsorgen.
+
+Matjes aus dem deutschen Kühlregal darf auf den Teller, wenn er so heißt. Er ersetzt nicht automatisch den polnischen Śledź. Ehrlich benennen. Der [Polenladen](/de/blog/polenladen-einkaufen) trägt oft bessere Filets und das erwartete Brot.
+
+![Śledź in Öl mit Zwiebel und Brot](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-sledz/0c4050e5-1b47-4bd0-bd45-831394b85b0c.webp "Hering trägt den Freitag, wenn der Name ehrlich bleibt und die Kühlkette hält.")
+
+## Gemüse, das satt macht
+
+Eine Suppe ohne Fleischansatz ist kein Mangel. Ogórkowa aus Gurkenlake, Kapuśniak aus Sauerkraut ohne Wurst, [Barszcz](/de/rezepte/barszcz-czerwony) klar, [Żurek](/de/rezepte/zurek) ohne kiełbasa, wenn der Haushalt das so hält. Zakwas und Technik stehen im [Żurek-Guide](/de/blog/zakwas-zurek) und im [Barszcz-Technik](/de/blog/barszcz-technik) Beitrag. Dieser Speiseplan sagt nur, wo sie am Freitag stehen: als Mitte, nicht als Vorspeise vor einem zweiten Fleischgang.
+
+[Kasza gryczana](/de/rezepte/kasza-gryczana) und Kartoffeln tragen mehr als ein zweiter Fisch, den niemand will. Der [Kasza-Guide](/de/blog/kasza-buchweizen) hilft beim Einkauf. [Grochówka](/de/rezepte/grochowka) ist oft fleischig. Wer sie fastet, lässt Speck und Wurst weg und sagt das am Tisch.
+
+Pilze, Kraut, Rote Bete, Gurke: das sind Linien, keine Dekoration. Eine Linie wählen. Zwei nur, wenn zwei Personen sie führen.
+
+## Zeitplan rückwärts
+
+Einen Tag vorher: Polenladen für Hering, Gurken, Meerrettich, oft Brot. REWE oder Kaufland für Zwiebel, Kartoffel, Dill, Buttermilch, wenn Chłodnik geplant ist. Kühlschrankplatz schaffen. Hering nicht erst am Freitagmittag wässern, wenn ihr Salzhering braucht.
+
+Am Freitag selbst: Mitte anrichten, Brot schneiden, Säure auf den Tisch. Wer nach der Schicht noch Karpfen brät, weil der Freitag sonst nicht zählt, zahlt mit Gereiztheit. Gekaufter Hering und eine klare Suppe sind in der Diaspora in Ordnung.
+
+## Einkauf in zwei Touren
+
+Erste Tour: Supermarkt für das Offensichtliche. Zweite Tour: Polenladen für den Fisch, den ihr kennt, Lake, Meerrettich, oft bessere Gurken. Was fehlt, ersetzt ihr bewusst: [Ersatzprodukte in DE](/de/blog/ersatzprodukte-de). Eine deutsche Fischfrikadelle darf auf den Teller, wenn sie so heißt. Sie ist kein Śledź.
+
+Listen nach Gericht schreiben. Was der Hering braucht, steht auf einer Zeile. Was die Suppe braucht, auf der nächsten.
+
+## Gemischte Familien
+
+In Häusern mit deutschen und polnischen Linien ist der Post oft unsichtbar, bis jemand ihn erklärt. Ein Satz im Kalender, eine Erinnerung am Donnerstagabend, ein Fischteller: das reicht, damit Kinder den Freitag nicht für eine Laune halten.
+
+Wer nicht fastet, isst mit, ohne dass jemand den Teller kontrolliert. Pflichtfleisch für Gäste am Fastenfreitag zerstört meist den Abend. Eine milde Linie in Sichtweite verhindert leere Teller.
+
+## Kinder am Tisch
+
+Kinder brauchen einen Namen und eine milde Variante. Hering ist keine Mutprobe. Eine Kartoffel, Brot, Gurke, später Fisch in kleinen Stücken. Allergien eigene Schale. Erwachsene führen Messer und Lake.
+
+## Hygiene und Reste
+
+Fisch kalt halten, zeitnah essen, nicht stundenlang warm. Roher und fertiger Fisch nicht auf demselben Brett. Lake nicht als zweite Soße auf gekochte Kartoffeln gießen, die schon auf dem Kinderteller lagen. Orientierung: [bzfe.de](https://www.bzfe.de).
+
+Reste vom Hering halten besser als eine Mayonnaisesalat-Schüssel. Karpfenreste kritisch prüfen. Bei Fremdgeruch, Schleim oder unsicherer Kühlkette entsorgen. Die Logik steht auch bei [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
+
+## Kantine, Schicht, kein Herd
+
+Viele Freitage enden in der Kantine oder mit einer Pfanne nach 20 Uhr. Der Speiseplan muss das aushalten. Ein Glas Hering plus Brot aus der Tasche ist vollständiger als ein geplanter Karpfen, der nie in die Pfanne kommt. Wer kochen kann, kocht eine Suppe vom Vortag und erhitzt sie nur. Wer nicht kochen kann, kauft ehrlich und setzt den Teller.
+
+Schichtarbeit verschiebt den Freitag nicht auf Samstag. Der Tag bleibt der Tag. Eine Schale im Kühlschrank vor der Frühschicht schlägt den Einkauf um 21 Uhr, wenn der Polenladen zu ist.
+
+## Was wir bewusst weglassen
+
+Wir lassen das zweite Fleisch weg, auch wenn Gäste das erwarten. Wir lassen die dritte Fischvariante weg, wenn niemand sie isst. Wir lassen den Beweis weg, dass der Haushalt frommer ist als der Nachbar. Respekt ohne Dogma heißt: eine Linie halten, die ihr nächstes Jahr wiederholt.
+
+[Chłodnik](/de/blog/chlodnik-deutschland) gehört in den Sommer, nicht automatisch in jeden März. [Kasza](/de/blog/kasza-buchweizen) gehört daneben, wenn die Suppe allein nicht trägt. Beides sind Nachbarn, keine Pflicht.
+
+## FAQ
+
+### Müssen wir sechs Wochen lang jeden Tag fasten?
+
+Nein. In den meisten Diaspora-Küchen trägt der Freitag den Post. Manche halten die Karwoche enger. Der Tisch bleibt ehrlich, wenn er das sagt, was ihr wirklich haltet, nicht was die Großmutter vor dreißig Jahren gehalten hat.
+
+### Reicht Hering mit Brot als vollständiges Essen?
+
+Ja. Mit Zwiebel, Gurke, Meerrettich und einer Kartoffel ist das ein vollständiger Freitag. Eine warme Suppe daneben ist Freundlichkeit, kein Pflichtgang. Mengen im [Śledź-Rezept](/de/rezepte/sledz).
+
+### Darf Żurek in der Fastenzeit auf den Tisch?
+
+Ja, wenn die Linie ohne Fleisch bleibt oder der Haushalt Wurst bewusst weglässt. Der [Zakwas-Guide](/de/blog/zakwas-zurek) erklärt die Basis. Żurek mit biała kiełbasa gehört eher nach Ostern.
+
+### Was tun, wenn deutsche Gäste Fleisch erwarten?
+
+Einen Satz vorher sagen: Freitag, Fisch oder Gemüse, Kommen ist willkommen. Niemand muss zwei Menüs kochen. Eine sichtbare milde Linie verhindert den leeren Teller.
+
+### Wie halten wir Fischreste sicher?
+
+Schnell kühlen, zeitnah essen, Lake und Fisch getrennt von Mayonnaise halten. Bei Zweifel wegwerfen. Rahmen: [bzfe.de](https://www.bzfe.de) und [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
+
+## Ohne Scham, mit Freitag
+
+Gekaufter Hering, eine klare Suppe und ein Freitag ohne Karpfenpfanne sind in der Diaspora in Ordnung. Heldentum, das alle erschöpft, ist kein Gewinn an Brauch. Vorher die Linie wählen, den Namen ehrlich lassen, die Kühlkette halten. Der Post bleibt freundlich, wenn er das darf. Rahmen: [Fastenzeit](/de/anlaesse/fastenzeit).', 'Fastenzeit Speiseplan | Freitagsküche DE | Alemniam', 'Fastenzeit in Deutschland: Śledź, Fisch, Gemüsesuppe. Speiseplan für Freitage, bilingual, ohne Rezeptduplikat.') on conflict (post_id, locale) do update set title = excluded.title, slug = excluded.slug, excerpt = excluded.excerpt, body = excluded.body, seo_title = excluded.seo_title, seo_description = excluded.seo_description;
+insert into public.blog_post_translations (post_id, locale, title, slug, excerpt, body, seo_title, seo_description) values ('post-fastenzeit', 'pl', 'Menu na post: piątek bez mięsa w DE', 'menu-post', 'Post w Niemczech spokojnie: śledź, jasna zupa, warzywa, bez sześciu tygodni głodu i bez dogmatu.', 'Post w Niemczech rzadko jest kopią tygodni, w których w Polsce piątek sam stawiał na stole rybę i warzywa. To czas między pracą, stołówką, żłobkiem i niemieckim kalendarzem, który post zna raczej jako dietę albo popielec. Nazwa znaczy kościelny post. Zwyczaj znaczy więcej: które piątki naprawdę trzymamy, co syci bez mięsa, i ile szacunku bez dogmatu mieści się w mieszanej rodzinie.
+
+Ten artykuł jest planem menu, nie książką przepisów. Ilości, czasy i konkretna kolejność kroków są w pojedynczych przepisach. Tutaj porządkujemy, co niesie piątek, co da się kupić i gdzie domy w diasporze świadomie skracają, nie odbierając dniu wartości. Orientacja o higienie, rybie i łańcuchu chłodu: [bzfe.de](https://www.bzfe.de) oraz [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
+
+Historycznie polski post jest starszy niż słowo Fastenzeit w urzędowym kalendarzu. Piątek bez mięsa, czasem bez mleka, w niektórych domach cały tydzień przed Wielkanocą. W PRL piątek często zostawał widoczny, bo stołówka i rodzina znały ten sam rytm. W Niemczech stołówka pyta o kotleta. Dowód zastępujemy spokojnym planem. Jedna czytelna ryba albo jedno czytelne danie warzywne bije trzy półsłówka tofu, których nikt nie chce powtórzyć.
+
+![Śledź, chleb i jasna zupa warzywna na piątek](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-fastenzeit/c2a1a5b6-df48-4640-aa45-af2ac23de4af.webp "Czytelna ryba albo czytelne danie warzywne niosą piątek.")
+
+## Co tu znaczy post
+
+Mniej linii, lepsze wykonanie. W większości kuchni diaspory post znaczy piątek bez mięsa, nie sześć tygodni głodu. Niektórzy trzymają tylko Wielki Tydzień. Niektórzy nie trzymają nic i i tak chcą spokojny stół z rybą, bo dzwoni babcia. Oba są legalne, gdy stół nazywa się uczciwie.
+
+Rdzeń zostaje pod [Postem](/pl/anlaesse/post). Kto ten sam piątek rozdmuchuje do [obiadu niedzielnego](/pl/blog/obiad-niedzielny), gotuje dwie okazje w jednej. [Tłusty czwartek](/pl/blog/tlusty-czwartek-przepisy) jest wcześniej i jest przeciwieństwem: tłuszcz, pączki, faworki. [Wielkanoc](/pl/blog/menu-wielkanocne) jest potem i znowu niesie mięso, żurek, białą kiełbasę.
+
+Niemieccy goście potrzebują zdania: Dziś piątek, jemy rybę albo warzywa, bez wyrzutu. To szacunek, nie kazanie. Dzieci rozumieją rytm, gdy brzmi tak samo co roku.
+
+## Co niesie piątek
+
+Trzy rzeczy wystarczą: środek, chleb, kwas. Środkiem może być [śledź](/pl/rezepte/sledz), [ryba po grecku](/pl/rezepte/ryba-po-grecku), [karp](/pl/rezepte/karp) z wczoraj, [kapuśniak](/pl/rezepte/kapusniak) bez kiełbasy, [ogórkowa](/pl/rezepte/ogorkowa) bez mięsnego wywaru, [pierogi ruskie](/pl/rezepte/pierogi/ruskie), [pierogi z kapustą i grzybami](/pl/rezepte/pierogi/kapusta-grzyby), [kluski kładzione](/pl/rezepte/kluski-kladzione) w jasnym bulionie bez mięsa, [chłodnik](/pl/rezepte/chlodnik-litewski) latem.
+
+[Fasolka po bretońsku](/pl/rezepte/fasolka-po-bretonsku) niesie codzienność, nie post. Prowadzi kiełbasę. Kto podaje ją jako danie postne, mija się z nazwą. [Przewodnik po fasolce](/pl/blog/fasolka-po-bretonsku) wyjaśnia garnek, nie ten plan menu.
+
+Jedna odmiana ryby plus linia łagodna wystarczą. Kto tego samego wieczoru smaży jeszcze [schabowego](/pl/rezepte/kotlet-schabowy), bo przyszli goście, nie gotuje postu, tylko korek i wyjaśnienie, którego nikt nie chciał słyszeć.
+
+## Ryba, która naprawdę niesie stół
+
+Śledź jest codziennością postu, nie karp. Karp należy do [Wigilii](/pl/blog/menu-wigilijne) i zostaje rybą święta. W tygodniu wygrywa marynowany śledź, bo stoi zimny, potrzebuje chleba i nie blokuje patelni. Odmiany, olej, śmietanę i zakup wyjaśnia tekst [śledź w Niemczech](/pl/blog/sledz-w-niemczech), nie ten plan menu.
+
+Ryba po grecku to ciepły przeciwieństwo: ryba pod warzywami, zimna albo letnia, często lepsza następnego dnia. Resztki karpia z Wigilii mogą iść do tego garnka, gdy jeszcze dobrze pachną. Przy wątpliwości wyrzucamy.
+
+Matjas z niemieckiej chłodni może na talerz, gdy tak się nazywa. Nie zastępuje automatycznie polskiego śledzia. Nazywamy uczciwie. [Sklep polski](/pl/blog/sklep-polski-zakupy) często niesie lepsze filety i oczekiwany chleb.
+
+![Śledź w oleju z cebulą i chlebem](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-sledz/0c4050e5-1b47-4bd0-bd45-831394b85b0c.webp "Śledź niesie piątek, gdy nazwa zostaje uczciwa, a łańcuch chłodu trzyma.")
+
+## Warzywa, które sycą
+
+Zupa bez mięsnego wywaru nie jest brakiem. Ogórkowa z zalewy, kapuśniak z kiszonej kapusty bez kiełbasy, [barszcz](/pl/rezepte/barszcz-czerwony) jasny, [żurek](/pl/rezepte/zurek) bez kiełbasy, gdy dom tak trzyma. Zakwas i technikę dają [przewodnik o zakwasie](/pl/blog/zakwas-na-zurek) i [jak ugotować barszcz](/pl/blog/jak-ugotowac-barszcz). Ten plan mówi tylko, gdzie stoją w piątek: jako środek, nie jako przystawka przed drugim daniem mięsnym.
+
+[Kasza gryczana](/pl/rezepte/kasza-gryczana) i ziemniaki niosą więcej niż druga ryba, której nikt nie chce. [Przewodnik o kaszy](/pl/blog/kasza-gryczana) pomaga przy zakupach. [Grochówka](/pl/rezepte/grochowka) bywa mięsna. Kto ją pości, zostawia boczek i kiełbasę i mówi to przy stole.
+
+Grzyby, kapusta, burak, ogórek: to linie, nie dekoracja. Wybieramy jedną. Dwie tylko, gdy prowadzą je dwie osoby.
+
+## Harmonogram od tyłu
+
+Dzień wcześniej: sklep polski po śledzia, ogórki, chrzan, często chleb. REWE albo Kaufland po cebulę, ziemniak, koperek, maślankę, gdy w planie chłodnik. Robimy miejsce w lodówce. Śledzia solonego nie moczymy dopiero w piątek w południe.
+
+W sam piątek: środek na stół, chleb pokrojony, kwas obok. Kto po zmianie smaży jeszcze karpia, bo inaczej piątek się nie liczy, płaci irytacją. Kupiony śledź i jasna zupa są w diasporze w porządku.
+
+## Zakupy w dwóch turach
+
+Pierwsza tura: supermarket po oczywistości. Druga: sklep polski po rybę, którą znacie, zalewę, chrzan, często lepsze ogórki. Czego brakuje, zastępujemy świadomie: [zamienniki składników](/pl/blog/zamienniki-skladnikow). Niemiecka kotleta rybna może na talerz, gdy tak się nazywa. To nie śledź.
+
+Listy piszemy według dania. Co potrzebuje śledź, w jednym wierszu. Co zupa, w następnym.
+
+## Mieszane rodziny
+
+W domach z linią niemiecką i polską post często jest niewidoczny, aż ktoś go nazwie. Zdanie w kalendarzu, przypomnienie w czwartek wieczorem, talerz z rybą: to wystarczy, żeby dzieci nie brały piątku za kaprys.
+
+Kto nie pości, je razem, bez kontroli talerza. Obowiązkowe mięso dla gości w postny piątek zwykle psuje wieczór. Widoczna łagodna linia zapobiega pustym talerzom.
+
+## Dzieci przy stole
+
+Dzieci potrzebują nazwy i łagodnego wariantu. Śledź nie jest próbą odwagi. Ziemniak, chleb, ogórek, potem ryba w małych kawałkach. Przy alergiach osobna miska. Dorośli prowadzą nóż i zalewę.
+
+## Higiena i resztki
+
+Rybę trzymamy zimno, jemy wkrótce, nie godzinami w cieple. Surowej i gotowej nie kładziemy na tej samej desce. Zalewy nie lejemy jako drugiego sosu na ziemniaki, które już leżały na talerzu dziecka. Orientacja: [bzfe.de](https://www.bzfe.de).
+
+Resztki śledzia trzymają się lepiej niż miska sałatki majonezowej. Resztki karpia sprawdzamy ostrożnie. Przy obcym zapachu, śluzie albo niepewnym chłodzie wyrzucamy. Logika także na [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
+
+## Stołówka, zmiana, brak kuchenki
+
+Wiele piątków kończy się na stołówce albo patelnią po 20. Plan menu musi to wytrzymać. Słoik śledzia plus chleb z torby jest pełniejszy niż planowany karp, który nigdy nie trafia na ogień. Kto może gotować, gotuje zupę z wczoraj i tylko podgrzewa. Kto nie może, kupuje uczciwie i stawia talerz.
+
+Praca zmianowa nie przesuwa piątku na sobotę. Dzień zostaje dniem. Miska w lodówce przed ranną zmianą bije zakupy o 21, gdy sklep polski jest zamknięty.
+
+## Czego świadomie nie robimy
+
+Odpuszczamy drugie mięso, nawet gdy goście na nie czekają. Odpuszczamy trzeci wariant ryby, gdy nikt go nie je. Odpuszczamy dowód, że dom jest pobożniejszy niż sąsiad. Szacunek bez dogmatu znaczy: trzymać jedną linię, którą powtórzycie za rok.
+
+[Chłodnik](/pl/blog/chlodnik-w-niemczech) należy do lata, nie automatycznie do każdego marca. [Kasza](/pl/blog/kasza-gryczana) należy obok, gdy zupa sama nie niesie. Oba są sąsiadami, nie obowiązkiem.
+
+## FAQ
+
+### Czy musimy pościć codziennie przez sześć tygodni?
+
+Nie. W większości kuchni diaspory piątek niesie post. Niektórzy ciaśniej trzymają Wielki Tydzień. Stół zostaje uczciwy, gdy mówi to, co naprawdę trzymacie, nie to, co trzymała babcia trzydzieści lat temu.
+
+### Czy śledź z chlebem to pełny posiłek?
+
+Tak. Z cebulą, ogórkiem, chrzanem i ziemniakiem to pełny piątek. Ciepła zupa obok jest uprzejmością, nie obowiązkowym daniem. Ilości w [przepisie na śledzia](/pl/rezepte/sledz).
+
+### Czy żurek może stanąć na stole w poście?
+
+Tak, gdy linia zostaje bez mięsa albo dom świadomie wykłada kiełbasę. [Przewodnik o zakwasie](/pl/blog/zakwas-na-zurek) wyjaśnia bazę. Żurek z białą kiełbasą należy raczej po Wielkanocy.
+
+### Co zrobić, gdy niemieccy goście czekają mięsa?
+
+Zdanie wcześniej: piątek, ryba albo warzywa, przyjście jest mile widziane. Nikt nie musi gotować dwóch menu. Widoczna łagodna linia zapobiega pustemu talerzowi.
+
+### Jak bezpiecznie trzymać resztki ryby?
+
+Szybko chłodzimy, jemy wkrótce, zalewę i rybę trzymamy osobno od majonezu. Przy wątpliwości wyrzucamy. Ramy: [bzfe.de](https://www.bzfe.de) oraz [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
+
+## Bez wstydu, z piątkiem
+
+Kupiony śledź, jasna zupa i piątek bez patelni z karpiem są w diasporze w porządku. Bohaterstwo, które wszystkich męczy, nie jest zyskiem zwyczaju. Wcześniej wybieramy linię, zostawiamy uczciwą nazwę, trzymamy chłód. Post zostaje przyjazny, gdy mu wolno. Ramy: [Post](/pl/anlaesse/post).', 'Menu na post | Kuchnia piątkowa DE | Alemniam', 'Post w Niemczech: śledź, ryba, zupa warzywna. Plan menu na piątki, dwujęzycznie, bez duplikatu przepisu.') on conflict (post_id, locale) do update set title = excluded.title, slug = excluded.slug, excerpt = excluded.excerpt, body = excluded.body, seo_title = excluded.seo_title, seo_description = excluded.seo_description;
+-- blog:post-sylwester
+insert into public.blog_posts (id, status, post_type, cover_image, silo_ids, related_recipe_ids, related_post_ids, related_product_ids, cluster_ids, published_at, updated_at) values ('post-sylwester', 'published', 'culture', 'https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-sylwester/1afeec59-0661-4562-a8bb-79b91d527c95.webp', array['occasion', 'culture']::text[], array['recipe-sledz', 'recipe-salatka-sledziowa', 'recipe-tatar', 'recipe-zapiekanka', 'recipe-karp']::text[], array['post-hering', 'post-wigilia', 'post-kielbasa-arten', 'post-sonntagsessen']::text[], '{}'::text[], array['occasion-sylwester']::text[], '2026-08-23T13:10:00.000Z', '2026-08-23T13:10:00.000Z') on conflict (id) do update set status = excluded.status, post_type = excluded.post_type, cover_image = excluded.cover_image, silo_ids = excluded.silo_ids, related_recipe_ids = excluded.related_recipe_ids, related_post_ids = excluded.related_post_ids, related_product_ids = excluded.related_product_ids, cluster_ids = excluded.cluster_ids, published_at = excluded.published_at, updated_at = excluded.updated_at;
+insert into public.blog_post_translations (post_id, locale, title, slug, excerpt, body, seo_title, seo_description) values ('post-sylwester', 'de', 'Sylwester Speiseplan: Hering um Mitternacht', 'silvester-speiseplan', 'Jahreswechsel ohne zweites Weihnachten: eine kalte Platte, optional Tartar, Zapiekanka in Chargen, Hygiene nach der Wigilia.', 'Sylwester in Deutschland ist selten eine Kopie der Wohnung, in der nach Mitternacht noch jemand Hering auf den Tisch stellte und niemand an Feuerwerk dachte. Es ist ein Abend zwischen Nachbarschaft, Balkonverbot, Schichtende und dem Wunsch, dass der Tisch um 23 Uhr noch trägt, ohne dass daraus ein zweites Weihnachten wird. Der Name meint den Jahreswechsel. Der Brauch meint mehr: Was bleibt kalt stehen, was darf roh sein, und wie viel Glückssymbol eine Küche nach der [Wigilia](/de/blog/wigilia-speiseplan) noch aushält.
+
+Dieser Artikel ist der Speiseplan, nicht das Rezeptbuch. Mengen, Garzeiten und die konkrete Schrittfolge stehen in den einzelnen Rezepten. Hier ordnen wir, was den Mitternachtstisch trägt, was sich vorbereiten lässt und wo Haushalte in der Diaspora bewusst kürzen, ohne den Abend zu entwerten. Orientierung zu Hygiene, rohem Fleisch und Fisch: [bzfe.de](https://www.bzfe.de) und [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
+
+Historisch ist der polnische Sylwester jünger als die Wigilia und oft lauter. In vielen Häusern blieb trotzdem eine ruhige Linie: Hering fürs Geld im neuen Jahr, Brot, etwas Kaltes, kein Menümarathon nach zwölf Fastengängen. In Deutschland ersetzt das Feuerwerk den Tisch, und der Tisch verliert. Wir ersetzen den Beweisdruck durch einen ruhigen Plan. Eine klare Platte schlägt drei warme Pfannen, die um 0 Uhr niemand mehr führen will.
+
+![Kalte Sylwesterplatte mit Hering, Brot und einer kleinen Schale Tartar](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-sylwester/1afeec59-0661-4562-a8bb-79b91d527c95.webp "Eine klare Platte trägt Mitternacht besser als drei warme Pfannen.")
+
+## Kein zweites Weihnachten
+
+Weniger Linien, bessere Ausführung. Wigilia trägt den 24. [Sylwester](/de/anlaesse/silvester) trägt den 31. Wer am 31. noch Barszcz, Uszka, Karpfen und Kutia wiederholt, kocht Reste und Gereiztheit, nicht Glück. Reste vom Heiligabend dürfen auf den Tisch, wenn sie noch gut sind und ehrlich heißen.
+
+Drei Blöcke reichen: kalt, eine optionale warme Kleinigkeit, Getränk. Kalt meint [Śledź](/de/rezepte/sledz), [Sałatka śledziowa](/de/rezepte/salatka-sledziowa), Brot, Gurken, optional [Tatar](/de/rezepte/tatar), wenn jemand ihn wirklich kann. Warm meint höchstens [Zapiekanka](/de/rezepte/zapiekanka) in Chargen oder Karpfenreste in der Pfanne.
+
+Deutsche Gäste brauchen einen Satz: Nach Mitternacht gibt es Hering, das ist Glück, kein zweites Abendessen. Das ist Respekt, nicht Folklore.
+
+## Hering um Mitternacht
+
+Śledź um 0 Uhr ist in vielen Familien das einzige Pflichtsymbol. Eine Schale, Brot, Zwiebel. Wer den Unterschied zwischen Öl, Sahne und Salat erklären will, liest [Hering in Deutschland](/de/blog/hering-deutschland). Dieser Speiseplan sagt nur, wo der Fisch steht: bereit, kalt, in einer Menge, die nach dem Feuerwerk noch appetitlich bleibt.
+
+Sałatka śledziowa trägt Gäste, die den puren Hering nicht wollen. Sie braucht Kälte und Zeit zum Durchziehen. Nicht um 23:30 erst anrühren.
+
+Eine Sorte plus eine milde Linie reichen. Zwölf Fischschalen sind ein Buffet für Ostern, nicht für Mitternacht.
+
+![Sałatka śledziowa kalt, bereit für Gäste](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-salatka-sledziowa/217de80a-a53b-4bc0-be52-f8f5b426a592.webp "Der Heringssalat trägt Gäste, die den puren Fisch nicht wollen.")
+
+## Tartar oder weglassen
+
+Tatar ist roh und damit eine eigene Hygieneaufgabe, kein Dekor. Wer ihn plant, kauft das Fleisch am selben Tag, hält es kalt, trennt Bretter, serviert klein und zeitnah. Schwangere, Kinder, ältere Gäste: eigene Entscheidung, sichtbare Alternative. Orientierung: [bzfe.de](https://www.bzfe.de).
+
+Wer unsicher ist, lässt Tartar weg. Hering und Brot bleiben ein vollständiger Mitternachtstisch. Heldentum mit Hack, das seit Nachmittag warm steht, ist kein Glück.
+
+## Warm nur in Chargen
+
+Zapiekanka aus dem Ofen um 1 Uhr ist Freundlichkeit, wenn eine Person nur diese Linie führt. Sie ersetzt nicht die kalte Platte. [Kiełbasa](/de/blog/kielbasa-arten) vom [Grill](/de/blog/polnisch-grillen) auf dem Balkon um Mitternacht ist in vielen Häusern verboten und unfreundlich. Hausordnung lesen.
+
+Karpfenreste vom 24. dürfen in die Pfanne, wenn Geruch und Kühlung stimmen. Bei Zweifel entsorgen. Der [Karpfen](/de/rezepte/karp) bleibt ein Wigilia-Fisch, kein Pflichtgang zum Jahreswechsel.
+
+## Zeitplan rückwärts
+
+Einen Tag vorher: Polenladen für Hering, Gurken, Brot, optional das Fleisch für Tartar erst am 31. REWE oder Kaufland für Zwiebel, Getränke, Eis, Müllbeutel. Kühlschrank leeren. Sałatka ansetzen, nicht erst nach dem Silvesteressen der Nachbarn.
+
+Am 31. selbst: Platte kalt stellen, Brot schneiden, eine Person führt Getränke, eine die Platte. Wer um 22 Uhr noch eine warme Suppe ansetzt, weil der Abend sonst nicht festlich wirkt, zahlt mit Gereiztheit. Der Tisch gewinnt, wenn Mitternacht Tisch bleibt.
+
+## Einkauf und Nachbarn
+
+Listen nach Block schreiben. Was der Hering braucht, eine Zeile. Was Tartar braucht, eine eigene, nur wenn er wirklich kommt. Der [Polenladen](/de/blog/polenladen-einkaufen) trägt den Fisch. Der Supermarkt trägt Getränke und das Offensichtliche.
+
+Rauch, Knaller, Balkon: Höflichkeit schlägt Brauch. Ein Heringsteller in der Wohnung ist legaler als Kohle um 0 Uhr. Deutsche Nachbarn brauchen keinen Heiligenkalender, sie brauchen Ruhe nach 22 Uhr in vielen Häusern.
+
+## Kinder und gemischte Familien
+
+Kinder brauchen Brot, etwas Mildes, Abstand zum rohen Fleisch. Hering in kleinen Stücken, nicht als Mutprobe. Tartar nicht auf denselben Teller. Allergien kennzeichnen.
+
+In gemischten Familien ist Mitternacht oft Feuerwerk, nicht Fisch. Ein Satz reicht: Wir essen Hering, wer will. Pflichtglück zerstört den Abend.
+
+## Hygiene und Reste
+
+Rohes Fleisch, Fisch und Brot nicht auf demselben Brett. Nachfüllen aus dem Kühlschrank. Mayonnaise und Sahne nicht stundenlang auf der Heizung. Orientierung: [bzfe.de](https://www.bzfe.de) und [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
+
+Reste zeitnah essen. Tartar nicht als Frühstück aufheben, wenn er lange warm stand. Hering in Öl hält besser als der Salat. Beschriften. Bei Zweifel wegwerfen.
+
+## Getränke und der Rest der Wohnung
+
+Der Tisch braucht Wasser und etwas, das die Gäste kennen. Wodka ist in manchen Häusern Brauch, in anderen ein Streit. Kinder brauchen eine eigene Kanne. Zuckerhaltige Mixgetränke neben Sahnehering machen den Magen laut. Eine Linie Getränk plus Wasser reicht.
+
+Müll, Glas, Ölreste: vor Mitternacht klären, nicht danach. Ein Eimer und Folie neben der Platte verhindern, dass der Teppich den Abend erinnert.
+
+Wer allein hostet, kauft kleiner. Sechs Gäste brauchen keine Sylwesterplatte für zwanzig. Reste, die niemand um 2 Uhr will, sind kein Glück.
+
+## Arbeit teilen
+
+Eine Person führt die kalte Platte, eine die Getränke, eine die Tür und die Nachbarn. Tartar, wenn er kommt, hat eine eigene Person und ein eigenes Brett. In der Diaspora nach der Wigilia-Woche ist das die einzige Form, in der der 31. freundlich bleibt.
+
+Vegetarische Gäste: Gurken, Brot, ein Salat ohne Fisch, optional Zapiekanka ohne Wurst. Eine Extra-Fleischshow nur für eine Person erschöpft meist alle.
+
+## FAQ
+
+### Muss um Mitternacht wirklich Hering auf den Tisch?
+
+In vielen Familien ja, als Symbol, nicht als Menü. Eine Schale reicht. Wer keinen Fisch mag, isst Brot und einen anderen kalten Happen. Der Brauch bleibt, wenn jemand am Tisch den Namen sagt.
+
+### Ist Tartar Pflicht für einen polnischen Sylwester?
+
+Nein. Tartar ist eine Linie für Haushalte, die Rohfleisch sicher führen. Hering, Brot und ein Salat sind vollständig. Unsicherheit ist ein Grund zum Weglassen, kein Mangel an Treue.
+
+### Dürfen Wigilia-Reste auf den Sylwestertisch?
+
+Ja, wenn Kühlung und Geruch stimmen. Karpfen, Hering, Salat: ehrlich benennen. Was unsicher ist, entsorgen. Ein neuer Hering ist freundlicher als ein zweifelhafter Karpfen.
+
+### Was tun, wenn Gäste ein warmes Essen erwarten?
+
+Einen Satz vorher: kalte Platte, optional eine Kleinigkeit aus dem Ofen. Niemand muss um 0 Uhr schmoren. Zapiekanka in Chargen, wenn eine Person sie führt.
+
+### Wie halten wir die Platte nach Mitternacht sicher?
+
+Kleine Chargen, Nachfüllen aus der Kälte, Rohfleisch zeitnah. Bei Wärme und langem Stehen entsorgen. Rahmen: [bzfe.de](https://www.bzfe.de).
+
+## Ohne Scham, mit Mitternacht
+
+Gekaufter Hering, kein Tartar und ein Abend ohne Balkonfeuer sind in der Diaspora in Ordnung. Heldentum, das Nachbarn und die eigene Stimmung zerstört, ist kein Gewinn an Brauch. Vorher die Platte kalt stellen, die Linie wählen, die Kühlkette halten. Sylwester bleibt freundlich, wenn der Tisch das darf. Rahmen: [Silvester](/de/anlaesse/silvester).', 'Silvester Speiseplan | Hering Mitternacht | Alemniam', 'Sylwester in Deutschland: Śledź, Salat, optional Tartar. Speiseplan für Mitternacht, bilingual, machbar.') on conflict (post_id, locale) do update set title = excluded.title, slug = excluded.slug, excerpt = excluded.excerpt, body = excluded.body, seo_title = excluded.seo_title, seo_description = excluded.seo_description;
+insert into public.blog_post_translations (post_id, locale, title, slug, excerpt, body, seo_title, seo_description) values ('post-sylwester', 'pl', 'Menu na sylwestra: śledź o północy', 'menu-sylwester', 'Zmiana roku bez drugich Świąt: zimna półmiska, opcjonalnie tatar, zapiekanka porcjami, higiena po Wigilii.', 'Sylwester w Niemczech rzadko jest kopią mieszkania, w którym po północy ktoś jeszcze stawiał śledzia i nikt nie myślał o fajerwerkach. To wieczór między sąsiadami, zakazem balkonu, końcem zmiany i życzeniem, żeby stół o 23 jeszcze niósł, bez drugich Świąt. Nazwa znaczy zmianę roku. Zwyczaj znaczy więcej: co zostaje zimne, co wolno podać surowe, i ile symbolu szczęścia kuchnia po [Wigilii](/pl/blog/menu-wigilijne) jeszcze wytrzymuje.
+
+Ten artykuł jest planem menu, nie książką przepisów. Ilości, czasy i konkretna kolejność kroków są w pojedynczych przepisach. Tutaj porządkujemy, co niesie stół o północy, co da się przygotować i gdzie domy w diasporze świadomie skracają, nie odbierając wieczorowi wartości. Orientacja o higienie, surowym mięsie i rybie: [bzfe.de](https://www.bzfe.de) oraz [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
+
+Historycznie polski sylwester jest młodszy niż Wigilia i często głośniejszy. W wielu domach zostawała jednak spokojna linia: śledź na pieniądze w nowym roku, chleb, coś zimnego, bez maratonu dań po dwunastu postnych. W Niemczech fajerwerki zastępują stół, a stół przegrywa. Dowód zastępujemy spokojnym planem. Czytelna półmiska bije trzy ciepłe patelnie, których o 0 nikt już nie chce prowadzić.
+
+![Zimna półmiska sylwestrowa ze śledziem, chlebem i małą miseczką tatara](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-sylwester/1afeec59-0661-4562-a8bb-79b91d527c95.webp "Czytelna półmiska niesie północ lepiej niż trzy ciepłe patelnie.")
+
+## Nie drugie święta
+
+Mniej linii, lepsze wykonanie. Wigilia niesie 24. [Sylwester](/pl/anlaesse/sylwester) niesie 31. Kto 31. powtarza jeszcze barszcz, uszka, karpia i kutię, gotuje resztki i irytację, nie szczęście. Resztki z Wigilii mogą na stół, gdy są jeszcze dobre i uczciwie nazwane.
+
+Trzy bloki wystarczą: zimne, opcjonalna ciepła drobnostka, napój. Zimne znaczy [śledź](/pl/rezepte/sledz), [sałatka śledziowa](/pl/rezepte/salatka-sledziowa), chleb, ogórki, opcjonalnie [tatar](/pl/rezepte/tatar), gdy ktoś naprawdę umie. Ciepłe znaczy najwyżej [zapiekanka](/pl/rezepte/zapiekanka) porcjami albo resztki karpia na patelni.
+
+Niemieccy goście potrzebują zdania: Po północy jest śledź, to szczęście, nie drugi obiad. To szacunek, nie folklor.
+
+## Śledź o północy
+
+Śledź o 0 w wielu rodzinach jest jedynym obowiązkowym symbolem. Jedna miska, chleb, cebula. Kto chce różnicę oleju, śmietany i sałatki, czyta [śledź w Niemczech](/pl/blog/sledz-w-niemczech). Ten plan mówi tylko, gdzie stoi ryba: gotowa, zimna, w ilości, która po fajerwerkach jeszcze wygląda apetycznie.
+
+Sałatka śledziowa niesie gości, którzy nie chcą czystego śledzia. Potrzebuje chłodu i czasu. Nie mieszamy jej o 23:30.
+
+Jedna odmiana plus linia łagodna wystarczą. Dwanaście misek ryby to bufet wielkanocny, nie północ.
+
+![Sałatka śledziowa zimna, gotowa dla gości](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-salatka-sledziowa/217de80a-a53b-4bc0-be52-f8f5b426a592.webp "Sałatka niesie gości, którzy nie chcą czystej ryby.")
+
+## Tatar albo odpuścić
+
+Tatar jest surowy i tym samym osobnym zadaniem higieny, nie dekoracją. Kto go planuje, kupuje mięso tego samego dnia, trzyma zimno, rozdziela deski, podaje mało i wkrótce. Ciąża, dzieci, starsi goście: własna decyzja, widoczna alternatywa. Orientacja: [bzfe.de](https://www.bzfe.de).
+
+Kto niepewny, odpuszcza tatara. Śledź i chleb zostają pełnym stołem o północy. Bohaterstwo z mięsem, które od popołudnia stoi w cieple, nie jest szczęściem.
+
+## Ciepło tylko porcjami
+
+Zapiekanka z piekarnika o 1 jest uprzejmością, gdy jedna osoba prowadzi tylko tę linię. Nie zastępuje zimnej półmiski. [Kiełbasa](/pl/blog/rodzaje-kielbasy) z [grilla](/pl/blog/grill-po-polsku) na balkonie o północy w wielu domach jest zakazana i nieuprzejma. Czytamy regulamin.
+
+Resztki karpia z 24. mogą na patelnię, gdy zapach i chłód się zgadzają. Przy wątpliwości wyrzucamy. [Karp](/pl/rezepte/karp) zostaje rybą wigilijną, nie obowiązkowym daniem noworocznym.
+
+## Harmonogram od tyłu
+
+Dzień wcześniej: sklep polski po śledzia, ogórki, chleb, opcjonalnie mięso na tatara dopiero 31. REWE albo Kaufland po cebulę, napoje, lód, worki. Opróżniamy lodówkę. Sałatkę zestawiamy, nie po silwestrowym obiedzie sąsiadów.
+
+31. samego: półmiska na zimno, chleb pokrojony, jedna osoba napoje, jedna półmiskę. Kto o 22 stawia jeszcze ciepłą zupę, bo inaczej wieczór nie jest odświętny, płaci irytacją. Stół wygrywa, gdy północ zostaje stołem.
+
+## Zakupy i sąsiedzi
+
+Listy według bloku. Co potrzebuje śledź, jeden wiersz. Co tatar, osobny, tylko gdy naprawdę przyjdzie. [Sklep polski](/pl/blog/sklep-polski-zakupy) niesie rybę. Supermarket niesie napoje i oczywistości.
+
+Dym, petardy, balkon: uprzejmość bije zwyczaj. Talerz śledzia w mieszkaniu jest legalniejszy niż węgiel o 0. Niemieccy sąsiedzi nie potrzebują kalendarza świętych, potrzebują ciszy po 22 w wielu domach.
+
+## Dzieci i mieszane rodziny
+
+Dzieci potrzebują chleba, czegoś łagodnego, dystansu do surowego mięsa. Śledź w małych kawałkach, nie jako próba odwagi. Tatar nie na ten sam talerz. Alergie oznaczamy.
+
+W mieszanych rodzinach północ często znaczy fajerwerki, nie rybę. Wystarczy zdanie: Jemy śledzia, kto chce. Obowiązkowe szczęście psuje wieczór.
+
+## Higiena i resztki
+
+Surowego mięsa, ryby i chleba nie kładziemy na tej samej desce. Dokładamy z lodówki. Majonezu i śmietany nie zostawiamy godzinami na kaloryferze. Orientacja: [bzfe.de](https://www.bzfe.de) oraz [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
+
+Resztki jemy wkrótce. Tatara nie zostawiamy na śniadanie, gdy długo stał w cieple. Śledź w oleju trzyma się lepiej niż sałatka. Opisujemy. Przy wątpliwości wyrzucamy.
+
+## Napoje i reszta mieszkania
+
+Stół potrzebuje wody i czegoś, co goście znają. Wódka w jednych domach jest zwyczajem, w innych sporem. Dzieci potrzebują własnego dzbanka. Słodkie mixy obok śledzia w śmietanie robią żołądek głośnym. Jedna linia napoju plus woda wystarczą.
+
+Śmieci, szkło, resztki oleju: przed północą, nie potem. Wiadro i folia obok półmiski zapobiegają temu, że dywan pamięta wieczór.
+
+Kto hostuje sam, kupuje mniej. Sześciu gości nie potrzebuje półmiski na dwudziestu. Resztki, których nikt nie chce o 2, nie są szczęściem.
+
+## Podział pracy
+
+Jedna osoba prowadzi zimną półmiskę, jedna napoje, jedna drzwi i sąsiadów. Tatar, gdy przychodzi, ma własną osobę i własną deskę. W diasporze po tygodniu wigilijnym to jedyna forma, w której 31. zostaje przyjazny.
+
+Goście wegetariańscy: ogórki, chleb, sałatka bez ryby, opcjonalnie zapiekanka bez kiełbasy. Extra pokaz mięsa tylko dla jednej osoby zwykle męczy wszystkich.
+
+## FAQ
+
+### Czy o północy naprawdę musi stanąć śledź?
+
+W wielu rodzinach tak, jako symbol, nie jako menu. Jedna miska wystarczy. Kto nie lubi ryby, je chleb i inny zimny kęs. Zwyczaj zostaje, gdy ktoś przy stole mówi nazwę.
+
+### Czy tatar jest obowiązkowy na polski sylwester?
+
+Nie. Tatar to linia dla domów, które bezpiecznie prowadzą surowe mięso. Śledź, chleb i sałatka są pełne. Niepewność jest powodem do odpuszczenia, nie brakiem wierności.
+
+### Czy resztki wigilijne mogą na stół sylwestrowy?
+
+Tak, gdy chłód i zapach się zgadzają. Karp, śledź, sałatka: nazywamy uczciwie. Co niepewne, wyrzucamy. Nowy śledź jest przyjaźniejszy niż wątpliwy karp.
+
+### Co zrobić, gdy goście czekają ciepłego jedzenia?
+
+Zdanie wcześniej: zimna półmiska, opcjonalnie drobnostka z piekarnika. Nikt nie musi dusić o 0. Zapiekanka porcjami, gdy prowadzi ją jedna osoba.
+
+### Jak bezpiecznie trzymać półmiskę po północy?
+
+Małe porcje, dokładanie z chłodu, surowe mięso wkrótce. Przy cieple i długim staniu wyrzucamy. Ramy: [bzfe.de](https://www.bzfe.de).
+
+## Bez wstydu, z północą
+
+Kupiony śledź, bez tatara i wieczór bez ognia na balkonie są w diasporze w porządku. Bohaterstwo, które niszczy sąsiadów i własny nastrój, nie jest zyskiem zwyczaju. Wcześniej półmiska na zimno, wybrana linia, trzymany chłód. Sylwester zostaje przyjazny, gdy stół ma na to zgodę. Ramy: [Sylwester](/pl/anlaesse/sylwester).', 'Menu na sylwestra | Śledź o północy | Alemniam', 'Sylwester w Niemczech: śledź, sałatka, opcjonalnie tatar. Plan menu na północ, dwujęzycznie, wykonalnie.') on conflict (post_id, locale) do update set title = excluded.title, slug = excluded.slug, excerpt = excluded.excerpt, body = excluded.body, seo_title = excluded.seo_title, seo_description = excluded.seo_description;
+-- blog:post-kluski
+insert into public.blog_posts (id, status, post_type, cover_image, silo_ids, related_recipe_ids, related_post_ids, related_product_ids, cluster_ids, published_at, updated_at) values ('post-kluski', 'published', 'lexicon', 'https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-kluski/11c13037-8d34-43ed-8dca-cf82fb1ac357.webp', array['dishFamily', 'technique']::text[], array['recipe-kopytka', 'recipe-kluski-slaskie', 'recipe-kluski-kladzione', 'recipe-pierogi-leniwe', 'recipe-pyzy', 'recipe-knedle-sliwki']::text[], array['post-pierogi-guide', 'post-placki-guide', 'post-twarog', 'post-sonntagsessen']::text[], '{}'::text[], array['occasion-niedziela', 'technique-teig']::text[], '2026-08-23T13:20:00.000Z', '2026-08-23T13:20:00.000Z') on conflict (id) do update set status = excluded.status, post_type = excluded.post_type, cover_image = excluded.cover_image, silo_ids = excluded.silo_ids, related_recipe_ids = excluded.related_recipe_ids, related_post_ids = excluded.related_post_ids, related_product_ids = excluded.related_product_ids, cluster_ids = excluded.cluster_ids, published_at = excluded.published_at, updated_at = excluded.updated_at;
+insert into public.blog_post_translations (post_id, locale, title, slug, excerpt, body, seo_title, seo_description) values ('post-kluski', 'de', 'Kluski-Familie: Kopytka, śląskie, Leniwe, Pyzy', 'kluski-familie', 'Welche Kluski auf den Teller gehören: Kopytka, schlesische Mulde, Fallnudeln, Leniwe, Pyzy. Namen, Teig, Alltag in DE.', 'Kluski in Deutschland sind selten ein Wort, das Gäste sofort verstehen. Es ist eine Familie, kein einzelnes Rezept. Der Name meint Teig im Wasser. Der Brauch meint mehr: Welche Form auf den Teller kommt, welches Mehl die Kartoffel braucht, und warum Pierogi, Placki und Fallnudeln nicht dasselbe Gericht sind, auch wenn alle sättigen.
+
+Dieser Artikel ist das Lexikon, nicht das Rezeptbuch. Mengen, Garzeiten und die konkrete Schrittfolge stehen in den einzelnen Rezepten. Hier ordnen wir die Namen, die typischen Fehler in der Diaspora und wo Haushalte bewusst kürzen, ohne den Teller zu entwerten. Orientierung zu Hygiene, Ei und Restwärme: [bzfe.de](https://www.bzfe.de) und [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
+
+Historisch sind Kluski älter als die meisten Markennamen im Kühlregal. Kartoffel, Mehl, Ei, manchmal Quark, manchmal eine Füllung: das sind Linien aus Armutsküche, Milchbar und Sonntagstisch. In Schlesien trägt die Mulde. In Wielkopolska heißt dieselbe Raute oft anders. In der Diaspora landet alles unter Knödel oder Gnocchi und der Tisch verliert den Namen. Wir ersetzen den Beweisdruck durch eine klare Karte.
+
+![Kopytka mit Butter und Semmelbröseln](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-kluski/11c13037-8d34-43ed-8dca-cf82fb1ac357.webp "Eine Form, ein Name, eine Soße. Die Familie verträgt keine Mischbezeichnung.")
+
+## Die Familie auf einen Blick
+
+Weniger Namen, bessere Ausführung. Fünf Linien tragen den Alltag:
+
+[Kopytka](/de/rezepte/kopytka) sind gerollte, schräg geschnittene Kartoffelstücke. Fest, ohne Füllung, näher an Gnocchi als an Knödel, aber fester. Sie tragen Gulasch, Butterzwiebel, Pilzsoße.
+
+[Kluski śląskie](/de/rezepte/kluski-slaskie) sind Kartoffel mit Stärke und einer Fingermulde. Die Mulde hält Soße. Sie gehören zur [Rolada śląska](/de/rezepte/rolada-slaska) und zum [Sonntagsessen](/de/blog/sonntagsessen-polnisch), nicht in jede beliebige Brühe.
+
+[Kluski kładzione](/de/rezepte/kluski-kladzione) sind Fallnudeln aus Ei und Mehl, mit dem Löffel ins Wasser oder in den [Rosół](/de/rezepte/rosol). Kein Kartoffelteig. Technik der Brühe: [Rosół-Technik](/de/blog/rosol-technik).
+
+[Pierogi leniwe](/de/rezepte/pierogi-leniwe) sind Quark, Mehl, Ei, geschnitten, nicht gefaltet. Faul heißt: niemand füllt einzeln. Sie sind keine [Pierogi ruskie](/de/rezepte/pierogi/ruskie). Twaróg erklärt der [Twaróg-Guide](/de/blog/twarog-deutschland).
+
+[Pyzy](/de/rezepte/pyzy) in diesem Haushalt sind große Kartoffelklöße mit Fleisch. Aufwendiger, leichter zu reißen, ein anderes Gericht als ungefüllte Kopytka und als Hefepyzy aus Wielkopolska, die hier nicht das Rezept sind.
+
+[Knedle mit Pflaumen](/de/rezepte/knedle-sliwki) und [Knedle mit Erdbeeren](/de/rezepte/knedle-truskawki) sind Frucht in Kartoffelteig. Süß oder herzhaft mit Butterbröseln, kein Alltagsgulaschträger.
+
+## Was Kluski nicht sind
+
+Pierogi sind gefaltet und gefüllt. Der [Pierogi-Guide](/de/blog/pierogi-guide) bleibt das eigene Kapitel. [Placki](/de/blog/placki-guide) sind gebraten, nicht gekocht. [Makaron z serem](/de/rezepte/makaron-z-serem) ist Nudel plus Quark, kein geformter Kloß.
+
+Gnocchi aus dem Kühlregal dürfen auf den Teller, wenn sie Gnocchi heißen. Sie ersetzen nicht Kopytka. Semmelknödel ersetzen nicht Kluski śląskie. Ehrlich benennen.
+
+## Welche Linie für welchen Tag
+
+Alltag: kładzione in der Brühe, leniwe nach der Schicht, kopytka vom Vortag in der Pfanne. Sonntag: śląskie zur Rolada, kopytka zum Gulasch. Gäste: eine Linie, gut ausgeführt. Wer am selben Mittag Pyzy füllt, kładzione abstecht und Knedle schließt, kocht einen Stau.
+
+Kinder verstehen den Unterschied, wenn der Name jedes Mal gleich bleibt. Mulde ist Schlesien. Raute ist Kopytka. Löffel ist kładzione. Quark ohne Falte ist leniwe.
+
+![Kluski śląskie mit Mulde in der Soße](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-kluski-slaskie/58a41f17-ed2a-452f-94bc-05182f6a25f0.webp "Die Mulde hält Soße. Das ist eine andere Linie als die geschnittene Raute.")
+
+## Teig, der hält
+
+Kartoffel muss ausdampfen. Nasse Masse fordert Mehl, Mehl macht Gummi. Kopytka und Pyzy sterben an Restfeuchte. Śląskie sterben an zu wenig Stärke oder zu weicher Kartoffel. Kładzione sterben an geknetetem, zu festem Teig. Leniwe sterben an nassem Twaróg.
+
+Eine Charge testen: ein Stück ins Wasser. Zerfall heißt nachbessern, nicht die ganze Schüssel opfern. Mehltypen und Ersatz erklärt der Alltag im [Polenladen](/de/blog/polenladen-einkaufen) und bei [Ersatzprodukten](/de/blog/ersatzprodukte-de): Kartoffelmehl ist nicht Weizenmehl.
+
+Butter und Brösel nach dem Kochen, nicht im Topf. In der Restbrühe quellen kładzione nach. Abgießen, schwenken, dann Soße.
+
+## Einkauf in Deutschland
+
+Kartoffeln mehligkochend, nicht festkochend für die meisten Linien. Twaróg für leniwe, nicht Speisequark aus dem Becher ohne Abseihen. Kartoffelstärke für śląskie im Polenladen oder Backregal. Pflaumen für Knedle entsteint und trocken.
+
+Fertige Gnocchi und Kühlregal-Klöße sind legitim, wenn der Name ehrlich bleibt. Sie tragen den Wochentag. Sie ersetzen nicht den Sonntag, an dem jemand die Mulde drückt.
+
+## Arbeit teilen
+
+Eine Person führt den Teig, eine das Wasser, eine die Soße. Pyzy füllen ist keine Aufgabe für dieselbe Person, die schon die Brühe klärt. In der Diaspora mit Job ist eine Linie die einzige Form, in der der Teller freundlich bleibt.
+
+Vegetarisch: kopytka, śląskie, kładzione, leniwe, Fruchtknedle. Pyzy mit Fleisch sind die Ausnahme, nicht die Familie.
+
+## Hygiene und Reste
+
+Ei im Teig, heißes Wasser, dann rasch servieren oder kalt stellen. Nicht stundenlang im Warmhalter. Orientierung: [bzfe.de](https://www.bzfe.de).
+
+Reste in der Pfanne mit Butter: kopytka und śląskie gewinnen. Leniwe und Knedle vorsichtiger, sie weichen. Pyzy mit Fleisch zeitnah essen, gut erhitzen. Bei Zweifel entsorgen. Rahmen auch [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
+
+## Einfrieren und der nächste Tag
+
+Kopytka und śląskie vertragen den Freezer, wenn sie erst gar und kalt sind, einzeln liegen, dann in die Dose. Kochen aus dem Frost in siedendes Wasser, nicht auftauen auf der Heizung. Kładzione frieren schlechter, sie weichen. Leniwe gehen, wenn der Quark nicht nass war. Pyzy mit Fleisch: gut durchgegart, rasch kalt, beschriftet. Der [Freezer-Guide](/de/blog/freezer-meal-prep) bleibt das Kapitel für Dosen und Stapel, nicht dieser Text.
+
+Am nächsten Tag gewinnt die Pfanne. Butter, Zwiebel, Brösel. Das ist Alltag, kein Scheitern des ersten Kochens.
+
+## Soße und Nachbarn auf dem Teller
+
+Eine Soße, die zur Form passt. Gulasch zu Kopytka. Dunkle Soße in die Mulde der śląskie. Klarer Rosół zu kładzione. Butter und Zucker oder Brösel zu Leniwe. Fleischfüllung braucht keine zweite Hackpfanne daneben.
+
+[Makaron z serem](/de/rezepte/makaron-z-serem) darf derselbe Abend sein, wenn ihr Quark habt und keine Lust auf Formen. Er bleibt Nudel, nicht Kloß. Wer beide Namen mischt, verwirrt Kinder.
+
+## FAQ
+
+### Sind Kopytka und Gnocchi dasselbe?
+
+Nein. Das Grundprinzip ähnelt sich, der polnische Teig ist meist fester und mehlreicher. Gnocchi dürfen schmecken, sie dürfen den Namen Kopytka nicht borgen.
+
+### Warum haben schlesische Kluski ein Loch?
+
+Die Mulde ist Absicht. Sie hält Soße und markiert die Linie. Ohne Mulde sind es andere Klöße, auch wenn die Masse ähnlich ist. Rezept: [Kluski śląskie](/de/rezepte/kluski-slaskie).
+
+### Sind Leniwe faule Pierogi?
+
+Faul in der Arbeit, nicht im Essen. Dieselben Zutaten wie eine Käsefüllung, ohne Falten. Sie ersetzen nicht Ruskie. Mengen im [Leniwe-Rezept](/de/rezepte/pierogi-leniwe).
+
+### Welche Kluski gehören in den Rosół?
+
+Kładzione. Nicht śląskie, nicht Kopytka, nicht Pyzy. Die Brühe bleibt klar, wenn der Teig löffelbar bleibt. Details: [Rosół-Technik](/de/blog/rosol-technik).
+
+### Wie nutzen wir Reste sicher?
+
+Schnell kühlen, in der Pfanne erhitzen, Fleischpyzy kritisch prüfen. Nicht in der Brühe über Nacht lassen. Bei Zweifel wegwerfen.
+
+## Ohne Scham, mit einem Namen
+
+Gekaufte Gnocchi, fertige Kartoffelklöße und ein Topf nur einer Linie sind in der Diaspora in Ordnung. Heldentum, das drei Teige am selben Abend führt, ist kein Gewinn an Brauch. Vorher den Namen wählen, die Kartoffel ausdampfen, die Soße getrennt halten. Kluski bleiben klar, wenn der Teller nur eine Form trägt.', 'Kluski Familie | Kopytka und Leniwe | Alemniam', 'Kluski unterscheiden: Kopytka, śląskie, kładzione, Leniwe, Pyzy. Lexikon neben den Rezepten, bilingual, für Küchen in DE.') on conflict (post_id, locale) do update set title = excluded.title, slug = excluded.slug, excerpt = excluded.excerpt, body = excluded.body, seo_title = excluded.seo_title, seo_description = excluded.seo_description;
+insert into public.blog_post_translations (post_id, locale, title, slug, excerpt, body, seo_title, seo_description) values ('post-kluski', 'pl', 'Rodzina klusek: kopytka, śląskie, leniwe, pyzy', 'rodzina-klusek', 'Które kluski na talerz: kopytka, dziurka śląska, kładzione, leniwe, pyzy. Nazwy, ciasto, codzienność w DE.', 'Kluski w Niemczech rzadko są słowem, które goście od razu rozumieją. To rodzina, nie jeden przepis. Nazwa znaczy ciasto w wodzie. Zwyczaj znaczy więcej: która forma ląduje na talerzu, jakiej mąki potrzebuje ziemniak, i dlaczego pierogi, placki i kluski kładzione nie są tym samym daniem, choć wszystkie sycą.
+
+Ten artykuł jest leksykonem, nie książką przepisów. Ilości, czasy i konkretna kolejność kroków są w pojedynczych przepisach. Tutaj porządkujemy nazwy, typowe błędy diaspory i gdzie domy świadomie skracają, nie odbierając talerzowi wartości. Orientacja o higienie, jajku i cieple resztek: [bzfe.de](https://www.bzfe.de) oraz [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
+
+Historycznie kluski są starsze niż większość marek w chłodni. Ziemniak, mąka, jajko, czasem twaróg, czasem farsz: to linie z kuchni biedy, baru mlecznego i niedzielnego stołu. Na Śląsku niesie dziurka. W Wielkopolsce ten sam romb często ma inną nazwę. W diasporze wszystko ląduje pod Knödel albo gnocchi i stół traci nazwę. Dowód zastępujemy czytelną mapą.
+
+![Kopytka z masłem i bułką tartą](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-kluski/11c13037-8d34-43ed-8dca-cf82fb1ac357.webp "Jedna forma, jedna nazwa, jeden sos. Rodzina nie znosi mieszanej etykiety.")
+
+## Rodzina w skrócie
+
+Mniej nazw, lepsze wykonanie. Pięć linii niesie codzienność:
+
+[Kopytka](/pl/rezepte/kopytka) to wałkowane, skośnie krojone kawałki ziemniaka. Zwarte, bez farszu, bliższe gnocchi niż knedlom, ale twardsze. Niosą gulasz, cebulę na maśle, sos grzybowy.
+
+[Kluski śląskie](/pl/rezepte/kluski-slaskie) to ziemniak ze skrobią i wgłębieniem palca. Dziurka trzyma sos. Należą do [rolady śląskiej](/pl/rezepte/rolada-slaska) i [obiadu niedzielnego](/pl/blog/obiad-niedzielny), nie do każdego dowolnego bulionu.
+
+[Kluski kładzione](/pl/rezepte/kluski-kladzione) to kluski z jajka i mąki, łyżką do wody albo do [rosołu](/pl/rezepte/rosol). Nie ciasto ziemniaczane. Technika bulionu: [jak ugotować rosół](/pl/blog/jak-ugotowac-rosol).
+
+[Pierogi leniwe](/pl/rezepte/pierogi-leniwe) to twaróg, mąka, jajko, krojone, nie sklejane. Leniwe znaczy: nikt nie nadziewa po jednym. To nie [ruskie](/pl/rezepte/pierogi/ruskie). Twaróg wyjaśnia [przewodnik o twarogu](/pl/blog/twarog-w-niemczech).
+
+[Pyzy](/pl/rezepte/pyzy) w tym domu to duże kluski ziemniaczane z mięsem. Więcej pracy, łatwiej pękają, inne danie niż puste kopytka i niż drożdżowe pyzy z Wielkopolski, które tutaj nie są przepisem.
+
+[Knedle ze śliwkami](/pl/rezepte/knedle-sliwki) i [knedle z truskawkami](/pl/rezepte/knedle-truskawki) to owoc w cieście ziemniaczanym. Słodkie albo wytrawne z bułką, nie codzienny nośnik gulaszu.
+
+## Czym kluski nie są
+
+Pierogi są sklejane i nadziewane. [Przewodnik po pierogach](/pl/blog/przewodnik-pierogi) zostaje osobnym rozdziałem. [Placki](/pl/blog/placki-przewodnik) są smażone, nie gotowane. [Makaron z serem](/pl/rezepte/makaron-z-serem) to makaron plus twaróg, nie uformowany knedel.
+
+Gnocchi z chłodni mogą na talerz, gdy nazywają się gnocchi. Nie zastępują kopytek. Semmelknödel nie zastępują klusek śląskich. Nazywamy uczciwie.
+
+## Która linia na który dzień
+
+Codzienność: kładzione w rosole, leniwe po zmianie, kopytka z wczoraj na patelni. Niedziela: śląskie do rolady, kopytka do gulaszu. Goście: jedna linia, dobrze zrobiona. Kto tego samego południa nadziewa pyzy, kładzie kładzione i zamyka knedle, gotuje korek.
+
+Dzieci rozumieją różnicę, gdy nazwa za każdym razem zostaje ta sama. Dziurka to Śląsk. Romb to kopytka. Łyżka to kładzione. Twaróg bez sklejenia to leniwe.
+
+![Kluski śląskie z dziurką w sosie](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-kluski-slaskie/58a41f17-ed2a-452f-94bc-05182f6a25f0.webp "Dziurka trzyma sos. To inna linia niż krojony romb.")
+
+## Ciasto, które trzyma
+
+Ziemniak musi odparować. Mokra masa woła mąki, mąka robi gumę. Kopytka i pyzy giną od wilgoci. Śląskie giną od zbyt małej skrobi albo zbyt miękkiego ziemniaka. Kładzione giną od wyrabianego, zbyt twardego ciasta. Leniwe giną od mokrego twarogu.
+
+Próbujemy porcję: jeden kawałek do wody. Rozpad znaczy poprawić, nie poświęcać całej miski. Typy mąki i zamienniki wyjaśnia codzienność w [sklepie polskim](/pl/blog/sklep-polski-zakupy) i przy [zamiennikach](/pl/blog/zamienniki-skladnikow): mąka ziemniaczana to nie pszenna.
+
+Masło i bułka po ugotowaniu, nie w garnku. W resztkach bulionu kładzione pęcznieją. Odlewamy, mieszamy, potem sos.
+
+## Zakupy w Niemczech
+
+Ziemniaki mączyste, nie twarde, dla większości linii. Twaróg do leniwych, nie Speisequark z kubka bez odsączenia. Skrobia ziemniaczana do śląskich w sklepie polskim albo w dziale do pieczenia. Śliwki do knedli drylowane i suche.
+
+Gotowe gnocchi i knedle z chłodni są legalne, gdy nazwa zostaje uczciwa. Niosą dzień powszedni. Nie zastępują niedzieli, w której ktoś odciska dziurkę.
+
+## Podział pracy
+
+Jedna osoba prowadzi ciasto, jedna wodę, jedna sos. Nadziewanie pyz to nie zadanie tej samej osoby, która już klaruje rosół. W diasporze z pracą jedna linia jest jedyną formą, w której talerz zostaje przyjazny.
+
+Wegetariańsko: kopytka, śląskie, kładzione, leniwe, knedle owocowe. Pyzy z mięsem są wyjątkiem, nie rodziną.
+
+## Higiena i resztki
+
+Jajko w cieście, gorąca woda, potem szybko podajemy albo chłodzimy. Nie godzinami w podgrzewaczu. Orientacja: [bzfe.de](https://www.bzfe.de).
+
+Resztki na patelni z masłem: kopytka i śląskie zyskują. Leniwe i knedle ostrożniej, miękną. Pyzy z mięsem jemy wkrótce, dobrze podgrzewamy. Przy wątpliwości wyrzucamy. Ramy także [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
+
+## Mrożenie i następny dzień
+
+Kopytka i śląskie znoszą zamrażalnik, gdy najpierw są ugotowane i zimne, leżą osobno, potem do pudełka. Z mrozu do wrzątku, nie rozmrażać na kaloryferze. Kładzione mrożą się gorzej, miękną. Leniwe idą, gdy twaróg nie był mokry. Pyzy z mięsem: dobrze ugotowane, szybko schłodzone, opisane. [Przewodnik o mrożeniu](/pl/blog/mrozenie-pierogow) zostaje rozdziałem o pudełkach, nie ten tekst.
+
+Następnego dnia wygrywa patelnia. Masło, cebula, bułka. To codzienność, nie porażka pierwszego gotowania.
+
+## Sos i sąsiedzi na talerzu
+
+Jeden sos, który pasuje do formy. Gulasz do kopytek. Ciemny sos w dziurkę śląskich. Jasny rosół do kładzionych. Masło i cukier albo bułka do leniwych. Farsz mięsny nie potrzebuje drugiej patelni z mięsem obok.
+
+[Makaron z serem](/pl/rezepte/makaron-z-serem) może być tego samego wieczoru, gdy macie twaróg i nie chce się form. Zostaje makaronem, nie knedlem. Kto miesza obie nazwy, myli dzieci.
+
+## FAQ
+
+### Czy kopytka i gnocchi to to samo?
+
+Nie. Zasada jest bliska, polskie ciasto zwykle twardsze i bardziej mączne. Gnocchi mogą smakować, nie mogą pożyczać nazwy kopytek.
+
+### Po co kluski śląskie mają dziurkę?
+
+Dziurka jest zamierzona. Trzyma sos i znaczy linię. Bez dziurki to inne kluski, nawet gdy masa jest podobna. Przepis: [kluski śląskie](/pl/rezepte/kluski-slaskie).
+
+### Czy leniwe to leniwe pierogi?
+
+Leniwe w pracy, nie w jedzeniu. Te same składniki co farsz serowy, bez sklejania. Nie zastępują ruskich. Ilości w [przepisie na leniwe](/pl/rezepte/pierogi-leniwe).
+
+### Które kluski należą do rosołu?
+
+Kładzione. Nie śląskie, nie kopytka, nie pyzy. Bulion zostaje jasny, gdy ciasto zostaje łyżkowalne. Szczegóły: [jak ugotować rosół](/pl/blog/jak-ugotowac-rosol).
+
+### Jak bezpiecznie wykorzystać resztki?
+
+Szybko chłodzimy, odgrzewamy na patelni, pyzy z mięsem sprawdzamy ostrożnie. Nie zostawiamy na noc w rosole. Przy wątpliwości wyrzucamy.
+
+## Bez wstydu, z jedną nazwą
+
+Kupione gnocchi, gotowe knedle i garnek tylko jednej linii są w diasporze w porządku. Bohaterstwo, które prowadzi trzy ciasta tego samego wieczoru, nie jest zyskiem zwyczaju. Wcześniej wybieramy nazwę, odparowujemy ziemniak, sos trzymamy osobno. Kluski zostają czytelne, gdy talerz niesie tylko jedną formę.', 'Rodzina klusek | Kopytka i leniwe | Alemniam', 'Kluski: kopytka, śląskie, kładzione, leniwe, pyzy. Leksykon obok przepisów, dwujęzycznie, dla kuchni w DE.') on conflict (post_id, locale) do update set title = excluded.title, slug = excluded.slug, excerpt = excluded.excerpt, body = excluded.body, seo_title = excluded.seo_title, seo_description = excluded.seo_description;
+-- blog:post-hering
+insert into public.blog_posts (id, status, post_type, cover_image, silo_ids, related_recipe_ids, related_post_ids, related_product_ids, cluster_ids, published_at, updated_at) values ('post-hering', 'published', 'lexicon', 'https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-hering/2d623b62-e092-403e-b55d-cf9ffb09ffac.webp', array['ingredient']::text[], array['recipe-sledz', 'recipe-salatka-sledziowa', 'recipe-karp', 'recipe-ryba-po-grecku']::text[], array['post-fastenzeit', 'post-sylwester', 'post-wigilia', 'post-polenladen']::text[], '{}'::text[], array['occasion-wigilia', 'occasion-post', 'occasion-sylwester']::text[], '2026-08-23T13:30:00.000Z', '2026-08-23T13:30:00.000Z') on conflict (id) do update set status = excluded.status, post_type = excluded.post_type, cover_image = excluded.cover_image, silo_ids = excluded.silo_ids, related_recipe_ids = excluded.related_recipe_ids, related_post_ids = excluded.related_post_ids, related_product_ids = excluded.related_product_ids, cluster_ids = excluded.cluster_ids, published_at = excluded.published_at, updated_at = excluded.updated_at;
+insert into public.blog_post_translations (post_id, locale, title, slug, excerpt, body, seo_title, seo_description) values ('post-hering', 'de', 'Hering in Deutschland: Śledź, Öl, Sahne, Salat', 'hering-deutschland', 'Öl, Sahne oder Salat: welcher Śledź zur Wigilia, zum Freitag und zu Sylwester gehört, und woran gute Filets zu erkennen sind.', 'Hering in Deutschland ist selten dasselbe Wort wie Śledź im Polenladen. Es ist ein Fisch mit zwei Kühlregalen, zwei Lakes und zu vielen Gläsern, die alle irgendwie nach Zwiebel riechen. Der Name meint den Fisch. Der Brauch meint mehr: Welche Filets zur Wigilia gehören, welche den Freitag tragen, und warum Sahne, Öl und Salat drei Gerichte sind, nicht drei Soßen auf demselben Brett.
+
+Dieser Artikel ist das Lexikon, nicht das Rezeptbuch. Mengen, Ziehzeiten und die konkrete Schrittfolge stehen in den einzelnen Rezepten. Hier ordnen wir Kauf, Namen und Anlass, und wo Haushalte in der Diaspora bewusst kürzen, ohne den Teller zu entwerten. Orientierung zu Hygiene, Fisch und Kühlkette: [bzfe.de](https://www.bzfe.de) und [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
+
+Historisch ist Śledź der Alltagsfisch der Küste und der Fastenzeit, nicht der Luxus des Karpfens. Öl, Zwiebel, Gewürz: das war haltbar, billig, satt. In der Volksrepublik blieb das Glas sichtbar. In Deutschland steht daneben Matjes, Bismarck, Rollmops, Sahnehering aus dem Aktionsregal. Wir ersetzen den Beweisdruck durch eine ehrliche Liste. Ein gutes Filet in Öl schlägt drei süße Gläser, die nach Sahne und Zucker schmecken.
+
+![Śledź w oleju mit Zwiebelringen und Brot](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-hering/2d623b62-e092-403e-b55d-cf9ffb09ffac.webp "Öl, Zwiebel, ein gutes Filet. Das trägt mehr als drei süße Gläser.")
+
+## Drei Linien, nicht eine Soße
+
+[Śledź w oleju](/de/rezepte/sledz) ist der klare Klassiker: Filet, Zwiebel, neutrales Öl, Lorbeer, Piment. Leicht, kalt, Brot. Das Rezept bleibt dort. Hier nur der Platz: [Wigilia](/de/blog/wigilia-speiseplan), [Fastenzeit](/de/blog/fastenzeit-speiseplan), [Sylwester](/de/blog/silvester-speiseplan).
+
+Śledź w śmietanie ist die cremige Linie. Śmietana, nicht automatisch deutscher Sahnehering mit Zucker. [Śmietana und Schmand](/de/blog/smietana-schmand) erklärt das Milchprodukt. Zu süß, zu locker: das ist oft das Kühlregal, nicht die Schüssel zu Hause.
+
+[Sałatka śledziowa](/de/rezepte/salatka-sledziowa) ist der Salat: Fisch plus Gemüse, oft Apfel, oft Mayo oder Śmietana. Er trägt Gäste, die den puren Fisch nicht wollen. Er ersetzt nicht das Ölglas.
+
+Po kaszubsku und Apfelvarianten sind regional. Sie dürfen schmecken, sie dürfen nicht alle anderen Namen ersetzen. Eine Linie pro Schüssel.
+
+## Was im Polenladen liegt
+
+Filets in Öl, Salzhering zum Wässern, Matjes, fertige w śmietanie. Riechen, nicht nur den Preis lesen. Strenger Ammoniak, matte Farbe, zerfallene Stücke: liegen lassen. Der [Polenladen-Guide](/de/blog/polenladen-einkaufen) hilft beim gezielten Gang.
+
+Salzhering braucht Zeit. Wer am Heiligabend um 16 Uhr erst wässert, kocht Gereiztheit. Matjes ist milder und schneller, er ist nicht automatisch Śledź w oleju.
+
+Deutsche Gläser dürfen auf den Tisch, wenn der Name ehrlich bleibt. Bismarck ist gewürzt und oft süßsauer. Rollmops ist eine deutsche Form. Beide ersetzen nicht das polnische Ölglas, sie dürfen danebenstehen.
+
+![Sałatka śledziowa als Gästelinie](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-salatka-sledziowa/217de80a-a53b-4bc0-be52-f8f5b426a592.webp "Der Salat trägt Gäste. Er ist kein Ersatz für das klare Ölglas.")
+
+## Anlass und Nachbarn auf dem Tisch
+
+Wigilia: Śledź ist eine der Fischlinien neben [Karp](/de/rezepte/karp) und oft [Ryba po grecku](/de/rezepte/ryba-po-grecku). Er ist Vorspeise oder kalter Gang, nicht der ganze Abend.
+
+Post: Hering trägt den Freitag mit Brot. Details im [Fastenzeit-Speiseplan](/de/blog/fastenzeit-speiseplan).
+
+Sylwester: eine Schale um Mitternacht, Symbol für Geld, keine zweite Wigilia. Details im [Silvester-Speiseplan](/de/blog/silvester-speiseplan).
+
+Karpfen ist Festfisch, Hering ist Alltag. Wer beide am 24. führt, braucht zwei Bretter und zwei Erklärungen für deutsche Gäste: Karpfen ist der gebackene Fisch, Śledź der eingelegte.
+
+## Einkauf und Ziehen
+
+Einen Tag vorher kaufen oder das Glas öffnen und ziehen lassen. Zwiebel darf überbrüht werden, wenn Kinder mitessen. Öl auffüllen, bis die Stücke bedeckt sind. Kühl stellen.
+
+Sahnelinie erst schließen, wenn der Fisch abgetropft ist. Wasser in der Sahne trennt. Salat braucht Stunden, nicht Minuten.
+
+Was fehlt, ersetzt ihr bewusst: [Ersatzprodukte in DE](/de/blog/ersatzprodukte-de). Sonnenblumenöl trägt. Olivenöl verändert den Charakter. Sagen, was im Glas ist.
+
+## Kinder und gemischte Familien
+
+Hering ist keine Mutprobe. Kleine Stücke, Brot, Gurke, eine mildere Filetlinie. Gräten vorher suchen. Allergien eigene Schale, nicht das Brett nach dem scharfen Meerrettich.
+
+Deutsche Gäste brauchen einen Satz: Das ist eingelegter Hering, oft weniger süß als Sahnehering aus dem Regal. Wer nicht mag, findet Brot und einen anderen Happen.
+
+## Hygiene und Reste
+
+Fisch kalt, zeitnah, getrennt von warmem Fleisch. Lake nicht über den Kinderteller gießen. Offene Gläser beschriften. Orientierung: [bzfe.de](https://www.bzfe.de).
+
+Öl hält länger als Mayo. Sahne und Salat schneller prüfen. Bei Schleim, Stich oder unsicherer Kühlkette entsorgen. Dieselbe Logik: [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
+
+## Wässern, ohne den Abend zu verlieren
+
+Salzhering braucht Stunden, oft über Nacht, Wasser wechseln, kalt. Wer das vergisst, greift zu Matjes oder zum fertigen Ölglas. Das ist Planung, kein Mangel. In einer kleinen Küche nach der Schicht gewinnt das Glas, das schon gezogen hat.
+
+Zwiebel: roh für Schärfe, überbrüht für Kinder, in Ringen nicht in Würfeln, wenn ihr das Ölglas zeigt. Piment und Lorbeer nicht als Haufen auf dem Kinderteller lassen.
+
+Öl: Sonnenblume trägt den Klassiker. Raps geht. Olivenöl verändert den Geruch. Wer mischt, sagt es. Das Filet soll schwimmen, nicht trocken an der Luft stehen.
+
+## Was wir nicht in dieselbe Schüssel rühren
+
+Öl und Mayo nicht in einem Gang, der schon drei Stunden offen steht. Apfel in den Salat, nicht ins Ölglas, wenn ihr den Klassiker zeigen wollt. Gurke daneben, nicht in jede Lake. Meerrettich eigene Schale.
+
+[Ryba po grecku](/de/rezepte/ryba-po-grecku) ist der warme oder kaltgestellte Gemüsefisch, kein Hering. Karpfen ist gebacken. Drei Fischlinien an einem Abend brauchen drei Erklärungen. Eine plus eine milde reichen.
+
+## FAQ
+
+### Ist Matjes dasselbe wie Śledź w oleju?
+
+Nein. Matjes ist milder gereift und oft die schnellere Einkaufslinie. Śledź w oleju ist die eingelegte Öl-Zwiebel-Form. Beide dürfen auf den Tisch, sie dürfen nicht denselben Namen tragen.
+
+### Warum schmeckt der Hering aus dem deutschen Glas süßer?
+
+Viele Fertiggläser führen Zucker und Sahne. Die polnische Öllinie bleibt salzig, zwiebelig, gewürzt. Wer Süße will, wählt bewusst die Sahne- oder Salatlinie.
+
+### Welcher Hering gehört auf die Wigilia?
+
+Die Linie, die die Familie kennt, oft Öl. Eine Schale reicht neben Karpfen. Zwölf Varianten sind ein Buffet, kein Heiligabend.
+
+### Darf Hering vom Vortag auf den Sylwestertisch?
+
+Ja, wenn er kalt blieb und gut riecht. Nachfüllen, nicht den ganzen Nachmittag offen lassen. Unsichere Reste entsorgen.
+
+### Wie lange bleibt ein geöffnetes Glas sicher?
+
+Zeitnah essen, kalt halten, mit Öl bedeckt lassen wo nötig. Tage sind in der Praxis üblich, wenn die Kühlung hielt. Bei Zweifel wegwerfen. Rahmen: [bzfe.de](https://www.bzfe.de).
+
+## Ohne Scham, mit Öl
+
+Gekauftes Filet, Matjes statt Salzhering und eine einzige Schale sind in der Diaspora in Ordnung. Heldentum, das drei Lakes am selben Abend ansetzt, ist kein Gewinn an Brauch. Vorher den Namen wählen, den Fisch riechen, die Kühlkette halten. Śledź bleibt klar, wenn Öl Öl heißt und Sahne Sahne.', 'Hering kaufen DE | Śledź Guide | Alemniam', 'Śledź in Deutschland: Öl, Sahne, Salat, Matjes. Lexikon für Wigilia, Post und Sylwester, bilingual, ohne Rezeptduplikat.') on conflict (post_id, locale) do update set title = excluded.title, slug = excluded.slug, excerpt = excluded.excerpt, body = excluded.body, seo_title = excluded.seo_title, seo_description = excluded.seo_description;
+insert into public.blog_post_translations (post_id, locale, title, slug, excerpt, body, seo_title, seo_description) values ('post-hering', 'pl', 'Śledź w Niemczech: olej, śmietana, sałatka', 'sledz-w-niemczech', 'Olej, śmietana albo sałatka: który śledź na Wigilię, piątek i sylwestra, i po czym poznać dobre filety.', 'Śledź w Niemczech rzadko znaczy to samo co śledź w sklepie polskim. To ryba z dwiema chłodniami, dwiema zalewami i zbyt wieloma słoikami, które wszystkie pachną cebulą. Nazwa znaczy rybę. Zwyczaj znaczy więcej: które filety należą do Wigilii, które niosą piątek, i dlaczego śmietana, olej i sałatka to trzy dania, nie trzy sosy na tej samej desce.
+
+Ten artykuł jest leksykonem, nie książką przepisów. Ilości, czasy marynowania i konkretna kolejność kroków są w pojedynczych przepisach. Tutaj porządkujemy zakup, nazwy i okazję, i gdzie domy w diasporze świadomie skracają, nie odbierając talerzowi wartości. Orientacja o higienie, rybie i łańcuchu chłodu: [bzfe.de](https://www.bzfe.de) oraz [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
+
+Historycznie śledź jest codzienną rybą wybrzeża i postu, nie luksusem karpia. Olej, cebula, przyprawa: to było trwałe, tanie, sycące. W PRL słoik zostawał widoczny. W Niemczech obok stoi matjas, Bismarck, Rollmops, śledź w śmietanie z promocji. Dowód zastępujemy uczciwą listą. Dobry filet w oleju bije trzy słodkie słoiki, które smakują śmietaną i cukrem.
+
+![Śledź w oleju z krążkami cebuli i chlebem](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-hering/2d623b62-e092-403e-b55d-cf9ffb09ffac.webp "Olej, cebula, dobry filet. To niesie więcej niż trzy słodkie słoiki.")
+
+## Trzy linie, nie jeden sos
+
+[Śledź w oleju](/pl/rezepte/sledz) to czytelny klasyk: filet, cebula, neutralny olej, liść, ziele. Lekki, zimny, chleb. Przepis zostaje tam. Tutaj tylko miejsce: [Wigilia](/pl/blog/menu-wigilijne), [post](/pl/blog/menu-post), [sylwester](/pl/blog/menu-sylwester).
+
+Śledź w śmietanie to linia kremowa. Śmietana, nie automatycznie niemiecki Sahnehering z cukrem. [Śmietana i Schmand](/pl/blog/smietana-czy-schmand) wyjaśnia nabiał. Za słodko, za luźno: to często chłodnia, nie miska w domu.
+
+[Sałatka śledziowa](/pl/rezepte/salatka-sledziowa) to sałatka: ryba plus warzywa, często jabłko, często majonez albo śmietana. Niesie gości, którzy nie chcą czystej ryby. Nie zastępuje słoika z olejem.
+
+Po kaszubsku i warianty z jabłkiem są regionalne. Mogą smakować, nie mogą zastępować wszystkich innych nazw. Jedna linia na miskę.
+
+## Co leży w sklepie polskim
+
+Filety w oleju, śledź solony do moczenia, matjas, gotowy w śmietanie. Wąchamy, nie tylko czytamy cenę. Ostry amoniak, matowa barwa, rozpadające się kawałki: zostawiamy. [Przewodnik po sklepie polskim](/pl/blog/sklep-polski-zakupy) pomaga iść celowo.
+
+Śledź solony potrzebuje czasu. Kto w Wigilię o 16 dopiero moczy, gotuje irytację. Matjas jest łagodniejszy i szybszy, nie jest automatycznie śledziem w oleju.
+
+Niemieckie słoiki mogą na stół, gdy nazwa zostaje uczciwa. Bismarck jest przyprawiony i często słodko-kwaśny. Rollmops to forma niemiecka. Oba nie zastępują polskiego słoika z olejem, mogą stać obok.
+
+![Sałatka śledziowa jako linia dla gości](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-salatka-sledziowa/217de80a-a53b-4bc0-be52-f8f5b426a592.webp "Sałatka niesie gości. Nie zastępuje czytelnego słoika z olejem.")
+
+## Okazja i sąsiedzi na stole
+
+Wigilia: śledź jest jedną z linii rybnych obok [karpia](/pl/rezepte/karp) i często [ryby po grecku](/pl/rezepte/ryba-po-grecku). To przystawka albo zimne danie, nie cały wieczór.
+
+Post: śledź niesie piątek z chlebem. Szczegóły w [menu na post](/pl/blog/menu-post).
+
+Sylwester: jedna miska o północy, symbol pieniędzy, nie druga Wigilia. Szczegóły w [menu na sylwestra](/pl/blog/menu-sylwester).
+
+Karp jest rybą święta, śledź codziennością. Kto prowadzi obie 24., potrzebuje dwóch desek i dwóch zdań dla niemieckich gości: karp to pieczona ryba, śledź marynowana.
+
+## Zakupy i ciągnienie
+
+Dzień wcześniej kupujemy albo otwieramy słoik i dajemy pociągnąć. Cebulę można sparzyć, gdy jedzą dzieci. Olej do przykrycia kawałków. Do chłodu.
+
+Linię śmietanową zamykamy, gdy ryba jest odsączona. Woda w śmietanie się rozdziela. Sałatka potrzebuje godzin, nie minut.
+
+Czego brakuje, zastępujemy świadomie: [zamienniki składników](/pl/blog/zamienniki-skladnikow). Olej słonecznikowy niesie. Oliwa zmienia charakter. Mówimy, co jest w słoiku.
+
+## Dzieci i mieszane rodziny
+
+Śledź nie jest próbą odwagi. Małe kawałki, chleb, ogórek, łagodniejsza linia filetów. Ości szukamy wcześniej. Przy alergiach osobna miska, nie deska po ostrym chrzanie.
+
+Niemieccy goście potrzebują zdania: To marynowany śledź, często mniej słodki niż Sahnehering z półki. Kto nie lubi, znajdzie chleb i inny kęs.
+
+## Higiena i resztki
+
+Ryba zimna, wkrótce, osobno od ciepłego mięsa. Zalewy nie lejemy na talerz dziecka. Otwarte słoiki opisujemy. Orientacja: [bzfe.de](https://www.bzfe.de).
+
+Olej trzyma dłużej niż majonez. Śmietanę i sałatkę sprawdzamy szybciej. Przy śluzie, przysmaku albo niepewnym chłodzie wyrzucamy. Ta sama logika: [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
+
+## Moczenie, bez gubienia wieczoru
+
+Śledź solony potrzebuje godzin, często nocy, zmiana wody, zimno. Kto o tym zapomina, bierze matjasa albo gotowy słoik z olejem. To plan, nie brak. W małej kuchni po zmianie wygrywa słoik, który już pociągnął.
+
+Cebula: surowa dla ostrości, sparzona dla dzieci, w krążkach nie w kostce, gdy pokazujecie słoik z olejem. Ziele i liść nie jako kupka na talerzu dziecka.
+
+Olej: słonecznikowy niesie klasyk. Rzepakowy idzie. Oliwa zmienia zapach. Kto miesza, mówi. Filet ma pływać, nie stać sucho na powietrzu.
+
+## Czego nie mieszamy w jednej misce
+
+Oleju i majonezu nie w jednym daniu, które stoi otwarte trzy godziny. Jabłko do sałatki, nie do słoika z olejem, gdy chcecie pokazać klasyk. Ogórek obok, nie do każdej zalewy. Chrzan osobna miseczka.
+
+[Ryba po grecku](/pl/rezepte/ryba-po-grecku) to ciepła albo schłodzona ryba pod warzywami, nie śledź. Karp jest pieczony. Trzy linie ryby jednego wieczoru potrzebują trzech wyjaśnień. Jedna plus łagodna wystarczą.
+
+## FAQ
+
+### Czy matjas to to samo co śledź w oleju?
+
+Nie. Matjas jest łagodniej dojrzewany i często szybszą linią zakupów. Śledź w oleju to forma oleju i cebuli. Oba mogą na stół, nie mogą nieść tej samej nazwy.
+
+### Dlaczego śledź z niemieckiego słoika jest słodszy?
+
+Wiele gotowców ma cukier i śmietanę. Polska linia olejowa zostaje słona, cebulowa, przyprawiona. Kto chce słodyczy, świadomie wybiera śmietanę albo sałatkę.
+
+### Który śledź należy na Wigilię?
+
+Linia, którą rodzina zna, często olej. Jedna miska wystarczy obok karpia. Dwanaście wariantów to bufet, nie Wigilia.
+
+### Czy śledź z wczoraj może na stół sylwestrowy?
+
+Tak, gdy został zimny i dobrze pachnie. Dokładamy, nie zostawiamy otwartego przez całe popołudnie. Niepewne resztki wyrzucamy.
+
+### Jak długo otwarty słoik zostaje bezpieczny?
+
+Jemy wkrótce, trzymamy zimno, przykrywamy olejem gdzie trzeba. Dni są w praktyce zwykłe, gdy chłód trzymał. Przy wątpliwości wyrzucamy. Ramy: [bzfe.de](https://www.bzfe.de).
+
+## Bez wstydu, z olejem
+
+Kupiony filet, matjas zamiast solonego i jedna miska są w diasporze w porządku. Bohaterstwo, które tego samego wieczoru stawia trzy zalewy, nie jest zyskiem zwyczaju. Wcześniej wybieramy nazwę, wąchamy rybę, trzymamy chłód. Śledź zostaje czytelny, gdy olej nazywa się olejem, a śmietana śmietaną.', 'Śledź w Niemczech | Przewodnik | Alemniam', 'Śledź w Niemczech: olej, śmietana, sałatka, matjas. Leksykon na Wigilię, post i sylwestra, dwujęzycznie, bez duplikatu przepisu.') on conflict (post_id, locale) do update set title = excluded.title, slug = excluded.slug, excerpt = excluded.excerpt, body = excluded.body, seo_title = excluded.seo_title, seo_description = excluded.seo_description;
+-- blog:post-chlodnik
+insert into public.blog_posts (id, status, post_type, cover_image, silo_ids, related_recipe_ids, related_post_ids, related_product_ids, cluster_ids, published_at, updated_at) values ('post-chlodnik', 'published', 'lexicon', 'https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-chlodnik/43cdc6c8-676d-43d8-bf5c-effce582f47f.webp', array['ingredient', 'dishFamily']::text[], array['recipe-chlodnik', 'recipe-botwinka', 'recipe-szczawiowa', 'recipe-buraczki']::text[], array['post-polnische-suppen', 'post-barszcz-technik', 'post-smietana-schmand', 'post-fastenzeit']::text[], '{}'::text[], array['technique-bulion']::text[], '2026-08-23T13:40:00.000Z', '2026-08-23T13:40:00.000Z') on conflict (id) do update set status = excluded.status, post_type = excluded.post_type, cover_image = excluded.cover_image, silo_ids = excluded.silo_ids, related_recipe_ids = excluded.related_recipe_ids, related_post_ids = excluded.related_post_ids, related_product_ids = excluded.related_product_ids, cluster_ids = excluded.cluster_ids, published_at = excluded.published_at, updated_at = excluded.updated_at;
+insert into public.blog_post_translations (post_id, locale, title, slug, excerpt, body, seo_title, seo_description) values ('post-chlodnik', 'de', 'Chłodnik: kalte Bete, kein Barszcz', 'chlodnik-deutschland', 'Warum Chłodnik kalt und milchig bleibt: Kefir, Buttermilch, Gurke, Abgrenzung zu Barszcz, Botwinka und Szczawiowa.', 'Chłodnik in Deutschland ist selten die erste Suppe, die Gäste erwarten. Es ist eine kalte, rosa Schüssel zwischen Sommerhitze, Kefirregal und der Frage, warum Rote Bete hier nicht heiß und klar ist. Der Name meint die kalte litauisch-polnische Linie. Der Brauch meint mehr: Wann Kefir trägt, wann Buttermilch reicht, und warum dieser Teller kein [Barszcz czerwony](/de/rezepte/barszcz-czerwony) ist, auch wenn beide die Bete kennen.
+
+Dieser Artikel ist das Lexikon, nicht das Rezeptbuch. Mengen, Kühlzeiten und die konkrete Schrittfolge stehen im Rezept [Chłodnik litewski](/de/rezepte/chlodnik-litewski). Hier ordnen wir Namen, Nachbarn und den Sommer in der Diaspora. Orientierung zu Hygiene, Milch und Ei: [bzfe.de](https://www.bzfe.de) und [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
+
+Historisch kommt Chłodnik aus der litauisch-polnisch-weißrussischen Küche der kalten Säure. Kefir oder saure Milch, geriebene Bete, Gurke, Dill, oft Ei, oft eine kalte Kartoffel. Im Adelssommer und später im Alltag: Hitze draußen, Kälte im Teller. In Deutschland steht daneben Gazpacho, Gurkensuppe, Rote-Bete-Saft aus dem Kühlregal. Wir ersetzen den Beweisdruck durch einen klaren Unterschied. Kalt und milchig schlägt einen lauwarmen Barszcz, den jemand aus Verlegenheit abgekühlt hat.
+
+![Chłodnik rosa, kalt, mit Ei und Dill](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-chlodnik/43cdc6c8-676d-43d8-bf5c-effce582f47f.webp "Kalt und milchig. Das ist ein anderer Teller als der heiße, klare Barszcz.")
+
+## Was Chłodnik ist, was nicht
+
+Chłodnik litewski ist kalt, rosa, säuerlich, mit Einlage. Er wird nie lauwarm serviert. Zwei Stunden Kälte sind Freundlichkeit, eine Nacht ist oft besser.
+
+[Barszcz czerwony](/de/rezepte/barszcz-czerwony) ist heiß und klar, oft mit [Uszka](/de/rezepte/uszka), der [Wigilia](/de/blog/wigilia-speiseplan) näher als dem Sommerbalkon. Technik: [Barszcz-Technik](/de/blog/barszcz-technik). Abgekühlter Barszcz ist kein Chłodnik. Es fehlt die Milchlinie und die Gurke.
+
+[Botwinka](/de/rezepte/botwinka) ist die junge Rote-Bete-Suppe mit Blatt, meist warm, Frühsommer. Sie teilt die Pflanze, nicht die Temperatur.
+
+[Szczawiowa](/de/rezepte/szczawiowa) ist Sauerampfer, warm oder lauwarm, Ei, oft Śmietana. Grün, nicht rosa.
+
+[Buraczki](/de/rezepte/buraczki) sind die warme Beilage aus geriebener Bete, nicht löffelbar als Suppe. Der Überblick der Familie bleibt bei [Polnische Suppen](/de/blog/polnische-suppen).
+
+## Milch, die trägt
+
+Kefir trägt die klassische Säure. Buttermilch aus dem deutschen Regal trägt den Alltag. Joghurt natur funktioniert, wenn er nicht süß ist und verdünnt wird. [Śmietana](/de/blog/smietana-schmand) ist Finish, nicht die ganze Basis.
+
+Pflanzliche Drinks ersetzen Kefir nicht automatisch. Wer sie braucht, sagt den Namen und prüft, ob die Säure hält. [Ersatzprodukte in DE](/de/blog/ersatzprodukte-de) helfen beim ehrlichen Tausch.
+
+Salz, etwas Säure, eine Prise Zucker: abschmecken nach der Kälte, nicht nur direkt nach dem Rühren. Kefir bindet später.
+
+![Chłodnik im Rezept: Kefir, Bete, Gurke](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-chlodnik/d31adac5-90fd-4815-965e-a9d243d59924.webp "Gurke und Dill gehören in die Schüssel, nicht als Dekoration daneben.")
+
+## Sommer in der Wohnung
+
+Chłodnik ist der Sommerfreitag und der heiße Sonntag, an dem niemand [Rosół](/de/rezepte/rosol) will. Er darf in der [Fastenzeit](/de/blog/fastenzeit-speiseplan) stehen, wenn der Haushalt Milch erlaubt. Er ist kein Ersatz für den Weihnachtstisch.
+
+Eine Schüssel, kalte Teller, hartes Ei, Dill, optional eine kalte Kartoffel. Brot daneben. Wer dazu noch drei warme Gänge plant, verfehlt die Hitze.
+
+Deutsche Gäste brauchen einen Satz: Das ist kalte Rote-Bete-Suppe mit Kefir, absichtlich kalt, nicht eine ausgekühlte Brühe. Das ist Respekt, nicht Folklore.
+
+## Einkauf in zwei Touren
+
+Supermarkt: Kefir oder Buttermilch, Gurke, Radieschen, Dill, Eier, Zitrone. Polenladen: oft bessere Śmietana, manchmal bessere Bete, der erwartete Dill im Bund. Vorgekochte Bete aus dem Vakuum darf, wenn sie ungewürzt und fest ist. Süß-sauer eingelegte Bete aus dem Glas verändert den Teller. Ehrlich benennen.
+
+Listen nach Schüssel schreiben. Was die Basis braucht, eine Zeile. Was die Einlage braucht, die nächste. Der [Polenladen](/de/blog/polenladen-einkaufen) ist kein Pflichtgang, wenn das Regal trägt.
+
+## Kinder und Arbeit
+
+Kinder verstehen rosa besser als den Namen. Eine milde Schale, weniger Meerrettich, Ei sichtbar. Allergien: Milch und Ei vorher klären.
+
+Eine Person reibt oder püriert, eine schneidet die Einlage, eine führt die Kälte. In der Diaspora nach der Schicht: am Vorabend anrühren, am Tag nur abschmecken.
+
+## Hygiene und Reste
+
+Milch, Ei, Kälte. Nicht in der Sonne, nicht im warmen Auto. Nachfüllen aus dem Kühlschrank. Orientierung: [bzfe.de](https://www.bzfe.de).
+
+Am nächsten Tag oft runder, wenn die Schüssel geschlossen blieb. Länger kritisch prüfen. Getrennte Einlage hält knackiger. Bei Stich, Gerinnung oder unsicherer Kühlkette entsorgen. Rahmen: [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
+
+## Einlage, die den Löffel trägt
+
+Gurke fein, Radieschen fein, Dill frisch. Große Würfel stören die rosa Masse. Ei hart, halb oder geviertelt, sichtbar. Kartoffel kalt, mehlig, nicht als heißer Kloß in der Mitte. Meerrettich nur, wenn der Haushalt ihn will. Er macht aus der Suppe schnell eine scharfe Probe.
+
+Wer Blatt von der jungen Bete hat, darf es fein schneiden. Das bleibt Chłodnik mit Blatt, nicht Botwinka. Wer nur Vakuumbete hat, reibt und prüft die Süße.
+
+## Zeitplan für einen heißen Tag
+
+Am Vorabend: Bete kochen oder öffnen, Basis rühren, schließen, kalt stellen. Am Tag: Einlage schneiden, abschmecken, Teller kalt, Dill zuletzt. Wer um 13 Uhr erst die Bete aufsetzt, weil Gäste um 14 kommen, zahlt mit einer lauwarmen Schüssel.
+
+Einkauf vor der ersten Hitzewelle. Kefir leert sich im Polenladen nicht so schnell wie Oscypek vor dem Grillwochenende, aber Dill welkt. Eine Extra-Stange im Kühlschrank schlägt den Notfall mit getrocknetem Dill, der den Teller grau macht.
+
+## FAQ
+
+### Kann ich heißen Barszcz kalt stellen und Chłodnik nennen?
+
+Nein. Es fehlt die Milchlinie, die Gurke, der Charakter. Barszcz bleibt Barszcz. Chłodnik bleibt die kalte, rosa Schüssel. Beide dürfen in einem Sommer existieren, nicht unter einem Namen.
+
+### Welche Milch trägt in Deutschland am klarsten?
+
+Kefir, wenn ihr ihn findet. Buttermilch als Alltag. Joghurt natur verdünnt. Süße Fruchtjoghurts zerstören den Teller. Śmietana obenauf, nicht als ganze Basis.
+
+### Braucht Chłodnik Fleischbrühe?
+
+Nein. Kalte Gemüsebrühe oder nur Milch plus Bete tragen. Fleischbrühe macht ihn schwerer und ist keine Pflicht. Das Rezept bleibt [Chłodnik litewski](/de/rezepte/chlodnik-litewski).
+
+### Ist Botwinka dasselbe in grün?
+
+Nein. Botwinka ist die junge Pflanze, meist warm. Chłodnik ist die kalte, milchige Linie. Blatt darf in manchen Häusern in den Chłodnik, es macht daraus keine Botwinka.
+
+### Wie lange hält die Schüssel im Kühlschrank?
+
+Zeitnah essen, geschlossen, kalt. Ein Tag ist üblich und oft besser. Darüber hinaus prüfen. Bei Zweifel wegwerfen.
+
+## Ohne Scham, mit Kälte
+
+Buttermilch statt Kefir, Vakuumbete und eine Schüssel ohne Kartoffel sind in der Diaspora in Ordnung. Heldentum, das am heißen Nachmittag noch Brühe klärt, ist kein Gewinn an Brauch. Vorher anrühren, kalt stellen, den Namen ehrlich lassen. Chłodnik bleibt Sommer, wenn er eiskalt auf den Tisch kommt.', 'Chłodnik Guide | Kalte Rote Bete | Alemniam', 'Chłodnik litewski in Deutschland: Kefir, Buttermilch, kein heißer Barszcz. Lexikon neben dem Rezept, bilingual.') on conflict (post_id, locale) do update set title = excluded.title, slug = excluded.slug, excerpt = excluded.excerpt, body = excluded.body, seo_title = excluded.seo_title, seo_description = excluded.seo_description;
+insert into public.blog_post_translations (post_id, locale, title, slug, excerpt, body, seo_title, seo_description) values ('post-chlodnik', 'pl', 'Chłodnik: zimny burak, nie barszcz', 'chlodnik-w-niemczech', 'Dlaczego chłodnik zostaje zimny i mleczny: kefir, maślanka, ogórek, różnica wobec barszczu, botwinki i szczawiowej.', 'Chłodnik w Niemczech rzadko jest pierwszą zupą, której czekają goście. To zimna, różowa miska między letnim upałem, półką z kefirem i pytaniem, dlaczego burak nie jest tu gorący i jasny. Nazwa znaczy zimną linię litewsko-polską. Zwyczaj znaczy więcej: kiedy niesie kefir, kiedy wystarczy maślanka, i dlaczego ten talerz nie jest [barszczem czerwonym](/pl/rezepte/barszcz-czerwony), choć oba znają burak.
+
+Ten artykuł jest leksykonem, nie książką przepisów. Ilości, czasy chłodzenia i konkretna kolejność kroków są w przepisie [chłodnik litewski](/pl/rezepte/chlodnik-litewski). Tutaj porządkujemy nazwy, sąsiadów i lato w diasporze. Orientacja o higienie, mleku i jajku: [bzfe.de](https://www.bzfe.de) oraz [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
+
+Historycznie chłodnik przychodzi z kuchni litewsko-polsko-białoruskiej zimnego kwasu. Kefir albo kwaśne mleko, tarty burak, ogórek, koperek, często jajko, często zimny ziemniak. W letnim dworze i potem na co dzień: upał na dworze, chłód na talerzu. W Niemczech obok stoi gazpacho, zupa ogórkowa, sok z buraka z chłodni. Dowód zastępujemy czytelną różnicą. Zimne i mleczne bije letni barszcz, który ktoś ze wstydu ostudził.
+
+![Chłodnik różowy, zimny, z jajkiem i koperkiem](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-chlodnik/43cdc6c8-676d-43d8-bf5c-effce582f47f.webp "Zimne i mleczne. To inny talerz niż gorący, jasny barszcz.")
+
+## Czym chłodnik jest, czym nie
+
+Chłodnik litewski jest zimny, różowy, kwaskowy, z dodatkami. Nigdy nie podajemy go letniego. Dwie godziny chłodu to uprzejmość, noc często lepsza.
+
+[Barszcz czerwony](/pl/rezepte/barszcz-czerwony) jest gorący i jasny, często z [uszkami](/pl/rezepte/uszka), bliższy [Wigilii](/pl/blog/menu-wigilijne) niż balkonowi w lecie. Technika: [jak ugotować barszcz](/pl/blog/jak-ugotowac-barszcz). Ostudzony barszcz nie jest chłodnikiem. Brakuje linii mlecznej i ogórka.
+
+[Botwinka](/pl/rezepte/botwinka) to młoda zupa z botwiny, zwykle ciepła, wczesne lato. Dzieli roślinę, nie temperaturę.
+
+[Szczawiowa](/pl/rezepte/szczawiowa) to szczaw, ciepła albo letnia, jajko, często śmietana. Zielona, nie różowa.
+
+[Buraczki](/pl/rezepte/buraczki) to ciepły dodatek z tartych buraków, nie zupa do łyżki. Przegląd rodziny zostaje w [polskich zupach](/pl/blog/polskie-zupy).
+
+## Mleko, które niesie
+
+Kefir niesie klasyczny kwas. Maślanka z niemieckiej półki niesie codzienność. Jogurt naturalny działa, gdy nie jest słodki i jest rozcieńczony. [Śmietana](/pl/blog/smietana-czy-schmand) to wykończenie, nie cała baza.
+
+Napoje roślinne nie zastępują kefiru automatycznie. Kto ich potrzebuje, mówi nazwę i sprawdza, czy kwas trzyma. [Zamienniki składników](/pl/blog/zamienniki-skladnikow) pomagają w uczciwej wymianie.
+
+Sól, odrobina kwasu, szczypta cukru: doprawiamy po schłodzeniu, nie tylko tuż po wymieszaniu. Kefir wiąże później.
+
+![Chłodnik w przepisie: kefir, burak, ogórek](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-chlodnik/d31adac5-90fd-4815-965e-a9d243d59924.webp "Ogórek i koperek należą do miski, nie jako dekoracja obok.")
+
+## Lato w mieszkaniu
+
+Chłodnik to letni piątek i gorąca niedziela, w którą nikt nie chce [rosołu](/pl/rezepte/rosol). Może stanąć w [poście](/pl/blog/menu-post), gdy dom pozwala na mleko. Nie zastępuje stołu wigilijnego.
+
+Jedna miska, zimne talerze, twarde jajko, koperek, opcjonalnie zimny ziemniak. Chleb obok. Kto planuje jeszcze trzy ciepłe dania, mija się z upałem.
+
+Niemieccy goście potrzebują zdania: To zimna zupa z buraka i kefiru, celowo zimna, nie ostudzony bulion. To szacunek, nie folklor.
+
+## Zakupy w dwóch turach
+
+Supermarket: kefir albo maślanka, ogórek, rzodkiewka, koperek, jajka, cytryna. Sklep polski: często lepsza śmietana, czasem lepszy burak, oczekiwany koperek w pęczku. Ugotowany burak z próżni wolno, gdy jest nieprzyprawiony i zwarty. Słodko-kwaśny z słoika zmienia talerz. Nazywamy uczciwie.
+
+Listy według miski. Co baza, jeden wiersz. Co dodatki, następny. [Sklep polski](/pl/blog/sklep-polski-zakupy) nie jest obowiązkowy, gdy półka niesie.
+
+## Dzieci i praca
+
+Dzieci rozumieją różowy lepiej niż nazwę. Łagodna miska, mniej chrzanu, jajko widoczne. Alergie: mleko i jajko wcześniej.
+
+Jedna osoba tarze albo miksuje, jedna kroi dodatki, jedna prowadzi chłód. W diasporze po zmianie: wieczór wcześniej mieszamy, w dzień tylko doprawiamy.
+
+## Higiena i resztki
+
+Mleko, jajko, chłód. Nie na słońcu, nie w ciepłym aucie. Dokładamy z lodówki. Orientacja: [bzfe.de](https://www.bzfe.de).
+
+Następnego dnia często pełniejszy, gdy miska była zamknięta. Dłużej sprawdzamy ostrożnie. Osobne dodatki zostają chrupiące. Przy przysmaku, ścięciu albo niepewnym chłodzie wyrzucamy. Ramy: [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
+
+## Dodatki, które niosą łyżkę
+
+Ogórek drobno, rzodkiewka drobno, koperek świeży. Duże kostki psują różową masę. Jajko twarde, połówka albo ćwiartka, widoczne. Ziemniak zimny, mączysty, nie jako gorący knedel w środku. Chrzan tylko, gdy dom go chce. Szybko robi z zupy ostrą próbę.
+
+Kto ma liść młodego buraka, może go drobno pokroić. Zostaje chłodnik z liściem, nie botwinka. Kto ma tylko burak z próżni, tarze i sprawdza słodycz.
+
+## Harmonogram na upał
+
+Wieczór wcześniej: gotujemy albo otwieramy burak, mieszamy bazę, zamykamy, chłodzimy. W dzień: kroimy dodatki, doprawiamy, talerze zimne, koperek na końcu. Kto o 13 dopiero stawia burak, bo goście o 14, płaci letnią miską.
+
+Zakupy przed pierwszą falą upałów. Kefir w sklepie polskim nie znika tak szybko jak oscypek przed weekendem grillowym, ale koperek więdnie. Extra pęczek w lodówce bije awarię z suszonym koperkiem, który robi talerz szarym.
+
+## FAQ
+
+### Czy mogę ostudzić gorący barszcz i nazwać go chłodnikiem?
+
+Nie. Brakuje linii mlecznej, ogórka, charakteru. Barszcz zostaje barszczem. Chłodnik zostaje zimną, różową miską. Oba mogą istnieć w jednym lecie, nie pod jedną nazwą.
+
+### Które mleko w Niemczech niesie najczytelniej?
+
+Kefir, gdy go znajdziecie. Maślanka na co dzień. Jogurt naturalny rozcieńczony. Słodkie owocowe niszczą talerz. Śmietana na wierzchu, nie jako cała baza.
+
+### Czy chłodnik potrzebuje mięsnego wywaru?
+
+Nie. Zimny wywar warzywny albo samo mleko plus burak niosą. Wywar mięsny robi go cięższym i nie jest obowiązkiem. Przepis zostaje [chłodnik litewski](/pl/rezepte/chlodnik-litewski).
+
+### Czy botwinka to to samo na zielono?
+
+Nie. Botwinka to młoda roślina, zwykle ciepła. Chłodnik to zimna, mleczna linia. Liść w niektórych domach może iść do chłodnika, nie robi z niego botwinki.
+
+### Jak długo miska trzyma się w lodówce?
+
+Jemy wkrótce, zamknięta, zimna. Dzień jest zwykły i często lepszy. Dalej sprawdzamy. Przy wątpliwości wyrzucamy.
+
+## Bez wstydu, z chłodem
+
+Maślanka zamiast kefiru, burak z próżni i miska bez ziemniaka są w diasporze w porządku. Bohaterstwo, które w upale jeszcze klaruje bulion, nie jest zyskiem zwyczaju. Wcześniej mieszamy, chłodzimy, zostawiamy uczciwą nazwę. Chłodnik zostaje latem, gdy wychodzi na stół lodowaty.', 'Chłodnik | Zimny burak | Alemniam', 'Chłodnik litewski w Niemczech: kefir, maślanka, nie gorący barszcz. Leksykon obok przepisu, dwujęzycznie.') on conflict (post_id, locale) do update set title = excluded.title, slug = excluded.slug, excerpt = excluded.excerpt, body = excluded.body, seo_title = excluded.seo_title, seo_description = excluded.seo_description;
 -- affiliate_products
 insert into public.affiliate_products (id, partner, url, image_url, title_de, title_pl, description_de, description_pl, cta_de, cta_pl, tags, recipe_ids, post_ids, active, sort_order) values ('aff-pierogi-form', 'amazon', 'https://www.amazon.de/s?k=Pierogi+Form+Set', 'https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-pierogi-formen/bf60d0dc-888a-4dab-b1f9-520da0297e1f.webp', 'Pierogi-Formen Set', 'Zestaw foremek do pierogów', 'Gleichmäßige Kreise, saubere Ränder. Spart Zeit beim Formen.', 'Równe kółka, czyste brzegi. Szybsze lepienie.', 'Bei Amazon ansehen', 'Zobacz na Amazon', array['pierogi', 'teig', 'kitchen', 'gear']::text[], array['recipe-pierogi', 'recipe-pierogi-meat', 'recipe-pierogi-cabbage']::text[], array['post-teigmaschine', 'post-pierogi-teig']::text[], true, 10) on conflict (id) do update set partner = excluded.partner, url = excluded.url, image_url = excluded.image_url, title_de = excluded.title_de, title_pl = excluded.title_pl, description_de = excluded.description_de, description_pl = excluded.description_pl, cta_de = excluded.cta_de, cta_pl = excluded.cta_pl, tags = excluded.tags, recipe_ids = excluded.recipe_ids, post_ids = excluded.post_ids, active = excluded.active, sort_order = excluded.sort_order, updated_at = now();
 insert into public.affiliate_products (id, partner, url, image_url, title_de, title_pl, description_de, description_pl, cta_de, cta_pl, tags, recipe_ids, post_ids, active, sort_order) values ('aff-rolling-pin', 'amazon', 'https://www.amazon.de/s?k=Teigroller+Holz', 'https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-pierogi-teig/ba5876fe-10c2-4ed4-8025-632c2caae7b6.webp', 'Holz-Teigroller', 'Wałek drewniany', 'Für dünnen, gleichmäßigen Teig. Das Fundament guter Pierogi.', 'Do cienkiego, równego ciasta. Podstawa dobrych pierogów.', 'Teigroller finden', 'Znajdź wałek', array['teig', 'kitchen', 'gear']::text[], array['recipe-pierogi', 'recipe-pierogi-meat', 'recipe-pierogi-cabbage']::text[], array['post-teigmaschine', 'post-pierogi-teig']::text[], true, 20) on conflict (id) do update set partner = excluded.partner, url = excluded.url, image_url = excluded.image_url, title_de = excluded.title_de, title_pl = excluded.title_pl, description_de = excluded.description_de, description_pl = excluded.description_pl, cta_de = excluded.cta_de, cta_pl = excluded.cta_pl, tags = excluded.tags, recipe_ids = excluded.recipe_ids, post_ids = excluded.post_ids, active = excluded.active, sort_order = excluded.sort_order, updated_at = now();
@@ -14633,4 +15641,4 @@ insert into public.affiliate_products (id, partner, url, image_url, title_de, ti
 
 commit;
 
--- Row counts expected after this file runs: clusters=32, recipe_families=4, recipes=109, blog_posts=42, affiliate_products=8
+-- Row counts expected after this file runs: clusters=32, recipe_families=4, recipes=109, blog_posts=47, affiliate_products=8
