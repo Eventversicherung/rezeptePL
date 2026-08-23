@@ -23,6 +23,7 @@ import { seedBlogPostsW6 } from "./seed-blog-w6";
 import { seedBlogPostsW8 } from "./seed-blog-w8";
 /** Wave 16 — Diaspora mistakes (silo-safe). */
 import { seedBlogPostsW16 } from "./seed-blog-w16";
+import { seedBlogPostsW18 } from "./seed-blog-w18";
 
 const seedBlogPostsLive: BlogPost[] = [
   {
@@ -304,4 +305,5 @@ export const seedBlogPosts: BlogPost[] = [
   ...seedBlogPostsW6,
   ...seedBlogPostsW8,
   ...seedBlogPostsW16,
+  ...seedBlogPostsW18,
 ];
