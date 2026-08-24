@@ -1,6 +1,6 @@
 /** Wave 16 — Diaspora cooking mistakes (DE). Silo-safe: cross-dish tactics, not a cook guide. */
 export const bodyFehlerDiasporaDe = `
-Polnisch kochen in Deutschland scheitert selten am Willen. Es scheitert oft an denselben Mustern: zu heißes Fett in einer kleinen Pfanne, zu nasse Füllung in einem engen Arbeitsblock, ein Ersatz, der den Charakter löscht, und ein Sonntag, der um elf noch keinen Mittelpunkt hat. Der Alltag meint mehr als eine Liste: Schicht, REWE um die Ecke, Polenladen nur samstags, Kinder, die in Deutschland aufwachsen, und Gäste, die ein Gericht am Namen messen, den sie aus dem Urlaub kennen.
+Polnisch kochen in Deutschland scheitert selten am Willen. Es scheitert oft an denselben Mustern: zu heißes Fett in einer kleinen Pfanne, zu nasse Füllung in einem engen Arbeitsblock, ein Ersatz, der den Charakter löscht, und ein Sonntag, der um elf noch keinen Mittelpunkt hat. Im Alltag zählt mehr als eine Liste: Schicht, REWE um die Ecke, Polenladen nur samstags, Kinder, die in Deutschland aufwachsen, und Gäste, die ein Gericht am Namen messen, den sie aus dem Urlaub kennen.
 
 Dieser Artikel ist die Musterkarte, nicht das Rezeptbuch. Mengen, Garzeiten und die konkrete Schrittfolge stehen auf den Rezeptseiten. Hier ordnen wir, welche Fehler über Gerichte hinweg wiederkehren und wie ihr sie im Plan vermeidet, bevor der Topf auf der Platte steht. Orientierung zu Hygiene und Kühlkette: [bzfe.de](https://www.bzfe.de) und [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
 
@@ -98,7 +98,7 @@ Einen Mittelpunkt aus dem Freezer oder vom Vortag, eine frische Säure, Brot. Ka
 
 Nein. Ein Satz Übersetzung reicht. Żurek, Surówka, Ćwikła, Pierniczki: Name, was es ist, was es nicht ist. Das verhindert falsche Erwartungen und schützt euch vor dem Impuls, ein zweites, deutsches Menü daneben zu stellen. Erklären schlägt Prüfen.
 
-## Ohne Scham, mit Plan
+## Wenn der Plan kleiner bleibt
 
-Ein gekaufter Meerrettich, Kasza aus Kaufland und ein Sonntag mit nur einem Topf sind in der Diaspora in Ordnung. Heldentum, das alle erschöpft, ist kein Gewinn an Küche. Vorher den Kühlschrank leeren, die Hitze senken, den Ersatz benennen. Fehler werden seltener, wenn der Plan kleiner ist als der Ehrgeiz. Der Teller darf polnisch schmecken und trotzdem in eine deutsche Woche passen.
+Ein gekaufter Meerrettich, Kasza aus Kaufland und ein Sonntag mit nur einem Topf sind hier völlig in Ordnung. Ein Tag, der alle erschöpft, hilft der Küche nicht. Vorher den Kühlschrank leeren, die Hitze senken, den Ersatz benennen. Fehler werden seltener, wenn der Plan kleiner ist als der Ehrgeiz. Der Teller darf polnisch schmecken und trotzdem in eine deutsche Woche passen.
 `;

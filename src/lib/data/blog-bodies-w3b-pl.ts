@@ -17,7 +17,7 @@ Worki nadają się do płaskiego mrożenia na blasze; potem przesypujemy do poje
 
 
 
-![Pierogi na blasze, gotowe do gotowania albo mrożenia](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-pierogi/ffa4f850-6746-4b55-8710-b19e03abf532.webp "Partie biją bohaterstwo. Mrozimy surowe, gotujemy później.")
+![Pierogi na blasze, gotowe do gotowania albo mrożenia](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-pierogi/ffa4f850-6746-4b55-8710-b19e03abf532.webp "Małe partie biją jedną ogromną sesję. Mrozimy surowe, gotujemy później.")
 
 ## Kryteria: materiał, uszczelnienie, stos
 

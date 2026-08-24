@@ -105,11 +105,11 @@ W praktyce powtarzanie liczy się bardziej niż perfekcja. Kto dwa razy spokojni
 `;
 
 export const bodyFasolkaGuidePl = `
-Fasolka po bretońsku w Niemczech rzadko jest dowodem święta. To garnek między zmianą, niedzielą i życzeniem, żeby coś ciepłego czekało, gdy wszyscy wrócą do domu. Nazwa brzmi po francusku. Zwyczaj oznacza polską kuchnię domową: biała fasola, pomidor, często kiełbasa, liść laurowy, majeranek. Kto przychodzi, kto je wędlinę, kto zostaje przy wersji bezmięsnej i ile czasu garnek naprawdę potrzebuje, decyduje o wieczorze mocniej niż etykieta na puszce.
+Fasolka po bretońsku w Niemczech rzadko jest dowodem święta. To garnek między zmianą, niedzielą i życzeniem, żeby coś ciepłego czekało, gdy wszyscy wrócą do domu. Nazwa brzmi po francusku. W kuchni to polska kuchnia domowa: biała fasola, pomidor, często kiełbasa, liść laurowy, majeranek. Kto przychodzi, kto je wędlinę, kto zostaje przy wersji bezmięsnej i ile czasu garnek naprawdę potrzebuje, decyduje o wieczorze mocniej niż etykieta na puszce.
 
 Ten artykuł jest przewodnikiem, nie książką przepisów. Ilości, czasy moczenia i konkretna kolejność kroków są w przepisie [fasolka po bretońsku](/pl/rezepte/fasolka-po-bretonsku). Tutaj porządkujemy zakupy w DE, różnicę wobec bigosu i gulaszu, doprawianie i resztki. Orientacja w roślinach strączkowych, wędlinie i podgrzewaniu: [bzfe.de](https://www.bzfe.de) oraz [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
 
-Historycznie linia fasola-pomidor jest gospodarstwem, nie talerzem restauracyjnym. Długi garnek, jasna przyprawa, mało dramatu. W diasporze zamieniamy presję dowodu na spokojny plan. Jeden garnek, który naprawdę zostanie skończony i nazajutrz smakuje pełniej, bije trzy eksperymenty w głodny wieczór.
+Historycznie linia fasola-pomidor jest gospodarstwem, nie talerzem restauracyjnym. Długi garnek, jasna przyprawa, mało dramatu. Spokojny plan gotowania niesie więcej niż chęć pokazania wszystkiego naraz. Jeden garnek, który naprawdę zostanie skończony i nazajutrz smakuje pełniej, bije trzy eksperymenty w głodny wieczór.
 
 ![Fasola z polskiej kuchni, przygotowana do spokojnego duszenia](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-fasolka-szparagowa/b77438bf-1db3-4f2b-98d9-95076e60db03.webp "Fasola potrzebuje czasu i jasnej przyprawy, niezależnie od odmiany.")
 
@@ -201,9 +201,9 @@ Nie. Ciężki garnek z pokrywką wystarczy. Dutch oven pomaga przy cieple i przy
 
 Kroki i ilości: [przepis fasolka](/pl/rezepte/fasolka-po-bretonsku). Tutaj zakupy, przyprawa, resztki i różnica wobec sąsiednich garnków.
 
-## Bez wstydu, z miejscem
+## Gdy stół ma miejsce
 
-Fasola z puszki, kupiona kiełbasa i zwykły garnek są w diasporze w porządku. Bohaterstwo z moczeniem po zmianie nie jest zyskiem zwyczaju. Wcześniej wybieramy linię fasoli, bierzemy majeranek na serio, prowadzimy garnek dzień wcześniej. Fasolka w Niemczech staje się powtarzalna, gdy jej na to pozwolimy.
+Fasola z puszki, kupiona kiełbasa i zwykły garnek są tu zupełnie w porządku. Moczenie fasoli po zmianie przeciąża wieczór. Wcześniej wybieramy linię fasoli, bierzemy majeranek na serio, prowadzimy garnek dzień wcześniej. Fasolka w Niemczech staje się powtarzalna, gdy jej na to pozwolimy.
 `;
 
 export const bodyMajeranekPl = `

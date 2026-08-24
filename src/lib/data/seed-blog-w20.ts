@@ -43,20 +43,20 @@ export const seedBlogPostsW20: BlogPost[] = [
         title: "Mehltypen in DE: 405, 550, Stärke",
         slug: "mehltypen-deutschland",
         excerpt:
-          "Welche Tüte für Pierogi, Kluski und Pączki: Type 405, 550, Kartoffelstärke, typische Fehler in deutschen Küchen.",
+          "In Deutschland entscheidet die Type auf der Tüte mit. Type 550 hält Pierogi und Pączki, Kartoffelstärke die śląskie, und reine 405 reißt oft an der Naht.",
         seoTitle: "Mehltypen DE | 405 und 550 | Alemniam",
         seoDescription:
-          "Mehl in Deutschland: Type 405, 550, Kartoffelstärke. Lexikon für Pierogi, Kluski, Pączki, bilingual, ohne Rezeptduplikat.",
+          "Welche Mehlsorte in Deutschland in Pierogi, Kluski und Pączki gehört. Type 405, 550 und Kartoffelstärke erklärt, ohne Rezeptmengen.",
         body: bodyMehltypenDe.trim(),
       },
       pl: {
         title: "Typy mąki w DE: 405, 550, skrobia",
         slug: "typy-maki-w-niemczech",
         excerpt:
-          "Który worek na pierogi, kluski i pączki: typ 405, 550, skrobia ziemniaczana, typowe błędy w niemieckich kuchniach.",
+          "W Niemczech typ na worku decyduje razem z ilością. Typ 550 utrzymuje pierogi i pączki, skrobia ziemniaczana śląskie, a sama 405 często pęka na szwie.",
         seoTitle: "Typy mąki DE | 405 i 550 | Alemniam",
         seoDescription:
-          "Mąka w Niemczech: typ 405, 550, skrobia. Leksykon na pierogi, kluski, pączki, dwujęzycznie, bez duplikatu przepisu.",
+          "Jaką mąkę w Niemczech brać do pierogów, klusek i pączków. Typ 405, 550 i skrobia ziemniaczana obok przepisów, bez ilości.",
         body: bodyMehltypenPl.trim(),
       },
     },
@@ -135,20 +135,20 @@ export const seedBlogPostsW20: BlogPost[] = [
         title: "Majonez in DE: Remoulade, Joghurt, Salat",
         slug: "majonez-deutschland",
         excerpt:
-          "Welches Glas die Sałatka bindet: polnischer Majonez, deutsche Mayonnaise, Remoulade, Joghurt. Parallel zu Śmietana.",
+          "Polnischer Majonez bindet die Sałatka anders als deutsche Mayonnaise oder Remoulade. Welches Glas in die Schüssel gehört und wann Joghurt sie verändert.",
         seoTitle: "Majonez kaufen DE | Sałatka Guide | Alemniam",
         seoDescription:
-          "Majonez in Deutschland: Glas, Remoulade, Joghurt. Lexikon für Sałatka und Eier, bilingual, ohne Rezeptduplikat.",
+          "Majonez in Deutschland für Sałatka jarzynowa und gefüllte Eier. Was Remoulade nicht ersetzt und wann Joghurt den Charakter der Schüssel ändert.",
         body: bodyMajonezDe.trim(),
       },
       pl: {
         title: "Majonez w DE: remulada, jogurt, sałatka",
         slug: "majonez-w-niemczech",
         excerpt:
-          "Który słoik wiąże sałatkę: polski majonez, niemiecki majonez, remulada, jogurt. Równolegle do śmietany.",
+          "Polski majonez wiąże sałatkę jarzynową inaczej niż niemiecki majonez albo remulada. Który słoik należy do miski i kiedy jogurt ją zmienia.",
         seoTitle: "Majonez w Niemczech | Sałatka | Alemniam",
         seoDescription:
-          "Majonez w Niemczech: słoik, remulada, jogurt. Leksykon do sałatki i jajek, dwujęzycznie, bez duplikatu przepisu.",
+          "Majonez w Niemczech do sałatki jarzynowej i jajek faszerowanych. Czym remulada nie zastąpi słoika i kiedy jogurt zmienia charakter miski.",
         body: bodyMajonezPl.trim(),
       },
     },
@@ -182,20 +182,20 @@ export const seedBlogPostsW20: BlogPost[] = [
         title: "Nach der Schicht: 25 Minuten aus zwei Tüten",
         slug: "nach-der-schicht",
         excerpt:
-          "Feierabend ohne Sonntag: Leczo, Zapiekanka, Kaszanka, Eier. Was Polenladen und REWE in 25 Minuten tragen.",
+          "Nach der Schicht braucht der Tisch 25 Minuten, nicht den Sonntag. Leczo, Zapiekanka oder Eier aus Polenladen und Supermarkt.",
         seoTitle: "Nach der Schicht | 25 Minuten | Alemniam",
         seoDescription:
-          "Polnisch nach der Schicht: Leczo, Zapiekanka, Kaszanka. Alltagsspeiseplan aus Polenladen und REWE, bilingual.",
+          "Was nach der Schicht in 25 Minuten satt macht. Leczo, Zapiekanka und Kaszanka aus Polenladen und REWE, ohne Sonntagsbraten.",
         body: bodySchichtDe.trim(),
       },
       pl: {
         title: "Po zmianie: 25 minut z dwóch siatek",
         slug: "po-zmianie",
         excerpt:
-          "Wieczór bez niedzieli: leczo, zapiekanka, kaszanka, jajka. Co sklep polski i REWE niosą w 25 minut.",
+          "Po zmianie stół potrzebuje 25 minut, nie niedzieli. Leczo, zapiekanka albo jajka ze sklepu polskiego i supermarketu.",
         seoTitle: "Po zmianie | 25 minut | Alemniam",
         seoDescription:
-          "Po polsku po zmianie: leczo, zapiekanka, kaszanka. Plan codzienny ze sklepu polskiego i REWE, dwujęzycznie.",
+          "Co po zmianie syci w 25 minut. Leczo, zapiekanka i kaszanka ze sklepu polskiego i REWE, bez niedzielnego kotleta.",
         body: bodySchichtPl.trim(),
       },
     },
@@ -230,20 +230,20 @@ export const seedBlogPostsW20: BlogPost[] = [
         title: "Zwischen den Feiertagen: Reste ohne zweites Fest",
         slug: "zwischen-den-feiertagen",
         excerpt:
-          "26. bis 30. Dezember: Barszcz, Uszka, Karpfenreste, Kompot. Aufessen, einfrieren, Sylwester nicht vorwegnehmen.",
+          "Zwischen dem 26. und 30. Dezember essen wir Reste, nicht ein zweites Fest. Barszcz, Uszka und Karpfen prüfen, Sylwester später planen.",
         seoTitle: "Zwischen den Feiertagen | Reste | Alemniam",
         seoDescription:
-          "Nach der Wigilia: Reste, Hygiene, Freezer. Speiseplan 26. bis 30. Dezember, bilingual, ohne Sylwester-Menü.",
+          "Was nach der Wigilia noch auf den Tisch darf. Reste, Hygiene und Freezer vom 26. bis 30. Dezember, ohne das Silvestermenü vorwegzunehmen.",
         body: bodyZwischenFeiertagenDe.trim(),
       },
       pl: {
         title: "Między świętami: resztki bez drugiego święta",
         slug: "miedzy-swietami",
         excerpt:
-          "26 do 30 grudnia: barszcz, uszka, resztki karpia, kompot. Zjadać, mrozić, nie wyprzedzać sylwestra.",
+          "Od 26 do 30 grudnia jesz to, co jeszcze dobre, nie drugie święto. Barszcz, uszka i karp do sprawdzenia, sylwester osobno.",
         seoTitle: "Między świętami | Resztki | Alemniam",
         seoDescription:
-          "Po Wigilii: resztki, higiena, mrożenie. Plan 26 do 30 grudnia, dwujęzycznie, bez menu sylwestrowego.",
+          "Co po Wigilii jeszcze może na stół. Resztki, higiena i mrożenie od 26 do 30 grudnia, bez wyprzedzania menu sylwestrowego.",
         body: bodyZwischenFeiertagenPl.trim(),
       },
     },

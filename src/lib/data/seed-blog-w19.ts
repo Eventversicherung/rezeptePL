@@ -43,7 +43,7 @@ export const seedBlogPostsW19: BlogPost[] = [
         title: "Fastenzeit Speiseplan: Freitag ohne Fleisch in DE",
         slug: "fastenzeit-speiseplan",
         excerpt:
-          "Post in Deutschland ruhig halten: Hering, eine klare Suppe, Gemüse, ohne sechs Wochen Hunger und ohne Dogma.",
+          "In Deutschland hält oft schon der Freitag den Post. Hering, eine klare Suppe und Gemüse reichen, ohne sechs Wochen Hunger und ohne Predigt.",
         seoTitle: "Fastenzeit Speiseplan | Freitagsküche DE | Alemniam",
         seoDescription:
           "Fastenzeit in Deutschland: Śledź, Fisch, Gemüsesuppe. Speiseplan für Freitage, bilingual, ohne Rezeptduplikat.",
@@ -53,7 +53,7 @@ export const seedBlogPostsW19: BlogPost[] = [
         title: "Menu na post: piątek bez mięsa w DE",
         slug: "menu-post",
         excerpt:
-          "Post w Niemczech spokojnie: śledź, jasna zupa, warzywa, bez sześciu tygodni głodu i bez dogmatu.",
+          "W Niemczech często wystarczy piątek, żeby utrzymać post. Śledź, jasna zupa i warzywa sycą, bez sześciu tygodni głodu i bez kazań.",
         seoTitle: "Menu na post | Kuchnia piątkowa DE | Alemniam",
         seoDescription:
           "Post w Niemczech: śledź, ryba, zupa warzywna. Plan menu na piątki, dwujęzycznie, bez duplikatu przepisu.",
@@ -90,7 +90,7 @@ export const seedBlogPostsW19: BlogPost[] = [
         title: "Sylwester Speiseplan: Hering um Mitternacht",
         slug: "silvester-speiseplan",
         excerpt:
-          "Jahreswechsel ohne zweites Weihnachten: eine kalte Platte, optional Tartar, Zapiekanka in Chargen, Hygiene nach der Wigilia.",
+          "Zum Jahreswechsel reicht eine kalte Platte. Hering, optional Tartar und Zapiekanka in Chargen, mit Hygiene nach der Wigilia.",
         seoTitle: "Silvester Speiseplan | Hering Mitternacht | Alemniam",
         seoDescription:
           "Sylwester in Deutschland: Śledź, Salat, optional Tartar. Speiseplan für Mitternacht, bilingual, machbar.",
@@ -100,7 +100,7 @@ export const seedBlogPostsW19: BlogPost[] = [
         title: "Menu na sylwestra: śledź o północy",
         slug: "menu-sylwester",
         excerpt:
-          "Zmiana roku bez drugich Świąt: zimna półmiska, opcjonalnie tatar, zapiekanka porcjami, higiena po Wigilii.",
+          "Na zmianę roku wystarczy zimna półmiska. Śledź, opcjonalnie tatar i zapiekanka porcjami, z higieną po Wigilii.",
         seoTitle: "Menu na sylwestra | Śledź o północy | Alemniam",
         seoDescription:
           "Sylwester w Niemczech: śledź, sałatka, opcjonalnie tatar. Plan menu na północ, dwujęzycznie, wykonalnie.",
@@ -138,7 +138,7 @@ export const seedBlogPostsW19: BlogPost[] = [
         title: "Kluski-Familie: Kopytka, śląskie, Leniwe, Pyzy",
         slug: "kluski-familie",
         excerpt:
-          "Welche Kluski auf den Teller gehören: Kopytka, schlesische Mulde, Fallnudeln, Leniwe, Pyzy. Namen, Teig, Alltag in DE.",
+          "Kopytka, schlesische Kluski, Fallnudeln, Leniwe und Pyzy sind verschiedene Gerichte. Der Text ordnet Namen, Teig und Alltag in Deutschland.",
         seoTitle: "Kluski Familie | Kopytka und Leniwe | Alemniam",
         seoDescription:
           "Kluski unterscheiden: Kopytka, śląskie, kładzione, Leniwe, Pyzy. Lexikon neben den Rezepten, bilingual, für Küchen in DE.",
@@ -148,7 +148,7 @@ export const seedBlogPostsW19: BlogPost[] = [
         title: "Rodzina klusek: kopytka, śląskie, leniwe, pyzy",
         slug: "rodzina-klusek",
         excerpt:
-          "Które kluski na talerz: kopytka, dziurka śląska, kładzione, leniwe, pyzy. Nazwy, ciasto, codzienność w DE.",
+          "Kopytka, kluski śląskie, kładzione, leniwe i pyzy to różne dania. Tekst porządkuje nazwy, ciasto i codzienność w Niemczech.",
         seoTitle: "Rodzina klusek | Kopytka i leniwe | Alemniam",
         seoDescription:
           "Kluski: kopytka, śląskie, kładzione, leniwe, pyzy. Leksykon obok przepisów, dwujęzycznie, dla kuchni w DE.",
@@ -184,7 +184,7 @@ export const seedBlogPostsW19: BlogPost[] = [
         title: "Hering in Deutschland: Śledź, Öl, Sahne, Salat",
         slug: "hering-deutschland",
         excerpt:
-          "Öl, Sahne oder Salat: welcher Śledź zur Wigilia, zum Freitag und zu Sylwester gehört, und woran gute Filets zu erkennen sind.",
+          "Öl, Sahne und Salat sind drei Gerichte. Der Beitrag sagt, welcher Śledź zur Wigilia, zum Freitag und zu Sylwester passt, und woran gute Filets zu erkennen sind.",
         seoTitle: "Hering kaufen DE | Śledź Guide | Alemniam",
         seoDescription:
           "Śledź in Deutschland: Öl, Sahne, Salat, Matjes. Lexikon für Wigilia, Post und Sylwester, bilingual, ohne Rezeptduplikat.",
@@ -194,7 +194,7 @@ export const seedBlogPostsW19: BlogPost[] = [
         title: "Śledź w Niemczech: olej, śmietana, sałatka",
         slug: "sledz-w-niemczech",
         excerpt:
-          "Olej, śmietana albo sałatka: który śledź na Wigilię, piątek i sylwestra, i po czym poznać dobre filety.",
+          "Olej, śmietana i sałatka to trzy dania. Tekst mówi, który śledź pasuje na Wigilię, piątek i sylwestra, i po czym poznać dobre filety.",
         seoTitle: "Śledź w Niemczech | Przewodnik | Alemniam",
         seoDescription:
           "Śledź w Niemczech: olej, śmietana, sałatka, matjas. Leksykon na Wigilię, post i sylwestra, dwujęzycznie, bez duplikatu przepisu.",
@@ -230,7 +230,7 @@ export const seedBlogPostsW19: BlogPost[] = [
         title: "Chłodnik: kalte Bete, kein Barszcz",
         slug: "chlodnik-deutschland",
         excerpt:
-          "Warum Chłodnik kalt und milchig bleibt: Kefir, Buttermilch, Gurke, Abgrenzung zu Barszcz, Botwinka und Szczawiowa.",
+          "Chłodnik bleibt kalt und milchig. Kefir oder Buttermilch, Gurke und Dill trennen ihn von heißem Barszcz, Botwinka und Szczawiowa.",
         seoTitle: "Chłodnik Guide | Kalte Rote Bete | Alemniam",
         seoDescription:
           "Chłodnik litewski in Deutschland: Kefir, Buttermilch, kein heißer Barszcz. Lexikon neben dem Rezept, bilingual.",
@@ -240,7 +240,7 @@ export const seedBlogPostsW19: BlogPost[] = [
         title: "Chłodnik: zimny burak, nie barszcz",
         slug: "chlodnik-w-niemczech",
         excerpt:
-          "Dlaczego chłodnik zostaje zimny i mleczny: kefir, maślanka, ogórek, różnica wobec barszczu, botwinki i szczawiowej.",
+          "Chłodnik zostaje zimny i mleczny. Kefir albo maślanka, ogórek i koperek odróżniają go od gorącego barszczu, botwinki i szczawiowej.",
         seoTitle: "Chłodnik | Zimny burak | Alemniam",
         seoDescription:
           "Chłodnik litewski w Niemczech: kefir, maślanka, nie gorący barszcz. Leksykon obok przepisu, dwujęzycznie.",

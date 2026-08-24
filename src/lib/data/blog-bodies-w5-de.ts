@@ -104,11 +104,11 @@ Reste gehören zur Kultur: gut beschriften, kühl stellen, am nächsten Tag bewu
 `;
 
 export const bodyFasolkaGuideDe = `
-Fasolka po bretońsku in Deutschland ist selten ein Festtagsbeweis. Es ist ein Topf zwischen Schicht, Sonntag und dem Wunsch, dass etwas Warmes wartet, wenn alle nach Hause kommen. Der Name klingt französisch. Der Brauch meint polnische Hausmannskost: weiße Bohnen, Tomate, oft Kiełbasa, Lorbeer, Majoran. Wer kommt, wer isst Wurst, wer bleibt vegetarisch, und wie viel Zeit der Topf wirklich braucht, entscheidet den Abend mehr als das Etikett auf der Dose.
+Fasolka po bretońsku in Deutschland ist selten ein Festtagsbeweis. Es ist ein Topf zwischen Schicht, Sonntag und dem Wunsch, dass etwas Warmes wartet, wenn alle nach Hause kommen. Der Name klingt französisch. In der Küche ist es polnische Hausmannskost: weiße Bohnen, Tomate, oft Kiełbasa, Lorbeer, Majoran. Wer kommt, wer isst Wurst, wer bleibt vegetarisch, und wie viel Zeit der Topf wirklich braucht, entscheidet den Abend mehr als das Etikett auf der Dose.
 
 Dieser Artikel ist der Guide, nicht das Rezeptbuch. Mengen, Einweichzeiten und die konkrete Schrittfolge stehen im Rezept [Fasolka po bretońsku](/de/rezepte/fasolka-po-bretonsku). Hier ordnen wir Einkauf in DE, den Unterschied zu Bigos und Gulasz, Würzen und Reste. Orientierung zu Hülsenfrüchten, Wurst und Aufwärmen: [bzfe.de](https://www.bzfe.de) und [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
 
-Historisch ist die Tomaten-Bohnen-Linie Haushalt, kein Restaurantteller. Langer Topf, klare Würze, wenig Drama. In der Diaspora ersetzen wir den Beweisdruck durch einen ruhigen Plan. Ein Topf, der wirklich fertig wird und am nächsten Tag runder schmeckt, schlägt drei Experimente am hungrigen Abend.
+Historisch ist die Tomaten-Bohnen-Linie Haushalt, kein Restaurantteller. Langer Topf, klare Würze, wenig Drama. Ein ruhiger Kochplan trägt mehr als der Wunsch, alles auf einmal zu zeigen. Ein Topf, der wirklich fertig wird und am nächsten Tag runder schmeckt, schlägt drei Experimente am hungrigen Abend.
 
 ![Bohnen aus der polnischen Küche, vorbereitet für einen ruhigen Schmortopf](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-fasolka-szparagowa/b77438bf-1db3-4f2b-98d9-95076e60db03.webp "Bohnen brauchen Zeit und klare Würze, unabhängig von der Sorte.")
 
@@ -200,9 +200,9 @@ Nein. Ein schwerer Topf mit Deckel reicht. Der Dutch Oven hilft bei Hitze und An
 
 Kochschritte und Mengen: [Fasolka-Rezept](/de/rezepte/fasolka-po-bretonsku). Hier Einkauf, Würze, Reste und der Unterschied zu benachbarten Töpfen.
 
-## Ohne Scham, mit Platz
+## Wenn der Tisch Platz hat
 
-Bohnen aus der Dose, Kaufwurst und ein ganz normaler Topf sind in der Diaspora in Ordnung. Heldentum mit Einweichen nach der Schicht ist kein Gewinn an Brauch. Vorher die Bohnenlinie wählen, Majoran ernst nehmen, den Topf am Vortag führen. Fasolka in Deutschland wird wiederholbar, wenn sie das darf.
+Bohnen aus der Dose, Kaufwurst und ein ganz normaler Topf sind hier völlig in Ordnung. Bohnen nach der Schicht einweichen überfordert den Abend. Vorher die Bohnenlinie wählen, Majoran ernst nehmen, den Topf am Vortag führen. Fasolka in Deutschland wird wiederholbar, wenn sie das darf.
 `;
 
 export const bodyMajeranekDe = `

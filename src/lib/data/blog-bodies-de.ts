@@ -154,7 +154,7 @@ Type 405 ergibt oft einen feineren, etwas zarteren Teig; Type 550 ist etwas krä
 
 
 
-![Pierogi auf dem Blech, bereit zum Kochen oder Einfrieren](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-pierogi/ffa4f850-6746-4b55-8710-b19e03abf532.webp "Chargen schlagen Heldentum. Roh einfrieren, später kochen.")
+![Pierogi auf dem Blech, bereit zum Kochen oder Einfrieren](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-pierogi/ffa4f850-6746-4b55-8710-b19e03abf532.webp "Kleine Chargen schlagen eine Mammutsession. Roh einfrieren, später kochen.")
 
 ## Kneten: Zeit statt Kraft
 
@@ -400,7 +400,7 @@ Zu nass = matschige Füllung, weicher Teig, Platzer. Zu fett und glatt (wie manc
 
 
 
-![Pierogi auf dem Blech, bereit zum Kochen oder Einfrieren](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-pierogi/ffa4f850-6746-4b55-8710-b19e03abf532.webp "Chargen schlagen Heldentum. Roh einfrieren, später kochen.")
+![Pierogi auf dem Blech, bereit zum Kochen oder Einfrieren](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-pierogi/ffa4f850-6746-4b55-8710-b19e03abf532.webp "Kleine Chargen schlagen eine Mammutsession. Roh einfrieren, später kochen.")
 
 ## Quarktypen im deutschen Regal
 
@@ -517,11 +517,11 @@ Twaróg geklärt, Teig nach [Pierogi-Teig](/de/blog/pierogi-teig), Variante [Pie
 `;
 
 export const bodyWigiliaDe = `
-Wigilia in Deutschland ist selten eine Kopie des Tisches, an dem wir aufgewachsen sind. Es ist ein Heiligabend zwischen Schichtende, zugefahrenen Autobahnen, einem Polenladen, der um vier schließt, und dem Wunsch, dass um acht noch jemand lächelt. Der Name meint den Vorabend von Weihnachten. Der Brauch meint mehr als zwölf Schüsseln: Wer kommt, wer isst Fisch, wer bleibt bei Kraut und Pilzen, wer hat am 23. noch Arbeit, und wie viel Platz im Freezer bleibt nach dem Einkauf.
+Wigilia in Deutschland ist selten eine Kopie des Tisches, an dem wir aufgewachsen sind. Es ist ein Heiligabend zwischen Schichtende, zugefahrenen Autobahnen, einem Polenladen, der um vier schließt, und dem Wunsch, dass um acht noch jemand lächelt. Der Kalender nennt ihn den Vorabend von Weihnachten. Am Tisch zählen mehr als zwölf Schüsseln: Wer kommt, wer isst Fisch, wer bleibt bei Kraut und Pilzen, wer hat am 23. noch Arbeit, und wie viel Platz im Freezer bleibt nach dem Einkauf.
 
 Dieser Artikel ist der Speiseplan, nicht das Rezeptbuch. Mengen, Teigruhe und Garzeiten stehen in den einzelnen Rezepten. Hier ordnen wir, was zusammengehört, was sich vorbereiten lässt und wo Familien in der Diaspora bewusst kürzen, ohne den Abend zu entwerten. Orientierung zu Hygiene und Kühlkette: [bzfe.de](https://www.bzfe.de) und [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
 
-Historisch trägt der polnische Heiligabend oft Fastenlinie, Fülle und Wiederholung. Zwölf Speisen erinnern an den Jahreskreis. In der Praxis zählen Gastfreundschaft und Gerichte, die wirklich fertig werden. In der Diaspora ersetzen wir den Beweisdruck durch einen ruhigen Plan: Barszcz, Kraut-Pilz-Pierogi, eine Fischlinie, Kompot, etwas Süßes. Lieber acht sorgfältige Teller als zwölf gestresste.
+Historisch trägt der polnische Heiligabend oft Fastenlinie, Fülle und Wiederholung. Zwölf Speisen erinnern an den Jahreskreis. In der Praxis zählen Gastfreundschaft und Gerichte, die wirklich fertig werden. Ein ruhiger Kochplan trägt den Abend: Barszcz, Kraut-Pilz-Pierogi, eine Fischlinie, Kompot, etwas Süßes. Lieber acht sorgfältige Teller als zwölf gestresste.
 
 ![Wigilia-Tisch mit klarem Barszcz, Pierogi und Kompot](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-wigilia/46b77164-aa4d-4385-9a9f-bd3cdb1db1f9.webp "Weniger Gerichte, die wirklich fertig werden, tragen den Abend.")
 
@@ -557,7 +557,7 @@ Wer [Żurek](/de/rezepte/zurek) familiär an Weihnachten bindet, darf das. Es is
 
 Pierogi roh einfrieren, am 24. direkt kochen. So bleibt der Nachmittag frei für Tisch, Kompot und Ruhe. Die Füllung braucht ausgedrückte Kapusta und intensiv geschmorte Pilze. Nasse Füllung weicht den Teig auf und klebt im Freezer.
 
-Freezer ist Vorbereitung, keine Minderqualität. Beschriften, stapeln, Kochreihenfolge notieren. Nicht alles einfrieren, was Sahne oder zarte Textur braucht. Für größere Familien zwei Bleche, nicht eine Mammutsession um Mitternacht. Chargen schlagen Heldentum.
+Freezer ist Vorbereitung, keine Minderqualität. Beschriften, stapeln, Kochreihenfolge notieren. Nicht alles einfrieren, was Sahne oder zarte Textur braucht. Für größere Familien zwei Bleche, nicht eine Mammutsession um Mitternacht. Kleine Chargen schlagen eine Mammutsession.
 
 ## Fisch, klar benannt
 
@@ -637,8 +637,8 @@ Schnell kühlen, zeitnah essen, gründlich erhitzen wo nötig. Mayonnaise-Salate
 
 Sprechen, priorisieren, aus jeder Linie höchstens ein Extra. Moderne Tische in Deutschland dürfen gemischt sichtbar sein. Niemand muss zwei vollständige Menüs kochen, um loyal zu sein.
 
-## Ohne Scham, mit Platz
+## Wenn der Tisch Platz hat
 
-Fertig-Uszka, gekaufter Hering und ein Kuchen aus dem Polenladen sind in Ordnung, wenn der Tisch ruhig bleibt. Heldentum, das alle erschöpft, ist kein Gewinn an Brauch. Vorher den Kühlschrank leeren, den Freezer für Vorbereitetes nutzen, den Zeitplan rückwärts lesen. Wigilia in Deutschland gelingt mit Timeline, Maß und Menschen am Tisch, nicht mit Perfektionsdruck.
+Fertig-Uszka, gekaufter Hering und ein Kuchen aus dem Polenladen sind in Ordnung, wenn der Tisch ruhig bleibt. Ein Tag, der alle erschöpft, hilft dem Tisch nicht. Vorher den Kühlschrank leeren, den Freezer für Vorbereitetes nutzen, den Zeitplan rückwärts lesen. Wigilia in Deutschland gelingt mit Timeline, Maß und Menschen am Tisch, nicht mit Perfektionsdruck.
 `;
 

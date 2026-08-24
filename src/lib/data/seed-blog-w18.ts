@@ -44,7 +44,7 @@ export const seedBlogPostsW18: BlogPost[] = [
         title: "Polnisch grillen in DE: Kiełbasa, Oscypek, Beilagen",
         slug: "polnisch-grillen",
         excerpt:
-          "Grillplan für den Balkon und den Garten: welche Wurst hält, wie Oscypek heißt, welche Beilage trägt, ohne Show und ohne Chaos.",
+          "Auf Balkon und im Garten reicht eine gute Kiełbasa. Dazu kommen ehrlich benannter Oscypek und eine kühle, saure Beilage, ohne Show und ohne Chaos.",
         seoTitle: "Polnisch grillen | Kiełbasa und Oscypek | Alemniam",
         seoDescription:
           "Polnisch grillen in Deutschland: Kiełbasa, Oscypek, Surówka, Kiszone. Speiseplan für Balkon und Garten, bilingual, ohne Rezeptduplikat.",
@@ -54,7 +54,7 @@ export const seedBlogPostsW18: BlogPost[] = [
         title: "Grill po polsku w DE: kiełbasa, oscypek, dodatki",
         slug: "grill-po-polsku",
         excerpt:
-          "Plan grilla na balkon i ogród: która kiełbasa trzyma, jak nazywać oscypek, który dodatek niesie stół, bez show i bez chaosu.",
+          "Na balkonie i w ogrodzie wystarczy dobra kiełbasa. Obok stoi uczciwie nazwany oscypek i jeden chłodny, kwaśny dodatek, bez pokazu i bez chaosu.",
         seoTitle: "Grill po polsku | Kiełbasa i oscypek | Alemniam",
         seoDescription:
           "Grill po polsku w Niemczech: kiełbasa, oscypek, surówka, kiszone. Plan menu na balkon i ogród, dwujęzycznie, bez duplikatu przepisu.",
@@ -92,7 +92,7 @@ export const seedBlogPostsW18: BlogPost[] = [
         title: "Imieniny Speiseplan: Kaffee, ein Kuchen, etwas Herzhaftes",
         slug: "imieniny-speiseplan",
         excerpt:
-          "Namenstag in Deutschland ruhig halten: ein Kuchen, eine herzhafte Linie, Zeitplan und gemischte Familien, ohne Geburtstags-Kopie.",
+          "Am Namenstag in Deutschland reichen Kaffee, ein guter Kuchen und etwas Herzhaftes. Der Tag bleibt kleiner als ein Geburtstag und passt in eine Wohnung nach der Arbeit.",
         seoTitle: "Imieniny Speiseplan | Namenstag in DE | Alemniam",
         seoDescription:
           "Imieniny Speiseplan für Deutschland: Sernik oder Szarlotka, Pasztet, Kaffee. Machbar, bilingual, ohne Eventstress.",
@@ -102,7 +102,7 @@ export const seedBlogPostsW18: BlogPost[] = [
         title: "Menu na imieniny: kawa, jedno ciasto, coś słonego",
         slug: "menu-imieniny",
         excerpt:
-          "Imieniny w Niemczech spokojnie: jedno ciasto, jedna linia słona, harmonogram i mieszane rodziny, bez kopii urodzin.",
+          "Na imieniny w Niemczech wystarczą kawa, jedno dobre ciasto i coś na słono. Dzień zostaje mniejszy niż urodziny i mieści się w mieszkaniu po pracy.",
         seoTitle: "Menu na imieniny | Imieniny w DE | Alemniam",
         seoDescription:
           "Menu na imieniny w Niemczech: sernik albo szarlotka, pasztet, kawa. Wykonalne, dwujęzycznie, bez stresu wydarzenia.",
@@ -137,7 +137,7 @@ export const seedBlogPostsW18: BlogPost[] = [
         title: "Mohn in Deutschland: kaufen, mahlen, einsetzen",
         slug: "mohn-deutschland",
         excerpt:
-          "Blaumohn, ganz oder gemahlen, Polenladen oder Supermarkt: was für Makowiec, Makaron z makiem und Kutia trägt, und woran frische Ware zu erkennen ist.",
+          "Für Makowiec, Makaron z makiem und Kutia brauchst du frischen Blaumohn, ganz oder gemahlen. Im Polenladen oder im Supermarkt entscheiden Geruch und Datum, nicht das Etikett allein.",
         seoTitle: "Mohn kaufen DE | Makowiec und Kutia | Alemniam",
         seoDescription:
           "Mohn in Deutschland kaufen und einsetzen: ganz oder gemahlen, Frische, Lagerung, Makowiec, Kutia. Praxisnah, bilingual, ohne Rezeptduplikat.",
@@ -147,7 +147,7 @@ export const seedBlogPostsW18: BlogPost[] = [
         title: "Mak w Niemczech: kupić, zmielić, użyć",
         slug: "mak-w-niemczech",
         excerpt:
-          "Mak niebieski, cały albo mielony, sklep polski albo supermarket: co niesie makowiec, makaron z makiem i kutię, i po czym poznać świeży produkt.",
+          "Do makowca, makaronu z makiem i kutii potrzebujesz świeżego maku niebieskiego, całego albo mielonego. W sklepie polskim albo w supermarkecie decydują zapach i data, nie sama etykieta.",
         seoTitle: "Mak w Niemczech | Makowiec i kutia | Alemniam",
         seoDescription:
           "Mak w Niemczech: cały albo mielony, świeżość, przechowywanie, makowiec, kutia. Praktycznie, dwujęzycznie, bez duplikatu przepisu.",
@@ -231,7 +231,7 @@ export const seedBlogPostsW18: BlogPost[] = [
         title: "Kommunion Speiseplan: ruhiges Buffet in DE",
         slug: "kommunion-speiseplan",
         excerpt:
-          "Erstkommunion ohne Hotelstress: kalte Platte, eine warme Linie, ein Kuchen, Hygiene und Arbeitsteilung für den Familientisch in Deutschland.",
+          "Nach der Kommunion in Deutschland hält ein ruhiges, kaltes Buffet den Tag besser als ein warmes Menü. Pastete, Eier, Salat, ein Kuchen und geteilte Arbeit halten den Familientisch freundlich.",
         seoTitle: "Kommunion Speiseplan | Buffet in DE | Alemniam",
         seoDescription:
           "Kommunion Buffet in Deutschland: Pasztet, Eier, Salat, ein Kuchen. Speiseplan für gemischte Familien, bilingual, ohne Menümarathon.",
@@ -241,7 +241,7 @@ export const seedBlogPostsW18: BlogPost[] = [
         title: "Menu na komunię: spokojny bufet w DE",
         slug: "menu-komunia",
         excerpt:
-          "Komunia bez hotelowego stresu: zimna półmiska, jedna linia ciepła, jedno ciasto, higiena i podział pracy przy stole rodzinnym w Niemczech.",
+          "Po komunii w Niemczech spokojny, zimny bufet trzyma dzień lepiej niż ciepłe menu. Pasztet, jajka, sałatka, jedno ciasto i podział pracy utrzymują stół rodzinny przyjaznym.",
         seoTitle: "Menu na komunię | Bufet w DE | Alemniam",
         seoDescription:
           "Bufet komunijny w Niemczech: pasztet, jajka, sałatka, jedno ciasto. Plan menu dla mieszanych rodzin, dwujęzycznie, bez maratonu dań.",

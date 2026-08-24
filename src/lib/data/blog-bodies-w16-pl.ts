@@ -1,6 +1,6 @@
 /** Wave 16 — Diaspora cooking mistakes (PL). Silo-safe: cross-dish tactics, not a cook guide. */
 export const bodyFehlerDiasporaPl = `
-Gotowanie po polsku w Niemczech rzadko pada przez brak chęci. Pada częściej przez te same wzorce: za mocny ogień na małej patelni, mokre nadzienie na wąskim blacie, zamiennik, który ściera charakter, i niedziela, która o jedenastej wciąż nie ma środka. Nazwa tego tekstu oznacza błędy. Codzienność oznacza więcej niż listę: zmianę, REWE za rogiem, sklep polski tylko w sobotę, dzieci, które rosną w Niemczech, i gości, którzy mierzą danie nazwą z urlopu.
+Gotowanie po polsku w Niemczech rzadko pada przez brak chęci. Pada częściej przez te same wzorce: za mocny ogień na małej patelni, mokre nadzienie na wąskim blacie, zamiennik, który ściera charakter, i niedziela, która o jedenastej wciąż nie ma środka. Ten tekst dotyczy błędów. Na co dzień liczy się więcej niż lista: zmianę, REWE za rogiem, sklep polski tylko w sobotę, dzieci, które rosną w Niemczech, i gości, którzy mierzą danie nazwą z urlopu.
 
 Ten artykuł jest mapą wzorców, nie książką przepisów. Ilości, czasy pieczenia i konkretna kolejność kroków są na stronach przepisów. Tutaj porządkujemy, które błędy wracają ponad daniami i jak ominąć je w planie, zanim garnek stanie na płycie. Orientacja w higienie i łańcuchu chłodniczym: [bzfe.de](https://www.bzfe.de) oraz [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
 
@@ -98,7 +98,7 @@ Jeden środek z zamrażarki albo z wczoraj, jeden świeży kwas, chleb. Kasza r�
 
 Nie. Wystarczy jedno zdanie tłumaczenia. Żurek, surówka, ćwikła, pierniczki: nazwa, czym jest, czym nie jest. To chroni przed fałszywym oczekiwaniem i przed impulsem, by stawiać obok drugie, niemieckie menu. Tłumaczenie bije sprawdzanie.
 
-## Bez wstydu, z planem
+## Gdy plan zostaje mniejszy
 
-Kupiony chrzan, kasza z Kaufland i niedziela z jednym garnkiem są w diasporze w porządku. Bohaterstwo, które wszystkich męczy, nie jest zyskiem kuchni. Wcześniej opróżniamy lodówkę, obniżamy ogień, nazywamy zamiennik. Błędów jest mniej, gdy plan jest mniejszy niż ambicja. Talerz może smakować po polsku i mimo to zmieścić się w niemiecki tydzień.
+Kupiony chrzan, kasza z Kaufland i niedziela z jednym garnkiem są tu zupełnie w porządku. Dzień, który wszystkich męczy, nie pomaga kuchni. Wcześniej opróżniamy lodówkę, obniżamy ogień, nazywamy zamiennik. Błędów jest mniej, gdy plan jest mniejszy niż ambicja. Talerz może smakować po polsku i mimo to zmieścić się w niemiecki tydzień.
 `;

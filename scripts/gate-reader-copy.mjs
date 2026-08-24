@@ -69,6 +69,19 @@ const bannedPhrases = [
   /\bHOLD\b/,
   /cook-URL/i,
   /osobnym cook/i,
+  /** Telegram lexicon template — write full cooking sentences instead */
+  /Der Name meint/i,
+  /Der Brauch meint/i,
+  /Zwyczaj znaczy/i,
+  /Beweisdruck/i,
+  /Heldentum/i,
+  /## Ohne Scham/i,
+  /## Bez wstydu/i,
+  /in der Diaspora in Ordnung/i,
+  /są w diasporze w porządku/i,
+  /Bohaterstwo/i,
+  /nie jest zyskiem zwyczaju/i,
+  /kein Gewinn an Brauch/i,
 ];
 
 /**

@@ -3,11 +3,11 @@
  */
 
 export const bodyGolabkiGuideDe = `
-Gołąbki sind für viele von uns in Deutschland mehr als ein Kohlgericht. Sie sind Sonntagsessen, Familientreffen, das Gericht, das nach dem ersten Biss nach Hause schmeckt, und gleichzeitig das Gericht, das eine ganze Woche tragen kann, wenn der Topf groß genug war. Der Name meint Roulade, der Brauch meint aber mehr: wer rollt, wer die Soße führt, ob Tomate oder Brühe den Topf färbt, und wie viel Kühlschrank nach dem Einkauf übrig bleibt.
+Gołąbki sind für viele von uns in Deutschland mehr als ein Kohlgericht. Sie sind Sonntagsessen, Familientreffen, das Gericht, das nach dem ersten Biss nach Hause schmeckt, und gleichzeitig das Gericht, das eine ganze Woche tragen kann, wenn der Topf groß genug war. Roulade ist nur das Wort. Am Tisch zählt, wer rollt, wer die Soße führt, ob Tomate oder Brühe den Topf färbt und wie viel Kühlschrank nach dem Einkauf übrig bleibt.
 
 Dieser Artikel ist der Überblick, nicht das Kochbuch. Mengen, Blanchierzeiten und die Schrittfolge stehen im [Gołąbki-Rezept](/de/rezepte/golabki). Hier ordnen wir den Platz am Tisch, die Sauce-Entscheidung, Varianten und das Batch-Kochen, ohne Schritte zu duplizieren. Orientierung zu Fleisch, Reis und Kühlkette: [bzfe.de](https://www.bzfe.de) und [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
 
-Historisch sitzen Gołąbki in Polen neben [Rosół](/de/rezepte/rosol) und [Bigos](/de/rezepte/bigos), nicht als Straßenessen und nicht als schnelle Pfanne. Sie brauchen Vorlauf, weiche Blätter und eine Soße, die die Rollen wirklich bedeckt. In der Diaspora ersetzen wir den Beweisdruck durch einen ruhigen Plan: ein Topf, der fertig wird, statt drei Füllungen, die niemand schmort. Deutsche Kohlroulade ist verwandt und trotzdem ein anderer Teller. Oft grober, oft weniger Reis, oft eine andere Soße. Wer beides kennt, muss sie nicht angleichen.
+Historisch sitzen Gołąbki in Polen neben [Rosół](/de/rezepte/rosol) und [Bigos](/de/rezepte/bigos), nicht als Straßenessen und nicht als schnelle Pfanne. Sie brauchen Vorlauf, weiche Blätter und eine Soße, die die Rollen wirklich bedeckt. Ein ruhiger Kochplan trägt den Topf: ein Topf, der fertig wird, statt drei Füllungen, die niemand schmort. Deutsche Kohlroulade ist verwandt und trotzdem ein anderer Teller. Oft grober, oft weniger Reis, oft eine andere Soße. Wer beides kennt, muss sie nicht angleichen.
 
 ![Gołąbki im Topf mit Soße](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-golabki/56ae4f6d-22d3-4bcd-9886-e71c4cba3244.webp "Rollen bedeckt halten: Soße trägt, der Kohl bleibt zart.")
 
@@ -53,7 +53,7 @@ Aufwärmen sanft, mit genug Soße, nicht in der Mikrowelle bis der Kohl gummiart
 
 Der Topf selbst darf schwer sein. Ein [Dutch Oven](/de/blog/dutch-oven-kaufberatung) hilft, weil er Hitze hält und die Rollen nicht anbrennen, wenn ihr unten eine Lage Blatt oder Soße legt. Pflicht ist er nicht. Ein hoher, schwerer Topf mit Deckel tut es. Dünnes Blech auf scharfer Flamme ist der schnellste Weg zu angebrannten Unterseiten.
 
-Arbeit teilen trägt mehr als Heldentum. Eine Person blanchiert und legt die Blätter, eine mischt die Füllung, eine rollt, eine führt die Soße. Kinder können zählen und Schalen stellen. Am heißen Wasser und am schweren Topf bleiben Erwachsene. In der Diaspora ist das die Form, in der der Sonntag freundlich bleibt.
+Arbeit teilen trägt mehr als alles allein zu tragen. Eine Person blanchiert und legt die Blätter, eine mischt die Füllung, eine rollt, eine führt die Soße. Kinder können zählen und Schalen stellen. Am heißen Wasser und am schweren Topf bleiben Erwachsene. In der Diaspora ist das die Form, in der der Sonntag freundlich bleibt.
 
 ![Geschmortes Kraut als Nachbar am Tisch](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-kapusta-zasmazana/c654bc3b-88e7-4165-aec5-c6ab3c83a573.webp "Kohl braucht Zeit und Flüssigkeit, ob als Rolle oder als Beilage.")
 
@@ -101,15 +101,15 @@ Ein schwerer Topf mit Deckel. Der [Dutch Oven](/de/blog/dutch-oven-kaufberatung)
 
 ## Ein Topf, der die Woche hält
 
-Fertige Rollen mit genug Soße schlagen drei halb gerollte Experimente. Kauf-Tomate, Supermarkt-Kohl und ein Rest Rosół sind in Ordnung, wenn der Topf ruhig bleibt. Heldentum, das alle erschöpft, ist kein Gewinn an Brauch. Vorher den Kühlschrank leeren, Blätter stapelbar legen, den Freezer für den fertigen Topf nutzen. Logistik gehört zur Küche, nicht erst zur Nachsorge.
+Fertige Rollen mit genug Soße schlagen drei halb gerollte Experimente. Kauf-Tomate, Supermarkt-Kohl und ein Rest Rosół sind in Ordnung, wenn der Topf ruhig bleibt. Ein Tag, der alle erschöpft, hilft dem Tisch nicht. Vorher den Kühlschrank leeren, Blätter stapelbar legen, den Freezer für den fertigen Topf nutzen. Logistik gehört zur Küche, nicht erst zur Nachsorge.
 `;
 
 export const bodyNalesnikiGuideDe = `
-Naleśniki in Deutschland sind selten ein Festtagsprojekt. Sie sind der ruhige Alltag zwischen Schicht, Kita und dem Wunsch, dass etwas Vertrautes auf den Teller kommt, ohne dass die Küche zwei Stunden blockiert. Der Name meint dünne, flexible Pfannkuchen. Der Brauch meint mehr als eine süße Rolle: Wer isst Twaróg, wer will Fleischreste vom Sonntag, wer bleibt vegetarisch, und wie viel Platz in der Pfanne bleibt nach der Arbeit.
+Naleśniki in Deutschland sind selten ein Festtagsprojekt. Sie sind der ruhige Alltag zwischen Schicht, Kita und dem Wunsch, dass etwas Vertrautes auf den Teller kommt, ohne dass die Küche zwei Stunden blockiert. Es sind dünne, flexible Pfannkuchen. Am Tisch zählt mehr als eine süße Rolle: Wer isst Twaróg, wer will Fleischreste vom Sonntag, wer bleibt vegetarisch, und wie viel Platz in der Pfanne bleibt nach der Arbeit.
 
 Dieser Artikel ist der Guide, nicht das Rezeptbuch. Mengen, Ruhezeiten und die konkrete Schrittfolge stehen in den einzelnen Rezepten. Hier ordnen wir, was Naleśniki von deutschen Eierkuchen trennt, welche Füllung wann trägt und wo Haushalte in der Diaspora bewusst kürzen, ohne den Teller zu entwerten. Orientierung zu Milchprodukten und Hygiene: [bzfe.de](https://www.bzfe.de) und [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
 
-Historisch sind Naleśniki Hausmannskost, kein Dessertzwang. Der Teig bleibt flüssig und elastisch, biegsam genug zum Rollen. Die Füllung führt, der Teig trägt. Dieselbe Logik kennt, wer [Pierogi Ruskie](/de/rezepte/pierogi/ruskie) macht: hier flach statt gefaltet. In der Diaspora ersetzen wir den Beweisdruck durch einen ruhigen Plan. Eine Füllungslinie, die wirklich fertig wird, schlägt drei Bleche, die alle unterschiedlich feucht sind.
+Historisch sind Naleśniki Hausmannskost, kein Dessertzwang. Der Teig bleibt flüssig und elastisch, biegsam genug zum Rollen. Die Füllung führt, der Teig trägt. Dieselbe Logik kennt, wer [Pierogi Ruskie](/de/rezepte/pierogi/ruskie) macht: hier flach statt gefaltet. Ein ruhiger Kochplan trägt mehr als der Wunsch, alles auf einmal zu zeigen. Eine Füllungslinie, die wirklich fertig wird, schlägt drei Bleche, die alle unterschiedlich feucht sind.
 
 ![Herzhaft gefüllte Naleśniki mit Fleisch, gerollt und in der Pfanne gebräunt](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-nalesniki-mieso/31658e07-9ebc-4f2d-8a29-aa07e5cb188f.webp "Eine Füllungslinie pro Pfanne: Fleisch bleibt herzhaft, Twaróg bleibt süß.")
 
@@ -203,9 +203,9 @@ Sie macht oft Gummi. Pfanne oder milder Ofen sind ruhiger. Ungefüllte Platten v
 
 Abseihen, nicht mit mehr Zucker kaschieren. Der [Twaróg Guide](/de/blog/twarog-deutschland) erklärt Einkauf und Konsistenz. Im Zweifel die Marmeladenlinie wählen.
 
-## Ohne Scham, mit Platz
+## Wenn der Tisch Platz hat
 
-Gekaufter Twaróg, Glas-Marmelade und eine normale Bratpfanne sind in der Diaspora in Ordnung. Heldentum mit drei Füllungen nach der Schicht ist kein Gewinn an Brauch. Vorher eine Linie wählen, den Teig ruhen lassen, die erste Platte der Kalibrierung gönnen. Der Teller bleibt freundlich, wenn er das darf.
+Gekaufter Twaróg, Glas-Marmelade und eine normale Bratpfanne sind hier völlig in Ordnung. Drei Füllungen nach der Schicht überfordern den Abend. Vorher eine Linie wählen, den Teig ruhen lassen, die erste Platte der Kalibrierung gönnen. Der Teller bleibt freundlich, wenn er das darf.
 
 Kochen startet auf den Rezepten: [Twaróg](/de/rezepte/nalesniki/twarog), [Fleisch](/de/rezepte/nalesniki/fleisch), [Spinat](/de/rezepte/nalesniki/szpinak) oder [Marmelade](/de/rezepte/nalesniki/dzem).
 `;

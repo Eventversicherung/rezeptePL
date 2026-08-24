@@ -136,11 +136,11 @@ Ja, im Kühlschrank, dann im Ofen oder in der Pfanne ohne Mikrowelle aufwärmen,
 `;
 
 export const bodyBarszczTechnikDe = `
-Barszcz czerwony in Deutschland ist selten nur eine rote Suppe. Für viele Häuser ist er der erste Gang an Wigilia, für andere der ruhige Sonntagsstarter, für wieder andere die Erinnerung an einen Teller, der klar sein musste, bevor jemand über Füllung sprach. Der Name meint Rote Bete, der Brauch meint aber mehr: ob der Wywar pflanzlich bleibt, ob Fleisch erlaubt ist, wie klein die Schale sein darf und ob Śmietana den Tisch rettet oder die Farbe zerstört.
+Barszcz czerwony in Deutschland ist selten nur eine rote Suppe. Für viele Häuser ist er der erste Gang an Wigilia, für andere der ruhige Sonntagsstarter, für wieder andere die Erinnerung an einen Teller, der klar sein musste, bevor jemand über Füllung sprach. Rote Bete ist der Kern. Am Tisch zählt, ob der Wywar pflanzlich bleibt, ob Fleisch erlaubt ist, wie klein die Schale sein darf und ob Śmietana den Tisch rettet oder die Farbe zerstört.
 
 Dieser Artikel ist die Technik neben dem Rezept, nicht die Kochliste. Mengen, Garzeiten und die genaue Reihenfolge stehen im [Barszcz-Rezept](/de/rezepte/barszcz-czerwony). Hier ordnen wir Klarheit, Einkauf in DE, Wigilia-Logik und das Aufwärmen, ohne Schritte zu duplizieren. Dieselbe Geduld mit dem Topf, eine andere Zutat: [Rosół-Technik](/de/blog/rosol-technik). Der Überblick über die Familie: [Polnische Suppen](/de/blog/polnische-suppen). Orientierung zu Hygiene und Kühlkette: [bzfe.de](https://www.bzfe.de) und [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
 
-Historisch ist klarer Barszcz jünger als der bloße Bete-Topf und gleichzeitig sichtbarer. An Heiligabend trägt er den Tisch, weil er sich wiederholen lässt: eine klare Schale, eine kleine Teigfüllung, kein Buffet. In der Diaspora ersetzen wir den Beweisdruck durch einen ruhigen Plan. Ein guter Wywar, der wirklich klar bleibt, schlägt drei trübe Töpfe mit zu vielen Beilagen.
+Historisch ist klarer Barszcz jünger als der bloße Bete-Topf und gleichzeitig sichtbarer. An Heiligabend trägt er den Tisch, weil er sich wiederholen lässt: eine klare Schale, eine kleine Teigfüllung, kein Buffet. Ein ruhiger Kochplan trägt mehr als der Wunsch, alles auf einmal zu zeigen. Ein guter Wywar, der wirklich klar bleibt, schlägt drei trübe Töpfe mit zu vielen Beilagen.
 
 ![Klare rubinrote Schale Barszcz](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-barszcz/efe9222b-f6b5-42df-a683-71394e5dbd21.webp "Klar seihen, nicht pürieren: Farbe und Ruhe tragen den Teller.")
 
@@ -222,9 +222,9 @@ Sanft, nicht kochend, ohne Śmietana und ohne Uszka im Topf. Teigfüllung separa
 
 Den Wywar trotzdem klar servieren. Brot, ein zweiter kleiner Teiggang später, oder gekaufte Uszka. Der erste Gang darf ehrlich klein bleiben. Mengen und Schritte für beides bleiben im [Barszcz-Rezept](/de/rezepte/barszcz-czerwony) und im [Uszka-Rezept](/de/rezepte/uszka).
 
-## Ohne Scham, mit klarer Schale
+## Wenn die Schale klar bleibt
 
-Kaufkonzentrat, fertige Uszka und ein kleiner Teller sind in Ordnung, wenn der Wywar ruhig bleibt. Heldentum, das alle erschöpft, ist kein Gewinn an Brauch. Vorher den Kühlschrank leeren, Schalen stapelbar planen, den Freezer für den seihten Ansatz nutzen. Logistik gehört zur Küche, nicht erst zur Nachsorge.
+Kaufkonzentrat, fertige Uszka und ein kleiner Teller sind in Ordnung, wenn der Wywar ruhig bleibt. Ein Tag, der alle erschöpft, hilft dem Tisch nicht. Vorher den Kühlschrank leeren, Schalen stapelbar planen, den Freezer für den seihten Ansatz nutzen. Logistik gehört zur Küche, nicht erst zur Nachsorge.
 `;
 
 export const bodyPlackiGuideDe = `
@@ -232,7 +232,7 @@ Placki ziemniaczane in Deutschland sind oft das erste polnische Gericht, das Kin
 
 Dieser Artikel ist der Überblick, nicht das Kochbuch. Mengen, Bindung und Bratzeiten stehen im [Placki-Rezept](/de/rezepte/placki/ziemniaczane). Hier ordnen wir, was Placki von deutschen Reibekuchen trennt, welche Kartoffel in DE trägt, welche Varianten wirklich eigene Gerichte sind und wo Haushalte in der Diaspora kürzen, ohne den Teller zu entwerten. Orientierung zu Fett, Pfanne und Hygiene: [bzfe.de](https://www.bzfe.de) und [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
 
-Historisch sind geriebene Kartoffeln in Mitteleuropa älter als der Name Placki. Was uns unterscheidet, ist der Tellerkontext. In Polen liegen sie oft neben kalter Śmietana, manchmal unter einem Schmortopf, selten unter Apfelmus. In Deutschland treffen sie auf Reibekuchen und regionale Speckvarianten. Die Technik ist verwandt, der Hausbrauch nicht. In der Diaspora ersetzen wir den Beweisdruck durch einen ruhigen Plan. Ein Blech guter Puffer schlägt drei halbweiche Stapel.
+Historisch sind geriebene Kartoffeln in Mitteleuropa älter als der Name Placki. Was uns unterscheidet, ist der Tellerkontext. In Polen liegen sie oft neben kalter Śmietana, manchmal unter einem Schmortopf, selten unter Apfelmus. In Deutschland treffen sie auf Reibekuchen und regionale Speckvarianten. Die Technik ist verwandt, der Hausbrauch nicht. Ein ruhiger Kochplan trägt mehr als der Wunsch, alles auf einmal zu zeigen. Ein Blech guter Puffer schlägt drei halbweiche Stapel.
 
 ![Goldbraune Zucchiniplacki in der Pfanne](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-placki-cukinia/4d34373d-0681-4667-876b-b237b1f0a48e.webp "Dünn, einzeln, sofort servieren: Placki leben von der Kruste.")
 
@@ -326,5 +326,5 @@ Eine Linie pro Gang. Zucchini, Käse und Apfel nicht in einer Pfanne mischen. Pl
 
 ## Weniger Stapel, mehr Kruste
 
-Fertige Puffer, die einzeln ankommen, schlagen eine Schüssel, die unter Folie weich wird. Kauf-Śmietana und Supermarktkartoffeln sind in Ordnung, wenn die Pfanne ruhig bleibt. Heldentum, das alle erschöpft, ist kein Gewinn an Brauch. Vorher den Kühlschrank leeren, ein Blech fürs Warmhalten bereitlegen, das Öl nicht sparen und nicht recyceln, bis es dunkel ist. Logistik gehört zur Küche, nicht erst zur Nachsorge.
+Fertige Puffer, die einzeln ankommen, schlagen eine Schüssel, die unter Folie weich wird. Kauf-Śmietana und Supermarktkartoffeln sind in Ordnung, wenn die Pfanne ruhig bleibt. Ein Tag, der alle erschöpft, hilft dem Tisch nicht. Vorher den Kühlschrank leeren, ein Blech fürs Warmhalten bereitlegen, das Öl nicht sparen und nicht recyceln, bis es dunkel ist. Logistik gehört zur Küche, nicht erst zur Nachsorge.
 `;

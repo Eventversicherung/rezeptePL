@@ -17,7 +17,7 @@ Beutel eignen sich für flaches Vor-Anfrieren auf dem Blech; danach überführen
 
 
 
-![Pierogi auf dem Blech, bereit zum Kochen oder Einfrieren](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-pierogi/ffa4f850-6746-4b55-8710-b19e03abf532.webp "Chargen schlagen Heldentum. Roh einfrieren, später kochen.")
+![Pierogi auf dem Blech, bereit zum Kochen oder Einfrieren](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-pierogi/ffa4f850-6746-4b55-8710-b19e03abf532.webp "Kleine Chargen schlagen eine Mammutsession. Roh einfrieren, später kochen.")
 
 ## Kriterien: Material, Dichtung, Stapelbarkeit
 

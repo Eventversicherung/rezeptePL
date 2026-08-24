@@ -3,11 +3,11 @@
  */
 
 export const bodyGolabkiGuidePl = `
-Gołąbki są dla wielu z nas w Niemczech czymś więcej niż daniem z kapusty. To obiad niedzielny, zjazd rodziny, danie, które po pierwszym kęsie smakuje jak dom, i jednocześnie danie, które może nieść cały tydzień, gdy garnek był dość duży. Nazwa oznacza zawiniętą rolkę, zwyczaj oznacza więcej: kto zwija, kto prowadzi sos, czy pomidor albo wywar barwi garnek i ile miejsca w lodówce zostaje po zakupach.
+Gołąbki są dla wielu z nas w Niemczech czymś więcej niż daniem z kapusty. To obiad niedzielny, zjazd rodziny, danie, które po pierwszym kęsie smakuje jak dom, i jednocześnie danie, które może nieść cały tydzień, gdy garnek był dość duży. Zawinięta rolka to tylko słowo. Przy stole liczy się, kto zwija, kto prowadzi sos, czy pomidor albo wywar barwi garnek i ile miejsca w lodówce zostaje po zakupach.
 
 Ten artykuł jest przeglądem, nie książką kucharską. Ilości, czasy blanszowania i kolejność kroków są w [przepisie na gołąbki](/pl/rezepte/golabki). Tutaj porządkujemy miejsce przy stole, decyzję o sosie, warianty i gotowanie na zapas, bez powielania kroków. Orientacja w mięsie, ryżu i łańcuchu chłodniczym: [bzfe.de](https://www.bzfe.de) oraz [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
 
-Historycznie gołąbki w Polsce siedzą obok [rosołu](/pl/rezepte/rosol) i [bigosu](/pl/rezepte/bigos), nie jako jedzenie uliczne i nie jako szybka patelnia. Potrzebują wyprzedzenia, miękkich liści i sosu, który naprawdę przykrywa rolki. W diasporze zamieniamy presję dowodu na spokojny plan: jeden garnek, który zostanie skończony, zamiast trzech farszy, których nikt nie dusi. Niemiecka Kohlroulade jest pokrewna i mimo to innym talerzem. Często grubsza, często z mniejszą ilością ryżu, często z innym sosem. Kto zna oba, nie musi ich zrównywać. Szerszy kontekst niedzieli: [obiad niedzielny](/pl/blog/obiad-niedzielny).
+Historycznie gołąbki w Polsce siedzą obok [rosołu](/pl/rezepte/rosol) i [bigosu](/pl/rezepte/bigos), nie jako jedzenie uliczne i nie jako szybka patelnia. Potrzebują wyprzedzenia, miękkich liści i sosu, który naprawdę przykrywa rolki. Spokojny plan gotowania niesie garnek: jeden garnek, który zostanie skończony, zamiast trzech farszy, których nikt nie dusi. Niemiecka Kohlroulade jest pokrewna i mimo to innym talerzem. Często grubsza, często z mniejszą ilością ryżu, często z innym sosem. Kto zna oba, nie musi ich zrównywać. Szerszy kontekst niedzieli: [obiad niedzielny](/pl/blog/obiad-niedzielny).
 
 ![Gołąbki w garnku z sosem](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-golabki/56ae4f6d-22d3-4bcd-9886-e71c4cba3244.webp "Rolki trzymamy przykryte: sos niesie, kapusta zostaje miękka.")
 
@@ -53,7 +53,7 @@ Podgrzewamy łagodnie, z dość sosu, nie w mikrofalówce aż kapusta zrobi się
 
 Sam garnek może być ciężki. [Garnek do duszenia](/pl/blog/garnek-do-duszenia) pomaga, bo trzyma ciepło i rolki nie przypalają się, gdy na dnie kładziemy warstwę liścia albo sosu. Nie jest obowiązkiem. Wysoki, ciężki garnek z pokrywką wystarczy. Cienka blacha na ostrym ogniu to najszybsza droga do przypalonego spodu.
 
-Podział pracy niesie więcej niż bohaterstwo. Jedna osoba blanszuje i kładzie liście, jedna miesza farsz, jedna zwija, jedna prowadzi sos. Dzieci mogą liczyć i stawiać miseczki. Przy gorącej wodzie i ciężkim garnku zostają dorośli. W diasporze to forma, w której niedziela zostaje przyjazna.
+Podział pracy niesie więcej niż dźwiganie wszystkiego samemu. Jedna osoba blanszuje i kładzie liście, jedna miesza farsz, jedna zwija, jedna prowadzi sos. Dzieci mogą liczyć i stawiać miseczki. Przy gorącej wodzie i ciężkim garnku zostają dorośli. W diasporze to forma, w której niedziela zostaje przyjazna.
 
 ![Duszona kapusta jako sąsiad przy stole](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-kapusta-zasmazana/c654bc3b-88e7-4165-aec5-c6ab3c83a573.webp "Kapusta potrzebuje czasu i płynu, czy jako rolka, czy jako dodatek.")
 
@@ -101,15 +101,15 @@ Ciężki garnek z pokrywką. [Garnek do duszenia](/pl/blog/garnek-do-duszenia) p
 
 ## Jeden garnek, który trzyma tydzień
 
-Gotowe rolki z dość sosu biją trzy niedokończone eksperymenty. Kupiony pomidor, kapusta z supermarketu i resztka rosołu są w porządku, gdy garnek zostaje spokojny. Bohaterstwo, które wszystkich męczy, nie jest zyskiem zwyczaju. Wcześniej opróżniamy lodówkę, liście kładziemy tak, by dało się je stawiać, zamrażarkę używamy do gotowego garnka. Logistyka należy do kuchni, nie dopiero do sprzątania.
+Gotowe rolki z dość sosu biją trzy niedokończone eksperymenty. Kupiony pomidor, kapusta z supermarketu i resztka rosołu są w porządku, gdy garnek zostaje spokojny. Dzień, który wszystkich męczy, nie pomaga stołowi. Wcześniej opróżniamy lodówkę, liście kładziemy tak, by dało się je stawiać, zamrażarkę używamy do gotowego garnka. Logistyka należy do kuchni, nie dopiero do sprzątania.
 `;
 
 export const bodyNalesnikiGuidePl = `
-Naleśniki w Niemczech rzadko są projektem świątecznym. To spokojna codzienność między zmianą, żłobkiem i życzeniem, żeby na talerzu pojawiło się coś znajomego, bez blokowania kuchni na dwie godziny. Nazwa oznacza cienkie, elastyczne placki. Zwyczaj oznacza więcej niż słodką rolkę: kto je twaróg, kto chce resztki mięsa z niedzieli, kto zostaje przy wersji bezmięsnej i ile miejsca na patelni zostaje po pracy.
+Naleśniki w Niemczech rzadko są projektem świątecznym. To spokojna codzienność między zmianą, żłobkiem i życzeniem, żeby na talerzu pojawiło się coś znajomego, bez blokowania kuchni na dwie godziny. To cienkie, elastyczne placki. Przy stole liczy się więcej niż słodka rolka: kto je twaróg, kto chce resztki mięsa z niedzieli, kto zostaje przy wersji bezmięsnej i ile miejsca na patelni zostaje po pracy.
 
 Ten artykuł jest przewodnikiem, nie książką przepisów. Ilości, czasy odpoczynku i konkretna kolejność kroków są w pojedynczych przepisach. Tutaj porządkujemy, co odróżnia naleśniki od niemieckich Eierkuchen, który farsz kiedy niesie i gdzie gospodarstwa w diasporze świadomie skracają, bez odbierania talerzowi sensu. Orientacja w nabiale i higienie: [bzfe.de](https://www.bzfe.de) oraz [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
 
-Historycznie naleśniki są kuchnią domową, nie obowiązkiem deseru. Ciasto zostaje płynne i elastyczne, na tyle giętkie, by je zwijać. Farsz prowadzi, ciasto niesie. Tę samą logikę zna, kto robi [pierogi ruskie](/pl/rezepte/pierogi/ruskie): tu płasko zamiast sklejania. W diasporze zamieniamy presję dowodu na spokojny plan. Jedna linia farszu, która naprawdę zostanie skończona, bije trzy blachy o różnej wilgotności.
+Historycznie naleśniki są kuchnią domową, nie obowiązkiem deseru. Ciasto zostaje płynne i elastyczne, na tyle giętkie, by je zwijać. Farsz prowadzi, ciasto niesie. Tę samą logikę zna, kto robi [pierogi ruskie](/pl/rezepte/pierogi/ruskie): tu płasko zamiast sklejania. Spokojny plan gotowania niesie więcej niż chęć pokazania wszystkiego naraz. Jedna linia farszu, która naprawdę zostanie skończona, bije trzy blachy o różnej wilgotności.
 
 ![Wytrawne naleśniki z mięsem, zwinięte i podsmażone na patelni](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-nalesniki-mieso/31658e07-9ebc-4f2d-8a29-aa07e5cb188f.webp "Jedna linia farszu na patelnię: mięso zostaje wytrawne, twaróg zostaje słodki.")
 
@@ -203,9 +203,9 @@ Często robi gumę. Patelnia albo łagodny piekarnik są spokojniejsze. Puste pl
 
 Odsączamy, nie maskujemy cukrem. [Twaróg w Niemczech](/pl/blog/twarog-w-niemczech) tłumaczy zakupy i konsystencję. W razie wątpliwości wybieramy linię dżemową.
 
-## Bez wstydu, z miejscem
+## Gdy stół ma miejsce
 
-Kupiony twaróg, dżem ze słoika i zwykła patelnia są w diasporze w porządku. Bohaterstwo z trzema farszami po zmianie nie jest zyskiem zwyczaju. Wcześniej wybieramy jedną linię, dajemy ciastu odpocząć, pierwszy placek oddajemy kalibracji. Talerz zostaje przyjazny, gdy mu na to pozwolimy.
+Kupiony twaróg, dżem ze słoika i zwykła patelnia są tu zupełnie w porządku. Trzy farsze po zmianie przeciążają wieczór. Wcześniej wybieramy jedną linię, dajemy ciastu odpocząć, pierwszy placek oddajemy kalibracji. Talerz zostaje przyjazny, gdy mu na to pozwolimy.
 
 Gotowanie zaczyna się w przepisach: [twaróg](/pl/rezepte/nalesniki/twarog), [mięso](/pl/rezepte/nalesniki/mieso), [szpinak](/pl/rezepte/nalesniki/szpinak) albo [dżem](/pl/rezepte/nalesniki/dzem).
 `;

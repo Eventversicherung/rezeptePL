@@ -130,11 +130,11 @@ W wielu domach tak, przed postem albo w drugi dzień świąt. Plan menu: [menu w
 `;
 
 export const bodyBarszczTechnikPl = `
-Barszcz czerwony w Niemczech rzadko jest tylko czerwoną zupą. Dla wielu domów to pierwsze danie Wigilii, dla innych spokojny start niedzieli, dla jeszcze innych pamięć talerza, który musiał być klarowny, zanim ktoś zaczął mówić o farszu. Nazwa oznacza buraka, zwyczaj oznacza więcej: czy wywar zostaje roślinny, czy mięso jest dozwolone, jak mała może być miseczka i czy śmietana ratuje stół, czy niszczy kolor.
+Barszcz czerwony w Niemczech rzadko jest tylko czerwoną zupą. Dla wielu domów to pierwsze danie Wigilii, dla innych spokojny start niedzieli, dla jeszcze innych pamięć talerza, który musiał być klarowny, zanim ktoś zaczął mówić o farszu. Burak jest rdzeniem. Przy stole liczy się, czy wywar zostaje roślinny, czy mięso jest dozwolone, jak mała może być miseczka i czy śmietana ratuje stół, czy niszczy kolor.
 
 Ten artykuł jest techniką obok przepisu, nie listą gotowania. Ilości, czasy i dokładna kolejność są w [przepisie na barszcz czerwony](/pl/rezepte/barszcz-czerwony). Tutaj porządkujemy klarowność, zakupy w DE, logikę wigilijną i podgrzewanie, bez powielania kroków. Ta sama cierpliwość przy garnku, inny składnik: [technika rosołu](/pl/blog/jak-ugotowac-rosol). Przegląd rodziny: [polskie zupy](/pl/blog/polskie-zupy). Orientacja w higienie i łańcuchu chłodniczym: [bzfe.de](https://www.bzfe.de) oraz [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
 
-Historycznie klarowny barszcz jest młodszy niż zwykły garnek z burakiem i jednocześnie bardziej widoczny. W Wigilię niesie stół, bo da się go powtórzyć: klarowna miseczka, mały farsz w cieście, żaden bufet. W diasporze zamieniamy presję dowodu na spokojny plan. Dobry wywar, który naprawdę zostaje klarowny, bije trzy mętne garnki z zbyt wieloma dodatkami.
+Historycznie klarowny barszcz jest młodszy niż zwykły garnek z burakiem i jednocześnie bardziej widoczny. W Wigilię niesie stół, bo da się go powtórzyć: klarowna miseczka, mały farsz w cieście, żaden bufet. Spokojny plan gotowania niesie więcej niż chęć pokazania wszystkiego naraz. Dobry wywar, który naprawdę zostaje klarowny, bije trzy mętne garnki z zbyt wieloma dodatkami.
 
 ![Klarowna rubinowa miseczka barszczu](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-barszcz/efe9222b-f6b5-42df-a683-71394e5dbd21.webp "Przecedzamy, nie blendujemy: kolor i spokój niosą talerz.")
 
@@ -216,9 +216,9 @@ Tak, jeśli nie podajemy go jako jedynej historii. Własny wywar plus koncentrat
 
 Wywar i tak podajemy klarowny. Chleb, drugi mały bieg ciasta później, albo kupione uszka. Pierwsze danie może zostać uczciwie małe. Ilości i kroki obu zostają w [przepisie na barszcz](/pl/rezepte/barszcz-czerwony) i w [przepisie na uszka](/pl/rezepte/uszka).
 
-## Bez wstydu, z klarowną miseczką
+## Gdy miseczka zostaje klarowna
 
-Kupiony koncentrat, gotowe uszka i mały talerz są w porządku, gdy wywar zostaje spokojny. Bohaterstwo, które wszystkich męczy, nie jest zyskiem zwyczaju. Wcześniej opróżniamy lodówkę, miseczki planujemy tak, by dało się je stawiać, zamrażarkę używamy do przecedzonego wywaru. Logistyka należy do kuchni, nie dopiero do sprzątania.
+Kupiony koncentrat, gotowe uszka i mały talerz są w porządku, gdy wywar zostaje spokojny. Dzień, który wszystkich męczy, nie pomaga stołowi. Wcześniej opróżniamy lodówkę, miseczki planujemy tak, by dało się je stawiać, zamrażarkę używamy do przecedzonego wywaru. Logistyka należy do kuchni, nie dopiero do sprzątania.
 `;
 
 export const bodyPlackiGuidePl = `
@@ -226,7 +226,7 @@ Placki ziemniaczane w Niemczech często są pierwszym polskim daniem, które dzi
 
 Ten artykuł jest przeglądem, nie książką kucharską. Ilości, spoiwo i czasy smażenia są w [przepisie na placki ziemniaczane](/pl/rezepte/placki/ziemniaczane). Tutaj porządkujemy, co odróżnia placki od niemieckiego Reibekuchen, który kartofel w DE niesie talerz, które warianty są naprawdę osobnymi daniami i gdzie gospodarstwa w diasporze świadomie skracają, bez odbierania talerzowi sensu. Orientacja w tłuszczu, patelni i higienie: [bzfe.de](https://www.bzfe.de) oraz [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
 
-Historycznie tarte kartofle w Europie Środkowej są starsze niż nazwa placki. To, co nas różni, to kontekst talerza. W Polsce leżą często obok zimnej śmietany, czasem pod gulaszem, rzadko pod musem jabłkowym. W Niemczech spotykają Reibekuchen, Kartoffelpuffer i regionalny boczek. Kto zna oba, widzi szybko: technika jest pokrewna, zwyczaj domu nie. W diasporze zamieniamy presję dowodu na spokojny plan. Jedna blacha dobrych placków bije trzy miękkie stosy.
+Historycznie tarte kartofle w Europie Środkowej są starsze niż nazwa placki. To, co nas różni, to kontekst talerza. W Polsce leżą często obok zimnej śmietany, czasem pod gulaszem, rzadko pod musem jabłkowym. W Niemczech spotykają Reibekuchen, Kartoffelpuffer i regionalny boczek. Kto zna oba, widzi szybko: technika jest pokrewna, zwyczaj domu nie. Spokojny plan gotowania niesie więcej niż chęć pokazania wszystkiego naraz. Jedna blacha dobrych placków bije trzy miękkie stosy.
 
 ![Złociste placki z cukinii na patelni](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-placki-cukinia/4d34373d-0681-4667-876b-b237b1f0a48e.webp "Cienko, osobno, od razu na stół: placki żyją skórką.")
 
@@ -320,6 +320,6 @@ Jedna linia na danie. Cukinii, sera i jabłka nie mieszamy na jednej patelni. Pl
 
 ## Mniej stosu, więcej skórki
 
-Gotowe placki, które dochodzą osobno, biją miskę, która pod folią mięknie. Kupiona śmietana i kartofle z supermarketu są w porządku, gdy patelnia zostaje spokojna. Bohaterstwo, które wszystkich męczy, nie jest zyskiem zwyczaju. Wcześniej opróżniamy lodówkę, blachę do trzymania w cieple kładziemy obok, oleju nie żałujemy i nie recyklingujemy, aż zrobi się ciemny. Logistyka należy do kuchni, nie dopiero do sprzątania.
+Gotowe placki, które dochodzą osobno, biją miskę, która pod folią mięknie. Kupiona śmietana i kartofle z supermarketu są w porządku, gdy patelnia zostaje spokojna. Dzień, który wszystkich męczy, nie pomaga stołowi. Wcześniej opróżniamy lodówkę, blachę do trzymania w cieple kładziemy obok, oleju nie żałujemy i nie recyklingujemy, aż zrobi się ciemny. Logistyka należy do kuchni, nie dopiero do sprzątania.
 `;
 

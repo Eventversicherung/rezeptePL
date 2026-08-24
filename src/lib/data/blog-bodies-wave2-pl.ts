@@ -185,16 +185,16 @@ Jedna partia w wolny dzień, dwa albo trzy szybkie posiłki w tygodniu, dodatki 
 
 ### Czy kupne pierogi są mniej prawdziwe?
 
-Nie. Dobra kupna partia jest uczciwa, gdy brakuje czasu albo rąk. Formowanie w domu opłaca się, gdy chcemy smaku i zapasu, nie dlatego, że moralność tego wymaga. Liczy się jakość, szew i farsz, nie pochodzenie dziesiątej sztuki. Spokojny stół bije presję dowodu.
+Nie. Dobra kupna partia jest uczciwa, gdy brakuje czasu albo rąk. Formowanie w domu opłaca się, gdy chcemy smaku i zapasu, nie dlatego, że moralność tego wymaga. Liczy się jakość, szew i farsz, nie pochodzenie dziesiątej sztuki. Spokojny stół bije presję, by wszystko udowadniać.
 
-## Bez wstydu, z blachą
+## Gdy partia zostaje mniejsza
 
-Gotowe ciasto, kupny twaróg i mała partia są w porządku, gdy szwy trzymają i talerz zostaje przyjazny. Bohaterstwo, które wszystkich męczy, nie jest zyskiem zwyczaju. Wcześniej robimy miejsce w zamrażarce, kładziemy blachę, wybieramy jeden farsz. Logistyka należy do formowania, nie dopiero do zmywania.
+Gotowe ciasto, kupny twaróg i mała partia są w porządku, gdy szwy trzymają i talerz zostaje przyjazny. Dzień, który wszystkich męczy, nie pomaga stołowi. Wcześniej robimy miejsce w zamrażarce, kładziemy blachę, wybieramy jeden farsz. Logistyka należy do formowania, nie dopiero do zmywania.
 
 `;
 
 export const bodyFreezerMealPrepPl = `
-Mrożenie pierogów w Niemczech rzadko wygląda jak obraz z domu rodzinnego: wielki stół, trzy pokolenia i ktoś, kto może składać całe popołudnie. To partia między pracą, małą szufladą zamrażarki i chęcią jedzenia w tygodniu naprawdę, a nie byle jak. Nazwa oznacza meal prep. Codzienność oznacza więcej: surowe albo jako resztka, odstęp na blaszce, etykieta i to, jak gotujemy z szuflady bez poświęcania szwu.
+Mrożenie pierogów w Niemczech rzadko wygląda jak obraz z domu rodzinnego: wielki stół, trzy pokolenia i ktoś, kto może składać całe popołudnie. To partia między pracą, małą szufladą zamrażarki i chęcią jedzenia w tygodniu naprawdę, a nie byle jak. To brzmi jak meal prep. Na co dzień liczą się stan surowy albo resztka, odstęp na blaszce, etykieta i to, jak gotujemy z szuflady bez poświęcania szwu.
 
 Ten artykuł jest planem zamrażarki, nie książką przepisów. Ilości, odpoczynek ciasta i konkretny farsz są na stronach przepisów. Start od [pierogów ruskich](/pl/rezepte/pierogi/ruskie), dalej [mięso](/pl/rezepte/pierogi/fleisch), [kapusta i grzyby](/pl/rezepte/pierogi/kraut-pilze) albo słodkie [jagody](/pl/rezepte/pierogi/jagody). Tutaj porządkujemy, co znosi mróz, co musi zostać osobno i gdzie gospodarstwa w diasporze świadomie skracają. Ciasto we wszystkich liniach: [ciasto na pierogi](/pl/blog/ciasto-na-pierogi). Przegląd rodziny: [przewodnik po pierogach](/pl/blog/przewodnik-pierogi). Orientacja w higienie i łańcuchu chłodniczym: [bzfe.de](https://www.bzfe.de) oraz [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
 
@@ -302,13 +302,13 @@ Nie. Dobrze odpowietrzone worki albo płaskie pudełka wystarczą. Próżnia mo�
 
 Jedna partia w weekend, dwa do trzech szybkich obiadów w tygodniu, prosty dodatek. Przed Wigilią osobna partia kapusty i grzybów. Tak kuchnia domowa zostaje możliwa obok pracy i szkoły, bez wyrabiania ciasta każdego wieczoru.
 
-## Bez wstydu, z datą
+## Gdy szuflada ma porządek
 
-Kupione pierogi ze sklepu polskiego, mała partia i szuflada, która nie jest napchana, są w diasporze w porządku. Bohaterstwo, które zapomina pięć kilogramów bez etykiety, nie jest zyskiem zwyczaju. Wcześniej opróżniamy szufladę, trzymamy farsz suchy, opisujemy pudełko. Zamrażarka niesie tydzień, gdy jej na to pozwolimy.
+Kupione pierogi ze sklepu polskiego, mała partia i szuflada, która nie jest napchana, są tu zupełnie w porządku. Pięć kilogramów bez daty w szufladzie nie pomaga tygodniowi. Wcześniej opróżniamy szufladę, trzymamy farsz suchy, opisujemy pudełko. Zamrażarka niesie tydzień, gdy jej na to pozwolimy.
 `;
 
 export const bodyPierogiFormenPl = `
-Foremka do pierogów w Niemczech rzadko jest urządzeniem, które ratuje niedzielę. To narzędzie między małym stołem, pracą i chęcią równych rozmiarów, gdy często spadają duże ilości. Nazwa oznacza prasę, wykrawacz albo formę składaną. Codzienność oznacza więcej: średnicę, krawędź, mycie i to, czy forma współpracuje z [ciastem na pierogi](/pl/blog/ciasto-na-pierogi), czy tylko strzępi ciasto.
+Foremka do pierogów w Niemczech rzadko jest urządzeniem, które ratuje niedzielę. To narzędzie między małym stołem, pracą i chęcią równych rozmiarów, gdy często spadają duże ilości. Prasa, wykrawacz albo forma składana to tylko narzędzia. Na co dzień liczą się średnica, krawędź, mycie i to, czy forma współpracuje z [ciastem na pierogi](/pl/blog/ciasto-na-pierogi), czy tylko strzępi ciasto.
 
 Ten artykuł jest poradnikiem zakupu, nie książką przepisów. Ilości, czasy odpoczynku i konkretny farsz są na stronach przepisów. Start od [pierogów ruskich](/pl/rezepte/pierogi/ruskie). Przegląd rodziny: [przewodnik po pierogach](/pl/blog/przewodnik-pierogi). Tutaj porządkujemy, kiedy forma się opłaca, które kryteria liczą się w 2026 i gdzie gospodarstwa w diasporze świadomie zostają przy szklance i rękach. Orientacja w domu i jedzeniu: [bzfe.de](https://www.bzfe.de) oraz [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
 
@@ -404,13 +404,13 @@ Tak, dla tempa i równości, gdy kilka osób wykrawa i narzędzie już zna. Nie 
 
 Szklanka, ostry nóż do wariantów, dobry wałek, jakość twarogu, odpoczynek ciasta. Pieniądze w składniki i ćwiczenie często niosą więcej niż impulsowy zakup przed świętami.
 
-## Bez wstydu, ze szklanką
+## Gdy szklanka i ręce wystarczą
 
-Szklanka z gładkim brzegiem, mała partia i ręce, które znają szew, są w diasporze w porządku. Bohaterstwo, które kupuje prasę i używa jej raz, nie jest zyskiem zwyczaju. Wcześniej mierzymy stół, uczciwie liczymy mycie, najpierw uczymy się ciasta. Forma niesie dzień partii, gdy jest mniejsza niż oczekiwanie.
+Szklanka z gładkim brzegiem, mała partia i ręce, które znają szew, są tu zupełnie w porządku. Prasa, która po jednym użyciu ląduje w szufladzie, nie pomaga stołowi. Wcześniej mierzymy stół, uczciwie liczymy mycie, najpierw uczymy się ciasta. Forma niesie dzień partii, gdy jest mniejsza niż oczekiwanie.
 `;
 
 export const bodyPolnischeSuppenPl = `
-Polskie zupy w Niemczech rzadko są kopią garnka, przy którym wyrośliśmy. To garnek tygodnia między zmianą, małą kuchenką i chęcią kwasu, klarowności albo ciepła, bez nowego projektu każdego wieczoru. Nazwa oznacza wiele dań. Codzienność oznacza więcej: która linia kiedy, który składnik z REWE wystarczy, co musi unieść sklep polski i jak jeden wywar karmi kilka talerzy.
+Polskie zupy w Niemczech rzadko są kopią garnka, przy którym wyrośliśmy. To garnek tygodnia między zmianą, małą kuchenką i chęcią kwasu, klarowności albo ciepła, bez nowego projektu każdego wieczoru. Pod tym słowem kryje się wiele dań. Na co dzień liczy się, która linia kiedy, który składnik z REWE wystarczy, co musi unieść sklep polski i jak jeden wywar karmi kilka talerzy.
 
 Ten artykuł jest przeglądem, nie książką przepisów. Ilości, czasy i konkretna kolejność są w pojedynczych przepisach. Tutaj porządkujemy krajobraz bez hierarchii regionalnej: co do siebie pasuje, co dzieli tylko nazwę i gdzie gospodarstwa w diasporze świadomie wybierają jedną zupę na tydzień. Orientacja w higienie i łańcuchu chłodniczym: [bzfe.de](https://www.bzfe.de) oraz [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
 
@@ -520,9 +520,9 @@ Zwyczaj domu. Wiele domów: barszcz na Wigilię, żurek mocno na Wielkanoc. Plan
 
 Mało makaronu albo chleb często lepiej. Przy żurku jako zupie głównej ziemniaki mogą nasycić. Porcje dzieci osobno. Zostawiamy miejsce na kolejne danie, jeśli jest zaplanowane.
 
-## Bez wstydu, z jednym garnkiem
+## Gdy jeden garnek wystarczy
 
-Kupiony zakwas, gotowy makaron i zupa z niemieckiego regału są w diasporze w porządku, gdy garnek zostaje spokojny. Bohaterstwo, które wymusza trzy linie tego samego wieczoru, nie jest zyskiem zwyczaju. Wcześniej opróżniamy lodówkę, nazywamy linię, myślimy dodatek osobno. Zupa niesie tydzień, gdy jej na to pozwolimy.
+Kupiony zakwas, gotowy makaron i zupa z niemieckiego regału są tu zupełnie w porządku, gdy garnek zostaje spokojny. Trzy linie tego samego wieczoru przeciążają garnek i wieczór. Wcześniej opróżniamy lodówkę, nazywamy linię, myślimy dodatek osobno. Zupa niesie tydzień, gdy jej na to pozwolimy.
 `;
 
 export const bodyRosolTechnikPl = `
@@ -624,14 +624,14 @@ Jako jedyny nośnik wywaru rzadko. Pierś może być dodatkiem, ciało pochodzi 
 
 Wywar gotujemy dzień wcześniej, szybko chłodzimy, w sam dzień tylko podgrzewamy i świeżo dokładamy dodatek. Klarowny, spokojny talerz bije ciemny wywar na czas.
 
-## Bez wstydu, z jednym garnkiem
+## Gdy jeden garnek wystarczy
 
-Kura rosołowa ze sklepu polskiego jest dobra, gdy jest. Uczciwa mieszanka z niemieckiego regału nie jest porażką. Gotowy makaron jest w porządku, gdy wywar zostaje spokojny. Bohaterstwo, które niszczy kuchnię i resztę niedzieli, nie jest zyskiem zwyczaju. Wcześniej opróżniamy lodówkę, wybieramy największy garnek, który bezpiecznie uniesiemy, i myślimy makaron osobno. Logistyka należy do techniki, nie dopiero do sprzątania.
+Kura rosołowa ze sklepu polskiego jest dobra, gdy jest. Uczciwa mieszanka z niemieckiego regału nie jest porażką. Gotowy makaron jest w porządku, gdy wywar zostaje spokojny. Dzień, który niszczy kuchnię i resztę niedzieli, nie pomaga nikomu. Wcześniej opróżniamy lodówkę, wybieramy największy garnek, który bezpiecznie uniesiemy, i myślimy makaron osobno. Logistyka należy do techniki, nie dopiero do sprzątania.
 
 `;
 
 export const bodyZakwasZurekPl = `
-Zakwas na żurek w Niemczech rzadko jest słoikiem, który w domu stał tygodniami na stole. To fermentowany zaczyn z mąki żytniej i wody między małą lodówką, zmianą w pracy i chęcią ugotowania [żurku](/pl/rezepte/zurek) bez zamiany charakteru zupy na ocet. Nazwa oznacza zakwas żytni, ale zwyczaj oznacza więcej: czyste naczynie, świeży zapach, chłodne przechowywanie i uczciwy wybór między własnym zaczynem a zakupioną butelką.
+Zakwas na żurek w Niemczech rzadko jest słoikiem, który w domu stał tygodniami na stole. To fermentowany zaczyn z mąki żytniej i wody między małą lodówką, zmianą w pracy i chęcią ugotowania [żurku](/pl/rezepte/zurek) bez zamiany charakteru zupy na ocet. To zakwas żytni. W praktyce liczą się czyste naczynie, świeży zapach, chłodne przechowywanie i uczciwy wybór między własnym zaczynem a zakupioną butelką.
 
 Ten tekst jest leksykonem, nie przepisem. Ilości, czasy i kolejność są w [przepisie na żurek](/pl/rezepte/zurek). Tutaj porządkujemy, czym jest zakwas, po czym go rozpoznać, jak prowadzić go w niemieckiej kuchni i kiedy [sklep polski](/pl/blog/sklep-polski-zakupy) jest lepszą decyzją. Orientacja w higienie: [bzfe.de](https://www.bzfe.de) oraz [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl). Kontekst rodziny zup: [polskie zupy](/pl/blog/polskie-zupy).
 
@@ -729,9 +729,9 @@ Pod koniec, gorący, ale nie wrzący, porcjami. Długie gotowanie spłaszcza. Na
 
 Nie. Dobry kupny produkt jest uczciwy na rzadkie dni żurku. Własny zaczyn opłaca się przy regularnym użyciu. Liczy się jakość i obchodzenie, nie morał słoika. Czysto prowadzony zakupiony zakwas niesie stół lepiej niż ryzykowna próba poprzedniego wieczoru.
 
-## Bez wstydu, z wyprzedzeniem
+## Gdy wyprzedzenie zostaje małe
 
-Kupny zakwas, średni słoik i spokojna niedziela są w porządku, gdy higiena zostaje jasna. Bohaterstwo z pięcioma równoległymi zaczynami, których nikt nie sprawdza, nie jest zyskiem zwyczaju. Wcześniej opróżniamy lodówkę, piszemy datę, myślimy kiełbasę jako wkład, nie jako kwas. Logistyka należy do fermentu, nie dopiero do zmywania.
+Kupny zakwas, średni słoik i spokojna niedziela są w porządku, gdy higiena zostaje jasna. Pięć równoległych zaczynów, których nikt nie sprawdza, nie pomaga zupie. Wcześniej opróżniamy lodówkę, piszemy datę, myślimy kiełbasę jako wkład, nie jako kwas. Logistyka należy do fermentu, nie dopiero do zmywania.
 `;
 
 export const bodyBigosGuidePl = `
@@ -835,14 +835,14 @@ Wystarczająco ostra na napięcie, nie tak ostra, by został sam kwas. Próbujem
 
 W weekend jeden garnek, w tygodniu tylko podgrzewanie. Dodatek minimalny: chleb, ogórek, [kasza](/pl/blog/kasza-gryczana). Zakupy w sklepie polskim mogą leżeć dni wcześniej, dzień duszenia nie powinien wpadać w noc przed wczesną zmianą.
 
-## Bez wstydu, z czasem spoczynku
+## Gdy czas spoczynku niesie
 
-Kupiona kiszona, niemiecka kiełbasa z uczciwym dymem i średni garnek są w porządku, gdy duszenie zostaje spokojne. Bohaterstwo z pięcioma rodzajami mięsa i kotłem, którego nikt nie uniesie, nie jest zyskiem zwyczaju. Wcześniej opróżniamy lodówkę, próbujemy kapustę, myślimy kiełbasę późno. Logistyka należy do duszenia, nie dopiero do zmywania.
+Kupiona kiszona, niemiecka kiełbasa z uczciwym dymem i średni garnek są w porządku, gdy duszenie zostaje spokojne. Pięć rodzajów mięsa i kocioł, którego nikt nie uniesie, nie pomagają garnkowi. Wcześniej opróżniamy lodówkę, próbujemy kapustę, myślimy kiełbasę późno. Logistyka należy do duszenia, nie dopiero do zmywania.
 
 `;
 
 export const bodySmietanaSchmandPl = `
-Śmietana w Niemczech rzadko jest jednym kubkiem z pamięci. To spektrum Schmandu, saure Sahne, crème fraîche i śmietany do gotowania, między niemiecką półką, polską etykietą i chęcią złagodzenia zupy bez zalania dania. Nazwa oznacza śmietanę, ale zwyczaj oznacza funkcję: zaokrąglić, związać albo dać zimną świeżość. Kto szuka tylko słowa na opakowaniu, kupuje przypadek.
+Śmietana w Niemczech rzadko jest jednym kubkiem z pamięci. To spektrum Schmandu, saure Sahne, crème fraîche i śmietany do gotowania, między niemiecką półką, polską etykietą i chęcią złagodzenia zupy bez zalania dania. Na opakowaniu często stoi śmietana. W kuchni liczy się funkcja: zaokrąglić, związać albo dać zimną świeżość. Kto szuka tylko słowa na opakowaniu, kupuje przypadek.
 
 Ten tekst jest leksykonem, nie przepisem. Ilości i wmieszanie do garnka są w samych daniach. Tutaj porządkujemy, który niemiecki produkt jaką pracę wykonuje, jak hartować i kiedy kleks na talerzu jest mądrzejszy niż cały kubek w garnku. Orientacja w higienie i łańcuchu chłodniczym: [bzfe.de](https://www.bzfe.de) oraz [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl). Zakupy: [sklep polski](/pl/blog/sklep-polski-zakupy). Gdy brakuje produktu: [zamienniki](/pl/blog/zamienniki-skladnikow).
 
@@ -936,9 +936,9 @@ Wkrótce, chłodno, czystą łyżką. Sprawdzamy zmysły. Dla gości otwieramy �
 
 Nie. Sprawdzamy tłuszcz, świeżość i smak. Niektóre niemieckie produkty lepiej trafiają w funkcję. Etykieta jest wskazówką, nie wyrokiem. Kto gotuje regularnie, zapisuje marki, które w waszym domu działają. To bije nostalgię w regale.
 
-## Bez wstydu, z miarą
+## Gdy miara zostaje mała
 
-Niemiecki Schmand, mały kleks i zahartowana łyżka są w porządku, gdy danie zostaje widoczne. Bohaterstwo z trzema kubkami i przesadnie kremową zupą nie jest zyskiem zwyczaju. Najpierw próbujemy bazę, nazywamy funkcję, kubek trzymamy zimno. Logistyka należy do strony mlecznej, nie dopiero do zmywania.
+Niemiecki Schmand, mały kleks i zahartowana łyżka są w porządku, gdy danie zostaje widoczne. Trzy kubki i przesadnie kremowa zupa nie pomagają daniu. Najpierw próbujemy bazę, nazywamy funkcję, kubek trzymamy zimno. Logistyka należy do strony mlecznej, nie dopiero do zmywania.
 `;
 
 export const bodyKielbasaArtenPl = `
@@ -1032,9 +1032,9 @@ Korzennie, nie za tłusto, późno albo osobno dogotowana. Zakwas zostaje głów
 
 W kontekście menu często 80 do 120 gramów, zależnie od dodatku. Bigos mniej, patelnia więcej. Resztki planujemy. Głód i ziemniaki bierzemy pod uwagę. Próba małych ilości przed świątecznymi zakupami zapobiega górze, której nikt nie zje.
 
-## Bez wstydu, z jedną linią
+## Gdy jedna linia wystarczy
 
-Dobra niemiecka kiełbasa, kupiona biała i spokojny garnek są w porządku, gdy rodzaj pasuje do pracy. Bohaterstwo z pięcioma rodzajami, które jednocześnie lądują w bigosie, nie jest zyskiem zwyczaju. Najpierw nazywamy funkcję, czytamy skład, myślimy kiełbasę późno. Logistyka należy do wędliny, nie dopiero do lady w wielkanocny poranek.
+Dobra niemiecka kiełbasa, kupiona biała i spokojny garnek są w porządku, gdy rodzaj pasuje do pracy. Pięć rodzajów jednocześnie w bigosie robi garnek nieczytelnym. Najpierw nazywamy funkcję, czytamy skład, myślimy kiełbasę późno. Logistyka należy do wędliny, nie dopiero do lady w wielkanocny poranek.
 `;
 
 export const bodyErsatzproduktePl = `
@@ -1130,17 +1130,17 @@ Czasem jako ratunek, często zbyt słodkie, zbyt słone, zbyt aromatyzowane. Czy
 
 Zeszyt albo aplikacja: danie, marka, tłuszcz albo suchość, krótka ocena. Trzy wiersze wystarczą. To prywatna baza kuchni diaspory. Oszczędza następną drogę i następny kubek, który znowu nie pasuje.
 
-## Bez wstydu, z uczciwą luką
+## Gdy luka zostaje uczciwa
 
-Odsączony Quark, niemiecki Schmand, łagodna kapusta i spokojna kiełbasa są w porządku, gdy funkcja niesie. Bohaterstwo z pięcioma importowymi słoikami, których nikt nie potrzebuje, nie jest zyskiem zwyczaju. Najpierw nazywamy pracę, testujemy mało, w święto powtarzamy. Logistyka należy do zamiennika, nie dopiero do przeprosin przy stole.
+Odsączony Quark, niemiecki Schmand, łagodna kapusta i spokojna kiełbasa są w porządku, gdy funkcja niesie. Pięć importowych słoików, których nikt nie potrzebuje, nie pomaga stołowi. Najpierw nazywamy pracę, testujemy mało, w święto powtarzamy. Logistyka należy do zamiennika, nie dopiero do przeprosin przy stole.
 `;
 
 export const bodyWielkanocPl = `
-Wielkanoc w Niemczech rzadko jest kopią stołu, przy którym wyrośliśmy. To wiosenny stół między kościołem, rodziną, zmianą w pracy i niemieckim kalendarzem. Nazwa oznacza święta wielkanocne, ale zwyczaj oznacza więcej niż jajka i jedno ciepłe danie: kto przychodzi, kto je mięso, kto zostaje przy wersji bezmięnej, kto w sobotę jeszcze pracuje i ile miejsca w lodówce zostaje po zakupach.
+Wielkanoc w Niemczech rzadko jest kopią stołu, przy którym wyrośliśmy. To wiosenny stół między kościołem, rodziną, zmianą w pracy i niemieckim kalendarzem. Wielkanoc to nazwa z kalendarza. Przy stole liczy się więcej niż jajka i jedno ciepłe danie: kto przychodzi, kto je mięso, kto zostaje przy wersji bezmięnej, kto w sobotę jeszcze pracuje i ile miejsca w lodówce zostaje po zakupach.
 
 Ten artykuł jest planem menu, nie książką przepisów. Ilości, kroki i czasy pieczenia są w pojedynczych przepisach. Tutaj porządkujemy, co do siebie pasuje, co da się przygotować wcześniej i gdzie rodziny w diasporze świadomie skracają, bez odbierania rana sensu. Orientacja w higienie i łańcuchu chłodniczym: [bzfe.de](https://www.bzfe.de) oraz [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
 
-Historycznie polski stół wielkanocny jest młodszy niż Wigilia i jednocześnie bardziej widoczny. Po poście mięso, kiełbasa i jajka wracają na talerz. Żurek, biała kiełbasa i koszyk z chlebem, solą i jajkiem są w wielu domach rdzeniem nie dlatego, że ktoś to nakazał, lecz dlatego, że ten rdzeń da się powtórzyć. W diasporze w Niemczech zamieniamy presję dowodu na spokojny plan: kilka dań, które naprawdę zostaną skończone.
+Historycznie polski stół wielkanocny jest młodszy niż Wigilia i jednocześnie bardziej widoczny. Po poście mięso, kiełbasa i jajka wracają na talerz. Żurek, biała kiełbasa i koszyk z chlebem, solą i jajkiem są w wielu domach rdzeniem nie dlatego, że ktoś to nakazał, lecz dlatego, że ten rdzeń da się powtórzyć. W Niemczech spokojny plan gotowania niesie stół: kilka dań, które naprawdę zostaną skończone.
 
 ![Śniadanie wielkanocne z żurkiem, jajkami, kiełbasą i babką](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-wielkanoc/27a024e1-d0f8-4849-abe8-745fd027cd5a.webp "Spokojny rdzeń wystarczy: zupa, jajko, kiełbasa, chleb, jedno ciasto.")
 
@@ -1240,17 +1240,17 @@ Szybko chłodzimy, jemy wkrótce, dokładnie podgrzewamy tam, gdzie trzeba. Sał
 
 Rozmawiamy, układamy priorytety, z każdej linii najwyżej jedno extra. Nowoczesne stoły w Niemczech mogą być mieszane i widoczne. Nikt nie musi gotować dwóch pełnych menu, żeby być lojalnym.
 
-## Bez wstydu, z miejscem
+## Gdy stół ma miejsce
 
-Gotowe ciasto, kupiony zakwas i kupiona kiełbasa są w porządku, gdy stół zostaje spokojny. Bohaterstwo, które wszystkich męczy, nie jest zyskiem zwyczaju. Wcześniej opróżniamy lodówkę, miski zimne planujemy tak, by dało się je stawiać jedna na drugiej, zamrażarkę używamy do przygotowanego. Logistyka należy do kuchni, nie dopiero do sprzątania.
+Gotowe ciasto, kupiony zakwas i kupiona kiełbasa są w porządku, gdy stół zostaje spokojny. Dzień, który wszystkich męczy, nie pomaga stołowi. Wcześniej opróżniamy lodówkę, miski zimne planujemy tak, by dało się je stawiać jedna na drugiej, zamrażarkę używamy do przygotowanego. Logistyka należy do kuchni, nie dopiero do sprzątania.
 `;
 
 export const bodyTlustyCzwartekPl = `
-Tłusty Czwartek w Niemczech rzadko jest dniem, w którym cała rodzina stoi po południu przy gorącym tłuszczu. To czwartek między zmianą, żłobkiem, biurem i niemieckim kalendarzem. Nazwa oznacza tłusty czwartek przed Wielkim Postem. Zwyczaj oznacza więcej niż pudełko pączków: kto kupuje, kto smaży, kto dzieli się w pracy i ile oleju w mieszkaniu z czujnym czujnikiem dymu w ogóle ma sens.
+Tłusty Czwartek w Niemczech rzadko jest dniem, w którym cała rodzina stoi po południu przy gorącym tłuszczu. To czwartek między zmianą, żłobkiem, biurem i niemieckim kalendarzem. Kalendarz nazywa go tłustym czwartkiem przed Wielkim Postem. Przy stole liczy się więcej niż pudełko pączków: kto kupuje, kto smaży, kto dzieli się w pracy i ile oleju w mieszkaniu z czujnym czujnikiem dymu w ogóle ma sens.
 
 Ten artykuł jest planem okazji, nie książką przepisów. Ilości, czasy drożdży i temperatura tłuszczu są w pojedynczych przepisach. Tutaj porządkujemy, co niesie dzień, co da się kupić i gdzie rodziny w diasporze świadomie skracają, bez odbierania popołudniu sensu. Orientacja w tłuszczu, higienie i umiarze: [bzfe.de](https://www.bzfe.de) oraz [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
 
-Historycznie Tłusty Czwartek jest ostatnim głośnym dniem słodyczy przed postem. Pączki i faworki należą do niego, bo tłuszcz, drożdże i cukier robią zimowy stół widocznym. W Polsce przed cukiernią często stoi kolejka. W Niemczech zamieniamy presję dowodu na spokojny plan: dobre źródło, rozsądna ilość, chwila na dzielenie się. Dzień wygrywa nie masą, lecz sztuką, która naprawdę jest świeża.
+Historycznie Tłusty Czwartek jest ostatnim głośnym dniem słodyczy przed postem. Pączki i faworki należą do niego, bo tłuszcz, drożdże i cukier robią zimowy stół widocznym. W Polsce przed cukiernią często stoi kolejka. W Niemczech spokojny plan gotowania niesie dzień: dobre źródło, rozsądna ilość, chwila na dzielenie się. Dzień wygrywa nie masą, lecz sztuką, która naprawdę jest świeża.
 
 ![Złociste pączki z cukrem pudrem, gotowe do dzielenia](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-paczki/be50cfd6-63a9-423d-b088-3dedb5e6e93b.webp "Mała, świeża partia niesie dzień lepiej niż góra z wczoraj.")
 
@@ -1350,17 +1350,17 @@ Tylko gdy zostaje czysty i nie był przegrzany. Filtrujemy, wąchamy, przy wątp
 
 Często wystarczy jeden pączek, najwyżej dwa, z kawą albo herbatą. Dzieci mniej. Planujemy dzielenie. Resztę świadomie oddajemy, zamiast jeść z obowiązku. Dzień kończy się przyjaźniej, gdy nikt nie zjada ostatniej zimnej resztki jako dowodu.
 
-## Bez wstydu, z miejscem
+## Gdy stół ma miejsce
 
-Kupione pączki, Berliner, który uczciwie nazywa się Berliner, i dzień bez własnej frytkownicy są w diasporze w porządku. Bohaterstwo, które niszczy kuchnię i nastrój, nie jest zyskiem zwyczaju. Wcześniej patrzymy na plan pracy, uczciwie wybieramy ilość oleju, nie robimy z czujnika dymu współgracza. Czwartek zostaje mały i przyjazny, gdy mu na to pozwolimy.
+Kupione pączki, Berliner, który uczciwie nazywa się Berliner, i dzień bez własnej frytkownicy są tu zupełnie w porządku. Dzień, który niszczy kuchnię i nastrój, nie pomaga nikomu. Wcześniej patrzymy na plan pracy, uczciwie wybieramy ilość oleju, nie robimy z czujnika dymu współgracza. Czwartek zostaje mały i przyjazny, gdy mu na to pozwolimy.
 `;
 
 export const bodySonntagsessenPl = `
-Polski obiad niedzielny w Niemczech rzadko jest kopią stołu, przy którym wyrośliśmy. To południe między kościołem albo jego brakiem, rodzinnym czatem, planem zmian i życzeniem, żeby popołudnie jeszcze starczyło na spacer. Nazwa oznacza niedzielny stół. Zwyczaj oznacza więcej niż ciężkie mięso: kto przychodzi, kto je mięso, kto zostaje przy pierogach, kto w sobotę jeszcze pracuje i ile miejsca w lodówce zostaje po zakupach.
+Polski obiad niedzielny w Niemczech rzadko jest kopią stołu, przy którym wyrośliśmy. To południe między kościołem albo jego brakiem, rodzinnym czatem, planem zmian i życzeniem, żeby popołudnie jeszcze starczyło na spacer. Niedzielny stół jest ramą. Przy stole liczy się więcej niż ciężkie mięso: kto przychodzi, kto je mięso, kto zostaje przy pierogach, kto w sobotę jeszcze pracuje i ile miejsca w lodówce zostaje po zakupach.
 
 Ten artykuł jest planem menu, nie książką przepisów. Ilości, czasy pieczenia i konkretna kolejność kroków są w pojedynczych przepisach. Tutaj porządkujemy, co do siebie pasuje, co da się przygotować dzień wcześniej i gdzie gospodarstwa w diasporze świadomie skracają, bez odbierania niedzieli sensu. Orientacja w higienie i łańcuchu chłodniczym: [bzfe.de](https://www.bzfe.de) oraz [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
 
-Historycznie polska niedziela często niesie jasny środek: wywar, mięso albo garnek, do tego ziemniak albo kasza, do tego kwas. W diasporze zamieniamy presję dowodu na spokojny plan. Jedno danie, które naprawdę zostanie skończone, bije trzy garnki, które o piętnastej wciąż chcą mieszać. Niedziela wygrywa, gdy stół trwa dłużej niż zdenerwowanie w kuchni.
+Historycznie polska niedziela często niesie jasny środek: wywar, mięso albo garnek, do tego ziemniak albo kasza, do tego kwas. Spokojny plan gotowania niesie więcej niż chęć pokazania wszystkiego naraz. Jedno danie, które naprawdę zostanie skończone, bije trzy garnki, które o piętnastej wciąż chcą mieszać. Niedziela wygrywa, gdy stół trwa dłużej niż zdenerwowanie w kuchni.
 
 ![Niedzielny obiad z jasnym rosołem i złocistym schabowym](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-sonntagsessen/af34ac42-e478-471b-a519-e02f15a74bb4.webp "Jeden środek plus dodatek i kwas wystarczą na prawdziwą niedzielę.")
 
@@ -1466,11 +1466,11 @@ Główny dzień gotowania przesuwamy, używamy zamrażarki, trzymanie w cieple o
 
 ## Niedziela jako reset
 
-W trakcie gotowania piszemy listę zakupów na tydzień. Wywar porcjujemy dodatkowo. Lodówkę wcześniej opróżniamy, żeby resztki miały miejsce. Niedziela karmi tydzień, gdy jej na to pozwolimy. Bohaterstwo, które wszystkich męczy, nie jest zyskiem tradycji.
+W trakcie gotowania piszemy listę zakupów na tydzień. Wywar porcjujemy dodatkowo. Lodówkę wcześniej opróżniamy, żeby resztki miały miejsce. Niedziela karmi tydzień, gdy jej na to pozwolimy. Niedziela, która wszystkich męczy, nie niesie tradycji.
 `;
 
 export const bodyKiszeniePl = `
-Kiszenie w niemieckim mieszkaniu rzadko jest beczką w piwnicy dziadków. To słoik na talerzyku pod szafką, między pracą, małą lodówką i ochotą na kwas, który nie pochodzi z butelki octu. Nazwa oznacza kontrolowaną fermentację mlekową. Codzienność oznacza więcej niż przepis: jakie warzywo, jaka sól, jakie naczynie i co robimy, gdy na zalewie kładzie się nalot.
+Kiszenie w niemieckim mieszkaniu rzadko jest beczką w piwnicy dziadków. To słoik na talerzyku pod szafką, między pracą, małą lodówką i ochotą na kwas, który nie pochodzi z butelki octu. Technicznie to kontrolowana fermentacja mlekowa. Na co dzień liczy się więcej niż przepis: jakie warzywo, jaka sól, jakie naczynie i co robimy, gdy na zalewie kładzie się nalot.
 
 Ten artykuł jest ramą praktyki, nie książką przepisów. Dokładne ilości soli, kolejność kroków i wielkość partii są w sprawdzonych instrukcjach i, tam gdzie je mamy, w przepisach na użycie. Tutaj porządkujemy, czym kiszenie jest, czym nie jest i gdzie gospodarstwa w diasporze zaczynają mało i czysto. Orientacja w higienie i bezpieczeństwie żywności: [bzfe.de](https://www.bzfe.de) oraz [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
 
@@ -1564,13 +1564,13 @@ Ostrożność przy domowych fermentach. W razie wątpliwości pewny towar kupion
 
 Słoik do żywności sprawdza się. Unikamy uszkodzonych pokrywek. Pamiętamy o gazach. Zbyt duże beczki dopiero po kilku udanych małych partiach. Talerzyk pod słoikiem należy do mieszkania, nie dopiero do sprzątania.
 
-## Bez wstydu, z notatką
+## Gdy słoik ma notatkę
 
-Kupione kiszonki, jeden mały słoik i niedziela z ogórkami ze sklepu polskiego są w diasporze w porządku. Bohaterstwo, które wyrzuca pięć litrów, nie jest zyskiem zwyczaju. Wcześniej opróżniamy lodówkę, opisujemy słoik, obserwujemy zalewę. Kiszenie niesie tydzień, gdy zostaje czyste i na tyle małe, że da się je zrozumieć.
+Kupione kiszonki, jeden mały słoik i niedziela z ogórkami ze sklepu polskiego są tu zupełnie w porządku. Pięć litrów, które na końcu lądują w koszu, nie pomaga tygodniowi. Wcześniej opróżniamy lodówkę, opisujemy słoik, obserwujemy zalewę. Kiszenie niesie tydzień, gdy zostaje czyste i na tyle małe, że da się je zrozumieć.
 `;
 
 export const bodyFleischwolfPl = `
-Maszynka do mięsa w niemieckim mieszkaniu rzadko jest urządzeniem z rzeźni dziadków. To decyzja między małym stołem, hałasem w bloku i chęcią sterowania tłuszczem i ziarnem farszu do [pierogów z mięsem](/pl/rezepte/pierogi/fleisch). Nazwa oznacza wilka, elektrycznego albo ręcznego. Codzienność oznacza więcej: bezpieczeństwo, mycie, ostre sitka i to, czy rzeźnik za rogiem jest uczciwszy.
+Maszynka do mięsa w niemieckim mieszkaniu rzadko jest urządzeniem z rzeźni dziadków. To decyzja między małym stołem, hałasem w bloku i chęcią sterowania tłuszczem i ziarnem farszu do [pierogów z mięsem](/pl/rezepte/pierogi/fleisch). Czy elektryczna, czy ręczna, maszynka zostaje wilkiem. Na co dzień liczą się bezpieczeństwo, mycie, ostre sitka i to, czy rzeźnik za rogiem jest uczciwszy.
 
 Ten artykuł jest poradnikiem zakupu, nie książką przepisów. Ilości i konkretny farsz są na stronach przepisów. Przegląd kieszonek: [przewodnik po pierogach](/pl/blog/przewodnik-pierogi). Rodzaje wędlin: [leksykon kiełbasy](/pl/blog/rodzaje-kielbasy). Tutaj porządkujemy, kiedy maszynka się opłaca, które kryteria liczą się w 2026 i gdzie gospodarstwa w diasporze świadomie zostają przy zamówionym mięsie mielonym. Orientacja w higienie: [bzfe.de](https://www.bzfe.de) oraz [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
 
@@ -1660,13 +1660,13 @@ W punktach obciążenia krytyczny. Metalowy ślimak i stabilną obudowę wolimy.
 
 Od razu rozkładamy i myjemy, blaty myjemy, surowe i gotowe oddzielamy, ręce. Farsz chłodzimy. Logika zostaje na [bzfe.de](https://www.bzfe.de). Resztek nie zostawiamy ciepłych.
 
-## Bez wstydu, z rzeźnikiem
+## Gdy rzeźnik wystarczy
 
-Zamówione mięso mielone, ręczny wilk do rzadkich partii i niedziela bez elektrycznego urządzenia są w diasporze w porządku. Bohaterstwo, które kupuje głośną maszynkę i zapomina ją po pierwszym myciu, nie jest zyskiem zwyczaju. Wcześniej mierzymy miejsce, liczymy częstotliwość, czytamy instrukcję. Wilk niesie farsz, gdy jest mniejszy niż oczekiwanie.
+Zamówione mięso mielone, ręczny wilk do rzadkich partii i niedziela bez elektrycznego urządzenia są tu zupełnie w porządku. Głośna maszynka, która po pierwszym myciu zostaje w szafce, nie pomaga farszowi. Wcześniej mierzymy miejsce, liczymy częstotliwość, czytamy instrukcję. Wilk niesie farsz, gdy jest mniejszy niż oczekiwanie.
 `;
 
 export const bodyDutchOvenPl = `
-Garnek do duszenia [bigosu](/pl/rezepte/bigos) w Niemczech rzadko jest garnkiem z piwnicy dziadków. To decyzja między indukcją, siłą do podnoszenia i chęcią równego trzymania objętości kapusty. Nazwa oznacza dutch oven albo garnek do duszenia. Codzienność oznacza więcej: litry, pokrywkę, kwas i to, czy surowe żeliwo po kapuście kiszonej jeszcze cieszy.
+Garnek do duszenia [bigosu](/pl/rezepte/bigos) w Niemczech rzadko jest garnkiem z piwnicy dziadków. To decyzja między indukcją, siłą do podnoszenia i chęcią równego trzymania objętości kapusty. Dutch oven albo garnek do duszenia to tylko nazwy. Na co dzień liczą się litry, pokrywka, kwas i to, czy surowe żeliwo po kapuście kiszonej jeszcze cieszy.
 
 Ten artykuł jest poradnikiem zakupu, nie książką przepisów. Ilości, czasy i konkretna kolejność warstw są w [przepisie na bigos](/pl/rezepte/bigos) i w [przewodniku po bigosie](/pl/blog/bigos-przewodnik). Tutaj porządkujemy, który garnek niesie w 2026, które materiały pasują do kuchni diaspory i gdzie gospodarstwa świadomie zostają przy grubym stali nierdzewnej. Orientacja w domu i jedzeniu: [bzfe.de](https://www.bzfe.de) oraz [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl). Pielęgnacja surowego żeliwa: [patelnia żeliwna](/pl/blog/patelnia-zelivna).
 
@@ -1754,13 +1754,13 @@ Nie ignorować. Zależnie od miejsca i producenta unikamy kontaktu jedzenia z od
 
 Gdy podnoszenie jest problemem, dopasowanie do indukcji niepewne, pielęgnacja nierealna albo dusi się rzadko. Wtedy stal. Narzędzie musi pasować do ciała i codzienności.
 
-## Bez wstydu, ze stalą
+## Gdy stal wystarczy
 
-Gruby garnek ze stali, bigos z wczoraj i niedziela bez ciężkiego korpusu są w diasporze w porządku. Bohaterstwo, które kupuje garnek, którego nikt nie podnosi, nie jest zyskiem zwyczaju. Wcześniej podnosimy w sklepie, uczciwie myślimy kwas, sprawdzamy pokrywkę. Garnek do duszenia niesie tydzień, gdy mu na to pozwolimy.
+Gruby garnek ze stali, bigos z wczoraj i niedziela bez ciężkiego korpusu są tu zupełnie w porządku. Garnek, którego nikt nie podnosi, nie pomaga tygodniowi. Wcześniej podnosimy w sklepie, uczciwie myślimy kwas, sprawdzamy pokrywkę. Garnek do duszenia niesie tydzień, gdy mu na to pozwolimy.
 `;
 
 export const bodyGusseisenPl = `
-Patelnia żeliwna w Niemczech rzadko jest spadkiem ze wsi. To decyzja między ceranem, nadgarstkiem i chęcią smażenia [placków](/pl/rezepte/placki) chrupiąco i [schabowego](/pl/rezepte/kotlet-schabowy) równo. Nazwa oznacza surowe żeliwo albo emalię. Codzienność oznacza więcej: czas nagrzewania, wagę, pielęgnację i to, czy dobra patelnia z powłoką byłaby uczciwsza.
+Patelnia żeliwna w Niemczech rzadko jest spadkiem ze wsi. To decyzja między ceranem, nadgarstkiem i chęcią smażenia [placków](/pl/rezepte/placki) chrupiąco i [schabowego](/pl/rezepte/kotlet-schabowy) równo. Surowe żeliwo albo emalia to dwie powierzchnie. Na co dzień liczą się czas nagrzewania, waga, pielęgnacja i to, czy dobra patelnia z powłoką byłaby uczciwsza.
 
 Ten artykuł jest poradnikiem zakupu, nie książką przepisów. Ilości, panierka i konkretny ogień są na stronach przepisów. Przegląd niedzieli: [polski obiad niedzielny](/pl/blog/obiad-niedzielny). Ciężki garnek obok: [dutch oven](/pl/blog/garnek-do-duszenia). Tutaj porządkujemy, która patelnia niesie w 2026, która pielęgnacja jest realna i gdzie gospodarstwa świadomie zostają przy stali. Orientacja: [bzfe.de](https://www.bzfe.de) oraz [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
 
@@ -1848,13 +1848,13 @@ W surowym żeliwie sosów z dużą ilością kwasu nie przechowujemy długo. Kr�
 
 Często tak: wygodniejsze, lepszy ogień, równoległe smażenie. Jedna przesadnie duża patelnia przeciąża wiele płyt i nadgarstków.
 
-## Bez wstydu, z powłoką
+## Gdy patelnia z powłoką wystarczy
 
-Patelnia z powłoką do jajek, uczciwa stal do sosu i niedziela bez pracy przy patynie są w diasporze w porządku. Kto smaży rzadko, może oddać żeliwo bez utraty zwyczaju. Bohaterstwo, które kupuje żeliwo i kładzie je mokre do szuflady, nie jest zyskiem zwyczaju. Wcześniej podnosimy, sprawdzamy kuchenkę, naprawdę chcemy pięciu minut nagrzewania. Patelnia niesie placki i schabowy, gdy jej na to pozwolimy.
+Patelnia z powłoką do jajek, uczciwa stal do sosu i niedziela bez pracy przy patynie są tu zupełnie w porządku. Kto smaży rzadko, może oddać żeliwo bez utraty zwyczaju. Żeliwo, które ląduje mokre w szufladzie, rdzewieje i zostaje nieużywane. Wcześniej podnosimy, sprawdzamy kuchenkę, naprawdę chcemy pięciu minut nagrzewania. Patelnia niesie placki i schabowy, gdy jej na to pozwolimy.
 `;
 
 export const bodyTeigmaschineUpgradePl = `
-Robot do ciasta na pierogi w Niemczech rzadko jest urządzeniem, które samo niesie niedzielę. To decyzja między małym stołem, hałasem w bloku i chęcią pewnego odciążenia powtarzalnego wyrabiania. Nazwa oznacza robota z hakiem. Codzienność oznacza więcej: pojemność użytkową, moment przy niskim biegu, mycie i to, czy ręka według [ciasta na pierogi](/pl/blog/ciasto-na-pierogi) zostaje uczciwsza.
+Robot do ciasta na pierogi w Niemczech rzadko jest urządzeniem, które samo niesie niedzielę. To decyzja między małym stołem, hałasem w bloku i chęcią pewnego odciążenia powtarzalnego wyrabiania. Zwykle to robot z hakiem. Na co dzień liczą się pojemność użytkowa, moment przy niskim biegu, mycie i to, czy ręka według [ciasta na pierogi](/pl/blog/ciasto-na-pierogi) zostaje uczciwsza.
 
 Ten artykuł jest poradnikiem zakupu, nie książką przepisów. Proporcje, odpoczynek i konkretna kolejność są w przewodniku po cieście. Przegląd kieszonek: [przewodnik po pierogach](/pl/blog/przewodnik-pierogi). Tutaj porządkujemy, kiedy wymiana albo pierwszy zakup ma sens w 2026, które kryteria mówią więcej niż waty i gdzie gospodarstwa świadomie zostają przy ręce. Orientacja: [bzfe.de](https://www.bzfe.de) oraz [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
 
@@ -1940,7 +1940,7 @@ W budynkach wielorodzinnych liczy się wzgląd: pora dnia, podkładka, czas trwa
 
 Pierwsza partia według [ciasta na pierogi](/pl/blog/ciasto-na-pierogi), farsz ruski albo kapusta i grzyby, do zamrażarki, tydzień później gotowanie. Tak sprawdzacie urządzenie i przebieg przed stresem świąt.
 
-## Bez wstydu, z ręką
+## Gdy ręka wystarczy
 
-Ciasto wyrobione ręcznie, dwie mniejsze partie i niedziela bez silnika są w diasporze w porządku. Kto przed świętami pożycza zamiast kupować, często robi mądrzej niż karton pod szafką. Rodzina w tym samym mieście jest czasem lepszym magazynem niż nowa misa. Bohaterstwo, które kupuje robota i pierwszy raz napełnia go przed Wigilią, nie jest zyskiem zwyczaju. Wcześniej nazywamy wąskie gardło, mierzymy ramię pod szafką, czekamy na trzecią partię. Robot niesie wyrabianie, gdy mu na to pozwolimy.
+Ciasto wyrobione ręcznie, dwie mniejsze partie i niedziela bez silnika są tu zupełnie w porządku. Kto przed świętami pożycza zamiast kupować, często robi mądrzej niż karton pod szafką. Rodzina w tym samym mieście jest czasem lepszym magazynem niż nowa misa. Robot, który pierwszy raz pracuje przed Wigilią, nie uniesie święta. Wcześniej nazywamy wąskie gardło, mierzymy ramię pod szafką, czekamy na trzecią partię. Robot niesie wyrabianie, gdy mu na to pozwolimy.
 `;

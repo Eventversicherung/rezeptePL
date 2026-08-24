@@ -120,7 +120,7 @@ Jeśli uczysz się od zera, zacznij od mniejszych partii. Dopiero potem skaluj. 
 
 
 
-![Pierogi na blasze, gotowe do gotowania albo mrożenia](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-pierogi/ffa4f850-6746-4b55-8710-b19e03abf532.webp "Partie biją bohaterstwo. Mrozimy surowe, gotujemy później.")
+![Pierogi na blasze, gotowe do gotowania albo mrożenia](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-pierogi/ffa4f850-6746-4b55-8710-b19e03abf532.webp "Małe partie biją jedną ogromną sesję. Mrozimy surowe, gotujemy później.")
 
 ## Proporcje bazowe (ok. 4 porcje)
 
@@ -338,7 +338,7 @@ Jeśli macie dostęp do świeżego twarogu w [sklepie polskim](/pl/blog/sklep-po
 
 
 
-![Pierogi na blasze, gotowe do gotowania albo mrożenia](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-pierogi/ffa4f850-6746-4b55-8710-b19e03abf532.webp "Partie biją bohaterstwo. Mrozimy surowe, gotujemy później.")
+![Pierogi na blasze, gotowe do gotowania albo mrożenia](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/recipes/recipe-pierogi/ffa4f850-6746-4b55-8710-b19e03abf532.webp "Małe partie biją jedną ogromną sesję. Mrozimy surowe, gotujemy później.")
 
 ## Co kupować w niemieckim supermarkecie
 
@@ -438,11 +438,11 @@ Twaróg w Niemczech to nie problem do heroiczenia, to decyzja zakupowa i kilka r
 `;
 
 export const bodyWigiliaPl = `
-Wigilia w Niemczech rzadko jest kopią stołu, przy którym wyrośliśmy. To wieczór między końcem zmiany, zakorkowanymi autostradami, sklepem polskim, który zamyka o szesnastej, i życzeniem, żeby o ósmej ktoś jeszcze się uśmiechał. Nazwa oznacza wigilię Bożego Narodzenia. Zwyczaj oznacza więcej niż dwanaście misek: kto przychodzi, kto je rybę, kto zostaje przy kapuście i grzybach, kto 23. jeszcze pracuje i ile miejsca w zamrażarce zostaje po zakupach.
+Wigilia w Niemczech rzadko jest kopią stołu, przy którym wyrośliśmy. To wieczór między końcem zmiany, zakorkowanymi autostradami, sklepem polskim, który zamyka o szesnastej, i życzeniem, żeby o ósmej ktoś jeszcze się uśmiechał. Kalendarz nazywa ją wigilią Bożego Narodzenia. Przy stole liczy się więcej niż dwanaście misek: kto przychodzi, kto je rybę, kto zostaje przy kapuście i grzybach, kto 23. jeszcze pracuje i ile miejsca w zamrażarce zostaje po zakupach.
 
 Ten artykuł jest planem menu, nie książką przepisów. Ilości, odpoczynek ciasta i czasy gotowania są w pojedynczych przepisach. Tutaj porządkujemy, co do siebie pasuje, co da się przygotować wcześniej i gdzie rodziny w diasporze świadomie skracają, bez odbierania wieczorowi sensu. Orientacja w higienie i łańcuchu chłodniczym: [bzfe.de](https://www.bzfe.de) oraz [ncez.pzh.gov.pl](https://ncez.pzh.gov.pl).
 
-Historycznie polski wieczór wigilijny niesie często linię postną, obfitość i powtórzenie. Dwanaście potraw przypomina o kręgu roku. W praktyce liczy się gościnność i dania, które naprawdę zostaną skończone. W diasporze zamieniamy presję dowodu na spokojny plan: barszcz, pierogi z kapustą i grzybami, jedna linia rybna, kompot, coś słodkiego. Lepiej osiem starannych talerzy niż dwanaście zdenerwowanych.
+Historycznie polski wieczór wigilijny niesie często linię postną, obfitość i powtórzenie. Dwanaście potraw przypomina o kręgu roku. W praktyce liczy się gościnność i dania, które naprawdę zostaną skończone. Spokojny plan gotowania niesie wieczór: barszcz, pierogi z kapustą i grzybami, jedna linia rybna, kompot, coś słodkiego. Lepiej osiem starannych talerzy niż dwanaście zdenerwowanych.
 
 ![Stół wigilijny z barszczem, pierogami i kompotem](https://kdrbtwwhmzszzukcffsu.supabase.co/storage/v1/object/public/recipe-media/blog/post-wigilia/46b77164-aa4d-4385-9a9f-bd3cdb1db1f9.webp "Mniej dań, które naprawdę zostaną skończone, niesie wieczór.")
 
@@ -478,7 +478,7 @@ Kto wiąże [żurek](/pl/rezepte/zurek) rodzinnie z Bożym Narodzeniem, może. T
 
 Pierogi mrozimy surowe, 24. gotujemy wprost. Dzięki temu popołudnie zostaje na stół, kompot i spokój. Farsz potrzebuje wyciśniętej kapusty i intensywnie duszonych grzybów. Mokry farsz rozmiękcza ciasto i klei się w zamrażarce.
 
-Zamrażarka jest przygotowaniem, nie gorszą jakością. Opisujemy, układamy w stos, notujemy kolejność gotowania. Nie mrozimy wszystkiego, co ma śmietanę albo delikatną teksturę. Dla większej rodziny dwa blachy, nie jedna sesja o północy. Partie biją bohaterstwo.
+Zamrażarka jest przygotowaniem, nie gorszą jakością. Opisujemy, układamy w stos, notujemy kolejność gotowania. Nie mrozimy wszystkiego, co ma śmietanę albo delikatną teksturę. Dla większej rodziny dwa blachy, nie jedna sesja o północy. Małe partie biją jedną ogromną sesję.
 
 ## Ryba, jasno nazwana
 
@@ -558,7 +558,7 @@ Szybko chłodzimy, jemy wkrótce, dokładnie podgrzewamy tam, gdzie trzeba. Sał
 
 Rozmawiamy, układamy priorytety, z każdej linii najwyżej jedno extra. Nowoczesne stoły w Niemczech mogą być mieszane i widoczne. Nikt nie musi gotować dwóch pełnych menu, żeby być lojalnym.
 
-## Bez wstydu, z miejscem
+## Gdy stół ma miejsce
 
-Gotowe uszka, kupiony śledź i ciasto ze sklepu polskiego są w porządku, gdy stół zostaje spokojny. Bohaterstwo, które wszystkich męczy, nie jest zyskiem zwyczaju. Wcześniej opróżniamy lodówkę, zamrażarkę używamy do przygotowanego, harmonogram czytamy od tyłu. Wigilia w Niemczech wychodzi z planem, miarą i ludźmi przy stole, nie z presją doskonałości.
+Gotowe uszka, kupiony śledź i ciasto ze sklepu polskiego są w porządku, gdy stół zostaje spokojny. Dzień, który wszystkich męczy, nie pomaga stołowi. Wcześniej opróżniamy lodówkę, zamrażarkę używamy do przygotowanego, harmonogram czytamy od tyłu. Wigilia w Niemczech wychodzi z planem, miarą i ludźmi przy stole, nie z presją doskonałości.
 `;
