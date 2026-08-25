@@ -6,7 +6,6 @@ import { Link, usePathname } from "@/i18n/navigation";
 const items = [
   { href: "/", key: "discover" as const },
   { href: "/rezepte", key: "recipes" as const },
-  { href: "/markt-finden", key: "findMarket" as const },
   { href: "/listen", key: "lists" as const },
   { href: "/profil", key: "profile" as const },
 ];
@@ -21,7 +20,7 @@ export function BottomNav() {
       style={{ paddingBottom: "env(safe-area-inset-bottom, 0px)" }}
       aria-label="Primary"
     >
-      <ul className="mx-auto grid max-w-lg grid-cols-5 px-1 py-2">
+      <ul className="mx-auto grid max-w-lg grid-cols-4 px-1 py-2">
         {items.map((item) => {
           const active =
             item.href === "/"
