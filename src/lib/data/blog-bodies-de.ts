@@ -77,7 +77,7 @@ Wigilia ist Planung, kein Stresswettbewerb. Eine tragfähige Liste:
 
 - getrocknete Pilze und Sauerkraut für Kraut-Pilz-Pierogi
 - Rote Bete / Barszcz-Basis
-- Mehl, Eier, Öl für Teig
+- Mehl, Öl, Salz für Teig
 - Fisch nach Hausbrauch (Karpfen, Hering oder eine moderne Alternative)
 - Mohn, Nüsse, getrocknete Früchte für Süßes
 - Kompott-Zutaten (Pflaume, Apfel, Birne)
@@ -140,17 +140,16 @@ Guter Pierogi-Teig ist weich, elastisch und ruhig in der Hand, kein Geheimnis, s
 
 ## Grundverhältnis, das trägt
 
-Für etwa vier Portionen (rund 50 bis 60 Pierogi, je nach Größe):
+Für etwa vier Portionen (rund 50 Pierogi, je nach Größe):
 
-- 500 g Weizenmehl Type 405 **oder** Type 550
-- 1 mittelgroßes Ei
-- 200 bis 220 ml handwarmes Wasser
-- 1 EL neutrales Öl
-- 1 Prise Salz
+- 500 g Weizenmehl Type 550 (Type 405 geht, der Teig wird zarter)
+- 1 TL Salz
+- 250 ml kochendes Wasser
+- 2 EL neutrales Öl
 
-Type 405 ergibt oft einen feineren, etwas zarteren Teig; Type 550 ist etwas kräftiger und verzeiht beim Ausrollen mehr. Wir starten mit 200 ml Wasser und arbeiten den Rest nach Gefühl ein. Der Teig soll weich sein, nicht kleben, und sich vom Rand der Schüssel lösen.
+Kein Ei. Das ist der klassische polnische Haushalteig, so wie ihn Kwestia Smaku und die meisten Familienbücher als Grundteig führen: Mehl, Salz, heißes Wasser, Fett. Das kochende Wasser verkleistert die Stärke an der Oberfläche, der Teig wird weich, dehnbar und schließt die Naht sauber. Wir starten mit 250 ml und geben bei Bedarf löffelweise nach. Der Teig soll weich sein, nicht kleben, und sich vom Rand der Schüssel lösen.
 
-Öl macht den Teig geschmeidiger und die Naht kooperativer. Wer ohne Ei arbeitet, braucht etwas mehr Feuchtigkeit und Geduld, klassisch möglich, aber für Einsteiger mit Ei entspannter. Vertiefung zur Technik: [Teig](/de/techniken/teig). Offizielle Orientierung zu Getreide und Mehlqualität findet ihr auch über das [Bundeszentrum für Ernährung](https://www.bzfe.de).
+Öl macht den Teig geschmeidiger und die Naht kooperativer. Ein Ei ist eine spätere Hausvariante, fester, eher nudelartig, manchmal hilfreich bei sehr nasser Füllung oder zum Einfrieren, aber nicht der Default. Wer Ei nimmt, braucht oft etwas weniger Wasser. Vertiefung zur Technik: [Teig](/de/techniken/teig). Offizielle Orientierung zu Getreide und Mehlqualität findet ihr auch über das [Bundeszentrum für Ernährung](https://www.bzfe.de).
 
 
 
@@ -158,7 +157,7 @@ Type 405 ergibt oft einen feineren, etwas zarteren Teig; Type 550 ist etwas krä
 
 ## Kneten: Zeit statt Kraft
 
-Acht bis zehn Minuten von Hand reichen. Zuerst Mehl und Salz mischen, Ei und Öl einarbeiten, Wasser portionsweise zugeben. Dann kneten, bis die Oberfläche glatt wirkt und der Teig zurückfedert. Zu kurzes Kneten = Risse beim Falten. Zu langes Kneten mit zu viel Mehl = harter, trockener Teig.
+Acht Minuten von Hand reichen. Zuerst Mehl und Salz mischen, kochendes Wasser mit dem Öl unter Rühren dazugeben, dann kneten, bis die Oberfläche glatt wirkt und der Teig zurückfedert. Zu kurzes Kneten = Risse beim Falten. Zu langes Kneten mit zu viel Mehl = harter, trockener Teig.
 
 Mit Maschine: Knethaken, niedrige Stufe, ähnliche Zeit. Die Schüssel sollte groß genug sein, der Haken den Teig wirklich erfassen. Kaufkriterien und Größen: [Teigmaschine](/de/blog/teigmaschine-pierogi). Ob Hand oder Maschine, das Ergebnis zählt: glatt, weich, ruhig.
 
@@ -211,8 +210,8 @@ Rezept-Hub und Mengen: jeweils den Varianten folgen, Teig hier konstant halten. 
 ## Schritt-für-Schritt im Alltagstempo
 
 1. Mehl und Salz in die Schüssel.
-2. Ei, Öl, Wasser mischen und zugeben.
-3. 8 bis 10 Minuten kneten bis glatt.
+2. Kochendes Wasser mit dem Öl unter Rühren dazugeben.
+3. 8 Minuten kneten bis glatt.
 4. 20 bis 30 Minuten abgedeckt ruhen.
 5. Portionieren, ausrollen, füllen, schließen.
 6. Sofort kochen oder einfrieren.
@@ -235,7 +234,11 @@ Kochwasser nicht überfüllen. In Chargen arbeiten, damit die Temperatur stabil 
 
 ### Welches Mehl sollen wir in Deutschland nehmen?
 
-Type 405 oder 550, beide funktionieren. 405 ist feiner, 550 etwas robuster. Wichtig ist das Wassergefühl, nicht die Marke. Wir meiden Mischungen mit Backtriebmitteln. Wer unsicher ist, startet mit 500 g und 200 ml Wasser und korrigiert in kleinen Schritten. Nach zwei Durchgängen kennt ihr euer Mehl. Mehr Kontext: [Pierogi-Teig](/de/blog/pierogi-teig) als Referenz behalten und Mengen notieren.
+Type 405 oder 550, beide funktionieren. 405 ist feiner, 550 etwas robuster und unser Default. Wichtig ist das Wassergefühl, nicht die Marke. Wir meiden Mischungen mit Backtriebmitteln. Wer unsicher ist, startet mit 500 g und 250 ml kochendem Wasser und korrigiert in kleinen Schritten. Nach zwei Durchgängen kennt ihr euer Mehl.
+
+### Braucht der Teig Ei?
+
+Nein, nicht im Default. Klassischer Pierogi-Teig ist Mehl, Salz, kochendes Wasser und etwas Fett. Ei macht ihn fester und gelber, das ist eine Hausvariante, kein Pflichtbestandteil. Viele polnische Grundrezepte führen Ei erst als „wzbogacone ciasto“, also angereichert, etwa für nasse Füllungen oder den Freezer. Unsere Rezepte auf Alemniam bleiben beim heißen Wasser ohne Ei, Mengen stehen in [Pierogi Ruskie](/de/rezepte/pierogi/ruskie).
 
 ### Warum reißt unser Teig beim Ausrollen?
 

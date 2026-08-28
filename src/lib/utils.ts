@@ -1,6 +1,12 @@
 import { clsx, type ClassValue } from "clsx";
 import { twMerge } from "tailwind-merge";
-import type { IngredientGroup, Locale, Recipe } from "@/types/content";
+import type {
+  IngredientGroup,
+  IngredientSection,
+  Locale,
+  Recipe,
+  RecipeIngredient,
+} from "@/types/content";
 
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
@@ -21,6 +27,42 @@ export function groupLabelKey(group: IngredientGroup): string {
     other: "groupOther",
   };
   return map[group];
+}
+
+export function sectionLabelKey(section: IngredientSection): string {
+  const map: Record<IngredientSection, string> = {
+    dough: "sectionDough",
+    filling: "sectionFilling",
+    finish: "sectionFinish",
+  };
+  return map[section];
+}
+
+const SECTION_ORDER: IngredientSection[] = ["dough", "filling", "finish"];
+
+type IngredientSectionKey = IngredientSection | "all" | "other";
+
+/** Group cook/shop lists by Teig/Füllung when the recipe uses sections. */
+export function ingredientsBySection(ingredients: RecipeIngredient[]): {
+  key: IngredientSectionKey;
+  items: RecipeIngredient[];
+}[] {
+  const hasSections = ingredients.some((item) => item.section);
+  if (!hasSections) {
+    return [{ key: "all", items: ingredients }];
+  }
+
+  const groups: { key: IngredientSectionKey; items: RecipeIngredient[] }[] =
+    SECTION_ORDER.map((section) => ({
+      key: section,
+      items: ingredients.filter((item) => item.section === section),
+    })).filter((group) => group.items.length > 0);
+
+  const rest = ingredients.filter((item) => !item.section);
+  if (rest.length > 0) {
+    groups.push({ key: "other", items: rest });
+  }
+  return groups;
 }
 
 export function recipeHref(locale: Locale, recipe: Recipe) {

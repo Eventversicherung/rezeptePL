@@ -135,8 +135,8 @@ for (const r of seedRecipes) {
   statements.push(`delete from public.recipe_ingredients where recipe_id = ${sqlStr(r.id)};`);
   for (const [i, ing] of r.ingredients.entries()) {
     statements.push(
-      `insert into public.recipe_ingredients (recipe_id, sort_order, amount, unit_de, unit_pl, name_de, name_pl, group_name, store_hint_de, substitute_de, substitute_pl) values (` +
-        `${sqlStr(r.id)}, ${i}, ${sqlNum(ing.amount)}, ${sqlStr(ing.unit.de)}, ${sqlStr(ing.unit.pl)}, ${sqlStr(ing.name.de)}, ${sqlStr(ing.name.pl)}, ${sqlStr(ing.group)}, ${sqlStr(ing.storeHintDe ?? null)}, ${sqlStr(ing.substitute?.de ?? null)}, ${sqlStr(ing.substitute?.pl ?? null)}` +
+      `insert into public.recipe_ingredients (recipe_id, sort_order, amount, unit_de, unit_pl, name_de, name_pl, group_name, section, store_hint_de, substitute_de, substitute_pl) values (` +
+        `${sqlStr(r.id)}, ${i}, ${sqlNum(ing.amount)}, ${sqlStr(ing.unit.de)}, ${sqlStr(ing.unit.pl)}, ${sqlStr(ing.name.de)}, ${sqlStr(ing.name.pl)}, ${sqlStr(ing.group)}, ${sqlStr(ing.section ?? null)}, ${sqlStr(ing.storeHintDe ?? null)}, ${sqlStr(ing.substitute?.de ?? null)}, ${sqlStr(ing.substitute?.pl ?? null)}` +
         `);`,
     );
   }
@@ -203,10 +203,39 @@ const header = [
   "-- Regenerate after any seed*.ts content change: npx tsx scripts/generate-supabase-import.ts",
 ];
 
+const FILTER = new Set(
+  (process.env.IMPORT_FILTER ?? "")
+    .split(",")
+    .map((id) => id.trim())
+    .filter(Boolean),
+);
+
 async function main() {
   const outDir = path.join(process.cwd(), "supabase", "seed-data");
   const chunkDir = path.join(outDir, "chunks");
   await fs.mkdir(chunkDir, { recursive: true });
+
+  if (FILTER.size > 0) {
+    const selected = blocks.filter((b) => FILTER.has(b.label.split(":")[1] ?? ""));
+    const missing = [...FILTER].filter(
+      (id) => !selected.some((b) => b.label.endsWith(`:${id}`)),
+    );
+    if (missing.length) {
+      throw new Error(`IMPORT_FILTER ids not found: ${missing.join(", ")}`);
+    }
+    const content = [
+      ...header,
+      "begin;",
+      "",
+      ...selected.flatMap((b) => [`-- ${b.label}`, ...b.statements]),
+      "",
+      "commit;",
+    ].join("\n");
+    const outFile = path.join(outDir, "filtered-import.sql");
+    await fs.writeFile(outFile, content + "\n", "utf8");
+    console.log(`Wrote ${outFile} (${selected.length} block(s))`);
+    return;
+  }
 
   // Full review file
   const full = [

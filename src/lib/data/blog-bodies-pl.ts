@@ -50,7 +50,7 @@ Hub techniczny do ciasta: [ciasto](/pl/techniken/ciasto). Jeśli robisz większe
 
 ### Pod pierogi ruskie
 
-W niemieckim markecie: mąka, jajka, ziemniaki, cebula, masło. W sklepie polskim: twaróg (albo świadomy zamiennik według poradnika o twarogu). Przepis: [pierogi ruskie](/pl/rezepte/pierogi/ruskie).
+W niemieckim markecie: mąka, olej, sól, ziemniaki, cebula, masło. W sklepie polskim: twaróg (albo świadomy zamiennik według poradnika o twarogu). Przepis: [pierogi ruskie](/pl/rezepte/pierogi/ruskie).
 
 ### Pod bigos
 
@@ -108,7 +108,7 @@ Czasem tak, jako awaryjne wsparcie. Na co dzień wolimy własne, bo kontrolujemy
 
 Zakupy „dla nas” w Niemczech to umiejętność, nie kompromis. Gdy wiesz, co naprawdę musi być polskie, a co może być lokalne, gotowanie staje się spokojniejsze, a stół smakuje jak dom, nie jak improwizacja.`;
 
-export const bodyPierogiTeigPl = `Dobre [ciasto na pierogi](/pl/blog/ciasto-na-pierogi) nie jest magią babci z opowieści, tylko spokojną techniką: proporcje, odpoczynek, wilgotność, tempo. W kuchni w Niemczech pracujemy zwykle na mące typu 405 albo 550, na wodzie z kranu o innej twardości niż w Polsce i na jajkach z supermarketu, i to wystarczy. Ten przewodnik jest napisany dla nas, którzy robią pierogi w tygodniu po pracy, w niedzielę dla rodziny albo w grudniu pod [Wigilię](/pl/anlaesse/wigilia). Bez folkloru, bez „sekretnych” składników, z konkretami, które da się powtórzyć.
+export const bodyPierogiTeigPl = `Dobre [ciasto na pierogi](/pl/blog/ciasto-na-pierogi) nie jest magią babci z opowieści, tylko spokojną techniką: proporcje, odpoczynek, wilgotność, tempo. W kuchni w Niemczech pracujemy zwykle na mące typu 550 albo 405 i na wrzątku z kranu. Ten przewodnik jest napisany dla nas, którzy robią pierogi w tygodniu po pracy, w niedzielę dla rodziny albo w grudniu pod [Wigilię](/pl/anlaesse/wigilia). Bez folkloru, bez „sekretnych” składników, z konkretami, które da się powtórzyć.
 
 ## Co naprawdę robi różnicę
 
@@ -126,25 +126,24 @@ Jeśli uczysz się od zera, zacznij od mniejszych partii. Dopiero potem skaluj. 
 
 Na start sprawdzają się:
 
-- 500 g mąki pszennej (typ 405 lub 550)
-- 1 jajko
-- ok. 200 do 220 ml ciepłej wody
-- 1 łyżka oleju (albo roztopionego masła, jeśli lubisz bogatszy charakter)
-- szczypta soli
+- 500 g mąki pszennej typ 550 (typ 405 też działa, ciasto będzie delikatniejsze)
+- 1 łyżeczka soli
+- 250 ml wrzątku
+- 2 łyżki oleju rzepakowego
 
-Woda jest „na czucie”, bo mąki w Niemczech różnią się chłonięciem. Zaczynasz od mniejszej ilości, dokładasz łyżkami. Ciasto ma zbierać się w gładką kulę. Zbyt suche, pęka przy wałkowaniu. Zbyt mokre, klei się, rozciąga niekontrolowanie i trudniej o równy rant.
+Bez jajka. To klasyczne ciasto domowe, tak jak prowadzi je Kwestia Smaku i większość rodzinnych zeszytów: mąka, sól, gorąca woda, tłuszcz. Wrzątek scukrza skrobię na powierzchni, ciasto robi się miękkie, elastyczne i szczelnie skleja rant. Zaczynamy od 250 ml i w razie potrzeby dokładamy łyżkami. Ciasto ma zbierać się w gładką kulę. Zbyt suche, pęka przy wałkowaniu. Zbyt mokre, klei się, rozciąga niekontrolowanie i trudniej o równy rant.
 
-### Jajko: tak, nie, pół na pół
+### Jajko: nie w przepisie podstawowym
 
-Klasycznie wiele domów dodaje jajko dla spójności i koloru. Są też ciasta „same woda i mąka”, bardziej elastyczne, czasem preferowane przy bardzo cienkim wałkowaniu. My zwykle zostajemy przy jednym jajku na pół kilo mąki jako kompromisie: stabilny szew, przyjemna struktura po ugotowaniu, bez gumowatości. Jeśli robisz dietetyczną wersję albo kończy Ci się jajko, da się bez, ale wtedy jeszcze dokładniej pilnuj wilgotności.
+Klasycznie ciasto na pierogi jest bez jajka. Wersja z jajkiem to ciasto wzbogacone: twardsze, bardziej makaronowe, czasem wygodniejsze przy mokrym farszu albo mrożeniu. Nie jest obowiązkiem. Jeśli dodajesz jajko, zwykle potrzebujesz mniej wody. Na Alemniamie default zostaje przy wrzątku bez jajka, ilości są w [pierogach ruskich](/pl/rezepte/pierogi/ruskie).
 
 ## Wyrabianie krok po kroku
 
 1. Przesiej mąkę do miski, dodaj sól.
-2. Wbij jajko, wlej większość wody i olej.
-3. Mieszaj łyżką lub ręką, aż powstanie szorstka masa.
+2. Wlej wrzątek z olejem, mieszając łyżką.
+3. Mieszaj, aż powstanie szorstka masa.
 4. Przełóż na blat lekko oprószony mąką.
-5. Wyrabiaj 8 do 10 minut: składaj, dociskaj nasadą dłoni, obracaj.
+5. Wyrabiaj 8 minut: składaj, dociskaj nasadą dłoni, obracaj.
 6. Gdy powierzchnia zrobi się gładka i ciasto „odbija” lekko pod palcem, uformuj kulę.
 7. Przykryj misą lub folią, odstaw 20 do 30 minut w temperaturze pokojowej.
 
@@ -202,6 +201,10 @@ Jeśli święta są za dwa tygodnie, zróbcie teraz treningową porcję na czter
 
 
 ## FAQ: ciasto na pierogi
+
+### Czy ciasto potrzebuje jajka?
+
+Nie w przepisie podstawowym. Klasyczne ciasto to mąka, sól, wrzątek i tłuszcz. Jajko robi je twardsze i bardziej żółte, to wariant domowy, nie obowiązek. Wiele polskich przepisów podstawowych podaje jajko dopiero jako ciasto wzbogacone.
 
 ### Dlaczego nasze ciasto pęka przy sklejaniu?
 

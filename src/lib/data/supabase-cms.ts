@@ -4,6 +4,7 @@ import { invalidateContentCache } from "@/lib/data/content-cache";
 import {
   BLOG_DETAIL_SELECT,
   RECIPE_DETAIL_SELECT,
+  RECIPE_DETAIL_SELECT_LEGACY,
   hydrateBlogPostRows,
   hydrateRecipeRows,
 } from "@/lib/data/supabase-repository";
@@ -16,10 +17,17 @@ async function staffClient() {
 
 export async function listAllRecipes(): Promise<Recipe[]> {
   const supabase = await staffClient();
-  const { data, error } = await supabase
+  const first = await supabase
     .from("recipes")
     .select(RECIPE_DETAIL_SELECT)
     .order("updated_at", { ascending: false });
+  const { data, error } =
+    first.error && /recipe_ingredients.*section|column .*section/i.test(first.error.message)
+      ? await supabase
+          .from("recipes")
+          .select(RECIPE_DETAIL_SELECT_LEGACY)
+          .order("updated_at", { ascending: false })
+      : first;
   if (error || !data) {
     console.error("[supabase-cms] listAllRecipes", error?.message);
     return [];
@@ -29,11 +37,19 @@ export async function listAllRecipes(): Promise<Recipe[]> {
 
 export async function getRecipeById(id: string): Promise<Recipe | null> {
   const supabase = await staffClient();
-  const { data, error } = await supabase
+  const first = await supabase
     .from("recipes")
     .select(RECIPE_DETAIL_SELECT)
     .eq("id", id)
     .maybeSingle();
+  const { data, error } =
+    first.error && /recipe_ingredients.*section|column .*section/i.test(first.error.message)
+      ? await supabase
+          .from("recipes")
+          .select(RECIPE_DETAIL_SELECT_LEGACY)
+          .eq("id", id)
+          .maybeSingle()
+      : first;
   if (error || !data) return null;
   const [recipe] = await hydrateRecipeRows([data]);
   return recipe ?? null;
@@ -130,6 +146,7 @@ export async function saveRecipe(recipe: Recipe): Promise<Recipe> {
         name_de: ing.name.de,
         name_pl: ing.name.pl,
         group_name: ing.group,
+        section: ing.section ?? null,
         store_hint_de: ing.storeHintDe ?? null,
         substitute_de: ing.substitute?.de ?? null,
         substitute_pl: ing.substitute?.pl ?? null,

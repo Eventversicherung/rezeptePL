@@ -25,6 +25,7 @@ import type {
   Recipe,
   RecipeFamily,
   RecipeFamilyTranslation,
+  IngredientSection,
   RecipeIngredient,
   RecipeTranslation,
 } from "@/types/content";
@@ -186,6 +187,7 @@ type RecipeIngredientRow = {
   name_de: string;
   name_pl: string;
   group_name: RecipeIngredient["group"];
+  section?: IngredientSection | null;
   store_hint_de: string | null;
   substitute_de: string | null;
   substitute_pl: string | null;
@@ -250,6 +252,7 @@ function mapRecipe(
       amount: ing.amount,
       unit: { de: ing.unit_de, pl: ing.unit_pl },
       group: ing.group_name,
+      section: ing.section ?? undefined,
       storeHintDe: ing.store_hint_de ?? undefined,
       substitute:
         ing.substitute_de || ing.substitute_pl
@@ -292,8 +295,18 @@ export const RECIPE_CATALOG_SELECT = `id, status, cover_image, prep_minutes, coo
 
 export const RECIPE_DETAIL_SELECT = `id, status, cover_image, prep_minutes, cook_minutes, servings, video_url, family_id, variant_label, variant_image, related_post_ids, author_id, created_at, updated_at,
        recipe_translations ( locale, title, slug, excerpt, steps, article, seo_title, seo_description ),
+       recipe_ingredients ( id, sort_order, amount, unit_de, unit_pl, name_de, name_pl, group_name, section, store_hint_de, substitute_de, substitute_pl ),
+       recipe_clusters ( cluster_id )`;
+
+/** Same as RECIPE_DETAIL_SELECT, but without `section` until that column exists. */
+export const RECIPE_DETAIL_SELECT_LEGACY = `id, status, cover_image, prep_minutes, cook_minutes, servings, video_url, family_id, variant_label, variant_image, related_post_ids, author_id, created_at, updated_at,
+       recipe_translations ( locale, title, slug, excerpt, steps, article, seo_title, seo_description ),
        recipe_ingredients ( id, sort_order, amount, unit_de, unit_pl, name_de, name_pl, group_name, store_hint_de, substitute_de, substitute_pl ),
        recipe_clusters ( cluster_id )`;
+
+function isMissingSectionColumn(message: string | undefined) {
+  return Boolean(message && /recipe_ingredients.*section|column .*section/i.test(message));
+}
 
 export async function fetchPublishedRecipes(): Promise<Recipe[]> {
   return withContentCache("recipes-catalog", [CONTENT_TAG, RECIPES_TAG], async () => {
@@ -332,13 +345,21 @@ export async function fetchRecipeById(id: string): Promise<Recipe | null> {
       .select(RECIPE_DETAIL_SELECT)
       .eq("id", id)
       .maybeSingle();
-    if (error || !data) {
-      if (error) {
-        console.error("[supabase-repository] fetchRecipeById", error.message);
+    const missingSection = isMissingSectionColumn(error?.message);
+    const result = missingSection
+      ? await supabase
+          .from("recipes")
+          .select(RECIPE_DETAIL_SELECT_LEGACY)
+          .eq("id", id)
+          .maybeSingle()
+      : { data, error };
+    if (result.error || !result.data) {
+      if (result.error) {
+        console.error("[supabase-repository] fetchRecipeById", result.error.message);
       }
       return null;
     }
-    const [recipe] = await mapRecipeRows([data as RecipeRow]);
+    const [recipe] = await mapRecipeRows([result.data as RecipeRow]);
     return recipe ?? null;
   });
 }

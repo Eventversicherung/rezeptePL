@@ -21,7 +21,12 @@ import {
   renderInlineMarkdown,
   stripInlineMarkdown,
 } from "@/lib/format/inline-markdown";
-import { groupLabelKey, scaleAmount } from "@/lib/utils";
+import {
+  groupLabelKey,
+  ingredientsBySection,
+  scaleAmount,
+  sectionLabelKey,
+} from "@/lib/utils";
 import { familyVariantPath } from "@/lib/data/recipe-paths";
 import { ModeSwitch } from "./ModeSwitch";
 import { RecipeArticle } from "./RecipeArticle";
@@ -172,12 +177,37 @@ export function RecipeExperience({
     };
   }, [mode]);
 
-  const grouped = useMemo(() => {
+  const sectionBlocks = useMemo(() => {
+    const bySection = ingredientsBySection(recipe.ingredients);
+    if (bySection[0]?.key === "all") return null;
+    return bySection.map((entry) => ({
+      key: entry.key,
+        heading:
+          entry.key === "dough" ||
+          entry.key === "filling" ||
+          entry.key === "finish"
+            ? t(sectionLabelKey(entry.key))
+            : t("ingredients"),
+      items: entry.items,
+    }));
+  }, [recipe.ingredients, t]);
+
+  const cookGrouped = sectionBlocks ?? [
+    {
+      key: "all" as const,
+      heading: t("compactIngredients"),
+      items: recipe.ingredients,
+    },
+  ];
+
+  const shopGrouped = useMemo(() => {
+    if (sectionBlocks) return sectionBlocks;
     return GROUP_ORDER.map((group) => ({
-      group,
+      key: group,
+      heading: t(groupLabelKey(group)),
       items: recipe.ingredients.filter((i) => i.group === group),
     })).filter((g) => g.items.length > 0);
-  }, [recipe.ingredients]);
+  }, [sectionBlocks, recipe.ingredients, t]);
 
   function shareList() {
     const lines = recipe.ingredients.map((i) => {
@@ -407,20 +437,29 @@ export function RecipeExperience({
                     {t("switchToShop")} →
                   </button>
                 </div>
-                <ul className="mt-3 divide-y divide-border border-y border-border">
-                  {recipe.ingredients.map((ing) => (
-                    <li
-                      key={ing.id}
-                      className="flex items-baseline justify-between gap-3 py-2.5 text-sm"
-                    >
-                      <span>{ing.name[locale]}</span>
-                      <span className="text-muted">
-                        {scaleAmount(ing.amount, recipe.servings, servings)}{" "}
-                        {ing.unit[locale]}
-                      </span>
-                    </li>
-                  ))}
-                </ul>
+                {cookGrouped.map((block) => (
+                  <div key={block.key} className="mt-4 first:mt-3">
+                    {cookGrouped.length > 1 ? (
+                      <h3 className="text-sm font-bold uppercase tracking-[0.12em] text-accent">
+                        {block.heading}
+                      </h3>
+                    ) : null}
+                    <ul className="mt-2 divide-y divide-border border-y border-border">
+                      {block.items.map((ing) => (
+                        <li
+                          key={ing.id}
+                          className="flex items-baseline justify-between gap-3 py-2.5 text-sm"
+                        >
+                          <span>{ing.name[locale]}</span>
+                          <span className="text-muted">
+                            {scaleAmount(ing.amount, recipe.servings, servings)}{" "}
+                            {ing.unit[locale]}
+                          </span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
               </section>
             </>
           ) : null}
@@ -462,13 +501,13 @@ export function RecipeExperience({
             </p>
           ) : null}
 
-          {grouped.map(({ group, items }) => (
-            <section key={group}>
+          {shopGrouped.map((block) => (
+            <section key={block.key}>
               <h2 className="font-display text-lg font-semibold">
-                {t(groupLabelKey(group))}
+                {block.heading}
               </h2>
               <ul className="mt-2 space-y-2">
-                {items.map((ing) => {
+                {block.items.map((ing) => {
                   const amount = scaleAmount(
                     ing.amount,
                     recipe.servings,

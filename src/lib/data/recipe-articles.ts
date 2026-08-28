@@ -70,13 +70,13 @@ const FACTS: Record<string, ArticleFacts> = {
  originPl:
  "Według legendy dominikański mnich święty Jacek Odrowąż, który zmarł w Krakowie w 1257 roku, przywiózł pierwsze pierogi z misji w Kijowie i miał nimi żywić ludzi podczas głodu po najeździe tatarskim w 1241 roku. Jak pierogi naprawdę powstały, trudno dziś jednoznacznie ustalić, niektórzy historycy kuchni wskazują nawet na wędrówkę przez Szlak Jedwabny aż z Chin, ale pierwsza drukowana polska książka kucharska, Compendium Ferculorum z 1682 roku, dowodzi, że już wtedy były trwałym elementem kuchni. Długo uważano je za jedzenie chłopskie, aż z czasem trafiły też na stoły szlachty, a każdy region wypracował własny farsz: na wschodzie Polski znane są gryczano-ziemniaczane pierogi biłgorajskie, na wesela lepiono pieczone kurniki z farszem z kurczaka, a sama nazwa „ruskie” przy najbardziej znanym dziś farszu z ziemniaka i twarogu odnosi się do historycznej Galicji, dziś części zachodniej Ukrainy. Sam farsz do dziś wymaga precyzji, zbyt mokry robi się kleisty, zbyt suchy rozrywa ciasto.",
  shopDe:
- "In Deutschland findest du Twaróg im Polenladen, als Alternative eignet sich gut abgetropfter Magerquark. Mehl Typ 405 oder 550 funktioniert gut für den Teig. Technik und Form für den Grundteig vertieft der Pierogi-Guide und der Teig-Guide, hier auf dieser Seite geht es um die Ruskie-Füllung selbst.",
+ "In Deutschland findest du Twaróg im Polenladen, als Alternative eignet sich gut abgetropfter Magerquark. Für den Teig reichen Mehl Type 550, kochendes Wasser, Salz und Öl, kein Ei. Technik und Form für den Grundteig vertieft der Pierogi-Guide und der Teig-Guide, hier auf dieser Seite geht es um die Ruskie-Füllung selbst.",
  shopPl:
- "W Niemczech twaróg kupisz w polskim sklepie, zamiennikiem może być dobrze odsączony Quark. Mąka typ 405 lub 550 działa dobrze do ciasta. Technikę i lepienie opisują Pierogi-Guide i przewodnik po cieście, tutaj zostaje sam farsz ruskie.",
+ "W Niemczech twaróg kupisz w polskim sklepie, zamiennikiem może być dobrze odsączony Quark. Do ciasta wystarczy mąka typ 550, wrzątek, sól i olej, bez jajka. Technikę i lepienie opisują Pierogi-Guide i przewodnik po cieście, tutaj zostaje sam farsz ruskie.",
  techniqueDe:
- "Der Teig braucht Ruhe, die Ränder müssen fest verschlossen sein, und das Salzwasser darf nur leicht köcheln. Wenn Pierogi aufsteigen, sind sie meist gar. Butter und goldene Zwiebel sind kein Extra, sondern Teil des Gerichts.",
+ "Der klassische Teig braucht kochendes Wasser und Ruhe, kein Ei. Die Ränder müssen fest verschlossen sein, und das Salzwasser darf nur leicht köcheln. Wenn Pierogi aufsteigen, sind sie meist gar. Butter und goldene Zwiebel sind kein Extra, sondern Teil des Gerichts.",
  techniquePl:
- "Ciasto potrzebuje odpoczynku, brzegi muszą być szczelnie zlepione, a woda tylko lekko wrzeć. Gdy pierogi wypłyną, zwykle są gotowe. Masło i złota cebula to nie dodatek, tylko część dania, bo bez nich farsz smakuje płasko, nawet jeśli sam jest dobrze doprawiony.",
+ "Klasyczne ciasto potrzebuje wrzątku i odpoczynku, nie jajka. Brzegi muszą być szczelnie zlepione, a woda tylko lekko wrzeć. Gdy pierogi wypłyną, zwykle są gotowe. Masło i złota cebula to nie dodatek, tylko część dania, bo bez nich farsz smakuje płasko, nawet jeśli sam jest dobrze doprawiony.",
  serveDe:
  "Serviere die Pierogi heiß, mit Sauerrahm oder ohne. Reste brät man am nächsten Tag in der Pfanne, viele finden sie dann sogar noch besser, weil die Naht beim Anbraten schön knusprig wird.",
  servePl:
@@ -86,9 +86,9 @@ const FACTS: Record<string, ArticleFacts> = {
  diasporaPl:
  "Dla Polaków w Niemczech dzień na pierogi bywa rytuałem: ciasto rano, lepienie po południu, wspólne jedzenie wieczorem. Z dziećmi ilości rosną szybko, warto więc od razu planować z zapasem. Nadwyżkę zawsze można zamrozić na później, więc jeden dłuższy dzień lepienia zamienia się w kilka szybkich obiadów w tygodniu.",
  mistakesDe:
- "Die klassischen Fehler sind zu wenig Mehl im Teig, eine nasse Füllung und zu wildes Kochen. Teste lieber eine kleine Charge, bevor du fünfzig Stück formst, so korrigierst du Naht und Konsistenz frühzeitig.",
+ "Die klassischen Fehler sind ein zu trockener Teig ohne heißes Wasser, eine nasse Füllung und zu wildes Kochen. Teste lieber eine kleine Charge, bevor du fünfzig Stück formst, so korrigierst du Naht und Konsistenz frühzeitig.",
  mistakesPl:
- "Klasyczne błędy to za mało mąki w cieście, mokry farsz i zbyt gwałtowne gotowanie. Lepiej przetestować małą partię, zanim ulepisz pięćdziesiąt sztuk, dzięki temu wcześnie poprawisz szew i konsystencję, zamiast psuć cały garnek na raz. Warto też pamiętać, że zbyt cienko rozwałkowane ciasto łatwo pęka podczas gotowania, więc lepiej zostawić mu odpowiednią grubość.",
+ "Klasyczne błędy to zbyt suche ciasto bez wrzątku, mokry farsz i zbyt gwałtowne gotowanie. Lepiej przetestować małą partię, zanim ulepisz pięćdziesiąt sztuk, dzięki temu wcześnie poprawisz szew i konsystencję, zamiast psuć cały garnek na raz. Warto też pamiętać, że zbyt cienko rozwałkowane ciasto łatwo pęka podczas gotowania, więc lepiej zostawić mu odpowiednią grubość.",
  variantsDe:
  "Du kannst Speck in die Füllung geben, Sauerrahm dazu reichen oder Reste am nächsten Tag in der Pfanne braten. Oben wechselst du zu [Fleisch](/de/rezepte/pierogi/fleisch), [Kraut & Pilze](/de/rezepte/pierogi/kraut-pilze) oder süßen [Heidelbeeren](/de/rezepte/pierogi/jagody). Teig und Naht vertieft der [Pierogi-Guide](/de/blog/pierogi-guide); runde Obst-Knödel sind etwas anderes: [Knedle śliwki](/de/rezepte/knedle-sliwki).",
  variantsPl:
@@ -1090,9 +1090,9 @@ variantsPl:
  originPl:
  "Uszka to małe pierogi — często z farszem grzybowym — klasycznie w klarownym barszczu. To nie wielka partia pierogów i nie duplikat przepisu na barszcz: własna Rezept, własny fokus. Barszcz zostaje przepisem na zupy; uszka zostają przepisem na pierożki.",
  shopDe:
- "Getrocknete Pilze holst du am zuverlässigsten im [Polenladen](/de/blog/polenladen-einkaufen); dazu Zwiebel, Mehl, Ei und Öl. Den Barszcz kochst du separat nach dem [Barszcz-Rezept](/de/rezepte/barszcz-czerwony) und der [Barszcz-Technik](/de/blog/barszcz-technik). Teiggefühl gibt der [Pierogi-Teig](/de/blog/pierogi-teig)-Guide; wer am Vortag formt, nutzt den [Freezer-Guide](/de/blog/freezer-meal-prep).",
+ "Getrocknete Pilze holst du am zuverlässigsten im [Polenladen](/de/blog/polenladen-einkaufen); dazu Zwiebel, Mehl, kochendes Wasser und Öl. Den Barszcz kochst du separat nach dem [Barszcz-Rezept](/de/rezepte/barszcz-czerwony) und der [Barszcz-Technik](/de/blog/barszcz-technik). Teiggefühl gibt der [Pierogi-Teig](/de/blog/pierogi-teig)-Guide; wer am Vortag formt, nutzt den [Freezer-Guide](/de/blog/freezer-meal-prep).",
  shopPl:
- "Suszone grzyby najpewniej kupisz w [sklepie polskim](/pl/blog/sklep-polski-zakupy); do tego cebula, mąka, jajko i olej. Barszcz gotujesz osobno według [przepisu](/pl/rezepte/barszcz-czerwony) i [techniki](/pl/blog/jak-ugotowac-barszcz). Przy cieście pomaga [ciasto na pierogi](/pl/blog/ciasto-na-pierogi); dzień wcześniej — [mrożenie](/pl/blog/mrozenie-pierogow).",
+ "Suszone grzyby najpewniej kupisz w [sklepie polskim](/pl/blog/sklep-polski-zakupy); do tego cebula, mąka, wrzątek i olej. Barszcz gotujesz osobno według [przepisu](/pl/rezepte/barszcz-czerwony) i [techniki](/pl/blog/jak-ugotowac-barszcz). Przy cieście pomaga [ciasto na pierogi](/pl/blog/ciasto-na-pierogi); dzień wcześniej — [mrożenie](/pl/blog/mrozenie-pierogow).",
  techniqueDe:
  "Füllung trocken schmoren, kleine Kreise, wenig Füllung, fest zu Öhrchen schließen. In leicht siedendem Wasser garen, bis sie aufschwimmen. In der Schale mit heißem Barszcz zusammenführen — nicht stundenlang in der Suppe lagern.",
  techniquePl:

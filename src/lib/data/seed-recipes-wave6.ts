@@ -1,4 +1,5 @@
 import type { Recipe } from "@/types/content";
+import { pierogiDoughIngredients } from "./pierogi-dough";
 
 /** Wave 6 Wigilia money pages: Makowiec + Uszka (after baking pillar). */
 export const seedRecipesWave6: Recipe[] = [
@@ -160,8 +161,8 @@ export const seedRecipesWave6: Recipe[] = [
             tip: "Die Füllung muss vollständig ausgekühlt und trocken sein, denn feuchte Füllung reißt später den dünnen Teig beim Verschließen der Öhrchen auf.",
           },
           {
-            text: "Den Pierogi-Teig kneten, kurz ruhen lassen und deutlich kleinere Kreise ausstechen als für gefüllte Ruskie-Pierogi, denn Uszka bleiben bewusst klein.",
-            tip: "Wie sich der Teig richtig anfühlt, zeigt der [Pierogi-Teig-Guide](/de/blog/pierogi-teig), Uszka bleiben davon unabhängig ihr eigenes Rezept mit eigener Füllung.",
+            text: "Mehl und Salz mischen, kochendes Wasser mit dem Öl unter Rühren dazugeben, 8 Minuten zu einem glatten Teig kneten, 20 bis 30 Minuten ruhen lassen und deutlich kleinere Kreise ausstechen als für Ruskie.",
+            tip: "Klassischer Pierogi-Teig braucht kein Ei. Das heiße Wasser macht ihn weich und dehnbar. Mengen stehen im [Pierogi-Teig](/de/blog/pierogi-teig). Uszka bleiben davon unabhängig ihr eigenes Rezept mit eigener Füllung.",
           },
           {
             text: "Einen kleinen Löffel Füllung mittig auf jeden Kreis setzen, den Teig zum Halbmond falten und die Enden fest zu einem kleinen Öhrchen zusammendrücken.",
@@ -187,8 +188,8 @@ export const seedRecipesWave6: Recipe[] = [
             tip: "Farsz musi być całkiem wystudzony i suchy, bo mokre nadzienie rozrywa później cienkie ciasto podczas zamykania uszek.",
           },
           {
-            text: "Wyrób ciasto na pierogi, odstaw je na chwilę do odpoczynku i wykrawaj znacznie mniejsze kółka niż na pierogi ruskie, bo uszka mają być naprawdę małe.",
-            tip: "Jak powinno wyglądać dobre ciasto, opisuje [przewodnik po cieście na pierogi](/pl/blog/ciasto-na-pierogi), choć uszka zostają swoim własnym przepisem z innym farszem.",
+            text: "Wymieszaj mąkę z solą, wlej wrzątek z olejem, zagniataj 8 minut na gładkie ciasto, odstaw przykryte na 20 do 30 minut i wykrawaj znacznie mniejsze kółka niż na pierogi ruskie.",
+            tip: "Klasyczne ciasto na pierogi nie potrzebuje jajka. Wrzątek robi je miękkie i elastyczne. Ilości opisuje [ciasto na pierogi](/pl/blog/ciasto-na-pierogi). Uszka zostają swoim przepisem z innym farszem.",
           },
           {
             text: "Na środek każdego kółka nałóż odrobinę farszu, złóż ciasto na pół w półksiężyc i mocno złącz końce, tak by powstało małe uszko.",
@@ -205,66 +206,43 @@ export const seedRecipesWave6: Recipe[] = [
       },
     },
     ingredients: [
+      ...pierogiDoughIngredients("us", 300),
       {
-        id: "us-1",
+        id: "us-filling-mushrooms",
         name: { de: "Getrocknete Pilze", pl: "Suszone grzyby" },
         amount: 40,
         unit: { de: "g", pl: "g" },
         group: "polish",
+        section: "filling",
         storeHintDe:
           "Im Polenladen bekommst du meist getrocknete Steinpilze oder eine Mischung aus Waldpilzen",
       },
       {
-        id: "us-2",
+        id: "us-filling-onion",
         name: { de: "Zwiebel", pl: "Cebula" },
         amount: 2,
         unit: { de: "Stück", pl: "szt." },
         group: "produce",
+        section: "filling",
       },
       {
-        id: "us-3",
-        name: { de: "Mehl", pl: "Mąka" },
-        amount: 300,
-        unit: { de: "g", pl: "g" },
-        group: "pantry",
-      },
-      {
-        id: "us-4",
-        name: { de: "Ei", pl: "Jajko" },
-        amount: 1,
-        unit: { de: "Stück", pl: "szt." },
-        group: "dairy",
-      },
-      {
-        id: "us-5",
-        name: { de: "Wasser", pl: "Woda" },
-        amount: 120,
-        unit: { de: "ml", pl: "ml" },
-        group: "pantry",
-      },
-      {
-        id: "us-6",
-        name: { de: "Öl", pl: "Olej" },
-        amount: 2,
-        unit: { de: "EL", pl: "łyżki" },
-        group: "pantry",
-      },
-      {
-        id: "us-7",
+        id: "us-filling-fat",
         name: { de: "Butter oder Öl zum Schmoren", pl: "Masło lub olej do duszenia" },
         amount: 2,
         unit: { de: "EL", pl: "łyżki" },
         group: "dairy",
+        section: "filling",
       },
       {
-        id: "us-8",
+        id: "us-filling-salt",
         name: { de: "Salz, Pfeffer", pl: "Sól, pieprz" },
         amount: 1,
         unit: { de: "Prise", pl: "szczypta" },
         group: "spices",
+        section: "filling",
       },
     ],
     createdAt: "2026-07-20T18:10:00.000Z",
-    updatedAt: "2026-07-20T18:10:00.000Z",
+    updatedAt: "2026-08-28T10:00:00.000Z",
   },
 ];

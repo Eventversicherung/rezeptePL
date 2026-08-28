@@ -1,4 +1,9 @@
 import type { Recipe } from "@/types/content";
+import {
+  pierogiDoughIngredients,
+  pierogiDoughStepDe,
+  pierogiDoughStepPl,
+} from "./pierogi-dough";
 
 /**
  * Wave 10 Paket C — Family variants (Pierogi jagody + Naleśniki dżem).
@@ -46,16 +51,13 @@ export const seedRecipesWave10C: Recipe[] = [
         excerpt:
           "Süße Pierogi mit Heidelbeeren, gefaltete Teigtaschen mit fruchtiger Füllung, serviert mit Butter und Zucker.",
         steps: [
-          {
-            text: "Pierogi-Teig kneten, 20 bis 30 Minuten ruhen lassen, dünn ausrollen und Kreise ausstechen.",
-            tip: "Das Teig-Gefühl erklärt der Beitrag [Pierogi-Teig](/de/blog/pierogi-teig), einen Überblick über alle Varianten gibt der [Pierogi-Guide](/de/blog/pierogi-guide).",
-          },
+          pierogiDoughStepDe,
           {
             text: "Heidelbeeren waschen, gut abtropfen lassen und mit Zucker und 1 TL Speisestärke mischen.",
             tip: "Die Beeren müssen wirklich trocken sein, denn eine nasse Füllung lässt den Teig beim Kochen aufplatzen. Das sind übrigens keine [Knedle ze śliwkami](/de/rezepte/knedle-sliwki), also keine runden Obst-Knödel aus Kartoffelteig.",
           },
           {
-            text: "Wenig Füllung mittig auf jeden Kreis geben, die Ränder fest verschließen und dabei die Luft heraus streichen.",
+            text: "Teig dünn ausrollen, Kreise ausstechen, wenig Füllung mittig auf jeden Kreis geben, die Ränder fest verschließen und dabei die Luft heraus streichen.",
             tip: "Für gleichmäßige Größe hilft der Beitrag zu [Pierogi-Formen](/de/blog/pierogi-formen), so garen alle Taschen in derselben Zeit.",
           },
           {
@@ -92,16 +94,13 @@ Oben auf der Seite kannst du jederzeit zu Ruskie, Fleisch oder Kraut-Pilze wechs
         excerpt:
           "Słodkie pierogi z jagodami, sklejane pierogi z owocowym farszem, podawane z masłem i cukrem.",
         steps: [
-          {
-            text: "Zagnieć ciasto na pierogi, odstaw na 20 do 30 minut, rozwałkuj cienko i wykrawaj kółka.",
-            tip: "Wyczucie ciasta opisuje [ciasto na pierogi](/pl/blog/ciasto-na-pierogi), a przegląd wszystkich wariantów daje [przewodnik pierogi](/pl/blog/przewodnik-pierogi).",
-          },
+          pierogiDoughStepPl,
           {
             text: "Umyj jagody, dobrze odsącz i wymieszaj z cukrem oraz 1 łyżeczką skrobi ziemniaczanej.",
             tip: "Jagody muszą być naprawdę suche, bo mokry farsz rozsadza ciasto podczas gotowania. To nie [knedle ze śliwkami](/pl/rezepte/knedle-sliwki), czyli nie okrągłe knedle ziemniaczane.",
           },
           {
-            text: "Nałóż niewielką porcję farszu na środek każdego kółka, szczelnie sklej brzegi i wypchnij powietrze.",
+            text: "Rozwałkuj ciasto cienko, wykrawaj kółka, nałóż niewielką porcję farszu na środek każdego kółka, szczelnie sklej brzegi i wypchnij powietrze.",
             tip: "Równy rozmiar ułatwiają [foremki do pierogów](/pl/blog/foremki-do-pierogow), dzięki nim wszystkie kęsy gotują się tyle samo czasu.",
           },
           {
@@ -134,52 +133,43 @@ U góry strony możesz w każdej chwili przełączyć na ruskie, mięso albo kap
       },
     },
     ingredients: [
+      ...pierogiDoughIngredients("pj"),
       {
-        id: "pj-1",
-        name: { de: "Mehl", pl: "Mąka" },
-        amount: 500,
-        unit: { de: "g", pl: "g" },
-        group: "pantry",
-      },
-      {
-        id: "pj-2",
-        name: { de: "Ei", pl: "Jajko" },
-        amount: 1,
-        unit: { de: "Stück", pl: "szt." },
-        group: "dairy",
-      },
-      {
-        id: "pj-3",
+        id: "pj-filling-berries",
         name: { de: "Heidelbeeren (frisch oder TK)", pl: "Jagody (świeże lub mrożone)" },
         amount: 400,
         unit: { de: "g", pl: "g" },
         group: "produce",
+        section: "filling",
         storeHintDe: "TK-Beeren gut abtauen und gründlich abtropfen lassen",
       },
       {
-        id: "pj-4",
+        id: "pj-filling-sugar",
         name: { de: "Zucker", pl: "Cukier" },
         amount: 60,
         unit: { de: "g", pl: "g" },
         group: "pantry",
+        section: "filling",
       },
       {
-        id: "pj-5",
+        id: "pj-filling-starch",
         name: { de: "Speisestärke", pl: "Skrobia ziemniaczana" },
         amount: 1,
         unit: { de: "TL", pl: "łyżeczka" },
         group: "pantry",
+        section: "filling",
       },
       {
-        id: "pj-6",
+        id: "pj-finish-butter",
         name: { de: "Butter", pl: "Masło" },
         amount: 40,
         unit: { de: "g", pl: "g" },
         group: "dairy",
+        section: "finish",
       },
     ],
     createdAt: "2026-07-20T18:00:00.000Z",
-    updatedAt: "2026-07-20T18:00:00.000Z",
+    updatedAt: "2026-08-28T10:00:00.000Z",
   },
   {
     id: "recipe-nalesniki-dzem",

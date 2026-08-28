@@ -7,6 +7,9 @@ export type IngredientGroup =
   | "spices"
   | "polish"
   | "other";
+
+/** How the ingredient is used in the recipe, independent of store grouping. */
+export type IngredientSection = "dough" | "filling" | "finish";
 export type UserRole = "user" | "admin" | "moderator";
 export type SubmissionStatus = "pending" | "approved" | "rejected";
 export type RecipeMode = "cook" | "shop";
@@ -22,6 +25,8 @@ export type RecipeIngredient = {
   amount: number;
   unit: Record<Locale, string>;
   group: IngredientGroup;
+  /** Cook-list grouping: Teig / Füllung / Zum Servieren. */
+  section?: IngredientSection;
   storeHintDe?: string;
   substitute?: Record<Locale, string>;
 };

@@ -5,6 +5,7 @@ import type {
   SavedRecipe,
   ShoppingList,
 } from "@/types/content";
+import { pierogiDoughIngredients, pierogiDoughStepDe, pierogiDoughStepPl } from "./pierogi-dough";
 import { seedClusters as expandedClusters } from "./seed-clusters";
 import { seedBlogPosts } from "./seed-blog";
 import {
@@ -74,25 +75,18 @@ const baseRecipes: Recipe[] = [
         excerpt:
           "Klassische Pierogi mit Kartoffel und Twaróg, weich in der Füllung und würzig in der Zwiebelbutter, die Ruskie-Variante der Familie, ganz anders als die stichfesten Pierogi leniwe oder die winzigen Wigilia-Täschchen Uszka.",
         steps: [
+          pierogiDoughStepDe,
           {
-            text: "Schäle die Kartoffeln, koche sie weich und stampfe sie noch heiß, damit später keine Klümpchen in der Füllung bleiben.",
-            tip: "Lass die gestampften Kartoffeln kurz offen stehen, damit überschüssige Feuchtigkeit verdampft, sonst wird die Füllung zu weich.",
+            text: "Während der Teig ruht, Kartoffeln schälen, weich kochen, noch heiß stampfen und offen ausdampfen lassen. Eine Zwiebel in Butter goldbraun braten, Twaróg zerdrücken und alles mit Salz und Pfeffer zu einer festen, nicht nassen Füllung mischen.",
+            tip: "Der Quark muss gut abtropfen, sonst weicht die Füllung den Teig von innen auf. Mehlig kochende Kartoffeln binden besser als festkochende.",
           },
           {
-            text: "Zerdrücke den Twaróg mit einer Gabel und vermische ihn gründlich mit den Kartoffeln, der fein gewürfelten Zwiebel und Salz.",
-            tip: "Brate die Zwiebel vor dem Mischen kurz goldbraun an, das nimmt ihr die Schärfe und gibt der Füllung mehr Tiefe.",
+            text: "Teig dünn ausrollen, Kreise ausstechen, jeweils einen Löffel kalter Füllung darauf setzen und die Ränder fest zum Halbmond schließen.",
+            tip: "Drücke die Naht zuerst mit den Fingern und dann noch einmal mit einer Gabel zu, so öffnet sich beim Kochen kein Pieróg.",
           },
           {
-            text: "Knete aus Mehl, Ei, Wasser und Öl einen glatten Teig und lass ihn 20 Minuten unter einem Tuch ruhen.",
-            tip: "Der Teig soll weich und elastisch sein, aber nicht an den Fingern kleben, notfalls löffelweise Mehl nachgeben.",
-          },
-          {
-            text: "Stich runde Kreise aus dem ausgerollten Teig, fülle sie mit einem Löffel Masse und drücke die Ränder fest zu einer Halbmondform zusammen.",
-            tip: "Drücke die Naht zuerst mit den Fingern und dann noch einmal mit einer Gabel zu, so öffnet sich beim Kochen kein Pierog.",
-          },
-          {
-            text: "Gare die Pierogi in leicht kochendem Salzwasser, bis sie an die Oberfläche steigen, und serviere sie sofort mit brauner Butter und angeschwitzter Zwiebel.",
-            tip: "Lass das Wasser nur sanft köcheln, bei zu starkem Kochen reißen die Nähte auf.",
+            text: "In leicht siedendem Salzwasser garen, bis die Pierogi aufschwimmen, dann 1 bis 2 Minuten nachziehen. Mit brauner Butter, goldener Zwiebel und optional Śmietana servieren.",
+            tip: "Lass das Wasser nur sanft köcheln. Zu wildes Kochen reißt die Nähte auf.",
           },
         ],
         seoTitle: "Pierogi Ruskie Rezept | Alemniam",
@@ -108,7 +102,7 @@ Lies den [Twaróg-Guide](/de/blog/twarog-deutschland) und lass den Quark gut abt
 
 ### Teig
 
-Schritt für Schritt hilft [Pierogi-Teig](/de/blog/pierogi-teig), außerdem die [Teigmaschine](/de/blog/teigmaschine-pierogi) und die [Technik Teig](/de/techniken/teig).
+Klassisch ohne Ei: Mehl, Salz, kochendes Wasser, Öl. Schritt für Schritt hilft [Pierogi-Teig](/de/blog/pierogi-teig), außerdem die [Teigmaschine](/de/blog/teigmaschine-pierogi) und die [Technik Teig](/de/techniken/teig).
 
 ### Geschwister
 
@@ -120,25 +114,18 @@ Oben wechseln zu Fleisch, Kraut & Pilze oder Heidelbeeren.`,
         excerpt:
           "Klasyczne pierogi z ziemniakami i twarogiem, miękkie w farszu i aromatyczne z cebulką na maśle, wariant ruskie, zupełnie inny niż zwarte pierogi leniwe czy maleńkie wigilijne uszka.",
         steps: [
+          pierogiDoughStepPl,
           {
-            text: "Obierz ziemniaki, ugotuj je do miękkości i ugnieć jeszcze na gorąco, żeby w farszu nie zostały grudki.",
-            tip: "Odstaw ugniecione ziemniaki na chwilę bez przykrycia, żeby odparowała nadmiarowa wilgoć, inaczej farsz będzie za wodnisty.",
+            text: "Gdy ciasto odpoczywa, obierz ziemniaki, ugotuj je, ugnieć na gorąco i odparuj bez przykrycia. Zeszklij cebulę na maśle, rozgnieć twaróg i wymieszaj wszystko z solą i pieprzem na zbity, nie mokry farsz.",
+            tip: "Twaróg musi być dobrze odsączony, inaczej farsz rozmiękcza ciasto od środka. Ziemniaki mączyste wiążą lepiej niż sałatkowe.",
           },
           {
-            text: "Rozgnieć twaróg widelcem i dokładnie wymieszaj go z ziemniakami, drobno posiekaną cebulą i solą.",
-            tip: "Podsmaż cebulę na złoto przed dodaniem do farszu, straci ostrość i doda mu głębi smaku.",
+            text: "Rozwałkuj ciasto cienko, wykrawaj kółka, nakładaj łyżkę zimnego farszu i szczelnie zlepiaj brzegi w półksiężyc.",
+            tip: "Zlep szew najpierw palcami, potem dodatkowo widelcem, wtedy pieróg nie otworzy się w wodzie.",
           },
           {
-            text: "Zagnieć gładkie ciasto z mąki, jajka, wody i oleju i odstaw je na 20 minut pod ściereczką.",
-            tip: "Ciasto ma być miękkie i elastyczne, ale nie lepić się do rąk, w razie potrzeby dosyp łyżkę mąki.",
-          },
-          {
-            text: "Wykrawaj kółka z rozwałkowanego ciasta, nakładaj łyżkę farszu i szczelnie zlepiaj brzegi w kształt półksiężyca.",
-            tip: "Zlep szew najpierw palcami, a potem dodatkowo widelcem, dzięki temu pieróg się nie otworzy podczas gotowania.",
-          },
-          {
-            text: "Gotuj pierogi w lekko wrzącej, osolonej wodzie, aż wypłyną na powierzchnię, i podawaj od razu z przypieczonym masłem i cebulą.",
-            tip: "Gotuj wodę tylko na lekkim wrzeniu, przy zbyt intensywnym gotowaniu pierogi mogą się porozklejać.",
+            text: "Gotuj w lekko wrzącej, osolonej wodzie, aż wypłyną, potem jeszcze 1 do 2 minut. Podawaj z zrumienionym masłem, złotą cebulką i opcjonalnie śmietaną.",
+            tip: "Woda ma tylko łagodnie wrzeć. Zbyt gwałtowne gotowanie rozrywa szwy.",
           },
         ],
         seoTitle: "Pierogi ruskie przepis | Alemniam",
@@ -154,60 +141,96 @@ Ziemniaki, twaróg i cebula, bez żadnego widowiska, tylko smak, który wielu ł
 
 ### Ciasto
 
-[Ciasto na pierogi](/pl/blog/ciasto-na-pierogi) · [Robot](/pl/blog/robot-do-ciasta-pierogi) · [Technika](/pl/techniken/ciasto).`,
+Klasycznie bez jajka: mąka, sól, wrzątek, olej. [Ciasto na pierogi](/pl/blog/ciasto-na-pierogi) · [Robot](/pl/blog/robot-do-ciasta-pierogi) · [Technika](/pl/techniken/ciasto).`,
       },
     },
     ingredients: [
+      ...pierogiDoughIngredients("pi"),
       {
-        id: "pi-1",
-        name: { de: "Mehl", pl: "Mąka" },
-        amount: 500,
-        unit: { de: "g", pl: "g" },
-        group: "pantry",
-      },
-      {
-        id: "pi-2",
-        name: { de: "Ei", pl: "Jajko" },
-        amount: 1,
-        unit: { de: "Stück", pl: "szt." },
-        group: "dairy",
-      },
-      {
-        id: "pi-3",
-        name: { de: "Kartoffeln", pl: "Ziemniaki" },
-        amount: 600,
+        id: "pi-filling-potato",
+        name: { de: "Mehlig kochende Kartoffeln", pl: "Ziemniaki mączyste" },
+        amount: 700,
         unit: { de: "g", pl: "g" },
         group: "produce",
+        section: "filling",
       },
       {
-        id: "pi-4",
+        id: "pi-filling-twarog",
         name: { de: "Twaróg", pl: "Twaróg" },
-        amount: 250,
+        amount: 300,
         unit: { de: "g", pl: "g" },
         group: "polish",
-        storeHintDe: "Quark (Magerquark / Speisequark)",
+        section: "filling",
+        storeHintDe: "Quark (Magerquark / Speisequark), gut abtropfen lassen",
         substitute: {
           de: "Magerquark, gut abgetropft",
           pl: "Chudy twaróg lub Quark dobrze odsączony",
         },
       },
       {
-        id: "pi-5",
-        name: { de: "Zwiebel", pl: "Cebula" },
-        amount: 2,
+        id: "pi-filling-onion",
+        name: { de: "Zwiebel für die Füllung", pl: "Cebula do farszu" },
+        amount: 1,
         unit: { de: "Stück", pl: "szt." },
         group: "produce",
+        section: "filling",
       },
       {
-        id: "pi-6",
-        name: { de: "Butter", pl: "Masło" },
-        amount: 40,
+        id: "pi-filling-butter",
+        name: { de: "Butter zum Anbraten", pl: "Masło do smażenia" },
+        amount: 20,
         unit: { de: "g", pl: "g" },
         group: "dairy",
+        section: "filling",
+      },
+      {
+        id: "pi-filling-salt",
+        name: { de: "Salz", pl: "Sól" },
+        amount: 1,
+        unit: { de: "TL", pl: "łyżeczka" },
+        group: "spices",
+        section: "filling",
+      },
+      {
+        id: "pi-filling-pepper",
+        name: { de: "Schwarzer Pfeffer", pl: "Pieprz czarny" },
+        amount: 0.5,
+        unit: { de: "TL", pl: "łyżeczka" },
+        group: "spices",
+        section: "filling",
+      },
+      {
+        id: "pi-finish-butter",
+        name: { de: "Butter", pl: "Masło" },
+        amount: 50,
+        unit: { de: "g", pl: "g" },
+        group: "dairy",
+        section: "finish",
+      },
+      {
+        id: "pi-finish-onion",
+        name: { de: "Zwiebel zum Servieren", pl: "Cebula do podania" },
+        amount: 1,
+        unit: { de: "Stück", pl: "szt." },
+        group: "produce",
+        section: "finish",
+      },
+      {
+        id: "pi-finish-smetana",
+        name: { de: "Śmietana / Schmand (optional)", pl: "Śmietana (opcjonalnie)" },
+        amount: 150,
+        unit: { de: "g", pl: "g" },
+        group: "polish",
+        section: "finish",
+        storeHintDe: "Schmand 20–24 % oder polnische śmietana 18 %",
+        substitute: {
+          de: "Schmand oder saure Sahne 20 %",
+          pl: "Śmietana 18–22 % albo Schmand",
+        },
       },
     ],
     createdAt: "2026-01-10T10:00:00.000Z",
-    updatedAt: "2026-01-10T10:00:00.000Z",
+    updatedAt: "2026-08-28T10:00:00.000Z",
   },
   {
     id: "recipe-bigos",
