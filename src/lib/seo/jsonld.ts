@@ -1,4 +1,5 @@
 import type { BlogPost, Cluster, Locale, Recipe } from "@/types/content";
+import { stripInlineMarkdown } from "@/lib/format/inline-markdown";
 import { absoluteUrl, siteUrl } from "@/lib/utils";
 
 function absoluteMediaUrl(src: string) {
@@ -124,7 +125,7 @@ function recipeKeywordLabel(
 }
 
 function howToStepName(text: string) {
-  const cleaned = text.replace(/\s+/g, " ").trim();
+  const cleaned = stripInlineMarkdown(text).replace(/\s+/g, " ").trim();
   const clause = cleaned.split(/[,.;:!?]/)[0]?.trim() ?? cleaned;
   if (clause.length <= 72) return clause;
   return clause.split(" ").slice(0, 8).join(" ");
@@ -171,7 +172,7 @@ export function recipeJsonLd(
       "@type": "HowToStep",
       position: index + 1,
       name: howToStepName(step.text),
-      text: step.text,
+      text: stripInlineMarkdown(step.text),
       url: `${url}#${recipeStepId(index)}`,
     })),
     inLanguage: locale,

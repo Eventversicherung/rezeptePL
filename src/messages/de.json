@@ -75,6 +75,7 @@
     "modeCook": "Kochen",
     "modeShop": "Einkaufen",
     "steps": "Schritte",
+    "stepCounter": "{current} von {total}",
     "ingredients": "Zutaten",
     "tips": "Tipps",
     "save": "Merken",

@@ -17,7 +17,10 @@ import {
   type BreadcrumbItem,
 } from "@/components/layout/Breadcrumbs";
 import { SetLocaleAlternates } from "@/components/i18n/LocaleAlternates";
-import { renderInlineMarkdown } from "@/lib/format/inline-markdown";
+import {
+  renderInlineMarkdown,
+  stripInlineMarkdown,
+} from "@/lib/format/inline-markdown";
 import { groupLabelKey, scaleAmount } from "@/lib/utils";
 import { familyVariantPath } from "@/lib/data/recipe-paths";
 import { ModeSwitch } from "./ModeSwitch";
@@ -320,17 +323,26 @@ export function RecipeExperience({
             ))}
           </div>
           {/* One big active step. Kitchen readable */}
-          <section className="cook-stage px-5 py-7 sm:px-9 sm:py-10">
-            <div className="flex items-center justify-between gap-3 text-sm">
+          <section
+            className="cook-stage px-5 py-7 sm:px-9 sm:py-10"
+            aria-labelledby="cook-step-heading"
+          >
+            <h2
+              id="cook-step-heading"
+              className="flex flex-wrap items-center justify-between gap-x-3 gap-y-2 text-sm"
+            >
               <span className="font-bold uppercase tracking-[0.14em] text-accent">
                 {t("steps")}
+              </span>{" "}
+              <span className="rounded-full bg-accent px-3 py-1 text-xs font-bold tabular-nums text-white">
+                {t("stepCounter", {
+                  current: activeStep + 1,
+                  total: translation.steps.length,
+                })}
               </span>
-              <span className="rounded-full bg-accent px-3 py-1 text-xs font-bold text-white">
-                {activeStep + 1} / {translation.steps.length}
-              </span>
-            </div>
-            <p className="mt-5 font-display text-[clamp(1.55rem,5vw,2.25rem)] font-semibold leading-[1.15]">
-              {step?.text}
+            </h2>
+            <p className="mt-5 font-display text-[clamp(1.55rem,5vw,2.25rem)] font-semibold leading-[1.35] [&_a]:text-accent [&_a]:underline [&_a]:decoration-2 [&_a]:decoration-accent [&_a]:underline-offset-[0.18em]">
+              {step?.text ? renderInlineMarkdown(step.text) : null}
             </p>
             {step?.tip ? (
               <p className="mt-5 rounded-2xl border border-accent/20 bg-accent-soft px-4 py-3.5 text-base font-medium text-accent">
@@ -374,7 +386,9 @@ export function RecipeExperience({
                       <span className="flex size-7 shrink-0 items-center justify-center rounded-full bg-elevated text-xs font-semibold">
                         {index + 1}
                       </span>
-                      <span className="line-clamp-2">{s.text}</span>
+                      <span className="line-clamp-2">
+                        {stripInlineMarkdown(s.text)}
+                      </span>
                     </button>
                   </li>
                 ))}
