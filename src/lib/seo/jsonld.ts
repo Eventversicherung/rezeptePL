@@ -1,5 +1,12 @@
-import type { BlogPost, Cluster, Locale, Recipe } from "@/types/content";
+import type {
+  BlogPost,
+  Cluster,
+  Locale,
+  Recipe,
+  RecipeRatingSummary,
+} from "@/types/content";
 import { stripInlineMarkdown } from "@/lib/format/inline-markdown";
+import { recipeSeoDescription } from "@/lib/seo/recipe-metadata";
 import { absoluteUrl, siteUrl } from "@/lib/utils";
 
 function absoluteMediaUrl(src: string) {
@@ -131,11 +138,25 @@ function howToStepName(text: string) {
   return clause.split(" ").slice(0, 8).join(" ");
 }
 
+function recipeYieldLabel(servings: number, locale: Locale) {
+  if (locale === "pl") {
+    if (servings === 1) return "1 porcja";
+    const mod10 = servings % 10;
+    const mod100 = servings % 100;
+    if (mod10 >= 2 && mod10 <= 4 && (mod100 < 12 || mod100 > 14)) {
+      return `${servings} porcje`;
+    }
+    return `${servings} porcji`;
+  }
+  return servings === 1 ? "1 Portion" : `${servings} Portionen`;
+}
+
 export function recipeJsonLd(
   recipe: Recipe,
   locale: Locale,
   url: string,
   clusters: Cluster[] = [],
+  rating: RecipeRatingSummary | null = null,
 ) {
   const t = recipe.translations[locale];
   const recipeCategory = recipeCategoryLabel(recipe, locale, clusters);
@@ -152,7 +173,7 @@ export function recipeJsonLd(
     "@context": "https://schema.org",
     "@type": "Recipe",
     name: t.title,
-    description: t.excerpt,
+    description: recipeSeoDescription(recipe, locale),
     image: [absoluteMediaUrl(recipe.coverImage)],
     url,
     author: organizationJsonLd(),
@@ -161,9 +182,12 @@ export function recipeJsonLd(
     prepTime: `PT${recipe.prepMinutes}M`,
     cookTime: `PT${recipe.cookMinutes}M`,
     totalTime: `PT${recipe.prepMinutes + recipe.cookMinutes}M`,
-    recipeYield: `${recipe.servings}`,
+    recipeYield: recipeYieldLabel(recipe.servings, locale),
     recipeCategory,
     recipeCuisine,
+    ...(recipe.categoryIds.includes("category-vegetarisch")
+      ? { suitableForDiet: "https://schema.org/VegetarianDiet" }
+      : {}),
     ...(keywords ? { keywords } : {}),
     recipeIngredient: recipe.ingredients.map(
       (i) => `${i.amount} ${i.unit[locale]} ${i.name[locale]}`.trim(),
@@ -176,6 +200,17 @@ export function recipeJsonLd(
       url: `${url}#${recipeStepId(index)}`,
     })),
     inLanguage: locale,
+    ...(rating && rating.ratingCount > 0
+      ? {
+          aggregateRating: {
+            "@type": "AggregateRating",
+            ratingValue: rating.ratingValue,
+            ratingCount: rating.ratingCount,
+            bestRating: 5,
+            worstRating: 1,
+          },
+        }
+      : {}),
   };
 }
 
@@ -245,7 +280,7 @@ export function blogPostingJsonLd(
     "@context": "https://schema.org",
     "@type": "BlogPosting",
     headline: t.title,
-    description: t.excerpt,
+    description: (t.seoDescription || t.excerpt).trim(),
     image: [absoluteMediaUrl(post.coverImage)],
     url,
     datePublished: post.publishedAt,

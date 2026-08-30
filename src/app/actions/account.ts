@@ -13,10 +13,12 @@ import {
   getOrCreateShoppingList,
   updateOwnDisplayName,
 } from "@/lib/data/repository";
+import { upsertRecipeRating } from "@/lib/data/recipe-ratings";
+import { recipePath } from "@/lib/data/recipe-paths";
 import { parseWeekParam } from "@/lib/plan/week";
 import { toPlanRecipe, type PlanRecipe } from "@/lib/plan/recipe";
 import { scaleAmount } from "@/lib/utils";
-import type { Locale, MealSlot, ShoppingListItem } from "@/types/content";
+import type { Locale, MealSlot, RecipeRatingSummary, ShoppingListItem } from "@/types/content";
 
 const SLOTS: MealSlot[] = ["breakfast", "lunch", "dinner"];
 
@@ -31,6 +33,35 @@ export async function toggleSaveRecipeAction(recipeId: string) {
   revalidatePath("/[locale]/profil", "page");
   revalidatePath("/[locale]/rezepte/[slug]", "page");
   return saved;
+}
+
+async function revalidateRecipePages(recipeId: string) {
+  const recipe = await getRecipeById(recipeId);
+  if (!recipe) return;
+  const family = recipe.familyId ? await getFamilyById(recipe.familyId) : null;
+  for (const locale of ["de", "pl"] as const) {
+    revalidatePath(`/${locale}${recipePath(recipe, locale, family)}`);
+  }
+}
+
+export async function rateRecipeAction(
+  recipeId: string,
+  rating: number,
+): Promise<
+  | { ok: true; summary: RecipeRatingSummary | null }
+  | { ok: false }
+> {
+  const user = await getSessionUser();
+  if (!user) return { ok: false };
+  if (!Number.isInteger(rating) || rating < 1 || rating > 5) {
+    return { ok: false };
+  }
+  const recipe = await getRecipeById(recipeId);
+  if (!recipe || recipe.status !== "published") return { ok: false };
+  const result = await upsertRecipeRating(user.id, recipeId, rating);
+  if (!result.ok) return { ok: false };
+  await revalidateRecipePages(recipeId);
+  return { ok: true, summary: result.summary };
 }
 
 export async function addRecipeToShoppingListAction(

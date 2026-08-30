@@ -17,6 +17,7 @@ import {
   faqPageJsonLd,
   parseFaqFromMarkdown,
 } from "@/lib/seo/jsonld";
+import { pageTitle } from "@/lib/seo/title";
 import { siteUrl } from "@/lib/utils";
 import type { Locale, Recipe, RecipeFamily } from "@/types/content";
 import { routing } from "@/i18n/routing";
@@ -43,7 +44,7 @@ export async function generateMetadata({
   const t = post.translations[locale];
   const base = siteUrl();
   return {
-    title: t.seoTitle || t.title,
+    title: pageTitle(t.seoTitle, t.title),
     description: t.seoDescription || t.excerpt,
     alternates: {
       canonical: `${base}/${locale}/blog/${t.slug}`,
@@ -54,8 +55,8 @@ export async function generateMetadata({
       },
     },
     openGraph: {
-      title: t.title,
-      description: t.excerpt,
+      title: pageTitle(t.seoTitle, t.title),
+      description: t.seoDescription || t.excerpt,
       images: [post.coverImage],
     },
   };

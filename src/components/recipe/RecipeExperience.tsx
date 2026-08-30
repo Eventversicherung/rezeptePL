@@ -11,6 +11,7 @@ import type {
   Recipe,
   RecipeFamily,
   RecipeMode,
+  RecipeRatingSummary,
 } from "@/types/content";
 import {
   Breadcrumbs,
@@ -27,10 +28,11 @@ import {
   scaleAmount,
   sectionLabelKey,
 } from "@/lib/utils";
-import { familyVariantPath } from "@/lib/data/recipe-paths";
+import { familyVariantPath, recipePath } from "@/lib/data/recipe-paths";
 import { ModeSwitch } from "./ModeSwitch";
 import { RecipeArticle } from "./RecipeArticle";
 import { RecipeGearGuides } from "./RecipeGearGuides";
+import { RecipeRating } from "./RecipeRating";
 import { VariantSwitcher } from "./VariantSwitcher";
 import {
   addRecipeToShoppingListAction,
@@ -76,6 +78,8 @@ export function RecipeExperience({
   family = null,
   variants = [],
   variantsLabel = "",
+  ratingSummary = null,
+  myRating = null,
 }: {
   recipe: Recipe;
   locale: Locale;
@@ -91,6 +95,8 @@ export function RecipeExperience({
   family?: RecipeFamily | null;
   variants?: Recipe[];
   variantsLabel?: string;
+  ratingSummary?: RecipeRatingSummary | null;
+  myRating?: number | null;
 }) {
   const t = useTranslations("recipes");
   const tAff = useTranslations("affiliate");
@@ -321,6 +327,14 @@ export function RecipeExperience({
         <span className="rounded-full bg-accent-soft px-3 py-2 text-accent">
           {recipe.prepMinutes + recipe.cookMinutes} {t("minutes")}
         </span>
+        <RecipeRating
+          recipeId={recipe.id}
+          locale={locale}
+          isLoggedIn={isLoggedIn}
+          loginHref={`/${locale}${recipePath(recipe, locale, family)}`}
+          summary={ratingSummary}
+          myRating={myRating}
+        />
         <button
           type="button"
           disabled={!isLoggedIn || pending}
@@ -401,7 +415,7 @@ export function RecipeExperience({
 
           {!focusCook ? (
             <>
-              <ol className="space-y-2">
+              <ol className="list-none space-y-2">
                 {translation.steps.map((s, index) => (
                   <li key={index}>
                     <button

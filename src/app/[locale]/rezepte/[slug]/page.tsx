@@ -15,7 +15,13 @@ import {
   resolveFamilyBySlug,
 } from "@/lib/data/repository";
 import { familyVariantPath, recipePath } from "@/lib/data/recipe-paths";
+import { getRecipeRatingSummary } from "@/lib/data/recipe-ratings";
 import { breadcrumbJsonLd, recipeJsonLd } from "@/lib/seo/jsonld";
+import {
+  recipeDocumentMetadata,
+  standaloneRecipePaths,
+} from "@/lib/seo/recipe-metadata";
+import { pageTitle } from "@/lib/seo/title";
 import { siteUrl } from "@/lib/utils";
 import type { Locale, RecipeMode } from "@/types/content";
 import { routing } from "@/i18n/routing";
@@ -60,7 +66,7 @@ export async function generateMetadata({
     const t = family.translations[locale];
     const base = siteUrl();
     return {
-      title: t.seoTitle || t.title,
+      title: pageTitle(t.seoTitle, t.title),
       description: t.seoDescription || t.excerpt,
       alternates: {
         canonical: `${base}/${locale}/rezepte/${t.slug}`,
@@ -74,32 +80,11 @@ export async function generateMetadata({
   }
   const recipe = await getRecipeBySlug(locale, slug);
   if (!recipe || recipe.familyId) return {};
-  const t = recipe.translations[locale];
-  const other = locale === "de" ? "pl" : "de";
-  const base = siteUrl();
-  return {
-    title: t.seoTitle || t.title,
-    description: t.seoDescription || t.excerpt,
-    alternates: {
-      canonical: `${base}/${locale}/rezepte/${t.slug}`,
-      languages: {
-        de: `${base}/de/rezepte/${recipe.translations.de.slug}`,
-        pl: `${base}/pl/rezepte/${recipe.translations.pl.slug}`,
-        "x-default": `${base}/de/rezepte/${recipe.translations.de.slug}`,
-      },
-    },
-    openGraph: {
-      title: t.title,
-      description: t.excerpt,
-      images: [
-        recipe.coverImage.startsWith("http")
-          ? recipe.coverImage
-          : `${base}${recipe.coverImage}`,
-      ],
-      locale,
-      alternateLocale: [other],
-    },
-  };
+  return recipeDocumentMetadata(
+    recipe,
+    locale,
+    standaloneRecipePaths(recipe, locale),
+  );
 }
 
 export default async function RecipePage({
@@ -158,9 +143,12 @@ export default async function RecipePage({
     { label: recipeTitle },
   ];
 
-  const clusters = await listClusters();
+  const [clusters, rating] = await Promise.all([
+    listClusters(),
+    getRecipeRatingSummary(recipe.id),
+  ]);
   const jsonLd = [
-    recipeJsonLd(recipe, locale, url, clusters),
+    recipeJsonLd(recipe, locale, url, clusters, rating),
     breadcrumbJsonLd([
       { name: tCommon("home"), url: `${siteUrl()}/${locale}` },
       { name: tNav("recipes"), url: `${siteUrl()}/${locale}/rezepte` },

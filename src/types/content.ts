@@ -131,6 +131,11 @@ export type SavedRecipe = {
   createdAt: string;
 };
 
+export type RecipeRatingSummary = {
+  ratingValue: number;
+  ratingCount: number;
+};
+
 export type CommunitySubmission = {
   id: string;
   userId: string;

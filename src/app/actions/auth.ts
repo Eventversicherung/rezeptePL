@@ -3,6 +3,7 @@
 import { redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import { isSupabaseConfigured } from "@/lib/supabase/env";
+import { safeNextPath } from "@/lib/auth/safe-next";
 
 export type AuthFormState = {
   error?: string;
@@ -20,6 +21,7 @@ export async function loginAction(
   const email = String(formData.get("email") ?? "").trim();
   const password = String(formData.get("password") ?? "");
   const locale = localeFrom(formData);
+  const next = safeNextPath(formData.get("next"), locale);
   if (!email || !password) {
     return { error: "missing" };
   }
@@ -32,7 +34,7 @@ export async function loginAction(
   if (error) {
     return { error: "invalid" };
   }
-  redirect(`/${locale}/profil`);
+  redirect(next);
 }
 
 export async function registerAction(
@@ -42,6 +44,7 @@ export async function registerAction(
   const email = String(formData.get("email") ?? "").trim();
   const password = String(formData.get("password") ?? "");
   const locale = localeFrom(formData);
+  const next = safeNextPath(formData.get("next"), locale);
   if (!email || !password) {
     return { error: "missing" };
   }
@@ -66,7 +69,7 @@ export async function registerAction(
   if (!data.session) {
     return { message: "confirm" };
   }
-  redirect(`/${locale}/profil`);
+  redirect(next);
 }
 
 export async function logoutAction(formData: FormData) {

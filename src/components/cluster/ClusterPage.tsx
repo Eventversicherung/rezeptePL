@@ -11,6 +11,7 @@ import {
 } from "@/lib/data/repository";
 import { localeLanguages } from "@/lib/seo/alternates";
 import { isClusterIndexable } from "@/lib/seo/cluster-indexable";
+import { pageTitle } from "@/lib/seo/title";
 import { siteUrl } from "@/lib/utils";
 import type { ClusterKind, Locale } from "@/types/content";
 
@@ -29,7 +30,7 @@ export async function clusterMetadata(
   const items = await catalogForCluster(cluster.id, locale);
   const indexable = isClusterIndexable(cluster, locale, items.length);
   return {
-    title: cluster.seoTitle[locale],
+    title: pageTitle(cluster.seoTitle[locale], cluster.title[locale]),
     description: cluster.seoDescription[locale],
     alternates: {
       canonical: `${base}/${locale}/${path}/${cluster.slug[locale]}`,

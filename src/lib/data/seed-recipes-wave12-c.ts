@@ -223,7 +223,7 @@ export const seedRecipesWave12C: Recipe[] = [
         ],
         seoTitle: "Buraczki Rezept | Rote-Bete-Beilage polnisch | Alemniam",
         seoDescription:
-          "Buraczki: warme Rote Bete mit Apfel und Meerrettich. Bilingual, Sonntagsbeilage, klar getrennt von Botwinka und Barszcz.",
+          "Warme polnische Rote-Bete-Beilage mit Apfel und Meerrettich, klassisch zum Schabowy. In 70 Minuten für 4 Personen – auch mit vorgekochter Bete.",
       },
       pl: {
         title: "Buraczki",
@@ -253,7 +253,7 @@ export const seedRecipesWave12C: Recipe[] = [
         ],
         seoTitle: "Buraczki przepis | Ciepły dodatek z buraków | Alemniam",
         seoDescription:
-          "Buraczki: ciepłe buraki z jabłkiem i chrzanem. Dwujęzycznie, dodatek niedzielny, jasno osobno od botwinki i barszczu.",
+          "Ciepły polski dodatek z buraków z jabłkiem i chrzanem, klasycznie do schabowego. 70 minut, 4 porcje – także z gotowanymi burakami.",
       },
     },
     ingredients: [

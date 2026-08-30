@@ -12,7 +12,12 @@ import {
   resolveRecipeInFamily,
 } from "@/lib/data/repository";
 import { familyVariantPath } from "@/lib/data/recipe-paths";
+import { getRecipeRatingSummary } from "@/lib/data/recipe-ratings";
 import { breadcrumbJsonLd, recipeJsonLd } from "@/lib/seo/jsonld";
+import {
+  familyRecipePaths,
+  recipeDocumentMetadata,
+} from "@/lib/seo/recipe-metadata";
 import { siteUrl } from "@/lib/utils";
 import type { Locale, RecipeMode } from "@/types/content";
 import { routing } from "@/i18n/routing";
@@ -45,35 +50,11 @@ export async function generateMetadata({
   const hit = await resolveRecipeInFamily(locale, slug, variant);
   if (!hit || hit.needsRedirect) return {};
   const { family, recipe } = hit;
-  const t = recipe.translations[locale];
-  const other = locale === "de" ? "pl" : "de";
-  const base = siteUrl();
-  const pathDe = familyVariantPath(family, recipe, "de");
-  const pathPl = familyVariantPath(family, recipe, "pl");
-  const pathHere = locale === "de" ? pathDe : pathPl;
-  return {
-    title: t.seoTitle || t.title,
-    description: t.seoDescription || t.excerpt,
-    alternates: {
-      canonical: `${base}/${locale}${pathHere}`,
-      languages: {
-        de: `${base}/de${pathDe}`,
-        pl: `${base}/pl${pathPl}`,
-        "x-default": `${base}/de${pathDe}`,
-      },
-    },
-    openGraph: {
-      title: t.title,
-      description: t.excerpt,
-      images: [
-        recipe.coverImage.startsWith("http")
-          ? recipe.coverImage
-          : `${base}${recipe.coverImage}`,
-      ],
-      locale,
-      alternateLocale: [other],
-    },
-  };
+  return recipeDocumentMetadata(
+    recipe,
+    locale,
+    familyRecipePaths(family, recipe, locale),
+  );
 }
 
 export default async function RecipeVariantPage({
@@ -118,9 +99,12 @@ export default async function RecipeVariantPage({
     { label: recipeTitle },
   ];
 
-  const clusters = await listClusters();
+  const [clusters, rating] = await Promise.all([
+    listClusters(),
+    getRecipeRatingSummary(recipe.id),
+  ]);
   const jsonLd = [
-    recipeJsonLd(recipe, locale, url, clusters),
+    recipeJsonLd(recipe, locale, url, clusters, rating),
     breadcrumbJsonLd([
       { name: tCommon("home"), url: `${siteUrl()}/${locale}` },
       { name: tNav("recipes"), url: `${siteUrl()}/${locale}/rezepte` },

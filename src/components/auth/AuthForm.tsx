@@ -12,9 +12,11 @@ import {
 export function AuthForm({
   mode,
   locale,
+  next = "",
 }: {
   mode: "login" | "register";
   locale: string;
+  next?: string;
 }) {
   const t = useTranslations("auth");
   const action = mode === "login" ? loginAction : registerAction;
@@ -54,6 +56,7 @@ export function AuthForm({
       ) : null}
       <form action={formAction} className="space-y-4">
         <input type="hidden" name="locale" value={locale} />
+        {next ? <input type="hidden" name="next" value={next} /> : null}
         <label className="block space-y-1 text-sm">
           <span>{t("email")}</span>
           <input
@@ -82,7 +85,13 @@ export function AuthForm({
       <p className="text-sm text-muted">
         {mode === "login" ? t("noAccount") : t("hasAccount")}{" "}
         <Link
-          href={mode === "login" ? "/registrieren" : "/anmelden"}
+          href={
+            next
+              ? `${mode === "login" ? "/registrieren" : "/anmelden"}?next=${encodeURIComponent(next)}`
+              : mode === "login"
+                ? "/registrieren"
+                : "/anmelden"
+          }
           className="text-foreground underline"
         >
           {mode === "login" ? t("register") : t("login")}
