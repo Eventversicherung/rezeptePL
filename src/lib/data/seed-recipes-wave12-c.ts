@@ -185,9 +185,9 @@ export const seedRecipesWave12C: Recipe[] = [
     cookMinutes: 50,
     servings: 4,
     regionIds: [],
-    occasionIds: ["occasion-niedziela", "occasion-wielkanoc"],
+    occasionIds: ["occasion-niedziela"],
     techniqueIds: [],
-    categoryIds: ["category-vegetarisch", "category-schnell"],
+    categoryIds: ["category-vegetarisch"],
     relatedPostIds: [
       "post-sonntagsessen",
       "post-panieren",
@@ -199,61 +199,55 @@ export const seedRecipesWave12C: Recipe[] = [
         title: "Buraczki",
         slug: "buraczki",
         excerpt:
-          "Warme geraspelte Rote-Bete-Beilage mit Apfel und Meerrettich, klassisch zum Sonntagsschnitzel, klar zu unterscheiden von Botwinka-Suppe und Barszcz.",
+          "Warme geraspelte Rote-Bete-Beilage mit leichter Mehlschwitze und Apfel, klassisch zum Sonntagsschnitzel, klar zu unterscheiden von Botwinka, Barszcz und kalter Ćwikła.",
         steps: [
           {
             text: "Rote Bete waschen und ungeschält in Salzwasser weich kochen, oder bereits vorgekochte Bete verwenden. Abkühlen lassen, schälen und grob raspeln oder in feine Streifen schneiden.",
-            tip: "Das ist eine Beilage und keine Suppe, die Suppen [Botwinka](/de/rezepte/botwinka) und [Barszcz](/de/rezepte/barszcz-czerwony) bleiben eigene Rezepte mit ganz anderer Konsistenz.",
+            tip: "Das ist eine Beilage und keine Suppe. Die Suppen [Botwinka](/de/rezepte/botwinka) und [Barszcz](/de/rezepte/barszcz-czerwony) bleiben eigene Rezepte mit ganz anderer Konsistenz.",
           },
           {
-            text: "Zwiebel fein würfeln und in Butter oder Öl glasig dünsten. Die Bete dazugeben, mit wenig Wasser oder Brühe und einer Prise Zucker 8 bis 10 Minuten warm ziehen lassen.",
-            tip: "Wer die Bete lieber zu einem kalten, süßsauren Relish verarbeitet, findet das bei [Ćwikła](/de/rezepte/cwikla), ein ganz anderer Charakter als diese warme Beilage.",
+            text: "Zwiebel fein würfeln und in Butter oder Öl glasig dünsten. Einen Esslöffel Mehl einstreuen und 1 bis 2 Minuten hell anschwitzen, das ist die Zasmażka. Die Bete dazugeben, mit einem Schuss Wasser und einer Prise Zucker 8 bis 10 Minuten warm ziehen lassen.",
+            tip: "Die Schwitze bindet die Beilage, ohne sie zur Suppe zu machen. Wer die Bete lieber kalt und scharf mit Meerrettich anrührt, findet das bei [Ćwikła](/de/rezepte/cwikla).",
           },
           {
-            text: "Einen sauren Apfel raspeln und unterheben. Mit Salz, Pfeffer und geriebenem Meerrettich abschmecken, bis es säuerlich-scharf und nicht wässrig schmeckt.",
-            tip: "Meerrettich und gute Bete findest du oft im [Polenladen](/de/blog/polenladen-einkaufen). Wie Śmietana getrennt dazu passt, zeigt der Guide zu [Śmietana und Schmand](/de/blog/smietana-schmand).",
+            text: "Einen sauren Apfel raspeln und unterheben. Mit Salz, Pfeffer und etwas Essig oder Zitrone abschmecken. Optional Meerrettich vom Herd nehmen und erst dann unterrühren, sonst verkocht die Schärfe.",
+            tip: "Meerrettich in der warmen Beilage ist Hausvariante, nicht Pflicht. Wie Śmietana getrennt dazu passt, zeigt der Guide zu [Śmietana und Schmand](/de/blog/smietana-schmand).",
           },
           {
-            text: "Optional einen Esslöffel Essig oder Zitronensaft für mehr Säure zugeben. Kurz erhitzen, ohne es zu Brei zu kochen, und heiß oder lauwarm servieren.",
-            tip: "Klassisch dazu passt [Kotlet schabowy](/de/rezepte/kotlet-schabowy), Panier-Wissen liefert der [Panieren-Guide](/de/blog/panieren-schabowy), und der Menürahmen steht im [Sonntagsessen](/de/blog/sonntagsessen-polnisch).",
-          },
-          {
-            text: "Nicht mit dem kalten Mayo-Festsalat [Sałatka jarzynowa](/de/rezepte/salatka-jarzynowa) verwechseln, denn dort ist alles gemischt und kalt, während hier allein die warme Bete den Teller trägt.",
+            text: "Heiß oder lauwarm neben Schnitzel und Kartoffeln servieren, ohne die Beilage zu Brei zu kochen.",
+            tip: "Klassisch dazu passt [Kotlet schabowy](/de/rezepte/kotlet-schabowy). Nicht mit dem kalten Mayo-Festsalat [Sałatka jarzynowa](/de/rezepte/salatka-jarzynowa) verwechseln, und nicht mit Oster-Ćwikła.",
           },
         ],
         seoTitle: "Buraczki Rezept | Rote-Bete-Beilage polnisch | Alemniam",
         seoDescription:
-          "Warme polnische Rote-Bete-Beilage mit Apfel und Meerrettich, klassisch zum Schabowy. In 70 Minuten für 4 Personen – auch mit vorgekochter Bete.",
+          "Warme polnische Rote-Bete-Beilage (buraczki zasmażane) mit leichter Mehlschwitze und Apfel, klassisch zum Schabowy. Auch mit vorgekochter Bete.",
       },
       pl: {
         title: "Buraczki",
         slug: "buraczki",
         excerpt:
-          "Ciepły dodatek z tartych buraków z jabłkiem i chrzanem, klasycznie do schabowego w niedzielę, wyraźnie inny niż zupa botwinka i barszcz.",
+          "Ciepły dodatek z tartych buraków na zasmażce z jabłkiem, klasycznie do schabowego w niedzielę, wyraźnie inny niż botwinka, barszcz i zimna ćwikła.",
         steps: [
           {
             text: "Buraki umyj i ugotuj w skórce w osolonej wodzie, albo użyj gotowanych. Ostudź, obierz i zetrzyj grubo lub pokrój w cienkie paski.",
-            tip: "To dodatek, a nie zupa, zupy [botwinka](/pl/rezepte/botwinka) i [barszcz](/pl/rezepte/barszcz-czerwony) zostają osobnymi przepisami o zupełnie innej konsystencji.",
+            tip: "To dodatek, a nie zupa. Zupy [botwinka](/pl/rezepte/botwinka) i [barszcz](/pl/rezepte/barszcz-czerwony) zostają osobnymi przepisami o zupełnie innej konsystencji.",
           },
           {
-            text: "Cebulę drobno pokrój i zeszklij na maśle lub oleju. Dodaj buraki, odrobinę wody lub bulionu i szczyptę cukru, duś 8 do 10 minut na ciepło.",
-            tip: "Kto woli zimny, słodko-kwaśny relish z buraków, znajdzie go w [ćwikle](/pl/rezepte/cwikla), to zupełnie inny charakter niż ten ciepły dodatek.",
+            text: "Cebulę drobno pokrój i zeszklij na maśle lub oleju. Wsyp łyżkę mąki i podsmaż 1 do 2 minut na jasno, to zasmażka. Dodaj buraki, odrobinę wody i szczyptę cukru, duś 8 do 10 minut na ciepło.",
+            tip: "Zasmażka spaja dodatek, nie robiąc z niego zupy. Kto woli zimny, ostry burak z chrzanem, znajdzie go w [ćwikle](/pl/rezepte/cwikla).",
           },
           {
-            text: "Zetrzyj kwaśne jabłko i wmieszaj. Dopraw solą, pieprzem i startym chrzanem, aż smak będzie kwaśno-ostry, a nie wodnisty.",
-            tip: "Chrzan i dobre buraki znajdziesz często w [sklepie polskim](/pl/blog/sklep-polski-zakupy). Jak dobrać śmietanę osobno, pokazuje przewodnik [śmietana czy schmand](/pl/blog/smietana-czy-schmand).",
+            text: "Zetrzyj kwaśne jabłko i wmieszaj. Dopraw solą, pieprzem i odrobiną octu lub cytryny. Opcjonalny chrzan dodaj po zdjęciu z ognia, inaczej ostrość się wygotuje.",
+            tip: "Chrzan w ciepłym dodatku to wariant domu, nie obowiązek. Jak dobrać śmietanę osobno, pokazuje przewodnik [śmietana czy schmand](/pl/blog/smietana-czy-schmand).",
           },
           {
-            text: "Opcjonalnie dodaj łyżkę octu lub soku z cytryny dla większej kwasowości. Podgrzej krótko, nie gotuj na papkę, i podawaj gorące lub letnie.",
-            tip: "Klasycznie pasuje do [kotleta schabowego](/pl/rezepte/kotlet-schabowy), o panierce opowiada [poradnik panierowania](/pl/blog/panierowanie-kotlet), a miejsce w menu daje [obiad niedzielny](/pl/blog/obiad-niedzielny).",
-          },
-          {
-            text: "Nie myl z zimną majonezową [sałatką jarzynową](/pl/rezepte/salatka-jarzynowa), tam wszystko jest wymieszane i zimne, tu za talerz odpowiada wyłącznie ciepły burak.",
+            text: "Podawaj gorące lub letnie obok kotleta i ziemniaków, bez rozgotowania na papkę.",
+            tip: "Klasycznie pasuje do [kotleta schabowego](/pl/rezepte/kotlet-schabowy). Nie myl z zimną majonezową [sałatką jarzynową](/pl/rezepte/salatka-jarzynowa) ani z wielkanocną ćwikłą.",
           },
         ],
         seoTitle: "Buraczki przepis | Ciepły dodatek z buraków | Alemniam",
         seoDescription:
-          "Ciepły polski dodatek z buraków z jabłkiem i chrzanem, klasycznie do schabowego. 70 minut, 4 porcje – także z gotowanymi burakami.",
+          "Ciepły polski dodatek z buraków (buraczki zasmażane) na lekkiej zasmażce z jabłkiem, klasycznie do schabowego. Także z gotowanymi burakami.",
       },
     },
     ingredients: [
@@ -284,12 +278,12 @@ export const seedRecipesWave12C: Recipe[] = [
         },
       },
       {
-        id: "bu-4",
-        name: { de: "Geriebener Meerrettich", pl: "Tarty chrzan" },
-        amount: 2,
-        unit: { de: "EL", pl: "łyżki" },
+        id: "bu-9",
+        name: { de: "Weizenmehl", pl: "Mąka pszenna" },
+        amount: 1,
+        unit: { de: "EL", pl: "łyżka" },
         group: "pantry",
-        storeHintDe: "Polenladen, Glasware vor dem Kauf auf die Schärfe prüfen",
+        storeHintDe: "Für die helle Zasmażka, nicht extra rösten",
       },
       {
         id: "bu-5",
@@ -316,6 +310,15 @@ export const seedRecipesWave12C: Recipe[] = [
         group: "spices",
       },
       {
+        id: "bu-4",
+        name: { de: "Geriebener Meerrettich (optional)", pl: "Tarty chrzan (opcjonalnie)" },
+        amount: 1,
+        unit: { de: "EL", pl: "łyżka" },
+        group: "pantry",
+        section: "finish",
+        storeHintDe: "Erst vom Herd, sonst verkocht die Schärfe. Näher an Ćwikła",
+      },
+      {
         id: "bu-8",
         name: {
           de: "Śmietana zum Servieren (optional)",
@@ -324,14 +327,15 @@ export const seedRecipesWave12C: Recipe[] = [
         amount: 100,
         unit: { de: "ml", pl: "ml" },
         group: "dairy",
+        section: "finish",
         storeHintDe: "Schmand oder Crème fraîche, mehr dazu im Śmietana-Guide",
         substitute: {
-          de: "Lässt sich weglassen, der Meerrettich trägt die Beilage auch allein",
-          pl: "Można pominąć, sam chrzan również dobrze niesie ten dodatek",
+          de: "Lässt sich weglassen, die Beilage trägt auch ohne",
+          pl: "Można pominąć, dodatek niesie się także bez niej",
         },
       },
     ],
     createdAt: "2026-07-21T10:00:00.000Z",
-    updatedAt: "2026-07-21T10:00:00.000Z",
+    updatedAt: "2026-09-09T10:00:00.000Z",
   },
 ];
