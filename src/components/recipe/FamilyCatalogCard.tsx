@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
+import { AiExampleBadge } from "@/components/media/AiExampleBadge";
 import { Link } from "@/i18n/navigation";
 import type { Locale, Recipe, RecipeFamily } from "@/types/content";
 import { familyVariantPath } from "@/lib/data/recipe-paths";
@@ -83,6 +84,7 @@ export function FamilyCatalogCard({
             className="mode-fade object-cover transition-transform duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.06]"
             sizes="(max-width: 768px) 100vw, 40vw"
           />
+          <AiExampleBadge src={activeImage} />
           <span className="recipe-card__badge">{mins} min</span>
         </div>
         <div className="px-3 pt-3">
@@ -126,6 +128,7 @@ export function FamilyCatalogCard({
                     className="object-cover"
                     sizes="40px"
                   />
+                  <AiExampleBadge src={thumb} compact />
                 </Link>
               </li>
             );

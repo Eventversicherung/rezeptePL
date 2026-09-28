@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import Image from "next/image";
+import { AiExampleBadge } from "@/components/media/AiExampleBadge";
 import { Link } from "@/i18n/navigation";
 
 /** Inline: **bold**, [label](url) — same token style as RecipeArticle. */
@@ -147,6 +148,7 @@ function renderImage(alt: string, src: string, key: number, title?: string) {
           className="object-cover"
           sizes="(max-width: 768px) 100vw, 720px"
         />
+        <AiExampleBadge src={src} />
       </div>
       {caption ? (
         <figcaption className="px-3 py-2.5 text-sm text-muted sm:px-4">

@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useTranslations } from "next-intl";
+import { AiExampleBadge } from "@/components/media/AiExampleBadge";
 import type { SearchHit } from "@/lib/search/types";
 import { cn } from "@/lib/utils";
 
@@ -40,6 +41,7 @@ export function SearchHitRow({
           sizes="56px"
           className="object-cover"
         />
+        <AiExampleBadge src={hit.image} compact />
       </span>
       <span className="recipe-search__copy">
         <span className="recipe-search__title">{hit.title}</span>

@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { AiExampleBadge } from "@/components/media/AiExampleBadge";
 import { Link } from "@/i18n/navigation";
 import type { BlogPost, Locale } from "@/types/content";
 
@@ -42,6 +43,7 @@ export function RecipeGearGuides({
                   className="object-cover transition-transform duration-700 group-hover:scale-[1.04]"
                   sizes="(max-width: 640px) 100vw, 320px"
                 />
+                <AiExampleBadge src={post.coverImage} />
               </div>
               <div className="pt-3">
                 <h3 className="font-display text-lg font-semibold leading-snug">

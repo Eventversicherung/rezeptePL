@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { AiExampleBadge } from "@/components/media/AiExampleBadge";
 import { useEffect, useMemo, useState, useTransition } from "react";
 import { useTranslations } from "next-intl";
 import { useRouter, useSearchParams } from "next/navigation";
@@ -276,6 +277,7 @@ export function RecipeExperience({
                 className="object-cover"
                 sizes="(max-width: 768px) 75vw, 640px"
               />
+              <AiExampleBadge src={recipe.coverImage} />
               <div className="absolute inset-0 bg-gradient-to-t from-[var(--navy)]/70 via-transparent to-transparent" />
             </div>
           </div>

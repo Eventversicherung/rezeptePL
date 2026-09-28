@@ -425,6 +425,10 @@
     "matchOccasion": "{value}",
     "matchTechnique": "{value}"
   },
+  "media": {
+    "aiExample": "Przykład AI",
+    "aiExampleShort": "AI"
+  },
   "common": {
     "loading": "Ładowanie…",
     "error": "Coś poszło nie tak.",

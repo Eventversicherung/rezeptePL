@@ -425,6 +425,10 @@
     "matchOccasion": "{value}",
     "matchTechnique": "{value}"
   },
+  "media": {
+    "aiExample": "KI-Beispiel",
+    "aiExampleShort": "KI"
+  },
   "common": {
     "loading": "Laden…",
     "error": "Etwas ist schiefgelaufen.",

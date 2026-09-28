@@ -4,6 +4,7 @@ import { useDraggable, useDroppable } from "@dnd-kit/core";
 import { PlusIcon, XIcon } from "lucide-react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
+import { AiExampleBadge } from "@/components/media/AiExampleBadge";
 import type { MealSlot } from "@/types/content";
 import type { PlanRecipe } from "@/lib/plan/recipe";
 import { cn } from "@/lib/utils";
@@ -68,6 +69,7 @@ export function MealSlotTile({
               sizes={compact ? "120px" : "420px"}
               className="object-cover"
             />
+            <AiExampleBadge src={recipe.image} compact />
           </div>
           <div className="meal-slot__copy">
             <p className="meal-slot__title">{recipe.title}</p>

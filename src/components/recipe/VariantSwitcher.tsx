@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { AiExampleBadge } from "@/components/media/AiExampleBadge";
 import { useEffect } from "react";
 import { Link, usePathname, useRouter } from "@/i18n/navigation";
 import type { Locale, Recipe, RecipeFamily } from "@/types/content";
@@ -62,6 +63,7 @@ export function VariantSwitcher({
                     className="object-cover"
                     sizes="72px"
                   />
+                  <AiExampleBadge src={thumb} compact />
                 </span>
                 <span className="variant-rail__name">{name}</span>
               </Link>

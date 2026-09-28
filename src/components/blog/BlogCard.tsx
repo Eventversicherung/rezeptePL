@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { AiExampleBadge } from "@/components/media/AiExampleBadge";
 import { Link } from "@/i18n/navigation";
 import type { BlogPost, Locale } from "@/types/content";
 
@@ -31,6 +32,7 @@ export function BlogCard({
           className="object-cover transition-transform duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.06]"
           sizes="(max-width: 768px) 100vw, 40vw"
         />
+        <AiExampleBadge src={post.coverImage} />
         <span className="recipe-card__badge">
           {TYPE_LABEL[post.postType][locale]}
         </span>

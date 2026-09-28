@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { AiExampleBadge } from "@/components/media/AiExampleBadge";
 import { Link } from "@/i18n/navigation";
 import { RecipeSearch } from "@/components/search/RecipeSearch";
 import { RecipeCatalogCard } from "@/components/recipe/RecipeCatalogCard";
@@ -71,7 +72,7 @@ export default async function HomePage({
       />
       {/* 1 — Cookbook hero (landing) */}
       <section className="hero-full relative -mt-6 md:-mt-8">
-        <div className="hero-full__media" aria-hidden>
+        <div className="hero-full__media">
           <Image
             src="/recipes/pierogi-ruskie.jpg"
             alt=""
@@ -79,6 +80,10 @@ export default async function HomePage({
             priority
             sizes="100vw"
             className="object-cover"
+          />
+          <AiExampleBadge
+            src="/recipes/pierogi-ruskie.jpg"
+            className="ai-example-badge--hero"
           />
         </div>
         <div className="hero-full__wash" aria-hidden />

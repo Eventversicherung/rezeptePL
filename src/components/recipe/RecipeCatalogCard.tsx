@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { AiExampleBadge } from "@/components/media/AiExampleBadge";
 import { Link } from "@/i18n/navigation";
 import type { Locale, RecipeCatalogItem } from "@/types/content";
 import { recipePath } from "@/lib/data/recipe-paths";
@@ -42,6 +43,7 @@ export function RecipeCatalogCard({
           className="object-cover transition-transform duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.06]"
           sizes="(max-width: 768px) 100vw, 40vw"
         />
+        <AiExampleBadge src={recipe.coverImage} />
         <span className="recipe-card__badge">{mins} min</span>
       </div>
       <div className="px-3 pb-3 pt-3">

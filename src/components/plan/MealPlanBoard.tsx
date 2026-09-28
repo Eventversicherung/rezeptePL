@@ -13,6 +13,7 @@ import {
 } from "@dnd-kit/core";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
+import { AiExampleBadge } from "@/components/media/AiExampleBadge";
 import {
   assignMealSlot,
   copyLastWeekAction,
@@ -356,6 +357,7 @@ export function MealPlanBoard({
               sizes="80px"
               className="object-cover"
             />
+            <AiExampleBadge src={activeRecipe.image} compact />
             <span>{activeRecipe.title}</span>
           </div>
         ) : null}

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { AiExampleBadge } from "@/components/media/AiExampleBadge";
 import { Link } from "@/i18n/navigation";
 import { SetLocaleAlternates } from "@/components/i18n/LocaleAlternates";
 import { AffiliateCard } from "@/components/affiliate/AffiliateCard";
@@ -68,6 +69,7 @@ export function BlogArticle({
             className="object-cover"
             sizes="(max-width: 768px) 100vw, 768px"
           />
+          <AiExampleBadge src={post.coverImage} />
         </div>
         <h1 className="mt-6 font-display text-[clamp(1.85rem,6.5vw,3.2rem)] font-semibold leading-[1.08] sm:mt-8">
           {t.title}
@@ -148,6 +150,7 @@ export function BlogArticle({
                         className="object-cover transition-transform duration-700 group-hover:scale-[1.04]"
                         sizes="(max-width: 640px) 100vw, 320px"
                       />
+                      <AiExampleBadge src={p.coverImage} />
                     </div>
                     <h3 className="mt-3 font-display text-lg font-semibold leading-snug">
                       {pt.title}

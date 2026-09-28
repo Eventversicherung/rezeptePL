@@ -4,6 +4,7 @@ import { useDraggable, useDroppable } from "@dnd-kit/core";
 import { PlusIcon, XIcon } from "lucide-react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
+import { AiExampleBadge } from "@/components/media/AiExampleBadge";
 import type { PlanRecipe } from "@/lib/plan/recipe";
 import { cn } from "@/lib/utils";
 
@@ -35,6 +36,7 @@ function TrayCard({
     >
       <span className="meal-tray__photo">
         <Image src={recipe.image} alt="" fill sizes="72px" className="object-cover" />
+        <AiExampleBadge src={recipe.image} compact />
       </span>
       <span className="meal-tray__title">{recipe.title}</span>
       <button
